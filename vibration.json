@@ -32,6 +32,28 @@
   },
   "correct_answer": "A",
   "image": null
+},
+     {
+  "question": "A spring-mass-damper system with a mass of 1kg is found to have a damping ratio of 0.2 and a natural frequency of 5 rad/s. The damping of the system is given by",
+  "options": {
+    "A": "2 Ns/m",
+    "B": "2 N/s",
+    "C": "0.2 kg/s",
+    "D": "0.2 N/s"
+  },
+  "correct_answer": "A",
+  "image": null
+},
+     {
+  "question": "A spring-mass-damper system with a mass of 1kg is found to have a damping ratio of 0.2 and a natural frequency of 5 rad/s. The damping of the system is given by",
+  "options": {
+    "A": "2 Ns/m",
+    "B": "2 N/s",
+    "C": "0.2 kg/s",
+    "D": "0.2 N/s"
+  },
+  "correct_answer": "A",
+  "image": null
 }
 
 
