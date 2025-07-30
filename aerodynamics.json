@@ -30,7 +30,7 @@
     "question": "Calculate the lift coefficient if lift = 200 N and dynamic pressure × area = 160 N.",
     "min": 1.2,
     "max": 1.5,
-    "image": null,
+    "image": "https://i.postimg.cc/d3gDT9v1/Screenshot-2025-06-04-235643.png",
     "solution": "The lift coefficient is Cl = Lift / (q * A). So Cl = 200 / 160 = 1.25, which lies between 1.2 and 1.5."
   },
       {
@@ -77,7 +77,7 @@
       "D": "0.2 N/s"
     },
     "correct_answer": "A",
-    "image": null,
+    "image": "https://i.postimg.cc/d3gDT9v1/Screenshot-2025-06-04-235643.png",
     "solution": "The damping coefficient is calculated as c = 2 * ζ * sqrt(k*m). Given ζ = 0.2, ωn = 5 rad/s, m = 1 kg, we find c = 2 Ns/m."
   },
   {
@@ -98,10 +98,26 @@
     "question": "Calculate the lift coefficient if lift = 200 N and dynamic pressure × area = 160 N.",
     "min": 1.2,
     "max": 1.5,
-    "image": null,
+    "image": "https://i.postimg.cc/d3gDT9v1/Screenshot-2025-06-04-235643.png",
     "solution": "The lift coefficient is Cl = Lift / (q * A). So Cl = 200 / 160 = 1.25, which lies between 1.2 and 1.5."
-  }
+  },
+  {
+  "type": "numerical",
+  "question": "What is the value of π up to 3 decimal places?",
+  "answer": 3.142,
+  "image": null,
+  "solution": "π is approximately 3.142 up to three decimal places."
+}
+,
+  {
+  "type": "numerical",
+  "question": "What is the value of π up to 3 decimal places?",
+  "answer": 3.142,
+  "image": "https://i.postimg.cc/d3gDT9v1/Screenshot-2025-06-04-235643.png",
+  "solution": "π is approximately 3.142 up to three decimal places."
+}
+
 ]
 
 
-]
+
