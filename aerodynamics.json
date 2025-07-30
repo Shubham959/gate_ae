@@ -98,7 +98,26 @@
   },
   "correct_answer": "A",
   "image": null
-}
+},
+    {
+    "type": "mcq",
+    "question": "What is the damping coefficient?",
+    "options": {
+      "A": "2 Ns/m",
+      "B": "2 N/s",
+      "C": "0.2 kg/s",
+      "D": "0.2 N/s"
+    },
+    "correct_answer": "A",
+    "image": null
+  },
+  {
+    "type": "numerical",
+    "question": "Find the frequency (Hz)",
+    "min": 1.2,
+    "max": 1.5,
+    "image": "https://i.postimg.cc/d3gDT9v1/Screenshot-2025-06-04-235643.png"
+  }
 
 
 ]
