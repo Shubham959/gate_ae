@@ -61,7 +61,7 @@
       "D": "no coupling"
     },
     "correct_answer": "A",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/vibration5_6.png",
     "solution": ""
   },
   {
@@ -71,10 +71,11 @@
       "A": "static coupling",
       "B": "dynamic coupling",
       "C": "static and dynamic coupling",
-      "D": "no coupling"
+      "D": {
+      "formula": "sqrt((4 ± sqrt(11)) / 3) * (k / m)"}
     },
     "correct_answer": "A",
-    "image": "https://github.com/Shubham959/gate_ae/blob/main/Images/vibration5_6.png",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/vibration5_6.png",
     "solution": ""
   }
 
@@ -82,5 +83,6 @@
 
       
 ]
+
 
 
