@@ -10,95 +10,76 @@
     },
     "correct_answer": "A",
     "image": null,
-    "solution": "The damping coefficient is calculated as c = 2 * ζ * sqrt(k*m). Given ζ = 0.2, ωn = 5 rad/s, m = 1 kg, we find c = 2 Ns/m."
+    "solution": ""
+  },
+ {
+    "type": "mcq",
+    "question": "The number of natural frequencies of an elastic beam with cantilever boundary conditions is",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "1000",
+      "D": "Infinite"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+{
+    "type": "mcq",
+    "question": "A 1kg mass attached to a spring elongates it by 16 mm. The mass is then pulled from its equilibrium position by 10 mm and released from rest. Assuming the acceleration due to gravity of 9.81m/s2 the response of the mass in mm is given by",
+    "options": {
+      "A": "x = sin 24.76t",
+      "B": "x = 10 cos 24.76t",
+      "C": "x = sin 16t",
+      "D": "x = 10 cos 16t"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+{
+    "type": "mcq",
+    "question": "A spring-mass-damper system is excited by a force F0 sin wt. The amplitude at resonance is measured to be 1 cm. At half the resonant frequency, the amplitude is 0.5 cm. The damping ratio of the system is",
+    "options": {
+      "A": "0.1026",
+      "B": "0.7211",
+      "C": "0.3242",
+      "D": "0.1936"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
   },
   {
     "type": "mcq",
-    "question": "A spring-mass-damper system with a mass of 1kg is found to have a damping ratio of 0.2 and a natural frequency of 5 rad/s. The damping of the system is given by",
+    "question": "Common Data for Questions 5 and 6: Consider the spring mass system shown in the figure below. This system has two degrees of freedom representing the motions of the two masses. The system shows the following type of coordinate coupling",
     "options": {
-      "A": "2 Ns/m",
-      "B": "2 N/s",
-      "C": "0.2 kg/s",
-      "D": "0.2 N/s"
-    },
-    "correct_answer": "A",
-    "image": "https://i.postimg.cc/d3gDT9v1/Screenshot-2025-06-04-235643.png",
-    "solution": "Same calculation as previous. Here, ζ and ωn remain unchanged, so c = 2 Ns/m."
-  },
-  {
-    "type": "numerical",
-    "question": "Calculate the lift coefficient if lift = 200 N and dynamic pressure × area = 160 N.",
-    "min": 1.2,
-    "max": 1.5,
-    "image": null,
-    "solution": "The lift coefficient is Cl = Lift / (q * A). So Cl = 200 / 160 = 1.25, which lies between 1.2 and 1.5."
-  },
-      {
-    "type": "mcq",
-    "question": "A spring-mass-damper system with a mass of 1kg is found to have a damping ratio of 0.2 and a natural frequency of 5 rad/s. The damping of the system is given by",
-    "options": {
-      "A": "2 Ns/m",
-      "B": "2 N/s",
-      "C": "0.2 kg/s",
-      "D": "0.2 N/s"
+      "A": "static coupling",
+      "B": "dynamic coupling",
+      "C": "static and dynamic coupling",
+      "D": "no coupling"
     },
     "correct_answer": "A",
     "image": null,
-    "solution": "The damping coefficient is calculated as c = 2 * ζ * sqrt(k*m). Given ζ = 0.2, ωn = 5 rad/s, m = 1 kg, we find c = 2 Ns/m."
+    "solution": ""
   },
   {
     "type": "mcq",
-    "question": "A spring-mass-damper system with a mass of 1kg is found to have a damping ratio of 0.2 and a natural frequency of 5 rad/s. The damping of the system is given by",
+    "question": "The two natural frequencies of the system are given as",
     "options": {
-      "A": "2 Ns/m",
-      "B": "2 N/s",
-      "C": "0.2 kg/s",
-      "D": "0.2 N/s"
-    },
-    "correct_answer": "A",
-    "image": "https://i.postimg.cc/d3gDT9v1/Screenshot-2025-06-04-235643.png",
-    "solution": "Same calculation as previous. Here, ζ and ωn remain unchanged, so c = 2 Ns/m."
-  },
-  {
-    "type": "numerical",
-    "question": "Calculate the lift coefficient if lift = 200 N and dynamic pressure × area = 160 N.",
-    "min": 1.2,
-    "max": 1.5,
-    "image": null,
-    "solution": "The lift coefficient is Cl = Lift / (q * A). So Cl = 200 / 160 = 1.25, which lies between 1.2 and 1.5."
-  },
-      {
-    "type": "mcq",
-    "question": "A spring-mass-damper system with a mass of 1kg is found to have a damping ratio of 0.2 and a natural frequency of 5 rad/s. The damping of the system is given by",
-    "options": {
-      "A": "2 Ns/m",
-      "B": "2 N/s",
-      "C": "0.2 kg/s",
-      "D": "0.2 N/s"
+      "A": "static coupling",
+      "B": "dynamic coupling",
+      "C": "static and dynamic coupling",
+      "D": "no coupling"
     },
     "correct_answer": "A",
     "image": null,
-    "solution": "The damping coefficient is calculated as c = 2 * ζ * sqrt(k*m). Given ζ = 0.2, ωn = 5 rad/s, m = 1 kg, we find c = 2 Ns/m."
-  },
-  {
-    "type": "mcq",
-    "question": "A spring-mass-damper system with a mass of 1kg is found to have a damping ratio of 0.2 and a natural frequency of 5 rad/s. The damping of the system is given by",
-    "options": {
-      "A": "2 Ns/m",
-      "B": "2 N/s",
-      "C": "0.2 kg/s",
-      "D": "0.2 N/s"
-    },
-    "correct_answer": "A",
-    "image": "https://i.postimg.cc/d3gDT9v1/Screenshot-2025-06-04-235643.png",
-    "solution": "Same calculation as previous. Here, ζ and ωn remain unchanged, so c = 2 Ns/m."
-  },
-  {
-    "type": "numerical",
-    "question": "Calculate the lift coefficient if lift = 200 N and dynamic pressure × area = 160 N.",
-    "min": 1.2,
-    "max": 1.5,
-    "image": null,
-    "solution": "The lift coefficient is Cl = Lift / (q * A). So Cl = 200 / 160 = 1.25, which lies between 1.2 and 1.5."
+    "solution": ""
   }
+
+
+
+      
 ]
+
