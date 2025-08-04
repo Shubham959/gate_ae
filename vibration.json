@@ -539,7 +539,10 @@
     "max": 2,
     "image": null,
     "solution": ""
-  },
+  }
+},
+
+
   {
     "type": "numerical",
     "question": "A single degree-of-freedom spring-mass-damper system has viscous damping ratio of 0.1. The mass is given an initial displacement of 10 cm without imparting any velocity. After exactly two complete cycles of oscillation (i.e., after time 2Tₐ, where Tₐ is the period of the damped vibration), the amplitude of the displacement is cm.",
