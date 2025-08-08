@@ -496,7 +496,6 @@
 "D": "An initial deflection of x₁(0) = 1 cm and x₂(0) = -6.32 cm would make the system oscillate with only the first natural frequency."
 },
     "correct_answers": ["B","C"],
-    "correct_answer": ["B","C"],
 "image": null,
 "solution": ""
 },
@@ -526,7 +525,6 @@
 "D": "The rate of decay of free vibration transient response depends on the mass, spring stiffness and damping constant."
 },
     "correct_answers": ["A","B","D"],
-    "correct_answer": ["A","B","D"],
 "image": null,
 "solution": ""
 },
@@ -582,3 +580,4 @@
 }
 
 ]
+
