@@ -495,7 +495,7 @@
       "C": "An initial deflection of x₁(0) = 2 cm and x₂(0) = -2 cm would make the system oscillate with a linear combination of first and second natural frequency.",
       "D": "An initial deflection of x₁(0) = 1 cm and x₂(0) = -6.32 cm would make the system oscillate with only the first natural frequency."
     },
-    "correct_answers": ["B","C"],
+    "correct_answer": ["B","C"],
     "image": null,
     "solution": ""
   },
@@ -524,7 +524,7 @@
       "C": "The steady-state periodic response is dependent on the initial conditions at the time of application of external forcing.",
       "D": "The rate of decay of free vibration transient response depends on the mass, spring stiffness and damping constant."
     },
-    "correct_answers": ["A","B","D"],
+    "correct_answer": ["A","B","D"],
     "image": null,
     "solution": ""
   },
@@ -580,3 +580,4 @@
   }
 
 ]
+
