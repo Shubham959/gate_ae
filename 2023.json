@@ -1,0 +1,728 @@
+[
+  {
+    "type": "mcq",
+    "question": "1. “You are delaying the completion of the task. Send ______ contributions at the earliest.”",
+    "options": {
+      "A": "you are",
+      "B": "your",
+      "C": "you’re",
+      "D": "yore"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "2. References : ______ : : Guidelines : Implement (By word meaning)",
+    "options": {
+      "A": "Sight",
+      "B": "Site",
+      "C": "Cite",
+      "D": "Plagiarise"
+    },
+    "correct_answer": "C",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "3. In the given figure, PQRS is a parallelogram with PS = 7 cm, PT = 4 cm and PV = 5 cm. What is the length of RS in cm? (The diagram is representative.)",
+    "options": {
+      "A": "20/7",
+      "B": "28/5",
+      "C": "9/2",
+      "D": "35/4"
+    },
+    "correct_answer": "B",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/3-23.png",
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "4. In 2022, June Huh was awarded the Fields medal, which is the highest prize in Mathematics. When he was younger, he was also a poet. He did not win any medals in the International Mathematics Olympiads. He dropped out of college. Based only on the above information, which one of the following statements can be logically inferred with certainty?",
+    "options": {
+      "A": "Every Fields medalist has won a medal in an International Mathematics Olympiad.",
+      "B": "Everyone who has dropped out of college has won the Fields medal.",
+      "C": "All Fields medalists are part-time poets.",
+      "D": "Some Fields medalists have dropped out of college."
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "5. A line of symmetry divides a figure into two parts such that each part is a mirror image of the other about that line. The figure consists of 16 unit squares. In addition to the three black squares, what is the minimum number of squares that must be coloured black so PQ and MN both form lines of symmetry? (The figure is representative.)",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "C",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/5-23.png",
+    "solution": ""
+  },
+  {
+    "type": "checkbox",
+    "question": "6. If 'Some human beings are not cruel creatures' is FALSE in this imagined world, which of these can be logically inferred with certainty? (i) All human beings are cruel creatures. (ii) Some human beings are cruel creatures. (iii) Some creatures that are cruel are human beings. (iv) No human beings are cruel creatures.",
+    "options": {
+      "A": "only (i)",
+      "B": "only (iii) and (iv)",
+      "C": "only (i) and (ii)",
+      "D": "(i), (ii) and (iii)"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "7. To construct a wall, sand and cement are mixed in the ratio 3:1. The cost of sand and cement are in the ratio 1:2. If the total cost of sand and cement to construct the wall is 1000 rupees, the cost of cement used is:",
+    "options": {
+      "A": "400",
+      "B": "600",
+      "C": "800",
+      "D": "200"
+    },
+    "correct_answer": "A",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "8. The World Bank has declared that it does not plan to offer new financing to Sri Lanka, which is battling its worst economic crisis in decades, until the country has an adequate macroeconomic policy framework in place. Based only on the above passage, which one of the following statements can be inferred with certainty?",
+    "options": {
+      "A": "According to the World Bank, the root cause of Sri Lanka’s economic crisis is that it does not have enough foreign exchange.",
+      "B": "The World Bank has stated that it will advise Sri Lanka about how to tackle its crisis.",
+      "C": "According to the World Bank, Sri Lanka does not yet have an adequate macroeconomic policy framework.",
+      "D": "The World Bank will provide Sri Lanka with additional funds for essentials."
+    },
+    "correct_answer": "C",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "9. The coefficient of x⁴ in the polynomial (x−1)³(x−2)³ is equal to ____.",
+    "options": {
+      "A": "33",
+      "B": "−3",
+      "C": "30",
+      "D": "21"
+    },
+    "correct_answer": "A",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "10. Which one of the following shapes can tile (completely cover by repeating) a flat plane, extending to infinity in all directions, without leaving any empty spaces? Copies are identical and do not overlap.",
+    "options": {
+      "A": "circle",
+      "B": "regular octagon",
+      "C": "regular pentagon",
+      "D": "rhombus"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "11. The direction in which a scalar field φ(x, y, z) has the largest rate of change at any point with position vector r = xî + yĵ + zk̂ is the same as which vector?",
+    "options": {
+      "A": "∇φ",
+      "B": "r × ∇φ",
+      "C": "r φ",
+      "D": "(∇φ • dr) r"
+    },
+    "correct_answer": "A",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "12. If a monotonic and continuous function y = f(x) has only one root in the interval x₁ < x < x₂, then:",
+    "options": {
+      "A": "f(x₁)f(x₂) > 0",
+      "B": "f(x₁)f(x₂) = 0",
+      "C": "f(x₁)f(x₂) < 0",
+      "D": "f(x₁) − f(x₂) = 0"
+    },
+    "correct_answer": "C",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "13. Consider the wave equation ∂u/∂t + ∂u/∂x = 0 for −∞ < x < ∞, t ≥ 0. For initial condition u(x, 0) = e^(−x²), the solution at t = 1 is:",
+    "options": {
+      "A": "u(x,1) = e^(−(x−1)²)",
+      "B": "u(x,1) = e^(−1)",
+      "C": "u(x,1) = e^(−x²)",
+      "D": "u(x,1) = e^(−(x+1)²)"
+    },
+    "correct_answer": "A",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "14. A 2D potential flow solution for flow past an airfoil has a streamline pattern as shown. Which condition is additionally required to satisfy the Kutta condition?",
+    "options": {
+      "A": "Addition of a source of strength Q > 0",
+      "B": "Addition of a source of strength Q < 0",
+      "C": "Addition of a circulation of strength Γ > 0 (counter-clockwise)",
+      "D": "Addition of a circulation of strength Γ < 0 (clockwise)"
+    },
+    "correct_answer": "D",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/14-23.png",
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "15. For the Blasius solution for the incompressible laminar flat plate boundary layer, select the correct relation for the development of the momentum thickness θ with distance x from the leading edge:",
+    "options": {
+      "A": "θ ∝ x^{2/3}",
+      "B": "θ ∝ x^{1/2}",
+      "C": "θ ∝ x^{1/7}",
+      "D": "θ ∝ x^{−2/3}"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "16. In a two-dimensional potential flow, the doublet is a limit of the superposition of:",
+    "options": {
+      "A": "a uniform stream and a source",
+      "B": "a source and a sink of equal strength",
+      "C": "a uniform stream and a sink",
+      "D": "a source and a vortex"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "17. An ideal glider has drag characteristics CD = CD0 + CDi, where CDi = KC²L, CL is the lift coefficient, and K is a constant. For maximum range of the glider, the ratio CD0/CDi is:",
+    "options": {
+      "A": "1",
+      "B": "1/3",
+      "C": "3",
+      "D": "3/2"
+    },
+    "correct_answer": "A",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "18. The figures shown in the options are schematics of airfoil shapes (not to scale). For a civilian transport aircraft designed for cruise Mach 0.8, which among them is best suited aerodynamically as a wing section?",
+    "options": {
+      "A": "image1",
+      "B": "image2",
+      "C": "image3",
+      "D": "image4"
+    },
+    "correct_answer": "D",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/18-23.png",
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "19. For a longitudinally statically stable aircraft, which one of the following represents the relationship between pitching moment coefficient about the CG (Cmcg) and absolute angle of attack (α_a)? (Nose-up moment is positive.)",
+    "options": {
+      "A": "image1",
+      "B": "image2",
+      "C": "image3",
+      "D": "image4"
+    },
+    "correct_answer": "D",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/19-23.png",
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "20. In a single-spool aviation turbojet engine, which is the correct relationship between the total work output WT of a 2-stage axial turbine and the total work required WC by a 6-stage axial compressor, neglecting losses?",
+    "options": {
+      "A": "2 WT = WC",
+      "B": "6 WT = WC",
+      "C": "WT = WC",
+      "D": "3 WT = WC"
+    },
+    "correct_answer": "C",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "21. For a stage of a 50% reaction ideal axial flow compressor (symmetrical blading), select the correct statement from the options given.",
+    "options": {
+      "A": "The stagnation enthalpy rise across the rotor is 50% of the rise across the stage.",
+      "B": "The static enthalpy rise across the rotor is 50% of the rise across the stage.",
+      "C": "Axial velocity component of the flow at the rotor exit is 50% of that at the rotor entry.",
+      "D": "The static pressure rise across the rotor is 50% of the rise across the stator."
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "22. An aircraft is cruising with a forward speed Va and the jet exhaust speed relative to the engine at the exit is Vj. If Vj = 2Va, what is the propulsive efficiency?",
+    "options": {
+      "A": "0.50",
+      "B": "1.00",
+      "C": "0.33",
+      "D": "0.67"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "23. Consider the four basic symmetrical flight loading conditions corresponding to the corners of a typical V-n diagram. For one of these flight loading conditions, it is observed that (i) the compressive bending stresses have a maximum value in the bottom aft region (see figure) of the wing cross-section; and (ii) the tensile bending stresses are maximum in the upper forward region (see figure) of the wing cross-section. For the preceding observations, select the corresponding flight loading condition from the options given.",
+    "options": {
+      "A": "Positive high angle of attack",
+      "B": "Positive low angle of attack",
+      "C": "Negative high angle of attack",
+      "D": "Negative low angle of attack"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "24. Which one of the following figures represents the qualitative variation of absolute deceleration |dV/dt| with altitude h (measured from the mean sea level) for a space vehicle undergoing a ballistic entry into Earth's atmosphere?",
+    "options": {
+      "A": "image1",
+      "B": "image2",
+      "C": "image3",
+      "D": "image4"
+    },
+    "correct_answer": "D",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/24-23.png",
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "25. Which of the following statement(s) is/are true about harmonically excited forced vibration of a spring-mass-damper system?",
+    "options": {
+      "A": "The total response is a combination of free vibration transient and steady-state response.",
+      "B": "Free vibration transient dies out with time for all three damping conditions.",
+      "C": "Steady-state periodic response depends on initial conditions at time of forcing.",
+      "D": "The rate of decay of free vibration transient response depends on mass, spring stiffness and damping constant."
+    },
+    "correct_answers": ["A", "B", "D"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "26. Which of the following statement(s) is/are true about the state of stress in a plane?",
+    "options": {
+      "A": "Maximum or major principal stress is algebraically the largest direct stress at a point.",
+      "B": "The magnitude of minor principal stress cannot be greater than the major principal stress.",
+      "C": "Planes of maximum shear stress are inclined at 90 degrees to the principal axes.",
+      "D": "Normal stresses along the planes of maximum shear stress are equal."
+    },
+    "correct_answers": ["A", "D"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "27. Which of the following statement(s) is/are true about the ribs of an airplane wing with semi-monocoque construction?",
+    "options": {
+      "A": "For a rectangular planform wing, rib dimensions DO NOT depend on spanwise position.",
+      "B": "Ribs increase the column buckling stress of longitudinal stiffeners.",
+      "C": "Ribs increase plate buckling stress of skin panels.",
+      "D": "Ribs help maintain aerodynamic shape of the wing."
+    },
+    "correct_answers": ["B", "C", "D"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "28. From the options given, select all that are true for turbofan engines with afterburners.",
+    "options": {
+      "A": "Turning afterburner ON increases specific fuel consumption.",
+      "B": "Turbofan engines with afterburners have variable area nozzles.",
+      "C": "Turning afterburner ON decreases specific fuel consumption.",
+      "D": "Turning afterburner ON increases stagnation pressure across the engine."
+    },
+    "correct_answers": ["A", "B"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "29. Which of the following statement(s) is/are true with respect to eigenvalues and eigenvectors of a matrix?",
+    "options": {
+      "A": "The sum of the eigenvalues of a matrix equals the sum of the elements of the principal diagonal.",
+      "B": "If λ is an eigenvalue of A, then 1/λ is always an eigenvalue of its transpose (A^T).",
+      "C": "If λ is an eigenvalue of an orthogonal matrix, then 1/λ is also an eigenvalue of A.",
+      "D": "If a matrix has n distinct eigenvalues, it has n independent eigenvectors."
+    },
+    "correct_answers": ["A","C", "D"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "30. For studying wing vibrations, a wing of mass M and finite dimensions is idealized as a mass supported by a linear spring (k) and torsional spring (kθ). The number of degree(s) of freedom for this vibration model is _____. (Integer)",
+    "min": 2,
+    "max": 2,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/30-23.png",
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "31. The system of equations has a non-trivial solution for α = ______. (Integer)",
+    "min": 3,
+    "max": 3,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/31-23.png",
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "32. An airplane weighing 40 kN is landing, retarded by an arresting cable with 100 kN tension. Assuming thrust balances drag, the magnitude of horizontal load factor is ________. (Round to 1 decimal place)",
+    "min": 2.4,
+    "max": 2.6,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/32-23.png",
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "33. The ratio of the speed of sound in H₂ (2 kg/kmol) to that in N₂ (28 kg/kmol) at 300K and 2bar is ____. (Round to 2 decimal places)",
+    "min": 3.4,
+    "max": 4.0,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "34. Airplane A at 2 km altitude: density 1.01 kg/m³, pressure 79.50 kPa; Airplane B at 4 km altitude: density 0.82 kg/m³, pressure 61.70 kPa. ΔPressure from pitot-static tube is 3 kPa for both; assuming incompressible flow, the ratio of cruise speeds of A to B is ____. (Round to 2 decimal places)",
+    "min": 0.89,
+    "max": 0.91,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "35. Supersonic vehicle powered by ramjet at 1000 m/s, burning hydrogen; heat of combustion is 120 MJ/kg; overall efficiency 40%. Take g=10 m/s². The specific impulse is _____ seconds. (Round to nearest integer)",
+    "min": 4800,
+    "max": 4900,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "36. Given y(x) = (x + 3)(x - 2), for -4 < x < 4. What is the value of x at which y has a minimum?",
+    "options": {
+      "A": "-3/2",
+      "B": "-1/2",
+      "C": "1/2",
+      "D": "3/2"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "37. For a supersonic aircraft with rotating air intake ramp, select all correct statements according to oblique shock theory as flight Mach M increases.",
+    "options": {
+      "A": "It is always possible to find a ramp setting so the shock meets the cowl lip (shock angle remains the same).",
+      "B": "If ramp angle is fixed, the shock angle increases with Mach.",
+      "C": "If M exceeds a critical value, it may not be possible to set the ramp so the shock still meets the cowl lip.",
+      "D": "Shock angle is less than arcsin(1/M)."
+    },
+    "correct_answers": "A",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/37-23.png",
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "38. Two missiles A and B each liftoff mass 5600 kg, burn durations 30s and 70s, propellant mass flows 120kg/s and 70kg/s respectively. Neglecting gravity/aero, relationship between final velocities VA and VB?",
+    "options": {
+      "A": "VA = 4.1 VB",
+      "B": "VA = VB",
+      "C": "VA = 0.5 VB",
+      "D": "VA = 0.7 VB"
+    },
+    "correct_answer": "C",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "39. A perfect gas stored in reservoir with P0, T0 exhausts through a convergent duct; jet emerges at choked conditions with velocity u, Mach M, pressure p, temperature T, density ρ. If reservoir pressure is increased:",
+    "options": {
+      "A": "u, M, p, T, and ρ increase",
+      "B": "u, p, T, and ρ increase, but M remains same",
+      "C": "u, M, and T remain same, but p and ρ increase",
+      "D": "u, M, T, and ρ remain same, but p increases"
+    },
+    "correct_answer": "C",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "40. General aviation airplane with weight 10kN, wing area 15m², drag coefficient CD = CD0 + K_CL², CD0 = 0.025, K = 0.05; density = 0.60 kg/m³, thrust = 1kN; maximum cruise speed (rounded integer)?",
+    "options": {
+      "A": "87 m/s",
+      "B": "30 m/s",
+      "C": "36 m/s",
+      "D": "101 m/s"
+    },
+    "correct_answer": "A",
+    "image": null,
+    "solution": ""
+  },
+  
+  {
+    "type": "mcq",
+    "question": "Q.41 A scramjet engine features an intake, isolator, combustor, and a nozzle, as shown in the schematic. Station 3 indicates the combustor entry point. Assume stagnation enthalpy to be constant between Stations 1 and 3, and air to be a calorically perfect gas with specific heat ratio γ. Select the correct expression for Mach number M₃ at the inlet to the combustor from the options given.",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "B",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/41-23.png",
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.42 Consider the equation (dy/dx) + ay = sinωx, where a and ω are constants. Given y = 1 at x = 0, select all correct statement(s) from the following as x → ∞.",
+    "options": {
+      "A": "y → 0 if a ≠ 0",
+      "B": "y → 1 if a = 0",
+      "C": "y → A exp(ax) if a < 0; A is a constant",
+      "D": "y → B sin(ωx + C) if a > 0; B and C are constants"
+    },
+    "correct_answers": ["C","D"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.43 Given the vectors \nA = 9î - 5ĵ + 2k̂ \nB = 11î + 4ĵ + k̂\nC = -7î - 14ĵ - 3k̂\nwhich of the following statement(s) is/are TRUE?",
+    "options": {
+      "A": "Vectors A, B and C are coplanar",
+      "B": "The scalar triple product of the vectors A, B and C is zero",
+      "C": "A and B are perpendicular",
+      "D": "C is parallel to A × B"
+    },
+    "correct_answers": ["A","B"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.44 Consider a one-dimensional inviscid supersonic flow in a diverging duct with heat addition (Q_in) as shown. Which of the following statement(s) is/are always TRUE?",
+    "options": {
+      "A": "Mach number, M₂ > M₁",
+      "B": "Stagnation pressure, Pᵒ₁ > Pᵒ₂",
+      "C": "Static pressure, P₂ > P₁",
+      "D": "Stagnation temperature, Tᵒ₁ < Tᵒ₂"
+    },
+    "correct_answers": ["B", "D"],
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/44-23.png",
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.45 Consider the International Standard Atmosphere (ISA) with h being the geopotential altitude (in km) and dT/dh being the temperature gradient (in K/m). Which of the following combination(s) of (h, dT/dh) is/are as per ISA?",
+    "options": {
+      "A": "(7, -6.5×10⁻³)",
+      "B": "(9, 4×10⁻³)",
+      "C": "(15, 0)",
+      "D": "(35, 3×10⁻³)"
+    },
+    "correct_answers": ["A","C","D"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.46 For an airfoil, which of the relations given about the critical Mach number M_cr and drag divergence Mach number M_dd is/are correct?",
+    "options": {
+      "A": "M_cr < M_dd",
+      "B": "M_cr < 1.0",
+      "C": "M_dd < 1.0",
+      "D": "M_cr > 1.0"
+    },
+    "correct_answers": ["A","B","C"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.47 Which of the following statement(s) about the elastic flexural buckling load of columns is/are correct?",
+    "options": {
+      "A": "The buckling load increases with increase in flexural rigidity of the column.",
+      "B": "The buckling load increases with increase in the length of the column.",
+      "C": "The boundary conditions of the column affect the buckling load.",
+      "D": "The buckling load is NOT directly dependent on the density of the material used for the column."
+    },
+    "correct_answers": ["A","C","D"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.48 The thickness of a uniform hollow circular shaft is equal to the difference between the outer radius and the inner radius. The ratio of the inner diameter to outer diameter of the shaft is 0.5. For the shaft reacting to an applied torque, the ratio of the maximum shear stress τ to the maximum shear stress τ_thin-wall obtained using the thin-wall approximation is               . (round off to one decimal place)",
+    "min": 1.1,
+    "max": 1.3,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.49 A rigid bar AB is subjected to a uniformly distributed load of 100 N/m as shown in the figure. The bar is supported by rod CD, with A, C, and D as pin joints. The rod CD has axial stiffness of 40 N/mm. The vertical deflection at point D  is __________ mm. (round off to nearest integer)",
+    "min": 10,
+    "max": 10,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/49-23.png",
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.50 A cantilever beam of length 2a is loaded at the tip with force F as shown in the figure. The beam is supported in the middle by a roller with a pin. The magnitude of moment reaction at the built-in end of the beam is αFa, where α is ______ . (round off to one decimal place)",
+    "min": 0.5,
+    "max": 0.5,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/50-23.png",
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.51 A single degree-of-freedom spring-mass-damper system has viscous damping ratio of 0.1. The mass is given an initial displacement of 10 cm without imparting any velocity. After exactly two complete cycles of oscillation (i.e., after time 2T_d, where T_d is the period of the damped vibration), the amplitude of the displacement is ______ cm. (round off to two decimal place)",
+    "min": 2.80,
+    "max": 2.86,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.52 The shear flow distribution in a single cell, thin-walled beam under the action of an arbitrary shear load S_y applied at the shear centre S is shown in the figure. The cell has horizontal symmetry with booms marked by 1 to 4 that carry direct stresses. The shear modulus G is the same for all the walls, and the area of the cell is 135000 mm². With respect to the point O marked in the figure, the distance to the shear centre S is ______ mm. (round off to the nearest integer)",
+    "min": 196,
+    "max": 198,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/52-23.png",
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.53 Consider a thin-walled cylindrical pressure vessel made of an alloy with yield strength of 300 MPa. The vessel has end caps to contain the pressure. The ratio  of radius of the vessel to its wall thickness is 100. As per the von Mises yield criterion, the internal pressure that would cause the failure of the vessel is _____ MPa. (round off to two decimal places)",
+    "min": 3.40,
+    "max": 3.50,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.54 Consider the differential equation x²(d²y/dx²) + 4x (dy/dx) + 2y = 0 for x ≥ 1 with initial conditions y = 0, dy/dx = 1 at x = 1. The value of y at x = 2 is ____ . (round off to two decimal places)",
+    "min": 0.24,
+    "max": 0.26,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.55 The operating characteristics of a pump were measured to be C_P = aΦ², where power coefficient C_P = P/(ρω³D⁵), Φ is the flow coefficient, a is a constant, D is a length scale, ω is the rotation rate, ρ is fluid density, and P is the power required.  The flow coefficient is a dimensionless volume flow rate scaled with ω and D. Assuming that the flow rate remains the same, if the rotation rate is increased to 1.25ω, the power changes to αP. The value of α is ________ . (round off to two decimal places)",
+    "min": 1.24,
+    "max": 1.26,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.56 A thin cambered airfoil has lift coefficient cl₀ = 0 at an angle of attack α = −1.1°.  Assuming that stall occurs at much larger α, the cl at α = 4° is _______.  (round off to two decimal places)",
+    "min": 0.55,
+    "max": 0.57,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.57 In a potential flow, a uniform stream of strength U  directed along the x-axis and four line sources (2-dimensional) of strengths 2/π, −3/π, 4/π, −5/π are placed along the x-axis at x = 0, 1, 2 and 3, respectively. The strength of an additional line source to be placed at x = 4 such that a closed streamline encircles all five sources is _____. (round off to two decimal places).",
+    "min": -0.69,
+    "max": -0.67,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.58 Enstrophy is defined as the square of the magnitude of vorticity.  For the three-dimensional velocity field V = (4x − 1.5y + 2.5z)î + (1.5x − 1.5y)ĵ + (0.7xy)k̂, the enstrophy at location (1, 1, 1) is ________ .  (round off to two decimal places)",
+    "min": 12.61,
+    "max": 12.81,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.59 An airplane with wing planform area of 20 m² and weight 8 kN is flying straight and level with a speed of 100 m/s. The total drag coefficient is 0.026 and the air density is 0.7 kg/m³. The total thrust required to introduce a steady climb angle of 0.1 radians is ____ N. (round off to the nearest integer)",
+    "min": 2615,
+    "max": 2625,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.60 The maximum permissible load factor and the maximum lift force coefficient for an airplane is 7 and 2, respectively. For a wing loading of 6500 N/m² and air density 1.23 kg/m³, the speed yielding the highest possible turn rate in the vertical plane is ___________ m/s. (round off to the nearest integer)",
+    "min": 190,
+    "max": 195,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.61 A gas turbine combustor is burning methane and air at an equivalence ratio φ = 0.5, where φ = [F/A]/[F/A]_stoich and [F/A]_stoich is the ratio of mass flow rate of fuel to the mass flow rate of air at stoichiometry. If the air flow rate is m_air = 20 kg/s then the mass flow rate of methane is ______ kg/s.  (round off to two decimal places)",
+    "min": 0.57,
+    "max": 0.60,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.62 The universal gravitational constant is 6.67 × 10⁻¹¹ Nm²/kg². For a planet of mass 6.4169 × 10²³ kg and radius 3390 km, the escape velocity is _____ km/s.  (round off to one decimal place).",
+    "min": 4.9,
+    "max": 5.1,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.63 A satellite is in a circular orbit around Earth with a time period of 90 minutes. The radius of Earth is 6370 km, mass of Earth is 5.98 × 10²⁴ kg and the universal gravitational constant is 6.67 × 10⁻¹¹ Nm²/kg². The altitude of the satellite above mean sea level is ____ km. (round off to the nearest integer)",
+    "min": 260,
+    "max": 300,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.64 A centrifugal air compressor has inlet root diameter of 0.25 m and the outlet diameter of the impeller is 0.6 m. The pressure ratio is 5.0. The air at the inlet of the rotor is at 1 atm and 25°C. The polytropic efficiency is 0.8 and slip factor is 0.92. Use Cp = 1.004 kJ/kg-K and γ = 1.4. The impeller speed in revolutions per minute (RPM) is _________. (round off to the nearest integer)",
+    "min": 15948,
+    "max": 16048,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.65 Consider a cryogenic liquid rocket engine using an expander cycle with liquid hydrogen and liquid oxygen as the two propellants. The mass flow rate of hydrogen m_H2 into the combustion chamber is 32 kg/s, and the mass flow rate of oxygen m_O2 into the chamber is such that m_O2/m_H2 = 8 . The combustion of hydrogen and oxygen is at stoichiometry. Assuming that the rate of the forward reaction is much larger than that of the reverse reaction, the rate of formation of H2O is ________ kmol/s. (round off to the nearest integer)",
+    "min": 16,
+    "max": 16,
+    "image": null,
+    "solution": ""
+  }
+]
