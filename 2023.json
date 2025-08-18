@@ -446,7 +446,7 @@
       "C": "If M exceeds a critical value, it may not be possible to set the ramp so the shock still meets the cowl lip.",
       "D": "Shock angle is less than arcsin(1/M)."
     },
-    "correct_answers": "A",
+    "correct_answer": "A",
     "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/37-23.png",
     "solution": ""
   },
@@ -726,3 +726,4 @@
     "solution": ""
   }
 ]
+
