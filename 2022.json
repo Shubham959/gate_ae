@@ -144,12 +144,12 @@
   },
   {
     "type": "mcq",
-    "question": "Q.12 Let 𝚤̂, 𝚥̂, and 𝑘̂ be the unit vectors in the x, y and z directions, respectively. If the vector 𝚤̂ + 𝚥̂ is rotated about positive 𝑘̂ by 135°, one gets",
+    "question": "Q.12 Let 𝑖, j, and k be the unit vectors in the x, y and z directions, respectively. If the vector 𝑖 + j is rotated about positive k by 135°, one gets",
     "options": {
-      "A": "−𝚤̂",
-      "B": "−𝚥̂",
-      "C": "−1/√2 𝚥̂",
-      "D": "−√2𝚤̂"
+      "A": "−𝑖",
+      "B": "−j",
+      "C": "−1/√2 j",
+      "D": "−√2𝑖"
     },
     "correct_answer": "D",
     "image": null,
@@ -711,3 +711,4 @@
     "solution": ""
   }
 ]
+
