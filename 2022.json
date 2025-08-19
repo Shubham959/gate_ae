@@ -302,7 +302,7 @@
   },
   {
     "type": "mcq",
-    "question": "Q.24 If 𝑎̂, 𝑏̂, 𝑐̂ are three mutually perpendicular unit vectors, then 𝑎̂·(𝑏̂×𝑐̂) can take the value(s)",
+    "question": "Q.24 If a, b, c are three mutually perpendicular unit vectors, then a·(b×c) can take the value(s)",
     "options": {
       "A": "0",
       "B": "1",
@@ -711,4 +711,5 @@
     "solution": ""
   }
 ]
+
 
