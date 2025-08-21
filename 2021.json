@@ -1,0 +1,709 @@
+[
+  {
+    "type": "mcq",
+    "question": "Q.1 (i) Arun and Aparna are here. \n(ii) Arun and Aparna is here. \n(iii) Arun's families is here. \n(iv) Arun's family is here. \nWhich of the above sentences are grammatically CORRECT?",
+    "options": {
+      "A": "(i) and (ii)",
+      "B": "(i) and (iv)",
+      "C": "(ii) and (iv)",
+      "D": "(iii) and (iv)"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.2 ",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.3 Two identical cube shaped dice each with faces numbered 1 to 6 are rolled simultaneously. The probability that an even number is rolled out on each dice is:",
+    "options": {
+      "A": "1/36",
+      "B": "1/12",
+      "C": "1/8",
+      "D": "1/4"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.4  ⊕ and ⊙ are two operators on numbers p and q such thatp⊙q=p−q, p⊕q=p×q. Then, (9⊙(6⊕7))⊙(7⊕(6⊙5)) =",
+    "options": {
+      "A": "40",
+      "B": "-26",
+      "C": "-33",
+      "D": "-40"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.5 Four persons P, Q, R and S are to be seated in a row. R should not be seated at the second position from the left end of the row. The number of distinct seating arrangements possible is:",
+    "options": {
+      "A": "6",
+      "B": "9",
+      "C": "18",
+      "D": "24"
+    },
+    "correct_answer": "C",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.6 On a planar field, you travelled 3 units East from a point O. Next you travelled 4 units South to arrive at point P. Then you travelled from P in the North-East direction such that you arrive at a point that is 6 units East of point O. Next, you travelled in the North-West direction, so that you arrive at point Q that is 8 units North of point P. The distance of point Q to point O, in the same units, should be",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "C",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.7 The author said, “Musicians rehearse before their concerts. Actors rehearse their roles before the opening of a new play. On the other hand, I find it strange that many public speakers think they can just walk on to the stage and start speaking. In my opinion, it is no less important for public speakers to rehearse their talks.\" Based on the above passage, which one of the following is TRUE?",
+    "options": {
+      "A": "The author is of the opinion that rehearsing is important for musicians, actors and public speakers.",
+      "B": "The author is of the opinion that rehearsing is less important for public speakers than for musicians and actors.",
+      "C": "The author is of the opinion that rehearsing is more important only for musicians than public speakers.",
+      "D": "The author is of the opinion that rehearsal is more important for actors than musicians."
+    },
+    "correct_answer": "A",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.8 1. Some football players play cricket. 2. All cricket players play hockey. Among the options given below, the statement that logically follows from the two statements 1 and 2 above, is:",
+    "options": {
+      "A": "No football player plays hockey.",
+      "B": "Some football players play hockey.",
+      "C": "All football players play hockey.",
+      "D": "All hockey players play football."
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.9 PQRS is a square. The shaded portion is formed by the intersection of sectors of circles with radius equal to the side of the square and centers at S and Q. The probability that any point picked randomly within the square falls in the shaded area is",
+    "options": {
+      "A": "4-π/2",
+      "B": "1/2",
+      "C": "π/2 - 1",
+      "D": "π/4"
+    },
+    "correct_answer": "C",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.10 In an equilateral triangle PQR, side PQ is divided into four equal parts, side QR is divided into six equal parts and side PR is divided into eight equal parts. The length of each subdivided part in cm is an integer. The minimum area of the triangle PQR possible, in cm², is",
+    "options": {
+      "A": "18",
+      "B": "24",
+      "C": "48√3",
+      "D": "144√3"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+
+  {
+    "type": "mcq",
+    "question": "Q.1 Consider the differential equation d²y/dx² + 8 dy/dx + 16y = 0 and the boundary conditions y(0) = 1 and dy/dx(0) = 0. The solution to this equation is:",
+    "options": {
+      "A": "y = (1+2x)e^(-4x)",
+      "B": "y = (1-4x)e^(-4x)",
+      "C": "y = (1+8x)e^(-4x)",
+      "D": "y = (1+4x)e^(-4x)"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.2 u(x, y) is governed by the following equation: ∂²u/∂x² - 4∂²u/∂x∂y + 6∂²u/∂y = x + 2y. The nature of this equation is:",
+    "options": {
+      "A": "linear",
+      "B": "elliptic",
+      "C": "hyperbolic",
+      "D": "parabolic"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.3 Consider the velocity field V = (2x+3y)i +(3x+2y)j. The field is",
+    "options": {
+      "A": "divergence-free and curl-free",
+      "B": "curl-free but not divergence-free",
+      "C": "divergence-free but not curl-free",
+      "D": "neither divergence-free nor curl-free"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.4 The figure shows schematics of wave patterns at the exit of nozzles A and B operating at different pressure ratios. Nozzles A and B, respectively, are said to be operating in:",
+    "options": {
+      "A": "over-expanded mode and under-expanded mode",
+      "B": "under-expanded mode and perfectly expanded mode",
+      "C": "perfectly expanded mode and under-expanded mode",
+      "D": "under-expanded mode and over-expanded mode"
+    },
+    "correct_answer": "A",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.5 The combustion process in a turbo-shaft engine during ideal operation is:",
+    "options": {
+      "A": "isentropic",
+      "B": "isobaric",
+      "C": "isochoric",
+      "D": "isothermal"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.6 How does the specific thrust of a turbojet engine change for a given flight speed with increase in flight altitude?",
+    "options": {
+      "A": "Increases monotonically",
+      "B": "Decreases monotonically",
+      "C": "Remains constant",
+      "D": "First increases and then decreases"
+    },
+    "correct_answer": "A",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.7 How does the propulsion efficiency of a turbofan engine, operating at a given Mach number and a given altitude, change with increase in compressor pressure ratio?",
+    "options": {
+      "A": "Remains constant",
+      "B": "Increases monotonically",
+      "C": "Decreases monotonically",
+      "D": "First decreases and then increases"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.8 A solid propellant rocket producing 25 MN thrust is fired for 150 seconds. The specific impulse of the rocket is 2980 Ns/kg. How much propellant is burned during the rocket operation?",
+    "options": {
+      "A": "8390 kg",
+      "B": "82300 kg",
+      "C": "1.26 x 10^6 kg",
+      "D": "11.2 x 10^6 kg"
+    },
+    "correct_answer": "C",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.9 The shape of a supersonic diffuser that slows down a supersonic flow to subsonic flow is",
+    "options": {
+      "A": "converging",
+      "B": "diverging",
+      "C": "diverging-converging",
+      "D": "converging-diverging"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.10 Uniaxial tension test (see the figure) is conducted on two different samples prepared with homogeneous, isotropic materials. One of the materials is brittle, whereas the other is ductile. Assuming that there is no stress concentration at loading points, the failure would initiate:",
+    "options": {
+      "A": "along x-x in both materials",
+      "B": "along x-x in brittle material and along y-y in ductile material",
+      "C": "along y-y in brittle material and along x-x in ductile material",
+      "D": "along y-y in both materials"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.11 For the state of stress as shown in the figure, what is the orientation of the plane with maximum shear stress with respect to the x-axis?",
+    "options": {
+      "A": "45°",
+      "B": "-45°",
+      "C": "22.5°",
+      "D": "-22.5°"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.12 Let V_TAS be the true airspeed of an aircraft flying at a certain altitude where the density of air is ρ, and V_EAS be the equivalent airspeed. If ρ₀ is the density of air at sea-level, what is the ratio V_TAS/V_EAS equal to?",
+    "options": {
+      "A": "(ρ/ρ₀)",
+      "B": "(ρ₀/ρ)",
+      "C": "√(ρ₀/ρ)",
+      "D": "√(ρ/ρ₀)"
+    },
+    "correct_answer": "C",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.13 C_m vs. α variation for a certain aircraft is shown in the figure. Which one of the following statements is true for this aircraft?",
+    "options": {
+      "A": "The aircraft can trim at a positive α and it is stable.",
+      "B": "The aircraft can trim at a positive α, but it is unstable.",
+      "C": "The aircraft can trim at a negative α and it is stable.",
+      "D": "The aircraft can trim at a negative α, but it is unstable."
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.14 Which of the following statement(s) is/are true across an oblique shock (in adiabatic conditions) over a wedge shown below?",
+    "options": {
+      "A": "Total pressure decreases",
+      "B": "Mach number based on velocity tangential to the shock decreases",
+      "C": "Total temperature remains constant",
+      "D": "Mach number based on velocity tangential to the shock remains the same and that based on velocity normal to the shock decreases"
+    },
+    "correct_answers": ["A", "B", "C"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.15 Which of the following statement(s) is/are true with regards to Kutta condition for flow past airfoils?",
+    "options": {
+      "A": "It is utilized to determine the circulation on an airfoil.",
+      "B": "It is applicable only to airfoils with sharp trailing edge.",
+      "C": "The trailing edge of an airfoil is a stagnation point.",
+      "D": "The flow leaves the trailing edge smoothly."
+    },
+    "correct_answers": ["A", "B", "D"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.16 According to the thin airfoil theory, which of the following statement(s) is/are true for a cambered airfoil?",
+    "options": {
+      "A": "The lift coefficient for an airfoil is directly proportional to the absolute angle of attack.",
+      "B": "The aerodynamic center lies at quarter chord point.",
+      "C": "The center of pressure lies at quarter chord point.",
+      "D": "Drag coefficient is proportional to the square of lift coefficient."
+    },
+    "correct_answers": ["A", "B"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.17 lim (x→0) [1/sin(x) - 1/x] = (round off to nearest integer).",
+    "min": 0,
+    "max": 0,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.Given that ς is the unit circle in the counter-clockwise direction with its center at origin, the integral (round off to three decimal place).",
+    "min": 0.02,
+    "max": 0.03,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.19 A single degree of freedom spring-mass-damper system is designed to ensure that the system returns to its original undisturbed position in minimum possible time without overshooting. If the mass of the system is 10 kg, spring stiffness is 17400 N/m and the natural frequency is 13.2 rad/s, the coefficient of damping of the system in Ns/m is __ (round off to nearest integer).",
+    "min": 264,
+    "max": 264,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.20 Two cantilever beams (Beam 1 and Beam 2) are made of same homogeneous material and have identical cross sections. Beam 1 has length l and Beam 2 has length 2l. Ratio of the first natural frequency of Beam 1 to that of Beam 2 is __ (round off to nearest integer).",
+    "min": 4,
+    "max": 4,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.21 A free vortex filament (oriented along Z-axis) of strength K = 5 m²/s is placed at the origin as shown in the figure. The circulation around the closed loop ABCDEFA for this flow is ____.",
+    "min": 0,
+    "max": 0,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.22 A thin-walled cylindrical tank with closed ends, made of homogeneous and isotropic material, is pressurized internally. If the hoop (circumferential) strain developed in the material is thrice the value of the axial strain then the Poisson's ratio of the material is ____ (correct up to one decimal place).",
+    "min": 0.2,
+    "max": 0.2,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.23 A jet aircraft has the following specifications: wing loading = 1800 N/m², wing area = 30 m², drag polar C_D = 0.02 + 0.04 C²_L, and CL,max = 1.6. Take density of air at sea level as 1.225 kg/m³. The speed at which the aircraft achieves maximum endurance in a steady and level flight at sea level is ____ m/s (round off to two decimal places).",
+    "min": 64.30,
+    "max": 64.60,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.24 An aircraft with twin jet engines has the following specifications: Thrust produced (per engine) = 8000 N, Spanwise distance between the two engines = 10 m, Wing area = 50 m², Wing span = 10 m, Rudder effectiveness, Cn = -0.002 /deg, Density of air at sea level = 1.225 kg/m³. The rudder deflection, in degrees, required to maintain zero sideslip at 100 m/s in steady and level flight at sea level with a non-functional right engine is ____ (round off to two decimal places).",
+    "min": 6.50,
+    "max": 6.60,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.25 The velocity required to launch a space shuttle from the surface of the earth to achieve a circular orbit of 250 km altitude is ____ (round off to two decimal places). For earth, Gme = 398,600.4 km³/s² and surface radius Ro = 6378.14 km.",
+    "min": 7750,
+    "max": 7770,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.26 ",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "A",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.27 The figure shows three glasses P, Q and R with water and floating ice cube. Glass P has a solid ice cube, glass Q has an ice cube with a small solid steel ball embedded in it and glass R has an ice cube with an air bubble. After the ice cube melts, the level of water in glasses P, Q and R, respectively:",
+    "options": {
+      "A": "remains same, increases, and decreases",
+      "B": "increases, decreases, and increases",
+      "C": "remains same, decreases, and decreases",
+      "D": "remains same, decreases, and increases"
+    },
+    "correct_answer": "C",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.28 To estimate aerodynamic loads on an aircraft flying at 100 km/h at standard sea-level conditions, a one-fifth scale model is tested in a variable-density wind tunnel ensuring similarity of inertial and viscous forces. The pressure used in the wind tunnel is 10 times the atmospheric pressure. Assuming ideal gas law to hold and the same temperature conditions in model and prototype, the velocity needed in the wind tunnel test-section is:",
+    "options": {
+      "A": "25 km/h",
+      "B": "50 km/h",
+      "C": "100 km/h",
+      "D": "20 km/h"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.29 The figure shows schematic of a set-up for visualization of non-uniform density field in the test section of a supersonic wind tunnel. This technique of visualization of high speed flows is known as:",
+    "options": {
+      "A": "schlieren",
+      "B": "interferometry",
+      "C": "shadowgraph",
+      "D": "holography"
+    },
+    "correct_answer": "C",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.30 For a conventional fixed-wing aircraft in a 360° inverted vertical loop maneuver, what is the load factor (n) at the topmost point of the loop? Assume the flight to be steady at the topmost point.",
+    "options": {
+      "A": "n=1",
+      "B": "n<1",
+      "C": "n=-1",
+      "D": "n>-1"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.31 Which of the following statement(s) is/are true about the function defined as f(x) = e^(-x) |cosx| for x > 0?",
+    "options": {
+      "A": "Differentiable at x = π/2",
+      "B": "Differentiable at x = π",
+      "C": "Differentiable at x = 3π/2",
+      "D": "Continuous at x = 2π"
+    },
+    "correct_answers": ["B", "D"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.32 A two degree of freedom spring-mass system undergoing free vibration with generalized coordinates x₁ and x₂ has natural frequencies ω₁ = 233.9 rad/s and ω₂ = 324.5 rad/s, respectively. The corresponding mode shapes are as shown in figure. If the system is disturbed with certain deflections and zero initial velocities, then which of the following statement(s) is/are true?",
+    "options": {
+      "A": "An initial deflection of x₁(0) = 6.32 cm and x₂(0) = -3.16 cm would make the system oscillate with only the second natural frequency.",
+      "B": "An initial deflection of x₁(0) = 2 cm and x₂(0) = -6.32 cm would make the system oscillate with only the first natural frequency.",
+      "C": "An initial deflection of x₁(0) = 2 cm and x₂(0) = -2 cm would make the system oscillate with a linear combination of first and second natural frequencies.",
+      "D": "An initial deflection of x₁(0) = 1 cm and x₂(0) = -6.32 cm would make the system oscillate with only the first natural frequency."
+    },
+    "correct_answers": ["B", "C"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.33 A shock moving into a stationary gas can be transformed to a stationary shock by a change in reference frame, as shown in the figure. Which of the following is/are true relating the flow properties in the two reference frames?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.34 For a conventional fixed-wing aircraft, which of the following statements are true?",
+    "options": {
+      "A": "Making Cma more negative leads to an increase in the frequency of its short-period mode.",
+      "B": "Making Cmq more negative leads to a decreased damping of the short-period mode.",
+      "C": "The primary contribution towards Clp is from the aircraft wing.",
+      "D": "Increasing the size of the vertical fin leads to a higher yaw damping."
+    },
+    "correct_answers": ["A", "C", "D"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.35 Which of the following statement(s) is/are true?",
+    "options": {
+      "A": "Service ceiling is higher than absolute ceiling for a piston-propeller aircraft.",
+      "B": "For a given aircraft, the stall speed increases with increase in altitude.",
+      "C": "Everything else remaining the same, a tailwind increases the range of an aircraft.",
+      "D": "For a jet aircraft constrained to fly at constant altitude, there exists an altitude where its range is maximum."
+    },
+    "correct_answers": ["B", "C", "D"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "Q.36 A conventional fixed-wing aircraft, with a horizontal tail and vertical fin, in steady and level flight is subjected to small perturbations. Which of the following statement(s) is/are true?",
+    "options": {
+      "A": "Vertical fin has a stabilizing effect on the lateral stability of the aircraft.",
+      "B": "Vertical fin has a destabilizing effect on the directional stability of the aircraft.",
+      "C": "Presence of wing anhedral increases the lateral stability of the aircraft.",
+      "D": "Horizontal tail has a stabilizing effect on the longitudinal static stability of the aircraft."
+    },
+    "correct_answers": ["A", "D"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.37 The ratio of the product of eigenvalues to the sum of the eigenvalues of the given matrix [3 1 2; 2 -3 -1; 12 1 ] is (round off to nearest integer).",
+    "min": 8,
+    "max": 8,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.38 The definite integral from x=1 to x=5 of f(x)=x^2 dx is evaluated using four equal intervals by two methods – first by the trapezoidal rule and then by the Simpson's one-third rule. The absolute value of the difference between the two calculations is ____ (round off to two decimal places).",
+    "min": 0.66,
+    "max": 0.68,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.39 The deflection y of a certain beam of length l and uniform weight per unit length w, is given as y = as in the figure , where x is the distance from the point of support and EI is a constant. The non-dimensional location where the deflection of the beam is maximum is ____ (round off to two decimal places).",
+    "min": 0.41,
+    "max": 0.43,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.40 A large water tank is fixed on a cart with wheels and a vane (see figure). The wheels of the cart provide negligible resistance for rolling on the fixed support. The cart is tied to the fixed support with a thin horizontal rope. There is a hole of diameter 5 cm on the side of the tank through which a jet of constant velocity of 10 m/s emerges. The jet of water is deflected by the attached vane by 60°. Assume that the jet velocity remains constant at 10 m/s after emerging from the vane. Take density of water to be 1000 kg/m³. The tension in the connecting rope is ____ N (round off to one decimal place).",
+    "min": 98.0,
+    "max": 98.5,
+    "image": null,
+    "solution": ""
+  },
+
+  {
+    "type": "numerical",
+    "question": "Q.41 A finite wing of elliptic planform with aspect ratio 10, whose section is a symmetric airfoil, is placed in a uniform flow at 5 degrees angle of attack. The induced drag coefficient for the wing is ____ (round off to three decimal places).",
+    "min": 0.005,
+    "max": 0.009,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.42 Consider a model of a boundary layer with the following velocity profile: as shown in figure. The shape factor, defined as the ratio of the displacement thickness to momentum thickness, for this profile is ____ (round off to 2 decimal places).",
+    "min": 4.8,
+    "max": 5.2,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.43 An aircraft with a turbojet engine is flying at 270 m/s. The enthalpy of the incoming air at the intake is 260 kJ/kg and the enthalpy of the exhaust gases at the nozzle exit is 912 kJ/kg. The ratio of mass flow rates of fuel and air is equal to 0.019. The chemical energy (heating value) of fuel is 44.5 MJ/kg and the combustion process is ideal. The total loss of heat from the engine to the ambient is 25 kJ per kg of air. The velocity of the exhaust jet is ____ m/s (round off to two decimal places).",
+    "min": 605,
+    "max": 607,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.44 Hot gases are generated at a temperature of 2100 K and a pressure of 14 MPa in a rocket chamber. The hot gases are expanded ideally to the ambient pressure of 0.1 MPa in a convergent-divergent nozzle having a throat area of 0.1 m². The molecular mass of the gas is 22 kg/kmol. The ratio of specific heats (γ) of the gas is 1.32. The value of the universal gas constant (Ro) is 8314 J/kmol-K. The acceleration due to gravity, g, is 9.8 m/s². The specific impulse of the rocket is ____ (round off to two decimal places).",
+    "min": 216.0,
+    "max": 220.0,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.45 A twin-spool turbofan engine is operated at sea level (Pa = 1 bar, Ta = 288 K). The engine has separate cold and hot nozzles. During static thrust test at sea level, the overall mass flow rate of air through the engine and the cold exhaust temperature are measured to be 100 kg/s and 288 K, respectively. The parameters for the engine are: Fan pressure ratio = 1.6, Overall pressure ratio = 20, Bypass ratio = 3.0, Turbine entry temperature = 1800 K. The specific heat at constant pressure (Cp) is 1.005 kJ/kg-K and the ratio of specific heats (γ) is 1.4 for air. Assuming ideal fan and ideal expansion in the nozzle, the sea-level static thrust from the cold nozzle is ____ kN (round off to two decimal places).",
+    "min": 20.0,
+    "max": 22.0,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.46 At the design conditions, the velocity triangle at the mean radius of a single stage axial compressor is such that the blade angle at the rotor exit is equal to 30°. The absolute velocities at the rotor inlet and exit are equal to 140 m/s and 240 m/s, respectively. The flow velocities relative to the rotor at inlet and exit of the rotor are equal to 240 m/s and 140 m/s, respectively. The blade speed (U) at the mean radius of the rotor is ____ m/s (round off to two decimal places).",
+    "min": 274.0,
+    "max": 282.0,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.47 A single stage axial turbine has a mean blade speed of 340 m/s at design condition with blade angles at inlet and exit of the rotor being 21° and 55°, respectively. The degree of reaction at the mean radius of the rotor is equal to 0.4. The annulus area at the rotor inlet is 0.08 m² and the density of gas at the rotor inlet is 0.9 kg/m³. The flow rate through the turbine at these conditions is ____ kg/s (round off to two decimal places).",
+    "min": 18.0,
+    "max": 19.5,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.48 The air flow rate through the gas generator of a turboprop engine is 100 kg/s. The stagnation temperatures at inlet and exit of the combustor are 600 K and 1200 K, respectively. The burner efficiency is 90% and the heating value of the fuel is 40 MJ/kg. The specific heats at constant pressure (Cp) for air and burned gases are 1000 J/kg-K and 1200 J/kg-K, respectively. The flow rate of the fuel being used is ____ kg/s (round off to two decimal places). (Note: Do not neglect the fuel flow rate with respect to the air flow rate)",
+    "min": 2.34,
+    "max": 2.50,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.49 A rigid horizontal bar ABC, with roller support at A, is pinned to the columns BD and CE at points B and C, respectively as shown in figure. The other end of the column BD is fixed at D, whereas the column CE is pinned at E. A vertical load P is applied on the bar at a distance 'a' from point B. The two columns are made of steel with elastic modulus 200 GPa and have a cross section of 1.5 cm x 1.5 cm. The value of 'a' for which both columns buckle simultaneously, is ____ cm (round off to one decimal place).",
+    "min": 14.0,
+    "max": 16.0,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.50 A two-cell wing box is shown in the figure. The cell walls are 1.5 mm thick and the shear modulus G = 27 GPa. If the structure is subjected to a torque of 12 kNm, then the wall AD will experience a shear stress of magnitude ____ MPa (round off to one decimal place).",
+    "min": 2.1,
+    "max": 2.5,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.51 Two cantilever beams AB and DC are in contact with each other at their free ends through a roller as shown in the figure. Both beams have a square cross section of 50 mm x 50 mm, and the elastic modulus E = 70 GPa. If beam AB is subjected to a uniformly distributed load of 20 kN/m, then the compressive force experienced by the roller is ____ kN (round off to one decimal place).",
+    "min": 2.2,
+    "max": 2.6,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.52 A 3 m x 1 m signboard is supported by a vertical hollow pole that is fixed to the ground. The pole has a square cross section with outer dimension 250 mm. The yield strength of the pole material is 240 MPa. To sustain a wind pressure of 7.5 kPa, the dimension d of the pole is ____ mm (round off to nearest integer).",
+    "min": 232,
+    "max": 238,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.53 An airplane weighing 5500 kg is in a steady level flight with a speed of 225 m/s. The pilot initiates a steady pull-up maneuver with a radius of curvature of 775 m. The location of center of gravity (CG), center of pressure on wing (CP) and point of action (T) of tail force are marked in the figure. Use g = 9.81 m/s². Neglect drag on the tail and assume that tail force is vertical. Assuming the engine thrust and drag to be equal, opposite and collinear, the tail force is ____ kN (round off to one decimal place).",
+    "min": 14.8,
+    "max": 15.2,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.54 A jet aircraft weighing 10,000 kg has an elliptic wing with a span of 10 m and area 30 m². The CD for the aircraft is 0.025. The maximum speed of the aircraft in steady and level flight at sea level is 100 m/s. The density of air at sea level is 1.225 kg/m³, and take g = 10 m/s². The maximum thrust developed by the engine at sea level is ____ N (round off to two decimal places).",
+    "min": 9735,
+    "max": 9797,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "Q.55",
+    "min": -0.025,
+    "max": -0.023,
+    "image": null,
+    "solution": ""
+  }
+]
