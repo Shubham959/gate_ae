@@ -22,7 +22,7 @@
       "D": "4"
     },
     "correct_answer": "B",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/2-21.png",
     "solution": ""
   },
   {
@@ -113,7 +113,7 @@
       "D": "π/4"
     },
     "correct_answer": "C",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/9-21.png",
     "solution": ""
   },
   {
@@ -140,7 +140,7 @@
       "D": "y = (1+4x)e^(-4x)"
     },
     "correct_answer": "D",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/11-21.png",
     "solution": ""
   },
   {
@@ -166,7 +166,7 @@
       "D": "neither divergence-free nor curl-free"
     },
     "correct_answer": "B",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/13-21.png",
     "solution": ""
   },
   {
@@ -179,7 +179,7 @@
       "D": "under-expanded mode and over-expanded mode"
     },
     "correct_answer": "A",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/4-21.png",
     "solution": ""
   },
   {
@@ -257,7 +257,7 @@
       "D": "along y-y in both materials"
     },
     "correct_answer": "B",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/10-21.png",
     "solution": ""
   },
   {
@@ -270,7 +270,7 @@
       "D": "-22.5°"
     },
     "correct_answer": "D",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/11-21.png",
     "solution": ""
   },
   {
@@ -296,7 +296,7 @@
       "D": "The aircraft can trim at a negative α, but it is unstable."
     },
     "correct_answer": "B",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/10-21.png",
     "solution": ""
   },
   {
@@ -309,7 +309,7 @@
       "D": "Mach number based on velocity tangential to the shock remains the same and that based on velocity normal to the shock decreases"
     },
     "correct_answers": ["A", "B", "C"],
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/14-21.png",
     "solution": ""
   },
   {
@@ -348,10 +348,10 @@
   },
   {
     "type": "numerical",
-    "question": "Q.Given that ς is the unit circle in the counter-clockwise direction with its center at origin, the integral (round off to three decimal place).",
+    "question": "Q.18 Given that ς is the unit circle in the counter-clockwise direction with its center at origin, the integral (round off to three decimal place).",
     "min": 0.02,
     "max": 0.03,
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/18-21.png",
     "solution": ""
   },
   {
@@ -375,7 +375,7 @@
     "question": "Q.21 A free vortex filament (oriented along Z-axis) of strength K = 5 m²/s is placed at the origin as shown in the figure. The circulation around the closed loop ABCDEFA for this flow is ____.",
     "min": 0,
     "max": 0,
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/21-21.png",
     "solution": ""
   },
   {
@@ -420,7 +420,7 @@
       "D": "4"
     },
     "correct_answer": "A",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/26-21.png",
     "solution": ""
   },
   {
@@ -433,7 +433,7 @@
       "D": "remains same, decreases, and increases"
     },
     "correct_answer": "C",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/27-21.png",
     "solution": ""
   },
   {
@@ -459,7 +459,7 @@
       "D": "holography"
     },
     "correct_answer": "C",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/29-21.png",
     "solution": ""
   },
   {
@@ -498,12 +498,12 @@
       "D": "An initial deflection of x₁(0) = 1 cm and x₂(0) = -6.32 cm would make the system oscillate with only the first natural frequency."
     },
     "correct_answers": ["B", "C"],
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/32-21.png",
     "solution": ""
   },
   {
     "type": "mcq",
-    "question": "Q.33 A shock moving into a stationary gas can be transformed to a stationary shock by a change in reference frame, as shown in the figure. Which of the following is/are true relating the flow properties in the two reference frames?",
+    "question": "Q.33",
     "options": {
       "A": "1",
       "B": "2",
@@ -511,7 +511,7 @@
       "D": "4"
     },
     "correct_answer": "D",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/33-3-21.png",
     "solution": ""
   },
   {
@@ -566,7 +566,7 @@
     "question": "Q.38 The definite integral from x=1 to x=5 of f(x)=x^2 dx is evaluated using four equal intervals by two methods – first by the trapezoidal rule and then by the Simpson's one-third rule. The absolute value of the difference between the two calculations is ____ (round off to two decimal places).",
     "min": 0.66,
     "max": 0.68,
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/38-21.png",
     "solution": ""
   },
   {
@@ -574,7 +574,7 @@
     "question": "Q.39 The deflection y of a certain beam of length l and uniform weight per unit length w, is given as y = as in the figure , where x is the distance from the point of support and EI is a constant. The non-dimensional location where the deflection of the beam is maximum is ____ (round off to two decimal places).",
     "min": 0.41,
     "max": 0.43,
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/39-21.png",
     "solution": ""
   },
   {
@@ -582,7 +582,7 @@
     "question": "Q.40 A large water tank is fixed on a cart with wheels and a vane (see figure). The wheels of the cart provide negligible resistance for rolling on the fixed support. The cart is tied to the fixed support with a thin horizontal rope. There is a hole of diameter 5 cm on the side of the tank through which a jet of constant velocity of 10 m/s emerges. The jet of water is deflected by the attached vane by 60°. Assume that the jet velocity remains constant at 10 m/s after emerging from the vane. Take density of water to be 1000 kg/m³. The tension in the connecting rope is ____ N (round off to one decimal place).",
     "min": 98.0,
     "max": 98.5,
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/40-21.png",
     "solution": ""
   },
 
@@ -599,7 +599,7 @@
     "question": "Q.42 Consider a model of a boundary layer with the following velocity profile: as shown in figure. The shape factor, defined as the ratio of the displacement thickness to momentum thickness, for this profile is ____ (round off to 2 decimal places).",
     "min": 4.8,
     "max": 5.2,
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/42-21.png",
     "solution": ""
   },
   {
@@ -631,7 +631,7 @@
     "question": "Q.46 At the design conditions, the velocity triangle at the mean radius of a single stage axial compressor is such that the blade angle at the rotor exit is equal to 30°. The absolute velocities at the rotor inlet and exit are equal to 140 m/s and 240 m/s, respectively. The flow velocities relative to the rotor at inlet and exit of the rotor are equal to 240 m/s and 140 m/s, respectively. The blade speed (U) at the mean radius of the rotor is ____ m/s (round off to two decimal places).",
     "min": 274.0,
     "max": 282.0,
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/46-21.png",
     "solution": ""
   },
   {
@@ -655,7 +655,7 @@
     "question": "Q.49 A rigid horizontal bar ABC, with roller support at A, is pinned to the columns BD and CE at points B and C, respectively as shown in figure. The other end of the column BD is fixed at D, whereas the column CE is pinned at E. A vertical load P is applied on the bar at a distance 'a' from point B. The two columns are made of steel with elastic modulus 200 GPa and have a cross section of 1.5 cm x 1.5 cm. The value of 'a' for which both columns buckle simultaneously, is ____ cm (round off to one decimal place).",
     "min": 14.0,
     "max": 16.0,
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/49-21.png",
     "solution": ""
   },
   {
@@ -663,7 +663,7 @@
     "question": "Q.50 A two-cell wing box is shown in the figure. The cell walls are 1.5 mm thick and the shear modulus G = 27 GPa. If the structure is subjected to a torque of 12 kNm, then the wall AD will experience a shear stress of magnitude ____ MPa (round off to one decimal place).",
     "min": 2.1,
     "max": 2.5,
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/50-21.png",
     "solution": ""
   },
   {
@@ -671,7 +671,7 @@
     "question": "Q.51 Two cantilever beams AB and DC are in contact with each other at their free ends through a roller as shown in the figure. Both beams have a square cross section of 50 mm x 50 mm, and the elastic modulus E = 70 GPa. If beam AB is subjected to a uniformly distributed load of 20 kN/m, then the compressive force experienced by the roller is ____ kN (round off to one decimal place).",
     "min": 2.2,
     "max": 2.6,
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/51-21.png",
     "solution": ""
   },
   {
@@ -679,7 +679,7 @@
     "question": "Q.52 A 3 m x 1 m signboard is supported by a vertical hollow pole that is fixed to the ground. The pole has a square cross section with outer dimension 250 mm. The yield strength of the pole material is 240 MPa. To sustain a wind pressure of 7.5 kPa, the dimension d of the pole is ____ mm (round off to nearest integer).",
     "min": 232,
     "max": 238,
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/52-21.png",
     "solution": ""
   },
   {
@@ -687,7 +687,7 @@
     "question": "Q.53 An airplane weighing 5500 kg is in a steady level flight with a speed of 225 m/s. The pilot initiates a steady pull-up maneuver with a radius of curvature of 775 m. The location of center of gravity (CG), center of pressure on wing (CP) and point of action (T) of tail force are marked in the figure. Use g = 9.81 m/s². Neglect drag on the tail and assume that tail force is vertical. Assuming the engine thrust and drag to be equal, opposite and collinear, the tail force is ____ kN (round off to one decimal place).",
     "min": 14.8,
     "max": 15.2,
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/53-21.png",
     "solution": ""
   },
   {
@@ -703,7 +703,7 @@
     "question": "Q.55",
     "min": -0.025,
     "max": -0.023,
-    "image": null,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/55-21.png",
     "solution": ""
   }
 ]
