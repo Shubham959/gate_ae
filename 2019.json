@@ -299,7 +299,7 @@
         "solution": ""
     },
     {
-        "type": "mcq",
+        "type": "numerical",
         "question": "AE Q.14",
         "min": 0.5,
         "max": 0.5,
@@ -307,7 +307,7 @@
         "solution": ""
     },
     {
-        "type": "mcq",
+        "type": "numerical",
         "question": "AE Q.15",
         "min": 0.16,
         "max": 0.17,
@@ -315,7 +315,7 @@
         "solution": ""
     },
     {
-        "type": "mcq",
+        "type": "numerical",
         "question": "AE Q.16",
         "min": 10,
         "max": 10,
@@ -323,7 +323,7 @@
         "solution": ""
     },
     {
-        "type": "mcq",
+        "type": "numerical",
         "question": "AE Q.17",
         "min": 7,
         "max": 72,
@@ -331,7 +331,7 @@
         "solution": ""
     },
     {
-        "type": "mcq",
+        "type": "numerical",
         "question": "AE Q.18",
         "min": 5.98,
         "max": 6.0,
@@ -339,7 +339,7 @@
         "solution": ""
     },
     {
-        "type": "mcq",
+        "type": "numerical",
         "question": "AE Q.19",
         "min": 43.05,
         "max": 43.15,
@@ -661,4 +661,5 @@
     }
 
 ]
+
 
