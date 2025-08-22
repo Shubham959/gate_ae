@@ -383,7 +383,7 @@
         "question": "AE Q.24",
         "min": 247,
         "max": 255,
-        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2019/34-19.png",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2019/33-19.png",
         "solution": ""
     },
     {
@@ -659,4 +659,5 @@
         "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2019/65-19.png",
         "solution": ""
     }
+
 ]
