@@ -99,7 +99,7 @@
             "C": "",
             "D": ""
         },
-        "correct_answer": [
+        "correct_answers": [
             "A",
             "B",
             "C",
@@ -719,4 +719,5 @@
         "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2018/65-18.png",
         "solution": ""
     }
+
 ]
