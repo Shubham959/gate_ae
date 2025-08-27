@@ -566,7 +566,7 @@
         "solution": ""
     },
      {
-        "type": "mcq",
+        "type": "numerical",
         "question": "AE 2019 Q.62",
         "min": 10,
         "max": 10,
@@ -574,7 +574,7 @@
         "solution": ""
     },
      {
-        "type": "mcq",
+        "type": "numerical",
         "question": "AE 2019 Q.63",
         "min": 43.05,
         "max": 43.15,
@@ -1053,6 +1053,7 @@
     "image": null,
     "solution": ""
   }
+
 
 
 
