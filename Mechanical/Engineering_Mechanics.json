@@ -1,0 +1,1265 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 A truss structure is loaded as shown in the figure below. Among the options given, which member in the truss is a zero-force member?",
+    "options": {
+      "A": "BD",
+      "B": "BC",
+      "C": "BA",
+      "D": "AD"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20251/q17.webp",
+    "solution": "Given: A truss is subjected to a horizontal load of [latex]1000 \\text{N}[/latex] at point A. We need to identify the zero-force member among the given options: BD, BC, BA, AD. Step 1: Analyze Joint B At joint B, the following members are connected: • BA (inclined) • BC (inclined) • BD (horizontal) There is no external load or support at joint B . Therefore, the standard zero-force member rules cannot directly eliminate any member here. Step 2: Analyze Load Path The applied load [latex]F = 1000 \\text{N}[/latex] is acting horizontally at point A. This load is transmitted from A to D (vertical support) and A to B. So, member BA will carry some force to maintain equilibrium at joint A. Step 3: Analyze Joint D At joint D, the following members are connected: • AD (vertical) • CD (horizontal) • BD (diagonal) Since support reactions are present at D, members AD and CD can balance vertical and horizontal loads respectively. There is no need for force to pass through BD to maintain equilibrium. Step 4: Conclusion As member BD does not contribute to the equilibrium of any joint and is not needed to transmit force: BD is a zero-force member. Final Answer: BD",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 A rigid circular disc of radius [latex]r[/latex] (in [latex]m[/latex]) is rolling without slipping on a flat surface as shown in the figure below. The angular velocity of the disc is [latex]\\omega[/latex] (in rad [latex]s^{-1}[/latex]). The velocities (in [latex]ms^{-1}[/latex]) at points [latex]O[/latex] and [latex]A[/latex], respectively, are",
+    "options": {
+      "A": "[latex]r\\omega \\hat{i}[/latex] and [latex]0 \\hat{i}[/latex]",
+      "B": "[latex]-r\\omega \\hat{i}[/latex] and [latex]0 \\hat{i}[/latex]",
+      "C": "[latex]-r\\omega \\hat{i}[/latex] and [latex]-r\\omega \\hat{i}[/latex]",
+      "D": "[latex]r\\omega \\hat{i}[/latex] and [latex]r\\omega \\hat{i}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20251/q16.webp",
+    "solution": "Given: A rigid circular disc is rolling without slipping on a flat surface. Radius = [latex] r [/latex], Angular velocity = [latex] \\omega [/latex] We are asked to find the velocities at points [latex] O [/latex] (center) and [latex] A [/latex] (bottom point of contact with ground). Step 1: Velocity of Center Point (O) For rolling without slipping, the center of the disc moves with linear velocity: [latex] v_O = r \\omega \\hat{i} [/latex] Step 2: Velocity of Point A (Point in contact with ground) Velocity of any point on a rotating body: [latex] \\vec{v} = \\vec{v}_O + \\vec{\\omega} \\times \\vec{r} [/latex] At point A, the rotational component is [latex] -r \\omega \\hat{i} [/latex] (due to clockwise rotation), and translational component is [latex] r \\omega \\hat{i} [/latex]. So, [latex] v_A = r\\omega \\hat{i} + (-r\\omega \\hat{i}) = 0 \\hat{i} [/latex] Final Answer: [latex] \\boxed{r\\omega \\hat{i} \\ \\text{and} \\ 0 \\hat{i}} [/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 3 A three-hinge arch [latex]A B C[/latex] in the form of a semicircle is shown in the figure. The arch is in static equilibrium under vertical loads of [latex]P=100 \\mathrm{kN}[/latex] and [latex]Q=50 \\mathrm{kN}[/latex]. Neglect friction at all the hinges. The magnitude of the horizontal reaction at [latex]B[/latex] is ______ kN (rounded off to 1 decimal place).",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20241/q48.webp",
+    "solution": "[latex]\\sum \\mathrm{F}_{\\mathrm{V}}=0 \\Rightarrow \\mathrm{R}_{\\mathrm{A}}+\\mathrm{R}_{\\mathrm{C}}=150 \\mathrm{kN}[/latex] [latex]\\left.\\sum \\mathrm{M}_{\\mathrm{A}}\\right)=0[/latex] [latex]\\Rightarrow-\\mathrm{R}_{\\mathrm{C}} \\times 12+50 \\times 9+100 \\times 3=0[/latex] [latex]\\mathrm{R}_{\\mathrm{C}}=\\frac{750}{12} \\mathrm{kN}[/latex] [latex]\\mathrm{BM}_{\\text {at } \\mathrm{B}=0}[/latex] [due to internal hinge] [latex]\\Rightarrow \\mathrm{R}_{\\mathrm{C}} \\times 6-\\mathrm{H} \\times 6-50 \\times 3=0[/latex] [latex]\n\\begin{aligned}\n& \\frac{750}{12} \\times 6-6 \\mathrm{H}-150=0 \\\\\n& \\mathrm{H}=\\frac{375-150}{\\sigma}=37.5 \\mathrm{kN}\n\\end{aligned}\n[/latex] Horizontal reaction at [latex]\\mathrm{B}=37.5 \\mathrm{kN}[/latex]",
+    "min": "37",
+    "max": "38"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 A rigid massless tetrahedron is placed such that vertex [latex]O[/latex] is at the origin and the other three vertices [latex]A, B[/latex] and [latex]C[/latex] lie on the coordinate axes as shown in the figure. The body is acted on by three point loads of which one is acting at [latex]A[/latex] along [latex]x[/latex]-axis and another at point [latex]B[/latex] along [latex]y[/latex]-axis. For the body to be in equilibrium, the third point load acting at point [latex]\\mathrm{O}[/latex] must be",
+    "options": {
+      "A": "along [latex]z[/latex]-axis",
+      "B": "in [latex]x-y[/latex] plane but not along [latex]x[/latex] or [latex]y[/latex] axis",
+      "C": "in [latex]y-z[/latex] plane but not along [latex]y[/latex] or [latex]z[/latex] axis",
+      "D": "in [latex]z-x[/latex] plane but not along [latex]z[/latex] or [latex]x[/latex] axis"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20241/q17.webp",
+    "solution": "Let resultant of [latex]F_{1}[/latex] and [latex]F_{2}[/latex] is [latex]R[/latex]. For equilibrium, third force shall be in opposite direction of [latex]R[/latex] in same plane ( [latex]x-y[/latex] plane) So, answer is in [latex]x-y[/latex] plane, but not along [latex]x[/latex] or [latex]y[/latex]-axis.",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 A ram in the form of a rectangular body of size [latex]\\mathrm{I}=9 \\mathrm{~m}[/latex] and [latex]\\mathrm{b}=2 \\mathrm{~m}[/latex] is suspended by two parallel ropes of lengths [latex]7 \\mathrm{~m}[/latex]. Assume the center-of-mass of the body is at its geometric center and [latex]g=[/latex] [latex]9.81 \\mathrm{~m} / \\mathrm{s}^{2}[/latex]. For striking the object [latex]P[/latex] with a horizontal velocity of [latex]5 \\mathrm{~m} / \\mathrm{s}[/latex]. What is the angle [latex]\\theta[/latex] with the vertical from which the ram should be released from rest ?",
+    "options": {
+      "A": "[latex]67.1^{\\circ}[/latex]",
+      "B": "[latex]40.2^{\\circ}[/latex]",
+      "C": "[latex]35.1^{\\circ}[/latex]",
+      "D": "[latex]79.5^{\\circ}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20241/q14.webp",
+    "solution": "[latex]\\mathrm{h}=7-7 \\cos \\theta=7(1-\\cos \\theta)[/latex] Principle of Conservation of Energy [latex]\n\\begin{aligned}\n\\text { hhgh } & =\\frac{1}{2} \\text { ph } \\mathrm{V}^{2} \\\\\n\\mathrm{~g} \\times 7(1-\\cos \\theta) & =\\frac{1}{2} \\times(5)^{2}=12.5 \\\\\n1-\\cos \\theta & =\\frac{12.5}{9.81 \\times 7}=0.182 \\\\\n\\cos \\theta & =0.817 \\\\\n\\theta & =35.1^{\\circ}\n\\end{aligned}\n[/latex]",
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 6 The area moment of inertia about the y-axis of a linearly tapered section shown in\nthe figure is ______ [latex]m^4[/latex]. \n(Answer in integer)",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20231/q48.jpg",
+    "solution": "Above figure is symmetrical about [latex]{x}[/latex] axis so, moment of inertia of whole section will be two times of the one section above [latex]x[/latex]-axis. Moment of inertia of rectangular section OABC about [latex]y[/latex]-axis i.e. OC. [latex]=\\frac{1}{3} \\times \\mathrm{OC} \\times(\\mathrm{AB})^{3}[/latex] [latex]=\\frac{1}{3} \\times d \\times b^{3}[/latex] [latex]\\mathrm{I}_{\\mathrm{OC}}=\\frac{1}{3} \\times 3 \\times(12)^{3}=1728[/latex] Moment of inertia of triangular section BCD about [latex]y[/latex]-axis i.e. about DC [latex]\r\n \\mathrm{I}_{D C}=\\frac{1}{12} \\times(D C) \\times(B C)^{3} =\\frac{1}{12} \\times 1.5 \\times(12)^{3}=216\r\n\r\n[/latex] So, moment of inertia of tapered section OABD about y-axis: [latex]\\mathrm{I}_{\\mathrm{y}^{\\prime} \\mathrm{y}^{\\prime}}=\\mathrm{I}_{\\mathrm{OC}}-\\mathrm{I}_{\\mathrm{DC}}[/latex] [latex]=1728-216=1512[/latex] So, moment of inertia of whole tapered section [latex]I_{y y}=2 l_{y^{\\prime} y^{\\prime}}=2 \\times 1512=3024 \\mathrm{~m}^{4}[/latex]",
+    "min": "3024",
+    "max": "3024"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 A spherical ball weighing 2 kg is dropped from a height of 4.9 m onto an\nimmovable rigid block as shown in the figure. If the collision is perfectly elastic,\nwhat is the momentum vector of the ball (in kg m/s) just after impact? Take the acceleration due to gravity to be [latex]g=9.8 m/s^2[/latex]. Options have been\nrounded off to one decimal place.",
+    "options": {
+      "A": "[latex]19.6\\hat{i}[/latex]",
+      "B": "[latex]19.6\\hat{j}[/latex]",
+      "C": "[latex]17.0\\hat{i}+9.8\\hat{j}[/latex]",
+      "D": "[latex]9.8\\hat{i}+17.0\\hat{j}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20231/q27.jpg",
+    "solution": "Let '[latex]\\theta[/latex]' be the angle about line of impact through which ball will move often the impact. Let '[latex]u[/latex]' be the vertical downward velocity of the ball before striking and '[latex]v[/latex]' be the velocity of ball after the impact which make an angle '[latex]\\theta[/latex]' with the line of impact. As ball fall freely under the gravity from height [latex]\\mathrm{h}=4.9 \\mathrm{m}[/latex], hence downward velocity '[latex]\\mathrm{u}[/latex]' at the instance of striking the rigid body [latex]u=\\sqrt{2 g h}=\\sqrt{2 \\times 9.8 \\times 4.9}[/latex] or, [latex]u=9.8 \\mathrm{~m} / \\mathrm{sec}[/latex] for perfectly elastic collision, [latex]e=1[/latex] As [latex]e=\\frac{\\text { relative velocity of seperation }}{\\text { relative velocity of approach }}=1\\;\\;...(i)[/latex] As block is rigid, so block velocity [latex]=0[/latex]. So, along the line of impact, relative velocity of approach [latex]=u \\cos 30^{\\circ}-0 =u \\cos 30^{\\circ}[/latex] relative velocity of separation along the line of impact [latex]=v \\cos \\theta-0=v \\cos \\theta[/latex] so, by equation (i) [latex]u \\cos 30^{\\circ}=v \\cos \\theta \\;\\;\\;...(ii)[/latex] In the direction normal to the impact, the component velocity is not affected so, [latex]u \\sin 30^{\\circ}=v \\sin \\theta \\;\\;\\;...(iii)[/latex] So, by equation (ii) and (iii) [latex]V=\\sqrt{u^{2} \\cos ^{2} 30^{\\circ}+u^{2} \\sin ^{2} 30^{\\circ}}[/latex] or, [latex]V=9.8 \\mathrm{~m} / \\mathrm{sec}[/latex] by equation (ii) and (iii) [latex]\\tan \\theta=\\tan 30^{\\circ}, \\theta=30^{\\circ}[/latex] So, inclination to the plane for of the section [latex]=90^{\\circ}-30^{\\circ}=60^{\\circ}[/latex] So, momentum equation is given by during seperation: [latex]\n\n\\vec{P}_{s}=m v \\cos 30^{\\circ} \\hat{i}+m v \\cos 30^{\\circ} \\hat{j} =17 \\hat{i}+9.8 \\hat{j}\n\n[/latex]",
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 The options show frames consisting of rigid bars connected by pin joints. Which\none of the frames is non-rigid?",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20231/q7.jpg",
+    "solution": "Nonrigid frames: Relative movement of joints is\nlarge then a frame said to be nonrigid. Here, P force cause large deformation therefore. It\nis non rigid.",
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 The lengths of members BC and CE in the frame\nshown in the figure are equal. All the members are\nrigid and lightweight, and the friction at the joints\nis negligible. Two forces of magnitude [latex]Q \\gt 0[/latex] are\napplied as shown, each at the mid-length of the\nrespective member on which it acts. Which one or more of the following members do\nnot carry any load (force)?",
+    "options": {
+      "A": "AB",
+      "B": "CD",
+      "C": "EF",
+      "D": "GH"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20222/q37.jpg",
+    "solution": "If at a point 3 member are meeting and two are colinear then in 3rd member force will be zero. [latex]F_{GH}=0 [/latex]",
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 A rigid homogeneous uniform block of mass 1 kg,\nheight [latex]h= 0.4 m[/latex] and width [latex]b= 0.3 m[/latex] is pinned at one\ncorner and placed upright in a uniform gravitational\nfield ([latex]g = 9.81 m/s^2[/latex]), supported by a roller in the\nconfiguration shown in the figure. A short duration\n(impulsive) force [latex]F[/latex], producing an impulse [latex]I_F[/latex], is\napplied at a height of [latex]d = 0.3 m[/latex] from the bottom\nas shown. Assume all joints to be frictionless. The\nminimum value of [latex]I_F[/latex]\n required to topple the block is",
+    "options": {
+      "A": "0.953 Ns",
+      "B": "1.403 Ns",
+      "C": "0.814 Ns",
+      "D": "1.172 ns"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20222/q27.jpg",
+    "solution": "Mass moment of inertia of block about hinge 'O'  [latex] =\\frac{M}{12}(h^2+b^2)+Mr^2[/latex] where,  [latex] h=0.4m,  b=0.3m[/latex] [latex] r=\\sqrt{0.15^2+0.2^2}=0.25m[/latex] [latex] I_o=\\frac{1}{2} \\times (0.4^2+0.3^2)+1 \\times 0.25^2=0.083 kg-m^2[/latex] For block to topple about 'O' it should just reach the\nposition such that centre of mass reaches from point\n(G) to point (G') [Beyond this the torque of gravity will rotate the\nblock itself] Now, y(increase in height of centre of mass) = OG' -  OP = OG - OP = 0.25 - 0.20 = 0.05 So the block should have initial angular velocity to\njust shift centre of mass at this position (i.e., G') F.B.D of block is shown below. [latex]\\frac{d\\vec{L}}{dt}=\\vec{\\tau _{ext}}\\;(about\\;\\;O)[/latex] [ [latex]\\vec{L} [/latex]  is angular momentum, [latex]\\vec{\\tau _{ext}} [/latex] is external torque] [latex] \\tau _{ext} dt=d \\vec{L}[/latex] [latex] F\\Delta t \\times d=L_f-L_i[/latex] (Because,   Gravity force is small compared\nto impulsive force hence we neglect its torque) [latex] I_f \\times d =I_o \\times \\omega  . .  . (i)[/latex] By using conservation of mechanical energy [latex] \\frac{1}{2}I_o\\omega ^2=mg\\;y[/latex] [latex] \\frac{1}{2}0.083 \\times \\omega ^2=1 \\times 9.81 \\times 0.05[/latex] [latex] \\Rightarrow \\omega =3.44 \\; rad/s[/latex] Putting in eq.(i) [latex] I_F \\times 0.3 =0.083 \\times 3.44[/latex] [latex]\\Rightarrow I_F =0.951 N-s [/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 11 A rope with two mass-less platforms at its two ends\npasses over a fixed pulley as shown in the figure.\nDiscs with narrow slots and having equal weight\nof 20 N each can be placed on the platforms. The\nnumber of discs placed on the left side platform is n\nand that on the right side platform is m. It is found that for n = 5 and m = 0, a force F = 200\nN (refer to part (i) of the figure) is just sufficient to\ninitiate upward motion of the left side platform. If\nthe force F is removed then the minimum value of\nm (refer to part (ii) of the figure) required to prevent\ndownward motion of the left side platform is______\n(in integer).",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20222/q20.jpg",
+    "solution": "F.B.D of fig.(i) : For upward impending motion of left side platform [latex]T_1=n \\times 20=5 \\times 20=100N\\;\\; . . . (i) [/latex] [latex] F=T_2=200N . . . (ii)[/latex] [latex]\\therefore \\; \\frac{T_2}{T_1}=2 [/latex] So, ratio of tensions on two sides remains [in figure\n(i) and (ii)] same as 2 because it depends on [latex]\\mu \\text{ and } \\theta [/latex]  \nwhich is same in fig.(i) and fig.(ii). F.B.D of fig.(ii) : [latex]T_3=100 [/latex] Now since impending motion of left side platform\nis downward therefore [latex]T_3=100 [/latex]\n is tight side tension. [latex]T_4=\\frac{T_3}{2}=\\frac{100}{2} =50 \\; N[/latex] [latex]T_4=m \\times 20 [/latex] [latex]50=m \\times 20 [/latex] [latex]m=2.5[/latex] Hence, m = 3 (As no. of discs is integer)",
+    "min": "3",
+    "max": "3"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 A square plate is supported in four different ways\r\n(configurations (P) to (S) as shown in the figure). A\r\ncouple moment C is applied on the plate. Assume\r\nall the members to be rigid and mass-less, and all\r\njoints to be frictionless. All support links of the\r\nplate are identical. The square plate can remain in equilibrium in its\r\ninitial state for which one or more of the following\r\nsupport configurations?",
+    "options": {
+      "A": "Configuration (P)",
+      "B": "Configuration (Q)",
+      "C": "Configuration (R)",
+      "D": "Configuration (S)"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20222/q16.jpg",
+    "solution": "In case P it forms collinear force system. i.e., all the\nforce passes through the intersection point. Hence,\nthey can't balance couple (As they can't create\ncouple).",
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 A cylindrical disc of mass [latex] m=1 \\; kg  [/latex]and radius [latex] r=0.15\\;m [/latex] was spinning at [latex] \\omega =5 \\; rad/s[/latex] when it was\r\nplaced on a flat horizontal surface and released\r\n(refer to the figure). Gravity [latex]g[/latex] acts vertically\r\ndownwards as shown in the figure. The coefficient\r\nof friction between the disc and the surface is finite\r\nand positive. Disregarding any other dissipation\r\nexcept that due to friction between the disc and the\r\nsurface, the horizontal velocity of the center of the\r\ndisc, when it starts rolling without slipping, will be\r\n_________ m/s (round off to 2 decimal places).",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20221/q41.jpg",
+    "solution": "About point P there is no external torque. [Because Torques of N and 'mg' balances and\nfriction force pass through point P, hence its torque\nis zero][latex] [/latex] [latex]\\therefore \\left [ \\frac{d\\vec{L}}{dt} =\\vec{\\tau }_{ext}\\right ]_{\\text{about P}}=0 [/latex] where   [latex] \\vec{\\tau }=  [/latex] Torque and [latex]\\vec{L }= [/latex] Angular momentum [latex] \\begin{aligned}\n\\vec{L_i}&=\\vec{L_f}\\\\\nI_0\\omega &=I_0\\omega '+mvr\\\\\n\\frac{mr^2}{2}\\omega &=\\frac{mr^2}{2}\\omega'+m\\omega 'r^2\\\\\n\\therefore \\omega '&=\\frac{\\omega }{3}=\\frac{5}{3}\\\\\n\\Rightarrow v&=\\omega ' \\times r\\\\&=\\frac{5}{3} \\times 0.15=0.25 m/s\n\\end{aligned}[/latex]",
+    "min": "0.24",
+    "max": "0.26"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 Two rigid massless rods PR and RQ are joined at\nfrictionless pin-joint R and are resting on ground\nat P and Q, respectively, as shown in the figure. A\nvertical force F acts on the pin R as shown. When\nthe included angle [latex]\\theta \\lt 90^{\\circ} [/latex], the rods remain in static\nequilibrium due to Coulomb friction between the\nrods and ground at locations P and Q. At [latex]\\theta = 90^{\\circ} [/latex],\nimpending slip occurs simultaneously at points P\nand Q. Then the ratio of the coefficient of friction\nat Q to that at P [latex]P(\\mu _Q/\\mu _P)[/latex] is _________ (round off to\ntwo decimal places).",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20221/q40.jpg",
+    "solution": "By pythagoras theorem: [latex]PQ = 13 m[/latex] By Geometry: [latex] \\begin{aligned}\r\n5^2-PR^{'2}&=10^2-AR^{'2}\\\\\r\nQR'&=13-PR'\\\\\r\n\\Rightarrow PR'&=\\frac{25}{13}m\\\\\r\n\\Rightarrow QR'&=\\frac{144}{13}m\\\\\r\n\\Sigma M_P&=0\\\\\r\n\\Rightarrow F(PR')&=N_Q(PQ)\\\\\r\n\\Rightarrow N_Q&=\\frac{25}{169}F\\\\\r\n\\Sigma F&=0\\\\\r\n\\Rightarrow N_P&=F-\\frac{25}{169}F\\\\\r\n&=\\frac{144}{169}F\r\n\\end{aligned}[/latex] Now, [latex] f_P=\\mu _PN_P, f_Q=\\mu _QN_Q, \\Sigma F_x=0 [/latex] [latex] \\begin{aligned}\r\n\\mu _PN_P&=\\mu _QN_Q\\\\\r\n\\frac{\\mu _Q}{\\mu _P}&=\\frac{N_P}{N_Q}\\\\\r\n&=\\frac{144}{25}=5.76\r\n\\end{aligned}[/latex]",
+    "min": "5.7",
+    "max": "5.8"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 A structure, along with the loads applied on it, is\r\nshown in the figure. Self-weight of all the members\r\nis negligible and all the pin joints are frictionless. AE is a single member that contains pin C.\r\nLikewise, BE is a single member that contains\r\npin D. Members GI and FH are overlapping rigid\r\nmembers. The magnitude of the force carried by\r\nmember CI is ________ kN (in integer).",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20221/q39.jpg",
+    "solution": "By method of sections cut CI, EI and EF and prefer\nthe right hand side For equilibrium: [latex] \\Sigma M_E=0[/latex] Anticlockwise positive [latex] T_{CI}(1.5)-2(1.5)-4(6)=0[/latex] [latex] \\Rightarrow  T_{CI}=\\frac{3+24}{1.5}=18kN[/latex]",
+    "min": "18",
+    "max": "18"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 16 The plane of the figure represents a horizontal\nplane. A thin rigid rod at rest is pivoted without\nfriction about a fixed vertical axis passing through\nO. Its mass moment of inertia is equal to [latex]0.1 kg.cm^2[/latex]\nabout O. A point mass of 0.001 kg hits it normally\nat 200 cm/s at the location shown, and sticks to it.\nImmediately after the impact, the angular velocity\nof the rod is ___________ rad/s (in integer).",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20221/q21.jpg",
+    "solution": "Given, [latex] I_{rod} = 0.1 kgcm^2 = 1\\times  10^{-5} kg m^2 [/latex] [latex]m_{point} = 10^{-3} kg [/latex] [latex]  V_{point} = 2 m/s[/latex] [latex] \\omega _{o(rod)}=0 rad/s[/latex] [latex] [/latex] To find:  [latex] \\omega _{final}[/latex] Since there is no external moment involved about\nO. Therefore the Angular momentum of the system\nabout O in conserved. [latex] [/latex] [latex]\\begin{aligned}\n\\therefore \\; I_{rod}\\; \\omega _{initial}+(mV_0r)_{point}&=(I_{rod}+I_{point})\\omega _{final}\\\\\n10^{-3} \\times 2 \\times 0.1&=(10^{-5}+10^{-3}(10^{-1})^{2})\\omega _{final}\\\\\n2 \\times 10^{-4}&=2 \\times 10^{-5}\\omega _{final}\\\\\n\\omega _{final}&=10rad/s\n\\end{aligned} [/latex]",
+    "min": "10",
+    "max": "10"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 A block of negligible mass rests on a surface that is inclined at [latex]30^{\\circ}[/latex] to the horizontal plane as shown in the figure. When a vertical force of 900 N and a horizontal force of 750 N are applied, the block is just about to slide. The coefficient  of  static  friction  between  the  block  and surface is _____ (round off to two decimal places).",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20212/q51.jpg",
+    "solution": "After forces are applied block is just about move (mass is negligible). Calculate coefficient of friction [latex] \\begin{aligned} F_{H} &=750 \\mathrm{~N} \\\\ F_{V} &=900 \\mathrm{~N} \\\\ \\theta &=30^{\\circ} \\end{aligned}[/latex] [latex] \\begin{aligned} N &=900 \\cos \\theta+750 \\sin \\theta \\\\ N &=900 \\cos 30^{\\circ}+750 \\sin 30^{\\circ} \\\\ &=1154.4228 \\mathrm{~N} \\\\ F_{\\max }+900 \\sin 30^{\\circ} &=750 \\cos 30^{\\circ} \\\\ \\mu N &=199.519 \\\\ \\mu &=\\frac{199.519}{1154.4228} \\\\ \\mu &=0.1728 \\end{aligned}[/latex]",
+    "min": "0.16",
+    "max": "0.19"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 A plane truss [latex]PQRS(PQ=RS, \\text{and }\\angle PQR=90^{\\circ})[/latex]  is shown in the figure The forces in the members [latex]PR[/latex] and[latex]RS[/latex], respectively, are",
+    "options": {
+      "A": "[latex]F\\sqrt{2}[/latex] (tensile) and [latex]F[/latex] (tensile)",
+      "B": "[latex]F\\sqrt{2}[/latex] (tensile) and [latex]F[/latex] (compressive)",
+      "C": "[latex]F[/latex] (compressive) and [latex]F\\sqrt{2}[/latex] (compressive)",
+      "D": "[latex]F[/latex] (tensile) and [latex]F\\sqrt{2}[/latex] (tensile)"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20212/q14.jpg",
+    "solution": "Joint C, [latex] \\Sigma F_{H}=0 [/latex] [latex] \\begin{aligned} \\Rightarrow \\qquad F_{P R} \\sin 45^{\\circ}&=F \\\\ F_{P R}&=\\sqrt{2} F(\\text { Tensile }) \\\\ \\Rightarrow\\qquad F_{P R} \\cos 45^{\\circ}&=F_{R S}\\\\ \\end{aligned} [/latex] [latex] \\Sigma F_{V}=0[/latex] [latex]\\Rightarrow F_{RS}=[/latex]F(Comp.)",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 A circular disk of radius [latex]r[/latex] is confined to roll without slipping at P and Q as shown in\nthe figure. If the plates have velocities as shown, the magnitude of the angular velocity of the disk\nis",
+    "options": {
+      "A": "[latex]\\frac{v}{r}[/latex]",
+      "B": "[latex]\\frac{v}{2r}[/latex]",
+      "C": "[latex]\\frac{2v}{3r}[/latex]",
+      "D": "[latex]\\frac{3v}{2r}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20202/q6.jpg",
+    "solution": "For pure rolling [latex] \\begin{array}{l} v_{P}=v=(P R) \\omega \\quad \\ldots(i)\\\\ v_{Q}=2 v=(Q R) \\omega \\quad \\ldots(ii) \\end{array}[/latex] Divide by (ii) to (i), [latex] 2=\\frac{Q R}{P R} \\Rightarrow Q R=2(P R)[/latex] [latex] \\begin{aligned} P R+Q R &=2 r \\\\ P R+2(P R) &=2 r \\\\ P R &=\\frac{2}{3} r \\\\ \\text{From equation(i) }\\quad v &=\\left(\\frac{2}{3} r\\right) \\omega \\Rightarrow \\omega=\\frac{3 v}{2 r} \\end{aligned}[/latex]",
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 An attempt is made to pull a roller of weight W over a curb (step) by applying a horizontal\r\nforce F as shown in the figure. The coefficient of static friction between the roller and the ground (including the edge\r\nof the step) is [latex]\\mu[/latex]. Identify the correct free body diagram (FBD) of the roller when the\r\nroller is just about to climb over the step.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20202/q5.jpg",
+    "solution": "Weigh = W Note: (i) When the cylinder is about to make out of the curb, it will loose its contact at \npoint A, only contact will be at it B. (ii) At verge of moving out of curb, Roller will be in equation under W, F and contact\nforce from B and these three forces has to be concurrent so contact force from\nB will pass through C. (iii) Even the surfaces are rough but there will be no friction at B for the said condition. FBD",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 The members carrying zero force (i.e. zero-force members) in the truss shown in the\nfigure, for any load [latex]P \\gt 0[/latex] with no appreciable deformation of the truss (i.e. with no\nappreciable change in angles between the members), are",
+    "options": {
+      "A": "BF and DH only",
+      "B": "BF, DH and GC only",
+      "C": "BF, DH, GC, CD and DE only",
+      "D": "BF, DH, GC, FG and GH only"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20201/q5.jpg",
+    "solution": "If at any joint three forces are acting out of which\r\ntwo of them are collinear then force in third member\r\nmust be zero. For member ED look at joint E. Similarity look for other members.",
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 A ball of mass 3 kg moving with a velocity of 4 m/s undergoes a perfectly-elastic direct-central impact with a stationary ball of mass m. After the impact is over, the kinetic energy of the 3 kg ball is 6 J. The possible value(s) of m is/are",
+    "options": {
+      "A": "1 kg only",
+      "B": "6 kg only",
+      "C": "1 kg, 6 kg",
+      "D": "1 kg, 9 kg"
+    },
+    "image": null,
+    "solution": "Let [latex] V_{1}[/latex] is the speed of 3 kg mass after collision [latex] \\mathrm{V}_{2} [/latex] is the speed of m kg mass after collision [latex] \\begin{array}{l} e=I=\\frac{V_{2}-V_{1}}{4} \\\\ \\Rightarrow V_{2}-V_{1}=4 \\end{array}[/latex] By linear momentum conservation [latex] \\begin{array}{l} 3 \\times 4=3 V_{1}+m V_{2}\\\\ \\frac{1}{2} \\times 3 \\times V_{1}^{2}=6 \\\\ \\Rightarrow V_{1}=\\pm 2 \\end{array}[/latex] By using (1), (2) \\& (3) we get m = 1 kg (or) 9 kg",
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 The figure shows an idealized plane truss. If a horizontal force of 300 N is applied atpoint A, then the magnitude of the force produced in member CD is ______ N.",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20192/q20.jpg",
+    "solution": "Adopting method of joints and taking FBD of joint B [latex]\n F_{BC}[/latex] = 0 (zero force member) Further by taking FBD of joint C [latex] F_{CD}[/latex] = 0",
+    "min": "0",
+    "max": "0"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 A truss is composed of members AB, BC, CD, AD and BD, as shown in the figure. A vertical load of 10 kN is applied at point D. The magnitude of force (in kN) in the member BC is____",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20191/q38.jpg",
+    "solution": "BD is a zero force member F.B.D of joint C is shown below, For equilibrium of joint C [latex] \\begin{array}{l} \\sum \\mathrm{F}_{\\mathrm{y}}=0, \\quad \\mathrm{F}_{\\mathrm{CD}} \\cos 45=5 \\\\ \\quad \\therefore \\mathrm{F}_{\\mathrm{CD}}=\\frac{5}{\\cos 45} \\\\ \\sum \\mathrm{F}_{\\mathrm{x}=0}, \\quad \\mathrm{F}_{\\mathrm{BC}}=\\mathrm{F}_{\\mathrm{CD}} \\cos 45=\\frac{5}{\\cos 45} \\times \\cos 45=5 \\mathrm{kN} \\end{array}[/latex]",
+    "min": "4.98",
+    "max": "5.02"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 A car having weight W is moving in the direction as shown in the figure. The center of gravity (CG) of the car is located at height h from the ground, midway between the front and rear wheels. The distance between the front and rear wheels is l. The acceleration of the car is a, and acceleration due to gravity is g. The reactions on the front wheels ([latex]R_f[/latex]) and rear wheels ([latex]R_r[/latex]) are given by",
+    "options": {
+      "A": "[latex]R_f=R_r=\\frac{W}{2}-\\frac{W}{g}\\left ( \\frac{h}{l} \\right )a[/latex]",
+      "B": "[latex]R_f=\\frac{W}{2}+\\frac{W}{g}\\left ( \\frac{h}{l} \\right )a[/latex]; [latex]R_r=\\frac{W}{2}-\\frac{W}{g}\\left ( \\frac{h}{l} \\right )a[/latex]",
+      "C": "[latex]R_f=\\frac{W}{2}-\\frac{W}{g}\\left ( \\frac{h}{l} \\right )a[/latex]; [latex]R_r=\\frac{W}{2}+\\frac{W}{g}\\left ( \\frac{h}{l} \\right )a[/latex]",
+      "D": "[latex]R_f=R_r=\\frac{W}{2}+\\frac{W}{g}\\left ( \\frac{h}{l} \\right )a[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20191/q29.jpg",
+    "solution": "We analyse this problem in the frame of reference of car. F.B.D of car is shown below, As our frame of reference is accelerated hence, we have to apply a pseudo force 'ma' as shown above, where, f_{1} and f_{2} are friction forces on rear and front wheels respectively. For vertical equilibrium, [latex]\\begin{array}{l} \\mathrm{R}_{\\mathrm{r}}+\\mathrm{R}_{\\mathrm{f}}=\\mathrm{W} \\ldots(i)\\\\ \\Sigma \\mathrm{M}_{0}=0\\\\ W \\times \\frac{\\ell}{2}-\\frac{W a}{g} \\times h-R_{f} \\times \\ell=0 \\ldots(ii)\\\\ From (i) \\& (ii)\\\\ R_{f}=\\frac{W}{2}-\\frac{W}{g}\\left(\\frac{h}{\\ell}\\right) a \\\\ R_{r}=\\frac{W}{2}+\\frac{W}{g}\\left(\\frac{h}{\\ell}\\right) a \\end{array}[/latex]",
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 A block of mass 10 kg rests on a horizontal floor. The acceleration due to gravity is 9.81 [latex]m/s^2[/latex]. The coefficient of static friction between the floor and the block is 0.2. A horizontal force of 10 N is applied on the block as shown in the figure. The magnitude of force of friction (in N) on the block is___",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20191/q19.jpg",
+    "solution": "Maximum friction force, [latex] f_{\\max }=\\mu \\mathrm{N}=0.2 \\times 10 \\times 9.81=19.62 \\mathrm{N} [/latex] Applied force, [latex] P=10 \\mathrm{N} \\lt \\mathrm{f}_{\\max } [/latex] [latex] \\therefore [/latex]  Friction force = Applied force [latex] =10 \\mathrm{N} [/latex]",
+    "min": "10",
+    "max": "10"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 A force of 100 N is applied to the centre of a circular disc, of mass 10 kg and radius 1 m, resting on a floor as shown in the figure. If the disc rolls without slipping on the floor, the linear acceleration (in m/[latex]s^{2}[/latex] ) of the centre of the disc is ________ (correct to two decimal places).",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20182/q39.jpg",
+    "solution": "[latex]\\begin{aligned} \\mathrm{m} &=10 \\mathrm{kg}, R=1 \\mathrm{m} \\\\ I &=\\frac{m R^{2}}{2}=\\frac{m \\times 1^{2}}{2}=\\frac{m}{2} \\\\ 100-f_{s} &=m_{a} \\\\ 100-f_{s} &=10 \\mathrm{a} \\quad\\ldots(i)\\\\ f_{s} \\times R &=I \\alpha \\\\ f_{s} \\times 1 &=\\frac{m}{2} \\times \\alpha \\\\ f_{s} &=\\frac{m}{2} \\times a \\quad\\left [\\begin{aligned}a=R\\alpha=1\\times\\alpha \\\\a = \\alpha\\end{aligned} \\right] \\\\ f_{s} &=\\frac{m a}{2}\\quad\\ldots(ii)\\\\ \\text{By (i) and (ii):}\\quad 100-\\frac{m a}{2}&=10 a\\\\ 100-\\frac{10 \\times a}{2} &=10 a \\\\ 100-5 a &=10 a \\\\ 15 a &=100 \\\\ a &=\\frac{100}{15}=6.666 \\mathrm{m} / \\mathrm{s}^{2} \\end{aligned}[/latex]",
+    "min": "6.6",
+    "max": "6.7"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 A rigid rod of length 1 m is resting at an angle [latex]\\theta = 45^{\\circ}[/latex]  as shown in the figure. The end P is\ndragged with a velocity of  U = 5 m/s to the right.At the instant shown, the magnitude of\nthe velocity V (in m/s) of point Q as it moves along the wall without losing contact is",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "8",
+      "D": "10"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20182/q30.jpg",
+    "solution": "Treating like the elliptical trammeds. Rod motion (P, Q) (By sitting on [latex]I_{13} [/latex]) [latex] \\begin{array}{c} \\frac{V_{P}}{I_{13} P}=\\frac{V_{Q}}{I_{13} Q} \\\\ \\frac{5}{\\left(\\frac{1}{\\sqrt{2}}\\right)}=\\frac{V_{Q}}{\\left(\\frac{1}{\\sqrt{2}}\\right)} \\\\ V_{Q}=5 \\mathrm{m} / \\mathrm{s} \\end{array}[/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 In a rigid body in plane motion, the point R is accelerating with respect to point P at [latex]10\\angle 180^{\\circ}[/latex] [latex]\\frac{m}{s^{2}}[/latex]. If the instantaneous acceleration of point Q is zero, the acceleration [latex]\\left (in \\, \\frac{m}{s^{2}} \\right )[/latex] of point R is",
+    "options": {
+      "A": "[latex]8\\angle 233^{\\circ}[/latex]",
+      "B": "[latex]10\\angle 225^{\\circ}[/latex]",
+      "C": "[latex]10\\angle 217^{\\circ}[/latex]",
+      "D": "[latex]8\\angle 217^{\\circ}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20182/q29.jpg",
+    "solution": "As acceleration of point Q is zero, so this rigion body PQR is hinged at Q. [latex] \\vec{a}_{R P}=\\vec{a}_{R}-\\vec{a}_{P}[/latex] is given [latex]10 \\mathrm{m} / \\mathrm{s}^{2}[/latex] an angle of [latex]180^{\\circ},[/latex] that means only radial acceleration is hence at that instant and reference is P R [latex] \\begin{aligned} a_{R P} &=(R P) \\omega^{2}=10 \\\\ \\Rightarrow\\quad 20 \\omega^{2} &=10\\\\ \\Rightarrow \\quad \\omega&=\\frac{1}{\\sqrt{2}} \\end{aligned}[/latex] as [latex]\\alpha[/latex] of whole body remains same so point R has only radial acceleration at that instant [latex]\\begin{aligned} a_{R} &=Q R\\left(\\omega^{2}\\right) \\\\ &=16 \\times \\frac{1}{2}=8 \\mathrm{m} / \\mathrm{s}^{2} \\end{aligned}[/latex] and will be in the horizontal backward design, but our reference is only P R. So the angle of it from reference is [latex](180+\\theta) [/latex] [latex] \\begin{aligned} \\text { from } \\Delta \\mathrm{PQR}\\quad \\tan \\theta&=\\frac{12}{16} \\\\ \\Rightarrow \\quad \\theta&= 36.8698^{\\circ} \\end{aligned}[/latex] So, [latex]\\quad 180+36.8698=216.8698 ; 217^{\\circ} [/latex] So answer is [latex]8 \\angle 217^{\\circ}[/latex]",
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 30 A ball is dropped from rest from a height of 1 m in a frictionless tube as shown in the figure. If the tube profile is approximated by two straight lines (ignoring the curved portion), the total distance travelled (in m) by the ball is __________ (correct to two decimal places).",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20182/q25.jpg",
+    "solution": "MARKS TO ALL [latex]\\begin{aligned} \\frac{B C}{A B} &=\\sin 45^{\\circ} \\\\ A B &=\\frac{B C}{\\sin 45^{\\circ}}=\\frac{1}{\\sin 45^{\\circ}}=1.4142 \\mathrm{m} \\\\ \\text { Total travel, } O A+A B &=1+1.4142 \\mathrm{m}=2.414 \\mathrm{m} \\end{aligned}[/latex]",
+    "min": "2.414",
+    "max": "2.414"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 Block P of mass 2 kg slides down the surface and has a speed 20 m/s at the lowest point, Q, where the local radius of curvature is 2 m as shown in the figure. Assuming  [latex]g=10 m/s^{2}[/latex], the normal force (in N) at Q is _______ (correct to two decimal places).",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20181/q54.jpg",
+    "solution": "[latex]m = 2 kg,\\; g = 10m/s^{2}[/latex] FBD of mass P at point Q [latex] N-m g=m a_{r} \\quad [/latex] at no slip condition [latex] N=m g+\\frac{m v^{2}}{R}=2 \\times 10+\\frac{2 \\times 20 \\times 20}{2}=420 \\mathrm{N}[/latex]",
+    "min": "419",
+    "max": "421"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 A point mass is shot vertically up from ground level with a velocity of 4 m/s at time, [latex]t_0[/latex]. It loses 20% of its impact velocity after each collision with the ground. Assuming that the acceleration due to gravity is [latex]10m/s^{2}[/latex]  and that air resistance is negligible, the mass stops bouncing and comes to complete rest on the ground after a total time (in seconds) of",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "[latex]\\infty[/latex]"
+    },
+    "image": null,
+    "solution": "[latex]\\begin{aligned} (1) \\rightarrow \\qquad t&=? \\\\ v&=u+a t \\\\ 0&=4-10 t \\\\ t&=\\frac{4}{10}=0.4 s \\\\ (2) \\rightarrow \\qquad t^{\\prime}&=? \\\\ u^{\\prime}&=0.8 \\times u \\\\ &=0.8 \\times 4=3.2 \\mathrm{m} / \\mathrm{s} \\\\ \\mathrm{v}^{\\prime}&=U^{\\prime}+\\mathrm{al}^{\\prime} \\\\ 0&=3.2-10 t^{\\prime} \\\\ t^{\\prime}&=\\frac{3.2}{10}=0.32 \\mathrm{s} \\\\ (3) \\rightarrow \\qquad t^{\\prime \\prime}&=? \\\\ U^{\\prime \\prime} &=0.8 u^{\\prime} \\\\ &=0.8 \\times 3.2=2.56 \\mathrm{m} / \\mathrm{s} \\\\ V^{\\prime \\prime} &=U^{\\prime \\prime}+a t^{\\prime} \\\\ 0 &=2.56-10 t^{\\prime \\prime} \\\\ t^{\\prime \\prime} &=0.256 s \\end{aligned}[/latex] So, [latex]t, t^{\\prime}, t^{\\prime \\prime}[/latex] are forming a GP series [latex] \\begin{array}{l} \\text{So, total time }=2\\left(t+t^{\\prime}+t^{\\prime \\prime}+\\ldots . .0\\right)\\\\ =2[0.4+0.32+0.256+\\ldots .0] \\\\ =2 \\times \\frac{0.4}{1-0.8}=2 \\times 2=4 s \\end{array}[/latex]",
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 A bar of uniform cross section and weighing 100 N is held horizontally using two massless and inextensible strings S1 and S2 as shown in the figure. The tension of the strings are",
+    "options": {
+      "A": "[latex]T_{1} = 100 N \\; and \\; T_{2} = 0 N[/latex]",
+      "B": "[latex]T_{1} = 0 N  \\; and \\; T_{2} = 100 N[/latex]",
+      "C": "[latex]T_{1} = 75 N  \\; and \\; T_{2} = 25 N[/latex]",
+      "D": "[latex]T_{1} = 25 N  \\; and \\; T_{2} = 75 N[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20181/q5.jpg",
+    "solution": "[latex]\\begin{aligned} T_{1}+T_{2} &=100 \\mathrm{N} \\qquad \\ldots(i)\\\\ \\Sigma M_{A} &=0 \\\\ T_{2} \\cdot \\frac{L}{2} &=100 \\times \\frac{L}{2} \\\\ \\therefore \\qquad T_{2} &=100 \\mathrm{N} \\\\ T_{1} &=0 \\mathrm{N} \\end{aligned}[/latex]",
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 The rod PQ of length [latex]L=\\sqrt{2}[/latex] m,and uniformly distributed mass of M=10 kg, is released from rest at the position shown in the figure. The ends slide along the frictionless faces OP and OQ. Assume acceleration due to gravity, [latex]g=10 \\:m/s^{2}[/latex].  The mass moment of inertia of the rod about its centre of mass and an axis perpendicular to the plane of the figure is [latex](ML^{2}/12)[/latex]. At this instant, the magnitude of angular acceleration (in radian/[latex]s^{2}[/latex] ) of the rod is _____",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20172/q38.jpg",
+    "solution": "[latex]\\begin{aligned} L&=\\sqrt{2} m \\\\ M&=10 \\mathrm{kg}\\\\ g&=10 \\mathrm{m} / \\mathrm{s}^{2} \\\\ \\end{aligned}[/latex] Both the surfaces are smooth [latex] \\begin{aligned} \\ddot{\\theta} &=\\alpha=\\frac{3 g}{2 L} \\sin \\theta \\\\ \\alpha &=\\frac{3 \\times 10}{2 \\times \\sqrt{2}} \\sin 45^{\\circ} \\quad\\left[\\because \\theta=45^{\\circ}\\right] \\\\ a &=\\frac{3 \\times 10}{2 \\times \\sqrt{2}} \\times \\frac{1}{\\sqrt{2}}=\\frac{30}{4} \\\\ &=7.5 \\mathrm{rad} / \\mathrm{s}^{2} \\end{aligned}[/latex]",
+    "min": "7.25",
+    "max": "7.75"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Two disks A and B with identical mass (m) and radius (R) are initially at rest. They roll down from the top of identical inclined planes without slipping. Disk A has all of its mass concentrated at the rim, while Disk B has its mass uniformly distributed. At the bottom of the plane, the ratio of velocity of the center of disk A to the velocity of the center of disk B is.",
+    "options": {
+      "A": "[latex]\\sqrt{\\frac{3}{4}}[/latex]",
+      "B": "[latex]\\sqrt{\\frac{3}{2}}[/latex]",
+      "C": "1",
+      "D": "[latex]\\sqrt{2}[/latex]"
+    },
+    "image": null,
+    "solution": "[latex]m_{A}=m_{B}=m[/latex] Outer circumferential radius of both disc A and B is also same i.e. R [latex] \\begin{aligned} I_{A}&=m R^{2} \\\\ I_{B}&=\\frac{m R^{2}}{2} \\end{aligned}[/latex] [latex] \\frac{V_{A}}{V_{B}} [/latex] at bottom of plane =? [latex] m g h=(K \\cdot E) [/latex] of disc [latex]A=K \\cdot E [/latex] of disc B [latex] \\begin{aligned} \\frac{1}{2} m V_{A}^{2}+\\frac{1}{2} I_{A} \\omega_{A}^{2} &=\\frac{1}{2} m V_{B}^{2}+\\frac{1}{2} I_{B} \\omega_{B}^{2} \\\\ \\frac{1}{2} m V_{A}^{2}+\\frac{1}{2} m R^{2} \\frac{V_{A}^{2}}{R^{2}} &=\\frac{1}{2} m V_{B}^{2}+\\frac{1}{2} \\frac{m R^{2}}{2} \\times \\frac{V_{B}^{2}}{R^{2}} \\\\ \\frac{V_{A}^{2}}{2}+\\frac{V_{A}^{2}}{2} &=\\frac{V_{B}^{2}}{2}+\\frac{V_{B}^{2}}{4} \\\\ V_{A}^{2} &=\\frac{3}{4} V_{B}^{2} \\\\ \\frac{V_{A}}{V_{B}} &=\\sqrt{\\frac{3}{4}} \\end{aligned}[/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 The following figure shows the velocity-time plot for a particle travelling along a straight line. The distance covered by the particle from t=0 to t=5s is _______ m.",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20171/Q17.jpg",
+    "solution": "V-t curve Distance travelled is asked from t=0 to 5 s [latex] \\begin{aligned} V &=\\frac{d S}{d t} \\\\ d S &=V d t \\\\ S &=\\int_{0}^{5} V d t \\end{aligned}[/latex] Area of V-t graph plotted on time axis from 0 to 5s [latex] \\begin{aligned} S &=\\frac{1}{2} \\times 1 \\times 1+1 \\times 1 \\times \\frac{1}{2}[1+4] \\times 1 \\\\ & +\\frac{1}{2}[4+2] \\times 2 \\\\ &=10 \\mathrm{m} \\end{aligned}[/latex]",
+    "min": "10",
+    "max": "10"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 A particle of unit mass is moving on a plane. Its trajectory, in polar coordinates, is given by r(t)=[latex]t^{2}[/latex],[latex]\\theta (t)=t[/latex], where t is time. The kinetic energy of the particle at time t=2 is",
+    "options": {
+      "A": "4",
+      "B": "12",
+      "C": "16",
+      "D": "24"
+    },
+    "image": null,
+    "solution": "[latex]\\begin{aligned} r &=t^{2}: \\theta=t \\\\ \\mathrm{K.E} &=\\frac{1}{2} m v^{2}=? \\text { at } t=2 \\mathrm{sec} \\\\ \\Rightarrow m &=1 \\mathrm{kg} \\\\ \\vec{V} &=r \\omega(\\hat{t})+\\frac{d r}{d t} \\dot{r}=t^{2} \\times 1(\\hat{t})+2 t \\hat{r} \\\\ \\therefore \\frac{d \\theta}{d t}&=\\omega=1\r\n\\\\ \\vec{V} &=t^{2}(\\hat{t})+2 t(\\hat{r}) \\\\ \\text{at }\\qquad t &=2 s \\\\ \\vec{V} &=4(\\hat{t})+4(\\hat{r}) \\\\ |\\vec{V}| &=\\sqrt{16+16}=\\sqrt{32} \\\\ K.E. &=\\frac{1}{2}mv^{2}=\\frac{1}{2}\\times1\\times32=16 \\end{aligned}[/latex]",
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 A rigid rod (AB) of length [latex]L=\\sqrt{2}[/latex] m is undergoing translational as well as rotational motion in the x-y plane (see the figure). The point A has the velocity [latex]V_{1}=(\\hat{i}+2\\hat{j}) m/s[/latex]  The end B is constrained to move only along the x direction The magnitude of the velocity [latex]V_{2}[/latex]  (in m/s) at the end B is __________",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20163/q32.jpg",
+    "solution": "[latex] \\begin{aligned} \\sqrt{2} \\sin 45^{\\circ} &=1 \\mathrm{m} \\\\ \\tan \\theta &=\\frac{1}{2} \\\\ \\theta &=\\tan ^{-1} 0.5=26.5651^{\\circ} \\\\ \\alpha &=90^{\\circ}-\\left(45^{\\circ}+\\theta\\right)=18.4349^{\\circ} \\\\ \\beta &=90^{\\circ}-\\left(45^{\\circ}+\\alpha\\right)=26.5651^{\\circ} \\\\ \\frac{V_{A}}{I_{A}} &=\\frac{V_{B}}{I_{B}} \\\\ V_{B} &=\\frac{V_{A} \\cdot I_{B}}{I_{A}}=\\sqrt{5} \\\\ \\cos \\beta &=\\frac{1}{I_{A}} \\\\ I_{A} &=\\frac{1}{\\cos 26.5651}=1.118 \\mathrm{m} \\\\ I_{C} &=\\sqrt{\\left(I_{A}\\right)^{2}-1^{2}} \\\\ &=\\sqrt{(1.118)^{2}-1}=0.5 \\mathrm{m} \\\\ \\frac{V_{A}}{I_{A}} &=\\frac{V_{B}}{I_{B}} \\\\ V_{B} &=\\frac{\\sqrt{3} \\times[1+0.5]}{1.118}=3 \\mathrm{m} / \\mathrm{s} \\end{aligned}[/latex]",
+    "min": "2.9",
+    "max": "3.1"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 A circular disc of radius 100 mm and mass 1 kg, initially at rest at position  A, rolls without slipping down a curved path as shown in figure. The speed v of the disc when it reaches position B is _________ m/s. Acceleration due to gravity g = 10 m/[latex]s^{2}[/latex].",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20163/q31.jpg",
+    "solution": "Loss in P.E. = Gain in rotational K . E + gain in translational K.E. [latex] \\begin{aligned} m g H &=\\frac{1}{2} I \\omega^{2}+\\frac{1}{2} m v^{2} \\\\ v &=r \\omega \\\\ \\omega &=\\frac{v}{r} \\\\ m g H &=\\frac{1}{2} \\frac{m r^{2}}{2} \\times\\left(\\frac{v}{r}\\right)^{2}+\\frac{1}{2} m v^{2} \\\\ 10 \\times 30 &=\\frac{v^{2}}{4}+\\frac{v^{2}}{2} \\\\ 10 \\times 30 \\times 4 &=v^{2}+2 v^{2} \\\\ 3 v^{2} &=30 \\times 10 \\times 4 \\\\ v^{2} &=400 \\\\ \\text{or} \\qquad v &=20 \\mathrm{m} / \\mathrm{s} \\end{aligned}[/latex]",
+    "min": "19.9",
+    "max": "20.1"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 An inextensible massless string goes over a frictionless pulley. Two weights of 100 N and 200 N are attached to the two ends of the string. The weights are released from rest, and start moving due to gravity. The tension in the string (in N) is __________",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20163/q30.jpg",
+    "solution": "Tension in string [latex] \\begin{aligned} &=\\left[\\frac{2 m_{1} m_{2}}{m_{1}+m_{2}}\\right] g \\\\ &=\\left[\\frac{2 \\times \\frac{100}{g} \\times \\frac{200}{g}}{\\frac{100}{g}+\\frac{200}{g}}\\right] g \\\\ &=\\left[\\frac{\\frac{2 \\times 100 \\times 200}{g^{2}}}{\\frac{(100+200)}{g}}\\right] \\times g \\\\ &=\\frac{2 \\times 100 \\times 200}{300} \\\\ &=\\frac{400}{3}=133.33 \\mathrm{N} \\end{aligned}[/latex]",
+    "min": "130",
+    "max": "135"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 A rigid link PQ is undergoing plane motion as shown in the figure ([latex]V_{P}[/latex] and [latex]V_{Q}[/latex] are non-zero). [latex]V_{PQ}[/latex] is the relative velocity of point Q with respect to point P. Which one of the following is TRUE?",
+    "options": {
+      "A": "[latex]V_{PQ}[/latex]  has components along and perpendicular to PQ",
+      "B": "[latex]V_{PQ}[/latex]  has only one component directed from P to Q",
+      "C": "[latex]V_{PQ}[/latex]  has only one component directed from Q to P",
+      "D": "[latex]V_{PQ}[/latex]  has only one component perpendicular to PQ"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20163/q9.jpg",
+    "solution": "To find relative velocity direction of [latex] V_{p} [/latex] is reversed and placed at fail of  [latex]\\vec{V}_{Q} [/latex] Ans. (D) Resultant [latex] V_{PQ}[/latex]  is perpendicular to link  P  Q.",
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 A force F is acting on a bent bar which is clamped at one end as shown in the figure. The CORRECT free body diagram is",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20163/q6.jpg",
+    "solution": "When we draw a free body diagram we remove all the supports and force applied due to that support are drawn and force or moment will apply in that manner so that it resists forces in any direction as well as any tendency of rotation. Option (B) is wrong because the ground should not be shown in FBD as the forces due to ground are already depicted. Option (C) is wrong because x-component is not shown. Option (D) is wrong because the rotation due to the force acting eccentrically causes moment which is not shown.",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 In the figure, the load P = 1 N, length L = 1 m, Young's modulus E = 70 [latex]GP_{a}[/latex], and the cross-section of the links is a square with dimension 10 mm x 10 mm. All joints are pin joints. The stress (in Pa) in the link AB is ___________ (Indicate compressive stress by a negative sign and tensile stress by a positive sign.)",
+    "options": {
+      "A": "-1"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20162/q34.jpg",
+    "solution": "[latex] \\begin{aligned} \\Sigma F_{v}&=0 \\\\ and \\quad \\Sigma F_{x}&=0[\\text { At equilibrium }]\\\\ F_{B C} \\sin 45^{\\circ}&=F_{A B}+P \\sin 45^{\\circ} \\\\ \\text { for } \\Sigma F_{v}&=0 \\\\ F_{B C} \\cos 45^{\\circ} &=P \\cos 45^{\\circ} \\text { for } \\Sigma F_{x}=0 \\\\ \\therefore \\quad F_{B C}&=P \\\\ P \\sin 45^{\\circ}&=F_{A B}+P \\sin 45^{\\circ} \\\\ \\therefore F_{A B} &=0 \\\\ \\sigma_{A B} &=0 \\end{aligned}[/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 A system of particles in motion has mass center G as shown in the figure. The particle i has mass mi and its position with respect to a fixed point O is given by the position vector [latex]r_{i}[/latex] . The position of the particle with respect to G is given by the vector [latex]\\rho _{i}[/latex] . The time rate of change of the angular momentum of the system of particles about G is (The quantity [latex]\\ddot{\\rho }_{i}[/latex]  indicates second derivative of [latex]{\\rho }_{i}[/latex]  with respect to time and likewise for ).",
+    "options": {
+      "A": "[latex]\\Sigma_{i}r_{i} \\times m_{i}\\ddot{\\rho }_{i}[/latex]",
+      "B": "[latex]\\Sigma_{i}\\rho _{i} \\times m_{i}\\ddot{r}_{i}[/latex]",
+      "C": "[latex]\\Sigma_{i} r_{i} \\times m_{i}\\ddot{r}_{i}[/latex]",
+      "D": "[latex]\\Sigma_{i} \\rho _{i} \\times m_{i}\\ddot{\\rho }_{i}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20162/q31.jpg",
+    "solution": "Time rate of change of angular momentum [latex] \\begin{aligned} &=\\frac{d \\vec{L}}{d t} \\\\ \\bar{L}_{G} &=\\vec{P} \\times \\vec{r} \\end{aligned}\\\\ \\;[\\text{For particle }m_{i} \\text{ about G }]\\\\ \\begin{aligned} \\Rightarrow \\quad G & =m_{i} \\times \\vec{v}_{i} \\times \\vec{P}_{r} \\\\ & \\vec{P}=m_{i} \\times \\vec{V}_{i} \\\\ \\text { But } & \\vec{V}_{i}=\\frac{d}{d t} \\vec{r}_{i}=\\dot{r}_{i} \\end{aligned}[/latex] [latex] V_{i}= [/latex] rate of change o positions Position vector is given with respect to \"0\" [latex] \\begin{aligned} \\underset{{L}_{G}}{\\rightarrow} &=m_{i} i_{i} \\vec{\\rho}_{i} \\\\ \\text { Now } \\frac{d}{d t} L_{G} &=\\frac{d}{d t}\\left[p_{i} m_{i} f_{i}\\right] \\\\ &=\\rho_{i} m_{i} \\ddot{r}_{i} \\end{aligned}[/latex] For whole body [latex] \\frac{d L}{d t}=\\sum \\frac{d L_{G}}{d t}=\\sum \\rho_{i} m_{i} \\ddot{r}_{i}[/latex]",
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 A mass of 2000 kg is currently being lowered at a velocity of 2 m/s from the drum as shown in the figure. The mass moment of inertia of the drum is 150 Kg-[latex]m^{2}[/latex]  On applying the brake, the mass is\nbrought to rest in a distance of 0.5 m. The energy absorbed by the brake (in kJ) is __________",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20162/q30.jpg",
+    "solution": "[latex] E_{\\text {intial }}-E_{\\text {brake }}=E_{\\text {final }} [/latex] [latex] \\frac{1}{2}l\\omega_{1}^{2}+\\frac{1}{2} m v_{1}^{2}+m g H_{1}-E_{\\mathrm{brake}}[/latex] [latex] =\\frac{1}{2} I \\omega_{2}^{2}+\\frac{1}{2} m v_{2}^{2}+m g H_{2} [/latex] [latex] E_{\\mathrm{brake}}=\\frac{1}{2} I \\omega_{1}^{2}+\\frac{1}{2} m v_{1}^{2}+m g\\left(H_{1}-H_{2}\\right) [/latex] [latex] H_{1}-H_{2}=0.5 \\mathrm{m} [/latex] [latex] E_{\\mathrm{brake}}=\\frac{1}{2} I \\omega_{1}^{2}+m g h+\\frac{1}{2} m v_{1}^{2} [/latex] [latex] =\\frac{\\frac{1}{2} \\times 150 \\times 2^{2}+2000 \\times 9.81 \\times 0.5+\\frac{1}{2} \\times \\frac{2000 \\times 2^{2}}{1000}}{1000} [/latex] [latex] =14.11 \\mathrm{kJ}[/latex]",
+    "min": "14.1",
+    "max": "14.3"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 A point mass having mass M is moving with a velocity V at an angle [latex]\\theta[/latex] to the wall as shown in the figure. The mass undergoes a perfectly elastic collision with the smooth wall and rebounds. The total change (final minus initial) in the momentum of the mass is",
+    "options": {
+      "A": "-2MV [latex]\\cos \\theta \\hat{J}[/latex]",
+      "B": "2MV [latex]\\sin \\theta \\hat{J}[/latex]",
+      "C": "2MV [latex]\\cos \\theta \\hat{J}[/latex]",
+      "D": "-2MV [latex]\\sin \\theta \\hat{J}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20162/q6.jpg",
+    "solution": "[latex] \\begin{aligned} P_{1}&=M V \\cos \\theta \\hat{i}+M V \\sin \\theta \\hat{j} \\\\ P_{f}&=M V \\cos \\theta \\hat{i}-M V \\sin \\theta \\hat{j} \\\\ P_{f}-P_{i}&=-2 M V \\sin \\theta \\hat{j} \\end{aligned}[/latex]",
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 A two-member truss PQR is supporting a load W. The axial forces in members PQ and QR are respectively",
+    "options": {
+      "A": "2W  tensile and [latex]\\sqrt{3}W[/latex] compressive",
+      "B": "[latex]\\sqrt{3}W[/latex]  tensile and 2W  compressive",
+      "C": "[latex]\\sqrt{3}W[/latex]  compressive and 2W  tensile",
+      "D": "2W  compressive and [latex]\\sqrt{3}W[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20161/q31.jpg",
+    "solution": "[latex] \\begin{aligned} F_{O R} \\cos 60^{\\circ}+W&=0 \\\\ F_{Q R} &=-\\frac{W}{\\cos 60}=-2 W \\\\ &=2 W( \\text { compressive) }\\\\ \\Sigma F_{H}=0 & \\\\ \\therefore F_{O P}+F_{O B} \\cos 30^{\\circ}&=0 \\\\ F_{O P}&=-F_{P R} \\cos 30^{\\circ} \\\\ &=-(-2 W) \\cos 30^{\\circ} \\\\ F_{O P}&=+2 W \\times \\sqrt{\\frac{3}{2}}\\\\&=+W \\sqrt{3} \\text { (tensile) } \\end{aligned}[/latex]",
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 A block of mass m rests on an inclined plane and is attached by a string to the wall as shown in the figure. The coefficient of static friction between the plane and the block is 0.25. The string can withstand a maximum force of 20 N. The maximum value of the mass (m) for which the string will not break and the block will be in static equilibrium is ____________ kg. Take [latex]\\cos\\theta =0.8[/latex]  and [latex]\\sin\\theta =0.6[/latex] Acceleration due to gravity [latex]g=10m/s^{2}[/latex]",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20161/q30.jpg",
+    "solution": "[latex]M_{\\text {static }} =0.25 [/latex] [latex] F_{max} =20 \\mathrm{N}[/latex] Balancing force along the inclined plane [latex] \\begin{aligned} \\Rightarrow \\quad T+f&=m g \\sin \\theta \\\\ f &=\\mu \\mathrm{N} \\\\ N &=m g \\cos \\theta \\end{aligned} [/latex] (balancing forces perpendicular to the inclined plane) [latex] 20+0.25 \\times m g \\cos \\theta=m g \\sin \\theta [/latex] [latex] 20+0.25 \\times m \\times 10 \\times 0.8=m \\times 10 \\times 0.6 [/latex] [latex] 20=4 m [/latex] [latex] \\therefore \\quad m=5 \\mathrm{kg}[/latex]",
+    "min": "4.95",
+    "max": "5.05"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 A point mass M is released from rest and slides down a spherical bowl (of radius R) from a height H as shown in the figure below. The surface of the bowl is smooth (no friction). The velocity of the mass at the bottom of the bowl is",
+    "options": {
+      "A": "[latex]\\sqrt{gH}[/latex]",
+      "B": "[latex]\\sqrt{2gR}[/latex]",
+      "C": "[latex]\\sqrt{2gH}[/latex]",
+      "D": "0"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20161/q7.jpg",
+    "solution": "Loss of P.E. = Gain in K.E. [latex] \\begin{aligned} M g h &=\\frac{1}{2} M v^{2} \\\\ v &=\\sqrt{2 g H} \\end{aligned}[/latex]",
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 A rigid ball of weight 100 N is suspended with the help of a string. The ball is pulled by a horizontal force F such that the string makes an angle of [latex]30^{\\circ}[/latex]  with the vertical. The magnitude of force F (in N) is __________",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20161/q6.jpg",
+    "solution": "Applying Lami's theorem [latex] \\begin{aligned} \\frac{100}{\\sin 120^{\\circ}} &=\\frac{F}{\\sin \\left(60^{\\circ}+90^{\\circ}\\right)}=\\frac{T}{\\sin 90^{\\circ}} \\\\ F &=\\frac{100 \\sin 150^{\\circ}}{\\sin 120^{\\circ}} \\\\ &=57.74 \\mathrm{N} \\\\ \\end{aligned}[/latex]",
+    "min": "55",
+    "max": "60"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 A bullet spins as the shot is fired from a gun. For this purpose, two helical slots as shown in the figure are cut in the barrel. Projections A and B on the bullet engage in each of the slots. Helical slots are such that one turn of helix is completed over a distance of 0.5 m. If velocity of bullet when it exits the barrel is 20 m/s, its spinning speed in rad/s is ________",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20153/q45.jpg",
+    "solution": "One turn of helix is completed over a distance of 0.5m So bullet spins [latex] 2 \\pi[/latex] radian angle in 0.5m. As speed of bullet is [latex]20 \\mathrm{m} / \\mathrm{s} [/latex], so bullet completes a distance of [latex]20 \\mathrm{m} [/latex] in [latex]1 \\mathrm{sec} .[/latex] In [latex]20 \\mathrm{m} [/latex] bullet spins through [latex]\\frac{2 \\pi}{0.5} \\times 20[/latex] radian So, angular velocity [latex]=\\frac{\\frac{2 \\pi \\times 20}{0.5}}{1}=80 \\pi [/latex] [latex] =251.3274 \\;\\mathrm{rad} / \\mathrm{s}[/latex]",
+    "min": "251",
+    "max": "252"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 Figure shows a wheel rotating about [latex]O_{2}[/latex]. Two points A and B located along the radius of wheel have speeds of 80 m/s and 140 m/s respectively. The distance between the points A and B is 300 mm. The diameter of the wheel (in mm) is ________",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20153/q27.jpg",
+    "solution": "[latex]\\begin{aligned} \\omega_{A} &=\\omega_{B} \\\\ \\frac{V_{A}}{R-0.3} &=\\frac{V_{B}}{R} \\\\ \\frac{80}{R-0.3} &=\\frac{140}{R} \\\\ 80 R &=140 R-42 \\\\ 42 &=60 R \\\\ R &=0.7 \\mathrm{m} \\\\ \\therefore \\qquad D &=2 R=1.4 \\mathrm{m}=1400 \\mathrm{mm} \\end{aligned}[/latex]",
+    "min": "1390",
+    "max": "1400"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 A weight of 500 N is supported by two metallic ropes as shown in the figure. The values of tensions [latex]T_{1}[/latex]  and [latex]T_{2}[/latex]  are respectively",
+    "options": {
+      "A": "433 N and 250 N",
+      "B": "250 N and 433 N",
+      "C": "353.5 N and 250 N",
+      "D": "250 N and 353.5 N"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20153/q18.jpg",
+    "solution": "Using Lami's theorem, [latex] \\frac{T_{1}}{\\sin 120^{\\circ}}=\\frac{500}{\\sin 90^{\\circ}}[/latex] [latex] \\therefore \\quad T_{1}=500 \\sin 120^{\\circ} [/latex] [latex] T_{1}=433 \\mathrm{N} [/latex] [latex] \\frac{T_{2}}{\\sin \\left(360^{\\circ}-\\left(120^{\\circ}+90^{\\circ}\\right)\\right)}=\\frac{500}{\\sin 90^{\\circ}} [/latex] [latex] \\Rightarrow \\quad T_{2}=250 \\mathrm{N}[/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 For the same material and the mass, which of the following configurations of flywheel will have maximum mass moment of inertia about the axis of rotation OO' passing through the center of gravity.",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20153/q2.jpg",
+    "solution": "[latex]I=m r^{2} [/latex] Here for the rimmed wheel, the mass m will be most far away distribution from the axis 0-0. [latex]\\therefore \\;(B) [/latex] is the correct answer.",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 For the truss shown in the figure, the magnitude of the force (in kN) in the member SR is",
+    "options": {
+      "A": "10",
+      "B": "14.14",
+      "C": "20",
+      "D": "28.28"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20152/q32.jpg",
+    "solution": "[latex]\\begin{aligned} \\Sigma M_{P} &=0 \\\\ 30 \\times 2 &=R_{O} \\times 3 \\\\ R_{O} &=20 \\mathrm{N} \\\\ R_{P} &=10 \\mathrm{N} \\end{aligned}[/latex] Using method of section Considering moment about point T, which is zero [latex] \\begin{aligned} R_{Q} \\times 1 &=F_{R S} \\times 1 \\\\ F_{B S} &=R_{Q}=20 \\mathrm{N} \\text { compressive } \\end{aligned}[/latex]",
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 56 The initial velocity of an object is 40 m/s. The acceleration a of the object is given by the following expression: a=-0.1v, where v is the instantaneous velocity of the object. The velocity of the object after 3 seconds will  be _______",
+    "options": null,
+    "image": null,
+    "solution": "[latex]\\begin{aligned} u &=40 \\mathrm{m} / \\mathrm{s} \\\\ a &=-0.1 \\mathrm{v} \\\\ V &=? \\\\ t &=3 \\mathrm{s} \\\\ a &=\\frac{d v}{d t}=-0.1 \\mathrm{v} \\\\ \\int_{40}^{v} \\frac{d v}{v} &=\\int_{0}^{3}-0.1 d t \\\\\\;[\\ln v]_{40}^{v} &=-0.1[t] \\\\ \\ln v-\\ln 40 &=-0.1[3.0]=-0.3 \\\\ \\ln v &=\\ln 40-0.3 \\\\ \\ln v &=3.38887 \\\\\\text{or}\\qquad v &=e^{3.38887}=29.63 \\mathrm{m} \\mathrm{s} \\end{aligned}[/latex]",
+    "min": "29.5",
+    "max": "29.7"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 57 A small ball of mass 1 kg moving with a velocity of 12 m/s undergoes a direct central impact with a stationary ball of mass 2 kg. The impact is perfectly elastic. The speed (in m/s) of 2 kg mass ball after the impact will be ____________",
+    "options": null,
+    "image": null,
+    "solution": "1. Conserving linear momentum [latex] \\begin{aligned} 1 \\times 12 &=1 \\times V_{1}+2 \\times V_{2} \\\\ 12 &=V_{1}+2 V_{2}\\qquad \\ldots(i) \\end{aligned}[/latex] 2. Velocity of approach = Velocity of seperation [latex] 12-0=v_{2}-v_{1}[/latex] [latex] V_{2}-V_{1}=12 \\qquad \\ldots(ii)[/latex] From (i) and (ii), we get [latex] v_{2}=8 \\mathrm{m} / \\mathrm{s}[/latex]",
+    "min": "7.8",
+    "max": "8.2"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 A mobile phone has a small motor with an eccentric mass used for vibrator mode. The location of the eccentric mass on motor with respect to center of gravity (CG) of the mobile and the rest of the dimensions of the mobile phone are shown. The mobile is kept on a flat horizontal surface. Given in addition that the eccentric mass = 2 grams, eccentricity = 2.19 mm, mass of the mobile = 90 grams, g = 9.81 [latex]m/s^{2}[/latex] . Uniform speed of the motor in RPM for which the mobile will get just lifted off the ground at the end Q is approximately",
+    "options": {
+      "A": "3000",
+      "B": "3500",
+      "C": "4000",
+      "D": "4500"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20151/q42.jpg",
+    "solution": "[latex]\\begin{aligned} \\Sigma M_{P} &=0 \\text { [moment about } P=0] \\\\ m g \\times 6 &=m_{0}\\left(2.19 \\times 10^{-3}\\right)\\left(\\omega^{2}\\right) \\times[9] \\\\ 90 \\times 9.81 \\times 6 &=2\\left(2.19 \\times 10^{-3}\\right) \\omega^{2} \\times 9 \\\\ 366.5836 &=\\omega=\\frac{2 \\pi \\mathrm{N}}{60} \\\\ \\text { or } \\quad N &=3500.6158 \\mathrm{rpm} \\end{aligned}[/latex]",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 A pinion with radius [latex]r_{1}[/latex] , and inertia [latex]I_{1}[/latex]  is driving a gear with radius [latex]r_{2}[/latex]  and inertia [latex]I_{2}[/latex] . Torque \n[latex]\\tau _{1}[/latex]  is applied on pinion. The following are free body diagrams of pinion and gear showing important forces (F1 and F2) of interaction. Which of the following relations hold true?",
+    "options": {
+      "A": "[latex]F_{1}\\neq F_{2}; \\tau _{1}=I_{1}\\ddot{\\theta }_{1};F_{2}=I_{2}\\frac{r_{1}}{{r_{2}}^{2}}\\ddot{\\theta }_{1}[/latex]",
+      "B": "[latex]F_{1}=F_{2};\\tau =[I_{1}+I_{2}(\\frac{r_{1}}{r_{2}})^{2}]\\ddot{\\theta }_{1};F_{2}=I_{2}\\frac{r_{1}}{{r_{2}}^{2}}\\ddot{\\theta }_{1}[/latex]",
+      "C": "[latex]F_{1}=F_{2};\\tau =I_{1}\\ddot{\\theta }_{1};F_{2}=I_{2}\\frac{1}{r_{2}}\\ddot{\\theta }_{2}[/latex]",
+      "D": "[latex]F_{1}\\neq F_{2};\\tau =[I_{1}+I_{2}(\\frac{r_{1}}{r_{2}})^{2}]\\ddot{\\theta }_{1};F_{2}=I_{2}\\frac{r_{1}}{r_{2}}\\ddot{\\theta }_{1}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20151/q41.jpg",
+    "solution": "[latex]\\tau_{1}-F_{1} r_{1} =I_{1} \\theta_{1}\\qquad \\ldots(i)[/latex] [latex] F_{1} =F_{2}\\qquad\\ldots(ii)[/latex] [Action and reaction are equal by Newton's 3rd law] [latex] F_{2} r_{2}=\\tau_{2}=I_{2} \\ddot{\\theta}_{2}\\ldots(iii)[/latex] From (ii) and (iii) [latex] F_{2}=F_{1}=\\frac{I_{2} \\ddot{\\theta}_{2}}{r_{2}}\\qquad\\ldots(iv)[/latex] From (i) and (iv) [latex] \\tau_{1}-\\left(\\frac{I_{2} \\ddot{\\theta}_{2}}{r_{2}}\\right) r_{1}=I_{1} \\ddot{\\theta}_{1}\\qquad\\ldots(v)[/latex] We know, [latex] r_{1} \\omega_{1}=r_{2} \\omega_{2} [/latex] [latex] r_{1} \\dot{\\theta}_{1}=r_{2} \\dot{\\theta}_{2}[/latex] Differentiating with respect to time [latex] \\begin{aligned} r_{1} \\ddot{\\theta}_{1} &=r_{2} \\ddot{\\theta}_{2} \\\\ \\ddot{\\theta}_{2} &=\\frac{r_{1}}{r_{2}} \\ddot{\\theta}_{1} \\\\ \\tau_{1} &=I_{1} \\ddot{\\theta}_{1}+\\frac{I_{2}}{r_{2}}\\left[\\frac{r_{1}}{r_{2}} \\ddot{\\theta}_{1}\\right] r_{1} \\\\ \\tau_{1} &=\\left[I_{1}+I_{2}\\left[\\frac{r_{1}}{r_{2}}\\right]^{2}\\right] \\ddot{\\theta}_{1} \\\\ \\tau_{2} &=I_{2} \\ddot{\\theta}_{2}=F_{2} r_{2} \\\\ F_{2} &=\\frac{I_{2}}{r_{2}} \\ddot{\\theta}_{2}=\\frac{I_{2}}{r_{2}}\\left[\\frac{r_{1}}{r_{2}} \\ddot{\\theta}_{1}\\right] \\\\ F_{2} &=I_{2} \\frac{r_{1}}{r_{2}^{2}} \\ddot{\\theta}_{1} \\end{aligned}[/latex]",
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 60 A ball of mass 0.1 kg, initially at rest, is dropped from height of 1 m. Ball hits the ground and bounces off the ground. Upon impact with the ground, the velocity reduces by 20%. The height  (in m) to which the ball will rise is _______",
+    "options": null,
+    "image": null,
+    "solution": "Velocity with which ball hits the ground [latex] \\begin{aligned} V_{1} &=\\sqrt{2 g h}=\\sqrt{2 \\times 9.81 \\times 1} \\\\ &=4.4294 \\mathrm{m} / \\mathrm{s} \\\\ \\text{and }\\qquad V_{2} &=0.8 \\times 4.4294=3.54 \\mathrm{m} / \\mathrm{s} \\end{aligned}[/latex] [latex] \\Rightarrow[/latex] Now [latex] \\frac{1}{2} m V_{2}^{2}[/latex] is kinetic energy of ball which will be decreasing as it goes upwards (because work is done agasinst gravity) and gravitational potential energy increase [latex] \\Rightarrow \\quad \\frac{1}{2} m V_{2}^{2}=m g h^{\\prime} [/latex] [latex] h^{\\prime}=\\frac{v_{2}^{2}}{2 g}=0.64 \\mathrm{m}[/latex]",
+    "min": "0.64",
+    "max": "0.64"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 For the truss shown in figure, the magnitude of the force in member PR and the support reaction at R are respectively",
+    "options": {
+      "A": "122.47 kN and 50 kN",
+      "B": "70.71 kN and 100 kN",
+      "C": "70.71 kN and 50 kN",
+      "D": "81.65 kN and 100 kN"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20151/q39.jpg",
+    "solution": "[latex] \\begin{aligned} \\Sigma M_{O} &=0 \\\\ R_{v} \\times 4-50 \\times 4 &=0 \\\\ R_{v} &=50 \\mathrm{kN} \\end{aligned}[/latex] Force in member [latex] Q R=50 \\mathrm{kN}[/latex] (Tensile) Free body diagram of joint R [latex] \\begin{aligned} F_{P B} \\cos 45^{\\circ} &=50 \\\\ F_{P R} &=\\frac{50}{\\cos 45^{\\circ}} \\\\ F_{P A} &=70.71 \\mathrm{kN} \\end{aligned}[/latex]",
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 62 A swimmer can swim 10 km in 2 hours when swimming along the flow of a river. While swimming against the flow, she takes 5 hours for the same distance. Her speed in still water (in km/h) is _____",
+    "options": null,
+    "image": null,
+    "solution": "Let velocity of woman in still water =x Velocity of river flow =y (i) Swimming along the river flow Resultant velocity of woman =x+y [latex] \\Rightarrow \\quad 2=\\frac{10}{x+y} [/latex] [latex] \\Rightarrow \\quad x+y=5 \\qquad \\ldots(i)[/latex] (ii) Swimming againts the river flow Resultant velocity of woman =x-y [latex] \\Rightarrow \\quad 5=\\frac{10}{x-y} [/latex] [latex] x-y=2 \\qquad \\ldots(ii)[/latex] Adding (i) and (ii) [latex] 2 x =7 [/latex] [latex] x =3.5 \\mathrm{km} / \\mathrm{h}[/latex]",
+    "min": "3.5",
+    "max": "3.5"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 63 Two identical trusses support a load of 100 N as shown in the figure. The length of each truss is  1.0 m; cross-sectional area is 200 [latex]mm^{2}[/latex] ; Young's modulus E = 200 GPa. The force in the truss AB (in N) is _________",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20151/q16.jpg",
+    "solution": "[latex] \\begin{aligned} \\frac{F_{A B}}{\\sin 120^{\\circ}} &=\\frac{100}{\\sin 120^{\\circ}} \\\\ \\text{or}\\qquad F_{A B} &=100 \\mathrm{N} \\end{aligned}[/latex]",
+    "min": "100",
+    "max": "100"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 64 A wheel of radius r rolls without slipping on a horizontal surface shown below. If the velocity of point P is 10 m/s in the horizontal direction, the magnitude of velocity of point Q (in m/s) is ______",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20151/q13.jpg",
+    "solution": "[latex]\\begin{aligned} V_{P} &=r \\omega=10 \\mathrm{m} / \\mathrm{s} \\\\ V_{Q} &=2 r \\omega=2 \\times 10 \\\\ &=20 \\mathrm{m} / \\mathrm{s} \\end{aligned}[/latex]",
+    "min": "20",
+    "max": "20"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 65 A ladder AB of length 5 m and weight (W) 600 N is resting against a wall. Assuming frictionless contact at the floor (B) and the wall (A), the magnitude of the force P (in newton) required to maintain equilibrium of the ladder is  _______",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20144/q40.jpg",
+    "solution": "For ladder to be in equilibrium [latex] \\Sigma F=0[/latex] [latex] \\Sigma M=0 [/latex] (about any point 'or' line) FBD of lader [latex] \\begin{aligned} W &=N_{B}=600 \\quad \\ldots(i) \\\\ P &=N_{A} \\quad \\ldots(ii)\\\\ \\Sigma M_{A} &=0 \\\\ W \\times 2+P \\times 3 &-N_{B} \\times 4=0 \\\\ P &=\\frac{600 \\times 4-600 \\times 2}{3} \\\\ &=\\frac{600 \\times 2}{3}=400 \\mathrm{N} \\end{aligned}[/latex] [latex] N_{A}[/latex] is also equal to 4 nn",
+    "min": "399",
+    "max": "401"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 A wardrobe (mass 100 kg, height 4 m, width 2 m, depth 1 m), symmetric about the Y-Y axis, stands on a rough level floor as shown in the figure.  A force P is applied at mid-height on the wardrobe so as to tip it about point Q without slipping. What are the minimum values of the force (in newton) and the static coefficient of friction [latex]\\mu[/latex] between the floor and the wardrobe, respectively?",
+    "options": {
+      "A": "490.5 and 0.5",
+      "B": "981 and 0.5",
+      "C": "1000.5 and 0.15",
+      "D": "1000.5 and  0.25"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20144/q37.jpg",
+    "solution": "We can solve this question by moment or by force triangle as this is condition of equilibrium (just to topple) [latex] \\begin{aligned} \\sum M_{Q} &=0 \\\\ P \\times 2-m g \\times 1 &=0 \\\\ P &=\\frac{m g}{2}=\\frac{981}{2} \\\\ &=490.5 \\mathrm{N} \\end{aligned}[/latex] as P is horizontal force and it will be over come by friction force [latex] P=\\left(f_{s}\\right)_{\\max } [/latex][ as this is at verge of motion ] [latex] \\begin{aligned} 490.5 &=\\mu_{s} m g \\\\ \\mu_{s} &=0.5 \\end{aligned}[/latex] OR [latex]\\begin{aligned} \\tan \\theta &=\\frac{2}{1} \\\\ \\theta &=63.4349^{\\circ} \\end{aligned}[/latex] Wardrobe is about to topple about pt Q so there will be contact force from point Q on the wardrobe [latex] \\begin{aligned} \\frac{W}{P} &=\\tan \\theta=2 \\\\ P &=\\frac{W}{2}=\\frac{981}{2}=490.5 \\mathrm{N} \\end{aligned}[/latex] Two components of R will balance W and P and horizontal component (parallel to contacting surface is called friction and perpendicular to contacting surface is called normal reaction) [latex] \\begin{aligned} R \\cos \\theta &=\\text { friction force } \\\\ &=P(\\text { in magnitude }) \\\\ \\left(f_{s}\\right)_{\\max } &=P=490.5 \\\\ \\text{and}\\qquad \\left(f_{s}\\right)_{\\max } &=\\mu_{s} m g\\\\ \\mu_{s} m g &=490.5 \\\\ \\mu_{s} &=0.5 \\end{aligned}[/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 67 A uniform slender rod (8 m length and 3 kg mass) rotates in a vertical plane about a horizontal axis 1 m from its end as shown in the figure. The magnitude of the angular acceleration (in rad/[latex]s^{2}[/latex]) of the rod at the position shown is  _______",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20144/q34.jpg",
+    "solution": "[latex] \\begin{aligned} A P &=1 \\mathrm{m} \\\\ A C &=4 \\mathrm{m} \\\\ P C &=3 \\mathrm{m} \\\\ I_{C} &=\\frac{m L^{2}}{12}=\\frac{3 \\times 8 \\times 8}{12} \\\\ &=16 \\mathrm{kg}-\\mathrm{m}^{2} \\\\ I_{P} &=I_{C}+m(P C)^{2} \\\\ &=16+3 \\times 3^{2}=43 \\mathrm{kg}-\\mathrm{m}^{2} \\\\ \\text { Torque } &=m_{2} g \\times \\frac{P B}{2}-m_{1} g \\frac{A P}{2} \\\\ T &=m_{2} \\times 9.81 \\times \\frac{7}{2}-m_{1} \\times 9.81 \\times \\frac{1}{2}\\\\ &=34.335 \\mathrm{m}_{2}-4.905 \\mathrm{m}_{1} \\\\ m_{1} &=\\frac{3}{8} \\mathrm{kg}, \\mathrm{m}_{2}=\\frac{3 \\times 7}{8}=2.625 \\\\ T &=34.335 \\times 2.625-4.905 \\times 0.375 \\\\ &=88.29 \\mathrm{N} \\mathrm{m} \\\\ T &=I_{P} \\alpha \\\\ \\alpha &=\\frac{T}{I_{p}}=\\frac{88.29}{43}=2.053 \\mathrm{rad} / \\mathrm{s}^{2} \\end{aligned}[/latex]",
+    "min": "1.9",
+    "max": "2.1"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 For the truss shown in the figure, the forces F1 and F2 are 9 kN and 3 kN, respectively. The force  (in kN) in the member QS is",
+    "options": {
+      "A": "11.25 tension",
+      "B": "11.25 compression",
+      "C": "13.5 tension",
+      "D": "13.5 compression"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20144/q32.jpg",
+    "solution": "[latex] \\begin{aligned} \\Sigma F_{x}&=0\\\\ R_{x} &=0 \\\\ \\Sigma F_{y} &=0 \\\\ \\Rightarrow \\quad R_{y}+T_{y}&=9-3=6 \\\\ \\text{Taking } \\Sigma M_{\\mathrm{A}}&=0 \\\\ \\Rightarrow-9 \\times 6&+3 \\times 3+T_{y} \\times 1.5=0 \\\\ T_{y}&=30 \\mathrm{kN} \\\\ R_{y}&=6-30=-24 \\mathrm{kN} \\\\ \\text{Now } \\quad \\Sigma M_{S}&=0 \\quad \\text{(from figure (ii))}\\\\ \\end{aligned} [/latex] [latex] \\begin{aligned} \\Rightarrow \\quad 9 \\times 1.5 &=T_{P Q} \\times 2 \\\\ T_{P O} &=6.75 \\mathrm{kN}\\\\ \\text{from force equilibrium}\\\\ T_{P Q}+T_{S T} &=0 \\\\ T_{S T} &=-6.75 \\mathrm{kN}\\\\ \\end{aligned}[/latex] From figure (iii) [latex] \\begin{aligned} P M \\perp O S \\\\ \\tan \\theta&=\\frac{2}{1.5} \\\\ \\sin \\theta&=\\frac{2}{\\sqrt{4+2.25}}=\\frac{2}{2.5} \\\\ \\cos \\left(90^{\\circ}-\\theta\\right)&=\\frac{P M}{P Q} \\\\ \\Rightarrow \\quad P M=3 \\sin \\theta&=2.4 \\mathrm{m} \\\\ \\text{from figure (ii)} , \\Sigma M_{P}&=0 \\\\ T_{S Q} \\times P M+T_{S T} \\times 2&=0 \\\\ T_{S Q}&=-\\frac{T_{S T} \\times 2}{P M}=\\frac{6.75 \\times 2}{2.4} \\\\ &=5.625 \\mathrm{kN} (Tensile) \\end{aligned}[/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 An annular disc has a mass m, inner radius R and outer radius 2R. The disc rolls on a flat surface without slipping. If the velocity of the center of mass is v, the kinetic energy of the disc is",
+    "options": {
+      "A": "[latex]9/16mv^{2}[/latex]",
+      "B": "[latex]11/16mv^{2}[/latex]",
+      "C": "[latex]13/16mv^{2}[/latex]",
+      "D": "[latex]15/16mv^{2}[/latex]"
+    },
+    "image": null,
+    "solution": "m is mass in area [latex] 3 \\pi R^{2}\\left[4 \\pi R^{2}-\\pi R^{2}\\right] [/latex] mass in area [latex]2 \\pi r d r=d m [/latex] [latex] \\begin{aligned} d m &=\\frac{2 m r d r}{3 R^{2}} \\\\ I &=\\int_{R}^{2 R} d m r^{2}=\\frac{2 m}{3 R^{2}} \\int_{R}^{2 R} r^{3} d r \\\\ &=\\frac{2 m}{3 R^{2}}\\left[\\frac{r^{4}}{4}\\right]_{R}^{2 R} \\\\ &=\\frac{m}{6 R^{2}}\\left[15 R^{4}\\right]=\\frac{5 m R^{2}}{2}\\\\ K \\cdot E&=(K \\cdot E)_{\\text {translation }}+(K \\cdot E)_{rotation} \\\\ \\text{where }\\quad V&=\\frac{1}{2} m v^{2}+\\frac{1}{2} I \\omega^{2} \\\\ \\Rightarrow \\quad \\omega&=\\frac{v}{2 R} \\\\ \\therefore \\quad K . E&=\\frac{1}{2} m v^{2}+\\frac{1}{2} \\times \\frac{5 m R^{2}}{2} \\times \\frac{v^{2}}{4 R^{2}} \\\\ & =\\frac{1}{2} m v^{2}+\\frac{5 m v^{2}}{16} \\\\ \\mathrm{K.E}&=\\frac{8 \\mathrm{mv}^{2}+5 \\mathrm{mv}^{2}}{16}=\\frac{13 \\mathrm{mv}^{2}}{16} \\end{aligned}[/latex]",
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 70 A body of mass (M) 10 kg is initially stationary on a 45[latex]^{\\circ}[/latex] inclined plane as shown in figure. The coefficient of dynamic friction between the body and the plane is 0.5. The body slides down the plane and attains a velocity of 20 m/s. The distance travelled (in meter) by the body along the plane is _______",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20143/q31.jpg",
+    "solution": "[latex] \\begin{aligned} & v^{2}=u^{2}+2 a s \\\\ & u=0 \\quad(\\text { given }) \\\\ \\therefore \\quad & \\quad s=\\frac{v^{2}}{2 a}=\\frac{v^{2}}{2 \\mu g \\cos 45^{\\circ}} \\\\ \\therefore \\quad & \\quad s=\\frac{400}{2 \\times 0.5 \\times 9.81 \\times \\cos 45^{\\circ}} \\\\ &=57.664 \\mathrm{m} \\end{aligned}[/latex]",
+    "min": "56",
+    "max": "59"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 A mass [latex]m_{1}[/latex] of 100 kg travelling with a uniform velocity of 5 m/s along a line collides with a stationary mass [latex]m_{2}[/latex] of 1000 kg. After the collision, both the masses travel together with the same velocity. The coefficient of restitution is",
+    "options": {
+      "A": "0.6",
+      "B": "0.1",
+      "C": "0.01",
+      "D": "0"
+    },
+    "image": null,
+    "solution": "Coefficient of restitution, [latex] C_{R}=\\frac{\\text { Relative speed after collision }}{\\text { Relative speed before collision }} [/latex] After collision, both the masses move with same  velocity. So, there is zero relative velocity between  them, [latex] \\therefore \\quad C_{R}=\\frac{0}{5}=0[/latex]",
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 72 A truck accelerates up a 10[latex]^{\\circ}[/latex] incline with a crate of 100 kg. Value of static coefficient of friction between the crate and the truck surface is 0.3. The maximum value of  acceleration (in m/[latex]s^{2}[/latex] ) of the truck such that the crate does not slide down is _______",
+    "options": null,
+    "image": null,
+    "solution": "Crate will acquire max acceration when [latex] \\left(f_{s}\\right)_{\\max }[/latex] will be acting on crate by truck and at that condition acceleration of truck and crate wil be same. Increasing acceleration of truck after that will cause slipping of crate on truck. [latex] \\left[\\left(f_{s}\\right)_{\\max }\\right]_{C T}=\\mu N_{C T} [/latex] [latex] \\begin{aligned}\\left[\\left(f_{s}\\right)_{\\max }\\right]_{C r}-m g \\sin 10^{\\circ} &=m a \\\\ \\mu m g \\cos 10^{\\circ}-m g \\sin 10^{\\circ} &=m a \\\\ a &=1.1948 \\mathrm{m} / \\mathrm{s}^{2} \\end{aligned}[/latex]",
+    "min": "1",
+    "max": "1.3"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 73 Consider a flywheel whose mass M is distributed almost equally between a heavy, ring-like rim of radius R and a concentric disk-like feature of radius R/2. Other parts of the flywheel, such as spokes, etc, have negligible mass. The best approximation for [latex]\\alpha[/latex], if the moment of inertia of the flywheel about its axis of rotation is expressed as [latex]\\alpha MR^2[/latex], is _______",
+    "options": null,
+    "image": null,
+    "solution": "[latex] \\begin{aligned} I &=\\frac{M}{2}(R)^{2}+\\frac{1}{2}\\left(\\frac{M}{2}\\right)\\left(\\frac{R}{2}\\right)^{2} \\\\ &=\\frac{M R^{2}}{2}+\\frac{1}{2} \\times \\frac{M}{2} \\times \\frac{R^{2}}{4} \\\\ \\Rightarrow & \\frac{M R^{2}}{2}+\\frac{M R^{2}}{16}  \\\\  I&=\\frac{9}{16} M R^{2}=\\alpha M R^{2} \\\\  \\alpha&=\\frac{9}{16}=0.5625 \\end{aligned}[/latex]",
+    "min": "0.55",
+    "max": "0.57"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 74 A two member truss ABC is shown in the figure. The force (in kN) transmitted in member AB is",
+    "options": null,
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20142/q7.jpg",
+    "solution": "[latex] \\begin{aligned} A B &=1 \\\\ A C &=0.5 \\mathrm{m} \\\\ B C &=\\sqrt{1^{2}+0.5^{2}} \\\\ &=\\sqrt{1.25}=1.118 \\mathrm{m} \\\\ A_{x}+C_{x} &=0 \\\\ A_{y}+C_{y} &=10 \\\\ \\;&\\qquad\\text{(from force equilibrium)}\\\\ \\Sigma M_{A}&=0 \\\\ C_{x} \\times 0.5&=10 \\times 1 \\\\ \\text{or }\\quad C_{x}&=20 \\mathrm{kN} \\\\ \\text{and }\\quad A_{x}&=-20 \\mathrm{kN} \\\\ \\end{aligned}[/latex] [latex] \\begin{aligned} \\Sigma M_{c}&=0 \\\\ \\Rightarrow \\quad F_{A B} \\times 0.5&=20 \\times 0.5 \\\\ \\therefore \\quad F_{A B}&=20 \\mathrm{kN} \\end{aligned}[/latex]",
+    "min": "18",
+    "max": "22"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 75 A block weighing 200 N is in contact with a level plane whose coefficients of static and kinetic friction are 0.4 and 0.2, respectively. The block is acted upon by a horizontal force (in newton) P=10t, where t denotes the time in seconds. The velocity (in m/s) of the block attained after  10 seconds is _______",
+    "options": null,
+    "image": null,
+    "solution": "[latex]\\begin{aligned} N &=m g=200 \\mathrm{N} \\\\(f_{s})_{max} &=\\mu_{s} N \\\\ &=0.4 \\times 200=80 \\end{aligned}[/latex] upto [latex] 8 \\sec [P=10 t] \\rightarrow [/latex] no motion [latex] \\Rightarrow [/latex] from 8 sec to 10 sec [latex] \\begin{aligned} f_{k} &=\\mu_{k} N \\\\ &=0.2 \\times 200=40 \\mathrm{N} \\end{aligned} [/latex] Average applied force [latex] =\\frac{P_{\\max }+P_{\\min }}{2} [/latex] [latex] =\\frac{100+80}{2}=90 \\mathrm{N}[/latex] Average resultant force = Avg. applied force kinetic friction [latex] =90-40=50 N[/latex] Average acceration [latex] \\begin{aligned} &=\\frac{50 \\times 9.8}{200} \\\\ \\Rightarrow \\quad V &=u+a t\\\\ u&=0\\\\ a&=\\frac{50 \\times 9.8}{200} \\\\ t&=2 \\text{second}\\\\ \\therefore V&=\\frac{50 \\times 9.8}{200} \\times 2=4.9 \\mathrm{m} / \\mathrm{s} \\end{aligned}[/latex]",
+    "min": "4.8",
+    "max": "5"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 76 A block R of mass 100kg is placed on a block S of mass 150kg as shown in the figure. Block R is tied to the wall by a massless and intextensible string PQ. If the coefficient of static friction for all surfaces is 0.4, the  minimum force F(in kN) needed to move the block S is",
+    "options": {
+      "A": "0.69",
+      "B": "0.88",
+      "C": "0.98",
+      "D": "1.37"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20141/q31.jpg",
+    "solution": "[latex] \\begin{aligned} F &=\\mu\\left(W_{S}+W_{R}\\right)+\\mu W_{R} \\\\ F &=\\mu\\left(W_{S}+2 W_{R}\\right) \\\\ &=0.4(150+2 \\times 100) \\times 9.81 \\\\ &=1373.4 \\mathrm{N}=1.37 \\mathrm{kN} \\end{aligned}[/latex]",
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 A circular object of radius r  rolls without slipping  on a horizontal level floor with the center having velocity V. The velocity at the point of contact between the object and the floor is",
+    "options": {
+      "A": "zero",
+      "B": "V in the direction of motion",
+      "C": "V opposite to the direction of motion",
+      "D": "V vertically upward from the floor"
+    },
+    "image": null,
+    "solution": "[latex] \\begin{aligned} V_{P}= & \\omega \\times \\overline{O P}=2 \\omega r \\\\ V_{C}= & \\omega \\times \\overline{O C}=\\omega r \\\\ V_{O}= & \\omega \\times 0=0 \\end{aligned}[/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 78 A single degree of freedom system having mass 1 kg and stiffness 10 kN/m initially at rest is subjected to an impulse force of magnitude 5 kN for [latex]10^{-4}[/latex]\nseconds. The amplitude in mm of the resulting free vibration is",
+    "options": {
+      "A": "0.5",
+      "B": "1",
+      "C": "5",
+      "D": "10"
+    },
+    "image": null,
+    "solution": "At t=0 mass is at rest [latex] F=5 \\mathrm{kN} for 10^{-4} [/latex] seconds Amplitude = x [latex] \\begin{aligned} F &=m \\times d v | d t \\\\ F \\cdot \\int_{t_{1}}^{t_{2}} d t &=m \\cdot \\int_{v_{1}}^{v_{2}} d V \\\\ F\\left(t_{2}-t_{1}\\right) &=m \\times\\left(v_{2}-v_{1}\\right) \\\\ 5 \\times 10^{3} \\times & 10^{-4}=1 \\times\\left(v_{2}-0\\right) \\\\ 0.5 \\mathrm{m} / \\mathrm{s} &=v_{2} \\\\ \\frac{1}{2} m v_{2}^{2}=& \\frac{1}{2} k x^{2} \\\\ x &=\\sqrt{\\frac{m v_{2}^{2}}{k}}=\\sqrt{\\frac{1 \\times 0.5 \\times 0.5}{10 \\times 1000}} \\\\ &=\\frac{0.5}{100}=0.005 \\mathrm{m}=5 \\mathrm{mm} \\end{aligned}[/latex]",
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 79 Two steel truss member, AC and BC, each having cross sectional area of 100 [latex]mm^{2}[/latex], are subject to a horizontal force F as shown in figure. All the joints are hinged. The maximum force F in kN that can be applied at C such that the axial stress in any of the truss members DOES NOT exceed 100 MPa is",
+    "options": {
+      "A": "8.17",
+      "B": "11.15",
+      "C": "14.14",
+      "D": "22.3"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20121/q4849.jpg",
+    "solution": "Maximum force [latex]=0.8965 F [/latex] [latex] \\therefore [/latex] Max stress [latex]\\frac{0.8965 F}{100} \\leq 100 \\mathrm{MPa} [/latex] [latex] \\therefore 100 \\geq \\frac{0.8965 \\times F}{100} [/latex] [latex] \\therefore F \\leq 11.154 \\mathrm{kN}[/latex]",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 Two steel truss member, AC and BC, each having cross sectional area of 100 [latex]mm^{2}[/latex], are subject to a horizontal force F as shown in figure. All the joints are hinged. If F =1kN, magnitude of the vertical reaction force developed at the point B in kN is",
+    "options": {
+      "A": "0.63",
+      "B": "0.32",
+      "C": "1.26",
+      "D": "1.46"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20121/q4849.jpg",
+    "solution": "Using Lame's theorem [latex] \\frac{T_{1}}{\\sin 120^{\\circ}}=\\frac{T_{2}}{\\sin 135^{\\circ}}=\\frac{F}{\\sin 105^{\\circ}} [/latex] [latex] T_{1}=0.8965 F [/latex] [latex] T_{2}=0.732 F[/latex] Vertical reaction at B [latex] R_{B}=T_{2} \\cos 30^{\\circ}=0.732 \\cos 30^{\\circ} [/latex] [latex] R_{B}=0.634 \\mathrm{kN}[/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 81 A circular solid of uniform thickness 20 mm, radius 200mm and mass 20 kg, is used as a fly wheel. If it rotates at 600 rpm, the kinetic energy of the flywheel, in joules is",
+    "options": {
+      "A": "395",
+      "B": "790",
+      "C": "1580",
+      "D": "3160"
+    },
+    "image": null,
+    "solution": "[latex]\\mathrm{KE}=\\frac{1}{2}^{1} |\\omega^{2} [/latex] [latex] I=\\frac{m r^{2}}{2}=\\frac{20 \\times(0.2)^{2}}{2} [/latex] [latex] I=0.4 [/latex] [latex] \\omega=\\frac{2 \\pi N}{60}=\\frac{2 \\times \\pi \\times 600}{60} [/latex] [latex] =62.83 \\mathrm{rad} / \\mathrm{s} [/latex] [latex] \\therefore \\mathrm{KE}=\\frac{1}{2} \\times 0.4 \\times(62.83)^{2} [/latex] [latex] =790 \\mathrm{J}[/latex]",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 82 A solid disk of radius r rolls without slipping on a horizontal floor with angular velocity [latex]\\omega[/latex] and angular acceleration [latex]\\alpha[/latex]. The magnitude of the acceleration of the point of contact on a disc is",
+    "options": {
+      "A": "zero",
+      "B": "[latex]r\\alpha[/latex]",
+      "C": "[latex]\\sqrt{(r\\alpha )^{2}+(r\\omega ^{2})^{2}}[/latex]",
+      "D": "[latex]r\\omega[/latex]"
+    },
+    "image": null,
+    "solution": "Motion of body can be expressed as sum of pure rotational and pure translation. For no slip condition. Translational acceleration of centre of mass (a) [latex] =\\alpha r [/latex] Velocity of centre of mass [latex] (v)=\\omega r [/latex] Pure rotational II Pure translation Now superimposing the two motions. Linear acceleration of bottom point [latex] =\\alpha r-\\alpha r+r \\omega^{2}[/latex] Velocity of bottom point [latex] =\\omega r-\\omega r=0 [/latex] [latex] \\therefore [/latex] Net acceleration of bottom point [latex] =r \\omega^{2}[/latex]",
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 A 1 kg block is resting on a surface with coefficient of friction [latex]\\mu =0.1[/latex]\n A force of 0.8N is applied to the block as shown in figure. The friction force is",
+    "options": {
+      "A": "0",
+      "B": "0.8N",
+      "C": "0.98N",
+      "D": "1.2N"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20111/q43.jpg",
+    "solution": "[latex] \\mu =0.1,m=1kg,F=0.8N[/latex] Now, from FBD as shown below figure Normal reaction, [latex]N=mg=1 \\times 9.81=9.81N [/latex] Limiting friction force between the block and the surface, [latex] f=\\mu N=0.1 \\times 9.81=0.98N[/latex] since applied force (0.8N) is less than friction force, hence friction force acting on body at equilibrium is [latex] 0.8 \\mathrm{N} [/latex]",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 A stone with mass of 0.1kg is catapulted as shown in the figure. The total force [latex]F_{x}[/latex]\n(in N)  exerted by the rubber band as a function of distance x (in m) is given by [latex]F_{x}=300x^{2}[/latex]. If the stone is displaced by 0.1m from the un-stretched position (x=0) of the rubber band, the energy stored in the rubber band is",
+    "options": {
+      "A": "0.01J",
+      "B": "0.1J",
+      "C": "1J",
+      "D": "10J"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20111/q32.jpg",
+    "solution": "Rate of change of energy stored [latex]=F \\;dx [/latex] [latex] \\begin{aligned} d E &=300 x^{2} d x \\\\ \\int d E &=\\int_{0}^{0.1} 300 x^{2} d x \\\\ E &=300 \\times\\left.\\frac{x^{3}}{3}\\right|_{0} ^{0.1}=0.1 \\mathrm{J} \\end{aligned}[/latex]",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 The coefficient of restitution of a perfectly plastic impact is",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "[latex]\\infty[/latex]"
+    },
+    "image": null,
+    "solution": "Coefficient of restitution of a perfectly plastic impact is zero.",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 A uniform rigid rod of mass M and length L is hinged at one end as shown in the adjacent figure. A force P is applied at a distance of 2L/3 from the hinge so that the rod swings to the right. The reaction at the hinge is",
+    "options": {
+      "A": "[latex]-P[/latex]",
+      "B": "0",
+      "C": "[latex]P/3[/latex]",
+      "D": "[latex]2P/3[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20091/q41.jpg",
+    "solution": "at this moment [latex] \\begin{aligned} \\omega&=0\\\\ \\text{but }\\quad \\alpha &\\neq 0 \\;\\text{[start of rotation]} \\\\ \\overrightarrow{a_{C M}}&=\\vec{a}_{r}+\\vec{a}_{t}\\\\ \\end{aligned}[/latex] (because centre of mass is in circular motion at a radius L/2) [latex] \\begin{aligned} \\vec{a}_{r} &=0 \\\\ \\vec{a}_{t} &=\\frac{L}{2} \\alpha(\\hat{i}) \\\\ T &=I \\alpha(\\text { about hinge }) \\\\ P \\times \\frac{2 L}{3} &=\\frac{M L^{2}}{3} \\alpha \\\\ \\alpha &=\\frac{2 P}{M L} \\\\ \\vec{a}_{C M} &=\\frac{L}{2} \\times \\frac{2 P}{M L}(\\hat{i}) \\\\ \\vec{a}_{C M} &=\\frac{P}{M} (\\hat{i}) \\end{aligned}[/latex] Let R be the reaction in horizontal direction from hinge [latex]\\begin{aligned} (\\Sigma \\vec{f})_{ext} &=m\\vec{s}_{CM} \\;[\\text{in horizontal direction}] \\\\ P+R &=Ma_{CM} \\\\ P+R &= M \\times \\frac{P}{M}\\\\ P+R &=P \\\\ R&=0 \\end{aligned}[/latex]",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 A block weighing 981N is resting on a horizontal surface. The coefficient of friction between the block and the horizontal surface is [latex]\\mu[/latex]=0.2A vertical cable attached to the block provides partial support as shown. A man can pull horizontally with a force of 100N. What will be the tension, T (in N) in the cable if the man is just able to move the block to the right?",
+    "options": {
+      "A": "176.2",
+      "B": "196",
+      "C": "481",
+      "D": "981"
+    },
+    "image": null,
+    "solution": "Free body Diagram Assume normal reaction =R (Newton) Balancing force in horizontal direction [latex] (\\Sigma F x=0)[/latex] [latex] \\begin{aligned} \\mu R &=100 \\\\ (0.2) R &=100 \\\\ R &=500 \\mathrm{N} \\end{aligned}[/latex] Balancing the force in vertical direction [latex] \\begin{aligned} (\\Sigma F y&=0) \\\\ T+R-W &=0 \\\\ \\Rightarrow T+500-981 &=0 \\\\ T &=481 \\mathrm{N} \\end{aligned}[/latex]",
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 Consider a truss PQR loaded at P with a force F as shown in the figure. The tension in the member QR is",
+    "options": {
+      "A": "0.5F",
+      "B": "0.63F",
+      "C": "0.73F",
+      "D": "0.87F"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20081/q34.jpg",
+    "solution": "[latex] \\begin{aligned} \\tan 30^{\\circ} &=\\frac{x}{b} \\\\ b &=\\frac{x}{\\tan 30}=1.732 x\\end{aligned}[/latex] Taking moment about Q [latex] \\begin{aligned} F \\times x &=V_{R} \\times 2.732 x \\\\ V_{R} &=0.366 \\mathrm{F} \\\\ V_{Q} &=F-0.366 \\mathrm{F}=0.634 \\mathrm{F} \\end{aligned}[/latex] FBD of joint Q Let force in the member P Q is [latex]F_{P Q} [/latex] [latex] \\therefore F_{P Q} \\sin 45^{\\circ}=V_{O} [/latex] [latex] \\Rightarrow F_{P Q} \\sin 45^{\\circ}=0.634 \\mathrm{F} [/latex] Force in member Q R [latex] F_{Q A}=F_{P Q} \\cos 45^{\\circ}=0.634 F[/latex]",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 89 A circular disc of radius R rolls without slipping at a velocity V. The magnitude of the velocity at\r\npoint P (see figure) is",
+    "options": {
+      "A": "[latex]\\sqrt{3}V[/latex]",
+      "B": "[latex]\\sqrt{3}V/2[/latex]",
+      "C": "[latex]V/2[/latex]",
+      "D": "[latex]2V/\\sqrt{3}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20081/q33.jpg",
+    "solution": "magnitude of velocity at point P [latex] \\begin{aligned} &=\\sqrt{V^{2}+V^{2}+2 V^{2} \\cos 60^{\\circ}} \\\\ &=\\sqrt{2 V^{2}+2 V^{2} \\cos 60^{\\circ}} \\\\ &=V \\sqrt{2+2 \\cos 60^{\\circ}} \\\\ &=V \\sqrt{3} \\end{aligned}[/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 A straight rod of length L(t), hinged at one end and freely extensible at the other end, rotates\r\nthrough an angle [latex]\\theta (t)[/latex] about the hinge. At time t,  L(t)=1m,  L(t)=1m/s, [latex]\\theta (t)=\\frac{\\pi}{4}[/latex]rad and [latex]\\theta (t)=1[/latex]\r\nrad/s. The magnitude of the velocity at the other end of the rod is",
+    "options": {
+      "A": "1m/s",
+      "B": "[latex]\\sqrt{2}[/latex]m/s",
+      "C": "[latex]\\sqrt{3}[/latex]m/s",
+      "D": "2m/s"
+    },
+    "image": null,
+    "solution": "Velocity has two components [latex] \\begin{aligned} \\bar{v} &=\\sqrt{(1)^{2}+(1)^{2}} \\\\ &=\\sqrt{2} \\mathrm{m} / \\mathrm{s} \\end{aligned}[/latex]",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 A block of mass M is released from point P on a rough inclined plane with inclination angle [latex]\\theta[/latex], shown in the figure below. The co - efficient of friction is [latex]\\mu [/latex]. If [latex]\\mu \\lt \\tan\\theta[/latex], then the time taken by the block to reach another point Q on the inclined plane, where PQ = s, is",
+    "options": {
+      "A": "[latex]\\sqrt{\\frac{2s}{g \\cos\\theta (\\tan \\theta - \\mu ) }}[/latex]",
+      "B": "[latex]\\sqrt{\\frac{2s}{g \\cos\\theta (\\tan \\theta + \\mu ) }}[/latex]",
+      "C": "[latex]\\sqrt{\\frac{2s}{g \\sin\\theta (\\tan \\theta - \\mu ) }}[/latex]",
+      "D": "[latex]\\sqrt{\\frac{2s}{g \\sin\\theta (\\tan \\theta + \\mu ) }}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20071/q43.jpg",
+    "solution": "FBD of block: [latex] N=m g \\cos \\theta [/latex] From Newton's second law [latex] mg \\sin \\theta-\\mu m g \\cos \\theta=m a [/latex] [latex] a=g \\sin \\theta-\\mu g \\cos \\theta [/latex] [latex] S=u t+\\frac{1}{2} a t^{2} [/latex] [latex] S=0+\\frac{1}{2}(g \\sin \\theta-\\mu g \\cos \\theta) t^{2} [/latex] [latex] t=\\sqrt{\\frac{2 s}{g \\cos \\theta[\\tan \\theta-\\mu]}}[/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 During inelastic collision of two particles, which one of the following is conserved?",
+    "options": {
+      "A": "total linear momentum only",
+      "B": "total kinetic energy only",
+      "C": "both linear momentum and kinetic energy",
+      "D": "neither linear momentum nor kinetic energy"
+    },
+    "image": null,
+    "solution": "During inelatic collision only linear momentum is conserved",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 If point A is in equilibrium under the action of the applied forces, the values of tensions [latex]T_{AB}[/latex]\n and [latex]T_{AC}[/latex]\n are respectively.",
+    "options": {
+      "A": "520 N and 300 N",
+      "B": "300 N and 520 N",
+      "C": "450 N and 150 N",
+      "D": "150 N and 450 N"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20061/q38.jpg",
+    "solution": "By Lami's theorem [latex] \\begin{aligned} \\frac{T_{A B}}{\\sin 120^{\\circ}}&=\\frac{T_{A C}}{\\sin 150^{\\circ}}=\\frac{600}{\\sin 90^{\\circ}}\\\\ \\therefore T_{A B} &=600 \\sin 120^{\\circ} \\\\ &=519.61 \\approx 520 \\mathrm{N} \\\\ \\text { and } T_{A C} &=600 \\sin 150^{\\circ}=300 \\mathrm{N} \\end{aligned}[/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 94 If a system is in equilibrium and the position of the system depends upon many independent variables, the principle of virtual work states that the partial derivatives of its total potential energy with respect to each of the independent variable must be",
+    "options": {
+      "A": "-1",
+      "B": "0",
+      "C": "1",
+      "D": "[latex]\\infty[/latex]"
+    },
+    "image": null,
+    "solution": "If any system is in equilibrium and subjected to many independent variables, partial derivatives of its total potential energy with respect to each of the independent variable must be zero.",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 A 1 kg mass of clay, moving with a velocity of 10 m/s, strikes a stationary wheel and sticks to it. The solid wheel has a mass of 20 kg and a radius of 1 m. assuming that the wheel and the ground are both rigid and that the wheel is set into pure rolling motion, the angular velocity of the wheel immediately after the impact is approximately",
+    "options": {
+      "A": "zero",
+      "B": "[latex]\\frac{1}{3}rad/s[/latex]",
+      "C": "[latex]\\sqrt{\\frac{10}{3}}rad/s[/latex]",
+      "D": "[latex]\\frac{10}{3}rad/s[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20051/q42.jpg",
+    "solution": "In this question, we need to neglect mass of clay w.r.t. mass of wheel. We can't conserve linear momentum as friction is there so we will conserve angular momentum about the point of wheel which is in contact with the surface. (because torque about A of all forces is zero) Taking both clay and wheel as system. [latex]L_i=L_f[/latex] (about A) [latex]\\begin{aligned} L_i&= mvr=1 \\times 10 \\times 1=10\\\\ L_f&= mv_{cm}r + IW\\\\ &=20 \\times r\\omega \\times r+\\frac{mr^2}{2}\\omega \\\\ &= 20 \\times 1 \\times \\omega \\times 1+\\frac{20}{2} \\times 1^2 \\times \\omega \\\\ L_i &=L_f \\\\ 10 &= 20\\omega +10\\omega \\\\ 10 &=30\\omega \\\\ \\omega &=\\frac{1}{3} \\; \\text{rad/s} \\end{aligned}[/latex]",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 96 An elevator (lift) consists of the elevator cage and a counter weight, of mass m each. The cage and the counterweight are connected by a chain that passes over a pulley. The pulley is coupled to a motor. It is desired that the elevator should have a maximum stopping time of t seconds from a peak speed v. If the inertia of the pulley and the chain are neglected, the minimum power that the motor must have is",
+    "options": {
+      "A": "[latex]\\frac{1}{2}mv^{2}[/latex]",
+      "B": "[latex]\\frac{mv^{2}}{2t}[/latex]",
+      "C": "[latex]\\frac{mv^{2}}{t}[/latex]",
+      "D": "[latex]\\frac{2mv^{2}}{t}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20051/q41.jpg",
+    "solution": "Power = rate of energy supplied 'or' obtained. If counter weight is moving with velocity V then cage will also be moving with velocity V So total [latex] \\mathrm{K.E}=\\frac{1}{2} m v^{2}+\\frac{1}{2} m v^{2}[/latex] [latex] =m v^{2} [/latex] and to absorb (or to stop) this energy time available is t second. [latex] \\begin{aligned} \\text { Power } &=\\frac{\\text { Total energy absored }}{\\text { time taken for this absorption }} \\\\ &=\\frac{m v^{2}}{t} \\end{aligned}[/latex]",
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 97 A shell is fired from a cannon. At the instant the shell is just about to leave the barrel, its velocity relative to the barrel is 3m/s, while the barrel is swinging upwards with a constant angular velocity of 2 rad/sec. The magnitude of the absolute velocity of the shell is",
+    "options": {
+      "A": "3 m/s",
+      "B": "4 m/s",
+      "C": "5 m/s",
+      "D": "7 m/s"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20051/q40.jpg",
+    "solution": "[latex] V_{B}=r \\omega=2 \\times 2=4 \\mathrm{m} / \\mathrm{s} [/latex] [latex] V_{s B}= [/latex] velocity of shell w.r.t. barrel [latex]=3 \\mathrm{m} / \\mathrm{s} [/latex] As shell is in barrel, the net velocity of shell [latex] \\Rightarrow \\quad \\vec{V}_{s}=\\vec{V}_{B}+\\sqrt{_{s B}} [/latex] [latex] \\Rightarrow [/latex] as [latex]\\vec{V}_{B}[/latex] and [latex]\\overline{V_{s B}}[/latex] are perpendicular [latex] \\begin{aligned} \\left|\\vec{V}_{s}\\right| &=\\sqrt{(3)^{2}+(4)^{2}} \\\\ &=5 \\mathrm{m} / \\mathrm{s} \\end{aligned}[/latex]",
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 Two books of mass 1 kg each are kept on a table, one over the other. The coefficient of friction on every pair of contacting surfaces is 0.3. The lower book is pulled with a horizontal force F. The minimum value of F for which slip occurs between the two books is",
+    "options": {
+      "A": "zero",
+      "B": "11.77 N",
+      "C": "5.74 N",
+      "D": "8.83 N"
+    },
+    "image": null,
+    "solution": "Taking, [latex]g= 9.81 m/s^{2}[/latex] Now as we apply force on lower book B. Firstly book A and B will start moving together with same acceleration slipping from C, so [latex]F_{\\text {min }}[/latex] need to overcome [latex] \\left[\\left(f_{s}\\right)_{\\max }\\right]_{\\mathrm{BC}} [/latex] As there no acceleration in vertical direction, so in vertical direction net force will be zero on A and B  both. [latex] \\left[\\left(f_{s}\\right)_{\\max }\\right]_{\\mathrm{BC}}=\\mu_{s}\\left[N_{\\mathrm{BC}}\\right] [/latex] FBD of A [latex] \\begin{aligned} \\Rightarrow \\quad N_{A B} &=m g=1 \\times 9.81 \\\\ &=9.81 \\mathrm{N} \\end{aligned} [/latex] FBD of B [latex] \\begin{aligned} N_{8 C} &=m g+N_{B A} \\\\ &=9.81+9.81=19.62 \\mathrm{N} \\\\ \\left[\\left(f_{\\mathrm{s}}\\right)_{\\max }\\right]_{\\mathrm{BC}} &=0.3 \\times 19.62=5.886 \\mathrm{N} \\end{aligned}[/latex] Now when we will apply force more than 5.886 N, they will start moving together with same acceleration Now as we keep on increasing F , acceleration of book B will go on increasing and thus increasing acceleration of book A . But acceleration of book A is increasing because of static friction and it has a maximum value. So after that acceleration of book B will be more than acceleration of A . So there will be relative slipping between B and A [latex] \\left[a_{\\max }\\right]_{A}=?[/latex] [latex] \\left[a_{\\max }\\right]_{A} \\text{will be corresponding to}\\;  \\left[(f s)_{\\max }\\right]_{A B} [/latex] [latex]\\begin{aligned} \\left[(f s)_{\\max }\\right]_{A B} &=\\mu_{s} N_{A B} \\\\ &=0.3 \\times 9.81=2.943 \\mathrm{N} \\\\ \\left(a_{A}\\right)_{\\max } &=\\left[(f s)_{\\max }\\right]_{A B} / m_{A}=2.943 \\mathrm{m} / \\mathrm{s}^{2} \\end{aligned}[/latex] At that condition [latex] \\begin{aligned} F_{\\min }-8.829 &=m_{B} a_{B} \\\\ F_{\\min } &=8.829+1 \\times 2.943 \\\\ F_{\\text {rin }}&=11.772 \\mathrm{N}\\\\ \\end{aligned}[/latex] At this point both will be moving with same  acceleration but beyond this if we will increase F, acceleration of B will be more than A and there will be slipping between the books.",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 99 A simple pendulum of length 5m, with a bob of mass 1 kg, is in simple harmonic motion. As it passes through its mean position, the bob has a speed of 5 m/s. the net force on the bob at the mean position is",
+    "options": {
+      "A": "zero",
+      "B": "2.5 N",
+      "C": "5 N",
+      "D": "25 N"
+    },
+    "image": null,
+    "solution": "Mean position [latex] \\rightarrow [/latex] It is the position where acceleration is zero and hence force is zero",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 100 The time variation of the position of a particle in rectilinear motion is given by [latex]x-2t^{3}+t^{2}+2t[/latex]. If v is the velocity and a the acceleration of the particle in consistent units, the motion started with",
+    "options": {
+      "A": "v=0, a=0",
+      "B": "v=0, a=2",
+      "C": "v=2 a=0",
+      "D": "v=2 a=2"
+    },
+    "image": null,
+    "solution": "[latex]\\begin{aligned} \\text{Given }\\quad x&=2 t^{3}+t^{2}+2 t \\\\ Velocity: \\quad V&=\\frac{d x}{d t}=6 t^{2}+2 t+2 \\\\ \\text{At }\\quad t&=0 \\quad (\\text{start of motion}) \\\\ V &=0+0+2 \\\\ V &=2 \\\\ \\text { Acceleration: } a&=\\frac{d V}{d t}=12 t+2 \\\\ \\text{At }\\quad t&=0 \\\\ a&=0+2 \\\\ \\therefore a&=2 \\\\ \\end{aligned}[/latex]",
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 The figure shows a pair of pinjointed gripper tongs holding an object weighing 2000 N. The coefficient of friction ([latex]\\mu[/latex]) at the gripping surface is 0.1XX is the line of action of the input force and YY is the line of application of gripping force.  If the pinjoint is assumed to be frictionless, the magnitude of force F required to hold the weight is",
+    "options": {
+      "A": "1000 N",
+      "B": "2000 N",
+      "C": "2500 N",
+      "D": "5000 N"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20041/q45.jpg",
+    "solution": "FBD of object [latex] \\begin{aligned} 2 f &=2000 \\\\ f &=1000=\\mu N=0.1 \\times N \\\\ N &=10000 \\mathrm{N} \\end{aligned}[/latex] Considering one tong of gripper. Taking net moment about hinge point of gripper tong zero (because it is in equilibrium). As we are taking moment about hinge so no need to consider hinge reaction. [latex] \\begin{aligned} F \\times 300 &=N \\times 150 \\\\ F &=\\frac{N}{2}=\\frac{10000}{2} \\\\ &=5000 \\mathrm{N} \\end{aligned}[/latex]",
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 102 A rigid body shown in the Fig.(a) has a mass of 10 kg. It rotates with a uniform angular velocity '[latex]\\omega[/latex]'. A balancing mass of 20 kg is attached as shown in Fig. (b). The percentage increase in mass moment of inertia as a result of this addition is",
+    "options": {
+      "A": "25%",
+      "B": "50%",
+      "C": "100%",
+      "D": "200%"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20041/q44.jpg",
+    "solution": "Moment of intertia of first [latex] =m k^{2} [/latex] [latex] =10 \\times(0.2)^{2} [/latex] [latex] =0.4 \\mathrm{kgm}^{2}[/latex] Moment of intertia of second [latex] =m_{1} k_{1}^{2}+m_{2} k_{2}^{2}[/latex] [latex] =10 \\times(0.2)^{2}+20 \\times(0.1)^{2}[/latex] [latex] \\therefore [/latex] Increases in mass moment of intertia [latex] =\\frac{0.6-0.4}{0.4} \\times 100=50 \\%[/latex]",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 103 An ejector mechanism consists of a helical compression spring having a spring constant of K = [latex]981\\times 10^{3}[/latex]\n N/m. it is pre-compressed by 100 mm from its free state. If it is used to eject a mass of 100 kg held on it, the mass will move up through a distance of",
+    "options": {
+      "A": "100 mm",
+      "B": "5000 mm",
+      "C": "981 mm",
+      "D": "1000 mm"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20041/q43.jpg",
+    "solution": "[latex]\\frac{1}{2} K x^{2} [/latex] will be converted into G.P.E. (taking reference as compressd condition) [latex] \\frac{1}{2} K x^{2}=m g h[/latex] or  [latex] \\quad \\frac{1}{2} \\times 981 \\times 10^{3} \\times .1^{2}=100 \\times 9.81 \\mathrm{h} [/latex] [latex] h=5 \\mathrm{m}=5000 \\mathrm{mm}[/latex] OR When spring will reach its natural length, K.E of the block of mass 100 kg held on it.  (taking reference at natural length of spring) [latex] \\frac{1}{2} k x^{2}-m g x=\\frac{1}{2} m V^{2} \\quad[x=0.1 \\mathrm{m}][/latex] and this K.E will be converted into mgh Total lift of block [latex] =h+x [/latex] [latex] \\frac{1}{2} \\times 981 \\times 10^{3} \\times .1^{2}-100 \\times 9.81 \\times 1= m g h=100 \\times 9.81 \\times h [/latex] [latex] h =4.9 \\mathrm{m} [/latex] [latex] \\Rightarrow \\quad h+x =4.9+0.1=5 \\mathrm{m}=5000 \\mathrm{mm}[/latex]",
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 104 The figure shows a pin-jointed plane truss loaded at the point M by hanging a mass of 100 kg. The member LN of the truss is subjected to a load of",
+    "options": {
+      "A": "0 Newton",
+      "B": "490 Newtons in compression",
+      "C": "981 Newtons in compression",
+      "D": "981 Newtons in tension"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20041/q4.jpg",
+    "solution": "[latex]\\Sigma F_H=0 [/latex] and  [latex] \\Sigma F_V=0 [/latex] At joint \"L\" [latex]\\therefore \\;\\; F_{LK}-F_{LM}=0\\;\\;(\\Sigma F_H=0) [/latex] [latex]F_{LN}=0\\;\\;\\;(\\Sigma F_V=0)[/latex] Hence no force is acting on the truss number LN.",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 105 A reel of mass \"m\" and radius of gyration \"k\" is rolling down smoothly from rest with one end of the thread wound on it held in the ceiling as depicted in the figure. Consider the thickness of the thread and its mass negligible in comparison with the radius \"r\" of the hub and the reel mass \"m\". Symbol \"g\" represents the acceleration due to gravity. The tension in the thread is",
+    "options": {
+      "A": "[latex]\\frac{mgr^{2}}{(r^{2}+k^{2})}[/latex]",
+      "B": "[latex]\\frac{mgrk}{(r^{2}+k^{2})}[/latex]",
+      "C": "[latex]\\frac{mgk^{2}}{(r^{2}+k^{2})}[/latex]",
+      "D": "[latex]\\frac{mg}{(r^{2}+k^{2})}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20031/q7172.jpg",
+    "solution": "[latex]\\begin{aligned} T &=\\frac{m k^{2}}{r^{2}} \\cdot a \\\\ &=\\frac{m k^{2}}{r^{2}} \\times \\frac{g r^{2}}{\\left(k^{2}+r^{2}\\right)}=\\frac{m g k^{2}}{\\left(k^{2}+r^{2}\\right)} \\end{aligned}[/latex]",
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 106 A reel of mass \"m\" and radius of gyration \"k\" is rolling down smoothly from rest with one end of the thread wound on it held in the ceiling as depicted in the figure. Consider the thickness of the thread and its mass negligible in comparison with the radius \"r\" of the hub and the reel mass \"m\". Symbol \"g\" represents the acceleration due to gravity. The linear acceleration of the reel is",
+    "options": {
+      "A": "[latex]\\frac{gr^{2}}{(r^{2}+k^{2})}[/latex]",
+      "B": "[latex]\\frac{gk^{2}}{(r^{2}+k^{2})}[/latex]",
+      "C": "[latex]\\frac{grk}{(r^{2}+k^{2})}[/latex]",
+      "D": "[latex]\\frac{mgr^{2}}{(r^{2}+k^{2})}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20031/q7172.jpg",
+    "solution": "Let a= linear acceleration For a vertical translation motion. [latex] m g-T=m a \\qquad\\ldots(i) [/latex] For rotational motion [latex] T \\times r=I [/latex] [[latex]a=r \\alpha [/latex] (pure rolling)][/latex] [latex] \\pi=m k^{2} \\frac{a}{r}[/latex] [latex] \\therefore \\quad T=\\frac{m k^{2}}{r^{2}} \\cdot a \\qquad\\ldots(ii)[/latex] From Eqs. (i) and (ii), we get [latex] m g-\\frac{m k^{2}}{r^{2}} \\cdot a=m a [/latex] [latex] \\alpha a=\\frac{g r^{2}}{k^{2}+r^{2}}[/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 107 A bullet of mass \"m\" travels at a very high velocity v (as shown in the figure) and gets embedded inside the block of mass \"M\" initially at rest on a rough horizontal floor. The block with the bullet is seen to move a distance \"s\" along the floor. Assuming [latex] \\mu [/latex]  to be the coefficient of kinetic friction between the block and the floor and \"g\" the acceleration due to gravity what is the velocity v of the bullet?",
+    "options": {
+      "A": "[latex]\\frac{M+m}{m}\\sqrt{2\\mu gs}[/latex]",
+      "B": "[latex]\\frac{M-m}{m}\\sqrt{2\\mu gs}[/latex]",
+      "C": "[latex]\\frac{\\mu M+m}{m}\\sqrt{2 gs}[/latex]",
+      "D": "[latex]\\frac{M}{m}\\sqrt{2\\mu gs}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20031/q38.jpg",
+    "solution": "From conservation of linear momentum [latex] \\begin{aligned} m V&=(M+m) U\\\\ \\therefore \\quad U & =\\frac{m V}{M+m} \\\\ \\vec{f}_{k} & =\\mu N(-\\hat{i}) \\\\ \\vec{f}_{k} & =\\mu(M+m) g(-\\hat{i}) \\\\ \\vec{a} & =\\frac{7_{k}}{(M+m)} \\\\ \\vec{a} & =\\mu g(-\\hat{i}) \\\\ \\text{Now }\\quad V_{2}^{2}&=U^{2}-2 \\mu g s \\\\ \\therefore & 0=\\left(\\frac{m V}{M+m}\\right)^{2}-2 \\mu g s \\\\ \\therefore & V=\\left(\\frac{M+m}{m}\\right) \\sqrt{2 \\mu g s} \\end{aligned}[/latex]",
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 108 A truss consists of horizontal members (AC, CD, DB and EF) and vertical members (CE and DE) having length l each. The members AE, DE and BF are inclined at 45[latex]^{\\circ}[/latex] to the horizontal. For the uniformly distributed load \"p\" per unit length on the member EF of the truss shown in figure given below, the force in the member CD is",
+    "options": {
+      "A": "[latex]\\frac{pl}{2}[/latex]",
+      "B": "[latex]pl[/latex]",
+      "C": "[latex]0[/latex]",
+      "D": "[latex]\\frac{2pl}{3}[/latex]"
+    },
+    "image": "https://practicepaper.in/wp-content/uploads/GATE/ME/20031/q37.jpg",
+    "solution": "[latex] \\begin{aligned} R_{A}+R_{B}&=P l \\\\ \\text{Taking moment about} \\\\ Pl(l+1 / 2)&=R_{B} \\times 3 l\\\\ \\therefore R_{B}&=\\frac{P l}{2}\\\\ \\therefore R_{A}&=\\frac{P l}{2}\\\\ \\end{aligned}[/latex] Joint A Now at joint A [latex] \\begin{aligned} \\Sigma F_{V} &=0 \\\\ F_{E A} \\sin 45^{\\circ} &=\\frac{P l}{2}\\\\ \\therefore \\quad F_{E A}&=\\frac{P l}{\\sqrt{2}} \\\\ F_{A C}&=F_{E A} \\cos 45^{\\circ} \\\\ F_{A C}&=\\frac{P l}{\\sqrt{2}} \\times \\frac{1}{\\sqrt{2}} \\\\ F_{A C}&=\\frac{P l}{2}\\\\ \\text{At joint C} \\\\ F_{C A}&=F_{C D}=\\frac{P l}{2} \\quad\\left[\\because F_{C E}=0\\right] \\end{aligned}[/latex]",
+    "correct_answer": "A"
+  }
+]
