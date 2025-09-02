@@ -16,12 +16,12 @@
   "type": "mcq",
   "question": "Question 2: For the differential equation given below, which one of the following options is correct?\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$\n$$0 \\leq x \\leq 1,\\; 0 \\leq y \\leq 1$$",
   "image": null,
-  "solution": "Given the differential equation:\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$\nfor $$0 \\leq x \\leq 1, 0 \\leq y \\leq 1$$.\n\n**Step 1:** Understanding the Equation  \nThe given equation is the Laplace equation. A function $$u(x,y)$$ satisfies it if:\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$\n\n**Step 2:** Checking Options\n\n**Option (A):** $$u = e^{x+y}$$  \n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = e^{x+y} + e^{x+y} = 2e^{x+y} \\neq 0$$\n❌ Not a solution.\n\n**Option (B):** $$u = e^x \\sin y$$  \n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = e^x \\sin y - e^x \\sin y = 0$$\n✅ Correct solution.\n\n**Option (C):** $$u = \\sin x \\sin y$$  \n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = -2 \\sin x \\sin y \\neq 0$$\n❌ Not a solution.\n\n**Option (D):** $$u = \\cos x \\cos y$$  \n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = -2 \\cos x \\cos y \\neq 0$$\n❌ Not a solution.\n\n**Final Answer:** $$u = e^x \\sin y$$ ✅",
+  "solution": "$$\\text{Given the differential equation: } \\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$\n$$\\text{for } 0 \\leq x \\leq 1, 0 \\leq y \\leq 1$$\n\n$$\\text{Option (A): } u = e^{x+y}$$\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 2 e^{x+y} \\neq 0$$\n$$\\text{Option (B): } u = e^x \\sin y$$\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$\n$$\\text{Option (C): } u = \\sin x \\sin y$$\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = -2 \\sin x \\sin y \\neq 0$$\n$$\\text{Option (D): } u = \\cos x \\cos y$$\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = -2 \\cos x \\cos y \\neq 0$$\n$$\\text{Final Answer: } u = e^x \\sin y$$",
   "options": {
-    "A": "$$u = e^{x+y}$$ is not a solution",
-    "B": "$$u = e^x \\sin y$$ is the correct solution",
-    "C": "$$u = \\sin x \\sin y$$ is not a solution",
-    "D": "$$u = \\cos x \\cos y$$ is not a solution"
+    "A": "$$u = e^{x+y}$$",
+    "B": "$$u = e^x \\sin y$$",
+    "C": "$$u = \\sin x \\sin y$$",
+    "D": "$$u = \\cos x \\cos y$$"
   },
   "correct_answer": "B"
 },
@@ -718,6 +718,7 @@
     "correct_answer": "B"
   }
 ]
+
 
 
 
