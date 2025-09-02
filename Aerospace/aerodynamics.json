@@ -1,0 +1,1061 @@
+[
+    {
+        "type": "mcq",
+        "question": "AE 2014 Q.1",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "A",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2014/16-14.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2014 Q.2",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "D",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2014/017-14.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2014 Q.3",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "B",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2014/17-14.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2014 Q.4",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "D",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2014/18-14.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2014 Q.5",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "D",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2014/19-14.png",
+        "solution": ""
+    },
+     {
+        "type": "numerical",
+        "question": "AE 2014 Q.6",
+        "min": -5.01,
+        "max": -4.99,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2014/40-14.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2014 Q.7",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "C",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2014/41-14.png",
+        "solution": ""
+    },
+
+    {
+        "type": "mcq",
+        "question": "AE 2014 Q.8",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "B",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2014/43-14.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2014 Q.9",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "C",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2014/44-14.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2014 Q.10",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "C",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2014/45-14.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2014 Q.11",
+        "min": 0.99,
+        "max": 1.01,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2014/46-14.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2015 Q.12",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "B",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2015/17-15.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2015 Q.13",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "A",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2015/19-15.png",
+        "solution": ""
+    },
+     {
+        "type": "mcq",
+        "question": "AE 2015 Q.14",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "B",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2015/20-15.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2015 Q.15",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "A",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2015/29-15.png",
+        "solution": ""
+    },
+     {
+        "type": "numerical",
+        "question": "AE 2015 Q.16",
+        "min": 6.27,
+        "max": 6.29,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2015/31-15.png",
+        "solution": ""
+    },  {
+        "type": "mcq",
+        "question": "AE Q.33",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "B",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2015/33-15.png",
+        "solution": ""
+    },  {
+        "type": "numerical",
+        "question": "AE 2015 Q.17",
+        "min": 0.15,
+        "max": 0.18,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2015/43-15.png",
+        "solution": ""
+    }, {
+        "type": "numerical",
+        "question": "AE 2015 Q.18",
+        "min": 53.9,
+        "max": 54.1,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2015/46-15.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2015 Q.19",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "A",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2015/47-15.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2015 Q.20",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "C",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2015/48-15.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2015 Q.21",
+        "min": 8.9,
+        "max": 9.1,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2015/56-15.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2016 Q.22",
+        "min": 2.0,
+        "max": 2.0,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2016/21-16.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2016 Q.23",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "A",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2016/22-16.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2016 Q.24",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "B",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2016/23-16.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2016 Q.25",
+        "min": 5.0,
+        "max": 5.0,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2016/24-16.png",
+        "solution": ""
+    },
+     {
+        "type": "mcq",
+        "question": "AE 2016 Q.26",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "D",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2016/28-16.png",
+        "solution": ""
+    },
+     {
+        "type": "mcq",
+        "question": "AE 2016 Q.27",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "B",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2016/49-16.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2016 Q.28",
+        "min": 2.4,
+        "max": 2.6,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2016/50-16.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2016 Q.39",
+        "min": 0.99,
+        "max": 1.01,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2016/51-16.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2016 Q.40",
+        "min": -11.0,
+        "max": -11.0,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2016/52-16.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2017 Q.41",
+        "min": 548,
+        "max": 550,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2016/55-16.png",
+        "solution": ""
+    },
+     {
+        "type": "mcq",
+        "question": "AE 2017 Q.42",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "B",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2017/6-17.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2017 Q.43",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "C",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2017/7-17.png",
+        "solution": ""
+    },
+     {
+        "type": "numerical",
+        "question": "AE 2017 Q.44",
+        "min": 0.54,
+        "max": 0.55,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2017/31-17.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2017 Q.45",
+        "min": 0.165,
+        "max": 0.168,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2017/32-17.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2017 Q.46",
+        "min": 20,
+        "max": 20,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2017/33-17.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2018 Q.47",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "C",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2018/16-18.png",
+        "solution": ""
+    },
+     {
+        "type": "mcq",
+        "question": "AE 2018 Q.48",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "C",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2018/18-18.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2018 Q.49",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "A",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2018/22-18.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2018 Q.50",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "B",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2018/23-18.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2018 Q.51",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "B",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2018/24-18.png",
+        "solution": ""
+    },
+     {
+        "type": "mcq",
+        "question": "AE 2018 Q.52",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "C",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2018/37-18.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2018 Q.53",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "C",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2018/38-18.png",
+        "solution": ""
+    },
+     {
+        "type": "numerical",
+        "question": "AE 2018 Q.54",
+        "min": 0.68,
+        "max": 0.73,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2018/47-18.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2018 Q.55",
+        "min": 9.8,
+        "max": 9.81,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2018/49-18.png",
+        "solution": ""
+    },
+     {
+        "type": "numerical",
+        "question": "AE 2018 Q.56",
+        "min": 18000,
+        "max": 19440,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2018/53-18.png",
+        "solution": ""
+    },
+      {
+        "type": "numerical",
+        "question": "AE 2018 Q.57",
+        "min": 47.0,
+        "max": 55.0,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2018/57-18.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2019 Q.58",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "B",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2019/14-19.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2019 Q.60",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "B",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2019/15-19.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2019 Q.61",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "C",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2019/17-19.png",
+        "solution": ""
+    },
+     {
+        "type": "numerical",
+        "question": "AE 2019 Q.62",
+        "min": 10,
+        "max": 10,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2019/26-19.png",
+        "solution": ""
+    },
+     {
+        "type": "numerical",
+        "question": "AE 2019 Q.63",
+        "min": 43.05,
+        "max": 43.15,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2019/29-19.png",
+        "solution": ""
+    },
+     {
+        "type": "numerical",
+        "question": "AE 2019 Q.64",
+        "min": 30,
+        "max": 30,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2019/44-19.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2019 Q.65",
+        "min": 10,
+        "max": 10,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2019/45-19.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2019 Q.66",
+        "min": 3.5,
+        "max": 3.7,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2019/46-19.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2019 Q.67",
+        "min": 0.24,
+        "max": 0.3,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2019/48-19.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2019 Q.68",
+        "min": 18.0,
+        "max": 19.2,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2019/49-19.png",
+        "solution": ""
+    },
+      {
+        "type": "mcq",
+        "question": "AE 2020 Q.69",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "C",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2020/14-20.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2020 Q.70",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "D",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2020/15-20.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2020 Q.71",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "C",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2020/16-20.png",
+        "solution": ""
+    },
+    {
+        "type": "mcq",
+        "question": "AE 2020 Q.72",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct_answer": "B",
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2020/17-20.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2020 Q.73",
+        "min": 1.9,
+        "max": 2.1,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2020/32-20.png",
+        "solution": ""
+    },
+     {
+        "type": "numerical",
+        "question": "AE 2020 Q.74",
+        "min": 0.92,
+        "max": 0.94,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2020/47-20.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2020 Q.75",
+        "min": 0.009,
+        "max": 0.011,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2020/48-20.png",
+        "solution": ""
+    },
+
+    {
+        "type": "numerical",
+        "question": "AE 2020 Q.76",
+        "min": 4.0,
+        "max": 4.2,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2020/50-20.png",
+        "solution": ""
+    },
+    {
+        "type": "numerical",
+        "question": "AE 2020 Q.77",
+        "min": 1.29,
+        "max": 1.38,
+        "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2020/51-20.png",
+        "solution": ""
+    },
+
+    {
+    "type": "mcq",
+    "question": "AE 2021 Q.78 Consider the velocity field V = (2x+3y)i +(3x+2y)j. The field is",
+    "options": {
+      "A": "divergence-free and curl-free",
+      "B": "curl-free but not divergence-free",
+      "C": "divergence-free but not curl-free",
+      "D": "neither divergence-free nor curl-free"
+    },
+    "correct_answer": "B",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/13-21.png",
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "AE 2021 Q.79 Which of the following statement(s) is/are true with regards to Kutta condition for flow past airfoils?",
+    "options": {
+      "A": "It is utilized to determine the circulation on an airfoil.",
+      "B": "It is applicable only to airfoils with sharp trailing edge.",
+      "C": "The trailing edge of an airfoil is a stagnation point.",
+      "D": "The flow leaves the trailing edge smoothly."
+    },
+    "correct_answers": ["A", "B", "D"],
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "AE 2021 Q.80 According to the thin airfoil theory, which of the following statement(s) is/are true for a cambered airfoil?",
+    "options": {
+      "A": "The lift coefficient for an airfoil is directly proportional to the absolute angle of attack.",
+      "B": "The aerodynamic center lies at quarter chord point.",
+      "C": "The center of pressure lies at quarter chord point.",
+      "D": "Drag coefficient is proportional to the square of lift coefficient."
+    },
+    "correct_answers": ["A", "B"],
+    "image": null,
+    "solution": ""
+  }, 
+  {
+    "type": "numerical",
+    "question": "AE 2021 Q.81 A free vortex filament (oriented along Z-axis) of strength K = 5 m²/s is placed at the origin as shown in the figure. The circulation around the closed loop ABCDEFA for this flow is ____.",
+    "min": 0,
+    "max": 0,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/21-21.png",
+    "solution": ""
+  },
+    {
+    "type": "mcq",
+    "question": "AE 2021 Q.82 The figure shows three glasses P, Q and R with water and floating ice cube. Glass P has a solid ice cube, glass Q has an ice cube with a small solid steel ball embedded in it and glass R has an ice cube with an air bubble. After the ice cube melts, the level of water in glasses P, Q and R, respectively:",
+    "options": {
+      "A": "remains same, increases, and decreases",
+      "B": "increases, decreases, and increases",
+      "C": "remains same, decreases, and decreases",
+      "D": "remains same, decreases, and increases"
+    },
+    "correct_answer": "C",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/27-21.png",
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "AE 2021 Q.83 To estimate aerodynamic loads on an aircraft flying at 100 km/h at standard sea-level conditions, a one-fifth scale model is tested in a variable-density wind tunnel ensuring similarity of inertial and viscous forces. The pressure used in the wind tunnel is 10 times the atmospheric pressure. Assuming ideal gas law to hold and the same temperature conditions in model and prototype, the velocity needed in the wind tunnel test-section is:",
+    "options": {
+      "A": "25 km/h",
+      "B": "50 km/h",
+      "C": "100 km/h",
+      "D": "20 km/h"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "AE 2021 Q.84 The figure shows schematic of a set-up for visualization of non-uniform density field in the test section of a supersonic wind tunnel. This technique of visualization of high speed flows is known as:",
+    "options": {
+      "A": "schlieren",
+      "B": "interferometry",
+      "C": "shadowgraph",
+      "D": "holography"
+    },
+    "correct_answer": "C",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/29-21.png",
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "AE 2021 Q.85 A large water tank is fixed on a cart with wheels and a vane (see figure). The wheels of the cart provide negligible resistance for rolling on the fixed support. The cart is tied to the fixed support with a thin horizontal rope. There is a hole of diameter 5 cm on the side of the tank through which a jet of constant velocity of 10 m/s emerges. The jet of water is deflected by the attached vane by 60°. Assume that the jet velocity remains constant at 10 m/s after emerging from the vane. Take density of water to be 1000 kg/m³. The tension in the connecting rope is ____ N (round off to one decimal place).",
+    "min": 98.0,
+    "max": 98.5,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/40-21.png",
+    "solution": ""
+  },
+
+  {
+    "type": "numerical",
+    "question": "AE 2021 Q.86 Consider a model of a boundary layer with the following velocity profile: as shown in figure. The shape factor, defined as the ratio of the displacement thickness to momentum thickness, for this profile is ____ (round off to 2 decimal places).",
+    "min": 4.8,
+    "max": 5.2,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2021/42-21.png",
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "AE 2022 Q.87 Consider a two-dimensional potential flow over a cylinder. If the freestream speed is 𝑈∞, the maximum speed on the cylinder surface is",
+    "options": {
+      "A": "𝑈∞/2",
+      "B": "3𝑈∞/2",
+      "C": "2𝑈∞",
+      "D": "4𝑈∞/3"
+    },
+    "correct_answer": "C",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "AE 2022 Q.88  Consider steady, two-dimensional, incompressible flow over a non-porous flat plate as shown in the figure. For the control volume PQRS, the speed, 𝑢∞, at section PQ is uniform and the speed at section RS is given by 𝑢(𝑦) = 𝐴ₙ(𝑦/h)^n, where n is a positive integer. The value of 𝐴ₙ for which the flow through section PS will vanish is:",
+    "options": {
+      "A": "𝑢∞/(n+1)",
+      "B": "𝑢∞(n+1)",
+      "C": "𝑢∞/(n−1)",
+      "D": "𝑢∞(n−1)"
+    },
+    "correct_answer": "B",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2022/16-22.png",
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "AE 2022 Q.89  Consider the velocity distribution, 𝑢(𝑦) shown in the figure. For two adjacent fluid layers L₁ and L₂, the viscous force exerted by L₁ on L₂ is",
+    "options": {
+      "A": "to the right",
+      "B": "to the left",
+      "C": "vertically upwards",
+      "D": "vertically downwards"
+    },
+    "correct_answer": "B",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2022/17-22.png",
+    "solution": ""
+  },
+   {
+    "type": "mcq",
+    "question": "AE 2022 Q.90  NACA 2412 airfoil has",
+    "options": {
+      "A": "4% maximum camber with respect to chord",
+      "B": "maximum camber at 40% chord",
+      "C": "12% maximum thickness to chord ratio",
+      "D": "maximum camber at 20% chord"
+    },
+    "correct_answers": ["B","C"],
+    "image": null,
+    "solution": ""
+  },
+    {
+    "type": "mcq",
+    "question": "AE 2022 Q.91  A cylindrical object of diameter 900 mm is designed to move axially in air at 60 m/s. Its drag is estimated on a geometrically half-scaled model in water, assuming flow similarity. Coefficients of dynamic viscosity and densities for air and water are 1.86 × 10⁻⁵ Pa-s, 1.2 kg/m³ and 1.01 × 10⁻³ Pa-s, 1000 kg/m³ respectively. Drag measured for the model is 2280 N. Drag experienced by the full-scale object is (rounded off to the nearest integer).",
+    "options": {
+      "A": "322",
+      "B": "644",
+      "C": "1288",
+      "D": "2576"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "AE 2022 Q.92 A rotational velocity field in an air flow is given as V = ayî + bxĵ, with a = 10 s⁻¹, b = 20 s⁻¹. The air density is 1.0 kg/m³ and the pressure at (x, y) = (0 m, 0 m) is 100 kPa. Neglecting gravity, the pressure at (x, y) = (6 m, 8 m) is (rounded off to nearest integer).",
+    "answer":90,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "AE 2022 Q.93 Consider a circulation distribution over a finite wing given by the equation below. The wingspan b is 10 m, the maximum circulation Γ₀ is 20 m²/s, density of air is 1.2 kg/m³ and the free stream speed is 80 m/s. The lift over the wing is (rounded off to the nearest integer).",
+   "answer":9600,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2022/51-22.png",
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "AE 2022 Q.94 Consider a solid cylinder housed inside another cylinder as shown in the figure. Radius of the inner cylinder is 1 m and its height is 2 m. The gap between the cylinders is 5 mm and is filled with a fluid of viscosity 10⁻⁴ Pa-s. The inner cylinder is rotating at a constant angular speed of 5 rad/s while the outer cylinder is stationary. Friction at the bottom surfaces can be ignored. Velocity profile in the vertical gap between the cylinders can be assumed to be linear. The driving moment required for the rotating motion of the inner cylinder is (rounded off to two decimal places).",
+   "answer":1.26,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2022/52-22.png",
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "AE 2022 Q.95 Consider a thin symmetric airfoil at 2 degree angle of attack in a uniform flow at 50 m/s. The pitching moment coefficient about its leading edge is (rounded off to three decimal places).",
+     "answer":-0.055,
+    "image": null,
+    "solution": ""
+  },
+{
+    "type": "mcq",
+    "question": "AE 2023 Q.95 A 2D potential flow solution for flow past an airfoil has a streamline pattern as shown. Which condition is additionally required to satisfy the Kutta condition?",
+    "options": {
+      "A": "Addition of a source of strength Q > 0",
+      "B": "Addition of a source of strength Q < 0",
+      "C": "Addition of a circulation of strength Γ > 0 (counter-clockwise)",
+      "D": "Addition of a circulation of strength Γ < 0 (clockwise)"
+    },
+    "correct_answer": "D",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/14-23.png",
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "AE 2023 Q.96 For the Blasius solution for the incompressible laminar flat plate boundary layer, select the correct relation for the development of the momentum thickness θ with distance x from the leading edge:",
+    "options": {
+      "A": "θ ∝ x^{2/3}",
+      "B": "θ ∝ x^{1/2}",
+      "C": "θ ∝ x^{1/7}",
+      "D": "θ ∝ x^{−2/3}"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "AE 2023 Q.97 In a two-dimensional potential flow, the doublet is a limit of the superposition of:",
+    "options": {
+      "A": "a uniform stream and a source",
+      "B": "a source and a sink of equal strength",
+      "C": "a uniform stream and a sink",
+      "D": "a source and a vortex"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "AE 2023 Q.98 The figures shown in the options are schematics of airfoil shapes (not to scale). For a civilian transport aircraft designed for cruise Mach 0.8, which among them is best suited aerodynamically as a wing section?",
+    "options": {
+      "A": "image1",
+      "B": "image2",
+      "C": "image3",
+      "D": "image4"
+    },
+    "correct_answer": "D",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2023/18-23.png",
+    "solution": ""
+  },
+    {
+    "type": "numerical",
+    "question": "AE 2023 Q.99 Airplane A at 2 km altitude: density 1.01 kg/m³, pressure 79.50 kPa; Airplane B at 4 km altitude: density 0.82 kg/m³, pressure 61.70 kPa. ΔPressure from pitot-static tube is 3 kPa for both; assuming incompressible flow, the ratio of cruise speeds of A to B is ____. (Round to 2 decimal places)",
+    "min": 0.89,
+    "max": 0.91,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "AE 2023 Q.100 The operating characteristics of a pump were measured to be C_P = aΦ², where power coefficient C_P = P/(ρω³D⁵), Φ is the flow coefficient, a is a constant, D is a length scale, ω is the rotation rate, ρ is fluid density, and P is the power required.  The flow coefficient is a dimensionless volume flow rate scaled with ω and D. Assuming that the flow rate remains the same, if the rotation rate is increased to 1.25ω, the power changes to αP. The value of α is ________ . (round off to two decimal places)",
+    "min": 1.24,
+    "max": 1.26,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "AE 2023 Q.101 A thin cambered airfoil has lift coefficient cl₀ = 0 at an angle of attack α = −1.1°.  Assuming that stall occurs at much larger α, the cl at α = 4° is _______.  (round off to two decimal places)",
+    "min": 0.55,
+    "max": 0.57,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "AE 2023 Q.102 In a potential flow, a uniform stream of strength U  directed along the x-axis and four line sources (2-dimensional) of strengths 2/π, −3/π, 4/π, −5/π are placed along the x-axis at x = 0, 1, 2 and 3, respectively. The strength of an additional line source to be placed at x = 4 such that a closed streamline encircles all five sources is _____. (round off to two decimal places).",
+    "min": -0.69,
+    "max": -0.67,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "AE 2023 Q.103 Enstrophy is defined as the square of the magnitude of vorticity.  For the three-dimensional velocity field V = (4x − 1.5y + 2.5z)î + (1.5x − 1.5y)ĵ + (0.7xy)k̂, the enstrophy at location (1, 1, 1) is ________ .  (round off to two decimal places)",
+    "min": 12.61,
+    "max": 12.81,
+    "image": null,
+    "solution": ""
+  },
+  {
+    "type": "mcq",
+    "question": "AE 2024 Q.104. In the context of steady, inviscid, incompressible flows, consider the superposition of a uniform flow with speed U along the positive x-axis (from left to right), and a source of strength Λ located at the origin. Which one of the following statements is NOT true regarding the location of the stagnation point of the resulting flow?",
+    "options": {
+      "A": "It is located to the left of the origin",
+      "B": "It moves closer to the origin for increasing Λ, while U is held constant",
+      "C": "It moves closer to the origin for increasing U, while Λ is held constant",
+      "D": "It is located along the x-axis"
+    },
+    "correct_answer": "B",
+    "image": null,
+    "solution": ""
+  },
+   {
+    "type": "numerical",
+    "question": "AE 2024 Q.105. Using thin airfoil theory, the lift coefficient of a NACA 0012 airfoil placed at 5° angle of attack in a uniform flow is _____________ (rounded off to 2 decimal places).",
+    "min": 0.54,
+    "max": 0.56,
+    "image": null,
+    "solution": ""
+  },
+    {
+    "type": "mcq",
+    "question": "AE 2024 Q.106. Consider a flat plate, with a sharp leading edge, placed in a uniform flow of speed U. The direction of the free-stream flow is aligned with the plate. Assume that the flow is steady, incompressible and laminar. The thickness of the boundary layer at a fixed stream-wise location L from the leading edge of the plate is δ. Which one of the following correctly describes the variation of δ with U?",
+    "options": {
+      "A": "δ ∝ U",
+      "B": "δ ∝ U^{3/2}",
+      "C": "δ ∝ U^{1/2}",
+      "D": "δ ∝ U^{-1/2}"
+    },
+    "correct_answer": "D",
+    "image": null,
+    "solution": ""
+  },
+    {
+    "type": "numerical",
+    "question": "AE 2024 Q.107. The figure (not to scale) shows a control volume to estimate the forces on the airfoil with elliptic cross-section. Surfaces 2 and 3 are streamlines. Velocity profiles are measured at the upstream end (surface 1) and at the downstream end (surface 4) of the control volume. The drag coefficient for the airfoil is defined as Cd = D / (1/2 * ρ * U_∞² * c), where D is the drag force on the airfoil per unit span and ρ is the density of the air. The static pressure, p_∞, is constant over the entire surface of the control volume. Assuming the flow to be incompressible, two-dimensional and steady, the Cd for the airfoil is _________ (rounded off to 3 decimal places).",
+    "min": 0.018,
+    "max": 0.022,
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Images/2024/63-24.png",
+    "solution": ""
+  },
+  {
+    "type": "numerical",
+    "question": "AE 2024 Q.108. It is desired to estimate the aerodynamic drag, D, on a car traveling at a speed of 30 m/s. A one-third scale model of the car is tested in a wind-tunnel following the principles of dynamic similarity. The drag on the scaled model is measured to be Dm. The ratio D/Dm is _________ (rounded off to 1 decimal place).",
+    "min": 1.0,
+    "max": 1.0,
+    "image": null,
+    "solution": ""
+  }
+
+
+
+
+
+]
