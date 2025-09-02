@@ -12,19 +12,19 @@
     },
     "correct_answer": "C"
   },
-  {
-    "type": "mcq",
-    "question": "Question 2 For the differential equation given below, which one of the following options is correct? [latex] \\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0 [/latex]  [latex]\\;\\;\\; 0 \\leq x \\leq 1, 0 \\leq y \\leq 1 [/latex]",
-    "image": null,
-    "solution": "Given: The differential equation: [latex] \\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0 [/latex] for [latex] 0 \\leq x \\leq 1, 0 \\leq y \\leq 1 [/latex]. Step 1: Understanding the Given Equation The given equation is the Laplace equation in two variables. A function [latex] u(x, y) [/latex] is a solution if its second partial derivatives sum to zero: [latex] \\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0 [/latex]. Step 2: Checking Each Option Option (A): [latex] u = e^{x+y} [/latex] First derivative: [latex] \\frac{\\partial u}{\\partial x} = e^{x+y}, \\quad \\frac{\\partial u}{\\partial y} = e^{x+y} [/latex] Second derivative: [latex] \\frac{\\partial^2 u}{\\partial x^2} = e^{x+y}, \\quad \\frac{\\partial^2 u}{\\partial y^2} = e^{x+y} [/latex] Summing them: [latex] e^{x+y} + e^{x+y} = 2e^{x+y} \\neq 0 [/latex] This is not a solution. Option (B): [latex] u = e^x \\sin y [/latex] First derivatives: [latex] \\frac{\\partial u}{\\partial x} = e^x \\sin y, \\quad \\frac{\\partial u}{\\partial y} = e^x \\cos y [/latex] Second derivatives: [latex] \\frac{\\partial^2 u}{\\partial x^2} = e^x \\sin y, \\quad \\frac{\\partial^2 u}{\\partial y^2} = -e^x \\sin y [/latex] Summing them: [latex] e^x \\sin y - e^x \\sin y = 0 [/latex] This is a valid solution. ✅ Option (C): [latex] u = \\sin x \\sin y [/latex] First derivatives: [latex] \\frac{\\partial u}{\\partial x} = \\cos x \\sin y, \\quad \\frac{\\partial u}{\\partial y} = \\sin x \\cos y [/latex] Second derivatives: [latex] \\frac{\\partial^2 u}{\\partial x^2} = -\\sin x \\sin y, \\quad \\frac{\\partial^2 u}{\\partial y^2} = -\\sin x \\sin y [/latex] Summing them: [latex] -\\sin x \\sin y - \\sin x \\sin y = -2\\sin x \\sin y \\neq 0 [/latex] This is not a solution. Option (D): [latex] u = \\cos x \\cos y [/latex] First derivatives: [latex] \\frac{\\partial u}{\\partial x} = -\\sin x \\cos y, \\quad \\frac{\\partial u}{\\partial y} = -\\cos x \\sin y [/latex] Second derivatives: [latex] \\frac{\\partial^2 u}{\\partial x^2} = -\\cos x \\cos y, \\quad \\frac{\\partial^2 u}{\\partial y^2} = -\\cos x \\cos y [/latex] Summing them: [latex] -\\cos x \\cos y - \\cos x \\cos y = -2\\cos x \\cos y \\neq 0 [/latex] This is not a solution. Final Answer: The correct option is: [latex] \\boxed{u = e^x \\sin y} [/latex] ✅",
-    "options": {
-      "A": "[latex]u=e^{x+y}[/latex] is a solution for all [latex]x[/latex] and [latex]y[/latex]",
-      "B": "[latex]u=e^{x}\\sin y[/latex] is a solution for all [latex]x[/latex] and [latex]y[/latex]",
-      "C": "[latex]u=\\sin x \\sin y[/latex] is a solution for all [latex]x[/latex] and [latex]y[/latex]",
-      "D": "[latex]u=\\cos x \\cos y[/latex] is a solution for all [latex]x[/latex] and [latex]y[/latex]"
-    },
-    "correct_answer": "B"
+{
+  "type": "mcq",
+  "question": "Question 2 For the differential equation given below, which one of the following options is correct? $$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$  $$0 \\leq x \\leq 1, 0 \\leq y \\leq 1$$",
+  "image": null,
+  "solution": "Given: The differential equation: $$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$ for $$0 \\leq x \\leq 1, 0 \\leq y \\leq 1$$.\n\n**Step 1:** Understanding the Given Equation  \nThe given equation is the Laplace equation in two variables. A function $$u(x, y)$$ is a solution if its second partial derivatives sum to zero: $$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$.\n\n**Step 2:** Checking Each Option\n\n**Option (A):** $$u = e^{x+y}$$  \nFirst derivative: $$\\frac{\\partial u}{\\partial x} = e^{x+y}, \\quad \\frac{\\partial u}{\\partial y} = e^{x+y}$$  \nSecond derivative: $$\\frac{\\partial^2 u}{\\partial x^2} = e^{x+y}, \\quad \\frac{\\partial^2 u}{\\partial y^2} = e^{x+y}$$  \nSumming them: $$e^{x+y} + e^{x+y} = 2e^{x+y} \\neq 0$$  \nThis is not a solution.\n\n**Option (B):** $$u = e^x \\sin y$$  \nFirst derivatives: $$\\frac{\\partial u}{\\partial x} = e^x \\sin y, \\quad \\frac{\\partial u}{\\partial y} = e^x \\cos y$$  \nSecond derivatives: $$\\frac{\\partial^2 u}{\\partial x^2} = e^x \\sin y, \\quad \\frac{\\partial^2 u}{\\partial y^2} = -e^x \\sin y$$  \nSumming them: $$e^x \\sin y - e^x \\sin y = 0$$  \n✅ This is a valid solution.\n\n**Option (C):** $$u = \\sin x \\sin y$$  \nFirst derivatives: $$\\frac{\\partial u}{\\partial x} = \\cos x \\sin y, \\quad \\frac{\\partial u}{\\partial y} = \\sin x \\cos y$$  \nSecond derivatives: $$\\frac{\\partial^2 u}{\\partial x^2} = -\\sin x \\sin y, \\quad \\frac{\\partial^2 u}{\\partial y^2} = -\\sin x \\sin y$$  \nSumming them: $$-\\sin x \\sin y - \\sin x \\sin y = -2\\sin x \\sin y \\neq 0$$  \nThis is not a solution.\n\n**Option (D):** $$u = \\cos x \\cos y$$  \nFirst derivatives: $$\\frac{\\partial u}{\\partial x} = -\\sin x \\cos y, \\quad \\frac{\\partial u}{\\partial y} = -\\cos x \\sin y$$  \nSecond derivatives: $$\\frac{\\partial^2 u}{\\partial x^2} = -\\cos x \\cos y, \\quad \\frac{\\partial^2 u}{\\partial y^2} = -\\cos x \\cos y$$  \nSumming them: $$-\\cos x \\cos y - \\cos x \\cos y = -2\\cos x \\cos y \\neq 0$$  \nThis is not a solution.\n\n**Final Answer:** The correct option is: $$u = e^x \\sin y$$ ✅",
+  "options": {
+    "A": "$$u=e^{x+y}$$ is a solution for all $$x$$ and $$y$$",
+    "B": "$$u=e^{x}\\sin y$$ is a solution for all $$x$$ and $$y$$",
+    "C": "$$u=\\sin x \\sin y$$ is a solution for all $$x$$ and $$y$$",
+    "D": "$$u=\\cos x \\cos y$$ is a solution for all $$x$$ and $$y$$"
   },
+  "correct_answer": "B"
+}
   {
     "type": "mcq",
     "question": "Question 3 The divergence of the curl of a vector field is",
@@ -718,3 +718,4 @@
     "correct_answer": "B"
   }
 ]
+
