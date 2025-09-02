@@ -14,14 +14,14 @@
   },
 {
   "type": "mcq",
-  "question": "Question 2 For the differential equation given below, which one of the following options is correct? $$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$  $$0 \\leq x \\leq 1, 0 \\leq y \\leq 1$$",
+  "question": "Question 2: For the differential equation given below, which one of the following options is correct?\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$\n$$0 \\leq x \\leq 1,\\; 0 \\leq y \\leq 1$$",
   "image": null,
-  "solution": "Given: The differential equation: $$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$ for $$0 \\leq x \\leq 1, 0 \\leq y \\leq 1$$.\n\n**Step 1:** Understanding the Given Equation  \nThe given equation is the Laplace equation in two variables. A function $$u(x, y)$$ is a solution if its second partial derivatives sum to zero: $$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$.\n\n**Step 2:** Checking Each Option\n\n**Option (A):** $$u = e^{x+y}$$  \nFirst derivative: $$\\frac{\\partial u}{\\partial x} = e^{x+y}, \\quad \\frac{\\partial u}{\\partial y} = e^{x+y}$$  \nSecond derivative: $$\\frac{\\partial^2 u}{\\partial x^2} = e^{x+y}, \\quad \\frac{\\partial^2 u}{\\partial y^2} = e^{x+y}$$  \nSumming them: $$e^{x+y} + e^{x+y} = 2e^{x+y} \\neq 0$$  \nThis is not a solution.\n\n**Option (B):** $$u = e^x \\sin y$$  \nFirst derivatives: $$\\frac{\\partial u}{\\partial x} = e^x \\sin y, \\quad \\frac{\\partial u}{\\partial y} = e^x \\cos y$$  \nSecond derivatives: $$\\frac{\\partial^2 u}{\\partial x^2} = e^x \\sin y, \\quad \\frac{\\partial^2 u}{\\partial y^2} = -e^x \\sin y$$  \nSumming them: $$e^x \\sin y - e^x \\sin y = 0$$  \n✅ This is a valid solution.\n\n**Option (C):** $$u = \\sin x \\sin y$$  \nFirst derivatives: $$\\frac{\\partial u}{\\partial x} = \\cos x \\sin y, \\quad \\frac{\\partial u}{\\partial y} = \\sin x \\cos y$$  \nSecond derivatives: $$\\frac{\\partial^2 u}{\\partial x^2} = -\\sin x \\sin y, \\quad \\frac{\\partial^2 u}{\\partial y^2} = -\\sin x \\sin y$$  \nSumming them: $$-\\sin x \\sin y - \\sin x \\sin y = -2\\sin x \\sin y \\neq 0$$  \nThis is not a solution.\n\n**Option (D):** $$u = \\cos x \\cos y$$  \nFirst derivatives: $$\\frac{\\partial u}{\\partial x} = -\\sin x \\cos y, \\quad \\frac{\\partial u}{\\partial y} = -\\cos x \\sin y$$  \nSecond derivatives: $$\\frac{\\partial^2 u}{\\partial x^2} = -\\cos x \\cos y, \\quad \\frac{\\partial^2 u}{\\partial y^2} = -\\cos x \\cos y$$  \nSumming them: $$-\\cos x \\cos y - \\cos x \\cos y = -2\\cos x \\cos y \\neq 0$$  \nThis is not a solution.\n\n**Final Answer:** The correct option is: $$u = e^x \\sin y$$ ✅",
+  "solution": "Given the differential equation:\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$\nfor $$0 \\leq x \\leq 1, 0 \\leq y \\leq 1$$.\n\n**Step 1:** Understanding the Equation  \nThe given equation is the Laplace equation. A function $$u(x,y)$$ satisfies it if:\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$\n\n**Step 2:** Checking Options\n\n**Option (A):** $$u = e^{x+y}$$  \n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = e^{x+y} + e^{x+y} = 2e^{x+y} \\neq 0$$\n❌ Not a solution.\n\n**Option (B):** $$u = e^x \\sin y$$  \n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = e^x \\sin y - e^x \\sin y = 0$$\n✅ Correct solution.\n\n**Option (C):** $$u = \\sin x \\sin y$$  \n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = -2 \\sin x \\sin y \\neq 0$$\n❌ Not a solution.\n\n**Option (D):** $$u = \\cos x \\cos y$$  \n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = -2 \\cos x \\cos y \\neq 0$$\n❌ Not a solution.\n\n**Final Answer:** $$u = e^x \\sin y$$ ✅",
   "options": {
-    "A": "$$u=e^{x+y}$$ is a solution for all $$x$$ and $$y$$",
-    "B": "$$u=e^{x}\\sin y$$ is a solution for all $$x$$ and $$y$$",
-    "C": "$$u=\\sin x \\sin y$$ is a solution for all $$x$$ and $$y$$",
-    "D": "$$u=\\cos x \\cos y$$ is a solution for all $$x$$ and $$y$$"
+    "A": "$$u = e^{x+y}$$ is not a solution",
+    "B": "$$u = e^x \\sin y$$ is the correct solution",
+    "C": "$$u = \\sin x \\sin y$$ is not a solution",
+    "D": "$$u = \\cos x \\cos y$$ is not a solution"
   },
   "correct_answer": "B"
 },
@@ -718,5 +718,6 @@
     "correct_answer": "B"
   }
 ]
+
 
 
