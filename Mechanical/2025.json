@@ -24,7 +24,7 @@
     "D": "$$u=\\cos x \\cos y$$ is a solution for all $$x$$ and $$y$$"
   },
   "correct_answer": "B"
-}
+},
   {
     "type": "mcq",
     "question": "Question 3 The divergence of the curl of a vector field is",
@@ -718,4 +718,5 @@
     "correct_answer": "B"
   }
 ]
+
 
