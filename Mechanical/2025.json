@@ -2,7 +2,7 @@
   {
     "type": "mcq",
     "question": "Question 1",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/Mechanical/screenshots/2025/page1_q1.png",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2025/page1_q1.png",
     "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2025/page1_q1_solution.png",
     "options": {
       "A": "",
@@ -718,3 +718,4 @@
     "correct_answer": "B"
   }
 ]
+
