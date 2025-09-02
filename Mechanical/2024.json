@@ -10,7 +10,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "D."
+    "correct_answer": "D"
   },
   {
     "type": "mcq",
@@ -23,7 +23,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "C."
+    "correct_answer": "C"
   },
   {
     "type": "mcq",
@@ -36,7 +36,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "D."
+    "correct_answer": "D"
   },
   {
     "type": "mcq",
@@ -49,7 +49,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "D."
+    "correct_answer": "D"
   },
   {
     "type": "mcq",
@@ -62,7 +62,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "B."
+    "correct_answer": "B"
   },
   {
     "type": "mcq",
@@ -75,7 +75,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "C."
+    "correct_answer": "C"
   },
   {
     "type": "mcq",
@@ -88,7 +88,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "B."
+    "correct_answer": "B"
   },
   {
     "type": "mcq",
@@ -101,7 +101,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   },
   {
     "type": "mcq",
@@ -114,7 +114,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "D."
+    "correct_answer": "D"
   },
   {
     "type": "mcq",
@@ -127,7 +127,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   },
   {
     "type": "mcq",
@@ -140,7 +140,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "D."
+    "correct_answer": "D"
   },
   {
     "type": "mcq",
@@ -153,7 +153,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "C."
+    "correct_answer": "C"
   },
   {
     "type": "mcq",
@@ -166,7 +166,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "B."
+    "correct_answer": "B"
   },
   {
     "type": "mcq",
@@ -179,7 +179,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "C."
+    "correct_answer": "C"
   },
   {
     "type": "mcq",
@@ -192,7 +192,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   },
   {
     "type": "mcq",
@@ -205,7 +205,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   },
   {
     "type": "mcq",
@@ -218,7 +218,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "B."
+    "correct_answer": "B"
   },
   {
     "type": "mcq",
@@ -231,7 +231,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "C."
+    "correct_answer": "C"
   },
   {
     "type": "mcq",
@@ -244,7 +244,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   },
   {
     "type": "mcq",
@@ -257,7 +257,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "D."
+    "correct_answer": "D"
   },
   {
     "type": "mcq",
@@ -270,7 +270,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "D."
+    "correct_answer": "D"
   },
   {
     "type": "mcq",
@@ -283,7 +283,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "C."
+    "correct_answer": "C"
   },
   {
     "type": "mcq",
@@ -296,7 +296,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   },
   {
     "type": "mcq",
@@ -309,7 +309,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   },
   {
     "type": "mcq",
@@ -322,7 +322,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "C."
+    "correct_answer": "C"
   },
   {
     "type": "mcq",
@@ -335,7 +335,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   },
   {
     "type": "mcq",
@@ -348,7 +348,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "B."
+    "correct_answer": "B"
   },
   {
     "type": "mcq",
@@ -361,7 +361,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   },
   {
     "type": "mcq",
@@ -374,7 +374,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   },
   {
     "type": "mcq",
@@ -388,9 +388,9 @@
       "D": ""
     },
     "correct_answers": [
-      "A.",
-      "B.",
-      "D."
+      "A",
+      "B",
+      "D"
     ]
   },
   {
@@ -405,8 +405,8 @@
       "D": ""
     },
     "correct_answers": [
-      "C.",
-      "D."
+      "C",
+      "D"
     ]
   },
   {
@@ -612,7 +612,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   },
   {
     "type": "mcq",
@@ -625,7 +625,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   },
   {
     "type": "mcq",
@@ -638,7 +638,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "C."
+    "correct_answer": "C"
   },
   {
     "type": "mcq",
@@ -651,7 +651,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   },
   {
     "type": "mcq",
@@ -664,7 +664,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "D."
+    "correct_answer": "D"
   },
   {
     "type": "mcq",
@@ -677,7 +677,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "D."
+    "correct_answer": "D"
   },
   {
     "type": "mcq",
@@ -690,7 +690,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   },
   {
     "type": "mcq",
@@ -703,7 +703,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "C."
+    "correct_answer": "C"
   },
   {
     "type": "mcq",
@@ -716,7 +716,7 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "C."
+    "correct_answer": "C"
   },
   {
     "type": "mcq",
@@ -729,6 +729,6 @@
       "C": "",
       "D": ""
     },
-    "correct_answer": "A."
+    "correct_answer": "A"
   }
 ]
