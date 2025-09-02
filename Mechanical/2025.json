@@ -14,11 +14,11 @@
   },
 {
   "type": "mcq",
-  "question": "Question 2: For the differential equation given below, which one of the following options is correct?\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$\n$$0 \\leq x \\leq 1,\\; 0 \\leq y \\leq 1$$",
+  "question": "Question 2: For the differential equation given below, which one of the following options is correct?\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$\n$$0 \\leq x \\leq 1, 0 \\leq y \\leq 1$$",
   "image": null,
   "solution": "$$\\text{Given the differential equation: } \\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$\n$$\\text{for } 0 \\leq x \\leq 1, 0 \\leq y \\leq 1$$\n\n$$\\text{Option (A): } u = e^{x+y}$$\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 2 e^{x+y} \\neq 0$$\n$$\\text{Option (B): } u = e^x \\sin y$$\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$$\n$$\\text{Option (C): } u = \\sin x \\sin y$$\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = -2 \\sin x \\sin y \\neq 0$$\n$$\\text{Option (D): } u = \\cos x \\cos y$$\n$$\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = -2 \\cos x \\cos y \\neq 0$$\n$$\\text{Final Answer: } u = e^x \\sin y$$",
   "options": {
-    "A": $$u = e^{x+y}$$,
+    "A": "$$u = e^{x+y}$$",
     "B": "$$u = e^x \\sin y$$",
     "C": "$$u = \\sin x \\sin y$$",
     "D": "$$u = \\cos x \\cos y$$"
@@ -718,6 +718,7 @@
     "correct_answer": "B"
   }
 ]
+
 
 
 
