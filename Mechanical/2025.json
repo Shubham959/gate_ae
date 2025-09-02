@@ -294,10 +294,10 @@
   {
     "type": "numerical",
     "question": "Question 25",
+     "min": "0.7",
+    "max": "0.72",
     "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2025/page5_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2025/page5_q5_solution.png",
-    "min": "0.7",
-    "max": "0.72"
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2025/page5_q5_solution.png"
   },
   {
     "type": "mcq",
@@ -718,4 +718,5 @@
     "correct_answer": "B"
   }
 ]
+
 
