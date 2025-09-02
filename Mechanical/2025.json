@@ -1,0 +1,720 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page1_q1.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page1_q1_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page1_q2.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page1_q2_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page1_q3.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page1_q3_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page1_q4.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page1_q4_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page1_q5.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page1_q5_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page2_q1.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page2_q1_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page2_q2.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page2_q2_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page2_q3.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page2_q3_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page2_q4.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page2_q4_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page2_q5.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page2_q5_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page3_q1.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page3_q1_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page3_q2.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page3_q2_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page3_q3.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page3_q3_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page3_q4.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page3_q4_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page3_q5.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page3_q5_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page4_q1.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page4_q1_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page4_q2.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page4_q2_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page4_q3.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page4_q3_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page4_q4.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page4_q4_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page4_q5.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page4_q5_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page5_q1.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page5_q1_solution.png",
+    "min": "1.61",
+    "max": "1.65"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page5_q2.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page5_q2_solution.png",
+    "min": "5.5",
+    "max": "5.9"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page5_q3.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page5_q3_solution.png",
+    "min": "9.92",
+    "max": "9.98"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page5_q4.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page5_q4_solution.png",
+    "min": "189.8",
+    "max": "190"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page5_q5.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page5_q5_solution.png",
+    "min": "0.7",
+    "max": "0.72"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page6_q1.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page6_q1_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page6_q2.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page6_q2_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page6_q3.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page6_q3_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page6_q4.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page6_q4_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page6_q5.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page6_q5_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page7_q1.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page7_q1_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page7_q2.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page7_q2_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page7_q3.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page7_q3_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page7_q4.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page7_q4_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page7_q5.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page7_q5_solution.png",
+    "min": "-0.1",
+    "max": "0.1"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page8_q1.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page8_q1_solution.png",
+    "min": "0.9",
+    "max": "1.1"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page8_q2.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page8_q2_solution.png",
+    "min": "0.45",
+    "max": "0.55"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page8_q3.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page8_q3_solution.png",
+    "min": "308",
+    "max": "310"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page8_q4.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page8_q4_solution.png",
+    "min": "80",
+    "max": "83"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page8_q5.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page8_q5_solution.png",
+    "min": "2.9",
+    "max": "3.1"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page9_q1.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page9_q1_solution.png",
+    "min": "6.5",
+    "max": "6.8"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page9_q2.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page9_q2_solution.png",
+    "min": "98.5",
+    "max": "101.5"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page9_q3.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page9_q3_solution.png",
+    "min": "1197",
+    "max": "1203"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page9_q4.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page9_q4_solution.png",
+    "min": "99",
+    "max": "101"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page9_q5.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page9_q5_solution.png",
+    "min": "0.95",
+    "max": "1.1"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page10_q1.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page10_q1_solution.png",
+    "min": "-0.29",
+    "max": "-0.25"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page10_q2.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page10_q2_solution.png",
+    "min": "0",
+    "max": "0"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page10_q3.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page10_q3_solution.png",
+    "min": "1",
+    "max": "1.1"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page10_q4.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page10_q4_solution.png",
+    "min": "25",
+    "max": "25"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page10_q5.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page10_q5_solution.png",
+    "min": "61",
+    "max": "63"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page11_q1.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page11_q1_solution.png",
+    "min": "12",
+    "max": "14.2"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page11_q2.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page11_q2_solution.png",
+    "min": "0.83",
+    "max": "0.87"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page11_q3.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page11_q3_solution.png",
+    "min": "2.65",
+    "max": "2.95"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page11_q4.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page11_q4_solution.png",
+    "min": "26000",
+    "max": "26100"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page11_q5.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page11_q5_solution.png",
+    "min": "2",
+    "max": "2"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page12_q1.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page12_q1_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page12_q2.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page12_q2_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page12_q3.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page12_q3_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page12_q4.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page12_q4_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page12_q5.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page12_q5_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page13_q1.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page13_q1_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page13_q2.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page13_q2_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page13_q3.png",
+    "solution": null,
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page13_q4.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page13_q4_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/screenshots/2025/page13_q5.png",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/solution_screenshots/2025/page13_q5_solution.png",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  }
+]
