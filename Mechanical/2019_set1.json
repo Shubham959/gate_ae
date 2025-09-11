@@ -1,0 +1,717 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page1_q1.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page1_q1_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page1_q2.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page1_q2_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page1_q3.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page1_q3_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page1_q4.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page1_q4_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page1_q5.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page1_q5_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page2_q1.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page2_q1_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page2_q2.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page2_q2_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page2_q3.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page2_q3_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page2_q4.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page2_q4_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page2_q5.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page2_q5_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page3_q1.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page3_q1_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page3_q2.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page3_q2_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page3_q3.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page3_q3_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page3_q4.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page3_q4_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page3_q5.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page3_q5_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page4_q1.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page4_q1_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page4_q2.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page4_q2_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page4_q3.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page4_q3_solution.webp",
+    "min": 63.0,
+    "max": 63.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page4_q4.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page4_q4_solution.webp",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page4_q5.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page4_q5_solution.webp",
+    "min": 0.8,
+    "max": 0.9
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page5_q1.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page5_q1_solution.webp",
+    "min": 59.5,
+    "max": 60.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page5_q2.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page5_q2_solution.webp",
+    "min": -0.2,
+    "max": -0.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page5_q3.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page5_q3_solution.webp",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page5_q4.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page5_q4_solution.webp",
+    "min": 0.64,
+    "max": 0.68
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page5_q5.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page5_q5_solution.webp",
+    "min": 210.0,
+    "max": 210.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page6_q1.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page6_q1_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page6_q2.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page6_q2_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page6_q3.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page6_q3_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page6_q4.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page6_q4_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page6_q5.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page6_q5_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page7_q1.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page7_q1_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page7_q2.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page7_q2_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page7_q3.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page7_q3_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page7_q4.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page7_q4_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page7_q5.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page7_q5_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page8_q1.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page8_q1_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page8_q2.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page8_q2_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page8_q3.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page8_q3_solution.webp",
+    "min": 4.98,
+    "max": 5.02
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page8_q4.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page8_q4_solution.webp",
+    "min": 99.0,
+    "max": 101.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page8_q5.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page8_q5_solution.webp",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page9_q1.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page9_q1_solution.webp",
+    "min": 12.0,
+    "max": 14.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page9_q2.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page9_q2_solution.webp",
+    "min": 1.7,
+    "max": 1.9
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page9_q3.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page9_q3_solution.webp",
+    "min": 23.0,
+    "max": 24.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page9_q4.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page9_q4_solution.webp",
+    "min": 212.0,
+    "max": 213.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page9_q5.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page9_q5_solution.webp",
+    "min": 0.98,
+    "max": 1.02
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page10_q1.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page10_q1_solution.webp",
+    "min": 80.0,
+    "max": 80.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page10_q2.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page10_q2_solution.webp",
+    "min": 60.0,
+    "max": 60.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page10_q3.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page10_q3_solution.webp",
+    "min": 82.14,
+    "max": 84.14
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page10_q4.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page10_q4_solution.webp",
+    "min": 19.0,
+    "max": 21.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page10_q5.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page10_q5_solution.webp",
+    "min": 0.5,
+    "max": 0.52
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page11_q1.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page11_q1_solution.webp",
+    "min": 2.09,
+    "max": 2.104
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page11_q2.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page11_q2_solution.webp",
+    "min": 3.5,
+    "max": 3.9
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page11_q3.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page11_q3_solution.webp",
+    "min": 38.0,
+    "max": 42.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page11_q4.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page11_q4_solution.webp",
+    "min": 146.0,
+    "max": 146.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page11_q5.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page11_q5_solution.webp",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page12_q1.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page12_q1_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page12_q2.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page12_q2_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page12_q3.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page12_q3_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page12_q4.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page12_q4_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page12_q5.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page12_q5_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page13_q1.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page13_q1_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page13_q2.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page13_q2_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page13_q3.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page13_q3_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page13_q4.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page13_q4_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2019_Set1/page13_q5.webp",
+    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/solution_screenshots/2019_Set1/page13_q5_solution.webp",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D"
+  }
+]
