@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "topic": "Fluid Mechanics",
+    "pointer": "Q1",
+    "answer": "Incompressible flow condition"
+  },
+  {
+    "id": 2,
+    "topic": "Algebra",
+    "pointer": "Q2",
+    "answer": "Quadratic formula"
+  },
+  {
+    "id": 3,
+    "topic": "Geometry",
+    "pointer": "Q3",
+    "answer": "Circle area formula"
+  }
+]
