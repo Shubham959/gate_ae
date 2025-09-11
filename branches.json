@@ -1,3 +1,5 @@
 {
-  "branches": ["Aerospace", "Mechanical"]
+  "branches": ["Aerospace", 
+    "Mechanical"
+  ]
 }
