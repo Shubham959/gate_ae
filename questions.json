@@ -1,20 +1,70 @@
 [
   {
-    "id": 1,
-    "topic": "Fluid Mechanics",
-    "pointer": "Q1",
-    "answer": "Incompressible flow condition"
+    "type": "mcq",
+    "question": "Q1",
+    "image": null,
+    "solution": "solutionQ1",
+    "options": {
+      "A": "optionQ1_A",
+      "B": "optionQ1_B",
+      "C": "optionQ1_C",
+      "D": "optionQ1_D"
+    },
+    "correct_answer": "B"
   },
   {
-    "id": 2,
-    "topic": "Algebra",
-    "pointer": "Q2",
-    "answer": "Quadratic formula"
+    "type": "mcq",
+    "question": "Q2",
+    "image": null,
+    "solution": "solutionQ2",
+    "options": {
+      "A": "optionQ2_A",
+      "B": "optionQ2_B",
+      "C": "optionQ2_C",
+      "D": "optionQ2_D"
+    },
+    "correct_answer": "D"
   },
   {
-    "id": 3,
-    "topic": "Algebra",
-    "pointer": "Q3",
-    "answer": "Quadratic formula"
+    "type": "mcq",
+    "question": "Q3",
+    "image": null,
+    "solution": "solutionQ3",
+    "options": {
+      "A": "optionQ3_A",
+      "B": "optionQ3_B",
+      "C": "optionQ3_C",
+      "D": "optionQ3_D"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Q4",
+    "image": null,
+    "solution": "solutionQ4",
+    "options": {
+      "A": "optionQ4_A",
+      "B": "optionQ4_B",
+      "C": "optionQ4_C",
+      "D": "optionQ4_D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Q5",
+    "image": null,
+    "solution": "solutionQ5",
+    "min": "3.5",
+    "max": "3.5"
+  },
+  {
+    "type": "numerical",
+    "question": "Q5",
+    "image": null,
+    "solution": "solutionQ5",
+    "min": "3.5",
+    "max": "3.5"
   }
 ]
