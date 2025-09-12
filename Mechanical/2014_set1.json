@@ -1,0 +1,667 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Given that the determinant of the matrix [latex]\\begin{bmatrix} 1 & 3 & 0\\\\ 2 & 6 & 4\\\\ -1 & 0 & 2 \\end{bmatrix}[/latex] is -12, the determinant of the matrix [latex]\\begin{bmatrix} 2 & 6 & 0\\\\ 4 & 12 & 8\\\\ -2 & 0 & 4 \\end{bmatrix}[/latex]",
+    "solution": "Let D=-12 for the given matrix [latex] |A|=\\left|\\begin{array}{ccc}2 & 6 & 0 \\\\4 & 12 & 8 \\\\-2 & 0 & 4\\end{array}\\right|=(2)^{3}\\left|\\begin{array}{ccc}1 & 3 & 0 \\\\2 & 6 & 4 \\\\-1 & 0 & 2\\end{array}\\right| [/latex] (Taking 2 common from each row) [latex] \\begin{aligned}\\therefore \\text{Det}(A) &=(2)^{3} \\times D \\\\=& 8 x-12=-96\\end{aligned}[/latex]",
+    "options": {
+      "A": "-96",
+      "B": "-24",
+      "C": "24",
+      "D": "96"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 [latex]\\lim_{x\\rightarrow 0} \\frac{x-\\sin x}{1-\\cos x}[/latex] is",
+    "solution": "[latex]\\lim_{x \\rightarrow 0} \\frac{x-\\sin x}{1-\\cos x}[/latex] Applying L ' Hospital's rule [latex] \\lim_{x \\rightarrow 0} \\frac{\\frac{d}{dx}(x-sinx)}{\\frac{d}{dx}(1-cosx)}=\\lim_{x \\rightarrow 0} \\frac{(1-\\cos x)}{\\sin x}[/latex] (It is still of [latex] \\frac{0}{0}[/latex] form) Again applying L' Hospital's rule [latex] \\lim_{x \\rightarrow 0} \\frac{\\frac{d}{d x}(1-\\cos x)}{\\frac{d}{d x}(\\sin x)}=\\lim_{x \\rightarrow 0} \\frac{\\sin x}{\\cos x}=\\frac{0}{1}=0[/latex]",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "3",
+      "D": "not define"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 The argument of the complex number [latex]\\frac{1+i}{1-i}[/latex],where [latex]i=\\sqrt{-1}[/latex], is",
+    "solution": "[latex]\\begin{aligned} Let z&=\\frac{1+i}{1-i} \\\\ or z&=\\frac{(1+i)(1+i)}{(1-i)(1+i)}=\\frac{1+i^{2}+2 i}{1-i^{2}}=\\frac{2 i}{2}=i \\\\ z&=x+i y=i \\\\ SO, x&=0 \\\\ y &=1 \\end{aligned}[/latex] [latex] \\begin{aligned} Arg(z) &=\\tan ^{-1}\\left(\\frac{y}{x}\\right) \\\\ &=\\tan ^{-1}\\left(\\frac{1}{0}\\right)=\\tan ^{-1} \\infty=\\frac{\\pi}{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]-\\pi[/latex]",
+      "B": "[latex]-\\pi/2[/latex]",
+      "C": "[latex]\\pi/2[/latex]",
+      "D": "[latex]\\pi[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 The matrix form of the linear system [latex]\\frac{dx}{dt}=3x-5y[/latex] and [latex]\\frac{dy}{dt}=4x+8y[/latex] is",
+    "solution": "[latex]\\begin{aligned} \\frac{d x}{d t} &=3 x-5 y \\\\ \\frac{d y}{d t} &=4 x+8 y \\\\ \\frac{d}{d t}\\left\\{\\begin{array}{l}x \\\\y\\end{array}\\right\\}&=\\left[\\begin{array}{cc}3 & -5 \\\\4 & 8\\end{array}\\right]\\left\\{\\begin{array}{l}x \\\\y\\end{array}\\right\\}=\\left[\\begin{array}{cc} 3 x & -5 y \\\\4 x & +8 y\\end{array}\\right]\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{d}{dt} \\begin{Bmatrix} x\\\\ y \\end{Bmatrix}=\\begin{bmatrix} 3 & -5\\\\ 4& 8 \\end{bmatrix}\\begin{Bmatrix} x\\\\ y \\end{Bmatrix}[/latex]",
+      "B": "[latex]\\frac{d}{dt} \\begin{Bmatrix} x\\\\ y \\end{Bmatrix}=\\begin{bmatrix} 3 & 8\\\\ 4& -5 \\end{bmatrix}\\begin{Bmatrix} x\\\\ y \\end{Bmatrix}[/latex]",
+      "C": "[latex]\\frac{d}{dt} \\begin{Bmatrix} x\\\\ y \\end{Bmatrix}=\\begin{bmatrix} 4 & -5\\\\ 3& 8 \\end{bmatrix}\\begin{Bmatrix} x\\\\ y \\end{Bmatrix}[/latex]",
+      "D": "[latex]\\frac{d}{dt} \\begin{Bmatrix} x\\\\ y \\end{Bmatrix}=\\begin{bmatrix} 4 & 8\\\\ 3& -5 \\end{bmatrix}\\begin{Bmatrix} x\\\\ y \\end{Bmatrix}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Which one of the following describes the relationship among the three vectors [latex]\\hat{i}+\\hat{j}+\\hat{k}[/latex],  [latex]2\\hat{i}+3\\hat{j}+\\hat{k}[/latex] and [latex]5\\hat{i}+6\\hat{j}+4\\hat{k}[/latex]",
+    "solution": "For linear dependency, det [latex] \\left|\\begin{array}{ccc}1 & 1 & 1 \\\\ 2 & 3 & 1 \\\\ 5 & 6 & 4\\end{array}\\right| [/latex] must be zero. [latex] \\therefore \\Delta=1(12-6)-1(8-5)+1(12-15) [/latex] [latex] =6-3-3=0 [/latex] [latex]\\therefore[/latex]  There three vectors are linearly dependent.",
+    "options": {
+      "A": "The vectors are mutually perpendicular",
+      "B": "The vectors are linearly dependent",
+      "C": "The vectors are linearly independent",
+      "D": "The vectors are unit vectors"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 A circular rod of length 'L' and area of cross-section 'A' has a modulus of elasticity 'E' and coefficient of thermal expansion '[latex]\\alpha[/latex]'. One end of the rod is fixed and other end is free. If the temperature of the rod is increased by [latex]\\Delta T[/latex], then",
+    "solution": "For thermal stress to be developed, there must be constraint in the system. So, although strain develops but there is no thermal stress.",
+    "options": {
+      "A": "stress developed in the rod is [latex]E\\alpha \\Delta T[/latex] and strain developed in the rod is [latex]\\alpha \\Delta T[/latex]",
+      "B": "both stress and strain developed in the rod are zero",
+      "C": "stress developed in the rod is zero and strain developed in the rod is [latex]\\alpha \\Delta T[/latex]",
+      "D": "stress developed in the rod is [latex]E\\alpha \\Delta T[/latex] and strain developed in the rod is zero"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 A mentalic rod of 500 mm length and 50mm diameter, when subjected to a tensile force of 100KN at the ends, experiences an increase in its length by 0.5 mm and a reduction in its diameter by 0.015 m. the poission's ratio of the rod material is_________",
+    "solution": "[latex]\\begin{array}{l} v=-\\frac{\\text { Lateral strain }}{\\text { Longitudinal strain }}=-\\frac{\\left(\\frac{\\Delta D}{D}\\right)}{\\left(\\frac{\\Delta L}{L}\\right)} \\\\ v=\\left(\\frac{L}{D}\\right)\\left(-\\frac{\\Delta D}{\\Delta L}\\right) \\\\ \\text{given,}L=500\\mathrm{mm},D=50\\mathrm{mm}\\\\ \\Delta D=-0.015, \\Delta L=+0.5 \\mathrm{mm} \\\\ \\qquad v=\\frac{500}{50} \\times \\frac{0.015}{0.500}=0.3 \\end{array}[/latex]",
+    "min": 0.3,
+    "max": 0.3
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 Critical damping is the",
+    "solution": "The system with critical damping returns to equilibrium in fastest time without any oscillation. In critically damped free vibrations, the damping force is just sufficient to dissipate the energy within   One cycle of motion. The system never executes  a cycle, it approaches equilibrium with exponentially decaying displacement.",
+    "options": {
+      "A": "largest amount of damping for which no oscillation occurs in free vibration",
+      "B": "smallest amount of damping for which no oscillation occurs in free vibration",
+      "C": "largest amount of damping for which the motion is simple harmonic in free vibration",
+      "D": "smallest amount of damping for which the motion is simple harmonic in free vibration"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 A circular object of radius r  rolls without slipping  on a horizontal level floor with the center having velocity V. The velocity at the point of contact between the object and the floor is",
+    "solution": "[latex] \\begin{aligned} V_{P}= & \\omega \\times \\overline{O P}=2 \\omega r \\\\ V_{C}= & \\omega \\times \\overline{O C}=\\omega r \\\\ V_{O}= & \\omega \\times 0=0 \\end{aligned}[/latex]",
+    "options": {
+      "A": "zero",
+      "B": "V in the direction of motion",
+      "C": "V opposite to the direction of motion",
+      "D": "V vertically upward from the floor"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 For the given statements: I. Mating spur gear teeth is an example of higher pair II. A revolute joint is an example of lower pair Indicate the correct answer",
+    "solution": "Example of Lower Pair: Revolute pair, Prismatic joint, Screw pair, cylindrical \r\njoint, spherical joint. Example of higher pair: Wheel rolling an surface, cam and follower contact, \r\nmeshing teeth of two gears.",
+    "options": {
+      "A": "Both I and II are false",
+      "B": "I is true and II is false",
+      "C": "I is false and II is true",
+      "D": "Both I an d II are true"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 A rigid link PQ is 2 m long and oriented at [latex]20^{\\circ}[/latex]  to the horizontal as shown in the figure.  The magnitude and direction of velocity [latex]V_{Q}[/latex] , and the direction of velocity [latex]V_{P}[/latex]  are given. The magnitude of [latex]V_{P}[/latex](in m/s) a t this instant is",
+    "solution": "[latex]\\begin{aligned} \\therefore \\; \\omega _{PQ}&=\\frac{V_P}{PI_{PQ}}=\\frac{V_Q}{QI_{PQ}} \\\\ PI_{PQ}&=\\text{Distance between P and }I_{PQ} \\\\ &= 2 \\cos 70^{\\circ}+ 2 \\sin 70^{\\circ} \\times \\tan 45^{\\circ}\\\\ QI_{PQ} &= \\text{Distance between Q and }I_{PQ} \\\\ &=\\sqrt{2}\\times 2 \\times \\sin 70^{\\circ} \\\\ &= 2.66m\\\\ \\therefore \\;\\; \\frac{V_P}{2.56} &=\\frac{1}{2.66}\\\\ V_P&=\\frac{2.56}{2.66}=0.96\\; m/s \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set1/page3_q1.webp",
+    "options": {
+      "A": "2.14",
+      "B": "1.89",
+      "C": "1.21",
+      "D": "0.96"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Biot number signifies the ratio of",
+    "solution": "Biot number [latex] \\mathrm{Bi}=\\frac{h l}{k}=\\frac{\\frac{l}{k A}}{\\frac{1}{h A}} \\\\ \\mathrm{Bi}=\\frac{\\text { Conductive resistance of solid }}{\\text { Convective resistance of fluid }}[/latex]",
+    "options": {
+      "A": "convective residtance in the fluid to conductive resistance in the solid",
+      "B": "conductive resistance in the solid to convective resistance in the fluid",
+      "C": "inertia force to viscous force in the fluid",
+      "D": "buoyancy force to viscous force in the fluid"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 The maximum theoretical work obtainable, when a system interacts to equilibrium with a reference environment, is called",
+    "solution": "Exergy is also known as availability and it is maximum theoretical work obtainable, when a system interacts to equilibrium with dead state or reference environment.",
+    "options": {
+      "A": "Entropy",
+      "B": "Enthalpy",
+      "C": "Exergy",
+      "D": "Rothalpy"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 Consider a two-dimensional laminar flow over a long cylinder as shown in the figure below. The free stream velocity is [latex]U_{\\infty}[/latex]  and the free stream temperature [latex]T_{\\infty}[/latex] is lower than the cylinder surface temperature  [latex]T_{s}[/latex]. The local heat transfer coefficient is minimum at point",
+    "solution": "[latex] \\begin{aligned} &1.\\mathrm{Re}=500\\\\ &2.\\mathrm{Re}=10^{4}\\\\ &3.\\mathrm{Re}=2 \\times 10^{5}\\\\ &4.\\mathrm{Re}=2 \\times 10^{6}\\\\ \\end{aligned}[/latex] Experimental results for the variation of the local Nusselt number with [latex] \\theta [/latex] are shown in above figure for the cylinder in cross flow of air. The results are strongly influenced by the nature of boundary layer development on the surface. Starting at the stagnation point, Nu decreases with increasing [latex] \\theta [/latex] as a result of laminar boundary layer development. Nu as a result of laminar boundary layer development. Nu reaches minimum at [latex] 80^{\\circ} [/latex] where separation occurs. So, at point 2, the local heat transfer coefficient is minimum.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set1/page3_q4.webp",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 For a completely submerged body with centre of gravity 'G' and centre of buoyancy 'B', the condition of stability will be",
+    "solution": "(A submerged body in stable equilibrium)",
+    "options": {
+      "A": "G is located below B",
+      "B": "G is located above B",
+      "C": "G and B are coincident",
+      "D": "independent of the locations of G and B"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 In a power plant, water (density = [latex]1000 kg/m^{3}[/latex] ) is pumped from 80 kPa to 3 MPa. The pump has an isentropic efficiency of 0.85. Assuming that the temperature of the water remains the same, the specific work (in kJ/kg) supplied to the pump is",
+    "solution": "Ideal work input: [latex] w=v_{f} \\Delta p [/latex] [latex] \\begin{aligned} &=\\frac{1}{\\rho_{\\text {water }}}\\left(p_{2}-p_{1}\\right) \\\\ &=\\frac{(3000-80)}{1000} \\\\ &=\\frac{2920}{1000}=2.92 \\mathrm{kJ} / \\mathrm{kg} \\\\ \\text { Actual input work }&=\\frac{w}{\\eta}= \\frac{2.92}{0.85}\\\\ &=3.43\\mathrm{kJ} / \\mathrm{kg} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.34",
+      "B": "2.48",
+      "C": "2.92",
+      "D": "3.43"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Which one of the following is a CFC refrigerant?",
+    "solution": "[latex]\\begin{array}{l} \\mathrm{R} 744-\\mathrm{CO}_{2} \\\\ \\mathrm{R} 290-\\mathrm{C}_{3} \\mathrm{H}_{8}(\\text { Propane }) \\\\ \\mathrm{R} 502-\\mathrm{CHClF}_{3}+\\mathrm{CCIF}_{2} \\mathrm{CF}_{3} \\\\ \\mathrm{R} 718-\\text { Water } \\end{array}[/latex]",
+    "options": {
+      "A": "R744",
+      "B": "R290",
+      "C": "R502",
+      "D": "R718"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 The jobs arrive at a facility, for service, in a random manner. The probability distribution of number of arrivals of jobs in a fixed time interval is",
+    "solution": "When jobs are coming in random manner then number of arrivals of jobs in a fixed time interval will follow poisson probability distribution. Service time will follow exponential distribution.",
+    "options": {
+      "A": "Normal",
+      "B": "Poisson",
+      "C": "Erlang",
+      "D": "Beta"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 In exponential smoothening method, which one of the following is true?",
+    "solution": "High value of [latex]\\alpha[/latex] shows more weightage is given to immediate forecast. Less value of [latex]\\alpha[/latex] shows less weightage is given to immediate forecast or almost equal weightage is given. So high value of [latex]\\alpha[/latex] is chosen when nature of demand is not reliable or unstable.",
+    "options": {
+      "A": "[latex]0\\leq \\alpha  \\leq 1[/latex]  and high value of [latex]\\alpha[/latex] is used for stable demand",
+      "B": "[latex]0\\leq \\alpha  \\leq 1[/latex]  and high value of [latex]\\alpha[/latex] is used for unstable demand",
+      "C": "[latex]\\alpha  \\geq 1[/latex]  and high value of [latex]\\alpha[/latex] is used for stable demand",
+      "D": "[latex]\\alpha  \\leq 0[/latex]  and high value of [latex]\\alpha[/latex] is used for unstable demand"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 For machining a rectangular island represented by coordinates P(0,0), Q(100,0), R(100,50) and S(0,50) on a casting using CNC milling machine, an end mill with a diameter of 16 mm is used. The trajectory of the cutter centre to machine the island PQRS is",
+    "solution": "Normal Coordinates : [latex]\n P(0,0), Q(100,0), R(100,50), S(0,50) [/latex] With cutter compensation : [latex]\n P_{1}(-8,-8), Q(108,-8), R(108,58), S(-8,58) [/latex]",
+    "options": {
+      "A": "(-8, -8), (108, -8), (108,58), (-8,58) , (-8, -8)",
+      "B": "(8,8), (94,8), (94,44), (8,44), (8,8)",
+      "C": "(-8,8), (94,0), (94,44), (8,44), (-8,8)",
+      "D": "(0,0), (100,0), (100,50), (50,0), (0,0)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 Which one of the following instruments is widely used to check and calibrate geometric features of machine tools during their assembly?",
+    "solution": "To check and calibrate geometric features of machine tools, we use laser interferometer.",
+    "options": {
+      "A": "Ultrasonic probe",
+      "B": "Coordinate Measuring Machine (CMM)",
+      "C": "Laser interferometer",
+      "D": "Vernier calipers"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 The major difficulty during welding of aluminium is due to its",
+    "solution": "Aluminium has high tendency of oxidation so during welding it is converted into aluminium oxide ([latex]\\text{Al}_2O_3[/latex]) and [latex]\\text{Al}_2O_3[/latex] has very high melting point ([latex]2702^{\\circ}C[/latex]), so now it will not melt and welding can not be performed easily.",
+    "options": {
+      "A": "high tendency of oxidation",
+      "B": "high thermal conductivity",
+      "C": "low melting point",
+      "D": "low density"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 The main cutting force acting on a tool during the turning (orthogonal cutting) operation of a metal is 400 N. The turning was performed using 2 mm depth of cut and 0.1 mm/rev feed rate. The specific cutting pressure [latex](in N/mm^{2})[/latex]   is",
+    "solution": "Cutting force [latex]F_c=400 \\; N[/latex] depth [latex]d=2 \\; mm[/latex] feed rate [latex]f=0.1 \\; mm/rev.[/latex] It means per revolution it moves 0.1 mm (t) Specific cutting pressure [latex]=\\frac{F_c}{d \\times t}=\\frac{400}{2 \\times 0.1}=2000 \\; N/mm^2[/latex]",
+    "options": {
+      "A": "1000",
+      "B": "2000",
+      "C": "3000",
+      "D": "4000"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 The process of reheating the martensitic steel to reduce its brittleness without any significant loss in its hardness is",
+    "solution": "Martensitic steel is very hard and brittle after quenching. To reduce brittleness while retaining most of the hardness, the steel is reheated below the critical temperature and then cooled. This heat treatment process is called tempering.",
+    "options": {
+      "A": "normalising",
+      "B": "annealing",
+      "C": "quenching",
+      "D": "tempering"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 In solid-state welding, the contamination layers between the surfaces to be welded are removed by",
+    "solution": "Plastic deformation is used to remove contamination layers between the surfaces to be welded, in solid-state welding.",
+    "options": {
+      "A": "alcohol",
+      "B": "plastic deformation",
+      "C": "water jet",
+      "D": "sand blasting"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 The integral [latex]\\oint_c (ydx-xdy)[/latex]  is evalulated along the circle [latex]x^{2}+y^{2}=\\frac{1}{4}[/latex] traversed in counter clockwise direction. The integral is equal to",
+    "solution": "[latex]\\begin{aligned} \\int_{C}(\\phi d x+\\psi d y) &=\\iint_{E}\\left(\\frac{\\partial \\psi}{\\partial x}-\\frac{\\partial \\phi}{\\partial y}\\right) d x d y \\\\ \\phi &=y \\\\ \\psi &=-x \\\\ \\frac{\\partial \\psi}{\\partial x} &=-1 \\\\ \\frac{\\partial \\phi}{\\partial y} &=1 \\\\ I &=\\iint_{E}\\left(\\frac{\\partial \\psi}{\\partial x}-\\frac{\\partial \\phi}{\\partial y}\\right) d x d y \\\\ &=\\int_{0}^{1 / 2} \\int_{0}^{2 \\pi}(-2) r d \\theta d r \\\\ &=-2\\left(\\int_{0}^{1 / 2} r d r\\right)\\left(\\int_{0}^{2 \\pi} r d \\theta\\right) \\\\ &=-2\\left(\\frac{r^{2}}{2}\\right)_{0}^{1 / 2} 2 \\pi=-\\frac{\\pi}{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0",
+      "B": "[latex]-\\frac{\\pi}{4}[/latex]",
+      "C": "[latex]-\\frac{\\pi}{2}[/latex]",
+      "D": "[latex]\\frac{\\pi}{4}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 If [latex]y=f(x)[/latex]  is the solution of [latex]\\frac{d^2y}{dx^2}=0[/latex] with the boundary conditions y=5 at x=0, and  [latex]\\frac{dy}{dx}=2[/latex] at x=10, f(15)=_____",
+    "solution": "[latex]\\begin{aligned} \\frac{d^{2} y}{d x^{2}} &=0 \\\\ \\frac{d y}{d x} &=C_{1} \\\\ \\Rightarrow \\qquad C_{1} &=2 \\\\ y &=C_{1} x+C_{2} \\\\ at \\qquad x &=0 ; \\quad y=5=C_{2} \\\\ \\therefore \\qquad y &=2 x+5 \\\\ at \\qquad y(15) &=2 \\times 15+5=35 \\end{aligned}[/latex]",
+    "min": 34.0,
+    "max": 36.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 in the folowing table, x is a discrete random variable and p(x) is the pobability destiny. The standard deviation of x is",
+    "solution": "Mean, [latex] \\begin{aligned} \\bar{x} &=\\frac{\\Sigma_{i} x_{i}}{\\Sigma f_{i}} \\\\ &=\\frac{1 \\times 0.3+2 \\times 0.8+3 \\times 0.1}{1}=1.8 \\end{aligned}[/latex] Standard deviation, [latex] \\sigma=\\left(\\frac{\\Sigma f_{x_{i}}^{2}}{\\Sigma f_{i}}-\\bar{x}^{2}\\right)^{1 / 2}[/latex] [latex] \\therefore \\quad \\sigma=\\left(\\frac{0.3 \\times 1^{2}+0.6 \\times 2^{2}+0.1 \\times 3^{2}}{1}-1.8^{2}\\right)^{1 / 2} [/latex] [latex] =\\left(3.6-1.8^{2}\\right)^{1 / 2}=(0.36)^{1 / 2}=0.6[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set1/page6_q3.webp",
+    "options": {
+      "A": "0.18",
+      "B": "0.36",
+      "C": "0.54",
+      "D": "0.6"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 Using the trapezoidal rule, and dividing the interval of integration into three equal subintervals, the definite integral [latex]\\int_{-1}^{+1}\\left | x \\right |dx[/latex]  is ___________",
+    "solution": "[latex]I=\\int_{-1}^{1}|x| \\mathrm{d} x [/latex] [latex] n=3, h=\\frac{1-(-1)}{3}=\\frac{2}{3}[/latex] By Trapezoidal rule [latex] \\int_{-1}^{1}|x| d x=\\frac{h}{2}\\left[\\left(y_{0}+y_{3}\\right)+2\\left(y_{1}+y_{2}\\right)\\right] [/latex] [latex] =\\frac{2}{3 \\times 2}\\left[(1+1)+2\\left(\\frac{1}{3}+\\frac{1}{3}\\right)\\right] [/latex] [latex] =\\frac{1}{3}\\left[2+\\frac{4}{3}\\right]=1.11[/latex]",
+    "min": 1.1,
+    "max": 1.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 30 The state of stress at a point is given by  [latex]\\sigma_{x}[/latex]= -6Mpa, [latex]\\sigma_{y}[/latex]=4 MPa  and [latex]\\tau_{xy}[/latex]=-8 MPa . The maximum tensile stress (in MPa) at the point is _________",
+    "solution": "[latex]\\begin{aligned} \\sigma_{1} &=\\frac{\\sigma_{x}+\\sigma_{y}}{2}+\\sqrt{\\left(\\frac{\\sigma_{x}-\\sigma_{y}}{2}\\right)^{2}+\\tau_{x y}^{2}} \\\\ &=\\frac{+6-4}{2}+\\sqrt{\\left(\\frac{+6-4}{2}\\right)^{2}+(-8)^{2}} \\\\ &=-1+\\sqrt{25+64} \\\\ &=-1+\\sqrt{89}=8.4339 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "min": 8.4,
+    "max": 8.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 A block R of mass 100kg is placed on a block S of mass 150kg as shown in the figure. Block R is tied to the wall by a massless and intextensible string PQ. If the coefficient of static friction for all surfaces is 0.4, the  minimum force F(in kN) needed to move the block S is",
+    "solution": "[latex] \\begin{aligned} F &=\\mu\\left(W_{S}+W_{R}\\right)+\\mu W_{R} \\\\ F &=\\mu\\left(W_{S}+2 W_{R}\\right) \\\\ &=0.4(150+2 \\times 100) \\times 9.81 \\\\ &=1373.4 \\mathrm{N}=1.37 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set1/page7_q1.webp",
+    "options": {
+      "A": "0.69",
+      "B": "0.88",
+      "C": "0.98",
+      "D": "1.37"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 A pair of spur gears with module 5 mm and a center distance of 450 mm is used for a speed reduction of 5:1. The number of teeth on pinion is  _______",
+    "solution": "[latex]\\begin{aligned} \\frac{N_{P}}{N_{G}} &=5=\\frac{T_{G}}{T_{P}} \\\\ T_{G} &=5 T_{P} \\\\ C &=\\frac{m}{2}\\left(T_{P}+T_{G}\\right) \\\\ T_{P}+T_{G} &=\\frac{2 C}{m}=\\frac{2 \\times 450}{5} \\\\ &=180 \\\\ \\text{or }\\quad 6 T_{P}&=180 \\\\ \\text{or }\\quad T_{P}&=30 \\end{aligned}[/latex]",
+    "min": 29.0,
+    "max": 31.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 Consider a cantilever beam, having negligible mass and uniform flexural rigidity, with length  0.01 m. The frequency of vibration of the beam, with a 0.5 kg mass attached at the free tip, is  100 Hz. The flexural rigidity (in N.[latex]m^{2}[/latex] ) of the beam is _______",
+    "solution": "[latex] \\begin{aligned} P &=m g=0.5 \\times 9.81=4.905 N \\\\ L &=0.01 \\mathrm{m} \\\\ f_{n} &=100 \\mathrm{Hz} \\\\ \\omega_{n} &=2 \\pi f_{n}=628 \\mathrm{rad} / \\mathrm{s} \\\\ \\omega_{n} &=\\sqrt{\\frac{k}{m}}\\\\ \\text { or } \\quad k&=m \\omega_{n}^{2}=0.5 \\times(628)^{2}\\\\ &=197192 \\mathrm{N} / \\mathrm{m}\\\\ \\delta &=\\frac{P L^{3}}{3 E I} \\\\ \\Rightarrow \\frac{P}{\\delta} &=\\frac{3 E I}{L^{3}} \\\\ \\text{or}\\quad EI&=\\frac{P}{\\delta }\\times\\frac{L^{3}}{3}\\\\ &=197192 \\times \\frac{(0.01)^{3}}{3} \\\\ &=0.06573 \\mathrm{Nm}^{2} \\end{aligned}[/latex]",
+    "min": 0.064,
+    "max": 0.067
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 An ideal water jet with volume flow rate of 0.05 [latex]m^{3}/s[/latex]  strikes a flat plate placed normal to its path and exerts a force of 1000 N. Considering the density of water as 1000 [latex]kg/m^{3}[/latex], the diameter (in mm) of the water jet is  _______",
+    "solution": "[latex]\\begin{aligned} Q &=0.05 \\mathrm{m}^{3} / \\mathrm{s} \\\\ F &=1000 \\mathrm{N} \\\\ \\rho &=1000 \\mathrm{kg} / \\mathrm{m}^{3} \\end{aligned}[/latex] [latex] F=\\rho a V^{2} [/latex] where a= cross-section area fo the jet [latex] \\begin{aligned} Q&=a V \\\\ \\therefore \\quad F&=\\rho Q V \\\\ 1000 &=1000 \\times 0.05 \\times V \\\\ \\text{or}\\quad V &=20 \\mathrm{m} / \\mathrm{s} \\\\ Q &=a V \\\\ Q &=\\frac{\\pi}{4} d^{2} V \\\\ \\text{or}\\quad 0.05&=\\frac{3.14}{4} \\times d^{2} \\times 20 \\\\ \\text{or}\\quad d^{2}&=0.00318 \\\\ d&=0.05643 \\mathrm{m} \\\\&=56.43mm \\end{aligned}[/latex]",
+    "min": 56.0,
+    "max": 57.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 A block weighing 200 N is in contact with a level plane whose coefficients of static and kinetic friction are 0.4 and 0.2, respectively. The block is acted upon by a horizontal force (in newton) P=10t, where t denotes the time in seconds. The velocity (in m/s) of the block attained after  10 seconds is _______",
+    "solution": "[latex]\\begin{aligned} N &=m g=200 \\mathrm{N} \\\\(f_{s})_{max} &=\\mu_{s} N \\\\ &=0.4 \\times 200=80 \\end{aligned}[/latex] upto [latex] 8 \\sec [P=10 t] \\rightarrow [/latex] no motion [latex] \\Rightarrow [/latex] from 8 sec to 10 sec [latex] \\begin{aligned} f_{k} &=\\mu_{k} N \\\\ &=0.2 \\times 200=40 \\mathrm{N} \\end{aligned} [/latex] Average applied force [latex] =\\frac{P_{\\max }+P_{\\min }}{2} [/latex] [latex] =\\frac{100+80}{2}=90 \\mathrm{N}[/latex] Average resultant force = Avg. applied force kinetic friction [latex] =90-40=50 N[/latex] Average acceration [latex] \\begin{aligned} &=\\frac{50 \\times 9.8}{200} \\\\ \\Rightarrow \\quad V &=u+a t\\\\ u&=0\\\\ a&=\\frac{50 \\times 9.8}{200} \\\\ t&=2 \\text{second}\\\\ \\therefore V&=\\frac{50 \\times 9.8}{200} \\times 2=4.9 \\mathrm{m} / \\mathrm{s} \\end{aligned}[/latex]",
+    "min": 4.8,
+    "max": 5.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 A slider crank mechanism has slider mass of 10 kg, stroke of 0.2 m and rotates with a uniform angular velocity of 10 rad/s. The primary inertia forces of the slider are partially balanced by a revolving mass of 6 kg at the crank, placed at a distance equal to crank radius. Neglect the mass of connecting rod and crank. When the crank angle (with respect to slider axis) is [latex]30^{\\circ}[/latex] , the unbalanced force (in newton) normal to the slider axis is _______",
+    "solution": "[latex]\\begin{aligned} \\omega &=10 \\mathrm{rad} / \\mathrm{s} \\\\ \\theta &=30^{\\circ} \\\\ r &=\\frac{s}{2}=0.1 \\mathrm{m} \\\\ \\text { Unbalanced force }&=m \\omega^{2} r \\sin 30^{\\circ} & \\\\ &=6 \\times 100 \\times 0.1 \\times \\frac{1}{2} \\\\ &=30 \\mathrm{N} \\end{aligned}[/latex]",
+    "min": 29.0,
+    "max": 31.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 An offset slider-crank mechanism is shown in the figure at an instant. Conventionally, the Quick Return Ratio (QRR) is considered to be greater than one. The value of QRR is _______",
+    "solution": "Length of connecting rod: [latex]l_{r}=40 \\mathrm{mm} [/latex] Crank radius: [latex]r=20 \\mathrm{mm} [/latex] Eccentricity: [latex]e=10 \\mathrm{mm} [/latex] [latex] \\begin{aligned} &\\phi=\\cos ^{-1}\\left(\\frac{e}{l+r}\\right)-\\cos ^{-1}\\left(\\frac{e}{l-r}\\right) \\\\ &=\\cos ^{-1}\\left(\\frac{1}{6}\\right)-\\cos ^{-1}\\left(\\frac{1}{2}\\right)=20.4^{\\circ} \\\\ &\\mathrm{QRR}=\\frac{\\text { Time of advance stroke }}{\\text { Time of return stroke }} \\\\ &=\\left(\\frac{\\theta_{C}}{2 \\pi N}\\right)\\left(\\frac{2 \\pi N}{\\theta_{R}}\\right) \\\\ &\\mathrm{QRR} =\\frac{\\theta_{C}}{\\theta_{R}}=\\frac{180^{\\circ}+\\phi}{180^{\\circ}-\\phi} \\\\ &=\\frac{180^{\\circ}+20.4^{\\circ}}{180^{\\circ}-20.4^{\\circ}}=1.25 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set1/page8_q2.webp",
+    "min": 1.2,
+    "max": 1.3
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 A rigid uniform rod AB of length L and mass m is hinged at C such that AC = L/3, CB = 2L/3. Ends A and B are supported by springs of spring constant k. The natural frequency of the system is given by",
+    "solution": "[latex]\\begin{aligned} \\theta &=\\frac{y_{A}}{\\left(\\frac{L}{3}\\right)}=\\frac{y_{B}}{\\left(\\frac{2 L}{3}\\right)} \\\\ I_{0} &=I_{C}+m\\left(\\frac{2 L}{3}-\\frac{L}{2}\\right)^{2} \\\\ I_{C} &=\\frac{m L^{2}}{12} \\\\ \\therefore \\quad I_{0} &=\\frac{m L^{2}}{12}+\\frac{m L^{2}}{36}=\\frac{m L^{2}}{9} \\end{aligned}[/latex] Taking, [latex]\\Sigma M_{0}=0 [/latex] [latex] \\begin{array}{l} \\Rightarrow\\left(k y_{A} \\times \\frac{L}{3}\\right)+\\left(k y_{B} \\times \\frac{2 L}{3}\\right)+I_{0} \\ddot{\\theta}=0 \\\\ \\Rightarrow k \\theta\\left(\\frac{L}{3}\\right)^{2}+k \\theta\\left(\\frac{2 L}{3}\\right)^{2}+\\frac{m L^{2}}{9} \\ddot{\\theta}=0 \\\\ \\Rightarrow\\left(\\frac{m L^{2}}{9}\\right) \\ddot{\\theta}+\\left(\\frac{5 k L^{2}}{9}\\right) \\theta=0 \\\\ \\Rightarrow \\ddot{\\theta}+\\left(\\frac{5 k}{m}\\right) \\theta=0 \\\\ \\omega_{n}^{2}=\\frac{5 k}{m} \\\\ \\quad \\omega_{n}=\\sqrt{\\frac{5 k}{m}} \\\\ \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set1/page8_q3.webp",
+    "options": {
+      "A": "[latex]\\sqrt{\\frac{k}{2m}}[/latex]",
+      "B": "[latex]\\sqrt{\\frac{k}{m}}[/latex]",
+      "C": "[latex]\\sqrt{\\frac{2k}{m}}[/latex]",
+      "D": "[latex]\\sqrt{\\frac{5k}{m}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 A hydrodynamic journal bearing is subject to 2000 N load at a rotational speed of 2000 rpm. Both bearing bore diameter and length are 40 mm. If radial clearance is 20 [latex]\\mu[/latex]m and bearing is lubricated with an oil having viscosity 0.03 Pa.s, the Sommerfeld number of the bearing is  _______",
+    "solution": "[latex]\\begin{aligned} r &=20 \\mathrm{mm}, \\quad N=2000 \\mathrm{rpm} \\\\ c &=20 \\times 10^{-3}, \\quad \\mu=0.03 \\mathrm{Ns} / \\mathrm{m}^{2} \\\\ p &=\\frac{2000}{1600} \\mathrm{N} / \\mathrm{mm}^{2} \\qquad \\left(p=\\frac{W}{A}\\right)\\\\ &=1.25 \\mathrm{MPa}, S=? \\\\ S &=\\frac{Z N}{60 p}\\left(\\frac{r}{c}\\right)^{2} \\\\ &=\\frac{0.03 \\times 2000}{60 \\times 1.25 \\times 10^{6}}\\left(\\frac{20}{20 \\times 10^{-3}}\\right)^{2} \\\\ &=0.8 \\end{aligned}[/latex]",
+    "min": 0.75,
+    "max": 0.85
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 A 200 mm long, stress free rod at room temperature is held between two immovable rigid walls. The temperature of the rod is uniformly raised by 250[latex]^{\\circ}[/latex]C. If the Young's modulus and coefficient of thermal expansion are 200 GPa and [latex]1 \\times 10^{-5}/C^{\\circ}[/latex] , respectively, the magnitude of the longitudinal stress (in MPa) developed in the rod is _______",
+    "solution": "Given, [latex] \\begin{array}{c} l=200 \\mathrm{mm} ; \\quad \\Delta T=250^{\\circ} \\mathrm{C} ; \\quad \\alpha=1 \\times 10^{-5} /^{\\circ} \\mathrm{C} \\\\ E=200 \\mathrm{GPa} ; \\quad \\sigma=? \\\\ \\sigma=\\alpha \\Delta T E=10^{-5} \\times 250 \\times 200 \\times 10^{3} \\\\ =500 \\mathrm{MPa} \\end{array}[/latex]",
+    "min": 499.0,
+    "max": 501.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 1.5 kg of water is in saturated liquid state at 2 bar ([latex]v_{f}= 0.001061 m^3/kg[/latex], [latex]u_{f}[/latex]=504.0 kJ/kg,  [latex]h_{f}[/latex]=505 kJ/kg). Heat is added in a constant pressure process till the temperature of water reaches 400[latex]^{\\circ}[/latex]C  (v=1.5493 [latex]m^3[/latex]/kg, u = 2967.0 kJ/kg, h = 3277.0 kJ/kg). The heat added (in kJ) in the process is  _______",
+    "solution": "From the first law of thermodynamics [latex] \\begin{aligned} \\delta q &=d u+p d v \\\\ \\delta q &=\\left(u_{2}-u_{1}\\right)+p\\left(v_{2}-v_{1}\\right) \\\\ \\delta q &=(2967-504)+2 \\times 10^{2} \\\\ &(1.5493-0.001061) \\\\ \\delta q &=2463+309.6478 \\\\ &=2772.6478 \\mathrm{kJ} / \\mathrm{kg} \\end{aligned}[/latex] For 1.5kg of water [latex] \\begin{aligned} Q &=2772.6478 \\times 1.5 \\\\ &=4158.97 \\mathrm{kj} \\end{aligned}[/latex] Alternatively: [latex] \\begin{aligned} Q &=m\\left(h_{2}-h_{1}\\right) \\\\ &=1.5(3277-505) \\\\ &=4158 \\mathrm{kJ} \\end{aligned}[/latex]",
+    "min": 4155.0,
+    "max": 4160.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 Consider one dimensional steady state heat conduction across a wall (as shown in figure below) of thickness 30 mm and thermal conductivity 15 W/m.K. At x = 0, a constant heat flux, [latex]q''= 1\\times 10^5 W/m^2[/latex]  is applied. On the other side of the wall, heat is removed from the wall by convection with a fluid at 25[latex]^{\\circ}[/latex]C and heat transfer coefficient of 250 [latex]W/m^2[/latex] K. The temperature  (in [latex]^{\\circ}[/latex]C), at x = 0 is _______",
+    "solution": "Given data: [latex] \\begin{aligned} \\delta&=30 \\mathrm{mm}=0.03 \\mathrm{m} ; \\quad k=15 \\mathrm{W} / \\mathrm{mK} \\\\ q^{\\prime \\prime}&=1 \\times 10^{5} \\mathrm{W} / \\mathrm{m}^{2} ; \\quad T_{\\infty}=25^{\\circ} \\mathrm{C} \\\\ h&=250 \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K} \\end{aligned}[/latex] Heat transfer due to convection from outside surface per unit area: [latex] \\begin{aligned} q^{\\prime \\prime} &=\\frac{Q}{A}=h\\left(T_{2}-T_{\\infty}\\right) \\\\ 1 \\times 10^{5} &=250\\left(T_{2}-25\\right) \\\\ \\text{or}\\qquad T_{2} &=425^{\\circ} \\mathrm{C} \\end{aligned}[/latex] Heat transfer through wall per unit area, [latex] \\begin{aligned} q^{\\prime \\prime} &=\\frac{k\\left(T_{1}-T_{2}\\right)}{\\delta} \\\\ 1 \\times 10^{5} &=\\frac{15\\left(T_{1}-425\\right)}{0.03}\\\\ \\text{or }\\qquad T_{1}&=625^{\\circ} \\mathrm{C} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set1/page9_q2.webp",
+    "min": 620.0,
+    "max": 630.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 Water flows through a pipe having an inner radius of 10 mm at the rate of 36 kg/hr at 25[latex]^{\\circ}[/latex]C.  The viscosity of water at 25[latex]^{\\circ}[/latex]C is 0.001 kg/m.s.  The Reynolds number of the flow is _______",
+    "solution": "[latex]\\begin{aligned} \\text{Radius: }\\quad r&=10 \\mathrm{mm} \\\\ \\therefore \\text{Diameter: }d&=2 r=2 \\times 10=20 \\mathrm{mm}=0.02 \\mathrm{m} \\\\ m &=36 \\mathrm{kg} / \\mathrm{hr}=\\frac{36}{3600}=0.01 \\mathrm{kg} / \\mathrm{s} \\\\ \\mu &=0.001 \\mathrm{kg} / \\mathrm{ms} \\end{aligned}[/latex] Reynolds number: [latex]\\text{Re}=\\frac{\\rho V d}{\\mu}[/latex] From continuity equation, [latex]m=\\rho A V [/latex] [latex] \\begin{aligned} \\text{or }\\quad V&=\\frac{m}{\\rho A}=\\frac{m}{\\frac{\\rho \\pi d^{2}}{4}}=\\frac{4 m}{\\rho \\pi d^{2}} \\\\ \\therefore \\quad \\mathrm{Re}&=\\frac{\\rho d}{\\mu} \\times \\frac{4 \\mathrm{m}}{\\rho \\pi d^{2}}=\\frac{4 \\mathrm{m}}{\\pi \\mu \\mathrm{d}}\\\\ &=\\frac{4 \\times 0.01}{3.14 \\times 0.001 \\times 0.02}=636.94 \\end{aligned}[/latex]",
+    "min": 635.0,
+    "max": 638.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 For a fully developed flow of water in a pipe having diameter 10 cm, velocity 0.1 m/s and kinematic viscosity [latex]10^{-5}m^{2}/s[/latex] , the value of Darcy friction factor is _______",
+    "solution": "Given data: [latex] \\begin{aligned} d&=10 \\mathrm{cm} \\\\ V&=0.1 \\mathrm{m} / \\mathrm{s} \\\\ \\mathrm{v}&=10^{-5} \\mathrm{m}^{2} / \\mathrm{s} \\end{aligned}[/latex] Reynold's number, [latex] \\mathrm{Re}=\\frac{V d}{v}=\\frac{0.1 \\times 0.1}{10^{-5}}=1000[/latex] Friction factor [latex] f=\\frac{64}{\\mathrm{Re}}=\\frac{64}{1000}=0.064[/latex]",
+    "min": 0.06,
+    "max": 0.07
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 In a simple concentric shaft-bearing arrangement, the lubricant flows in the 2 mm gap between the shaft and the bearing. The flow may be assumed to be a plane Couette flow with zero pressure gradient. The diameter of the shaft is 100 mm and its tangential speed is 10 m/s. The dynamic viscosity of the lubricant is 0.1 kg/m.s. The frictional resisting force (in newton) per 100 mm length of the bearing is  _______",
+    "solution": "Given data: [latex] \\begin{aligned} d &=100 \\mathrm{mm}=0.1 \\mathrm{m} \\\\ L &=100 \\mathrm{mm}=0.1 \\mathrm{m} \\\\ u &=10 \\mathrm{m} / \\mathrm{s} \\\\ \\mu &=0.1 \\mathrm{kg} / \\mathrm{ms} \\\\ d y &=2 \\mathrm{mm}=2 \\times 10^{-3} \\mathrm{m} \\\\ \\tau &=\\mu \\frac{\\mathrm{d} \\mathrm{u}}{\\mathrm{d} \\mathrm{y}} \\\\ &=0.1 \\times \\frac{10}{2 \\times 10^{-3}}=500 \\mathrm{N} / \\mathrm{m}^{2} \\\\ \\text{Frictional area }&= \\pi dL=3.14 \\times0.1 \\times 0.1\\\\ &=0.0314 \\mathrm{m}^{2} \\end{aligned}[/latex] Frictional resistance force, [latex] \\begin{aligned} &=\\tau \\times \\pi \\mathrm{d} L \\\\ &=500 \\times 0.0314=15.7 \\mathrm{N} \\end{aligned}[/latex]",
+    "min": 15.0,
+    "max": 16.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 The non-dimensional fluid temperature profile near the surface of a convectively cooled flat plate is given by [latex]\\frac{T_W-T}{T_W-T_\\infty }=a+b\\frac{y}{L}+c\\left ( \\frac{y}{L} \\right )^2[/latex], where y is measured perpendicular to the plate, [latex]L[/latex]  is the plate length, and a, b and c are arbitrary constants. [latex]T_{W}[/latex]  and [latex]T_{\\infty}[/latex]  are wall and ambient temperatures, respectively. If the thermal conductivity of the fluid is [latex]k[/latex]   and the wall heat flux is [latex]q''[/latex], the Nusselt number [latex]N_u=\\frac{q''}{T_W-T_\\infty }\\frac{L}{k}[/latex]  is  equal to",
+    "solution": "[latex]\\begin{aligned} q^{\\prime \\prime} &=-\\left.k \\frac{\\partial T}{\\partial y}\\right|_{y=0} \\\\ &=h\\left(T_{w}-T_{\\infty}\\right) \\\\ T_{w}-T &=\\left(T_{w}-T_{\\infty}\\right)\\left[a+\\frac{b y}{L}+c\\left(\\frac{y}{L}\\right)^{2}\\right] \\\\ \\frac{\\partial T}{\\partial y} & =\\left(T_{w}-T_{\\infty}\\right)\\left[\\frac{b}{L}+\\frac{2 c}{L^{2}} y\\right] \\\\ -\\left.\\frac{\\partial T}{\\partial y}\\right|_{y=0} &=\\left(T_{w}-T_{\\infty}\\right) \\frac{b}{L} \\\\ \\text{or} \\quad q^{\\prime \\prime}&=k\\left(T_{w}-T_{\\infty}\\right) \\frac{b}{L} \\\\ \\therefore \\quad N u &=\\frac{q^{\\prime \\prime}}{T_{w}-T_{\\infty}} \\frac{L}{k}=b \\end{aligned}[/latex]",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "2c",
+      "D": "(b+2c)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 In an air-standard Otto cycle, air is supplied at 0.1 MPa and 308 K. The ratio of the specific heats ([latex]\\gamma[/latex] ) and the specific gas constant (R) of air are 1.4 and 288.8 J/kg.K, respectively. If the compression ratio is 8 and the maximum temperature in the cycle is 2660 K, the heat (in kJ/kg) supplied to the engine is _______",
+    "solution": "Given: [latex] \\begin{aligned} p_{1}&=0.1 \\mathrm{MPa} ; \\quad T_{1}=308 \\mathrm{K} ; \\quad \\gamma=1.4 \\\\ R&=288.8 \\mathrm{J} / \\mathrm{kgK} ; \\quad r=8 \\\\ T_{s}&=2660 \\mathrm{K} \\\\ &\\begin{aligned} Q_{s}&=m c_{v}\\left(T_{3}-T_{2}\\right) \\\\ c_{v}&=\\frac{R}{\\gamma-1}=\\frac{288.8}{0.4}=722 \\mathrm{J} / \\mathrm{kgK} \\\\ \\frac{T_{2}}{T_{1}}&=\\left(\\frac{V_{1}}{V_{2}}\\right)^{\\gamma-1}=(8)^{0.4}\\\\\nT_{2} &=308 \\times 8^{0.4}=707.6 \\mathrm{K} \\\\\nQ_{s} &=m c_{v} \\Delta T \\\\\n&=1 \\times 722(2660-707.6) \\\\\n&=1409.6 \\mathrm{kJ} / \\mathrm{kg} \\end{aligned} \\end{aligned}[/latex]",
+    "min": 1400.0,
+    "max": 1420.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 A reversible heat engine receives 2 kJ of heat from a reservoir at 1000 K and a certain amount of heat from a reservoir at 800 K. It rejects 1 kJ of heat to a reservoir at 400 K. The network output (in kJ) of the cycle is",
+    "solution": "For reversible heat engine, [latex]\\begin{aligned} (\\Delta S)_{\\text{ Reversible cycle }}&=0\\\\ \\frac{Q_1}{T_1}+\\frac{Q_2}{T_2}-\\frac{Q_3}{T_3}&=0\\\\ \\frac{2}{1000}+\\frac{Q_2}{800}-\\frac{1}{400}&=0\\\\ Q_2&=0.4 kJ\\\\ \\text{From heat balance, }\\\\ Q_1+Q_2&=W+Q_3\\\\ 2+0.4&=W+1\\\\ W&=1.4 kJ \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.8",
+      "B": "1",
+      "C": "1.4",
+      "D": "2"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 An ideal reheat Rankine cycle operates between the pressure limits of 10 kPa and 8 MPa, with reheat being done at 4 MPa. The temperature of steam at the inlets of both turbines is 500[latex]^{\\circ}[/latex]C and the enthalpy of steam is 3185 kJ/kg at the exit of the high pressure turbine and 2247 kJ/kg at the exit of low pressure turbine. The enthalpy of water at the exit from the pump is 191 kJ/kg. Use the following table for relevant data. Disregarding the pump work, the cycle efficiency (in percentage) is __________",
+    "solution": "Given [latex] \\begin{aligned} p_{2} &=10 \\mathrm{kPa} ; \\quad p_{1}=8 \\mathrm{MPa} \\\\ p_{3} &=4 \\mathrm{MPa} ; \\quad h_{2}=3185 \\mathrm{kJ} / \\mathrm{kg} \\\\ h_{4} &=2247 \\mathrm{kJ} / \\mathrm{kg} ; \\quad h_{1}=3399 \\mathrm{kJ} / \\mathrm{kg} \\\\ h_{3} &=3446 \\mathrm{kJ} / \\mathrm{kg} ; \\quad h_{6}=191 \\mathrm{kJ} / \\mathrm{kg} \\\\ w_{\\mathrm{T}} &=\\left(h_{1}-h_{2}\\right)+\\left(h_{3}-h_{4}\\right) \\\\ q_{s} &=\\left(h_{1}-h_{6}\\right)+\\left(h_{3}-h_{2}\\right) \\\\ \\therefore \\quad w_{T} &=(3399-3185)+(3446-2247) \\\\ &=1413 \\mathrm{kJ} / \\mathrm{kg} \\\\ q_{\\mathrm{s}} &=(3399-191)+(3446-3185) \\\\ &=3469 \\mathrm{kJ} / \\mathrm{kg} \\\\ \\eta &=\\frac{w_{\\mathrm{T}}}{q_{\\mathrm{s}}}=\\frac{1413}{3469}=0.4073 \\\\ &=40.73 \\% \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set1/page10_q4.webp",
+    "min": 40.0,
+    "max": 42.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 Jobs arrive at a facility at an average rate of 5 in an 8 hour shift. The arrival of the jobs follows Poisson distribution. The average service time of a job on the facility is 40 minutes. The service time follows exponential distribution. Idle time (in hours) at the facility per shift will be",
+    "solution": "[latex]\\lambda=\\frac{5}{8} [/latex] [latex] \\mu=\\frac{60}{40} \\cdot \\frac{3}{2} [/latex] Probability of idleness [latex]=1-\\frac{\\lambda}{\\mu} [/latex] [latex] =1-\\frac{5}{8} \\times \\frac{2}{3}=\\frac{7}{12} [/latex] Idle time (in hrs) per shift [latex]=\\frac{7}{12} \\times 8 [/latex] [latex] =\\frac{14}{3}[/latex]",
+    "options": {
+      "A": "[latex]5/7[/latex]",
+      "B": "[latex]14/3[/latex]",
+      "C": "[latex]7/5[/latex]",
+      "D": "[latex]10/3[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 A metal rod of initial length [latex]L_{0}[/latex]  is subjected to a drawing process. The length of the rod at any instant is given by the expression, [latex]L(t)=L_{0}(1+t^2)[/latex]  , where t is the time in minutes. The true strain rate (in [latex]min^{-1}[/latex]) at the end of one minute is  _______",
+    "solution": "[latex]\\begin{aligned} L(t)&= L_{0}\\left(1+t^{2}\\right) \\\\ \\Rightarrow d L&= L_{0} \\times 2 t d t \\\\ \\text{As }\\quad d\\epsilon _{T}&=\\frac{d L}{L} \\\\ d \\varepsilon_{T}&=\\frac{L_{0} 2 t d t}{L_{0}\\left(1+t^{2}\\right)} \\\\ \\frac{d \\epsilon_{T}}{d t} &=\\frac{2 t}{1+t^{2}} \\\\ \\text{at}\\qquad t &=1 \\mathrm{min} \\\\ \\frac{d \\epsilon_{T}}{d t}&=\\frac{2 \\times 1}{1+t^{2}}=1 \\; {min} ^{-1} \\end{aligned}[/latex]",
+    "min": 0.9,
+    "max": 1.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 During pure orthogonal turning operation of a hollow cylindrical pipe, it is found that the thickness of the chip produced is 0.5 mm. The feed given to the zero degree rake angle tool is 0.2 mm/rev. The shear strain produced during the operation is _______",
+    "solution": "[latex]\\begin{aligned} \\gamma &=\\cot \\phi+\\tan (\\phi-\\alpha) \\\\ \\text { Given, } \\alpha&=0 \\\\ &=0.2 \\mathrm{mm} \\\\ t_{c} &=0.5 \\mathrm{mm} \\\\ r &=\\frac{t}{t_{c}}=\\frac{0.2}{0.5}=0.4 \\\\ \\tan \\phi &=\\frac{r \\cos \\alpha}{1-r \\sin \\alpha}=r \\\\ \\therefore \\gamma(\\text { shear strain }) &=\\cot \\phi+\\tan (\\phi-\\alpha) \\\\ &=\\frac{1+\\tan ^{2} \\phi}{\\tan \\phi}=\\frac{1+0.4^{2}}{0.4} \\\\ &=\\frac{1.16}{0.4}=2.9 \\end{aligned}[/latex]",
+    "min": 2.8,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 For the given assembly: 25 H7/g8, match Group A with Group B",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set1/page11_q3.webp",
+    "options": {
+      "A": "P-I, Q-III, R-IV, S-II",
+      "B": "P-I, Q-IV, R-III, S-II",
+      "C": "P-II, Q-III, R-IV, S-I",
+      "D": "P-II,Q-IV, R-III, S-I"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 If the Taylor's tool life exponent n is 0.2, and the tool changing time is 1.5 min, then the tool life (in min)  for maximum production rate is _______",
+    "solution": "Given,n=0.2 [latex] T_{c t}=1.5 \\text { minute }[/latex] Tool life for maximum production rate, [latex] \\begin{aligned} &=\\left(\\frac{1}{n}-1\\right) T_{c t} \\\\ \\therefore \\text { Tool life } &=\\left(\\frac{1}{0.2}-1\\right) \\times 1.5 \\\\ &=4 \\times 1.5=6 \\text { minutes } \\end{aligned}[/latex]",
+    "min": 5.9,
+    "max": 6.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 An aluminium alloy (density 2600 [latex]kg/m^{3}[/latex] ) casting is to be produced. A cylindrical hole of 100 mm diameter and 100 mm length is made in the casting using sand core (density 1600 [latex]kg/m^{3}[/latex] ).  The net buoyancy force (in newton) acting on the core is _______",
+    "solution": "[latex]\\begin{aligned} \\text { Volume of core } &=\\frac{\\pi}{4} D^{2} H=0.785 \\times 0.1^{2} \\times 0.1 \\\\ &=7.85 \\times 10^{-4} \\mathrm{m}^{3} \\\\ \\text{Net buoyancy force} &=\\left(\\rho_{\\mathrm{A} 1}-\\rho_{\\text {core }}\\right) V_{\\text {core }} g \\\\ &=1000 \\times 9.81 \\times 7.85 \\times 10^{-4} \\\\ &=7.7 \\mathrm{N} \\end{aligned}[/latex]",
+    "min": 7.0,
+    "max": 8.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 Choose the most appropriate phrase from the options given below to complete the following sentence. The aircraft _________ take off as soon as its flight plan was filed.",
+    "solution": "",
+    "options": {
+      "A": "is allowed to",
+      "B": "will be allowed to",
+      "C": "was allowed to",
+      "D": "has been allowed to"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Read the statements: All women are entrepreneurs. Some women are doctors. Which of the following conclusions can be logically inferred from the above statements?",
+    "solution": "",
+    "options": {
+      "A": "All women are doctors",
+      "B": "All doctors are entrepreneurs",
+      "C": "All entrepreneurs are women",
+      "D": "Some entrepreneurs are doctors"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Choose the most appropriate word from the options given below to complete the following sentence. Many ancient cultures attributed disease to supernatural causes. However, modern science has largely helped _________ such notions.",
+    "solution": "",
+    "options": {
+      "A": "impel",
+      "B": "dispel",
+      "C": "propel",
+      "D": "repel"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 The statistics of runs scored in a series by four batsmen are provided in the following table. Who is the most consistent batsman of these four? [latex]\\begin{array}{|c|c|c|} \\hline \\text{Batsman} & \\text{Average} & \\text{Standard Deviation} \\\\ \\hline K & 31.2 & 5.21 \\\\ \\hline L & 46.0 & 6.35 \\\\ \\hline M & 54.4 & 6.22 \\\\ \\hline N & 17.9 & 5.90 \\\\ \\hline \\end{array}[/latex]",
+    "solution": "",
+    "options": {
+      "A": "K",
+      "B": "L",
+      "C": "M",
+      "D": "N"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 60 What is the next number in the series? 12        35            81            173            357            ____,",
+    "solution": "",
+    "min": 725.0,
+    "max": 725.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 Find the odd one from the following group: W,E,K,O I,Q,W,A F,N,T,X N,V,B,D",
+    "solution": "",
+    "options": {
+      "A": "W,E,K,O",
+      "B": "I,Q,W,A",
+      "C": "F,N,T,X",
+      "D": "N,V,B,D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 For submitting tax returns, all resident males with annual income below Rs 10 lakh should fill up Form P and all resident females with income below Rs 8 lakh should fill up Form Q. All people with incomes above Rs 10 lakh should fill up Form R, except non residents with income above Rs 15 lakhs, who should fill up Form S. All others should fill Form T. An example of a person who should fill Form T is",
+    "solution": "",
+    "options": {
+      "A": "a resident male with annual income Rs9 lakh",
+      "B": "a resident female with annual income Rs 9 lakh",
+      "C": "a non-resident male with annual income Rs 16 lakh",
+      "D": "a non-resident female with annual income Rs 16 lakh"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 63 A train that is 280 meters long, traveling at a uniform speed, crosses a platform in 60 seconds and passes a man standing on the platform in 20 seconds. What is the length of the platform in meters?",
+    "solution": "",
+    "min": 560.0,
+    "max": 560.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 The exports and imports (in crores of Rs.) of a country from 2000 to 2007 are given in the following bar chart. If the trade deficit is defined as excess of imports over exports, in which year is the trade deficit 1/5th of the exports?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set1/page13_q4.webp",
+    "options": {
+      "A": "2005",
+      "B": "2004",
+      "C": "2007",
+      "D": "2006"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 You are given three coins: one has heads on both faces, the second has tails on both faces, and the third has a head on one face and a tail on the other. You choose a coin at random and toss it, and it comes up heads. The probability that the other face is tails is",
+    "solution": "",
+    "options": {
+      "A": "01-Apr",
+      "B": "01-Mar",
+      "C": "01-Feb",
+      "D": "02-Mar"
+    },
+    "correct_answer": "B"
+  }
+]

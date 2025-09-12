@@ -1,0 +1,668 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 The condition for which the eigenvalues of the matrix [latex]A=\\begin{bmatrix} 2&1 \\\\ 1& k \\end{bmatrix}[/latex] are positive, is",
+    "solution": "All Eigen values of [latex] A=\\left[\\begin{array}{ll}2 & 1 \\\\ 1 & k\\end{array}\\right] [/latex] are positive [latex] 2>0[/latex] [latex] \\therefore 2 \\times 2 [/latex]leading minor must be greater than zero [latex] \\left|\\begin{array}{ll}2 & 1 \\\\ 1 & k\\end{array}\\right|>0 [/latex] [latex] 2 k-1>0 [/latex] [latex] 2 k>1 [/latex] [latex] k>\\frac{1}{2}[/latex]",
+    "options": {
+      "A": "k[latex]\\gt[/latex]1/2",
+      "B": "k[latex]\\gt[/latex]-2",
+      "C": "k[latex]\\gt[/latex]0",
+      "D": "k[latex]\\lt[/latex]-1/2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 The values of x for which the function [latex]f( x)=\\frac{x^{2}-3x-4}{x^{2}+3x-4}[/latex] is NOT continuous are",
+    "solution": "[latex]f(x)=\\frac{x^{2}-3 x-4}{x^{2}+3 x-4} [/latex] is not continous when [latex] \\begin{aligned} x^{2}+3 x-4 &=0 \\\\ (x+4)(x-1) &=0 \\\\ x &=-4,1 \\end{aligned}[/latex]",
+    "options": {
+      "A": "4 and -1",
+      "B": "4 and 1",
+      "C": "-4 and 1",
+      "D": "-4 and -1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Laplace transform of [latex]cos(\\omega t)[/latex]  is",
+    "solution": "[latex]L(\\cos \\omega t)=\\frac{s}{s^{2}+\\omega^{2}}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{s}{s^{2}+\\omega ^{2}}[/latex]",
+      "B": "[latex]\\frac{\\omega }{s^{2}+\\omega ^{2}}[/latex]",
+      "C": "[latex]\\frac{s}{s^{2}\\omega ^{2}}[/latex]",
+      "D": "[latex]\\frac{\\omega }{s^{2}-\\omega ^{2}}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 4 A function  of the Complex Variables z=x+iy, is given as f(x,y)=u(x,y)+i v(x,y) , where u(x,y)=2kxy and v(x,y)=[latex]x^{2}-y^{2}[/latex].  The value of k, for which the function is analytic, is _____",
+    "solution": "Given that [latex]( f(z)=u+i v)[/latex] is analytic [latex] \\begin{aligned} u(x, y) &=2 k x y & & v=x^{2}-y^{2} \\\\ u_{x} &=2 k y & & v_{y}=-2 y \\\\ u_{x} &=v_{y} & & \\\\ k &=-1 & & v_{x}=2 x \\\\ u_{y} &=2 k x & & & \\\\ u_{y} &=-v_{x} & & & \\\\ 2 k x &=-2 x & & & \\\\ k &=-1 & & \\end{aligned}[/latex]",
+    "min": -1.1,
+    "max": -0.9
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Numerical integration using trapezoidal rule gives the best result for a single variable function",
+    "solution": "Trapezoidal rule gives the best result in single variable function when the function is linear (degree 1)",
+    "options": {
+      "A": "linear",
+      "B": "parabolic",
+      "C": "logarithmic",
+      "D": "hyperbolic"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 A point mass having mass M is moving with a velocity V at an angle [latex]\\theta[/latex] to the wall as shown in the figure. The mass undergoes a perfectly elastic collision with the smooth wall and rebounds. The total change (final minus initial) in the momentum of the mass is",
+    "solution": "[latex] \\begin{aligned} P_{1}&=M V \\cos \\theta \\hat{i}+M V \\sin \\theta \\hat{j} \\\\ P_{f}&=M V \\cos \\theta \\hat{i}-M V \\sin \\theta \\hat{j} \\\\ P_{f}-P_{i}&=-2 M V \\sin \\theta \\hat{j} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page2_q1.webp",
+    "options": {
+      "A": "-2MV [latex]\\cos \\theta \\hat{J}[/latex]",
+      "B": "2MV [latex]\\sin \\theta \\hat{J}[/latex]",
+      "C": "2MV [latex]\\cos \\theta \\hat{J}[/latex]",
+      "D": "-2MV [latex]\\sin \\theta \\hat{J}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 A shaft with a circular cross-section is subjected to pure twisting moment. The ratio of the maximum shear stress to the largest principal stress is",
+    "solution": "For the case of pure shear [latex] \\begin{aligned} \\sigma_{1} &=\\tau_{\\max } \\\\ \\sigma_{2} &=-\\tau_{\\max } \\\\ \\text { Required ratio } &=\\tau_{\\max } / \\sigma_{1}=\\sigma_{1} / \\sigma_{1}=1 \\end{aligned}[/latex]",
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "0.5",
+      "D": "0"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 A thin cylindrical pressure vessel with closed-ends is subjected to internal pressure. The ratio of circumferential (hoop) stress to the longitudinal stress is",
+    "solution": "For thin cylinder Circumferential stress [latex] \\sigma_{h}=\\frac{p d}{2 t}[/latex] Longitudinal stress, [latex] \\begin{aligned} \\sigma_{L} &=\\frac{p d}{4 t} \\\\ \\therefore \\quad \\frac{\\sigma_{h} }{\\sigma_{L}} &=2 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.25",
+      "B": "0.5",
+      "C": "1",
+      "D": "2"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 The forces F1 and F2 in a brake band and the direction of rotation of the drum are as shown in the figure. The coefficient of friction is 0.25. The angle of wrap is [latex]3\\pi /2[/latex] radians. It is given that R = 1 m and F2 = 1 N. The torque (in N-m) exerted on the drum is _________",
+    "solution": "[latex]\\begin{aligned} F_{1} &>F_{2} \\\\ \\frac{F_{1}}{F_{2}} &=e^{\\mu \\theta} \\\\ \\frac{F_{1}}{F_{2}} &=e^{0.25 \\times \\frac{3 \\pi}{2}} \\\\ F_{1} &=F_{2} \\cdot e^{0.25 \\times \\frac{3 \\pi}{2}} \\\\ &=1 \\times e^{0.25 \\times \\frac{3 \\times \\pi}{2}} \\\\ &=3.2482 \\mathrm{N} \\\\ \\text { Torque } &=\\left(F_{1}-F_{2}\\right) \\times r \\\\ &=(3.2482-1) \\times 11 \\\\ &=2.2482 \\mathrm{Nm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page2_q4.webp",
+    "min": 2.2,
+    "max": 2.3
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 A single degree of freedom mass-spring-viscous damper system with mass m, spring constant k and\nviscous damping coefficient q is critically damped. The correct relation among m, k, and q is",
+    "solution": "Given : 1. single degree of freedom 2. Mass =m 3. Spring constant =k 4. Damping coefficient =q 5. Critically damped Damping factor =1 Correct relation: Damping factor = [latex] \\begin{array}{c}\\ \\frac{\\text { Damping coefficient }}{2 \\times \\text { mass } \\times \\text { Natural frequency of vibration }} \\\\ 1=\\frac{q}{2 \\times m \\times \\sqrt{\\frac{k}{m}}} \\\\ q=2 \\sqrt{km} \\end{array}[/latex]",
+    "options": {
+      "A": "q=[latex]\\sqrt{2km}[/latex]",
+      "B": "q=2[latex]\\sqrt{km}[/latex]",
+      "C": "q=[latex]\\sqrt{\\frac{2k}{m}}[/latex]",
+      "D": "q=2[latex]\\sqrt{\\frac{k}{m}}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 A machine element XY, fixed at end X, is subjected to an axial load P, transverse load F, and a twisting moment T at its free end Y. The most critical point from the strength point of view is",
+    "solution": "Both bending stress and shear stress (due to  torque) will be max at the circumference. The bending stress will be maximum at x. Hence, critical section will be at a point on the  circumference at location x.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page3_q1.webp",
+    "options": {
+      "A": "a point on the circumference at location Y",
+      "B": "a point at the center at location Y",
+      "C": "a point on the circumference at location X",
+      "D": "a point at the center at location X"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 For the brake shown in the figure, which one of the following is TRUE?",
+    "solution": "For clockwise direction rotation of drum direction of moment of forces [latex]F_{\\mathrm{r}_{2}}[/latex]  and F will be same. Hence, self energizing for clockwise rotation of the drum.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page3_q2.webp",
+    "options": {
+      "A": "Self energizing for clockwise rotation of the drum",
+      "B": "Self energizing for anti-clockwise rotation of the drum",
+      "C": "Self energizing for rotation in either direction of the drum",
+      "D": "Not of the self energizing type"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 The volumetric flow rate (per unit depth) between two streamlines having stream functions [latex]\\Psi_{1}[/latex] and [latex]\\Psi_{2}[/latex]  is",
+    "solution": "",
+    "options": {
+      "A": "[latex]|\\Psi 1+\\Psi 2|[/latex]",
+      "B": "[latex]\\Psi 1\\Psi 2[/latex]",
+      "C": "[latex]\\Psi 1/\\Psi 2[/latex]",
+      "D": "[latex]|\\Psi 1-\\Psi 2|[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 Assuming constant temperature condition and air to be an ideal gas, the variation in atmospheric\npressure with height calculated from fluid statics is",
+    "solution": "Air pressure falls with altitude exponentially",
+    "options": {
+      "A": "linear",
+      "B": "exponential",
+      "C": "quadratic",
+      "D": "cubic"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 A hollow cylinder has length L, inner radius [latex]r_{1}[/latex], outer radius [latex]r_{2}[/latex], and thermal conductivity k. The thermal resistance of the cylinder for radial conduction is",
+    "solution": "[latex]Q=\\frac{\\Delta T}{\\text { Thermal resistance }} [/latex] Thermal resistance [latex]=\\int_{t_{1}}^{t_{2}} \\frac{L}{k A} [/latex] [latex] \\begin{aligned} \\quad&=\\int_{t_{1}}^{r_{2}} \\frac{d r}{k \\times 2 \\pi r l} \\\\ \\quad&=\\frac{1}{2 \\pi / k} \\int_{r_{1}}^{r_{2}} \\frac{d r}{r} \\\\ \\quad&=\\frac{1}{2 \\pi l k}[\\ln r]_{r_{1}}^{r_{2}} \\\\ \\quad&=\\frac{1}{2 \\pi l k} \\ln \\frac{r_{2}}{r_{1}} \\\\ \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{\\ln( r_{2}/r_{1} )}{2\\pi kL}[/latex]",
+      "B": "[latex]\\frac{\\ln( r_{1}/r_{2} )}{2\\pi kL}[/latex]",
+      "C": "[latex]\\frac{2\\pi kL}{\\ln( r_{2}/r_{1})}[/latex]",
+      "D": "[latex]\\frac{2\\pi kL}{\\ln( r_{1}/r_{2})}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Consider the radiation heat exchange inside an annulus between two very long concentric cylinders. The radius of the outer cylinder is [latex]R_{0}[/latex]  and that of the inner cylinder is [latex]R_{i}[/latex] . The radiation view factor of the outer cylinder onto itself is",
+    "solution": "To find: Radiation view factor of the outer cylinder onto itself. Hence [latex] F_{11} [/latex] is required. [latex] \\begin{aligned} \\Rightarrow A_{1} F_{12}&=A_{2} F_{21} \\qquad[\\text { Reciprosity }]\\\\ F_{11}+F_{12}&=1 \\qquad \\text { [Summation] }\\\\ F_{21}+F_{22}&=1\\\\ \\therefore \\quad F_{11}&=1-F_{12} \\\\ F_{22}&=0  \\text { [No radiation leaving }\\\\ &\\text{surface 2 reaches back to 2]}\\\\ \\therefore \\quad F_{21} &=1 \\\\ F_{12} &=\\frac{A_{2}}{A_{1}} \\times F_{21}=\\frac{A_{2}}{A_{1}} \\times 1 \\\\ &=\\frac{2 \\pi R_{i} L}{2 \\pi R_{0} L} \\times 1=\\frac{R_{i}}{R_{0}} \\\\ F_{11} &=1-F_{12}=1-\\frac{R_{i}}{R_{0}} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]1-\\sqrt{\\frac{R_{i}}{R_{0}}}[/latex]",
+      "B": "[latex]\\sqrt{1-\\frac{R_{i}}{R_{0}}}[/latex]",
+      "C": "[latex]1-( \\frac{R_{i}}{R_{0}} )^{\\frac{1}{3}}[/latex]",
+      "D": "[latex]1-\\frac{R_{i}}{R_{0}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 The internal energy of an ideal gas is a function of",
+    "solution": "Internal energy for ideal gas depends on only Temperature, whereas an real gas depends on both pressure and temperature.",
+    "options": {
+      "A": "temperature and pressure",
+      "B": "volume and pressure",
+      "C": "entropy and pressure",
+      "D": "temperature only"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18 The heat removal rate from a refrigerated space and the power input to the compressor are 7.2 kW and 1.8 kW, respectively. The coefficient of performance (COP) of the refrigerator is ______",
+    "solution": "Given data: [latex] \\begin{aligned} Q_{2}&=7.2 \\mathrm{kW} \\\\ W&=1.8 \\mathrm{kW} \\\\ (\\mathrm{COP})_{R} &=\\frac{Q_{2}}{W} \\\\ &=\\frac{7.2}{1.8}=4 \\end{aligned}[/latex]",
+    "min": 3.9,
+    "max": 4.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 Consider a simple gas turbine (Brayton) cycle and a gas turbine cycle with perfect regeneration. In both the cycles, the pressure ratio is 6 and the ratio of the specific heats of the working medium is 1.4. The ratio of minimum to maximum temperatures is 0.3 (with temperatures expressed in K) in the regenerative cycle. The ratio of the thermal efficiency of the simple cycle to that of the regenerative cycle is _________",
+    "solution": "[latex]\\begin{aligned} \\text{Given: }r_{p}&=6\\\\ y&=1.4 \\end{aligned}[/latex] [latex] \\frac{T_{\\max }}{T_{\\min }}=0.3 \\quad[/latex] [for regenerative cycle ] [latex] \\begin{aligned} \\eta_\\text { Tregenerative cycle } &=1-\\frac{T_{\\max }}{T_{\\min }} \\times\\left(r_{p}\\right)^{(\\gamma-1) / \\gamma} \\\\ &=1-0.3\\times(6)^{\\frac{0.4}{1.4}}\\\\ &=0.49945 \\times(6)^{\\frac{0.4}{1.4}} \\end{aligned}[/latex] [latex]\\begin{aligned} \\eta_{\\text {simplecycle }} &=1-\\frac{1}{\\left(r_{p}\\right)^{(\\gamma-1) / \\gamma}} \\\\ &=1-\\left(r_{p}\\right)^{(1-\\gamma) / \\gamma} \\\\ &=1-(6)^{-\\frac{0.4}{1.4}}=0.4066 \\end{aligned} [/latex] [latex] \\begin{aligned} \\text { Required ratio } &=\\frac{\\eta_{\\text {simple cycle }}}{\\eta_{\\text {regenerative cycle }}} \\\\ &=\\frac{0.40666}{0.49945}=0.8141 \\end{aligned}[/latex]",
+    "min": 0.79,
+    "max": 0.81
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 In a single-channel queuing model, the customer arrival rate is 12 per hour and the serving rate is\n24 per hour. The expected time that a customer is in queue is _______ minutes.",
+    "solution": "[latex]\\begin{aligned} \\lambda&=12 \\mathrm{hr}^{-1} \\\\ u&=24 \\mathrm{hr}^{-1} \\\\ w_{s}&=\\frac{\\lambda}{\\mu(u-\\lambda)}=\\frac{12}{24 \\times 12} \\times 60 \\\\ &=2.5\\text{seconds} \\end{aligned}[/latex]",
+    "min": 2.4,
+    "max": 2.6
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 In the phase diagram shown in the figure, four samples of the same composition are heated to temperatures marked by a, b, c and d. At which temperature will a sample get solutionized the fastest?",
+    "solution": "For aluminium alloy solution hardening process will be used to increase strength and hardness. In this process component will be heated to [latex]550^{\\circ}C[/latex] above temperature so that solute particles can penetrate into the lattice easily.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page5_q1.webp",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 The welding process which uses a blanket of fusible granular flux is",
+    "solution": "In submerged arc welding, the arc is completely submerged inside the granular flux powder and forming as blanket.",
+    "options": {
+      "A": "tungsten inert gas welding",
+      "B": "submerged arc welding",
+      "C": "electroslag welding",
+      "D": "thermit welding"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 The value of true strain produced in compressing a cylinder to half its original length is",
+    "solution": "[latex]\\epsilon_{T}=\\ln \\left(\\frac{L}{L_{0}}\\right)=\\ln \\left(\\frac{(L / 2)}{L}\\right)=\\ln 1 / 2=-0.69[/latex]",
+    "options": {
+      "A": "0.69",
+      "B": "-0.69",
+      "C": "0.5",
+      "D": "-0.5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 The following data is applicable for a turning operation. The length of job is 900 mm, diameter of job is 200 mm, feed rate is 0.25 mm/rev and optimum cutting speed is 300 m/min. The machining time (in min) is __________",
+    "solution": "[latex]\\begin{aligned} t &=\\frac{L}{f N} \\text { and } V=\\pi D N \\\\ \\therefore \\quad t &=\\frac{L \\pi D}{f V} \\\\ &=\\frac{900 \\times \\pi \\times 200}{0.25 \\times 300 \\times 1000} \\\\ &=\\frac{18 \\pi}{30 \\times 0.25} \\min \\\\ &=\\frac{6 \\pi}{2.5} \\min =7.5 \\mathrm{min} \\end{aligned}[/latex]",
+    "min": 7.4,
+    "max": 7.6
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 In an ultrasonic machining (USM) process, the material removal rate (MRR) is plotted as a function of the feed force of the USM tool. With increasing feed force, the MRR exhibits the following behavior:",
+    "solution": "",
+    "options": {
+      "A": "increases linearly",
+      "B": "decreases linearly",
+      "C": "does not change",
+      "D": "first increases and then decreases"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 A scalar potential [latex]\\varphi[/latex] has the following gradient: [latex]\\bigtriangledown \\varphi =yz\\hat{i}+xz\\hat{j}+xy\\hat{k}[/latex]. Consider the integral [latex]\\int_{c}\\bigtriangledown \\varphi .d\\vec{r}[/latex]  on the curve [latex]\\vec{r}=x\\hat{i}+y\\hat{j}+z\\hat{k}[/latex] The curve C is parameterized as follows:[latex]\\left\\{\\begin{matrix} x &=&t \\\\ y& =&t^{2} \\\\ z&= &3t^{2} \\end{matrix}\\right.[/latex]  and 1 [latex]\\leq[/latex] t [latex]\\leq[/latex] 3 The value of the integral is ________",
+    "solution": "[latex] \\begin{aligned} \\int_{c}^{\\int \\nabla \\phi \\cdot \\sigma F} &=\\int_{c}(y z \\bar{i}+x z \\bar{\\rho}+x y \\bar{k}) \\\\ &\\qquad \\qquad \\quad (dx\\bar{i}+dx\\bar{\\rho}+dz\\bar{k})\\\\ &=\\int_{c} y z d x+x z d y+x y d z\\\\ &=\\int_{c} d(x y z) \\\\ &=(x y z) \\\\ \\text { Given that } x &=t, y=t^{2}, z=3 t^{2} \\\\ &=\\left.\\left(t \\cdot t^{2} \\cdot 3 t^{2}\\right)\\right|_{1} ^{3}\\\\ &=\\left.3\\left(t^{5}\\right)\\right|_{1} ^{3}\\\\ &=3\\left(3^{5}-1\\right) \\\\ &=3^{6}-3=729-3=726 \\end{aligned}[/latex]",
+    "min": 725.9,
+    "max": 726.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 The value of [latex]\\oint _{r}\\frac{3z-5}{( z-1)( z-2 )} dz[/latex]  along a closed path [latex]\\Gamma[/latex]  is equal to (4 [latex]\\pi[/latex] i),where   z=x+iy and i=[latex]\\sqrt{-1}[/latex].  The correct path [latex]\\Gamma[/latex]  is___",
+    "solution": "[latex]\\oint_{\\Gamma} \\frac{3 z-5}{(z-1)(z-2)} d z=4 \\pi i [/latex] [latex] \\oint_{\\Gamma} \\frac{3 z-5}{(z-1)(z-2)} d z=2 \\pi i(2) [/latex] Sum of residues must be equal to 2 [latex] \\text{Res f(z)}_{z=1}=u_{z \\rightarrow 1}(z-1) \\frac{3 z-5}{(z-1)(z-2)}=\\frac{-2}{-1}=2[/latex] [latex] \\text{Res f(z)}_{z=2}=u_{z \\rightarrow 2}(z-2) \\frac{3 z-5}{(z-1)(z-2)}=\\frac{6-5}{2-1}=1 [/latex] Therefore z=1 must lies inside C z=2 lies outside C then only we will get the given integral values is equal to L[latex]\\pi[/latex] i",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page6_q2.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 28 The probability that a screw manufactured by a company is defective is 0.1. The company sells screws in packets containing 5 screws and gives a guarantee of replacement if one or more screws in the packet are found to be defective. The probability that a packet would have to be replaced is _________",
+    "solution": "[latex]n=5, P=0.1, q=0.9 [/latex] x: no of defectives [latex] \\begin{aligned} P(X \\geq 1) &=1-P(X=0) \\\\ &=1-5,(0.1)^{0}(0.9)^{5} \\\\ &=1-\\left(0^{\\circ} .9\\right)^{5}=0.4095 \\end{aligned}[/latex]",
+    "min": 0.39,
+    "max": 0.43
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 The error in numerically computing the integral [latex]\\int_{0}^{\\pi }(\\sin x+\\cos x )dx[/latex] using the trapezoidal rule with three intervals of equal length between 0 and [latex]\\pi[/latex]  is",
+    "solution": "[latex]\\begin{array}{|c|c|c|c|c|} \\hline x & 0 & \\frac{\\pi}{3} & \\frac{2 \\pi}{3} & \\pi \\\\ \\hline f(x) & 1 & 1.366 & 0.366 & -1 \\\\ & y_{0} & y_{1} & y_{2} & y_{3} \\\\ \\hline \\end{array}[/latex] By Trapezoidal [latex] \\int_{0}^{\\pi}(\\sin x+\\cos x) d x=\\frac{\\pi / 3}{2}(1+(-1)+ [/latex] [latex] \\begin{aligned}2(1.366+0.366)) & \\\\ =\\frac{\\pi}{3}(1.732)=1.8137\\end{aligned}[/latex] [latex] \\begin{aligned}\\int_{0}^{\\pi}(\\sin x+\\cos x) d x&=\\int_{0}^{\\pi / 2}(\\sin x+\\cos x) d x \\\\&+\\int_{\\pi / 2}^{\\pi}(\\sin x+\\cos x) d x\\\\ =&\\left.(-\\cos x+\\sin x)\\right|_{0} ^{\\pi / 2}\\\\&+\\left.(-\\cos x+\\sin x)\\right|_{\\pi / 2} ^{\\pi}\\\\ =&[(0+1)-(-1+0)]\\\\&+[(1+0)-(0+1)] | x \\\\ =& 1+1+1-1 \\\\ =& 2 \\end{aligned}[/latex] [latex] \\begin{aligned} \\text{Error}=& \\text { Exact value - approx value } \\\\=& 2-1.8137 \\\\=& 0.1863 \\end{aligned}[/latex]",
+    "min": 0.175,
+    "max": 0.195
+  },
+  {
+    "type": "numerical",
+    "question": "Question 30 A mass of 2000 kg is currently being lowered at a velocity of 2 m/s from the drum as shown in the figure. The mass moment of inertia of the drum is 150 Kg-[latex]m^{2}[/latex]  On applying the brake, the mass is\nbrought to rest in a distance of 0.5 m. The energy absorbed by the brake (in kJ) is __________",
+    "solution": "[latex] E_{\\text {intial }}-E_{\\text {brake }}=E_{\\text {final }} [/latex] [latex] \\frac{1}{2}l\\omega_{1}^{2}+\\frac{1}{2} m v_{1}^{2}+m g H_{1}-E_{\\mathrm{brake}}[/latex] [latex] =\\frac{1}{2} I \\omega_{2}^{2}+\\frac{1}{2} m v_{2}^{2}+m g H_{2} [/latex] [latex] E_{\\mathrm{brake}}=\\frac{1}{2} I \\omega_{1}^{2}+\\frac{1}{2} m v_{1}^{2}+m g\\left(H_{1}-H_{2}\\right) [/latex] [latex] H_{1}-H_{2}=0.5 \\mathrm{m} [/latex] [latex] E_{\\mathrm{brake}}=\\frac{1}{2} I \\omega_{1}^{2}+m g h+\\frac{1}{2} m v_{1}^{2} [/latex] [latex] =\\frac{\\frac{1}{2} \\times 150 \\times 2^{2}+2000 \\times 9.81 \\times 0.5+\\frac{1}{2} \\times \\frac{2000 \\times 2^{2}}{1000}}{1000} [/latex] [latex] =14.11 \\mathrm{kJ}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page6_q5.webp",
+    "min": 14.1,
+    "max": 14.3
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 A system of particles in motion has mass center G as shown in the figure. The particle i has mass mi and its position with respect to a fixed point O is given by the position vector [latex]r_{i}[/latex] . The position of the particle with respect to G is given by the vector [latex]\\rho _{i}[/latex] . The time rate of change of the angular momentum of the system of particles about G is (The quantity [latex]\\ddot{\\rho }_{i}[/latex]  indicates second derivative of [latex]{\\rho }_{i}[/latex]  with respect to time and likewise for ).",
+    "solution": "Time rate of change of angular momentum [latex] \\begin{aligned} &=\\frac{d \\vec{L}}{d t} \\\\ \\bar{L}_{G} &=\\vec{P} \\times \\vec{r} \\end{aligned}\\\\ \\;[\\text{For particle }m_{i} \\text{ about G }]\\\\ \\begin{aligned} \\Rightarrow \\quad G & =m_{i} \\times \\vec{v}_{i} \\times \\vec{P}_{r} \\\\ & \\vec{P}=m_{i} \\times \\vec{V}_{i} \\\\ \\text { But } & \\vec{V}_{i}=\\frac{d}{d t} \\vec{r}_{i}=\\dot{r}_{i} \\end{aligned}[/latex] [latex] V_{i}= [/latex] rate of change o positions Position vector is given with respect to \"0\" [latex] \\begin{aligned} \\underset{{L}_{G}}{\\rightarrow} &=m_{i} i_{i} \\vec{\\rho}_{i} \\\\ \\text { Now } \\frac{d}{d t} L_{G} &=\\frac{d}{d t}\\left[p_{i} m_{i} f_{i}\\right] \\\\ &=\\rho_{i} m_{i} \\ddot{r}_{i} \\end{aligned}[/latex] For whole body [latex] \\frac{d L}{d t}=\\sum \\frac{d L_{G}}{d t}=\\sum \\rho_{i} m_{i} \\ddot{r}_{i}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page7_q1.webp",
+    "options": {
+      "A": "[latex]\\Sigma_{i}r_{i} \\times m_{i}\\ddot{\\rho }_{i}[/latex]",
+      "B": "[latex]\\Sigma_{i}\\rho _{i} \\times m_{i}\\ddot{r}_{i}[/latex]",
+      "C": "[latex]\\Sigma_{i} r_{i} \\times m_{i}\\ddot{r}_{i}[/latex]",
+      "D": "[latex]\\Sigma_{i} \\rho _{i} \\times m_{i}\\ddot{\\rho }_{i}[/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 A rigid horizontal rod of length 2L is fixed to a circular cylinder of radius R as shown in the figure. Vertical forces of magnitude P are applied at the two ends as shown in the figure. The shear modulus for the cylinder is G and the Young's modulus is E. The vertical deflection at point A is",
+    "solution": "Angle of twist [latex]\\theta [/latex] [latex]\\theta =\\frac{(2PL)L}{GI_p}=\\frac{2PL^2}{G\\frac{\\pi}{2}R^4}=\\frac{4PL^2}{\\pi GR^4}[/latex] [latex] \\therefore \\;[/latex] Vertical deflection of A [latex]\\Delta _A=\\theta L=\\frac{4PL^3}{\\pi G R^4}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page7_q2.webp",
+    "options": {
+      "A": "[latex]PL^{3}/(\\pi R^{4}G)[/latex]",
+      "B": "[latex]PL^{3}/(\\pi R^{4}E)[/latex]",
+      "C": "[latex]2PL^{3}/(\\pi R^{4}E)[/latex]",
+      "D": "[latex]4PL^{3}/(\\pi R^{4}G)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 A simply supported beam of length 2L is subjected to a moment M at the mid-point x = 0 as shown in the figure. The deflection in the domain [latex]o\\leq x\\leq L[/latex] is given by [latex]w=\\frac{-Mx}{12EIL}(L-x)(x+c)[/latex] where E is the Young's modulus, I is the area moment of inertia and c is a constant (to be determined) The slope at the center x = 0 is",
+    "solution": "Equation of deflection [latex] \\begin{aligned} W &=\\frac{-M}{12 E I L}\\left[L x^{2}-x^{3}+L c x-C x^{2}\\right] \\\\ \\frac{d W}{d x} &=\\frac{-M}{12 E I L}\\left[2 L x-3 x^{2}+L C-2 C x\\right] \\\\ \\frac{d^{2} W}{d x^{2}} &=\\frac{-M}{12 E I L}[2 L-6 x-2 C] \\\\ \\therefore \\quad E I \\frac{d^{2} W}{d x^{2}} &=\\frac{-M}{12 L}[2 L-6 x-2 C] \\\\ \\text { now } \\quad E I \\frac{d^{2} W}{d x^{2}} &=\\frac{-M}{12 L}[2 L-6 x-2 C]\\\\ \\text{at }\\quad x&=L, M_{x}=0 \\\\ \\therefore \\quad C&=2 L\\\\ Slope\\\\ \\frac{d W}{d x} &=\\frac{-M}{12 E I L}\\left[2 L x-3 x^{2}+2 L^{2}-4 L x\\right] \\\\ \\therefore \\quad \\left|\\frac{d W}{d x}\\right|_{x=0} &=\\frac{-M L}{6 E I} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page7_q3.webp",
+    "options": {
+      "A": "ML/(2EI)",
+      "B": "ML/(3EI)",
+      "C": "ML/(6EI)",
+      "D": "ML/(12EI)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 In the figure, the load P = 1 N, length L = 1 m, Young's modulus E = 70 [latex]GP_{a}[/latex], and the cross-section of the links is a square with dimension 10 mm x 10 mm. All joints are pin joints. The stress (in Pa) in the link AB is ___________ (Indicate compressive stress by a negative sign and tensile stress by a positive sign.)",
+    "solution": "[latex] \\begin{aligned} \\Sigma F_{v}&=0 \\\\ and \\quad \\Sigma F_{x}&=0[\\text { At equilibrium }]\\\\ F_{B C} \\sin 45^{\\circ}&=F_{A B}+P \\sin 45^{\\circ} \\\\ \\text { for } \\Sigma F_{v}&=0 \\\\ F_{B C} \\cos 45^{\\circ} &=P \\cos 45^{\\circ} \\text { for } \\Sigma F_{x}=0 \\\\ \\therefore \\quad F_{B C}&=P \\\\ P \\sin 45^{\\circ}&=F_{A B}+P \\sin 45^{\\circ} \\\\ \\therefore F_{A B} &=0 \\\\ \\sigma_{A B} &=0 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page7_q4.webp",
+    "options": {
+      "A": "-1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 A circular metallic rod of length 250 mm is placed between two rigid immovable walls as shown in the figure. The rod is in perfect contact with the wall on the left side and there is a gap of 0.2 mm between the rod and the wall on the right side. If the temperature of the rod is increased by  [latex]200^{\\circ}C[/latex] , the axial stress developed in the rod is __________ MPa Young's modulus of the material of the rod is 200 GPa and the coefficient of thermal expansion is  [latex]10^{-5}per^{\\circ}C[/latex]",
+    "solution": "Free expansion of rod[latex]=L \\alpha \\Delta T [/latex] [latex] \\begin{aligned} &=250 \\times 10^{-5} \\times 200\\\\&=0.5 \\mathrm{mm} \\\\ \\text { Actual expansion } &=0.2 \\mathrm{mm}\\\\ \\therefore \\quad \\text{Expansion resisted} &=0.3 \\mathrm{mm} \\\\ \\therefore \\quad \\text{Strain resisted } &=\\frac{0.3}{250} \\\\ \\text { Stress developed } &=\\frac{0.3}{250} \\times 200 \\times 10^{3} \\\\ &=0.24 \\times 10^{3}=240 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page7_q5.webp",
+    "min": 239.0,
+    "max": 241.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 The rod AB, of length 1 m, shown in the figure is connected to two sliders at each end through pins. The sliders can slide along QP and QR. If the velocity VA of the slider at A is 2 m/s, the velocity of the midpoint of the rod at this instant is ___________ m/s.",
+    "solution": "[latex]\\omega _3=\\omega _{AB}=\\frac{V_A}{I_{13A}}=\\frac{V_B}{I_{13B}}=\\frac{V_C}{I_{13C}}[/latex] [latex] I_{13A}=[/latex] Distance between [latex]I_{13}[/latex] and point A [latex] I_{13B}=[/latex] Distance between [latex]I_{13}[/latex] and point B [latex] I_{13C}=[/latex] Distance between [latex]I_{13}[/latex] and point C [latex] \\frac{V_A}{I_{13A}}=\\frac{V_C}{I_{13C}}[/latex] [latex] \\frac{2}{I_{13A}}=\\frac{V_C}{I_{13C}}[/latex] Applying sine law in triangle [latex]ABI_{13}[/latex] [latex]\\frac{1}{\\sin 120^{\\circ}}=\\frac{I_{13A}}{\\sin 30^{\\circ}} I_{13A}=\\frac{\\sin 30^{\\circ}}{\\sin 120^{\\circ}} Applying sine law in ACI_{13}=0.5774 \\begin{aligned} \\frac{I_{13C}}{\\sin 30^{\\circ}} &= \\frac{I_{13A}}{\\sin 90^{\\circ}}\\\\ I_{13C}&= \\frac{I_{13A}\\sin 30^{\\circ}}{\\sin 90^{\\circ}}\\\\ &=0.5774 \\times 0.5=0.2887m \\\\ V_C&=\\frac{V_A I_{13C}}{I_{13a}} \\\\ &=\\frac{2 \\times 0.2887}{0.5774}=1 m/s \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page8_q1.webp",
+    "min": 0.95,
+    "max": 1.05
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 The system shown in the figure consists of block A of mass 5 kg connected to a spring through a massless rope passing over pulley B of radius r and mass 20 kg. The spring constant k is 1500 N/m. If there is no slipping of the rope over the pulley, the natural frequency of the system is_____________ rad/s.",
+    "solution": "Total energy of system [latex] \\begin{aligned} &=\\frac{1}{2} m v^{2}+\\frac{1}{2} k x^{2}+\\frac{1}{2} I \\omega^{2} \\\\ &=\\frac{1}{2} m\\left(r \\times \\frac{d \\theta}{d t}\\right)^{2}+\\frac{1}{2} K \\times(r \\theta)^{2} \\\\&+\\frac{1}{2} \\times \\frac{M r^{2}}{2} \\times\\left[\\frac{d \\theta}{d T}\\right]^{2} \\\\ &=\\frac{1}{2} M r^{2} \\cdot(\\dot{\\theta})^{2}+\\frac{1}{2} K \\times r^{2} \\theta^{2}+\\frac{M r^{2}}{4}(\\dot{\\theta})^{2} \\end{aligned}[/latex] since total energy remains constant with respect to time. [latex] \\begin{aligned} \\frac{d E}{d t} &=0 \\\\ \\frac{d E}{d t} &=\\frac{1}{2} m r^{2} 2 \\cdot \\dot{\\theta} \\ddot{\\theta}+\\frac{K r^{2}}{2} \\cdot 2 \\theta \\cdot \\dot{\\theta}+\\frac{M r^{2}}{4} 2 \\dot{\\theta} \\dot{\\theta} \\\\ 0 &=m r^{2} \\dot{\\theta} \\ddot{\\theta}+K r^{2} \\theta \\cdot \\dot{\\theta}+\\frac{M r^{2}}{2} \\dot{\\theta} \\ddot{\\theta} \\end{aligned}[/latex] Divide both sides by [latex]\\dot{\\theta} [/latex] [latex] 0=m r^{2} \\ddot{\\theta}+K r^{2} \\theta+\\frac{M r^{2}}{2}[/latex] Divide both sides by [latex]r^{2} [/latex] [latex] \\begin{aligned} 0 &=m \\ddot{\\theta}+K \\theta+\\frac{M \\ddot{\\theta}}{2} \\\\ 0 &=\\left(m+\\frac{M}{2}\\right) \\ddot{\\theta}+K \\theta \\\\ 0 &=\\ddot{\\theta}+\\left[\\frac{K}{m+\\frac{M}{2}}\\right] \\theta \\\\ \\omega_{n}^{2} &=\\frac{K}{m+\\frac{M}{2}} \\\\ \\omega_{n} &=\\sqrt{\\frac{2 k}{M+2 m}}=\\sqrt{\\frac{2 \\times 1500}{20+(2 \\times 5)}} \\\\ &=\\sqrt{\\frac{3000}{20+10}}=\\sqrt{100} \\\\ &=10 \\mathrm{rad} / \\mathrm{s} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page8_q2.webp",
+    "min": 9.9,
+    "max": 10.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 In a structural member under fatigue loading, the minimum and maximum stresses developed at the critical point are 50 MPaand 150 MParespectively. The endurance, yield, and the ultimate strengths of the material are 200 MPa,300 MPa and 400 MPa, respectively. The factor of safety using modified Goodman criterion is",
+    "solution": "[latex]\\begin{aligned}  \\sigma _{max}&=150MPa\\\\ \\sigma _{min}&=50MPa\\\\ S_e&=200MPa\\\\ S_{yt}&=300MPa\\\\ S_{ut}&=400MPa\\\\ \\sigma _a&=\\frac{\\sigma _{max}-\\sigma _{min}}{2}\\\\ &=\\frac{150-50}{2}\\\\ &=50 MPa\\\\ \\sigma _m&=\\frac{\\sigma _{max}+\\sigma _{min}}{2}\\\\ &=\\frac{150+50}{2}\\\\ &=100 MPa\\\\ &\\text{Goodman sequation}\\\\ \\frac{\\sigma _a}{S_e}+\\frac{\\sigma _m}{S_{ut}}&=\\frac{1}{FS}\\\\ \\frac{50}{200}+\\frac{100}{400}&=\\frac{1}{FS}\\\\ FS&=2 \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{3}{2}[/latex]",
+      "B": "[latex]\\frac{8}{5}[/latex]",
+      "C": "[latex]\\frac{12}{7}[/latex]",
+      "D": "2"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 The large vessel shown in the figure contains oil and water. A body is submerged at the interface of oil and water such that 45 percent of its volume is in oil while the rest is in water. The density of the body is _________ [latex]kg/m^{3}[/latex]. The specific gravity of oil is 0.7 and density of water is 1000 [latex]kg/m^{3}[/latex] . Acceleration due to gravity g = 10 [latex]m/s^{2}[/latex]",
+    "solution": "Let V= Volume of metalic body 45% of volume is in oil i.e.   [latex]V_{oil}=[/latex] 45% of V=0.45V and [latex]V_{ater}=[/latex] 0.55V For equilibrium condition, Net buoyant force [latex]=(F_B)_{water}+(F_B)_{oil}[/latex] [latex]\\begin{aligned} M_bg&=\\rho _w V_{water}\\;g+\\rho _{oil}V_{oil}\\;g \\\\ M_b&= \\rho _w V_{water}+\\rho _{oil}V_{oil}\\\\ \\rho _b V&= \\rho _w \\times 0.55V+\\rho _{oil} \\times 0.45V\\\\ \\rho _b&= \\rho _w \\times 0.55+\\rho _{oil} \\times 0.45\\\\ &=1000 \\times 0.55+700 \\times 0.45 \\\\ &= 865\\;kg/m^3 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page8_q4.webp",
+    "min": 860.0,
+    "max": 870.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 Consider fluid flow between two infinite horizontal plates which are parallel (the gap between them being 50 mm). The top plate is sliding parallel to the stationary bottom plate at a speed of 3 m/s. The flow between the plates is solely due to the motion of the top plate. The force per unit area (magnitude) required to maintain the bottom plate stationary is _________ [latex]N/m^{2}[/latex] Viscosity of the fluid [latex]\\mu =0.44[/latex] kg/m-s and density [latex]\\rho =888 kg/m^{3}[/latex].",
+    "solution": "[latex] \\begin{aligned} h&=50 \\mathrm{mm}=0.050 \\mathrm{mm} \\\\ U&=3 \\mathrm{m} / \\mathrm{s} \\\\ \\mu&=0.44 \\mathrm{kg} / \\mathrm{ms} \\\\ \\rho&=888 \\mathrm{kg} / \\mathrm{m}^{3} \\end{aligned}[/latex] Newton's law of viscosity, [latex] \\begin{aligned} \\tau &=\\mu \\frac{d u}{d y}=\\frac{\\mu U}{h} \\\\ &=\\frac{0.44 \\times 3}{0.050}=26.4 \\mathrm{N} / \\mathrm{m}^{2} \\end{aligned}[/latex]",
+    "min": 26.3,
+    "max": 26.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 Consider a frictionless, massless and leak-proof plug blocking a rectangular hole of dimensions  2R x L  at the bottom of an open tank as shown in the figure. The head of the plug has the shape of a semi-cylinder of radius R. The tank is filled with a liquid of density  [latex]\\rho[/latex]  up to the tip of the plug. The gravitational acceleration is g. Neglect the effect of the atmospheric pressure. The force F required to hold the plug in its position",
+    "solution": "[latex]\\begin{aligned} \\text{Volume, } V_{total}&=2R \\times L \\times R\\\\ &=2R^2L\\;\\;...(i)\\\\ \\text{Volume: }V_1&=\\frac{1}{2}\\times \\pi R^2 \\times L\\;\\;...(ii)\\\\ F&= \\text{Weight of fluid}\\\\ &=[V_{total}-V_{1}]\\rho g\\\\ &=\\left [ 2R^2L-\\frac{\\pi R^2L}{2} \\right ]\\rho g\\\\ &=\\left [ 1-\\frac{\\pi}{4} \\right ]2R^2Lg\\rho \\\\ &=2\\rho R^2gL\\left [ 1-\\frac{\\pi}{4} \\right ] \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page9_q1.webp",
+    "options": {
+      "A": "[latex]2\\rho R^{2}gL\\left( 1-\\frac{\\pi }{4}\\right )[/latex]",
+      "B": "[latex]2\\rho R^{2}gL\\left( 1+\\frac{\\pi }{4}\\right )[/latex]",
+      "C": "[latex]\\pi R^{2}\\rho gL[/latex]",
+      "D": "[latex]\\frac{\\pi }{2}\\rho R^{2}gL[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 Consider a parallel-flow heat exchanger with area [latex]A_{p}[/latex]  and a counter-flow heat exchanger with area [latex]A_{c}[/latex]. In both the heat exchangers, the hot stream flowing at 1 kg/s cools from [latex]80^{\\circ}[/latex]C to [latex]50^{\\circ}[/latex]C .  For the\ncold stream in both the heat exchangers, the flow rate and the inlet temperature are 2 kg/s and [latex]10^{\\circ}[/latex]C , respectively. The hot and cold streams in both the heat exchangers are of the same fluid.\nAlso, both the heat exchangers have the same overall heat transfer coefficient. The ratio  [latex]A_{c}[/latex]/ [latex]A_{p}[/latex] is _________",
+    "solution": "Parallel flow [latex]A_{p} =[/latex] Area of parallel flow heat exchanger Counter flow [latex]A_{c}= [/latex] Area of counter flow heat exchanger Heat lost by hot stream in both heat exchanger [latex] \\begin{aligned} &=m c\\left[T_{h i}-T_{h o}\\right] \\\\ &=1 \\times c \\times\\left[T_{h i}-T_{h o}\\right] \\\\ &=1 \\times c \\times[80-50]=30 \\mathrm{ckW} \\end{aligned}[/latex] Heat gained by cold stream in both exchange [latex]\\begin{aligned} &=m c\\left[T_{co}-T_{c i}\\right] \\\\ &=2 \\times c\\left[T_{c o}-10\\right] \\end{aligned}[/latex] Heat lost by hot stream = Heat gain by cool stream [latex]\\begin{aligned}\r\n30c &=2c(T_\\infty -10) \\\\ \r\n T_\\infty &= \\frac{30}{2}+10\\\\ \r\n &=15+10=25^{\\circ} C\\\\ \r\n A_P, LMTD&= \\frac{\\Delta T_i-\\Delta T_e}{ln(\\Delta T_i/\\Delta T_e)}\\\\ \r\n &= \\frac{70-25}{ln(70/25)}=43.705^{\\circ} C\\\\ \r\n Q_H&=UA_P 43.705 \\\\ \r\n A_C, LMTD&= \\frac{\\Delta T_i-\\Delta T_e}{ln(\\Delta T_i/\\Delta T_e)}\\\\ \r\n &= \\frac{55-40}{ln(55/40)}=47.103^{\\circ} C\\\\ \r\n Q_H&=UA_C 47.103 \\\\\r\n\\therefore \\; UA_P 43.705 &=UA_C 47.103\\\\\r\n\\frac{43.705}{47.103}&=\\frac{A_C}{A_P}=0.927\r\n\\end{aligned}[/latex]",
+    "min": 0.91,
+    "max": 0.95
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 Two cylindrical shafts A and B at the same initial temperature are simultaneously placed in a furnace. The surfaces of the shafts remain at the furnace gas temperature at all times after they are introduced into the furnace. The temperature variation in the axial direction of the shafts can be assumed to be negligible. The data related to shafts A and B is given in the following Table. The temperature at the centerline of the shaft A reaches [latex]400^{\\circ}[/latex] C after two hours. The time required (in hours) for the centerline of the shaft B to attain the temperature of [latex]400^{\\circ}[/latex] C is _______",
+    "solution": "[latex]\\begin{aligned} T_{(r, t)} &=T_{0}+\\left(T_{\\infty}-T_{0}\\right) \\operatorname{erf}(z) \\\\ \\frac{T_{(r, t)}-T_{0}}{T_{\\infty}-T_{0}} &=\\operatorname{erf}(z) \\\\ \\frac{T_{(r, t)}-T_{0}}{T_{\\infty}-T_{0}} &=\\operatorname{erf}(z) \\end{aligned}[/latex] For shaft A [latex]\\quad \\frac{T_{0.2, t}-T_{i}}{400-T_{i}} [/latex] For shaft B [latex]\\quad \\frac{T_{0.05, t}-T_{i}}{400-T_{i}} [/latex] Hence error function of both shafts will be same. [latex] \\therefore \\qquad z_{A}=z_{B}[/latex][latex]\\begin{aligned} \\frac{\\Gamma_{A}}{2 \\sqrt{\\alpha_{A} t_{A}}} &=\\frac{T_{B}}{2 \\sqrt{\\alpha_{B} t_{B}}} \\\\ \\frac{\\Gamma_{A}}{\\sqrt{\\alpha_{A} t_{A}}} &=\\frac{\\Gamma_{B}}{\\sqrt{\\alpha_{B} t_{B}}} \\\\ \\frac{\\Gamma_{A}^{2}}{\\alpha_{A} t_{A}} &=\\frac{r_{B}^{2}}{\\alpha_{B} t_{B}} \\\\ t_{B} &=\\left(\\frac{r_{B}}{r_{A}}\\right)^{2} \\times \\frac{\\alpha_{A}}{\\alpha_{B}} \\times t_{A} \\\\ \\alpha_{A} &=\\frac{k}{\\rho c_{p}}=\\frac{40}{2 \\times 10^{6}}=\\frac{20}{10^{6}} \\mathrm{m}^{2} / \\mathrm{s} \\\\ \\alpha_{B} &=\\frac{k}{\\rho c_{p}}=\\frac{20}{2 \\times 10^{7}}=\\frac{1}{10^{6}} \\mathrm{m}^{2} / \\mathrm{s} \\\\ t_{B} &=\\left(\\frac{r_{B}}{r_{A}}\\right)^{2} \\times \\frac{\\alpha_{A}}{\\alpha_{B}} \\times t_{A} \\\\ &=\\left(\\frac{0.1}{0.4}\\right)^{2} \\times \\frac{20}{10^{6} \\times \\frac{1}{10^{6}}} \\times 2 \\\\ &=\\frac{1}{16} \\times 20 \\times 2=2.5 \\mathrm{hrs} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page9_q3.webp",
+    "min": 2.4,
+    "max": 2.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 A piston-cylinder device initially contains 0.4 [latex]m^{3}[/latex] of air (to be treated as an ideal gas) at 100 kPa and [latex]80^{\\circ}[/latex]C. The air is now isothermally compressed to 0.1 [latex]m^{3}[/latex] .The work done during this process is ________ kJ. (Take the sign convention such that work done on the system is negative)",
+    "solution": "[latex]\\begin{array}{c} V_{1}=0.4 \\mathrm{m}^{3} ; \\quad p_{1}=100 \\mathrm{kPa} \\\\ T_{1}=80^{\\circ} \\mathrm{C}=(80+273) \\mathrm{K}=353 \\mathrm{K} \\\\ V_{2}=0.1 \\mathrm{m}^{3} \\end{array}[/latex] For isothermal process [latex] \\begin{aligned} W &=p_{1} V_{1} \\log _{e} \\frac{V_{2}}{V_{1}} \\\\ &=100 \\times 0.4 \\log _{e} \\frac{0.1}{0.4} \\\\ &=-55.45 \\mathrm{kJ} \\end{aligned}[/latex]",
+    "min": -55.6,
+    "max": -55.4
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 A reversible cycle receives 40 kJ of heat from one heat source at a temperature of [latex]127^{\\circ}[/latex]C and 37 kJ from another heat source at [latex]97^{\\circ}[/latex]C. The heat rejected (in kJ) to the heat sink at  [latex]47^{\\circ}[/latex]C is __________",
+    "solution": "Given data: [latex] \\begin{aligned} T_{1} &=127^{\\circ} \\mathrm{C}=(127+273) \\mathrm{K} \\\\ &=400 \\mathrm{K}\\\\ T_{2} &=97^{\\circ} \\mathrm{C}=(97+273) \\mathrm{K} \\\\ &=370 \\mathrm{K} \\\\ T_{3} &=47^{\\circ} \\mathrm{C}=(47+273) \\mathrm{K} \\\\ &=320 \\mathrm{K} \\end{aligned}[/latex] For reversible cycle Clausius inequality, [latex] \\oint \\frac{S Q}{T}=0 [/latex] [latex] \\begin{aligned} \\therefore \\qquad \\frac{40}{400}+\\frac{37}{370}-\\frac{Q_{3}}{320}&=0 \\\\ 0.1+0.1&=\\frac{Q_{3}}{320}\\\\ \\text{or}\\qquad Q_{3}&=64 \\mathrm{kJ} \\end{aligned}[/latex]",
+    "min": 63.0,
+    "max": 65.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 A refrigerator uses R-134a as its refrigerant and operates on an ideal vapour-compression refrigeration cycle between 0.14 MPa and 0.8 MPa. If the mass flow rate of the refrigerant is 0.05 kg/s, the rate of heat rejection to the environment is _________ kW. Given data: At P = 0.14 MPa, h =236.04 kJ/kg, s =0.9322 kJ/kg-K At P = 0.8 MPa, h = 272.05kJ/kg (superheated vapour) At P = 0.8 MPa, h = 93.42 kJ/kg (saturated liquid)",
+    "solution": "Given data: [latex] \\begin{aligned} m&=0.05 \\mathrm{kg} / \\mathrm{s}\\\\ \\text{At }\\quad p_{e}&=0.14 \\mathrm{MPa} \\\\ h_{1}&=236.04 \\mathrm{kJ} / \\mathrm{kg} \\\\ s_{1}&=0.9322 \\mathrm{kJ} / \\mathrm{kg} \\mathrm{K}\\\\ \\text{At }\\quad p_{c}&=0.8 \\mathrm{MPa} \\\\ h_{3}&=h_{4}=h_{f}=93.42 \\mathrm{kJ} / \\mathrm{kg} \\end{aligned}[/latex] [latex] h_{2}=272.02 \\mathrm{kJ} / \\mathrm{kg}[/latex] Rate of heat rejection to the environment, [latex] \\begin{aligned} Q_{2-3} &=m\\left[h_{2}-h_{3}\\right]=0.05 \\times[275.02-93.42] \\\\ &=8.93 \\mathrm{kW} \\end{aligned}[/latex]",
+    "min": 8.9,
+    "max": 8.95
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 The partial pressure of water vapour in a moist air sample of relative humidity 70% is 1.6 kPa, the\ntotal pressure being 101.325 kPa. Moist air may be treated as an ideal gas mixture of water vapour\nand dry air. The relation between saturation temperature ([latex]T_{s}[/latex]  in K) and saturation pressure ([latex]p_{s}[/latex]  in KPa) for water is given by [latex]ln(p_{s}/p_{o})[/latex]=14.317-5304/[latex]T_{s}[/latex] , where [latex]p_{o}[/latex] = 101.325 kPa. The dry\nbulb temperature of the moist air sample (in [latex]^{\\circ}[/latex] C) is __________",
+    "solution": "Given data: Relative humidity, [latex] \\phi=70 \\%=0.70[/latex] Partial pressure, [latex] p_{v}=1.6 \\mathrm{kPa}[/latex] Total pressure, [latex] p_{0}=101.325 \\mathrm{kPa}[/latex] We know that, [latex] \\begin{aligned} \\phi&=\\frac{p_{v}}{p_{s}}\\\\ 0.70 &=\\frac{1.6}{p_{s}} \\\\ \\text{or}\\quad p_{s} &=\\frac{1.6}{0.70}=2.2857 \\mathrm{kPa} \\end{aligned}[/latex] Temperature corresponding to saturation pressure is dry bulb temperature, [latex] \\begin{aligned} \\ln \\left\\{\\frac{p_{s}}{p_{o}}\\right\\} &=14.317-\\frac{5304}{T_{s}} \\\\ \\ln \\left\\{\\frac{2.2857}{101.325}\\right\\} &=14.317-\\frac{5304}{T_{s}} \\\\ -3.79166 &=14.317-\\frac{5304}{T_{s}} \\\\ \\frac{5304}{T_{s}} &=14.317+3.79166 \\\\ \\frac{5304}{T_{s}} &=18.10866 \\\\ \\text{or}\\quad T_{s} &= 292.89 \\mathrm{K}\\\\ &=(292.89-273)^{\\circ} \\mathrm{C} \\\\ &=19.89^{\\circ} \\mathrm{C} \\end{aligned}[/latex]",
+    "min": 19.5,
+    "max": 19.9
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 In a binary system of A and B, a liquid of 20% A (80% B) is coexisting with a solid of 70% A\n(30% B). For an overall composition having 40% A, the fraction of solid is",
+    "solution": "Weight of the liquid [latex]A=W_{LA}=l_a \\times W_l=0.2 \\times W_l[/latex] where, [latex]W_l[/latex] is Weight of total liquid Weight of solid of [latex]A=W_{SA}=S_a(W_T-W_l)=0.7(W_T-W_l)[/latex] [latex]\\begin{aligned} W_A&=0.2W_l+0.7(W_T-W_l) \\\\ W_A&=0.7W_T-0.5W_l \\\\ \\frac{W_A}{W_T}&=0.7-0.5\\frac{W_l}{W_T} \\\\ 0.4 &=0.7-0.5(\\% W_l) \\\\ 0.5(\\% W_l) &= 0.3\\\\ (\\% W_l)&=\\frac{3}{5}\\\\ (\\% W_l)&=1-\\frac{3}{5}=0.4 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.4",
+      "B": "0.5",
+      "C": "0.6",
+      "D": "0.75"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 Gray cast iron blocks of size 100 mm x 50 mm x 10 mm with a central spherical cavity of diameter 4 mm are sand cast. The shrinkage allowance for the pattern is 3%. The ratio of the volume of the pattern to volume of the casting is _________",
+    "solution": "Ratio of volume of pattern to volume of casting is given by [latex]=\\frac{(1.03\\times100)\\times(1.03\\times50)\\times(1.03\\times10)}{100\\times50\\times10}=1.093[/latex] Volume of cavity is assumed to be small and negligible as it will complicate the question to a higher level. If your answer was less than 1, read below. There are three things to be understood here :- 1. Liquid Shrinkage It refers to the reduction in volume when the metal changes from liquid state to solid state at the solidus temperature. The liquid shrinkage is rarely a problem, because the molten metal is continuously flowing in mold cavity and also riser to compensate the shrinkage of liquid in the cavity. 2. Solidification i.e Liquid to solid phase transformation (GCI expands in this process unlike other metals) So now during phase transformation gray cast iron expands (unlike other metals which contract) and there is no need of riser (used to take care of phase transformation shrinkage + liquid shrinkage). 3. Solid state Cooling (GCI contracts in this process just like other metals) It refers to the reduction in volume caused when metal loses temperature in solid state. To account for this, shrinkage allowance is provided on the patterns. The Shrinkage allowance depends primarily upon Coefficient of thermal expansion. For Grey CI in particular it is positive, it means solid grey cast iron expands on increasing temp and contracts on decreasing temperature just like any other metal. Adding all above factors Neglecting the Liquid shrinkage we see that GCI expands in during solidification and contracts when cooled in solid form. So the net result would be sum of them. According to NPTL in the table for GCI they have given the net value of shrinkage’s which is positive and hence the pattern size would be more than the casting. Note: The expansion of GCI during phase change (solidification) is a fact but at the same time we need to consider the contraction of GCI when cooling in solid state. So net result according to IISC and NPTEL is contraction so the size of pattern will be more than that of casting.",
+    "min": 1.08,
+    "max": 1.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 The voltage-length characteristic of a direct current arc in an arc welding process is v=(100+40[latex]l[/latex]) , where [latex]l[/latex]  is the length of the arc in mm and V is arc voltage in volts. During a welding operation, the arc length varies between 1 and 2 mm and the welding current is in the range 200-250 A. Assuming a linear power source, the short circuit current is_________ A.",
+    "solution": "[latex]\\begin{aligned} V &=100+40 \\mathrm{L} \\\\ \\text{When}\\quad L &=1 \\quad I=250 \\\\ V &=(100+40 \\times 1)=140 \\\\ &=V_{0}-\\frac{V_{0}}{I_{0}} \\times 250 \\\\ L &=2 \\quad I=200 \\\\ V &=(100+40 \\times 2) \\\\ 180 &=V_{0}-\\frac{V_{0}}{I_{0}} \\times 200 \\\\ V_{0} &=140+\\frac{4}{5} \\times 250=340 \\\\ I &=\\frac{V_{0} \\times 5}{4}=\\frac{340 \\times 5}{4} \\\\ &=425 \\mathrm{A} \\end{aligned}[/latex]",
+    "min": 423.0,
+    "max": 428.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 For a certain job, the cost of metal cutting is Rs. 18C/V and the cost of tooling is Rs. 270C/(TV),where C is a constant,  V is the cutting speed in m/min and T  is the tool life in minutes. The Taylor's tool life equation is [latex]VT^{0.25}[/latex] =150. The cutting speed (in m/min) for the minimum total cost is _______",
+    "solution": "Total cost = metal cutting cost + tooling cost [latex] \\begin{aligned} &=\\frac{180 C}{V}+\\frac{270 C}{V T}\\\\ \\text { Here, } T&=\\left(\\frac{150}{V}\\right)^{\\frac{1}{0.25}}=\\left(\\frac{15}{V}\\right)^{4} \\\\ C_{t} &=\\frac{18 C}{V}+\\frac{270 C}{V \\cdot\\left(\\frac{150}{V}\\right)^{4}}\\\\ \\frac{d C_{t}}{d V} &=0 \\\\ -\\frac{18 C}{V^{2}}+\\frac{270 C}{(150)^{4}} \\times 3 v^{2}&=0\\\\ \\text { or } \\quad V^{4}&=\\frac{150^{4} \\times 18}{270 \\times 3} \\\\ V&=57.91 \\mathrm{m} / \\mathrm{min} \\end{aligned}[/latex]",
+    "min": 57.8,
+    "max": 58.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 The surface irregularities of electrodes used in an electrochemical machining (ECM) process are 3 [latex]\\mu m[/latex] and 6 [latex]\\mu m[/latex] as shown in the figure. If the work-piece is of pure iron and 12V DC is applied between the electrodes, the largest feed rate is ___________mm/min. Assume the iron to be dissolved as [latex]Fe^{+2}[/latex]  and the Faraday constant to be 96500 Coulomb.",
+    "solution": "[latex]\\begin{aligned} R &=\\frac{\\rho L}{\\text { Area }}=\\frac{\\frac{1}{0.02} \\times 0.009}{\\text { Area }} \\\\ &=\\frac{50 \\times 0.009}{\\text { Area }} \\\\ I &=\\frac{V}{R}=\\frac{(12-1.5) \\times \\text { Area }}{50 \\times 0.009} \\\\ &=23.33 \\times \\text { Area } \\\\ L &=3+6=9 \\mu \\mathrm{m}=0.009 \\mathrm{m} \\\\ \\mathrm{MRR} &=\\frac{A I}{\\rho Z F}=\\frac{55 \\times 85 \\times 23.33 \\times \\text { Area }}{7860 \\times 10^{-6} \\times 2 \\times 96500} \\\\ \\frac{\\mathrm{MRR}}{\\mathrm{Area}} &=0.8590 \\mathrm{mm} / \\mathrm{s} \\\\ &=51.542 \\mathrm{mm} / \\mathrm{min} \\end{aligned}[/latex]",
+    "min": 51.0,
+    "max": 52.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 For the situation shown in the figure below the expression for H in terms of r, R and D is",
+    "solution": "[latex] \\begin{aligned} A B &=\\sqrt{(R+r)^{2}-(D-R-r)^{2}} \\\\ H &=R+A B+r \\\\ &=R+r+\\sqrt{(R+r+D-R-r)(R+r-D+R+r)} \\\\ &=R+r+\\sqrt{(R+r+D-R-r)(R+r-D+R+r)} \\\\ &=R+r+\\sqrt{D[2(R+r)-D]} \\\\ &=R+r+\\sqrt{2 D(R+r)-D^{2}} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page11_q3.webp",
+    "options": {
+      "A": "H=D+[latex]\\sqrt{r^{2}+R^{2}}[/latex]",
+      "B": "H=(R+r)+(D+r)",
+      "C": "H=(R+r)+[latex]\\sqrt{D^{2}-R^{2}}[/latex]",
+      "D": "H=(R+r)+[latex]\\sqrt{2D(R+r)-D^{2}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 A food processing company uses 25,000 kg of corn flour every year. The quantity-discount price of corn flour is provided in the table below: The order processing charges are Rs. 500/order. The handling plus carry-over charge on an annual basis is 20% of the purchase price of the corn flour per kg. The optimal order quantity (in kg) is _____________",
+    "solution": "The optimal order quantity (in kg) is 1500.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page11_q4.webp",
+    "min": 1499.0,
+    "max": 1501.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 A project consists of 14 activities, A to N. The duration of these activities (in days) are shown in brackets on the network diagram. The latest finish time (in days) for node 10 is __________",
+    "solution": "(LFT) for node 10 = 14 days.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page11_q5.webp",
+    "min": 14.0,
+    "max": 14.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 The volume of a sphere of diameter 1 unit is ________ than the volume of a cube of side 1 unit.",
+    "solution": "",
+    "options": {
+      "A": "least",
+      "B": "less",
+      "C": "lesser",
+      "D": "low"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 The unruly crowd demanded that the accused be _______ without trial.",
+    "solution": "",
+    "options": {
+      "A": "hanged",
+      "B": "hanging",
+      "C": "hankering",
+      "D": "hung"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Choose the statement (s) where the underlined word is used correctly: i.  A prone is a dried plum. Ii.  He was lying prone on the floor. iii.  People who eat a lot of fat are prone to heart disease.",
+    "solution": "",
+    "options": {
+      "A": "(i) and (iii) only",
+      "B": "(iii) only",
+      "C": "(i) and (ii) only",
+      "D": "(ii) and (iii) only"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 Fact: If it rains, then the field is wet. Read the following statements: i.  It rains ii.  The field is not wet iii.  The field is wet iv.  It did not rain Which one of the options given below is NOT logically possible, based on the given fact?",
+    "solution": "",
+    "options": {
+      "A": "If (iii), then (iv).",
+      "B": "If (i), then (iii).",
+      "C": "If (i), then (ii).",
+      "D": "If (ii), then (iv)."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 A window is made up of a square portion and an equilateral triangle portion above it. The base of the triangular portion coincides with the upper side of the square. If the perimeter of the window is 6 [latex]m[/latex], the area of the window in [latex]m^2[/latex] is ___",
+    "solution": "",
+    "options": {
+      "A": "1.43",
+      "B": "2.06",
+      "C": "2.68",
+      "D": "2.88"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 Students taking an exam are divided into two groups, P and Q such that each group has the same number of students. The performance of each of the students in a test was evaluated out of 200 marks. It was observed that the mean of group P was 105, while that of group Q was 85. The standard deviation of group P was 25, while that of group Q was 5. Assuming that the marks were distributed on a normal distribution, which of the following statements will have the highest probability of being TRUE?",
+    "solution": "",
+    "options": {
+      "A": "No student in group Q scored less marks than any student in group P.",
+      "B": "No student in group P scored less marks than any student in group Q.",
+      "C": "Most students of group Q scored marks in a narrower range than students in group P.",
+      "D": "The median of the marks of group P is 100100."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 A smart city integrates all modes of transport, uses clean energy and promotes sustainable use of resources. It also uses technology to ensure safety and security of the city, something which critics argue, will lead to a surveillance state. Which of the following can be logically inferred from the above paragraph? i.  All smart cities encourage the formation of surveillance states. ii.  Surveillance is an integral part of a smart city. iii.  Sustainability and surveillance go hand in hand in a smart city. iv.  There is a perception that smart cities promote surveillance.",
+    "solution": "",
+    "options": {
+      "A": "(i) and (iv) only",
+      "B": "(ii) and (iii) only",
+      "C": "(iv) only",
+      "D": "(i) only"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 Find the missing sequence in the letter series. B, FH, LNP, _ _ _ _.",
+    "solution": "",
+    "options": {
+      "A": "SUWY",
+      "B": "TUVW",
+      "C": "TVXZ",
+      "D": "TWXZ"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 The binary operation [latex]\\square [/latex] is defined as [latex]a \\square b = ab+(a+b)[/latex], where [latex]a \\text{ and } b[/latex] are any two real numbers. The value of the identity element of this operation, defined as the number[latex]x[/latex] such that [latex]a \\square x = a[/latex], for any [latex]a[/latex], is",
+    "solution": "",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "10"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 Which of the following curves represents the function [latex]ln(|e^{[|\\sin(|x|)]}|)[/latex] for [latex]|x| \\lt 2 \\pi[/latex] ? Here, [latex]x[/latex] represents the abscissa and [latex]y[/latex] represents the ordinate.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2016_Set2/page13_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  }
+]

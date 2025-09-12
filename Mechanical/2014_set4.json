@@ -1,0 +1,658 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Which one of the following equations is a correct identity for arbitrary 3x3 real matrices P, Q and R?",
+    "solution": "[latex]\\begin{aligned} (P+Q)^{2} &=P^{2}+P Q+Q P+Q^{2} \\\\ &=P \\cdot P+P \\cdot Q+Q \\cdot P+Q \\cdot Q \\\\ &=P^{2}+P Q+Q P+Q^{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]P(Q+R)=PQ+RP[/latex]",
+      "B": "[latex](P-Q)^{2}=P^{2}-2PQ+Q^{2}[/latex]",
+      "C": "[latex]det(P+Q)=det \\; P+det \\; Q[/latex]",
+      "D": "[latex](P+Q)^{2}=P^{2}+PQ+QP+Q^{2}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 The value of the integral [latex]\\int_{0}^{2}\\frac{(x-1)^{2}\\sin(x-1)}{(x-1)^{2}+\\cos(x-1)}dx[/latex] is",
+    "solution": "[latex]\\begin{aligned} I &= \\int_{0}^{2}\\frac{(x-1)^2 \\sin (x-1)}{(x-1)^2 + \\cos (x-1)}dx\\\\ \\text{Taking}\\; x-1=z&\\Rightarrow dx=dz \\\\ \\text{for}\\; x=0,&z\\rightarrow -1\\; \\text{and}\\; x=2, z \\rightarrow 1 \\\\ \\therefore \\; I &=\\int_{-1}^{1} \\frac{z^2 \\sin z}{z^2+\\cos z}dz\\\\ \\text{let}\\;\\; f(z)&=\\frac{z^2 \\sin z}{z^2+ \\cos z} dz\\\\ f(-z) &= \\frac{z^2 \\sin z}{z^2+ \\cos z}\\\\ f(z)&= -f(z) \\; \\text{function is ODD}\\\\ \\therefore \\;\\; I&=0 \\end{aligned}[/latex]",
+    "options": {
+      "A": "3",
+      "B": "0",
+      "C": "-1",
+      "D": "-2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 The solution of the initial value problem [latex]\\frac{\\mathrm{d} y}{\\mathrm{d} x}= -2xy; [/latex] y(0)=2 is",
+    "solution": "[latex]\\frac{d y}{d x}=2 x y=0 \\qquad ...(1)[/latex] [latex] I F.=e^{\\int 2 x d x}=e^{x^{2}} [/latex] Multiplying I.F. to both side of equation (1) [latex] e^{x^{2}}\\left[\\frac{d y}{d x}+2 x y\\right]=0 [/latex] [latex] \\Rightarrow \\frac{d}{d x}\\left(e^{x^{2}} y\\right)=0 [/latex] [latex] e^{x^{2}} y=c [/latex] from the given boundary condition, C=2 [latex] \\therefore e^{x^{2}} y=2 [/latex] [latex] y=2 e^{-x^{2}}[/latex]",
+    "options": {
+      "A": "[latex]1+e^{-x^{2}}[/latex]",
+      "B": "[latex]2e^{-x^{2}}[/latex]",
+      "C": "[latex]1+e^{x^{2}}[/latex]",
+      "D": "[latex]2e^{x^{2}}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 4 A nationalized bank has found that the daily balance available in its savings accounts follows a normal distribution with a mean of Rs. 500 and a standard deviation of Rs. 50. The percentage of savings account holders, who maintain an average daily balance more than Rs. 500 is _______",
+    "solution": "49 to 51 [latex] Z=\\frac{x-\\mu}{\\sigma} [/latex] [latex] \\text { Given, } x=500, \\mu=500, \\sigma=50 [/latex] [latex] \\therefore \\quad z=\\frac{500-500}{50}=0 [/latex] [latex] \\therefore P(0)=50 \\%[/latex]",
+    "min": 49.0,
+    "max": 51.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Laplace transform of [latex]cos(\\omega t)[/latex] is [latex]\\frac{s}{s^{2}+\\omega ^{2}}[/latex]. The Laplace transform of [latex]e^{-2t}cos(4t)[/latex]   is",
+    "solution": "Given [latex] L \\cos (\\omega t)=\\frac{s}{s^{2}+\\omega^{2}} [/latex] [latex] \\Rightarrow L\\left(e^{-2 t} \\cos 4 t\\right)=? [/latex] By the given formula [latex] \\Rightarrow \\quad L(\\cos 4 t)=\\frac{s}{s^{2}+16} [/latex] [latex] \\Rightarrow L\\left(e^{2 t} \\cos 4 t\\right)=\\frac{s+2}{(s+2)^{2}+16}[/latex] ( [latex]\\because[/latex] By using first shifting property of Laplace) Hence option should be (D).",
+    "options": {
+      "A": "[latex]\\frac{s-2}{(s-2)^{2}+16}[/latex]",
+      "B": "[latex]\\frac{s+2}{(s-2)^{2}+16}[/latex]",
+      "C": "[latex]\\frac{s-2}{(s+2)^{2}+16}[/latex]",
+      "D": "[latex]\\frac{s+2}{(s+2)^{2}+16}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 In a statically determinate plane truss, the number of joints (j) and the number of members (m) are related by",
+    "solution": "A simple truss is formed by enlarging the basic truss element which contains three members and three joints, by adding two additional members for each additional joint, so the total number of members m in a simple truss is given by [latex] m=3+2(j-3)=2 j-3[/latex] where m= number of members j= total number of joints (including those attached to the supports)",
+    "options": {
+      "A": "[latex]j=2m-3[/latex]",
+      "B": "[latex]m=2j+1[/latex]",
+      "C": "[latex]m=2j-3[/latex]",
+      "D": "[latex]m=2j-1[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 If the Poisson's ratio of an elastic material is 0.4, the ratio of modulus of rigidity to Young's modulus is  _______",
+    "solution": "[latex](0.35 \\text { to } 0.36) [/latex] [latex] E=2 G(1+v) [/latex] [latex] \\frac{G}{E}=\\frac{1}{2(1+v)}=\\frac{1}{2 \\times 1.4}=\\frac{1}{2.8}=0.357[/latex]",
+    "min": 0.35,
+    "max": 0.36
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 Which one of the following is used to convert a rotational motion into a translational motion?",
+    "solution": "Bevel gears: Rotational motion transfer between \r\naxes at right angle. Worm gears: For large reduction ratio in a single \r\nstage. Double helical gears: Rotational motion transfer \r\nbetween parallel axes. Rack and Pinion gears: Rotational to linear motion \r\nconversion.",
+    "options": {
+      "A": "Bevel gears",
+      "B": "Double helical gears",
+      "C": "Worm gears",
+      "D": "Rack and pinion gears"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 The number of independent elastic constants required to define the stress-strain relationship for an isotropic elastic solid is  _______",
+    "solution": "(1.9 to 2.1) Either E or  G, 2  independent constant Either G or K, 2  independent constant Either E or K, 2  independent constant",
+    "min": 1.9,
+    "max": 2.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 A point mass is executing simple harmonic motion with an amplitude of 10 mm and frequency of   4 Hz. The maximum acceleration (m/[latex]s^2[/latex]) of the mass is _______",
+    "solution": "[latex]\\begin{aligned} f_{n} &=\\frac{\\omega_{n}}{2 \\times \\pi} \\\\ \\Rightarrow \\omega_{n} &=2 \\pi f=2 \\times 3.14 \\times 4=25.12 \\mathrm{rad} / \\mathrm{s} \\\\ a_{\\max } &=\\omega_{n}^{2} x=(25.12)^{2} \\times 10 \\times 10^{-3} \\\\ &=6.31 \\mathrm{m} / \\mathrm{s}^{2} \\end{aligned}[/latex]",
+    "min": 6.3,
+    "max": 6.4
+  },
+  {
+    "type": "numerical",
+    "question": "Question 11 Ball bearings are rated by a manufacturer for a life of [latex]10^{6}[/latex] revolutions. The catalogue rating of a particular bearing is 16 kN. If the design load is 2 kN, the life of the bearing will be [latex]p\\times 10^{6}[/latex]  revolutions, where p is equal to _______",
+    "solution": "[latex]L_{10}=\\left(\\frac{C}{W}\\right)^{3}[/latex] where [latex] L_{10}=[/latex] Basic life rating in millions of revolutions C= Basic dynamic load rating P= Equivalent dynamic radial load factor [latex] \\therefore \\;L_{10}=\\left(\\frac{16}{2}\\right)^{3}=512[/latex]",
+    "min": 500.0,
+    "max": 540.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 As the temperature increases, the thermal conductivity of a gas",
+    "solution": "Thermal conductivity of a gas increases with the increase in temperature and decreasing molecular weight. Thermal conductivity of metal decreases with increase in temperature.",
+    "options": {
+      "A": "increases",
+      "B": "decreases",
+      "C": "remains constant",
+      "D": "increases up to a certain temperature and then decreases"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 A reversed Carnot cycle refrigerator maintains a temperature of -5[latex]^{\\circ}[/latex]C. The ambient air temperature is 35[latex]^{\\circ}[/latex]C. The heat gained by the refrigerator at a continuous rate is 2.5 kJ/s. The power (in watt) required to pump this heat out continuously is _______",
+    "solution": "Given data: [latex] \\begin{array}{l} T_{2}=-5^{\\circ} \\mathrm{C}=(-5+273) \\mathrm{K}=268 \\mathrm{K} \\\\ T_{1}=35^{\\circ} \\mathrm{C}=(35+273) \\mathrm{K}=308 \\mathrm{K} \\end{array}[/latex] [latex] \\begin{aligned} Q_{2}=2.5 \\mathrm{kJ} / \\mathrm{s}&=2.5 \\mathrm{kW}=2500 \\mathrm{W} \\\\ (\\mathrm{COP})_{R} &=\\frac{T_{2}}{T_{1}-T_{2}} \\\\ &=\\frac{268}{308-268}=6.7 \\\\ \\text { also } \\quad(\\mathrm{COP})_{R} &=\\frac{Q_{2}}{W}\\\\ \\therefore \\quad 6.7&=\\frac{2500}{W}\\\\ \\text{or }\\quad W&=\\frac{2500}{6.7}=373.13 \\text { watt } \\end{aligned}[/latex]",
+    "min": 370.0,
+    "max": 375.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 A flow field which has only convective acceleration is",
+    "solution": "Total acceleration, [latex] \\frac{D V}{D t}=\\frac{\\partial V}{\\partial t}+V \\cdot \\nabla V [/latex] [latex] V \\cdot \\nabla V \\rightarrow [/latex] Convective acceleration [latex] \\frac{\\partial V}{\\partial t} \\rightarrow [/latex] Local acceleration In steady non-uniform flow, conditions change from point to point in the stream but do not change with time.",
+    "options": {
+      "A": "a steady uniform flow",
+      "B": "an unsteady uniform flow",
+      "C": "a steady non-uniform flow",
+      "D": "an unsteady non-uniform flow"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 Match Group A with Group B:",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set4/page3_q5.webp",
+    "options": {
+      "A": "P-4, Q-1, R-3, S-2",
+      "B": "P-4, Q-3, R-1, S-2",
+      "C": "P-3, Q-2, R-1, S-4",
+      "D": "P-2, Q-1, R-3, S-4"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Kaplan water turbine is commonly used when the flow through its runner is",
+    "solution": "Kaplan water turbine is commonly used when the \r\nflow through its runner is axial and the head\r\n available is less than 10m. Kaplan/Propeller turbine: Axial flow turbine Low head: [latex]3 \\lt H \\lt 80  m [/latex] Francis turbine: Mixed flow turbine Medium head: [latex] 80 \\lt H \\lt 600 \\mathrm{m} [/latex] Pelton turbine: tangential flow turbine High head: [latex] 600 \\lt H \\leq 2000 \\mathrm{m} [/latex]",
+    "options": {
+      "A": "axial and the head available is more than 100 m",
+      "B": "axial and the head available is less than 10 m",
+      "C": "radial and the head available is more than 100 m",
+      "D": "mixed and the head available is about 50 m"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Moist air at 35[latex]^{\\circ}[/latex]C and 100% relative humidity is entering a psychrometric device and leaving at   25[latex]^{\\circ}[/latex]C and 100% relative humidity. The name of the device is",
+    "solution": "[latex]\\omega_{2} \\lt \\omega_{1} \\quad \\because \\text { Dehumidifier }[/latex]",
+    "options": {
+      "A": "Humidifier",
+      "B": "Dehumidifier",
+      "C": "Sensible heater",
+      "D": "Sensible cooler"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 The total number of decision variables in the objective function of an assignment problem of size   n x n (n jobs and n machines) is",
+    "solution": "A decision variable is an unknown in an optimization problem. It has a domain, which is a compact representation of the set of all possible values for the variable. So for assignment problem of size [latex]n \\times n[/latex] total no. of decision variable are total possibilities to assign value in assignment matrix. Total no. of decision variables [latex]=n \\times n=n^2[/latex]",
+    "options": {
+      "A": "[latex]n^{2}[/latex]",
+      "B": "2n",
+      "C": "2n-1",
+      "D": "n"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 Demand during lead time with associated probabilities is shown below: Expected demand during lead time is _______",
+    "solution": "[latex]\\begin{array}{l} (74 \\text { to } 75) \\\\ \\text { Expected Demand }=50 \\times 0.15+70 \\times 0.14+75\\times \\\\ 0.21+80 \\times 0.20+85 \\times 0.3=74.55 \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set4/page4_q4.webp",
+    "min": 74.0,
+    "max": 75.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 Within the Heat Affected Zone (HAZ) in a fusion welding process, the work material undergoes",
+    "solution": "The heat affected zone (HAZ) is the area of base metal which is not melted & has had its micro structural & properties altered in Fusion welding. The extend & magnitude of property change depends primarily on the base material, the well filler metal, amount & concentration heat input by Fusion weld process.",
+    "options": {
+      "A": "microstructural changes but does not melt",
+      "B": "neither melting nor microstructural changes",
+      "C": "both melting and microstructural changes after solidification",
+      "D": "melting and retains the original microstructure after solidification"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 Two separate slab milling operations, 1 and 2, are performed with identical milling cutters. The depth of cut in operation 2 is twice that in operation 1. The other cutting parameters are identical. The ratio of maximum uncut chip thicknesses in operations 1 and 2 is _______",
+    "solution": "[latex](0.70 \\text { to } 0.72) [/latex] [latex] t_{\\max }=\\frac{2 f}{N Z} \\sqrt{\\frac{d}{D}}[/latex] Formula for maximum uncut thickness [latex] \\therefore \\quad \\frac{t_{1}}{t_{2}}=\\sqrt{\\frac{d_{1}}{d_{2}}}=\\sqrt{\\frac{1}{2}}=\\frac{1}{\\sqrt{2}}=0.707[/latex] [latex] (\\therefore D_{1}=D_{2})[/latex]",
+    "min": 0.7,
+    "max": 0.72
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 The principle of material removal in Electrochemical machining is",
+    "solution": "In an ECM material removal rate is governed by Faraday’s law of electrolysis. The amount of chemical change produced by an electric current (or the amount of substance deposited or dissolved) is proportional to the quantity of electric charges passed through electrolyte.",
+    "options": {
+      "A": "Fick's law",
+      "B": "Faraday's laws",
+      "C": "Kirchhoff''s laws",
+      "D": "Ohm's law"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 Better surface finish is obtained with a large rake angle because",
+    "solution": "Large positive side rake angle result in less chip formation, less cutting force, good surface finish because increase in rake angle results in decrease the area of shear plane that result decrease in shear force.",
+    "options": {
+      "A": "the area of shear plane decreases resulting in the decrease in shear force and cutting force",
+      "B": "the tool becomes thinner and the cutting force is reduced",
+      "C": "less heat is accumulated in the cutting zone",
+      "D": "the friction between the chip and the tool is less"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 Match the heat treatment processes (Group A) and their associated effects on properties (Group B) of medium carbon steel",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set4/page5_q4.webp",
+    "options": {
+      "A": "P-III, Q-IV, R-II, S-I",
+      "B": "P-II, Q-III, R-IV, S-I",
+      "C": "P-III, Q-II, R-IV, S-I",
+      "D": "P-II, Q-III, R-I, S-IV"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 In a rolling process, the maximum possible draft, defined as the difference between the initial and the final thickness of the metal sheet, mainly depends on which pair of the following parameters? P:   Strain Q:  Strength of the work material R:  Roll diameter S:  Roll velocity T:  Coefficient of friction between roll and work",
+    "solution": "[latex]\\left(t_{i}-t_{f}\\right)_{\\max }=\\mu^{2} R[/latex] where [latex]\\mu [/latex] is coefficient of friction R is roll radius.",
+    "options": {
+      "A": "Q, S",
+      "B": "R, T",
+      "C": "S, T",
+      "D": "P, R"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 If z is a Complex Variables, the value of[latex]\\int_{5}^{3i}\\frac{\\mathrm{d} z}{\\mathrm{z} }[/latex]  is",
+    "solution": "If z is a complex number, the value of [latex] \\int_{5}^{31} \\frac{1}{2} d z [/latex] [latex] \\begin{aligned} &=\\left.\\log z\\right|_{5} ^{3 i} \\\\ \\log z &=\\frac{1}{2} \\ln \\left(x^{2}+y^{2}\\right)+i \\tan ^{-1}\\left(\\frac{y}{x}\\right) \\\\ &=\\log 3 i-\\log 5 \\\\ &=\\log (0+3 i)-\\log (5+0 i) \\\\ &=\\left[\\frac{1}{2} \\ln (0+9)+i \\tan ^{-1}\\left(\\frac{3}{0}\\right)\\right] \\\\ &-\\left[\\frac{1}{2} \\ln (25+0)+i \\tan ^{-1}\\left(\\frac{0}{5}\\right)\\right] \\end{aligned}[/latex] [latex] \\begin{aligned} &=\\frac{1}{2} \\ln 9+i \\tan ^{-1} \\infty-\\frac{1}{2} \\ln 25-0 \\\\ &=\\ln (9)^{1 / 2}+i \\tan ^{-1} \\infty-\\ln (25)^{1 / 2} \\\\ &=\\ln 3+i \\frac{\\pi}{2}-\\ln 5 \\\\ &=\\ln \\left(\\frac{3}{5}\\right)+i \\frac{\\pi}{2} \\\\ &=-0.5108+i 1.57 \\\\ &=-0.511+1.57 i \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]-0.511-1.57i[/latex]",
+      "B": "[latex]-0.511+1.57i[/latex]",
+      "C": "[latex]0.511-1.57i[/latex]",
+      "D": "[latex]0.511+1.57i[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 The value of the integral [latex]\\int_{0}^{2}\\int_{0}^{x}e^{x+y}dydx[/latex] is",
+    "solution": "[latex]I=\\int_{0}^{2}\\left[\\int_{0}^{x} e^{x+y} d y\\right] d x [/latex] [latex] \\int_{0}^{x} e^{x+y} d y=\\left.e^{x+y} d y\\right|_{0} ^{x}=e^{2 x}-e^{x} [/latex] [latex] \\quad I=\\int_{0}^{2}\\left(e^{2 x}-e^{x}\\right) d x [/latex] [latex] \\quad I=\\left.\\frac{1}{2} e^{2 x}\\right|_{0} ^{2}-\\left.e^{x}\\right|_{0} ^{2}=\\frac{1}{2}\\left(e^{4}-1\\right)-\\left(e^{2}-1\\right) [/latex] [latex] \\quad I=\\frac{1}{2} e^{4}-\\frac{1}{2}-e^{2}+1 [/latex] [latex] =\\frac{1}{2} e^{4}-e^{2}+\\frac{1}{2}=\\frac{1}{2}\\left(e^{4}-2 e^{2}+1\\right)=\\frac{1}{2}\\left(e^{2}-1\\right)^{2}[/latex]",
+    "options": {
+      "A": "[latex](1/2)(e-1)[/latex]",
+      "B": "[latex](1/2)(e^{2}-1)^{2}[/latex]",
+      "C": "[latex](1/2)(e^{2}-e)[/latex]",
+      "D": "[latex](1/2)(e-(1/e))^{2}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 The number of accidents occurring in a plant in a month follows Poisson distribution with mean as 5.2. The probability of occurrence of less than 2 accidents in the plant during a randomly selected month is",
+    "solution": "[latex]\\begin{aligned} P(x) &=\\frac{\\mu^{x} \\mathrm{e}^{-\\mu}}{x !} \\\\ P(x \\lt 2) &=P(0)+P(1) \\\\ &=\\frac{\\mu^{0} e^{-\\mu}}{0 !}+\\frac{\\mu^{1} e^{-\\mu}}{1 !} \\\\ &=\\frac{1}{e^{\\mu}}+\\frac{\\mu}{e^{\\mu}}=\\frac{1+\\mu}{e^{\\mu}} \\\\ \\operatorname{As} \\mu(\\operatorname{mean})=5 & \\cdot 2 \\\\ \\therefore \\quad P(x \\lt 2) &=\\frac{6.2}{e^{5.2}}=0.0342 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.029",
+      "B": "0.034",
+      "C": "0.039",
+      "D": "0.044"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Consider an ordinary differential equation [latex]\\frac{\\mathrm{d} x}{\\mathrm{d} t}=4t+4[/latex]. If [latex]x=x_{0}[/latex] at [latex]t=0[/latex]  the increment in x calculated using Runge-Kutta fourth order multi-step method with a step size of [latex]\\Delta t=0.2[/latex] is",
+    "solution": "[latex] \\begin{aligned} \\frac{d x}{d t} &=4 t+4 \\\\ &=f\\left(t_{0}, x_{0}\\right) \\\\ \\text { At } t=0, & x=x_{0} \\end{aligned} [/latex] Irrespective of values of [latex] x, f\\left(t_{0}, x_{0}\\right)[/latex] depends on t only. [latex] \\begin{aligned} k_{1} &=h f\\left(t_{0}, x_{0}\\right)=0.2 x \\times 4=0.8 \\\\ \\mathrm{k}_{2} &=h f\\left(t_{0}+\\frac{1}{2} h, x_{0}+\\frac{k_{1}}{2}\\right) \\\\ &=h f\\left(0.1, x_{0}+0.4\\right) \\\\ &=0.2(4 \\times 0.1+4)=0.88 \\\\ k_{3} &=h f\\left(t_{0}+\\frac{1}{2} h, x_{0}+\\frac{k_{2}}{2}\\right) \\\\ &=0.2 f\\left(0.1, x_{0}+0.44\\right) \\\\ &=0.2(4 \\times 0.1+4)=0.88 \\\\ k_{4} &=h f\\left(t_{0}+h, x_{0}+k_{3}\\right) \\\\ &=0.2 f\\left(0.2, x_{0}+0.88\\right) \\\\ &=0.2(4 \\times 0.2+4)=0.96 \\\\ k &=\\frac{1}{6}\\left(k_{1}+2 k_{2}+2 k_{3}+k_{4}\\right) \\\\ &=\\frac{1}{6}(0.8+2 \\times 0.88+2 \\times 0.88+0.96) \\\\ &=0.88 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.22",
+      "B": "0.44",
+      "C": "0.66",
+      "D": "0.88"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 30 A shaft is subjected to pure torsional moment. The maximum shear stress developed in the shaft is 100 MPa. The yield and ultimate strengths of the shaft material in tension are 300 MPa and  450 MPa, respectively. The factor of safety using maximum distortion energy (von-Mises) theory  is  _______",
+    "solution": "[latex]\\begin{aligned} \\sigma_{1}&=100 \\mathrm{MPa} \\\\ \\sigma_{2}&=-100 \\mathrm{MPa} \\end{aligned}[/latex] As per Von-Mises yield theory: [latex] N^{2}\\left[\\left(\\sigma_{1}-\\sigma_{2}\\right)^{2}+\\left(\\sigma_{2}-\\sigma_{3}\\right)^{2}+\\left(\\sigma_{1}-\\sigma_{3}\\right)^{2}\\right] \\leq 2 \\sigma_{y}^{2} [/latex] [latex] \\text{In this case,  } \\sigma_{3}=0 [/latex] [latex] 2 N^{2}\\left[\\sigma_{1}^{2}+\\sigma_{2}^{2}-\\sigma_{1} \\sigma_{2}\\right] \\leq 2 \\sigma_{y}^{2} [/latex] [latex] \\Rightarrow N^{2}\\left[(100)^{2}+(100)^{2}+(100)^{2}\\right] \\leq(300)^{2} [/latex] [latex] \\Rightarrow N^{2}=\\frac{9}{3} \\Rightarrow N \\leq \\sqrt{3} [/latex] [latex] \\therefore \\quad N=1.732[/latex]",
+    "min": 1.7,
+    "max": 1.8
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 A thin gas cylinder with an internal radius of 100 mm is subject to an internal pressure of 10 MPa. The maximum permissible working stress is restricted to 100 MPa. The minimum cylinder wall thickness (in mm) for safe design must be  _______",
+    "solution": "[latex]\\begin{aligned} \\sigma_{\\text {wothing }} &=\\frac{p d}{2 t} \\quad(d=2 r=200 \\mathrm{mm}) \\\\ t &=\\frac{p d}{2 \\sigma_{w}}=\\frac{10 \\times 200}{2 \\times 100}=10 \\mathrm{mm} \\end{aligned}[/latex]",
+    "min": 9.8,
+    "max": 10.6
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 For the truss shown in the figure, the forces F1 and F2 are 9 kN and 3 kN, respectively. The force  (in kN) in the member QS is",
+    "solution": "[latex] \\begin{aligned} \\Sigma F_{x}&=0\\\\ R_{x} &=0 \\\\ \\Sigma F_{y} &=0 \\\\ \\Rightarrow \\quad R_{y}+T_{y}&=9-3=6 \\\\ \\text{Taking } \\Sigma M_{\\mathrm{A}}&=0 \\\\ \\Rightarrow-9 \\times 6&+3 \\times 3+T_{y} \\times 1.5=0 \\\\ T_{y}&=30 \\mathrm{kN} \\\\ R_{y}&=6-30=-24 \\mathrm{kN} \\\\ \\text{Now } \\quad \\Sigma M_{S}&=0 \\quad \\text{(from figure (ii))}\\\\ \\end{aligned} [/latex] [latex] \\begin{aligned} \\Rightarrow \\quad 9 \\times 1.5 &=T_{P Q} \\times 2 \\\\ T_{P O} &=6.75 \\mathrm{kN}\\\\ \\text{from force equilibrium}\\\\ T_{P Q}+T_{S T} &=0 \\\\ T_{S T} &=-6.75 \\mathrm{kN}\\\\ \\end{aligned}[/latex] From figure (iii) [latex] \\begin{aligned} P M \\perp O S \\\\ \\tan \\theta&=\\frac{2}{1.5} \\\\ \\sin \\theta&=\\frac{2}{\\sqrt{4+2.25}}=\\frac{2}{2.5} \\\\ \\cos \\left(90^{\\circ}-\\theta\\right)&=\\frac{P M}{P Q} \\\\ \\Rightarrow \\quad P M=3 \\sin \\theta&=2.4 \\mathrm{m} \\\\ \\text{from figure (ii)} , \\Sigma M_{P}&=0 \\\\ T_{S Q} \\times P M+T_{S T} \\times 2&=0 \\\\ T_{S Q}&=-\\frac{T_{S T} \\times 2}{P M}=\\frac{6.75 \\times 2}{2.4} \\\\ &=5.625 \\mathrm{kN} (Tensile) \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set4/page7_q2.webp",
+    "options": {
+      "A": "11.25 tension",
+      "B": "11.25 compression",
+      "C": "13.5 tension",
+      "D": "13.5 compression"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 It is desired to avoid interference in a pair of spur gears having a 20[latex]^{\\circ}[/latex] pressure angle. With increase in pinion to gear speed ratio, the minimum number of teeth on the pinion",
+    "solution": "For [latex]20^{\\circ}[/latex] stub pressure angle spur gears pair minimum number of teeth on the pinion can be expressed as [latex]t_{min}=\\frac{2A_p}{\\sqrt{1+G(G+2)\\sin ^2 \\phi -1}}[/latex] Where, [latex]A_p:[/latex] Fractional addendum for one module in order to avoid interference. [latex]G:[/latex] Gear ration [latex]\\phi :[/latex] Pressure angle Now we have given that speed ratio is increased & we know that; [latex]\\text{Speed ratio}=\\frac{1}{\\text{gear ratio}}[/latex] So if gear ratio is increased we can say that minimum number of teeth on pinion must be increase to avoid interference.",
+    "options": {
+      "A": "increases",
+      "B": "decreases",
+      "C": "first increases and then decreases",
+      "D": "remains unchanged"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 A uniform slender rod (8 m length and 3 kg mass) rotates in a vertical plane about a horizontal axis 1 m from its end as shown in the figure. The magnitude of the angular acceleration (in rad/[latex]s^{2}[/latex]) of the rod at the position shown is  _______",
+    "solution": "[latex] \\begin{aligned} A P &=1 \\mathrm{m} \\\\ A C &=4 \\mathrm{m} \\\\ P C &=3 \\mathrm{m} \\\\ I_{C} &=\\frac{m L^{2}}{12}=\\frac{3 \\times 8 \\times 8}{12} \\\\ &=16 \\mathrm{kg}-\\mathrm{m}^{2} \\\\ I_{P} &=I_{C}+m(P C)^{2} \\\\ &=16+3 \\times 3^{2}=43 \\mathrm{kg}-\\mathrm{m}^{2} \\\\ \\text { Torque } &=m_{2} g \\times \\frac{P B}{2}-m_{1} g \\frac{A P}{2} \\\\ T &=m_{2} \\times 9.81 \\times \\frac{7}{2}-m_{1} \\times 9.81 \\times \\frac{1}{2}\\\\ &=34.335 \\mathrm{m}_{2}-4.905 \\mathrm{m}_{1} \\\\ m_{1} &=\\frac{3}{8} \\mathrm{kg}, \\mathrm{m}_{2}=\\frac{3 \\times 7}{8}=2.625 \\\\ T &=34.335 \\times 2.625-4.905 \\times 0.375 \\\\ &=88.29 \\mathrm{N} \\mathrm{m} \\\\ T &=I_{P} \\alpha \\\\ \\alpha &=\\frac{T}{I_{p}}=\\frac{88.29}{43}=2.053 \\mathrm{rad} / \\mathrm{s}^{2} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set4/page7_q4.webp",
+    "min": 1.9,
+    "max": 2.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 A bolt of major diameter 12 mm is required to clamp two steel plates. Cross sectional area of the threaded portion of the bolt is 84.3 [latex]mm^{2}[/latex]. The length of the threaded portion in grip is 30 mm, while the length of the unthreaded portion in grip is 8 mm. Young's modulus of material is 200 GPa. The effective stiffness (in MN/m) of the bolt in the clamped zone is _______",
+    "solution": "[latex]k_{t}=\\frac{A_{4} E}{4} [/latex] (Stiffness in threaded portion) [latex] \\begin{aligned} k_{t} &=\\frac{84.3 \\times 200 \\times 10^{3}}{30 \\times 10^{-3}}=562 \\times 10^{6} \\mathrm{N} / \\mathrm{m} \\\\ &=562 \\mathrm{MN} / \\mathrm{m} \\end{aligned} [/latex] [latex] k_{d}=\\frac{A_{d} E}{L_{d}} [/latex] (Stiffness in unthreaded region) [latex] A_{d}[/latex]( major diameter c/s area ) [latex] =\\frac{\\pi}{4} \\mathrm{d}^{2}=0.785 \\times 144 [/latex] [latex] =113.04 \\mathrm{mm}^{2} [/latex] [latex] L_{d} [/latex] (length of unthreaded portion) = 8mm [latex] \\begin{aligned} \\therefore \\quad & k_{d}=\\frac{113.04 \\times 200 \\times 10^{3}}{8 \\times 10^{-3}} \\\\ &=2826 \\times 10^{6} \\mathrm{N} / \\mathrm{m}=2826 \\mathrm{MN} / \\mathrm{m} \\\\ \\frac{1}{k} &=\\frac{1}{k_{t}}+\\frac{1}{k_{d}} \\Rightarrow k=\\frac{k_{d} k_{t}}{k_{d}+k_{t}}=\\frac{2826 \\times 562}{2826+562} \\\\ &=468.77 \\mathrm{MN} / \\mathrm{m} \\end{aligned}[/latex]",
+    "min": 460.0,
+    "max": 470.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 A frame is subjected to a load P as shown in the figure. The frame has a constant flexural rigidity EI. The effect of axial load is neglected. The deflection at point A due to the applied load P is",
+    "solution": "Bending moment in section AB [latex] \\begin{aligned} M &=-P x \\\\ \\frac{\\partial M}{\\partial P} &=-x \\end{aligned}[/latex] Bending moment in section BC: [latex] \\begin{aligned} M&=-P L\\\\ \\frac{\\partial M}{\\partial P}&=-L \\\\ \\delta_{A}&=\\frac{1}{E I}\\left[\\int_{0}^{L}(-P x)(-x) d x+\\int_{0}^{L}(-P L)(-L) d x\\right] \\\\ \\delta_{A}&=\\frac{P}{E I}\\left[\\int_{0}^{L} x^{2} d x+L^{2} \\int_{0}^{L} d x\\right] \\\\ &=\\frac{P}{E I}\\left(\\frac{L^{3}}{3}+L^{3}\\right)=\\frac{4 P L^{3}}{3 E I} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set4/page8_q1.webp",
+    "options": {
+      "A": "[latex]\\frac{1}{3}\\frac{PL^{3}}{EI}[/latex]",
+      "B": "[latex]\\frac{2}{3}\\frac{PL^{3}}{EI}[/latex]",
+      "C": "[latex]\\frac{PL^{3}}{EI}[/latex]",
+      "D": "[latex]\\frac{4}{3}\\frac{PL^{3}}{EI}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 A wardrobe (mass 100 kg, height 4 m, width 2 m, depth 1 m), symmetric about the Y-Y axis, stands on a rough level floor as shown in the figure.  A force P is applied at mid-height on the wardrobe so as to tip it about point Q without slipping. What are the minimum values of the force (in newton) and the static coefficient of friction [latex]\\mu[/latex] between the floor and the wardrobe, respectively?",
+    "solution": "We can solve this question by moment or by force triangle as this is condition of equilibrium (just to topple) [latex] \\begin{aligned} \\sum M_{Q} &=0 \\\\ P \\times 2-m g \\times 1 &=0 \\\\ P &=\\frac{m g}{2}=\\frac{981}{2} \\\\ &=490.5 \\mathrm{N} \\end{aligned}[/latex] as P is horizontal force and it will be over come by friction force [latex] P=\\left(f_{s}\\right)_{\\max } [/latex][ as this is at verge of motion ] [latex] \\begin{aligned} 490.5 &=\\mu_{s} m g \\\\ \\mu_{s} &=0.5 \\end{aligned}[/latex] OR [latex]\\begin{aligned} \\tan \\theta &=\\frac{2}{1} \\\\ \\theta &=63.4349^{\\circ} \\end{aligned}[/latex] Wardrobe is about to topple about pt Q so there will be contact force from point Q on the wardrobe [latex] \\begin{aligned} \\frac{W}{P} &=\\tan \\theta=2 \\\\ P &=\\frac{W}{2}=\\frac{981}{2}=490.5 \\mathrm{N} \\end{aligned}[/latex] Two components of R will balance W and P and horizontal component (parallel to contacting surface is called friction and perpendicular to contacting surface is called normal reaction) [latex] \\begin{aligned} R \\cos \\theta &=\\text { friction force } \\\\ &=P(\\text { in magnitude }) \\\\ \\left(f_{s}\\right)_{\\max } &=P=490.5 \\\\ \\text{and}\\qquad \\left(f_{s}\\right)_{\\max } &=\\mu_{s} m g\\\\ \\mu_{s} m g &=490.5 \\\\ \\mu_{s} &=0.5 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set4/page8_q2.webp",
+    "options": {
+      "A": "490.5 and 0.5",
+      "B": "981 and 0.5",
+      "C": "1000.5 and 0.15",
+      "D": "1000.5 and  0.25"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 Torque and angular speed data over one cycle for a shaft carrying a flywheel are shown in the figures. The moment of inertia (in kg.[latex]m^{2}[/latex]) of the flywheel is _______",
+    "solution": "[latex]\\begin{aligned} I &=? \\\\ E &=3000 \\times\\left[\\pi-\\frac{\\pi}{2}\\right]-1500 \\times[2 \\pi-\\pi] \\\\ &=3000 \\times \\frac{\\pi}{2}-1500 \\pi=0 \\\\ T_{\\text {mean }} \\times & 2 \\pi=E \\\\ T_{\\text {mean }} &=\\frac{E}{2 \\pi}=0 \\\\ \\omega_{\\min } &=10 \\mathrm{rad} / \\mathrm{s} \\mathrm{at} 0=\\pi / 2 \\\\ \\omega_{\\max } &=20 \\mathrm{rad} / \\mathrm{s} \\mathrm{at} 0=\\pi \\\\ C_{s} &=\\frac{\\omega_{\\max }-\\omega_{\\min }}{\\frac{\\omega_{\\max }+\\omega_{\\min }}{2}} \\\\ &=\\frac{2\\left\\{\\omega_{\\max }-\\omega_{\\min }\\right\\}}{\\omega_{\\max }+\\omega_{\\min }} \\\\ &=\\frac{2 \\times\\{20-10\\}}{20+10}=0.67 \\\\ \\Delta E &=3000 \\times \\frac{\\pi}{2}=1500 \\pi \\\\ \\Delta E &=I \\omega^{2} C_{s}\\\\ 1500 \\pi &=I \\times \\omega_{\\text {mean }}^{2} \\times 0.67 \\\\ 1500 \\pi &=I \\times\\left\\{\\frac{20+10}{2}\\right\\}^{2} \\times 0.67 \\\\ I &=\\frac{1500 \\pi}{15^{2} \\times 0.67}=31.26 \\mathrm{kg} / \\mathrm{m}^{2} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set4/page8_q3.webp",
+    "min": 30.0,
+    "max": 32.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 A single degree of freedom system has a mass of 2 kg, stiffness 8 N/m and viscous damping  ratio 0.02. The dynamic magnification factor at an excitation frequency of 1.5 rad/s is  _______",
+    "solution": "[latex]\\begin{aligned} M F&=\\frac{1}{\\sqrt{\\left[1-\\left(\\frac{\\omega}{\\omega_{n}}\\right)^{2}\\right]^{2}+\\left[2 \\zeta \\frac{\\omega}{\\omega_{n}}\\right]^{2}}}\\\\ \\text{Given, } \\omega&=1.5 \\mathrm{rad} / \\mathrm{s} \\\\ \\omega_{n} &=\\sqrt{\\frac{k}{m}}=\\sqrt{\\frac{8}{2}}=2 \\mathrm{rad} / \\mathrm{s} \\\\ \\zeta &=0.02, \\frac{\\omega}{\\omega_{n}}=\\frac{1.5}{2}=0.75 \\\\ \\therefore \\quad M F &=\\frac{1}{\\sqrt{\\left[1-(0.75)^{2}\\right]^{2}+(2 \\times 0.02 \\times 0.75)^{2}}} \\\\ \\therefore \\quad M F &=\\frac{1}{\\sqrt{(0.4375)^{2}+(0.03)^{2}}}=\\frac{1}{\\sqrt{0.1923}} \\\\ \\therefore \\quad M F &=2.28 \\end{aligned}[/latex]",
+    "min": 2.0,
+    "max": 2.4
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 A ladder AB of length 5 m and weight (W) 600 N is resting against a wall. Assuming frictionless contact at the floor (B) and the wall (A), the magnitude of the force P (in newton) required to maintain equilibrium of the ladder is  _______",
+    "solution": "For ladder to be in equilibrium [latex] \\Sigma F=0[/latex] [latex] \\Sigma M=0 [/latex] (about any point 'or' line) FBD of lader [latex] \\begin{aligned} W &=N_{B}=600 \\quad \\ldots(i) \\\\ P &=N_{A} \\quad \\ldots(ii)\\\\ \\Sigma M_{A} &=0 \\\\ W \\times 2+P \\times 3 &-N_{B} \\times 4=0 \\\\ P &=\\frac{600 \\times 4-600 \\times 2}{3} \\\\ &=\\frac{600 \\times 2}{3}=400 \\mathrm{N} \\end{aligned}[/latex] [latex] N_{A}[/latex] is also equal to 4 nn",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set4/page8_q5.webp",
+    "min": 399.0,
+    "max": 401.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 A closed system contains 10 kg of saturated liquid ammonia at 10[latex]^{\\circ}[/latex]C. Heat addition required to convert the entire liquid into saturated vapour at a constant pressure is 16.2 MJ. If the entropy of the saturated liquid is 0.88 kJ/kg.K, the entropy (in kJ/kg.K) of saturated vapour is _______",
+    "solution": "For closed system, [latex]\\delta Q=T d S [/latex] [latex] \\begin{aligned} \\therefore \\delta Q&=m T\\left(s_{g}-s_{f}\\right) \\\\ \\therefore s_{g}&=\\frac{\\delta Q}{m T}+s_{f} \\\\ s_{g} &=\\frac{16.2 \\times 10^{3}}{10 \\times(273+3)}+0.88 \\\\ &=5.724+0.88\\\\ &=6.604 \\mathrm{kJ} / \\mathrm{kgK}  \\end{aligned}[/latex]",
+    "min": 6.4,
+    "max": 6.7
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 A plane wall has a thermal conductivity of 1.15 W/m.K.  If the inner surface is at 1100[latex]^{\\circ}[/latex]C and the outer surface is at 350[latex]^{\\circ}[/latex]C, then the design thickness (in meter) of the wall to maintain a steady heat flux of 2500 W/[latex]m^{2}[/latex] should be _______",
+    "solution": "[latex] \\begin{aligned} k&=1.15 \\mathrm{W} / \\mathrm{mK} ;\\; T_{1}=1100^{o};\\;T_{2}=350^{o}C\\\\ q&=2500 \\mathrm{W} / \\mathrm{m}^{2}\\\\ \\mathrm{T}_{1}&=1100^{\\circ} \\mathrm{C}_{i}, T_{2}=350^{\\circ} \\mathrm{C} \\\\ Q&=\\frac{T_{1}-T_{2}}{R_{t}} \\\\ \\frac{Q}{A}&=\\frac{k\\left(T_{1}-T_{2}\\right)}{\\delta} \\\\ q&=\\frac{k\\left(T_{1}-T_{2}\\right)}{\\delta} \\\\ 2500&=\\frac{1.15(1100-350)}{\\delta} \\\\ \\text{or}\\quad \\delta&=0.345 \\mathrm{m} \\end{aligned}[/latex]",
+    "min": 0.33,
+    "max": 0.35
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 Consider the following statements regarding streamline(s): (i) It is a continuous line such that the tangent at any point on it shows the velocity vector at that point (ii) There is no flow across streamlines (iii) [latex]\\frac{dx}{u}=\\frac{dy}{v}=\\frac{dz}{w}[/latex] is the differential equation of a streamline, where u, v and w are velocities in directions x, y and z, respectively (iv) In an unsteady flow, the path of a particle is a streamline Which one of the following combinations of the statements is true?",
+    "solution": "Stream lines : Stream lines are the Family of curves that are instantaneously tangent to the velocity vector of the flow. These shows the direction a fluid element will travel in at any point. Path lines :- Path lines are the trajectories that individual fluid particles follow.",
+    "options": {
+      "A": "(i), (ii), (iv)",
+      "B": "(ii), (iii), (iv)",
+      "C": "(i), (iii), (iv)",
+      "D": "(i), (ii), (iii)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 Consider a velocity field [latex]\\vec{V}=K(y\\hat{i}+x\\hat{k})[/latex] where K is a constant. The vorticity, [latex]\\Omega_{Z}[/latex], is",
+    "solution": "Velocity vector [latex] \\begin{aligned} \\vec{V} &=K(y \\hat{i}+x \\hat{k}) \\\\ &=K y \\hat{i}+K x \\hat{k} \\end{aligned}[/latex] where, [latex] u=K y, v=0 \\text { and } w=K x [/latex] Vorticity about z-axis, [latex] \\begin{aligned} \\Omega_{z} &=\\frac{\\partial v}{\\partial x}-\\frac{\\partial u}{\\partial y} \\\\ \\frac{\\partial v}{\\partial x} &=0, \\quad \\frac{\\partial u}{\\partial y}=K \\\\ \\therefore \\quad \\Omega_{z} &=0-K=-K \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]-K[/latex]",
+      "B": "[latex]K[/latex]",
+      "C": "[latex]-K/2[/latex]",
+      "D": "[latex]K/2[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 Water flows through a tube of diameter 25 mm at an average velocity of 1.0 m/s. The properties of water are [latex]\\rho =1000 kg/m^{3}[/latex] , [latex]\\mu =7.25\\times 10^{-4} N.s/m^{2}[/latex] , [latex]k=0.625 W/m.K, P_{r}=4.85[/latex].  Using [latex]Nu=0.023 Re^{0.8} Pr^{0.4}[/latex],  the convective heat transfer coefficient (in [latex]W/m^{2}.K[/latex] )is______",
+    "solution": "Reynolds number, [latex] \\begin{aligned} \\operatorname{Re} &=\\frac{\\rho V d}{\\mu}=\\frac{1000 \\times 1 \\times 25 \\times 10^{-3}}{7.25 \\times 10^{-4}} \\\\ &=34482.75 \\\\ \\operatorname{Pr} &=4.85 \\\\ \\mathrm{Nu} &=0.023 \\mathrm{Re}^{0.8} \\mathrm{Pr} .^{0.4} \\\\ \\mathrm{Nu} &=0.023 \\times(34482.758)^{0.8}(4.85)^{0.4} \\\\ &=184.546 \\\\ \\text { also, } \\quad \\mathrm{Nu} &=\\frac{h d}{k} \\\\ \\text { or } \\quad h &=\\frac{\\mathrm{Nuk}}{d}=\\frac{184.546 \\times 0.625}{25 \\times 10^{-3}}\\\\ &=4613.66 \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K} \\end{aligned}[/latex]",
+    "min": 4600.0,
+    "max": 4625.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 Two identical metal blocks L and M (specific heat = 0.4 kJ/kg.K), each having a mass of 5 kg, are initially at 313 K. A reversible refrigerator extracts heat from block L and rejects heat to block M until the temperature of block L reaches 293 K. The final temperature (in K) of block M is _______",
+    "solution": "Given data: Specified heat, [latex] \\begin{aligned} c&=0.4 \\mathrm{kJ} / \\mathrm{kgK} \\text{ each body}\\\\ \\text{Mass:}m&=5 \\mathrm{kg} \\quad \\text { each body } \\end{aligned}[/latex] Initial temperature, [latex] T_{1}=313 \\mathrm{K} \\quad \\text { each body }[/latex] Final temprature of block L [latex] T_{2}=293 \\mathrm{K}[/latex] Let [latex]\\quad T_{f}=[/latex] Final temperature of block M, Entropy change of block L [latex] \\Delta S_{L}=m c \\log _{e} \\frac{T_{2}}{T_{1}}[/latex] Entropy change of block M [latex] \\Delta S_{M}=m c \\log _{e} \\frac{T_{f}}{T_{1}}[/latex] Entropy change of universe, [latex] \\begin{aligned} \\Delta S_{\\text {univ }} &=\\Delta S_{L}+\\Delta S_{M} \\\\ &=mc \\log _{e} \\frac{T_{2}}{T_{1}}+mc \\log _{e} \\frac{T_{f}}{T_{1}} \\end{aligned}[/latex] For a reversible refrigeration, [latex] \\begin{aligned} \\Delta S_{\\text {univ }}&=0 \\\\ m c \\log _{e} \\frac{T_{2}}{T_{1}}&+m_{c} \\log _{e} \\frac{T_{f}}{T_{1}}=0\\\\ mc \\log _{e} \\frac{T_{2} T_{f}}{T_{1}^{2}}&=0\\\\ \\text{or}\\quad \\log _{e} \\frac{T_{2} T_{f}}{T_{1}^{2}}&=0\\\\ \\text{or}\\quad \\frac{T_{2} T_{f}}{T_{1}^{2}} &=e^{0}=1 \\\\ T_{f} &=\\frac{T_{1}^{2}}{T_{2}}=\\frac{(313)^{2}}{293}=334.36 \\mathrm{K} \\end{aligned}[/latex]",
+    "min": 333.0,
+    "max": 335.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 Steam with specific enthalpy (h) 3214 kJ/kg enters an adiabatic turbine operating at steady state with a flow rate 10 kg/s. As it expands, at a point where h is 2920 kJ/kg, 1.5 kg/s is extracted for heating purposes. The remaining 8.5 kg/s further expands to the turbine exit, where h = 2374 kJ/kg. Neglecting changes in kinetic and potential energies, the net power output (in kW) of the turbine   is _______",
+    "solution": "[latex]\\begin{aligned} m_{1} &=10 \\mathrm{kg} / \\mathrm{s} ; \\quad m_{2}=1.5 \\mathrm{kg} / \\mathrm{s} ; \\quad m_{3}=8.5 \\mathrm{kg} / \\mathrm{s} \\\\ h_{1} &=3214 \\mathrm{kJ} / \\mathrm{kg} ; \\quad h_{2}=2920 \\mathrm{kJ} / \\mathrm{kg} \\\\ h_{3} &=2374 \\mathrm{kJ} / \\mathrm{kg} \\\\ W_{T} &=m_{1}\\left(h_{1}-h_{2}\\right)+m_{3}\\left(h_{2}-h_{3}\\right) \\\\ &=10(3214-2920)+8.5(2920-2374) \\\\ &=7581 \\mathrm{kW} \\end{aligned}[/latex]",
+    "min": 7580.0,
+    "max": 7582.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 Two infinite parallel plates are placed at a certain distance apart. An infinite radiation shield is inserted between the plates without touching any of them to reduce heat exchange between the plates. Assume that the emissivities of plates and radiation shield are equal. The ratio of the net heat exchange between the plates with and without the shield is",
+    "solution": "[latex]\\epsilon_{1}=\\epsilon_{s}=\\epsilon_{2}=\\epsilon[/latex] [latex] \\begin{aligned} \\mathrm{R}(\\text { with N shields})&=(N+1)\\left(\\frac{2}{\\epsilon}-1\\right) \\\\ \\text { R(without shield) }&=\\frac{2}{\\epsilon}-1 \\\\ \\left(\\frac{Q}{A}\\right)_{\\text {with } N \\text { shield }}&=\\frac{1}{N+1}\\left(\\frac{Q}{A}\\right)_{\\text {without shild }} \\\\ \\therefore \\frac{Q_{\\text {with shield }}}{Q_{\\text {without shield }}}=\\frac{1}{N+1}&=\\frac{1}{2} \\quad(\\because N=1) \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]1/2[/latex]",
+      "B": "[latex]1/3[/latex]",
+      "C": "[latex]1/4[/latex]",
+      "D": "[latex]1/8[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 In a compression ignition engine, the inlet air pressure is 1 bar and the pressure at the end of isentropic compression is 32.42 bar. The expansion ratio is 8. Assuming ratio of specific heats ([latex]\\gamma[/latex] ) as 1.4, the air standard efficiency (in percent) is _______",
+    "solution": "Given, [latex]p_{1}=1[/latex] bar, [latex]p_{2}=32.42 [/latex] bar [latex] \\begin{aligned} \\gamma &=\\frac{C_{p}}{c_{v}}=1.4 \\\\ \\frac{V_{4}}{V_{3}} &=\\frac{V_{1}}{V_{3}}=8 \\end{aligned}[/latex] For process 1-2 [latex] \\begin{aligned} p_{1} v_{1}^{\\gamma}&=p_{2} v_{2}^{\\gamma} \\\\ \\therefore\\left(\\frac{V_{1}}{V_{2}}\\right)^{\\gamma}&=\\frac{p_{2}}{p_{1}}=32.42 \\\\ \\text { or } \\quad \\frac{V_{1}}{V_{2}} &=(32.42)^{1 / 1.4}=11.999 \\approx 12 \\\\ r_{c} &=\\frac{V_{3}}{V_{2}}=\\frac{V_{1}}{8} \\times \\frac{12}{V_{1}}=1.5 \\\\ \\eta_{\\text {Diesel }} &=1-\\frac{1}{r^{\\gamma-1}}\\left[\\frac{r_{C}^{\\gamma}-1}{\\gamma\\left(r_{C}-1\\right)}\\right] \\\\ &=1-\\frac{1}{12^{0.4}}\\left[\\frac{1.5^{1.4}-1}{1.4 \\times 0.5}\\right] \\\\ &=0.596=59.6 \\% \\end{aligned}[/latex]",
+    "min": 59.0,
+    "max": 61.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 The precedence relations and duration (in days) of activities of a project network are given in the table. The total float (in days) of activities e and f, respectively, are",
+    "solution": "Total float for activity:  e=7-2-4=1 Total float for activity:  f=12-4-4=4",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set4/page10_q5.webp",
+    "options": {
+      "A": "0 and 4",
+      "B": "1 and 4",
+      "C": "2 and 3",
+      "D": "3 and 1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 At a work station, 5 jobs arrive every minute. The mean time spent on each job in the work station is 1/8 minute. The mean steady state number of jobs in the system is _______",
+    "solution": "[latex]\\begin{aligned} \\lambda(\\text { arrival rate })&=5 \\text { jobs/minute } \\\\ \\mu \\text { (service rate) }&=8 \\text { jobs/minute } \\\\ \\qquad L_{S}&=\\frac{\\lambda}{\\mu-\\lambda}=\\frac{5}{8-5}=\\frac{5}{3}=1.67 \\end{aligned}[/latex]",
+    "min": 1.62,
+    "max": 1.7
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 A GO-No GO plug gauge is to be designed for measuring a hole of nominal diameter 25 mm with a hole tolerance of  [latex]\\pm 0.015mm[/latex] . Considering 10% of work tolerance to be the gauge tolerance and no wear condition, the dimension (in mm) of the GO plug gauge as per the unilateral tolerance    system is",
+    "solution": "Hole dimensions are [latex]24.985 \\mathrm{mm} and 25.015 \\mathrm{mm} [/latex] Total tolerance [latex]=0.015+0.015=0.03 \\mathrm{mm} [/latex] Work tolerance [latex]=0.03 \\times 0.1=0.003 \\mathrm{mm}[/latex] Dimension of GO plug gauge [latex] \\begin{aligned} &=24.985-0.000 \\mathrm{mm} \\\\ &=24.985+0.003 \\mathrm{mm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]24.985^\\binom{+0.003}{-0.003}[/latex]",
+      "B": "[latex]25.015^\\binom{+0.000}{-0.006}[/latex]",
+      "C": "[latex]24.985^\\binom{+0.03}{-0.03}[/latex]",
+      "D": "[latex]24.985^\\binom{+0.003}{-0.000}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 A cylindrical riser of 6 cm diameter and 6 cm height has to be designed for a sand casting mould for producing a steel rectangular plate casting of 7 cm x 10 cm x 2 cm dimensions having the total solidification time of 1.36 minute. The total solidification time (in minute) of the riser is  _______",
+    "solution": "[latex]\\begin{aligned} V_{\\text {casting }}&=7 \\times 10 \\times 2=140 \\mathrm{cm}^{3} \\\\ A_{\\text {casting }}&= 2(7 \\times 10+7 \\times 2+2 \\times 10) \\\\ &=2 \\times(70 \\times 20 \\times 14)\\\\&=2 \\times 104=208 \\mathrm{cm}^{2}\\\\ \\qquad\\left(\\frac{V}{A}\\right)_{\\text {casting }}&=\\frac{140}{208}=0.673 \\mathrm{cm} \\\\ \\qquad\\left(\\frac{V}{A}\\right)_{\\text {Top Riser }}&=\\frac{\\frac{\\pi}{4} d^{3}}{\\frac{\\pi}{4} d^{2}+\\pi d^{2}}=\\frac{d}{5}\\\\ &=1.2\\mathrm{cm}\\qquad(\\therefore d=h=6\\mathrm{cm}) \\end{aligned}[/latex] [latex]\\begin{aligned} \\left(\\frac{V}{A}\\right)_{\\text {Bottom Riser }}&=\\frac{\\frac{\\pi}{4} d^{3}}{\\frac{\\pi}{2} d^{2}+\\pi d^{2}}=\\frac{d}{6}=1 \\mathrm{cm} \\\\ \\frac{t_{R}}{t_{C}}&= \\frac{(V / A)_{\\text {Top Riser }}^{2}}{(V / A)_{\\text {Casting }}^{2}}=\\left(\\frac{1.2}{0.673}\\right)^{2} \\\\ \\Rightarrow t_{R}&=4.133 \\text { minute } \\text { (for top riser) }\\\\ \\frac{t_{R}}{t_{C}} &=\\frac{(V / A)_{\\text {Bottom Riser }}^{2}}{(V / A)_{\\text {Casting }}^{2}}=\\left(\\frac{1}{0.673}\\right)^{2} \\\\ \\Rightarrow t_{R} &=3 \\text { minute } \\quad \\text { (for bottom riser) } \\end{aligned}[/latex] Solidification time considering top and bottom riser comes under range given in the answer.",
+    "min": 2.5,
+    "max": 4.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 A cast iron block of 200 mm length is being shaped in a shaping machine with a depth of cut of  4 mm, feed of 0.25 mm/stroke and the tool principal cutting edge angle of 30[latex]^{\\circ}[/latex]. Number of cutting strokes per minute is 60. Using specific energy for cutting as 1.49 J/[latex]mm^{3}[/latex], the average power consumption (in watt) is _______",
+    "solution": "The volume rate of material removal is: [latex] \\begin{aligned} Q&=f d L N \\\\ \\text { where } f(\\text { feed })&=0.25 \\mathrm{mm} / \\mathrm{stroke} \\\\ d(\\text { depth of } \\mathrm{cut})&=4 \\mathrm{mm} \\\\ \\quad L(\\text { length of block })&=200 \\mathrm{mm} \\end{aligned}[/latex] N(number of cutting stroke per minute) =60 [latex] \\begin{aligned} Q&=\\frac{0.25 \\times 4 \\times 200 \\times 60}{60}\\left(\\frac{m m^{3}}{s}\\right)\\\\ &=200 \\mathrm{mm}^{3} / \\mathrm{s} \\\\ U_{c} &=1.49 \\mathrm{J} / \\mathrm{mm}^{2} \\\\ P_{\\text {average }} &=U_{c} \\times Q=1.49 \\times 200 \\mathrm{J} / \\mathrm{s}=298 \\mathrm{W} \\end{aligned}[/latex]",
+    "min": 295.0,
+    "max": 305.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 A butt weld joint is developed on steel plates having yield and ultimate tensile strength of 500 MPa and 700 MPa, respectively. The thickness of the plates is 8 mm and width is 20 mm. Improper selection of welding parameters caused an undercut of 3 mm depth along the weld. The maximum transverse tensile load (in kN) carrying capacity of the developed weld joint  is _______",
+    "solution": "[latex]\\begin{aligned} P_{t} &=\\sigma_{t}\\left(t_{\\text {under cut }}\\right) L \\\\ &=700 \\times 20 \\times(8-3)=700 \\times 100 N \\\\ &=70 \\mathrm{kN} \\end{aligned}[/latex]",
+    "min": 68.0,
+    "max": 72.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 Which of the following options is the closest in meaning to the word underlined in the sentence below? In a democracy, everybody has the freedom to disagree with the government.",
+    "solution": "",
+    "options": {
+      "A": "dissent",
+      "B": "descent",
+      "C": "decent",
+      "D": "decadent"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 After the discussion, Tom said to me, 'Please revert!'. He expects me to _____",
+    "solution": "",
+    "options": {
+      "A": "retract",
+      "B": "get back to him",
+      "C": "move in reverse",
+      "D": "retreat"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 While receiving the award, the scientist said, \"I feel vindicated\". Which of the following is closest in meaning to the word 'vindicated'?",
+    "solution": "",
+    "options": {
+      "A": "punished",
+      "B": "substantiated",
+      "C": "appreciated",
+      "D": "chastened"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 Let [latex]f(x,y)=x^n y^m=P[/latex] If [latex]x[/latex] is doubled and [latex]y[/latex] is halved, the new value of [latex]f[/latex] is",
+    "solution": "",
+    "options": {
+      "A": "[latex]2^{n-m}P[/latex]",
+      "B": "[latex]2^{m-n}P[/latex]",
+      "C": "[latex]2(n-m)P[/latex]",
+      "D": "[latex]2(m-n)P[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 60 In a sequence of 12 consecutive odd numbers, the sum of the first 5 numbers is 425. What is the sum of the last 5 numbers in the sequence?",
+    "solution": "",
+    "min": 495.0,
+    "max": 495.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 Find the next term in the sequence: 13M, 17Q, 19S, ___",
+    "solution": "",
+    "options": {
+      "A": "21W",
+      "B": "21V",
+      "C": "23W",
+      "D": "23V"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 If 'KCLFTSB' stands for 'best of luck' and 'SHSWDG' stands for 'good wishes', which of the following indicates 'ace the exam'?",
+    "solution": "",
+    "options": {
+      "A": "MCHTX",
+      "B": "MXHTC",
+      "C": "XMHCT",
+      "D": "XMHTC"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 Industrial consumption of power doubled from 2000-2001 to 2010-2011. Find the annual rate of increase in percent assuming it to be uniform over the years.",
+    "solution": "",
+    "options": {
+      "A": "5.6",
+      "B": "7.2",
+      "C": "10",
+      "D": "12.2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 64 A firm producing air purifiers sold 200 units in 2012. The following pie chart presents the share of raw material, labour, energy, plant & machinery, and transportation costs in the total manufacturing cost of the firm in 2012. The expenditure on labour in 2012 is Rs. 4,50,000. In 2013, the raw material expenses increased by 30% and all other expenses increased by 20%. What is the percentage increase in total cost for the company in 2013?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2014_Set4/page13_q4.webp",
+    "min": 22.0,
+    "max": 22.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 A five digit number is formed using the digits 1, 3, 5, 7 and 9 without repeating any of them. What is the sum of all such possible five digit numbers?",
+    "solution": "",
+    "options": {
+      "A": "6666660",
+      "B": "6666600",
+      "C": "6666666",
+      "D": "6666606"
+    },
+    "correct_answer": "B"
+  }
+]
