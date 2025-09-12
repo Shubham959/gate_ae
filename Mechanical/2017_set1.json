@@ -58,13 +58,6 @@
     "solution": "solutionQ5",
     "min": "3.5",
     "max": "3.5"
-  },
-  {
-    "type": "numerical",
-    "question": "Q5",
-    "image": null,
-    "solution": "solutionQ5",
-    "min": "3.5",
-    "max": "3.5"
   }
 ]
+
