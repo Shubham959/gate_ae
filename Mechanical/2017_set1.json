@@ -58,6 +58,20 @@
     "solution": "solutionQ5",
     "min": "3.5",
     "max": "3.5"
+  },
+   {
+    "type": "mcq",
+    "question": "Q6",
+    "image": null,
+    "solution": "solutionQ4",
+    "options": {
+      "A": "optionQ4_A",
+      "B": "optionQ4_B",
+      "C": "optionQ4_C",
+      "D": "optionQ4_D"
+    },
+    "correct_answer": "A"
   }
 ]
+
 
