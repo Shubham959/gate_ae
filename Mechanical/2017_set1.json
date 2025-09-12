@@ -1,0 +1,655 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 The product of eigenvalues of the matrix P is [latex]P=\\begin{bmatrix} 2 & 0 & 1\\\\ 4 & -3 & 3\\\\ 0 & 2 & -1 \\end{bmatrix}[/latex]",
+    "solution": "Product of Eigen value = determinant value [latex] \\begin{array}{l} =2(3-6)+1(8-0) \\\\ =2(-3)+8=-6+8=2 \\end{array}[/latex]",
+    "options": {
+      "A": "-6",
+      "B": "2",
+      "C": "6",
+      "D": "-2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 The value of  [latex]lim _{x \\to 0}\\: \\frac{x^{3}-\\sin(x)}{x}[/latex]  is",
+    "solution": "[latex]\\begin{aligned} \\lim _{x \\rightarrow 0} \\frac{x^{3}-\\sin x}{x} &=\\left(\\frac{0}{0} \\mathrm{form}\\right) \\\\ \\lim _{x \\rightarrow 0} \\frac{3 x^{2}-\\cos x}{1} &=0-\\cos 0 \\\\ &=0-1=-1 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0",
+      "B": "3",
+      "C": "1",
+      "D": "-1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 consider the following partial differential equation for u(x,y) with the constant c[latex]\\gt 1[/latex]: [latex]\\frac{\\partial y}{\\partial x}+c \\: \\frac{\\partial u}{\\partial x} =0[/latex] solution of this equations is",
+    "solution": "[latex]\\small \\begin{aligned} u &=f(x-c y) \\\\ \\frac{\\partial u}{\\partial x} &=f^{\\prime}(x-c y)(1) \\\\ \\frac{\\partial u}{\\partial y} &=f^{\\prime}(x-c y)(-c) \\\\ &=-c \\cdot f^{\\prime}(x-c y)\\\\ &=-c \\cdot \\frac{\\partial u}{\\partial x} \\\\ \\therefore  \\quad \\frac{\\partial u}{\\partial y} & +c \\frac{\\partial u}{\\partial x} =0 \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]u(x,y)=f(x+cy)[/latex]",
+      "B": "[latex]u(x,y)=f(x-cy)[/latex]",
+      "C": "[latex]u(x,y)=f(cx+y)[/latex]",
+      "D": "[latex]u(x,y)=f(cx-y)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 The differential equation [latex]\\frac{\\mathrm{d^{2}}y}{\\mathrm{d} x^{2}}+16y=0[/latex] for y(x) with the two boundary conditions [latex]\\left | \\frac{\\mathrm{d} y}{\\mathrm{d} x} \\right |_{x=0}=1[/latex] and  [latex]\\left | \\frac{\\mathrm{d} y}{\\mathrm{d} x} \\right |_{x=\\frac{\\pi}{2}}=-1[/latex] has",
+    "solution": "[latex] \\begin{aligned} \\left(d^{2}+16\\right) y &=0 \\\\ A E \\text { is } m^{2}+16 &=0 \\\\ m &=\\pm 4 i \\end{aligned}[/latex] Solution is [latex] y=c_{1} \\cos 4 x+c_{2} \\sin 4 x[/latex] [latex] \\begin{aligned} y' &=-4 c_{1} \\sin 4 x+4 c_{2} \\cos 4 x \\\\ y'(0) &=1 \\\\ 1 &=4 c_{2} \\\\ c_{2} &=1 / 4 \\\\ y'(\\pi / 2) &=-1 \\\\ -1 &=-4 c_{1} \\sin 2 \\pi+4 c_{2} \\cos 2 \\pi \\\\ -1 &=0+4 c_{2} \\\\ c_{2} &=-1 / 4 \\end{aligned}[/latex] Therefore the given differential equation has no solution.",
+    "options": {
+      "A": "no solution",
+      "B": "exactly two solutions",
+      "C": "exactly one solutions",
+      "D": "infinitely many solutions"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 A six-face fair dice is rolled a large number of times. The mean value of the outcomes is ________",
+    "solution": "[latex]\\begin{aligned} \\text{mean} &=E(x)=\\Sigma x \\cdot P(x) \\\\ &=1(1 / 6)+2(1 / 6)+3(1 / 6)+4 \\\\ &(1 / 6)+5(1 / 6)+6(1 / 6) \\\\ &=\\frac{1}{6}(1+2+3+4+5+6) \\\\ &=\\frac{21}{6}=3.5 \\end{aligned}[/latex]",
+    "min": 3.5,
+    "max": 3.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 For steady flow of a viscous incompressible fluid through a circular pipe of constant diameter, the average velocity in the fully devloped region is constant. Which one of  the following statement about the average velocity in the devloping region is true?",
+    "solution": "The average velocity in pipe flow always be same either for developing flow or fully developed flow.",
+    "options": {
+      "A": "It increases until the flow is fully developed.",
+      "B": "It is constant and is eaual to the average velocity in the fully devloped region.",
+      "C": "It decreases until the flow is fully developed",
+      "D": "It is constant but is always lower than the average velocity in the fully devloped region."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Consider the two-dimensional velocity field  given by [latex]\\overrightarrow{\\mathrm{v}}=(5+a_{1}x+b_{1}y)\\hat{i}\\: + \\:  (4+a_{2}x+b_{2}y)\\hat{j}[/latex] ,where [latex]a_1,b_1,a_2 \\text{ and }b_2[/latex]  are constants. Which one of the following conditions needs to be satisfied for the flow to be  incompressible?",
+    "solution": "Given that the flow is incompressible. [latex] \\therefore \\quad \\operatorname{div} \\bar{V}=0 [/latex] [latex] \\frac{\\partial}{\\partial x}\\left(5+a_{1} x+b_{1} y\\right)+\\frac{\\partial}{\\partial y}\\left(8+a_{2} x+b_{2} y\\right)=0 [/latex] [latex] a_{1}+b_{2}=0[/latex]",
+    "options": {
+      "A": "[latex]a_{1}+\\, b_{1}=0[/latex]",
+      "B": "[latex]a_{1}+\\, b_{2}=0[/latex]",
+      "C": "[latex]a_{2}+\\, b_{2}=0[/latex]",
+      "D": "[latex]a_{2}+\\, b_{1}=0[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 8 Water (density=1000 kg/[latex]k^{3}[/latex] ) at ambient temperature flows through a horizontral  pipe of uniform cross section at the rate  of  kg/s. If the pressure drop across the pipe is  100 kPa, the minimum power required to pump the water across the pipe, in watts. is_________",
+    "solution": "[latex]\\begin{aligned} \\rho &=1000 \\mathrm{kg} / \\mathrm{m}^{3} \\\\ m &=1 \\mathrm{kg} / \\mathrm{s} \\\\ \\Delta p &=100 \\mathrm{kPa}=100 \\times 10^{3} \\mathrm{Pa} \\\\ P &=\\rho Q g h_{f} \\\\ &=Q \\Delta p \\\\ &=\\frac{m}{\\rho} \\Delta p=\\frac{1}{1000} \\times 100 \\times 10^{3} \\\\ &=100 \\mathrm{W} \\end{aligned}[/latex]",
+    "min": 100.0,
+    "max": 100.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 Which one of the following is Not a rotating machine?",
+    "solution": "In the given options all the pumps have rotating machine elements except Jet pump. Centrifugal pump: It has rotating part eg.,impeller, Vane. Gear Pump: In this pump there is gear mechanism which is rotating part. Jet Pump: Jet pump utilizes ejector principle which have nozzle and diffuser not rotating parts. Vane Pump: It consist of rotating disc which called as rotor in which number of radial slots are there where sliding vanes is inserted.",
+    "options": {
+      "A": "Centrifugal  pump",
+      "B": "Gear pump",
+      "C": "Jet pump",
+      "D": "vane"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 Saturated steam at [latex]100^{\\circ}[/latex]C condenses  on the outside of a tube.cold fluid enters the tube at  [latex]20^{\\circ}[/latex]C and exits at [latex]50^{\\circ}[/latex]C the value of the log mean Temperature Difference (LMTD) is _________[latex]^{\\circ}[/latex]C.",
+    "solution": "Temperature profiles are [latex] \\begin{aligned} \\Delta T_{i}=100-20=80^{\\circ} \\mathrm{C} \\\\ \\Delta T_{e}=100-50=50^{\\circ} \\mathrm{C} \\end{aligned}[/latex] (LMTD) (parallel or counter HE) [latex] \\begin{aligned} =\\frac{\\Delta T_{i}-\\Delta T_{e}}{\\ln \\frac{\\Delta T_{i}}{\\Delta T_{e}}}=\\frac{80-50}{\\ln \\frac{80}{50}} \\\\ =63.82^{\\circ} \\mathrm{C} \\end{aligned}[/latex]",
+    "min": 63.5,
+    "max": 64.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 11 The molar Specific heat at constant volume of an ideal gas in equal to 2.5 times the universal gas constant(8.314 J/mol K). When the temperature increases by 100 K, the change in molar specific enthalpy is__________ J/mol.",
+    "solution": "Given that:[latex] \\bar{C}_{v}=2.5 \\bar{R} [/latex] [latex] \\bar{C}_{v} \\rightarrow [/latex] Molar specific heat at constant volume [latex] \\begin{aligned} \\bar{C}_{p}-\\bar{C}_{v}&=\\bar{R}\\\\ \\Rightarrow \\quad \\bar{C}_{p}&=\\bar{R}+\\bar{C}_{v}=\\bar{R}+2.5 \\bar{R} \\\\ \\bar{C}_{p}&=3.5 \\bar{R} \\end{aligned}[/latex] Molar specific enthalpy change of ideal gas (A H) [latex] \\begin{aligned} \\Delta H &=n \\bar{C}_{p} \\Delta T \\\\ \\overline{\\Delta H} &=\\frac{\\Delta H}{n}=\\overline{\\Delta H}=\\bar{C}_{p} \\Delta T \\\\ &=3.5 \\times 8.314 \\times 100 \\\\ \\overline{\\Delta H} &=2909.9 \\mathrm{J} / \\mathrm{mole} \\end{aligned}[/latex]",
+    "min": 2908.0,
+    "max": 2911.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 A heat pump absorbs 10kW of heat from outside environment at 250 K while absorbing 15 kW of work. It delivers the heat to a room that must be kept warm at 300K. The coefficient of Performance (COP) of the heat pump is _________.",
+    "solution": "Given that: [latex] \\dot{Q}_{L}=10 \\mathrm{kW} [/latex] [latex]\\dot{W}=15 \\mathrm{kW}[/latex] Applying first law on heat pump [latex] \\begin{array}{c} \\dot{Q}_{L}+\\dot{W}=\\dot{Q}_{H} \\\\ 10 \\mathrm{kW}+15 \\mathrm{kW}=\\dot{Q}_{H} \\\\ \\dot{Q}_{H}=25 \\mathrm{kW} \\\\ (\\mathrm{COP})_{\\mathrm{H.P.}}=\\frac{\\dot{Q}_{H}}{\\dot{W}}=\\frac{25 \\mathrm{kW}}{15 \\mathrm{kW}}=1.67 \\end{array}[/latex]",
+    "min": 1.6,
+    "max": 1.7
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 The poisson's ratio for a perfectly incompressible linear material is",
+    "solution": "For perfectly incompressible material, poisson's ratio =0.5 (if change in vol. should be zero,[latex] \\mu=0.5[/latex])",
+    "options": {
+      "A": "1",
+      "B": "0.5",
+      "C": "0",
+      "D": "infinity"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 A particle of unit mass is moving on a plane. Its trajectory, in polar coordinates, is given by r(t)=[latex]t^{2}[/latex],[latex]\\theta (t)=t[/latex], where t is time. The kinetic energy of the particle at time t=2 is",
+    "solution": "[latex]\\begin{aligned} r &=t^{2}: \\theta=t \\\\ \\mathrm{K.E} &=\\frac{1}{2} m v^{2}=? \\text { at } t=2 \\mathrm{sec} \\\\ \\Rightarrow m &=1 \\mathrm{kg} \\\\ \\vec{V} &=r \\omega(\\hat{t})+\\frac{d r}{d t} \\dot{r}=t^{2} \\times 1(\\hat{t})+2 t \\hat{r} \\\\ \\therefore \\frac{d \\theta}{d t}&=\\omega=1\r\n\\\\ \\vec{V} &=t^{2}(\\hat{t})+2 t(\\hat{r}) \\\\ \\text{at }\\qquad t &=2 s \\\\ \\vec{V} &=4(\\hat{t})+4(\\hat{r}) \\\\ |\\vec{V}| &=\\sqrt{16+16}=\\sqrt{32} \\\\ K.E. &=\\frac{1}{2}mv^{2}=\\frac{1}{2}\\times1\\times32=16 \\end{aligned}[/latex]",
+    "options": {
+      "A": "4",
+      "B": "12",
+      "C": "16",
+      "D": "24"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 A motor is driving a solid circular steel shaft transmits 40kW of power at 500 rpm. If the diameter of the shaft is 40 mm, The maximum shear stress in the shaft is ____MPa.",
+    "solution": "[latex]\\begin{aligned} T &=\\frac{P \\times 60 \\times 10^{6}}{2 \\pi N}=\\frac{40 \\times 60 \\times 10^{6}}{2 \\pi(500)} \\\\ &=763943.7268 \\mathrm{N}-\\mathrm{mm} \\\\ \\tau_{\\max } &=\\frac{16 T}{\\pi d^{3}}=\\frac{16 \\times 763943.7268}{\\pi(40)^{3}} \\\\ &=60.792 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "min": 60.0,
+    "max": 61.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Consider a beam with circular cross-section of diameter d. The ratio of the second moment of area about the neutral axis to the section modulus of the area is.",
+    "solution": "[latex]\\frac{I_{N . A}}{Z_{N . A}}=\\frac{I_{N, A_{.}}}{\\left(I_{N . A} / Y_{\\max }\\right)}=Y_{\\max }[/latex] For a solid circular cross-section [latex] Y_{\\max }=d / 2[/latex]",
+    "options": {
+      "A": "[latex]\\frac{d}{2}[/latex]",
+      "B": "[latex]\\frac{\\pi d}{2}[/latex]",
+      "C": "d",
+      "D": "[latex]\\pi d[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 The following figure shows the velocity-time plot for a particle travelling along a straight line. The distance covered by the particle from t=0 to t=5s is _______ m.",
+    "solution": "V-t curve Distance travelled is asked from t=0 to 5 s [latex] \\begin{aligned} V &=\\frac{d S}{d t} \\\\ d S &=V d t \\\\ S &=\\int_{0}^{5} V d t \\end{aligned}[/latex] Area of V-t graph plotted on time axis from 0 to 5s [latex] \\begin{aligned} S &=\\frac{1}{2} \\times 1 \\times 1+1 \\times 1 \\times \\frac{1}{2}[1+4] \\times 1 \\\\ & +\\frac{1}{2}[4+2] \\times 2 \\\\ &=10 \\mathrm{m} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2017_Set1/page4_q2.webp",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 The damping ratio for a viscously damped spring mss system, governed by the relationship [latex]m\\frac{\\mathrm{d^{2}}x}{\\mathrm{d}  t^{2}}+c\\frac{\\mathrm{d} x}{\\mathrm{d} t}+kx=F(t)[/latex], is given by",
+    "solution": "We know that: [latex] \\begin{aligned} 2 \\xi \\omega_{n} &=\\frac{c}{m} \\\\ \\xi &=\\frac{c}{m \\times 2 \\omega_{n}}=\\frac{c}{2 m \\cdot \\sqrt{\\frac{k}{m}}}=\\frac{c}{2 \\sqrt{k m}} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\sqrt{\\frac{c}{mk}}[/latex]",
+      "B": "[latex]\\frac{c}{2\\sqrt{km}}[/latex]",
+      "C": "[latex]\\frac{c}{\\sqrt{km}}[/latex]",
+      "D": "[latex]\\sqrt{\\frac{c}{2mk}}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 Consider the schematic of a riveted lap joint subjected to tensile load F, as shown below. Let d be the diameter of the rivets, and [latex]S_{f}[/latex]  be the maximum permissible tensile stress in the plates. What should be the minimum value for the thickness of the plates to guard against tensile failure of the plates? Assume the plates to be identical.",
+    "solution": "Safe condition to avoid tearing failure of the joint along the row of rivets, [latex] \\begin{aligned} \\left(\\sigma_{\\text {max }}\\right)_{\\text {tensile }} & \\leq\\left(\\sigma_{t}\\right)_{\\text {per }} \\\\ \\frac{F}{(W-2 d) t} &=S_{f} \\\\ t & \\geq \\frac{F}{S_{f}(W-2 d)} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2017_Set1/page4_q4.webp",
+    "options": {
+      "A": "[latex]\\frac{F}{S_{f}(W-2d)}[/latex]",
+      "B": "[latex]\\frac{F}{S_{f}W}[/latex]",
+      "C": "[latex]\\frac{F}{S_{f}(W-d)}[/latex]",
+      "D": "[latex]\\frac{2F}{S_{f}W}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 Cylindrical pins of diameter [latex]15^{\\pm 0.020}[/latex]  mm are being produced on a machine. Statistical quality control tests show a mean of 14.995 mm and standard deviation of 0.004mm. The process capability index [latex]C_{p}[/latex]  is.",
+    "solution": "[latex]\\begin{aligned} C p &=\\frac{U S L-L S L}{6 \\sigma} \\\\ &=\\frac{15.02-14.98}{6 \\times 0.004}=1.667 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.833",
+      "B": "1.667",
+      "C": "3.333",
+      "D": "3.75"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 In a metal forming operation when the material has just started yielding, the principal stresses are [latex]\\sigma _{1}=+180[/latex]  Mpa,[latex]\\sigma _{2}=-100[/latex] Mpa,[latex]\\sigma _{3}=0[/latex]. Following Von Mises criterion, the yield stress is ________ MPa.",
+    "solution": "Safe condition for design as per von-Mises criterion, [latex] \\sigma_{1}^{2}+\\sigma_{2}^{2}-\\sigma_{1} \\sigma_{2} \\leq\\left(\\frac{S_{y t}}{N}\\right)^{2}[/latex] When yielding occurs, N=1 [latex] \\begin{array}{r} \\sigma_{1}^{2}+\\sigma_{2}^{2}-\\sigma_{1} \\sigma_{2}=\\left(S_{y t}\\right)^{2} \\\\ (180)^{2}+(-100)^{2}-(180)(-100)=\\left(S_{y t}\\right)^{2} \\\\ S_{t y}=245.7641 \\mathrm{MPa} \\end{array}[/latex]",
+    "min": 245.0,
+    "max": 246.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 Match the processes with their characteristics.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2017_Set1/page5_q2.webp",
+    "options": {
+      "A": "P - 2, Q - 3, R - 1, S - 4",
+      "B": "P - 3, Q - 2, R - 1, S - 4",
+      "C": "P - 3, Q - 2, R - 4, S - 1",
+      "D": "P - 2, Q - 4, R - 3, S - 1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 In an arc welding process, welding speed is doubled. Assuming all other process parameters to be constant, the cross sectional area of the weld bead will",
+    "solution": "[latex]H_{s}=\\frac{V I}{v A_{b}}[/latex] If v is doubled (2 v) to make [latex]H_{s}[/latex] constant [latex]A_{b}[/latex] will be reduced by 50% [latex] H_{s}=\\frac{V I}{2 v \\frac{A_{b}}{2}}=\\frac{V I}{v A_{b}}[/latex]",
+    "options": {
+      "A": "Increase by 25%",
+      "B": "Increase by 50%",
+      "C": "Reduce by 25%",
+      "D": "Reduce by 50%"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 Metric thread of 0.8 mm pitch is to be cut on a lathe. Pitch of the lead screw is 1.5 mm. If the spindle rotates at 1500 rpm, the speed of rotation of the lead screw (rpm) will be ________",
+    "solution": "Pitch of thread, [latex] P_{t}=0.8 \\mathrm{mm}[/latex] Speed of spindle, [latex] \\begin{aligned} N_{t} &=1500 \\mathrm{rpm} \\\\ P_{s} &=1.5 \\mathrm{mm} \\\\ N_{s} \\times P_{s} \\times Z_{z} &=N_{t} \\times P_{t} \\times Z_{t}\\left[\\because z_{s}=z_{t}=1\\right] \\\\ N_{s} \\times 1.5 \\times 1 &=1500 \\times 0.8 \\times 1 \\\\ N_{s} &=800 \\mathrm{rpm} \\end{aligned}[/latex]",
+    "min": 800.0,
+    "max": 800.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 In the engineering stress-strain curve for mild steel, the Ultimate Tensile Strength (UTS) refers to",
+    "solution": "Ultimate tensile strength represents the max. stress that a material can withstand without fracture.",
+    "options": {
+      "A": "Yield stress",
+      "B": "Proportional limit",
+      "C": "Maximum stress",
+      "D": "Fracture stress."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 Consider the matrix [latex]P=\\begin{bmatrix} \\frac{1}{\\sqrt{2}} & 0 & \\frac{1}{\\sqrt{2}} \\\\ 0 & 1 & 0 \\\\ \\frac{-1}{\\sqrt{2}} & 0 & \\frac{1}{\\sqrt{2}} \\end{bmatrix}[/latex] Which one of the following statements about P is INCORRECT?",
+    "solution": "Explanations: The Eigen values of an orthogonal \r\n matrix are of magnitude 1 and are real (a) complex \r\n conjugate pairs",
+    "options": {
+      "A": "Determinant of P is equal to 1.",
+      "B": "P is orthogonal.",
+      "C": "Inverse of P is equal to its transpose.",
+      "D": "All Eigen values of P are real numbers."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 For the vector [latex]\\overrightarrow{\\textrm{v}}=\\textrm{2yz}\\hat{i}+\\textrm{3xz}\\hat{j}+4\\textrm{xy}\\hat{k}[/latex], the value of [latex]\\triangledown.  (\\triangledown \\times \\overrightarrow{\\textrm{v}})[/latex]  is ___________",
+    "solution": "By vector identities [latex]div.(crul\\bar{F}) = 0[/latex]",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 A parametric curve defined by  [latex]x=\\cos (\\frac{\\pi u}{2})[/latex] , [latex]y=\\sin (\\frac{\\pi u}{2})[/latex]  in the range [latex]0\\leq u\\leq 1[/latex]  rotated about the X-axis by 360 degrees. Area of the surface generated is.",
+    "solution": "[latex]x = \\cos \\left( \\frac { \\pi u } { 2 } \\right) ; \\quad y = \\sin \\left( \\frac { \\pi u } { 2 } \\right) [/latex] [latex] x ^ { 2 } + y ^ { 2 } = 1 [/latex] represents a circle in x - y plane. [latex] \\begin{aligned} 0 &\\leq u \\leq 1 \\text { (given range) } \\\\ \\therefore 0 &\\leq x \\leq 1,0 \\leq y \\leq 1 \\\\ so, 0 &\\leq \\theta \\leq \\frac { \\pi } { 2 } \\\\ \\end{aligned}[/latex] Thus, we will get as quarter circle in x-y plane. Therefore, Area of hemisphere[latex] = 2 \\pi(r^{2})=2\\pi \\times (1^{2}) = 2\\pi[/latex]",
+    "options": {
+      "A": "[latex]\\frac{\\pi }{2}[/latex]",
+      "B": "[latex]\\pi[/latex]",
+      "C": "[latex]2\\pi[/latex]",
+      "D": "[latex]4\\pi[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 P(0,3), Q(0.5, 4), and R (1,5) are three points on the curve defined by f(x). Numerical integration is carried out using both Trapezoidal rule and Simpson's rule within limits x = 0 and x =1 for the curve. The difference between the two results will be.",
+    "solution": "By Trapezoidal rule [latex] \\begin{aligned} \\int_{0}^{1} f(x) d x &=\\frac{h}{2}\\left[\\left(y_{0}+y_{2}\\right)+2 y_{1}\\right] \\\\ &=\\frac{0.5}{2}[(3+5)+2(4)]=4 \\end{aligned} [/latex] By Simpson rule [latex] \\int_{0}^{1} f(x) d x=\\frac{h}{3}\\left[\\left(y_{0}+y_{2}\\right)+4 y_{1}\\right] [/latex] [latex] =\\frac{0.5}{3}[(3+5)+4(4)]=4 [/latex] The difference between the two results will be zero.",
+    "options": {
+      "A": "0",
+      "B": "0.25",
+      "C": "0.5",
+      "D": "1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 The velocity profile inside the boundary layer for flow over a flat plate is given as [latex]\\frac{u}{U_{\\infty}}=\\sin (\\frac{\\pi }{2} \\frac{y}{\\delta } )[/latex] , Where [latex]U_{\\infty}[/latex] is the free stream velocity and  [latex]\\delta[/latex]  is the local boundary layer thickness. If [latex]\\delta ^{*}[/latex] is the local displacement thickness,is the local displacement thickness, the value of  [latex]\\frac{\\delta ^{*}}{\\delta }[/latex]  is",
+    "solution": "Given [latex]\\quad \\frac{u}{U_{\\infty}}=\\sin \\left(\\frac{\\pi}{2} \\frac{y}{\\delta}\\right) [/latex] where [latex]\\quad \\delta= [/latex] Boundary layer thickness Local displacement thickness, [latex] \\begin{aligned} \\delta^{*}&=\\int_{0}^{\\delta}\\left(1-\\frac{u}{U_{\\infty}}\\right) d y \\\\ &=\\int_{0}^{\\delta}\\left[1-\\sin \\left(\\frac{\\pi y}{2 \\delta}\\right)\\right] d y \\\\ &=\\left[y+\\frac{2 \\delta}{\\pi} \\times \\cos \\left(\\frac{\\pi y}{2 \\delta}\\right)\\right]_{0}^{\\delta} \\\\ &=\\left[\\delta+0-0-\\frac{2 \\delta}{\\pi}\\right] \\\\ \\delta^{*}&=\\delta\\left(1-\\frac{2}{\\pi}\\right)\\\\ or,\\quad \\frac{\\delta^{*}}{\\delta}&=1-\\frac{2}{\\pi} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{2}{\\pi }[/latex]",
+      "B": "[latex]1-\\frac{2}{\\pi }[/latex]",
+      "C": "[latex]1+\\frac{2}{\\pi }[/latex]",
+      "D": "0"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 Consider steady flow of an incompressible fluid through two long and straight pipes of diameters [latex]d_{1}[/latex]  and [latex]d_{2}[/latex]  arranged in series. Both pipes are of equal length and the flow is turbulent in both pipes. The friction factor for turbulent flow though pipes is of the form. [latex]f=k(Re)^{-n}[/latex], where K and n are known positive constants and Re is the Reynolds number. Neglecting minor losses, the ratio of the frictional pressure drop in pipe 1 to that in pipe 2,[latex](\\frac{\\Delta P_{1}}{\\Delta P_{2}})[/latex], is given by",
+    "solution": "For series connection, [latex] Q_{1}=Q_{2}=Q[/latex] As given [latex]\\quad l_{1}=l_{2}=l [/latex] For horizontal pipe, [latex] \\begin{aligned} h_{f}&=\\Delta p \\\\ h_{f_{1}}&=\\frac{f_{1} L Q^{2}}{12.1 d_{1}^{5}} ; \\quad h_{f_{2}}=\\frac{f_{2} L Q^{2}}{12.1 d_{2}^{5}} \\\\ \\frac{\\Delta P_{1}}{\\Delta P_{2}}&=\\frac{f_{1}}{d_{1}^{5}} \\times \\frac{d_{2}^{5}}{f_{2}} \\\\ f&=\\frac{k}{\\operatorname{Re}^{n}}=\\frac{k}{\\left(\\frac{V D}{v}\\right)^{n}} \\\\ Q&=\\frac{\\pi}{4} D^{2} \\times V \\\\ V &\\propto \\frac{1}{D^{2}} \\\\ f &\\propto \\frac{1}{\\left(\\frac{1}{D^{2}} D\\right)^{n}} \\end{aligned}[/latex] By equation (i) [latex]f \\propto D^{n} [/latex] [latex] \\frac{\\Delta P_{1}}{\\Delta P_{2}}=\\frac{d_{1}^{n}}{d_{1}^{5}} \\times \\frac{d_{2}^{5}}{d_{2}^{n}}[/latex] [latex] \\frac{\\Delta P_{1}}{\\Delta P_{2}}=\\frac{d_{2}^{5-n}}{d_{1}^{5-n}}[/latex]",
+    "options": {
+      "A": "[latex](\\frac{d_{2}}{d_{1}})^{(5-n)}[/latex]",
+      "B": "[latex](\\frac{d_{2}}{d_{1}})^{5}[/latex]",
+      "C": "[latex](\\frac{d_{2}}{d_{1}})^{(3-n)}[/latex]",
+      "D": "[latex](\\frac{d_{2}}{d_{1}})^{(5+n)}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 For a steady flow, the velocity field is [latex]\\overrightarrow{\\textrm{v}}=(-x^{2}+3y)\\hat{i}+(2xy)\\hat{j}[/latex] , The magnitude of the acceleration of a particle at (1, -1) is",
+    "solution": "Given velocity field, [latex] \\vec{V}=\\left(-x^{2}+3 y\\right) \\hat{i}+(2 x y) \\hat{j}[/latex] [latex] where \\quad u=-x^{2}+3 y \\text { and } v=2 x y[/latex] The acceleration components along x and y -axis. [latex] \\begin{aligned} a_{x}&=u \\frac{\\partial u}{\\partial x}+v \\frac{\\partial u}{\\partial y}\\\\ \\text{and}\\quad a_{y} &=u \\frac{\\partial v}{\\partial x}+v \\frac{\\partial v}{\\partial y} \\\\ &=\\left(-x^{2}+3 y\\right) \\times(-2 x)+2 x y \\times 3 \\\\ &=2 x^{3}-6 x y+6 x y=2 x^{3}\\\\ \\text{and}\\quad a_{y} &=\\left(-x^{2}+3 y\\right) \\times 2 y+2 x y \\times 2 x \\\\ &=-2 y x^{2}+6 y^{2}+4 x^{2} y=2 y x^{2}+6 y^{2} \\end{aligned}[/latex] At point (1,-1) [latex] \\begin{aligned} a_{x}&=2\\\\ \\text{and}\\quad a_{y} &=2 \\times(-1) \\times 1+6 \\times(-1)^{2} \\\\ &=-2+6=4 \\\\ \\vec{a} &=a_{x} \\hat{i}+a_{y} \\hat{j}=2 i+4 \\hat{j} \\end{aligned}[/latex] Resultant acceleration: [latex] \\begin{aligned} a &=\\sqrt{4+16}=\\sqrt{20} \\\\ &=\\sqrt{4 \\times 5}=2 \\sqrt{5} \\end{aligned}[/latex]",
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "[latex]2\\sqrt{5}[/latex]",
+      "D": "0"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 One kg of an ideal gas (gas constant, R = 400 J/kg.K; specific heat at constant volume,[latex]c_{\\textrm{v}}[/latex] =1000 J / kg .K) at 1 bar, and 300 K is contained in a sealed rigid cylinder. During an adiabatic process, 100kJ of work is done on the system by a stirrer. The increase in entropy of the system is _________ J/K.",
+    "solution": "[latex]m=1 \\mathrm{kg} ; \\quad R=400 \\mathrm{J} / \\mathrm{kg}-\\mathrm{k}[/latex] [latex] \\begin{aligned} c_{v}&=1000 \\mathrm{J} / \\mathrm{kg}-\\mathrm{K} \\\\ T_{i}&=300 \\mathrm{K} ; P_{i}=100 \\mathrm{kPa} \\\\ W&=100 \\mathrm{kJ} \\end{aligned}[/latex] Applying first law: [latex] \\begin{aligned} Q&=\\Delta U+W\\\\ \\Rightarrow \\quad 0&=m c_{v}\\left(T_{f}-T_{i}\\right)+(-100) \\times 10^{3} J \\\\ \\Rightarrow \\quad 0&=1 \\times 1000 \\times\\left(T_{f}-300\\right)-100 \\times 10^{3} \\\\ \\Rightarrow \\quad T_{f}&=400 \\mathrm{K} \\end{aligned}[/latex] Entropy change for ideal gas [latex] \\begin{aligned} \\Delta S &=m\\left[C_{v} \\ln \\frac{T_{f}}{T_{i}}+R \\ln \\frac{V_{f}}{V_{i}}\\right] \\quad \\because V_{i}=V_{f} \\\\ &=1 \\times\\left[1000 \\ln \\frac{400}{300}+0\\right] \\\\ &=287.682 \\mathrm{J} / \\mathrm{K} \\end{aligned}[/latex]",
+    "min": 285.0,
+    "max": 289.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 The Pressure ratio across a gas turbine (for air, specific heat at constant pressure,[latex]c_{\\textrm{p}}[/latex] 1040 J / kg .K and ratio of specific heats, [latex]\\gamma =1.4[/latex]  ) is 10. If the inlet temperature to the turbine is 1200K and the isentropic efficiency is 0.9, the gas temperature at turbine exit is ______ K.",
+    "solution": "[latex]\\begin{aligned} \\text{Given data:}\\;\\mathrm{c}_{p}&=1040 \\mathrm{J} / \\mathrm{kgK} ; \\gamma=1.4 ; r_{p}=10; \\\\ T_{3}&=1200 \\mathrm{K};\\;\\eta=0.9 \\\\ \\frac{T_{7}}{T_{4 s}}&=\\left(r_{p}\\right) \\frac{\\gamma-1}{\\gamma} \\end{aligned}[/latex] [latex] \\begin{aligned} \\frac{1200}{T_{4 s}} &=(10)^{(1.4-1) / 1.4} \\\\ \\text { or } \\quad T_{4 s} &=621.53 \\mathrm{K} \\\\ \\eta_{T} &=\\frac{T_{3}-T_{4}}{T_{3}-T_{4 s}} \\\\ 0.9 &=\\frac{1200-T_{4}}{1200-621.53} \\\\ \\text{or}\\qquad T_{4} &=679.4 \\mathrm{K} \\end{aligned}[/latex]",
+    "min": 675.0,
+    "max": 684.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 Moist air is treated as an ideal gas mixture of water vapor and dry air (molecular weight of air = 28.84 and molecular weight of water = 18). At a location, the total pressure is 100 kPa, the temperature is [latex]30^{\\circ}C[/latex]  and the relative humidity is 55%. Given that the saturation pressure of water at [latex]30^{\\circ}C[/latex].is 4246 Pa, the mass of water vapor per kg of dry air is _____________ grams.",
+    "solution": "Relative humidity: [latex] \\begin{aligned} \\phi &=\\frac{p_{v}}{p_{v s}} \\\\ 0.55 &=\\frac{p_{v}}{4246}\\\\ \\text { or } \\quad p_{v}&=2335.3 \\mathrm{Pa}=2.335 \\mathrm{kPa} \\\\ \\therefore \\quad \\omega &=\\frac{(\\mathrm{Mol} \\cdot \\mathrm{wt})_{\\mathrm{H}_{2} \\mathrm{O}}}{(\\mathrm{Mol} \\cdot \\mathrm{w} \\mathrm{t})_{\\mathrm{air}}} \\times\\left(\\frac{p_{v}}{p-p_{v}}\\right) \\\\ &=\\frac{18}{28.84} \\times\\left(\\frac{2.335}{100-2.335}\\right) \\\\ &=0.01492 \\mathrm{kg} / \\mathrm{kg} \\text { of d.a } \\\\ \\text { also } \\quad \\omega &=\\frac{m_{v}}{m_{a}} \\\\ \\therefore \\quad 0.01492 &=\\frac{m_{v}}{1}\\\\ \\text{or }\\quad m_{v}&=0.01492 \\mathrm{kg}=14.92 \\mathrm{gm} \\end{aligned}[/latex]",
+    "min": 14.7,
+    "max": 15.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 Air contains 79% N2 and 21%  [latex]O_{2}[/latex] on a molar basis. Methane ([latex]CH_{4}[/latex]) is burned with 50% excess air than required stoichiometrically. Assuming complete combustion of methane, the molar percentage of [latex]N_{2}[/latex]  in the products is _______________",
+    "solution": "Stoichiometrically balanced equation for combustion of [latex]{\\mathrm{CH}}_4[/latex] [latex]{\\mathrm{CH}}_4+2{\\mathrm O}_2\\rightarrow{\\mathrm{CO}}_2+2{\\mathrm H}_2\\mathrm O[/latex] Actual moles of [latex]{\\mathrm{O}}_2[/latex] used [latex]=2\\times\\left(\\frac{150}{100}\\right)=3[/latex] moles of [latex]{\\mathrm{O}}_2[/latex] Actual equation [latex]{\\mathrm{CH}}_4+3{\\mathrm o}_2\\rightarrow{\\mathrm{Co}}_2+2{\\mathrm H}_2\\mathrm o+{\\mathrm O}_2[/latex] Consider Air instead of pure [latex]{\\mathrm{O}}_2[/latex] [latex]{\\mathrm{CH}}_4+\\left[3{\\mathrm o}_2+3\\left(\\frac{79}{21}\\right){\\mathrm N}_2\\right]\\rightarrow{\\mathrm{Co}}_2+2{\\mathrm H}_2\\mathrm O+{\\mathrm O}_2+\\frac{79}7\\mathrm N2[/latex] Total moles in product  [latex]=1+2+1+\\frac{79}7=15.285[/latex] Molar percentage of [latex]{\\mathrm N}_2=\\frac{11.285}{15.285}\\times100=73.830\\%[/latex]",
+    "min": 72.0,
+    "max": 75.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 Two black surfaces, AB and BC, of lengths 5m and 6m, respectively, are oriented as shown. Both surfaces extend infinitely into the third dimension. Given that view factor [latex]F_{12}=0.5[/latex],[latex]T_{1}=800K[/latex],[latex]T_{2}=600K[/latex] , [latex]T_{surrounding} =300K[/latex], and Stefan Boltzmann constant, [latex]\\sigma =5.67\\,\\times\\,10^{-8}W/(m^{2}K^{4})[/latex], the heat transfer rate from Surface 2 to the surrounding environment is ____________ kW.",
+    "solution": "Marks to All as per IIT official Answer [latex]F_{12} =0.5[/latex] [latex]\\begin{aligned} T_{1} &=800 \\mathrm{K} \\\\ T_{2} &=600 \\mathrm{K} \\\\ T_{\\text {surounding }} &=300 \\mathrm{K} \\end{aligned}[/latex] Let (3) denote the surrounding environment (Assume unit width perpendicular to plane of Fig.) From summation rule: [latex] \\begin{aligned} F_{21}+F_{\\beta 2}^{0}+F_{23} &=1 \\\\ A_{1} F_{12} &=A_{2} F_{21}=6 \\times 1 \\times 0.5 \\\\ &=(5 \\times 1) \\times F_{21} \\\\ F_{21} &=\\frac{6 \\times 0.5}{5}=0.6\\\\ \\therefore \\quad F_{23}&=1-F_{21}=0.4 \\end{aligned}[/latex] since surrounding environment being large, No surface has a surface resistance. Heat transfer rate from (2) and (3)[latex]=\\frac{E_{b_{2}}-E_{b_{3}}}{\\frac{1}{A_{2} F_{23}}} [/latex] [latex] \\begin{aligned} &=\\frac{\\sigma\\left(T_{2}^{4}-T_{3}^{4}\\right)}{1} \\\\ &=\\frac{5.67 \\times 10^{-8}\\left(600^{4}-300^{4}\\right)}{A_{2} F_{23}} \\text { watt/metre }\\\\ &=13.778 \\mathrm{kW} / \\mathrm{metre} \\\\ \\end{aligned}[/latex] Assume that heat exchange is per unit width perpendicular to plane of figure",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2017_Set1/page8_q2.webp",
+    "min": 13.7,
+    "max": 13.7
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 Heat is generated uniformly in a long solid cylindrical rod (diameter = 10mm) at the rate of [latex]4\\,\\times\\,10^{7}[/latex]  W/[latex]m^{3}[/latex]. The thermal conductivity of the rod material is 25W/m.K. Under steady state conditions, the temperature difference between the centre and the surface of the rod is _________ [latex]^{\\circ}C[/latex].",
+    "solution": "[latex] \\begin{aligned} T_{0}&= \\text{ Temp. of cylinder at the axis}\\\\ T_{S} &=\\text { Surface Temp. of Rod (cylindel) } \\\\ T_{O}-T_{S} &=\\frac{\\dot{q}}{4 k} R^{2} \\end{aligned}[/latex] [latex] \\dot{q}[/latex] uniform heat generation rate per unit volumne [latex] \\left(w / m^{3}\\right) [/latex] [latex] T_{0}-T_{S}=\\frac{4 \\times 10^{7}}{4 \\times 25} \\times\\left(\\frac{5}{1000}\\right)^{2}=10^{\\circ} \\mathrm{C}[/latex]",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 An initially stress-free massless elastic beam of length L and circular cross-section with diameter d [latex](d \\lt \\! \\lt l)[/latex] is held fixed between two walls as shown. The beam material has Young's modulus E and coefficient of thermal expansion [latex]\\alpha[/latex] . If the beam is slowly and uniformly heated, the temperature rise required to cause the beam to buckle is proportional to",
+    "solution": "Condition for buckling, (Reaction offered by the fixed support)[latex]\\gt [/latex] Buckling load [latex] \\begin{aligned} i.e. R&>P e\\\\ \\sigma_{\\mathrm{Th}} A>& \\frac{\\pi^{2} E I_{\\mathrm{min}}}{L_{e}^{2}} \\\\ \\alpha(\\Delta T) E A>& \\frac{\\pi^{2} E I_{\\min }}{\\left(L_{\\theta}\\right)^{2}}\\\\ \\text{for cicular cross-section}\\\\ \\alpha(\\Delta T) E \\frac{\\pi}{4} d^{2} &>\\frac{\\pi^{2} E}{\\left(L_{e}\\right)^{2}} \\frac{\\pi}{64} d^{4} \\\\ \\Delta T &>\\frac{\\pi^{2} d^{2}}{16 \\alpha\\left(L_{\\theta}\\right)^{2}} \\\\ \\text{Hence,}\\quad \\Delta T & \\propto d^{2} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2017_Set1/page8_q4.webp",
+    "options": {
+      "A": "d",
+      "B": "[latex]d^{2}[/latex]",
+      "C": "[latex]d^{3}[/latex]",
+      "D": "[latex]d^{4}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 A point mass of 100 kg is dropped onto a massless elastic bar (cross-sectional area=[latex]100\\,mm^{2}[/latex] , length = 1m, Young's moduls = 100 GPa) from a height H of 10mm as shown (Figure is not to scale). If [latex]g=10\\,m/s^{2}[/latex],, the maximum compression of the elastic bar is _______mm.",
+    "solution": "Given loading is impact loading [latex] \\begin{aligned} \\delta_{\\text {impact }} &=\\delta_{\\text {static }} \\times \\text { Impact factor } \\\\ \\delta_{\\text {static }} &=\\frac{W L}{A E}=\\frac{100 \\times 10 \\times 1000}{100 \\times 100 \\times 10^{3}} \\\\ &=0.1 \\mathrm{mm} \\end{aligned}[/latex] Impact factor (I.F.) [latex] =1+\\sqrt{1+\\frac{2 h}{\\delta_{\\text {static }}}}[/latex] [latex] =1+\\sqrt{1+\\frac{2 \\times 10}{0.1}}=15.178[/latex] Hence maximum compression of bar = Impact elongation [latex] =0.1 \\times 15.178=1.5178 \\mathrm{m}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2017_Set1/page8_q5.webp",
+    "min": 1.5,
+    "max": 1.52
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 Two disks A and B with identical mass (m) and radius (R) are initially at rest. They roll down from the top of identical inclined planes without slipping. Disk A has all of its mass concentrated at the rim, while Disk B has its mass uniformly distributed. At the bottom of the plane, the ratio of velocity of the center of disk A to the velocity of the center of disk B is.",
+    "solution": "[latex]m_{A}=m_{B}=m[/latex] Outer circumferential radius of both disc A and B is also same i.e. R [latex] \\begin{aligned} I_{A}&=m R^{2} \\\\ I_{B}&=\\frac{m R^{2}}{2} \\end{aligned}[/latex] [latex] \\frac{V_{A}}{V_{B}} [/latex] at bottom of plane =? [latex] m g h=(K \\cdot E) [/latex] of disc [latex]A=K \\cdot E [/latex] of disc B [latex] \\begin{aligned} \\frac{1}{2} m V_{A}^{2}+\\frac{1}{2} I_{A} \\omega_{A}^{2} &=\\frac{1}{2} m V_{B}^{2}+\\frac{1}{2} I_{B} \\omega_{B}^{2} \\\\ \\frac{1}{2} m V_{A}^{2}+\\frac{1}{2} m R^{2} \\frac{V_{A}^{2}}{R^{2}} &=\\frac{1}{2} m V_{B}^{2}+\\frac{1}{2} \\frac{m R^{2}}{2} \\times \\frac{V_{B}^{2}}{R^{2}} \\\\ \\frac{V_{A}^{2}}{2}+\\frac{V_{A}^{2}}{2} &=\\frac{V_{B}^{2}}{2}+\\frac{V_{B}^{2}}{4} \\\\ V_{A}^{2} &=\\frac{3}{4} V_{B}^{2} \\\\ \\frac{V_{A}}{V_{B}} &=\\sqrt{\\frac{3}{4}} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\sqrt{\\frac{3}{4}}[/latex]",
+      "B": "[latex]\\sqrt{\\frac{3}{2}}[/latex]",
+      "C": "1",
+      "D": "[latex]\\sqrt{2}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 A rectangular region in a solid is in a state of plane strain. The (x,y) coordinates of the corners of the under deformed rectangle are given by P(0,0), Q (4,0), S (0,3). The rectangle is subjected to uniform strains,[latex]\\varepsilon _{xx}=0.001[/latex] , [latex]\\varepsilon _{yy}=0.002[/latex],[latex]\\gamma _{xy}=0.003[/latex].The deformed length of the elongated diagonal, up to three decimal places, is _________ units.",
+    "solution": "[latex]\\tan \\theta=\\frac{4}{3}[/latex] [latex]\\begin{aligned} \\theta &=53.13^{\\circ} \\\\ 2 \\theta &=106.26^{\\circ} \\\\ \\cos 2 \\theta &=-0.27999 \\\\ \\sin 2 \\theta &=0.96 \\end{aligned}[/latex] Normal strain on a oblique plane (i.e. RP) inclined at an angle [latex](\\theta)[/latex] is given by [latex] \\begin{aligned} \\left(\\varepsilon_{n}\\right)_{\\theta}=& \\frac{1}{2}\\left[\\varepsilon_{x}+\\varepsilon_{y}\\right]+\\frac{1}{2}\\left[\\varepsilon_{x}-\\varepsilon_{y}\\right] \\cos 2 \\theta \\\\ & +\\left(\\frac{\\gamma x y}{2}\\right) \\sin 2 \\theta \\\\ =& \\frac{1}{2}[0.001+0.002]+\\frac{1}{2}[0.001-0.002] \\\\ &[-0.27999]+\\left(\\frac{0.003}{2}\\right)(0.96) \\\\ &\\left(\\varepsilon_{n}\\right)_{\\theta=53.13^{\\circ}}=0.00308 & \\\\ =& \\frac{\\text { Change in length of diagonal }}{\\text { Original length of diagonal }}=0.00308 \\end{aligned}[/latex] Hence, change in length of diagonal [latex] =(0.00308) 5=0.0154 \\mathrm{mm}[/latex] deformed length of diagonal [latex] =5+0.0154=5.0154 \\mathrm{mm}[/latex]",
+    "min": 5.013,
+    "max": 5.015
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 A machine element has an ultimate strength [latex](\\sigma _{u})[/latex] of [latex]600\\, N/mm^{2}[/latex] , and endurance limit [latex](\\sigma _{en})[/latex] of  [latex]250\\, N/mm^{2}[/latex] , The fatigue curve for the element on log- log plot is shown below. If the element is to be designed for a finite of 10000 cycles, the maximum amplitude of a completely reversed operating stress is _______ [latex]N/mm^{2}[/latex].",
+    "solution": "From two similar triangles, [latex] (i.e. \\Delta A B D \\text { and } \\Delta E C D) [/latex] [latex] \\begin{aligned} \\frac{A B}{E C}&=\\frac{B D}{C D} \\\\ \\frac{\\left(\\log _{10} 480-\\log _{10} 250\\right)}{\\left(\\log _{10} S-\\log _{10}-250\\right)}&=\\frac{6-3}{6-\\log _{10} 10000} \\\\ \\frac{2.68124-2.39794}{\\log _{10} S-2.39794}&=1.5 \\\\ S&=386.195 \\mathrm{N} / \\mathrm{mm}^{2} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2017_Set1/page9_q3.webp",
+    "min": 370.0,
+    "max": 390.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 A horizontal bar, fixed at one end (x = 0), has a length of 1 m, and cross-sectional area of [latex]100\\,mm^{2}[/latex].   Its elastic modulus varies along its length as given by [latex]E(x)=100\\,e^{-x}\\,[/latex]  Where x is the length coordinate \n(in m) along the axis of the bar. An axial tensile load of 10 kN is applied at the free end (x=1). The axial displacement of the free end is _______ mm.",
+    "solution": "Change in length of small strip, [latex] \\delta=\\frac{P_{x-x}(d x)}{A_{x-x} E_{x x}}[/latex] Total change in length of bar, [latex] \\begin{aligned} \\delta_{\\text {total }} &=\\int_{0}^{L} \\delta=\\int_{0}^{L} \\frac{\\left(P_{x-x}\\right)(d x)}{\\left(A_{x-x}\\right) E_{x-x}} \\\\ P_{x-x} &=P=\\text { Constant } \\\\ A_{x-x} &=A=\\text { Constant } \\\\ E_{x-x} &=100 e^{-x} \\text { GPA } \\\\ \\delta_{\\text {tolal }} &=\\frac{P}{A} \\int_{0}^{L} \\frac{d x}{100 e^{-x}} \\\\ &=\\frac{P}{10^{9} \\times 100 A} \\int_{0}^{L} \\frac{d x}{e^{-x}} \\\\ &=\\frac{10000}{1000 \\times \\frac{100 \\times 10^{9}}{10^{6}} }\\int_{0}^{1}\\frac{d x}{e^{-x}} \\\\ &=\\frac{1}{1000}[1.7183] m \\\\ \\text{Hence,}\\quad &=1.7183 \\mathrm{mm} \\end{aligned}[/latex]",
+    "min": 1.7,
+    "max": 1.72
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 In an epicyclic gear train, shown in the figure, the outer ring gear is fixed, while the sun gear rotates counterclockwise at 100rpm. Let the number of teeth on the sun, planet and outer gears to be 50, 25, and 100, respectively. The ratio of magnitudes of angular velocity of the planet gear to the angular velocity of the carrier arm is _________.",
+    "solution": "We take convention clockwise (+ve) [latex] \\begin{aligned} N_{D} &=0 \\\\ N_{S} &=-100 \\\\ T_{S} &=50, \\quad T_{P}=25, T_{D}=100 \\\\ \\frac{N_{P}}{N_{\\mathrm{ARM}}}&=? \\end{aligned}[/latex] [latex] y+x=-100 \\qquad \\cdots(i)[/latex] [latex] y-\\frac{x}{2}=0 \\qquad \\cdots(ii)[/latex] By equation (i) - (ii) [latex] \\begin{aligned} \\frac{3 x}{2} &=-100=x=\\frac{-200}{3} \\\\ y &=-100-x=-100+\\frac{200}{3}=\\frac{-100}{3} \\\\ N_{p} &=y-2 x=\\frac{-100}{3}+\\frac{400}{3}=\\frac{300}{3}=100 \\\\ N_{\\mathrm{ARM}} &=y=\\frac{-100}{3} \\\\ \\frac{N_{P}}{N_{\\mathrm{ARM}}} &=\\frac{100}{\\frac{-100}{3}}=-3 \\\\ \\left| \\frac{N_{\\mathrm{P}}}{N_{\\mathrm{ARM}}}\\right | &=3 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2017_Set1/page9_q5.webp",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 A thin uniform rigid bar of length L and mass M is hinged at point O, located at a distance of  [latex]\\frac{L}{3}[/latex]  from one of its ends. The bar is further supported using springs, each of stiffness k, located at the two ends. A particle of mass [latex]m=\\frac{M}{4}[/latex]  is fixed at one end of the bar, as shown in the figure. For small rotations of the bar about O, the natural frequency of the systems is",
+    "solution": "Taking Mass moment of inertia about point 0, [latex] \\begin{aligned} I &=\\frac{M l^{2}}{12}+M\\left(\\frac{l}{2}-\\frac{l}{3}\\right)^{2}+m \\times\\left(\\frac{2 l}{3}\\right)^{2} \\\\ &=\\frac{M l^{2}}{12}+\\frac{M l^{2}}{36}+\\frac{4 M l^{2}}{9} \\\\ &=\\frac{M l^{2}}{9}+\\frac{4 M l^{2}}{4 \\times 9}=\\frac{2 M l^{2}}{9} \\end{aligned}[/latex] Now we will balance torque about 0 [latex] \\begin{aligned} I \\alpha &=k \\times \\frac{2 L}{3} \\times\\left(\\frac{2 L}{3} \\theta\\right)+k \\times \\frac{L}{3} \\times\\left(\\frac{L}{3} \\theta\\right) \\\\ \\frac{2 M l^{2}}{9} \\frac{d^{2} \\theta}{d t^{2}} &=\\frac{5 k}{2 M}=\\omega_{n}^{2} \\theta \\\\ \\therefore \\quad \\omega_{n}&=\\sqrt{\\frac{5 k}{2 M}} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2017_Set1/page10_q1.webp",
+    "options": {
+      "A": "[latex]\\sqrt{\\frac{5k}{M}}[/latex]",
+      "B": "[latex]\\sqrt{\\frac{5k}{2M}}[/latex]",
+      "C": "[latex]\\sqrt{\\frac{3k}{2M}}[/latex]",
+      "D": "[latex]\\sqrt{\\frac{3k}{M}}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 For an inline slider-crank mechanism, the lengths of the crank and connecting rod are 3m and 4m, respectively. At the instant when the connecting rod is perpendicular to the crank, if the velocity of the slider is 1m/s, the magnitude of angular velocity (upto 3 decimal points accuracy) of the crank is _________ radian/s.",
+    "solution": "[latex] \\begin{aligned} \\text { Here } & V_{B}=1 \\mathrm{m} / \\mathrm{s} \\\\ & \\omega_{\\text {crank }}=? \\end{aligned}[/latex] Let us draw the I-centres Applying angular velocity theorem at [latex]I_{24} [/latex] [latex] \\begin{array}{l} \\therefore \\omega_{2}\\left(I_{24} I_{12}\\right)=V_{4}=V_{B}=1 \\\\ \\omega_{2}\\left(I_{24} I_{12}\\right)=1 \\end{array}[/latex] [latex] \\begin{aligned} \\theta &=\\tan ^{-1}(4 / 3)=53.13010 \\\\ \\alpha &=90^{\\circ}-\\theta=36.869 \\\\ \\cos \\alpha &=\\frac{3}{I_{12} I_{24}} \\\\ I_{12} I_{24} &=\\frac{3}{\\cos 36.869}=3.7499 \\mathrm{meter} \\\\ \\text{Now}, & \\omega_{2}(3.7499)=1 \\\\ \\omega_{2} &=\\frac{1}{3.7499}=0.266 \\mathrm{rad} / \\mathrm{s} \\end{aligned}[/latex]",
+    "min": 0.26,
+    "max": 0.29
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 A 10 mm deep cylindrical cup with diameter of 15mm is drawn from a circular blank. Neglecting the variation in the sheet thickness, the diameter (upto 2 decimal points accuracy) of the blank is _________ mm.",
+    "solution": "[latex]\\begin{aligned} D &=\\sqrt{d^{2}+4 d h}=\\sqrt{15^{2}+4 \\times 15 \\times 10} \\\\ &=28.723 \\mathrm{mm} \\end{aligned}[/latex]",
+    "min": 28.71,
+    "max": 28.73
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 Circular arc on a part profile is being machined on a vertical CNC milling machine. CNC part program using metric units with absolute dimensions is listed below: ------------------------------ N60 G01 X 30 Y 55 Z 5 F 50 N70 G02 X 50 Y 35 R 20 N80 G01 Z 5 -------------------------------- The coordinates of the centre of the circular arc are :",
+    "solution": "",
+    "options": {
+      "A": "(30, 55)",
+      "B": "(50, 55)",
+      "C": "(50, 35)",
+      "D": "(30, 35)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 Assume that the surface roughness profile is triangular as shown schematically in the figure. If the peak to valley height is [latex]20\\,\\mu m[/latex], The central line average  surface roughness [latex]R_{a}(in\\,\\mu m)[/latex]  is",
+    "solution": "[latex]R_{a}=\\frac{h}{4}=\\frac{20}{4}=5 \\mu \\mathrm{m}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2017_Set1/page10_q5.webp",
+    "options": {
+      "A": "5",
+      "B": "6.67",
+      "C": "10",
+      "D": "20"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 Two models, P and Q, of a product earn profits of Rs. 100 and Rs. 80 per piece, respectively. Production times for P and Q are 5 hours and 3 hours, respectively, while the total production time available is 150 hours. For a total batch size of 40, to maximize profit, the number of units of P to be produced is ____________.",
+    "solution": "Max. Z=100 x P + 80 x Q [latex]\\begin{aligned} 5P+3Q&\\leq 150\\\\ P+Q&\\leq 40\\\\ \\frac{P}{30}+\\frac{Q}{30}&=1 \\end{aligned} [/latex] Putting value of corner point in objective function Z(A)=3200 Z(B)=3500 Z(C)=3000 Maximum at B, P=15, Q=25",
+    "min": 15.0,
+    "max": 15.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 Following data refers to the jobs (P, Q, R, S) which have arrived at a machine for scheduling. The shortest possible average flow time is ___________ days.",
+    "solution": "SPT rule given shortest average Job flow time So, applying SPT Average job flow time [latex] =\\frac{124}{4}=31\\text{days}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2017_Set1/page11_q2.webp",
+    "min": 31.0,
+    "max": 31.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 A block of length 200mm is machined by a slab milling cutter 34mm in diameter. The depth of cut and table feed are set at 2mm and 18mm/minute, respectively. Considering the approach and the over travel of the cutter to be same, the minimum estimated machining time per pass is _____________ minutes.",
+    "solution": "Over travel length is given by [latex]=\\sqrt{d(D-d)}=\\sqrt{2(34-2)}=8[/latex] Estimated maching time per pass is given by [latex]=\\frac{Block\\;length+Approach+over \\;travel}{Table\\;feed}=\\frac{200+8+8}{18}=12\\;min[/latex]",
+    "min": 11.95,
+    "max": 12.05
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 A sprue in a sand mould has a top diameter of 20mm and height of 200mm. The velocity of the molten metal at the entry of the sprue is 0.5m/s. Assume acceleration due to gravity as [latex]9.8\\,m/s^{2}[/latex] and neglect all losses. If the mould is well ventilated, the velocity (upto 3 decimal points accuracy) of the molten metal at the bottom of the sprue is ________ m/s.",
+    "solution": "[latex]d^{2}=20\\mathrm{mm}[/latex] [latex] \\begin{aligned} h_{s} &=200 \\mathrm{mm} \\\\ u_{2} &=0.5 \\mathrm{m} / \\mathrm{s} \\\\ g &=9.8 \\mathrm{m} / \\mathrm{s}^{2} \\\\ u_{3} &=? \\\\ u_{2} &=\\sqrt{2 g h_{c}} \\\\ 0.5 &=\\sqrt{2 \\times 9.81 \\times h_{c}}\\\\ \\Rightarrow \\quad h_{c}&=0.01274 \\mathrm{m}\\\\ h_{t}&=h_{s}+h_{c}=0.200+0.01274\\\\ &=0.2127 \\mathrm{m} \\\\ u_{3} &=\\sqrt{2 g h_{t}}=\\sqrt{2 \\times 9.81 \\times 0.2127} \\\\ &=2.043 \\mathrm{m} / \\mathrm{s} \\end{aligned}[/latex]",
+    "min": 2.04,
+    "max": 2.07
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 Two cutting tools with tool life equations given below are being compared: Tool 1: [latex]VT^{0.1}[/latex]  = 150 Tool 2: [latex]VT^{0.3}[/latex]  = 300 Where V is cutting speed in m/minute and T is tool life in minutes. The breakeven cutting speed beyond which Tool 2 will have a higher tool life is ________ m/minute.",
+    "solution": "Let us assume the speed is [latex]x\\;\\mathrm{m} / \\mathrm{min} [/latex] [latex] \\begin{aligned} x T_{1}^{0.1} &=150 \\\\ \\Rightarrow \\quad T_{1} &=\\left(\\frac{150}{x}\\right)^{\\frac{1}{0.1}} \\text { and } x T_{2}^{0.3}=300\\\\ T_{2}&=\\left(\\frac{300}{x}\\right)^{\\frac{1}{0.3}} \\end{aligned}[/latex] Now [latex]T_{2}>T_{1} [/latex] [latex] \\text { or }\\left(\\frac{300}{x}\\right)^{\\frac{1}{0.3}}=\\left(\\frac{150}{x}\\right)^{\\frac{1}{0.1}}[/latex] For solving inequality [latex] \\begin{aligned} \\left(\\frac{300}{x}\\right)^{\\frac{1}{0.3}}&=\\left(\\frac{150}{x}\\right)^{\\frac{1}{0.1}}\\\\ \\text{or }\\quad\\left(\\frac{300}{x}\\right)^{0.1}&=\\left(\\frac{150}{x}\\right)^{0.3} \\\\ \\text{or }\\quad\\quad \\frac{x^{0.3}}{x^{0.1}}&=\\frac{150^{03}}{300^{01}} \\\\ \\text{or }\\quad x&=106.066 \\end{aligned}[/latex]",
+    "min": 105.0,
+    "max": 107.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 He was one of my best _______ and I felt his loss _____",
+    "solution": "",
+    "options": {
+      "A": "friend, keenly",
+      "B": "friends, keen",
+      "C": "friend, keener",
+      "D": "friends, keenly"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 As the two speakers become increasingly agitated, the debate became _____",
+    "solution": "",
+    "options": {
+      "A": "lukewarm",
+      "B": "poetic",
+      "C": "forgiving",
+      "D": "heated"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 A right-angled cone (with base radius 5 cm and height 12 cm), as shown in the figure below, is rolled on the ground keeping the point P fixed until the point Q (at the base of the cone, as shown) touches the ground again. By what angle (in radians) about P does the cone travel?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2017_Set1/page12_q3.webp",
+    "options": {
+      "A": "[latex]\\frac{5\\pi}{12} [/latex]",
+      "B": "[latex]\\frac{5\\pi}{24} [/latex]",
+      "C": "[latex]\\frac{24\\pi}{5} [/latex]",
+      "D": "[latex]\\frac{10\\pi}{13} [/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 In a company with 100 employees, 45 earn Rs.20,000 per month, 25 earn Rs.30000, 20 earn Rs.40000, 8 earn Rs.60000, and 2 earn Rs.150,000. The median of the salaries is",
+    "solution": "",
+    "options": {
+      "A": "Rs.20,000",
+      "B": "Rs.30,000",
+      "C": "Rs.32,300",
+      "D": "Rs. 40,000"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 P , Q and R talk about S's car collection. P states that S has at least 3 cars. Q believes that S has less than 3 cars. R indicates that to its knowledge, S has at least one car. Only one of P,Q and R is right. The number of cars owned by S is.",
+    "solution": "",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "3",
+      "D": "Cannot be determined."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 \"Here, throughout the early 1820s, Stuart continued to fight is losing battle to allow his sepoys to wear their caste-marks and their own choice of facial hair on parade, being again reprimanded by the commander-in-chief. His retort that 'A stronger instance than this of European prejudice with relation to this country has never come under my observations' had no effect on his superiors.\" According to this paragraph, which of the statements below is most accurate?",
+    "solution": "",
+    "options": {
+      "A": "Stuart's commander-in-chief was moved by this demonstration of his prejudice.",
+      "B": "The Europeans were accommodating of the sepoy's desire to wear their caste-marks.",
+      "C": "Stuart's 'losing-battle' refers to his inability to succeed in enabling sepoys to wear caste-marks.",
+      "D": "The commander-in-cheif was exempt from the Europeans prejudice that dictated how the sepoys were to dress."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 What is the sum of the missing digits in the subtraction problem below? [latex]\\begin{array}{llllll} {} &5 & \\text{\\_} & \\text{\\_} & \\text{\\_} & \\text{\\_} \\\\ \\text{\\_} &4 & 8 & \\text{\\_}& 8 & 9 \\\\ \\hline & & 1 & 1 &1 &1 \\end{array}[/latex]",
+    "solution": "",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "11",
+      "D": "Cannot be determined."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 Let S1 be the plane figure consisting of the points [latex](x,y)[/latex] given by the inequalities [latex]|x-1|\\leq 2 \\text{ and } |y+3|\\leq 3[/latex]. Let S2 be the plane figure given by the inequalities [latex]x-y\\geq -2, y\\geq 1 \\text{ and } x \\leq 3[/latex]. Let S be the union of S1 and S2. The area of S is.",
+    "solution": "",
+    "options": {
+      "A": "26",
+      "B": "28",
+      "C": "32",
+      "D": "34"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 Two very famous sportsmen Mark and Steve happened to be brothers and played for country K. Mark teased James, an opponent from country E, \"There is no way you are good enough to play for your country.\" James replied, \"Maybe not, but at least I am the best player in my own family.\" Which one of the following can be inferred from this conversation?",
+    "solution": "",
+    "options": {
+      "A": "Mark was known to play better than James.",
+      "B": "Steve was known to play better than Mark.",
+      "C": "James and Steve were good friends.",
+      "D": "James played better than steve."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 The growth of bacteria (lactobacillus) in milk leads to curd formation. A minimum bacterial population density of 0.8 (in suitable units) is needed to form curd. In the graph below, the population density of lactobacillus in 1 litre of milk is plotted as a function of time, at two different temperatures, 25[latex]^{\\circ}C[/latex] and 37[latex]^{\\circ}C[/latex]. Consider the following statements based on the data shown above: i.  The growth in bacterial population stops earlier at 37[latex]^{\\circ}C[/latex] as compared to 25[latex]^{\\circ}C[/latex] ii.  The time taken for curd formation at 25[latex]^{\\circ}C[/latex] is twice the time taken at 37[latex]^{\\circ}C[/latex] Which one of the following options is correct?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/2017_Set1/page13_q5.webp",
+    "options": {
+      "A": "only i.",
+      "B": "Only ii.",
+      "C": "Both i and ii.",
+      "D": "Neither i nor ii"
+    },
+    "correct_answer": "A"
+  }
+]
