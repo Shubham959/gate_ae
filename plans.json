@@ -1,7 +1,27 @@
 [
-  {"title": "7 Days", "price": 49},
-  {"title": "1 Month", "price": 149},
-  {"title": "3 Months", "price": 399},
-  {"title": "6 Months", "price": 699},
-  {"title": "1 Year", "price": 1299}
+  {
+    "title": "7 Days",
+    "price": 49,
+    "qr": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/qr/qr_7days.jpg"
+  },
+  {
+    "title": "1 Month",
+    "price": 149,
+    "qr": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/qr/qr_1month.jpg"
+  },
+  {
+    "title": "3 Months",
+    "price": 399,
+    "qr": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/qr/qr_3months.jpg"
+  },
+  {
+    "title": "6 Months",
+    "price": 699,
+    "qr": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/qr/qr_6months.jpg"
+  },
+  {
+    "title": "1 Year",
+    "price": 1299,
+    "qr": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/qr/qr_1year.jpg"
+  }
 ]
