@@ -63,15 +63,16 @@
     "type": "mcq",
     "question": "Q6",
     "image": null,
-    "solution": "solutionQ4",
+    "solution": "solutionQ6",
     "options": {
-      "A": "optionQ4_A",
-      "B": "optionQ4_B",
-      "C": "optionQ4_C",
-      "D": "optionQ4_D"
+      "A": "optionQ6_A",
+      "B": "optionQ6_B",
+      "C": "optionQ6_C",
+      "D": "optionQ6_D"
     },
     "correct_answer": "A"
   }
 ]
+
 
 
