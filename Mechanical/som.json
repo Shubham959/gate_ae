@@ -1,69 +1,61 @@
 [
   {
     "type": "mcq",
-    "question": "Q1",
+    "question": "Question 1 The product of eigenvalues of the matrix P is [latex]P=\\begin{bmatrix} 2 & 0 & 1\\\\ 4 & -3 & 3\\\\ 0 & 2 & -1 \\end{bmatrix}[/latex]",
     "image": null,
-    "solution": "solutionQ1",
+    "solution": "Product of Eigen value = determinant value [latex] \\begin{array}{l} =2(3-6)+1(8-0) \\\\ =2(-3)+8=-6+8=2 \\end{array}[/latex]",
     "options": {
-      "A": "optionQ1_A",
-      "B": "optionQ1_B",
-      "C": "optionQ1_C",
-      "D": "optionQ1_D"
+      "A": "-6",
+      "B": "2",
+      "C": "6",
+      "D": "-2"
     },
     "correct_answer": "B"
   },
   {
     "type": "mcq",
-    "question": "Q2",
+    "question": "Question 2 The value of  [latex]lim _{x \\to 0}\\: \\frac{x^{3}-\\sin(x)}{x}[/latex]  is",
     "image": null,
-    "solution": "solutionQ2",
+    "solution": "[latex]\\begin{aligned} \\lim _{x \\rightarrow 0} \\frac{x^{3}-\\sin x}{x} &=\\left(\\frac{0}{0} \\mathrm{form}\\right) \\\\ \\lim _{x \\rightarrow 0} \\frac{3 x^{2}-\\cos x}{1} &=0-\\cos 0 \\\\ &=0-1=-1 \\end{aligned}[/latex]",
     "options": {
-      "A": "optionQ2_A",
-      "B": "optionQ2_B",
-      "C": "optionQ2_C",
-      "D": "optionQ2_D"
+      "A": "0",
+      "B": "3",
+      "C": "1",
+      "D": "-1"
     },
     "correct_answer": "D"
   },
   {
     "type": "mcq",
-    "question": "Q3",
+    "question": "Question 3 consider the following partial differential equation for u(x,y) with the constant c[latex]\\gt 1[/latex]: [latex]\\frac{\\partial y}{\\partial x}+c \\: \\frac{\\partial u}{\\partial x} =0[/latex] solution of this equations is",
     "image": null,
-    "solution": "solutionQ3",
+    "solution": "[latex]\\small \\begin{aligned} u &=f(x-c y) \\\\ \\frac{\\partial u}{\\partial x} &=f^{\\prime}(x-c y)(1) \\\\ \\frac{\\partial u}{\\partial y} &=f^{\\prime}(x-c y)(-c) \\\\ &=-c \\cdot f^{\\prime}(x-c y)\\\\ &=-c \\cdot \\frac{\\partial u}{\\partial x} \\\\ \\therefore  \\quad \\frac{\\partial u}{\\partial y} & +c \\frac{\\partial u}{\\partial x} =0 \\end{aligned}[/latex]",
     "options": {
-      "A": "optionQ3_A",
-      "B": "optionQ3_B",
-      "C": "optionQ3_C",
-      "D": "optionQ3_D"
+      "A": "[latex]u(x,y)=f(x+cy)[/latex]",
+      "B": "[latex]u(x,y)=f(x-cy)[/latex]",
+      "C": "[latex]u(x,y)=f(cx+y)[/latex]",
+      "D": "[latex]u(x,y)=f(cx-y)[/latex]"
     },
     "correct_answer": "B"
   },
   {
     "type": "mcq",
-    "question": "Q4",
+    "question": "Question 4 The differential equation [latex]\\frac{\\mathrm{d^{2}}y}{\\mathrm{d} x^{2}}+16y=0[/latex] for y(x) with the two boundary conditions [latex]\\left | \\frac{\\mathrm{d} y}{\\mathrm{d} x} \\right |_{x=0}=1[/latex] and  [latex]\\left | \\frac{\\mathrm{d} y}{\\mathrm{d} x} \\right |_{x=\\frac{\\pi}{2}}=-1[/latex] has",
     "image": null,
-    "solution": "solutionQ4",
+    "solution": "[latex] \\begin{aligned} \\left(d^{2}+16\\right) y &=0 \\\\ A E \\text { is } m^{2}+16 &=0 \\\\ m &=\\pm 4 i \\end{aligned}[/latex] Solution is [latex] y=c_{1} \\cos 4 x+c_{2} \\sin 4 x[/latex] [latex] \\begin{aligned} y' &=-4 c_{1} \\sin 4 x+4 c_{2} \\cos 4 x \\\\ y'(0) &=1 \\\\ 1 &=4 c_{2} \\\\ c_{2} &=1 / 4 \\\\ y'(\\pi / 2) &=-1 \\\\ -1 &=-4 c_{1} \\sin 2 \\pi+4 c_{2} \\cos 2 \\pi \\\\ -1 &=0+4 c_{2} \\\\ c_{2} &=-1 / 4 \\end{aligned}[/latex] Therefore the given differential equation has no solution.",
     "options": {
-      "A": "optionQ4_A",
-      "B": "optionQ4_B",
-      "C": "optionQ4_C",
-      "D": "optionQ4_D"
+      "A": "no solution",
+      "B": "exactly two solutions",
+      "C": "exactly one solutions",
+      "D": "infinitely many solutions"
     },
     "correct_answer": "A"
   },
   {
     "type": "numerical",
-    "question": "Q5",
+    "question": "Question 5 A six-face fair dice is rolled a large number of times. The mean value of the outcomes is ________",
     "image": null,
-    "solution": "solutionQ5",
-    "min": "3.5",
-    "max": "3.5"
-  },
-  {
-    "type": "numerical",
-    "question": "Q5",
-    "image": null,
-    "solution": "solutionQ5",
+    "solution": "[latex]\\begin{aligned} \\text{mean} &=E(x)=\\Sigma x \\cdot P(x) \\\\ &=1(1 / 6)+2(1 / 6)+3(1 / 6)+4 \\\\ &(1 / 6)+5(1 / 6)+6(1 / 6) \\\\ &=\\frac{1}{6}(1+2+3+4+5+6) \\\\ &=\\frac{21}{6}=3.5 \\end{aligned}[/latex]",
     "min": "3.5",
     "max": "3.5"
   }
