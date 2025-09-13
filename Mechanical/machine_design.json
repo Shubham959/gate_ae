@@ -1,0 +1,1326 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 A band brake shown in the figure has a coefficient of friction of 0.3 . The band can take a maximum force of [latex]1.5 \\mathrm{kN}[/latex]. The maximum braking force [latex](F)[/latex] that can be safely applied is _____ N. (rounded off the nearest integer).",
+    "solution": "Data given, [latex]\\mu=0.3[/latex] [latex]\n\\begin{aligned}\n& F=1.5 \\mathrm{kN}=1500 \\mathrm{~N} \\\\\n& \\theta=180^{\\circ}=\\pi\n\\end{aligned}\n[/latex] F.B.D. of system is [latex]\\sum \\mathrm{M}_{0}=0[/latex] [latex]\\mathrm{F} \\times 1000-\\mathrm{T}_{2} \\times 200=0[/latex] [latex]\nF=\\frac{T_{2}}{5}\n[/latex] and\n\n[latex]\n\\frac{T_{1}}{T_{2}}=e^{\\mu \\theta}\n[/latex] [latex]\n\\frac{1500}{T_{2}}=e^{0.3 \\times \\pi}\n[/latex] [latex]\n\\mathrm{T}_{2}=584.492 \\mathrm{~N}\n[/latex] So,\n\n[latex]\n\\begin{aligned}\n\\mathrm{F} & =\\frac{\\mathrm{T}_{2}}{5}=\\frac{584.432}{5} \\\\\n& =116.9 \\mathrm{~N} \\approx 117 \\mathrm{~N}\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page1_q1.webp",
+    "min": 115.0,
+    "max": 119.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 Which one of the following failure theories is the most conservative design\napproach against fatigue failure?",
+    "solution": "Gerber Line. A parabolic curve joining [latex]S_{e}[/latex] on the ordinate to [latex]S_{u t}[/latex] on the abscissa is called the Gerber line. Soderberg Line A straight line joining [latex]S_{e}[/latex] on the ordinate to [latex]\\mathrm{S}_{\\mathrm{yt}}[/latex] on the abscissas called the Soderberg line. Goodman Line. A straight line joining [latex]S_{e}[/latex] on the ordinate to [latex]S_{u t}[/latex] on the abscissa is called the Goodman line. The Gerber parabola fits the failure points of test data in the best possible way. The goodman line fits beneath the scatter of this data. Both Gerber parabola and Goodman line intersect at [latex]\\left(\\mathrm{S}_{\\mathrm{e}}\\right)[/latex] on the ordinate to [latex]\\left(\\mathrm{S}_{\\mathrm{ut}}\\right)[/latex] on the abscissa. However, the Goodman line is more safe from design considerations because it is completely inside the Gerber parabola and inside the failure points. The Soderberg line is a more conservative failure criterion and there is no need to consider even yielding in this case.",
+    "options": {
+      "A": "Soderberg line",
+      "B": "Modified Goodman line",
+      "C": "Gerber line",
+      "D": "Yield line"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 For a ball bearing, the fatigue life in millions or revolutions is given by [latex]L=\\left(\\frac{c}{P}\\right)^{n}[/latex], where [latex]P[/latex] is the constant applied load and [latex]c[/latex] is the basic dynamic load rating. Which one of the following statements is TRUE ?",
+    "solution": "[latex]\n\\mathrm{L}=\\left(\\frac{\\mathrm{C}}{\\mathrm{P}}\\right)^{\\mathrm{n}} \\times 10^{6} \\mathrm{rev}\n[/latex] [latex]\\mathrm{n}=3[/latex] for ball bearing [latex]n=10 / 3[/latex] for roller bearing",
+    "options": {
+      "A": "[latex]\\mathrm{n}=3[/latex], assuming that the inner racing is fixed and outer racing is revolving.",
+      "B": "[latex]n=1 / 3[/latex], assuming that the outer racing is fixed and the inner racing is revolving",
+      "C": "[latex]\\mathrm{n}=3[/latex], assuming that the outer racing is fixed and inner racing is revolving",
+      "D": "[latex]n=1 / 3[/latex], assuming that the inner racing is fixed and outer racing is revolving"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 4 The braking system shown in the figure uses a belt to slow down a pulley rotating\nin the clockwise direction by the application of a force [latex]P[/latex]. The belt wraps around\nthe pulley over an angle [latex]\\alpha  = 270[/latex] degrees. The coefficient of friction between the\nbelt and the pulley is 0.3. The influence of centrifugal forces on the belt is\nnegligible. During braking, the ratio of the tensions [latex]T_1[/latex] to [latex]T_2[/latex] in the belt is equal to\n__________. (Rounded off to two decimal places) Take [latex]\\pi =3.14[/latex].",
+    "solution": "[latex]\n\\begin{aligned}\n\\mu & =0.3 \\\\\n\\alpha & =270^{\\circ}=\\frac{3 \\pi}{2} \\\\\n\\frac{T_{1}}{T_{2}} & =\\mathrm{e}^{\\mu \\alpha}\n\\end{aligned}\n[/latex] So, [latex]\\quad \\frac{T_{1}}{T_{2}}=e^{0.3 \\times \\frac{3 \\pi}{2}}=4.11[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page1_q4.webp",
+    "min": 4.05,
+    "max": 4.15
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 The S-N curve from a fatigue test for steel is shown. Which one of the options gives\nthe endurance limit?",
+    "solution": "For some ferrous (iron base) and titanium alloys,\nthe S-N curve becomes horizontal at higher N\nvalues; or there is a limiting stress level, called the\nfatigue limit (also sometimes the endurance limit),\nbelow which fatigue will not occur. This fatigue\nlimit represents the largest value of fluctuating\nstress that will not cause failure for essentially an infinite number of cycles. For many steels, fatigue\nlimits range between 35% and 60% of the tensile\nstrength.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page1_q5.webp",
+    "options": {
+      "A": "[latex]S_{ut}[/latex]",
+      "B": "[latex]S_{2}[/latex]",
+      "C": "[latex]S_{3}[/latex]",
+      "D": "[latex]S_{4}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 6 A shaft AC rotating at a constant speed carries a\nthin pulley of radius [latex]r = 0.4 m[/latex] at the end C which\ndrives a belt. A motor is coupled at the end A of the\nshaft such that it applies a torque [latex]M_z[/latex]\n about the shaft\naxis without causing any bending moment. The\nshaft is mounted on narrow frictionless bearings at\nA and B where [latex]AB = BC = L = 0.5 m[/latex]. The taut\nand slack side tensions of the belt are [latex]T_1= 300 N[/latex] \nand [latex]T2\n = 100 N[/latex], respectively. The allowable shear\nstress for the shaft material is 80 MPa. The selfweights of the pulley and the shaft are negligible.\nUse the value of [latex]\\pi[/latex] available in the on-screen virtual\ncalculator. Neglecting shock and fatigue loading\nand assuming maximum shear stress theory, the\nminimum required shaft diameter is _______ mm\n(round off to 2 decimal places).",
+    "solution": "[latex] \\begin{aligned}\nM_{max}&=400 \\times L =400 \\times 0.5 \\times 10^3\\\\\n&=200 \\times 10^3 \\; N.mm\\\\\nT_{max}&=M_z\\\\\n&=(T_1-T_1) \\times r\\\\\n&=(200 \\times 0.4) \\times 10^3\\\\\nT_{max}&=80 \\times 10^3 \\; N.mm\n\\end{aligned}[/latex] Here section-B is critical due to loading, Critical particle : According to maximum shear stress theory, [latex] \\begin{aligned}\n\\frac{16}{\\pi d^3}\\sqrt{M_{max}^2+T_{max}^2}&=\\frac{S_{{ys}}}{FOS}\\\\\n\\frac{16 \\times 10^3}{\\pi d^3}\\sqrt{200^2+80^2}&=\\frac{80}{1}\\\\\n\\Rightarrow d&=23.94mm\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page2_q1.webp",
+    "min": 23.6,
+    "max": 24.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 A shaft of length [latex]L[/latex] is made of two materials, one\nin the inner core and the other in the outer rim, and\nthe two are perfectly joined together (no slip at the\ninterface) along the entire length of the shaft. The\ndiameter of the inner core is [latex]d_i[/latex]\n and the external\ndiameter of the rim is [latex]d_o[/latex], as shown in the figure. The\nmodulus of rigidity of the core and rim materials are\n[latex]G_i[/latex]\n and [latex]G_o[/latex], respectively. It is given that do\n [latex]d_o=2d_i[/latex] and\n[latex]G_i=3G_o[/latex]. When the shaft is twisted by application \nof a torque along the shaft axis, the maximum shear\nstress developed in the outer rim and the inner\ncore turn out to be [latex]\\tau _o[/latex] and [latex]\\tau _i[/latex], respectively. All\nthe deformations are in the elastic range and stress\nstrain relations are linear. Then the ratio [latex]\\tau _i /\\tau_o[/latex] is\n______ (round off to 2 decimal places).",
+    "solution": "Given [latex]G_i=3G_o, d_o=2d_i, l_i=l_o,\\theta _i=\\theta _o \\text{ (It is a rigid joint)} [/latex] Find [latex]\\frac{T_i}{T_o}=? [/latex] [latex] \\begin{aligned}\n\\frac{T}{J}&=\\frac{\\tau }{r}=\\frac{G\\theta }{L}\\\\\n\\tau _{max}(\\text{in core})&=\\frac{G\\theta \\times r_{max}}{L}\\\\\n&=\\frac{G_i \\times \\theta _i \\times \\frac{d_i}{2}}{L_i}=\\tau _i\\\\\n\\tau _{max}(\\text{rim})&=\\frac{G_o \\times \\theta _o\\times \\frac{d_o}{2} }{L_o}=\\tau _o\\\\\n\\frac{T_i}{\\tau _o}&=\\frac{G_i \\times \\theta _i \\times \\frac{d_i}{2}}{L_i} \\times \\frac{L_o}{G_o \\times \\theta _o\\times \\frac{d_o}{2} }\\\\\n\\frac{T_i}{T_o}&=\\frac{G_i}{G_o} \\times \\frac{d_i}{d_o}=3 \\times \\frac{1}{2}=1.5\n\\end{aligned} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page2_q2.webp",
+    "min": 1.48,
+    "max": 1.52
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 A structural member under loading has a uniform\r\nstate of plane stress which in usual notations is given\r\nby [latex] \\sigma _x=3P,\\sigma _y=-2P,\\tau _{xy}=\\sqrt{2}P  [/latex], where [latex]P \\gt 0[/latex]. \r\nThe yield strength of the material is 350 MPa. If the\r\nmember is designed using the maximum distortion\r\nenergy theory, then the value of [latex]P [/latex] at which yielding\r\nstarts (according to the maximum distortion energy\r\ntheory) is",
+    "solution": "Given, [latex]\\sigma _x=3P [/latex] [latex]\\sigma _y=-2P [/latex] [latex]\\tau =\\sqrt{2}P [/latex] According to maximum distortion energy theory, [latex] \\begin{aligned}\n\\sqrt{\\sigma _x^2-\\sigma _x\\sigma _y+\\sigma _y^2+3\\tau _{xy}^2} &=\\frac{S_{yt}}{FOS} \\\\ \n P\\sqrt{3^2-3(-2)+(-2)^2+3(\\sqrt{2})^2}&= \\frac{350}{1}\\\\ \n P \\times 5&=350 \\\\ \n P&=70\\; MPa \n\\end{aligned}[/latex]",
+    "options": {
+      "A": "70 Mpa",
+      "B": "90 Mpa",
+      "C": "120 Mpa",
+      "D": "75 Mpa"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 A bracket is attached to a vertical column by\r\nmeans of two identical rivets [latex]U[/latex] and [latex]V[/latex] separated\r\nby a distance of [latex]2a = 100 mm[/latex], as shown in the\r\nfigure. The permissible shear stress of the rivet\r\nmaterial is [latex]50 MPa[/latex]. If a load [latex]P = 10 kN[/latex] is applied\r\nat an eccentricity [latex]e=3\\sqrt{7}a[/latex], the minimum crosssectional area of each of the rivets to avoid failure\r\nis ___________ [latex]mm^2[/latex] .",
+    "solution": "The given load is eccentric lateral load which results\nin (i) primary shear due to direct loading (ii) secondary shear due to eccentricity (i) Primary shear: [latex] F_p=\\frac{F}{n}=\\frac{10kN}{2}=5kN[/latex] (ii) Secondary shear: [latex]F_s=\\frac{m}{r_1^2+r_2^2} \\times r =\\frac{10 \\times 3\\sqrt{7}a}{a^2+a^2} \\times a=15\\sqrt{7}kN   \\; \\; \\; \\; (\\because a=50mm) [/latex] Finding resultant:\n[latex] R=\\sqrt{F_p^2+F_s^2+2F_pF_s \\cos \\theta }[/latex] Here, \n[latex]  \\theta \\text{ is }90^{\\circ}[/latex] As secondary load is same on both rivets. Both are\ncritical due to loading. [latex] [/latex] [latex] \\therefore \\;\\;R_{max}=\\sqrt{F_p^2+F_s^2}=\\sqrt{5^2+(15\\sqrt{7})^2}=40kN[/latex] Design of Rivet: \n[latex] \\begin{aligned}\n\\tau _{max} &=\\frac{S_{ys}}{FOS} \\\\ \n \\frac{R_{max}}{A}&= \\frac{50}{1}\\\\ \n\\frac{40 \\times 10^3}{A} &=50 \\\\ \n A&= 800 mm^2\n\\end{aligned}[/latex] As FOS is considered as 1, A represents the\nminimum cross section area required.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page2_q4.webp",
+    "options": {
+      "A": "[latex]800 [/latex]",
+      "B": "[latex]25 [/latex]",
+      "C": "[latex]100 \\sqrt{7} [/latex]",
+      "D": "[latex]200 [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 A square threaded screw is used to lift a load W\nby applying a force F. Efficiency of square threaded\nscrew is expressed as",
+    "solution": "[latex] \\text{Screw efficiency}=\\frac{\\text{Work done by the applied force/rev}}{\\text{Work done in lifting the load/rev}}[/latex] Efficiency of screw jack [latex]\\eta =\\frac{\\tan \\alpha }{\\tan(\\alpha +\\phi )} [/latex] Efficiency depends on helix angle and friction angle.",
+    "options": {
+      "A": "The ratio of work done by W per revolution to work done by F per revolution",
+      "B": "W/F",
+      "C": "F/W",
+      "D": "The ratio of work done by F per revolution to work done by W per revolution"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 11 The figure shows the relationship between fatigue strength (S) and fatigue life\n(N) of a material. The fatigue strength of the material for a life of 1000 cycles is 450 MPa, while its fatigue strength for a life of [latex]10^6[/latex] cycles is 150 MPa. The life of a cylindrical shaft made of this material subjected to an alternating stress of 200 MPa will  then be  cycles (round off to the nearest integer).",
+    "solution": "Equation of line [latex]A \\bar{B}:[/latex] [latex] \\begin{aligned} y-y_{1} &=\\frac{\\left(y_{2}-y_{1}\\right)}{\\left(x_{2}-x_{1}\\right)}\\left[x-x_{1}\\right] \\\\ \\log _{10} 200-\\log _{10} 450 &=\\frac{\\log _{10} 150-\\log _{10} 450}{(6-3)}\\left[\\log _{10} N-3\\right] \\\\ N &=163840.580 \\text { cycles } \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page3_q1.webp",
+    "min": 152000.0,
+    "max": 165000.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 The von Mises stress at a point in a body subjected to forces is proportional to the square root of the",
+    "solution": "Condition for failure as per M.D.E.T. Distortion energy per unit volume under tri-axial state of stress > Distortion energy per unit volume under uni-axial state of stress. [latex]\n\\begin{aligned}\n&\\text { Hence, }\\left(\\frac{1+\\mu}{6 E}\\right)\\left[\\left(\\sigma_{1}-\\sigma_{2}\\right)^{2}+\\left(\\sigma_{2}-\\sigma_{3}\\right)^{2}+\\left(\\sigma_{1}-\\sigma_{3}\\right)^{2}\\right]>\\left(\\frac{1+\\mu}{3 E}\\right)\\left(S_{y t}\\right)^{2}\\\\\n&\\left(\\sigma_{1}-\\sigma_{2}\\right)^{2}+\\left(\\sigma_{2}-\\sigma_{3}\\right)^{2}+\\left(\\sigma_{1}-\\sigma_{3}\\right)^{2}>2\\left(S_{y t}\\right)^{2}\\\\\n&\\sqrt{\\sigma_{1}^{2}+\\sigma_{2}^{2}+\\sigma_{3}^{2}+\\sigma_{1} \\sigma_{2}-\\sigma_{2} \\sigma_{3}-\\sigma_{1} \\sigma_{3}}>\\left(S_{y t}\\right) \\text { (Von Mises effective stress) }\n\\end{aligned}[/latex] [latex]\nS_{y t} =[/latex] Von Mises effective stress is defined as the uni-axial yield stress that would create same distortion energy created by the tri-axial state of stress.",
+    "options": {
+      "A": "total strain energy per unit volume",
+      "B": "plastic strain energy per unit volume",
+      "C": "dilatational strain energy per unit volume",
+      "D": "distortional strain energy per unit volume"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 A cantilever beam of rectangular cross-section is welded to a support by means of two fillet welds as shown in figure. A vertical load of 2 kN acts at free end of the beam. Considering that the allowable shear stress in weld is 60 [latex]N/mm^2[/latex], the minimum size (leg) of the weld required is  _______-mm (round off to one decimal place).",
+    "solution": "[latex]\\begin{aligned} \\tau_{\\max }=\\frac{2 \\times 10^{3}}{0.707 t(40) \\times 2}&=\\frac{35.36}{t} \\mathrm{MPa} \\\\ \\sigma_{\\max }=\\frac{M_{\\max }}{I_{N A}} \\cdot \\tau_{\\max } &=\\frac{2000 \\times 150 \\times 20}{\\frac{0.707 t(40)^{3} \\times 2}{12}} \\\\ \\sigma_{\\max }&=\\frac{795.615}{t} \\mathrm{MPa}\\\\ \\text { MSST, } \\quad \\sqrt{\\sigma_{\\max }^{2}+4 \\tau^{2}} &\\leq 2\\left(\\frac{S_{y s}}{N}\\right)\\\\ \\sqrt{\\left(\\frac{795.615}{t}\\right)^{2}+4\\left(\\frac{35.36}{t}\\right)^{2}} & \\leq 2 \\times 60 \\\\ \\frac{798.752}{t} & \\leq 2(60) \\\\ t &=6.65 \\mathrm{~mm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page3_q3.webp",
+    "min": 6.4,
+    "max": 6.9
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 A machine part in the form of cantilever beam is subjected to fluctuating load as shown in the figure. The load varies from 800 N to 1600 N. The modified endurance, yield and ultimate strengths of the material are 200 MPa, 500 MPa and 600 MPa, respectively. The factor of safety of the beam using modified Goodman criterion is _______  (round off to one decimal place).",
+    "solution": "A : Critical Point [latex]\r\n\\begin{aligned}\r\n\\sigma_{\\max , A} &=\\sigma_{b, \\max } \\text { at } A \\text { due to } 1600 \\mathrm{~N}=\\frac{6 \\mathrm{M}}{b d^{2}}=\\frac{6 \\times 1600 \\times 200}{12 \\times(2 \\sigma)^{2}} \\\\\r\n\\sigma_{\\max } &=200 \\mathrm{MPa} \\\\\r\n\\sigma_{\\min , A} &=\\sigma_{b, \\max } \\text { at } A \\text { due to } 800 \\mathrm{~N} \\\\\r\n&=\\frac{6 \\times 800 \\times 200}{12 \\times(20)^{2}}=100 \\mathrm{MPa} \\\\\r\n\\text { Modified Goodman } &=\\frac{\\sigma_{m}}{S_{y t}}+\\frac{\\sigma_{a}}{\\sigma_{e}} \\leq \\frac{1}{N} \\\\\r\n\\sigma_{m} &=\\left|\\frac{\\sigma_{\\max }+\\sigma_{\\min }}{2}\\right|=150 \\mathrm{MPa} \\\\\r\n\\sigma_{a} &=\\left|\\frac{\\sigma_{\\max }-\\sigma_{\\min }}{2}\\right|=50 \\mathrm{MPa} \\\\\r\n\\frac{150}{600}+\\frac{50}{200} & \\leq \\frac{1}{N} \\\\\r\nN & \\leq 2 \\\\\r\nN & \\approx 2\\\\\r\n\\text { Langer, }  \\qquad \\frac{\\sigma_{m}}{S_{y t}}+\\frac{\\sigma_{a}}{S_{y t}} & \\leq \\frac{1}{N} \\\\\r\n\\frac{150}{500}+\\frac{50}{500} & \\leq \\frac{1}{N} \\qquad \\qquad \\qquad \\qquad (N\\leq2.5)\\\\\r\nN &=2.5\r\n\\end{aligned}[/latex] Modified Goodman = Safe result of [Goodman or Langer]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page3_q4.webp",
+    "min": 1.9,
+    "max": 2.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 A short shoe drum (radius 260 mm) brake is shown in the figure. A force of 1 kN is applied to the lever. The coefficient of friction is 0.4. The magnitude of the torque applied by the brake is  ________N.m (round off to one decimal place).",
+    "solution": "Taking moment about 'O' [latex] \\begin{aligned} R_{N}(500)+F_{\\gamma}[310-260] &-1000 \\times 1000=0 \\\\ R_{N}(500)+0.4\\left(R_{N}\\right)(50) &-1000 \\times 1000=0 \\\\ R_{N} &=1923.076 \\mathrm{~N} \\\\ F_{r} &=\\mu R_{N}=769.23 \\mathrm{~N} \\\\ T_{f} &=F_{r} \\times R=200 \\mathrm{~N}-\\mathrm{m} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page3_q5.webp",
+    "min": 199.0,
+    "max": 201.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Shear stress distribution on the cross-section of the coil wire in a helical compression spring is shown in the figure. This shear stress distribution represents",
+    "solution": "Fig. : Direct shear stress distribution across the cross-section of wire Fig. : Torsional shear stress distribution across the cross-section of wire Fig. : Resultant shear stress variation across the cross-section of wire (without considering stress concentration effect) Fig. : Resultant shear stress variation considering stress concentration effect",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page4_q1.webp",
+    "options": {
+      "A": "direct shear stress in the coil wire cross-section",
+      "B": "torsional shear stress in the coil wire cross-section",
+      "C": "combined direct shear and torsional shear stress in the coil wire cross-section",
+      "D": "combined direct shear and torsional shear stress along with the effect of stress concentration at inside edge of the coil wire cross-section"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 A steel spur pinion has a module (m) of 1.25 mm, 20 teeth and [latex]20^{\\circ}[/latex] pressure angle.\nThe pinion rotates at 1200 rpm and transmits power to a 60 teeth gear. The face width\n(F) is 50 mm, Lewis form factor Y = 0.322 and a dynamic factor [latex]K_v = 1.26[/latex]. The bending\nstress ([latex]\\sigma[/latex]) induced in a tooth can be calculated by using the Lewis formula given below. If the maximum bending stress experienced by the pinion is 400 MPa. the power\ntransmitted is __________ kW (round off to one decimal place). Lewis formula: [latex]\\sigma =\\frac{K_vW^t}{FmY}[/latex], where [latex]W^t[/latex] is the tangential load acting on the pinion.",
+    "solution": "[latex]\\begin{aligned} F_{t} \\times c_{v} s &=b m y\\left[\\sigma_{b}\\right]_{\\max } \\\\ c_{v} &=1.26 \\\\ F_{t} \\times 1.26 \\times 1 &=50 \\times 1.25 \\times 0.322 \\times 400 \\\\ F_{t} &=6388.88 \\mathrm{N} \\\\ P_{\\text {angle }} &=F_{t} \\times v=\\frac{F_{t} \\times \\pi D_{p} N}{60} \\\\ &=\\frac{6388.88 \\times \\pi \\times 1.25 \\times 20 \\times 1200}{60}=10 \\mathrm{kW} \\end{aligned}[/latex]",
+    "min": 9.8,
+    "max": 10.8
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 A helical spring has spring constant k. If the wire diameter, spring diameter and the\nnumber of coils are all doubled then the spring constant of the new spring becomes",
+    "solution": "[latex]\\begin{aligned} k_{(\\text {sping })} &=\\frac{G d^{4}}{8 D^{3} n} \\\\ k_{\\text {new }} &=\\frac{G(2 d)^{4}}{8(2 D)^{3}(2 n)}=\\frac{G d^{4}}{8 D^{3} n} \\\\ \\text{Hence}\\qquad k_{\\text {new }} &=k \\end{aligned}[/latex]",
+    "options": {
+      "A": "k/2",
+      "B": "k",
+      "C": "8k",
+      "D": "16k"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 A bolt head has to be made at the end of a rod of diameter d = 12 mm by localized\nforging (upsetting) operation. The length of the unsupported portion of the rod is 40 mm.\nTo avoid buckling of the rod, a closed forging operation has to be performed with a\nmaximum die diameter of ________ mm.",
+    "solution": "[latex]\\begin{array}{l} \\text { If } l \\gt 3 d \\text { then } \\\\ \\qquad \\begin{aligned} \\text { Die dia } &=1.5 d \\\\ &=1.5(12) \\\\ &=18 \\mathrm{mm} \\end{aligned} \\end{array}[/latex]",
+    "min": 18.0,
+    "max": 19.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 A machine member is subjected to fluctuating stress [latex]\\sigma =\\sigma _0 \\cos (8 \\pi t)[/latex]. The endurance limit\nof the material is 350 MPa. If the factor of safety used in the design is 3.5 then the\nmaximum allowable value of [latex]\\sigma _0[/latex] is __________ MPa (round off to 2 decimal places).",
+    "solution": "[latex]\\begin{aligned} \\text{Fluctuating stress,  } \\quad \\sigma&=\\sigma_{o} \\cos (8 \\pi t) \\\\ \\sigma_{\\max } &=\\sigma_{o} \\\\ \\sigma_{\\min } &=-\\sigma_{o} \\\\ \\sigma_{\\text {man }} &=\\frac{\\sigma_{\\max }+\\sigma_{\\min }}{2}=0 \\\\ \\sigma_{v} &=\\frac{\\sigma_{\\max }-\\sigma_{\\min }}{2}=\\frac{2 \\sigma_{o}}{2}=\\sigma_{o} \\\\ \\sigma_{e} &=350 \\mathrm{MPa} \\\\ \\mathrm{FOS} &=3.5 \\end{aligned}[/latex] From strength criteria, [latex]\\frac{\\sigma_{v}}{\\sigma_{e}} \\leq \\frac{1}{\\mathrm{FOS}} [/latex] [latex] \\begin{aligned} \\frac{\\sigma_{o}}{350} & \\leq \\frac{1}{3.5} \\\\ \\sigma_{o} & \\leq 100 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "min": 99.98,
+    "max": 100.02
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 A rectangular steel bar of length 500 mm, width 100 mm, and thickness 15 mm is\ncantilevered to a 200 mm steel channel using 4 bolts, as shown. For an external load of 10 kN applied at the tip of the steel bar, the resultant shear load\non the bolt at B, is ___________ kN (round off to one decimal place).",
+    "solution": "[latex]\\begin{aligned} F_{A} &=F_{B}=F_{C}=F_{D}=\\frac{10 \\times 400}{4 \\times 50 \\sqrt{2}}=14.14 \\mathrm{kN} \\\\ \\text{Res}_{\\mathrm{B}} &=\\sqrt{14.14^{2}+2.5^{2}+2(14.14)(2.5) \\cos 45} \\\\ \\text{Res}_{\\mathrm{B}} &=16.005 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page5_q1.webp",
+    "min": 15.9,
+    "max": 16.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 In a disc-type axial clutch, the frictional contact takes place within an annular region\nwith outer and inner diameters 250 mm and 50 mm, respectively. An axial force [latex]F_1[/latex] is\nneeded to transmit a torque by a new clutch. However, to transmit the same torque,\none needs an axial force [latex]F_2[/latex]  when the clutch wears out. If contact pressure remains uniform\nduring operation of a new clutch while the wear is assumed to be uniform for an old\nclutch and the coefficient of friction does not change, then the ratio [latex]F_1/F_2[/latex] is_________\n(round off to 2 decimal places).",
+    "solution": "[latex]\\begin{aligned} T &=\\mu W \\times R_{m} \\\\ T_{\\text {new }} &=\\mu \\times W \\times R_{\\text {new }} \\\\ T_{\\text {new }} &=\\mu \\times W_{\\text {new }} \\times \\frac{2}{3} \\frac{\\left(R_{0}^{3}-R_{i}^{3}\\right)}{R_{0}^{2}-R_{i}^{2}} \\\\ T_{\\text {odd }} &=\\mu \\times W \\times R_{\\text {old }} \\\\ T_{\\text {new }} &=T_{\\text {dd }} \\\\ W_{\\text {new }} \\times \\frac{2}{3} \\frac{\\left(R_{0}^{3}-R_{i}^{3}\\right)}{R_{0}^{2}-R_{i}^{2}} &=W_{\\text {old }} \\times \\frac{\\left(R_{0}+R_{i}\\right)}{2} \\\\ \\frac{W_{\\text {new }}}{W_{\\text {old }}} &=0.871 \\end{aligned}[/latex]",
+    "min": 0.85,
+    "max": 0.89
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 A helical gear with [latex]20^{\\circ}[/latex] pressure angle and [latex]30^{\\circ}[/latex] helix angle mounted at the mid-span of\na shaft that is supported between two bearings at the ends. The nature of the stresses\ninduced in the shaft is",
+    "solution": "",
+    "options": {
+      "A": "normal stress due to bending only",
+      "B": "normal stress due to bending in one plane and axial loading; shear stress due to\ntorsion",
+      "C": "normal stress due to bending in two planes and axial loading; shear stress due to\ntorsion",
+      "D": "normal stress due to bending in two planes; shear stress due to torsion"
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 A short shoe external drum brake is shown in the figure. The diameter of the brake drum is 500 mm. The dimensions a= 1000 mm, b = 500 mm and c = 200 mm. The coefficient of friction between the drum and the shoe is 0.35. The force applied on the lever F= 100 N as shown in the figure. The drum is rotating anti-clockwise. The braking torque on the drum is______ N.m (round off to two decimal places).",
+    "solution": "W.r.t FBD of link [latex] \\mathrm{F}_{\\mathrm{s}}=\\mu_{\\mathrm{s}} \\mathrm{N}=0.35 \\times \\mathrm{N}[/latex] Taking summation of moment about O = zero [latex] \\begin{array}{l} \\Sigma M_{0}=0 \\\\ N \\times 500-F_{s} \\times 200-F \\times 1000=0 \\\\ N \\times 500-0.35 \\times N \\times 200-100 \\times 1000=D \\\\ N=\\frac{100 \\times 1000}{(500-70)}=232.558 \\mathrm{N} \\end{array}[/latex] With respect to FBD of drum [latex] \\text { Braking torque } \\mathrm{M}=\\mathrm{F}_{\\mathrm{s}} \\times \\mathrm{r}=\\frac{0.35 \\times 232.558 \\times 500}{2 \\times 1000}[/latex] [latex] \\mathrm{M}=20.35 \\mathrm{N}-\\mathrm{m}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page5_q4.webp",
+    "min": 19.0,
+    "max": 21.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 Endurance limit of a beam subjected to pure bending decreases with",
+    "solution": "Endurance limit decreases with increase in surface roughness and with increase in size of the\nbeam.",
+    "options": {
+      "A": "decrease in the surface roughness and decrease in the size of the beam",
+      "B": "increase in the surface roughness and decrease in the size of the beam",
+      "C": "increase in the surface roughness and increase in the size of the beam",
+      "D": "decrease in the surface roughness and increase in the size of the beam"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 A single block brake with a short shoe and torque capacity of 250 [latex]N\\cdot m[/latex] is shown. The cylindrical brake drum rotates anticlockwise at 100 rpm and the coefficient of friction is 0.25. The value of a, in mm (round off to one decimal place), such that the maximum actuating force P is 2000 N, is ________",
+    "solution": "[latex]\\mu=0.25 [/latex] 76 Torque [latex]=250 \\mathrm{Nm} [/latex] [latex] \\mu \\mathrm{F} \\times \\mathrm{a}=250 [/latex] [latex] \\Rightarrow 0.25 \\times \\mathrm{F} \\times \\mathrm{a}=250 [/latex] [latex] \\Rightarrow \\mathrm{F} \\times \\mathrm{a}=1000 [/latex] In FBD of block and lever, [latex]\\Sigma \\mathrm{M}_{\\text {fullcrum }}=0 [/latex] [latex] \\mathrm{F} \\times \\mathrm{a}+\\mu \\mathrm{F} \\times \\frac{\\mathrm{a}}{4}=\\mathrm{P} \\times 2.5 \\mathrm{a} [/latex] [latex] F \\times a\\left(1+\\frac{\\mu}{4}\\right)=P \\times 2.5 [/latex] [latex] 1000\\left(1+\\frac{0.25}{4}\\right)=2000 \\times 2.5 \\mathrm{a} [/latex] [latex] \\Rightarrow \\mathrm{a}=0.2125 \\mathrm{m}=212.5 \\mathrm{mm}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page6_q1.webp",
+    "min": 212.0,
+    "max": 213.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 During a high cycle fatigue test, a metallic specimen is subjected to cyclic loading with a mean stress of +140 MPa, and a minimum stress of -70 MPa. The R-ratio (minimum stress to maximum stress) for this cyclic loading is_______ (round off to one decimal place)",
+    "solution": "[latex]\\begin{array}{l} \\sigma_{\\min }=-70 \\mathrm{MPa} \\\\ \\sigma_{\\text {mean }}=140 \\mathrm{MPa} \\\\ \\Rightarrow \\sigma_{\\text {mean }}=\\frac{\\sigma_{\\min }+\\sigma_{\\max }}{2}=140 \\\\ \\Rightarrow \\frac{-70+\\sigma_{\\max }}{2}=140 \\\\ \\Rightarrow \\sigma_{\\max }=350 \\mathrm{MPa} \\\\ \\text { The R-ratio, } \\mathrm{R}=\\frac{\\sigma_{\\min }}{\\sigma_{\\max }}=-\\frac{70}{350}=-0.2 \\end{array}[/latex]",
+    "min": -0.2,
+    "max": -0.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 28 A bar is subjected to a combination of a steady load of 60 kN and a load fluctuating between -10 kN and 90 kN. The corrected endurance limit of the bar is 150 MPa, the yield strength of the material is 480 MPa and the ultimate strength of the material is 600 MPa. The bar cross-section is square with side a. If the factor of safety is 2, the value of a (in mm), according to the modified Goodman's criterion, is ________ (correct to two decimal places).",
+    "solution": "[latex]\\begin{array}{l} P_{m}=\\frac{P_{\\max }+P_{\\min }}{2} \\\\ P_{a}=\\frac{P_{\\max }-P_{\\min }}{2} \\\\ P_{m}=100 \\mathrm{kN} \\\\ \\mathrm{Pa}=50 \\mathrm{kN} \\\\ \\sigma_{\\mathrm{m}}=\\frac{100 \\times 10^{3}}{a^{2}} \\mathrm{MPa} \\\\ \\sigma_{a}=\\frac{50 \\times 10^{3}}{a^{2}} \\mathrm{MPa} \\end{array}[/latex] Solution by Goodman Equation, [latex] \\begin{aligned} \\frac{\\sigma_{m}}{S_{u t}}+\\frac{\\sigma_{a}}{\\sigma_{e}} &=\\frac{1}{N} \\\\ 100\\left[\\frac{100}{a^{2} \\times 600}+\\frac{50}{150 a^{2}}\\right] &=\\frac{1}{2} \\\\ a^{2} &=1000 \\\\ a &=31.62 \\mathrm{mm} \\end{aligned}[/latex] Solution by Langar equation, [latex]\n\\begin{aligned}\n\\frac{\\sigma_{m}}{S_{y t}}+\\frac{\\sigma_{a}}{S_{y t}}&=\\frac{1}{N}\\\\\n100\\left[\\frac{100}{480 a^{2}}+\\frac{50}{480 a^{2}}\\right] &=\\frac{1}{2} \\\\\na^{2} &=625 \\\\\na &=25 \\mathrm{mm}\n\\end{aligned}[/latex] Hence final answer by modified Goodman's Griterion is 31.62 mm.",
+    "min": 31.6,
+    "max": 61.65
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 Fatigue life of a material for a fully reversed loading condition is estimated from [latex]\\sigma_{a}=1100N^{-0.15}[/latex] where [latex]\\sigma_{a}[/latex] is the stress amplitude in MPa and N is the failure life in cycles.The maximum\nallowable stress amplitude (in MPa) for a life of [latex]1\\times10^{5}[/latex] cycles under the same loading\ncondition is ________(correct to two decimal places).",
+    "solution": "[latex]\\begin{aligned} \\frac{\\sigma_{\\max }-\\sigma_{\\min }}{2} &=1100 \\mathrm{N}^{-0.15} \\\\ \\frac{\\sigma_{\\max }-\\left(-\\sigma_{\\max }\\right)}{2} &=1100 \\mathrm{N}^{-0.15} \\\\ \\frac{2 \\sigma_{\\max }}{2} &=1100 \\mathrm{N}^{-0.15} \\\\ \\sigma_{\\max } &=1100 \\mathrm{N}^{-0.15}=1100 \\times\\left(10^{5}\\right)^{-0.15} \\\\ &=1100 \\times(10)^{-0.75}=\\frac{1100}{5.62} \\\\ \\sigma_{\\max } &=195.61 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "min": 190.0,
+    "max": 200.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Pre-tensioning of a bolted joint is used to",
+    "solution": "Pretension increase stiffness of system..",
+    "options": {
+      "A": "strain harden the bolt head",
+      "B": "decrease stiffness of the bolted joint",
+      "C": "increase stiffness of the bolted joint",
+      "D": "prevent yielding of the thread root"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 The schematic of an external drum rotating clockwise engaging with a short shoe is shown in the figure. The shoe is mounted at point Y on a rigid lever XYZ hinged at point X. A force F= 100N is applied at the free end of the lever as shown. Given that the coefficient of friction between the shoe and the drum is 0.3, the braking torque (in Nm ) applied on the drum is _______ (correct to two decimal places).",
+    "solution": "[latex]\\begin{aligned} \\Sigma M_{0}&=0 \\\\ F \\times 300\\curvearrowleft+f \\times 300 \\curvearrowleft&=R N \\times 200 \\curvearrowright\\\\ 100 \\times 300+\\mu R_{N} \\times 300 &=R_{N} \\times 200 \\\\ 100 \\times 300+0.3 \\times R_{N} \\times & 300=R_{N} \\times 200 \\\\ 300 &=1.1 R_{N} \\\\ R_{N} &=272.72 \\mathrm{N} \\\\ \\text { Braking Torque } &=\\mu R_{N} \\times R \\\\&=0.3 \\times 272.72 \\times 0.100 \\\\ &=8.18 \\mathrm{Nm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page7_q1.webp",
+    "min": 8.0,
+    "max": 9.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 A self-aligning ball bearing has a basic dynamic load rating ( [latex]C_{10}[/latex]  for [latex]10^{6}[/latex] revolutions) of 35 kN. If the equivalent radial load on the bearing is 45 kN, the excepted life (in  revolutions) is",
+    "solution": "[latex]\\begin{aligned} C &=35 \\mathrm{kN} \\\\ \\mathrm{P}_{C} &=45 \\mathrm{kN} \\\\ L_{90} &=\\left(\\frac{C}{P_{C}}\\right)^{3}=\\left(\\frac{35}{45}\\right)^{3}=0.4705 \\mathrm{MR} \\end{aligned}[/latex]",
+    "options": {
+      "A": "below 0.5",
+      "B": "0.5 to 0.8",
+      "C": "0.8 to 1.0",
+      "D": "above 1.0"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 If the wire diameter of a compressive helical spring is increased by 2%, the change in spring stiffness (in %) is _____ (correct to two decimal places).",
+    "solution": "Stiffness of helical spring [latex] \\begin{aligned} K&=\\frac{G d^{4}}{64 R^{3} n} \\\\ d&= \\text{spring wire diameter}\\\\ R&= \\text{mean coil radius}\\\\ n&= \\text{number of turns}\\\\ \\therefore \\quad K &\\propto d^{4} \\\\ \\frac{K^{\\prime}}{K}&=\\left(\\frac{d^{\\prime}}{d}\\right)^{4} \\\\ K^{\\prime}&=\\left(\\frac{1.02 d}{d}\\right)^{4} K \\\\ K^{\\prime}&=1.08243 \\mathrm{K} \\\\ \\end{aligned}[/latex] % increase in stiffness [latex] =\\frac{K^{\\prime}-K}{K} \\times 100 \\%=8.243 \\%[/latex]",
+    "min": 8.0,
+    "max": 8.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 A single - plate clutch has a friction disc with inner and outer radii of 20 mm and 40 mm, respectively. The friction lining in the disc is made in such a way that the coefficient of friction [latex]\\mu[/latex]  varies radially as [latex]\\mu=0.01r[/latex], where r is in mm. The clutch needs to transmit a friction torque of 18.8 [latex]kN\\! \\! \\cdot\\! mm[/latex]. As per uniform pressure theory, the pressure (in MPa) on the disc is ________",
+    "solution": "Normal load on elemental ring [latex](d M)=p 2 \\pi r d r [/latex] Frictional force on elemental ring [latex]\\left(d F_{f}\\right)=\\mu d W [/latex] Frictional torque transmitted by elemental ring, [latex] d T_{f}=\\left(d F_{f}\\right) r[/latex] Hence, [latex] \\quad d T_{f}=\\mu p 2 \\pi r^{2} d r [/latex] Total frictional torque transmitted by clutch plate [latex] \\begin{aligned} \\left(T_{f}\\right)&=\\int_{R_{i}}^{R_{0}} d T_{f} \\\\ T_{f}&=\\int_{R_{i}}^{P_{0}} \\mu p 2 \\pi r^{2} d r\\\\ \\text{As per U.P.T.}\\\\ T_{f} &=2 \\pi p \\int_{R_{i}}^{R_{0}} \\mu r^{2} d r \\\\ T_{f} &=2 \\pi p \\int_{R_{i}}^{R_{0}}(0.01 r) r^{2} d r \\\\ \\left(T_{f}\\right)_{U . P . T .} &=(2 \\pi p)(0.01)\\left[\\frac{R_{0}^{4}-R_{i}^{4}}{4}\\right] \\\\ 18.85 \\times 10^{3} &=2 \\pi p(0.01)\\left[\\frac{40^{4}-20^{4}}{4}\\right] \\\\ p &=0.5 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "min": 0.49,
+    "max": 0.51
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 A steel plate, connected to a fixed channel using three identical bolts A, B and D, carries a load of 6kN as shown in the figure. Considering the effect of direct load of moment, the magnitude of resultant shear force (in kN) on bolt C is.",
+    "solution": "[latex]\\begin{aligned} P_{P}&=\\frac{P}{n}=\\frac{P}{3}=2 \\mathrm{kN} \\\\ r_{A}&=r_{C}=50 ;\\left(P_{S}\\right)_{A}=\\left(P_{S}\\right)_{C} \\\\ r_{B}&=0 \\Rightarrow\\left(P_{S}\\right)_{B}=0 \\\\ \\frac{\\left(P_{S}\\right)_{C}}{r_{C}}\\left[r_{C}^{2}+r_{B}^{2}+r_{A}^{2}\\right]&=P \\times e \\end{aligned}[/latex] [latex] \\left(P_{S}\\right)_{C} \\times 2 \\times r_{C}=P \\times e [/latex] [latex] \\left(P_{S}\\right)_{C}=\\frac{6 \\times 250}{2 \\times 50}=15 \\mathrm{kN} [/latex] [latex] \\theta_{A}=180^{\\circ} ; \\theta_{C}=0^{\\circ} [/latex] Resultant shear force [latex] \\left(R_{C}\\right)=P_{P}+\\left(P_{S}\\right)_{C} [/latex] [latex][\\therefore \\theta_{C}=0^{0}] [/latex] [latex] \\begin{aligned} R_{C}&=2+15=17 \\mathrm{kN} \\\\ R_{A}&=\\left(P_{S}\\right) A-P_{P}=13 \\mathrm{kN} \\\\ R_{B}&=P_{P}=2 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page7_q5.webp",
+    "options": {
+      "A": "13",
+      "B": "15",
+      "C": "17",
+      "D": "30"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 A helical compression spring made of wire of circular cross-section is subjected to a compressive load. The maximum shear stress induced in the cross-section of the wire is 24 MPA. For the same compressive load, if both the wire diameter and the mean coil diameter are doubled, the maximum shear stress (in MPa) induced in the cross-section of the wire is _______",
+    "solution": "Max. shear stress induced in spring wire of a helical compression spring is given by, [latex] \\begin{array}{c} \\tau_{\\max }=\\frac{8 W D}{\\pi d^{2}} k_{W} \\quad \\text { or } \\quad \\frac{8 W C}{\\pi d^{2}} k_{W} \\\\ \\tau_{\\max } \\propto \\frac{1}{d^{2}} \\\\ {\\left[\\because W_{1}=W_{2}=W ; C_{1}=C_{2}\\left(\\text { i.e., } C=\\frac{D}{d}\\right)\\right.} \\\\ \\left.\\left(k_{W}\\right)_{1}=\\left(k_{W}\\right)_{2}=k_{W}\\right] \\\\ \\frac{\\tau_{2}}{\\tau_{1}}=\\left(\\frac{d_{1}}{d_{2}}\\right)^{2} \\\\ \\frac{\\tau_{2}}{24}=\\left(\\frac{d}{2 d}\\right)^{2} \\\\ \\Rightarrow \\quad \\tau_{2}=6 \\mathrm{MPa} \\end{array}[/latex]",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 A machine component made of a ductile material is subjected to a variable loading with [latex]\\sigma _{min}=-50[/latex] MPa and [latex]\\sigma _{max}=50[/latex] MPa .If the corrected endurance limit and the yield strength for the material are [latex]\\sigma\\, '_{e}=100[/latex]  MPa  and   [latex]\\sigma_{y}=300[/latex]  MPa , the factor of safety is _______",
+    "solution": "Given variable loading is a completely reversed  fatigue or variable loading because [latex] \\begin{array}{c} \\sigma_{\\max }=-\\sigma_{\\min } \\\\ \\text { Hence, } \\sigma_{\\text {mean }}=\\sigma_{m}=0 ; \\sigma_{\\text {variable }}=\\sigma_{v}=\\sigma_{\\max } \\end{array}[/latex] For completely reversed fatigue loading  Soderberg, Goodman, Gerber and strength criterion will give same results. As per strength criterion, [latex] \\begin{aligned} \\sigma_{\\max } & \\leq \\sigma_{\\text {per }} \\text { or } \\frac{\\text { failure stress }}{\\text { F.O.S. }} \\\\ \\sigma_{\\max } &=\\frac{\\text { Endurance limit }}{N} \\\\ N &=\\frac{\\text { Endurance limit }}{\\text { Max. stress }}=\\frac{100}{50}=2 \\end{aligned}[/latex]",
+    "min": 1.99,
+    "max": 2.01
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 A machine element has an ultimate strength [latex](\\sigma _{u})[/latex] of [latex]600\\, N/mm^{2}[/latex] , and endurance limit [latex](\\sigma _{en})[/latex] of  [latex]250\\, N/mm^{2}[/latex] , The fatigue curve for the element on log- log plot is shown below. If the element is to be designed for a finite of 10000 cycles, the maximum amplitude of a completely reversed operating stress is _______ [latex]N/mm^{2}[/latex].",
+    "solution": "From two similar triangles, [latex] (i.e. \\Delta A B D \\text { and } \\Delta E C D) [/latex] [latex] \\begin{aligned} \\frac{A B}{E C}&=\\frac{B D}{C D} \\\\ \\frac{\\left(\\log _{10} 480-\\log _{10} 250\\right)}{\\left(\\log _{10} S-\\log _{10}-250\\right)}&=\\frac{6-3}{6-\\log _{10} 10000} \\\\ \\frac{2.68124-2.39794}{\\log _{10} S-2.39794}&=1.5 \\\\ S&=386.195 \\mathrm{N} / \\mathrm{mm}^{2} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page8_q3.webp",
+    "min": 370.0,
+    "max": 390.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 Consider the schematic of a riveted lap joint subjected to tensile load F, as shown below. Let d be the diameter of the rivets, and [latex]S_{f}[/latex]  be the maximum permissible tensile stress in the plates. What should be the minimum value for the thickness of the plates to guard against tensile failure of the plates? Assume the plates to be identical.",
+    "solution": "Safe condition to avoid tearing failure of the joint along the row of rivets, [latex] \\begin{aligned} \\left(\\sigma_{\\text {max }}\\right)_{\\text {tensile }} & \\leq\\left(\\sigma_{t}\\right)_{\\text {per }} \\\\ \\frac{F}{(W-2 d) t} &=S_{f} \\\\ t & \\geq \\frac{F}{S_{f}(W-2 d)} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page8_q4.webp",
+    "options": {
+      "A": "[latex]\\frac{F}{S_{f}(W-2d)}[/latex]",
+      "B": "[latex]\\frac{F}{S_{f}W}[/latex]",
+      "C": "[latex]\\frac{F}{S_{f}(W-d)}[/latex]",
+      "D": "[latex]\\frac{2F}{S_{f}W}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 A bolted joint has four bolts arranged as shown in figure. The cross sectional area of each bolt is  25[latex]mm^{2}[/latex]. A torque T = 200 N-m is acting on the joint. Neglecting friction due to clamping force, maximum shear stress in a bolt is ______ MPa.",
+    "solution": "[latex] \\therefore \\quad P_{1} \\times r+P_{2} r+P_{3} r+P_{4} r-T=0 [/latex] [latex] P_{1}=P_{2}=P_{3}=P_{4} \\qquad [By symmetry] [/latex] [latex] \\begin{aligned} 4 P r&=T \\\\ P=& \\frac{T}{4 r}=\\frac{200}{4 \\times \\frac{50}{1000}}=1000 \\mathrm{N} \\\\ \\text { Shear stress } &=\\frac{T}{\\text { Area }}=\\frac{1000}{25}=40 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page8_q5.webp",
+    "min": 39.9,
+    "max": 40.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 Which of the bearings given below SHOULD NOT be subjected to a thrust load?",
+    "solution": "Correct option is (C)",
+    "options": {
+      "A": "Deep groove ball bearing",
+      "B": "Angular contact ball bearing",
+      "C": "Cylindrical (straight) roller bearing",
+      "D": "Single row tapered roller bearing"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 In a structural member under fatigue loading, the minimum and maximum stresses developed at the critical point are 50 MPaand 150 MParespectively. The endurance, yield, and the ultimate strengths of the material are 200 MPa,300 MPa and 400 MPa, respectively. The factor of safety using modified Goodman criterion is",
+    "solution": "[latex]\\begin{aligned}  \\sigma _{max}&=150MPa\\\\ \\sigma _{min}&=50MPa\\\\ S_e&=200MPa\\\\ S_{yt}&=300MPa\\\\ S_{ut}&=400MPa\\\\ \\sigma _a&=\\frac{\\sigma _{max}-\\sigma _{min}}{2}\\\\ &=\\frac{150-50}{2}\\\\ &=50 MPa\\\\ \\sigma _m&=\\frac{\\sigma _{max}+\\sigma _{min}}{2}\\\\ &=\\frac{150+50}{2}\\\\ &=100 MPa\\\\ &\\text{Goodman sequation}\\\\ \\frac{\\sigma _a}{S_e}+\\frac{\\sigma _m}{S_{ut}}&=\\frac{1}{FS}\\\\ \\frac{50}{200}+\\frac{100}{400}&=\\frac{1}{FS}\\\\ FS&=2 \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{3}{2}[/latex]",
+      "B": "[latex]\\frac{8}{5}[/latex]",
+      "C": "[latex]\\frac{12}{7}[/latex]",
+      "D": "2"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 For the brake shown in the figure, which one of the following is TRUE?",
+    "solution": "For clockwise direction rotation of drum direction of moment of forces [latex]F_{\\mathrm{r}_{2}}[/latex]  and F will be same. Hence, self energizing for clockwise rotation of the drum.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page9_q3.webp",
+    "options": {
+      "A": "Self energizing for clockwise rotation of the drum",
+      "B": "Self energizing for anti-clockwise rotation of the drum",
+      "C": "Self energizing for rotation in either direction of the drum",
+      "D": "Not of the self energizing type"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 The forces F1 and F2 in a brake band and the direction of rotation of the drum are as shown in the figure. The coefficient of friction is 0.25. The angle of wrap is [latex]3\\pi /2[/latex] radians. It is given that R = 1 m and F2 = 1 N. The torque (in N-m) exerted on the drum is _________",
+    "solution": "[latex]\\begin{aligned} F_{1} &>F_{2} \\\\ \\frac{F_{1}}{F_{2}} &=e^{\\mu \\theta} \\\\ \\frac{F_{1}}{F_{2}} &=e^{0.25 \\times \\frac{3 \\pi}{2}} \\\\ F_{1} &=F_{2} \\cdot e^{0.25 \\times \\frac{3 \\pi}{2}} \\\\ &=1 \\times e^{0.25 \\times \\frac{3 \\times \\pi}{2}} \\\\ &=3.2482 \\mathrm{N} \\\\ \\text { Torque } &=\\left(F_{1}-F_{2}\\right) \\times r \\\\ &=(3.2482-1) \\times 11 \\\\ &=2.2482 \\mathrm{Nm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page9_q4.webp",
+    "min": 2.2,
+    "max": 2.3
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 The spring constant of a helical compression spring DOES NOT depend on",
+    "solution": "Stiffness of helical spring [latex]\r\nk=\\frac{G d^{4}}{64 R^{3} n}[/latex] It depends on wire diameter  (d),  shear modulus \r\n(g), Coil radius (R) and no of active turns (n). Does \r\nnot depend on strength.",
+    "options": {
+      "A": "coil diameter",
+      "B": "material strength",
+      "C": "number of active turns",
+      "D": "wire diameter"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 A cantilever bracket is bolted to a column using three M12x1.75 bolts P, Q and R. The value of maximum shear stress developed in the bolt P (in MPa) is ________",
+    "solution": "Total shear force on P , [latex] \\begin{aligned} F_{s} &=\\sqrt{(37500)^{2}+(3000)^{2}} \\\\ &=37619.808\\\\ \\therefore \\qquad \\tau_{\\max } &=\\frac{F_{s}}{A}=\\frac{37619.808}{\\pi \\times 0.25 \\times 12^{2}} \\\\ &=332.6321 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page10_q1.webp",
+    "min": 332.0,
+    "max": 494.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 For ball bearings, the fatigue life L measured in number of revolutions and the radial load F are related by [latex]FL^{1/3}= K[/latex] , where K is a constant. It withstands a radial load of 2 kN for a life of 540 million revolutions. The load (in kN) for a life of one million revolutions is ________",
+    "solution": "[latex]\\begin{aligned} F L^{1 / 3} &=k \\\\ 2 k N \\times(540)^{1 / 3} &=F \\times(1)^{1 / 3} \\\\ F &=16.2865 \\mathrm{kN} \\end{aligned}[/latex]",
+    "min": 15.0,
+    "max": 17.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 For the given fluctuating fatigue load, the values of stress amplitude and stress ratio are respectively",
+    "solution": "[latex]\\sigma_{a}=\\frac{\\sigma_{\\max }-\\sigma_{\\min }}{2}=\\frac{250-50}{2}=100 \\mathrm{MPa}[/latex] [latex]\\text{Stress ratio }=\\frac{\\sigma _{max}}{\\sigma _{min}}=\\frac{50}{250}=0.2[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page10_q3.webp",
+    "options": {
+      "A": "100 MPa and 5",
+      "B": "250 MPa and 5",
+      "C": "100 MPa and 0.20",
+      "D": "250 MPa and 0.20"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 The uniaxial yield stress of a material is 300 MPa. According to von Mises criterion, the shear yield stress (in MPa) of the material is _______",
+    "solution": "According to Von-Mises criterion, [latex] \\begin{aligned} \\tau_{y} &=\\frac{\\sigma_{y}}{\\sqrt{3}} \\\\ &=\\frac{300}{\\sqrt{3}}=173.1 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "min": 171.0,
+    "max": 175.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 A horizontal plate has been joined to a vertical post using four rivets arranged as shown in the figure. The magnitude of the load on the worst loaded rivet (in N) is _______",
+    "solution": "Primary force [latex]\\left(P_{1}\\right)=100 \\mathrm{N} [/latex] [latex] \\begin{aligned} P_{1}^{\\prime \\prime}&=P_{2}^{\\prime \\prime}=P_{3}^{\\prime \\prime}=P_{4}^{\\prime \\prime}=\\frac{P_{e} \\times r}{4 r^{2}} \\\\ &= \\frac{400 \\times 500 \\times(40 \\sqrt{2} / 2)}{4 \\times\\left(\\frac{40 \\sqrt{2}}{2}\\right)^{2}} \\\\ P_{1}^{\\prime \\prime}&= \\frac{400 \\times 500 \\times 20 \\sqrt{2}}{4 \\times(20 \\sqrt{2})^{2}} \\\\&= \\frac{400 \\times 500}{4 \\times 20 \\sqrt{2}} \\\\ P_{1}^{\\prime \\prime}&= 1767.766 \\mathrm{N} \\end{aligned} [/latex] (1 and 4) are worst loaded [latex] \\therefore P_{\\text {net }}^{2}=P_{1}+P_{1}^{\\prime \\prime 2}+2 P_{1} P_{1}^{\\prime \\prime} \\cos 45^{\\circ} [/latex] [latex] P_{\\text {net }}=1839.83 \\mathrm{N}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page10_q5.webp",
+    "min": 1835.0,
+    "max": 1845.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 A machine element is subjected to the following bi-axial state of stress:  [latex]\\sigma _{x}[/latex] = 80 MPa;  [latex]\\sigma _{y}[/latex] = 20 MPa; [latex]\\tau _{xy}[/latex]  = 40 MPa. If the shear strength of the material is 100 MPa, the factor of safety as per Tresca's maximum shear stress theory is",
+    "solution": "[latex]\\begin{array}{c} \\sigma_{1,2}=\\frac{1}{2}\\left[\\left(\\sigma_{x}+\\sigma_{y}\\right) \\pm \\sqrt{\\left(\\sigma_{x}+\\sigma_{y}\\right)^{2}+4 \\tau_{x y}^{2}}\\right] \\\\ =\\frac{1}{2}[(80+20) \\pm \\sqrt{(60)^{2}+4 \\times 40^{2}}] \\\\ \\sigma_{1}=100 \\mathrm{MPa} \\\\ \\sigma_{2}=0 \\mathrm{MPa} \\\\ \\left(\\tau_{\\max }\\right)=\\frac{\\sigma_{1}}{2}=50 \\mathrm{MPa} \\\\ F(\\text { Factor of safety })=\\frac{\\tau_{y s}}{\\tau_{\\max }}=\\frac{100}{50}=2 \\end{array}[/latex]",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "2.5",
+      "D": "3.3"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 Which one of the following is the most conservative fatigue failure criterion?",
+    "solution": "When a component is subjected to fluctuating stresses there is mean stress [latex](\\sigma _m)[/latex] as well as stress amplitude [latex](\\sigma _a)[/latex]. It has been observed that the mean stress component has an effect on fatigue failure when it is present in combination with an alternating component. When the component is subjected to both component of stress [latex](\\sigma _m)[/latex] and [latex](\\sigma _a)[/latex] the actual failure occurs at different scattered points as shown in figure. There exist a border which decides sole region from unsole region for various combinations of [latex](\\sigma _m)[/latex] and [latex](\\sigma _a)[/latex] and different criterion are proposed to constant the borderline dividing safe zone and failure zone, they include Gerber line, soderberg line, Goodman line, ASME elliptic. Gerber Line: A parabolic curve jointing [latex]\\sigma _e[/latex] on the ordinate to [latex]\\sigma _{ut}[/latex] on the abscissa is called Gerber line. It is written as [latex]\\left (\\frac{\\sigma _a}{\\sigma _e} \\right )+\\left (\\frac{\\sigma _m}{\\sigma _{ut}} \\right )^2=1[/latex] Soderberg Line: A straight line joining [latex]\\sigma _e[/latex] on the ordinate to [latex]\\sigma _{yt}[/latex] on the abscissa is called soderberg line. It is written as [latex]\\left (\\frac{\\sigma _a}{\\sigma _e} \\right )+\\left (\\frac{\\sigma _m}{\\sigma _{yt}} \\right )=1[/latex] Goodman Line: A straight line joining [latex]\\sigma _e[/latex] on the ordinate to [latex]\\sigma _{ut}[/latex] on the abscissa is called the Goodman line. It is written as [latex]\\left (\\frac{\\sigma _a}{\\sigma _e} \\right )+\\left (\\frac{\\sigma _m}{\\sigma _{ut}} \\right )=1[/latex] ASME Elliptic: The ASME elliptic is written as [latex]\\left (\\frac{\\sigma _a}{\\sigma _e} \\right )^2+\\left (\\frac{\\sigma _m}{\\sigma _{yt}} \\right )^2=1[/latex] The soderberg line is a more conservative failure criterion and there is no need to consider even yielding in this case.",
+    "options": {
+      "A": "Soderberg",
+      "B": "Modified Goodman",
+      "C": "ASME Elliptic",
+      "D": "Gerber"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 A butt weld joint is developed on steel plates having yield and ultimate tensile strength of 500 MPa and 700 MPa, respectively. The thickness of the plates is 8 mm and width is 20 mm. Improper selection of welding parameters caused an undercut of 3 mm depth along the weld. The maximum transverse tensile load (in kN) carrying capacity of the developed weld joint  is _______",
+    "solution": "[latex]\\begin{aligned} P_{t} &=\\sigma_{t}\\left(t_{\\text {under cut }}\\right) L \\\\ &=700 \\times 20 \\times(8-3)=700 \\times 100 N \\\\ &=70 \\mathrm{kN} \\end{aligned}[/latex]",
+    "min": 68.0,
+    "max": 72.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 A bolt of major diameter 12 mm is required to clamp two steel plates. Cross sectional area of the threaded portion of the bolt is 84.3 [latex]mm^{2}[/latex]. The length of the threaded portion in grip is 30 mm, while the length of the unthreaded portion in grip is 8 mm. Young's modulus of material is 200 GPa. The effective stiffness (in MN/m) of the bolt in the clamped zone is _______",
+    "solution": "[latex]k_{t}=\\frac{A_{4} E}{4} [/latex] (Stiffness in threaded portion) [latex] \\begin{aligned} k_{t} &=\\frac{84.3 \\times 200 \\times 10^{3}}{30 \\times 10^{-3}}=562 \\times 10^{6} \\mathrm{N} / \\mathrm{m} \\\\ &=562 \\mathrm{MN} / \\mathrm{m} \\end{aligned} [/latex] [latex] k_{d}=\\frac{A_{d} E}{L_{d}} [/latex] (Stiffness in unthreaded region) [latex] A_{d}[/latex]( major diameter c/s area ) [latex] =\\frac{\\pi}{4} \\mathrm{d}^{2}=0.785 \\times 144 [/latex] [latex] =113.04 \\mathrm{mm}^{2} [/latex] [latex] L_{d} [/latex] (length of unthreaded portion) = 8mm [latex] \\begin{aligned} \\therefore \\quad & k_{d}=\\frac{113.04 \\times 200 \\times 10^{3}}{8 \\times 10^{-3}} \\\\ &=2826 \\times 10^{6} \\mathrm{N} / \\mathrm{m}=2826 \\mathrm{MN} / \\mathrm{m} \\\\ \\frac{1}{k} &=\\frac{1}{k_{t}}+\\frac{1}{k_{d}} \\Rightarrow k=\\frac{k_{d} k_{t}}{k_{d}+k_{t}}=\\frac{2826 \\times 562}{2826+562} \\\\ &=468.77 \\mathrm{MN} / \\mathrm{m} \\end{aligned}[/latex]",
+    "min": 460.0,
+    "max": 470.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 A shaft is subjected to pure torsional moment. The maximum shear stress developed in the shaft is 100 MPa. The yield and ultimate strengths of the shaft material in tension are 300 MPa and  450 MPa, respectively. The factor of safety using maximum distortion energy (von-Mises) theory  is  _______",
+    "solution": "[latex]\\begin{aligned} \\sigma_{1}&=100 \\mathrm{MPa} \\\\ \\sigma_{2}&=-100 \\mathrm{MPa} \\end{aligned}[/latex] As per Von-Mises yield theory: [latex] N^{2}\\left[\\left(\\sigma_{1}-\\sigma_{2}\\right)^{2}+\\left(\\sigma_{2}-\\sigma_{3}\\right)^{2}+\\left(\\sigma_{1}-\\sigma_{3}\\right)^{2}\\right] \\leq 2 \\sigma_{y}^{2} [/latex] [latex] \\text{In this case,  } \\sigma_{3}=0 [/latex] [latex] 2 N^{2}\\left[\\sigma_{1}^{2}+\\sigma_{2}^{2}-\\sigma_{1} \\sigma_{2}\\right] \\leq 2 \\sigma_{y}^{2} [/latex] [latex] \\Rightarrow N^{2}\\left[(100)^{2}+(100)^{2}+(100)^{2}\\right] \\leq(300)^{2} [/latex] [latex] \\Rightarrow N^{2}=\\frac{9}{3} \\Rightarrow N \\leq \\sqrt{3} [/latex] [latex] \\therefore \\quad N=1.732[/latex]",
+    "min": 1.7,
+    "max": 1.8
+  },
+  {
+    "type": "numerical",
+    "question": "Question 56 Ball bearings are rated by a manufacturer for a life of [latex]10^{6}[/latex] revolutions. The catalogue rating of a particular bearing is 16 kN. If the design load is 2 kN, the life of the bearing will be [latex]p\\times 10^{6}[/latex]  revolutions, where p is equal to _______",
+    "solution": "[latex]L_{10}=\\left(\\frac{C}{W}\\right)^{3}[/latex] where [latex] L_{10}=[/latex] Basic life rating in millions of revolutions C= Basic dynamic load rating P= Equivalent dynamic radial load factor [latex] \\therefore \\;L_{10}=\\left(\\frac{16}{2}\\right)^{3}=512[/latex]",
+    "min": 500.0,
+    "max": 540.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Which one of the following is used to convert a rotational motion into a translational motion?",
+    "solution": "Bevel gears: Rotational motion transfer between \r\naxes at right angle. Worm gears: For large reduction ratio in a single \r\nstage. Double helical gears: Rotational motion transfer \r\nbetween parallel axes. Rack and Pinion gears: Rotational to linear motion \r\nconversion.",
+    "options": {
+      "A": "Bevel gears",
+      "B": "Double helical gears",
+      "C": "Worm gears",
+      "D": "Rack and pinion gears"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 58 A four-wheel vehicle of mass 1000 kg moves uniformly in a straight line with the wheels revolving at 10 rad/s. The wheels are identical, each with a radius of 0.2 m. Then a constant braking torque is applied to all the wheels and the vehicle experiences a uniform deceleration. For the vehicle to stop in 10 s, the braking torque (in N.m) on each wheel is _______",
+    "solution": "Initial velocity, [latex] u=\\omega r=10 \\times 0.2=2 \\mathrm{m} / \\mathrm{s}[/latex] For vehicle to stop, [latex] \\begin{aligned} v &=u-\\mathrm{at} \\\\ \\Rightarrow \\quad 0 &=u-\\mathrm{at}\\\\ \\therefore \\quad a&=\\frac{u}{t}=\\frac{2}{10}=0.2 \\mathrm{m} / \\mathrm{s}^{2} \\end{aligned}[/latex] Braking force = Total mass x deceleration [latex] \\begin{aligned} F &=1000 \\times 0.2 \\\\ &=200 \\mathrm{N} \\\\ F_{\\text {each wheel }} &=\\frac{200}{4}=50 \\mathrm{N} \\end{aligned}[/latex] Braking torque on each wheel [latex] =50 \\times 0.2=10 \\mathrm{Nm}[/latex]",
+    "min": 9.0,
+    "max": 11.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 59 A drum brake is shown in the figure. The drum is rotating in anticlockwise direction. The coefficient of friction between drum and shoe is 0.2. The dimensions shown in the figure  are in mm. The braking torque (in N.m) for the brake shoe is _______",
+    "solution": "Taking [latex]\\Sigma M_{0}=0 [/latex] [latex] \\begin{aligned} \\Rightarrow \\quad 1000 \\times 800&=F_{t} \\times 100+R_{N} \\times 480 \\\\ \\Rightarrow \\quad 8000 &=F_{t}+4.8 R_{N} \\\\ F_{t} &=\\mu R_{N}=0.2 R_{N} \\\\ \\therefore 0.2 R_{N}+4.8 R_{N} &=8000\\\\ \\text{or }\\quad R_{N}&=\\frac{8000}{5}=1600 \\mathrm{N}\\\\ \\therefore \\qquad F_{t} &=\\mu R_{N}=0.2 \\times 1600 \\\\ &=320 \\mathrm{N}\\\\ \\text{Braking torque,}\\\\ T &=F_{t} \\times r \\\\ &=320 \\times 0.2=64 \\mathrm{Nm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page12_q4.webp",
+    "min": 63.0,
+    "max": 65.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 Which one of following is NOT correct?",
+    "solution": "The maximum shear stress theory predicts that \r\nshear yield value [latex] \\tau_{y} [/latex] is 0.5 times the tensile yield value. This is about  15 %  less than the value predicted by the distortion energy (or the \r\noctahedral shear) theory. The maximum shear \r\nstress theory gives values for design on the safe \r\nside. Also, because of its simplicity, this theory \r\nis widely used in machine design dealing with \r\nductile materials.",
+    "options": {
+      "A": "Intermediate principal stress is ignored when applying the maximum principal stress theory",
+      "B": "The maximum shear stress theory gives the most accurate results amongst all the failure theories",
+      "C": "As per the maximum strain energy theory, failure occurs when the strain energy per unit volume exceeds a critical value",
+      "D": "As per the maximum distortion energy theory, failure occurs when the distortion energy per unit volume exceeds a critical value"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 61 A rotating steel shaft is supported at the ends. It is subjected to a point load at the center. The maximum bending stress developed is 100 MPa. If the yield, ultimate and corrected endurance strength of the shaft material are 300 MPa, 500 MPa and 200 MPa, respectively, then the factor of safety for the shaft is _______",
+    "solution": "Same fiber under point load at the center of a rotating steel shaft supported at ends is subjected to reversal of stresses. Here only maximum stress is given, its sign (nature) is not given [latex] \\begin{aligned} \\therefore \\qquad \\sigma_{\\min }&=-100 \\mathrm{MPa}\\\\ \\sigma_{\\max } &=100 \\mathrm{MPa} \\\\ \\sigma_{m} &=\\frac{\\sigma_{\\max }+\\sigma_{\\min }}{2}=0 \\\\ \\sigma_{a} &=\\frac{\\sigma_{\\max }-\\sigma_{\\min }}{2} \\\\ &=\\frac{100+100}{2}=100 \\mathrm{MPa} \\end{aligned}[/latex] As the steel is ductile material, Soderberg criteria will be applied. [latex] \\therefore \\quad \\frac{\\sigma_{m}}{\\sigma_{y}}+\\frac{\\sigma_{a}}{\\sigma_{e}}=\\frac{1}{N}[/latex] [latex] \\text{or }\\quad 0+\\frac{100}{200}=\\frac{1}{N} \\Rightarrow N=2[/latex]",
+    "min": 1.9,
+    "max": 2.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 62 A spur pinion of pitch diameter 50 mm rotates at 200 rad/s and transmits 3 kW power. The pressure angle of the tooth of the pinion is 20[latex]^{\\circ}[/latex]. Assuming that only one pair of the teeth is in contact, the total force (in newton) exerted by a tooth of the pinion on the tooth on a mating gear is _______",
+    "solution": "Given, [latex] \\begin{aligned} d&=50 \\mathrm{mm} \\\\ \\omega&=200 \\mathrm{rad} / \\mathrm{s} \\\\ P&=3000 \\mathrm{W} \\\\ \\phi&=20^{\\circ} \\\\ T&=\\frac{P}{\\omega}=\\frac{3000}{200}=15 \\mathrm{N.m} \\end{aligned} [/latex] [latex] \\begin{aligned} F_{T} \\times r &=T \\\\ \\therefore F_{T} &=\\frac{T}{r}=\\frac{15}{0.025}=600 \\mathrm{N} \\\\ \\therefore F_{T} &=F \\cos \\phi \\\\ F &=\\frac{600}{\\cos 20^{\\circ}}=638.5 \\mathrm{N} \\end{aligned}[/latex]",
+    "min": 638.0,
+    "max": 639.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 Consider the two states of stress as shown in configurations I and II in the figure below. From the standpoint of distortion energy (von-Mises) criterion, which one of the following statements is true?",
+    "solution": "Simplified Von mises equation for general load scenario is given by [latex] \\begin{aligned} \\sigma_{v}=& \\sqrt{\\frac{1}{2}\\left[\\left(\\sigma_{11}-\\sigma_{22}\\right)^{2}+\\left(\\sigma_{22}-\\sigma_{33}\\right)^{2}\\right. \\left.+\\left(\\sigma_{33}-\\sigma_{11}\\right)^{2}+6\\left(\\sigma_{12}^{2}+\\sigma_{23}^{2}+\\sigma_{31}^{2}\\right)\\right]} \\end{aligned}[/latex] Case-I[ [latex] \\begin{aligned} \\sigma_{11} &=0 \\\\ \\sigma_{22} &=\\sigma \\\\ \\sigma_{33} &=0 \\\\ \\sigma_{12} &=0 \\\\ \\sigma_{23} &=\\tau \\\\ \\sigma_{31} &=0 \\\\ \\therefore \\quad \\sigma_{v} &=\\sqrt{\\frac{1}{2}\\left(2 \\sigma^{2}+6 \\tau^{2}\\right)}=\\sqrt{\\sigma^{2}+3 \\tau^{2}} \\end{aligned}[/latex] Case-II [latex] \\begin{aligned} \\sigma_{11} &=0 \\\\ \\sigma_{22} &=\\sigma \\\\ \\sigma_{33} &=0 \\\\ \\sigma_{12} &=0 \\\\ \\sigma_{23} &=0 \\\\ \\sigma_{31} &=\\tau \\\\ \\therefore \\quad \\sigma_{v} &=\\sqrt{\\frac{1}{2}\\left(2 \\sigma^{2}+6 \\tau^{2}\\right)}=\\sqrt{\\sigma^{2}+3 \\tau^{2}} \\end{aligned}[/latex] In both the cases, [latex]\\sigma_{v}[/latex] is same, so both yield simultaneously.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page13_q3.webp",
+    "options": {
+      "A": "I yields after II",
+      "B": "II yields after I",
+      "C": "Both yield simultaneously",
+      "D": "Nothing can be said about their relative yielding"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 64 A disc clutch with a single friction surface has coefficient of friction equal to 0.3. The maximum pressure which can be imposed on the friction material is 1.5 MPa. The outer diameter of the clutch plate is 200 mm and its internal diameter is 100 mm. Assuming uniform wear theory for the clutch plate, the maximum torque (in N.m) that can be transmitted is _______",
+    "solution": "[latex]\\begin{aligned} r_{1}&=0.1m;\\qquad r_{2}=0.05m\\\\ p_{\\mathrm{max}},\\times r_{2} &=C \\\\ \\Rightarrow C &=1.5 \\times 10^{6} \\times 0.05 \\\\ &=75000 \\\\ W&=2 \\pi C\\left(r_{1}-r_{2}\\right) \\\\ &=2 \\pi \\times 75000 \\times(0.1-0.05) \\\\ &=23561.94\\\\ T &=n \\mu W R \\\\ &=1 \\times 0.3 \\times 23561.94 \\times 0.075 \\\\ &=530.14 \\\\ (R&= \\left. \\frac{r_{1}+r_{2}}{2}=\\frac{0.1+0.05}{2}=0.075\\right) \\end{aligned}[/latex]",
+    "min": 529.0,
+    "max": 532.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 For the three bolt system shown in the figure, the bolt material has shear yield strength of 200 MPa. For a factor of safety of 2, the minimum metric specification required for the bolt is",
+    "solution": "[latex]\\begin{aligned} \\text { Design stress } &=\\frac{\\tau_{y}}{\\mathrm{FOS}}=\\frac{200}{2} \\\\ &=100 \\mathrm{MPa} \\\\ \\text { Load } &=19 \\mathrm{kN} \\\\ \\text { Total shear area } &=\\frac{19 \\times 10^{3}}{100 \\times 10^{6}} \\\\ &=1.9 \\times 10^{-4} \\mathrm{m}^{2} \\end{aligned}[/latex] Shear area for one bolt [latex]=\\frac{A}{3}=6.33 \\times 10^{-5} \\mathrm{m}^{2}[/latex] [latex] \\begin{aligned} \\therefore \\quad d&=\\left(\\frac{4 \\times 6.33 \\times 10^{-5}}{\\pi}\\right)^{1 / 2}\\\\ &=8.982 \\times 10^{-3} \\mathrm{m} \\\\ &=8.982 \\mathrm{mm} \\end{aligned}[/latex] So, M10 Alternate: [latex] \\begin{aligned} P &=\\frac{\\tau_{y}}{F_{S}} \\times \\frac{\\pi}{4} d^{2} \\times n \\\\ \\Rightarrow \\quad 19000 &=\\frac{200 \\times 10^{6}}{2} \\times \\frac{\\pi}{4} \\times d^{2} \\times 3 \\\\ \\Rightarrow \\quad d &=8.98 \\times 10^{-3} \\mathrm{m}=8.98 \\mathrm{mm} \\end{aligned}[/latex] So, M10",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page13_q5.webp",
+    "options": {
+      "A": "M8",
+      "B": "M10",
+      "C": "M12",
+      "D": "M16"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 66 In a structure subjected to fatigue loading, the minimum and maximum stresses developed in a cycle are 200 MPa and 400 MPa respectively. The value of stress amplitude (in MPa) is",
+    "solution": "[latex]\\begin{aligned} \\sigma _{min}&=200 \\; \\text{MPa} \\\\ \\sigma _{max}&=400 \\; \\text{MPa} \\\\ \\sigma _a&= \\frac{\\sigma _{max}-\\sigma _{min}}{2}\\\\ &= \\frac{400-200}{2}\\\\ &=100\\; \\text{MPa} \\end{aligned}[/latex]",
+    "min": 99.0,
+    "max": 101.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 67 A hydrodynamic journal bearing is subject to 2000 N load at a rotational speed of 2000 rpm. Both bearing bore diameter and length are 40 mm. If radial clearance is 20 [latex]\\mu[/latex]m and bearing is lubricated with an oil having viscosity 0.03 Pa.s, the Sommerfeld number of the bearing is  _______",
+    "solution": "[latex]\\begin{aligned} r &=20 \\mathrm{mm}, \\quad N=2000 \\mathrm{rpm} \\\\ c &=20 \\times 10^{-3}, \\quad \\mu=0.03 \\mathrm{Ns} / \\mathrm{m}^{2} \\\\ p &=\\frac{2000}{1600} \\mathrm{N} / \\mathrm{mm}^{2} \\qquad \\left(p=\\frac{W}{A}\\right)\\\\ &=1.25 \\mathrm{MPa}, S=? \\\\ S &=\\frac{Z N}{60 p}\\left(\\frac{r}{c}\\right)^{2} \\\\ &=\\frac{0.03 \\times 2000}{60 \\times 1.25 \\times 10^{6}}\\left(\\frac{20}{20 \\times 10^{-3}}\\right)^{2} \\\\ &=0.8 \\end{aligned}[/latex]",
+    "min": 0.75,
+    "max": 0.85
+  },
+  {
+    "type": "numerical",
+    "question": "Question 68 A pair of spur gears with module 5 mm and a center distance of 450 mm is used for a speed reduction of 5:1. The number of teeth on pinion is  _______",
+    "solution": "[latex]\\begin{aligned} \\frac{N_{P}}{N_{G}} &=5=\\frac{T_{G}}{T_{P}} \\\\ T_{G} &=5 T_{P} \\\\ C &=\\frac{m}{2}\\left(T_{P}+T_{G}\\right) \\\\ T_{P}+T_{G} &=\\frac{2 C}{m}=\\frac{2 \\times 450}{5} \\\\ &=180 \\\\ \\text{or }\\quad 6 T_{P}&=180 \\\\ \\text{or }\\quad T_{P}&=30 \\end{aligned}[/latex]",
+    "min": 29.0,
+    "max": 31.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 For the given statements: I. Mating spur gear teeth is an example of higher pair II. A revolute joint is an example of lower pair Indicate the correct answer",
+    "solution": "Example of Lower Pair: Revolute pair, Prismatic joint, Screw pair, cylindrical \r\njoint, spherical joint. Example of higher pair: Wheel rolling an surface, cam and follower contact, \r\nmeshing teeth of two gears.",
+    "options": {
+      "A": "Both I and II are false",
+      "B": "I is true and II is false",
+      "C": "I is false and II is true",
+      "D": "Both I an d II are true"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 A single riveted lap joint of two similar plates as shown in the figure below has the following geometrical and material details. width of the plate w = 200 mm, thickness of the plate t = 5 mm, number of rivets n = 3, diameter of the rivet [latex]d_{r}[/latex]\n = 10 mm, diameter of the rivet hole [latex]d_{h}[/latex]\n = 11 mm, allowable tensile stress of the plate [latex]\\sigma _{p}[/latex] = 200 MPa, allowable shear stress of the rivet [latex]\\sigma _{s}[/latex]\n = 100 MPa and allowable bearing stress of the rivet [latex]\\sigma _{c}[/latex]\n  = 150 MPa. If the plates are to be designed to avoid tearing failure, the maximum permissible load  P  in kN  is",
+    "solution": "Tearing load [latex] \\begin{aligned} &=(W-3 \\alpha) t \\times \\sigma_{P}=(200-3 \\times 11) \\times 5 \\times 200 \\\\ &=167 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page14_q5.webp",
+    "options": {
+      "A": "83",
+      "B": "125",
+      "C": "167",
+      "D": "501"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 A single riveted lap joint of two similar plates as shown in the figure below has the following geometrical and material details. width of the plate w = 200 mm, thickness of the plate t = 5 mm, number of rivets n = 3, diameter of the rivet [latex]d_{r}[/latex]\n = 10 mm, diameter of the rivet hole [latex]d_{h}[/latex]\n = 11 mm, allowable tensile stress of the plate [latex]\\sigma _{p}[/latex] = 200 MPa, allowable shear stress of the rivet [latex]\\sigma _{s}[/latex]\n = 100 MPa and allowable bearing stress of the rivet [latex]\\sigma _{c}[/latex]\n  = 150 MPa. If the rivets are to be designed to avoid crushing failure, the maximum permissible load  P  in kN  is",
+    "solution": "[latex]\\begin{aligned} P_{\\text {crusing}} &=3\\left(d \\times t \\times \\sigma_{c}\\right) \\\\ &=3(10 \\times 5 \\times 150) \\\\ &=22.50 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page15_q1.webp",
+    "options": {
+      "A": "7.5",
+      "B": "15",
+      "C": "22.5",
+      "D": "30"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 72 A bar is subjected to fluctuating tensile load from 20 kN to 100 kN. The material has yield strength of 240 MPa and endurance limit in reversed bending is 160 MPa. According to the Soderberg principle, the area of cross-section in [latex]mm^{2}[/latex]\n of the bar for a factor of safety of 2 is",
+    "solution": "[latex]\\begin{array}{c} P_{1}=20 \\mathrm{kN} ; P_{2}=100 \\mathrm{kN} \\\\ \\sigma_{y t}=240 \\mathrm{MPa} ; \\sigma_{e}=160 \\mathrm{MPa} \\\\ P_{m}=\\frac{20+100}{2}=60 \\mathrm{kN} \\end{array}[/latex] Let A is are in [latex]\\text{mm}^{2} [/latex] [latex] \\begin{aligned} P_{v}&=\\frac{100-20}{2}=40 \\mathrm{kN} \\\\ \\sigma_{v}&=\\frac{40}{A} \\mathrm{kN} / \\mathrm{mm}^{2} \\end{aligned}[/latex] By Soderberg principle [latex] \\begin{aligned} \\frac{1}{\\mathrm{FOS}} &=\\frac{\\sigma_{m}}{\\sigma_{y t}}+\\frac{\\sigma_{v}}{\\sigma_{e}} \\\\ \\frac{1}{2} &=\\frac{60 \\times 10^{3}}{A \\sigma_{y t}}+\\frac{40 \\times 10^{3}}{A \\sigma_{v}} \\\\ A &=\\left[\\frac{60}{240}+\\frac{40}{160}\\right] 2 \\times 10^{3} \\\\ A &=\\left[\\frac{2}{4}\\right] \\times 2 \\times 10^{3}=1000 \\mathrm{mm}^{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "400",
+      "B": "600",
+      "C": "750",
+      "D": "1000"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 Two cutting tools are being compared for a machining operation. The tool life equations are: Carbide tool: [latex]VT^{1.6}=3000[/latex] HSS tool: [latex]VT^{0.6}=200[/latex] where V is the cutting speed in m/min and T is the tool life in min. The carbide tool will provide higher tool life if the cutting speed in m/min exceeds",
+    "solution": "[latex]\\begin{aligned} T^{0.16} &=3000 N \\qquad \\cdots(i)\\\\ T^{0.6} &=200 N \\qquad\\cdots(ii)\\\\ \\therefore \\qquad \\frac{T^{1.6}}{T^{0.6}} &=\\frac{3000}{200} \\\\ T^{1.6-0.6} &=15 \\\\ \\Rightarrow \\quad T &=15 \\mathrm{min}\\\\ \\therefore \\quad V(15)^{1.6}&=3000\\\\ \\Rightarrow V&=39.4 \\mathrm{m} / \\mathrm{min} \\end{aligned}[/latex] If the cutting speed exceeds 39.4 m/min, the  carbide tool will provide higher tool life",
+    "options": {
+      "A": "15",
+      "B": "39.4",
+      "C": "49.3",
+      "D": "60"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 74 A pin jointed uniform rigid rod of weight W and length L  is supported horizontally by an external force F as shown in the figure below. The force F is suddenly removed. At the instant of force removal, the magnitude of vertical reaction developed at  the support is",
+    "solution": "[latex] \\begin{aligned} W \\times \\frac{L}{2}&=F \\times L \\\\ \\Rightarrow F&=\\frac{W}{2} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page15_q4.webp",
+    "options": {
+      "A": "zero",
+      "B": "[latex]W/4[/latex]",
+      "C": "[latex]W/2[/latex]",
+      "D": "W"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 75 A metric thread of pitch 2 mm and thread angle 60[latex]^{\\circ}[/latex] is inspected for its pitch diameter using 3-wire method. The diameter of the best size wire in mm is",
+    "solution": "Pitch: [latex]\\quad P=2 \\mathrm{mm} [/latex] Thread angle: [latex]\\quad 2 \\theta=60^{\\circ} [/latex] [latex] \\Rightarrow \\quad \\theta=30^{\\circ} [/latex] For best size wire [latex] \\begin{aligned} \\mathrm{d} \\mathrm{W} &=\\frac{P}{2} \\sec \\theta \\\\ &=\\frac{2}{2} \\sec 30^{\\circ}=1.154 \\mathrm{mm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.866",
+      "B": "1",
+      "C": "1.154",
+      "D": "2"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 76 Force of 400N is applied to the brake drum of 0.5m diameter in a band - brake system as shown in the figure, where the wrapping angle is 180[latex]^{\\circ}[/latex]. If the coefficient of friction between the drum and the band is 0.25, the braking torque applied, in N.m is.",
+    "solution": "Braking torque [latex] \\begin{aligned} &=\\left(T_{1}-T_{2}\\right) R \\\\ T_{1} &=400 \\\\ \\frac{T_{1}}{T_{2}} &=\\mathrm{e}^{\\mu \\theta} \\\\ \\mu &=0.25 \\\\ \\theta &=\\pi \\\\ \\therefore \\quad T_{2}&=182.375 \\\\ \\therefore \\quad B T&=(400-182.375) \\times \\frac{0.5}{2} \\\\ &=54.4 \\mathrm{Nm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page16_q1.webp",
+    "options": {
+      "A": "100.6",
+      "B": "54.4",
+      "C": "22.1",
+      "D": "15.7"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 A solid circular shaft needs to be designed to transmit a torque of 50N.m. If the allowable shear stress of the material is 140MPa, assuming a factor of safety of 2, the minimum allowable design diameter in mm is",
+    "solution": "[latex]\\begin{aligned} T &=50 \\mathrm{Nm}=140 \\mathrm{MPa} \\quad N=2 \\\\ \\tau_{\\text {permissible }} &=\\frac{140}{N}=70 \\mathrm{MPa} \\\\ \\therefore \\quad \\tau_{\\text {per }} &=\\frac{16 T}{\\pi d^{3}} \\\\ d & \\geq\\left(\\frac{16 T}{\\pi \\tau_{\\text {per }}}\\right)^{1 / 3} \\geq\\left(\\frac{16 \\times 50}{\\pi \\times 70 \\times 10^{6}}\\right)^{13} \\\\ d & \\geq 0.0153 \\mathrm{m} \\\\ d & \\geq 15.37 \\mathrm{mm} \\approx 16 \\mathrm{mm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "8",
+      "B": "16",
+      "C": "24",
+      "D": "32"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 78 A fillet welded joints is subjected to transverse loading F as shown in the figure. Both legs of the fillets are of 10mm size and the weld length is 30mm. if the allowable shear stress of the weld is 94MPa, considering the minimum throat area of the weld, the maximum allowable transverse load in kN is",
+    "solution": "The shear strength of the joing for single parallel fillet weld is P= Throat area [latex]\\times [/latex] Allowable stress [latex] =t \\times l \\times \\tau [/latex] [latex] t=\\text{leg size} x \\sin 45^{\\circ}=0.707 \\times \\text{leg size} [/latex] For double parallel fillet weld [latex] \\begin{aligned} P&=2 \\times 0.707 \\times \\text{leg size} \\times l \\times \\tau \\\\ &=0.707 \\times \\text{leg size} \\times(2 \\times l) \\times \\tau \\quad [2 l=30]\\\\ &=19,937.4 \\mathrm{N} \\\\ P&=19.9374 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page16_q3.webp",
+    "options": {
+      "A": "14.44",
+      "B": "17.92",
+      "C": "19.93",
+      "D": "22.16"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 79 Two identical ball bearings P and Q are operating at loads 30kN and 45kN respectively. The ratio of the life of bearing P to the life of bearing Q is",
+    "solution": "[latex]L = \\left(\\frac{C}{P}\\right)^{3}[/latex] Where L = Life of bearing P = Load [latex] \\frac{(L i f e)_{P}}{(L i f e)_{Q}}=\\frac{(L o a d)_{\\Omega}^{3}}{(Load)_{P}^{3}}=\\left[\\frac{45}{30}\\right]^{3}=3.375 \\; or \\; \\frac{27}{8}[/latex]",
+    "options": {
+      "A": "81/16",
+      "B": "27/8",
+      "C": "9/4",
+      "D": "3/2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 A lightly loaded full journal bearing has a journal of 50mm, bush bore of 50.05mm and bush length of 20mm. if rotational speed of journal is 1200rpm and average viscosity of liquid lubricant is 0.03 Pa s, the power loss (in W) will be",
+    "solution": "Tangential velocity of shaft, [latex] \\begin{aligned} u &=\\frac{\\pi D N}{60}=\\frac{\\pi \\times 50 \\times 10^{-3} \\times 1200}{60} \\\\ &=3.14 \\mathrm{m} / \\mathrm{s} \\end{aligned}[/latex] Clearance, [latex] \\begin{aligned} y&=\\frac{50.05-50}{2}=0.025 \\mathrm{mm}\\\\ By \\quad \\tau&=\\mu \\cdot \\frac{d u}{d y} \\text{ shear stress on shaft}\\\\ \\tau&=0.03 \\times \\frac{3.14}{0.025 \\times 10^{-3}}=3768 \\mathrm{N} / \\mathrm{m}^{2} \\end{aligned}[/latex] Shear force on shaft, [latex] \\begin{aligned} F &=\\tau \\times \\text { Area }=3768 \\times \\pi D \\times L \\\\ &=3768 \\times \\pi \\times 50 \\times 10^{-3} \\times 20 \\times 10^{-3} \\\\ &=11.83 \\mathrm{N} \\end{aligned}[/latex] [latex] \\begin{aligned} \\text { Torque: } T &=F \\times \\frac{D}{2}=11.83 \\times \\frac{50 \\times 10^{-3}}{2} \\\\ &=0.2953 \\mathrm{Nm} \\end{aligned}[/latex] [latex] \\begin{aligned} \\text { Power loss } &=\\frac{2 \\pi N T}{60}=\\frac{2 \\pi \\times 1200 \\times 0.2953}{60} \\\\ &=37.1 \\mathrm{W} \\end{aligned}[/latex]",
+    "options": {
+      "A": "37",
+      "B": "74",
+      "C": "118",
+      "D": "237"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 81 A bracket (shown in figure) is rigidly mounted on wall using four rivets. Each rivet is 6mm in diameter and has an effective length of 12mm. Direct shear stress (in MPa) in the most heavily loaded rivet is",
+    "solution": "There are four rivets, direct force on each rivet [latex] =\\frac{1000}{4}=250 \\mathrm{N} [/latex] Direct shear stress, [latex] \\begin{aligned} \\tau &=\\frac{250}{\\text { Area of rivet }}=\\frac{250}{\\frac{\\pi}{4} \\times\\left(6 \\times 10^{-3}\\right)^{2}} \\\\ &=8.8 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page17_q1.webp",
+    "options": {
+      "A": "4.4",
+      "B": "8.8",
+      "C": "17.6",
+      "D": "35.2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 82 A band brake having band-width of 80mm, drum diameter of 250mm, coefficient of friction of 0.25 and angle of wrap of 270 degrees is required to exert a friction torque of 1000N-m. The maximum tension (in kN) developed in the band is",
+    "solution": "[latex]M_{t}=\\left(T_{1}-T_{2}\\right) \\cdot R[/latex] Given, friction torque, [latex] \\begin{aligned} M_{t} &=1000 \\mathrm{Nm} \\\\ 1000 &=\\left(T_{1}-T_{2}\\right) \\times 0.125 \\\\ \\Rightarrow \\quad T_{1}-T_{2} &=8000 \\mathrm{N} \\qquad \\cdots(i)\\\\ \\text{ By,} \\frac{T_{1}}{T_{2}}&=e^{\\mu \\theta}=e^{\\left(0.25 \\times \\frac{270 \\times \\pi}{180}\\right)}\\\\ &=3.248 \\\\ T_{1}&=3.248 T_{2} \\cdots(ii) \\end{aligned}[/latex] Putting [latex]T_{1}[/latex] from equation (ii) into equation (i) [latex] \\begin{aligned} T_{2}=\\frac{8000}{2.248}&=3558.7 \\mathrm{N} \\\\ \\text{and }\\quad T_{1}&=3.248 \\times 3558.7=11.56 \\mathrm{kN} \\end{aligned}[/latex]",
+    "options": {
+      "A": "1.88",
+      "B": "3.56",
+      "C": "6.12",
+      "D": "11.56"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 A 20[latex]^{\\circ}[/latex] full depth involute spur pinion of 4mm module and 21 teeth is to transmit 15kW at 960rpm. Its face width is 25mm. Given that the tooth geometry factor is 0.32 and the combined effect of dynamic load and allied factors intensifying the stress is 1.5; the minimum allowable stress (in MPa) for the gear material is",
+    "solution": "Tooth geometry factor, Y=0.32 Combined effect of dynamic load and allied factor intensifying the stress is [latex] f_{s}=1.5 [/latex] [latex] F_{t}=\\frac{\\sigma_{b} b Y_{m}}{f_{s}}[/latex] [latex] \\Rightarrow 3552 N=\\frac{\\sigma_{b}(25 \\mathrm{mm})(0.32)(4 \\mathrm{mm})}{1.5} [/latex] [latex] \\Rightarrow \\quad \\sigma_{b}=166.5 \\mathrm{MPa}[/latex]",
+    "options": {
+      "A": "242",
+      "B": "166.5",
+      "C": "121",
+      "D": "74"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 A 20[latex]^{\\circ}[/latex] full depth involute spur pinion of 4mm module and 21 teeth is to transmit 15kW at 960rpm. Its face width is 25mm. The tangential force transmitted (in N) is",
+    "solution": "Module: [latex]m=4 \\mathrm{mm} [/latex] Number of teeth: [latex]\\quad T=21 [/latex] Speed: [latex]N=960 \\mathrm{rpm} [/latex] Pressure angle: [latex]\\quad \\phi=20^{\\circ} [/latex] Face width: [latex]b=25 \\mathrm{mm} [/latex] Full depth involute spur pinion Transmission of power [latex] P=15 \\mathrm{kW} \\text { at } 960 \\mathrm{rpm}[/latex] Power = Torque x Angular speed [latex] P=T_{w}=F_{t} \\times r \\times \\omega[/latex] = Tangential force [latex] \\times[/latex] Radius [latex] \\times \\omega [/latex] [latex] \\begin{aligned} \\text { Radius: } r&=\\frac{D}{2}=\\frac{m T}{2}=\\frac{4 \\times 21}{2}=42 \\mathrm{mm} \\\\ P&=F_{t} \\times r \\times \\omega \\\\ \\Rightarrow 15 \\times 1000&=F_{t} \\times 42 \\times 10^{-3} \\times \\frac{2 \\pi \\times 960}{60}\\\\ \\Rightarrow \\quad F_{t}&=3552.56 \\mathrm{N} \\end{aligned} [/latex]",
+    "options": {
+      "A": "3552",
+      "B": "2611",
+      "C": "1776",
+      "D": "1305"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 A forged steel link with uniform diameter of 30mm at the centre is subjected to an axial force that varies from 40kN in compression to 160kN in tension. The tensile ([latex]S_{u}[/latex]), yield ([latex]S_{y}[/latex]) and corrected endurance ([latex]S_{e}[/latex]) strengths of the steel material are 600MPa, 420MPa and 240MPa respectively. The factor of safety against fatigue endurance as per Soderberg's criterion is",
+    "solution": "[latex]\\begin{aligned} \\text { Diameter: } d&=30 \\mathrm{mm} \\\\ F_{\\max }&=+160 \\mathrm{kN} \\text { (Tension) } \\\\ F_{\\min }&=-40 \\mathrm{kN} \\text { (Compression) } \\\\ \\text { Tensile strength: } S_{u}&=600 \\mathrm{MPa} \\\\ \\text { Yield strength: } S_{y}&=430 \\mathrm{MPa}\\\\ \\text{Corrected endurance,}\\\\ S_{e}&=240 \\mathrm{MPa} \\end{aligned}[/latex] Maximum stress, [latex] \\begin{aligned} \\sigma_{\\max } &=\\frac{F_{\\max }}{A}=\\frac{160 \\times 10^{3} \\mathrm{N}}{\\frac{\\pi}{4}(30)^{2} \\mathrm{mm}^{2}} \\\\ &=226.47 \\mathrm{MPa}(\\text { Tensile }) \\end{aligned}[/latex] Minimum stress, [latex] \\begin{aligned} \\sigma_{\\min }&=\\frac{F_{\\min }}{A}=\\frac{-40 \\times 10^{3} \\mathrm{N}}{\\frac{\\pi}{4}(30)^{2} \\mathrm{mm}^{2}}\\\\ &=-56.62 \\mathrm{MPa} \\quad (Compression)\\\\ \\end{aligned}[/latex] Stress amplitude, [latex] \\begin{aligned} \\sigma_{a} &=\\frac{1}{2}\\left(\\sigma_{\\max }-\\sigma_{\\min }\\right) \\\\ &=\\frac{1}{2}[226.47-(-56.62)] \\\\ &=141.54 \\mathrm{MPa} \\end{aligned}[/latex] Mean stress, [latex] \\begin{aligned} \\sigma_{m} &=\\frac{1}{2}\\left(\\sigma_{\\max }+\\sigma_{\\min }\\right) \\\\ &=\\frac{1}{2}[226.47+(-56.62)] \\\\ &=84.925 \\mathrm{MPa} \\end{aligned}[/latex] Assume factor of safety is n then [latex] \\begin{array}{l} S_{a}=n \\sigma_{a}=141.54 n \\\\ S_{m}=n \\sigma_{m}=84.925 \\mathrm{n} \\end{array}[/latex] The equation of soderberg line is as follows [latex] \\begin{array}{l} \\quad \\frac{S_{a}}{S_{e}}+\\frac{S_{m}}{S_{y t}}=1 \\\\ \\Rightarrow \\frac{141.54 n}{240}+\\frac{84.925 n}{420}=1 \\\\ \\Rightarrow \\quad n=1.26 \\end{array}[/latex]",
+    "options": {
+      "A": "1.26",
+      "B": "1.37",
+      "C": "1.45",
+      "D": "2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 A steel bar of 10 x 50mm is cantilevered with two M 12 bolts (P and Q) to support a static load of 4 kN as shown in the figure. The resultant shear stress on bolt P is closest to",
+    "solution": "Resultant shear load on bolt P [latex] \\begin{aligned} R_{p} &=20 \\mathrm{kN}-2 \\mathrm{kN} \\\\ &=18 \\mathrm{kN}(\\text { here } \\mathrm{d}=12 \\mathrm{mm} .) \\\\ \\tau_{\\max } &=\\frac{18 \\times 10^{3}}{\\frac{\\pi}{4}(12)^{2}}=159 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page18_q1.webp",
+    "options": {
+      "A": "132 MPa",
+      "B": "159 MPa",
+      "C": "178 MPa",
+      "D": "195 MPa"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 A steel bar of 10 x 50mm is cantilevered with two M 12 bolts (P and Q) to support a static load of 4 kN as shown in the figure. The primary and secondary shear loads on bolt P, respectively, are",
+    "solution": "[latex] \\Rightarrow [/latex]Primary shear load due to [latex] P_{1} [/latex] [latex] P_{p}=\\frac{P_{1}}{n}=\\frac{4}{2}=2 \\mathrm{kN}[/latex] [latex] \\Rightarrow [/latex]Now for secondary shear load effect P and [latex]P_{2} [/latex] [latex] \\begin{aligned} T M &=P \\times e=8 \\times 10^{6} \\mathrm{N}-\\mathrm{mm} \\\\ P_{S_{1}} r_{1}+P_{S_{2}}r_{2}&=P \\times e\\\\ \\frac{P_{S}}{r_{1}}\\left[r_{1}^{2}+r_{1}^{2}\\right] &=P \\times e\\\\ P s_{1} &=P s_{2} \\\\ r_{1} &=r_{2} \\\\ \\frac{P s_{1}}{200}\\left[2 \\times(200)^{2}\\right] &=8 \\times 10^{6} \\\\ P s_{1} &=P s_{2}=20,000 \\mathrm{N}=20 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page18_q2.webp",
+    "options": {
+      "A": "2 kN, 20 kN",
+      "B": "20 kN, 2 kN",
+      "C": "20 kN, 0 kN",
+      "D": "0 kN, 20 kN"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 One tooth of a gear having 4 module and 32 teeth is shown in the figure. Assume that the gear tooth and the corresponding tooth space make equal intercepts on the pitch circumference. Thedimension 'a' and 'b', respectively, are closest to",
+    "solution": "[latex]\\begin{aligned} Given: \\quad m=4 and T=32 So\\\\ D &=m \\times T=4 \\times 32 \\\\ &=128 \\mathrm{mm}\\\\ P_{c}=\\frac{\\pi D}{T}=\\frac{\\pi \\times 128}{32} \\\\ P_{c}=12.566 \\mathrm{mm}\\\\ but \\quad P_{c}=a+a=2 a \\\\ \\end{aligned} [/latex] (because tooth thickness = tooth space) [latex] \\begin{aligned} 2 a &=12.566 \\\\ a &=6.28 \\mathrm{mm} \\\\ \\text{and}\\quad b &=4.1 \\mathrm{mm} \\end{aligned} [/latex] [latex] \\begin{aligned} \\because \\quad \\phi &=\\frac{360^{\\circ}}{32 \\times 4}=2.8^{\\circ} \\\\ \\therefore \\quad A R &=64 \\times \\cos 2.8^{\\circ} \\\\ &=63.9^{\\circ} \\\\ \\Rightarrow \\quad b&=m+F R[\\because F R=F A-A R] \\\\ &=m+(64-63.9) \\\\ \\Rightarrow \\quad b&=4.1 \\mathrm{mm} \\\\ \\text{Addendum}\\quad &= \\text{module}\\\\ \\text{Dedendum}\\quad &=1.1 \\times \\text{module} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page18_q3.webp",
+    "options": {
+      "A": "6.08 mm, 4 mm",
+      "B": "6.48 mm, 4.2 mm",
+      "C": "6.28 mm, 4.3 mm",
+      "D": "6.28 mm, 4.1 mm"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 89 Match the type of gears with their most appropriate description",
+    "solution": "Helical gear - Axes parallel and teeth are inclined \r\nto the axis Spiral Bevel - Axes are perpendicular and \r\ninteresting and teeth are inclined to the axis. Hypoid - Axis nonparallel and non-interesting. Rack and pinion - Axes parallel and one of the \r\ngears has infinite radius.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page18_q4.webp",
+    "options": {
+      "A": "P - 2, Q - 4, R - 1, S - 6",
+      "B": "P - 1, Q - 4, R - 5, S - 6",
+      "C": "P - 2, Q - 6, R - 4, S - 2",
+      "D": "P - 6, Q - 3, R - 1, S - 5"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 A spur gear has a module of 3 mm, number of teeth 16, a face width of 36 mm and a pressure angle\nof 20[latex]^{\\circ}[/latex]. It is transmitting a power of 3 kW at 20 rev/s. Taking a velocity factor of 1.5, and a form\nfactor of 0.3, the stress in the gear tooth is about",
+    "solution": "Given: [latex] \\begin{aligned} P&=3 \\mathrm{kW}=3000 \\mathrm{W} \\\\ N&=20 \\mathrm{rps} \\\\ y&= \\text{Form factor } =0.3 \\\\ b&= \\text{ Face width } =36 \\mathrm{mm} \\\\ C_{v}&= \\text{ Velocity factor } =1.5 \\\\ m&= \\text{ Module } =3 \\mathrm{mm} \\\\ Z&= \\text{ teeth } =16 \\end{aligned}[/latex] [latex] \\begin{aligned} F_{t} &=\\frac{2 T}{D_{1}} \\\\ D &=m z \\\\ &=3 \\times 16=48 \\mathrm{mm} \\\\ P&=2 \\pi N T where N is in rps\\\\ T&=\\frac{P}{2 \\pi N}=\\frac{3000}{2 \\pi \\times 20} \\\\ &=23.8732 \\mathrm{Nm} \\\\ &=23.8732 \\times 10^{3} \\mathrm{Nmm} \\end{aligned} [/latex] We know [latex] \\begin{array}{c} \\left(F_{d}\\right)_{\\text {Lews }} \\leq F_{s} \\\\ F_{t} \\times C_{v} \\leq\\left(\\sigma_{b} \\cdot y b m\\right) \\\\ \\frac{2 T}{D} \\times C_{v}=\\left(\\sigma_{b}\\right) y b m \\\\ \\frac{2 \\times 23.8732 \\times 10^{3} \\times 1.5}{48}=\\left(\\sigma_{b}\\right) 0.3 \\times 36 \\times 3 \\\\ \\sigma_{b}=46 \\mathrm{N} / \\mathrm{mm}^{2} \\\\ =46 \\mathrm{MPa} \\end{array}[/latex]",
+    "options": {
+      "A": "32MPa",
+      "B": "46 MPa",
+      "C": "58MPa",
+      "D": "70 MPa"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 A clutch has outer and inner diameters 100 mm and 40 mm respectively. Assuming a uniform\npressure of 2 MPa and coefficient of friction of liner material 0.4, the torque carrying capacity of\nthe clutch is",
+    "solution": "Using uniform pressure theory torque carrying capacity of clutch is given by [latex] \\begin{aligned} T&=\\frac{2}{3} \\mu W\\left(\\frac{R^{3}-r^{3}}{R^{2}-r^{2}}\\right) \\\\ T&=\\frac{2}{3} \\pi \\mu\\left(R^{3}-r^{3}\\right)\\left(\\frac{W}{\\pi\\left(R^{2}-r^{2}\\right)}\\right) \\\\ T&=\\frac{2}{3} \\pi \\mu \\mathrm{p}\\left(R^{3}-r^{3}\\right) \\\\ &=\\frac{2}{3} \\times 3.14 \\times 0.4 \\times 2\\left(\\left(\\frac{100}{2}\\right)^{3}-\\left(\\frac{40}{2}\\right)^{3}\\right)^{3} \\\\ &=\\frac{2}{3} \\times 3.14 \\times 0.4 \\times 2\\left(50^{3}-20^{3}\\right) \\\\ &=195936 \\mathrm{Nmm}=195.936 \\mathrm{Nm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "148 Nm",
+      "B": "196 Nm",
+      "C": "372 Nm",
+      "D": "490 Nm"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 A journal bearing has a shaft diameter of 40mm and a length of 40 mm. the shaft is rotating at 20\nrad/s and the viscosity of the lubricant is 20mPa-s. the clearance is 0.020 mm. the loss of torque\ndue to the viscosity of the lubricant is approximately:",
+    "solution": "[latex]\\begin{aligned} \\tau &=\\frac{\\mu v}{c}=\\frac{20 \\times 10^{-3} \\times 20 \\times 20 \\times 10^{-3}}{0.02 \\times 10^{-3}} \\\\ &=400 \\mathrm{N} / \\mathrm{m}^{2}\\\\ \\text { Force }&=\\tau A=400 \\times 3.14 \\times 0.04 \\times 0.04 \\mathrm{N} \\\\ &\\qquad(\\because F=\\tau \\cdot \\pi d l) \\\\ \\text { Torque }&=400 \\times 3.14 \\times 0.04 \\times 0.04 \\times 0.02 & \\\\ &\\qquad(\\because\\text { Torque }=F \\times r)\\\\ &=0.040 \\mathrm{Nm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.040 Nm",
+      "B": "0.252 Nm",
+      "C": "0.400 Nm",
+      "D": "0.6562 Nm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 A compression spring is made of music wire of 2mm diameter having a shear strength and shear\nmodulus of 800 MPa and 80 GPa respectively. The mean coil diameter is 20mm, free length is\n40mm and the number of active coils is 10. If the mean coil diameter is reduced to 10mm, the\nstiffness of the spring is approximately",
+    "solution": "[latex]\\begin{aligned} k &=\\frac{G d^{4}}{8 D^{3} N} \\\\ \\frac{k_{2}}{k_{1}} &=\\left(\\frac{D_{1}}{D_{2}}\\right)^{3}=\\left(\\frac{20}{10}\\right)^{3}=8 \\end{aligned}[/latex] [latex] \\therefore [/latex] Stiffness of spring is increased by 8 times.",
+    "options": {
+      "A": "decreased by 8 times",
+      "B": "decreased by 2 times",
+      "C": "increased by 2 times",
+      "D": "increased by 8 times"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 94 A gear set has a pinion with 20 teeth and a gear with 40 teeth. The pinion runs at 30 rev/s and transmits a power of 20 kW. The teeth are on the [latex]20^{\\circ}[/latex]\n full - depth system and have a module of 5 mm. The length of the line of action is 19 mm. The resultant force on the contacting gear tooth in N is",
+    "solution": "For resultant force on contactiong gear tooth: [latex]\\begin{aligned} \\text { Torque: } T&=\\frac{60 \\times P}{2 \\times \\pi \\times N} \\qquad(N=1800 \\mathrm{rpm}) \\\\ &=\\frac{60 \\times 20,000}{2 \\times \\pi \\times 1800} \\\\ &=106.10 \\mathrm{Nm} \\\\ m&=\\frac{D}{T} \\\\ D &=5 \\times 20=0.1 \\mathrm{m} \\\\ F_{t} \\times R &=106.10 \\\\ F_{t} &=\\frac{106.10}{0.05}=2122 \\mathrm{N} \\\\ F_{n} &=\\frac{F_{t}}{\\cos 20^{\\circ}}=\\frac{2122}{\\cos 20^{\\circ}} \\\\ &=225.81 \\mathrm{N} \\end{aligned}[/latex]",
+    "options": {
+      "A": "77.23",
+      "B": "212.2",
+      "C": "225.8",
+      "D": "289.43"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 A gear set has a pinion with 20 teeth and a gear with 40 teeth. The pinion runs at 30 rev/s and transmits a power of 20 kW. The teeth are on the [latex]20^{\\circ}[/latex]\n full - depth system and have a module of 5 mm. The length of the line of action is 19 mm. The contact ratio of the contacting tooth is",
+    "solution": "Length of line of action =19mm Length of arc of contact [latex] \\begin{aligned} &=\\frac{19 \\mathrm{mm}}{\\cos 20^{\\circ}}=20.21 \\mathrm{mm} \\\\ \\text { Circular pitch } &=\\frac{\\pi \\mathrm{d}}{\\mathrm{z}}=\\pi \\times 5=5 \\pi \\mathrm{mm} \\\\ \\text { Contact ratio } &=\\frac{\\text { length of arc }}{\\text { circular pitch }} \\\\ &=\\frac{20.21}{5 \\pi}=1.29 \\end{aligned}[/latex]",
+    "options": {
+      "A": "1.21",
+      "B": "1.25",
+      "C": "1.29",
+      "D": "1.33"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 96 A gear set has a pinion with 20 teeth and a gear with 40 teeth. The pinion runs at 30 rev/s and transmits a power of 20 kW. The teeth are on the [latex]20^{\\circ}[/latex]\n full - depth system and have a module of 5 mm. The length of the line of action is 19 mm. The center distance for the above gear set in mm is",
+    "solution": "[latex]\\begin{aligned} Z_{p} & =20 \\qquad Z_{G}=40\\\\ N_{p}&=30 \\mathrm{rev} / \\mathrm{s} \\qquad N_{G}=?\\\\ \\text{Pressure angle }&= 20^{o}\\\\ Module:\\; m&=5 \\mathrm{mm} \\\\ m&=\\frac{d_{p}}{Z_{p}}=\\frac{d_{G}}{Z_{G}}\\\\ d_{p} &=5 \\times 20=100 \\mathrm{mm} \\\\ d_{G} &=5 \\times 40=200 \\mathrm{mm} \\\\ \\text { Centre distance } &=\\frac{d_{p}+d_{G}}{2}=150 \\mathrm{mm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "140",
+      "B": "150",
+      "C": "160",
+      "D": "170"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 97 The piston rod of diameter 20 mm and length 700 mm in a hydraulic cylinder is subjected to a compressive force of 10 kN due to the internal pressure. The end conditions for the rod may be assumed as guided at the piston end and hinged at the other end. The Young's modulus is           200 GPa. The factor of safety for the piston rod is",
+    "solution": "Assuming guided end to be fixed and other end given as hinged. The crippling load according to euler's equation, [latex] \\begin{aligned} P_{c r} &=\\frac{2 \\pi^{2} E I}{L^{2}} \\\\ I &=\\frac{\\pi}{64}(20)^{4}=7853.9 \\mathrm{mm}^{4} \\\\ E &=200 \\times 10^{9} \\mathrm{N} / \\mathrm{m}^{2}=200 \\times 10^{3} \\mathrm{N} / \\mathrm{mm}^{2} \\\\ &=\\frac{2 \\pi^{2} \\times 200 \\times 10^{3} \\times 7853.9}{(700)^{2}}=63.27 \\mathrm{kN} \\end{aligned}[/latex] Factor of safety [latex] =\\frac{\\text { Crippling load }}{\\text { Working load }}=\\frac{63.27}{10}=6.32[/latex]",
+    "options": {
+      "A": "0.68",
+      "B": "2.75",
+      "C": "6.32",
+      "D": "11"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 A block-brake shown below has a face width of 300 mm and a mean co-efficient of friction of 0.25.  For an activating force of 400 N, the braking torque in Nm is",
+    "solution": "since, it is in equilibrium, moment about A should be zero. Taking moment about point A [latex] \\begin{aligned} \\Sigma M_{A} &=N \\times 200-400 \\times 600=0 \\\\ N &=1200 \\mathrm{N} \\\\ f &=\\mu N=0.25 \\times 1200=300 \\mathrm{N} \\\\ \\text{Braking Torque }&= f\\times150\\\\ &=300 \\times 150=45 \\mathrm{Nm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page20_q3.webp",
+    "options": {
+      "A": "30",
+      "B": "40",
+      "C": "45",
+      "D": "60"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 99 A bolted joint is shown below. The maximum shear stress, in MPa, in the bolts at A and B, respectively are",
+    "solution": "[latex]d_{c}=0.84 d_{n}=0.84(10)=8.4 \\mathrm{mm}[/latex] [latex]\\Rightarrow [/latex] Primary force [latex] \\begin{array}{l} P_{p}=\\frac{P}{n}=\\frac{10000}{3} \\\\ P_{p}=3333.3 \\mathrm{N} \\\\ T_{B}=\\frac{3333.3}{\\frac{\\pi}{4}(8.4)^{2}}=60.15 \\mathrm{MPa} \\end{array}[/latex] (Maximum stress at B ) (Primary force will act equally in all both) {And in bolt B secondary shear force will not act} {So in bolt B stress is due to only primary S.F.} [latex]\\Rightarrow[/latex] Secondary shear force: (due to P and [latex]P_{2}[/latex]) [latex] \\begin{aligned} P s_{2} &=0 \\\\ P s_{1}\\left(r_{1}+r_{2}\\right) &=P \\times e \\\\ P s_{1}(40+40) &=10 \\times 1000 \\times 150 \\\\ r_{1} &=r_{2} \\\\ P s_{B} &=P s_{A}=18750 \\mathrm{N} \\\\ \\text{At point A} \\\\ R&=\\sqrt{(18750)^{2}+(3333.3)^{2}} \\\\ &=1904.98 \\mathrm{N} \\\\ \\text { So stress: } & \\tau=\\frac{19043.98}{\\frac{\\pi}{4}\\left(d_{c}\\right)^{2}} \\\\ &=343.64 \\mathrm{MPa}\\\\\r\n&\\qquad \\qquad(\\text{Maximum stress at A }) \\end{aligned} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page20_q4.webp",
+    "options": {
+      "A": "242.6, 42.5",
+      "B": "42.5, 242.6",
+      "C": "42.5, 42.5",
+      "D": "60.15, 343.64"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 100 A natural feed journal bearing of diameter 50 mm and length 50 mm operating  at 20 revolution/s  and carries a load of 2 kN. The viscosity of the lubricant is 20 mPa s, the radial clearance is 50 [latex]\\mu[/latex]m. The Sommerfield number for the bearing is",
+    "solution": "Sommerfield number, [latex] S=\\left(\\frac{r}{c}\\right)^{2} \\times \\frac{\\mu N}{p}[/latex] where, r is radius of journal [latex]\\mu[/latex] is viscosity of lubricant N is number of revolution per second p is bearing pressure on projected Area C is radial clearance Therefore [latex] \\begin{aligned} p&=\\frac{P}{d x l}=\\frac{2000}{50 \\times 50}=0.8 \\mathrm{N} / \\mathrm{mm}^{2} \\\\ S&=\\left(\\frac{25}{50 \\times 10^{-3}}\\right)^{2} \\times \\frac{20 \\times 20 \\times 10^{-3}}{0.8 \\times 10^{6}}=0.125 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.062",
+      "B": "0.125",
+      "C": "0.25",
+      "D": "0.785"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 A thin spherical pressure vessel of 200 mm diameter and 1 mm thickness is subjected to an internal pressure varying from 4 to 8 MPa. Assume that the yield, ultimate, and endurance strength of material are 600, 800 and 400 MPa respectively. The factor of safety as per Goodman's relation is",
+    "solution": "[latex]\\begin{aligned} \\sigma_{1} &=\\sigma_{2}=\\frac{p r}{2 t} \\\\ \\sigma_{\\operatorname{lmax}} &=\\frac{8 \\times 100}{2 \\times 1}=400 \\mathrm{MPa} \\\\ \\sigma_{\\operatorname{lmin}} &=\\frac{4 \\times 100}{2 \\times 1}=200 \\mathrm{MPa} \\\\ \\sigma_{\\ln 2 x} &=400 \\mathrm{MPa} \\\\ \\sigma_{\\operatorname{Trin}} &=200 \\mathrm{MPa} \\\\ \\sigma_{1 \\mathrm{m}} &=300 \\mathrm{MPa} \\\\ \\sigma_{\\mathrm{la}} &=100 \\mathrm{MPa} \\\\ \\sigma_{\\mathrm{Zn}} &=300 \\mathrm{MPa} \\\\ \\sigma_{\\mathrm{aa}} &=100 \\mathrm{MPa} \\end{aligned}[/latex] Equivalent Stresses [latex] \\begin{aligned} \\sigma_{\\mathrm{me}} &=\\sqrt{\\sigma_{1 m}^{2}+\\sigma_{2 m}^{2}-\\sigma_{1 m} \\sigma_{2 m}} \\\\ &=\\sqrt{300^{2}+300^{2}-300 \\times 300} \\\\ &=300 \\mathrm{MPa} \\\\ \\text{Similarly,}& \\\\ \\sigma_{\\mathrm{a} e} &=100 \\mathrm{MPa} \\end{aligned}[/latex] Goodman equation, [latex] \\begin{aligned} \\frac{\\sigma_{a \\theta}}{S_{e}}+\\frac{\\sigma_{m e}}{S_{u t}} &=\\frac{1}{n} \\\\ \\Rightarrow \\frac{100}{400}+\\frac{300}{800} &=\\frac{1}{n} \\\\ n &=1.6 \\end{aligned}[/latex]",
+    "options": {
+      "A": "2",
+      "B": "1.6",
+      "C": "1.4",
+      "D": "1.2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 102 A ball bearing operating at a load F has 8000 hours of life.  The life of the bearing, in hours, when the load is doubled to 2F is",
+    "solution": "Life of bearing [latex] L=\\left(\\frac{C}{w}\\right)^{K} \\times 10^{6}[/latex] Where K=3 for ball bearing at load F,[latex]L_{1}=\\left(\\frac{C}{F}\\right)^{K} \\Rightarrow C=F L^{\\frac{1}{K}} [/latex] at load 2F [latex]L_{2}=\\left(\\frac{C}{2 F}\\right)^{3}=\\left(\\frac{F L^{1 / 3}}{2 F}\\right)^{3}=\\left(\\frac{L^{1 / 3}}{2}\\right)^{3} [/latex] =1000 hours.",
+    "options": {
+      "A": "8000",
+      "B": "6000",
+      "C": "4000",
+      "D": "1000"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 103 A 60 mm long and 6 mm thick fillet weld carries a steady load of 15 kN along the weld. The shear strength of the weld material is equal to 200 MPa. The factor of safety is",
+    "solution": "[latex]P_{\\mathrm{PFW}}=0.707 t \\times L_{e} \\times \\tau_{\\mathrm{s}} [/latex] {here PFW [latex] \\rightarrow [/latex] parallel filter weld} [latex] \\frac{15 \\times 10^{3}}{0.707 \\times 6 \\times 60}=\\tau_{\\mathrm{s}} [/latex] [latex] \\text{or }\\quad \\tau_{s}=58.9344 \\mathrm{MPa} [/latex] Given shear strength of material [latex] =200 \\mathrm{MPa} [/latex] [latex] F O S=\\frac{200}{58.9344}=3.4[/latex]",
+    "options": {
+      "A": "2.4",
+      "B": "3.4",
+      "C": "4.8",
+      "D": "6.8"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 104 A cylindrical shaft is subjected to an alternating stress of 100 MPa. Fatigue strength to sustain 1000 cycle is 490 MPa. If the corrected endurance strength is 70 MPa, estimated shaft life will be",
+    "solution": "Equation of straight line connecting [latex]\\left(3, \\log _{10} 490\\right) [/latex] and [latex]\\left(6, \\log _{10} 70\\right) [/latex] [latex] \\begin{aligned} \\frac{y-1.8451}{x-6}&=\\frac{1.84-2.6902}{6-3} \\\\ y-1.8451&=-0.2817(x-6)\\\\ \\text{ At }\\quad y&=\\log _{10} 100=2 \\\\ \\Rightarrow 2-1.8451 &=-0.2817(x-6) \\\\ x &=5.4501 \\\\ \\log _{10} N &=5.4501 \\\\ N&=281914 \\end{aligned}[/latex]",
+    "options": {
+      "A": "1071 cycles",
+      "B": "15000 cycles",
+      "C": "281914 cycles",
+      "D": "928643 cycles"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 105 Twenty degree full depth involute profiled 19-tooth pinion and 37-tooth gear are in mesh. If the module is 5 mm, the center distance between the gear pair will be",
+    "solution": "[latex]\\begin{aligned} \\text { Given } \\;T_{p} &=19, T_{a}=37 \\\\ m &=5 \\\\ m &=D / T \\\\ D_{p} &=95 \\\\ D_{G} &=185 \\\\ \\text { Centre distance } &=\\frac{95+185}{2}=140 \\mathrm{mm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "140 mm",
+      "B": "150 mm",
+      "C": "280 mm",
+      "D": "300 mm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 106 A disk clutch is required to transmit 5 kW at 2000 rpm. The disk has a friction lining with coefficient of friction equal to 0.25. bore radius of friction lining is equal to 25 mm. assume uniform contact pressure of 1 MPa. The value of outside radius of the friction lining is:",
+    "solution": "According to uniform pressure theory, [latex] P=1 \\mathrm{MPa}[/latex] Power transmitted [latex] \\begin{aligned} P=T_{\\omega}&=\\frac{T \\times 2 \\pi N}{60}\\\\ \\Rightarrow \\qquad T&=\\frac{60 \\times 5 \\times 10^{3}}{2 \\pi \\times 2000}=23.87 \\mathrm{Nm} \\\\ T&=\\frac{2}{3} \\times \\mu \\rho \\pi\\left(r_{1}^{3}-r_{2}^{3}\\right)\\\\ \\Rightarrow\\quad 23.81 \\times 10^{3}&=\\frac{2}{3} \\times 0.25 \\times 1 \\times\\left(r_{1}^{3}-25^{3}\\right) \\times \\pi \\\\ r_{1}&=39.4 \\mathrm{mm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "39.4 mm",
+      "B": "49.5 mm",
+      "C": "97.9 mm",
+      "D": "142.9 mm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 107 A band brake consists of a lever attached to one end of the band. The other end of the band is fixed to the ground. The wheel has a radius of 200 mm and the wrap angle of the band is 270[latex]^{\\circ}[/latex]. The braking force applied to the lever is limited to 100N, and the coefficient of friction between the band and the wheel is 0.5. No other information is given. The maximum wheel torque that can be completely braked is",
+    "solution": "[latex]\\begin{aligned} \\text { Braking torque } &=\\left(T_{1}-T_{2}\\right) \\times r \\\\ &=(2110-200) \\times 0.2=382 \\mathrm{Nm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page22_q2.webp",
+    "options": {
+      "A": "200 N.m",
+      "B": "382 N.m",
+      "C": "604 N.m",
+      "D": "844 N.m"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 108 A band brake consists of a lever attached to one end of the band. The other end of the band is fixed to the ground. The wheel has a radius of 200 mm and the wrap angle of the band is 270[latex]^{\\circ}[/latex]. The braking force applied to the lever is limited to 100N, and the coefficient of friction between the band and the wheel is 0.5. No other information is given. The maximum tension that can be generated in the band during braking is",
+    "solution": "Taking moment about O, [latex] \\begin{aligned} S M_{0} &=0 \\\\ \\Rightarrow T\\times1100\\times2&=0\\\\ T &=200 \\mathrm{N} \\\\ \\frac{T_{1}}{T_{2}} &=e^{\\mu \\theta}=e^{0.5 \\times \\frac{3 \\pi}{2}} \\\\ T_{1} &=2110 \\mathrm{N} \\end{aligned}[/latex] Maximum tension produced in band is 2110N",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page22_q3.webp",
+    "options": {
+      "A": "1200 N",
+      "B": "2110 N",
+      "C": "3224 N",
+      "D": "4420 N"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 109 A weighing machine consists of a 2 kg pan resting on a spring. In this condition, the pan resting on the spring, the length of the spring is 200 mm. When a mass of 20 kg is placed on the pan, the length of the spring becomes 100 mm. For the spring, the un-deformed length [latex]l_{o}[/latex]\n and the spring constant k (stiffiness) are",
+    "solution": "[latex]\\begin{aligned} F &=k \\Delta m \\\\ \\Rightarrow 2 g &=k\\left(l_{0}-0.2\\right) \\qquad \\cdots(i) \\end{aligned}[/latex] When mass of [latex]20 \\mathrm{kg}[/latex] is placed on the pan [latex] 22 g=k\\left(l_{0}-0.1\\right) \\qquad \\cdots(ii)[/latex] Solving (i) and (ii), we get [latex] \\begin{aligned} l_{0} &=210 \\mathrm{mm} \\\\ k &=1960 \\mathrm{N} / \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]l_{o}= 220mm, k=1862 N/m[/latex]",
+      "B": "[latex]l_{o}= 210mm, k=1960 N/m[/latex]",
+      "C": "[latex]l_{o}= 210mm, k=2156 N/m[/latex]",
+      "D": "[latex]l_{o}= 220mm, k=2156 N/m[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 110 Which one of the following is a criterion in the design of hydrodynamic journal bearings?",
+    "solution": "Sommerfield number [latex]\r\nS=\\frac{Z N}{P}\\left(\\frac{D}{C}\\right)^{2}[/latex] It is also called bearing characteristic number where Z=  Abs. viscosity of lubricant N=  Speed (RPM) P=  Bearing pressure on projected bearing area. [latex](N/mm^{2})[/latex] D= Diameter of the journal C= Clearance diameter",
+    "options": {
+      "A": "Sommerfeld number",
+      "B": "Rating life",
+      "C": "Specific dynamic capacity",
+      "D": "Rotation factor"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 111 Match the following",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page23_q1.webp",
+    "options": {
+      "A": "P-4 Q-2 R-1 S-3",
+      "B": "P-2 Q-3 R-4 S-1",
+      "C": "P-3 Q-2 R-1 S-4",
+      "D": "P-1 Q-3 R-4 S-2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 112 In a bolted joint two members are connected with an axial tightening force of 2200 N. if the bolt used has metric threads of 4 mm pitch, the torque required for achieving the tightening force is",
+    "solution": "[latex]\\begin{aligned} \\text { Tightening force } &=2200 \\mathrm{N} \\\\ \\text { Pitch } &=0.004 \\mathrm{m} \\\\ \\therefore \\quad \\text { Torque } &=\\text { Tightening force } \\times \\frac{\\text { Pitch }}{2 \\pi} \\\\ &=2200 \\times \\frac{0.004}{2 \\pi}=1.4 \\mathrm{Nm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/md/page23_q2.webp",
+    "options": {
+      "A": "0.7 Nm",
+      "B": "1.0 Nm",
+      "C": "1.4 Nm",
+      "D": "2.8 Nm"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 113 The S-N curve for steel becomes asymptotic nearly at",
+    "solution": "",
+    "options": {
+      "A": "[latex]10^{3}cycles[/latex]",
+      "B": "[latex]10^{4}cycles[/latex]",
+      "C": "[latex]10^{6}cycles[/latex]",
+      "D": "[latex]10^{9}cycles[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 114 In terms of theoretical stress concentration factor ([latex]K_{t}[/latex]) and fatigue stress concentration factor ([latex]K_{f}[/latex]), the notch sensitivity 'q' is expressed as",
+    "solution": "We know that [latex] K_{f}=1+q\\left(K_{t}-1\\right), \\quad q=\\frac{K_{f}-1}{K_{t}-1}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{K_{f}-1}{K_{t}-1}[/latex]",
+      "B": "[latex]\\frac{K_{f}-1}{K_{t}+1}[/latex]",
+      "C": "[latex]\\frac{K_{t}-1}{K_{f}-1}[/latex]",
+      "D": "[latex]\\frac{K_{f}+1}{K_{t}-1}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 115 Two mating spur gears have 40 and 120 teeth respectively. The pinion rotates at 1200 rpm and transmits a torque of 20 N.m. The torque transmitted by the gear is",
+    "solution": "Power transmitted, [latex] P=\\frac{2 \\pi N_{G} T_{G}}{60}=\\frac{2 \\pi N_{P} T_{P}}{60}[/latex] [latex] \\begin{aligned} \\Rightarrow \\quad N_{G} T_{G}&=N_{p} T_{P} \\;\\; \\text{(where T is torque)} \\\\ and, \\quad \\frac{N_{p}}{N_{G}}&=\\frac{Z_{G}}{Z_{p}} \\\\ &\\text{(where Z is number of teeths)}\\\\ \\Rightarrow \\quad \\frac{1200}{N_{G}}&=\\frac{120}{40} \\\\ N_{G}&=400 \\mathrm{r} . \\mathrm{p.m} \\\\ \\text{Hence,}\\\\ 400 \\times T_{G}&=1200 \\times 20 \\\\ T_{G}&=60 \\mathrm{N} . \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "6.6 Nm",
+      "B": "20 Nm",
+      "C": "40 Nm",
+      "D": "60 Nm"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 116 The overall gear ratio in a 2 stage speed reduction gear box (with all spur gears) is 12. The input and output shafts of the gear box are collinear. The countershaft which is parallel to the input and output shafts has a gear ([latex]Z_{2}[/latex]\n teeth) and pinion([latex]Z_{3}[/latex]\n=15 teeth) to mesh with pinion ([latex]Z_{1}[/latex]\n=16 teeth) on the input shaft and gear ([latex]Z_{4}[/latex]\n teeth) on the output shaft respectively. It was decided to use a gear ratio of 4 with 3 module in the first stage and 4 module in the second stage. The centre distance in the second stage is",
+    "solution": "Centre distance in second stage [latex] \\begin{aligned} &=\\frac{D_{3}+D_{4}}{2} \\\\ m &=\\frac{D_{3}}{Z_{3}}=\\frac{D_{4}}{Z_{4}} \\\\ \\Rightarrow \\quad 4&=\\frac{D_{4}}{45} \\\\ \\Rightarrow \\quad D_{4}&=180 \\mathrm{mm}\\\\ D_{3}&=\\frac{180}{3}=60 \\mathrm{mm} \\\\ \\text{Centre distance }&=\\frac{180+60}{2}=120 \\mathrm{mm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "90 mm",
+      "B": "120 mm",
+      "C": "160 mm",
+      "D": "240 mm"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 117 The overall gear ratio in a 2 stage speed reduction gear box (with all spur gears) is 12. The input and output shafts of the gear box are collinear. The countershaft which is parallel to the input and output shafts has a gear ([latex]Z_{2}[/latex]\n teeth) and pinion([latex]Z_{3}[/latex]\n=15 teeth) to mesh with pinion ([latex]Z_{1}[/latex]\n=16 teeth) on the input shaft and gear ([latex]Z_{4}[/latex]\n teeth) on the output shaft respectively. It was decided to use a gear ratio of 4 with 3 module in the first stage and 4 module in the second stage. [latex]Z_{2}[/latex]\n and [latex]Z_{4}[/latex]\n are",
+    "solution": "[latex]\\begin{aligned} \\frac{N_{1}}{N_{4}}&=12 \\\\ \\frac{N_{1}}{N_{2}}&=4=\\frac{D_{2}}{D_{1}} \\\\ m_{1} & =3, m_{2}=4 \\\\ \\text { since, }\\qquad & \\frac{D_{1}}{Z_{1}}=\\frac{D_{2}}{Z_{2}} \\\\ \\Rightarrow & \\frac{Z_{1}}{Z_{2}}=\\frac{D_{1}}{D_{2}}=\\frac{N_{2}}{N_{1}}=\\frac{1}{4} \\\\ Z_{2} & =Z_{1} \\times 4=64\\\\ \\text{and }\\quad \\frac{N_{1}}{N_{4}}&=\\frac{D_{2} \\times D_{4}}{D_{1} \\times D_{3}} \\\\ \\Rightarrow \\quad 12&=\\frac{D_{4}}{D_{3}} \\times 4 \\\\ \\Rightarrow \\quad \\frac{D_{4}}{D_{3}}&=3 \\\\ since, \\quad \\frac{Z_{3}}{Z_{4}}&=\\frac{D_{3}}{D_{4}} \\\\ Z_{4}&=Z_{3} \\frac{D_{4}}{D_{3}}=15 \\times 3=45 \\\\ \\end{aligned}[/latex]",
+    "options": {
+      "A": "64 and 45",
+      "B": "45 and 64",
+      "C": "48 and 60",
+      "D": "60 and 48"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 118 In a band brake the ratio of tight side band tension to the tension on the slack side is 3. If the angle of overlap of band on the drum is [latex]180^{\\circ}[/latex]\n the coefficient of friction required between drum and the band is",
+    "solution": "[latex]\\begin{aligned} \\frac{T_{1}}{T_{2}} &=e^{m q} \\\\ \\Rightarrow \\qquad 3 &=e^{\\mu \\pi}\\\\ \\Rightarrow \\qquad \\ln 3&=\\mu \\pi \\\\ \\Rightarrow \\qquad \\mu=0.345&=0.35 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.2",
+      "B": "0.25",
+      "C": "0.3",
+      "D": "0.35"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 119 Square key of side \"d/4\" each and length \"l\" is used to transmit torque \"T\" from the shaft of diameter \"d\" to the hub of a pulley. Assuming the length of the key to hub of a pulley. Assuming the length of the key to be equal to the thickness of the pulley, the average shear stress developed in the key is given by",
+    "solution": "Diameter of shaft =d Torque transmitted =T Force acting on circumference of shaft [latex] F=\\frac{T}{d / 2}=\\frac{2 T}{d}[/latex] Resisting area [latex]=\\frac{l \\times d}{4} [/latex] Average shear stress [latex] \\tau=\\frac{F}{A}=\\frac{2 T}{d} \\times \\frac{4}{l d}=\\frac{8 T}{l d^{2}}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{4T}{ld}[/latex]",
+      "B": "[latex]\\frac{16T}{ld^{2}}[/latex]",
+      "C": "[latex]\\frac{8T}{ld^{2}}[/latex]",
+      "D": "[latex]\\frac{16T}{\\pi d^{3}}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 120 A wire rope is designated as [latex]6\\times 9[/latex]\n standard hoisting. The numbers [latex]6\\times 9[/latex]\n represent",
+    "solution": "The wire ropes are designated by the number of strands multiplied by the number of wires in each strand. Therefore, [latex]6\\times 9 = [/latex] Number of strands [latex]\\times [/latex] Number of wires in each strand.",
+    "options": {
+      "A": "diameter in millimeter [latex]\\times[/latex]\n length in meter",
+      "B": "diameter in centimeter [latex]\\times[/latex]\n length in meter",
+      "C": "number of strands [latex]\\times[/latex]\n number of wires in each strand",
+      "D": "number of wires in each strand [latex]\\times[/latex]\n number of stands"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 121 Large speed reductions (greater than 20) in one stage of a gear train are possible through",
+    "solution": "Reductions greater than 20 should be carried out by worm gears.",
+    "options": {
+      "A": "Spur gearing",
+      "B": "Worm gearing",
+      "C": "Bevel gearing",
+      "D": "Helical gearing"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 122 A static load is mounted at the center of a shaft rotating at uniform angular velocity. This shaft will be designed for",
+    "solution": "The elements of shaft will be under fatigue loadd due to its rotation.",
+    "options": {
+      "A": "the maximum compressive stress (static)",
+      "B": "the maximum tensile (static)",
+      "C": "the maximum bending moment (static)",
+      "D": "fatigue loading"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 123 The minimum number of teeth on the pinion to operate without interference in standard full height involute teeth gear mechanism with [latex]20^{\\circ}[/latex]\n pressure angle is",
+    "solution": "[latex] Z_{\\text {tin }}=[/latex]  minimum no. of teeth on pinion to avoid interference.\nsince gear ratio is not given so we assumed that arrangement is rack & pinion arrangement. [latex]\\begin{aligned} z_{\\min } &=\\frac{2 \\times A w}{\\sin ^{2} \\phi}=\\frac{2 \\times 1}{\\sin ^{2} 20}=17.09 \\\\ & \\simeq 18 \\text { teeth } \\end{aligned}[/latex]",
+    "options": {
+      "A": "14",
+      "B": "12",
+      "C": "18",
+      "D": "32"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 124 Two helical tensile springs of the same material and also having identical mean coil diameter and weight, have wire diameters d and [latex]\\frac{d}{2}[/latex].\n The ratio of their stiffness is",
+    "solution": "[latex]G_1=G_2, D_1=D_2, d_1=d, D-2=\\frac{d}{2}, W_1=W_2[/latex] [latex]\\therefore \\; k=\\frac{Gd^4}{8D^3N}[/latex] [latex]\\frac{k_1}{k_2}=\\left ( \\frac{d_1}{d_2} \\right )^4 \\times \\left ( \\frac{N_2}{N_1} \\right )[/latex] [latex]Weight(W)=\\rho Vg[/latex] [latex]i.e. \\; \\; W\\propto V \\;\\;\\;[\\because \\rho _1 =\\rho _2][/latex] [latex]\\text{Volume}=\\text{Area} \\times \\text{Length}[/latex] [latex]=\\frac{\\pi}{4}d^2 \\times (\\pi DN)[/latex] [latex]W_1=W_2\\Rightarrow V_1=V_2[/latex] [latex]\\begin{aligned} d_1^2N_1 &=d_2^2N_2 \\\\ \\frac{N_2}{N_1} &=\\left ( \\frac{d_1}{d_2} \\right )^2 \\Rightarrow 4 \\\\ \\frac{k_1}{k_2} &=\\left ( \\frac{d_1}{d_2} \\right )^4 \\times \\left ( \\frac{N_2}{N_1} \\right )\\\\ \\frac{k_1}{k_2}&= (2)^4 \\times 4=64 \\end{aligned}[/latex]",
+    "options": {
+      "A": "1",
+      "B": "4",
+      "C": "64",
+      "D": "128"
+    },
+    "correct_answer": "C"
+  }
+]
