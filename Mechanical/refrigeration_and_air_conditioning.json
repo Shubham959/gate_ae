@@ -1,0 +1,603 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 In a vapour compression refrigeration cycle, the\nrefrigerant enters the compressor in saturated\nvapour state at evaporator pressure, with specific\nenthalpy equal to 250 kJ/kg. The exit of the\ncompressor is superheated at condenser pressure\nwith specific enthalpy equal to 300 kJ/kg. At the\ncondenser exit, the refrigerant is throttled to the\nevaporator pressure. The coefficient of performance\n(COP) of the cycle is 3. If the specific enthalpy\nof the saturated liquid at evaporator pressure is\n50 kJ/kg, then the dryness fraction of the refrigerant\nat entry to evaporator is __",
+    "solution": "Given data, Saturated vapour refrigerant enters to compressor\r\nCOP = 3 Specific liquid enthalpy of refrigerant corresponding\r\nto evaporator pressure [latex] (h_f)_{P_1}=50 kJ/kg[/latex]. Dryness fraction of refrigerant of entry to evaporator [latex](x_4)=? [/latex] [latex]\\begin{aligned}\r\nCOP &=\\frac{h_1-h_4}{h_2-h_1} \\\\ \r\n3 &=\\frac{250-h_4}{300-250} \\\\ \r\n h_4&=100kJ/kg \\\\ \r\n\\text{But } h_4&=(h_f)_{P_1}+x_4(h_{f_g})_{P_1} \\\\ \r\n (h_{f_g})_{P_1}&= (h_{g})_{P_1} - (h_{f_1})_{P_1}\\\\ \r\n \\Rightarrow h_{fg}&=250-50=200kJ/kg \\\\ \r\n 100&=50+x_4 \\times 200 \\\\ \r\n \\Rightarrow  x_4&=0.25 \r\n\\end{aligned} [/latex]",
+    "options": {
+      "A": "0.2",
+      "B": "0.25",
+      "C": "0.3",
+      "D": "0.35"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 Ambient pressure, temperature, and relative  humidity  at  a  location  are  101 kPa, 300 K, and 60%, respectively. The saturation pressure of water at 300 K is 3.6 kPa. The specific humidity of ambient air is  _______g/kg of dry air.",
+    "solution": "[latex]\\begin{aligned} \\phi &=0.6 \\\\ \\frac{P_{v}}{P_{v s}} &=0.6 \\\\ P_{v s} &=3.6 \\mathrm{kPa} \\\\ P_{v} &=0.6 \\times 3.6 \\mathrm{kPa} \\\\ P_{v} &=2.16 \\mathrm{kPa} \\\\ \\omega &=0.622\\left(\\frac{P_{V}}{P-P_{V}}\\right) \\\\ &=0.622\\left(\\frac{2.16}{101-2.16}\\right)\\\\ &=0.01358 \\mathrm{~kg} \\text { of water vapour/kg of dry air }\\\\ &=13.58 \\mathrm{~g} / \\mathrm{kg} \\text { of dry air } \\end{aligned}[/latex]",
+    "options": {
+      "A": "21.4",
+      "B": "35.1",
+      "C": "21.9",
+      "D": "13.6"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 3 A rigid tank of volume [latex]50\\; m^3[/latex] contains a pure substance as a saturated liquid vapour mixture at 400 kPa. Of the total mass of the mixture, 20% mass is liquid and 80% mass is vapour. Properties at 400 kPa are : [latex]T_{sat}=143.61^{\\circ}C,\\; v_f=0.001084\\; m^3/kg, v_g=0.46242\\; m^3/kg[/latex]. The total mass of liquid vapour mixture in the tank is  _______kg (round off to the nearest integer).",
+    "solution": "[latex]\\begin{aligned} V_{\\text {total }} &=v_{l}+v_{v} \\\\ &=v_{f} \\times m_{l}+v_{g} \\times m_{v} \\\\ 50 &=0.001084 \\times 0.2 \\mathrm{~m}+0.46242 \\times 0.8 \\mathrm{~m} \\\\ m &=135.08 \\mathrm{~kg}=135 \\mathrm{~kg} \\end{aligned}[/latex]",
+    "min": 134.0,
+    "max": 136.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 4 Consider an ideal vapour compression refrigeration cycle working on R-134a refrigerant. The COP of the cycle is 10 and the refrigeration capacity is 150 kJ/kg. The heat rejected by the refrigerant in the condenser is _______kJ/kg (round off to the nearest integer).",
+    "solution": "[latex] \\begin{aligned} \\mathrm{RE} &=150 \\mathrm{~kJ} / \\mathrm{kg} \\\\ \\mathrm{COP} &=10 \\\\ \\mathrm{COP} &=\\frac{Q_{L}}{W_{i n}}\\\\ \\Rightarrow\\qquad W_{\\text {in }} &=15 \\mathrm{~kJ} / \\mathrm{kg} \\\\ Q_{\\mathrm{H}}=Q_{\\mathrm{C}} &=Q_{L}+W_{\\text {in }} \\\\ &=150+15 \\\\ &=165 \\mathrm{~kJ} / \\mathrm{kg} \\end{aligned}[/latex]",
+    "min": 165.0,
+    "max": 165.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 An air-conditioning system provides a continuous flow of air to a room using an intake duct and an exit duct, as shown in the figure. To maintain the quality of the indoor air, the intake duct supplies a mixture of fresh air with a cold air stream. The two streams are mixed in an insulated mixing chamber located upstream of the intake duct. Cold air enters the mixing chamber at [latex]5^{\\circ} C[/latex], 105 kPa with a volume flow rate of 1.25 [latex]m^3/s[/latex] during steady state operation. Fresh air enters the mixing chamber at [latex]34^{\\circ}C[/latex] and 105 kPa. The mass flow rate of the fresh air is 1.6 times of the cold air stream. Air leaves the room through the exit duct at [latex]24^{\\circ}C[/latex]. Assuming the air behaves as an ideal gas with [latex]c_p= 1.005 \\;\\; kJ/kg.K[/latex] and [latex]R= 0.287  kJ/kg.K[/latex],  the  rate  of  heat  gain  by  the  air  from  the  room  is\n________kW(round off to two decimal places).",
+    "solution": "1: Cold air 2: Hot air [latex] \\begin{aligned} P_{1} V_{1} &=\\dot{m}_{1} R T_{1} \\\\ 105 \\times 1.25 &=\\dot{m}_{1} \\times 0.287 \\times 278 \\\\ \\dot{m}_{1} &=1.645 \\mathrm{~kg} / \\mathrm{sec} \\\\ \\dot{m}_{2} &=1.6 \\times 1.645=2.632 \\mathrm{~kg} / \\mathrm{sec} \\\\ \\dot{m}_{3} &=4.277 \\mathrm{~kg} / \\mathrm{sec} \\end{aligned}[/latex] After mixing: 0 [latex] \\begin{aligned} \\dot{m}_{1} t_{1}+\\dot{m}_{2} t_{2} &=\\dot{m}_{3} t_{3} \\\\ 1.645 \\times 5+2.632 \\times 34 &=4.277 t_{3} \\\\ t_{3} &=22.85^{\\circ} \\mathrm{C}\\\\ \\text{Heat gain }:&=h_{4}-h_{3}\\\\ &=\\dot{m}_{3} c_{p}\\left(t_{4}-t_{3}\\right) \\\\ &=4.277 \\times 1.005(24-22.85) \\\\ &=4.963 \\mathrm{~kW} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ref/page1_q5.webp",
+    "min": 4.9,
+    "max": 5.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 The relative humidity of ambient air at 300 K is 50% with a partial pressure of water vapour equal to [latex]p_v[/latex]. The saturation pressure of water at 300 K is [latex]p_{sat}[/latex]. The correct relation for the air-water mixture is",
+    "solution": "[latex]\\begin{aligned} \\text { Relative humidity, } \\phi &=\\frac{p_{v}}{p_{\\text {sat }}} \\\\ 0.5 &=\\frac{p_{v}}{p_{\\text {sat }}} \\\\ p_{v} &=0.5 p_{\\text {sat }} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]p_v=0.5p_{sat}[/latex]",
+      "B": "[latex]p_v=p_{sat}[/latex]",
+      "C": "[latex]p_v=0.622p_{sat}[/latex]",
+      "D": "[latex]p_v=2p_{sat}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Superheated steam at 1500 kPa, has a specific volume of 2.75 [latex]m^3[/latex]/kmol and compressibility factor ([latex]Z[/latex]) of 0.95. The temperature of steam is [latex]^{\\circ}C[/latex] (round off to the nearest integer).",
+    "solution": "[latex]\\begin{aligned}\r\nP &=1500 \\mathrm{kPa} \\\\\r\nV &=2.75 \\mathrm{~m} 3 / \\mathrm{k}-\\mathrm{mol} \\\\\r\nZ &=0.95 \\\\\r\nP V &=n \\bar{R} T \\\\\r\nP \\bar{V} &=\\bar{R} T \\\\\r\nP \\bar{V} &=Z \\times n \\bar{R} T \\\\\r\nP \\frac{\\bar{V}}{n} &=Z \\bar{R} T \\\\\r\nP_{\\bar{V}} &=Z \\bar{R} T\\\\\r\n1500 \\mathrm{KPa} \\times 2.75 \\mathrm{~m}^{3} / \\mathrm{K}-\\mathrm{mol}&=0.95 \\times 8.314 \\mathrm{~kJ} / \\mathrm{K}-\\mathrm{molK} \\times T\\\\\r\nT&=522.26 \\mathrm{~K}\\\\\r\nT&=522.26-273=249.26^{\\circ} \\mathrm{C}\r\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "522",
+      "B": "471",
+      "C": "249",
+      "D": "198"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 Consider an ideal vapour compression refrigeration cycle. If the throttling process is replaced by an isentropic expansion process, keeping all the other processes unchanged, which one of the following statements is true for the modified cycle?",
+    "solution": "Due to isentropic expansion instead of throttling 1. R.E increases 2. Work input reduces [latex] \\therefore \\mathrm{COP}=\\frac{\\mathrm{R} \\cdot \\mathrm{E}}{\\mathrm{W}_{\\mathrm{in}}}[/latex]",
+    "options": {
+      "A": "Coefficient of performance is higher than that of the original cycle.",
+      "B": "Coefficient of performance is lower than that of the original cycle.",
+      "C": "Coefficient of performance is the same as that of the original cycle.",
+      "D": "Refrigerating effect is lower than that of the original cycle."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 Ambient air is at a pressure of 100 kPa, dry bulb temperature of  [latex]30^{\\circ}C[/latex]  and and 60% relative\nhumidity. The saturation pressure of water at [latex]30^{\\circ}C[/latex]  is 4.24 kPa. The specific humidity of\nair (in g/kg of dry air) is ________ (correct to two decimal places).",
+    "solution": "[latex]\\begin{aligned} P_{\\mathrm{atm}} &=100 \\mathrm{kPa} \\\\ D B T &=t=30^{\\circ} \\mathrm{C} \\rightarrow P_{v s}=4.24 \\mathrm{kPa} \\\\ \\phi &=60 \\%\\\\ \\phi &=\\frac{P_{V}}{P_{V S}} \\Rightarrow 0.6=\\frac{P_{V}}{4.24} \\\\ P_{V} &=2.544 \\mathrm{kPa} \\\\ W &=0.622 \\times \\frac{P_{V}}{P_{\\mathrm{atm}}-P_{V}} \\\\ W &=0.622 \\times \\frac{2.544}{100-2.544} \\\\ W&=16.24 \\text{gram/kg of dry Air} \\end{aligned}[/latex]",
+    "min": 16.0,
+    "max": 16.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 A standard vapor compression refrigeration cycle operating with a condensing temperature of [latex]35^{\\circ}C[/latex]  and an evaporating temperature of   [latex]-10^{\\circ}C[/latex] develops 15 kW of cooling. The p-h diagram shows the enthalpies at various states. If the isentropic efficiency of the compressor is 0.75, the magnitude of compressor power (in kW) is _________ (correct to two decimal places).",
+    "solution": "[latex]\\begin{aligned} R C &=15 \\mathrm{kW} \\\\ R C &=\\dot{m} \\times\\left(h_{1}-h_{4}\\right) \\\\ 15 &=\\dot{m} \\times(400-250) \\\\ \\dot{m} &=0.1 \\mathrm{kg} / \\mathrm{sec} \\\\ \\omega_{\\text {isentropic }} &=\\left(h_{2}-h_{1}\\right)=(475-400)=75 \\mathrm{kJ} / \\mathrm{kg}\\\\ \\eta_{C} &=\\frac{\\omega_{\\text {isentropic }}}{\\omega_{\\text {actual }}} \\\\ \\omega_{\\text {actual }} &=\\frac{75}{0.75}=100 \\mathrm{kJ} / \\mathrm{kg} \\\\ \\omega_{\\text {actual }} &=\\dot{m} \\times \\omega_{\\text {actual }}=0.1 \\times 100 \\\\ P_{\\dot{m}} &=10 \\mathrm{kW} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ref/page2_q5.webp",
+    "min": 9.5,
+    "max": 10.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 If a mass of moist air contained in a closed metallic vessel is heated, then its",
+    "solution": "",
+    "options": {
+      "A": "relative humidity decreases",
+      "B": "relative humidity increases",
+      "C": "specific humidity increases",
+      "D": "specific humidity decreases"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 Moist air is treated as an ideal gas mixture of water vapor and dry air (molecular weight of air = 28.84 and molecular weight of water = 18). At a location, the total pressure is 100 kPa, the temperature is [latex]30^{\\circ}C[/latex]  and the relative humidity is 55%. Given that the saturation pressure of water at [latex]30^{\\circ}C[/latex].is 4246 Pa, the mass of water vapor per kg of dry air is _____________ grams.",
+    "solution": "Relative humidity: [latex] \\begin{aligned} \\phi &=\\frac{p_{v}}{p_{v s}} \\\\ 0.55 &=\\frac{p_{v}}{4246}\\\\ \\text { or } \\quad p_{v}&=2335.3 \\mathrm{Pa}=2.335 \\mathrm{kPa} \\\\ \\therefore \\quad \\omega &=\\frac{(\\mathrm{Mol} \\cdot \\mathrm{wt})_{\\mathrm{H}_{2} \\mathrm{O}}}{(\\mathrm{Mol} \\cdot \\mathrm{w} \\mathrm{t})_{\\mathrm{air}}} \\times\\left(\\frac{p_{v}}{p-p_{v}}\\right) \\\\ &=\\frac{18}{28.84} \\times\\left(\\frac{2.335}{100-2.335}\\right) \\\\ &=0.01492 \\mathrm{kg} / \\mathrm{kg} \\text { of d.a } \\\\ \\text { also } \\quad \\omega &=\\frac{m_{v}}{m_{a}} \\\\ \\therefore \\quad 0.01492 &=\\frac{m_{v}}{1}\\\\ \\text{or }\\quad m_{v}&=0.01492 \\mathrm{kg}=14.92 \\mathrm{gm} \\end{aligned}[/latex]",
+    "min": 14.7,
+    "max": 15.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 In the vapour compression cycle shown in the figure, the evaporating and condensing temperatures are 260 K and 310 K, respectively. The compressor takes in liquid-vapour mixture (state 1) and isentropically compresses it to a dry saturated vapour condition (state 2). The specific heat of the liquid refrigerant is 4.8 kJ/kg-K and may be treated as constant. The enthalpy of evaporation for the refrigerant at 310 K is 1054 kJ/kg. The difference between the enthalpies at state points 1 and 0 (in kJ/kg) is ____________",
+    "solution": "Given data: [latex] \\begin{aligned} T_{e} &=260 \\mathrm{K} \\\\ T_{c} &=310 \\mathrm{K} \\\\ c_{p l} &=4.8 \\mathrm{kJ} / \\mathrm{kgK} \\\\ h_{fg} &=1054 \\mathrm{kJ} / \\mathrm{kg} \\text { at } T_{c}=310 \\mathrm{K} \\end{aligned}[/latex] Taking reference temperature T , at which entropy is [latex] s_{T} [/latex] [latex] \\begin{aligned} \\therefore \\quad s_{3}-s_{T} &=c \\ln \\frac{T_{3}}{T} \\\\ s_{3} &=s_{T}+c \\ln \\frac{T_{3}}{T}=s_{T}+4.8 \\ln \\frac{310}{T} \\\\ \\text { Similarly, } s_{0} &=s_{T}+c \\ln \\frac{260}{T}=s_{T}+4.8 \\ln \\frac{260}{T} \\\\ \\therefore \\quad s_{2}-s_{3} &=\\frac{h_{f g}}{T}=\\frac{1054}{310} \\\\ s_{2} &=s_{3}+\\frac{1054}{310} \\end{aligned}[/latex] Substitute the value of [latex]s_{3}[/latex] in above equation, we get [latex] \\begin{aligned} s_{2} &=s_{T}+4.8 \\ln \\frac{310}{T}+\\frac{1054}{310} \\\\ s_{2} &=s_{1} \\\\ s_{1} &=s_{T}+4.8 \\ln \\frac{310}{T}+\\frac{1054}{310} \\\\ h_{1}-h_{0} &=T_{e}\\left[s_{1}-s_{0}\\right] \\\\ =& 260 \\times\\left[s_{T}+4.8 \\ln \\frac{310}{T}+\\frac{1054}{310}\\right.\\\\ &\\left.-s_{T}-4.8 \\ln \\frac{260}{T}\\right] \\\\ &=260\\left[4.8 \\ln \\left(\\frac{310}{T} \\times \\frac{T}{260}\\right)+\\frac{1054}{310}\\right] \\\\ &1103.51\\mathrm{kJ}/\\mathrm{kg} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ref/page3_q3.webp",
+    "min": 1095.0,
+    "max": 1130.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 In a mixture of dry air and water vapor at a total pressure of 750 mm of Hg, the partial pressure of water vapor is 20 mm of Hg. The humidity ratio of the air in grams of water vapor per kg of dry air  ([latex]g_{w}/kg_{da}[/latex]) is __________",
+    "solution": "Given data: Total pressure, [latex] p=750 \\mathrm{mm} \\text { of } \\mathrm{Hg}[/latex] Partial pressure, [latex] p_{v}=20 \\mathrm{mm} \\text { of } \\mathrm{Hg}[/latex] We know that humidity ratio, [latex] \\begin{aligned} \\omega &=\\frac{0.622 p_{v}}{p-p_{v}} \\mathrm{kg} w.v./ \\mathrm{kg} d.a. \\\\ &=\\frac{0.622 \\times 20}{750-20} \\\\ &=0.01704 \\;\\mathrm{kg} \\mathrm{w} . \\mathrm{v} . \\mathrm{kg} \\text { of } \\mathrm{d.a} \\\\ &=17.04 \\;\\mathrm{g} \\text { of } \\mathrm{w} . \\mathrm{v} . / \\mathrm{kg} \\text { of } \\mathrm{d.a} \\end{aligned}[/latex]",
+    "min": 16.9,
+    "max": 17.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 The partial pressure of water vapour in a moist air sample of relative humidity 70% is 1.6 kPa, the\ntotal pressure being 101.325 kPa. Moist air may be treated as an ideal gas mixture of water vapour\nand dry air. The relation between saturation temperature ([latex]T_{s}[/latex]  in K) and saturation pressure ([latex]p_{s}[/latex]  in KPa) for water is given by [latex]ln(p_{s}/p_{o})[/latex]=14.317-5304/[latex]T_{s}[/latex] , where [latex]p_{o}[/latex] = 101.325 kPa. The dry\nbulb temperature of the moist air sample (in [latex]^{\\circ}[/latex] C) is __________",
+    "solution": "Given data: Relative humidity, [latex] \\phi=70 \\%=0.70[/latex] Partial pressure, [latex] p_{v}=1.6 \\mathrm{kPa}[/latex] Total pressure, [latex] p_{0}=101.325 \\mathrm{kPa}[/latex] We know that, [latex] \\begin{aligned} \\phi&=\\frac{p_{v}}{p_{s}}\\\\ 0.70 &=\\frac{1.6}{p_{s}} \\\\ \\text{or}\\quad p_{s} &=\\frac{1.6}{0.70}=2.2857 \\mathrm{kPa} \\end{aligned}[/latex] Temperature corresponding to saturation pressure is dry bulb temperature, [latex] \\begin{aligned} \\ln \\left\\{\\frac{p_{s}}{p_{o}}\\right\\} &=14.317-\\frac{5304}{T_{s}} \\\\ \\ln \\left\\{\\frac{2.2857}{101.325}\\right\\} &=14.317-\\frac{5304}{T_{s}} \\\\ -3.79166 &=14.317-\\frac{5304}{T_{s}} \\\\ \\frac{5304}{T_{s}} &=14.317+3.79166 \\\\ \\frac{5304}{T_{s}} &=18.10866 \\\\ \\text{or}\\quad T_{s} &= 292.89 \\mathrm{K}\\\\ &=(292.89-273)^{\\circ} \\mathrm{C} \\\\ &=19.89^{\\circ} \\mathrm{C} \\end{aligned}[/latex]",
+    "min": 19.5,
+    "max": 19.9
+  },
+  {
+    "type": "numerical",
+    "question": "Question 16 A refrigerator uses R-134a as its refrigerant and operates on an ideal vapour-compression refrigeration cycle between 0.14 MPa and 0.8 MPa. If the mass flow rate of the refrigerant is 0.05 kg/s, the rate of heat rejection to the environment is _________ kW. Given data: At P = 0.14 MPa, h =236.04 kJ/kg, s =0.9322 kJ/kg-K At P = 0.8 MPa, h = 272.05kJ/kg (superheated vapour) At P = 0.8 MPa, h = 93.42 kJ/kg (saturated liquid)",
+    "solution": "Given data: [latex] \\begin{aligned} m&=0.05 \\mathrm{kg} / \\mathrm{s}\\\\ \\text{At }\\quad p_{e}&=0.14 \\mathrm{MPa} \\\\ h_{1}&=236.04 \\mathrm{kJ} / \\mathrm{kg} \\\\ s_{1}&=0.9322 \\mathrm{kJ} / \\mathrm{kg} \\mathrm{K}\\\\ \\text{At }\\quad p_{c}&=0.8 \\mathrm{MPa} \\\\ h_{3}&=h_{4}=h_{f}=93.42 \\mathrm{kJ} / \\mathrm{kg} \\end{aligned}[/latex] [latex] h_{2}=272.02 \\mathrm{kJ} / \\mathrm{kg}[/latex] Rate of heat rejection to the environment, [latex] \\begin{aligned} Q_{2-3} &=m\\left[h_{2}-h_{3}\\right]=0.05 \\times[275.02-93.42] \\\\ &=8.93 \\mathrm{kW} \\end{aligned}[/latex]",
+    "min": 8.9,
+    "max": 8.95
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 Air in a room is at [latex]35^{\\circ}[/latex] and 60% relative humidity (RH). The pressure in the room is 0.1 MPa. The saturation pressure of water at [latex]35^{\\circ}[/latex] is 5.63 kPa. The humidity ratio of the air (in gram/kg of dry air) is ________",
+    "solution": "Given data: [latex] \\begin{aligned} T_{d b} &=35^{\\circ} \\mathrm{C} \\\\ \\phi &=60 \\%=0.60 \\\\ p &=0.1 \\mathrm{MPa}=100 \\mathrm{kPa} \\\\ p_{s} &=5.63 \\mathrm{kPa} \\text { at } 35^{\\circ} \\mathrm{C} \\end{aligned}[/latex] Relative humidity, [latex] \\begin{aligned} \\phi &=\\frac{p_{v}}{p_{s}} \\\\ 0.60 &=\\frac{p_{v}}{5.63} \\\\ p_{v} &=0.60 \\times 5.63=3.378 \\mathrm{kPa} \\end{aligned}[/latex] Humidity ratio, [latex] \\omega=\\frac{0.622 p_{v}}{p-p_{v}}=\\frac{0.622 \\times 3.378}{100-3.378}[/latex] [latex] =0.02174 \\mathrm{kg} \\;\\text{of}\\; \\mathrm{w.v.}/\\mathrm{kg}\\; [/latex] of dry air [latex] =21.74 \\mathrm{gram} \\; \\text{of} \\;\\mathrm{w} . \\mathrm{v} . / \\mathrm{kg}\\; [/latex]of dry air",
+    "min": 21.7,
+    "max": 21.9
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18 Refrigerant vapor enters into the compressor of a standard vapor compression cycle at [latex]-10^{\\circ}[/latex] (h = 402 kJ/kg) and leaves the compressor at [latex]50^{\\circ}[/latex](h = 432 kJ/kg). It leaves the condenser at [latex]30^{\\circ}[/latex] (h = 237 kJ/kg). The COP of the cycle is ________",
+    "solution": "Given data: [latex] \\begin{array}{l} h_{1}=402 \\mathrm{kJ} / \\mathrm{kg}, \\quad h_{2}=432 \\mathrm{kJ} / \\mathrm{kg} \\\\ h_{3}=h_{4}=237 \\mathrm{kJ} / \\mathrm{kg} \\end{array}[/latex] [latex]\\begin{aligned} \\mathrm{COP} &=\\frac{h_{1}-h_{4}}{h_{2}-h_{1}}=\\frac{402-237}{432-402}=\\frac{165}{30} \\\\ &=5.5 \\end{aligned}[/latex]",
+    "min": 5.5,
+    "max": 5.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 The thermodynamic cycle shown in figure (T-s diagram) indicates",
+    "solution": "Reversed Brayton cycle is shown in the figure.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ref/page4_q4.webp",
+    "options": {
+      "A": "reversed Carnot cycle",
+      "B": "reversed Brayton cycle",
+      "C": "vapor compression cycle",
+      "D": "vapor absorption cycle"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 The COP of a Carnot heat pump operating between 6 [latex]^{\\circ}C[/latex] and 37 [latex]^{\\circ}C[/latex] is ___________",
+    "solution": "Given data: [latex] \\begin{aligned} T_{2} &=6^{\\circ} \\mathrm{C}=(6+273) \\mathrm{K} \\\\ &=279 \\mathrm{K} \\\\ T_{1} &=37^{\\circ} \\mathrm{C}=(37+273) \\mathrm{K} \\\\ &=310 \\mathrm{K} \\end{aligned}[/latex] [latex] \\begin{aligned} (\\mathrm{COP})_{\\mathrm{HP}} &=\\frac{T_{1}}{T_{1}-T_{2}}=\\frac{310}{310-279} \\\\ &=10 \\end{aligned}[/latex]",
+    "min": 9.8,
+    "max": 10.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 A stream of moist air (mass flow rate = 10.1 kg/s) with humidity ratio of 0.01 [latex]\\frac{kg}{kg \\; dry \\; air}[/latex]  mixes with a second stream of superheated water vapour flowing at 0.1 kg/s. Assuming proper and uniform mixing with no condensation, the humidity ratio of the final stream  (in [latex]\\frac{kg}{kg \\; dry \\; air}[/latex] )  is  _____________",
+    "solution": "Mass flow rate of moist air [latex]=10.1 \\mathrm{kg} / \\mathrm{s} [/latex] [latex] \\text { Humidity ratio: } \\omega=\\frac{m_{v}}{m_{a}}=0.01 \\mathrm{kg} / \\mathrm{s}[/latex] Mass of moist air = Mass of dry air + Mass of water vapour [latex] \\begin{aligned} 10.1 &=m_{a}+0.01 \\times m_{a} \\\\ 10.1 m_{a} &=10.1 \\end{aligned}[/latex] Mass of dry air: [latex]m_{a}=\\frac{10.1}{1.01}=10 \\mathrm{kg} / \\mathrm{s} [/latex] Mass of water vapour, [latex] \\begin{aligned} m_{v_{1}} &=10.1-10=0.1 \\mathrm{kg} / \\mathrm{s} \\\\ m_{v_{2}} &=0.1 \\mathrm{kg} / \\mathrm{s} \\\\ \\left(m_{\\mathrm{v}}\\right)_{\\mathrm{total}} &=m_{v_{1}}+m_{v_{2}}=0.2 \\mathrm{kg} / \\mathrm{s} \\end{aligned}[/latex] Humidity ratio [latex] \\begin{aligned} \\omega_{\\mathrm{final}}=\\frac{m_{v}}{m_{\\mathrm{a}}} &=\\frac{0.2}{10}\\\\ &=0.02 \\mathrm{kg} / \\mathrm{kg} \\text{ of dry air} \\end{aligned}[/latex]",
+    "min": 0.02,
+    "max": 0.02
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 Moist air at 35[latex]^{\\circ}[/latex]C and 100% relative humidity is entering a psychrometric device and leaving at   25[latex]^{\\circ}[/latex]C and 100% relative humidity. The name of the device is",
+    "solution": "[latex]\\omega_{2} \\lt \\omega_{1} \\quad \\because \\text { Dehumidifier }[/latex]",
+    "options": {
+      "A": "Humidifier",
+      "B": "Dehumidifier",
+      "C": "Sensible heater",
+      "D": "Sensible cooler"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 A reversed Carnot cycle refrigerator maintains a temperature of -5[latex]^{\\circ}[/latex]C. The ambient air temperature is 35[latex]^{\\circ}[/latex]C. The heat gained by the refrigerator at a continuous rate is 2.5 kJ/s. The power (in watt) required to pump this heat out continuously is _______",
+    "solution": "Given data: [latex] \\begin{array}{l} T_{2}=-5^{\\circ} \\mathrm{C}=(-5+273) \\mathrm{K}=268 \\mathrm{K} \\\\ T_{1}=35^{\\circ} \\mathrm{C}=(35+273) \\mathrm{K}=308 \\mathrm{K} \\end{array}[/latex] [latex] \\begin{aligned} Q_{2}=2.5 \\mathrm{kJ} / \\mathrm{s}&=2.5 \\mathrm{kW}=2500 \\mathrm{W} \\\\ (\\mathrm{COP})_{R} &=\\frac{T_{2}}{T_{1}-T_{2}} \\\\ &=\\frac{268}{308-268}=6.7 \\\\ \\text { also } \\quad(\\mathrm{COP})_{R} &=\\frac{Q_{2}}{W}\\\\ \\therefore \\quad 6.7&=\\frac{2500}{W}\\\\ \\text{or }\\quad W&=\\frac{2500}{6.7}=373.13 \\text { watt } \\end{aligned}[/latex]",
+    "min": 370.0,
+    "max": 375.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 A sample of moist air at a total pressure of 85 kPa has a dry bulb temperature of 30[latex]^{\\circ}[/latex]C (saturation vapour pressure of water = 4.24 kPa). If the air sample has a relative humidity of 65%, the absolute humidity (in gram) of water vapour per kg of dry air is  _______",
+    "solution": "Total pressure: [latex]p=85 \\mathrm{kPa} [/latex] Dry bulb temperature, [latex] \\begin{aligned} T_{d b} &=30^{\\circ} \\mathrm{C} \\\\ p_{s} &=4.24 \\mathrm{kPa} \\\\ \\phi &=65 \\%=0.65 \\end{aligned}[/latex] Relative humidity [latex] \\begin{aligned} \\phi &=\\frac{p_{v}}{p_{s}} \\\\ 0.65 &=\\frac{p_{v}}{4.24} \\\\ \\text{or}\\quad p_{v} &=0.65 \\times 4.24=2.756 \\mathrm{kPa} \\end{aligned}[/latex] Absolute humidity, [latex] \\begin{aligned} \\omega &=\\frac{0.622 p_{v}}{p-p_{v}} \\\\ &=\\frac{0.622 \\times 2.756}{85-2.756} \\end{aligned}[/latex] =0.02084 kg of w.v/kg of dry air =20.84 gram of w.v./kg of dry air",
+    "min": 19.0,
+    "max": 22.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 A heat pump with refrigerant R22 is used for space heating between temperature limits of -20[latex]^{\\circ}[/latex]C and 25[latex]^{\\circ}[/latex]C. The heat required is 200 MJ/h. Assume specific heat of vapour at the time of discharge as 0.98 kJ/kg.K. Other relevant properties are given below. The enthalpy (in kJ/kg) of the refrigerant at isentropic compressor discharge is _______",
+    "solution": "[latex]\\begin{aligned} s_{2}-s_{2^{\\prime}}&=c_{p} \\log _{e} \\frac{T_{2}}{T_{2^{\\prime}}} \\\\ s_{1}&=s_{2} \\quad(\\text { for isentropic process }) \\\\ s_{2} &=1.7841 \\mathrm{kJ} / \\mathrm{kgK} \\\\ s_{2} &=1.7183 \\mathrm{kJ} / \\mathrm{kgK} \\\\ c_{p} &=0.98 \\mathrm{kJ} / \\mathrm{kg} \\mathrm{K} \\\\ \\therefore \\log _{e} \\frac{T_{2}}{T_{2^{\\prime}}} &=\\frac{s_{2}-s_{2^{\\prime}}}{c_{p}} \\\\ &=\\frac{1.7841-1.7183}{0.98}=0.0671\\\\ \\text { or } \\quad T_{2} &=1.0694 \\times T_{2^{\\prime}}=\\sqrt{.0694 \\times 298} \\\\ &=318.695 \\mathrm{K} \\\\ h_{2}-h_{2^{\\prime}} &=c_{p}\\left(T_{2}-T_{2}\\right) \\\\ h_{2} &=413.02+0.98(318.695-298) \\\\ h_{2} &=433.3 \\mathrm{kJ} / \\mathrm{kg} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ref/page5_q5.webp",
+    "min": 430.0,
+    "max": 440.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 Which one of the following is a CFC refrigerant?",
+    "solution": "[latex]\\begin{array}{l} \\mathrm{R} 744-\\mathrm{CO}_{2} \\\\ \\mathrm{R} 290-\\mathrm{C}_{3} \\mathrm{H}_{8}(\\text { Propane }) \\\\ \\mathrm{R} 502-\\mathrm{CHClF}_{3}+\\mathrm{CCIF}_{2} \\mathrm{CF}_{3} \\\\ \\mathrm{R} 718-\\text { Water } \\end{array}[/latex]",
+    "options": {
+      "A": "R744",
+      "B": "R290",
+      "C": "R502",
+      "D": "R718"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 The pressure, dry bulb temperature and relative humidity of air in a room are 1 bar, 30[latex]^{\\circ}[/latex]C and 70%, respectively. If the saturated steam pressure at 30[latex]^{\\circ}[/latex]C is 4.25 kPa, the specific humidity of the room air in kg water vapour/kg dry air is",
+    "solution": "[latex]\\begin{aligned} p_{\\mathrm{atn}} &=1 \\mathrm{bar}=100 \\mathrm{kPa} \\\\ \\mathrm{DBT} &=30^{\\circ} \\mathrm{C} \\\\ \\phi &=70 \\%=0.7 \\\\ p_{\\mathrm{vs}} &=4.25 \\mathrm{kPa} \\end{aligned}[/latex] Specific humidity: [latex]\\omega=? [/latex] [latex] \\begin{aligned} \\phi &=\\frac{p_{v}}{p_{v s}} \\\\ 0.7 &=\\frac{p_{v}}{4.25} \\\\ p_{v} &=2.975 \\mathrm{kPa} \\end{aligned}[/latex] Specific humidity, [latex] \\begin{aligned} \\omega&=0.622 \\times \\frac{p_{v}}{p-p_{v}}\\\\ &=0.622 \\times \\frac{2.975}{100-2.975} \\\\ &=00.0191  \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.0083",
+      "B": "0.0101",
+      "C": "0.0191",
+      "D": "0.0232"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 A refrigerator operates between 120kPa and 800kPa in an ideal vapor compression cycle with R - 134 a as the refrigerant. The refrigerant enters the compressor as saturated vapor and leaves the condenser as saturated liquid. The mass flow rate of the refrigerant is 0.2 kg/s. properties for R-134 a are as follows. The power required for the compressor in kW is",
+    "solution": "Power required for the compressor, [latex] \\begin{aligned} P &=m\\left(h_{2}-h_{1}\\right)=0.2(276.45-237) \\\\ &=7.89 \\mathrm{kW} \\approx 7.9 \\mathrm{kW} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ref/page6_q3.webp",
+    "options": {
+      "A": "5.94",
+      "B": "1.83",
+      "C": "7.9",
+      "D": "39.5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 A refrigerator operates between 120kPa and 800kPa in an ideal vapor compression cycle with R - 134 a as the refrigerant. The refrigerant enters the compressor as saturated vapor and leaves the condenser as saturated liquid. The mass flow rate of the refrigerant is 0.2 kg/s. properties for R-134 a are as follows. The rate at which heat is extracted, in kJ/s from the refrigerated space is",
+    "solution": "From given R-134a tables, we get [latex] \\begin{aligned} h_{1}&=237 \\mathrm{kJ} / \\mathrm{kg} \\\\ h_{2}&=276.45 \\mathrm{kJ} / \\mathrm{kg} \\\\ h_{3}&=h_{4}=95.5 \\mathrm{kJ} / \\mathrm{kg} \\end{aligned}[/latex] Mass flow rate: [latex] m=0.2 \\mathrm{kg} / \\mathrm{s} [/latex] Rate of heat extracted: [latex] \\begin{aligned} Q_{4-1} &=m\\left(h_{1}-h_{4}\\right)=0.2(237-95.5) \\\\ &=28.3 \\mathrm{kW} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ref/page6_q4.webp",
+    "options": {
+      "A": "28.3",
+      "B": "42.9",
+      "C": "34.4",
+      "D": "14.6"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 A room contains 35kg of dry air & 0.5 kg water vapor. The total pressure and temperature of air in the room are 100kPa and [latex]25^{\\circ}C[/latex]\n respectively. Given that the saturation pressure for water at [latex]25^{\\circ}[/latex]C is 3.17kPa, the relative humidity of the air in the room is",
+    "solution": "[latex]\\begin{aligned} m_{a} &=35 \\mathrm{kg} ; \\quad m_{v}=0.5 \\mathrm{kg} \\\\ \\omega &=\\frac{m_{v}}{m_{a}}=\\frac{0.5}{35}=0.01428 \\\\ a \\mathrm{so} & \\omega=0.622 \\frac{p_{v}}{p_{a}} \\\\ p_{t} &=100 \\mathrm{kPa} \\\\ \\therefore \\quad \\omega &=0.622 \\frac{p_{v}}{p_{t}-p_{v}} \\end{aligned}[/latex] Now, [latex] \\begin{aligned} 0.01428 &=0.622 \\frac{p_{v}}{100-p_{v}} \\\\ p_{v} &=2.238 \\mathrm{kPa} \\end{aligned}[/latex] Relative humidity [latex] \\begin{aligned} \\phi &=\\frac{p_{v}}{p_{v s}}=\\frac{2.238}{3.17} \\times 100 \\\\ &=70.6 \\% \\approx 71 \\% \\end{aligned}[/latex]",
+    "options": {
+      "A": "67%",
+      "B": "55%",
+      "C": "83%",
+      "D": "71%"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 If a mass of moist air in an airtight vessel is heated to a higher temperature, then",
+    "solution": "The moist air in an airtight vessel is heated to a higher temperature. This process is treated as sensible heating. In sensible heating process, the relative humidity of the air decreases with increase in dry bulb temperature at constnat  specific humidity This process is shown on psychrometic chart in \r\nFig.",
+    "options": {
+      "A": "Specific humidity of the air increases",
+      "B": "Specific humidity of the air decreases",
+      "C": "Relative humidity of the air increases",
+      "D": "Relative humidity of the air decreases"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 A moist air sample has dry bulb temperature of 30[latex]^{\\circ}[/latex]C and specific humidity of 11.5g water vapour per kg dry air. Assume molecular weight of air as 28.93. If the saturation vapour pressure of water at 30[latex]^{\\circ}[/latex]C is 4.24kPa and the total pressure is 90kPa, then the relative humidity (in %) of air sample is",
+    "solution": "Relative humidity, [latex] \\phi=\\frac{p_{v}}{p_{v s}}[/latex] Specific humidity [latex] \\begin{aligned} \\omega &=0.622\\left(\\frac{p_{v}}{p-p_{v}}\\right) \\\\ 11.5 \\times 10^{-3} &=0.622\\left(\\frac{p_{v}}{90-p_{v}}\\right) \\\\ p_{v} &=1.63378 \\mathrm{KPa} \\end{aligned}[/latex] Relative humidity [latex] \\begin{aligned} \\phi &=\\frac{p_{v}}{p_{v s}}=\\frac{1.63378}{4.24} \\\\ &=0.385=38.5 \\% \\end{aligned}[/latex]",
+    "options": {
+      "A": "50.5",
+      "B": "38.5",
+      "C": "56.5",
+      "D": "68.5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 In an ideal vapour compression refrigeration cycle, the specific enthalpy of refrigerant (in kJ/kg) at the following states is given as: Inlet of condenser: 283 Exit of condenser: 116 Exit of evaporator: 232 The COP of this cycle is",
+    "solution": "Given data: [latex] \\begin{aligned} h_{2} &=283 \\mathrm{kJ} / \\mathrm{kg} \\\\ h_{3} &=116 \\mathrm{kJ} / \\mathrm{kg} \\\\ &=h_{4} \\\\ h_{1} &=232 \\mathrm{kJ} / \\mathrm{kg} \\end{aligned}[/latex] Coefficient of performance, [latex] \\begin{aligned} \\mathrm{COP} &=\\frac{\\text { Refrigerating effect: Re }}{\\text { Work input: } w} \\\\ \\text { where } \\mathrm{Re} &=h_{1}-h_{4}=232-116 \\\\ &=116 \\mathrm{kJ} / \\mathrm{kg}\\\\ \\text { and } \\quad w &=h_{2}-h_{1}=283-232 \\\\ &=51 \\mathrm{kJ} / \\mathrm{kg} \\\\ \\therefore \\quad \\mathrm{COP} &=\\frac{116}{51}=2.27 \\end{aligned}[/latex]",
+    "options": {
+      "A": "2.27",
+      "B": "2.75",
+      "C": "3.27",
+      "D": "3.75"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 Air (at atmospheric pressure) at a dry bulb temperature of 40[latex]^{\\circ}[/latex]C and wet bulb temperature of\n20[latex]^{\\circ}[/latex]C is humidified in an air washer operating with continuous water recirculation. The wet bulb\ndepression (i.e. the difference between the dry and wet bulb temperature) at the exit is 25% of\nthat at the inlet. The dry bulb temperature at the exit of the air washer is closest to",
+    "solution": "Given data: [latex] \\begin{aligned} (\\mathrm{DBT})_{i}&=40^{\\circ} \\mathrm{C} \\\\ (\\mathrm{WBT})_{i}&=20^{\\circ} \\mathrm{C} \\end{aligned}[/latex] Web bulb depression, [latex] \\begin{aligned} (\\mathrm{WBD})_{i} &=(\\mathrm{DBT})_{i}-(\\mathrm{WBT})_{i} \\\\ &=40-20=20^{\\circ} \\mathrm{C} \\end{aligned}[/latex] Wet bulb depression at outlet, [latex] (\\mathrm{WBD})_{\\mathrm{o}}=(\\mathrm{DBT})_{\\mathrm{o}}-(\\mathrm{WBT})_{\\mathrm{o}}[/latex] By given condition, [latex](WBD)_{o}=25 \\%(\\mathrm{WBD})_{i} [/latex] [latex] \\begin{aligned} \\therefore(\\mathrm{DBT})_{0}-(\\mathrm{WBT})_{0}&=0.25 \\times 20 \\\\ (\\mathrm{DBT})_{0} &=0.25 \\times 20+(\\mathrm{WBT})_{0} \\\\ &=5+(\\mathrm{WBT})_{i} \\end{aligned}[/latex] where [latex] (\\mathrm{WBT})_{o}=(\\mathrm{WBT})_{i} [/latex] for humidified in an air washer [latex] \\therefore \\quad(\\mathrm{DBT})_{0}=5+20=25^{\\circ} \\mathrm{C}[/latex]",
+    "options": {
+      "A": "10[latex]^{\\circ}[/latex]C",
+      "B": "20[latex]^{\\circ}[/latex]C",
+      "C": "25[latex]^{\\circ}[/latex]C",
+      "D": "30[latex]^{\\circ}[/latex]C"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Moist air at a pressure of 100 kPa is compressed to 500 kPa and then cooled to 35[latex]^{\\circ}[/latex]C in an after\ncooler. The air at the entry to the after cooler is unsaturated and becomes just saturated at the exit\nof the after cooler. The saturation pressure of water at 35[latex]^{\\circ}[/latex]C is 5.628 kPa. The partial pressure of\nwater vapour (in kPa) in the moist air entering the compressor is closest to",
+    "solution": "Given : [latex]p_1=100 kPa, \\;p_2=500kPa,\\; p_{v1}=?[/latex] [latex]p_2=5.628 kPa\\text{ (Saturated pressure at }35^{\\circ}C)[/latex] We know that, Specific humidity   [latex]W=0.622\\left ( \\frac{p_v}{p-p_v} \\right )[/latex] For case II: [latex]W=0.622\\left ( \\frac{5.628}{500-5.628} \\right )=7.08 \\times 10^{-3}\\; kg/kg \\text{ of dry air}[/latex] For saturated air specific humidity remains same. So, for case (I) : [latex]W=0.622\\left ( \\frac{p_{v1}}{p_1-p_{v1}} \\right )[/latex] On substituting the values, we get [latex]\\begin{aligned} 7.08 \\times 10^{-3}&=0.622\\left ( \\frac{p_{v1}}{100-p_{v1}} \\right ) \\\\ 11.38 \\times 10^{-3}&(100-p_{v1}) =p_{v1} \\\\ 1.138&= 1.01138p_{v1}\\\\ p_{v1}&=1.125\\;kPa\\simeq 1.13 \\;kPa \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.57",
+      "B": "1.13",
+      "C": "2.26",
+      "D": "4.52"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Atmospheric air at a flow rate of 3 kg/s (on dry basis) enters a cooling and dehumidifying coil with an enthalpy of   85 kJ/kg of dry air and a humidity ratio of 19 grams/kg of dry air. The air leaves the coil with an enthalpy of 43 kJ/kg of dry air and a humidity ratio of 8 grams/kg of dry air. If the condensate water leaves the coil with an enthalpy of 67 kJ/kg, the required cooling capacity of the coil in kW is",
+    "solution": "Given data: Mass flow rate of dry air [latex] \\begin{aligned} m_{a}&=3 \\mathrm{kg} / \\mathrm{s} \\\\ h_{1}&=85 \\mathrm{kJ} / \\mathrm{kg} \\text { of dry air } \\\\ \\omega_{1}&=19 \\mathrm{gm} / \\mathrm{kg} \\text { of dry air } \\\\ &=0.019 \\mathrm{kg} / \\mathrm{kg} \\text { of dry air } \\\\ h_{2}&=43 \\mathrm{kJ} / \\mathrm{kg} \\text { of dry air } \\\\ \\omega_{2}&=8 \\mathrm{gm} / \\mathrm{kg} \\text { of dry air } \\\\ &=0.008 \\mathrm{kg} / \\mathrm{kg} \\text { of dry air } \\end{aligned}[/latex] Enthalpy of condenrate water leaves the cooling [latex] \\begin{aligned} \\text { coil: } h_{f g}&=67 \\mathrm{kJ} / \\mathrm{kg} \\\\ \\omega_{1}&=\\frac{m_{v 1}}{m_{a}}\\\\ \\text{or }\\quad m_{v 1}&=\\omega_{1} m_{a}=0.019 \\times 3 \\mathrm{kg} / \\mathrm{s} \\\\ & =0.057 \\mathrm{kg} / \\mathrm{s}, \\text{mass of water vapour at inlet} \\\\ \\end{aligned}[/latex] Similarly, [latex] m_{v 2}=\\omega_{2} m_{a}=0.008 \\times 3[/latex] [latex] =0.024 \\mathrm{kg} / \\mathrm{s}, [/latex] mass of water vapour at outlet Mass flow rate of condensate, [latex] \\begin{aligned} m_{w} &=m_{v 1}+m_{v 2} \\\\ &=0.057+0.024=0.033 \\mathrm{kg} / \\mathrm{s} \\end{aligned}[/latex] Cooling capacity of the coil, [latex] \\begin{aligned} Q&=m\\left(h_{1}-h_{2}\\right)-m_{w} h_{f g}\\\\ \\text{where }m\\left(h_{1}-h_{2}\\right)&= \\text{sensible heat removed}\\\\ \\therefore m_{w} h_{f g}&= \\text{ Latent heat removed}\\\\ Q &=3(85-43)-0.033 \\times 67 \\\\ &=123.79 \\mathrm{kW} \\end{aligned}[/latex] Alternatively Mass flow rate of condensate, [latex] \\begin{aligned} m_{w} &=m_{a}\\left(\\omega_{1}-\\omega_{2}\\right) \\\\ &=3 \\times(0.019-0.008) \\\\ &=0.033 \\mathrm{kg} / \\mathrm{s} \\end{aligned}[/latex] Applying energy balance equation, we get [latex] \\begin{aligned} m_{a} h_{1} &=m_{a} h_{2}+m_{w} h_{f g}+Q \\\\ 3 \\times 85 &=3 \\times 43+0.033 \\times 67+Q \\\\ Q &=123.8 \\mathrm{kW} \\end{aligned}[/latex]",
+    "options": {
+      "A": "75",
+      "B": "123.8",
+      "C": "128.2",
+      "D": "159"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 A building has to be maintained at [latex]21^{\\circ}C[/latex]\r\n (dry bulb) and [latex]14.5^{\\circ}C[/latex]\r\n. (wet bulb). The dew point temperature under these conditions is [latex]10.17^{\\circ}C[/latex]\r\n. The outside temperature is [latex]-23^{\\circ}C[/latex]\r\n (dry bulb) and an internal and external heat transfer coefficients are 8 W/ [latex]m^{2}K[/latex]\r\n and 23 W/[latex]m^{2}K[/latex]\r\n respectively. If the building wall has the thermal conductivity of 1.2 W/mK. The minimum thickness(in m) of wall required to prevent condensation is",
+    "solution": "Given, [latex] \\begin{aligned} T_{i} &=21^{\\circ} \\mathrm{C} \\\\ T_{d p} &=10.17^{\\circ} \\mathrm{C} \\\\ T_{o} &=-23^{\\circ} \\mathrm{C} \\\\ h_{i} &=8 \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K}, h_{o}=23 \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K} \\\\ k &=1.2 \\mathrm{W} / \\mathrm{mK} \\end{aligned}[/latex] The heat transfer rate per unit area in the slab can be calculated by considering convection at inner side. [latex] \\begin{aligned} q &=h_{i}\\left(T_{i}-T_{d p}\\right) \\\\ &=8(21-10.17)=86.64 \\mathrm{W} / \\mathrm{m}^{2} \\end{aligned}[/latex] Further this heat is conducted through wall [latex] \\begin{aligned} \\therefore q&=\\frac{T_{d p}-T_{0}}{\\frac{x}{k}+\\frac{1}{h_{0}}}\\\\ 86.64 &=\\frac{10.17-(-23)}{\\frac{x}{1.2}+\\frac{1}{23}}=\\frac{33.17}{\\frac{x}{1.2}+\\frac{1}{23}} \\\\ \\text { or } \\frac{x}{1.2}+\\frac{1}{23} &=\\frac{33.17}{86.64}=0.3828 \\\\ \\text { or }\\quad \\frac{x}{1.2} &=0.3393 \\\\ x &=1.2 \\times 0.3393=0.4072 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.471",
+      "B": "0.407",
+      "C": "0.321",
+      "D": "0.125"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 A thin layer of water in field is formed after a farmer has watered it. The ambient air conditions are: temperature 20 [latex]^{\\circ}[/latex]C and relative humidity 5%. An extract of steam tables is given below. Neglecting the heat transfer between the water and the ground, the water temperature in the field after phase equilibrium is reached equals",
+    "solution": "Given data: [latex] \\begin{aligned} \\phi &=5 \\%=0.05 \\\\ T_{d b} &=20^{\\circ} \\mathrm{C} \\end{aligned}[/latex] From table, [latex] \\begin{aligned} \\text { At } 20^{\\circ} \\mathrm{C}, p_{s}&=2.34 \\mathrm{kPa} \\\\ \\phi&=\\frac{p_{v}}{p_{s}} \\\\ 0.05&=\\frac{p_{v}}{2.34}\\\\ \\text{Or }\\quad p_{v}&=0.05 \\times 2.34=0.117 \\mathrm{kPa} \\end{aligned}[/latex] The dew point temperature is the saturation  temperature corresponding to [latex] p_{v} [/latex]from given table by interpolation [latex] \\begin{aligned} T_{d p} &=-15+\\frac{(-10+15)}{0.26-0.10} \\times(0.117-0.10) \\\\ &=-15+0.531=-14.469^{\\circ} \\mathrm{C} \\approx-14.5^{\\circ} \\mathrm{C} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ref/page8_q3.webp",
+    "options": {
+      "A": "10.3 [latex]^{\\circ}[/latex]C",
+      "B": "-10.3 [latex]^{\\circ}[/latex]C",
+      "C": "-14.5 [latex]^{\\circ}[/latex]C",
+      "D": "14.5 [latex]^{\\circ}[/latex]C"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 The statement concern psychrometric chart. 1. Constant relative humidity lines are uphill straight lines to the right 2. Constant wet bulb temperature lines are downhill straight lines to the right. 3. Constant specific volume lines are downhill straight lines to the right. 4. Constant enthalpy lines are coincident with constant wet bulb temperature lines. Which of the statements are correct?",
+    "solution": "",
+    "options": {
+      "A": "2 and 3",
+      "B": "1 and 2",
+      "C": "1 and 3",
+      "D": "2 and 4"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 Dew point temperature is the temperature at which condensation begins when the air is cooled at constant.",
+    "solution": "If a sample of unsaturated air, containing superheated water vapour, is cooled at constant pressure. The partial pressure [latex] \\left(p_{v}\\right) [/latex] of each constituent remains constant until the water vapour reaches the saturated state as shown by point  B  At this point  B. The first drop of dew will be formed  and hence the temperature at point B is called dew point temperature.",
+    "options": {
+      "A": "volume",
+      "B": "entropy",
+      "C": "pressure",
+      "D": "enthaply"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 Various psychrometric processes are shown in the figure below.",
+    "solution": "Process [latex]0-1: \\mathrm{DBT} \\uparrow, \\omega=C;[/latex] Sensible heating Process [latex]0-2: \\quad DBT \\uparrow, \\quad \\omega \\downarrow \\quad: [/latex]Chemical dehumidification Process [latex]0-3: \\mathrm{DBT}\\downarrow, \\quad \\omega \\downarrow:[/latex] Cooling and  dehumidification Process [latex]0-4: \\mathrm{DBT}\\downarrow, \\omega \\uparrow:[/latex] Humidification with water injection Process [latex]0-5: \\mathrm{DBT}\\uparrow, \\omega \\uparrow:[/latex] Humidification with steam injection",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ref/page9_q1.webp",
+    "options": {
+      "A": "P - i, Q - ii, R - iii, S - iv, T - v",
+      "B": "P - ii, Q - i, R - iii, S - v, T - iv",
+      "C": "P - ii, Q - i, R - iii, S - iv, T - v",
+      "D": "P - iii, Q - iv, R - v, S - i, T - ii"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 A vapor absorption refrigeration system is a heat pump with three thermal reservoirs as shown in the figure. A refrigeration effect of 100W is required at 250 K when the heat source available is at 400 K. Heat rejection occurs at 300 K. the minimum value of heat required (in W) is",
+    "solution": "Given data: [latex] T_{1}=300 \\mathrm{K} ; T_{2}=250 \\mathrm{K} ; \\quad T_{3}=400 \\mathrm{K} [/latex] Refrigerating effect, [latex] Q_{2}=100 \\mathrm{W}[/latex] For heat engine, [latex] \\begin{aligned} \\mathrm{COP} &=\\left(\\frac{T_{2}}{T_{1}-T_{2}}\\right)\\left(\\frac{T_{3}-T_{1}}{T_{3}}\\right) \\\\ &=\\left(\\frac{250}{300-250}\\right)\\left(\\frac{400-300}{400}\\right) \\\\ &=1.25 \\\\ \\text { also } \\quad \\mathrm{COP} &=\\frac{Q_{2}}{Q_{3}} \\\\ \\therefore \\quad 1.25 &=\\frac{100}{Q_{3}} \\\\ \\text { or } \\quad Q_{3} &=\\frac{100}{1.25}=80 \\mathrm{W} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ref/page9_q2.webp",
+    "options": {
+      "A": "167",
+      "B": "100",
+      "C": "80",
+      "D": "20"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 The vapor compression refrigeration cycle is represented as shown in the figure below, with state 1 being the exit of the evaporator. The coordinate system used in this figure is",
+    "solution": "As in VCRS process  3-4  is an adiabatic throttling  process in which enthalpy remains constant [latex] \\left(h_{3}= h_{4}\\right)[/latex] So option (B) and (C) is ruled out. As process 2-3 is reversible constant pressure process first desuperheated and then condensed, ending with saturated liquid. Heat [latex] Q_{1} [/latex] is transfer out, so option (A) is ruled out so, we will left with option (D) only.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ref/page9_q3.webp",
+    "options": {
+      "A": "p-h",
+      "B": "T-s",
+      "C": "p-s",
+      "D": "T-h"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 Water at 42[latex]^{\\circ}[/latex] is sprayed into a stream of air at atmospheric pressure, dry bulb temperature of 40[latex]^{\\circ}[/latex]C and a wet bulb temperature of 20[latex]^{\\circ}[/latex]C. The air leaving the spray humidifier is not saturated. Which of the following statements is true?",
+    "solution": "Given, water spraying temperature [latex] =42^{\\circ} \\mathrm{C} [/latex] Dry bulb temperature, [latex] T_{d}=40^{\\circ} \\mathrm{C} [/latex] Wet bulb temperature, [latex] T_{w}=20^{\\circ} \\mathrm{C} [/latex] Here we see that, water spraying temperature [latex] >T_{d} [/latex]",
+    "options": {
+      "A": "Air gets cooled and humidified",
+      "B": "Air gets heated and humidified",
+      "C": "Air gets heated and dehumidified",
+      "D": "Air gets cooled and dehumidified"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 For a typical sample of ambient air (at 35[latex]^{\\circ}[/latex]C, 75% relative humidity and standard atmospheric pressure), the amount of moisture in kg per kg of dry air will be approximately",
+    "solution": "Given data: Dry bulb temperature: [latex] T_{d b}=35^{\\circ} \\mathrm{C}[/latex] Relative humidity, [latex] \\begin{aligned} \\phi &=75 \\%=0.75 \\\\ \\mathrm{At} \\;35^{\\circ} \\mathrm{C}, p_{s} &=0.05628 \\mathrm{bar} \\end{aligned}[/latex] Relative humidity: [latex] \\begin{aligned} \\phi&=\\frac{p_{v}}{p_{s}}\\\\ 0.75&=\\frac{p_{v}}{0.05628}\\\\ \\text{or}\\quad p_{v} &=0.75 \\times 0.05628 \\\\ &=0.04221 \\mathrm{bar} \\end{aligned}[/latex] Specific humidity, [latex] \\begin{aligned} \\omega &=\\frac{0.6222 p_{v}}{p-p_{v}} \\\\ &=\\frac{0.622 \\times 0.04221}{1.01325-0.04221}\\\\ &=0.0270 \\mathrm{kg} / \\mathrm{kg} \\; \\text{of dry air} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.002",
+      "B": "0.027",
+      "C": "0.25",
+      "D": "0.75"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 A R-12 refrigerant reciprocating compressor operates between the condensing temperature of [latex]30^{\\circ}C[/latex]\n and evaporator temperature of [latex]-20^{\\circ}C[/latex]\n. The clearance volume ratio of the compressor is 0.03. Specific heat ratio of the vapour is 1.15 and the specific volume at the suction is 0.1089 [latex]m^{3}/kg[/latex]\n. Other properties at various states are given in the figure. To realize 2 Tons of refrigeration, the actual volume displacement rate considering the effect of clearance is",
+    "solution": "Given data: [latex] \\begin{aligned} C &=0.03 \\\\ \\gamma &=1.15 \\\\ v_{1} &=0.1089 \\mathrm{m}^{3} / \\mathrm{kg} \\end{aligned}[/latex] [latex]\\begin{aligned} \\text { Capacity: } Q &=2 \\text { tons }=2 \\times 3.5 \\mathrm{kW}=7 \\mathrm{kW} \\\\ P_{1} &=1.50 \\mathrm{bar} ; \\quad P_{2}=7.45 \\mathrm{bar} \\\\ h_{1} &=176 \\mathrm{kJ} / \\mathrm{kg} ; \\quad h_{2}=207 \\mathrm{kJ} / \\mathrm{kg} \\\\ h_{3} &=h_{4}=65 \\mathrm{kJ} / \\mathrm{kg} \\end{aligned}[/latex] Refrigerating effect, [latex] \\mathrm{Re}=h_{1}-h_{4}=176-65=111 \\mathrm{kJ} / \\mathrm{kg}[/latex] Mass flow rate, [latex] \\begin{aligned} m &=\\frac{\\text { Refrigerating capacity: } Q}{\\text { Refrigerating effect : Re }} \\\\ &=\\frac{7}{111}=0.063 \\mathrm{kg} / \\mathrm{s} \\end{aligned}[/latex] We know that volumetric efficiency of the compressor [latex] \\begin{aligned} \\eta_{v} &=1+C-C r_{p}^{1 / \\gamma} \\\\ &=1+C-C\\left(\\frac{P_{2}}{P_{1}}\\right)^{1 / \\gamma} \\\\ &=1+0.03-0.03\\left(\\frac{7.45}{1.50}\\right)^{1 / 1.15} \\\\ &=0.9091 \\\\ \\mathrm{also}\\quad \\eta_{v}&=\\frac{\\text { Actual suction volume }}{\\text { Displacement Volume }} \\\\ \\eta_{v} &=\\frac{m v_{1}}{V_{s}} \\\\ 0.9091 &=\\frac{0.063 \\times 0.1089}{V_{s}}=\\frac{0.00686}{V_{s}} \\\\ \\text{or}\\quad V_{s} &=0.00754 \\mathrm{m}^{3} / \\mathrm{s}\\\\ &=7.54\\times10^{-3} \\mathrm{m}^{3} / \\mathrm{s} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ref/page10_q1.webp",
+    "options": {
+      "A": "[latex]7.54 \\times 10^{-3} m^{3}/s[/latex]",
+      "B": "[latex]63.5\\times 10^{-3} m^{3}/s[/latex]",
+      "C": "[latex]635\\times 10^{-3} m^{3}/s[/latex]",
+      "D": "[latex]4.88\\times 10^{-3} m^{3}/s[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 Dew point temperature of air at one atmospheric pressure (1.013 bar) is [latex]18^{\\circ}C[/latex]\n. The air dry bulb temperature is [latex]30^{\\circ}C[/latex]\n. The saturation pressure of water at [latex]18^{\\circ}C[/latex]\n and [latex]30^{\\circ}C[/latex]\n are 0.02062 bar and 0.04241 bar respectively. The specific heat of air and water vapour respectively are 1.005 and 1.88 kJ/kg K and the latent heat of vaporization of water at [latex]0^{\\circ}C[/latex]\n is 2500 kJ/kg. The specific humidity (kg/kg of dry air) and enthalpy (kJ/kg of dry air) of this moist air respectively, are",
+    "solution": "[latex]\\text{Given, } \\quad p=1.013\\text{bar}[/latex] [latex] p_{v}=0.02062 \\text{ bar }\\quad(\\text { at dew point })[/latex] We know that, Specific humidity, [latex] \\begin{aligned} \\omega &=\\frac{0.622 p_{v}}{p-p_{v}} \\\\ &=\\frac{0.622 \\times 0.02062}{1.013-0.02062}\\\\ &=0.01291\\mathrm{kJ} / \\mathrm{kg} \\;\\text{of dry air}\\\\ \\text{Enthalpy:}h&=1.005t_{d}+\\omega(h_{fg,dp}+2.3t_{dp})\\\\ &=1.005\\times 30 + 0.01291(2500+2.3+3.)\\\\ &=1.005\\times 30+32.809\\\\ &=63.47\\mathrm{kJ} / \\mathrm{kg} \\;\\text{of dry air}\\\\ \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.01051, 52.64",
+      "B": "0.01291, 63.15",
+      "C": "0.01481, 78.60",
+      "D": "0.01532, 81.40"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 A heat engine having an efficiency of 70% is used to drive a refrigerator having a co-efficient of performance of 5. The energy absorbed from low temperature reservoir by the refrigerator for each kJ of energy absorbed from high temperature source by the engine is",
+    "solution": "Given data: [latex] \\begin{aligned} \\eta &=70 \\%=0.70 \\\\ (\\mathrm{COP})_{R} &=5 \\\\ Q_{3} &=? \\\\ Q_{1} &=1 \\mathrm{kJ} \\end{aligned}[/latex] For heat engine, [latex] \\begin{aligned} \\eta &=1-\\frac{Q_{2}}{Q_{1}} \\\\ 0.70 &=1-\\frac{Q_{2}}{1}\\\\ \\text{or } \\quad Q_{2}&=0.3 \\mathrm{kJ} \\\\ W &=Q_{1}-Q_{2}=1-0.3 \\\\ &=0.7 \\mathrm{kJ}\\\\ \\text{For refrigerator,}\\\\ (\\mathrm{COP})_{\\mathrm{R}} &=\\frac{Q_{3}}{W} \\\\ 5 &=\\frac{Q_{3}}{0.7} \\\\ \\text{or}\\quad Q_{3} &=0.7 \\times 5=3.5 \\mathrm{kJ} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.14 kJ",
+      "B": "0.71 kJ",
+      "C": "3.5 kJ",
+      "D": "7.1 kJ"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 Environment friendly refrigerant [latex]R134_{a}[/latex]\n used in the new generation domestic refrigerators. Its chemical formula is",
+    "solution": "Number of carbon atoms [latex] \\begin{array}{l} =1 \\mathrm{st} \\text { digit }+1 \\\\ =1+1=2 \\end{array}[/latex] Number of hydrogen atoms [latex] \\begin{array}{l} =2 n d \\operatorname{digit}-1 \\\\ =3-1=2 \\end{array}[/latex] Number of fluorine atoms [latex] \\begin{array}{l} =3 r d \\text { digit } \\\\ =4 \\end{array}[/latex] So, its chemical formula is [latex] \\mathrm{C}_{2} \\mathrm{H}_{2} \\mathrm{F}_{4}[/latex]",
+    "options": {
+      "A": "[latex]CH \\; CI \\; F_{2}[/latex]",
+      "B": "[latex]C_{2} \\; CI_{3} \\; F_{3}[/latex]",
+      "C": "[latex]C_{2} \\; CI_{2} \\;  F_{4}[/latex]",
+      "D": "[latex]C_{2} \\; H_{2} \\; F_{4}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 During chemical dehumidification process of air",
+    "solution": "Chemical dehumidification process  1-2 [latex]DBTT\\uparrow, \\omega \\downarrow [/latex] In chemical dehumification, dry-bulb temperature increases and specific humidity decreases.",
+    "options": {
+      "A": "dry bulb temperature and specific humidity decrease",
+      "B": "dry bulb temperature increases and specific humidity decreases",
+      "C": "dry bulb temperature decreases and specific humidity increases",
+      "D": "dry bulb temperature and specific humidity increase"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 In the window air conditioner, the expansion device used is",
+    "solution": "The capillary tube is used as an expansion device in small capacity hermetic sealed refrigeration units such as in domestic refrigerators, water coolers, room air-conditioners and freezes.",
+    "options": {
+      "A": "capillary tube",
+      "B": "thermostatic expansion valve",
+      "C": "automatic expansion valve",
+      "D": "float valve"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 A refrigerator based on ideal vapour compression cycle operates between the temperature limits of [latex]-20^{\\circ}C[/latex]\n and [latex]40^{\\circ}C[/latex]. The refrigerant enters the condenser as saturated vapour and leaves as saturated liquid. The enthalpy and entropy values for saturated liquid and vapour at these temperatures are given in the table below. The COP of the refrigerator is",
+    "solution": "[latex]\\begin{aligned} \\mathrm{COP} &=\\frac{\\text { Refrigeration effect }}{\\text { Work input }} \\\\ &=\\frac{\\mathrm{Re}}{W}=\\frac{2.1}{m\\left(h_{2}-h_{1}\\right)} \\\\ &=\\frac{2.1}{0.025(200-164)} \\\\ &=2.33 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ref/page11_q2.webp",
+    "options": {
+      "A": "2",
+      "B": "2.33",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 A refrigerator based on ideal vapour compression cycle operates between the temperature limits of [latex]-20^{\\circ}C[/latex]\n and [latex]40^{\\circ}C[/latex]. The refrigerant enters the condenser as saturated vapour and leaves as saturated liquid. The enthalpy and entropy values for saturated liquid and vapour at these temperatures are given in the table below. If refrigerant circulation rate is 0.025 kg/s, the refrigeration effect is equal to",
+    "solution": "[latex]m=0.025 \\mathrm{kg} / \\mathrm{s}[/latex] [latex] At \\quad T_{C}=40^{\\circ} \\mathrm{C} [/latex] From given table, we get [latex] \\begin{aligned} h_{2}=h_{g}=200 \\mathrm{kJ} / \\mathrm{kg} \\\\ s_{2}=s_{g}=0.67 \\mathrm{kJ} / \\mathrm{kgK} \\\\ h_{3}=h_{f}= 80 \\mathrm{kJ} / \\mathrm{kg}=h_{4} \\end{aligned}[/latex] [latex] \\text{At }\\quad T_{e}=20^{\\circ} \\mathrm{C}[/latex] From given table, we get [latex] \\begin{aligned} s_{f} &=0.07 \\mathrm{kJ} / \\mathrm{kg} \\mathrm{K} \\\\ \\mathrm{s}_{g} &=0.7366 \\mathrm{kJ} / \\mathrm{kgK} \\\\ h_{f} &=20 \\mathrm{kJ} / \\mathrm{kg}, h_{g}=180 \\mathrm{kJ} / \\mathrm{kg} \\\\ s_{1} &=s_{2}=s_{f}+x_{1}\\left(s_{g}-s_{f}\\right) \\\\ 0.67 &=0.07+x_{1}(0.7366-0.07)\\\\ \\text{or}\\quad x_{1} &= 0.9 \\end{aligned}[/latex] Specific enthalpy at point 1 [latex] \\begin{aligned} h_{1} &=h_{f}+x_{1}\\left(h_{g}-h_{f}\\right) \\\\ &=20+0.9(180-20) \\\\ &=164 \\mathrm{kJ} / \\mathrm{kg} \\end{aligned}[/latex] Refrigeation effect [latex] \\mathrm{Re}=m\\left(h_{1}-h_{4}\\right) =0.025(164-80)=2.1kW[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ref/page11_q3.webp",
+    "options": {
+      "A": "2.1 kW",
+      "B": "2.5 kW",
+      "C": "3.0 kW",
+      "D": "4.0 kW"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 For air with a relative humidity of 80%",
+    "solution": "For unsaturated air i.e ., [latex]\\phi \\lt  100 \\% [/latex] Dry bulb temperature [latex] \\gt[/latex] Wet bulb temperature [latex] \\gt[/latex] Dew point temperature i.e., [latex]T_{d b} \\gt T_{w b}  \\gt T_{d n}[/latex]",
+    "options": {
+      "A": "the dry bulb temperature is less than the wet bulb temperature",
+      "B": "the dew point temperature is less than wet bulb temperature",
+      "C": "the dew point and wet bulb temperatures are equal",
+      "D": "the dry bulb and dew point temperatures are equal"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 An industrial heat pump operates between the temperatures of [latex]27^{\\circ}C[/latex]\n and [latex]-13^{\\circ}C[/latex]\n . The rates of heat addition and heat rejection are 750 W and 1000 W, respectively. The COP for the heat pump is",
+    "solution": "Given data: [latex] \\begin{aligned} T_{1} &=27^{\\circ} \\mathrm{C} \\\\ &=(27+273) \\mathrm{K}=300 \\mathrm{K} \\\\ T_{2} &=-13^{\\circ} \\mathrm{C} \\\\ &=(-13+273) \\mathrm{K}=260 \\mathrm{K} \\\\ Q_{2} &=750 \\mathrm{W} \\\\ Q_{1} &=1000 \\mathrm{W} \\end{aligned} [/latex] [latex] (\\mathrm{COP})_{\\mathrm{HP}}=\\frac{Q_{1}}{Q_{1}-Q_{2}} [/latex] for actual heat pump [latex] =\\frac{1000}{1000-750}=\\frac{1000}{250}=4[/latex]",
+    "options": {
+      "A": "7.5",
+      "B": "6.5",
+      "C": "4",
+      "D": "3"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 For air at a given temperature, as the relative humidity is increased isothermally,",
+    "solution": "Relative humidity is increased isothermally, [latex]\n \\phi \\uparrow, T_{n b} \\uparrow [/latex]",
+    "options": {
+      "A": "the wet bulb temperature and specific enthalpy increase",
+      "B": "the wet bulb temperature and specific enthalpy decrease",
+      "C": "the wet bulb temperature increases and specific enthalpy decrease s",
+      "D": "the wet bulb temperature decreases and specific enthalpy increases"
+    },
+    "correct_answer": "A"
+  }
+]
