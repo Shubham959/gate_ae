@@ -1,0 +1,1816 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 A project involves eight activities with the precedence relationship and duration as shown in the table below. The slack for the activity D is _____ hours (answer in integer). [latex]\n\\begin{array}{|c|c|c|} \\hline\n\\text{Activity} & \\text{Immediate predecessor} & \\text{Duration (hours)} \\\\\n\\hline\n\nA & - & 4 \\\\ \\hline\nB & A & 8 \\\\ \\hline\nC & A & 5 \\\\ \\hline\nD & B & 2 \\\\ \\hline\nE & B & 7 \\\\ \\hline\nF & C & 6 \\\\ \\hline\nG & D & 3 \\\\ \\hline\nH & E, F, G & 9 \\\\\n\\hline\n\\end{array}\n [/latex]",
+    "solution": "Step 1: Forward Pass – Find Earliest Start (ES) and Earliest Finish (EF) [latex] \\text{Activity A: } ES = 0,\\ EF = 0 + 4 = 4 [/latex] [latex] \\text{Activity B: } ES = 4,\\ EF = 4 + 8 = 12 [/latex] [latex] \\text{Activity C: } ES = 4,\\ EF = 4 + 5 = 9 [/latex] [latex] \\text{Activity D: } ES = 12,\\ EF = 12 + 2 = 14 [/latex] [latex] \\text{Activity E: } ES = 12,\\ EF = 12 + 7 = 19 [/latex] [latex] \\text{Activity F: } ES = 9,\\ EF = 9 + 6 = 15 [/latex] [latex] \\text{Activity G: } ES = 14,\\ EF = 14 + 3 = 17 [/latex] [latex] \\text{Activity H: } ES = \\max(19, 15, 17) = 19,\\ EF = 19 + 9 = 28 [/latex] So, project duration = 28 hours Step 2: Backward Pass – Find Latest Finish (LF) and Latest Start (LS) [latex] \\text{Activity H: } LF = 28,\\ LS = 28 - 9 = 19 [/latex] [latex] \\text{Activity E: } LF = 19,\\ LS = 19 - 7 = 12 [/latex] [latex] \\text{Activity F: } LF = 19,\\ LS = 19 - 6 = 13 [/latex] [latex] \\text{Activity G: } LF = 19,\\ LS = 19 - 3 = 16 [/latex] [latex] \\text{Activity D: } LF = 16,\\ LS = 16 - 2 = 14 [/latex] [latex] \\text{Activity B: } LF = \\min(12,14) = 12,\\ LS = 12 - 8 = 4 [/latex] [latex] \\text{Activity C: } LF = 13,\\ LS = 13 - 5 = 8 [/latex] [latex] \\text{Activity A: } LF = \\min(4, 8) = 4,\\ LS = 4 - 4 = 0 [/latex] Step 3: Slack = LS – ES (or LF – EF) [latex] \\text{Slack for D} = LS - ES = 14 - 12 = \\boxed{2} , \\text{hours} [/latex] Final Answer: [latex] \\boxed{2} , \\text{hours} [/latex]",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 A company uses 3000 units of a part annually. The units are priced as given in the table below. It costs Rs. 150 to place an order. Carrying costs are 40 percent of the purchase price per unit on an annual basis. The minimum total annual cost is Rs. _______ (rounded off to 1 decimal place). [latex]\n\n\\begin{array}{|c|c|}\n\\hline \\text{Order quantity} & \\text{Unit price (₹)}\n \\\\\n\\hline\n1 \\text{ to } 499 & 9.0 \\\\\n500 \\text{ to } 999 & 8.5 \\\\\n1000 \\text{ or more} & 8.0 \\\\\n\\hline\n\\end{array}\n [/latex]",
+    "solution": "Given: Annual demand [latex] D = 3000 , \\text{units} [/latex] Ordering cost [latex] S = ₹150 [/latex] Carrying cost rate = 40% of unit price We evaluate total cost for each price bracket: Case 1: Unit price ₹9.0 (Order quantity 1 to 499) Carrying cost = [latex] 0.4 \\times 9 = ₹3.6 [/latex] [latex] EOQ = \\sqrt{ \\frac{2DS}{H} } = \\sqrt{ \\frac{2 \\times 3000 \\times 150}{3.6} } \\approx 500 [/latex] Since 500 is not in this price bracket (ends at 499), use Q = 499 Total cost: • Ordering cost = [latex] \\frac{3000}{499} \\times 150 \\approx ₹901.8 [/latex] • Holding cost = [latex] \\frac{499}{2} \\times 3.6 \\approx ₹898.2 [/latex] • Purchase cost = [latex] 3000 \\times 9 = ₹27000 [/latex] • Total = ₹901.8 + ₹898.2 + ₹27000 = ₹\\boxed{28800} (approx) Case 2: Unit price ₹8.5 (Order quantity 500 to 999) Carrying cost = [latex] 0.4 \\times 8.5 = ₹3.4 [/latex] [latex] EOQ = \\sqrt{ \\frac{2 \\times 3000 \\times 150}{3.4} } \\approx 513.2 [/latex] Valid in this range. Use Q = 513 Total cost: • Ordering cost = [latex] \\frac{3000}{513} \\times 150 \\approx ₹877.4 [/latex] • Holding cost = [latex] \\frac{513}{2} \\times 3.4 \\approx ₹872.1 [/latex] • Purchase cost = [latex] 3000 \\times 8.5 = ₹25500 [/latex] • Total = ₹877.4 + ₹872.1 + ₹25500 = ₹\\boxed{27249.5} (approx) Case 3: Unit price ₹8.0 (Order quantity ≥1000) Carrying cost = [latex] 0.4 \\times 8 = ₹3.2 [/latex] [latex] EOQ = \\sqrt{ \\frac{2 \\times 3000 \\times 150}{3.2} } \\approx 530.3 [/latex] 530.3 is less than 1000, so we must order minimum 1000 Total cost: Use Q = 1000 • Ordering cost = [latex] \\frac{3000}{1000} \\times 150 = ₹450 [/latex] • Holding cost = [latex] \\frac{1000}{2} \\times 3.2 = ₹1600 [/latex] • Purchase cost = [latex] 3000 \\times 8 = ₹24000 [/latex] • Total = ₹450 + ₹1600 + ₹24000 = ₹\\boxed{26050} (approx) Final Answer: [latex] \\boxed{26050.0 , \\text{Rs}} [/latex] (Minimum total annual cost)",
+    "min": 26000.0,
+    "max": 26100.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Considering the actual demand and the forecast for a product given in the table below, the mean forecast error and the mean absolute deviation, respectively, are [latex]\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{Period} & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\\\\n\\hline\n\\text{Actual demand} & 425 & 415 & 420 & 430 & 427 & 418 & 422 & 416 & 426 & 421 \\\\\n\\hline\n\\text{Forecast} & 427 & 422 & 416 & 422 & 423 & 420 & 419 & 418 & 430 & 415 \\\\\n\\hline\n\\end{array}[/latex]",
+    "solution": "Given: Actual and forecast demand for 10 periods is provided. We are to compute: Mean Forecast Error (MFE): average of (Actual - Forecast) Mean Absolute Deviation (MAD): average of |Actual - Forecast| Step 1: Create a table of differences: [latex]\n\\begin{array}{|c|c|c|c|c|} \\hline \\text{Period} & \\text{Actual} & \\text{Forecast} & \\text{Error} = A - F & |\\text{Error}| \\\\ \\hline 1 & 425 & 427 & -2 & 2 \\\\ 2 & 415 & 422 & -7 & 7 \\\\ 3 & 420 & 416 & 4 & 4 \\\\ 4 & 430 & 422 & 8 & 8 \\\\ 5 & 427 & 423 & 4 & 4 \\\\ 6 & 418 & 420 & -2 & 2 \\\\ 7 & 422 & 419 & 3 & 3 \\\\ 8 & 416 & 418 & -2 & 2 \\\\ 9 & 426 & 430 & -4 & 4 \\\\ 10 & 421 & 415 & 6 & 6 \\\\ \\hline \\text{Total} & - & - & 8 & 42 \\\\ \\hline \\end{array} [/latex] Step 2: Compute MFE and MAD [latex]\\text{MFE} = \\frac{\\sum (A - F)}{10} = \\frac{8}{10} = 0.8[/latex] [latex]\\text{MAD} = \\frac{\\sum |A - F|}{10} = \\frac{42}{10} = 4.2[/latex] Final Answer: Mean Forecast Error = [latex]0.8[/latex] Mean Absolute Deviation = [latex]4.2[/latex] Correct Option: (B)",
+    "options": {
+      "A": "0.8  and 42.0",
+      "B": "0.8 and 4.2",
+      "C": "8.0 and 42.0",
+      "D": "8.0 and 4.2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 4 In a supplier-retailer supply chain, the demand of each retailer, the capacity of each supplier, and the unit cost is rupees of material supply from each supplier to each retailer are tabulated below. The supply chain manager wishes to minimize the total cost of transportation across the supply chain. [latex]\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\n & Reailer I & Retailer II & Retailer III & Retailer IV & Capacity \\\\\n\\hline\nSupplier A & 11 & 16 & 19 & 13 & 300 \\\\\n\\hline\nSupplier B & 5 & 10 & 7 & 8 & 300 \\\\\n\\hline\nSupplier C & 12 & 14 & 17 & 11 & 300 \\\\\n\\hline\nSupplier D & 8 & 15 & 11 & 9 & 300 \\\\\n\\hline\nDemand & 300 & 300 & 300 & 300 &  \\\\\n\\hline\n\\end{array}\n[/latex] The optimal cost of satisfying the total demand from all retailer is _____ rupees (answer in integer).",
+    "solution": "By Hungarian method As minimum no. of lines is equal to order of matrix and this is optimal because each row and column precisely are encircled zero. Optimal solution [latex]=(11+7+14+9) \\times 300=12300 [/latex]",
+    "min": 12300.0,
+    "max": 12300.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 At the current basic feasible solution (bfs) [latex]v_{0}\\left(v_{0} \\in \\mathbb{R}^{5}\\right)[/latex], the simplex method yields the following form of a linear programming problem in standard form. [latex]\n\\begin{aligned}\nminimize \\;\\;\\;& z=-x_{1}-2 x_{2} \\\\\ns.t. \\;\\;\\;& x_{3}=2+2 x_{1}-x_{2} \\\\\n& x_{4}=7+x_{1}-2 x_{2} \\\\\n& x_{5}=3-x_{1} \\\\\n& x_{1}, x_{2}, x_{3}, x_{4}, x_{5} \\geq 0\n\\end{aligned}\n[/latex] Here the objective function is written as a function of the non-basic variables. If the simplex method moves to the adjacent bfs [latex]v_{1}\\left(v_{1} \\in \\mathbb{R} ^{5}\\right)[/latex] that best improves the objective function, which of the following represents the objective function at [latex]v_{1}[/latex], assuming that the objective function is written in the same matter as above?",
+    "solution": "[latex]\\mathrm{z}=-\\mathrm{x}_{1}-2 \\mathrm{x}_{2}\\;\\;\\; ...(A)[/latex] [latex]\\mathrm{x}_{3}=2+2 \\mathrm{x}_{1}-\\mathrm{x}_{2} \\;\\;\\; ...(i)[/latex] [latex]\\mathrm{x}_{4}=7+\\mathrm{x}_{1}-2 \\mathrm{x}_{2} \\;\\;\\; ...(ii)[/latex] [latex]x_{5}=3-x  \\;\\;\\; ...(iii)[/latex] and [latex]x_{1}, x_{2}, x_{3}, x_{4}, x_{5} \\geq 0[/latex] From eq. (i) [latex]x_{2}=2+2 x_{1}-x_{3}[/latex] Putting this value in the objective function eq. (A) [latex]z=-x_{1}-2\\left(2+2 x_{1}-x_{3}\\right)[/latex] [latex]=-4-5 \\mathrm{x}_{1}+2 \\mathrm{x}_{3}[/latex] From eq. (ii) [latex]\\mathrm{x}_{1}=\\mathrm{x}_{4}+2 \\mathrm{x}_{2}-7[/latex] Put these value in eq. (A) [latex]z=-\\left(x_{4}+2 x_{2}-7\\right)-2 x_{2}[/latex] [latex]=7-4 \\mathrm{x}_{2}-\\mathrm{x}_{4}[/latex] From eq. (iii) [latex]\\mathrm{x}_{1}=3-\\mathrm{x}_{5}[/latex] Put these value in eq. (A) [latex]z=-\\left(3-x_{5}\\right)-2 x_{2}[/latex] [latex]=\\mathrm{x}_{5}-3-2 \\mathrm{x}_{2}[/latex] (A) and (B) both are correct but question type is mcq so go for option (A).",
+    "options": {
+      "A": "[latex]z=-4-5 x_{1}+2 x_{3}[/latex]",
+      "B": "[latex]z=-3+x_{5}-2 x_{2}[/latex]",
+      "C": "[latex]z=-4-5 x_{1}-2 x_{4}[/latex]",
+      "D": "[latex]z=-6-5 x_{1}+2 x_{3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 A company orders gears in conditions identical to those considered in the economic order quantity (EOQ) model in inventory control. The annual demand is 8000 gears, the cost per order is 300 rupees, and the holding cost is 12 rupees per month per gear. The company uses an order size that is [latex]25 \\%[/latex] more than the optimal order quantity determined by the EOQ model. The percentage change in the total cost of ordering and holding inventory from that associated with the optimal order quantity is",
+    "solution": "[latex]D=8000[/latex] gear/year [latex]\\mathrm{C}_{0}=300[/latex] [latex]\\mathrm{C}_{\\mathrm{h}}=12 /[/latex] month [latex]=144 /[/latex] year [latex]\\mathrm{Q}_{\\text {actual }}=\\left(1+\\frac{25}{100}\\right) \\mathrm{EOQ}=1.25 \\mathrm{EOQ}[/latex] [latex]E O Q=\\sqrt{\\frac{2 \\mathrm{DC}_{0}}{\\mathrm{C}_{\\mathrm{h}}}}=\\sqrt{\\frac{2 \\times 8000 \\times 300}{144}}=182.5[/latex] [latex]\\mathrm{Q}_{\\text {actual }}=1.25 \\times \\mathrm{EOQ}=1.25 \\times 182.5[/latex] [latex]=1.25 \\times 182.5=228.125[/latex] Total cost at EOQ [latex]\\mathrm{TIC}_{1}=\\sqrt{2 \\times \\mathrm{C}_{0} \\times \\mathrm{C}_{\\mathrm{h}} \\times \\mathrm{D}}[/latex] [latex]=\\sqrt{2 \\times 300 \\times 144 \\times 8000}=26920.4[/latex] Total cost at actual order [latex]\\left(\\mathrm{Q}_{\\text {actual }}\\right)[/latex] [latex]\\mathrm{TIC}_{2}=\\frac{\\mathrm{Q}_{\\text {actual }}}{2} \\times \\mathrm{C}_{\\mathrm{h}}+\\frac{\\mathrm{D}}{\\mathrm{Q}_{\\text {actual }}} \\times \\mathrm{C}_{0}[/latex] [latex]=\\frac{228.125}{2} \\times 144+\\frac{8000}{228.125} \\times 300[/latex]\n\n[latex]=26945.54[/latex] [latex]\\% \\uparrow=\\frac{26945.54-26290.68}{26290.68} \\times 100=2.5 \\%[/latex]",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "0",
+      "D": "12.5"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 A queueing system has one single server workstation that admits an infinitely long\nqueue. The rate of arrival of jobs to the queueing system follows the Poisson\ndistribution with a mean of 5 jobs/hour. The service time of the server is\nexponentially distributed with a mean of 6 minutes. In steady state operation of the\nqueueing system, the probability that the server is not busy at any point in time is",
+    "solution": "[latex]\\lambda=[/latex] Arrival rate [latex]=5 \\mathrm{~J} \\mathrm{obs} / \\mathrm{hr}[/latex] [latex]\\mu=[/latex] Service rate [latex]=6 \\mathrm{~min}=10 / \\mathrm{hr}[/latex]. So, probability that the server is not busy [latex]\n\\begin{aligned}\n& =1-\\frac{\\lambda}{\\mu} \\\\\n& =1-\\frac{5}{10}=1-0.5=0.50\n\\end{aligned}\n[/latex]",
+    "options": {
+      "A": "0.2",
+      "B": "0.17",
+      "C": "0.5",
+      "D": "0.83"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 A set of jobs [latex]U, V, W, X, Y, Z[/latex] arrive at time [latex]t=0[/latex] to a production line consisting of two workstations in series. Each job must be processed by both workstations in sequence (i.e. the first followed by the second). The process times (in minutes) for each job on each workstation in the production line are given below. [latex]\n\\begin{array}{|c|c|c|c|c|c|c|}\n\\hline\nJob & U & V & W & X & Y & Z \\\\\n\\hline\n\\text{Work staion 1} & 5 & 7 & 3 & 4 & 6 & 8 \\\\\n\\hline\n\\text{Work station 2} & 4 & 6 & 6 & 8 & 5 & 7 \\\\\n\\hline\n\\end{array}[/latex] The sequence in which the jobs must be processed by the production line if the total make span of production is to be minimized is",
+    "solution": "By J ohnson's rule of sequencing mark minimum time consuming operation for each process. [latex]\n\\begin{array}{|c|c|c|}\n\\hline\nJ ob & \\text{Work Stations 1} & \\text{Work Stations 2} \\\\\n\\hline\nU & 5 & 4 \\\\\n\\hline\nV & 7 \\leftarrow & 6 \\\\\n\\hline\nW & 3 & 6 \\\\\n\\hline\nX & 4 & 8 \\\\\n\\hline\nY & 6 & 5 \\\\\n\\hline\nZ & 8 & 7 \\\\\n\\hline\n\\end{array}\n[/latex] According to question, work on work station (1) is followed by work on workstation (2). Perform that job in mark station which is minimum time consumption. It is W-X during this Z on work station-2 will be performed. So, W-X-Z After [latex]\\mathrm{W}-\\mathrm{X}-\\mathrm{Z}, \\mathrm{V}[/latex] will be performed on workstation (1). So, [latex]\\mathrm{W}-\\mathrm{X}-\\mathrm{Z}-\\mathrm{V}[/latex], in between [latex]{Y}[/latex]-work on workstation will perform. As minimum time in workstation is [latex]U[/latex], so will be performed at last. So, W - X - Z - V - Y - U",
+    "options": {
+      "A": "W-X-Z-V-Y-U",
+      "B": "W-X-V-Z-Y-U",
+      "C": "W-U-Z-V-Y-X",
+      "D": "U-Y-V-Z-X-W"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 Which one of the options given represents the feasible region of the linear\nprogramming model: [latex] \\begin{aligned}\nMaximize\\;\\; 45X_1&+60X_2  \\\\ \n X_1&\\leq 45 \\\\ \n X_2&\\leq 50 \\\\  \n 10X_1+10X_2& \\geq 600 \\\\ \n 25X_1+5X_2&\\leq 750\n\\end{aligned}[/latex]",
+    "solution": "[latex]  \\begin{aligned}\n x_1&=45 &...(i)\\\\ \n x_2&= 50&...(ii)\\\\ \n 10x_1+10x_2&=600 \\\\ \n or\\; x_1+x_2&=60&...(iii) \\\\ \n 25x_1+5x_2&=750 \\\\ \n or\\; 5x_1+x_2&=150&...(iv) \\\\ \n\\end{aligned}[/latex] By drawing the curve we get 3 values of [latex] x_1[/latex]\n and [latex] x_2[/latex]\n as (10, 50), (20, 50), (22.5, 37.5) So, [latex] Z_{max}=45x_1+60x_2[/latex]\nfor (10,50) [latex] Z_{max}=450+3000=4450[/latex] for (20,50) [latex] Z_{max}=45\\times 20+50 \\times 60=3900[/latex] for (22.5, 37.5) [latex] Z_{max}=45\\times 22.5+60 \\times 37.5=3262.5[/latex] So, [latex] Z_{max}=3900\\; for \\; (x_1,x_2)=(20,50)[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page2_q4.webp",
+    "options": {
+      "A": "Region P",
+      "B": "Region Q",
+      "C": "Region R",
+      "D": "Region S"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 With reference to the Economic Order Quantity (EOQ) model, which one of the\noptions given is correct?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page2_q5.webp",
+    "options": {
+      "A": "Curve P1: Total cost, Curve P2: Holding cost, Curve P3: Setup cost, and Curve P4: Production cost.",
+      "B": "Curve P1: Holding cost, Curve P2: Setup cost,\r\nCurve P3: Production cost, and Curve P4: Total cost.",
+      "C": "Curve P1: Production cost, Curve P2: Holding cost, Curve P3: Total cost, and Curve P4: Setup cost.",
+      "D": "Curve P1: Total cost, Curve P2: Production cost, Curve P3: Holding cost, and Curve P4: Setup cost."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 A machine produces a defective component with a probability of 0.015. The\nnumber of defective components in a packed box containing 200 components\nproduced by the machine follows a Poisson distribution. The mean and the\nvariance of the distribution are",
+    "solution": "P = 0.015 n = 200 mean [latex]=\\lambda =np= 200 \\times 0.015 = 3[/latex] variance [latex]=\\sigma ^2=\\lambda =3[/latex]",
+    "options": {
+      "A": "3 and 3, respectively",
+      "B": "[latex]\\sqrt{3}[/latex] and [latex]\\sqrt{3}[/latex]  , respectively",
+      "C": "0.015 and 0.015, respectively",
+      "D": "3 and 9, respectively"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 A project consists of five activities (A, B, C, D\nand E). The duration of each activity follows beta\ndistribution. The three time estimates (in weeks)\nof each activity and immediate predecessor(s) are\nlisted in the table. The expected time of the project\ncompletion is __________ weeks (in integer). [latex] \\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{Activity} & \\text{Optimistic time (week)} & \\text{Most likely time (week)} &\\text{Pessimistic time (week)}  &\\text{Immediatepredecessor(s)} \\\\ \\hline\n A& 4 & 5 &6  & None\\\\ \\hline\n B&  1& 3 & 5 & A\\\\ \\hline\n C&  1& 2 & 3 & A\\\\ \\hline\n D&  2& 4 & 6 & C\\\\ \\hline\n E&  3& 4 & 5 &B,D \\\\ \\hline\n\\end{array} [/latex]",
+    "solution": "[latex]\\begin{array}{|c|c|}\n\\hline\n\\text{Activity}& t_e=\\frac{t_0+4t_m+t_p}{6}\\\\ \\hline\nA&5\\\\  \\hline\nB&3\\\\  \\hline\nC&2\\\\ \\hline\nD&4\\\\  \\hline\nE&4 \\\\ \\hline\n\\end{array} [/latex] [latex]\\begin{array}{|c|c|}\n\\hline\n\\text{Path}& \\text{Duration}\\\\ \\hline\n1-2-4-5(A-B-E)&12\\\\  \\hline\n1-2-3-4-5 (A-C-D-E)&15\\\\  \\hline\n\\end{array} [/latex] Expected completion time of the project = critical path duration = 15 weeks",
+    "min": 15.0,
+    "max": 15.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 A manufacturing unit produces two products P1\nand P2. For each piece of P1 an P2, the table below\nprovides quantities of materials M1, M2, and M3\nrequired, and also the profit earned. The maximum\nquantity available per day for M1, M2 and M3 is\nalso provided. The maximum possible profit per\nday is Rs __________. [latex] \\begin{array}{|c|c|c|c|c|} \\hline\n &\\text{M1 } &\\text{M2}&\\text{M3}&\\text{Profit per piece (Rs.)} \\\\ \\hline\nP1 & 2 &2 &0&150\\\\ \\hline\nP2 &  3& 1&2&100\\\\ \\hline\n \\text{Maximum quantity available per day}& 70& 50&40\\\\ \\hline\n\\end{array} [/latex]",
+    "solution": "Let, [latex] x_1=[/latex] No. of units of product   [latex] P_1[/latex] [latex] x_2=[/latex] No. of units of product   [latex] P_2[/latex] Max, [latex]Z=150x_1+100x_2 [/latex] [latex]\\begin{aligned}\ns.t.\\;\\; 2x_1+3x_2 &\\leq 70 \\\\ \n 2x_1+3x_2&\\leq 50 \\\\ \n 2x_2 &\\leq 40 \\\\ \n x_1\\geq 0, x_2&\\geq 0  \n\\end{aligned} [/latex] Point B: Intersection of [latex] \\begin{aligned}\n2x_1+3x_2 &\\leq 70 \\\\  \n 2x_2 &\\leq 40 \\\\ \n x_2=20, x_1&=5  \n\\end{aligned}[/latex] Point C: Intersection of [latex] \\begin{aligned}\n2x_1+3x_2 &\\leq 70 \\\\  \n2x_1+x_2 &\\leq 50 \\\\  \n \\text{By sloving }2x_2 &=20 \\\\ \n \\Rightarrow x_2=10, x_1&=20  \n\\end{aligned}[/latex] [latex]\\begin{aligned}\nZ_{max}&=150x_1+100x_2\\\\\nZ|_{A(0,20)}&=150(0)+100(20)=2000\\\\\nZ|_{B(5,20)}&=150(5)+100(20)=2750\\\\\nZ|_{C(20,10)}&=150(20)+100(10)=4000\\\\\nZ|_{D(25,0)}&=150(25)+100(0)=3750\\\\\n\\Rightarrow x_1&=20,x_2=10\\\\\nZ_{max}&=4000\n\\end{aligned} [/latex]",
+    "options": {
+      "A": "5000",
+      "B": "4000",
+      "C": "3000",
+      "D": "6000"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 Parts P1-P7 are machined first on a milling machine\nand then polished at a separate machine. Using the\ninformation in the following table, the minimum\ntotal completion time required for carrying out both\nthe operations for all 7 parts is __________ hours. [latex] \\begin{array}{|c|c|c|} \\hline\n\\text{Part} & \\text{Milling (hours)} &\\text{Polishing (hours)} \\\\ \\hline\nP1 & 8 &6 \\\\ \\hline\nP2 &  3& 2\\\\ \\hline\n P3&  3& 4\\\\ \\hline\n P4&  4& 6\\\\ \\hline\n P5&  5&7 \\\\ \\hline\n P6& 6 & 4\\\\ \\hline\n P7&  2& 1 \\\\ \\hline\n\\end{array}  [/latex]",
+    "solution": "Sequencing model : [latex]\\begin{array}{|c|c|c|}\\hline\r\n \\text{Part}&\\text{Milling (hours)}& \\text{Polishing (hours)}\r\n\\\\ \\hline\r\n P_1&8&6\\\\ \\hline\r\nP_2&3&2\\\\ \\hline\r\nP_3&3&4\\\\ \\hline\r\nP_4&4&6\\\\ \\hline\r\nP_5&5&7\\\\ \\hline\r\nP_6&6&4\\\\ \\hline\r\nP_7&2&1\\\\ \\hline\r\n\\end{array} [/latex] Optimum job sequence (According to Johnson's\r\nalgorithm) [latex] P_3,P_4,P_5,P_1,P_6,P_2,P_7[/latex] Optimum Make-span (Minimum total completion\r\ntime) [latex] \\begin{array}{|c|c|c|c|c|c|c|}\\hline\r\n\\text{Part}& \\text{Milling}& & &\\text{Polishing}&&\r\n\\\\ \\hline\r\n& \\text{In time}& \\text{Processing time} &\\text{Out time}&\\text{In time}& \\text{Processing time} &\\text{Out time}\\\\ \\hline\r\nP_3& 0 & 3 & 3 & 3 &4 &7\\\\ \\hline\r\nP_4& 3 & 4 & 7 & 7 &6 &13\\\\ \\hline\r\nP_5& 7 & 5 & 12 & 13 &7 &20\\\\ \\hline\r\nP_1& 12 & 8 & 20 & 20 &6 &26\\\\ \\hline\r\nP_6& 20 & 6 & 26 & 26 &4 &30\\\\ \\hline\r\nP_2& 26 & 3 & 29 & 30 &2 &32\\\\ \\hline\r\nP_7& 29 & 2 & 31 & 32 &1 &33\\\\ \\hline\r\n\\end{array}[/latex] Minimum total completion time of all parts = 33 hours",
+    "options": {
+      "A": "31",
+      "B": "33",
+      "C": "30",
+      "D": "32"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 The demand of a certain part is 1000 parts/year\nand its cost is Rs. 1000/part. The orders are placed\nbased on the economic order quantity (EOQ). The\ncost of ordering is Rs. 100/order and the lead time for\nreceiving the orders is 5 days. If the holding cost is\nRs. 20/part/year, the inventory level for placing the\norders is ________ parts (round off to the nearest\ninteger).",
+    "solution": "Inventory control: Annual demand (D) = 1000 units Lead time (LT) = 5 days Inventory level for placing the order = Re-order\nlevel (ROL) Rate of consumption (d) =D/365 [latex]ROL=d \\times LT=\\frac{1000}{365} \\times 5=13.69 \\approx 14 \\; units [/latex]",
+    "min": 13.0,
+    "max": 15.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 16 An electric car manufacturer underestimated the\nJanuary sales of car by 20 units, while the actual\nsales was 120 units. If the manufacturer uses\nexponential smoothing method with a smoothing\nconstant of [latex] \\alpha = 0.2[/latex], then the sales forecast for the\nmonth of February of the same year is _______units\n(in integer).",
+    "solution": "Actual sales in Jan ([latex] D_{Jan}[/latex]) = 120 units Under estimate in Jan = [latex] D_{Jan}- F_{Jan}=20[/latex] [latex] D_{Jan}[/latex] = 100 units Smoothing constant ([latex] \\alpha = 0.2[/latex]) Forecast for Feb ([latex] D_{Jan}[/latex]) = ? [latex] F_{Feb} = F_{Jan} + \\alpha (D_{Jan} - F_{Jan})= 100 + 0.2 (120 - 100) = 104 \\;units[/latex]",
+    "min": 104.0,
+    "max": 104.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 The product structure diagram shows the number\nof different components required at each level to\nproduce one unit of the final product P. If there are\n50 units of on-hand inventory of component A, the\nnumber of additional units of component A needed\nto produce 10 units of product P is _________ (in\ninteger).",
+    "solution": "To produce 10 units of 'P' No. of units of 'A' required = (4x10)+(2x3x2x10) \r\n= 160 units Net requirement of 'A' = 160 - 50 = 110 units",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page4_q2.webp",
+    "min": 110.0,
+    "max": 110.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18 An assignment problem is solved to minimize\nthe total processing time of four jobs (1, 2, 3 and\n4) on four different machines such that each job\nis processed exactly by one machine and each\nmachine processes exactly one job. The minimum\ntotal processing time is found to be 500 minutes. Due to a change in design, the processing time of\nJob 4 on each machine has increased by 20 minutes.\nThe revised minimum total processing time will be\n_____________ minutes (in integer).",
+    "solution": "Minimum total processing time = 500 min If the processing time of job 4 each machine is \nincreased by 20 minutes then the revised minimum \ntotal processing time will be 520 minutes Proof: Assume the following data [latex]\\begin{array}{|c|c|c|c|c|c|} \n\\hline \n&M_1&M_2&M_3&M_4& \\text{Row min}\\\\ \\hline \nJ_1& 80 & 150 & 100 & 130 & 80\\\\ \\hline \nJ_2& 240 & 250 & 300 & 160 & 160\\\\ \\hline \nJ_3& 130 & 80 & 170 & 190 & 80\\\\ \\hline \nJ_4& 190 & 220 & 180 & 180 & 180\\\\ \\hline \n\\end{array}[/latex] [latex]\\begin{array}{|c|c|c|c|} \n\\hline \n\\underline{0}&70&20&50\\\\ \\hline \n80&90& 140&\\underline{0}\\\\ \\hline \n50&\\underline{0}&90&110\\\\ \\hline \n10&40&\\underline{0}&0\\\\ \\hline \n\\end{array}[/latex] The assignments are [latex]J_1-M_1=80[/latex] [latex]J_2-M_4=160[/latex] [latex]J_3-M_2=80[/latex] [latex]J_4-M_3=180[/latex] Minimum total processing time = 80+160+80+180 = 500 mins If Job '4' times are increased by 20 mins then [latex]\\begin{array}{|c|c|c|c|c|c|} \n\\hline \n&M_1&M_2&M_3&M_4& \\text{Row min}\\\\ \\hline \nJ_1& 80 & 150 & 100 & 130 & 80\\\\ \\hline \nJ_2& 240 & 250 & 300 & 160 & 160\\\\ \\hline \nJ_3& 130 & 80 & 170 & 190 & 80\\\\ \\hline \nJ_4& 210 & 240 & 200 & 250 & 200\\\\ \\hline \n\\end{array}[/latex] [latex]\\begin{array}{|c|c|c|c|} \n\\hline \n\\underline{0}&70&20&50\\\\ \\hline \n80&90& 140&\\underline{0}\\\\ \\hline \n50&\\underline{0}&90&110\\\\ \\hline \n10&40&\\underline{0}&0\\\\ \\hline \n\\end{array}[/latex] The assignments are [latex]J_1-M_1=80[/latex] [latex]J_2-M_4=160[/latex] [latex]J_3-M_2=80[/latex] [latex]J_4-M_3=200[/latex] Minimum total processing time = 80+160+80+200 = 520 mins",
+    "min": 520.0,
+    "max": 520.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 Activities A to K are required to complete a project.\r\nThe time estimates and the immediate predecessors\r\nof these activities are given in the table. If the\r\nproject is to be completed in the minimum possible\r\ntime, the latest finish time for the activity G is\r\n_____ hours. [latex] \\begin{array}{|c|c|c|}\\hline\r\n\\text{Activity} &\\text{Time (hours)}  & \\text{Immediate predecessors}\\\\ \\hline\r\nA &2  &- \\\\ \\hline\r\n B& 3 &- \\\\ \\hline\r\n C& 2 &- \\\\ \\hline\r\nD & 4 &A \\\\ \\hline\r\nE & 5 & B\\\\ \\hline\r\nF & 4 & B\\\\ \\hline\r\nG & 3 & C\\\\ \\hline\r\nH & 10 &D,E \\\\ \\hline\r\nI & 5 & F\\\\ \\hline\r\nJ & 8 & G\\\\ \\hline\r\nK & 3 &H,I,J\\\\ \\hline\r\n\\end{array} [/latex]",
+    "solution": "Activity 'G' LFT of activity 'G' = 10 hours",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "8",
+      "D": "9"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 Which one of the following is NOT a form of\ninventory?",
+    "solution": "CNC milling machines will not be treated as\ninventory.",
+    "options": {
+      "A": "Raw materials",
+      "B": "Work-in-process materials",
+      "C": "Finished goods",
+      "D": "CNC Milling Machines"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 In a linear programming problem, if a resource is\nnot fully utilized, the shadow price of that resource\nis",
+    "solution": "In a Linear programming problem if a resource is\nnot fully utilized. The shadow price or dual price\nof the particular resource is zero.",
+    "options": {
+      "A": "positive",
+      "B": "negative",
+      "C": "zero",
+      "D": "infinity"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 The demand and forecast of an item for five months are given in the table. [latex]\\begin{array}{|c|c|c|}\\hline \\textbf{Month} & \\textbf{Demand} & \\textbf{Forecast} \\\\ \\hline \\text{April} & \\text{225} & \\text{200} \\\\ \\hline \\text{May} & \\text{220} & \\text{240}\\\\ \\hline \\text{June} & \\text{285} & \\text{300} \\\\ \\hline \\text{July} & \\text{290} & \\text{270} \\\\ \\hline \\text{August} & \\text{250} & \\text{230} \\\\ \\hline \\end{array}[/latex] The Mean Absolute Percent Error (MAPE) in the forecast is  _______% (round off to two decimal places)",
+    "solution": "[latex] \\begin{array}{|c|c|c|c|c|} \\hline \\text { March } & \\mathrm{Di} & \\mathrm{Fi} & \\mathrm{ei} & \\left|\\frac{\\mathrm{ei}}{\\mathrm{Di}} \\times 100\\right| \\\\ \\hline \\text { April } & 225 & 200 & 25 & 11.11 \\% \\\\ \\hline \\text { May } & 220 & 240 & -20 & 9.09 \\% \\\\ \\hline \\text { June } & 285 & 300 & -15 & 5.26 \\% \\\\ \\hline \\text { July } & 290 & 270 & 20 & 6.896 \\% \\\\ \\hline \\text { August } & 250 & 230 & 20 & 8.0 \\% \\\\ \\hline & & & & \\sum \\frac{e i}{D i} \\times 100 \\mid=40.356 \\\\ \\hline \\end{array}[/latex] [latex] \\text{MAPE}=\\frac{\\sum\\left|\\frac{e i}{D i} \\times 100\\right|}{n}=8.0712 \\%[/latex]",
+    "min": 6.0,
+    "max": 10.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 Daily production capacity of a bearing manufacturing company is 30000 bearings. The daily demand of the bearing is 15000. The holding cost per year of keeping a bearing in the inventory is  Rs. 20. The setup cost for the production of a batch is Rs. 1800. Assuming 300 working days in a year, the economic batch quantity in number of bearings is ______ (in integer).",
+    "solution": "[latex] \\begin{aligned} Q^{\\star} &=\\sqrt{\\frac{2 D \\times C_{0}}{C_{h}} \\times \\frac{P}{P-d}} \\\\ &=\\sqrt{\\frac{2 \\times 15000 \\times 300 \\times 1800}{20} \\times\\left(\\frac{30000}{30000-15000}\\right)} \\\\ &=40249.2 \\simeq 40250 \\text { units } \\end{aligned}[/latex]",
+    "min": 40200.0,
+    "max": 40300.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 A factory produces [latex]m(i=1,2,...m)[/latex] products, each of which requires processing on [latex]n(j=1,2,...n)[/latex] workstations. Let [latex]a_{ij}[/latex] be the amount of processing time that one unit of the [latex]i^{th}[/latex] product requires on the [latex]j^{th}[/latex] workstation. Let the revenue from selling one unit of the [latex]i^{th}[/latex] product be [latex]r_i[/latex] and [latex]h_i[/latex] be the holding cost per unit per time period for the [latex]i^{th}[/latex] product. The planning horizon consists of  [latex]T \\;(t=1,2,...T)[/latex] time periods. The minimum demand that must be satisfied in time period [latex]t[/latex] is [latex]d_{it}[/latex], and the capacity of the [latex]j^{th}[/latex] workstation in time period [latex]t[/latex] is [latex]c_{jt}[/latex]. Consider the aggregate planning formulation below, with decision variables [latex]S_{it}[/latex] (amount of product  [latex]i[/latex]  sold in time period  [latex]t[/latex] ),  [latex]X_{it}[/latex]  (amount of product  [latex]i[/latex]  manufactured in time period  [latex]t[/latex] ) and  [latex]I_{it}[/latex] (amount of product [latex]i[/latex]  held in inventory at the end of time period [latex]t[/latex]. [latex]max\\sum_{t=1}^{T}\\sum_{i=1}^{m}(r_iS_{it}-h_iI_{it})[/latex] subject to [latex]S_{it}\\geq d_{it}\\;\\;\\forall i,t[/latex] < capacity constraint > <  inventory balance constraint > [latex]X_{it},S_{it}, I_{it} \\geq 0;\\; I_{i0}=0[/latex] The capacity constraints and inventory balance constraints for this formulation are",
+    "solution": "[latex]\\begin{aligned} m & \\rightarrow i \\ldots m \\leftarrow \\text { product } \\\\ n & \\rightarrow i \\ldots n \\leftarrow \\text { workstation } \\\\ a_{\\bar{j}} & \\rightarrow \\text { time } \\end{aligned}[/latex] [latex] r_{i} \\rightarrow[/latex] selling price [latex] h_{i} \\rightarrow [/latex] holding cost [latex] T \\rightarrow t=1,2, \\ldots T[/latex] [latex] d_{i t} \\rightarrow [/latex]demand of product in time t [latex] c_{j t} \\rightarrow [/latex]capacity of workstation in time t [latex] S_{i t} \\rightarrow [/latex]Number of product sold in time t [latex] x_{i t} \\rightarrow [/latex]Number of product produced in time t [latex] I_{i t} \\rightarrow [/latex]Number of product i hold in inventory at end of period t Capacity constraint [latex] a_{i j} x_{i t} \\leq c_{j t}[/latex] Inventory constraint [latex] l_{i t}=I_{i, t-1}+x_{i t}-S_{i t}[/latex]",
+    "options": {
+      "A": "[latex]\\sum_{j}^{m}a_{ij}X_{it}\\leq c_{jt}\\;\\forall \\; i,t\\text{ and }I_{it}=I_{i,t-1}+X_{it}-d_{it}\\; \\forall \\;i,t[/latex]",
+      "B": "[latex]\\sum_{i}^{m}a_{ij}X_{it}\\leq c_{jt}\\;\\forall \\; i,t\\text{ and }I_{it}=I_{i,t-1}+X_{it}-d_{it}\\; \\forall \\;i,t[/latex]",
+      "C": "[latex]\\sum_{i}^{m}a_{ij}X_{it}\\leq d_{it}\\;\\forall \\; i,t\\text{ and }I_{it}=I_{i,t-1}+X_{it}-S_{it}\\; \\forall \\;i,t[/latex]",
+      "D": "[latex]\\sum_{i}^{m}a_{ij}X_{it}\\leq d_{it}\\;\\forall \\; i ,t\\text{ and }I_{it}=I_{i,t-1}+S_{it}-X_{it}\\; \\forall \\;i,t[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 A PERT network has 9 activities on its critical path. The standard deviation of each activity on the critical path is 3. The standard deviation of the critical path is",
+    "solution": "In CPM, [latex] \\begin{array}{l} \\sigma=\\sqrt{\\text { sum of variance along critical path }} \\\\ \\sigma=\\sqrt{\\sigma^{2}+\\sigma^{2}+\\ldots .+\\sigma^{2}} \\\\ \\sigma=\\sqrt{9 \\sigma^{2}}=\\sqrt{9 \\times 9}=9 \\end{array}[/latex]",
+    "options": {
+      "A": "3",
+      "B": "9",
+      "C": "27",
+      "D": "81"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 Activities A, B, C and D form the critical path for a project with a PERT network. The means and variances of the activity duration for each activity are given below. All activity durations follow the Gaussian (normal) distribution, and are independent of each other. [latex]\\begin{array}{|l|c|c|c|c|}\\hline \\text{Activity} & \\text{A} & \\text{B} & \\text{C} & \\text{D} \\\\ \\hline \\text{Mean (days)} & \\text{6} & \\text{11} & \\text{8} & \\text{15} \\\\ \\hline \\text{Variance (days$^{2})$} & \\text{4} & \\text{9} & \\text{4} & \\text{9}\\\\ \\hline \\end{array}[/latex] The probability that the project will be completed within 40 days is _____\n  (round off to two decimal places). (Note: Probability is a number between 0 and 1).",
+    "solution": "PERT-CPM [latex] \\begin{aligned} T_{S} &=40 \\text { days, } T_{E}=6+11+8+15 \\\\ T_{E} &=40 \\text { days, } \\\\ 2 &=\\frac{T_{S}-T_{E}}{\\sigma}=0 \\rightarrow 50 \\% \\end{aligned}[/latex] Probability of completing project in expected time is always 0.5.",
+    "min": 0.5,
+    "max": 0.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 A set of jobs A, B, C, D, E, F, G, H arrive at time t = 0 for processing on turning and grinding machines. Each job needs to be processed in sequence\n- first on the turning machine and second on the grinding machine, and the grinding must occur immediately after turning. The processing times of the jobs are given below. [latex]\\begin{array}{|l|l|l|l|l|l|l|l|l|}\\hline \\text{Job} & \\text{A} & \\text{B} & \\text{C} & \\text{D} & \\text{E} & \\text{F} & \\text{G} & \\text{H} \\\\ \\hline \\text{Turning (minutes)} & \\text{2} & \\text{4} &\\text{8}&\\text{9} &\\text{7} &\\text{6} &\\text{5} &\\text{10} \\\\ \\hline \\text{Grinding (minutes)} & \\text{6} & \\text{1} &\\text{3} &\\text{7} &\\text{9}&\\text{5} &\\text{2} &\\text{4} \\\\ \\hline \\end{array}[/latex] If the makespan is to be minimized, then the optimal sequence in which these jobs must be processed on the turning and grinding machines is",
+    "solution": "Sequencing, [latex]\\begin{array}{|c|c|c|} \\hline A & (2) & 6 \\\\ \\hline B & 4 & (1) \\\\ \\hline C & 8 & (3) \\\\ \\hline D & 9 & (7) \\\\ \\hline E & (7) & 9 \\\\ \\hline F & 6 & (5) \\\\ \\hline G & 5 & (2) \\\\ \\hline H & 10 & (4) \\\\ \\hline \\end{array}[/latex] AEDFHCGB",
+    "options": {
+      "A": "A-E-D-F-H-C-G-B",
+      "B": "A-D-E-F-H-C-G-B",
+      "C": "G-E-D-F-H-C-A-B",
+      "D": "B-G-C-H-F-D-E-A"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 28 Robot Ltd. wishes to maintain enough safety stock during the lead time period between starting a new production run and its completion such that the probability of satisfying the customer demand during the lead time period is 95%. The lead time period is 5 days and daily customer demand can be assumed to follow the Gaussian (normal) distribution with mean 50 units and a standard deviation of 10 units. Using [latex]\\phi ^{-1}(0.95)=1.64[/latex], where [latex]\\phi [/latex] represents the cumulative distribution function of the standard normal random variable, the amount of safety stock that must be maintained by Robot Ltd. to achieve this demand fulfillment probability for the lead time period is _______  units (round off to two decimal places).",
+    "solution": "[latex]\\begin{aligned} \\text { Safety stock }&=Z \\times \\sigma \\\\ \\sigma &=\\sqrt{10^{2}+10^{2}+10^{2}+10^{2}+10^{2}} \\\\ &=10 \\sqrt{5} \\\\ &=22.3606 \\\\ \\text { Safety stock } &=1.64 \\times 22.3606 \\\\ &=36.67 \\end{aligned}[/latex]",
+    "min": 36.6,
+    "max": 38.8
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 For a single item inventory system, the demand is continuous, which is 10000 per year.\nThe replacement is instantaneous and backorders (S units) per cycle are allowed as\nshown in the figure. As soon as the quantity (Q units) ordered from the supplier is received, the backordered\nquantity is issued to the customers. The ordering cost is Rs. 300 per order. The carrying\ncost is Rs. 4 per unit per year. The cost of backordering is Rs. 25 per unit per year.\nBased on the total cost minimization criteria, the maximum inventory reached in the\nsystem is ________ (round off to nearest integer).",
+    "solution": "Given data: D=10000 items/year, [latex]C_{o}[/latex]=Rs. 300/order, [latex] C_{h}[/latex]=Rs. 4/unit/year, [latex]C_{b}[/latex]=Rs. 25/unit/year, For minimum tool cost [latex] \\begin{aligned} \\text { Quantity ordered, } Q=& \\sqrt{\\frac{2 D C_{o}}{C_{h}} \\times\\left(\\frac{C_{b}+C_{h}}{C_{o}}\\right)}\\\\ &=\\sqrt{\\frac{2 \\times 10000 \\times 300}{4} \\times\\left(\\frac{25+4}{25}\\right)} \\\\ Q &=1319.09 \\text { unit } \\end{aligned}[/latex] Now, for minimum cost, optimum units backordered [latex] \\begin{aligned} (Q-S) \\times C_{h}&=(S) \\times C_{b}\\\\ S\\left(C_{b}+C_{h}\\right) &=Q \\times C_{h} \\\\ S &=\\frac{1319.09 \\times 4}{(25+4)}=181.94 \\text { units } \\end{aligned}[/latex] Maximum inventory in the system, [latex]Q_{\\max }=Q-S [/latex] [latex] \\begin{aligned} &=1319.09-181.94 \\\\ &=1137.15 \\text { unit } \\\\ &\\approx 1137 \\text { units } \\end{aligned}[/latex] Alternate: Maximum inventory in system [latex]=\\sqrt{\\frac{2 D C_{o}}{C_{h}} \\times\\left(\\frac{C_{b}}{C_{b}+C_{h}}\\right)} [/latex] [latex] Q_{\\max }=\\sqrt{\\frac{2 \\times 10000 \\times 300}{4} \\times\\left(\\frac{25}{29}\\right)}=1137.147 \\text { units }[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page6_q4.webp",
+    "min": 1130.0,
+    "max": 1140.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 The forecast for the monthly demand of a product is given in the table below. The forecast is made by using the exponential smoothing method. The exponential\nsmoothing coefficient used in forecasting the demand is",
+    "solution": "[latex]\\begin{aligned} F_{t}&=F_{t-1}+\\alpha\\left(D_{t-1}-F_{t-1}\\right)\\\\ \\text{For 2nd month }F_{t}&=31.8, \\text{ for }1^{\\text {st }} \\text{month}\\\\ F_{t-1} &=32 \\text { and } D_{t-1}=30 \\\\ 31.8 &=32+\\alpha(30-32) \\\\ 2 \\alpha &=32-31.8 \\\\ \\alpha &=0.1 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page6_q5.webp",
+    "options": {
+      "A": "0.1",
+      "B": "0.4",
+      "C": "0.5",
+      "D": "1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 Consider the following network of activities, with each activity named A-L, illustrated\nin the nodes of the network The number of hours required for each activity is shown alongside the nodes. The slack\non the activity L, is ________ hours.",
+    "solution": "Time along path A-B-C-F-I-J-K = 42 hours Time along path A-B-C-E-H-L = 31 hours Time along path A-B-C-D-G-H-L = 40 hours Slack for L = 42 - 40 = 2 hours",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page7_q1.webp",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 In Materials Requirement Planning, if the inventory holding cost is very high and the setup cost is zero, which one of the following lot sizing approaches should be used?",
+    "solution": "In Lot-for-lot, holding cost is high and ordering\ncost is less.",
+    "options": {
+      "A": "Economic Order Quantity",
+      "B": "Lot-for-Lot",
+      "C": "Base Stock Level",
+      "D": "Fixed Period Quantity, for 2 periods"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 Consider two cases as below. Case 1: A company buys 1000 pieces per year of a certain part from vendor 'X'. The\nchangeover time is 2 hours and the price is Rs. 10 per piece. The holding cost rate\nper part is 10% per year. Case 2: For the same part, another vendor 'Y' offers a design where the changeover\ntime is 6 minutes, with a price of Rs. 5 per piece, and a holding cost rate per part of\n100% per year. The order size is 800 pieces per year from 'X' and 200 pieces per year\nfrom 'Y'. Assume the cost of downtime as Rs. 200 per hour. The percentage reduction in the annual\ncost for Case 2, as compared to Case 1 is___________ (round off to 2 decimal places).",
+    "solution": "Given, for case (i) [latex]\\mathrm{Q}=1000, \\mathrm{C}=\\mathrm{Rs} 1 \\mathrm{10},. \\mathrm{r}=10 \\%[/latex] and Cost of downtime [latex]=200 / \\mathrm{hr}[/latex], Change over time [latex]=2 \\mathrm{hrs}[/latex] Then, [latex]\n\\begin{aligned}\n& C_h=10 \\times \\frac{10}{100}=R s 1 / \\text { unit/year } \\\\\n& C_d=200 \\times 2=400 / \\text { order } \\\\\n& \\left(Q^*\\right)=\\sqrt{\\frac{2 D C_d}{C_h}}=\\sqrt{\\frac{2 \\times 1000 \\times 400}{1}}=894.427 \\text { Units }\n\\end{aligned}\n[/latex] Total cost for Case 1 [latex]\n\\begin{aligned}\n& T_{c 1}=\\frac{Q^*}{2} \\times C_h+\\frac{D}{Q^*} \\times C_d+D \\times C \\\\\n& T_{c 1}=\\frac{894.427}{2} \\times 1+\\frac{1000}{894.427} \\times 400+1000 \\times 10=\\text { Rs. } 10894.427\n\\end{aligned}\n[/latex] Case (ii) 800 units are ordered from vendor [latex]X[/latex] then total cost from vendor [latex]X[/latex], only the units will change other conditions (holding and downtime cost) will remain the same as the vendor is the same For quantities ordered from the vendor [latex]x[/latex] [latex]\nQ_x^*=\\sqrt{\\frac{2 \\times 800 \\times 400}{1}}=800 \\text { units }\n[/latex] Total cost for vendor x [latex]\n\\begin{aligned}\n& T_{c x}=\\frac{Q_x}{2} \\times C_h+\\frac{D}{Q_x} \\times C_d+D \\times C \\\\\n& T_{c x}=\\frac{800}{2} \\times 1+\\frac{800}{800} \\times 400+800 \\times 10=\\text { Rs. } 8800\n\\end{aligned}\n[/latex] For vendor [latex]Y[/latex] [latex]\\mathrm{Q}=200, \\mathrm{C}=\\mathrm{Rs} 5,. \\mathrm{r}=100 \\%[/latex] and Cost of downtime [latex]=200 / \\mathrm{hr}[/latex], Change over time [latex]=6[/latex] minutes\nThen, [latex]\n\\begin{aligned}\n& C_h=5 \\times \\frac{100}{100}=\\text { Rs } 5 / \\text { unit } / \\text { year } \\\\\n& C_d=200 \\times \\frac{6}{60}=20 / \\text { order } \\\\\n& Q_y^*=\\sqrt{\\frac{2 \\times 200 \\times 20}{50}}=40 \\mathrm{units} \\\\\n& T_{c y}=\\frac{Q_y^*}{2} \\times C_h+\\frac{D}{Q_y} \\times C_d+D \\times C \\\\\n&T_{c x}=\\frac{40}{2} \\times 5+\\frac{200}{40} \\times 20+200 \\times 5=R s .1200\\\\\n&\\text { Total cost for the second case }\\\\\n& T_{c 2}=T_{C x}+T_{\\mathrm{cy}}=8800+1200=\\text { Rs. } 10000 \\\\\n& \\% \\text { reduction }=\\frac{T_{c 1}-T_c}{T_{\\mathrm{c} 1}} \\times 100=\\frac{10894.427-10000}{10894.427} \\times 100=8.209 \\%\n\\end{aligned}\n[/latex]",
+    "min": 8.19,
+    "max": 8.23
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 Two business owners Shveta and Ashok run their businesses in two different states. Each\nof them, independent of the other, produces two products A and B, sells them at Rs.\n2,000 per kg and Rs, 3,000 per kg, respectively, and uses Linear Programming to\ndetermine the optimal quantity of A and B to maximize their respective daily revenue.\nTheir constraints are as follows: i) for each business owner, the production process is\nsuch that the daily production of A has to be at least as much as B, and the upper\nlimit for production of B is 10 kg per day, and ii) the respective state regulations restrict\nShveta?s production of A to less than 20 kg per day and Ashok's production of A to\nless than 15 kg per day. The demand of both A and B in both the states is very high\nand everything produced is sold. The absolute value of the difference in daily (optimal) revenue of Shveta and Ashok is\n________ thousand Rupees (round off to 2 decimal places)",
+    "solution": "[latex]\\begin{aligned} \\text { Maximum } z &=2000 x_{1}+3000 x_{2} \\\\ A \\rightarrow x_{1} \\text { units } \\quad x_{1} &\\geq x_{2} \\\\ B \\rightarrow x_{2} \\text { units } \\quad x_{2} &\\geq 10 \\\\ x_{1} & \\lt 20 \\\\ x_{1} & \\lt 15 \\\\ \\text { Shveta's Profit } &=\\text { Rs. } 70000 \\text { at }(20,10) \\\\ \\text { Ashok's Profit } &=\\text { Rs. } 60000 \\text { at }(15,10) \\end{aligned}[/latex] Difference Rs. 10000",
+    "min": 9.9,
+    "max": 10.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 For an assembly line, the production rate was 4 pieces per hour and the average\nprocessing time was 60 minutes. The WIP inventory was calculated. Now, the production\nrate is kept the same, and the average processing time is brought down by 30 percent.\nAs a result of this change in the processing time, the WIP inventory",
+    "solution": "WIP = Throughput rate x Processing time (WIP)1 = 4 x 1 = 4 units (Processing Time)2 = 1 x 0.7 = 0.7 Throughput rate = 4 (WIP)2 = 4 x 0.7 = 2.8 % decrease = 30%",
+    "options": {
+      "A": "decreases by 25%",
+      "B": "increases by 25%",
+      "C": "decreases by 30%",
+      "D": "increases by 30%"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 In the Critical Path Method (CPM), the cost-time slope of an activity is given by",
+    "solution": "",
+    "options": {
+      "A": "[latex]\\frac{Crash \\; Cost -Normal \\; Cost}{Crash \\; Time}[/latex]",
+      "B": "[latex]\\frac{Normal \\; Cost}{Crash \\; Time -Normal \\; Time }[/latex]",
+      "C": "[latex]\\frac{Crash \\; Cost}{Crash \\; Time -Normal \\; Time }[/latex]",
+      "D": "[latex]\\frac{Crash \\; Cost -Normal \\; Cost}{Normal \\; Time -Crash \\; Time}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 The annual demand of valves per year in a company is 10,000 units. The current order quantity is 400 valves per order. The holding cost is Rs. 24 per valve per year and the ordering cost is Rs. 400 per order. If the current order quantity is changed to Economic Order Quantity, then the saving in the total cost of inventory per year will be Rs.______(round off to two decimal places).",
+    "solution": "Annual demand (D) = 10000 units Holding cost ([latex]C_{c}[/latex]) = 24 /unit / year Ordering cost ([latex]C_{0}[/latex]) = 400 /order Order quantity (Q)=400 units [latex] \\begin{aligned} \\left.\\mathrm{TC}\\right|_{\\mathrm{Q}=400}-\\left.\\mathrm{TC}\\right|_{\\mathrm{EOQ}}&=\\left[\\frac{\\mathrm{Q}}{2} \\times \\mathrm{C}_{\\mathrm{C}}+\\frac{\\mathrm{D}}{\\mathrm{Q}} \\times \\mathrm{C}_{0}\\right]\\\\ &-[\\sqrt{2 \\mathrm{DC}_{0} \\mathrm{C}_{\\mathrm{c}}}] \\\\ &=\\left[\\frac{400}{2} \\times 24+\\frac{10000}{400} \\times 400\\right] \\\\ &-[\\sqrt{2 \\times 10000 \\times 400 \\times 24}] \\\\ &=(4800+10000)-(13856) \\\\ &=943.60 \\end{aligned}[/latex]",
+    "min": 941.0,
+    "max": 946.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 The activities of a project, their duration and the precedence relationships are given in the table. For example, in a precedence relationship [latex]\"X \\lt Y \\lt Z\"[/latex] means that X is predecessor of activities Y and Z. The time to complete the activities along the critical path is ______ weeks.",
+    "solution": "Critical path duration = 23 weeks",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page8_q3.webp",
+    "options": {
+      "A": "17",
+      "B": "21",
+      "C": "23",
+      "D": "25"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 A project consists of six activities. The immediate predecessor of each activity and the estimated duration is also provided in the table below: If all activities other than S take the estimated amount of time, the maximum duration (in weeks) of the activity S without delaying the completion of the project is___",
+    "solution": "Project completion time =14 weeks Total float of 'S'=11-5-4= 2weeks Maximum duration of activity 'S' without delaying the project completion time [latex] \\begin{array}{l} =\\text { Total float }+\\text { duration } \\\\ =2+4=6 \\text { weeks } \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page8_q4.webp",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 Five jobs (J1, J2, J3, J4 and J5) need to be processed in a factory. Each job can be assigned to any of the five different machines (M1, M2, M3, M4 and M5). The time durations taken (in minutes) by the machines for each of the jobs are given in the table. However, each job is assigned to a specific machine in such a way that the total processing time is minimum. The total processing time is ________ minutes.",
+    "solution": "Assignment model: Optimal Assignment [latex]\\begin{aligned} J_1-M_2 &=30 \\\\ J_2-M_5&= 38\\\\ J_3-M_3&=28 \\\\ J_4-M_1&=28 \\\\ J_5-M_4 &=22 \\end{aligned}[/latex] Minimum time = 30+38+28+28+22= 146",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page8_q5.webp",
+    "min": 146.0,
+    "max": 146.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 The table presents the demand of a product. By simple three-months moving average method, the demand-forecast of the product for the month of September is",
+    "solution": "3 month moving average method : [latex]\\begin{aligned} \\mathrm{F}_{\\mathrm{sep}} &=\\frac{\\mathrm{D}_{\\mathrm{Aug}}+\\mathrm{D}_{\\mathrm{July}}+\\mathrm{D}_{\\text {June }}}{3} \\\\ &=\\frac{560+475+495}{3}=510 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page9_q1.webp",
+    "options": {
+      "A": "490",
+      "B": "510",
+      "C": "530",
+      "D": "536.67"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 The arc lengths of a directed graph of a project are as shown in the figure. The shortest path\nlength from node 1 to node 6 is _______.",
+    "solution": "Shortest path is Shortest length = 7 It is the problem of shortest path which will be 7. In this question do not confuse with critical path. Examinar ask shortest path. Critical path is the longest path which is not asked in this question.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page9_q2.webp",
+    "min": 7.0,
+    "max": 7.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 A local tyre distributor expects to sell approximately 9600 steel belted radial tyres next year. Annual carrying cost is Rs. 16 per tyre and ordering cost is Rs. 75. The economic order quantity of the tyres is",
+    "solution": "[latex]\\begin{aligned} D &=9600 \\\\ C_{h} &=\\text { Rs. } 16 / \\text { year } \\\\ C_{0} &=\\text { Rs. } 75 / \\text { order } \\\\ E O Q &=\\sqrt{\\frac{2 D C}{C_{h}}}=\\sqrt{\\frac{2 \\times 9600 \\times 75}{16}} \\\\ &=\\sqrt{1200 \\times 75}=300 \\end{aligned}[/latex]",
+    "options": {
+      "A": "64",
+      "B": "212",
+      "C": "300",
+      "D": "1200"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 Processing times (including setup times) and due dates for six jobs waiting to be processed at a work centre are given in the table. The average tardiness (in days) using shortest processing time rule is ___________ (correct to two decimal places).",
+    "solution": "By SPT Rule Total tardiness = 38 Average tardiness per job [latex]=\\frac{\\text { Total tardiness }}{\\text { No. of Jobs }}=\\frac{38}{6}=6.33\\text{days}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page9_q4.webp",
+    "min": 6.31,
+    "max": 6.35
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 The time series forecasting method that gives equal weightage to each of the m most recent observations is",
+    "solution": "It gives equal weightage to all data points.",
+    "options": {
+      "A": "Moving average method",
+      "B": "Exponential smoothing with linear trend",
+      "C": "Triple Exponential smoothing",
+      "D": "Kalman Filter"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 Maximize [latex]Z=5x_{1}+3x_{2}[/latex], subject to [latex]x_{1}+2x_{2}\\leq 10[/latex] , [latex]x_{1}-x_{2}\\leq 8[/latex] , [latex]x_{1},x_{2}\\geq 0[/latex] , In the starting Simplex tableau, [latex]x_{1}[/latex] and [latex]x_{2}[/latex] are non-basic variables and the value of Z is zero. The value of Z in the next Simplex tableau is____.",
+    "solution": "[latex]\\begin{aligned} \\operatorname{Max} . Z &=5 x_{1}+3 x_{2}+0 \\times S_{1}+0 \\times S_{2} \\\\ x_{1}+2 x_{1}+S_{1} &=10 \\\\ x_{1}-x_{2}+S_{2} &=8 \\end{aligned}[/latex]",
+    "min": 40.0,
+    "max": 40.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 A project starts with activity A and ends with activity F. The precedence relation and durations of the activities are as per the following table: The minimum project completion time (in days) is _______.",
+    "solution": "There are two path, [latex] \\begin{aligned} A-B-D-F=30 \\text { days } \\\\ A-C-E-F=24 \\text { days } \\end{aligned}[/latex] Critical path A-B-D-F and of 30 days and it is also minimum time required to complete project.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page10_q2.webp",
+    "min": 30.0,
+    "max": 30.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 A product made in two factories P and Q, is transport to two destinations, R and S. The per unit costs of transportation (in Rupees) from factories to destinations are as per the following matrix: Factory P produces 7 units and factory Q produces 9 units of the product. Each destination required 8 units. If the north-west corner method provides the total transportation cost as X (in Rupees) and the optimized (the minimum) total transportation cost Y (in Rupees), then (X-Y), in Rupees, is",
+    "solution": "As per GATE official answer key MTA (Marks to All) X=105 Using penalty corner method and following modi method we get -4 water value indicates that its optimum table, so [latex] \\begin{aligned} Y &=7 \\times 7+3 \\times 8+4 \\\\ &=49+24+4=78 \\\\ X-Y &=105-77=28 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page10_q3.webp",
+    "options": {
+      "A": "0",
+      "B": "15",
+      "C": "35",
+      "D": "105"
+    }
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 The standard deviation of linear dimensions P and Q are 3 m and 4 m, respectively. When assembled, the standard deviation (in m) of the resulting linear dimension (P+Q) is ________",
+    "solution": "According to Root Sum Square or RSS model [latex] \\sigma_{a}=\\sqrt{\\sum_{i=1}^{n} \\sigma_{i}^{2}}[/latex] where, [latex] \\sigma_{a}= [/latex] assembly tolerance standard deviation [latex] \\sigma_{i}=i^{\\text {th }} [/latex] component tolerance standard deviation Here [latex] \\sigma_{P}=3 \\mu \\mathrm{m} [/latex] and [latex] \\sigma_{Q}=4 \\mu \\mathrm{m} [/latex] [latex] \\sigma_{a}=\\sqrt{\\sigma_{P}^{2}+\\sigma_{Q}^{2}}=\\sqrt{3^{2}+4^{2}}=5 \\mu \\mathrm{m}[/latex]",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 For a single with Poisson arrival and exponential service time, the arrival rate is 12 per hour. Which one of the following service rates will provide a steady state finite queue length?",
+    "solution": "For steady state, [latex]\r\n\\mu>\\lambda[/latex] as  [latex]\\lambda=12\\text{cust/hr}[/latex], we should go with option (D) 24/hr",
+    "options": {
+      "A": "6 per hour",
+      "B": "10 per hour",
+      "C": "12 per hour",
+      "D": "24 per hour"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 A sample of 15 data is follows: 17, 18, 17, 17, 13, 18, 5, 5, 6, 7, 8, 9, 20, 17, 3. The mode of the data is",
+    "solution": "Mode means highest number of observations \r\nor occurrence of data most of the time as data \r\n17, occurs four times, i.e., highest time. So \r\nmode is 17.",
+    "options": {
+      "A": "4",
+      "B": "13",
+      "C": "17",
+      "D": "20"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 Following data refers to the jobs (P, Q, R, S) which have arrived at a machine for scheduling. The shortest possible average flow time is ___________ days.",
+    "solution": "SPT rule given shortest average Job flow time So, applying SPT Average job flow time [latex] =\\frac{124}{4}=31\\text{days}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page11_q2.webp",
+    "min": 31.0,
+    "max": 31.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 Two models, P and Q, of a product earn profits of Rs. 100 and Rs. 80 per piece, respectively. Production times for P and Q are 5 hours and 3 hours, respectively, while the total production time available is 150 hours. For a total batch size of 40, to maximize profit, the number of units of P to be produced is ____________.",
+    "solution": "Max. Z=100 x P + 80 x Q [latex]\\begin{aligned} 5P+3Q&\\leq 150\\\\ P+Q&\\leq 40\\\\ \\frac{P}{30}+\\frac{Q}{30}&=1 \\end{aligned} [/latex] Putting value of corner point in objective function Z(A)=3200 Z(B)=3500 Z(C)=3000 Maximum at B, P=15, Q=25",
+    "min": 15.0,
+    "max": 15.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 Cylindrical pins of diameter [latex]15^{\\pm 0.020}[/latex]  mm are being produced on a machine. Statistical quality control tests show a mean of 14.995 mm and standard deviation of 0.004mm. The process capability index [latex]C_{p}[/latex]  is.",
+    "solution": "[latex]\\begin{aligned} C p &=\\frac{U S L-L S L}{6 \\sigma} \\\\ &=\\frac{15.02-14.98}{6 \\times 0.004}=1.667 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.833",
+      "B": "1.667",
+      "C": "3.333",
+      "D": "3.75"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 The demand for a two-wheeler was 900 units and 1030 units in April 2015 and May 2015, respectively. The forecast for the month of April 2015 was 850 units. Considering a smoothing constant of 0.6, the forecast for the month of June 2015 is",
+    "solution": "[latex]\\begin{aligned} F_{May} &=F_{April} +0.6(D_{April}-F_{April})\\\\ &=580+0.6(900-850) \\\\ &= 850+30\\\\ &= 880\\; unit\\\\ F_{June} &=F_{May} +0.6(D_{May}-F_{May})\\\\ &=880+0.6(1030-880) \\\\ &= 880+90\\\\ &= 970\\; unit\\\\ \\end{aligned}[/latex]",
+    "options": {
+      "A": "850 units",
+      "B": "927 units",
+      "C": "965 units",
+      "D": "970 units"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 In PERT chart, the activity time distribution is",
+    "solution": "Activity time distribution is beta.",
+    "options": {
+      "A": "Normal",
+      "B": "Binomial",
+      "C": "Poisson",
+      "D": "Beta"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 57 A project consists of 14 activities, A to N. The duration of these activities (in days) are shown in brackets on the network diagram. The latest finish time (in days) for node 10 is __________",
+    "solution": "(LFT) for node 10 = 14 days.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page12_q2.webp",
+    "min": 14.0,
+    "max": 14.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 58 A food processing company uses 25,000 kg of corn flour every year. The quantity-discount price of corn flour is provided in the table below: The order processing charges are Rs. 500/order. The handling plus carry-over charge on an annual basis is 20% of the purchase price of the corn flour per kg. The optimal order quantity (in kg) is _____________",
+    "solution": "The optimal order quantity (in kg) is 1500.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page12_q3.webp",
+    "min": 1499.0,
+    "max": 1501.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 59 In a single-channel queuing model, the customer arrival rate is 12 per hour and the serving rate is\n24 per hour. The expected time that a customer is in queue is _______ minutes.",
+    "solution": "[latex]\\begin{aligned} \\lambda&=12 \\mathrm{hr}^{-1} \\\\ u&=24 \\mathrm{hr}^{-1} \\\\ w_{s}&=\\frac{\\lambda}{\\mu(u-\\lambda)}=\\frac{12}{24 \\times 12} \\times 60 \\\\ &=2.5\\text{seconds} \\end{aligned}[/latex]",
+    "min": 2.4,
+    "max": 2.6
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 Maximize [latex]Z=15X_{1}+20X_{2}[/latex] subject to [latex]12X_{1}+4X_{2}\\geq 36[/latex] [latex]12X_{1}-6X_{2}\\leq24[/latex] [latex]X_{1},X_{2}\\geq 0[/latex] The above linear programming problem has",
+    "solution": "[latex]\\begin{aligned} 12X_1+4X_2&\\geq 36 \\\\ 3X_1-X_2 & \\geq 9 \\\\ \\\\ 12X_1-6X_2&\\leq 24 \\\\ 2X_1-X_2&\\leq 4 \\\\ \\text{Let},&\\\\ 3X_1+X_2&=9 \\\\ X_1=0 & X_2=9\\\\ X_1=3 & X_2=0\\\\ \\\\ 2X_1-X_2&=4\\\\ X_1=0 & X_2=-4\\\\ X_1=2 & X_2=0 \\end{aligned}[/latex] Cylindrical plug gauge is used to measure inside diameter of straight hole.",
+    "options": {
+      "A": "infeasible solution",
+      "B": "unbounded solution",
+      "C": "alternative optimum solutions",
+      "D": "degenerate solution"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 61 The annual demand for an item is 10,000 units. The unit cost is Rs. 100 and inventory carrying charges are 14.4% of the unit cost per annum. The cost of one procurement is Rs. 2000. The time between two consecutive orders to meet the above demand is _______ month(s).",
+    "solution": "[latex]\\begin{aligned} Q &=\\sqrt{\\frac{2 D C_{0}}{C_{h}}} \\\\ &=\\sqrt{\\frac{2 \\times 10000 \\times 2000}{14.4}} \\\\ &=1666.67 \\end{aligned}[/latex] (N)No. of orders per year [latex]=\\frac{D}{Q} [/latex] [latex] \\begin{aligned} &=\\frac{1}{N} \\times 12=\\frac{12}{6} \\\\ &=\\text{2 months} \\end{aligned}[/latex]",
+    "min": 1.9,
+    "max": 2.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 For the linear programming problem: Maximize [latex]Z=3X_{1}+2X_{2}[/latex] Subject to [latex]-2X_{1}+3X_{2} \\leq 9[/latex] [latex]X_{1}-5X_{2}\\geq -20[/latex] [latex]X_{1},X_{2}\\geq 0[/latex] The above problem has",
+    "solution": "[latex]\\begin{aligned} z &=3 x_{1}+2 x_{2} \\\\-2 x_{1}+3 x_{2} & \\leq 9 \\\\ x_{1}-5 x_{2} & \\geq-20 \\\\ x_{1}, x_{2} & \\leq 0 \\end{aligned} [/latex] [latex]\\therefore [/latex]changing the inequalities to equalities [latex] -2 x_{1}+3 x_{2}=9 [/latex] [latex] x_{1}-5 x_{2}=-20 [/latex] [latex] \\therefore[/latex] The soluction is unbounded.",
+    "options": {
+      "A": "unbounded solution",
+      "B": "infeasible solution",
+      "C": "alternative optimum solution",
+      "D": "degenerate solution"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 63 The annual requirement of rivets at a ship manufacturing company is 2000 kg. The rivets are supplied in units of 1 kg costing Rs. 25 each. If it costs Rs. 100 to place an order and the annual cost of carrying one unit is 9% of its purchase cost, the cycle length of the order (in days) will  be ________",
+    "solution": "[latex]\\begin{aligned} Q &=\\sqrt{\\frac{2 D C_{0}}{C_{h}}} \\\\ Q &=\\sqrt{\\frac{2 \\times 2000 \\times 100}{0.09 \\times 25}} \\\\ &=421.637 \\\\ N &=\\frac{D}{Q}=4.7434 \\\\ T &=\\frac{1}{N}=0.2108 \\text { year } \\\\ &=76.948 \\text { days } \\end{aligned}[/latex]",
+    "min": 76.0,
+    "max": 78.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 In the notation (a/b/c) : (d/e/f) for summarizing the characteristics of queueing situation, the letters 'b' and 'd' stand respectively for",
+    "solution": "The general form of notation is (a/b/c) : (d/e/f) where, a : Probability distribution for arrival pattern b : departure (or service time) distribution c : No. of server within system d : service discipline e : Size and capacity of system f : Size or capacity of calling population",
+    "options": {
+      "A": "service time distribution and queue discipline",
+      "B": "number of servers and size of calling source",
+      "C": "number of servers and queue discipline",
+      "D": "service time distribution and maximum number allowed in system"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 65 A manufacturer has the following data regarding a product: Fixed cost per month = Rs. 50000 Variable cost per unit = Rs. 200 Selling price per unit = Rs. 300 Production capacity = 1500 units per month If the production is carried out at 80% of the rated capacity, then the monthly profit (in Rs.)            is ____________",
+    "solution": "[latex]\\begin{aligned} \\text { Production } &=0.8 \\times 1500=1200 \\\\ \\text { Profit } &=S-V-F \\\\ &=1200 \\times 300-1200 \\times 200-50000 \\\\ &=70,000 \\end{aligned}[/latex]",
+    "min": 68000.0,
+    "max": 72000.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 66 A project consists of 7 activities. The network along with the time durations (in days) for various activities is shown in the figure. The minimum time (in days) for completion of the project is_________",
+    "solution": "The critical path is 1-2-4-5-6 of 40 Days duration.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page14_q1.webp",
+    "min": 39.0,
+    "max": 40.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 Sales data of a product is given in the following table: Regarding forecast for the month of June, which one of the following statements is TRUE?",
+    "solution": "As regression follow a pattern [latex] \\text{(forecast)}_{\\text {June }} [/latex] according to regression [latex]\\gt 25[/latex] but according to moving average, [latex] T_{\\text {June }} \\lt 25[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page14_q2.webp",
+    "options": {
+      "A": "Moving average will forecast a higher value compared to regression.",
+      "B": "Higher the value of order N, the greater will be the forecast value by moving average.",
+      "C": "Exponential smoothing will forecast a higher value compared to regression.",
+      "D": "Regression will forecast a higher value compared to moving average."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 68 Annual demand of a product is 50000 units and the ordering cost is Rs. 7000 per order.  Considering the basic economic order quantity model, the economic order quantity is 10000 units. When the annual inventory cost is minimized, the annual inventory holding cost (in Rs.) is _______",
+    "solution": "For minimum annual inventory cost, Ordering cost = Holding cost [latex] 7000 \\times [/latex] number of order = holding cost or Holding cost [latex] =7000 \\times \\frac{50000}{10000} [/latex] = 35,000",
+    "min": 34000.0,
+    "max": 36000.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 During the development of a product, an entirely new process plan is made based on design logic, examination of geometry and tolerance information. This type of process planning is known as",
+    "solution": "A generative manufacturing process different from a traditional manufacturing process develops a product with the addition of material instead of removal of the excess material as in case of a traditional manufacturing process. In the generative manufacturing process, plans are generated by means of decision logic, formulas, technology algorithm and geometry-based data to perform uniquely the many processing decision for converting a part from raw material to a finished state. There are two major components of a generative process planning system. A geometry-based coding scheme. Process knowledge in the form of decision logic and data. Geometry-based coding scheme: The objective of a geometric based coding scheme is to define all geometric features for all process related surfaces together with feature dimensions, locations, tolerances and the surface finish desired on the features. Advantage of Generative Manufacturing Process: No tools and fixtures are required. No restriction on geometry of the part shape exists. Composite parts and assemblies can be produced in one go. Small batch production of complex parts is economically viable.",
+    "options": {
+      "A": "retrieval",
+      "B": "generative",
+      "C": "variant",
+      "D": "group technology based"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 70 For a canteen, the actual demand for disposable cups was 500 units in January and 600 units in February. The forecast for the month of January was 400 units. The forecast for the month of March considering smoothing coefficient as 0.75 is ________",
+    "solution": "[latex]\\begin{aligned} F_{\\mathrm{Feb}} &=F_{\\mathrm{Jan}}+\\alpha\\left[D_{\\mathrm{Jan}}-F_{\\mathrm{Jan}}\\right] \\\\ &=400+0.75[500-400] \\\\ &=475 \\\\ F_{\\mathrm{March}} &=F_{\\mathrm{Feb}}+\\alpha\\left[D_{\\mathrm{Feb}}-F_{\\mathrm{Feb}}\\right] \\\\ &=475+0.75[600-475] \\\\ &=568.75 \\approx 569 \\end{aligned}[/latex]",
+    "min": 568.0,
+    "max": 570.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 Following data refers to the activities of a project, where, node 1 refers to the start and node 5 refers to the end of the project. The critical path (CP) in the network is",
+    "solution": "Critical path = 1-4-3-5",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page15_q1.webp",
+    "options": {
+      "A": "1-2-3-5",
+      "B": "1-4-3-5",
+      "C": "1-2-3-4-5",
+      "D": "1-4-5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 72 At a work station, 5 jobs arrive every minute. The mean time spent on each job in the work station is 1/8 minute. The mean steady state number of jobs in the system is _______",
+    "solution": "[latex]\\begin{aligned} \\lambda(\\text { arrival rate })&=5 \\text { jobs/minute } \\\\ \\mu \\text { (service rate) }&=8 \\text { jobs/minute } \\\\ \\qquad L_{S}&=\\frac{\\lambda}{\\mu-\\lambda}=\\frac{5}{8-5}=\\frac{5}{3}=1.67 \\end{aligned}[/latex]",
+    "min": 1.62,
+    "max": 1.7
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 The precedence relations and duration (in days) of activities of a project network are given in the table. The total float (in days) of activities e and f, respectively, are",
+    "solution": "Total float for activity:  e=7-2-4=1 Total float for activity:  f=12-4-4=4",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page15_q3.webp",
+    "options": {
+      "A": "0 and 4",
+      "B": "1 and 4",
+      "C": "2 and 3",
+      "D": "3 and 1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 74 Demand during lead time with associated probabilities is shown below: Expected demand during lead time is _______",
+    "solution": "[latex]\\begin{array}{l} (74 \\text { to } 75) \\\\ \\text { Expected Demand }=50 \\times 0.15+70 \\times 0.14+75\\times \\\\ 0.21+80 \\times 0.20+85 \\times 0.3=74.55 \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page15_q4.webp",
+    "min": 74.0,
+    "max": 75.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 75 The total number of decision variables in the objective function of an assignment problem of size   n x n (n jobs and n machines) is",
+    "solution": "A decision variable is an unknown in an optimization problem. It has a domain, which is a compact representation of the set of all possible values for the variable. So for assignment problem of size [latex]n \\times n[/latex] total no. of decision variable are total possibilities to assign value in assignment matrix. Total no. of decision variables [latex]=n \\times n=n^2[/latex]",
+    "options": {
+      "A": "[latex]n^{2}[/latex]",
+      "B": "2n",
+      "C": "2n-1",
+      "D": "n"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 76 A manufacturer can produce 12000 bearingsper day. The manufacturer received an order of 8000 bearings per day from a customer. The cost of holding a bearing in stock is Rs. 0.20 per month. Setup cost peer production run is Rs. 500 assuming 300 working days in a year, the frequency of production run should be",
+    "solution": "Given [latex] \\begin{aligned} D &=8000 \\text { per day } \\\\ P &=12000 \\text { per day } \\\\ C_{h} &=0.2 \\text { Rs. per month } \\\\ C_{0} &=500 \\text { per production run } \\\\ E O Q &=\\sqrt{\\frac{2 C_{0} D}{C_{h}\\left(1-\\frac{D}{P}\\right)}} \\\\ &=\\sqrt{\\frac{2 \\times 500 \\times 8000 \\times 300}{0.2 \\times 12\\left(1-\\frac{8000}{12000}\\right)}} \\\\ &=54772.25 \\end{aligned}[/latex] Frequency of production run [latex] =\\frac{54772.25}{8000}=6.8 \\text { days } [/latex]",
+    "options": {
+      "A": "4.5days",
+      "B": "4.5months",
+      "C": "6.8days",
+      "D": "6.8months"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 Consider the given project network, where nuumbers along various activities represent the normal time. The free float on activity 4-6 and the project duration, respectively, are",
+    "solution": "Critical path is [latex] 1-2-5-6-7 [/latex] Project duration, [latex]\nt_{E}=3+2+3+5=13[/latex] Free float [latex] (4-6)=8-4-2=2 [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page16_q2.webp",
+    "options": {
+      "A": "2,13",
+      "B": "0,13",
+      "C": "[latex]-2,13[/latex]",
+      "D": "2,12"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 78 Consider an objective function [latex]Z(x_{1},x_{2})=3x_{1}+9x_{2}[/latex] and the constraints [latex]x_{1}+x_{2}\\leq 8,[/latex] [latex] x_{1}+2x_{2}\\leq 4, [/latex] [latex] x_{1}\\geq 0,x_{2}\\geq 0.[/latex] The maximum value of the objective function is __________",
+    "solution": "[latex]\\begin{aligned} (Z)_{(4,0)}&=3 \\times 4+9 \\times 0=12 \\\\ (Z)_{(0,2)}&=3 \\times 0+9 \\times 2=18 \\\\ (Z)_{(0,0)}&=0 \\quad \\text { (Trivial solution) } \\\\ Z_{\\max }&=18 \\end{aligned}[/latex]",
+    "min": 17.0,
+    "max": 19.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 79 The actual sales of a product in different months of a particular year are given below: The forecast of the sales, using the 4-month moving average method, for the month of February  is _______",
+    "solution": "[latex]F=\\frac{280+250+190+240}{4}=240[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page16_q4.webp",
+    "min": 239.0,
+    "max": 241.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 80 Consider the following data with reference to elementary deterministic economic order quantity model The total number of economic orders per year to meet the annual demand is _______",
+    "solution": "[latex]\\begin{aligned} \\mathrm{EOQ} &=\\sqrt{\\frac{2 C_{o} D}{C_{h}}} \\\\ &=\\sqrt{\\frac{2 \\times 100000 \\times 30}{1.5}} \\\\ &=2000 \\mathrm{units}\\\\ \\text { Number of orders } &=\\frac{D}{\\mathrm{EOQ}} \\\\ &=\\frac{100000}{2000}=50 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page16_q5.webp",
+    "min": 49.0,
+    "max": 51.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 81 A project has four activities P, Q, R and S as shown below. The normal cost of the project is Rs. 10,000 and the overhead cost is Rs. 200 per day. If the project duration has to be crashed down to 9 days, the total cost (in Rupees) of the project is _______",
+    "solution": "Path P-Q = 10 days P-R-S = 3+4+5 = 12 days So P-R-S is critical path Now we will crash the activity 'S' by 2 day So now P-R = 10 day P-R-S = 10 day both are critical paths So Total cost of project will be = Normal cost + overhead cost + crashing cost = 10000+200*(10 day) +200*2 = 10000+2000+400 = 12400 Rs",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page17_q1.webp",
+    "min": 12490.0,
+    "max": 12510.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 82 A component can be produced by any of the four processes I, II, III and IV. The fixed cost and the variable cost for each of the processes are listed below. The most economical process for producing a batch of 100 pieces is",
+    "solution": "Total cost is minimum for process 2, hence process 2 is most economical.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page17_q2.webp",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 If there are m sources and n destinations in a transportation matrix, the total number of basic variables in a basic feasible solution is",
+    "solution": "no of basic variables = n+m-1",
+    "options": {
+      "A": "m + n",
+      "B": "m+n+1",
+      "C": "m+n-1",
+      "D": "m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 In exponential smoothening method, which one of the following is true?",
+    "solution": "High value of [latex]\\alpha[/latex] shows more weightage is given to immediate forecast. Less value of [latex]\\alpha[/latex] shows less weightage is given to immediate forecast or almost equal weightage is given. So high value of [latex]\\alpha[/latex] is chosen when nature of demand is not reliable or unstable.",
+    "options": {
+      "A": "[latex]0\\leq \\alpha  \\leq 1[/latex]  and high value of [latex]\\alpha[/latex] is used for stable demand",
+      "B": "[latex]0\\leq \\alpha  \\leq 1[/latex]  and high value of [latex]\\alpha[/latex] is used for unstable demand",
+      "C": "[latex]\\alpha  \\geq 1[/latex]  and high value of [latex]\\alpha[/latex] is used for stable demand",
+      "D": "[latex]\\alpha  \\leq 0[/latex]  and high value of [latex]\\alpha[/latex] is used for unstable demand"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 A linear programming problem is shown below. Maximize [latex]3x+7y [/latex] Subject to [latex]3x+7y\\leq 10[/latex] [latex]4x+6y\\leq 8[/latex] [latex]x,y\\geq 0[/latex] It has",
+    "solution": "[latex]\\begin{aligned}\\text { Max. } 3 x&+z y \\\\ \\text { Sub to } 3 x&+7 y \\leq 10\\\\ 4 x&+6 y \\leq 8 \\\\ &x, y \\geq 0 \\end{aligned}[/latex] [latex] \\Rightarrow [/latex] It has exactly one optimal solution.",
+    "options": {
+      "A": "an unbounded objective function",
+      "B": "exactly one optimal solution.",
+      "C": "exactly two optimal solutions.",
+      "D": "infinitely many optimal solutions."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 In simple exponential smoothing forecasting, to give higher weightage to recent demand information, the smoothing constant must be close to",
+    "solution": "Simple exponential smoothing forecasting method [latex] \\begin{aligned} F_{T+1}&=F_{T}+\\alpha\\left(D_{T}-F_{T}\\right) \\text { If } \\alpha=1\\\\ \\therefore \\quad F_{T+1}&=D_{T} \\end{aligned}[/latex] [latex]\\Rightarrow [/latex] Higher weightage is given to recent demand if smoothing constant [latex] \\alpha=1 [/latex]",
+    "options": {
+      "A": "-1",
+      "B": "zero",
+      "C": "0.5",
+      "D": "1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 Customers arrive at a ticket counter at a rate of 50 per hr and tickets are issued in the order of their arrival. The average time taken for issuing a ticket is 1 min. Assuming that customer arrivals form a Poisson process and service times are exponentially distributed, the average waiting time in queue in min is",
+    "solution": "[latex]\\lambda=50 \\mathrm{cust} / \\mathrm{hr}=\\frac{50}{60} \\mathrm{cust} / \\mathrm{min} \\\\ =0.833 \\mathrm{cust} / \\mathrm{min} [/latex] [latex] \\mu=1 \\mathrm{min} \\quad \\therefore \\rho=\\frac{\\lambda}{\\mu}=0.833 [/latex] As we know, [latex] L_{q}=\\lambda \\cdot \\omega_{q} [/latex] [latex] \\begin{aligned} \\frac{\\rho^{2}}{1-\\rho}&=\\lambda \\omega_{q} \\\\  \\Rightarrow \\frac{(0.833)^{2}}{1-0.833}&=0.833 \\omega_{q} \\\\ \\Rightarrow \\omega_{q}&=5 \\mathrm{min} \\end{aligned}[/latex]",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 For a particular project, eight activities are to be carried out. Their relationships with other activities and expected duration are mentioned in the table below. If the duration of activity f alone is changed from 9 to 10 days, then the",
+    "solution": "If the duration of activity  F  is changed from 9 to \r\n10 days, critical path remains same and the \r\nproject duration will increase to 19 days.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page18_q3.webp",
+    "options": {
+      "A": "Critical path remains same and the total duration to complete the project changes to 19 days.",
+      "B": "Critical path and the total duration to complete the project remains the same.",
+      "C": "Critical path changes but the duration to complete the project remains the same.",
+      "D": "Critical path changes and the total duration to complete the project changes to 17 days."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 89 For a particular project, eight activities are to be carried out. Their relationships with other activities and expected duration are mentioned in the table below. The critical path for the project is",
+    "solution": "Various path [latex] A \\quad [/latex] BEGH -17 days [latex] A \\quad \\mathrm{CGH} \\quad-\\quad 16 [/latex] days [latex] A \\quad D F H \\quad-\\quad 18 [/latex] days [latex] \\therefore a-d-f-h [/latex] is critical path",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page18_q4.webp",
+    "options": {
+      "A": "a-b-e-g-h",
+      "B": "a-c-g-h",
+      "C": "a-d-f-h",
+      "D": "a-b-c-f-h"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 Which one of the following is NOT a decision taken during the aggregate production planning stage?",
+    "solution": "During aggregate production planning stage a decision on amount of labour to be committed is not taken.",
+    "options": {
+      "A": "Scheduling of machines",
+      "B": "Amount of labour to be committed",
+      "C": "Rate at which production should happen",
+      "D": "Inventory to be carried forward"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 One unit of product [latex]P_{1}[/latex]\n requires 3 kg of resource [latex]R_{1}[/latex]\n and 1kg of resource [latex]R_{2}[/latex]. One unit of product [latex]P_{2}[/latex]\n requires 2kg of resource [latex]R_{1}[/latex]\n and 2kg of resource [latex]R_{2}[/latex]\n . The profits per unit by selling product [latex]P_{1}[/latex]\n and [latex]R_{2}[/latex]\n are Rs.2000 and Rs.3000 respectively. The manufacturer has 90kg of resource [latex]R_{1}[/latex]\n and 100kg of resource [latex]R_{2}[/latex] The manufacturer can make a maximum profit of Rs.",
+    "solution": "Since all [latex]Z_j-C_j\\geq 0[/latex], an optimal basic feasible solution has been attained. Thus, the optimum solution to the given LPP is [latex]Max \\; Z=2000 \\times 0+3000 \\times 45=135000 \\text{ with }P-1=0 \\text{ and }P_2=45[/latex]",
+    "options": {
+      "A": "60000",
+      "B": "135000",
+      "C": "150000",
+      "D": "200000"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 One unit of product [latex]P_{1}[/latex]\n requires 3 kg of resource [latex]R_{1}[/latex]\n and 1kg of resource [latex]R_{2}[/latex]\n . One unit of product [latex]P_{2}[/latex]\n requires 2kg of resource [latex]R_{1}[/latex]\n and 2kg of resource [latex]R_{2}[/latex]\n . The profits per unit by selling product [latex]P_{1}[/latex]\n and [latex]R_{2}[/latex]\n are Rs.2000 and Rs.3000 respectively. The manufacturer has 90kg of resource [latex]R_{1}[/latex]\n and 100kg of resource [latex]R_{2}[/latex] The unit worth of resource [latex]R_{2}[/latex]\n i.e., dual price of resource [latex]R_{2}[/latex]\n in Rs. Per kg is",
+    "solution": "Because the constraint on resource 2 has no effect on the feasible region.",
+    "options": {
+      "A": "0",
+      "B": "1350",
+      "C": "1500",
+      "D": "2000"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 The word kanban is most appropriately associated with",
+    "solution": "Kanban is related to quality and this concept is usedinjust in time production i.e. zero inventory.",
+    "options": {
+      "A": "Economic order quantity",
+      "B": "Just-in-time production",
+      "C": "Capacity planning",
+      "D": "Product design"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 94 Cars arrive at a service station according to Poisson's distribution with a mean rate of 5 per hour. The service time per car is exponential with a mean of 10minutes. At steady state, the average waiting time in the queue is",
+    "solution": "Given data: [latex] \\begin{aligned} \\lambda=\\text { arrival rate }=5 / \\text { hour } \\\\ \\mu=\\text { service rate }=6 / \\text { hour } \\end{aligned}[/latex] [latex] \\therefore [/latex]Average waiting time in queue [latex] \\begin{aligned} =\\frac{\\lambda}{\\mu(\\mu-\\lambda)}=\\frac{5}{6(6-5)} \\text { hr } \\\\ =0.833 \\mathrm{hr}=50 \\mathrm{minutes} \\end{aligned}[/latex]",
+    "options": {
+      "A": "10 minutes",
+      "B": "20 minutes",
+      "C": "25 minutes",
+      "D": "50 minutes"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 Four jobs are to be processed on a machine as per data listed in the table. Using the Shortest Processing Time (SPT) rule, total tardiness is",
+    "solution": "Sequence by Shortest Processing Time(SPT) Total tardiness = 0+0+4+4 = 8",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page19_q5.webp",
+    "options": {
+      "A": "0",
+      "B": "2",
+      "C": "6",
+      "D": "8"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 96 Four jobs are to be processed on a machine as per data listed in the table. If the Earliest Due Date (EDD) rule is used to sequence the jobs, the number of jobs delayed is",
+    "solution": "Sequence by Earliest Due Date (EDD) No. of delay = 3",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page20_q1.webp",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 97 The project activities, precedence relationships and durations are described in the table. The critical path of the project is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page20_q2.webp",
+    "options": {
+      "A": "P-R-T-V",
+      "B": "Q-S-T-V",
+      "C": "P-R-U-W",
+      "D": "Q-S-U-W"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 Annual demand for window frames is 10000. Each frame costs Rs. 200 and ordering cost is Rs. 300 per order. Inventory holding cost is Rs. 40 per frame per year. The supplier is willing to offer 2% discount if the order quantity is 1000 or more, and 4% if order quantity is 2000 or more. If the total cost is to be minimized, the retailer should",
+    "solution": "Total cost = Purchase cost + holding cost + ordering cost It is a case of inventory with price breaks. [latex] \\begin{aligned} \\mathrm{EOQ} &=\\sqrt{\\frac{2 C_{o} D}{C_{h}}} \\\\ &=\\sqrt{\\frac{2 \\times 300 \\times 10000}{40}} \\\\ &=387 \\text { units }\\\\ \\text{For } Q&=387 \\\\ T(C)=& D \\times C+\\frac{Q}{2} \\times h+\\frac{D}{Q} \\times A \\\\ =& 10000 \\times 200+\\frac{387}{2} \\times 40 + \\\\ &+\\frac{10000}{387} \\times 300 \\\\ =&2015492 \\\\ \\text { For } Q&=1000 \\\\ T(C) &=10000 \\times(200 \\times 0.98) \\\\ &+500 \\times 40+10\\times300 \\\\ &=\\mathrm{Rs} .1983000\\\\ \\text{For } Q&=2000 \\\\ T(C) &=10000 \\times(200 \\times 0.96)+1000 \\times 40 \\\\ & + 5 \\times 300 \\\\ &= 1961500 \\end{aligned}[/latex] Accept 4% discount as lowest total cost at Q=2000",
+    "options": {
+      "A": "order 200 frames every time",
+      "B": "accept 2% discount",
+      "C": "accept 4% discount",
+      "D": "order Economic Order Quantity"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 99 Simplex method of solving linear programming problem uses",
+    "solution": "Simplex method: The simplex method is the most popular method used for the solution of Linear Programming Problems (LPP). The Simplex method is a search procedure that shifts through the set of basic feasible solutions, one at a time until the optimal basic feasible solution is identified. It can be used for two or more variables as well (always advisable for more than two variables to avoid lengthy graphical procedure). The simplex method is not used to examine all the feasible solutions. It deals only with a small and unique set of feasible solutions, the set of vertex points (i.e. extreme points/corner points) of the convex feasible space that contain the optimal solution. All the resource values or constraints should be non-negative. All the inequalities of the constraint should be converted to equalities with the help of slack or surplus variables.",
+    "options": {
+      "A": "all the points in the feasible region",
+      "B": "only the corner points of the feasible region",
+      "C": "intermediate points within the infeasible region",
+      "D": "only the interior points in the feasible region."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 100 Vehicle manufacturing assembly line is an example of",
+    "solution": "Vehicle manufacturing assembly line is an example of product layout. A product-oriented layout is appropriate for producing one standardized product, usually in large volume. Each unit of output requires the same sequence of operations from beginning to end.",
+    "options": {
+      "A": "product layout",
+      "B": "process layout",
+      "C": "manual layout",
+      "D": "fixed layout"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 Little's law is relationship between",
+    "solution": "Little's law is a relationship between average waiting time and average length of the queue in a queuing system. The little law establish a relation between Queue length [latex](L_q)[/latex], Queue waiting time [latex](W_q)[/latex] and the Mean arrival rate [latex]\\lambda[/latex]. So,    [latex]L_q=\\lambda  W_q[/latex]",
+    "options": {
+      "A": "stock level and lead time in an inventory system",
+      "B": "waiting time and length of the queue in a queuing system",
+      "C": "number of machines and job due dates in a scheduling problem",
+      "D": "uncertainty in the activity time and project completion time"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 102 The demand and forecast for February are 12000 and 10275, respectively. Using single exponential smoothening method (smoothening coefficient = 0.25), forecast for the month of March is",
+    "solution": "[latex] F_{t}=F_{t-1}+\\alpha\\left(D_{t-1}-F_{t-1}\\right) [/latex] [latex] F_{t}= [/latex] current month forecast [latex] F_{t-1}= [/latex] last month forecast [latex] D_{t-1}= [/latex] last month demand [latex] \\alpha= [/latex] smoothening constant [latex] F_{t}=10275+0.25(12000-10275) [/latex] [latex] F_{t}=10706.25, F_{t}=10706 [/latex]",
+    "options": {
+      "A": "431",
+      "B": "9587",
+      "C": "10706",
+      "D": "11000"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 103 Consider the following PERT network: The optimistic time, most likely time and pessimistic time of all the activities are given in the table below The standard deviation of the critical path is",
+    "solution": "[latex] \\Sigma \\sigma^{2} [/latex] along the critical path [latex] \\begin{aligned} \\sigma^{2} &=\\underset{1-3}{\\sigma^{2}}+\\underset{3-5}{\\sigma^{2}}+\\underset{5-6}{\\sigma^{2}}+\\underset{6-7}{\\sigma^{2}} \\\\ &=\\frac{4}{36}+\\frac{16}{36}+\\frac{4}{36}+\\frac{4}{36} \\\\ &=\\frac{28}{36}=0.77 \\end{aligned}[/latex] Standard deviation of critical path is [latex] \\sigma=\\sqrt{\\frac{28}{36}}=0.88[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page21_q3.webp",
+    "options": {
+      "A": "0.33",
+      "B": "0.55",
+      "C": "0.88",
+      "D": "1.66"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 104 Consider the following PERT network: The optimistic time, most likely time and pessimistic time of all the activities are given in the table below The critical path duration of the network (in days) is",
+    "solution": "Critical path [latex]=1 \\rightarrow 3 \\rightarrow 5 \\rightarrow 6 \\rightarrow 7 [/latex] (Marked by double lines) Therefore, critical path duration of the network is [latex]=6+4+5+3=18\\text{days}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page21_q4.webp",
+    "options": {
+      "A": "11",
+      "B": "14",
+      "C": "17",
+      "D": "18"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 105 Six jobs arrived in a sequence as given below: Average flow time (in days) for the above jobs using Shortest Processing Time rule is",
+    "solution": "SPT Rule Arranging in increasing order of processing time. [latex] \\begin{aligned}\\text { Jobs } & \\text { Processing time (days)} \\\\ i &\\;\\;4 \\\\ iii &\\;\\;5 \\\\ v &\\;\\;6 \\\\ vi &\\;\\;8 \\\\ ii &\\;\\;9 \\\\ iv &\\;\\;10\\end{aligned}[/latex] [latex] \\begin{aligned} \\text { Jobs} &\\;\\;\\text{ Flow time (days)} \\\\ i &\\;\\;4 \\\\ iii &\\;\\;4+5=9 \\\\ v &\\;\\;4+54+6=15 \\\\ vi &\\;\\;4+5+6+8=23 \\\\ ii &\\;\\;4+5+6+8+9=32 \\\\ iv &\\;\\; \\underline{4+5+6+8+9+10=42}\\\\ & \\text{Total flow time} = 125 \\end{aligned}[/latex] Avg. flow time [latex]=\\frac{\\text { Total flow time }}{\\text { Number of jobs }} [/latex] [latex] =\\frac{125}{6}=20.83 \\text { days }[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page21_q5.webp",
+    "options": {
+      "A": "20.83",
+      "B": "23.16",
+      "C": "125",
+      "D": "139"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 106 Consider the following Linear Programming Problem (LPP): Maximize [latex]z=3x_{1}+2x_{2}[/latex] Subject to [latex]x_{1}\\leq 4[/latex] [latex]x_{2}\\leq 6[/latex] [latex]3x_{1}+2x_{2}\\leq 18[/latex] [latex]x_{1}\\geq 0[/latex]\n,[latex]x_{2}\\geq 0[/latex]",
+    "solution": "Linear Programming Problem (LPP) Maximize, [latex]z=3 x_{1}+2 x_{2} [/latex] [latex] \\begin{aligned} \\text{Constraints }\\quad x_{1} &\\leq 4 &\\quad \\ldots(i)\\\\ x_{2} & \\leq 6 &\\quad \\ldots(ii)\\\\ 3 x_{1}+2 x_{2} & \\leq 18 &\\quad \\ldots(iii)\\\\ x_{1} & \\leq 0, x_{2} \\leq 0 &\\quad \\ldots(iv) \\end{aligned}[/latex] Using graphical method Because objective function have slope same as constraint (iii) i.e. objective function is parallel to constraint. Therefore the LPP has multiple optimal solution. For example at Point B [latex] \\begin{aligned} \\text { Maximum, } z &=3 x_{1}+2 x_{2} \\\\ &=3(4)+2(3)=18 \\end{aligned}[/latex] and at point C, Maximum, [latex] z=3(2)+2(6)=18[/latex]",
+    "options": {
+      "A": "The LPP has a unique optimal solution",
+      "B": "The LPP is infeasible",
+      "C": "The LPP is unbounded",
+      "D": "The LPP has multiple optimal solutions"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 107 A company uses 2555 units of an item annually. Delivery lead time is 8 days. The recorder point (in number of units) to achieve optimum inventory is",
+    "solution": "Using Wilson Harris model (Deterministic Model) R= Consumption Rate =2555 units annually Q= Ordered Quantity T= Cycle Time t= Lead Time = 8 days [latex]=\\frac{8}{365}\\text{years}[/latex] x= Reorder Quantity (Point) Using Geometry of triangle [latex] \\begin{aligned} R &=\\frac{Q}{T}=\\frac{x}{t} \\\\ 2555 &=\\frac{x}{(8 / 365)} \\\\ \\text{or} \\quad x &=56 \\text { unit } \\end{aligned}[/latex] Therefore, the reorder point to achieve optimum inventory is 56 units.",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "56",
+      "D": "60"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 108 Which of the following forecasting methods takes a fraction of forecast error into account for the next period forecast?",
+    "solution": "Exponential smoothing methods of forecasting takes a fraction of forecast error into account for next period forecast [latex] \\begin{aligned} F_{t}&=F_{t-1}+\\alpha\\left(D_{t-1}-F_{t-1}\\right) \\\\ F_{t}&=F_{t-1}+\\alpha e_{t} \\end{aligned}[/latex] where, [latex] F_{t} [/latex] is the forecast at time t [latex] D_{t} [/latex] is the actual demand at time t [latex] F_{t-1} [/latex] is the forecast at time t-1 [latex] \\alpha [/latex] is the smoothing coefficient [latex] e_{t}=D_{t-1}-F_{t-1} [/latex] is forecast error The value of [latex] \\alpha [/latex] varies between 0 and 1, with commonly used value of 0.01 to 0.30 . New estimate = Old estimate of latest actual demand [latex] +\\alpha [/latex] [latest actual demand - old estimate of latest actual demand] Exponential smoothing provides a convenient, systematic and recursive method of revisiting the forecast for the next period whenever discrepancy exists between the previously forecast demand for current period and the actual demand for current period.",
+    "options": {
+      "A": "simple average method",
+      "B": "moving average method",
+      "C": "weighted moving average method",
+      "D": "exponential smoothening method"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 109 The expected time ([latex]t_{e}[/latex]) of a PERT activity in terms of optimistic time ([latex]t_{o}[/latex]), pessimistic time ([latex]t_{p}[/latex]) and most likely time ([latex]t_{l}[/latex]) is given by",
+    "solution": "The expected time [latex] \\left(t_{e}\\right) [/latex] of PERT activity in terms of optimistic time [latex] \\left(t_{0}\\right), [/latex] pessimistic time [latex] \\left(t_{p}\\right) [/latex] and  most likely time [latex] \\left(t_{l}\\right) [/latex] is given by [latex] t_{e}=\\frac{t_{0}+4 t_{1}+t_{p}}{6}[/latex]",
+    "options": {
+      "A": "[latex]t_{e}=\\frac{t_{o}+4t_{l}+t_{p}}{6}[/latex]",
+      "B": "[latex]t_{e}=\\frac{t_{o}+4t_{p}+t_{l}}{6}[/latex]",
+      "C": "[latex]t_{e}=\\frac{t_{o}+4t_{l}+t_{p}}{3}[/latex]",
+      "D": "[latex]t_{e}=\\frac{t_{o}+4t_{l}+t_{l}}{3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 110 Consider the Linear Programme (LP) Max 4x + 6y subject to [latex]3x+2y\\leq 6[/latex] [latex]2x+3y\\leq 6[/latex] [latex]x,y\\geq 0[/latex] The dual for the LP is",
+    "solution": "Primal is [latex] \\text{Max} Z=\\left(4 \\quad \\text { 6) }\\left(\\frac{x}{y}\\right) \\text { i.e } \\text{Max} z=C x\\right. [/latex] Subject to [latex] \\left(\\begin{array}{ll}3 & 2 \\\\ 2 & 3\\end{array}\\right)(x y) \\leq\\left(\\begin{array}{l}6 \\\\ 6\\end{array}\\right) i.e A X \\leq B [/latex] Dual is [latex] \\text{Min} Z=B^{T} Y [/latex] [latex] \\text{Min} Z=(66)\\left(\\begin{array}{l}u \\\\ v\\end{array}\\right) \\Rightarrow \\text{Min} Z=6 u+6v [/latex] [latex] A^{T} Y \\geq C^{T} [/latex] [latex] \\left(\\begin{array}{ll}3 & 2 \\\\ 2 & 3\\end{array}\\right)\\left(\\begin{array}{l}u \\\\ v\\end{array}\\right) \\geq\\left(\\begin{array}{l}4 \\\\ 6\\end{array}\\right) \\Rightarrow \\begin{array}{l}3 u+2 v \\geq 4 \\\\ 2 u+3 v \\geq 6\\end{array} [/latex] [latex] \\text{and }\\quad u, v \\geq 0[/latex] Note: [latex] \\left[\\begin{array}{l}\\text { If Primal is given by Min } Z=C X \\\\ A X \\geq B \\\\ \\text { the corresponding dual for LP is givenby } \\\\ \\operatorname{Max} Z=B^{T} Y \\\\ A^{T} Y \\leq C T\\end{array}\\right] [/latex] [latex] \\left[\\begin{array}{l} \\text { And if the Primalis given by Max } Z=C X \\\\ A X \\leqslant B \\\\ \\text { Then corresponding dualis given by } \\\\ \\operatorname{Min} Z=B^{\\top} Y \\\\ A^{T} Y \\geq C^{\\top} \\end{array}\\right][/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page22_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 111 Consider the Linear Programme (LP) Max 4x + 6y subject to [latex]3x+2y\\leq 6[/latex] [latex]2x+3y\\leq 6[/latex] [latex]x,y\\geq 0[/latex] After introducing slack variables s and t, the initial basic feasible solution is represented by the table below (basic variables are s = 6 and t = 6, and the objective function value is 0). From this, one can conclude that",
+    "solution": "since zero has appeared in the optimal solution \r\nbelow a non-basic variable, it means there are \r\nalternate solutions. The LP has an optimal solution \r\nthat is not unique.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page23_q1.webp",
+    "options": {
+      "A": "The LP has a unique optimal solution",
+      "B": "The LP has an optimal solution that is not unique",
+      "C": "The LP is infeasible",
+      "D": "The LP is unbounded"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 112 The product structure of an assembly P is shown in the figure. Estimated demand for end product P is as follows Ignore lead times for assembly and sub-assembly. Production capacity (per week) for component R is the bottleneck operation. Starting with zero inventory, the smallest capacity that will ensure a feasible production plan up to week 6 is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page23_q2.webp",
+    "options": {
+      "A": "1000",
+      "B": "1200",
+      "C": "2200",
+      "D": "2400"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 113 For the network below, the objective is to find the length of the shortest path from node P to node\nG. Let [latex]d_{ij}[/latex] be the length of directed arc from node i to node j. Let [latex]s_{j}[/latex] be the length of the shortest path from P to node j. Which of the following equations can be\nused to find [latex]s_{G}[/latex]?",
+    "solution": "There are two ways to reach the node G , first reach Qand then QG or reach R then RG. [latex] \\therefore \\quad S_{G}=\\text{Min}\\left(S_{Q}+d_{Q G}, S_{R}+d_{A G}\\right)[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page23_q3.webp",
+    "options": {
+      "A": "[latex]S_G=Min(S_Q,S_R)[/latex]",
+      "B": "[latex]S_G=Min(S_Q-d_{QG},S_R-d_{RG})[/latex]",
+      "C": "[latex]S_G=Min(S_Q+d_{QG},S_R+d_{RG})[/latex]",
+      "D": "[latex]S_G=Min(d_{QG},d_{RG})[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 114 A moving average system is used for forecasting weekly demand. [latex]F_1(t)[/latex] and [latex]F_2(t)[/latex] are sequences of forecasts with parameters [latex]m_1[/latex] and [latex]m_2[/latex] , respectively, where [latex]m_1[/latex] and [latex]m_1[/latex]  ([latex]m_1 \\gt m_2[/latex]) denote the number of weeks over which the moving averages are taken. The actual demand shows a step increase from [latex]d_1[/latex] and [latex]d_2[/latex] at a certain time. Subsequently",
+    "solution": "since, [latex] m_{1}>m_{2} [/latex] the weightage of the latest demand would be more in [latex] F_{2}(t) [/latex]. Hence [latex] F_{2}(t) [/latex] will attain the value [latex] d_{2} [/latex] before [latex] F_{1}(t) [/latex]",
+    "options": {
+      "A": "neither [latex]F_1(t)[/latex] nor [latex]F_2(t)[/latex] will catch up with the value [latex]d_2[/latex]",
+      "B": "both sequences [latex]F_1(t)[/latex] and [latex]F_2(t)[/latex] will reach [latex]d_2[/latex] in the same period",
+      "C": "[latex]F_1(t)[/latex] will attain the value [latex]d_2[/latex] before [latex]F_2(t)[/latex]",
+      "D": "[latex]F_2(t)[/latex] will attain the value [latex]d_2[/latex] before [latex]F_1(t)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 115 For the standard transportation linear program with m sources and n destinations and total supply equaling total demand, an optimal solution (lowest cost) with the smallest number of nonzero [latex]x_{ij}[/latex] values (amounts from source i to destination j) is desired. The best upper bound for this\nnumber is",
+    "solution": "Degeneracy arises if number of allocation are less than  m+n-1",
+    "options": {
+      "A": "mn",
+      "B": "2(m+n)",
+      "C": "m+n",
+      "D": "m+n-1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 116 A set of 5 jobs is to be processed on a single machine. The processing time (in days) is given in the table below.\r\nThe holding cost for each job is Rs. K per day A schedule that minimizes the total inventory cost is",
+    "solution": "The total inventory cost is minimized When the \r\njobs are processed according to the shortest \r\nprocessing time, i.e. job with least processing time should be done first.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page24_q1.webp",
+    "options": {
+      "A": "T -S -Q -R -P",
+      "B": "P -R -S -Q -T",
+      "C": "T -R -S -Q -P",
+      "D": "P -Q -R -S -T"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 117 In an M/M/1 queuing system, the number of arrivals in an interval of length T is a Poisson random\nvariable (i.e. the probability of there being n arrivals in an interval of length T is [latex]\\frac{e^{(-\\lambda T)}(\\lambda T)^{n}}{n!}[/latex]. The\nprobability density function f(t) of the inter-arrival time is given by",
+    "solution": "The most common distribution found in queuing problems is poisson distribution. This is used in single-channel queuing problems for random arrivals where the service time is exponentially distributed. Probability of n arrivals in time t [latex]P=\\frac{(\\lambda T)^n\\cdot e^{-\\lambda T}}{n!}[/latex] where,  n=1,2,3,... So, Probability density function of inter arrival time (time interval between two consecutive arrivals) [latex]f(t)=\\lambda \\cdot e^{-\\lambda t}[/latex]",
+    "options": {
+      "A": "[latex]\\lambda ^{2}(e^{-\\lambda ^{2}t})[/latex]",
+      "B": "[latex]\\frac{(e^{-\\lambda ^{2}t})}{\\lambda ^{2}}[/latex]",
+      "C": "[latex]\\lambda (e^{-\\lambda t})[/latex]",
+      "D": "[latex]\\frac{(e^{-\\lambda t})}{\\lambda }[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 118 The net requirements of an item over 5 consecutive weeks are 50 - 0 - 15 - 20 - 20. The inventory carrying cost and ordering cost are Rs. 1 per item per week and Rs. 100 per order respectively. Starting inventory is zero. Use \"Least Unit Cost Technique\" for developing the plan.  The cost of the plan (in Rs.) is",
+    "solution": "[latex]\\begin{array}{llr} D & \\text { single order } & \\text { cost } \\\\ 50 & 105-50 & 100 \\\\ 0 & 55 & 55 \\\\ 15 & 55-15=40 & 55 \\\\ 20 & 40-20 & 40 \\\\ 20 & 20-20 & 20 \\\\ & & \\text { Total cost } 270 \\\\ D & \\text { Double order } & \\text { cost } \\\\ 50 & 65-50=15 & 100 \\\\ 0 & 15 & 15 \\\\ 15 & 15-15=0 & 15+100 \\\\ 20 & 40-20 & 20 \\\\ 20 & 20-20=0 & \\text { Total cost } 250 \\end{array}[/latex] Hence, cost of plan Rs. 250",
+    "options": {
+      "A": "200",
+      "B": "250",
+      "C": "255",
+      "D": "260"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 119 In a machine shop, pins of 15 mm diameter are produced at a rate of 1000 per month and the same is consumed at a rate of 500 per month.  The production and consumption continue simultaneously till the maximum inventory is reached. Then inventory is allowed to reduced to zero due to consumption. The lost size of production is 1000. If backlog is not allowed, the maximum inventory level is",
+    "solution": "Maximum Inventory level [latex]=(P-d) \\frac{Q}{P} [/latex] [latex] \\begin{aligned} \\text { Here } P&=1000 \\text { per month } \\\\ d&=500 \\text { per month } \\\\ Q&=1000 \\end{aligned} [/latex] [latex] \\therefore [/latex] Maximum Inventory level [latex] \\begin{aligned} &=(1000-500) \\times \\frac{1000}{1000} \\\\ &=500 \\end{aligned}[/latex]",
+    "options": {
+      "A": "400",
+      "B": "500",
+      "C": "600",
+      "D": "700"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 120 The maximum level of inventory of an item is 100 and it is achieved with infinite replenishment rate. The inventory becomes zero over one and half month due to consumption at a uniform rate. This cycle continues throughout the year. Ordering cost is Rs. 100 per order and inventory carrying cost is Rs. 10 per item per month. Annual cost (in Rs.) of the plan, neglecting material cost, is",
+    "solution": "Total Annual cost  =  Annual carrying cost  + Annual ordering cost. Now Annual carrying cost [latex]\r\n=\\frac{Q}{2} \\times C_{h}[/latex] where Q= Units per order =100 [latex] C_{h}=[/latex] Inventory carrying cost is Rs.10 per  item per month Hence, [latex] \\quad C_{n}=12 \\times 10 [/latex] per item per year = Rs 120 per item per year [latex] \\therefore [/latex]Annual carrying cost [latex] =\\frac{100}{2} \\times 120=6000[/latex] Now cost of an order = Rs. 100 and no of orders per year [latex] =\\frac{12 \\mathrm{months}}{1.5 \\mathrm{months}}=8[/latex] Hence, annual ordering cost [latex] =8 \\times 100=800[/latex] Hence, total Annual cost =6000+800=6800",
+    "options": {
+      "A": "800",
+      "B": "2800",
+      "C": "4800",
+      "D": "6800"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 121 Capacities of production of an item over 3 consecutive months in regular time are 100, 100 and 80 and in overtime are      20, 20 and 40. The demands over those 3 months are 90, 130 and 110. The cost of production in regular time and overtime are respectively Rs. 20 per item and       Rs. 24 per item. Inventory carrying cost is Rs. 2 per item per month. The levels of starting and final inventory are nil. Backorder is not permitted. For minimum cost of plan, the level of planned production in overtime in the third month is",
+    "solution": "For 1st month there is no need to overtime, because demand is 90 units and regular time production is 100 units, therefore 10 units are excess in amount. For 2nd month the demand is 130 unit and production capacity with overtime is 100 + 20 = 120 units, therefore 10 units (130 – 120 =10) are short in amount, which is fulfilled by 10 units excess of 1st month. So at the end of 2nd month there is no inventory. Now for the 3rd month demand is 110 units and regular time production is 80 units. So remaining 110 – 80 = 30 units are produced in overtime (which has 40 units) to fulfill the demand for minimum cost of plan.",
+    "options": {
+      "A": "40",
+      "B": "30",
+      "C": "20",
+      "D": "0"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 122 Consider a PERT network for a project involving six tasks (a to f). The standard deviation of the critical path of the project is:",
+    "solution": "For critical path a-c-e-f , the variance for each task is shown below Total variance =25+81+36+9=151 We know that Standard deviation, [latex] \\sigma=\\sqrt{\\text { Variance }}[/latex] [latex] \\therefore [/latex] S.D. of critical path, [latex] \\sigma_{\\mathrm{cp}}=\\sqrt{151} \\text { days }[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page25_q2.webp",
+    "options": {
+      "A": "[latex]\\sqrt{151}[/latex] days",
+      "B": "[latex]\\sqrt{155}[/latex] days",
+      "C": "[latex]\\sqrt{200}[/latex] days",
+      "D": "[latex]\\sqrt{238}[/latex] days"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 123 Consider a PERT network for a project involving six tasks (a to f). The expected completion time of the project is:",
+    "solution": "PERT network are Here we see that expected completion time of the project is 155 days and critical path is  a-c-e-f",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page25_q3.webp",
+    "options": {
+      "A": "238 days",
+      "B": "224 days",
+      "C": "171 days",
+      "D": "155 days"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 124 The table gives details of an assembly line. What is the line efficiency of the assembly line?",
+    "solution": "[latex]\\begin{aligned} \\text { Total time used } &=7+9+7+10+9+6 \\\\ &=48 \\mathrm{min} \\\\ \\text { Cycle time } &=10 \\mathrm{min} \\end{aligned}[/latex] No. of work station = 6 Line efficiency [latex] \\begin{aligned} &=\\frac{\\text { Total time used }}{N 0 . \\text { of work station } \\times \\text { cycle time }} \\\\ &=\\frac{48}{6 \\times 10} \\times 100=80 \\% \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page25_q4.webp",
+    "options": {
+      "A": "70%",
+      "B": "75%",
+      "C": "80%",
+      "D": "85%"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 125 A stockist wishes to optimize the number of perishable items he needs to stock in any month in his store. The demand distribution for this perishable item is: The stockist pays Rs.70 for each item and he sells each at Rs.90. if the stock is left unsold in any month, he can sell the item at Rs.50 each. There is no penalty for unfulfilled demand. To maximize the expected profit, the optimal stock level is:",
+    "solution": "[latex]p(d \\geq Q)=[/latex] Probability that the demand for Q units or more [latex] M_{p}=[/latex] Marginal profit per unit sold [latex] =90-70=\\mathrm{Rs} .20 [/latex] [latex] M_{L}=[/latex] Marginal loss from each unit that is left unsold [latex] =Rs. 70-50\\;= Rs. 20[/latex] [latex] p(d \\geq Q)=\\frac{M_{P}}{M_{P}+M_{L}}=\\frac{20}{20+20}=0.5[/latex] Hence to maximize profit, optimal stock level is 4.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page25_q5.webp",
+    "options": {
+      "A": "5 units",
+      "B": "4 units",
+      "C": "3 units",
+      "D": "2 units"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 126 A firm is required to procure three items (P, Q and R). The prices quoted for these items (in Rs.) by suppliers S1, S2 and S3 are given in table. The management policy requires that each item has to be supplied by only one supplier and one supplier supply only one item. The minimum total cost (in Rs.) of procurement to the firm is:",
+    "solution": "Step 1: Substract minimum entry in each column from all the entries on that column, Step 2 : Substract minimum entry in each row of job-opportunity cost matrix from all the entries of that row. Step 3: Draw minimum number of horizontal and vertical lines to cover all zeros. This can be done in 2 lines, which is one less than the number of rows (which is 3). Thus the solution is yet not fixed. Hence go to step 4 Step 4 : From the uncovered entries, the minimum is 5. Thus, substract 5 from all the entries, which are uncovered. Add 5 at junction of lines. We get the following matrix now, as the revised opportunity cost matrix. Thus final assignment is The minimum cost =120+140+125=385",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page26_q1.webp",
+    "options": {
+      "A": "350",
+      "B": "360",
+      "C": "385",
+      "D": "395"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 127 Consider the following data for an item. Annual demand: 2500 units per year Ordering cost: Rs.100 per order Inventory holding rate: 25% of unit price. The optimum order quantity (in units) is:",
+    "solution": "Given Annual demand: D=2500 Units per year Ordering cost: C_{0}= Rs. 100 per order Inventory holding rate: i=0.25 of units prices Case 1: Let economic order quality is less than 500 for the inventory holding cost [latex] C_{C}=\\frac{25}{100} \\times 10=2.5[/latex] for this case [latex] \\begin{aligned} \\mathrm{EOQ} &=\\sqrt{\\frac{2 D C_{0}}{C_{C}}} \\\\ &=\\sqrt{\\frac{2 \\times 2500 \\times 100}{2.5}}=447.2\\\\ &\\text{Inventory cost (TIC)}\\\\ &=\\sqrt{2 \\times C_{0} \\times C_{C} \\times D} \\\\ &=\\sqrt{2 \\times 100 \\times 0.25 \\times 10 \\times 2500} \\\\ &=1118.03\\\\ \\end{aligned}[/latex] Case 2: Let EQQ is greater than 500(EOQ [latex]\\gt[/latex] 500) for this case [latex] \\begin{aligned} C_{c} &=\\frac{25}{100} \\times 9=2.25 \\\\ \\mathrm{EOQ} &=\\sqrt{\\frac{2 \\times 2500 \\times 100}{2.25}} \\\\ &=471.4 \\end{aligned}[/latex] This is against the assumption made so correct [latex] \\mathrm{EOQ}=447.2 \\approx 447 \\mathrm{Units}[/latex] When price break occurs [latex] \\begin{aligned} \\mathrm{TIC} \\text { at } Q=&500 \\\\ \\mathrm{TIC}=&(\\text { Average inventory })\\\\ &\\times (\\text{unit inventory cost})\\\\ &+(\\mathrm{No} . \\text { of order per year }) \\\\ & \\times(\\operatorname{cost} \\text { of order }) \\\\ =& \\frac{Q}{2} \\times C_{C}+\\frac{D}{Q} \\times C_{O} \\\\ =& \\frac{500}{2} \\times 9 \\times .25+\\frac{2500}{500} \\times 100 \\end{aligned}[/latex] Hence, quantity to be ordered is 500",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page26_q2.webp",
+    "options": {
+      "A": "447",
+      "B": "471",
+      "C": "500",
+      "D": "[latex]\\geq[/latex]600"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 128 A manufacturing shop processes sheet metal jobs, The optimal make-span (in hours) of the shop is: wherein each job must pass through two machines (M1 and M2, in that order). The processing time (in hours) for these jobs is: The optimal make-span (in hours) of the shop is:",
+    "solution": "Accorting to Johnson's algorithm, sequencing of jobs is Now",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page26_q3.webp",
+    "options": {
+      "A": "120",
+      "B": "115",
+      "C": "109",
+      "D": "79"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 129 In an MRP system, component demand is:",
+    "solution": "MRP (Material Requirement Planning) : MRP function is a computational technique with the help of which the master schedule for end products is converted into a detailed schedule for raw materials and components used in the end product. Input to MRP (i) Master production schedule. (ii) The bill of material (iii) Inventory records relating to raw materials.",
+    "options": {
+      "A": "forecasted",
+      "B": "established by the master production schedule",
+      "C": "calculated by the MRP system from the master production schedule",
+      "D": "ignored"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 130 The number of customers arriving at a railway reservation counter is Poisson distributed with an arrival rate of eight customers per hour. The reservation clerk at this counter takes six minutes per customer on an average with an exponentially distributed service time. The average number of the customers in the queue will be",
+    "solution": "Arrival rate, [latex] \\lambda=8 [/latex] per hour Service rate: [latex] \\mu=\\frac{60}{6}=10 [/latex] per hour Average number of customer in the queue [latex] L_{q}=\\frac{\\lambda^{2}}{\\mu(\\mu-\\lambda)}=\\frac{(8)^{2}}{10(10-8)}=3.2 [/latex]",
+    "options": {
+      "A": "3",
+      "B": "3.2",
+      "C": "4",
+      "D": "4.2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 131 Consider a linear programming problem with two variables and two constraints. The objective function is: Maximize [latex]X_{1}+X_{2}[/latex]. The corner points of the feasible region are (0,0), (0,2), (2,0) and [latex]\\left ( \\frac{4}{3},\\frac{4}{3} \\right )[/latex] Let [latex]Y_{1}[/latex]\r\n and [latex]Y_{2}[/latex]\r\n be the decision variables of the dual and [latex]v_{1}[/latex]\r\n and [latex]v_{2}[/latex]\r\n be the slack variables of the dual of the given linear programming problem. The optimum dual variables are",
+    "solution": "We know, The inequality constraints are changed to equality constraints by adding or subtracting a non-negative variable from the left-hand sides of such constraints. These variable is called slack variables or simply slacks. They are added if the constraints are [latex](\\leq )[/latex] and subtracted if the constraints are  [latex](\\leq )[/latex]. These variables can remain positive throughout the process of solution and their values in the optimal solution given useful information about the problem. Hence, Optimum dual variables are [latex]v_{1}[/latex] and [latex]v_{2}[/latex]",
+    "options": {
+      "A": "[latex]Y_{1}[/latex] and [latex]Y_{2}[/latex]",
+      "B": "[latex]Y_{1}[/latex] and [latex]v_{1}[/latex]",
+      "C": "[latex]Y_{1}[/latex] and [latex]v_{2}[/latex]",
+      "D": "[latex]v_{1}[/latex] and [latex]v_{2}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 132 Consider a linear programming problem with two variables and two constraints. The objective function is: Maximize [latex]X_{1}+X_{2}[/latex]. The corner points of the feasible region are (0,0), (0,2), (2,0) and [latex]\\left ( \\frac{4}{3},\\frac{4}{3} \\right )[/latex] If an additional constraint [latex]X_{1}+X_{2}\\leq 5[/latex]\n is added, the optimal solution is",
+    "solution": "Constant equation [latex]x_{1}+x_{2} \\leq 5 [/latex] has no effect on optimal region [latex] \\therefore [/latex] Optimal solution, [latex] \\left(\\frac{4}{3}, \\frac{4}{3}\\right) [/latex]",
+    "options": {
+      "A": "[latex]\\left ( \\frac{5}{3} ,\\frac{5}{3} \\right )[/latex]",
+      "B": "[latex]\\left ( \\frac{4}{3} ,\\frac{4}{3} \\right )[/latex]",
+      "C": "[latex]\\left ( \\frac{5}{2} ,\\frac{5}{2} \\right )[/latex]",
+      "D": "[latex](5,0)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 133 A company has two factories S1, S2 and two warehouses D1, D2. the supplies from S1 and S2 are 50 and 40 units respectively. Warehouse D1 requires a minimum of 20 units and a maximum of 40 units. Warehouse D2 requires a minimum of 20 units and, over and above, it can take as much as can be supplied. A balanced transportation problem is to be formulated for the above situation. The number of supply points, the number of demand points, and the total supply (or total demand) in the balanced transportation problem respectively are",
+    "solution": "For balance transportation problem no. of supply points =m+n-1=2+2-1=3 No. of demand point =4 Total demand =50+40=90",
+    "options": {
+      "A": "2, 4, 90",
+      "B": "2, 4, 110",
+      "C": "3, 4, 90",
+      "D": "3, 4, 110"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 134 A project has six activities (A to F) with respective activity durations 7,5,6,6,8,4 days. The network has three paths A-B,C-D and E-F. All the activities can be crashed with the same crash cost per day. The number of activities that need to be crashed to reduce the project duration by 1 day is",
+    "solution": "The 3 activity need to be crashed to reduce the project duration by 1 day.",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "6"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 135 The distribution of lead-time demand for an item is as follows: The reorder level is 1.25 times the expected value of the lead-time demand. The service level is",
+    "solution": "Expected value [latex] \\begin{aligned} &=80 \\times 0.2+100 \\times 0.25 \\\\ &+120 \\times 0.3+140 \\times 0.25\\\\ &=112\\\\\\mathrm{ROL}&=112 \\times 1.25=140\\\\ \\end{aligned}[/latex] Demand is never more than 140 , so serviceled is 100 %",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page27_q5.webp",
+    "options": {
+      "A": "25%",
+      "B": "50%",
+      "C": "75%",
+      "D": "100%"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 136 A welding operation is time-studied during which a operator was pace-rated as 120%. The operator took, on an average, 8 minutes for producing the weld-joint. If a total of 10% allowances are allowed for this operation, the expected standard production rate of the weld-joint (in units per 8 hour day) is",
+    "solution": "Rating factor =1.2 Normal time = Element time [latex] \\times [/latex] Rating factor [latex] \\begin{aligned} &=8 \\times 1.2=9.6 \\mathrm{min} \\\\ \\text { Standard } &=\\text { Normal time }+\\text { Allowances } \\\\ &=9.6+\\frac{10}{100} \\times 9.6 \\\\ &=10.56 \\mathrm{min} \\end{aligned}[/latex] Standard production rate [latex] =\\frac{8 \\times 60}{10.56} \\text { units } \\approx 45[/latex]",
+    "options": {
+      "A": "45",
+      "B": "50",
+      "C": "55",
+      "D": "60"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 137 A component can be produced by any of the four processes I, II, III and IV. Process I has a fixed cost of Rs.20 and variable cost of Rs.3 per piece. Process II has a fixed cost of Rs.50 and variable cost of Re.1 per piece. Process III has a fixed cost of Rs.40 and variable cost of Rs.2 per piece. Process IV has a fixed cost of Rs.10 and variable cost of Rs.4 per piece. If the company wishes to produce 100 pieces of the component, from economic point of view it should choose",
+    "solution": "No. of pieces produced N=100 piece We know that, [latex] \\begin{aligned} \\text { Total cost: } & T_{c}=F+V N \\\\ & F=\\text { fixed cost } \\\\ & V=\\text { variable cost } \\end{aligned}[/latex] For process I, total cost [latex] T C_{1}=20+3 \\times 100=320[/latex] Similarly total cost for different processes, [latex] \\begin{aligned} T C_{2}&=50+1 \\times 100=150 \\\\ T C_{3}&=40+2 \\times 100=240 \\\\ T C_{4}&=10+4 \\times 100=410 \\end{aligned}[/latex] Here we see that total cost is minimumfor process II",
+    "options": {
+      "A": "Process I",
+      "B": "Process II",
+      "C": "Process III",
+      "D": "Process IV"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 138 Consider a single server queuing model with Poisson arrivals [latex](\\lambda =4/hour)[/latex]\r\n and exponential service [latex](\\mu =4/hour)[/latex]\r. The number in the system is restricted to a maximum of 10. The probability that a person who comes in leaves without joining the queue is",
+    "solution": "[latex]\\begin{aligned}\\text{Given }\\quad \\lambda&=4\\text{ per hour} \\\\ \\mu&=4\\text{ per hour} \\end{aligned}[/latex] Traffic intensity, [latex] \\rho=\\frac{\\lambda}{\\mu}=\\frac{4}{4}=1[/latex] We know that [latex] \\begin{array}{l} \\sum_{n=0}^{10} P_{n}=1 \\\\ \\therefore P_{0}+P_{1}+P_{3}+\\ldots+P_{10}=1 \\\\ P_{0}+\\rho P_{0}+\\rho^{2} P_{0}+\\rho^{3} P_{0}+\\ldots+\\rho^{10} P_{0}=1 \\\\ P_{0}\\left(1+\\rho+\\rho^{2}+\\ldots+\\rho^{10}\\right)=1 \\\\ P_{0}(1+1+\\ldots+1)=1 \\\\ \\therefore \\quad P_{0}=\\frac{1}{11} \\end{array}[/latex] Probability that a person who comes in leaves without joining the queue i.e. [latex] P_{11}=\\rho^{11} P_{0}=(1)^{11} \\times \\frac{1}{11}=\\frac{1}{11}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{11}[/latex]",
+      "B": "[latex]\\frac{1}{10}[/latex]",
+      "C": "[latex]\\frac{1}{9}[/latex]",
+      "D": "[latex]\\frac{1}{2}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 139 The sales of a product during the last four years were 860, 880, 870 and 890 units. The forecast for the fourth year was 876 units. If the forecast for the fifth year, using simple exponential smoothing, is equal to the forecast using a three period moving average, the value of the exponential smoothing constant [latex]\\alpha[/latex] is",
+    "solution": "By moving average method  forecast of fifth year [latex] f_{5}=\\frac{880+870+890}{3}=880 \\text { units }[/latex] By exponential smoothing method [latex] \\begin{aligned} f_{5} &=f_{4}+\\alpha\\left(d_{4}-f_{4}\\right) \\\\ 880 &=876+\\alpha(890-876) \\\\ 14 \\alpha &=4\\\\ \\text{or }\\qquad \\alpha&=\\frac{4}{14}=\\frac{2}{7} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{7}[/latex]",
+      "B": "[latex]\\frac{1}{5}[/latex]",
+      "C": "[latex]\\frac{2}{7}[/latex]",
+      "D": "[latex]\\frac{2}{5}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 140 An assembly activity is represented on an Operation Process Chart by the symbol",
+    "solution": "",
+    "options": {
+      "A": "[latex]\\square[/latex]",
+      "B": "A",
+      "C": "D",
+      "D": "O"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 141 A company produces two types of toys: P and Q. Production time of Q is twice that of P and the company has a maximum of 2000 time units per day. The supply of raw material is just sufficient to produce 1500 toys (of any type) per day. Toy type Q requires an electric switch which is available @ 600 pieces per day only. The company makes a profit of Rs.3 and Rs.5 on type P and Q respectively. For maximization of profits, the daily production quantities of P and Q toys should respectively be",
+    "solution": "[latex]\\begin{aligned} \\text{Given }\\quad P+2 Q &\\leq 2000 \\qquad\\ldots(i)\\\\ P+Q & \\leq 1500 \\qquad\\ldots(ii)\\\\ Q & \\leq 600 \\end{aligned}[/latex] Objective function [latex] z_{\\max }=3 P+5 Q[/latex] At point [latex] A \\;\\quad z=3 \\times 800+600 \\times 58=5400 [/latex] At point [latex] B \\;\\quad z=3 \\times 1000+5 \\times 500=5500 [/latex] Hence z to be maximum at [latex] (1000,500)=5500 [/latex]",
+    "options": {
+      "A": "1000, 500",
+      "B": "500, 100",
+      "C": "800, 600",
+      "D": "1000, 1000"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 142 A company has an annual demand of 1000 units, ordering cost of Rs.100/order and carrying cost of Rs.100/unit -year. If the stock-out costs are estimated to be nearly Rs.400 each time the company runs out-of-stock, the safety stock justified by the carrying cost will be",
+    "solution": "We need to find stock justified by carrying cost i.e.,[latex]M^{*} [/latex] [latex] \\begin{aligned} M^{\\star} &=Q^{*}-S^{*} \\\\ Q^{*} &=50 \\\\ S^{*} &=\\frac{C_{h}}{C_{b}+C_{h}} \\times Q^{\\star} \\\\ &=\\frac{100}{100+400} \\times 50 \\\\ S^{*} &=10\\\\ \\text{and }M^{\\star}&=50-10=40 \\end{aligned}[/latex]",
+    "options": {
+      "A": "4",
+      "B": "20",
+      "C": "40",
+      "D": "100"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 143 A maintenance service facility has Poisson arrival rates, negative exponential service time and operates on a 'first come first served' queue discipline. Breakdowns occur on an average of 3 per day with a range of zero to eight. The maintenance crew can service an average of 6 machines per day with a range of zero to seven. The mean waiting time for an item to be serviced would be",
+    "solution": "Given, Arrival rate: [latex] \\lambda=3 [/latex] per day Service rate: [latex] \\lambda=6 [/latex] per day Mean waiting time for an item to be serviced [latex] =\\frac{\\lambda}{\\mu(\\mu-\\lambda)}=\\frac{3}{6(6-3)}=\\frac{1}{2} \\times \\frac{1}{3}=\\frac{1}{6} \\; \\text{day}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{6} days[/latex]",
+      "B": "[latex]\\frac{1}{3} days[/latex]",
+      "C": "1 day",
+      "D": "3 days"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 144 An electronic equipment manufacturer has decided to add a component subassembly operation that can produce 80 units during a regular 8-hour shift. This operation consists of three activities as below For line balancing the number of work stations required for the activities M, E and T would respectively be",
+    "solution": "Step - I [latex] \\begin{array}{c|c} Activity & \\text{Standard time} \\\\ \\hline M & 12 \\\\ E & 16 \\\\ T & 3 \\end{array}[/latex] Cylce time = 16 min then no of units produce [latex] =\\frac{8 \\times 60}{16}=30 \\text{ units in  8hrs} [/latex] Step - II [latex] \\begin{array}{c|c} Activity & \\text{Standard time} \\\\ \\hline M & 12 \\\\ 2 E & 8 \\\\ T & 3 \\end{array}[/latex] Cylce time =12 min then no. of units produce [latex] =\\frac{8 \\times 60}{12}=40 \\text { units in } 8 \\text { hrs. }[/latex] Step - III [latex] \\begin{array}{c|c} Activity & \\text{Standard time} \\\\ \\hline 2 M & 6 \\\\ 2 E & 8 \\\\ T & 3 \\end{array}[/latex] time Cylce =8 min then no. of units produce [latex] =\\frac{8 \\times 60}{8}=60 \\text { units in } 8 \\text { hrs. }[/latex] Step - IV [latex] \\begin{array}{c|c} Activity & \\text{Standard time} \\\\ \\hline 2 M & 6 \\\\ 3 E & 5.33 \\\\ T & 3 \\end{array}[/latex] Cylce time =6min then no. of units produce [latex] =\\frac{8 \\times 60}{6}=80 \\text{ units in 8hrs }[/latex] So, number of work stations required 2,3,1 respectively",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page29_q4.webp",
+    "options": {
+      "A": "2, 3, 1",
+      "B": "3, 2,1",
+      "C": "2, 4, 2",
+      "D": "2, 1, 3"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 145 A soldering operation was work-sampled over two days (16 hours) during which an employee soldered 108 joints. Actual working time was 90% of the total time and the performance rating was estimated to be 120 percent. If the contract provides allowance of 20 percent of the total time available, the standard time for the operation would be",
+    "solution": "[latex]\\begin{aligned} \\text { Total time } &=16 \\text { hours }=16 \\times 60 \\text { min } \\\\ \\text { Actual time } &=\\frac{90}{100} \\times 16 \\times 60=864 \\text { min } \\\\ \\text { Normal time } &=\\text { Actual time } \\times \\text { Rating factor } \\\\ \\text { Normal time } &=\\text { Actual time } \\times \\frac{120}{100} \\\\ &=864 \\times 1.2=1036.8 \\mathrm{min} \\\\ \\text { Standard time } &=\\text { Normal time + Allowances } \\\\ &=1244.16 \\mathrm{min} \\\\ &\\text{Standard time per joint}\\\\ &=\\frac{1244.16}{108}=12 \\mathrm{min} \\end{aligned}[/latex]",
+    "options": {
+      "A": "8 min.",
+      "B": "8.9 min.",
+      "C": "10 min.",
+      "D": "12 min."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 146 A standard machine tool and an automatic machine tool are being compared for the production of a component. Following data refers to the two machines. The breakeven production batch size above which the automatic machine tool will be economical to use, will be",
+    "solution": "Total cost of [latex] x_{1}[/latex] component by using standard  machine tool [latex] \\begin{aligned} (T C)_{1} &=\\left(\\frac{30}{60}+\\frac{22 x_{1}}{60}\\right) \\times 200 \\\\ &=100+\\frac{2200}{30} x_{1} \\end{aligned}[/latex] Total cost [latex] x_{2} [/latex] component by using Automatic machine tool. [latex] \\begin{aligned} (T C)_{2} &=\\left(2+\\frac{5}{60} \\times x_{2}\\right) \\times 800 \\\\ &=1600+\\frac{2000}{300} x_{2} \\end{aligned}[/latex] Let break even quantity be x At break even point [latex] \\begin{aligned} (T C)_{1}&=(T C)_{2} \\\\ \\therefore \\quad 100+\\frac{2200}{30} x&=1600+\\frac{2000}{30} x\\\\ \\text{or }\\quad6.667 x&=1500 \\\\ \\therefore \\quad x&=225 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page30_q1.webp",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "24",
+      "D": "225"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 147 There are two products P and Q with the following The economic order quantity (EOQ) of products P and Q will be in the ratio characteristics",
+    "solution": "[latex]\\begin{aligned} \\left(\\mathrm{E} \\mathrm{O}_{\\mathrm{Q}}\\right)_{\\mathrm{p}}&=\\sqrt{\\frac{2 \\mathrm{DC}_{0}}{C_{\\mathrm{h}}}}=\\sqrt{\\frac{2 \\times 50 \\times 100}{4}}=50 \\\\ \\left(\\mathrm{E} \\mathrm{O}_{\\mathrm{Q}}\\right)_{\\mathrm{Q}}&=\\sqrt{\\frac{2 \\mathrm{DC}_{\\mathrm{o}}}{\\mathrm{C}_{h}}}=\\sqrt{\\frac{2 \\times 50 \\times 100}{1}}=200 \\\\ \\therefore \\frac{\\left.\\mathrm{E} \\mathrm{O}_{\\mathrm{Q}}\\right)_{\\mathrm{p}}}{\\left(\\mathrm{E} \\mathrm{O}_{\\mathrm{Q}}\\right)_{\\mathrm{O}}}&=\\frac{50}{200}=\\frac{1}{4} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page30_q2.webp",
+    "options": {
+      "A": "[latex]1:1[/latex]",
+      "B": "[latex]1:2[/latex]",
+      "C": "[latex]1:4[/latex]",
+      "D": "[latex]1:8[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 148 For a product, the forecast and the actual sales for December 2002 were 25 and 20 respectively. If the exponential smoothing constant ([latex]\\alpha[/latex]) is taken as 0.2, the forecast sales for January 2003 would be",
+    "solution": "[latex]\\begin{aligned} \\text { Given } \\quad x_{t}&=\\text { actual sale }=20 \\\\ \\qquad F_{t} &=\\text { forecast sale }=25 \\\\ \\text { Now, } \\quad F_{t+1} &=F_{t}+\\alpha\\left(x_{t}-F_{t}\\right) \\\\ &=25+0.2(20-25)=24 \\end{aligned}[/latex]",
+    "options": {
+      "A": "21",
+      "B": "23",
+      "C": "24",
+      "D": "27"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 149 In PERT analysis a critical activity has",
+    "solution": "PERT (Programme Evaluation and Review Technique) uses even oriented network in which successive events are joined by arrows. Float is the difference between the maximum time available to perform the activity and the activity duration. In PERT analysis a critical activity has zero float.",
+    "options": {
+      "A": "maximum Float",
+      "B": "zero Float",
+      "C": "maximum Cost",
+      "D": "minimum Cost"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 150 A Project consists of activities A to M shown in the net in the following figure with the duration of the activities marked in days The project can be completed",
+    "solution": "Maximum time along path CFKM. So this is the critical path. [latex] \\therefore [/latex] The project can be completed in 4+9+3+8= 24days",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Mechanical/screenshots/ie/page30_q5.webp",
+    "options": {
+      "A": "between 18, 19 days",
+      "B": "between 20, 22 days",
+      "C": "between 24, 26 days",
+      "D": "between 60, 70 days"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 151 A manufacturer produces two types of products, 1 and 2, at production levels of [latex]x_{1}[/latex]\n and [latex]x_{2}[/latex]\n respectively. The profit is given is [latex]2x_{1}+5x_{2}[/latex]. The production constraints are [latex]x_{1}+3x_{2}\\leq 40[/latex] [latex]3x_{1}+x_{2}\\leq 24[/latex] [latex]x_{1}+x_{2}\\leq 10[/latex] [latex]x_{1}\\gt 0,x_{2}\\gt 10[/latex] The maximum profit which can meet the constraints is",
+    "solution": "Given system are [latex] \\begin{aligned} x_{1}+3 x_{2} & \\leq 40 \\qquad\\ldots(i)\\\\ 3 x_{1}+x_{2} & \\leq 24 \\qquad\\ldots(ii)\\\\ x_{1}+x_{2} & \\leq 10 \\qquad\\ldots(iii)\\\\ x, &>0, x_{2}>0 \\end{aligned}[/latex] Objective function, [latex] z=2 x_{1}+5 x_{2}[/latex] Solving the eqs. (ii) and (iii); we get [latex] \\begin{aligned} x_{1}&=7\\\\ and\\quad x_{2} &=3 \\\\ z_{\\max } &=2 \\times 7+5 \\times 3=29 \\end{aligned}[/latex]",
+    "options": {
+      "A": "29",
+      "B": "38",
+      "C": "44",
+      "D": "75"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 152 Market demand for springs is 8,00,000 per annum. A company purchases these springs in lots and sells them. The cost of making a purchase order is Rs. 1,200. The cost of storage of springs is Rs. 120 per stored piece per annum. The economic order quantity is",
+    "solution": "Given, Demand (D)=8,00,000 per annum Order [latex] \\text{cost} C_{0}= [/latex] Rs. 1200 per order Holding cost [latex]C_{h}=[/latex] Rs. 120 per stored piece per annum We know that, [latex] \\begin{aligned} \\mathrm{EOQ} &=\\sqrt{\\frac{2 C_{o} D}{C_{h}}} \\\\ &=\\sqrt{\\frac{2 \\times 800000 \\times 1200}{120}} \\\\ &=4000 \\end{aligned}[/latex]",
+    "options": {
+      "A": "400",
+      "B": "2,828",
+      "C": "4,000",
+      "D": "8,000"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 153 The sales of cycles in a shop in four consecutive months are given as 70, 68, 82, and 95. Exponentially smoothing average method with a smoothing factor of 0.4 is used in forecasting. The expected number of sales in the next month is",
+    "solution": "Taking forecast for the first period equal to demand. [latex]F=F_{t-1}+\\alpha e_{t-1} [/latex] [latex]\\begin{array}{c|c|c} D_i &F_i & e_i\\\\ \\hline 70&70&0 \\\\ 68&70&-2 \\\\ 82& 69&2\\\\ 98&74.32&20.68 \\\\ \\hline &82.59& \\end{array} [/latex] Hence answer is 83.",
+    "options": {
+      "A": "59",
+      "B": "72",
+      "C": "86",
+      "D": "136"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 154 Two machines of the same production rate are available for use. On machine 1, the fixed cost is Rs. 100 and the variable cost is Rs. 2 per piece produced. The corresponding numbers for the machine 2 are Rs. 200 and Re. 1 respectively. For certain strategic reasons both the machines are to be used concurrently. The sale price of the first 800 units is Rs. 3.50 per unit and subsequently it is only Rs. 3.00. The breakeven production rate for each machine is",
+    "solution": "Let n quantities are produced by each machine. The total cost in production [latex] \\begin{aligned} &=100+2 \\times n+200+n \\\\ &=300+3 n \\end{aligned}[/latex] For the first 800 units, selling price is 3.50 Rs/Units Hence for breakeven point [latex] \\begin{aligned} 300+3 n&=3.5 \\times 2 n\\\\ \\therefore \\quad 7 n&=300+3 n\\\\ \\text{or}\\quad n&=75\\\\ \\end{aligned}[/latex]",
+    "options": {
+      "A": "75",
+      "B": "100",
+      "C": "150",
+      "D": "600"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 155 The symbol used for Transport in work study is",
+    "solution": "",
+    "options": {
+      "A": "[latex]\\Rightarrow[/latex]",
+      "B": "T",
+      "C": "[latex]\\square[/latex]",
+      "D": "[latex]\\bigtriangledown[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 156 A project consists of three parallel paths with mean durations and variances of (10,4), (12,4) and (12,9) respectively. According to the standard PERT assumptions, the distribution of the project duration is",
+    "solution": "In PERT (Program Evaluation and Review Technique), it is assumed that: : The project duration is governed by the critical path (the longest expected duration among all paths). The project duration follows a normal distribution approximately, due to the Central Limit Theorem. Step 1: List the mean durations and variances for each path: Path 1: [latex] \\mu_1 = 10, \\ \\sigma_1^2 = 4 [/latex] Path 2: [latex] \\mu_2 = 12, \\ \\sigma_2^2 = 4 [/latex] Path 3: [latex] \\mu_3 = 12, \\ \\sigma_3^2 = 9 [/latex] Step 2: Identify the critical path Since the critical path is the one with the maximum mean duration: [latex] \\max(\\mu_1, \\mu_2, \\mu_3) = \\max(10, 12, 12) = 12 [/latex] We have two paths with mean duration 12. As per PERT, among these, the path with the larger variance is considered for total project variance (more conservative estimate). Thus, select Path 3: [latex] \\mu = 12, \\ \\sigma^2 = 9 [/latex] Step 3: Write the distribution The project duration approximately follows a normal distribution: [latex] N(\\mu, \\sigma^2) [/latex] i.e., [latex] N(12, 9) [/latex] Or equivalently: Mean = 12, Standard Deviation = [latex] \\sqrt{9} = 3 [/latex].",
+    "options": {
+      "A": "Beta with mean 10 and standard deviation 2",
+      "B": "Beta with mean 12 and standard deviation 2",
+      "C": "Normal with mean 10 and standard deviation 3",
+      "D": "Normal with mean 12 and standard deviation 3"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 157 The supply at three sources is 50, 40 and 60 units respectively whilst the demand at the four destinations is 20, 30, 10 and 50 units. In solving this transportation problem",
+    "solution": "",
+    "options": {
+      "A": "a dummy source of capacity 40 units is needed",
+      "B": "a dummy destination of capacity 40 units is needed",
+      "C": "no solution exists as the problem is infeasible",
+      "D": "none solution exists as the problem is degenerate"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 158 Arrivals at a telephone booth are considered to be Poisson, with an average time of 10 minutes between successive arrivals. The length of a phone call is distributed exponentially with mean 3 minutes. The probability that an arrival does not have to wait before service is",
+    "solution": "[latex]\\begin{aligned} \\lambda&=0.1 \\text{ per min.}\\\\ \\mu&=0.33 \\text{per min.}\\\\ \\rho&=\\frac{0.1}{0.33}=0.3 \\\\ P_{0}&=1-\\rho=0.7 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.3",
+      "B": "0.5",
+      "C": "0.7",
+      "D": "0.9"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 159 An item can be purchased for Rs.100. The ordering cost is Rs.200 and the inventory carrying cost is 10% of the item cost per annum. If the annual demand is 4000 units, the economic order quantity (in units) is",
+    "solution": "D= 4000 units/year. [latex]C_u=Rs. 100 [/latex] per unit, [latex]C_c=10 % [/latex] of [latex]C_u=0.1 \\times 100 Rs. 10[/latex] per unit per year, [latex]C_0=Rs. 200 [/latex] per order, Now we know that [latex]\\therefore {\\bf{EOQ}} = \\sqrt {\\frac{{2{\\bf{D}}{{\\bf{C}}_{\\bf{o}}}}}{{{{\\bf{C}}_{\\bf{c}}}}}}  = \\sqrt {\\frac{{2\\; \\times\\;4000\\;\\times\\;200}}{{10}}} = 400\\;{\\rm{units}}[/latex]",
+    "options": {
+      "A": "50",
+      "B": "100",
+      "C": "200",
+      "D": "400"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 160 The standard time of an operation while conducting a time study is",
+    "solution": "",
+    "options": {
+      "A": "mean observed time + allowances",
+      "B": "normal time + allowances",
+      "C": "mean observed time x rating factor + allowances",
+      "D": "normal time x rating factor + allowances"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 161 A regression model is used to express a variable Y as a function of another variable X. This implies that",
+    "solution": "",
+    "options": {
+      "A": "there is a causal relationship between Y and X",
+      "B": "a value of X may be used to estimate a value of Y",
+      "C": "values of X exactly determine values of Y",
+      "D": "there is no causal relationship between Y and X"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 162 Fifty observations of a production operation revealed a mean cycle time of 10 min. The worker was evaluated to be performing at 90% efficiency. Assuming the allowances to be 10% of the normal time, the standard time (in seconds) for the job is",
+    "solution": "",
+    "options": {
+      "A": "0.198",
+      "B": "7.3",
+      "C": "9",
+      "D": "9.9"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 163 When using a simple moving average to forecast demand, one would",
+    "solution": "",
+    "options": {
+      "A": "give equal weight to all demand data",
+      "B": "assign more weight to the recent demand data",
+      "C": "include new demand data in the average without discarding the earlier data",
+      "D": "include new demand data in the average after discarding some of the earlier demand data"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 164 Production flow analysis (PFA) is a method of identifying part families that uses data from",
+    "solution": "",
+    "options": {
+      "A": "engineering drawings",
+      "B": "production schedule",
+      "C": "bill of materials",
+      "D": "route sheets"
+    },
+    "correct_answer": "B"
+  }
+]
