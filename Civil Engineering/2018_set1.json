@@ -1,0 +1,647 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Which one of the following matrices is singular?",
+    "solution": "Option (A): [latex]\\left | A \\right |=6-5=1[/latex] Option (B): [latex]\\left | A \\right |=9-4=5[/latex] Option (C): [latex]\\left | A \\right |=12-12=0[/latex] Option (D): [latex]\\left | A \\right |=8-18=-10[/latex] Hence matrix (C) is singular.",
+    "options": {
+      "A": "[latex]\\begin{bmatrix} 2 &5 \\\\ 1 & 3 \\end{bmatrix}[/latex]",
+      "B": "[latex]\\begin{bmatrix} 3 &2 \\\\ 2 & 3 \\end{bmatrix}[/latex]",
+      "C": "[latex]\\begin{bmatrix} 2 &4 \\\\ 3 &6 \\end{bmatrix}[/latex]",
+      "D": "[latex]\\begin{bmatrix} 4 &3 \\\\ 6 &2 \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 For the given orthogonal matrix Q, [latex]Q=\\begin{bmatrix} 3/7 &2/7 &6/7\\\\ -6/7 &3/7 &2/7\\\\ 2/7 &6/7 &-3/7 \\end{bmatrix}[/latex] The inverse is",
+    "solution": "[latex] \\begin{aligned} \\left | Q \\right |&=\\frac{3}{7}\\left ( -\\frac{9}{49}-\\frac{12}{49} \\right )-\\frac{2}{7}\\left ( \\frac{18}{49}-\\frac{4}{49} \\right )+\\frac{6}{7}\\left ( \\frac{-36}{49}-\\frac{6}{49} \\right ) \\\\  &=-1 \\\\   Adj. \\; Q&=\\begin{bmatrix} -\\frac{21}{49} & \\frac{42}{49} &-\\frac{14}{49} \\\\ -\\frac{14}{49}& -\\frac{21}{49} & -\\frac{42}{49}\\\\ -\\frac{42}{49} & -\\frac{14}{49} & \\frac{21}{42} \\end{bmatrix} \\\\ \\therefore\\;\\;    Q^{-1}&=\\frac{Adj\\: Q}{\\left | Q \\right |}=\\begin{bmatrix} \\frac{3}{7} & -\\frac{6}{7} & \\frac{2}{7}\\\\ \\frac{2}{7} & \\frac{3}{7} & \\frac{6}{7}\\\\ \\frac{6}{7} & \\frac{2}{7} & -\\frac{3}{7} \\end{bmatrix} \\end{aligned} [/latex] Or [latex]\\because[/latex] Q is orthogonal [latex]\\therefore  \\;\\; Q^{-1}=Q^{T}[/latex]",
+    "options": {
+      "A": "[latex]\\begin{bmatrix} 3/7 &2/7 &6/7\\\\ -6/7 &3/7 &2/7\\\\ 2/7 &6/7 &-3/7 \\end{bmatrix}[/latex]",
+      "B": "[latex]\\begin{bmatrix} -3/7 &-2/7 &-6/7\\\\ 6/7 &-3/7 &-2/7\\\\ -2/7 &-6/7 &3/7 \\end{bmatrix}[/latex]",
+      "C": "[latex]\\begin{bmatrix} 3/7 &-6/7 &2/7\\\\ 2/7 &3/7 &6/7\\\\ 6/7 &2/7 &-3/7 \\end{bmatrix}[/latex]",
+      "D": "[latex]\\begin{bmatrix} -3/7 &6/7 &-2/7\\\\ -6/7 &-3/7 &-6/7\\\\ -2/7 &-2/7 &3/7 \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 At the point x= 0, the function [latex]f(x)=x^{3}[/latex] has",
+    "solution": "[latex]f\\left ( x \\right )=x^{3}[/latex] at [latex]x=0[/latex] At [latex]x=0[/latex], the function [latex]y=x^{3}[/latex] has neither minima nor maxima.",
+    "options": {
+      "A": "local maximum",
+      "B": "local minimum",
+      "C": "both local maximum and minimum",
+      "D": "neither local maximum nor local minimum"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 A column of height h with a rectangular cross-section of size ax2a has a buckling load of P. If the cross-section is changed to 0.5a x 3a and its height changed to 1.5h, the buckling load of the redesigned column will be",
+    "solution": "[latex]\\begin{aligned} \\text { For column, } & P=\\frac{\\pi^{2} E I_{\\min }}{L^{2}} \\\\ &=\\frac{\\pi^{2} E\\left(\\frac{2 a \\times a^{3}}{12}\\right)}{h^{2}}=\\frac{\\pi^{2} E a^{4}}{6 h^{2}}\\\\ \\text{For new column, }P&=\\frac{\\pi^{2} E\\left[\\frac{3 a \\times(0.5 a)^{3}}{12}\\right]}{(1.5 h)^{2}} \\\\ &=\\frac{1}{12} \\times \\frac{\\pi^{2} E a^{4}}{6 h^{2}}=\\frac{P}{12} \\end{aligned}[/latex]",
+    "options": {
+      "A": "P/12",
+      "B": "P/4",
+      "C": "P/2",
+      "D": "3P/4"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 A steel column of ISHB 350 @72.4 kg/m is subjected to a factored axial compressive load of 2000 kN. The load is transferred to a concrete pedestal of grade M20 through a square base plate. Consider bearing strength of concrete as 0.45[latex]f_{ck}[/latex], where [latex]f_{ck}[/latex]  is the characteristic strength of concrete. Using limit state method and neglecting the self weight of base plate and steel column, the length of a side of the base plate to be provided is",
+    "solution": "[latex]\\begin{aligned}\r\n&\\text{Area required for base plate}\\\\ &=\\frac{\\text{Factored load}}{\\text{Bearing capacity of concrete}}\\\\ &=\\frac{2000\\times 10^{3}}{0.45\\times 20}=222222.222mm^{2}\r\n\\end{aligned}[/latex] So, side of base plate [latex]=\\sqrt{\\text{Area}}=471.4 mm= 47.14 cm[/latex] Since, provided area must be more than required So, answer should be 48 cm.",
+    "options": {
+      "A": "39 cm",
+      "B": "42 cm",
+      "C": "45 cm",
+      "D": "48 cm"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 The Le Chatelier apparatus is used to determine",
+    "solution": "Le Chatelier Apparatus is used to detemine the soundness of cement as per IS code4031 (part 3); this cement testing procedure is called Le Chatelier test for determining the unsoundness properties of cement due to presence of \"free lime\".",
+    "options": {
+      "A": "compressive strength of cement",
+      "B": "fineness of cement",
+      "C": "setting time of cement",
+      "D": "soundness of cement"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 The deformation in concrete due to sustained loading is",
+    "solution": "Creep is inelastic deformation with time due to\nsustained loading",
+    "options": {
+      "A": "creep",
+      "B": "hydration",
+      "C": "segregation",
+      "D": "shrinkage"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 A solid circular beam with radius of 0.25 m and length of 2 m is subjected to a twisting moment of 20 kNm about the z-axis at the free end, which is the only load acting as shown in the figure. The shear stress component [latex]\\tau_{xy}[/latex] at Point 'M' in the cross-section of the beam at a distance of 1 m from the fixed end is",
+    "solution": "The only non-zero stresses are [latex]\\tau_{\\theta z}=\\tau_{z \\theta}=\\tau [/latex] if [latex]\\theta[/latex] is [latex]90^{\\circ}[/latex] then [latex]\\theta=y [/latex] [latex] \\begin{aligned} \\text{Hence}\\quad\\tau_{z y} &=\\tau_{y z}=\\tau_{\\max } \\\\ &=16 T / \\pi \\mathrm{d}^{3}=0.815 \\mathrm{MPa} \\end{aligned}[/latex] But in rest of the planes shear stresses are zero, hence, [latex]\\tau_{x y}=\\tau_{y x}=0[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2018_Set1/page2_q3.webp",
+    "options": {
+      "A": "0.0 MPa",
+      "B": "0.51 MPa",
+      "C": "0.815 MPa",
+      "D": "2.0 MPa"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 Two rectangular under-reinforced concrete beam sections X and Y are similar in all aspects except that the longitudinal compression reinforcement in section Y is 10% more. Which one of the following is the correct statement?",
+    "solution": "Due to presence of more compression steel in \r\nsection Y, NA of section of Y is above than as \r\nof X. It means Y is more under-reinforced than \r\nX so ductility of Y is more. Since compression steel of Y is more so flexure \r\nresistance of X is less than as of Y.",
+    "options": {
+      "A": "Section X has less flexural strength and is less ductile than section Y",
+      "B": "Section X has less flexural strength but is more ductile than section Y",
+      "C": "Sections X and Y have equal flexural strength but different ductility",
+      "D": "Sections X and Y have equal flexural strength and ductility"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 The percent reduction in the bearing capacity of a strip footing resting on sand under flooding condition (water level at the base of the footing) when compared to the situation where the water level is at a depth much greater than the width of footing, is approximately",
+    "solution": "For strip footing on sand (c=0) [latex]\r\nq_{u}=\\gamma D_{f} N_{q}+0.5 \\mathrm{B} \\gamma N_{\\gamma}[/latex] In flooding condition water level rises to base \r\nof footing hence IIIrd term unit weight of soil \r\nwill change and IInd term unit weight will be unaffected. [latex]\r\n\\begin{array}{ll}\r\n\\therefore & q_{u}=\\gamma D_{f} N_{q}+0.5 B \\gamma N_{\\gamma} \\\\\r\n\\because & \\gamma \\simeq \\frac{1}{2} \\gamma_{s a t}\r\n\\end{array}[/latex] Hence third term reduced and second term will \r\nbe same thereby percentage reduction will not be 50%. According to option approach answer should be 25% Note: If water table rises to ground level then \r\nboth [latex]\\gamma[/latex] will reduce to [latex]\\gamma[/latex].  Hence, percentage \r\nreduction would be approximately 50%.",
+    "options": {
+      "A": "0",
+      "B": "25",
+      "C": "50",
+      "D": "100"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 The width of a square footing and the diameter of a circular footing are equal. If both the footings are placed on the surface of sandy soil, the ratio of the ultimate bearing capacity of circular footing to that of square footing will be",
+    "solution": "Footing placed on surface [latex] \\therefore \\quad D_{f}=0 [/latex] For square footing, [latex] q_{u}=C N_{c}+\\gamma D_{f} N_{q}+0.4 B \\gamma N_{\\gamma}[/latex] For circular footing, [latex] q_{u}=C N_{c}+\\gamma D_{f} N_{q}+0.3 B \\gamma N_{\\gamma}[/latex] For sandy soil, [latex] \\begin{aligned} C&=0\\\\ \\text{Ratio }\\frac{\\left(q_{u}\\right)_{\\text {circular}}}{\\left(q_{u}\\right)_{\\text {square}}}&=\\frac{3}{4} \\end{aligned}[/latex]",
+    "options": {
+      "A": "4/3",
+      "B": "1",
+      "C": "3/4",
+      "D": "2/3"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Bernoulli's equation is applicable for",
+    "solution": "",
+    "options": {
+      "A": "viscous and compressible fluid flow",
+      "B": "inviscid and compressible fluid flow",
+      "C": "inviscid and incompressible fluid flow",
+      "D": "viscous and incompressible fluid flow"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 There are 20,000 vehicles operating in a city with an average annual travel of 12,000 km per vehicle. The [latex]NO_x[/latex] emission rate is 2.0 g/km per vehicle. The total annual release of [latex]NO_x[/latex] will be",
+    "solution": "Total no. of kms. Travelled by all the vehicles [latex]=20000\\times 12000\\: km=24\\times 10^{7}\\: km[/latex] Total [latex]NO_{x}[/latex] emission [latex]=2\\: g/km\\times 24\\times 10^{7}\\: km[/latex] [latex]=48\\times 10^{7}\\: g[/latex] [latex]=48\\times 10^{4}\\: kg[/latex]",
+    "options": {
+      "A": "4,80,000 kg",
+      "B": "4,800 kg",
+      "C": "480 kg",
+      "D": "48 kg"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 A bitumen sample has been graded as VG30 as per IS : 73-2013. The '30' in the grade means that",
+    "solution": "",
+    "options": {
+      "A": "penetration of bitumen at 25[latex]^{\\circ}C[/latex]  is between 20 and 40",
+      "B": "viscosity of bitumen at 60[latex]^{\\circ}C[/latex]  is between 2400 and 3600 Poise",
+      "C": "ductility of bitumen at 27[latex]^{\\circ}C[/latex]  is more than 30 cm",
+      "D": "elastic recovery of bitumen at 15[latex]^{\\circ}C[/latex]  is more than 30%"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 The speed-density relationship for a road section is shown in the figure. The shape of the flow-density relationship is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2018_Set1/page3_q5.webp",
+    "options": {
+      "A": "piecewise linear",
+      "B": "parabolic",
+      "C": "initially linear then parabolic",
+      "D": "initially parabolic then linear"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 A well-designed signalized intersection is one in which the",
+    "solution": "",
+    "options": {
+      "A": "crossing conflicts are increased",
+      "B": "total delay is minimized",
+      "C": "cycle time is equal to the sum of red and green times in all phases",
+      "D": "cycle time is equal to the sum of red and yellow times in all phases"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 A flow field is given by [latex]u=y^{2} ,v=-xy,w=0.[/latex] Value of the component of the angular velocity(in radians per unit time,up to two decimal places)at the point (0,-1,1) is_____",
+    "solution": "[latex]\\begin{aligned} \\omega_{z} &=\\frac{1}{2}\\left[\\frac{\\partial v}{\\partial x}-\\frac{\\partial u}{\\partial y}\\right] \\\\ &=\\frac{1}{2}\\left[\\frac{\\partial}{\\partial x}(-x y)-\\frac{\\partial}{\\partial y}(y)^{2}\\right] \\\\ &=\\frac{1}{2}[-y-2 y] \\\\ &=-\\frac{3 y}{2} \\\\ \\text { At point } &(0,-1,1) \\\\ \\omega_{z} &=-\\frac{3}{2} \\times-1=1.50 \\mathrm{rad} / \\mathrm{s} \\end{aligned}[/latex] Note: Since the density variation is not given continuity equation of incompressible flow can not be applied directly to check the possibility of flow.",
+    "min": 1.5,
+    "max": 1.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18 The frequency distribution of the compressive strength of 20 concrete cube specimens is given in the table. If [latex]\\mu [/latex] is the mean strength of the specimens and [latex]\\sigma[/latex] is the standard deviation, the number of specimens (out of 20) with compressive strength less than [latex]\\mu -3\\sigma[/latex] is ______",
+    "solution": "Average strength, [latex] \\begin{aligned} \\mu &=\\frac{(4 \\times 23)+(2 \\times 28)+(5 \\times 22.5)+(5 \\times 31)+(4 \\times 29)}{20} \\\\ &=26.575 \\mathrm{MPa} \\\\ \\sigma &=\\sqrt{\\frac{\\Sigma(\\mu-f)^{2}}{n-1}} \\\\ &=\\sqrt{\\frac{\\begin{array}{c} (26.575-23)^{2} \\times 4+(26.575-28)^{2} \\times 2\\\\ +(26.575-22.5)^{2} \\times 5+(26.575-31)^{2} \\\\ \\times 5+(26.575-29)^{2} \\times 4 \\end{array}}{(20-1)}} \\\\&=3.7 \\end{aligned}[/latex] Now, [latex]\\mu-3 \\sigma=26.575-3 \\times 3.7=15.48 [/latex] Thus, no specimen is having compressive strength less than [latex]\\mu-3 \\sigma.[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2018_Set1/page4_q3.webp"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 In a fillet weld, the direct shear stress and bending tensile stress are 50 MPa and 150 MPa, respectively. As per IS 800: 2007, the equivalent stress (in MPa, up to two decimal places) will be ______",
+    "solution": "Direct bending tensile stress, [latex] f_{a}=150 Mpa[/latex] Direct shear stress, [latex] q=50 Mpa[/latex] According to IS 800:2007, clause 10.5.10.1.1 The equivalent stress, [latex]\\begin{aligned} f_{e}&=\\sqrt{f^{2}_{a}+3q^{2}}\\leq \\frac{f_{u}}{\\sqrt{3}\\gamma _{mW}} \\\\  f_{e}&=\\sqrt{150^{2}+3\\times 50^{2}} \\\\&=173.21 MPa\\\\ \\Rightarrow \\;\\; f_{e} & \\leq \\frac{f_{u}}{\\sqrt{3}\\gamma _{mW}} \\\\&=\\frac{400}{\\sqrt{3}\\times 1.25} \\\\ &=184.75 MPa \\end{aligned}[/latex] (Hence OK) Note: The above check for combination of stressed need not be done for fillet welds where the sum of normal and shear stresses does not exceed [latex]f_{wd}[/latex] [Clause 10.5.10.1.2(b)]. Thus, [latex]f_{a}+q=150+50=200[/latex] MPa [latex] f_{a}+q \\gt f_{wd}[/latex] (= 184.75 MPa) [latex]\\Rightarrow  \\;\\;f_{e}= 173.21[/latex] MPa Thus, the weld is designed for an equivelent stress of 173.21 MPa"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 In a shrinkage limit test, the volume and mass of a dry soil pat are found to be 50 [latex]cm^{3}[/latex] and 88 g, respectively. The specific gravity of the soil solids is 2.71 and the density of water is 1 g/cc. The shrinkage limit (in %, up to two decimal places) is ______",
+    "solution": "Dry soil mass =88 gm Volume of dry soil = 50 cc Dry density of soil mass, [latex] \\begin{aligned} \\rho_{d}&=\\frac{M_{d}}{V_{d}}=\\frac{88}{50} \\mathrm{gm} / \\mathrm{cc}\\\\ \\therefore \\text{ Shrinkage limit, } w_{s}&=\\frac{1}{R}-\\frac{1}{G}=\\frac{1}{\\left(\\rho_{d} / \\rho_{w}\\right)}-\\frac{1}{G} \\\\ w_{s} &=\\frac{\\rho_{w}}{\\rho_{d}}-\\frac{1}{G} \\\\ &=\\frac{1}{1.76}-\\frac{1}{2.71}=0.1990 \\end{aligned}[/latex]"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 A core cutter of 130 mm height has inner and outer diameters of 100 mm and 106 mm, respectively. The area ratio of the core cutter (in %, up to two decimal places) is ______",
+    "solution": "[latex]\\begin{aligned} \\text { Area ratio } &=\\frac{A_{\\text {outer }}-A_{\\text {inne }} r}{A_{\\text {inner }}} \\times 100 \\\\ &=\\frac{\\frac{\\pi}{4} D_{0}^{2}-\\frac{\\pi}{4} D_{i}^{2}}{\\frac{\\pi}{4} D_{i}^{2}} \\times 100 \\\\ &=\\frac{\\frac{\\pi}{4}(106)^{2}-\\frac{\\pi}{4}(100)^{2}}{\\frac{\\pi}{4}(100)^{2}} \\times 100 \\\\ &=12.36 \\% \\end{aligned}[/latex]"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 A 1:50 model of a spillway is to be tested in the laboratory. The discharge in the prototype spillway is 1000 [latex]m^{3}/s[/latex]. The corresponding discharge (in [latex]m^{3}/s[/latex], up to two decimal places) to be maintained in the model, neglecting variation in acceleration due to gravity, is ______",
+    "solution": "Froude law is valid [latex] \\begin{aligned} Q_{r} &=L_{r}^{25} \\\\ \\frac{Q_{m}}{Q_{p}} &=\\left(\\frac{1}{50}\\right)^{25} \\\\ \\frac{Q_{m}}{1000} &=\\left(\\frac{1}{50}\\right)^{25} \\\\ Q_{m} &=0.0566 \\mathrm{m}^{3 / \\mathrm{s}} \\\\ \\text{So},\\quad Q_{m} & \\simeq 0.06 \\mathrm{m}^{3 / \\mathrm{s}} \\end{aligned}[/latex]"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 A 10 m wide rectangular channel carries a discharge of 20 [latex]m^{3}/s[/latex] under critical condition. Using g = 9.81 [latex]m/s^{2}[/latex], the specific energy (in m, up to two decimal places) is ______",
+    "solution": "[latex]\\begin{aligned} E_{c}&=\\frac{3}{2} y_{c} \\\\ y_{c}&=\\left(\\frac{q^{2}}{g}\\right)^{1 / 3} \\\\ \\text{Hear},\\quad q&=\\frac{20}{10}=2 \\\\ \\Rightarrow\\quad E_{c}&=\\frac{3}{2}\\left(\\frac{2^{2}}{9.81}\\right)^{1 / 3}=1.11 \\mathrm{m} \\end{aligned}[/latex]"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 For routing of flood in a given channel using the Muskingum method, two of the routing coefficients are estimated as [latex]C_{0}=-0.25[/latex] and [latex]C_{1}= 0.55[/latex]. The value of the third coefficient [latex]C_{2}[/latex] would be ______",
+    "solution": "In Muskingum flood routing method [latex]\\begin{aligned}C_{0}+C_{1}+C_{2}&=1 \\\\ \\Rightarrow \\;\\; C_{2}&=1-\\left ( -0.25 \\right )-0.55=0.7 \\end{aligned}[/latex]"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 A city generates [latex]40 \\times 10^{6}[/latex] kg of municipal solid waste (MSW) per year, out of which only 10% is recovered/recycled and the rest goes to landfill. The landfill has a single lift of 3 m height and is compacted to a density of [latex]550 kg/m^{3}[/latex]. If 80% of the landfill is assumed to be MSW, the landfill area (in [latex]m^{2}[/latex], up to one decimal place) required would be ______",
+    "solution": "Total weight generated by city [latex]=40\\times 10^{6}\\: kg/year[/latex] Weight of MSW going into landfill [latex]=0.9\\times 40\\times 10^{6}\\: kg/year[/latex] [latex]=36\\times 10^{6}\\: kg/year[/latex] Compacted density [latex]=550\\: kg/m^{3}[/latex] Compacted volume of MSW [latex]=\\frac{36\\times 10^{6}\\: kg/year}{550\\: kg/m^{3}}[/latex] [latex]=65454.5454\\: m^{3}/year[/latex] Total landfill volume = Vol. of MSD + Vol. of cover Given, Volume of MSW [latex]=0.8\\times[/latex] Total landfill volume [latex]\\therefore[/latex] Vol. of cover [latex] =0.2\\times [/latex] Total landfill volume [latex] \\therefore [/latex]Total landfill volume [latex] =\\frac{65454.5454}{0.8}m^{3}/year =81818.18175m^{3}/year[/latex] Height of landfill [latex]=3\\: m[/latex] [latex]\\therefore [/latex] Area of lanfill[latex]=\\frac{81818.18175}{3} =27272.7\\: m^{2}/year[/latex]"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 The value of the integral [latex]\\int_{0}^{\\pi}x\\cos ^{2}x\\: dx[/latex] is",
+    "solution": "The value of [latex]\\begin{aligned}&\\int_{0}^{\\pi }x\\cos ^{2}x\\, dx \\\\    &=\\int_{0}^{\\pi } \\left ( \\frac{x}{2}+\\frac{x\\cos 2x}{2} \\right )dx \\\\   &=\\left.\\begin{matrix} \\frac{x^{2}}{4} \\end{matrix}\\right|_{0}^{\\pi }+\\frac{1}{2}\\left ( \\frac{x\\sin 2x}{2}+\\frac{\\cos 2x}{4} \\right ) \\\\    &=\\frac{\\pi ^{2}}{4}+\\frac{1}{2}\\left \\{ \\left ( 0+\\frac{1}{4} \\right )-\\left ( 0+\\frac{1}{4} \\right ) \\right \\} \\\\    &=\\frac{\\pi ^{2}}{4}+\\frac{1}{2}\\left ( \\frac{1}{4}-\\frac{1}{4} \\right ) \\\\    &=\\frac{\\pi ^{2}}{4} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\pi ^{2}/8[/latex]",
+      "B": "[latex]\\pi ^{2}/4[/latex]",
+      "C": "[latex]\\pi ^{2}/2[/latex]",
+      "D": "[latex]\\pi ^{2}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 A cantilever beam of length 2 m with a square section of side length 0.1 m is loaded vertically at the free end. The vertical displacement at the free end is 5 mm. The beam is made of steel with Young's modulus of [latex]2.0 \\times 10^{11} N/m^{2}[/latex]. The maximum bending stress at the fixed end of the cantilever is",
+    "solution": "[latex]\\begin{aligned} I&=\\frac{(0.1)^4}{12} \\\\ \\text{Deflection }\\delta &=\\frac{Pl^2}{3eI} \\\\ 5 \\times 10^{-3}&=\\frac{P(2)^3}{3 \\times 2 \\times 10^11 \\times \\frac{(0.1)^4}{12}} \\\\ P&=3125N \\\\ \\text{Now, } M&= Pl=3125 \\times 2\\\\ &= 6250Nm\\\\ \\text{As, }\\frac{M}{I} &=\\frac{\\sigma }{y}=\\frac{E}{R} \\\\ \\sigma _{max}&=\\frac{M}{Z}=\\frac{6250}{\\frac{(0.1)^3}{6}}\\\\ &=37.5 \\times 10^6 N/m^2=37.5MPa \\end{aligned}[/latex]",
+    "options": {
+      "A": "20.0 MPa",
+      "B": "37.5 MPa",
+      "C": "60.0 MPa",
+      "D": "75.0 MPa"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 A cylinder of radius 250 mm and weight, W = 10 kN is rolled up an obstacle of height 50 mm by applying a horizontal force P at its centre as shown in the figure. All interfaces are assumed frictionless. The minimum value of P is",
+    "solution": "Given: r=250 mm, W=10 kN Note: 1. When the cylinder will be about to move out of the cylinder, it will loose its contact at point A, only contact will be at point B. 2. Considering equation of cylinder of that instant under P, W and [latex]R_{B}[/latex] (contact force at B). [latex]\\begin{aligned} \\sum \\vec{M}_{B} &=0 \\\\ P\\times OC-W\\times BC &=0 \\end{aligned}[/latex] In [latex]\\Delta OCB[/latex] [latex]\\begin{aligned} OC^{2}+CB^{2} &=OB^{2} \\\\ CB &=\\sqrt{250^{2}-200^{2}}=150 \\\\ P &=\\frac{10\\times 10^{3}\\times 150}{200} \\\\ &=2.5\\times 3\\: \\text{kN}=7.5\\: \\text{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2018_Set1/page6_q3.webp",
+    "options": {
+      "A": "4.5 kN",
+      "B": "5.0 kN",
+      "C": "6.0 kN",
+      "D": "7.5 kN"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 A plate in equilibrium is subjected to uniform stresses along its edges with magnitude [latex]\\sigma_{xx}[/latex] = 30 MPa and [latex]\\sigma_{yy}[/latex] = 50 MPa as shown in the figure. The Young's modulus of the material is [latex]2 \\times 10^{11} N/m^{2}[/latex] and the Poisson's ratio is 0.3. If [latex]\\sigma_{zz}[/latex] is negligibly small and assumed to be zero, then the strain [latex]\\varepsilon _{zz}[/latex] is",
+    "solution": "[latex]\\begin{aligned} \\sigma _{xx} &=30MPa \\\\ \\sigma _{yy} &=50MPa \\\\ \\sigma _{zz} &=0 \\\\ \\varepsilon _{zz} &=\\frac{\\sigma _{zz}}{E}-\\mu \\frac{\\sigma _{xx}}{E}-\\mu \\frac{\\sigma _{yy}}{E} \\\\ &= -\\frac{\\mu }{E} (\\sigma _{xx}+\\sigma _{yy})\\\\ &= -\\frac{0.3}{2 \\times 10^5}(30+50)\\\\ &=-120 \\times 10^{-6} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2018_Set1/page6_q4.webp",
+    "options": {
+      "A": "[latex]-120\\times 10^{-6}[/latex]",
+      "B": "[latex]-60\\times 10^{-6}[/latex]",
+      "C": "0",
+      "D": "[latex]120\\times 10^{-6}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 The figure shows a simply supported beam PQ of uniform flexural rigidity EI carrying two moments M and 2M. The slope at P will be",
+    "solution": "[latex]\\begin{array}{c} \\text { Now } \\quad R_{1}+R_{2}=\\frac{1}{2} \\times \\frac{L}{3} \\times \\frac{M}{E I}=\\frac{M L}{6 E I} \\\\ \\Sigma M_{O}=0 \\\\ R_{1} L-\\frac{1}{2} \\times \\frac{L}{3} \\times \\frac{M}{E I}\\left(\\frac{2 L}{3}+\\frac{L}{9}\\right)-\\frac{1}{2} \\times \\frac{L}{3} \\\\ \\times \\frac{M}{E I}\\left(\\frac{L}{3}+\\frac{L}{9}\\right)+\\frac{1}{2} \\times \\frac{L}{3} \\times \\frac{M}{E I} \\times \\frac{2 L}{9}=0\\\\ \\quad R_{1}=\\frac{7 M L}{54 E I}+\\frac{4 M L}{54 E I}-\\frac{M L}{27 E I}=\\frac{M L}{6 E I} \\\\ \\therefore \\text{Slope at }P, \\theta_{P}=R_{1}=\\frac{M L}{6 E I} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2018_Set1/page6_q5.webp",
+    "options": {
+      "A": "0",
+      "B": "ML/(9EI)",
+      "C": "ML/(6EI)",
+      "D": "ML/(3EI)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 A 0.5 m x 0.5 m square concrete pile is to be driven in a homogeneous clayey soil having undrained shear strength, [latex]c_{u}[/latex]= 50 kPa and unit weight, [latex]\\gamma = 18.0 kN/m^{3}[/latex]. The design capacity of the pile is 500 kN. The adhesion factor [latex]\\alpha[/latex] is given as 0.75. The length of the pile required for the above design load with a factor of safety of 2.0 is",
+    "solution": "[latex]\\begin{aligned} C_{u}=& 50 \\mathrm{kPa}, \\gamma=18 \\mathrm{kN} / \\mathrm{m}^{3}, \\mathrm{FOS}=2 \\\\ Q_{\\text {up}}=& 9 \\mathrm{C} \\times B^{2}+\\alpha \\bar{C}(4 \\mathrm{BL})=1000 \\mathrm{kN} \\\\ 1000=& 9 \\times 50 \\times 0.5 \\times 0.5+0.75 \\\\ & \\times 50(4 \\times 0.5 \\mathrm{L}) \\\\ L=& 11.83 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "5.2 m",
+      "B": "5.8 m",
+      "C": "11.8 m",
+      "D": "12.5 m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 A closed tank contains 0.5 m thick layer of mercury (specific gravity = 13.6) at the bottom. A 2.0 m thick layer of water lies above the mercury layer. A 3.0 m thick layer of oil (specific gravity = 0.6) lies above the water layer. The space above the oil layer contains air under pressure. The gauge pressure at the bottom of the tank is 196.2 kN/[latex]m^{2}[/latex]. The density of water is 1000 kg/[latex]m^{3}[/latex] and the acceleration due to gravity is 9.81 m/[latex]s^{2}[/latex]. The value of pressure in the air space is",
+    "solution": "[latex]\\begin{aligned} &P_{a i t} \\text { is in gauge pressure. }\\\\ &\\begin{array}{l} P_{a i r}+\\left(0.6 \\times 10^{3}\\right)(9.81)(3)+\\left(10^{3}\\right)(9.81)(2) \\\\ \\quad+\\left(13.6 \\times 10^{3}\\right)(9.81)(0.5)=196.2 \\times 10^{3} \\\\ P_{a i r}=92.214 \\mathrm{kN} / \\mathrm{m}^{2} \\end{array} \\end{aligned}[/latex]",
+    "options": {
+      "A": "92.214 kN/[latex]m^{2}[/latex]",
+      "B": "95.644 kN/[latex]m^{2}[/latex]",
+      "C": "98.922 kN/[latex]m^{2}[/latex]",
+      "D": "99.321 kN/[latex]m^{2}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 A rapid sand filter comprising a number of filter beds is required to produce 99 MLD of potable water. Consider water loss during backwashing as 5%, rate of filtration as 6.0 m/h and length to width ratio of filter bed as 1.35. The width of each filter bed is to be kept equal to 5.2 m. One additional filter bed is to be provided to take care of break-down, repair and maintenance. The total number of filter beds required will be",
+    "solution": "Total water to be filtered [latex]\r\n=99 \\times 1.05 \\mathrm{MLD}=103.95 \\mathrm{MLD}[/latex] (Addition of 5 \\% to be used for backwashing) [latex]\r\n\\begin{aligned}\r\n\\frac{L}{B} &=1.35 \\quad \\text { where } B=5.2 \\mathrm{m} \\\\\r\n\\therefore &=7.02 \\mathrm{m}\r\n\\end{aligned}[/latex] [latex]\r\n \\therefore [/latex]Surface area of each filter [latex]=36.504 \\mathrm{m}^{2} [/latex] Total surface area required [latex]\r\n\\begin{array}{l}\r\n=\\frac{\\text { Discharge through filter }}{\\text { Rate of filtration }} \\\\\r\n=\\frac{103.95 \\times 10^{3}}{6 \\times 24}=721.875 \\mathrm{m}^{2}\r\n\\end{array}[/latex] Total no. of working units required [latex]\r\n\\begin{array}{l}\r\n=\\frac{721.875}{36.504} \\\\\r\n=19.77 \\text { filters }=20 \\text { filters }\r\n\\end{array}[/latex] 1 unit is to added as standby, thus total no. \r\nof units required = 21",
+    "options": {
+      "A": "19",
+      "B": "20",
+      "C": "21",
+      "D": "22"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 A priority intersection has a single-lane one-way traffic road crossing an undivided two-lane two-way traffic road. The traffic stream speed on the single-lane road is 20 kmph and the speed on the two-lane road is 50 kmph. The perception-reaction time is 2.5s, coefficient of longitudinal friction is 0.38 and acceleration due to gravity is 9.81 m/[latex]s^{2}[/latex]. A clear sight triangle has to be ensured at this intersection. The minimum lengths of the sides of the sight triangle along the two-lane road and the single-lane road, respectively will be",
+    "solution": "[latex]\\begin{aligned} \\mathrm{SSD}_{2} &=0.278 \\times V t_{R}+\\frac{V^{2}}{254 f} \\\\ &=0.278 \\times 50 \\times 2.5+\\frac{50^{2}}{254 \\times 0.38} \\simeq 61 \\mathrm{m} \\\\ \\mathrm{SSD}_{1} &=0.278 \\times 20 \\times 2.5+\\frac{20^{2}}{254 \\times 0.38} \\simeq 18 \\mathrm{m} \\end{aligned}[/latex] As per data given and based on calculation of SSD the answer would be 61 m and 18 m. But, as per the code IRC : 66 of sight distance calculation at priority intersection, the sight triangle at priority intersection should be formed by measuring a distance of 15 m along minor road and a distance equal to 8 seconds travel at the design speed [latex](50 \\times 0.278 \\times 8 \\simeq 111 m) [/latex] along major road. Hence answer will be 111 m and 15 m.",
+    "options": {
+      "A": "50 m and 20 m",
+      "B": "61 m and 18 m",
+      "C": "111 m and 15 m",
+      "D": "122 m and 36 m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 The following details refer to a closed traverse: The length and direction (whole circle bearing) of closure, respectively are",
+    "solution": "[latex]\\begin{aligned} \\text { Latitude }_{P Q} &=L_{P Q}=-437 \\mathrm{m} \\\\ L_{S P} &=-83 \\mathrm{m} \\\\ L_{O R} &=+101 \\mathrm{m}\\\\ L_{R S} &=+419 \\mathrm{m} \\\\ \\Sigma \\text { Latitudes } &=-437-83+101+419 \\\\ &=0 \\mathrm{m} \\\\ \\text { Departure }_{P O} &=D_{P O}=+173 \\mathrm{m} \\\\ D_{O R} &=+558 \\mathrm{m} \\\\ D_{8 S} &=-96 \\mathrm{m} \\\\ D_{S P} &=-634 \\mathrm{m} \\end{aligned}[/latex] [latex] \\Sigma[/latex] Departures =1 m For closure of traverse [latex] \\Sigma[/latex] Latitude =0 [latex] \\Sigma [/latex] Departure =0 Then, Departure of closure =-1 m, Latitude of closure =0 So the length and direction (whole circle bearing of closure is 1m and [latex]270^{\\circ}[/latex] respectively.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2018_Set1/page7_q5.webp",
+    "options": {
+      "A": "1 m and [latex]90^{\\circ}[/latex]",
+      "B": "2 m and  [latex]90^{\\circ}[/latex]",
+      "C": "1 m and [latex]270^{\\circ}[/latex]",
+      "D": "2 m and [latex]270^{\\circ}[/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 A square area (on the surface of the earth) with side 100 m and uniform height, appears as 1 [latex]cm^{2}[/latex] on a vertical aerial photograph. The topographic map shows that a contour of 650 m passes through the area. If focal length of the camera lens is 150 mm, the height from which the aerial photograph was taken, is",
+    "solution": "[latex]\\begin{aligned} A&=100 \\times 100 \\mathrm{m}^{2}\\\\ \\text { Area on photo, }\\\\ a &=1 \\mathrm{cm}^{2} \\\\ \\text { Scale } \\quad 1 \\mathrm{cm} &=100 \\mathrm{m} \\\\ f &=150 \\mathrm{mm} \\\\ h &=650 \\mathrm{m} \\\\ \\text { Scale } \\quad &=\\frac{1}{100}=\\frac{1}{100 \\times 10^{2}}\\\\ &=\\frac{1}{10000}=\\frac{f}{H-h}\\\\ \\Rightarrow \\quad \\frac{1}{10000}&=\\frac{150 \\times 10^{-3}}{H-650} \\\\ \\Rightarrow \\quad H&=2150 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "800 m",
+      "B": "1500 m",
+      "C": "2150 m",
+      "D": "3150 m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 The solution at x=1,t=1 of the partial differential equation [latex]\\frac{\\partial^2 u}{\\partial x^2}=25 \\frac{\\partial^2u}{\\partial t^2}[/latex] subject to boundary conditions u(0)=3x and [latex]\\frac{\\partial u}{\\partial t}(0)=3[/latex] is",
+    "solution": "",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "6"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 The solution at ( up to three decimal places) at x=1 of th euation [latex]\\frac{d^{2}y}{dx^2}+2\\frac{\\mathrm{d} y}{\\mathrm{d} x}+y=0[/latex] subject to boundary condition y(0)=1 and [latex]\\frac{\\mathrm{d} y}{\\mathrm{d} x}(0)=-1[/latex] is______",
+    "solution": "[latex]\\begin{aligned}\\left ( D^{2}+2D+1 \\right )y&=0 \\;\\;  \\left ( \\therefore \\; \\text{Roots are }-1,-1\\right ) \\\\    CF&=\\left ( C_{1}+C_{2}x \\right )e^{-x} \\\\    y&=C_{1}e^{-x}+C_{2}xe^{-x} \\;\\;...(i) \\\\ y\\left ( 0 \\right )&=1  \\;\\;\\;1=C_{1}        \\;\\;\\;...(ii) \\\\    {y}'&=C_{1}e^{-x}+C_{2}\\left ( e^{-x}-xe^{-x} \\right ) \\\\ {y}'\\left ( 0 \\right )&=-1,  \\;\\;\\;-1=-C_{1}+C_{2}     \\;\\;...(iii)\\\\ \\text{From eq. } & \\text{ (ii) and (iii),}\\\\    C_{1}&=1,\\, C_{2}=0 \\\\ \\therefore \\;\\;   y&=e^{x}\\\\ \\text{At } x=1, y&=e^{-1}=\\frac{1}{e}=0.368\\end{aligned}[/latex]",
+    "min": 0.36,
+    "max": 0.37
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 Variation of water depth(y) in a gradually varied open channel flow is given by the first order differential equation [latex]\\frac{\\mathrm{d} y}{\\mathrm{d} x}=\\frac{1-e^{-\\frac{10}{3}\\ln(y)} }{250-45e^{-3\\ln(y)}}[/latex] Given initial condition: y(x=0)=0.8 m. The depth (in m, up to three decimal places) of flow at a downstream section at x = 1 m from one calculation step of Single Step Euler Method is ______",
+    "solution": "[latex]\\begin{aligned} \\frac{d y}{d x}&=\\frac{1-e^{-\\frac{10}{3} \\ln y}}{250-45 e^{-3 \\ln y}}\\\\ y_{1} &=y_{0}+h f\\left(x_{0}, y_{0}\\right) \\\\ y_{1} &=0.8+1\\left(\\frac{1-e^{-\\frac{10}{3} \\ln 0.8}}{250-45 e^{-3 \\ln 0.8}}\\right] \\\\ &=0.8+1\\left(\\frac{-1.1039}{162.109}\\right) \\\\ &=0.793 \\mathrm{m} \\end{aligned}[/latex]",
+    "min": 0.78,
+    "max": 0.8
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 An RCC short column (with lateral ties) of rectangular cross section of 250 mm x 300 mm is reinforced with four numbers of 16 mm diameter longitudinal bars. The grades of steel and concrete are Fe415 and M20, respectively. Neglect eccentricity effect. Considering limit state of collapse in compression (IS 456 : 2000), the axial load carrying capacity of the column (in kN, up to one decimal place), is ______",
+    "solution": "since eccentricity effect is being neglected so column can be considered as concentrically loaded. Ultimate axial load carrying capacity of column. [latex] \\begin{aligned} P_{u} &=0.45 \\mathrm{f}_{c k} A_{g}+\\left(0.75 \\mathrm{f}_{y}-0.45 \\mathrm{f}_{c k}\\right) A_{\\mathrm{sc}} \\\\ &=0.45 \\times 20 \\times 250 \\times 300 \\\\ &+(0.75 \\times 415-0.45 \\times 20) 4 \\times \\frac{\\pi}{4} \\times 16^{2} \\\\ &=918.1 \\mathrm{kN} \\end{aligned}[/latex]",
+    "min": 905.0,
+    "max": 920.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 An RCC beam of rectangular cross section has factored shear of 200 kN at its critical section. Its width b is 250 mm and effective depth d is 350 mm. Assume design shear strength [latex]\\tau _{c}[/latex] of concrete as 0.62 [latex]N/mm^{2}[/latex] and maximum allowable shear stress [latex]\\tau _{c,max}[/latex]    in concrete as 2.8 [latex]N/mm^{2}[/latex] . If two legged 10 mm diameter vertical stirrups of Fe250 grade steel are used, then the required spacing (in cm, up to one decimal place) as per limit state method will be ______",
+    "solution": "Nominal shear stress, [latex] \\begin{aligned} \\tau_{v}&=\\frac{V_{u}}{b d}=\\frac{200 \\times 10^{3}}{250 \\times 350}=2.286 \\mathrm{N} / \\mathrm{mm}^{2} \\lt \\tau_{c m a x} \\\\ &\\text{(OK)}\\\\ SF&\\text{ taken by stirrups}\\\\ &=\\left(\\tau_{v}-\\tau_{c}\\right) b d \\\\ &=(2.286-0.62) \\times 250 \\times 350 \\\\ &=145.75 \\mathrm{kN} \\\\ \\text{Now, }V_{u s}&=\\frac{0.87 f_{y} A_{s v} d}{S_{v}} \\\\ \\Rightarrow \\quad S_{v}&=\\frac{0.87 \\times 250 \\times 350 \\times 2 \\times \\frac{\\pi}{4} \\times 10^{2}}{145.75 \\times 10^{3}} \\\\ &=82 \\mathrm{mm}=8.2 \\mathrm{cm} \\end{aligned}[/latex]",
+    "min": 7.0,
+    "max": 9.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 The dimensions of a symmetrical welded I-section are shown in the figure. The plastic section modulus about the weaker axis (in [latex]cm^{3}[/latex], up to one decimal place) is ______",
+    "solution": "[latex]\\begin{aligned} Z_p&= \\frac{A}{2}(\\bar{x_1}+\\bar{x_2})\\\\ &=\\left [ \\frac{140\\times 9}{2}\\left ( 35+35 \\right ) \\right ] \\\\ & \\times 2+\\left [ \\frac{\\left ( 200-18 \\right )\\times 6.1}{2} \\right ] \\\\ &\\times \\left ( \\frac{3.05}{2}+\\frac{3.05}{2} \\right ) \\\\  &=88200+1693.055 \\\\  &=89893.055\\, mm^{3} \\\\ & \\simeq 89.9\\, cm^{3} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2018_Set1/page9_q2.webp",
+    "min": 88.0,
+    "max": 92.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 Consider the deformable pin-jointed truss with loading, geometry and section properties as shown in the figure. Given that [latex]E =2 \\times 10^{11} N/m^{2}[/latex], [latex]A = 10 mm^{2}[/latex], L = 1 m and P = 1 kN. The horizontal displacement of Joint C (in mm, up to one decimal place) is ______",
+    "solution": "Force is each member due to applied loading [latex] \\begin{aligned} F_{A B}&=P(\\text { Comp. }) \\\\ F_{B C}&=3 P(\\text { Comp. }) \\\\ F_{A C}&=\\sqrt{2} P(\\text { Tension }) \\end{aligned}[/latex] Force in each member due to unit load. [latex] \\begin{aligned} F_{A B}&=P(\\text { Comp. }) \\\\ F_{B C}&=3 P(\\text { Comp. }) \\\\ F_{A C}&=\\sqrt{2} (\\text { Tension }) \\end{aligned}[/latex] [latex] \\begin{array}{l} \\therefore \\text{ Total deflection }=\\delta_{H_{c}}=\\Sigma \\frac{P k L}{A E} \\\\ =\\frac{5.414 \\times(1000 \\mathrm{N}) \\times(1000 \\mathrm{mm})}{\\left(10 \\mathrm{mm}^{2}\\right) \\times\\left(2 \\times 10^{5} \\mathrm{N} / \\mathrm{mm}^{2}\\right)}=2.7 \\mathrm{mm} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2018_Set1/page9_q3.webp",
+    "min": 2.6,
+    "max": 2.8
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 At a construction site, a contractor plans to make an excavation as shown in the figure. The water level in the adjacent river is at an elevation of +20.0 m. Unit weight of water is 10 kN/[latex]m^{3}[/latex]. The factor of safety (up to two decimal places) against sand boiling for the proposed excavation is ______",
+    "solution": "[latex]\\mathrm{FOS}=\\frac{10 \\times \\gamma_{\\mathrm{sat}}}{20 \\times \\gamma_{\\mathrm{w}}}=\\frac{10 \\times 20}{20 \\times 10}=1[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2018_Set1/page9_q4.webp",
+    "min": 1.0,
+    "max": 1.03
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 A conventional drained triaxial compression test was conducted on a normally consolidated clay sample under an effective confining pressure of 200 kPa. The deviator stress at failure was found to be 400 kPa. An identical specimen of the same clay sample is isotropically consolidated to a confining pressure of 200 kPa and subjected to standard undrained triaxial compression test. If the deviator stress at failure is 150 kPa, the pore pressure developed (in kPa, up to one decimal place) is ______",
+    "solution": "[latex]I^{st}[/latex] Specimen : Drained condition [latex] \\bar{\\sigma}_{3}=200 \\mathrm{kPa}: \\sigma_{\\mathrm{d}}=400 \\mathrm{kPa}: \\bar{\\sigma}_{1}=600 \\mathrm{kPa}[/latex] [latex] II^{nd} [/latex]Specimen : Undrained condition [latex] \\begin{aligned} \\sigma_{3} &=200 \\mathrm{kPa} \\\\ \\sigma_{\\mathrm{d}} &=150 \\mathrm{kPa} \\\\ \\sigma_{1} &=\\sigma_{3}+\\sigma_{\\mathrm{d}}=350 \\mathrm{kPa} \\end{aligned}[/latex] Let pore pressure developed is u [latex] \\begin{aligned} \\therefore \\quad \\bar{\\sigma}_{3}&=(200-u)\\\\ \\bar{\\sigma}_{1}&=(350-u)\\\\ \\end{aligned}[/latex] From stress relationship [latex] \\bar{\\sigma}_{1}=\\bar{\\sigma}_{3} \\tan ^{2}\\left(45^{\\circ}+\\frac{\\phi}{2}\\right)+2 c\\tan\\left(45^{\\circ}+\\frac{\\phi}{2}\\right)[/latex] For clay under drained condition c=0 [latex] \\begin{aligned} \\therefore \\quad \\bar{\\sigma}_{1} &=\\bar{\\sigma}_{3} \\tan ^{2}\\left(45^{\\circ}+\\frac{\\phi}{2}\\right) \\\\ 600 &=200 \\tan ^{2}\\left(45^{\\circ}+\\frac{\\phi}{2}\\right) \\\\ \\phi &=30^{\\circ} \\end{aligned}[/latex] For second specimen, [latex] \\begin{aligned} \\bar{\\sigma}_{1}&=\\bar{\\sigma}_{3} \\tan ^{2}\\left(45^{\\circ}+\\frac{\\phi}{2}\\right)\\\\ (350-u) &=(200-u) \\tan ^{2}\\left(45^{\\circ}+\\frac{30^{\\circ}}{2}\\right) \\\\ u &=125 \\mathrm{kPa} \\end{aligned}[/latex]",
+    "min": 124.0,
+    "max": 126.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 The void ratio of a soil is 0.55 at an effective normal stress of 140 kPa. The compression index of the soil is 0.25. In order to reduce the void ratio to 0.4, an increase in the magnitude of effective normal stress (in kPa, up to one decimal place) should be ______",
+    "solution": "[latex]\\begin{aligned} \\Delta H &=\\frac{H_{0} \\Delta e}{1+e_{0}}=\\frac{H_{0} C_{c}}{1+e_{0}} \\log \\left(\\frac{\\sigma_{0}+\\Delta \\sigma}{\\sigma_{0}}\\right) \\\\ \\Delta H &=H_{0}\\left(\\frac{0.55-0.40}{1+0.50}\\right)=\\frac{H_{0} \\times 0.25}{1+0.50} \\log \\left(\\frac{140+\\Delta \\sigma}{140}\\right) \\\\ \\frac{0.15}{0.25} &=\\frac{3}{5}=\\log \\left(\\frac{140+\\Delta \\sigma}{140}\\right) \\\\ \\Delta \\sigma &=417.35 \\mathrm{kPa} \\end{aligned}[/latex]",
+    "min": 416.0,
+    "max": 420.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 A rigid smooth retaining wall of height 7 m with vertical backface retains saturated clay as backfill. The saturated unit weight and undrained cohesion of the backfill are 17.2 kN/[latex]m^{3}[/latex] and 20 kPa, respectively. The difference in the active lateral forces on the wall (in kN per meter length of wall, up to two decimal places), before and after the occurrence of tension cracks is ______",
+    "solution": "[latex]\\begin{aligned} \\text{For clay }\\phi&=0 \\\\ \\therefore \\quad k_{a}&=\\frac{1-\\sin 0}{1+\\sin 0}=1 \\\\ \\end{aligned}[/latex] Earth pressure when tension cracks are not developed. [latex] \\begin{aligned} P_{a} &=\\frac{1}{2}(40+80.4) \\times 2.349 \\\\ &=141.4098 \\end{aligned}[/latex] Earth pressure when tension cracks are developed [latex]\\begin{aligned}\nP_{a} &=\\frac{1}{2} \\times 80.4 \\times 4.68=188.136 \\\\\n\\text { Difference } &=141.4098-188.136 \\\\\n&=-46.7262 \\mathrm{kN} / \\mathrm{m}^{2}\n\\end{aligned}[/latex]",
+    "min": 45.0,
+    "max": 49.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 Rainfall depth over a watershed is monitored through six number of well distributed rain gauges. Gauged data are given below The Thiessen mean value (in mm, up to one decimal place) of the rainfall is ______",
+    "solution": "Thiessen mean value of rainfall; [latex]P_{avg}=\\frac{\\sum_{i=1}^{6}P_{i}A_{i}}{\\sum_{i=1}^{6}A_{i}} [/latex] [latex] P_{avg}=\\frac{470\\times 95+465\\times 100+435\\times 98+525\\times 80+480\\times 85+510\\times 92}{95+100+98+80+85+92} =479.09 mm[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2018_Set1/page10_q3.webp",
+    "min": 478.5,
+    "max": 479.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 The infiltration rate f in a basin under ponding condition is given by [latex]f=30+10e^{-2t}[/latex], where, f is in mm/h and t is time in hour. Total depth of infiltration (in mm, up to one decimal place) during the last 20 minutes of a storm of 30 minutes duration is ______",
+    "solution": "Infiltration rate [latex]f(t)= 30+10e^{-2t}[/latex] Total infiltration depth in time 10 min. to 30 min. i.e., 0.166 hour to 0.5 hour [latex]=\\int_{0.166}^{0.5}\\left ( 30+10e^{-2t} \\right )dt =11.74 mm  [/latex]",
+    "min": 11.0,
+    "max": 12.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 In a laboratory, a flow experiment is performed over a hydraulic structure. The measured values of discharge and velocity are 0.05 [latex]m^{3}[/latex]/s and 0.25 m/s, respectively. If the full scale structure (30 times bigger) is subjected to a discharge of 270 [latex]m^{3}[/latex]/s, then the time scale (model to full scale) value (up to two decimal places) is ______",
+    "solution": "[latex]\\begin{aligned} \\text { Froude Law }(F r)_{m}&=(F r)_{p} \\\\ \\left(\\frac{V}{\\sqrt{L \\mathrm{g}}}\\right)_{m} &=\\left(\\frac{v}{\\sqrt{L g}}\\right)_{p} \\quad\\left(g_{m}=g_{p}\\right) \\\\ v_{r} &=\\sqrt{L_{r}} \\\\ \\text{or}\\quad \\frac{L_{r}}{T_{r}} &=\\sqrt{L} \\\\ T_{r} &=\\sqrt{L_{r}} \\\\ T_{r} &=\\sqrt{\\frac{1}{30}}=0.1826 \\end{aligned}[/latex]",
+    "min": 0.15,
+    "max": 0.25
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 A water sample analysis data is given below. The carbonate hardness (expressed as mg/L of [latex]CaCo_{3}[/latex] , up to one decimal place) for the water sample is ______",
+    "solution": "Carbonate hardness = min. (Total hardness, alkalinity) Total hardness [latex] \\begin{aligned} &=\\left(\\frac{60}{20} \\times 50+\\frac{30}{12.155} \\times 50\\right) \\mathrm{mg} / l as \\mathrm{CaCO}_{3} \\\\ &=150+123.406 \\\\ &=273.406 \\mathrm{mg} / l as \\mathrm{CaCO}_{3} \\\\ &\\text{Alkalinity }=\\left(\\frac{400}{61} \\times 50\\right) \\mathrm{mg} / \\mathrm{l} as \\mathrm{CaCO}_{3} \\\\ &=327.868 \\mathrm{mg} / l as \\mathrm{CaCO}_{3} \\\\ & \\therefore \\quad \\mathrm{CH}=273.4 \\mathrm{mg} / \\mathrm{l} as \\mathrm{CaCO}_{3} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2018_Set1/page11_q1.webp",
+    "min": 272.0,
+    "max": 274.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 The ultimate BOD ([latex]L_{0}[/latex]) of a wastewater sample is estimated as 87% of COD. The COD of this wastewater is 300 mg/L. Considering first order BOD reaction rate constant k (use natural log) = 0.23 per day and temperature coefficient [latex]\\theta[/latex] = 1.047, the BOD value (in mg/L,\nup to one decimal place) after three days of incubation at [latex]27^{\\circ}[/latex]C for this wastewater will be______",
+    "solution": "[latex]\\begin{aligned} \\text{Ultimate BOD} &=0.87\\; \\text{COD} \\\\ &=0.87\\times 300=261\\: mg/l \\\\ BOD_{3}&=L_{0}\\left ( 1-e^{-k_{27}\\times 3} \\right ) \\\\ k_{27}&=k_{20}\\left ( 1.047 \\right )^{T-20} \\end{aligned}[/latex] For municipal sewage, at standard temperature, value of k(base e)=0.23 per day. Thus, value 0.23 per day given is w.r.t. the standard temperature of [latex]20^{\\circ}C[/latex]. [latex]\\begin{aligned} &=0.23\\left ( 1.047 \\right )^{27-20} \\\\ &=0.317\\; day^{-1} \\\\ BOD_{3} &=261\\left ( 1-e^{-0.317\\times 3} \\right ) \\\\ &= 160.226\\; mg/l \\end{aligned}[/latex]",
+    "min": 154.0,
+    "max": 161.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 A waste activated sludge (WAS) is to be blended with green waste (GW). The carbon (C) and nitrogen (N) contents, per kg of WAS and GW, on dry basis are given in the table. The ratio of WAS to GW required (up to two decimal places) to achieve a blended C:N ratio of 20:1 on dry basis is ______",
+    "solution": "Let 20 kg of C and 1 kg of N is required Let [latex]x[/latex] kg of WAS is taken [latex] \\begin{aligned} \\therefore \\quad \\text{Carbon in x } \\mathrm{kg}&=0.054 x \\mathrm{kg} \\\\ \\text{ Nitrogen in x } \\mathrm{kg}&=0.010 x \\mathrm{kg} \\end{aligned}[/latex] Let y kg of GW is taken [latex] \\begin{aligned} \\therefore \\quad \\text { Carbon in } y \\mathrm{kg} &=0.360 \\mathrm{y} \\mathrm{kg} \\\\ \\text { Nitrogen in } y \\mathrm{kg} &=0.006 \\mathrm{y} \\mathrm{kg} \\end{aligned}[/latex] Total Carbon, [latex] 0.054 x+0.36 y=20 \\mathrm{kg}\\quad \\quad\\ldots(i)[/latex] Total Nitrogen, [latex] \\begin{aligned} 0.01 x+0.006 y &=1 \\mathrm{kg} &\\ldots(ii)\\\\ x &=73.26 \\mathrm{kg} \\\\ y &=44.566 \\mathrm{kg} \\\\ \\frac{x}{y} &=\\frac{\\mathrm{WAS}}{\\mathrm{GW}}\\\\ \\therefore &=1.6438 \\simeq 1.64 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2018_Set1/page11_q3.webp",
+    "min": 1.6,
+    "max": 1.7
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 Given the following data: design life n = 15 years, lane distribution factor D = 0.75, annual rate of growth of commercial vehicles r = 6%, vehicle damage factor F = 4 and initial traffic in the year of completion of construction = 3000 Commercial Vehicles Per Day (CVPD). As per IRC:37-2012, the design traffic in terms of cumulative number of standard axles (in million standard axles, up to two decimal places) is ______",
+    "solution": "[latex]\\begin{aligned} N_{s}=& \\frac{365 A\\left[\\left(1+\\frac{r}{100}\\right)^{n}-1\\right] \\times V D F \\times L D F}{\\frac{r}{100}} \\\\ =& \\frac{365 \\times 3000\\left[1.06^{15}-1\\right] \\times 4 \\times 0.75}{0.06} \\times 10^{-6}\\\\ &76.45\\text{msa} \\end{aligned}[/latex]",
+    "min": 75.0,
+    "max": 78.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 An aircraft approaches the threshold of a runway strip at a speed of 200 km/h. The pilot decelerates the aircraft at a rate of 1.697 m/[latex]s^{2}[/latex]and takes 18 s to exit the runway strip. If the deceleration after exiting the runway is 1 m/[latex]s^{2}[/latex], then the distance (in m, up to one decimal place) of the gate position from the location of exit on the runway is ______",
+    "solution": "Speed of aircraft, [latex]\\begin{aligned} u_{i} &=200\\; \\text{km/hr} \\\\ &=\\frac{200\\times 1000}{3600}=55.56\\; \\text{m/s} \\end{aligned}[/latex] Deceleration of aircraft on the runway [latex]=1.697 m/s^{2}[/latex] Aircraft takes 18 sec to exit the runway strip. Speed of the aircraft at the exit of the runway [latex]\\begin{aligned} u_{f} &=u_{i}+at \\\\ &=55.56-1.697\\times 18 \\\\ &=25.014\\; \\text{m/s} \\end{aligned}[/latex] After runway aircraft decelerate with [latex]1 m/s^{2}[/latex] Total distance travelled by the aircraft from the location of exit on the runway [latex]\\begin{aligned} U^{2} &=u^{2}+2aS \\\\ 0 &=25.014^{2}-2\\times 1\\times S \\\\ S &=312.8\\; \\text{m} \\end{aligned}[/latex]",
+    "min": 311.0,
+    "max": 319.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 \"The driver applied the ____ as soon as she approached the hotel where she wanted to take a ____\"",
+    "solution": "",
+    "options": {
+      "A": "brake, break",
+      "B": "break, brake",
+      "C": "brake, brake",
+      "D": "break, break"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 \"It is no surprise that every society has had codes of behavior; however, the nature of these codes is often _____.\" The word that best fills the blank in the above sentence is",
+    "solution": "",
+    "options": {
+      "A": "unpredictable",
+      "B": "simple",
+      "C": "expected",
+      "D": "strict"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Hema's age is 5 years more than twice Hari's age. Suresh's age is 13 years less than Hari's age. If Suresh is 3 times as old as Hema, then how old is Hema?",
+    "solution": "",
+    "options": {
+      "A": "14",
+      "B": "17",
+      "C": "18",
+      "D": "19"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 Tower A is 90 m tall and tower B is 140 m tall. They are 100 m apart. A horizontal skywalk connects the floors at 70 m in both the towers. If a taut rope connects the top of tower A to the bottom tower B, at what distance (in meters) from tower A will the rope intersect the skywalk?",
+    "solution": "Marks to All As per IIT Key",
+    "options": {
+      "A": "22.22",
+      "B": "50",
+      "C": "57.87",
+      "D": "77.78"
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 The temperature [latex]T[/latex] in a room varies as a function of the outside temperature [latex]T_0[/latex] and the number of persons in the room [latex]p[/latex], according to the relation [latex]T=K(\\theta p +T_0)[/latex], where [latex]\\theta [/latex] and [latex]K[/latex] are constants. What would be the value of [latex]\\theta [/latex] given the following data? [latex]\\begin{array}{|l|l|l|}\\hline \\text{$T_{0}$} & \\text{p} & \\text{T} \\\\\\hline \\text{25} & \\text{2}& \\text{32.4} \\\\\\hline \\text{30} & \\text{5} & \\text{42.0}\\\\\\hline \\end{array}[/latex]",
+    "solution": "",
+    "options": {
+      "A": "0.8",
+      "B": "1",
+      "C": "2",
+      "D": "10"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 A fruit seller sold a basket of fruits at 12.5% loss. Had he sold it for Rs. 108 more, he would have made a 10% gain. What is the loss in Rupees incurred by the fruit seller?",
+    "solution": "",
+    "options": {
+      "A": "48",
+      "B": "52",
+      "C": "60",
+      "D": "108"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 The price of a wire made of a super alloy material is proportional to the square of its length. The price of 10m length of the wire is Rs. 1600. What would be the total price (in Rs.) of two wires of length 4m and 6m ?",
+    "solution": "",
+    "options": {
+      "A": "768",
+      "B": "832",
+      "C": "1440",
+      "D": "1600"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 Which of the following function(s) is an accurate description of the graph for the range(s) indicated? i. [latex]y=2x+4 \\text{ for } -3 \\leq x \\leq -1[/latex] ii. [latex]y= \\mid x-1 \\mid \\text{ for } -1 \\leq x \\leq 2[/latex] iii. [latex]y= \\mid\\mid x \\mid -1 \\mid \\text{ for } -1 \\leq x \\leq 2 [/latex] iv. [latex]y=1 \\text{ for } 2 \\leq x \\leq 3[/latex]",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2018_Set1/page13_q3.webp",
+    "options": {
+      "A": "i, ii and iii only",
+      "B": "i, ii and iv only",
+      "C": "i and iv only",
+      "D": "ii and iv only"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 Consider a sequence of numbers [latex]a_1,a_2,a_3, . . . ,a_n[/latex] where [latex]a_n=\\frac{1}{n}-\\frac{1}{n}+2[/latex], for each integer [latex]n \\gt 0[/latex]. Whart is the sum of the first 50 terms?",
+    "solution": "",
+    "options": {
+      "A": "[latex]\\bigg( 1+ \\frac{1}{2} \\bigg) - \\frac{1}{50} \\\\[/latex]",
+      "B": "[latex]\\bigg( 1+ \\frac{1}{2} \\bigg) + \\frac{1}{50} \\\\[/latex]",
+      "C": "[latex]\\bigg( 1+ \\dfrac{1}{2} \\bigg) - \\bigg( \\dfrac{1}{51} + \\dfrac{1}{52} \\bigg) \\\\[/latex]",
+      "D": "[latex]1 - \\bigg( \\dfrac{1}{51} + \\dfrac{1}{52} \\bigg)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 Each of the letters arranged as below represents a unique integer from 1 to 9. The letters are positioned in the figure such that (AxBxC), (BxGxE) and (DxExF) are equal. Which integer among the following choices cannot be represented by the letters A, B, C, D, E, F or G? [latex]\\begin{array}{|l|l|l|}\\hline \\text{A}  &  \\text{} & \\text{D} \\\\\\hline \\text{B} & \\text{G}& \\text{E}\\\\\\hline \\text{C} & \\text{} & \\text{F}\\\\\\hline  \\end{array}[/latex]",
+    "solution": "",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "9"
+    },
+    "correct_answer": "B"
+  }
+]

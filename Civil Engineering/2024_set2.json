@@ -1,0 +1,696 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 A partial differential equation [latex]\n\\frac{\\partial^{2} \\mathrm{~T}}{\\partial \\mathrm{x}^{2}}+\\frac{\\partial^{2} \\mathrm{~T}}{\\partial \\mathrm{y}^{2}}=0\n [/latex] is defined for the two-dimensional field [latex] T: T(x, y) [/latex], inside a planar square domain of size [latex] 2 \\mathrm{~m} \\times 2 \\mathrm{~m} [/latex]. Three boundary edges of the square domain are maintained at value [latex] T=50 [/latex], whereas the fourth boundary edge is maintained at [latex] \\mathrm{T}=100 [/latex]. The value of [latex] T [/latex] at the center of the domain is",
+    "solution": "",
+    "options": {
+      "A": "50",
+      "B": "62.5",
+      "C": "75",
+      "D": "87.5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 The statements [latex] \\mathrm{P} [/latex] and [latex] \\mathrm{Q} [/latex] are related to matrices [latex] \\mathrm{A} [/latex] and [latex] B [/latex], which are conformable for both addition and multiplication. [latex] P:(A+B)^{\\top}=A^{\\top}+B^{\\top} [/latex] [latex] Q:(A B)^{\\top}=A^{\\top} B^{\\top} [/latex] Which one of the following options is CORRECT?",
+    "solution": "According to properties of a matrix (i) [latex] (A+B)^{\\top}=A^{\\top}+B^{\\top} [/latex] The sum of transpose of matrices is equal to the transpose of the sum of two matrices. (ii) [latex] (A B)^{\\top}=B^{\\top} A^{\\top} [/latex] The product of the transpose of two matrices in reverse order is equal to the transpose of the product of them.",
+    "options": {
+      "A": "P is TRUE and Q is FALSE",
+      "B": "Both P and Q are TRUE",
+      "C": "P is FALSE and Q is TRUE",
+      "D": "Both P and Q are FALSE"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 The second derivative of a function [latex] \\mathrm{F} [/latex] is computed using the fourth-order Central Divided Difference method with a step length [latex] h [/latex]. The CORRECT expression for the second derivative is",
+    "solution": "The second derivative of a function of using fourth order central divided difference method is given by [latex]\nf(x+2 h)+16 f(x+h)-30 f(x)\n [/latex] [latex] f^{\\prime \\prime}(x)=\\frac{+16 f(x-h)-f(x-2 h)}{12 h} [/latex] where, [latex] \\mathrm{h}-1 [/latex] step size.",
+    "options": {
+      "A": "[latex] \\frac{1}{12 h^{2}}\\left[-f_{i+2}+16 f_{i+1}-30 f_{i}+16 f_{i-1}-f_{i-2}\\right] [/latex]",
+      "B": "[latex] \\frac{1}{12 h^{2}}\\left[f_{i+2}+16 f_{i+1}-30 f_{i}+16 f_{i-1}-f_{i-2}\\right] [/latex]",
+      "C": "[latex] \\frac{1}{12 h^{2}}\\left[-f_{i+2}+16 f_{i+1}-30 f_{i}+16 f_{i-1}+f_{i-2}\\right] [/latex]",
+      "D": "[latex] \\frac{1}{12 h^{2}}\\left[-f_{i+2}-16 f_{i+1}+30 f_{i}-16 f_{i-1}-f_{i-2}\\right] [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 The function [latex] f(x)=x^{3}-27 x+4,1 \\leq x \\leq 6 [/latex] has",
+    "solution": "[latex]\n\\begin{aligned}\nf(x) & =x^{3}-27 x+4 \\\\\nf^{\\prime}(x) & =3 x^{2}-27\\\\\nf^{\\prime}(x) & =0 \\\\\n3 x^{2}-27 & =0 \\\\\nx & = \\pm 3 \\\\\nx & =3 \\in(1,6)\n\\end{aligned}\n [/latex] So at [latex] x=3 [/latex] function has point at local minima.",
+    "options": {
+      "A": "Maxima point",
+      "B": "Minima point",
+      "C": "Saddle point",
+      "D": "Inflection point"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Consider two ordinary differential equations (ODEs): [latex] P: \\frac{d y}{d x}=\\frac{x^{4}+3 x^{2} y^{2}+2 y^{4}}{x^{3} y} [/latex] [latex] \\mathrm{Q}: \\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\frac{-\\mathrm{y}^{2}}{\\mathrm{x}^{2}} [/latex] Which one of the following options is CORRECT?",
+    "solution": "[latex] P: \\frac{d y}{d x}=\\frac{x^{4}+3 x^{2} y^{2}+2 y^{4}}{x^{3} y} [/latex] [latex] \\frac{d y}{d x}=\\left(\\frac{x^{4}}{x^{3} y}\\right)+\\left(\\frac{3 x^{2} y^{2}}{x^{3} y}\\right)+\\left(\\frac{2 y^{4}}{x^{3} y}\\right) [/latex] [latex] \\frac{d y}{d x}=\\left(\\frac{x}{y}\\right)+3\\left(\\frac{y}{x}\\right)+2\\left(\\frac{y}{x}\\right)^{3} [/latex] [latex] \\frac{d y}{d x}=\\left(\\frac{1}{y / x}\\right)+3\\left(\\frac{y}{x}\\right)+2\\left(\\frac{y}{x}\\right)^{3} [/latex] [latex] \\frac{d y}{d x}=f\\left(\\frac{y}{x}\\right) [/latex] So [latex] P [/latex] is a homogenous ODE [latex] \\mathrm{Q}: \\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\frac{-\\mathrm{y}^{2}}{\\mathrm{x}^{2}} [/latex] [latex] x^{2} d y=-y^{2} d x [/latex] [latex] y^{2} d x+x^{2} d y=0 [/latex] [latex] M=y^{2} \\quad \\frac{d M}{\\partial y}=2 y [/latex] [latex] N=x^{2} \\quad \\frac{\\partial N}{\\partial \\mathrm{x}}=2 \\mathrm{x} [/latex] So [latex] \\mathrm{Q} [/latex] is non exact [latex] \\mathrm{ODE} [/latex]",
+    "options": {
+      "A": "P is a homogeneous ODE and Q is an exact ODE.",
+      "B": "P is a homogeneous ODE and Q is not an exact ODE.",
+      "C": "P is a nonhomogeneous ODE and Q is an exact ODE.",
+      "D": "P is a nonhomogeneous ODE and Q is not an exact ODE."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 A [latex] 3 \\mathrm{~m} [/latex] long, horizontal, rigid, uniform beam [latex] \\mathrm{PQ} [/latex] has negligible mass. The beam is subjected to a [latex] 3 \\mathrm{kN} [/latex] concentrated vertically downward force at [latex] 1 \\mathrm{~m} [/latex] from [latex] P [/latex], as shown in the figure. The beam is resting on vertical linear springs at the ends [latex] \\mathrm{P} [/latex] and [latex] \\mathrm{Q} [/latex]. For the spring at the end [latex] P [/latex], the spring constant [latex] K_{p}=100 \\mathrm{kN} / [/latex] [latex] \\mathrm{m} [/latex]. If the beam does not rotate under the application of the force and displaces only vertically, the value of the spring constant [latex] \\mathrm{K}_{\\mathrm{O}} [/latex] (in [latex] \\mathrm{kN} / \\mathrm{m} [/latex] ) for the spring at the end [latex] \\mathrm{Q} [/latex] is",
+    "solution": "[latex] \\left.\\Sigma \\mathrm{M}_{\\mathrm{Q}}\\right)=0 \\Rightarrow \\mathrm{R}_{\\mathrm{P}} \\times 3-3 \\times 2=0 [/latex] [latex] \\mathrm{R}_{\\mathrm{P}}=2 \\mathrm{kN} \\& \\mathrm{R}_{\\mathrm{Q}}=1 \\mathrm{kN} [/latex] As beam [latex] \\mathrm{PQ} [/latex] is rigid \\& for no rotation settlement at both [latex] P [/latex] \\& Q should be same. [latex]\n\\begin{aligned}\n\\Delta_{\\mathrm{P}} & =\\Delta_{\\mathrm{Q}} \\\\\n\\frac{\\mathrm{R}_{\\mathrm{P}}}{\\mathrm{K}_{\\mathrm{P}}} & =\\frac{\\mathrm{R}_{\\mathrm{Q}}}{\\mathrm{K}_{\\mathrm{Q}}} \\\\\n\\Rightarrow \\mathrm{K}_{\\mathrm{Q}} & =\\frac{\\mathrm{R}_{\\mathrm{Q}}}{\\mathrm{R}_{\\mathrm{P}}} \\times \\mathrm{K}_{\\mathrm{P}}=\\frac{1}{2} \\times 100=50 \\mathrm{kN} / \\mathrm{m}\n\\end{aligned}\n [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2024_Set2/page2_q1.webp",
+    "options": {
+      "A": "150",
+      "B": "100",
+      "C": "50",
+      "D": "200"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Consider the statements [latex] \\mathrm{P} [/latex] and [latex] \\mathrm{Q} [/latex]. [latex] P [/latex] : In a Pure project organization, the project manager maintains complete authroity and has maximum control over the project. Q: A matrix organization structure facilitates quick response to changes, conflicts, and project needs. Which one of the following options is CORRECT?",
+    "solution": "P: In a pure project organization, the project manager has the complete authority and control over the project. Q: In a matrix organization, employees have more than one boss and work on multiple teams. This leads to quick response to changes, conflicts and project needs.",
+    "options": {
+      "A": "Both P and Q are TRUE",
+      "B": "P is TRUE and Q is FALSE",
+      "C": "Both P and Q are FALSE",
+      "D": "P is FALSE and Q is TRUE"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 For a thin-walled section shown in the figure, points [latex] \\mathrm{P}, \\mathrm{Q} [/latex] and [latex] \\mathrm{R} [/latex] are located on the major bending axis [latex] \\mathrm{X}-\\mathrm{X} [/latex] of the section. Point [latex] \\mathrm{Q} [/latex] is located on the web whereas point [latex] S [/latex] is located at the intersection of the web and the top flange of the section. Qualitatively, the shear center of the section lies at",
+    "solution": "Position of shear centre will be at R.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2024_Set2/page2_q3.webp",
+    "options": {
+      "A": "[latex] \\mathrm{P} [/latex]",
+      "B": "[latex] \\mathrm{Q} [/latex]",
+      "C": "[latex] \\mathrm{R} [/latex]",
+      "D": "[latex] \\mathrm{S} [/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 Consider teh following data for a project of 300 days duration. Budgeted cost of work scheduled [latex] (\\mathrm{BCWS})= [/latex] Rs. 200 Budgeted cost of work performed (BCWP) [latex] = [/latex] Rs. 150 Actual cost of work performed (ACWP) [latex] = [/latex] Rs. 190 The 'schedule variance' for the project is",
+    "solution": "Schedule variance [latex] =\\mathrm{BCWP}-\\mathrm{BCWS} [/latex] [latex]\n\\begin{aligned}\n& =150-200 \\\\\n& =-50\n\\end{aligned}\n [/latex]",
+    "options": {
+      "A": "(-)Rs. 50",
+      "B": "(-)50 days",
+      "C": "(+)Rs. 50",
+      "D": "(+)50 days"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 A simply supported, uniformly loaded, two-way slab panel is torsionally unrestrained. The effective span lengths along the short span ( [latex] x [/latex] ) and long span (y) directions of the panel are [latex] l_{x} [/latex] and [latex] l_{y} [/latex] respectively. The design moments for the reinforcements along the [latex] x [/latex] and [latex] y [/latex] directions are [latex] M_{u x} [/latex] and [latex] M_{u y} [/latex] respectively. By using Rankine-Grashoff method, the ratio [latex] M_{u x} [/latex] ' [latex] \\mathrm{M}_{\\mathrm{uy}} [/latex] is proportional to",
+    "solution": "As per Rankine Grashoff method [latex]\n\\text { rere, } \\quad \\begin{aligned}\nM_{u x} & =\\frac{r^{4}}{8\\left(1+r^{4}\\right)} w \\ell_{x}^{2} \\\\\nM_{u y} & =\\frac{r^{2}}{8\\left(1+r^{4}\\right)} w \\ell_{x}^{2} \\\\\n\\text { Her } & =\\frac{\\ell_{y}}{\\ell_{x}} \\\\\n\\Rightarrow \\quad \\frac{M_{u x}}{M_{u y}} & =r^{2}=\\left(\\frac{\\ell_{y}}{\\ell_{x}}\\right)^{2}\n\\end{aligned}\n [/latex]",
+    "options": {
+      "A": "[latex]l_{x} / l_{y} [/latex]",
+      "B": "[latex] l_{y} / l_{x} [/latex]",
+      "C": "[latex] \\left(l_{x} / l_{y}\\right)^{2} [/latex]",
+      "D": "[latex] \\left(l_{y} / l_{x}\\right)^{2} [/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 The structural design method that DOES NOT take into account the safety factors on the design load is",
+    "solution": "In working stress method, safety is accounted for by considering factor of safety in material strength only and no factor is considered in load.",
+    "options": {
+      "A": "working stress method",
+      "B": "load factor method",
+      "C": "ultimate load method",
+      "D": "limit state method"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 The contact presure distribution shown in the figure belongs to a",
+    "solution": "Flexible footing over clayey soil: In flexible footing, the contact pressure at the interface between footing and soil is uniformly distributed producing dish-shape pattern in clayey soil. Flexible footing over Granular soil: In granular soil, modulus of elasticty [latex] \\left(E_{S}\\right) [/latex] varies across the width being maximum at the centre and minimum at edge. As [latex] \\mathrm{E} [/latex] is maximum at centre, defflection is less at centre. As [latex] E [/latex] is less at edge deflection is more at edge. Rigid footing on Clayey soil: In case of flexible footing, deflection is more at centre. Hence pressure developed at centre is less. Deflection is less in flexible footing at edge, hence in rigid footing pressure developed is more at edge. Rigid footing on Granular soil",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2024_Set2/page3_q2.webp",
+    "options": {
+      "A": "rigid footing resting on a cohesionless soil.",
+      "B": "rigid footing resting on a cohesive soil.",
+      "C": "flexible footing resting on a cohesionless soil.",
+      "D": "flexible footing resting on a cohesive soil."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Which one of the following saturated fine-grained soils can attain a negative Skempton's pore pressure coefficient [latex] ( \\mathrm{A}) [/latex]?",
+    "solution": "Value of skempton's pore pressure coefficient  may be as large as 2 to 3 for very loose saturated fine sand. It can be ( -0.5 to 0 ) for heavily over consolidated clays. For normally consolidated clays [latex] \\mathrm{A}=0.5-1 [/latex] For OC clays, [latex] A=f(O C R) [/latex], for heavily over consolidated clays, [latex] A \\lt 0 [/latex].",
+    "options": {
+      "A": "Quick clays",
+      "B": "Normally-consolidated clays",
+      "C": "Lightly-consolidated clays",
+      "D": "Over-consolidated clays"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 The following figure shows a plot between shear stress and velocity gradient for\nmaterials/fluids P, Q, R, S, and T. Which one of the following options is CORRECT?",
+    "solution": "Various types of newtonian \\& non-newtonian fluids are shown in the figure. Fluids which obeys Newton's law of viscosity [latex] \\left(\\tau=\\mu \\frac{\\mathrm{du}}{\\mathrm{dy}}\\right) [/latex] are called Newtonian Fluids and those fluids which do not obey this rule are called Non-Newtonian Fluids. General relationship between shear stress and velocity gradient is given by [latex] \\tau=\\mathrm{A}\\left(\\frac{\\mathrm{du}}{\\mathrm{dy}}\\right)^{\\mathrm{n}}+\\mathrm{B} [/latex] In the figures shown above, slope of the curve is called apparent viscosity. Fluid for which apparent viscosity increases with du/dy are called Dilatant. Dilatant fluids are also called shear thickening fluids. Examples of dilatant fluids are solution with suspended starch or sand, sugar in water. Fluids for which apparent viscosity decreases with du/dy are called Pseudo Plastic. Pseudo plastic fluid are also called shear thinning fluid. Examples are paints, polymer solutions, blood, paper pulp, syrup, molasses, milk, gelatine. Bingham Plastic (ideal plastic) fluids require a certain minimum shear stress [latex] t_{y} [/latex] (yield stress) before they start flowing. Examples: tooth paste, sewage sludge, drilling mud have time dependent Newtonian Behaviour.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2024_Set2/page3_q4.webp",
+    "options": {
+      "A": "P [latex] \\rightarrow [/latex] Ideal Fluid; Q [latex] \\rightarrow [/latex] Ideal Bingham plastic; R [latex] \\rightarrow [/latex] Non-Newtonian fluid; S [latex] \\rightarrow [/latex] Newtonian fluid",
+      "B": "P [latex] \\rightarrow [/latex] Real solid; Q [latex] \\rightarrow [/latex] Ideal Bingham plastic; S [latex] \\rightarrow [/latex] Newtonian fluid; T [latex] \\rightarrow [/latex] Ideal Fluid",
+      "C": "P [latex] \\rightarrow [/latex] Ideal Fluid; Q [latex] \\rightarrow [/latex] Ideal Bingham plastic; R [latex] \\rightarrow [/latex] Non-Newtonian fluid; T [latex] \\rightarrow [/latex] Real solid",
+      "D": "P [latex] \\rightarrow [/latex] Real solid; Q [latex] \\rightarrow [/latex] Newtonian fluid; R [latex] \\rightarrow [/latex] Ideal Bingham plastic; T [latex] \\rightarrow [/latex] Ideal Fluid"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 What is the CORRECT match between the air pollutants and treatment techniques given in the table? [latex]\n\\begin{array}{|l|l|}\n\\hline\n\\text{Air pollutants} & \\text{Treatment techniques} \\\\\n\\hline\nP.  \\quad \\mathrm{NO}_{2}  & i.  \\quad  \\text{Flaring} \\\\\n\\hline\nQ.  \\quad \\mathrm{SO}_{2}  & ii. \\quad \\text{Cyclonic separator} \\\\\n\\hline\nR.  \\quad \\mathrm{CO}  & iii. \\quad \\text{Lime scrubbing} \\\\\n\\hline\nS. \\quad Particles & iv.  \\quad \\mathrm{NH}_{3}  \\text{injection} \\\\\n\\hline\n\\end{array}\n[/latex]",
+    "solution": "(I) Following treatment techniques are used to remove particulate Matter (PM). Settling chambers Inertial or Impact separators Centrifugal separators or Cyclonic separators Filters (e) Electrostatic precipitators (f) Scrubbers or wet collectors (II) Following treatment techniques are used to remove/control gaseous contaminants Combustion techniques This method is used when gases are of organic nature. Equipments used in combustion are: (i) vapour incinerators (ii) after burners (iii) Flares (process is called as flaring) Note: Flaring (i.e. combustion method) is suitable for the removal of carbon monoxide because during combustion, carbon reacts with carbon monoxide to form [latex] \\mathrm{CO}_{2} [/latex]. Absorption In this method, effluent gases are passed through absorbers (or scrubbers) which contain liquid absorbents that remove various gaseous pollutants. [latex]\n\\begin{array}{|l|l|}\n\\hline\n\\text{Gaseous pollutant} & \\text{Common absorbent used as solid form}  \\\\\n\\hline\n \\mathrm{SO}_{2}  &  \\text{Dimethylaniline, ammonium sulphite, sodium sulphite etc. }\n \\\\\n\\hline\n \\mathrm{H}_{2} \\mathrm{~S}  & \\text{Mixture of  NaOH  and phenol,soda Ash etc. }\n \\\\\n\\hline\n\\mathrm{NO}_{\\mathrm{x}}  & \\text{Water, aqueous nitric acid} \\\\\n\\hline\n\\mathrm{HF}  & Water,  \\mathrm{NaOH}  \\\\\n\\hline\n\\end{array}\n[/latex] Adsorption technique In this method, the effluent gases are passed through adsorbers which contain solids of porous structure. [latex]\n\\begin{array}{|l|l|}\n\\hline\n\\text{Gaseous pollutant} & \n\\text{Common absorbent used as solid form}  \\\\\n\\hline\n \\mathrm{SO}_{2}  & \n\\text{Pulverised limestone \nor Dolomite }\n \\\\\n\\hline\n \\mathrm{H}_{2} \\mathrm{~S} &\\text{ Iron oxide} \\\\\n\\hline\n \\mathrm{NO}_{\\mathrm{x}}  & \\text{Silica gel} \\\\\n\\hline\n \\mathrm{HF} & \\text{Lump limestone} \\\\\n\\hline\n\\end{array}\n[/latex]",
+    "options": {
+      "A": "P-i, Q-ii, R-iii, S-iv",
+      "B": "P-ii, Q-i, R-iv, S-iii",
+      "C": "P-ii, Q-iii, R-iv, S-i",
+      "D": "P-iv, Q-iii, R-i, S-ii"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Which one of the following products is NOT obtained in anaerobic decomposition of glucose?",
+    "solution": "As glucose [latex] \\left(\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}\\right) [/latex] does not contains sulphur hence anaerobic decomposition of glucose does not release [latex] \\mathrm{H}_{2} \\mathrm{~S} [/latex]. Anaerobic decomposition of glucose gives [latex] \\mathrm{CO}_{2} [/latex], [latex] \\mathrm{CH}_{4}, \\mathrm{H}_{2} \\mathrm{O} [/latex] as its byproducts.",
+    "options": {
+      "A": "[latex] \\mathrm{CO}_{2} [/latex]",
+      "B": "[latex] \\mathrm{CH}_{4} [/latex]",
+      "C": "[latex] \\mathrm{H}_{2}S [/latex]",
+      "D": "[latex] \\mathrm{H}_{2}O [/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 The longitudinal sections of a runway have gradients as shown in the table. [latex]\n\\begin{array}{|c|c|}\n\\hline\n\\text{End of end for sections or runway (m)} & \\text{Graident} (\\%) \\\\\n\\hline\n0 \\; to \\;  200 & +1.0 \\\\\n\\hline\n200 \\; to \\;  600 & -1.0 \\\\\n\\hline\n600 \\; to \\;  1200 & +0.8 \\\\\n\\hline\n1200 \\; to \\;  1600 & +0.2 \\\\\n\\hline\n1600 \\; to \\;  2000 & -0.5 \\\\\n\\hline\n\\end{array}\n [/latex] Consider the reduced level [latex] (\\mathrm{RL}) [/latex] at the starting point of the runway as [latex] 100 \\mathrm{~m} [/latex]. The effective gradient of the runway is",
+    "solution": "[latex]\n\\begin{array}{c|c|c}\n\\text{End to end section of runway}  (\\mathrm{m})& Graident  (\\%)  & \\mathrm{RL}  (\\mathrm{m})  \\\\\n\\hline\n0 & +1 &  100(  given  )  \\\\\n200 & -1 &  100+200 \\times \\frac{1}{100}=102  \\\\\n600 & +0.8 &  98+600 \\times \\frac{0.8}{100}=102.8  \\\\\n1200 & +0.2 &  102.8+400 \\times \\frac{0.2}{100}=103.6  \\\\\n1600 & -0.5 &  103.6-400 \\times \\frac{0.5}{100}=101.6  \\\\\n\\end{array}\n[/latex] Effective gradient [latex] =\\frac{103.6-98}{2000} \\times 100=0.28 \\% [/latex]",
+    "options": {
+      "A": "[latex] 0.02 \\% [/latex]",
+      "B": "[latex] 0.35 \\% [/latex]",
+      "C": "[latex] 0.28 \\% [/latex]",
+      "D": "[latex] 0.18 \\% [/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 In general, the outer edge is raised above the inner edge in horizontal curves for",
+    "solution": "",
+    "options": {
+      "A": "Highways, Railways, and Taxiways",
+      "B": "Highways and Railways only",
+      "C": "Railways and Taxiways only",
+      "D": "Highways only"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 Various stresses in jointed plain concrete pavement with slab size of [latex] 3.5 \\mathrm{~m} \\times 4.5 \\mathrm{~m} [/latex] are denoted as follows: Wheel load stress at interior [latex] =S_{w l}^{i} [/latex] Wheel load stress at edge [latex] =S_{w l}^{e} [/latex] Wheel load stress at corner [latex] =S_{w l}^{c} [/latex] Warping stress at interior [latex] =S_{t}^{i} [/latex] Warping stress at edge [latex] =s_{t}^{e} [/latex] Warping stress at corner [latex] =S_{t}^{c} [/latex] Frictional stress between slab and supporting layer [latex] =S_{f} [/latex] The critical stress combination in the concrete slab during a summer midnight is",
+    "solution": "",
+    "options": {
+      "A": "[latex] S_{w l}^{c}+S_{t}^{c} [/latex]",
+      "B": "[latex] S_{w l}^{e}+S_{t}^{e}+S_{f} [/latex]",
+      "C": "[latex] S_{w l}^{e}+S_{t}^{e}-S_{f} [/latex]",
+      "D": "[latex] S_{w l}^{c}+S_{t}^{c}+S_f [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 For a reconnaissance survey, it is necessary to obtain vertical aerial photographs of a terrain at an average scale of 1:13000 using a camera. If the permissible flying height is assumed as 3000m above a datum and the average terrain elevation is 1050 m above the datum, the required focal length (in [latex] \\mathrm{mm} [/latex] ) of the camera is",
+    "solution": "[latex]\n\\text { Scale }=\\frac{1}{13000}\n [/latex] Flying height [latex] (\\mathrm{H})=3000 \\mathrm{~m} [/latex] Elevation [latex] (h)=1050 m [/latex] [latex]\n\\begin{aligned}\nS & =\\frac{f}{H-h} \\\\\n\\frac{1}{13000} & =\\frac{f}{3000-1050} \\\\\n\\therefore \\quad f & =0.15 m=150 \\mathrm{~mm}\n\\end{aligned}\n [/latex]",
+    "options": {
+      "A": "100",
+      "B": "150",
+      "C": "125",
+      "D": "200"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 What is the CORRECT match between the survey instruments/parts of instruements shown in the table and the operations carried out with them? [latex]\n\\begin{array}{|l|l|}\n\\hline\n\\text{Instruments/Parts of \ninstruments} &   \\text{Operations} \\\\\n\\hline\n\\text{P.  Bubble tube} & \\text{i.  Tacheometry} \\\\\n\\text{Q.  Plumb bob} & \\text{ii.  Minor movements} \\\\\n\\text{R.  Tangent screw} & \\text{iii.  Centering} \\\\\n\\text{S.  Stadia cross-wire} & \\text{iv.  Levelling} \\\\\n\\hline\n\\end{array}\n[/latex]",
+    "solution": "Bubble tube is used for levelling Plumb bob is used for centering Tangent screw in theodolite is used for minor movements Stadia cross wire is used in Tacheometry",
+    "options": {
+      "A": "P-ii, Q-iii, R-iv, S-i",
+      "B": "P-iv, Q-iii, R-ii, S-i",
+      "C": "P-i, Q-iii, R-ii, S-iv",
+      "D": "P-iii, Q-iv, R-i, S-ii"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 To finalize the direction of a survey, four surveyors set up a theodolite at a station [latex] \\mathrm{P} [/latex] and performed all the temporary adjustments. From the station P, each of the surveyors observed the bearing to a tower located at station [latex] \\mathrm{Q} [/latex] with the same instrument without shifting it. The bearing observed by the surveyors are [latex] 30^{\\circ} 30^{\\prime} 00^{\\prime \\prime}, 30^{\\circ} 29^{\\prime} 40^{\\prime \\prime}, 30^{\\circ} 30^{\\prime} 20^{\\prime \\prime} [/latex] and [latex] 30^{\\circ} 31^{\\prime} 20^{\\prime \\prime} [/latex]. Assuming that each measurement is taken with equal precision, the most probable value of the bearing is",
+    "solution": "Most probable value with equal weightage [latex] =30^{\\circ}\\left[\\frac{30^{\\prime}+29^{\\prime} 40^{\\prime \\prime}+30^{\\prime} 20^{\\prime \\prime}+31^{\\prime} 20^{\\prime \\prime}}{4}\\right]=30^{\\circ} 30^{\\prime} 20^{\\prime \\prime} [/latex]",
+    "options": {
+      "A": "[latex] 30^{\\circ} 29^{\\prime} 40^{\\prime \\prime} [/latex]",
+      "B": "[latex] 30^{\\circ} 30^{\\prime} 20^{\\prime \\prime} [/latex]",
+      "C": "[latex] 30^{\\circ} 30^{\\prime} 00^{\\prime \\prime} [/latex]",
+      "D": "[latex] 30^{\\circ} 31^{\\prime} 20^{\\prime \\prime} [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 The steel angle section shown in the figure has elastic section modulus of [latex] 150.92 \\mathrm{~cm}^{3} [/latex] about the horizontal X-X axis, which passes through the centroid of the section. The shape factor of the section is_______ (rounded off to 2 decimal places)",
+    "solution": "Shape factor [latex] =\\frac{Z_{p}}{Z_{e}} [/latex] [latex]\n\\begin{aligned}\nZ_p & =\\frac{A}{2}\\left(\\bar{y}_1+\\bar{y}_2\\right) \\\\\n& =\\frac{2 \\times 12 \\times 3}{2}(6+1.5)=270 \\\\\nS F & =\\frac{270}{150.92}=1.79\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2024_Set2/page5_q3.webp",
+    "min": 1.75,
+    "max": 1.85
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 A reinforced concrete pile of [latex] 10 \\mathrm{~m} [/latex] length and [latex] 0.7 \\mathrm{~m} [/latex] diameter is embedded in a saturated pure clay with unit cohesion of [latex] 50 \\mathrm{kPa} [/latex]. If the adhesion factor is 0.5 , the net ultimate uplift pullout capacity (in kN) of the pile is _____. (rounded off to the nearest integer).",
+    "solution": "Given, Length of pile [latex] (L)=10 \\mathrm{~m} [/latex] Diameter of pile [latex] (D)=0.7 \\mathrm{~m} [/latex] Cohesion of clay [latex] \\left(C_{4}\\right)=50 \\mathrm{kPa} [/latex] Adhesion factor [latex] (\\alpha)=0.5 [/latex] Pullout capacity [latex] (\\mathrm{P})= [/latex] ? Uplift pull out capacity [latex] = [/latex] skin friction resistance + wt. of pile For clay, [latex] (P) [/latex] skin friction resistance [latex] =f_{s} A_{s} [/latex] [latex] P=\\alpha C_{u} A_{s}+W [/latex] Taking unit wt of concrete [latex] =25 \\mathrm{kN} / \\mathrm{m}^{3} [/latex] [latex] P=0.5 \\times 50 \\times \\pi \\times 0.7 \\times 10+\\frac{\\pi(0.7)^{2}}{4} \\times \\gamma_{c} [/latex] [latex] P=0.5 \\times 50 \\times \\pi \\times 0.7 \\times 10+\\frac{\\pi(0.7)^{2}}{4} \\times 25 [/latex]\n\n[latex] =550 \\mathrm{kN} [/latex]",
+    "min": 545.0,
+    "max": 555.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 A [latex] 2 \\mathrm{~m} [/latex] wide rectangular channel is carrying a discharge of [latex] 30 \\mathrm{~m}^{3} / \\mathrm{s} [/latex] at a bed slope of 1 in 300. Assuming the energy correction factor as 1.1 and acceleration due to gravity as [latex] 10 \\mathrm{~m} / \\mathrm{s}^{2} [/latex], the critical depth of flow (in meters) is _____  (rounded off to 2 decimal places)",
+    "solution": "Discharge [latex] (\\mathrm{Q})=30 \\mathrm{~m}^{3} / \\mathrm{s} [/latex] Width of channel [latex] (B)=2 \\mathrm{~m} [/latex] Bed slope [latex] =1 [/latex] in 300 Energy correction factor [latex] (\\alpha)=1.1 [/latex] [latex] \\mathrm{g}=10 \\mathrm{~m} / \\mathrm{s}^{2} [/latex] Discharge per unit width [latex] (q)=\\frac{Q}{B}  =\\frac{30}{2}=15 \\mathrm{~m}^{3} / \\mathrm{sec} / \\mathrm{m}\n [/latex] Critical depth does not depend on slope or the roughness of channel. Critical depth [latex] \\left(y_{c}\\right)=\\left(\\frac{q^{2} \\cdot \\alpha}{g}\\right)^{1 / 3} \n=\\left(\\frac{1.1 \\times 15^{2}}{10}\\right)^{1 / 3}=2.914 \\mathrm{~m} \\simeq 2.91 \\mathrm{~m}\n [/latex]",
+    "min": 2.88,
+    "max": 2.94
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 In a sample of 100 heart partients, each patients has [latex] 80 \\% [/latex] chance of having a heart attack without medicine [latex] X [/latex]. It clinically known that medicine [latex] X [/latex] reduces the probability of having a heart attack by [latex] 50 \\% [/latex]. Medicine [latex] X [/latex] is taken by 50 of these 100 patients. The probability that a randomly selected patient, out of the 100 patients, takes medicine [latex] X [/latex] and has a heart attack is",
+    "solution": "Probability of having a heart attack without medicine [latex] =80 \\% [/latex] Probability of having a heart attack with medicine [latex] = [/latex] [latex] (80 \\%) \\times 0.5=40 \\% [/latex] Total probability that a randomly selected patient out of 100 takes medicines [latex] X [/latex] and has a heart attack. [latex] =\\frac{50}{100} \\times 0.4=0.2=20 \\% [/latex]",
+    "options": {
+      "A": "[latex] 40 \\% [/latex]",
+      "B": "[latex] 60 \\% [/latex]",
+      "C": "[latex] 20 \\% [/latex]",
+      "D": "[latex] 30 \\% [/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 A linearly elalstic beam of length [latex] 2 \\mid [/latex] with flexural rigidity [latex] \\mathrm{El} [/latex] has negligible mass. A massless spring with a spring constant [latex] \\mathrm{k} [/latex] and a rigid block of mass [latex] \\mathrm{m} [/latex] are attached to the beam as shown in the figure. The natural frequency of this system is",
+    "solution": "Let us consider sfittness of beam as [latex] \\mathrm{k}_{\\mathrm{b}} [/latex]. Here both the stiffness elements are in parallel. [latex]\n\\begin{aligned}\n\\Rightarrow \\quad \\mathrm{k}_{\\text {eq }} & =\\mathrm{k}_{1}+\\mathrm{k}_{2} \\\\\n& =\\mathrm{k}+\\frac{48 \\mathrm{EI}}{(2 \\ell)^{3}}=\\mathrm{k}+\\frac{6 \\mathrm{EI}}{\\ell^{3}}\n\\end{aligned}\n [/latex] Natural frequency [latex] \\omega_{n}=\\sqrt{\\frac{k_{\\text {eq }}}{m}} [/latex] [latex]\n\\omega_{n}=\\sqrt{\\frac{\\left(\\mathrm{k}+\\frac{6 \\mathrm{EI}}{\\ell^{3}}\\right)}{m}}=\\sqrt{\\frac{\\mathrm{k} \\ell^{3}+6 \\mathrm{El}}{\\mathrm{m} \\ell^{3}}}\n [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2024_Set2/page6_q2.webp",
+    "options": {
+      "A": "[latex] \\sqrt{\\frac{k l^{3}+6 E l}{m l^{3}}} [/latex]",
+      "B": "[latex] \\sqrt{\\frac{k l^{3}+48 E l}{m^{3}}} [/latex]",
+      "C": "[latex] \\sqrt{\\frac{6 E l k}{\\left(\\left.k\\right|^{3}+6 E I\\right) m}} [/latex]",
+      "D": "[latex] \\sqrt{\\frac{48 E I k}{\\left(k l^{3}+48 E I\\right) m}} [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 A critical activity in a project is estimated to take 15 days to complete at a cost of Rs. 30,000. The activity can be expedited to complete in 12 days by spending a total amount of Rs. 54,000. Consider the statements [latex] \\mathrm{P} [/latex] and [latex] \\mathrm{Q} [/latex]. [latex] P [/latex] : It is economically advisable to complete the activity early by crashing if the indirect cost of the project is Rs. 8,500 per day. Q: It is economically advisable to complete the activity early by crashing, if the indirect cost of the project is Rs. 10,000 per day. Which one of the following options is CORRECT?",
+    "solution": "[latex] \\mathrm{C} / \\mathrm{s}=\\frac{54000-30000}{15-12}=8000 \\mathrm{Rs} / [/latex] day [latex] \\Rightarrow [/latex] If [latex] \\mathrm{C} / \\mathrm{s} [/latex] is less than indirect cost per day then it would be economically advisable to complete the activity early by crashing. Hence both the statements P and Q are correct.",
+    "options": {
+      "A": "Both P and Q are TRUE",
+      "B": "P is TRUE and Q is FALSE",
+      "C": "Both P and Q are FALSE",
+      "D": "P is FALSE and Q is TRUE"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 A homogeneous, prismatic, linearly elastic steel bar fixed at both the ends has a slenderness ratio [latex] (\\mathrm{I} / \\mathrm{r}) [/latex] of 105 , where [latex] I [/latex] is the bar length and [latex] r [/latex] is the radius of gyration. The coefficient of thermal expansion of steel is [latex] 12 \\times 10^{-6} /{ }^{\\circ} \\mathrm{C} [/latex]. Consider the effective length of the steel bar as 0.51 and neglect the self-weight of the bar. The differential increase in temperature (rounded off to the nearest integer) at which the bar buckles is",
+    "solution": "[latex] \\sigma_{\\text {temp }}=E \\alpha \\Delta T [/latex] [latex]\n\\sigma_{\\mathrm{cr}}=\\frac{\\pi^{2} \\mathrm{E}}{\\lambda_{\\text {eff }}^{2}}=\\frac{\\pi^{2} E}{\\left(\\ell_{\\text {eff }} / r\\right)^{2}}\n [/latex] [latex] \\Rightarrow [/latex] For given support [latex] \\rightarrow \\ell_{\\text {eff }}=\\frac{1}{2} [/latex] Hence, [latex]\n\\begin{aligned}\n\\mathrm{E} \\alpha \\Delta \\mathrm{T} & =\\frac{\\pi^{2} \\mathrm{E}}{\\left(\\frac{\\mathrm{I}}{2 \\mathrm{r}}\\right)^{2}} \\\\\n\\Rightarrow \\quad \\Delta \\mathrm{T} & =\\frac{\\pi^{2} \\times 4}{\\alpha 5\\left(\\frac{1}{2}\\right)^{2}}=\\frac{\\pi^{2} \\times 4}{12 \\times 10^{-6} \\times 105^{2}} \\\\\n\\Rightarrow \\quad \\Delta \\mathrm{T} & =298^{\\circ} \\mathrm{C}\n\\end{aligned}\n [/latex]",
+    "options": {
+      "A": "[latex] 298^{\\circ} \\mathrm{C} [/latex]",
+      "B": "[latex] 85^{\\circ} \\mathrm{C} [/latex]",
+      "C": "[latex] 400^{\\circ} \\mathrm{C} [/latex]",
+      "D": "[latex] 250^{\\circ} \\mathrm{C} [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Consider the statements [latex] \\mathrm{P} [/latex] and [latex] \\mathrm{Q} [/latex] related to the analysis/design of retaining walls. P: When a rough retaining wall moves toward the backfill, the wall friction force/resistance mobilizes in upward direction along the wall. Q: Most of the earth pressure theories calculate the earth pressure due to surcharge by neglecting the actual distribution of stresses due to surcharge. Which of the following options is CORRECT?",
+    "solution": "When rough retaining wall moves toward the back fill passive earth pressure [latex] \\left(\\mathrm{P}_{\\mathrm{P}}\\right) [/latex] condition will develop which can be represented with the help of diagram shown below. Hence wall friction force/resistance [latex] (\\mathrm{F}) [/latex] mobilizes in upward direction along the wall.\n   Earth pressure due to surcharge is assumed to be constant along the depth of retaining wall and actual variation of stress due to surcharge is neglected.",
+    "options": {
+      "A": "Both [latex] \\mathrm{P} [/latex] and [latex] \\mathrm{Q} [/latex] are true",
+      "B": "[latex] P [/latex] is true and [latex] Q [/latex] is false",
+      "C": "Both [latex] \\mathrm{P} [/latex] and [latex] \\mathrm{Q} [/latex] are false",
+      "D": "[latex] P [/latex] is false and [latex] Q [/latex] is true"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 A round-bottom trianglular lined canal is to be liad at a slope of [latex] 1 \\mathrm{~m} [/latex] in 1500 , to carry a discharge of [latex] 25 \\mathrm{~m}^{3} / \\mathrm{s} [/latex]. The side slopes of the canal cross-section are to be kept at [latex] 1.25 \\mathrm{H}: 1 \\mathrm{~V} [/latex]. If Manning's roughtness coefficient is 0.013 , the flow depth (in meters) will be in the range of",
+    "solution": "[latex]\n\\begin{aligned}\n\\cot \\theta & =1.25 \\\\\n\\theta & =0.675 \\mathrm{rad} \\\\\n\\mathrm{n} & =0.013 \\\\\n\\mathrm{Q} & =25 \\mathrm{~m}^{3} / \\mathrm{s}, \\mathrm{S}=\\frac{1}{1500}\n\\end{aligned}\n [/latex] Using manning's equation: [latex]\n\\begin{aligned}\n\\text { Area } & =y^{2}(\\theta+\\cot \\theta) \\\\\nA & =1.925 y^{2} \\\\\nR & =\\frac{y}{2} \\\\\nQ & =\\frac{A}{n} R^{2 / 3}(S)^{1 / 2} \\\\\n25 & =\\frac{1.925 y^{2}}{0.013}\\left(\\frac{y}{2}\\right)^{2 / 3}\\left(\\frac{1}{1500}\\right)^{1 / 2} \\\\\n\\Rightarrow \\quad y & =2.40 \\mathrm{~m}\n\\end{aligned}\n [/latex]",
+    "options": {
+      "A": "2.39 to 2.42",
+      "B": "1.94 to 1.97",
+      "C": "2.24 to 2.27",
+      "D": "2.61 to 2.64"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 A hypothetical multimedia filter, consisting of anthracite particles (specific gravity: 1.50), silica sand (specific gravity: 2.60), and ilmenite sand (specific gravity: 4.20), is to be designed for treating water/wastewater. After backwashing, the particles should settle forming three layers: coarse anthracite particles at the top of the bed, silica sand in the middle, and small ilmenite sand particles at the bottom of the bed. Assume (i) Slow discrete settling (Stoke's law is applicable) (ii) All particles are spherical (iii) Diameter of silica sand particles is [latex] 0.20 \\mathrm{~mm} [/latex] The correct option fulfilling the diameter requirements for this filter media is",
+    "solution": "[latex]\n\\begin{array}{|c|}\n\\hline\nAnthracite \\\\\n \\mathrm{G}_{\\mathrm{S}}=1.50 \\\\\n\\hline\nSilica sand \\\\\n \\mathrm{G}_{\\mathrm{S}}=2.60  \\\\\n \\mathrm{D}=0.2 \\mathrm{~mm}  \\\\\n\\hline\nIImenite sand \\\\\n \\mathrm{G}_{\\mathrm{S}}=4.20  \\\\\n\\hline\n\\end{array}\n[/latex] Let the settling velocity of anthracite pacticle at top, silica pacticle at middle \\& ilmenite pacticle at bottom, after back washing be [latex] \\left(V_{S}\\right)_{T},\\left(V_{S}\\right),\\left(V_{S}\\right)_{B} [/latex] respectively. For Middle silica sand [latex]\n\\begin{aligned}\n& v_{S}=\\frac{\\left(G_{s_{1}}-1\\right) \\gamma_{w} D_{1}^{2}}{18 \\mu} \\\\\n& v_{S}=K(2.6-1)(0.2)^{2}\n\\end{aligned}\n [/latex] [latex]\nV_{S}=K(1.6)(0.2)^{2} \\text { where, } K=\\frac{\\gamma_{w}}{18 \\mu}\n [/latex] For Top Anthracite [latex]\n\\begin{aligned}\n& \\left(\\mathrm{V}_{\\mathrm{S}}\\right)_{\\mathrm{T}}=\\mathrm{K}\\left(\\mathrm{G}_{\\mathrm{S}_{2}}-1\\right)\\left(\\mathrm{D}_{2}\\right)^{2} \\\\\n& \\left(\\mathrm{~V}_{\\mathrm{S}}\\right)_{\\mathrm{T}}=\\mathrm{K}(0.5)\\left(\\mathrm{D}_{2}\\right)^{2}\n\\end{aligned}\n [/latex] As anthracite lies above silica layer So, anthracite particles should have settling velocity less than silica particles [latex] \\left(\\mathrm{V}_{\\mathrm{S}}\\right)_{\\mathrm{T}} \\lt \\mathrm{V}_{\\mathrm{S}} [/latex] So, [latex] K(0.5)\\left(D_{2}\\right)^{2} \\lt  K(1.6)(0.2)^{2} [/latex] [latex] \\mathrm{D}_{2} [/latex] or [latex] \\mathrm{D}_{\\text {Top }} \\lt \\sqrt{\\frac{1.6 \\times(0.2)^{2}}{0.5}} [/latex] [latex] \\mathrm{D}_{2} [/latex] or [latex] \\mathrm{D}_{\\text {Top }} \\lt 0.357 \\mathrm{~mm} [/latex] For bottom ilmenite sand [latex] \\left(\\mathrm{V}_{\\mathrm{S}}\\right)_{\\mathrm{B}}=\\mathrm{K}\\left(\\mathrm{G}_{\\mathrm{S}_{3}}-1\\right)\\left(\\mathrm{D}_{3}^{2}\\right) [/latex] [latex] \\left(\\mathrm{V}_{\\mathrm{S}}\\right)_{\\mathrm{B}}=\\mathrm{K}(4.2-1)\\left(\\mathrm{D}_{3}^{2}\\right) [/latex] As, ilimite layer lies below silica lyers So, ilimite particles should have settling velocity greater than silica i.e., [latex] \\left(V_{S}\\right)_{B}  \\gt V_{S} [/latex] [latex] \\mathrm{K}(3.2)\\left(\\mathrm{D}_{3}^{2}\\right) \\gt \\mathrm{K}(1.6)(0.2)^{2} [/latex] [latex] \\mathrm{D}_{3} [/latex] or [latex] \\mathrm{D}_{\\text {bottom }} \\gt \\sqrt{\\frac{1.6 \\times(0.2)^{2}}{3.2}} [/latex] [latex] \\mathrm{D}_{3} [/latex] or [latex] \\mathrm{D}_{\\text {bottom }} \\gt 0.141 \\mathrm{~mm} [/latex] Hence, diameter of anthracite particle is slightly greater than [latex] 0.35 \\mathrm{~mm} \\& [/latex] diameter of ilmenite particle is slightly greater than [latex] 0.141 \\mathrm{~mm} [/latex]",
+    "options": {
+      "A": "diameter of anthracite particles is slightly less than 0.35 mm and diameter of ilmenite particles is slightly greater than 0.141 mm.",
+      "B": "diameter of anthracite particles is slightly greater than 0.35 mm and diameter of ilmenite particles is slightly less than 0.141 mm.",
+      "C": "diameter of anthracite particles is slightly less than 0.64 mm and diameter of ilmenite particles is slightly less than 0.10 mm.",
+      "D": "diameter of anthracite particles is slightly greater than 0.64 mm and diameter of ilmenite particles is slightly less than 0.10 mm."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 The consolidated data of a spot study for a certain stretch of a highway is given in the table. [latex]\n\\begin{array}{|c|c|}\n\\hline\n\n\\text{Speed range (kmph)} & \\text{Number of observations } \\\\\n\\hline\n 0-10  & 7 \\\\\n\\hline\n 10-20  & 31 \\\\\n\\hline\n 20-30  & 76 \\\\\n\\hline\n 30-40  & 129 \\\\\n\\hline\n 40-50  & 104 \\\\\n\\hline\n 50-60  & 78 \\\\\n\\hline\n 60-70  & 29 \\\\\n\\hline\n 70-80  & 24 \\\\\n\\hline\n 80-90  & 13 \\\\\n\\hline\n 90-100  & 9 \\\\\n\\hline\n\\end{array}\n[/latex] The \"upper speed limit\" (in kmph) for the traffic sign is",
+    "solution": "[latex]\n\\begin{array}{|c|c|c|}\n\\hline\n\\text{Mid speed (kmph) }& \\% \\text{of vehicles} & Cumulative \\% \\\\\n\\hline\n5 & 1.4 & 1.4 \\\\\n\\hline\n15 & 6.2 & 7.6 \\\\\n\\hline\n25 & 15.2 & 22.8 \\\\\n\\hline\n35 & 25.8 & 48.6 \\\\\n\\hline\n45 & 20.8 & 69.4 \\\\\n\\hline\n55 & 15.6 & 85 \\\\\n\\hline\n65 & 5.8 & 90.8 \\\\\n\\hline\n75 & 4.8 & 95.6 \\\\\n\\hline\n85 & 2.6 & 98.2 \\\\\n\\hline\n95 & 1.8 & 100 \\\\\n\\hline\n\\end{array}\n[/latex] Hence [latex] 85^{\\text {th }} [/latex] percentile speed or safe speed [latex] =55 [/latex] [latex] \\mathrm{km} / \\mathrm{hr} [/latex]",
+    "options": {
+      "A": "50",
+      "B": "55",
+      "C": "65",
+      "D": "70"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 Three vectors [latex] \\vec{p}, \\vec{q} [/latex] and [latex] \\vec{r} [/latex] are given as [latex] \\vec{p}=\\hat{i}+\\hat{j}+\\hat{k} [/latex] [latex] \\overrightarrow{\\mathrm{q}}=\\hat{\\mathrm{i}}+2 \\hat{\\mathrm{j}}+3 \\hat{\\mathrm{k}} [/latex] [latex] \\vec{r}=2 \\hat{i}+3 \\hat{j}+4 \\hat{k} [/latex] Which of the following is/are CORRECT?",
+    "solution": "(A) [latex] \\vec{p} \\times(\\vec{q} \\times \\vec{r})=(\\vec{p} \\cdot \\vec{r}) \\vec{q}-(\\vec{p} \\cdot \\vec{q}) \\vec{r} [/latex] (This is always true for any three given vectors) (B) We know that [latex] \\vec{a} \\cdot \\vec{b}=\\vec{b} \\cdot \\vec{a} [/latex] is always true but [latex] \\vec{a} \\times \\vec{b} \\neq \\vec{b} \\times \\vec{a} [/latex] because [latex] \\vec{a} \\times \\vec{b}=-\\vec{b} \\times \\vec{a} [/latex] This can be true only when [latex] \\vec{a} \\times \\vec{b}=0 [/latex] So, [latex] \\quad \\vec{r} \\cdot(\\vec{p} \\times \\vec{q})=\\vec{r} .(\\vec{q} \\times \\vec{p}) [/latex] [latex]\n\\vec{r} \\cdot(\\vec{p} \\times \\vec{q})=-\\vec{r} \\cdot(\\vec{p} \\times \\vec{q})\n [/latex] This can be true if [latex]\n\\begin{aligned}\n\\vec{r} \\cdot(\\vec{p} \\times q) & =0 \\\\\n\\vec{p} \\times \\vec{q} & =\\hat{i}-2 \\hat{j}+j\n\\end{aligned}\n [/latex] [latex] (\\vec{r} \\cdot \\vec{p} \\times \\vec{q})=0 [/latex] this is true in this case (C) [latex] \\vec{p} \\times(\\vec{q} \\times \\vec{r}) [/latex] can't be equal to [latex] (\\vec{p} \\times \\vec{q}) \\times \\vec{r} [/latex] because [latex] \\vec{p} \\times(\\vec{q} \\times \\vec{r}) \\perp \\vec{p} [/latex] and [latex] (\\vec{p} \\times \\vec{q}) \\times \\vec{r}) \\perp \\vec{r} [/latex] So, [latex] (\\vec{p} \\times(\\vec{q} \\times \\vec{r}) \\neq(\\vec{p} \\times \\vec{q})) \\times \\vec{r} [/latex] (D) [latex] \\vec{p} \\times(\\vec{q} \\times \\vec{r})+\\vec{q} \\times(\\vec{r} \\times \\vec{p})+\\vec{r} \\times(\\vec{p} \\times \\vec{q})=\\overrightarrow{0} [/latex] [latex] (\\vec{p} . \\vec{r}) \\vec{q}-(\\vec{p} . \\vec{q}) \\vec{r}+(\\vec{q} . \\vec{p}) \\vec{p}-(\\vec{q} \\cdot \\vec{r}) \\vec{p}+(\\vec{r} . \\vec{q}) \\vec{p}-(\\vec{r} . \\vec{q})) \\vec{q} [/latex] [latex] 0=0 [/latex] [latex]\n\\begin{aligned}\n& \\vec{p} \\cdot \\vec{r}=\\vec{r} \\cdot \\vec{p} \\\\\n& \\vec{p} \\cdot \\vec{q}=\\vec{q} \\cdot \\vec{p} \\\\\n& \\vec{q} \\cdot \\vec{r}=\\vec{r} \\cdot \\vec{q}\n\\end{aligned}\n [/latex] (Hence proved)",
+    "options": {
+      "A": "[latex] \\vec{p} \\times(\\vec{q} \\times \\vec{r})+\\vec{q} \\times(\\vec{r} \\times \\vec{p})+\\vec{r} \\times(\\vec{p} \\times \\vec{q})=\\overrightarrow{0} [/latex]",
+      "B": "[latex] \\vec{p} \\times(\\vec{q} \\times \\vec{r})=(\\vec{p} \\cdot \\vec{r}) \\vec{q}-(\\vec{p} \\cdot \\vec{q}) \\vec{r} [/latex]",
+      "C": "[latex] \\vec{p} \\times(\\vec{q} \\times \\vec{r})=(\\vec{p} \\times \\vec{q}) \\times \\vec{r} [/latex]",
+      "D": "[latex] \\vec{r} \\cdot(\\vec{p} \\times \\vec{q})=(\\vec{q} \\times \\vec{p}) \\cdot \\vec{r} [/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Consider the statements [latex] \\mathrm{P}, \\mathrm{Q} [/latex] and [latex] \\mathrm{R} [/latex]. P: [latex] \\quad [/latex] Compacted fine-grained soils with flocculated structure have isotropic permeability. Q: Phreatic surface/line is the line along which the pore water pressure is always maximum. R: [latex] \\quad [/latex] The piping phenomenon occuring below the dam foundation is typically known as blowout piping. Which of the following option(s) is/are CORRECT?",
+    "solution": "A fine grained soil when compacted on dry side of optimum has a flocculant (random) structure. Compacted fine grained soils with flocculant structure has isotropic permeability The top most flow line below which seepage takes place through a dam body is called phreatic line.\nHydrostatic pressure is observed below phreatic line where as pressure on and above the phreatic line is atmospheric.",
+    "options": {
+      "A": "Both [latex] \\mathrm{P} [/latex] and [latex] \\mathrm{R} [/latex] are true",
+      "B": "[latex] P [/latex] is false and [latex] Q [/latex] is true",
+      "C": "[latex] P [/latex] is true and [latex] R [/latex] is false",
+      "D": "Both [latex] \\mathrm{Q} [/latex] and [latex] \\mathrm{R} [/latex] are false"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 In the context of pavement material characterization, the CORRECT statement(s) is/are",
+    "solution": "In a bituminous mix VMA [latex] = [/latex] Voids in mineral aggregate [latex] \\mathrm{VMA}=\\mathrm{V}_{\\mathrm{b}} \\%+\\mathrm{V}_{\\mathrm{v}} \\% [/latex] where, [latex] \\mathrm{V}_{\\mathrm{b}} \\%= [/latex] Percentage volume of bitumen [latex] \\mathrm{V}_{\\mathrm{v}} \\%= [/latex] Percentage air voids Toughness is determined by aggregate impact test and hardness is determined by los angeles abrasion test. An initial concavity in CBR curve indicate errors which may occur due to following reasons and also require correction Top layer of soil too soft Top surface of soil specimen is not even The penetration plunger of the loading machine is not vertical and the bottom of plunger is not horizontal.",
+    "options": {
+      "A": "The load penetration curve of CBR test may need origin correction due to the non-vertical penetrating plunger of the loading machine.",
+      "B": "The toughness and hardness of road aggregates are determined by Los Angeles abrasion test and aggregate impact test, respectively.",
+      "C": "Grading of normal (unmodified) bitumen binders is done based on viscosity test results.",
+      "D": "In compacted bituminous mix. voids in the mineral aggregate (VMA) is equal to the sum of total volume of air voids [latex] \\left(V_{v}\\right) [/latex] and total volume of bitumen [latex] \\left(V_{b}\\right) [/latex]."
+    },
+    "correct_answers": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 The expression for computing the effective interest rate [latex] \\left(\\mathrm{i}_{\\text {eff }}\\right) [/latex] using continuous compounding for a nominal interest rate of [latex] 5 \\% [/latex] is [latex]\n\\mathrm{i}_{\\mathrm{eff}}=\\lim _{\\mathrm{m} \\rightarrow \\infty}\\left(1+\\frac{0.05}{\\mathrm{~m}}\\right)^{\\mathrm{m}}-1\n [/latex] The effective interest rate (in percentage) is ______(rounded off to 2 decimal places).",
+    "solution": "[latex]\n\\begin{aligned}\ni_{\\text {eff }} & =\\lim _{m \\rightarrow \\infty}\\left(1+\\frac{0.05}{m}\\right)^{m}-1 \\\\\n& =e^{\\lim _{m \\rightarrow \\infty}\\left(1+\\frac{0.05}{m}\\right) \\times m-1} \\\\\n& =e^{\\lim _{m \\rightarrow \\infty}\\left(\\frac{0.05}{m} \\times m\\right)-1} \\\\\n& =e^{0.05}-1=0.05127 \n\\end{aligned}\n [/latex]",
+    "min": 5.11,
+    "max": 5.15
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 Consider two matrices\n[latex] A=\\left[\\begin{array}{lll}2 & 1 & 4 \\\\ 1 & 0 & 3\\end{array}\\right] [/latex] and [latex] B=\\left[\\begin{array}{cc}-1 & 0 \\\\ 2 & 3 \\\\ 1 & 4\\end{array}\\right] [/latex]. The determinant of the matrix [latex] A B [/latex] is ______ (in integer).",
+    "solution": "[latex]\n\\begin{aligned}\nA & =\\left[\\begin{array}{lll}\n2 & 1 & 4 \\\\\n1 & 0 & 3\n\\end{array}\\right] \\\\\nB & =\\left[\\begin{array}{cc}\n-1 & 0 \\\\\n2 & 3 \\\\\n1 & 4\n\\end{array}\\right] \\\\\nA B & =\\left[\\begin{array}{ll}\n-2+2+4 & 0+3+16 \\\\\n-1+0+3 & 0+0+12\n\\end{array}\\right] \\\\\n& =\\left[\\begin{array}{ll}\n4 & 19 \\\\\n2 & 12\n\\end{array}\\right] \\\\\n& =48-38=10\n\\end{aligned}\n [/latex]",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 For the [latex] 6 \\mathrm{~m} [/latex] long horizontal cantilever beam [latex] \\mathrm{PQR} [/latex] shown in the figure. [latex] \\mathrm{Q} [/latex] is the mid-point. Segment [latex] \\mathrm{PQ} [/latex] of the beam has flexural rigidity [latex] \\mathrm{EI}=2 \\times 10^{5} \\mathrm{kN}, \\mathrm{m}^{2} [/latex] whereas the segment [latex] \\mathrm{QR} [/latex] has infinite flexural rigidity. Segment QR is subjected to uniformly distributed, vertically downward load of 5 [latex] \\mathrm{kN} / \\mathrm{m} [/latex]. The magnitude of the vertical displacement (in [latex] \\mathrm{mm} [/latex] ) at point [latex] \\mathrm{Q} [/latex] is _____ (rounded off to 3 decimal places)",
+    "solution": "Vertical deflection at [latex] \\mathrm{Q}=\\frac{\\mathrm{Pl}^{3}}{3 \\mathrm{El}}+\\frac{\\mathrm{Ml}^{2}}{2 \\mathrm{El}} [/latex] [latex] \\Delta_{Q}=\\frac{(15 \\mathrm{kN})(3 \\mathrm{~m})^{3}}{3 \\times 2 \\times 10^{5} \\mathrm{kNm}^{2}}+\\frac{(22.5 \\mathrm{kNm})}{2 \\times 2 \\times 10^{5}} [/latex] [latex] \\Delta_{\\mathrm{Q}}=\\left(6.75 \\times 10^{-4}+5.0625 \\times 10^{-4}\\right) \\mathrm{m} [/latex] [latex] \\Delta_{\\mathrm{Q}}=1.181 \\mathrm{~mm} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2024_Set2/page8_q4.webp",
+    "min": 1.176,
+    "max": 1.186
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 The horizontal beam [latex] P Q R S [/latex] shown in the figure has a fixed support at point [latex] P [/latex], an internal hinge at point [latex] Q [/latex], and a pin support at point [latex] R [/latex]. A concentrated vertically downward load [latex] (V) [/latex] of [latex] 10 \\mathrm{kN} [/latex] can act at any point over the entire length of the beam. The maximum magnitude of the moment reaction (in [latex] \\mathrm{kN} . \\mathrm{m} [/latex] ) that can act at the support [latex] \\mathrm{P} [/latex] due to [latex] \\mathrm{V} [/latex] is ______ (in integer).",
+    "solution": "Beam is determinate ILD for [latex] \\mathrm{BM} [/latex] at ' [latex] \\mathrm{P} [/latex] ' is given by Hence when point load is at ' [latex] Q [/latex] ', the point of [latex] \\max [/latex] ordinate for ILD for BM at [latex] \\mathrm{P}, \\mathrm{BM} [/latex] at [latex] \\mathrm{P} [/latex] will be max. [latex] \\Rightarrow \\mathrm{M}_{\\mathrm{P} \\text { max }}=10 \\times 15=150 \\mathrm{kN}-\\mathrm{m} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2024_Set2/page8_q5.webp",
+    "min": 150.0,
+    "max": 150.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 A concrete column section of size [latex] 300 \\mathrm{~mm} \\times 500 \\mathrm{~mm} [/latex] as shown in the figure is subjected to both axial compression and bending along the major axis. The depth of the neutral axis [latex] \\left(x_{u}\\right) [/latex] is 1.1 times the depth of the column, as shown. The maximum compressive strain [latex] \\left(\\varepsilon_{\\mathrm{c}}\\right) [/latex] at highly compressive extreme fiber in concrete, where there is no tension in the section, is ________ [latex] \\times 10^{-3} [/latex] (rounded off to 2 decimal places)",
+    "solution": "The minimum compressive strain in the column [latex] \\varepsilon_{\\mathrm{c}_{1} \\max }=0.0035-0.75 \\varepsilon_{\\mathrm{c}_{1} \\min } [/latex] [latex] \\varepsilon_{\\mathrm{c}_{1} \\min }= [/latex] strain in the least compressed fibre In the strain diagram, From triangle [latex] \\triangle \\mathrm{OAD} [/latex] and [latex] \\triangle \\mathrm{OBC} [/latex] [latex]\n\\begin{aligned}\n& \\Rightarrow \\quad \\frac{\\varepsilon_{\\mathrm{c}_{1} \\max }}{1.1 \\mathrm{D}}=\\frac{\\varepsilon_{\\mathrm{c}_{1} \\min }}{0.1 \\mathrm{D}} \\Rightarrow \\varepsilon_{\\mathrm{c}_{1} \\min }=\\frac{1}{11} \\varepsilon_{\\mathrm{c}_{1} \\max } \\\\\n& \\varepsilon_{\\mathrm{c}_{1} \\max }=0.0035-0.75 \\times \\frac{1}{11} \\varepsilon_{\\mathrm{c}_{1} \\max } \\\\\n& \\Rightarrow \\quad \\varepsilon_{\\mathrm{c}_{1} \\max }=3.276 \\times 10^{-3}=3.28 \\times 10^{-3}\n\\end{aligned}\n [/latex] Hence, the correct answer is 3.28",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2024_Set2/page9_q1.webp",
+    "min": 3.2,
+    "max": 3.4
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 The table shows the activities and their durations and dependencies in a project. [latex]\n\\begin{array}{|c|c|c|}\n\\hline\n\\text{Activity} & \\text{Duration(days)} & \\text{Depends on} \\\\\n\\hline\nA & 8 & - \\\\\n\\hline\nB & 4 &  \\mathrm{~A}  \\\\\n\\hline\nC & 4 &  \\mathrm{~B}  \\\\\n\\hline\n \\mathrm{D}  & 4 &  \\mathrm{C}, \\mathrm{L}  \\\\\n\\hline\n \\mathrm{F}  & 4 &  \\mathrm{~A}  \\\\\n\\hline\n \\mathrm{G}  & 4 &  \\mathrm{~F}  \\\\\n\\hline\n \\mathrm{H}  & 6 &  \\mathrm{G}, \\mathrm{L}  \\\\\n\\hline\n \\mathrm{K}  & 10 &  \\mathrm{~A}  \\\\\n\\hline\n \\mathrm{L}  & 6 &  \\mathrm{~F}, \\mathrm{~K}  \\\\\n\\hline\n\\end{array}\n[/latex] The total duration (in days) of the project is ____(in integer)",
+    "solution": "Critical path: A-K-L-H Project duration [latex] =30 [/latex] days",
+    "min": 30.0,
+    "max": 30.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 A homogeneous earth dam has a maximum water head difference of [latex] 15 \\mathrm{~m} [/latex] between the upstream and downstream sides. A flownet was drawn with the number of potential drops as 10 and the average length of the element as [latex] 3 \\mathrm{~m} [/latex]. Specific gravity of the soil is 2.65 . For a factor of safety of 2.0 against piping failure, void ratio of the soil is ____(rounded off to 2 decimal places).",
+    "solution": "[latex] (\\Delta \\mathrm{H}) [/latex] total head loss [latex] =15 \\mathrm{~m} [/latex] [latex] \\left(n_{d}\\right) [/latex] number of equipotential drops [latex] =10 [/latex] (I) length of flow field [latex] =3 \\mathrm{~m} [/latex] (G) specific gravity [latex] =2.65 [/latex] (FOS) factor of safety [latex] =2 [/latex] (e) void ratio [latex] = [/latex] ? [latex] (\\Delta h) [/latex] equipotential drop of head [latex]\n\\begin{aligned}\n& =\\frac{\\text { Total head loss }}{\\text { no. of equipotential drop }} \\\\\n\\Delta \\mathrm{h} & =\\frac{\\Delta \\mathrm{H}}{\\mathrm{N}_{\\mathrm{d}}}=\\frac{15}{10}=1.5 \\mathrm{~m}\n\\end{aligned}\n [/latex] FOS against quick sand condition [latex] =\\frac{i_{c r}}{i} [/latex] (i) hydraulic gradient [latex] =\\frac{\\Delta \\mathrm{h}}{\\mathrm{l}}=\\frac{1.5}{3}=0.5 [/latex] [latex] 2=\\frac{i_{c r}}{0.5},\\left(i_{c r}\\right) [/latex] ciritical hydraulic gradient [latex] =1 [/latex] Critical hydraulic gradient [latex] \\left(\\mathrm{i}_{\\mathrm{cr}}\\right)=\\frac{\\mathrm{G}-1}{1+\\mathrm{e}}=1=\\frac{2.65-1}{1+\\mathrm{e}} [/latex] (e)void ratio [latex] =0.65 [/latex]",
+    "min": 0.63,
+    "max": 0.67
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 The in-situ percentage of voids of a sand deposit is [latex] 50 \\% [/latex]. The maximum and minimum densities of sand determined from the laboratory tests are [latex] 1.8 \\mathrm{~g} / \\mathrm{cm}^{3} [/latex] and [latex] 1.3 \\mathrm{~g} / \\mathrm{cm}^{3} [/latex], respectively. Assume the specific gravity of sand as 2.7 . The relative density index of the in-situ sand is ______ (rounded off to 2 decimal places)",
+    "solution": "maximum density [latex] \\left(\\gamma_{\\mathrm{d}}\\right)_{\\max }=1.8 \\mathrm{~g} / \\mathrm{cm}^{3} [/latex] minimum density [latex] \\left(\\gamma_{\\mathrm{d}}\\right)_{\\min }=1.3 \\mathrm{~g} / \\mathrm{cm}^{3} [/latex] specific gravity [latex] (G)=2.7 [/latex] [latex] \\left(I_{D}\\right) [/latex] relative density [latex] =\\frac{\\gamma_{d \\max }\\left(\\gamma_{d}-\\gamma_{d \\min }\\right)}{\\gamma_{d}\\left(\\gamma_{d \\max }-\\gamma_{d \\min }\\right)} [/latex] [latex] \\therefore \\quad(n) [/latex] percentage of voids [latex]\n=\\frac{\\left(\\mathrm{V}_{\\mathrm{v}}\\right) \\text { volume of voids } \\times 100}{\\left(\\mathrm{~V}_{\\mathrm{T}}\\right) \\text { Total volume }}=50 \\%\n [/latex] Porosity( [latex] n [/latex] ) [latex] =0.5 [/latex] void ratio (e) [latex] =\\frac{\\mathrm{n}}{1-\\mathrm{n}}=\\frac{0.5}{1-0.5}=1 [/latex] [latex] \\left(\\gamma_{\\mathrm{d}}\\right)_{\\text {insitu }}=\\frac{\\mathrm{G} \\cdot \\gamma_{\\mathrm{w}}}{1+\\mathrm{e}}=\\frac{2.7 \\times 1}{1+1}=1.35 \\mathrm{~g} / \\mathrm{cm}^{3} [/latex] [latex] \\left(I_{D}\\right)=\\frac{1.8(1.35-1.3)}{1.35(1.8-1.3)}=0.13 [/latex] Relative density [latex] \\left(I_{D}\\right)=0.13 [/latex]",
+    "min": 0.12,
+    "max": 0.14
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 A drained triaxial test was conducted on a saturated sand specimen using a stress-path triaxial testing system. The specimen failed when the axial stress reached a value of [latex] 100 \\mathrm{kN} / \\mathrm{m}^{2} [/latex] from an initial confining pressure of [latex] 300 \\mathrm{kN} / \\mathrm{m}^{2}[/latex]. The angle of shearing plane (in degrees) with respect to horizontal is _____ (rounded off to the nearest integer).",
+    "solution": "In stress-path triaxial testing, we can control both radial and axial stress. [latex] \\begin{aligned} & \\sigma_1=\\sigma_3 \\tan ^2\\left(45^{\\circ}+\\frac{\\phi}{2}\\right)+2 \\mathrm{C} \\tan \\left(45^{\\circ}+\\frac{\\phi}{2}\\right) \\\\ & 300=100 \\tan ^2\\left(45^{\\circ}+\\frac{\\phi}{2}\\right)+0\\end{aligned}[/latex] [Since for drained test [latex] C=0 [/latex] ] [latex] \\Rightarrow \\phi=30^{\\circ} [/latex] Angle between normal to major plane and failure plane is [latex] 45+\\frac{\\phi}{2} [/latex] Angle between normal to minor plane and failure plane is [latex] 45^{\\circ}-\\frac{\\phi}{2} [/latex] [latex] \\Rightarrow [/latex] Angle between minor plane and failure plane [latex] =45-\\frac{\\phi}{2}=45^{\\circ}-\\frac{30^{\\circ}}{2}=30^{\\circ} [/latex]",
+    "min": 30.0,
+    "max": 30.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 A storm with a recorded precipitation of [latex] 11.0 \\mathrm{~cm} [/latex], as shown in the table, produced a direct run-off of [latex] 6.0 \\mathrm{~cm} [/latex] [latex]\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\begin{array}{c}\nTime from \\\\\nstart (hours) \\\\\n\\end{array} & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\\\\n\\hline\n\\begin{array}{c}\nRecorded \\\\\ncumulative \\\\\nprecipitation \\\\\n (\\mathrm{cm})  \\\\\n\\end{array} & 0.5 & 1.5 & 3.1 & 5.5 & 7.3 & 8.9 & 10.2 & 11.0 \\\\\n\\hline\n\\end{array}\n[/latex] The [latex] \\phi [/latex]-index of this storm is ____[latex] \\mathrm{cm} / \\mathrm{hr} [/latex]\n(rounded off to 2 decimal places)",
+    "solution": "Assume [latex] \\phi \\leq \\mathrm{i}_{\\text {lowest }} [/latex] [latex]\n\\begin{aligned}\n\\phi & =\\left(\\frac{\\mathrm{P}-\\mathrm{R}}{\\mathrm{t}}\\right)_{\\text {eff. duration }} \\\\\n& =\\frac{11-6}{8}=0.625\n\\end{aligned}\n [/latex] Assume [latex] 0.625 \\lt \\phi \\leq 0.8 [/latex] [latex]\n\\begin{aligned}\n\\phi & =\\left(\\frac{P-R}{t}\\right)_{\\text {eff. }} \\\\\n& =\\frac{10.5-6}{7}=0.643\n\\end{aligned}\n [/latex] [latex]\n\\begin{array}{c|c|c}\n \\mathrm{t}(\\mathrm{m}) & Rainfall \\; (\\mathrm{cm})  & Intensity \\; \\mathrm{cm} / \\mathrm{h}  \\\\\n\\hline\n 0-1  & 0.5 & 0.5 \\\\\n 1-2  & 1 & 1 \\\\\n 2-3 & 1.6 & 1.6 \\\\\n3-4  & 2.4 & 2.4 \\\\\n 4-5 & 1.8 & 1.8 \\\\\n 5-6  & 1.6 & 1.6 \\\\\n 6-7  & 1.3 & 1.3 \\\\\n7-8  & 0.8 & 0.8 \\\\\n\\end{array}\n [/latex]",
+    "min": 0.64,
+    "max": 0.65
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 A [latex] 500 \\mathrm{~m} [/latex] long water distribution pipeline [latex] P [/latex] with diameter [latex] 1.0 \\mathrm{~m} [/latex], is used to convey [latex] 0.1 \\mathrm{~m}^{3} / \\mathrm{s} [/latex] of flow. A new pipeline [latex] Q [/latex], with the same length and flow rate, is to replace [latex] P [/latex]. The friction factors for [latex] P [/latex] and [latex] \\mathrm{Q} [/latex] are 0.04 and 0.01 , respectively. The diameter of the pipeline [latex] \\mathrm{Q} [/latex] (in meters) is _____(rounded off to 2 decimal places)",
+    "solution": "Initially, we have, To replace the pipe, head loss has to be same [latex]\n\\begin{aligned}\n& h_{f p}=h_{f Q} \\\\\n\\Rightarrow \\quad & \\frac{f_{f p} L Q^{2}}{12.1 D_{P}^{5}}=\\frac{f_{f Q} L Q^{2}}{12.1 D_{Q}^{5}} \\\\\n\\Rightarrow \\quad & \\frac{0.04 \\times 500 \\times Q^{2}}{12.1 \\times 1^{5}}=\\frac{0.01 \\times 500 \\times Q^{2}}{12.1 \\times D_{Q}^{5}} \\\\\n\\Rightarrow \\quad & D_{Q}^{5}=\\frac{0.01}{0.04} \\\\\n\\Rightarrow \\quad & D_{Q}=\\left(\\frac{0.01}{0.04}\\right)^{1 / 5}=0.7579 \\mathrm{~m} \\\\\n& \\simeq 0.76 \\mathrm{~m}\n\\end{aligned}\n [/latex]",
+    "min": 0.7,
+    "max": 0.8
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 A [latex] 2 \\mathrm{~m} \\times 1.5 \\mathrm{~m} [/latex] tank of [latex] 6 \\mathrm{~m} [/latex] height is provided with a [latex] 100 \\mathrm{~mm} [/latex] diameter orifice at the center of its base. The orifice is plugged and the tank is filled up to [latex] 5 \\mathrm{~m} [/latex] height. Consider the average value of discharge coefficient as 0.6 and acceleration due to gravity (g) as [latex] 10 \\mathrm{~m} / \\mathrm{s}^{2} [/latex]. After unplugging the orifice, the time (in seconds) taken for the water level to drop from [latex] 5 \\mathrm{~m} [/latex] to [latex] 3.5 \\mathrm{~m} [/latex] under free discharge condition is _____ (rounded off to 2 decimal places).",
+    "solution": "Let at any instant depth of liquid in tank is ' [latex] h [/latex] ' [latex] m [/latex] and in time (dt), the depth falls by (-dh) [latex] \\Rightarrow\\left(C_{d} \\cdot\\left(\\frac{\\pi d^{2}}{4}\\right) \\sqrt{2 g h}\\right) d t=A_{0}(-d h) [/latex] [latex] \\mathrm{t}=\\int \\mathrm{dt}=\\frac{\\mathrm{A}_{0}}{\\mathrm{C}_{\\mathrm{d}} \\cdot \\frac{\\pi \\mathrm{d}^{2}}{4} \\sqrt{2 \\mathrm{~g}}} \\int_{\\mathrm{H}_{1}}^{\\mathrm{H}_{2}}\\left(\\frac{-\\mathrm{dH}}{\\sqrt{\\mathrm{h}}}\\right) [/latex] [latex] t=\\frac{A_{0}}{C_{d} \\cdot \\frac{\\pi d^{2}}{4} \\sqrt{2 g}}\\left[2\\left(\\sqrt{\\mathrm{H}_{1}}-\\sqrt{\\mathrm{H}_{2}}\\right)\\right] [/latex] [latex] \\mathrm{t}=\\left[\\frac{2 \\times 1.5 \\mathrm{~m}^{2}}{0.6 \\times \\frac{\\pi}{4}(0.1)^{2} \\mathrm{~m}^{2} \\sqrt{2 \\times 10 \\frac{\\mathrm{m}}{\\mathrm{s}^{2}}}} \\times 2(\\sqrt{5}-\\sqrt{3.5}) \\mathrm{m}^{1 / 2}\\right] \\mathrm{sec} [/latex] [latex] \\mathrm{t}=103.985 \\mathrm{sec} [/latex]",
+    "min": 102.0,
+    "max": 106.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 A rectangular channel is [latex] 4.0 \\mathrm{~m} [/latex] wide and carries a discharge of [latex] 2.0 \\mathrm{~m}^{3} / \\mathrm{s} [/latex] with a depth of [latex] 0.4 \\mathrm{~m} [/latex]. The channel transitions to a maximum width contraction at a downstream location, without influencing the upstream flow condtions. The width (in meters) at the maximum contraction is _____ (rounded off to 2 decimal places)",
+    "solution": "width of channel [latex] (B)=4 \\mathrm{~m} [/latex] discharge [latex] (Q)=2 \\mathrm{~m}^{3} / \\mathrm{s} [/latex] depth of [latex] \\operatorname{flow}(\\mathrm{y})=0.4 \\mathrm{~m} [/latex] Specific energy at section (1) - (1) (E) [latex]\n\\begin{aligned}\n& =\\mathrm{y}_{1}+\\frac{\\mathrm{V}_{1}^{2}}{2 \\mathrm{~g}} \\\\\n& =0.4+\\frac{\\mathrm{Q}^{2}}{\\mathrm{~B}_{1}^{2} \\times 2 \\mathrm{~g} \\times \\mathrm{y}_{1}^{2}} \\\\\n& =0.4+\\frac{2^{2}}{4^{2} \\times 2 \\times 9.81 \\times 0.4^{2}} \\\\\n& =0.4796 \\mathrm{~m}\n\\end{aligned}\n [/latex] When channel section is contracted to minimum width and for constant discharge Q. The flow over contracted section will be critical flow. [latex]\n\\begin{aligned}\nE & =E_{c}=\\frac{3}{2} \\cdot y_{c} \\\\\n\\therefore \\quad 0.4796 & =\\frac{3}{2} \\times y_{c} \\\\\n\\Rightarrow \\quad \\quad \\quad y_{c} & =0.4796 \\times \\frac{2}{3}=0.3197 \\mathrm{~m}\n\\end{aligned}\n [/latex] For critical flow condition, [latex] \\frac{\\mathrm{Q}^{2} \\mathrm{~T}}{\\mathrm{gA}^{3}}=1 [/latex] [latex]\n\\frac{\\mathrm{Q}^{2} \\mathrm{~B}_{\\min }}{\\mathrm{gB}_{\\min \\mathrm{y}_{\\mathrm{c}}^{3}}^{3}}=1\n [/latex] [latex]\n\\begin{aligned}\n\\Rightarrow \\quad \\mathrm{B}_{\\min }^{2} & =\\frac{\\mathrm{Q}^{2}}{9 \\mathrm{y}_{\\mathrm{c}}^{3}}=1 \\\\\n\\mathrm{~B}_{\\min } & =\\left(\\frac{\\mathrm{Q}^{2}}{\\mathrm{gy_{c } ^ { 3 }}}\\right)^{1 / 3} \\\\\n& =\\left(\\frac{2^{2}}{9.81 \\times 0.3197^{3}}\\right)^{1 / 2} \\\\\n& =3.5325 \\mathrm{~m} \\simeq 3.53 \\mathrm{~m}\n\\end{aligned}\n [/latex]",
+    "min": 3.3,
+    "max": 3.7
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 A circular settling tank is to be designed for primary treatment of sewage of a flow rate of 10 million liters/day. Assume a detention period of 2.0 hours and surface loading rate of 40000 liters [latex] / \\mathrm{m}^{2} / [/latex] day. The height (in meters) of the water column in the tank is _____ (rounded off to 2 decimal places)",
+    "solution": "Given, Discharge, [latex] \\mathrm{Q}=10 \\mathrm{MLD} [/latex] Detention period, [latex] \\mathrm{t}_{\\mathrm{d}}=2 \\mathrm{hr} [/latex] Over flow rate, [latex] \\mathrm{V}_{0}=40,000 [/latex] litres [latex] / \\mathrm{m}^{2} / [/latex] day [latex] \\mathrm{H}= [/latex] ? As, Surface area of tank [latex] =\\frac{\\text { Discharge }}{\\text { Over flow rate }}=\\frac{\\mathrm{Q}}{\\mathrm{V}_{0}} [/latex] So, [latex]\n\\begin{aligned}\n& \\text { S.A. }=\\frac{10 \\times 10^{6} \\mathrm{~L} / \\text { day }}{40,000 \\mathrm{~L} / \\mathrm{m}^{2} / \\text { day }} \\\\\n& \\text { S.A }=250 \\mathrm{~m}^{2}\n\\end{aligned}\n [/latex] Volume of tank [latex] (V)=Q \\times t_{d} [/latex] [latex]\n\\begin{aligned}\n& =\\frac{10 \\times 10^{6} \\times 10^{-3}}{24} \\times 2 \\mathrm{~m}^{3} \\\\\n& \\mathrm{~V}=833.33 \\mathrm{~m}^{3}\n\\end{aligned}\n [/latex] Hence, Height of water in tank or  Height of setting zone [latex]\n\\begin{aligned}\nH & =\\frac{833.33 \\mathrm{~m}^{3}}{250 \\mathrm{~m}^{2}} \\\\\nH & =3.33 \\mathrm{~m}\n\\end{aligned}\n [/latex] Note: In reality, height of water in tank OR height of settling zone is estimated by above approach but if the bottom of sedimentation tank is assumed to be sloping or hoppered (i.e sludge zone is also considered) then height of water in tank is determined as follows: Using, Volume of tank [latex] (V)=D^{2}\\left(\\frac{\\pi}{4} H+0.011 D\\right) [/latex] As, [latex]\n\\begin{aligned}\n\\text { S.A. } & =\\frac{\\pi}{4} D^{2}=250 \\mathrm{~m}^{2} \\\\\nD & =17.835 \\mathrm{~m}\n\\end{aligned}\n [/latex] So, [latex] 833.33=(17.835)^{2}\\left(\\frac{\\pi}{4} H+0.011(17.835)\\right) [/latex] So, [latex] \\mathrm{H}=3.085 \\mathrm{~m} [/latex]",
+    "min": 3.0,
+    "max": 3.4
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 An organic waste is represented as [latex] \\mathrm{C}_{240} \\mathrm{O}_{200} \\mathrm{H}_{180} \\mathrm{~N}_{5} \\mathrm{~S} [/latex] (Atomic weights: S-32, H-1, C-12, O-16, N-14) Assume complete conversion of [latex] \\mathrm{S} [/latex] to [latex] \\mathrm{SO}_{2} [/latex] while burning. [latex] \\mathrm{SO}_{2} [/latex] generated (in grams) per [latex] \\mathrm{kg} [/latex] of this waste is _____ (rounded off to 1 decimal place).",
+    "solution": "Organic waste [latex] =\\mathrm{C}_{240} \\mathrm{O}_{200} \\mathrm{H}_{180} \\mathrm{~N}_{5} \\mathrm{~S} [/latex] Weight of organic waste [latex] =1 \\mathrm{~kg} [/latex] Burning of organic waste converts sulphur into sulphur dioxide as follows: [latex] \\mathrm{C}_{240} \\mathrm{O}_{200} \\mathrm{H}_{180} \\mathrm{~N}_{5} \\mathrm{~S}+\\mathrm{O}_{2} \\rightarrow \\mathrm{xCO}_{2}+\\mathrm{yH}_{2} \\mathrm{O}+\\mathrm{zH}_{2} \\mathrm{O}+\\mathrm{SO}_{2} [/latex] i.e. 6362 of organic waste produces [latex] 64 \\mathrm{~g} [/latex] of sulphur dioxide. So, [latex] 1 \\mathrm{~kg} [/latex] of organic waste produces [latex] \\frac{64}{6362} \\times 1000 \\mathrm{gm} [/latex] of [latex] \\mathrm{SO}_{2} [/latex] So, Amount of [latex] \\mathrm{SO}_{2} [/latex] produced [latex] =10 \\; \\mathrm{grams} / \\mathrm{kg} [/latex]",
+    "min": 9.9,
+    "max": 10.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 A horizontal curve of radius [latex] 1080 \\mathrm{~m} [/latex] (with transition curves on either side) in a Broad Gauge railway track is designed and constructed for an equilibrium speed of [latex] 70 \\mathrm{kmph} [/latex]. However, a few years after construction, the Railway Authorities decided to run express trains on this track. The maxium allowable cant deficiency is [latex] 10 \\mathrm{~cm} [/latex]. The maximum restricted speed (in [latex] \\mathrm{kmph} [/latex] ) of the express trains running on this track is _____ (rounded off to the nearest integer)",
+    "solution": "Constructed equillibrium cant [latex] =\\frac{\\mathrm{GV}_{\\mathrm{eq}}^{2}}{127 \\mathrm{R}}=\\frac{1.75 \\times 70^{2}}{127 \\times 1080}=0.062518 \\mathrm{~m}=62.52 \\mathrm{~mm} [/latex] With allowable cant deficiency of [latex] 100 \\mathrm{~mm} [/latex] Maximum speed of train can run with theoretical cant [latex] =62.52+100=162.52 \\mathrm{~mm} [/latex] [latex]\n\\begin{aligned}\n& \\therefore & 162.52 \\times 10^{-3} & =\\frac{1.75 \\times \\mathrm{V}_{\\mathrm{m}}^{2}}{127 \\times 1080} \\\\\n& \\therefore & \\mathrm{V}_{\\mathrm{m}} & =112.86 \\mathrm{kmph} \\simeq 113 \\mathrm{kmph}\n\\end{aligned}\n [/latex]",
+    "min": 112.0,
+    "max": 116.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 A vertical summit curve on a freight corridor is formed at the intersection of two gradients, [latex] +3.0 \\% [/latex] and [latex] -5.0 \\% [/latex]. Assume the following: Only large-sized trucks are allowed on this corridor. Design speed [latex] =80 \\mathrm{kmph} [/latex] Eye height of truck drivers above the road surface [latex] =2.30 \\mathrm{~m} [/latex] Height of object above the road surface for which trucks need to stop [latex] =0.35 \\mathrm{~m} [/latex] Total reaction time of the truck drivers [latex] =2.0 \\mathrm{~s} [/latex] Coefficient of longitudinal friction of the road [latex] =0.36 [/latex] Stopping sight distance gets compesnated on the gradient. The design length of the summit curve (in meters) to accommodate the stopping sight distance is _____ (rounded off to 2 decimal places).",
+    "solution": "Sight distance [latex] (S)=V \\cdot t_{a}+\\frac{V^{2}}{2 g \\mu} [/latex] [latex]\n\\begin{aligned}\n& =\\left(\\frac{5}{18} \\times 80 \\times 2\\right)+\\frac{\\left(\\frac{5}{18} \\times 80\\right)^{2}}{2 \\times 9.8 \\times 0.36} \\\\\n& =44.44+69.92=114.36 \\mathrm{~m}\n\\end{aligned}\n [/latex] Assume L > S [latex]\n\\begin{aligned}\nL & =\\frac{N S^{2}}{2\\left(\\sqrt{h_{1}}+\\sqrt{h_{2}}\\right)^{2}} \\\\\n& =\\frac{0.08 \\times 1140.36^{2}}{2(\\sqrt{2.3}+\\sqrt{0.35})^{2}}=117.7\n\\end{aligned}\n [/latex]",
+    "min": 117.0,
+    "max": 120.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 A child walks on a level surface from point [latex] P [/latex] to point [latex] \\mathrm{Q} [/latex] at a bearing of [latex] 30^{\\circ} [/latex], from point [latex] \\mathrm{Q} [/latex] to point [latex] R [/latex] at a bearing of [latex] 90^{\\circ} [/latex] and then directly returns to the starting point [latex] P [/latex] at a bearing of [latex] 240^{\\circ} [/latex]. The straightline paths [latex] P Q [/latex] and [latex] Q R [/latex] are [latex] 4 m [/latex] each. Assuming that all bearings are measured from the magnetic north in degrees, the straight-line path length RP (in meters) is ____(rounded off to the nearest integer)",
+    "solution": "[latex]\n\\begin{array}{c|c|c}\nLine & Length & Bearing \\\\\n\\hline\nPQ &  4 \\mathrm{~m}  &  30^{\\circ}  \\\\\nQR &  4 \\mathrm{~m}  &  90^{\\circ}  \\\\\nRP &  \\mathrm{L}  &  240^{\\circ}  \\\\\n\\end{array}\n[/latex] Closed traverse, [latex] \\Sigma \\mathrm{L}=0,4 \\cos 30^{\\circ}+4 \\cos 90^{\\circ}+\\mathrm{L} \\cos 240^{\\circ}=0 [/latex] [latex] \\therefore \\mathrm{L}=6.928 \\mathrm{~m} \\approx 7 \\mathrm{~m} [/latex]",
+    "min": 6.0,
+    "max": 8.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 Differential levelling is carried out from point [latex] P [/latex] ( [latex] B [/latex] N [latex] +200.000 \\mathrm{~m} [/latex] ) to point [latex] \\mathrm{R} [/latex]. The reading taken are given in the table. Reduced level (in meters) of the point [latex] \\mathrm{R} [/latex] is ______(rounded off to 3 decimal places)",
+    "solution": "Using go through line (starting from [latex] \\mathrm{P} [/latex] ) [latex]\n-2.05+0.1+1.655=-0.295\n [/latex] (means [latex] \\mathrm{R} [/latex] is 0.295 lower than [latex] \\mathrm{P} [/latex] )\n\n[latex] \\therefore \\quad \\mathrm{RL} [/latex] of [latex] \\mathrm{R}=200-0.295=199.705 [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2024_Set2/page11_q5.webp",
+    "min": 199.704,
+    "max": 199.706
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 If [latex]\\rightarrow [/latex] denotes increasing order of intensity, then the meaning of the words\n[drizzle [latex]\\rightarrow [/latex] rain [latex]\\rightarrow [/latex] downpour] is analogous to [ ______ [latex]\\rightarrow [/latex] quarrel [latex]\\rightarrow [/latex] feud]. Which one of the given options is appropriate to fill the blank?",
+    "solution": "Drizzle means intermittant rain Downpour means heavy rain Quarrel means an angry argument Feud means an angry and bitter argument Bicker means to argue about things that are\nnot important. Now its very clear that drizzle [latex]\\rightarrow [/latex] rain [latex]\\rightarrow [/latex] downpour is analogous to\nbicker [latex]\\rightarrow [/latex] quarrel [latex]\\rightarrow [/latex] feud",
+    "options": {
+      "A": "bicker",
+      "B": "bog",
+      "C": "dither",
+      "D": "dodge"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Statements: 1. All heroes are winners. 2. All winners are lucky people. Inferences: I. All lucky people are heroes. II. Some lucky people are heroes. III. Some winners are heroes. Which of the above inferences can be logically deduced from statements 1 and 2?",
+    "solution": "From above Venn diagram its clear that (ii) and (iii)\nare valid deductions.",
+    "options": {
+      "A": "Only I and II",
+      "B": "Only II and III",
+      "C": "Only I and III",
+      "D": "Only III"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 A student was supposed to multiply a positive real number p with another positive\nreal number q. Instead, the student divided p by q. If the percentage error in the\nstudent’s answer is 80%, the value of q is",
+    "solution": "[latex]\\begin{aligned}\n\\text { Actual result } & =\\mathrm{pq} \\\\\n\\text { wrong result } & =\\mathrm{p} / \\mathrm{q} \\\\\n\\frac{\\text { Wrong result }}{\\text { Actual result }} & =0.2 \\text { (result reduced by } 80 \\% \\text { ) } \\\\\n\\frac{\\mathrm{p} / \\mathrm{q}}{\\mathrm{pq}} & =0.2=\\frac{2}{10}=\\frac{1}{5} \\\\\n\\frac{1}{\\mathrm{q}^2} & =\\frac{1}{5} \\Rightarrow \\mathrm{q}=\\sqrt{5}\n\\end{aligned}\n[/latex]",
+    "options": {
+      "A": "5",
+      "B": "[latex] \\sqrt{2}[/latex]",
+      "C": "2",
+      "D": "[latex] \\sqrt{5}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 If the sum of the first 20 consecutive positive odd numbers is divided by [latex]20^2[/latex], the\nresult is",
+    "solution": "[latex]\n\\begin{gathered}\n1+3=4=2^{2} \\\\\n1+3+5=9=3^{2} \\\\\n1+3+5+7=4^{2} \\\\\n(1+3+5+4 \\ldots .2 \\text { times })=20^{2} \\\\\n\\frac{20^{2}}{20^{2}}=1\n\\end{gathered}\n [/latex]",
+    "options": {
+      "A": "1",
+      "B": "20",
+      "C": "2",
+      "D": "01-Feb"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 The ratio of the number of girls to boys in class VIII is the same as the ratio of the number of boys to girls in class IX. The total number of students (boys and girls) in classes VIII and IX is 450 and 360, respectively. If the number of girls in classes VIII and IX is the same, then the number of girls in each class is",
+    "solution": "Let no. of girls in [latex] 8^{\\text {th }}= [/latex] no. of girls in [latex] 9^{\\text {th }} [/latex]\n[latex]\n=x\n [/latex] [latex] \\frac{\\text { No. of girls in } 8^{\\text {th }} \\text { class }}{\\text { No. of girls in } 9^{\\text {th }} \\text { class }}=\\frac{\\text { No. of boys in } 9^{\\text {th }} \\text { class }}{\\text { No. of girls in } 9^{\\text {th }} \\text { class }} [/latex] [latex]\n\\begin{aligned}\n\\frac{x}{450-x} & =\\frac{360-x}{x} \\\\\nx^{2} & =(450-x)(360-x) \\\\\nx^{2} & =16200-450 x-360 x+x^{2} \\\\\nx & =\\left(\\frac{16200}{810}\\right) \\\\\n& =200\n\\end{aligned}\n [/latex]",
+    "options": {
+      "A": "150",
+      "B": "200",
+      "C": "250",
+      "D": "175"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 In the given text, the blanks are numbered (i)−(iv). Select the best match for\nall the blanks. Yoko Roi stands ___(i)____ as an author for standing ___(ii)___ as an honorary\nfellow, after she stood ___(iii)___ her writings that stand ___(iv)___ the freedom of\nspeech.",
+    "solution": "",
+    "options": {
+      "A": "(i) out\t(ii) down\t(iii) in\t(iv) for",
+      "B": "(i) down\t(ii) out\t(iii) by\t(iv) in",
+      "C": "(i) down\t(ii) out\t(iii) for\t(iv) in",
+      "D": "(i) out\t(ii) down\t(iii) by\t(iv) for"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 Seven identical cylindrical chalk-sticks are fitted tightly in a cylindrical container.\nThe figure below shows the arrangement of the chalk-sticks inside the cylinder. The length of the container is equal to the length of the chalk-sticks. The ratio of\nthe occupied space to the empty space of the container is",
+    "solution": "Let the radius of cylinder [latex] =\\mathrm{R} [/latex] and the radius of chalk [latex] =r [/latex] [latex] 2 r+2 r+2 r=2 R [/latex] [latex] r=(R / 3) [/latex] Volume of cylinder [latex] =\\pi \\mathrm{R}^{2} \\mathrm{~h} [/latex] Volume of chalk [latex] =\\pi\\left(\\frac{\\mathrm{R}}{3}\\right)^{2} \\mathrm{~h} [/latex] [latex] \\frac{\\text { Volume of occupied space }}{\\text { Volume of empty space }}=\\frac{7 \\pi \\frac{R^{2}}{9} h}{\\pi R^{2} h-\\frac{7 \\pi R^{2}}{9}} [/latex] [latex]\n=\\frac{7 / 9}{2 / 9}=\\left(\\frac{7}{2}\\right)\n [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2024_Set2/page13_q2.webp",
+    "options": {
+      "A": "[latex] 5 / 2 [/latex]",
+      "B": "[latex] 7 / 2 [/latex]",
+      "C": "[latex] 9 / 2 [/latex]",
+      "D": "[latex] 3 [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 The plot below shows the relationship between the mortality risk of cardiovascular\ndisease and the number of steps a person walks per day. Based on the data, which\none of the following options is true?",
+    "solution": "Risk reduction value [latex] (0-5000) [/latex] [latex] =1-0.45 [/latex]\n\n[latex] =0.55 [/latex] which is maximum.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2024_Set2/page13_q3.webp",
+    "options": {
+      "A": "The risk reduction on increasing the steps/ day from 0 to 10000 is less than the risk reduction on increasing the steps/day from 10000 to 20000.",
+      "B": "The risk reduction on increasing the steps/ day from 0 to 5000 is less than the risk reduction on increasing the steps/day from 15000 to 20000.",
+      "C": "For any 5000 increment in steps/day the largest risk reduction occurs on going from 0 to 5000 .",
+      "D": "For any 5000 increment in steps/day the largest risk reduction occurs on going from 15000 to 20000."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 Five cubes of identical size and another smaller cube are assembled as shown in\nFigure A. If viewed from direction X, the planar image of the assembly appears as\nFigure B. If viewed from direction Y, the planar image of the assembly (Figure A) will\nappear as",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2024_Set2/page13_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 Visualize a cube that is held with one of the four body diagonals aligned to the\nvertical axis. Rotate the cube about this axis such that its view remains unchanged.\nThe magnitude of the minimum angle of rotation is",
+    "solution": "When the cube is rotated that is held with one of\nthe four body diagonals aligned to the vertical axis",
+    "options": {
+      "A": "[latex] 60^{\\circ} [/latex]",
+      "B": "[latex] 180^{\\circ} [/latex]",
+      "C": "[latex] 120^{\\circ} [/latex]",
+      "D": "[latex] 90^{\\circ} [/latex]"
+    },
+    "correct_answer": "C"
+  }
+]

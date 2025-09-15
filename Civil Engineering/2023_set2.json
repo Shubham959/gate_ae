@@ -1,0 +1,738 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Let [latex]\\phi[/latex] be a scalar field, and [latex]\\mathbf{u}[/latex] be a vector field. Which of the following identities is true for [latex]div(\\phi \\mathbf{u})[/latex] ?",
+    "solution": "[latex]\ndiv(\\phi \\mathrm{u})=\\phi div(\\mu)+ugrad(\\phi)\n[/latex]",
+    "options": {
+      "A": "[latex]\\operatorname{div}(\\phi \\mathbf{u})=\\phi \\operatorname{div}(\\mathbf{u})+\\mathbf{u} \\cdot \\operatorname{grad}(\\phi)[/latex]",
+      "B": "[latex]\\operatorname{div}(\\phi \\mathbf{u})=\\phi \\operatorname{div}(\\mathbf{u})+\\mathbf{u} \\times \\operatorname{grad}(\\phi)[/latex]",
+      "C": "[latex]\\operatorname{div}(\\phi \\mathbf{u})=\\phi \\operatorname{grad}(\\mathbf{u})+\\mathbf{u} \\cdot \\operatorname{grad}(\\phi)[/latex]",
+      "D": "[latex]\\operatorname{div}(\\phi \\mathbf{u})=\\phi \\operatorname{grad}(\\mathbf{u})+\\mathbf{u} \\times \\operatorname{grad}(\\phi)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 Which of the following probability distribution functions (PDFs) has the mean greater than the median?",
+    "solution": "Option (B) is correct.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page1_q2.webp",
+    "options": {
+      "A": "Function 1",
+      "B": "Function 2",
+      "C": "Function 3",
+      "D": "Function 4"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 A remote village has exactly 1000 vehicles with sequential registration numbers starting from 1000 . Out of the total vehicles, [latex]30 \\%[/latex] are without pollution clearance certificate. Further, even- and oddnumbered vehicles are operated on even- and oddnumbered dates, respectively. If 100 vehicles are chosen at random on an evennumbered date, the number of vehicles expected without pollution clearance certificate is.",
+    "solution": "Since [latex]30 \\%[/latex] of the total vehicles are without pollution clearance certificate. Out of the 100 chosen vehicle, [latex]30 \\%[/latex] i.e. [latex]100 \\times 0.3=30[/latex] vehicle are expected to be without pollution clearance certificate.",
+    "options": {
+      "A": "15",
+      "B": "30",
+      "C": "50",
+      "D": "70"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 A circular solid shaft of span [latex]L=5 \\mathrm{~m}[/latex] is fixed at one end and free at the other end. [latex]A[/latex] torque [latex]T=[/latex] [latex]100 \\mathrm{kN} . \\mathrm{m}[/latex] is applied at the free end. The shear modulus and polar moment of inertia of the section are denoted as [latex]\\mathrm{G}[/latex] and [latex]\\mathrm{J}[/latex], respectively. The torsional rigidity [latex]\\mathrm{GJ}[/latex] is [latex]50,000 \\mathrm{kN} . \\mathrm{m}^ 2 / \\mathrm{rad}[/latex]. The following are reported for this shaft: Statement i) The rotation at the free end is 0.01 [latex]\\mathrm{rad}[/latex] Statement ii) The torsional strain energy is 1.0 kN.m With reference to the above statements, which of the following is true?",
+    "solution": "[latex]\n\\phi_{\\mathrm{BA}}=\\frac{\\text { T.L. }}{\\mathrm{GJ}}=\\frac{(100)^{*} 5}{50000}=0.01 \\mathrm{rad}\n[/latex] [latex]\\Rightarrow[/latex] Torsional strain energy [latex](U)[/latex] [latex]\n\\begin{aligned}\n& U=\\frac{T^{2} L}{2 G J}=\\frac{1}{2} \\times T * \\phi_{B A} \\\\\n& U=\\frac{1}{2} * 100 * 0.01=0.5 \\mathrm{kN}-\\mathrm{m}\n\\end{aligned}\n[/latex] Hence, statement (i) correct and statement (ii) is incorrect.",
+    "options": {
+      "A": "Both the statements are correct",
+      "B": "Statement i) is correct, but Statement ii) is wrong",
+      "C": "Statement i) is wrong, but Statement ii) is correct",
+      "D": "Both the statements are wrong"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 M20 concrete as per IS 456: 2000 refers to concrete with a design mix having",
+    "solution": "In M20, M refers to mix and 20 to characteristic cube strength. As per clause no. 6.1.1, IS456: 2000 characteristic strength is defined as the strength below which not more than 5 percent of the test results are expected to fall. Hence, correct option is (C).",
+    "options": {
+      "A": "an average cube strength of [latex]20 \\mathrm{MPa}[/latex]",
+      "B": "an average cylinder strength of [latex]20 \\mathrm{MPa}[/latex]",
+      "C": "a 5-percentile cube strength of [latex]20 \\mathrm{MPa}[/latex]",
+      "D": "a 5-percentile cylinder strength of [latex]20 \\mathrm{MPa}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 When a simply-supported elastic beam of span [latex]\\mathrm{L}[/latex] and flexural rigidity [latex]EI ( E[/latex] is the modulus of elasticity and [latex]\\mathrm{I}[/latex] is the moment of inertia of the section) is loaded with a uniformly distributed load [latex]w[/latex] per unit length, the deflection at the mid-span is [latex]\\Delta_{0}=\\frac{5}{384} \\frac{w L^{4}}{\\mathrm{El}}[/latex]. If the load on one half of the span is now removed, the mid-span deflection ____",
+    "solution": "As Case-I and II are mirror image of each other,. Hence, [latex]\\quad \\Delta_{\\mathrm{C}, 1}=\\Delta_{\\mathrm{C}, \\mathrm{II}}[/latex] Also, [latex]\\quad \\Delta_{\\mathrm{C}}=\\Delta_{\\mathrm{C}, 1}+\\Delta_{\\mathrm{C}, 1}[/latex] [latex]\\Rightarrow \\quad \\Delta_{\\mathrm{C}, \\mathrm{I}}=\\Delta_{\\mathrm{C}, \\mathrm{II}}=\\frac{\\Delta_{\\mathrm{C}}}{2}[/latex]",
+    "options": {
+      "A": "reduces to [latex]\\Delta_{0} / 2[/latex]",
+      "B": "reduces to a value less than [latex]\\Delta_{0} / 2[/latex]",
+      "C": "reduces to a value greater than [latex]\\Delta_{0} / 2[/latex]",
+      "D": "remains unchanged at [latex]\\Delta_{0}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Muller-Breslau principle is used in analysis of structures for",
+    "solution": "Muller Breslass principle is used to draw influence line diagram for determinate and indeterminate structures. It states that influence line for any stress function may be obtained by removing the restraint offered by that function and introducing a directly related generalised unit displacement at that location in the direction of the stress function.",
+    "options": {
+      "A": "drawing an influence line diagram for any force response in the structure",
+      "B": "writing the virtual work expression to get the equilibrium equation",
+      "C": "superposing the load effects to get the total force response in the structure",
+      "D": "relating the deflection between two points in a member with the curvature diagram inbetween"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 A standard penetration test (SPT) was carried out at a location by using a manually operated hammer dropping system with [latex]50 \\%[/latex] efficiency. The recorded SPT value at a particular depth is 28 . If an automatic hammer dropping system with [latex]70 \\%[/latex] efficiency is used at the same location, the recorded SPT value will be",
+    "solution": "We know that, Efficiency of blow [latex]\\alpha \\frac{1}{\\text { SPT value }}[/latex] [latex]\\Rightarrow \\quad \\eta_{1} \\mathrm{~N}_{1}=\\eta_{2} \\mathrm{~N}_{2}[/latex] Hence, [latex]0.50 \\times 28=0.70 \\times \\mathrm{N}_{2}[/latex] or [latex]\\quad \\mathrm{N}_{2}=\\frac{0.50 \\times 28}{0.7}=20[/latex] Option (B) is correct",
+    "options": {
+      "A": "28",
+      "B": "20",
+      "C": "40",
+      "D": "25"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 A vertical sheet pile wall is installed in an anisotropic soil having coefficient of horizontal permeability, [latex]k_{H}[/latex] and coefficient of vertical permeability, [latex]k_{V}[/latex]. In order to draw the flow net for the isotropic condition, the embedment depth of the wall should be scaled by a factor of _____, without changing the horizontal scale.",
+    "solution": "We know that, for 2D flow. [latex]\n\\mathrm{K}=\\mathrm{K}_{\\mathrm{x}} \\frac{\\partial^{2} \\mathrm{~h}}{\\mathrm{dx}}+\\mathrm{K}_{\\mathrm{z}} \\frac{\\partial^{2} \\mathrm{~h}}{\\mathrm{dz}}=0\n[/latex] When [latex]\\mathrm{K}_{1}=\\mathrm{K}_{\\text {horizontal }}[/latex] and [latex]\\mathrm{K}_{2}=\\mathrm{K}_{\\text {vertical }}[/latex] as shown in figure. [latex]\n\\frac{\\partial^{2} \\mathrm{~h}}{\\frac{\\mathrm{K}_{\\mathrm{z}}}{\\mathrm{K}_{\\mathrm{x}}} \\partial \\mathrm{x}^{2}}+\\frac{\\partial^{2} \\mathrm{~h}}{\\partial \\mathrm{z}^{2}}=0\n[/latex] From the above equation we can note that, when soil is anisotropic with respect to permeability i.e. [latex]k_{x}=k_{z}[/latex], the flow and equipotential line are not necessarily to be orthogonal as because [latex]\\frac{\\mathrm{K}_{\\mathrm{z}}}{\\mathrm{K}_{\\mathrm{x}}}=1[/latex], and we cannot get the actual form of Laplace equation which is [latex]\\frac{\\partial^{2} h}{\\partial x^{2}}+\\frac{\\partial^{2} h}{\\partial z^{2}}=0[/latex]. But if we replace [latex]\nx_{t}=x \\sqrt{\\frac{K_{z}}{\\mathrm{~K}_{x}}}\n[/latex] Then, [latex]\\quad \\partial x_{t}^{2}=\\partial x^{2} \\frac{K_{z}}{\\mathrm{~K}_{x}}[/latex] [latex]\n\\frac{\\partial^{2} h}{\\partial x_{t}^{2}}+\\frac{\\partial^{2} h}{\\partial z^{2}}=0\n[/latex] Thus, new flow line and equipotential lines are drawn on transformed section with [latex]\\mathrm{x}[/latex]-distance changed to [latex]x \\sqrt{\\frac{\\mathrm{K}_{\\mathrm{z}}}{\\mathrm{K}_{\\mathrm{x}}}}[/latex] while keeping the vertical dimension constant. If we scale up the depth by keeping the horizontal distance same the depth will be scaled by factor [latex]\\sqrt{\\mathrm{K}_{\\mathrm{x}} / \\mathrm{K}_{\\mathrm{z}}}[/latex].",
+    "options": {
+      "A": "[latex]\\sqrt{\\frac{k_{H}}{k_{V}}}[/latex]",
+      "B": "[latex]\\sqrt{\\frac{k_{V}}{k_{H}}}[/latex]",
+      "C": "1",
+      "D": "[latex]\\sqrt{\\frac{k_{H}}{k_{V}}}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 Identify the cross-drainage work in the figure.",
+    "solution": "In given CDW, river is above the canal with underside of trough sufficiently above the full supply level of canal. Hence it is super passage.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page2_q5.webp",
+    "options": {
+      "A": "Super passage",
+      "B": "Aqueduct",
+      "C": "Siphon aqueduct",
+      "D": "Level crossing"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 Which one of the following options provides the correct match of the terms listed in Column-I and Column-2 ? [latex]\r\n\\begin{array}{|l|l|}\r\n\\hline\r\n\\text{Column-I} & \\text{Column-II} \\\\\r\n\\hline\r\n\\text{P : Horton equation} & \\text{I: Precipitation} \\\\\r\n\\hline\r\n\\text{Q : Muskingum method} & \\text{II: Flood frequency} \\\\\r\n\\hline\r\n\\text{R : Penman method} & \\text{III: Evapotranspiration} \\\\\r\n\\hline\r\n & \\text{IV : Infiltration} \\\\\r\n\\hline\r\n & \\text{V : Channel routing} \\\\\r\n\\hline\r\n\\end{array}\r\n[/latex]",
+    "solution": "Horton's equation is used to calculate total infiltration. Muskingum method is used in flood response analysis in channels. Penman equation is used to calculate potential evapotranspiration.",
+    "options": {
+      "A": "P-IV, Q-V, R-III",
+      "B": "P-III, Q-IV, R-I",
+      "C": "P-IV, Q-III, R-II",
+      "D": "P-III, Q-I, R-IV"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 In the context of Municipal Solid Waste Management, 'Haul' in 'Hauled Container System operated in conventional mode' includes the\n____",
+    "solution": "In hauled container system, 'Haul' time includes. The time required to reach the disposal site, starting after the container whose contents are to be emptied has been loaded on the track, plus the time after leaving the disposal site until the truck arrives at the location where the empty container is to be redeposited. Time spent at the disposal site is not included.",
+    "options": {
+      "A": "time spent by the transport truck at the disposal site",
+      "B": "time spent by the transport truck in traveling between a pickup point and the disposal site with a loaded container",
+      "C": "time spent by the transport truck in picking up a loaded container at a pickup point",
+      "D": "time spent by the transport truck in driving from the depot to the first pickup point"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Which of the following is equal to the stopping sight distance?",
+    "solution": "SSD [latex]=[/latex] Braking distance + lag distance where, Braking distance [latex]=[/latex] Braking distance required to come to stop Lag distance [latex]=[/latex] distance travelled during the perception reaction time.",
+    "options": {
+      "A": "(braking distance required to come to stop) + (distance travelled during the perception- reaction time)",
+      "B": "(braking distance required to come to stop) - (distance travelled during the perception- reaction time)",
+      "C": "(braking distance required to come to stop)",
+      "D": "(distance travelled during the perception- reaction time)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 The magnetic bearing of the sun for a location at noon is [latex]183^{\\circ} 30^{\\prime}[/latex]. If the sun is exactly on the geographic meridian at noon, the magnetic declination of the location is ___",
+    "solution": "At any place 12 O'clock sun will be exactly over the true meridian of that place. Declination [latex]=183^{\\circ} 30^{\\prime}-180^{\\circ}=3^{\\circ} 30^{\\prime} \\mathrm{W}[/latex] Magnetic declination will be [latex]3^{\\circ} 30 \\mathrm{~W}[/latex].",
+    "options": {
+      "A": "[latex]3^{\\circ} 30^{\\prime} \\mathrm{W}[/latex]",
+      "B": "[latex]3^{\\circ} 30^{\\prime} \\mathrm{E}[/latex]",
+      "C": "[latex]93^{\\circ} 30^{\\prime} \\mathrm{W}[/latex]",
+      "D": "[latex]93^{\\circ} 30^{\\prime} \\mathrm{E}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 For the matrix [latex]\n[A]=\\left[\\begin{array}{ccc}\n1 & -1 & 0 \\\\\n-1 & 2 & -1 \\\\\n0 & -1 & 1\n\\end{array}\\right]\n[/latex] which of the following statements is/are TRUE?",
+    "solution": "[latex]|A|=\\left|\\begin{array}{ccc}1 & -1 & 0 \\\\ -1 & 2 & -1 \\\\ 0 & -1 & 1\\end{array}\\right|[/latex] [latex]=1(2-1)+1(-1)+0[/latex] [latex]=1-1=0[/latex] So [latex]A X=B[/latex] does not have unique solution because [latex]\\rho(A) \\lt 3 [/latex] [latex]|A-\\lambda|=0 \\Rightarrow\\left|\\begin{array}{ccc}1-\\lambda & -1 & 0 \\\\ -1 & 2-\\lambda & -1 \\\\ 0 & -1 & 1-\\lambda\\end{array}\\right|=0[/latex] [latex](1-\\lambda)((2-\\lambda)(1-\\lambda)-1)+1(-1+\\lambda)+0=0[/latex] [latex](1-\\lambda)\\left(\\lambda^{2}-3 \\lambda+1\\right)-1+\\lambda=0[/latex] [latex](1-\\lambda)\\left(\\lambda^{2}-3 \\lambda+1-1\\right)=0[/latex] [latex](\\lambda-1)\\left(\\lambda^{2}-3 \\lambda\\right)=0[/latex] [latex]\\lambda=0,1,3[/latex] Matrix [latex]A[/latex] has three distinct Eigen values so have three linearly independent eigen vectors. so option (C) is correct. Given matrix is symmetric matrix with real value entries. Hence [latex]A[/latex] is not a positive definite matrix. because [latex]|1|=1 \\gt 0[/latex] [latex]\\left|\\begin{array}{cc}1 & -1 \\\\ -1 & 2\\end{array}\\right|=2-1=1>0[/latex] [latex]\\left|\\begin{array}{ccc}1 & -1 & 0 \\\\ -1 & 2 & -1 \\\\ 0 & -1 & 1\\end{array}\\right|=0[/latex] (which is not positive) Hence option (D) is incorrect.",
+    "options": {
+      "A": "[latex][A]\\{X\\}=\\{b\\}[/latex] has a unique solution",
+      "B": "[latex][A]\\{X\\}=\\{b\\}[/latex] does not have a unique solution",
+      "C": "[latex][A][/latex] has three linearly independent eigenvectors",
+      "D": "[latex][\\mathrm{A}][/latex] is a positive definite matrix"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 In the frame shown in the figure (not to scale), all four members [latex](A B, B C, C D[/latex], and [latex]A D)[/latex] have the same length and same constant flexural rigidity. All the joints [latex]A, B, C[/latex], and [latex]D[/latex] are rigid joints. The midpoints of [latex]A B, B C, C D[/latex], and [latex]A D[/latex], are denoted by [latex]E, F, G[/latex], and [latex]H[/latex], respectively. The frame is in unstable equilibrium under the shown forces of magnitude [latex]P[/latex] acting at [latex]E[/latex] and [latex]G[/latex]. Which of the following statements is/are TRUE?",
+    "solution": "Due to symmetry horizontal displacement of [latex]\\mathrm{H}[/latex] [latex]\\& F=[/latex] zero [latex]\\Rightarrow[/latex] option (B) correct Also due to symmetry slopes at E, F, G, H [latex]=0[/latex] [latex]\\Rightarrow[/latex] option (D) is correct Since [latex]A D[/latex] and [latex]B C[/latex] are subjected to pure bending Hence shear force at [latex]\\mathrm{H} \\&[/latex]  [latex]\\mathrm{F}[/latex] are zero [latex]\\Rightarrow[/latex] option (A) correct Vertical displacement at [latex]\\mathrm{H} \\& \\mathrm{~F} \\neq 0[/latex] [latex]\\Rightarrow[/latex] option (C) is incorrect.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page4_q1.webp",
+    "options": {
+      "A": "Shear forces at [latex]\\mathrm{H}[/latex] and [latex]\\mathrm{F}[/latex] are zero",
+      "B": "Horizontal displacement at [latex]\\mathrm{H}[/latex] and [latex]\\mathrm{F}[/latex] are zero",
+      "C": "Vertical displacement at [latex]\\mathrm{H}[/latex] and [latex]\\mathrm{F}[/latex] are zero",
+      "D": "Slopes at E, F, G, and [latex]\\mathrm{H}[/latex] are zero"
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 With regard to the shear design of RCC beams, which of the following statements is/are TRUE?",
+    "solution": "Option A is true, because when the area of shear reinforcement is large i.e. in case of excessive shear reinforcement, concrete becomes stronger is diagonal tension on failure compared to diagonal compression failure and compression failure may occur before the shear reinforcement has yielded. Option '[latex]B[/latex]' is true because for beams without shear reinforcement, once the flexural crack crosses the longitudinal reinforcement, the propagation of crack will be sudden and there can be brittle failure. Option '[latex]C[/latex]' is not true, as main reinforcement increases the shear resitance by providing dowel action, limiting crack width and by increasing the depth of concrete. Design shear strength of concrete is a function of grade of concree and percentage tensile reinforcement. Option 'D' is true, as for beams with varying depth, nominal shear stress, [latex]\\tau_{v}=\\frac{V_{u} \\pm \\frac{M_{u} \\tan \\beta}{d}}{b d}([/latex] clause 40.1.1, IS456: 2000) it is dependent on both the design shear force and design bending moment. Hence, options (A), (B) and (D) are true.",
+    "options": {
+      "A": "Excessive shear reinforcement can lead to compression failure in concrete",
+      "B": "Beams without shear reinforcement, even if adequately designed for flexure, can have brittle failure",
+      "C": "The main (longitudinal) reinforcement plays no role in the shear resistance of beam",
+      "D": "As per IS456:2000, the nominal shear stress in the beams of varying depth depends on both the design shear force as well as the design bending moment"
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 The reason(s) of the nonuniform elastic settlement profile below a flexible footing, resting on a cohesionless soil while subjected to uniform loading, is/are:",
+    "solution": "The modulus of elasticity varies with width of footing so there is a variation in the stiffness along the width of footing.",
+    "options": {
+      "A": "Variation of friction angle along the width of the footing",
+      "B": "Variation of soil stiffness along the width of the footing",
+      "C": "Variation of friction angle along the depth of the footing",
+      "D": "Variation of soil stiffness along the depth of the footing"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 Which of the following is/are NOT active disinfectant(s) in water treatment?",
+    "solution": "[latex]\\mathrm{O}_{3}, \\mathrm{OH}, \\mathrm{OCl}^{-}[/latex]are considered to be the active disinfectants in water treatment. NOTE: 1. [latex]\\left(\\mathrm{OH}^{-}\\right)[/latex]Hydroxyl ion is not an active disinfectant. 2. [latex]\\left(\\mathrm{Cl}^{-}\\right)[/latex]chloride ion reduces disinfection efficiency of free chlorine [latex]\\left(\\mathrm{OCl}^{-}\\right.[/latex]and [latex]\\left.\\mathrm{HOCl}\\right)[/latex].",
+    "options": {
+      "A": "[latex]\\cdot \\mathrm{OH}[/latex] (hydroxyl radical)",
+      "B": "[latex]\\mathrm{O}_{3}[/latex] (ozone)",
+      "C": "[latex]\\mathrm{OCl}^{-}[/latex](hypochlorite ion)",
+      "D": "[latex]\\mathrm{Cl}^{-}[/latex](chloride ion)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 As per the Indian Roads Congress guidelines (IRC 86: 2018), extra widening depends on which of the following parameters?",
+    "solution": "As per IRC [latex]86: 2018[/latex] Clause 8.6 Widening of Carriageway on Curves: At sharp horizontal curves, it is necessary to widen the carriageway to provide for safe passage of vehicles. The widening required has two components: (i) mechanical widening to components for the extra width occupied by a vehicle on the curve due to tracking of the rare wheels, and (ii) psychological widening to permit easy crossing of vehicles since vehicles in a lane tend to wander more on a curve than on a straight reach. On two-lane or wider roads, it is necessary that both the above components should be fully catered for so that the lateral clearance between vehicles of curves is maintained equal to the clearance available on straight. Position of single-lane roads however is somewhat different. Since during crossing maneuvers outer wheels of vehicles have in any case to use the shoulder whether on the straight or on the curve. It is, therefore sufficient on single lane roads if only the mechanical component of widening is taken into account. Based on the above considerations, the extra width of carriageway to be provided at horizontal curves on single and two-lane roads is given in Table For multi-lane roads, the pavement widening may be calculated by adding half the widening for two-lane roads to each lane. Table : Extra width of Pavement at Horizontal Curves",
+    "options": {
+      "A": "Horizontal curve radius",
+      "B": "Superelevation",
+      "C": "Number of lanes",
+      "D": "Longitudinal gradient"
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 The steady-state temperature distribution in a square plate [latex]A B C D[/latex] is governed by the 2-dimensional Laplace equation. The side [latex]A B[/latex] is kept at a temperature of [latex]100{ }^{\\circ} \\mathrm{C}[/latex] and the other three sides are kept at a temperature of [latex]0{ }^{\\circ} \\mathrm{C}[/latex]. Ignoring the effect of discontinuities in the boundary conditions at the corners, the steady-state temperature at the center of the plate is obtained as  [latex]T_0 ^{\\circ} \\mathrm{C}[/latex]. Due to symmetry, the steady-state temperature at the center will be same [latex]\\left(\\mathrm{T_0}{ }^{\\circ} \\mathrm{C}\\right)[/latex], when any one side of the square is kept at a temperature of [latex]100{ }^{\\circ} \\mathrm{C}[/latex] and the remaining three sides are kept at a temperature of [latex]0{ }^{\\circ} \\mathrm{C}[/latex]. Using the principle of superposition, the value of [latex]T_0[/latex] is ___ (rounded off to two decimal places).",
+    "solution": "We know, Laplace equation in two dimensional on a unit square with Dirichlet boundary condition : [latex]\r\n\\frac{\\partial^{2} u}{\\partial x^{2}}+\\frac{\\partial^{2} u}{\\partial y^{2}}=0, \\quad 0 \\lt (x, y) \\lt 1\r\n[/latex] This Laplace equation is called harmonic function. Solution of Laplace equation, [latex]u(x, y)=\\left(C_{1} \\cos \\beta x+C_{2} \\sin \\beta x\\right)\\left(C_{3} e^{\\text {By }}+C_{4} e^{-\\beta y}\\right)[/latex] Let square [latex]A B C D[/latex] is unit square. Now, given [latex]\r\n\\begin{aligned}\r\n& u(x, 0)=0 \\\\\r\n& u(0, y)=0 \\\\\r\n& u(1, y)=0 \\\\\r\n& u(x, 1)=100\r\n\\end{aligned}\r\n[/latex] For [latex]u(x, 0)=0[/latex] [latex]\\quad 0=\\left(C_{1} \\cos \\beta x+0\\right)(C_3+C_4)[/latex] [latex]\\Rightarrow \\quad \\mathrm{C}_{3}=-\\mathrm{C}_{4}[/latex] For [latex]u(0, y)=0[/latex]; [latex]0=\\left(C_{1}+0\\right)\\left(C_{3} e^{\\beta y}+C_{4} e^{-\\beta y}\\right)[/latex] [latex]\\Rightarrow \\quad \\mathrm{C}_{1}=0[/latex] Now, [latex]\r\n\\begin{aligned}\r\nu(x, y) & =0+C_{2} \\sin \\beta x\\left(C_{3} e^{\\beta y}+C_{4} e^{-\\beta y}\\right) \\\\\r\n& =a_{x} \\sin \\beta x\\left(e^{\\beta y}-e^{-\\beta y}\\right) \\quad ...(1)\r\n\\end{aligned}\r\n[/latex] [latex]\\left[\\because \\mathrm{C}_{3}=-\\mathrm{C}_{4}\\right.[/latex] and Let [latex]\\left.\\mathrm{C}_{2} \\mathrm{C}_{3}=\\mathrm{a}_{\\mathrm{x}}\\right][/latex] For [latex]u(1, y)=0[/latex] [latex]\r\n0=a_{x} \\sin \\beta x\\left(e^{\\beta y}-e^{\\beta y}\\right)\r\n[/latex] [latex]\\Rightarrow \\quad \\beta=\\mathrm{n} \\pi[/latex] For [latex]u(x, 1)=100[/latex] [latex]a_{x} \\sin n\\pi x\\left(e^{n\\pi}-e^{-n \\pi}\\right)=100[/latex] [latex]\r\na_{x}=\\frac{100}{\\sin n\\pi x\\left(e^{n\\pi}-e^{-n \\pi}\\right)}\r\n[/latex] From eqn. (1), we get [latex]\r\n\\begin{gathered}\r\nu(x, y)=\\sum_{n=1}^{\\infty }\\frac{100}{\\sin n \\pi x\\left(e^{n\\pi}-e^{-n\\pi}\\right)} \\times \\sin n\\pi x\\left(e^{n \\pi y}-e^{- n\\pi y}\\right) \\\\\r\n=\\sum_{n=1}^{\\infty }\\frac{100}{\\left(e^{n\\pi}-e^{-n \\pi}\\right)}\\left[e^{n\\pi y}-e^{-n\\pi y}\\right]\r\n\\end{gathered}\r\n[/latex] Now, at mid point [latex](x, y)=\\left(\\frac{1}{2}, \\frac{1}{2}\\right)[/latex] [latex] u\\left(\\frac{1}{2}, \\frac{1}{2}\\right)=T_{0} \\text { [given] } [/latex] [latex]\r\n\\begin{aligned}\r\nT_0&=\\sum_{n=1}^{\\infty }\\frac{100}{\\left(\\mathrm{e}^{n\\pi}-\\mathrm{e}^{-n\\pi}\\right)}\\left[\\mathrm{e}^{n\\pi / 2}-\\mathrm{e}^{-n\\pi / 2}\\right] \\\\\r\n&=100\\left [ \\left ( \\frac{\\mathrm{e}^{\\pi / 2}-\\mathrm{e}^{-\\pi / 2}}{\\mathrm{e}^{\\pi}-\\mathrm{e}^{-\\pi}} \\right )  +\\left ( \\frac{\\mathrm{e}^{\\pi}-\\mathrm{e}^{-\\pi}}{\\mathrm{e}^{2\\pi}-\\mathrm{e}^{-2\\pi}} \\right )+...\\right ]\\\\\r\n&=100\\left [ \\frac{1}{(\\mathrm{e}^{\\pi / 2}-\\mathrm{e}^{-\\pi / 2})}+\\frac{1}{\\mathrm{e}^{\\pi}-\\mathrm{e}^{-\\pi}}+\\frac{1}{\\mathrm{e}^{3\\pi / 2}-\\mathrm{e}^{-3\\pi / 2}} +...(neglect) \\right ]\\\\\r\n&=100[0.199+0.043+0.008]\\\\\r\n&\\approx 25^{\\circ}C\r\n\\end{aligned}\r\n[/latex]",
+    "min": 24.9,
+    "max": 25.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 An unconfined compression strength test was conducted on a cohesive soil. The test specimen failed at an axial stress of [latex]76 \\mathrm{kPa}[/latex]. The undrained cohesion (in [latex]\\mathrm{kPa}[/latex], in integer) of the soil is ___",
+    "solution": "UCS Test : [latex]\\sigma_{3}=0[/latex] [Cell pressure] [latex]\\therefore[/latex] Axial stress [latex]=[/latex] Deviatoric stress [latex]=\\sigma_{1}-\\sigma_{3}=\\sigma_{1}[/latex] Given, [latex]\\sigma_{1}=76 \\mathrm{kPa}[/latex] We know, [latex]\\sigma_{1}=\\sigma_{3} \\tan ^{2}\\left(45^{\\circ}+\\frac{\\phi}{2}\\right)+2 C \\tan \\left(45^{\\circ}+\\frac{\\phi}{2}\\right)[/latex] [latex][\\mathrm{C}=[/latex] Undrained cohesion, [latex]\\phi=0[/latex] (Cohesive soil)] [latex]\\Rightarrow \\quad \\sigma_{1}=2 \\mathrm{C}[/latex] [latex]\\Rightarrow \\quad 76=2 \\mathrm{C}[/latex] [latex]\\Rightarrow  \\quad C=38 \\mathrm{kPa}[/latex]",
+    "min": 38.0,
+    "max": 38.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 The pressure in a pipe at [latex]X[/latex] is to be measured by an open manometer as shown in figure. Fluid [latex]A[/latex] is oil with a specific gravity of 0.8 and Fluid [latex]B[/latex] is mercury with a specific gravity of 13.6. The absolute pressure at [latex]X[/latex] is [latex]\\mathrm{kN} / \\mathrm{m}^{2}[/latex] (round off to one decimal place). [Assume density of water as [latex]1000 \\mathrm{~kg} / \\mathrm{m}^{3}[/latex] and acceleration due to gravity as [latex]9.81 \\mathrm{~m} / \\mathrm{s}^{2}[/latex] and atmospheric pressure as [latex]\\left.101.3 \\mathrm{kN} / \\mathrm{m}^{2}\\right][/latex]",
+    "solution": "Equating pressure at [latex]\\mathrm{A}-\\mathrm{A}^{\\prime}[/latex] [latex]\n\\begin{aligned}\n& P_{a t m}+\\rho_{B} \\gamma_{w} \\times \\frac{25}{100}=P_{x}-\\rho_{A} \\gamma_{w} \\times \\frac{75}{100} \\\\\n& \\therefore \\quad P_{x}=P_{a t m}+\\rho_{B} \\gamma_{w} \\times 0.25+\\rho_{A} \\gamma_{w} 0.75\n\\end{aligned}\n[/latex] [latex]\n\\begin{gathered}\n=101.3+13.6 \\times 9.81 \\times 0.25+0.8 \\times 9.81 \\times 0.75 \\\\\n=140.54 \\mathrm{kN} / \\mathrm{m}^{2}\n\\end{gathered}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page5_q3.webp",
+    "min": 140.0,
+    "max": 141.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 For the elevation and temperature data given in the table, the existing lapse rate in the environment is ___ [latex]{ }^{\\circ} \\mathrm{C} / 100 \\mathrm{~m}[/latex] (round off to two decimal places). [latex]\r\n\r\n\\begin{array}{|l|l|}\r\n\\hline\r\n\\begin{array}{l}\\text {Evaluation from} \\\\ \\text {ground level}(\\mathrm{m})\\end{array} & \\text{Temperature }\\left({ }^{\\circ} \\mathrm{C}\\right) \\\\\r\n\\hline\r\n5 & 14.2 \\\\\r\n\\hline\r\n325 & 16.9 \\\\\r\n\\hline\r\n\\end{array}\r\n[/latex]",
+    "solution": "Lapse rate, [latex]\\lambda=\\frac{\\text { Difference in Temperature }}{\\text { Difference in height }}=\\frac{\\Delta \\mathrm{T}}{\\Delta \\mathrm{H}}[/latex] [latex]\\lambda=\\frac{\\Delta \\mathrm{T}}{\\Delta \\mathrm{H}}=\\frac{16.9-14.2}{325-5}[/latex] [latex]\\lambda=0.0084375^{\\circ} \\mathrm{C} / \\mathrm{m}[/latex] [latex]\\Rightarrow \\quad \\lambda=\\frac{0.0084375 \\times 100}{100 \\mathrm{~m}}[/latex] [latex]\\Rightarrow \\quad \\lambda=\\frac{0.084375^{\\circ} \\mathrm{C}}{100 \\mathrm{~m}}=0.84^{\\circ} \\mathrm{C} / 100 \\mathrm{~m}[/latex]",
+    "min": 0.84,
+    "max": 0.85
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 If the size of the ground area is [latex]6 \\mathrm{~km} \\times 3 \\mathrm{~km}[/latex] and the corresponding photo size in the aerial photograph is [latex]30 \\mathrm{~cm} \\times 15 \\mathrm{~cm}[/latex], then the scale of the photograph is 1 : ____ (in integer).",
+    "solution": "Scale of Photograph [latex](\\mathrm{S})=\\frac{\\text { Photo distance }}{\\text { Ground distance }}[/latex] For Length scale : [latex]\n\\begin{aligned}\nS & =\\frac{30 \\mathrm{~cm}}{6 \\mathrm{~cm}} \\\\\n& =\\frac{30 \\mathrm{~cm}}{60 \\times 10^{4} \\mathrm{~cm}}\n\\end{aligned}\n[/latex] [latex]\\Rightarrow \\quad \\mathrm{S}=\\frac{1}{20000}[/latex] For Breadth Scale : [latex]\n\\begin{aligned}\nS & =\\frac{15 \\mathrm{~cm}}{3 \\mathrm{Km}} \\\\\n& =\\frac{15 \\mathrm{~cm}}{30 \\times 10^{4} \\mathrm{~cm}}\n\\end{aligned}\n[/latex] [latex]\nS=\\frac{1}{20000}\n[/latex] [latex]\\therefore[/latex] Scale of photograph, [latex]S=1: 20000[/latex]",
+    "min": 20000.0,
+    "max": 20000.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 The solution of the differential equation. [latex]\n\\frac{d^{3} y}{d x^{3}}-5.5 \\frac{d^{2} y}{d x^{2}}+9.5 \\frac{d y}{d x}-5 y=0\n[/latex] is expressed as [latex]y=C_{1} e^{2.5 x}+C_{2} e^{\\alpha . x}+C_{3} e^{\\beta x}[/latex], where [latex]\\mathrm{C}_{1}, \\mathrm{C}_{2}, \\mathrm{C}_{3}[/latex] and [latex]\\alpha[/latex] and [latex]\\beta[/latex] are constants, with [latex]\\alpha[/latex] and [latex]\\beta[/latex] being distinct and not equal to 2.5. which of the following options is correct for the values of [latex]\\alpha[/latex] and [latex]\\beta[/latex] ?",
+    "solution": "The differential eqn. can be written as : [latex]\nD^{3}-5.5 D^{2}+9.5 D-5=0\n[/latex] Solving we get, [latex]\nD=1,2,2.5\n[/latex] Hence, the solution is given as [latex]\ny=C_{1} e^{2.5 x}+C_{2} e^{1 x}+C_{3} e^{2 x}\n[/latex] Comparing we get, [latex]\n\\begin{aligned}\n& \\alpha=1 \\\\\n& \\beta=2\n\\end{aligned}\n[/latex] Hence, option (A) is correct.",
+    "options": {
+      "A": "1 and 2",
+      "B": "-1 and -2",
+      "C": "2 and 3",
+      "D": "-2 and -3"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 Two vectors [latex]\\left[\\begin{array}{llll}2 & 1 & 0 & 3\\end{array}\\right]^{\\top}[/latex] and [latex]\\left[\\begin{array}{llll}1 & 0 & 1 & 2\\end{array}\\right]^{\\top}[/latex] belong to the null space of a [latex]4 \\times 4[/latex] matrix of rank 2 . Which one of the following vectors also belongs to the null space?",
+    "solution": "Given matrix is [latex]4 \\times 4 [/latex] and rank of matrix is 2 . Therefore, rank of matrix [latex]\\neq[/latex] No. of variables Thus, there two linearly dependent vectors \\& two linearly independent vectors are present. [latex]\r\n\\begin{aligned}\r\n& X_{1}=\\left[\\begin{array}{llll}\r\n2 & 1 & 0 & 3\r\n\\end{array}\\right]^{\\top} \\\\\r\n& X_{2}=\\left[\\begin{array}{llll}\r\n1 & 0 & 1 & 2\r\n\\end{array}\\right]^{\\top}\r\n\\end{aligned}\r\n[/latex] [latex]\\therefore \\quad X=\\mathrm{K}_{1}\\left[\\begin{array}{l}2 \\\\ 1 \\\\ 0 \\\\ 3\\end{array}\\right]+\\mathrm{K}_{2}\\left[\\begin{array}{l}1 \\\\ 0 \\\\ 1 \\\\ 2\\end{array}\\right][/latex] For [latex]\\mathrm{K}_{1}=1 \\text{ and } \\mathrm{~K}_{2}=-1[/latex] [latex]X=\\left[\\begin{array}{c}1 \\\\ 1 \\\\ -1 \\\\ 1\\end{array}\\right]=\\left[\\begin{array}{llll}1 & 1 & -1 & 1\\end{array}\\right]^{\\top}[/latex]",
+    "options": {
+      "A": "[latex]\\left[\\begin{array}{llll}1 & 1 & -1 & 1\\end{array}\\right]^{\\top}[/latex]",
+      "B": "[latex]\\left[\\begin{array}{llll}2 & 0 & 1 & 2\\end{array}\\right]^{\\top}[/latex]",
+      "C": "[latex]\\left[\\begin{array}{llll}0 & -2 & 1 & -1\\end{array}\\right]^{\\top}[/latex]",
+      "D": "[latex]\\left[\\begin{array}{llll}3 & 1 & 1 & 2\\end{array}\\right]^{\\top}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Cholesky decomposition is carried out on the following square matrix [latex][\\mathrm{A}][/latex]. [latex]\n[A]=\\left[\\begin{array}{cc}\n8 & -5 \\\\\n-5 & a_{22}\n\\end{array}\\right]\n[/latex] Let [latex]\\mathrm{I}_{\\mathrm{ij}}[/latex] and [latex]\\mathrm{a}_{\\mathrm{ij}}[/latex] be the [latex](i, j)^{\\text {th }}[/latex] elements of matrices [latex][L][/latex] and [latex][A][/latex], respectively. If the element [latex]I_{22}[/latex] of the decomposed lower triangular matrix [latex][\\mathrm{L}][/latex] is 1.968 , what is the value (rounded off to the nearest integer) of the element [latex]a_{22}[/latex] ?",
+    "solution": "We know, cholesky decomposition, [latex]A=LL^{T}[/latex] Where, [latex]L=[/latex] lower tringular matrix [latex]\\left[\\begin{array}{ll}a_{11} & a_{12} \\\\ a_{21} & a_{22}\\end{array}\\right]=\\left[\\begin{array}{cc}L_{11} & 0 \\\\ L_{21} & L_{22}\\end{array}\\right]\\left[\\begin{array}{cc}\\mathrm{L}_{11} & L_{21} \\\\ 0 & L_{22}\\end{array}\\right][/latex] [latex]\\left[\\begin{array}{cc}8 & -5 \\\\ -5 & \\mathrm{a}_{22}\\end{array}\\right]=\\left[\\begin{array}{cc}\\mathrm{L}_{11}^{2} & \\mathrm{~L}_{11} \\mathrm{~L}_{21} \\\\ \\mathrm{~L}_{11} \\mathrm{~L}_{21} & \\mathrm{~L}_{21}^{2}+\\mathrm{L}_{22}^{2}\\end{array}\\right][/latex] On comparison on both sides, [latex]\\mathrm{L}_{11}=\\sqrt{8}=2 \\sqrt{2}[/latex] [latex]and,\\;\\; L_{11} L_{21}=-5[/latex] [latex]\\mathrm{L}_{21}=\\frac{-5}{2 \\sqrt{2}}[/latex] [latex]and,\\;\\; a_{22}=L_{21}^{2}+L_{22}^{2}[/latex] [latex]=\\left(\\frac{-5}{2 \\sqrt{2}}\\right)^{2}+1.968^{2}[/latex] [latex]=6.998 \\approx 7[/latex]",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "9",
+      "D": "11"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 In a two-dimensional stress analysis, the state of stress at a point is shown in the figure. The values of length of PQ, QR, and RP are 4, 3, and 5 units, respectively. The principal stresses are  (round off to one decimal place)",
+    "solution": "[latex]\\Rightarrow \\quad \\tan \\theta=\\frac{\\mathrm{QR}}{\\mathrm{PQ}}=\\frac{3}{4}[/latex] [latex]\\Rightarrow \\quad \\theta=\\tan ^{-1}\\left(\\frac{3}{4}\\right)=36.87^{\\circ}[/latex] Using transformation equations: [latex]\r\n\\sigma_{x^{\\prime}}=\\frac{\\sigma_{x}+\\sigma_{y}}{2}+\\left(\\frac{\\sigma_{x}-\\sigma_{y}}{2}\\right) \\cos 2 \\theta\r\n[/latex] [latex]120=\\frac{\\sigma_{x}+\\sigma_{y}}{2}+\\left(\\frac{\\sigma_{x}-\\sigma_{y}}{2}\\right) \\cos \\left(2 * 36.87^{\\circ}\\right)[/latex] [latex]\\tau_{x^{\\prime} y^{\\prime}}=-\\left(\\frac{\\sigma_{x}-\\sigma_{y}}{2}\\right) \\sin \\left(2 * 36.87^{\\circ}\\right)[/latex] From above equations, we get [latex]\r\n\\begin{aligned}\r\n& \\sigma_{x}=67.5 \\mathrm{MPa} \\\\\r\n& \\sigma_{y}=213.3 \\mathrm{MPa}\r\n\\end{aligned}\r\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page6_q4.webp",
+    "options": {
+      "A": "[latex]\\sigma_{x}=26.7 \\mathrm{MPa}, \\alpha_{y}=172.5 \\mathrm{MPa}[/latex]",
+      "B": "[latex]\\sigma_{x}=54.0 \\mathrm{MPa}, \\sigma_{y}=128.5 \\mathrm{MPa}[/latex]",
+      "C": "[latex]\\sigma_{x}=67.5 \\mathrm{MPa}, \\sigma_{y}=213.3 \\mathrm{MPa}[/latex]",
+      "D": "[latex]\\sigma_{x}=16.0 \\mathrm{MPa}, \\sigma_{y}=138.5 \\mathrm{MPa}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Two plates are connected by fillet welds of size 10 [latex]\\mathrm{mm}[/latex] and subjected to tension, as shown in the figure. The thickness of each plate is [latex]12 \\mathrm{~mm}[/latex]. The yield stress and the ultimate stress of steel under tension are [latex]250 \\mathrm{MPa}[/latex] and [latex]410 \\mathrm{MPa}[/latex], respectively. The welding is done in the workshop (partial safety factor, [latex]\\gamma_{\\mathrm{mw}}=1.25[/latex] ). As per the Limit State Method of IS 800: 2007, what is the minimum length (in [latex]\\mathrm{mm}[/latex], rounded off to the nearest higher multiple of [latex]5 \\mathrm{~mm}[/latex] ) required of each weld to transmit a factored force [latex]P[/latex] equal to [latex]275 \\mathrm{kN}[/latex] ?",
+    "solution": "Size of weld [latex]=10 \\mathrm{~mm}[/latex] Thickness of each plate [latex]=12 \\mathrm{~mm}[/latex] [latex]f_{y}=250 \\mathrm{MPa}, f_{u}=410 \\mathrm{MPa}[/latex] [latex]\r\n\\begin{aligned}\r\n\\gamma_{\\mathrm{mw}} & =1.25 \\\\\r\n\\mathrm{P} & =275 \\mathrm{kN} \\text { (Factored) }\r\n\\end{aligned}\r\n[/latex] Let us assume minimum length required of each weld [latex]=l[/latex] [latex]\\Rightarrow \\frac{\\mathrm{f}_{\\mathrm{u}}}{\\sqrt{3} \\gamma_{\\mathrm{mw}}} \\times 2 \\mathrm{l} \\times 0.7 \\times[/latex] size of weld\r\n\r\n[latex]\r\n=275 \\times 10^{3}\r\n[/latex] [latex]\\Rightarrow \\quad \\quad l=\\frac{275 \\times 10^{3} \\times \\sqrt{3} \\times 1.25}{410 \\times 2 \\times 0.7 \\times 10} =103.73 \\mathrm{~mm}[/latex] [latex]\r\n\r\n[/latex] The answer has to be round off to be nearest higher multiple of 5 and hence it shall be taken as [latex]105 \\mathrm{~mm}[/latex]. Hence, correct option is (B).",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page6_q5.webp",
+    "options": {
+      "A": "100",
+      "B": "105",
+      "C": "110",
+      "D": "115"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 In the given figure, Point [latex]\\mathrm{O}[/latex] indicates the stress point of a soil element at initial non-hydrostatic stress condition. For the stress path (OP), which of the following loading conditions is correct ?",
+    "solution": "For [latex]1: 1[/latex] slope, [latex]\\frac{d q}{d P}=1[/latex] [latex]\\Rightarrow \\frac{d \\sigma_{V}-d \\sigma_{H}}{d \\sigma_{V}+d \\sigma_{H}}=1[/latex] [latex]\\Rightarrow d \\sigma_{V}-d \\sigma_{H}=d \\sigma_{V}+d \\sigma_{H}[/latex] [latex]\\Rightarrow \\quad-\\mathrm{d} \\sigma_{\\mathrm{H}}=\\mathrm{d} \\sigma_{\\mathrm{H}}[/latex] [latex]\\Rightarrow \\quad \\mathrm{d} \\sigma_{\\mathrm{H}}=0[/latex] Hence, if [latex]\\sigma_{H}[/latex] is constant then increasing [latex]\\sigma_{V}[/latex] or decreasing [latex]\\sigma_{\\mathrm{V}}[/latex] will lead to [latex]1: 1[/latex] slope. Answer is (A)",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page7_q1.webp",
+    "options": {
+      "A": "[latex]\\sigma_{v}[/latex] is increasing and [latex]\\sigma_{h}[/latex] is constant.",
+      "B": "[latex]\\sigma_{v}[/latex] is constant and [latex]\\sigma_{h}[/latex] is increasing.",
+      "C": "[latex]\\sigma_{v}[/latex] is increasing and [latex]\\sigma_{h}[/latex] is decreasing.",
+      "D": "[latex]\\sigma_{v}[/latex] is decreasing and [latex]\\sigma_{h}[/latex] is increasing."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 The figure shows a vertical retaining wall with backfill consisting of cohesive-frictional soil and a failure plane developed due to passive earth pressure. The forces acting on the failure wedge are: [latex]P[/latex] as the reaction force between the wall and the soil, [latex]R[/latex] as the reaction force on the failure plane, [latex]C[/latex] as the cohesive force along the failure plane and [latex]W[/latex] as the weight of the failure wedge. Assuming that there is no adhesion between the wall and the wedge, identify the most appropriate force polygon for the wedge.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page7_q2.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 A compound symmetrical open channel section as shown in the figure has a maximum of depth(s). [latex]B_{m}-[/latex] Bottom width of main channel [latex]B_{\\mathrm{f}}-[/latex] Bottom width of flood channel [latex]\\mathrm{y}_{\\mathrm{m}}[/latex] - Depth of main channel [latex]y[/latex] - Total depth of the channel [latex]\\mathrm{n}_{\\mathrm{ma}}[/latex]-Manning's roughness of the main channel [latex]\\mathrm{n}_{f}[/latex]- Manning's roughness of the flood channel",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page7_q3.webp",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "4"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 The critical flow condition in a channel is given by ____ [Note: [latex]\\alpha -[/latex] kinetic energy correction factor; [latex]Q -[/latex] discharge; [latex]A_{C} -[/latex] cross-sectional area of flow at critical flow condition; [latex]T_{C}-[/latex] top width of flow at critical flow condition; [latex]g-[/latex] acceleration due to gravity]",
+    "solution": "Specific Energy [latex](E)=y+\\frac{v^{2}}{2 g}[/latex] [latex]\\Rightarrow \\quad E=y+\\alpha \\cdot \\frac{Q^{2}}{2 g A^{2}}\\left[\\right.[/latex] as [latex]\\left.\\frac{Q}{A}=v\\right][/latex] For critical flow condition, [latex]\r\n\\begin{aligned}\r\n\\frac{d E}{d y} & =0 \\\\\r\n\\Rightarrow \\quad \\frac{d E}{d y} & =1+\\frac{\\alpha Q^{2}}{2 g} \\frac{d}{d y}\\left(A^{-2}\\right) \\\\\r\n\\Rightarrow \\quad \\frac{d E}{d y} & =1+\\frac{\\alpha Q^{2}}{2 g}\\left(-\\frac{2}{A^{3}}\\right) \\frac{d A}{d y}\r\n\\end{aligned}\r\n[/latex] 'dA' can be written as 'Tdy' [latex]\\Rightarrow \\frac{d A}{d y}=T[/latex] [latex]\\Rightarrow \\quad \\frac{\\mathrm{dE}}{\\mathrm{dy}}=1-\\frac{\\alpha \\mathrm{Q}^{2} \\mathrm{~T}}{\\mathrm{gA} \\mathrm{A}^{3}}[/latex] [latex]\\Rightarrow 1-\\frac{\\alpha Q^{2} \\mathrm{~T}}{g A^{3}}=0[/latex] [latex]\\Rightarrow \\quad \\frac{\\alpha Q^{2}}{g}=\\frac{\\mathrm{A}^{3}}{\\mathrm{~T}}[/latex] At critical flow, [latex]A=A_{C}[/latex]; [latex]\\mathrm{T}=\\mathrm{T}_{\\mathrm{C}}[/latex] [latex]\\Rightarrow \\quad \\frac{\\alpha Q^{2}}{g}=\\frac{A_{C}^{3}}{T_{C}}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{\\alpha Q^{2}}{g}=\\frac{A_{c}^{3}}{T_{C}}[/latex]",
+      "B": "[latex]\\frac{\\alpha Q}{g}=\\frac{A_{c}^{3}}{T_{C}^{2}}[/latex]",
+      "C": "[latex]\\frac{\\alpha Q^{2}}{g}=\\frac{A_{c}^{3}}{T_{C}^{2}}[/latex]",
+      "D": "[latex]\\frac{\\alpha Q}{g}=\\frac{A_{c}^{3}}{T_{C}}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Match the following air pollutants with the most appropriate adverse health effects: [latex]\r\n\r\n\\begin{array}{|l|l|}\r\n\\hline \r\n\\textbf{Air pollutant} & \\textbf{Health effect to human and/or test animal} \\\\\r\n\\hline\r\n\\text{(P) Aromatic hydrocarbons} & \\text{(I) Reduce the capability of the blood to carry oxygen} \\\\\r\n\\hline\r\n\\text{(Q) Carbon monoxide} & \\text{(II) Bronchitis and pulmonary emphysema}\\\\\r\n\\hline\r\n\\text{(R) Sulfur oxides}& \\text{(III) Damage of chromosomes} \\\\\r\n\\hline\r\n\\text{(S) Ozone} & \\text{(IV) Carcinogenic effect} \\\\\r\n\\hline\r\n\\end{array}\r\n\r\n[/latex]",
+    "solution": "Aromatic hydrocarbons such as 3, 4benzpyrene, other polycyclic organic compounds which are originated due to incomplete combustion of hydrocarbons are considered to be carcinogenic agents. These are responsible for cancer. Sulphur dioxide [latex]\\left(\\mathrm{SO}_{2}\\right)[/latex] : It is an irritant gas which effects mucous membrane when inhaled. It leads to bronchial spasms. Asthma patients are badly affected. Carbon Monoxide (CO) : Carbon monoxide has a strong affinity for combining with the haemoglobin of the blood to form carboxyhemoglobin, [latex]\\mathrm{COHb}[/latex]. This reduces the ability of the haemoglobin to carry oxygen to the body tissues. CO has about two hundred time the affinity of oxygen for attaching itself to the haemoglobin, so that low levels of CO can still result in high levels of [latex]\\mathrm{COHb}[/latex]. Carbon monoxide also affects the central nervous system. Ozone [latex]\\left(\\mathrm{O}_{3}\\right)[/latex] can damage the tissue of the respiratory tract, causing inflammation and irritation, and result in symptoms such as coughing, chest tightness and worsening of asthma symptoms. In addition, ozone causes substantial damage to crops, forests and native plants.",
+    "options": {
+      "A": "(P) - (II), (Q) - (I), (R) - (IV), (S) - (III)",
+      "B": "(P) - (IV), (Q) - (I), (R) - (III), (S) - (II)",
+      "C": "(P) - (III), (Q) - (I), (R) - (II), (S) - (IV)",
+      "D": "(P) - (IV), (Q) - (I), (R) - (II), (S) - (III)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 A delivery agent is at a location R. To deliver the order, she is instructed to travel to location [latex]P[/latex] along straight-line paths of [latex]\\mathrm{RC}, \\mathrm{CA}, \\mathrm{AB}[/latex] and [latex]\\mathrm{BP}[/latex] of [latex]5 \\mathrm{~km}[/latex] each. The direction of each path is given in the table below as whole circle bearings. Assume that the latitude (L) and departure (D) of [latex]R[/latex] is [latex](0,0) \\mathrm{km}[/latex]. What is the latitude and departure of [latex]P[/latex] (in km, rounded off to one decimal place)? [latex]\r\n\r\n\\begin{array}{|c|c|c|c|c|}\r\n\\hline\r\nPaths & RC & CA & AB & BP \\\\\r\n\\hline\r\n\\begin{array}{c}\\text {Directions} \\\\ \\text {(in degrees)}\\end{array} & 120 & 0 & 90 & 240 \\\\\r\n\\hline\r\n\\end{array}\r\n\r\n[/latex]",
+    "solution": "Latitude of ' [latex]C[/latex] ' [latex]=-5 \\sin 30^{\\circ}=-2.5 \\mathrm{Km}[/latex] Departure of ' [latex]C[/latex] ' [latex]=5 \\cos 30^{\\circ}=+4.33 \\mathrm{Km}[/latex] Latitude of ' [latex]\\mathrm{B}[/latex] ' [latex]=[/latex] Latitude of ' [latex]\\mathrm{C}[/latex] ' [latex]+5 \\mathrm{Km}[/latex]\n\n[latex]=-2.5+5=+2.5 \\mathrm{Km}[/latex] Departure of 'B' [latex]=[/latex] Departure of ' [latex]C[/latex] ' [latex]+5 \\mathrm{Km}[/latex]\n\n[latex]=+4.33+5=+9.33 \\mathrm{Km}[/latex] Latitude of ' [latex]P[/latex] ' = Latitude of ' [latex]B[/latex] ' [latex]-5 \\sin 30^{\\circ}[/latex]\n\n[latex]=+2.5-2.5=0[/latex] Departure of ' [latex]P[/latex] ' [latex]=[/latex] Departure of ' [latex]B[/latex] ' [latex]-5 \\sin 30^{\\circ}[/latex]\n\n[latex]=9.33-4.33=+5 \\mathrm{Km}[/latex] [latex]\\therefore \\quad \\mathrm{L}=0.0, \\quad \\mathrm{D}=5.0[/latex]",
+    "options": {
+      "A": "[latex]L=2.5 ; D=5.0[/latex]",
+      "B": "[latex]L=0.0 ; D=5.0[/latex]",
+      "C": "[latex]L=5.0 ; D=2.5[/latex]",
+      "D": "[latex]L=0.0 ; D=0.0[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 Which of the following statements is/are TRUE?",
+    "solution": "[latex]P_{H}=[/latex] Total pressure on the projected are of the curved surface on the vertical plane. [latex]P_{H}[/latex] is equal to the total pressure exerted by the liquid on an imaginary vertically immersed plane surface which is the vertical projection of the curved surface, it will act at the center of pressure of the lane surface. [latex]P_{v}=[/latex] The weight [latex]o[/latex] the liquid contained in the portion extending vertically above the curved surface upto the free surface of the liquid. [latex]P_{V}[/latex] will act through the centre of gravity of the volume of liquid contained in the portion extending above the curved surface upto the free surface of the liquid (represented by the profile ABCDEFA in the present case). Momentum correction factor [latex](\\beta)=\\frac{1}{A V^{2}} \\int \\mathrm{v}^{2} d A[/latex] {Sink Flow :} The sink flow is the flow in which fluid moves radially inwards towards a point where it disappears at a constant rate. This flow is just opposite to the source flow. Figure shows a sink flow in which the fluid moves radially inwards towards point [latex]\\mathrm{O}[/latex], where it disappears tat a constant rate. The pattern of stream lines and equipotential lines of a sink flow is the same as that of source flow. All the equations derived for a source flow shall hold to good for sink flow also except that in sink flow equations, [latex]q[/latex] is to be replaced by [latex](-q)[/latex] Boundary layer thickness (Normal Boundary layer thickness disturbance thickness. Distance from the boundary surface in which the velocity reaches [latex]99 \\%[/latex] of the stream velocity is the boundary layer thickness. Turbulent boundary layer on smooth plate. [latex]\r\n\\frac{\\delta}{x}=\\frac{0.376}{\\left(R_{e x}\\right)^{1 / 5}}, \\quad R_{e x}=\\frac{v_{0} x}{v}\r\n[/latex] [Valid for [latex]R_{e x} \\gt 5 \\times 10^{5}[/latex] and [latex]R_{e x} \\lt 10^{7}[/latex] ] [latex]\r\n=\\frac{0.22}{\\left(R_{e x}\\right)^{1 / 6}}, 10^{7} \\lt R_{e x} \\lt 10^{9}\r\n[/latex]",
+    "options": {
+      "A": "The thickness of a turbulent boundary layer on a flat plate kept parallel to the flow direction is proportional to the square root of the distance from the leading edge",
+      "B": "If the streamlines and equipotential lines of a source are interchanged with each other, the resulting flow will be a sink.",
+      "C": "For a curved surface immersed in a stationary liquid, the vertical component of the force on the curved surface is equal to the weight of the liquid above it",
+      "D": "For flow through circular pipes, the momentum correction factor for laminar flow is larger than that for turbulent flow"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 In the context of water and wastewater treatments, the correct statements are:",
+    "solution": "Total dissolved solids comprise of inorganic salts, principally calcium, magnesium, potassium, sodium bicarbonates, chlorides, sulfates and some small amount of organic matter that are dissolved in water. Hardness is due to presence of multivalent cations. In most cases, it is due to the presence of soluble bicarbonates, chlorides and sulfates of calcium and magnesium. Too much phosphorous can cause increased growth of algae and large aquatic plants. It can result in decreased levels of dissolved oxygen and the process is called 'Eutrophication'. Ammonia creates a large chlorine demand, as the ammonia is converted to nitrogen gas and the chlorine becomes chloride during disinfection of water by chlorination. Presence of particulate matter decreases the effectiveness of UV disinfection or chlorine disinfection by shielding the targeted microorganisms.",
+    "options": {
+      "A": "particulate matter may shield microorganisms during disinfection",
+      "B": "ammonia decreases chlorine demand",
+      "C": "phosphorous stimulates algal and aquatic growth",
+      "D": "calcium and magnesium increase hardness and total dissolved solids"
+    },
+    "correct_answers": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 Which of the following statements is/are TRUE for the aerobic composting of sewage sludge?",
+    "solution": "A bulking agent (wood ships shredded leaves or types) is intended to support the structure of sludge by increasing its porosity to encourage effective aeration. In-vessel composting systems can be divided into plug flow and agitated bed modes. In plug flow mode, the relationship between particles in the composting mass stays the same through the process and the system operates on first-in, first-out principle. In an agitated bed system, composting material is mixed mechanically during the processing. The heat produced in aquatic composting cause any surplus moisture to be extracted as water vapour and hence no leachate is produced. Actinomycetes are aerobic, spore forming positive bacteria. These are thermophilic species and their development depends on aerobic conditions, temperature and water content. The heat produced in aerobic\r\ncomposting helps support the growth of these species. Leachate can generated from vegetable wastes.",
+    "options": {
+      "A": "Bulking agent is added during the composting process to reduce the porosity of the solid mixture",
+      "B": "Leachate can be generated during composting",
+      "C": "Actinomycetes are involved in the process",
+      "D": "In-vessel composting systems cannot be operated in the plug-flow mode"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 The figure presents the time-space diagram for when the traffic on a highway is suddenly stopped for a certain time and then released. Which of the following statements are true?",
+    "solution": "Any vertical line drawn in the graph which cuts arrow lines give positions of vehicles in different regions at a particular time. Slope of a line in a region represents speed of vehicles in that particular region. From the Plot : 1. Distance between position of vehicles in region ' [latex]P[/latex] ' is greater than that in region [latex]R \\Rightarrow[/latex] Density in region ' [latex]P[/latex] ' is greater than that in region ' [latex]R[/latex] '. 2. Slope of lines in region ' [latex]Q[/latex] ' [latex]=0 \\Rightarrow[/latex] Speed of vehicles in region ' [latex]\\mathrm{Q}[/latex] ' is zero. 3. Slope of lines in region ' [latex]P[/latex] ' is greater than in region ' [latex]R[/latex] ' [latex]\\Rightarrow[/latex] speed of vehicles in region ' [latex]P[/latex] ' is greater than in region ' [latex]R[/latex] '. 4. Since vehicles in region ' [latex]Q[/latex] ' are stationary, flow or volume in region ' [latex]Q[/latex] ' is zero and hence lower than in region [latex]\\mathrm{P}[/latex] or region [latex]\\mathrm{R}[/latex]. And density in region ' [latex]\\mathrm{Q}[/latex] ' is higher than in region [latex]\\mathrm{P}[/latex] or region [latex]\\mathrm{R}[/latex]. 5. Boundary between region ' [latex]P[/latex] and ' [latex]R[/latex] ' represents 'forward moving slope wave' means slope is positive. i.e. [latex]\\quad[/latex] slope [latex]=\\frac{q_{R}-q_{P}}{K_{R}-K_{P}} \\gt 0[/latex] q - Flow [latex]\\mathrm{K}[/latex] - Density. Since [latex]\\mathrm{K}_{\\mathrm{R}} \\gt \\mathrm{K}_{\\mathrm{P}}[/latex] [latex]\\Rightarrow \\mathrm{q}_{\\mathrm{R}}[/latex] should be greater than [latex]\\mathrm{q}_{\\mathrm{P}}[/latex]. [latex]\\Rightarrow[/latex] Volume/flow in region ' [latex]R[/latex] ' is higher than in Region 'P'.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page8_q5.webp",
+    "options": {
+      "A": "Speed is higher in Region [latex]\\mathrm{R}[/latex] than in Region [latex]\\mathrm{P}[/latex]",
+      "B": "Volume is lower in Region [latex]Q[/latex] than in Region [latex]P[/latex]",
+      "C": "Volume is higher in Region [latex]\\mathrm{R}[/latex] than in Region [latex]\\mathrm{P}[/latex]",
+      "D": "Density is higher in Region [latex]\\mathrm{Q}[/latex] than in Region [latex]\\mathrm{R}[/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 Consider the Marshall method of mix design for bituminous mix. With the increase in bitumen content, which of the following statements is/are TRUE?",
+    "solution": "For marshall mix design, following graphical results are obtained. [latex]\\Rightarrow[/latex] Stability increases initially and then decreases Hence option (A) is INCORRECT [latex]\\Rightarrow[/latex] Flow increases monotonically Hence option (B) is CORRECT [latex]\\Rightarrow[/latex] Air voids decreases continously Hence option (C) is INCORRECT [latex]\\Rightarrow[/latex] VFB increases monotonically Hence option (D) is CORRECT",
+    "options": {
+      "A": "the Stability decreases initially and then increases",
+      "B": "the Flow increases monotonically",
+      "C": "the air voids (VA) increases initially and then decreases",
+      "D": "the voids filled with bitumen (VFB) increases monotonically"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 [latex]A 5 \\mathrm{~cm}[/latex] long metal rod [latex]A B[/latex] with initially at a uniform temperature of [latex]T_{0}{ }^{\\circ} \\mathrm{C}[/latex]. Thereafter, temperature at both the ends are maintained at [latex]0^{\\circ} \\mathrm{C}[/latex]. Neglecting the heat transfer from the lateral surface of the rod, the heat transfer in the rod is governed by the one-dimensional diffusion equation [latex]\\frac{\\partial T}{\\partial t}=D \\frac{\\partial^{2} T}{\\partial x^{2}}[/latex], where [latex]D[/latex] is the thermal diffusively of the metal, given as [latex]1.0 \\mathrm{~cm}^{2} / \\mathrm{s}[/latex]. The temperature distribution in the rod is obtained as [latex]T(x, t)=\\sum_{n=13,5 \\ldots .}^{\\infty} C_{n} \\sin \\frac{n \\pi x}{5} e^{-\\beta n^{2} t}[/latex] where [latex]x[/latex] is in [latex]\\mathrm{cm}[/latex] measured from [latex]A[/latex] to [latex]B[/latex] with [latex]x=0[/latex] at [latex]A, t[/latex] is [latex]s, C_{n}[/latex] are constants in [latex]{ }^{\\circ} \\mathrm{C}, \\mathrm{T}[/latex] is in [latex]{ }^{\\circ} \\mathrm{C}[/latex] and [latex]\\beta[/latex] is in [latex]\\mathrm{s}^{-1}[/latex]. The value of [latex]\\beta[/latex] (in [latex]\\mathrm{s}^{-1}[/latex], rounded off to three decimal places) is ___",
+    "solution": "Given: Diffusion equation: [latex]\r\n\\frac{\\partial T}{\\partial t}=\\mathrm{D} \\frac{\\partial^{2} \\mathrm{~T}}{\\partial \\mathrm{x}^{2}}\r\n[/latex] And also, [latex]D=1[/latex] [latex]\\mathrm{T}(0, \\mathrm{t})=0[/latex] [latex]\\mathrm{T}(5,5)=0[/latex] [latex]T(x, 0)=T_{0}[/latex] We know, solution of equation is given by, [latex]T(x, t)=\\left(C_{1} \\cos \\alpha x+C_{2} \\sin \\alpha x\\right) C_{3} e^{-\\alpha^{2} t} \\;\\;\\; ...(1)[/latex] For [latex]\\mathrm{T}(0, t)=0[/latex] [latex]\\left(C_{1}+0\\right) C_{3} e^{-\\alpha^{2} t}=0[/latex] [latex]\\Rightarrow \\mathrm{C}_{1}=0[/latex] For [latex]\\mathrm{T}(\\mathrm{s}, \\mathrm{t})=0[/latex] [latex]\\left(C_{2} \\sin \\alpha 5\\right) C_{3} \\mathrm{e}^{-25 t}=0[/latex] [latex]\\Rightarrow \\sin 5 \\alpha=0[/latex] [latex]\\Rightarrow \\alpha=\\frac{\\mathrm{n} \\pi}{5}[/latex] Now, from equation (1) [latex]T(x, t)=C_{2} C_{3} \\sin \\left(\\frac{n \\pi x}{5}\\right) e^{-\\frac{n^{2} \\pi^{2}}{25} t}[/latex] [latex]=b_{n} \\sin \\left(\\frac{n \\pi x}{5}\\right) e^{-\\frac{n^{2} \\pi^{2} t}{25}}[/latex] Generalize solution [latex]T(x, t)=\\sum_{n=1}^{\\infty} b_{n} \\sin \\left(\\frac{n \\pi x}{5}\\right) e^{-\\frac{n^{2} \\pi^{2} t}{25}}[/latex] For [latex]\\mathrm{T}(\\mathrm{x}, 0)=\\mathrm{T}_{0}[/latex] [latex]\\Rightarrow T_{0}=\\sum_{n=1}^{\\infty} b_{n} \\sin \\left(\\frac{n \\pi x}{5}\\right)[/latex] From fourier series, [latex]b_{n}=0[/latex] for even value of [latex]n[/latex] [latex]\\therefore \\mathrm{T}(\\mathrm{x}, \\mathrm{t})=\\sum_{\\mathrm{n}=13,5 \\ldots .}^{\\infty} \\mathrm{b}_{\\mathrm{n}} \\sin \\left(\\frac{\\mathrm{n} \\pi \\mathrm{x}}{5}\\right) \\mathrm{e}^{-\\frac{\\mathrm{n}^{2} \\pi^{2} \\mathrm{t}}{25}}[/latex] Given: [latex]T(x, t)=\\sum_{n=13,5 \\ldots .}^{\\infty} C_{n} \\sin \\left(\\frac{n \\pi x}{5}\\right) e^{-\\beta n^{2} t}[/latex] On comparison; [latex]\\beta=\\frac{\\pi^{2}}{25}=0.395 \\mathrm{sec}^{-1}[/latex]",
+    "min": 0.394,
+    "max": 0.396
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 A beam is subjected to a system of coplanar forces as shown in the figure. The magnitude of vertical reaction at Support [latex]\\mathrm{P}[/latex] is [latex]\\mathrm{N}[/latex] (round off to one decimal place).",
+    "solution": "Taking components of inclined [latex]500 \\mathrm{~N}[/latex] load along horizontal and vertical direction. Now, using equilibrium equations. [latex]\\Rightarrow \\quad \\mathrm{H}_{\\mathrm{P}}=350 \\mathrm{~N}[/latex] [latex]\r\n\\left.\\sum \\mathrm{M}_{\\mathrm{Q}}\\right)=0\r\n[/latex]\r\n\r\n[latex]\\Rightarrow R_{P} * 6-\\left(500 \\sin 60^{\\circ}\\right) * 4+200 * 2.5+100 * 0.5=0[/latex] [latex]\\Rightarrow \\quad \\mathrm{R}_{\\mathrm{P}}=197 \\mathrm{~N}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page9_q3.webp",
+    "min": 195.0,
+    "max": 200.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 For the frame shown in the figure (not to scale), all members [latex](A B, B C, C D, G B[/latex], and [latex]C H)[/latex] have the same length, [latex]L[/latex] and flexural rigidity, El. The joints at [latex]B[/latex] and [latex]C[/latex] are rigid joints, and the supports [latex]A[/latex] and [latex]D[/latex] are fixed supports. Beams GB and [latex]\\mathrm{CH}[/latex] carry uniformly distributed loads of [latex]w[/latex] per unit length. The magnitude of the moment reaction at [latex]A[/latex] is [latex]\\mathrm{wL}^{2} / \\mathrm{k}[/latex]. What is the value of [latex]\\mathrm{k}[/latex] (in integer) ? ____",
+    "solution": "Due to symmetry, slope at mid of [latex]B C[/latex] is zero and can be taken as slider at point [latex]O[/latex] Distribution factors: [latex]\r\n\\begin{aligned}\r\n\\mathrm{K}_{\\mathrm{BA}} & =\\frac{4 \\mathrm{EI} / \\mathrm{L}}{4 \\mathrm{EI} / \\mathrm{L}+\\mathrm{EI} /(\\mathrm{L} / 2)}=\\frac{2}{3} \\\\\r\n\\mathrm{K}_{\\mathrm{BO}}&= 1-\\mathrm{K}_{\\mathrm{BA}} \\\\\r\n& =1-2 / 3=1 / 3 \\\\\r\n\\therefore \\quad \\mathrm{M}_{\\mathrm{BA}} & =\\frac{\\mathrm{WL}^{2}}{2} \\times \\frac{2}{3}=\\frac{\\mathrm{WL}^{2}}{3} \\\\\r\n\\mathrm{M}_{\\mathrm{AB}} & =\\frac{\\mathrm{M}_{\\mathrm{BA}}}{2}=\\frac{\\mathrm{WL}^{2} / 3}{2}=\\frac{\\mathrm{WL}^{2}}{6} \\\\\r\n& \\therefore \\mathrm{K}=6\r\n\\end{aligned}\r\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page9_q4.webp",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 Consider the singly reinforced section of a cantilever concrete beam under bending, as shown in the figure (M25 grade concrete, Fe415 grade steel). The stress block parameters for the section at ultimate limit state, as per IS 456: 2000 notations, are given. The ultimate moment of resistance for the section by the Limit State Method is ____ kN.m (round off to one decimal place). [Note: Here, As is the total area of tension steel bars, [latex]b[/latex] is the width of the section, [latex]d[/latex] is the effective depth of the bars, [latex]f_{c k}[/latex] is the characteristic compressive cube strength of concrete, [latex]f_{y}[/latex] is the yield stress of steel, and [latex]\\mathrm{xu}[/latex] is the depth of neutral axis.]",
+    "solution": "Given data, Grade of concrete [latex]=[/latex] M25 Grade of Steel [latex]=\\mathrm{Fe} 415[/latex] Effective depth, [latex]d=600-45=555 \\mathrm{~mm}[/latex] [latex]\nA_{s}=3 \\times \\frac{\\pi}{4} \\times(28)^{2}=1847.26 \\mathrm{~mm}^{2}\n[/latex] From Compression [latex]=[/latex] Tension Depth of neutral axis, [latex]x_{u}=\\frac{0.87 f_{y} A_{s}}{0.36 f_{c k} b}=\\frac{0.87 \\times 415 \\times 1847.26}{0.36 \\times 25 \\times 300}  =247.02 \\mathrm{~mm}[/latex] Limiting depth of neutral axis, [latex]x_{u, l i m}=0.48 \\mathrm{~d}[/latex]\n\n[latex]\n=0.48 \\times 555=266.40 \\mathrm{~mm}\n[/latex] [latex]\\Rightarrow[/latex] Section is under reinforced. Ultimate moment of resistance [latex]\n=0.36 f_{c k} b x_{u}\\left(d-0.42 x_{u}\\right)\n[/latex] [latex]=0.36 \\times 25 \\times 300 \\times 247.02 \\times[/latex]\n\n[latex](555-0.42 \\times 247.02) \\times 10^{-6}[/latex] [latex]=301.0[/latex] (after rounding off to one decimal place).",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page9_q5.webp",
+    "min": 295.0,
+    "max": 305.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 A [latex]\\quad  2 \\mathrm{D}[/latex] thin plate with modulus of elasticity, [latex]E=1.0[/latex] [latex]\\mathrm{N} / \\mathrm{m}^{2}[/latex], and Poisson's ratio, [latex]\\mu=0.5[/latex], is in plane stress condition. The displacement field in the plate is given by [latex]\\mu=C^{2} y[/latex] and [latex]v=0[/latex], where us and [latex]v[/latex] are displacements (in [latex]m[/latex] ) along the [latex]X[/latex] and [latex]Y[/latex] directions, respectively, and [latex]C[/latex] is constant (in [latex]\\mathrm{m}^{-2}[/latex] ). The distance [latex]x[/latex] and [latex]y[/latex] along [latex]X[/latex] an [latex]Y[/latex], respectively, are in [latex]\\mathrm{m}[/latex]. The stress in the [latex]X[/latex] direction is [latex]\\sigma_{x x}=40 x y \\mathrm{~N} / \\mathrm{m}^{2}[/latex], and the shear stress is [latex]\\tau_{x y}=a x^{2} \\mathrm{~N} / \\mathrm{m}^{2}[/latex]. What is the value of [latex]\\alpha[/latex] (in [latex]\\mathrm{N} / \\mathrm{m}^{4}[/latex], in integer) ?",
+    "solution": "[latex]\r\n\\begin{aligned}\r\n& \\epsilon_{x}=\\frac{\\sigma_{x}}{E}-\\frac{\\mu \\sigma_{y}}{E} \\\\\r\n& \\epsilon_{y}=\\frac{\\sigma_{y}}{E}-\\frac{\\mu \\sigma_{x}}{E} \\\\\r\n& \\tau_{x y}=\\frac{\\gamma_{x y}}{G_{1}} \\\\\r\n& G=\\frac{E}{2(1+\\mu)} \\\\\r\n& \\epsilon_{x}+\\mu \\epsilon_{y}=\\frac{\\sigma_{x}}{E}-\\frac{\\mu \\sigma_{y}}{E}+\\frac{\\mu \\sigma_{y}}{E}-\\frac{\\mu^{2} \\sigma_{x}}{E} \\\\\r\n& \\epsilon_{x}+\\mu \\epsilon_{y}=\\frac{\\sigma_{x}}{E}\\left(1-\\mu^{2}\\right) \\\\\r\n& \\sigma_{x}=\\frac{E}{1-\\mu^{2}}\\left[\\epsilon_{x}+\\mu \\epsilon_{y}\\right] \\\\\r\n& \\sigma_{x}=\\frac{E}{1-\\mu^{2}}\\left[\\frac{\\partial u}{\\partial x}+\\mu \\frac{\\partial v}{\\partial y}\\right] \\\\\r\n& \\sigma_{x}=\\frac{E}{1-\\mu^{2}}[2(x y+0)] \\\\\r\n& \\sigma_{x}=\\frac{2 \\mathrm{ECxy}}{1-\\mu^{2}} \\\\\r\n& \\sigma_{x}=40 x y \\text { (Given) } \\\\\r\n& \\Rightarrow \\frac{2 \\mathrm{ECxy}}{1-\\mu^{2}}=40 x y \\\\\r\n& \\Rightarrow \\quad \\frac{2 \\mathrm{EC}}{1-\\mu^{2}}=40 \\\\\r\n& Y_{x y}=\\frac{\\tau_{x}}{G} \\\\\r\n& G \\gamma_{x y}=\\tau_{x y} \\\\\r\n& \\frac{E}{2(1+\\mu)}\\left[\\frac{\\partial u}{\\partial y}+\\frac{\\partial v}{\\partial x}\\right]=\\tau_{x y} \\\\\r\n& \\frac{E}{2(1+\\mu)}\\left[C^{2}+0\\right]=\\alpha x^{2} \\\\\r\n& \\alpha=\\frac{C E}{2(1+\\mu)} \\\\\r\n& \\alpha=\\frac{40\\left(1-\\mu^{2}\\right)}{2 E} \\frac{E}{2(1+\\mu)} \\\\\r\n& \\alpha=10(1-\\mu)=10(1-0.5)=5\r\n\\end{aligned}\r\n[/latex]",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 An idealized frame supports a load as shown in the figure. The horizontal component of the force transferred from the horizontal member PQ to the vertical member [latex]\\mathrm{RS}[/latex] at [latex]\\mathrm{P}[/latex] is [latex]\\mathrm{N}[/latex] (round off to one decimal place).",
+    "solution": "As member UT is a link member, it will carry axial load only (assuming as R). FBD of [latex]\\mathrm{PQ}^{\\prime}[/latex] [latex] \\theta=\\tan ^{-1} \\left(\\frac{1}{2}\\right) [/latex] [latex] \\theta=39.805 ^{\\circ}  [/latex] [latex]\\sum M_{P}=0 [/latex] [latex]\\Rightarrow-\\mathrm{R} \\sin \\theta * 1.2+10 * 1.8=0[/latex] [latex]\\Rightarrow R \\sin \\left(39.805^{\\circ}\\right)=\\frac{10 * 1.8}{1.2}[/latex] [latex]\\Rightarrow \\quad \\mathrm{R}=23.43 \\mathrm{~N}[/latex] Now, [latex]\r\n\\begin{aligned}\r\n& \\sum F_{H}=0 \\\\\r\n& \\Rightarrow \\mathrm{H}_{\\mathrm{P}}-\\mathrm{R} \\cos \\left(39.805^{\\circ}\\right)=0 \\\\\r\n& \\Rightarrow \\quad \\mathrm{H}_{\\mathrm{P}}=23.43 * \\cos \\left(39.805^{\\circ}\\right) \\\\\r\n& =17.988 \\mathrm{~N}\r\n\\end{aligned}\r\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page10_q2.webp",
+    "min": 17.5,
+    "max": 18.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 A square footing is to be designed to carry a column load of [latex]500 \\mathrm{kN}[/latex] which is resting on a soil stratum having the following average properties: bulk unit weight [latex]=19 \\mathrm{kN} / \\mathrm{m}^{3}[/latex]; angle of internal friction [latex]=0^{\\circ}[/latex], and cohesion [latex]=25 \\mathrm{kPa}[/latex]. Considering the depth of the footing as [latex]1 \\mathrm{~m}[/latex] and adopting Meyerhof's bearing capacity theory with a factor of safety of 3 , the width of the footing (in [latex]\\mathrm{m}[/latex] ) is ____ (round off to one decimal place) [Assume the applicable shape and depth factor values as unity; ground water level at greater depth.]",
+    "solution": "As per Meyerhoff's approach [latex]\r\nq_{u}=C N_{c}\\left[i_{c} S_{c} d_{c}\\right]+q N_{q}\\left[{ }_{q} S_{q} d_{r}\\right]+\\frac{1}{2} \\beta \\gamma N_{r}\\left[i_{r} S_{r} d_{r}\\right]\r\n[/latex] Given; shape factor [latex]S_{c}, S_{q}, S_{r}=1[/latex] depth factor [latex]d_{c}, d_{v}, d_{r}=1[/latex] Assuming no inclination of loading hence [latex]i_{c} i_{q} i_{r}=1[/latex] For [latex]\\phi=0^{\\circ}[/latex] [latex]\r\n\\begin{aligned}\r\n& \\mathrm{N}_{\\mathrm{c}}=5.14 \\\\\r\n& N_{\\mathrm{q}}=1 \\\\\r\n& N_{r}=0 \\\\\r\n& \\therefore \\quad \\mathrm{q}_{\\mathrm{u}}=25 \\times 5.14 \\times 1 \\times 1 \\times 1+19 \\times 1 \\times \\\\\r\n& 1 \\times 1 \\times 1 \\\\\r\n& =147.5 \\mathrm{kPa} \\\\\r\n& \\mathrm{q}_{\\mathrm{nu}}=\\mathrm{q}_{\\mathrm{u}}-\\mathrm{rD}_{\\mathrm{f}} \\\\\r\n& =147.5-19 \\times 1 \\\\\r\n& =128.5 \\mathrm{kPa}\r\n\\end{aligned}\r\n[/latex] [latex]q_{n s}=\\frac{q_{n u}}{F O S}=\\frac{128.5}{3}=42.83 \\mathrm{kPa}[/latex] Hence, [latex]\\frac{500}{B^{2}} \\leq 42.83[/latex] or\r\n\r\n[latex]B \\geq 3.416 m[/latex] Hence [latex]B=3.4 m[/latex]",
+    "min": 3.0,
+    "max": 3.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 A circular pile of diameter [latex]0.6 \\mathrm{~m}[/latex] and length [latex]8 \\mathrm{~m}[/latex] was constructed in a cohesive soil stratum having the following properties: bulk unit weight [latex]=[/latex] [latex]19 \\mathrm{kN} / \\mathrm{m}^{3}[/latex]; angle of internal friction [latex]=0^{\\circ}[/latex] and cohesion [latex]=25 \\mathrm{kPa}[/latex]. The allowable load the pile can carry with a factor of safety of 3 is ____ [latex]\\mathrm{kN}[/latex] (round off to one decimal place). [Adopt: Adhesion factor, [latex]\\alpha=1.0[/latex] and Bearing capacity factor, [latex]\\left.\\mathrm{N}_{\\mathrm{C}}=9.0\\right][/latex]",
+    "solution": "End bearing capacity [latex]\r\n\\mathrm{Q}_{\\mathrm{pu}}=\\mathrm{C}_{\\mathrm{u}} \\mathrm{N}_{\\mathrm{c}} \\mathrm{A}_{\\mathrm{b}}\r\n[/latex] where, [latex]\\quad C_{u}=25 \\mathrm{kPa}[/latex] [latex]N_{c}=9[/latex] [latex]A_{b}=\\frac{\\pi}{4} \\times 0.6^{2}=0.283 \\mathrm{~m}^{2}[/latex] [latex]\\therefore \\quad \\mathrm{Q}_{\\mathrm{Pu}}=25 \\times 9 \\times 0.283[/latex]\r\n[latex]=63.62 \\mathrm{kN}[/latex] Skin friction capacity [latex]\r\n\\mathrm{Q}_{\\mathrm{s}}=\\alpha \\mathrm{C}_{\\mathrm{u}} \\mathrm{A}_{\\mathrm{s}}\r\n[/latex] Where, [latex]\r\n\\begin{aligned}\r\n\\alpha & =1.0 \\\\\r\n\\mathrm{C}_{\\mathrm{u}} & =25 \\mathrm{kPa} \\\\\r\n\\mathrm{A}_{\\mathrm{s}} & =\\pi \\mathrm{DL}=\\pi \\times 0.6 \\times 8 \\\\\r\n& =15.08 \\mathrm{~m}^{2} \\\\\r\n\\therefore \\quad Q_{\\mathrm{s}} & =1 \\times 25 \\times 15.08=377 \\mathrm{kN}\r\n\\end{aligned}\r\n[/latex] [latex]\\therefore[/latex] Ultimate pile capacity [latex]=63.62+377[/latex]\r\n[latex]\r\n=440.62 \\mathrm{kN}\r\n[/latex] Allowable load [latex]=\\frac{440.62}{3}=146.87 \\mathrm{kN}[/latex]",
+    "min": 145.0,
+    "max": 149.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 For the flow setup shown in the figure (not to scale), the hydraulic conductivities of the two soil samples, Soil 1 and Soil 2, are [latex]10 \\mathrm{~mm} / \\mathrm{s}[/latex] and [latex]1 \\mathrm{~mm} / \\mathrm{s}[/latex], respectively. Assume the unit weight of water as [latex]10 \\mathrm{kN} / \\mathrm{m}^{3}[/latex] and ignore the velocity head. At steady state, what is the total head (in [latex]m[/latex], rounded off to two decimal places) at any point located at the junction of the two samples? ____",
+    "solution": "External pressure of [latex]10 \\mathrm{kPa}[/latex] can be converted to equivalent hydrostatic, head [latex]=\\frac{10 \\mathrm{kPa}}{10 \\mathrm{kN} / \\mathrm{m}^{3}}=1 \\mathrm{~m}[/latex] Total head at [latex]A[/latex], [latex]\\mathrm{TH}_{\\mathrm{A}}=[/latex] Datum head + Pressure head [latex]\\mathrm{TH}_{\\mathrm{A}}=3 \\mathrm{~m}+(1 \\mathrm{~m}+1 \\mathrm{~m})[/latex] [latex]\\mathrm{TH}_{\\mathrm{A}}=5 \\mathrm{~m}[/latex] Total head loss due to seepage through soil [latex]\r\n\\begin{aligned}\r\n& \\mathrm{h}_{\\mathrm{L}}=5 \\mathrm{~m} \\\\\r\n& Q=K_{e q} \\mathrm{i} A\\\\\r\n& =\\left(\\frac{L_1+L_2}{\\frac{L_1}{K_1}+\\frac{L_2}{K_2}}\\right) \\times \\frac{h_L}{L} \\times \\mathrm{A} \\\\\r\n& =\\left(\\frac{1+1}{\\frac{1}{10}+\\frac{1}{1}}\\right) \\times \\frac{5}{2} \\times \\mathrm{A} \\\\\r\n& =4.545 \\mathrm{~A}\r\n\\end{aligned}\r\n[/latex] Head loss through soil - 1 only [latex]\r\n\\begin{aligned}\r\n\\mathrm{h}_{L_{1}} & =\\frac{\\mathrm{Q}}{\\mathrm{K}_{1} \\mathrm{~A}} \\times \\mathrm{L}_{1} \\\\\r\n& =\\frac{4.545 \\mathrm{~A}}{10 \\times \\mathrm{A}} \\times 1 \\\\\r\n& =0.4545 \\mathrm{~m}\r\n\\end{aligned}\r\n[/latex] [latex]\\therefore[/latex] Total head at junction [latex]=\\mathrm{TH}_{\\mathrm{A}}-\\mathrm{h}_{\\mathrm{L} 1}[/latex]\r\n\r\n[latex]\r\n=5-0.4545=4.545 \\mathrm{~m} \\approx 4.54 \\mathrm{~m}\r\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page10_q5.webp",
+    "min": 4.5,
+    "max": 4.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 A consolidated drained (CD) triaxial test was carried out on a sand sample with the known effective shear strength parameters, [latex]C^{\\prime}=0[/latex] and [latex]\\phi^{\\prime}=30^{\\circ}[/latex]. In the test, prior to the failure, when the sample was undergoing axial compression under constant cell pressure, the drainage valve was accidentally closed. At the failure, [latex]360 \\mathrm{kPa}[/latex] deviatoric stress was recorded along with [latex]70 \\mathrm{kPa}[/latex] pore water pressure. If the test is repeated without such error, and no back pressure is applied in either of the tests, what is the deviatoric stress (in [latex]\\mathrm{kPa}[/latex], in integer) at the failure? _____",
+    "solution": "We know that, [latex]\\bar{\\sigma}_{1 F}=\\bar{\\sigma}_{3 \\mathrm{~F}} \\tan ^{2}\\left(45+\\frac{\\phi^{\\prime}}{2}\\right)+20 \\tan \\left(45+\\frac{\\phi^{\\prime}}{2}\\right)[/latex] Assuming [latex]c^{\\prime}=0[/latex] under both the conditions when drainage line in suddenly dosed. [latex]\r\n\\left(\\sigma_{\\mathrm{cf}}+360-70\\right)=\\left(\\sigma_{\\mathrm{cy}}-70\\right) \\tan ^{2} 60+0\\;\\;\\;...(i)\r\n[/latex] When drainage is open and assuming the confining stress [latex]\\left(\\sigma_{\\mathrm{cf}}\\right)[/latex]. [latex]\r\n\\left[\\left(\\sigma_{\\mathrm{cf}}+\\sigma_{2}\\right)-0\\right]=\\left[\\sigma_{\\mathrm{cf}}-0\\right] \\tan ^{2} 60^{\\circ}+0 \\;\\;\\;...(ii)\r\n[/latex] From (i) and (ii), we get [latex]\r\n\\begin{aligned}\r\n290-\\sigma_{2} & =-70 \\times \\tan ^{2} 60^{\\circ} \\\\\r\n290-\\sigma_{d} & =-210 \\\\\r\n\\sigma_{d} &=500 \\mathrm{kN} / \\mathrm{m}^{2}\r\n\\end{aligned}\r\n[/latex]",
+    "min": 500.0,
+    "max": 500.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 A catchment may be idealized as a circle of radius [latex]30 \\mathrm{~km}[/latex]. There are five rain gauges, one at the center of the catchment and four on the boundary (equi-spaced), as shown in the figure (not to scale). The annual rainfall recorded at these gauges in a particular year are given below. [latex]\r\n\r\n\\begin{array}{|c|c|c|c|c|c|}\r\n\\hline\r\nGauge & \\mathrm{G}_{1} & \\mathrm{G}_{2} & \\mathrm{G}_{3} & \\mathrm{G}_{4} & \\mathrm{G}_{5} \\\\\r\n\\hline\r\nRainfall (mm) & 910 & 930 & 925 & 895 & 905 \\\\\r\n\\hline\r\n\\end{array}\r\n\r\n[/latex] Using the Thiessen polygon method, what is the average rainfall (in [latex]\\mathrm{mm}[/latex], rounded off to two decimal places) over the catchment in that year ? ___",
+    "solution": "Radius of basin [latex]=30 \\mathrm{~km}[/latex] We know that in Theissen polygon method, the polygons are obtained by joining the perpendicular bisectors of triangles formed, when various rain gauge stations are joined. The Theissen polygon in the given basin can be drawn as: Area under influence of station GI [latex]=30 \\times 30=900 \\mathrm{~km}^{2}[/latex] Area under influence of stations G2, G3, G4, G5 [latex]=\\frac{\\pi \\times 30^{2}-900}{4}[/latex] [latex]=481.86 \\mathrm{~km}^{2}[/latex] mean rainfall [latex]=\\frac{\\begin{array}{c}910 \\times 900+481.86 \\times 930+ \\\\ 481.86 \\times 925+481.86 \\times 895+ \\\\ 481.86 \\times 905\\end{array}}{900+481.86 \\times 4}[/latex]\r\n\r\n[latex]=912.56 \\mathrm{~mm}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page11_q2.webp",
+    "min": 912.28,
+    "max": 912.82
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 The cross-section of a small river is sub-divided into seven segments of width [latex]1.5 \\mathrm{~m}[/latex] each. The average depth, and velocity at different depths were measured during a field campaign at the middle of each segment width. The discharge computed by the velocity area method for the given data is ____ [latex]\\mathrm{m}^{3} / \\mathrm{s}[/latex] (round off to one decimal place).",
+    "solution": "Average width for 1 st land last sections, [latex]\r\n\\begin{aligned}\r\n\\bar{\\omega}_{1}=\\bar{\\omega}_{\\mathrm{n}} & =\\frac{\\left(\\omega_{1}+\\frac{\\omega_{2}}{2}\\right)^{2}}{2 \\omega_{1}} \\\\\r\n& =\\frac{\\left(1.5+\\frac{1.5}{2}\\right)^{2}}{2 \\times 1.5} \\\\\r\n& =1.6875 \\mathrm{~m}\r\n\\end{aligned}\r\n[/latex] [latex]\r\n\r\n\\begin{array}{|c|c|c|c|}\r\n\\hline\r\n\\begin{array}{l}\\text { Avg. width } \\\\ \\text { (m) } \\\\ \\text { (1) }\\end{array} & \\begin{array}{l}\\text { Avg. Depth } \\\\ \\text { (m) } \\\\ \\text { (2) }\\end{array} & \\begin{array}{l}\\text { Avg. Velocity } \\\\ \\text { (m/s) } \\\\ \\text { (3) }\\end{array} & \\begin{array}{c}\\text { Segmental } \\\\ \\text { discharge } \\\\ \\left(\\mathrm{m}^{3} / \\mathrm{s}\\right)=(1) \\times(2) \\times(3)\\end{array} \\\\\r\n\\hline\r\n1.6875 & 0.40 & 0.40 & 0.270 \\\\\r\n\\hline\r\n1.5 & 0.70 & \\frac{0.76+0.70}{2}=0.73 & 0.767 \\\\\r\n\\hline\r\n1.5 & 1.20 & \\frac{1.19+1.13}{2}=1.16 & 2.088 \\\\\r\n\\hline\r\n1.5 & 1.40 & \\frac{1.25+1.10}{2}=1.175 & 2.467 \\\\\r\n\\hline\r\n1.5 & 1.10 & \\frac{1.13+1.09}{2}=1.11 & 1.831 \\\\\r\n\\hline\r\n1.5 & 0.80 & \\frac{0.69+0.65}{2}=0.67 & 0.804 \\\\\r\n\\hline\r\n1.6875 & 0.45 & 0.42 & 0.319 \\\\\r\n\\hline\r\n &  &  & \\Sigma=8.546 \\\\\r\n\\hline\r\n\\end{array}\r\n\r\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page11_q3.webp",
+    "min": 8.4,
+    "max": 8.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 The theoretical aerobic oxidation of biomass [latex](\\mathrm{C} 5 \\mathrm{H} 7 \\mathrm{O} 2 \\mathrm{~N}[/latex] ) is given below: [latex]\n\\mathrm{C}_{5} \\mathrm{H}_{7} \\mathrm{O}_{2} \\mathrm{~N}+5 \\mathrm{O}_{2} \\rightarrow 5 \\mathrm{CO}_{2}+\\mathrm{NH}_{3}+2 \\mathrm{H}_{2} \\mathrm{O}\n[/latex] The biochemical oxidation of biomass is assumed as a first-order reaction with a rate constant of [latex]0.23 / \\mathrm{d}[/latex] at [latex]20^{\\circ} \\mathrm{C}[/latex] (logarithm to base e). Neglecting the second-stage oxygen demand from its biochemical oxidation, the ratio of [latex]\\mathrm{BOD} 5[/latex] at [latex]20^{\\circ} \\mathrm{C}[/latex] to total organic carbon (TOC) of biomass is (round off to two decimal places). [Consider the atomic weights of [latex]\\mathrm{C}, \\mathrm{H}, \\mathrm{O}[/latex] and [latex]\\mathrm{N}[/latex] as [latex]12 \\mathrm{~g} / \\mathrm{mol}, 1 \\mathrm{~g} / \\mathrm{mol}, 16 \\mathrm{~g} / \\mathrm{mol}[/latex] and [latex]14 \\mathrm{~g} / \\mathrm{mol}[/latex], respectively]",
+    "solution": "Calculation of [latex]B O D_{s}[/latex] : [latex]\n\\mathrm{C}_{5} \\mathrm{H}_{7} \\mathrm{O}_{2} \\mathrm{~N}+5 \\mathrm{O}_{2} \\rightarrow 5 \\mathrm{CO}_{2}+\\mathrm{NH}_{3}+2 \\mathrm{H}_{2} \\mathrm{O}\n[/latex] Considering 1 mole of biomass [latex]\\mathrm{BOD}_{4}=160 \\mathrm{gm} / \\mathrm{mol}[/latex] [latex]\\therefore \\quad \\mathrm{BOD}_{5}=\\mathrm{BOD}_{4}\\left(1-\\mathrm{e}^{-\\mathrm{k}_{0} \\mathrm{t}}\\right)[/latex] [latex]=160\\left(1-e^{-0.23 \\times 5}\\right)[/latex] [latex]=160 \\times 0.6833[/latex] [latex]=109.34 \\mathrm{gm} / \\mathrm{mol}[/latex] Calculation of TOC: [latex]\\mathrm{TOC}=\\frac{12 \\times 5}{113} \\times 113=60 \\mathrm{gm} / \\mathrm{mol}[/latex] ( [latex]\\because 1[/latex] mole biomass is considered) [latex]\\therefore[/latex] Required Ratio [latex]=\\frac{109.34}{60}=1.82[/latex]",
+    "min": 1.8,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 A system of seven river segments is shown in the schematic diagram. The [latex]\\mathrm{R}_{1}{ }^{\\prime} \\mathrm{s}, \\mathrm{Q}_{1}{ }^{\\prime} \\mathrm{s}[/latex], and [latex]\\mathrm{C}_{\\mathrm{i}}[/latex] 's ( [latex]\\mathrm{i}=1[/latex] to 7 ) are the river segments, their corresponding flow rates, and concentrations of a conservative pollutant, respectively. Assume complete mixing at the intersections, no additional water loss or gain in the system and steady state condition. Given : [latex]\\mathrm{Q}_{1}=5 \\mathrm{~m}^{3} / \\mathrm{s} ; \\mathrm{Q}_{2}=15 \\mathrm{~m}^{3} / \\mathrm{s} ; \\mathrm{Q}_{4}=3 \\mathrm{~m}^{3} / \\mathrm{s} ; \\mathrm{Q}_{6}=8 \\mathrm{~m}^{3} / \\mathrm{s} ; C_{1}=8 \\mathrm{~kg} / \\mathrm{m}^{3} ; C_{2}=12 \\mathrm{~kg} / \\mathrm{m}^{3} ; C_{6}=10 \\mathrm{~kg} / \\mathrm{m}^{3}[/latex]. What is the steady state concentration in [latex]\\mathrm{kg} / \\mathrm{m}^{3}[/latex], rounded off to two decimal place) of the pollutant in the river segment 7 ? ____",
+    "solution": "At 1-1, for [latex]\\mathrm{R}_{3}[/latex] [latex]\r\n\\begin{aligned}\r\n\\mathrm{Q}_{3} & =\\mathrm{Q}_{1}+\\mathrm{Q}_{2} \\\\\r\n& =5+15=20 \\mathrm{~m}^{2} / \\mathrm{sec} \\\\\r\n\\mathrm{C}_{3} & =\\frac{\\mathrm{Q}_{1} \\mathrm{C}_{1}+\\mathrm{Q}_{2} \\mathrm{C}_{2}}{\\mathrm{Q}_{1}+\\mathrm{Q}_{2}} \\\\ &=\\frac{5 \\times 8+15 \\times 12}{5+15} \\\\\r\n& =11 \\mathrm{Kg} / \\mathrm{m}^{3}\r\n\\end{aligned}\r\n[/latex] At 2-2, For [latex]\\mathrm{R}_{5}[/latex] [latex]\\mathrm{Q}_{5}=\\mathrm{Q}_{3} \\mathrm{Q}_{4}=10-3=17 \\mathrm{~m}^{3} / \\mathrm{sec}[/latex] [latex]\\mathrm{C}_{5}=\\mathrm{C}_{3}=11 \\mathrm{Kg} / \\mathrm{m}^{3}[/latex] At 3-3 for [latex]\\mathrm{R}_{7}[/latex] [latex]\r\n\\begin{aligned}\r\n\\mathrm{Q}_{7} & =\\mathrm{Q}_{6}+\\mathrm{Q}_{5}=17+8=25 \\mathrm{~m}^{3} / \\mathrm{sec} \\\\\r\n\\mathrm{C}_{7} & =\\frac{\\mathrm{Q}_{6} \\mathrm{C}_{6}+\\mathrm{Q}_{6} \\mathrm{C}_{5}}{\\mathrm{Q}_{6}+\\mathrm{Q}_{5}} \\\\\r\n& =\\frac{8 \\times 10+17 \\times 11}{8+17}=10.68 \\mathrm{Kg} / \\mathrm{m}^{3}\r\n\\end{aligned}\r\n[/latex] Answer : [latex]10.6 \\mathrm{~kg} / \\mathrm{m}^{3}[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page11_q5.webp",
+    "min": 10.58,
+    "max": 10.78
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 The line ran ______ the page, right through the\ncentre, and divided the page into two.",
+    "solution": "",
+    "options": {
+      "A": "across",
+      "B": "of",
+      "C": "between",
+      "D": "about"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Kind : _______ : : Often : Seldom",
+    "solution": "Often and seldom are antonyms. Hence, correct\noption will be the antonym of kind i.e. Cruel.",
+    "options": {
+      "A": "Cruel",
+      "B": "Variety",
+      "C": "Type",
+      "D": "Kindred"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 In how many ways can cells in a 3 ? 3 grid be\nshaded,such that each row and each column have\nexactly one shaded cell? An example of one valid\nshading is shown.",
+    "solution": "No. of such cases = [latex]  ^3C_1 \\times ^2C_1 \\times ^1C_1 =6[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page12_q3.webp",
+    "options": {
+      "A": "2",
+      "B": "9",
+      "C": "3",
+      "D": "6"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 There are 4 red, 5 green, and 6 blue balls inside a box. If ?? number of balls are\npicked simultaneously, what is the smallest value of ?? that guarantees there will be\nat least two balls of the same colour? One cannot see the colour of the balls until they are picked.",
+    "solution": "",
+    "options": {
+      "A": "4",
+      "B": "15",
+      "C": "5",
+      "D": "2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 Consider a circle with its centre at the origin (O), as shown. Two operations are\nallowed on the circle. Operation 1: Scale independently along the x and y axes. Operation 2: Rotation in any direction about the origin. Which figure among the options can be achieved through a combination of these\ntwo operations on the given circle?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2023_Set2/page12_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 Elvesland is a country that has peculiar beliefs and practices. They express almost\nall their emotions by gifting flowers. For instance, if anyone gifts a white flower to\nsomeone, then it is always taken to be a declaration of one's love for that person. In\na similar manner, the gifting of a yellow flower to someone often means that one is\nangry with that person. Based only on the information provided above, which one of the following sets of\nstatement(s) can be logically inferred with certainty? (i) In Elvesland, one always declares one's love by gifting a white flower. (ii) In Elvesland, all emotions are declared by gifting flowers. (iii) In Elvesland, sometimes one expresses one's anger by gifting a flower that is\nnot yellow. (iv) In Elvesland, sometimes one expresses one's love by gifting a white flower.",
+    "solution": "",
+    "options": {
+      "A": "only (ii)",
+      "B": "(i), (ii) and (iii)",
+      "C": "(i), (iii) and (iv)",
+      "D": "only (iv)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 Three husband-wife pairs are to be seated at a circular table that has six identical chairs. Seating arrangements are defined only by the relative position of the people. How many seating arrangements are possible such that every husband sits next to his wife?",
+    "solution": "Let us form the pairs of Husband-wife. Now these pairs can be arranged around circular table in [latex]\n\\begin{aligned}\n& =(3-1) ! \\text { ways } \\\\\n& =2 \\text { ways }\n\\end{aligned}\n[/latex] Their possible internal arrangement [latex]\\mathrm{s}[/latex] [latex]\n\\begin{aligned}\n& =2 ! \\times 2 ! \\times 2 ! \\\\\n& =8\n\\end{aligned}\n[/latex] Hence, total seating arrangement. [latex]\n=2 \\times 8=16\n[/latex]",
+    "options": {
+      "A": "16",
+      "B": "4",
+      "C": "120",
+      "D": "720"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 Based only on the following passage, which one of the options can be inferred with certainty? When the congregation sang together, Apenyo would also join, though her little screams were not quite audible because of the group singing. But whenever there was a special number, trouble would begin; Apenyo would try singing along, much to the embarrassment of her mother. After two or three such mortifying Sunday evenings, the mother stopped going to church altogether until Apenyo became older and learnt to behave. At home too, Apenyo never kept quiet; she hummed or made up silly songs to sing by herself, which annoyed her mother at times but most often made her become pensive. She was by now convinced that her daughter had inherited her love of singing from her father who had died unexpectedly away from home. [Excerpt from These Hills Called Home by Temsula Ao]",
+    "solution": "",
+    "options": {
+      "A": "The mother was embarrassed about her\ndaughter's singing at home.",
+      "B": "The mother's feelings about her daughter's\nsinging at home were only of annoyance",
+      "C": "The mother was not sure if Apenyo\nhad inherited her love of singing from her\nfather.",
+      "D": "When Apenyo hummed at home, her mother\ntended to become thoughtful."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 If [latex]x[/latex] satisfies the equation [latex]4^{8^{x}}=256[/latex], then [latex]x[/latex] is equal to",
+    "solution": "[latex]\n4^{8^{x}}=256\n[/latex] [latex]\\rightarrow[/latex] Taking log to the base 4 . on both side. [latex]\n8^{x}=\\log _{4} 256=4\n[/latex] Taking lot to the base 8 on both sides, we get [latex]\n\\begin{aligned}\nx & =\\log _{8} 4 \\\\\n& =\\log _{2^{3}} 2^{2} \\\\\nx & =\\frac{2}{3}\n\\end{aligned}\n[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{2}[/latex]",
+      "B": "[latex]\\log _{16} 8[/latex]",
+      "C": "[latex]\\frac{2}{3}[/latex]",
+      "D": "[latex]\\log _{4} 8[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 Consider a spherical globe rotating about an axis passing through its poles. There are three points [latex]P[/latex], [latex]\\mathrm{Q}[/latex], and [latex]\\mathrm{R}[/latex] situated respectively on the equator, the north pole, and midway between the equator and the north pole in the northern hemisphere. Let [latex]P[/latex], [latex]\\mathrm{Q}[/latex], and [latex]\\mathrm{R}[/latex] move with speeds [latex]v_{P}, v_{Q}[/latex], and [latex]v_{R}[/latex], respectively. Which one of the following options is CORRECT?",
+    "solution": "Velocity, [latex]V=\\omega r[/latex]. Here, [latex]\\omega=[/latex] constant. Hence, more is the distance from the axis of rotation more will be the velocity. [latex]\\therefore \\quad \\mathrm{V}_{\\mathrm{P}} \\gt \\mathrm{V}_{\\mathrm{R}} \\gt \\mathrm{V}_{\\mathrm{Q}}[/latex]",
+    "options": {
+      "A": "[latex]v_{P} \\lt v_{R} \\lt v_{Q}[/latex]",
+      "B": "[latex]v_{P} \\lt v_{Q} \\lt v_{R}[/latex]",
+      "C": "[latex]v_{P}\\gt v_{R} \\gt v_{Q}[/latex]",
+      "D": "[latex]v_{P}=v_{R} \\neq v_{Q}[/latex]"
+    },
+    "correct_answer": "C"
+  }
+]

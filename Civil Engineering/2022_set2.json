@@ -1,0 +1,691 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 The function [latex]f(x, y)[/latex] satisfies the Laplace equation [latex]\\triangledown ^2f(x,y)=0[/latex] on a circular domain of radius [latex]r = 1[/latex] with its center at point P with coordinates\n[latex]x = 0, y = 0[/latex]. The value of this function on the circular boundary of this domain\nis equal to 3. The numerical value of [latex]f(0, 0)[/latex] is:",
+    "solution": "According to given condition given function f(x,y) is nothing but constant function i.e. f(x,y)=3 because this is the only function whose value is 3 at any point on the boundary of unit circle and it is also satisfying Laplace equation, so f(0,0)=3",
+    "options": {
+      "A": "0",
+      "B": "2",
+      "C": "3",
+      "D": "1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 [latex]\\int \\left ( x-\\frac{x^2}{2}+\\frac{x^3}{3}-\\frac{x^4}{4}+... \\right )dx[/latex] is equil to",
+    "solution": "MTA- Marks to All [latex] I=\\int \\left ( x-\\frac{x^2}{2}+\\frac{x^3}{3}-\\frac{x^4}{4}+...\\infty  \\right )dx[/latex] [latex] I=\\frac{x^2}{2}-\\frac{x^3}{6}+\\frac{x^4}{12}-\\frac{x^5}{20}+...[/latex] Option (A) [latex]\\frac{1}{1+x}=(1+x)^{-1}=1-x+x^2-x^3...\\infty  [/latex] So, its incorrect. Option (B) [latex]\\frac{1}{1+x^2}=(1+x^2)^{-1}=1-x^2+x^4-x^6...\\infty  [/latex] So, its incorrect. Similarly option (C) and (D) both are incorrect. No-correct choice given.",
+    "options": {
+      "A": "[latex]\\frac{1}{1+x}+constant[/latex]",
+      "B": "[latex]\\frac{1}{1+x^2}+constant[/latex]",
+      "C": "[latex]-\\frac{1}{1-x}+constant[/latex]",
+      "D": "[latex]-\\frac{1}{1-x^2}+constant[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 For a linear elastic and isotropic material, the correct relationship among Young's modulus of elasticity ([latex]E[/latex]), Poisson's ratio ([latex]v[/latex]), and shear modulus ([latex]G[/latex]) is",
+    "solution": "[latex] E=2G(1+\\mu )[/latex] [latex]G= [/latex] Shear modulas [latex]\\mu =[/latex]Poission's ratio [latex]E= [/latex] Young's modulus",
+    "options": {
+      "A": "[latex]G=\\frac{E}{2(1+v)}[/latex]",
+      "B": "[latex]G=\\frac{E}{(1+2v)}[/latex]",
+      "C": "[latex]E=\\frac{G}{2(1+v)}[/latex]",
+      "D": "[latex]E=\\frac{G}{(1+2v)}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 Read the following statements relating to flexure of reinforced concrete beams: I. In over-reinforced sections, the failure strain in concrete reaches earlier than\nthe yield strain in steel. II. In under-reinforced sections, steel reaches yielding at a load lower than the\nload at which the concrete reaches failure strain. III. Over-reinforced beams are recommended in practice as compared to the\nunder-reinforced beams. IV. In balanced sections, the concrete reaches failure strain earlier than the yield\nstrain in tensile steel. Each of the above statements is either True or False. Which one of the following combinations is correct?",
+    "solution": "The question is based on LSM design principle\nas it is describing different conditions related to\nstrain Depending on amount of reinforcement in a cross-\nsection, here ca be three types of sections viz. balanced, under reinforced and over reinforced. Balanced section is a section that is expected to\nresult in a balanced failure. It means at the ultimate\nlimit state in flexure, the concrete will attain a\nlimiting compressive strain of 0.0035 and steel\nwill attain minimum specified tensile strain of [latex]0.002+\\frac{0.87f_y}{E_s}[/latex] Under reinforced section is a section in which\nsteel yield before collapse.\nOver reinforced section is a section in which\ncrushing of concrete in compression i.e. attainment\nof compressive strain of 0.0035 occurs prior to yielding of steel. In case of over reinforced section the deflection,\ncrack width remain relatively low and failure occurs\nwithout any sign of warning and hence over\nreinforced flexural members are not recommended by IS code. Based on the above information: Statement I is true. Statement II is true. Statement III is false. Statement IV is false.",
+    "options": {
+      "A": "I (True), II (True), III (False), IV (False)",
+      "B": "I (True), II (True), III (False), IV (True)",
+      "C": "I (False), II (False), III (True), IV (False)",
+      "D": "I (False), II (True), III (True), IV (False)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Match all the possible combinations between Column X (Cement compounds) and Column Y (Cement properties): [latex]\\begin{array}{|c|l|}\\hline\n \\text{Column X}&\\text{Column Y} \\\\ \\hline\n(i) C_3S & \\text{(P) Early age strength} \\\\ \\hline\n(ii) C_2S & \\text{(Q) Later age strength}\\\\ \\hline\n (iii) C_3A& \\text{(R) Flash setting}\\\\ \\hline\n & \\text{(S) Highest heat of hydration}\\\\ \\hline\n & \\text{(T) Lowest heat of hydration}\\\\ \\hline\n\\end{array}[/latex] Which one of the following combinations is correct?",
+    "solution": "[latex]C_3S-[/latex] Responsible for early age strength [latex]C_2S - [/latex] Responsible for later age strength and lowest heat of hydration [latex]C_3A- [/latex] Flash setting and highest heat of hydration",
+    "options": {
+      "A": "(i) - (P), (ii) - (Q) and (T), (iii) - (R) and (S)",
+      "B": "(i) - (Q) and (T), (ii) - (P) and (S), (iii) - (R)",
+      "C": "(i) - (P), (ii) - (Q) and (R), (iii) - (T)",
+      "D": "(i) - (T), (ii) - (S), (iii) - (P) and (Q)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Consider a beam PQ fixed at P, hinged at Q, and subjected to a load F as shown in figure (not drawn to scale). The static and kinematic degrees of\nindeterminacy, respectively, are",
+    "solution": "Static indeterminacy, SI=r-3=(3+2)-3=2 Kinematic indeterminacy=0+1=1",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2022_Set2/page2_q1.webp",
+    "options": {
+      "A": "2 and 1",
+      "B": "2 and 0",
+      "C": "1 and 2",
+      "D": "2 and 2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Read the following statements: (P) While designing a shallow footing in sandy soil, monsoon season is\nconsidered for critical design in terms of bearing capacity. (Q) For slope stability of an earthen dam, sudden drawdown is never a critical\ncondition. (R) In a sandy sea beach, quicksand condition can arise only if the critical\nhydraulic gradient exceeds the existing hydraulic gradient. (S) The active earth thrust on a rigid retaining wall supporting homogeneous\ncohesionless backfill will reduce with the lowering of water table in the\nbackfill. Which one of the following combinations is correct?",
+    "solution": "In monsoon season sand will be fully\nsaturated hence this will be critical condition\nin designing of shallow foundation. In case of sudden drawdown flow direction\nreverses hence for slope stability, it will be\ncritical condition. In sandy sea beach, quicksand condition can\narise only if existing hydraulic gradient\nexceeds the critical hydraulic gradient.",
+    "options": {
+      "A": "(P)-True, (Q)-False, (R)-False, (S)-False",
+      "B": "(P)-False, (Q)-True, (R)-True, (S)-True",
+      "C": "(P)-True, (Q)-False, (R)-True, (S)-True",
+      "D": "(P)-False, (Q)-True, (R)-False, (S)-False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 Stresses acting on an infinitesimal soil element are shown in the figure (with [latex]\\sigma _z \\gt \\sigma _x[/latex]). The major and minor principal stresses are [latex]\\sigma _1[/latex]\nand [latex]\\sigma _3[/latex], respectively. Considering the compressive stresses as positive, which one of the\nfollowing expressions correctly represents the angle between the major\nprincipal stress plane and the horizontal plane?",
+    "solution": "[latex] \\begin{aligned}\n\\Sigma F_x &=0 \\\\ \n\\sigma _x(BC)-\\tau _Z \\times (AB)\\sigma _1 \\sin \\theta  &= 0\\\\ \n\\sigma _x\\left ( \\frac{AC \\sin \\theta }{\\cos \\theta } \\right )+\\tau _{zx}\\left ( \\frac{AC \\cos \\alpha  }{\\cos \\theta } \\right ) &=\\sigma _1 \\frac{AC \\sin \\theta }{\\cos \\theta }\\\\ \n\\sigma _x \\tan \\theta +\\tau _{zx} &=\\sigma _1 \\tan \\theta  \\\\ \n\\tan \\theta(\\sigma _1-\\sigma _2) &= \\tau _{zx}\\\\ \n \\tan \\theta &= \\left ( \\frac{\\tau _{zx}}{\\sigma _1-\\sigma _x} \\right )\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2022_Set2/page2_q3.webp",
+    "options": {
+      "A": "[latex]\\tan ^{-1}\\left ( \\frac{\\tau _{zx}}{\\sigma _1-\\sigma _x} \\right )[/latex]",
+      "B": "[latex]\\tan ^{-1}\\left ( \\frac{\\tau _{zx}}{\\sigma _3-\\sigma _x} \\right )[/latex]",
+      "C": "[latex]\\tan ^{-1}\\left ( \\frac{\\tau _{zx}}{\\sigma _1+\\sigma _x} \\right )[/latex]",
+      "D": "[latex]\\tan ^{-1}\\left ( \\frac{\\tau _{zx}}{\\sigma _1+\\sigma _3} \\right )[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 Match Column X with Column Y: [latex]\\begin{array}{|l|l|}\\hline\n \\text{Column X}&\\text{Column Y} \\\\ \\hline\n\\text{(P) Horton equation} & \\text{((I) Design of alluvial channel} \\\\ \\hline\n\\text{(Q) Penman method} & \\text{(II) Maximum flood discharge}\\\\ \\hline\n \\text{(R) Chezys formula}& \\text{(III) Evapotranspiration}\\\\ \\hline\n \\text{(S) Lacey's theory}& \\text{(IV) Infiltration}\\\\ \\hline\n \\text{(T) Dicken's formula}& \\text{(V) Flow velocity}\\\\ \\hline\n\\end{array}[/latex] Which one of the following combinations is correct?",
+    "solution": "",
+    "options": {
+      "A": "(P)-(IV), (Q)-(III), (R)-(V), (S)-(I), (T)-(II)",
+      "B": "(P)-(III), (Q)-(IV), (R)-(V), (S)-(I), (T)-(II)",
+      "C": "(P)-(IV), (Q)-(III), (R)-(II), (S)-(I), (T)-(V)",
+      "D": "(P)-(III), (Q)-(IV), (R)-(I), (S)-(V), (T)-(II)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 In a certain month, the reference crop evapotranspiration at a location is\n6 mm/day. If the crop coefficient and soil coefficient are 1.2 and 0.8, respectively,\nthe actual evapotranspiration in mm/day is",
+    "solution": "Actual evapotranspiration [latex](ET_C) [/latex] [latex]=K_S \\times K_C \\times [/latex] Reference evapotranspiration [latex](ET_0) [/latex] [latex] =0.8 \\times 1.2 \\times 6=5.76mm[/latex]",
+    "options": {
+      "A": "5.76",
+      "B": "7.2",
+      "C": "6.8",
+      "D": "8"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 The dimension of dynamic viscosity is:",
+    "solution": "Unit of dynamic viscosity [latex]=\\frac{kg}{m.s} \\; or \\; \\frac{Ns}{m^2}=ML^{-1}T^{-1} [/latex]",
+    "options": {
+      "A": "[latex]ML^{-1}T^{-1}[/latex]",
+      "B": "[latex]ML^{-1}T^{-2}[/latex]",
+      "C": "[latex]ML^{-2}T^{-2}[/latex]",
+      "D": "[latex]ML^{0}T^{-1}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 A process equipment emits 5 kg/h of volatile organic compounds (VOCs). If a\nhood placed over the process equipment captures 95% of the VOCs, then the\nfugitive emission in kg/h is",
+    "solution": "VOC emission = 5 Kg/h Capturing Efficiency =95% Fugitive emission = (5/100)*5 Kg/h=0.25 Kg/h",
+    "options": {
+      "A": "0.25",
+      "B": "4.75",
+      "C": "2.5",
+      "D": "0.48"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Match the following attributes of a city with the appropriate scale of\n\nmeasurements. [latex]\\begin{array}{|l|l|}\\hline\n \\text{Attribute}&\\text{Scale of measurement} \\\\ \\hline\n\\text{(P) Average temperature } (^{\\circ}C)\\text{ of a city} & \\text{((I) Interval} \\\\ \\hline\n\\text{(Q) Name of a city} & \\text{(II) Ordinal}\\\\ \\hline\n \\text{(R) Population density of a city}& \\text{(III) Nominal}\\\\ \\hline\n \\text{(S) Ranking of a city based on ease of\nbusiness}& \\text{(IV) Ratio}\\\\ \\hline\n\\end{array}[/latex] Which one of the following combinations is correct?",
+    "solution": "Meaning of Nominal -> a name or term Ordinal -> in an ordered sequence Ratio -> quantitative relation between two things Interval -> indicates average of a range",
+    "options": {
+      "A": "(P)-(I), (Q)-(III), (R)-(IV), (S)-(II)",
+      "B": "(P)-(II), (Q)-(I), (R)-(IV), (S)-(III)",
+      "C": "(P)-(II), (Q)-(III), (R)-(IV), (S)-(I)",
+      "D": "(P)-(I), (Q)-(II), (R)-(III), (S)-(IV)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 If the magnetic bearing of the Sun at a place at noon is [latex]S2^{\\circ}E[/latex], the magnetic declination (in degrees) at that place is",
+    "solution": "[latex]MB=S2^{\\circ}E=180^{\\circ}-2^{\\circ}=178^{\\circ} [/latex] [latex]TB= 180^{\\circ}[/latex] Declination, \n[latex]\\delta =TB-MB=180-178=2^{\\circ} \\; or \\; 2^{\\circ}E [/latex]",
+    "options": {
+      "A": "[latex]2^{\\circ}E[/latex]",
+      "B": "[latex]2^{\\circ}W[/latex]",
+      "C": "[latex]4^{\\circ}E[/latex]",
+      "D": "[latex]4^{\\circ}W[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 [latex]P[/latex] and [latex]Q[/latex] are two square matrices of the same order. Which of the following statement(s) is/are correct?",
+    "solution": "If P and Q are invertible then [latex](PQ)^{-1} = Q^{-1}P^{-1}[/latex] is correct. Let, [latex] \\begin{aligned}\r\n PQ&=C \\\\ \r\n P^{-1}PQ&=P^{-1}C \\\\ \r\n Q&=P^{-1} C\\\\ \r\n Q^{-1}Q&=Q^{-1}P^{-1}C \\\\ \r\n I&=Q^{-1}P^{-1}C \\\\ \r\n IC^{-1}&=Q^{-1}P^{-1}CC^{-1} \\\\ \r\n C^{-1}&= Q^{-1}P^{-1}\\\\ \r\n (PQ)^{-1}&= Q^{-1}P^{-1}\r\n\\end{aligned}[/latex] Hence, proved.\r\nSimilarly, we can prove if P, Q are invertible then \r\n[latex](QP)^{-1}= P^{-1}Q^{-1} [/latex]",
+    "options": {
+      "A": "If P and Q are invertible, then [latex][PQ]^{-1}=Q^{-1}P^{-1}[/latex]",
+      "B": "If P and Q are invertible, then [latex][QP]^{-1}=P^{-1}Q^{-1}[/latex]",
+      "C": "If P and Q are invertible, then [latex][PQ]^{-1}=P^{-1}Q^{-1}[/latex]",
+      "D": "If P and Q are not invertible, then [latex][PQ]^{-1}=Q^{-1}P^{-1}[/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 In a solid waste handling facility, the moisture contents ([latex]MC[/latex]) of food waste,\npaper waste, and glass waste were found to be [latex]MC_f[/latex], [latex]MC_p[/latex], and [latex]MC_g[/latex], respectively.\nSimilarly, the energy contents ([latex]EC[/latex]) of plastic waste, food waste, and glass waste\nwere found to be [latex]EC_{pp}[/latex], [latex]EC_f[/latex], and [latex]EC_g[/latex], respectively. Which of the following\nstatement(s) is/are correct?",
+    "solution": "Typical speicifiv weight and moisture content data for residential, commercial, industraial, and agricultural wastes. Moisture content Mcf > Mcp > Mcg Typical values for short residue and energy conent\nof residentail MSW. Energy content ECpp > ECf > ECg",
+    "options": {
+      "A": "[latex]MC_f \\gt MC_p \\gt MC_g[/latex]",
+      "B": "[latex]EC_{pp} \\gt EC_f \\gt EC_g[/latex]",
+      "C": "[latex]MC_f \\lt MC_p \\lt MC_g[/latex]",
+      "D": "[latex]EC_{pp} \\lt EC_f \\lt EC_g[/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 To design an optimum municipal solid waste collection route, which of the\n\nfollowing is/are NOT desired:",
+    "solution": "Some heuristic guidelines that should be taken\ninto consideration when laying out routes are as\nfollows : 1. Existing policies and regulations related to\nsuch items as the point of collection and\nfrequency of collection must be identified. 2. Existing system characteristics such as crew\nsize and vehicle types must be coordinated. 3. Wherever possible, routes should be laid out\nso that they begin and end near arterial\nstreets, using topographical and physical\nbarriers as route boundaries. 4. In hilly area, routes should start at the top of\nthe grade and proceed downhill as the vehicle\nbecomes loaded. 5. Routes should be laid out so that the last\ncontainer to be collected on the route is\nlocated nearest to the disposal site. 6. Waste generated at traffic-congested locations\nshould be collected as early in the day as\npossible. 7. Sources at which extremely large quantities\nof waste are generated should be serviced\nduring the first part of the days. 8. Scattered pickup points (where small quantities\nof solid waste are generated) that receive the\nsame collection frequency should, if possible,\nbe serviced during one trip or on the same day.",
+    "options": {
+      "A": "Collection vehicle should not travel twice down the same street in a day.",
+      "B": "Waste collection on congested roads should not occur during rush hours in morning or evening.",
+      "C": "Collection should occur in the uphill direction.",
+      "D": "The last collection point on a route should be as close as possible to the waste disposal facility."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 For a traffic stream, [latex]v[/latex] is the space mean speed, [latex]k[/latex] is the density, [latex]q[/latex] is the flow,\n[latex]v_f[/latex] is the free flow speed, and [latex]k_j[/latex] is the jam density. Assume that the speed\ndecreases linearly with density. Which of the following relation(s) is/are correct?",
+    "solution": "As per Greenshield's [latex]\\begin{aligned}\n V&=V_f\\left ( 1-\\frac{K}{K_j} \\right )\\\\\nq&=K \\times V \\\\\n&= K \\left [ 1-\\frac{K}{K_j} \\right ]V_f\\\\\nq&=V_fK-\\left ( \\frac{V_f}{K_j} \\right )K^2\\\\\nV&=V_f\\left [ 1-\\frac{K}{K_j} \\right ]\n\\end{aligned} [/latex] From above equation we can say that [latex] \\begin{aligned}\n K&=K_j\\left ( 1-\\frac{V}{V_f} \\right )\\\\\nq&=K \\times V \\\\\nq&= K_j \\left [ 1-\\frac{V}{V_f} \\right ] \\times V\\\\\nq&=K_jV-\\left ( \\frac{K_j}{V_f} \\right )V^2\n\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]q=k_jk-\\left ( \\frac{k_j}{v_f} \\right )k^2[/latex]",
+      "B": "[latex]q=v_fk-\\left ( \\frac{v_f}{k_j} \\right )k^2[/latex]",
+      "C": "[latex]q=v_fv-\\left ( \\frac{v_f}{k_j} \\right )v^2[/latex]",
+      "D": "[latex]q=k_jv-\\left ( \\frac{k_j}{v_f} \\right )v^2[/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 The error in measuring the radius of a 5 cm circular rod was 0.2%. If the\ncross-sectional area of the rod was calculated using this measurement, then the\nresulting absolute percentage error in the computed area is______.\n(round off to two decimal places)",
+    "solution": "[latex]\\begin{aligned}\r\nr&=5 \\\\\r\ne_r&=\\frac{0.2}{100} \\times 5=0.01cm  \\\\\r\nA&=\\pi r^2  \\\\\r\ne_A&=2 \\pi r.e_r  \r\n\\end{aligned} [/latex] Absolute perecentage error in computed area [latex]\\begin{aligned}\r\n&=\\frac{e_A}{A} \\times 100  \\\\\r\n&=\\frac{2 \\pi r.e_r}{\\pi r^2} \\times 100\\\\\r\n&=2 \\times \\left ( \\frac{e_r}{r} \\times 100 \\right )\\\\\r\n&=2 \\times 0.2=0.4\r\n\\end{aligned} [/latex]",
+    "min": 0.39,
+    "max": 0.41
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 The components of pure shear strain in a sheared material are given in the matrix form: [latex]\\varepsilon =\\begin{bmatrix}\n1 &1 \\\\ \n 1& -1\n\\end{bmatrix}[/latex] Here, [latex]Trace(\\varepsilon)=0 [/latex]. Given, [latex]P=Trace(\\varepsilon ^8) [/latex] and [latex]Q=Trace(\\varepsilon ^{11}) [/latex]. The numerical value of [latex](P + Q)[/latex] is ________. (in integer)",
+    "solution": "[latex]\\begin{aligned}\n|A-\\lambda I|&=0  \\\\\n\\begin{vmatrix}\n1-\\lambda &1 \\\\ \n1 & 1-\\lambda\n\\end{vmatrix}&=0  \\\\\n(1-\\lambda)(-1-\\lambda)-1&=0  \\\\\n(\\lambda^2-1)-1&=0  \\\\\n\\lambda&=\\pm \\sqrt{2}  \n\\end{aligned} [/latex] Eigen values of [latex]\\varepsilon [/latex] are [latex] \\sqrt{2}[/latex] and [latex] -\\sqrt{2}[/latex] Eigen values of [latex]\\varepsilon ^8 [/latex] are [latex] (\\sqrt{2})^8[/latex] and [latex]( -\\sqrt{2})^8[/latex] Eigen values of [latex]\\varepsilon ^{11} [/latex] are [latex] (\\sqrt{2})^{11}[/latex] and [latex] (-\\sqrt{2})^{11}[/latex] [latex]P=Trace(\\varepsilon ^8) =[/latex] sum of Eigen values [latex]= ( \\sqrt{2})^8+( -\\sqrt{2})^8=32[/latex] [latex]Q=Trace(\\varepsilon ^{11}) =[/latex] sum of Eigen values [latex]= ( \\sqrt{2})^{11}+( -\\sqrt{2})^{11}=0[/latex] [latex]P+Q=32+0=32 [/latex]",
+    "min": 32.0,
+    "max": 32.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 The inside diameter of a sampler tube is 50 mm. The inside diameter of the\ncutting edge is kept such that the Inside Clearance Ratio (ICR) is 1.0% to\nminimize the friction on the sample as the sampler tube enters into the soil. The inside diameter (in mm) of the cutting edge is ________.\n(round off to two decimal places)",
+    "solution": "Moisture content [latex]\\begin{aligned}\nC_i&=\\frac{D_3-D-1}{D_1} \\times 100\\\\\n1&=\\frac{50-D_1}{D_1} \\times 100\\\\\nD_1&=49.50mm\n\\end{aligned} [/latex]",
+    "min": 49.49,
+    "max": 49.52
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 A concentrically loaded isolated square footing of size 2 m x 2 m carries a\nconcentrated vertical load of 1000 kN. Considering Boussinesq's theory of stress\ndistribution, the maximum depth (in m) of the pressure bulb corresponding to\n10% of the vertical load intensity will be ________. (round off to two\ndecimal places)",
+    "solution": "Considering Boussinesq's theory of stress\ndistribution [latex]\\sigma _x=\\frac{3Q}{2\\pi z^2}\\left [ \\frac{1}{1+\\left ( \\frac{r}{z} \\right )^2} \\right ]^{5/2} [/latex] For [latex]r=0,  \\sigma _z=\\frac{3Q}{2\\pi z^2}[/latex] [latex] \\sigma _z=0.1q=0.1 \\times \\frac{Q}{B^2}=\\frac{0.1}{2^2}Q[/latex] [latex]\\frac{1}{40}Q=\\frac{3Q}{2 \\pi z^2} [/latex] [latex] z^2=\\frac{3 \\times 40}{2 \\pi}\\Rightarrow z=4.37m[/latex]",
+    "min": 4.35,
+    "max": 4.39
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 In a triaxial unconsolidated undrained (UU) test on a saturated clay sample, the\ncell pressure was 100 kPa. If the deviatoric stress at failure was 150 kPa, then\nthe undrained shear strength of the soil is _________ kPa. (in integer)",
+    "solution": "[latex] \\sigma _3=\\sigma _c=100kPa , \\sigma _d=\\sigma _1-\\sigma _3=150kPa[/latex] For UU test Undrained shear strenth [latex] C_{uu}=\\tau _f=\\frac{\\sigma _1-\\sigma _3}{2}=\\frac{150}{2}=75KPa[/latex]",
+    "min": 75.0,
+    "max": 75.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 A flood control structure having an expected life of n years is designed by\nconsidering a flood of return period [latex]T  [/latex] years. When [latex]T=n  [/latex], and [latex]n\\rightarrow \\infty  [/latex], the\nstructure's hydrologic risk of failure in percentage is .\n(round off to one decimal place)",
+    "solution": "Risk of failure [latex]=1-q^n=1-(1-p)^n=1-\\left ( 1-\\frac{1}{T} \\right )^n [/latex] For \n[latex] T=n\\rightarrow \\infty [/latex] Risk of failure [latex] =1-\\frac{1}{e}=0.632[/latex] % risk of failure = 0.632 x 100=63.2%",
+    "min": 63.0,
+    "max": 63.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 The base length of the runway at the mean sea level (MSL) is 1500 m. If the\nrunway is located at an altitude of 300 m above the MSL, the actual length\n(in m) of the runway to be provided is ____________. (round off to the nearest\ninteger)",
+    "solution": "Correction for elevation = It should increase at a\nrate of 7% per 300 m rise in elevation from MSL. Given that Basic runway length as MSL =1500m Elevation =300m Correction \n[latex] =\\frac{7}{100}\\times \\frac{300}{300}\\times 1500=105m[/latex] The actual length of runway= 1500+150=1605m",
+    "min": 1602.0,
+    "max": 1606.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 Consider the polynomial [latex]f(x)=x^3-6x^2+11x-6[/latex] on the domain S given by [latex]1 \\leq  x \\leq  3[/latex]. The first and second derivatives are [latex]f'(x)[/latex] and [latex]f''(x)[/latex]. Consider the following statements: I. The given polynomial is zero at the boundary points x = 1 and x = 3. II. There exists one local maxima of [latex]f(x)[/latex] within the domain S. III. The second derivative [latex]f''(x) \\gt 0[/latex] throughout the domain S. IV. There exists one local minima of [latex]f(x)[/latex] within the domain S. The correct option is:",
+    "solution": "[latex]\\begin{aligned}\n\nf(x)&=x^3-6x^2+11x-6  \\\\\nf(1)&=1-6+11-6=0  \\\\\nf(3)&=3^3-6 \\times 3^2+11 \\times 3-6=0  \\\\\n&\\text{Statement (I) is correct.} \\\\\nf'(x)&=3x^2-12x+11  \\\\\nf'(x)&=0\\Rightarrow x=2\\pm \\frac{1}{\\sqrt{3}} \n\\end{aligned}\n [/latex] [latex] f(x)[/latex] has local maxima at [latex] x=2-\\frac{1}{\\sqrt{3}}[/latex] Statement (II) is also true. Now, [latex]\\begin{aligned}\nf''(x)&=6x-12\\\\\nf''(x) &\\gt 0\\\\\n6x-12 &\\gt 0\\\\\nx & \\gt 0\n\\end{aligned} [/latex] Statement (III) is incorrect statement (IV) is also\ncorrect. [latex]\\because  x=2+\\frac{1}{\\sqrt{3}} [/latex]  is point of minima.",
+    "options": {
+      "A": "Only statements I, II and III are correct.",
+      "B": "Only statements I, II and IV are correct.",
+      "C": "Only statements I and IV are correct.",
+      "D": "Only statements II and IV are correct."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 An undamped spring-mass system with mass [latex]m[/latex] and spring stiffness [latex]k[/latex] is shown\nin the figure. The natural frequency and natural period of this system are [latex]\\omega [/latex] rad/s and [latex]T \\;s[/latex], respectively. If the stiffness of the spring is doubled and the mass is halved, then the natural frequency and the natural period of the modified system, respectively, are",
+    "solution": "This is question of undamped free vibration of\nsinle degree of freedom system.\nFor the above figure it is given that natural\nfrequency and natural period are w rad/s and T s,\nrespectively.\nThe equation for soof system is [latex] \\omega =\\sqrt{\\frac{k}{m}}, T=\\frac{2\\pi}{\\omega }[/latex] For the modified system, stiffness of the spring is\ndoubled and the mass is halved. Let us assume k'=2k and m'=m/2, here k' and\nm' represent the stiffness and mass of the\nmodified system respectively. [latex] \\omega '=\\sqrt{\\frac{k'}{m}}=\\sqrt{\\frac{2k}{\\left ( \\frac{m}{2} \\right )}}=\\sqrt{\\frac{4k}{m}}=2\\sqrt{\\frac{k}{m}}=2\\omega  \\;\\;\\; \\left ( \\because \\omega = \\sqrt{\\frac{k}{m}}\\right )[/latex] [latex] T'=\\frac{2\\pi}{\\omega '}=\\frac{2 \\pi}{2\\omega }=\\frac{1}{2}\\left ( \\frac{2 \\pi}{\\omega } \\right )=\\frac{T}{2}  \\;\\;\\left ( T=\\frac{2 \\pi}{\\omega } \\right )[/latex] [latex] \\omega '[/latex] and [latex]T' [/latex] are natural frequency and natural period of the modified system. hence, the natural frequency of the modified system is doubled and natural period is halved\ncompared to the original given system. Hence\noption (A) is correct.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2022_Set2/page6_q2.webp",
+    "options": {
+      "A": "[latex]2\\omega [/latex]  rad/s and T/2 s",
+      "B": "[latex]\\omega /2[/latex]  rad/s and 2T s",
+      "C": "[latex]4\\omega [/latex]  rad/s and T/4 s",
+      "D": "[latex]\\omega [/latex]  rad/s and T s"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 For the square steel beam cross-section shown in the figure, the shape factor about\n[latex]z- z[/latex] axis is [latex]S[/latex] and the plastic moment capacity is [latex]M_P[/latex]. Consider yield stress\n[latex]f_y = 250 MPa[/latex] and [latex]a = 100 mm.[/latex] The values of [latex]S[/latex] and [latex]M_P[/latex] (rounded-off to one decimal place) are",
+    "solution": "Shape factor for diamond shaped section = 2 [latex] \\begin{aligned}\nS&=\\frac{M_P}{M_y}=\\frac{f_yZ_P}{f_yZ_e}\\\\\nM_P&=S.M_y=S.f_y.Z_e\n\\end{aligned}\n[/latex] [latex] \\begin{aligned}\nI_{ZZ}&=\\frac{a^4}{12}\\\\\nZ_{ZZ}&=\\frac{a^4 \\times \\sqrt{2}}{12 \\times a }=\\frac{\\sqrt{2}a^3}{12}mm^3\\\\\nM_P&=\\left [ 2 \\times 250 \\times \\frac{\\sqrt{2} \\times (100)^3}{12} \\right ] \\times 10^{-6} kNm\\\\\n&=58.93kNm\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2022_Set2/page6_q3.webp",
+    "options": {
+      "A": "[latex]S = 2.0, M_P= 58.9 kN-m [/latex]",
+      "B": "[latex]S = 2.0, M_P=100.2 kN-m [/latex]",
+      "C": "[latex]S = 1.5, M_P= 58.9 kN-m [/latex]",
+      "D": "[latex]S = 1.5, M_P=100.2 kN-m [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 A post-tensioned concrete member of span 15 m and cross-section of\r\n450 mm x 450 mm is prestressed with three steel tendons, each of\r\ncross-sectional area 200 [latex]mm^2[/latex]. The tendons are tensioned one after another\r\nto a stress of 1500 MPa. All the tendons are straight and located at 125 mm\r\nfrom the bottom of the member. Assume the prestress to be the same in all\r\ntendons and the modular ratio to be 6. The average loss of prestress, due to\r\nelastic deformation of concrete, considering all three tendons is",
+    "solution": "This is a question of calculation of elastic\nshortening loss in post tensioned member. Given data, length = 15 m b x D = 450 mm x 450 mm Numberof tendons = 3 Cross-section area of each tendon [latex] (A_s)=200 mm^2[/latex]. Prestress = 1500 MPa Modular ratio (m) = 6 From the given data, eccentricity (e) =\n450/2-125 = 100 mm Force in each cable [latex](P) = 1500 \\times 200 \\times 10^{-3} =\n300 kN[/latex] The tendons are tensioned one after another, and\nhence when tendon (1) is pulled no loss in tenson\n(1) When tendon (2) is pulled, loss in tendon (1) but\nno loss in tendon (2). When tendon (3) is pulled, loss in tendon (1) and\n(2), but no loss in tendon (3). Hence, there will be 2 times losses in tendon (1),\ntime loss in tendon (1) and no loss in tendon (3). While calculating elastic shortening loss, self\nweight of the structure is neglected to be on the conservative side. Consider tensioning of tendon-1 No loss in tendon (1) Consider tensioning of tendon-2 Stress in concrete at the level of prestressing tendon [latex]\\begin{aligned}\n f_c&= \\frac{P}{A}+\\frac{Pe}{I}\\\\ \n e&=\\frac{300 \\times 10^3}{450 \\times 450}+\\frac{300 \\times 10^3 \\times 100 \\times 100}{\\frac{450 \\times 450^3}{12}} \\\\ \n &= 2.36MPa\n\\end{aligned} [/latex] I = moment of inertial of the section about the\ncentroidal axis. As the tendons are horizontal and at the same\nlevel [latex]f_{c,avg} = f_c[/latex]. Loss due to elastic deformation [latex]= mfc\n= 6 \\times 2.36 = 14.16 MPa.[/latex] Considering tensioning of tendon 3 Loss due to elastic deformation in (1) \n[latex]= mfc\n= 6 \\times 2.36 = 14.16 MPa.[/latex] Loss due to elastic deformation in (2)\n[latex]= mfc\n= 6 \\times 2.36 = 14.16 MPa.[/latex] Total loss in tendon (1) = 2 x 14.16 = 28.32 MPa Total loss in tendon (1) = 2 x 14.16 = 28.32 MPa In tendon (2) = 14.16 MPa In tendon (3) = 0 Average loss of pre-stress, considering all\nthree tendons is\n[latex] =\\frac{28.32+14.16+0}{3}=14.16MPa[/latex]",
+    "options": {
+      "A": "14.16 MPa",
+      "B": "7.08 MPa",
+      "C": "28.32 MPa",
+      "D": "42.48 MPa"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Match the following in Column X with Column Y: [latex]\\begin{array}{|l|l|}\\hline\n \\text{Column X}&\\text{Column Y} \\\\ \\hline\n\\text{(P) In a triaxial compression test, with increase of axial }\\\\ \\text{\nstrain in loose sand under drained shear condition,}\\\\ \\text{\nthe volumetric strain} & \\text{((I) decreases.} \\\\ \\hline\n\\text{(Q) In a triaxial compression test, with increase of axial}\\\\ \\text{\nstrain in loose sand under undrained shear condition,}\\\\ \\text{\nthe excess pore water pressure} & \\text{(II) increases.}\\\\ \\hline\n \\text{(R) In a triaxial compression test, the pore pressure}\\\\ \\text{\nparameter \"B\" for a saturated soil}& \\text{(III) remains same.}\\\\ \\hline\n \\text{(S) For shallow strip footing in pure saturated clay,}\\\\ \\text{\nTerzaghi's bearing capacity factor }\\\\ (N_q) \\text{ due to\nsurcharge}& \\text{(IV) is always 0.0.}\\\\ \\hline\n & \\text{(V) is always 1.0.}\\\\ \\hline\n&\\text{is always 0.5.}\n\\end{array}[/latex] Which one of the following combinations is correct?",
+    "solution": "In a triaxial compression test, with increase\nof axial strain in loose sand under drained\nshear condition, the volumetric strain\ndecreases. As the sample is compressing. Hence, volume is decreasing. In a triaxial compression test, with increase\nof axial strain in loose sand under undrained\nshear condition, the excess pore water\npressure increases. (R) In a triaxial compression test, the pore pressure\nparameter ?B? for a saturated soil is 1. (S) For shallow strip footing in pure saturated\nclay, Terzaghi's bearing capacity factor (Nq) due to surcharge is 1.",
+    "options": {
+      "A": "(P)-(I), (Q)-(II), (R)-(V), (S)-(V)",
+      "B": "(P)-(II), (Q)-(I), (R)-(IV), (S)-(V)",
+      "C": "(P)-(I), (Q)-(III), (R)-(VI), (S)-(IV)",
+      "D": "(P)-(I), (Q)-(II), (R)-(V), (S)-(VI)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 A soil sample is underlying a water column of height [latex]h_1[/latex], as shown in the figure.\nThe vertical effective stresses at points A, B, and C are [latex]\\sigma '_A[/latex], [latex]\\sigma '_B[/latex], and [latex]\\sigma '_C[/latex] respectively. Let [latex]\\gamma _{sat}[/latex] and [latex]\\gamma '[/latex] be the saturated and submerged unit weights of the\nsoil sample, respectively, and [latex]\\gamma _{w}[/latex] be the unit weight of water. Which one of the\nfollowing expressions correctly represents the sum ([latex]\\sigma '_A+ \\sigma '_B+\\sigma '_C[/latex] )?",
+    "solution": "[latex]\\begin{aligned}\n\\sigma _A'&=0\\\\\n\\sigma _B'&=h_2\\gamma '\\\\\n\\sigma _C'&=(h_2+h_3)\\gamma '\\\\\n\\sigma _A'+\\sigma _B'+\\sigma _C'&=(2h_2+h_3)\\gamma '\\\\\n\\end{aligned} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2022_Set2/page7_q1.webp",
+    "options": {
+      "A": "[latex](2h_2+h_3 )\\gamma \\;' [/latex]",
+      "B": "[latex](h_1+h_2+h_3 )\\gamma \\;' [/latex]",
+      "C": "[latex](h_2+h_3 )(\\gamma _{sat}-\\gamma _w )[/latex]",
+      "D": "[latex](h_1+h_2+h_3 )\\gamma _{sat}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 A 100 mg of [latex]HNO_3[/latex] (strong acid) is added to water, bringing the final volume to\n1.0 liter. Consider the atomic weights of H, N, and O, as 1 g/mol, 14 g/mol, and\n16 g/mol, respectively. The final pH of this water is\n(Ignore the dissociation of water.)",
+    "solution": "[latex]HNO_3\\rightarrow H^++NO_3^{-} [/latex] [latex] \\begin{aligned}\n\\text{1 mole of }HNO_3&=\\text{1 mole of }H^+\\\\\n\\text{No. of mole of }HNO_3&=\\frac{100}{(1+14+16 \\times 3)}\\\\\n&=1.587 m\\; mol\\\\\n[H^+] \\text{ in 1 lit. of water }&=1.587 m\\;mol/Lit\\\\\n&=1.587 \\times 10^{-3}\\;mol/Lit\\\\\npH&=-\\log[H^+]\\\\\n&=\\log[1.587 \\times 10^{-3}]\\\\\n&=2.8\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "2.8",
+      "B": "6.5",
+      "C": "3.8",
+      "D": "8.5"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 In a city, the chemical formula of biodegradable fraction of municipal solid waste\n(MSW) is [latex]C_{100}H_{250}O_{80}N[/latex]. The waste has to be treated by forced-aeration\ncomposting process for which air requirement has to be estimated. Assume oxygen in air (by weight) = 23 %, and density of air = 1.3 [latex]kg/m^3[/latex].\n\nAtomic mass: C = 12, H = 1, O = 16, N = 14. C and H are oxidized completely whereas N is converted only into [latex]NH_3[/latex] during\noxidation. For oxidative degradation of 1 tonne of the waste, the required theoretical volume\nof air (in [latex]m^3/tonne[/latex]) will be (round off to the nearest integer)",
+    "solution": "[latex] C_{100}H_{250}O_{80}N+xO_2\\rightarrow 100CO_2+\\frac{247}{2}H_2O+NH_3[/latex] [latex] \\begin{aligned}\n80+x \\times 2&=200+\\frac{247}{2}\\\\\nx&=121.75\n\\end{aligned}[/latex] 1 mole of MSW required 121.75 mole of oxygen\nNo. of moles of MSW [latex] =\\frac{1 \\; ton}{(100 \\times 12+250+80 \\times 16+14)g}[/latex] No. of moles of O2 required\n[latex] =121.75 \\times \\frac{1 \\; tonne}{2744g}[/latex] [latex] \\begin{aligned}\n\\text{wt. of }O_2&=  \\frac{121.75}{2744}\\times 32 \\; tonne\\\\\n\\text{Mass of air }&=  \\frac{1.42}{0.23}\\times 10^3 Kg\\\\\n&=6.174 \\times 10^3kg\\\\\n\\text{Density of air }&=  1.3 Kg/m^3\\\\\n\\text{Volume of air }&=  \\frac{6.174}{1.3}\\times 10^3 m^3\\\\\n=4749.2 m^3 &\\text{per tonne of MSW}\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "4749",
+      "B": "8025",
+      "C": "1418",
+      "D": "1092"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 A single-lane highway has a traffic density of 40 vehicles/km. If the time-mean\nspeed and space-mean speed are 40 kmph and 30 kmph, respectively, the\naverage headway (in seconds) between the vehicles is",
+    "solution": "Given that, Traffic density = 40 Veh/Km. Time mean speed = 40 Kmph Space mean speed = 30 kmph Time Headway (sec) = ? We know that traffic volume = Density x Space mean speed = 40x30 =1200 Veh hr. and we also know that [latex]q=\\frac{3600}{H_t} [/latex] where [latex]H_t[/latex]- average headway (sc) [latex]1200=\\frac{3600}{H_t} [/latex] [latex]H_t=\\frac{3600}{1200}=3 [/latex] secs.",
+    "options": {
+      "A": "3",
+      "B": "2.25",
+      "C": "[latex]8.33 \\times 10^{-4}[/latex]",
+      "D": "[latex]6.25 \\times 10^{-4}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Let [latex]y[/latex] be a non-zero vector of size 2022 x 1. Which of the following statement(s) is/are TRUE?",
+    "solution": "Let vector [latex]\\begin{aligned}\ny&=\\begin{bmatrix}\n4\\\\ \n4\\\\ \n4\n\\end{bmatrix}_{3 \\times 1}\\\\\ny^T&=\\begin{bmatrix}\n4& \n4& \n4\n\\end{bmatrix}_{1 \\times 3}\\\\\nyy^T&=\\begin{bmatrix}\n4\\\\ \n4\\\\ \n4\n\\end{bmatrix}\\begin{bmatrix}\n4& \n4& \n4\n\\end{bmatrix}\\\\\n&=\\begin{bmatrix}\n16 & 16 & 16\\\\ \n16 & 16 & 16\\\\ \n16 & 16 & 16 \n\\end{bmatrix}\\\\\ny^Ty&=[4^2+4^2+4^2]_{1 \\times 1}\\\\\n&=[48]_{1 \\times 1}\\\\\n\\rho (y)&=\\rho (y^T)=\\rho (yy^T)=\\rho (y^Ty)=1\n\\end{aligned} [/latex] From above information [latex]yy^T [/latex] is asymmetric. [latex]y^Ty [/latex] is an eigen value of [latex]yy^T [/latex]. [latex]yy^T [/latex] has rank 1 [latex]det(yy^T) =0[/latex] so, [latex]yy^T [/latex]\nis not invertible.",
+    "options": {
+      "A": "[latex]yy^T[/latex] is a symmetric matrix.",
+      "B": "[latex]y^Ty[/latex] is an eigenvalue of [latex]yy^T[/latex]",
+      "C": "[latex]yy^T[/latex] has a rank of 2022.",
+      "D": "[latex]yy^T[/latex] is invertible."
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Which of the following statement(s) is/are correct?",
+    "solution": "",
+    "options": {
+      "A": "If a linearly elastic structure is subjected to a set of loads, the partial derivative\nof the total strain energy with respect to the deflection at any point is equal to\nthe load applied at that point.",
+      "B": "If a linearly elastic structure is subjected to a set of loads, the partial derivative\nof the total strain energy with respect to the load at any point is equal to the\ndeflection at that point.",
+      "C": "If a structure is acted upon by two force system Pa and Pb , in equilibrium\nseparately, the external virtual work done by a system of forces Pb during the\ndeformations caused by another system of forces Pa is equal to the external\nvirtual work done by the Pa system during the deformation caused by the Pb\nsystem.",
+      "D": "The shear force in a conjugate beam loaded by the M/EI diagram of the real\n\nbeam is equal to the corresponding deflection of the real beam."
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 Water is flowing in a horizontal, frictionless, rectangular channel. A smooth\nhump is built on the channel floor at a section and its height is gradually increased\nto reach choked condition in the channel. The depth of water at this section is [latex]y_2[/latex] and that at its upstream section is [latex]y_1[/latex]. The correct statement(s) for the choked and\nunchoked conditions in the channel is/are",
+    "solution": "",
+    "options": {
+      "A": "In choked condition, [latex]y_1[/latex] decreases if the flow is supercritical and increases if the flow is subcritical.",
+      "B": "In choked condition, [latex]y_2[/latex] is equal to the critical depth if the flow is supercritical or subcritical.",
+      "C": "In unchoked condition, [latex]y_1[/latex] remains unaffected when the flow is supercritical or subcritical.",
+      "D": "In choked condition, [latex]y_1[/latex] increases if the flow is supercritical and decreases if the flow is subcritical."
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 The concentration [latex]s(x,t)[/latex] of pollutants in a one-dimensional reservoir at position [latex]x[/latex] and time [latex]t[/latex] satisfies the diffusion equation [latex]\\frac{\\partial s(x,t)}{\\partial t}=D\\frac{\\partial^2 s(x,t)}{\\partial x^2}[/latex] on the domain [latex]0 \\leq x \\leq L[/latex], where [latex]D[/latex] is the diffusion coefficient of the pollutants.\nThe initial condition [latex]s(x, 0)[/latex] is defined by the step-function shown in the figure. The boundary conditions of the problem are given by [latex]\\frac{\\partial s(x,t)}{\\partial x}=0[/latex] at the boundary points [latex]x = 0[/latex] and [latex]x = L[/latex] at all times. Consider [latex]D = 0. 1 m^2/s,\ns_0 = 5 \\mu mol/m[/latex], and [latex]L = 10 m[/latex]. The steady-state concentration [latex]\\tilde{S}\\left ( \\frac{L}{2} \\right )=S\\left ( \\frac{L}{2},\\infty  \\right )[/latex], at the center [latex]x=\\frac{L}{2}[/latex] of the reservoir (in [latex]\\mu[/latex]mol/m) is ___________. (in integer)",
+    "solution": "From figure s(x,t) at [latex] x=0\\Rightarrow s(0,t)=s_0=5[/latex] at [latex] x=0.4L\\Rightarrow s(0.4L,t)=s_0=5[/latex] at [latex] x=L\\Rightarrow s(L,t)=0[/latex] From [latex]x = 0\\;  to \\;x = 0.4 L[/latex] Concentration of pollutant [latex]5\\mu \\; mol/m \\times (0.4 \\times 10m) =20 \\mu \\; mol[/latex] [latex]x = 0.4L\\;  to \\;x =  L[/latex] Concentration of pollutant = 0 Total concentration of pollutant in 10 m [latex]=20 \\mu \\; mol[/latex] In infinite time this concentration will be diluted\nso concentration of pollutant per m [latex]=\\frac{20}{10} \\mu \\; mol/m=2 \\mu \\; mol/m[/latex] Under steady state condition, concentration of\npollutant will be uniformly distributed. Steady state concentration at [latex]x=\\frac{L}{2} =2\\mu \\; mol/m[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2022_Set2/page8_q3.webp",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 A pair of six-faced dice is rolled thrice. The probability that the sum of the\noutcomes in each roll equals 4 in exactly two of the three attempts is ______.\n(round off to three decimal places)",
+    "solution": "Event, E = {(1, 3)(3, 1)(2, 2)} n(E) = 3 n(S) = 36 [latex]p=P(E)=\\frac{3}{36}=\\frac{1}{12} [/latex] [latex]q=P(\\bar{E})=1-\\frac{1}{12}=\\frac{11}{12} [/latex] [latex]P(x)=3C_2(p^2)(q^1)=3 \\times \\left (\\frac{1}{12}  \\right )^2\\left (\\frac{11}{12}  \\right )=0.02 [/latex]",
+    "min": 0.018,
+    "max": 0.02
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 Consider two linearly elastic rods HI and IJ, each of length b, as shown in the\r\nfigure. The rods are co-linear, and confined between two fixed supports at H and\r\nJ. Both the rods are initially stress free. The coefficient of linear thermal\r\nexpansion is [latex]\\alpha [/latex] for both the rods. The temperature of the rod IJ is raised by [latex]\\Delta T [/latex],\r\nwhereas the temperature of rod HI remains unchanged. An external horizontal\r\nforce P is now applied at node I. It is given that [latex]\\alpha ={10^{-6} } {\\circ} C^{-1},\\Delta T=50^{\\circ}C,b = 2 m, AE = 10^6N.[/latex]. The axial rigidities of the rods HI and IJ are 2AE and AE, respectively. To make the axial force in rod HI equal to zero, the value of the external\r\nforce P (in N) is _________. (round off to the nearest integer)",
+    "solution": "[latex] R_A+R_B=P[/latex] [latex]\\because  [/latex] There is no axial force in rod HI \n[latex]\\therefore R_A=0 [/latex] Now check for rod IJ [latex] \\therefore R_B=P[/latex] Now as rod IJ is fixed from both end, so net deflection due to increase in temperature will be zero. [latex] \\begin{aligned}\nb\\alpha T +\\left [ -\\frac{Pb}{AE} \\right ]&= 0\\\\ \n b\\alpha T &=\\frac{Pb}{AE} \\\\ \nP &= AE\\alpha T\\\\ \n P&= 10^6 \\times 10^{-6} \\times 50\\\\ \n P&=50N \n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2022_Set2/page8_q5.webp",
+    "min": 47.0,
+    "max": 53.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 The linearly elastic planar structure shown in the figure is acted upon by two\nvertical concentrated forces. The horizontal beams UV and WX are connected\nwith the help of the vertical linear spring with spring constant k = 20 kN/m. The\nfixed supports are provided at U and X. It is given that flexural rigidity\n [latex]EI = 10^5 kN-m^2, P = 100 kN,[/latex] and [latex]a = 5 m[/latex]. Force Q is applied at the center of beam WX such that the force in the spring VW becomes zero. The magnitude of force Q (in kN) is ________. (round off to the nearest integer)",
+    "solution": "If force in spring is zero, there will be no\ndeformation in spring i.e., deflection of point V\nwill be equal to deflection of point W [latex] \\begin{aligned}\n\\delta _v&=\\delta _w\\\\\n\\frac{P(2a)^3}{3EI}&=\\frac{Q(a)^3}{3(2EI)}+\\frac{Q(a)^2}{2(2EI)}\n+a\\\\\n\\frac{8}{3}P&=\\left ( \\frac{1}{6}+\\frac{1}{4} \\right )Q\\\\\nQ&=\\frac{32}{5}P=640kN\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2022_Set2/page9_q1.webp",
+    "min": 620.0,
+    "max": 660.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 A uniform rod KJ of weight w shown in the figure rests against a frictionless\nvertical wall at the point K and a rough horizontal surface at point J. It is given\nthat w = 10 kN, a = 4 m and b = 3 m. The minimum coefficient of static friction that is required at the point J to hold\nthe rod in equilibrium is ___________. (round off to three decimal places)",
+    "solution": "[latex] \\begin{aligned}\n\\Sigma F_v&=0\\\\\nR_J&=0\\\\\n\\Sigma M_K&=0\\\\\n10 \\times 1.5+\\mu _sR_J \\times 4-R_J \\times 3&=0\\\\\n\\mu _s=\\frac{10 \\times 3-10 \\times 1.5}{10 \\times 4}&=0.375\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2022_Set2/page9_q2.webp",
+    "min": 0.35,
+    "max": 0.4
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 The activities of a project are given in the following table along with their durations and dependency. [latex]\\begin{array} {|c|c|c|}\\hline\n\\text{Activities} &\\text{Duration (days)}&\\text{Depends on}\\\\\nA&10&-\\\\ \\hline\nB&12&-\\\\ \\hline\nC&5&A\\\\ \\hline\nD&14&B\\\\ \\hline\nE&10&B,C\\\\ \\hline\n\\end{array}[/latex] The total float of the activity E (in days) is ________. (in integer)",
+    "solution": "For activity E, Total float [latex] (F_T)=T_L^5-T_L^4-t^E=26-15-10=1[/latex] day",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 A group of total 16 piles are arranged in a square grid format. The center-to-\r\ncenter spacing (s) between adjacent piles is 3 m. The diameter (d) and length of embedment of each pile are 1 m and 20 m, respectively. The design capacity of\r\neach pile is 1000 kN in the vertical downward direction. The pile group efficiency\r\n( [latex]\\eta _g[/latex]) is given by [latex]\\eta _g=1-\\frac{\\theta }{90}\\left [ \\frac{(n-1)m+(m-1)n}{mn}  \\right ][/latex] where m and n are number of rows and columns in the plan grid of pile\r\narrangement, and  [latex]\\theta =\\tan ^{-1}\\left ( \\frac{d}{s} \\right )[/latex]. The design value of the pile group capacity (in kN) in the vertical downward\r\ndirection is __________________. (round off to the nearest integer)",
+    "solution": "[latex]\\begin{aligned}\n\\eta _g&=1-\\frac{\\theta }{90}\\left \\{ \\frac{m(n-1)+n(m-1)}{mn} \\right \\} \\\\\n\\theta &=\\tan ^{-1}\\left ( \\frac{d}{s} \\right )=\\tan ^{-1}\\left ( \\frac{1}{3} \\right )=18.43^{\\circ}\\\\\n\\eta _g&=\\frac{Q_{ug}}{nQ_{up}}\\\\\nQ_{ug}&=\\left [ 1-\\frac{18.43}{90}\\left \\{ \\frac{4(4-1)+4(4-1)}{4 \\times 4} \\right \\} \\right ](16 \\times 1000)\\\\\n&=11085kN\n\\end{aligned} [/latex]",
+    "min": 11000.0,
+    "max": 11200.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 A saturated compressible clay layer of thickness h is sandwiched between two\nsand layers, as shown in the figure. Initially, the total vertical stress and pore\nwater pressure at point P, which is located at the mid-depth of the clay layer,\nwere 150 kPa and 25 kPa, respectively. Construction of a building caused an\nadditional total vertical stress of 100 kPa at P. When the vertical effective stress\nat P is 175 kPa, the percentage of consolidation in the clay layer at P is\n_____________. (in integer)",
+    "solution": "Initial effective stress at P [latex]\\sigma _{P_1}'=150-25=125kPa [/latex] After construction, [latex]\\sigma _{P_2}'=125+100=225kPa [/latex] 100% consolidation will occur when effective stress\nat P reaches 225 kPa. Percentage of consolidation when vertical effective\nstress is at P is 175 kPa. [latex]=\\frac{175-125}{225-125} \\times 100=\\frac{50}{100} \\times 100=50 [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2022_Set2/page9_q5.webp",
+    "min": 50.0,
+    "max": 50.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 A hydraulic jump takes place in a 6 m wide rectangular channel at a point where\nthe upstream depth is 0.5 m (just before the jump). If the discharge in the\nchannel is 30 [latex]m^3/s[/latex] and the energy loss in the jump is 1.6 m, then the Froude\nnumber computed at the end of the jump is ___________. (round off to two\ndecimal places)\n(Consider the acceleration due to gravity as 10 [latex]m/s^2[/latex].)",
+    "solution": "[latex]Q=30m^3/sec [/latex] [latex]B=6m [/latex] [latex]y_1=0.5m [/latex] [latex]E_L=1.6m [/latex] [latex]q= \\frac{Q}{B} =\\frac{30}{6}=5m^3/sec/m [/latex] We know that, [latex]\\begin{aligned}\r\nE_L=\\frac{(y_2-y_1)^3}{4y_1y_2}&=1.6m\\\\\r\n\\frac{(y_2-0.5)^3}{4 \\times 0.5 \\times y_2}&=1.6\\\\\r\ny_2^3-1.5y_2^2+0.75y_2-0.125&=3.2y_2\\\\\r\ny_2=2.5m,-0.0527m,&-0.0947m\r\n\\end{aligned}\r\n [/latex] Hence,\r\n[latex] y_2=2.5m[/latex] Post jump Froude's No. [latex](F_2)=\\frac{V_2}{\\sqrt{\\sqrt{gy_2}}}=\\frac{\\left ( \\frac{30}{6 \\times 2.5} \\right )}{\\sqrt{10 \\times 2.5}}=0.4 [/latex] [latex] [/latex]",
+    "min": 0.2,
+    "max": 0.41
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 A pump with an efficiency of 80% is used to draw groundwater from a well for\nirrigating a flat field of area 108 hectares. The base period and delta for paddy\ncrop on this field are 120 days and 144 cm, respectively. Water application\nefficiency in the field is 80%. The lowest level of water in the well is 10 m\nbelow the ground. The minimum required horse power (h.p.) of the pump is\n________. (round off to two decimal places) (Consider 1 h.p. = 746 W; unit weight of water = 9810 [latex]N/m^3[/latex])",
+    "solution": "Base period (B) = 120 days [latex]\\begin{aligned}\nDelta (\\Delta )&=144 cm=1.44m\\\\\nDuty(D)&=\\frac{8.64B}{\\Delta }=\\frac{8.64 \\times 120}{1.44}\\\\\nD&=720\\frac{hec}{cumec}\\\\\nQ&=\\frac{Area}{D}=\\frac{108}{720}=\\frac{3}{20}m^3/s\\\\\nQ_{applied}&=\\frac{Q}{\\eta _a}=\\frac{3}{20 \\times 0.8}=\\frac{3}{16}\\\\\n\\text{Power required}&=\\frac{mgh}{t}\\\\\n&=\\rho _w \\times \\left ( \\frac{volume}{t} \\right )g \\times h\\\\\n&=\\rho _w Qgh=\\gamma Qh\\\\\n&=9810 \\times \\frac{3}{16} \\times 10\\\\\n&=\\frac{73575}{4}watt\n\\end{aligned} [/latex] Horse power of pump  [latex]= \\frac{\\text{Power required}}{746 \\times \\text{efficiency}}=\\frac{73575}{4 \\times 746 \\times 0.8}=30.82hp [/latex]",
+    "min": 30.0,
+    "max": 32.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 Two discrete spherical particles (P and Q) of equal mass density are\nindependently released in water. Particle P and particle Q have diameters of\n0.5 mm and 1.0 mm, respectively. Assume Stokes' law is valid. The drag force on particle Q will be________ times the drag force on particle P.\n(round off to the nearest integer)",
+    "solution": "In case of discrete particle settling and Stoke's\nlaw valid, at terminal velocity, since there is no\nchange in velocity, the net force on the body\nis zero. Hence, [latex]F_D=\\left ( \\frac{\\pi}{6}D^3\\rho _sg-\\frac{\\pi}{6}D^3\\rho _sg \\right )=\\frac{\\pi}{6}gD^3(\\rho _s-\\rho _f) [/latex] For density of medium \n[latex](\\rho _f) [/latex] and mass density of sphere [latex](\\rho _s) [/latex] constant, Drag force [latex](F_D)\\propto D^3 [/latex] For particle P, diameter [latex](D_P)=0.5 mm [/latex] For particle Q, diameter [latex](D_Q)=1 mm [/latex] [latex]\\Rightarrow \\frac{(F_D)_Q}{(F_D)_P}=\\frac{(D_Q)^3}{(D_P)^3}=\\left ( \\frac{1}{0.5} \\right )^3=8 [/latex] [latex] \\Rightarrow (F_D)_Q=8 \\times (F_D)P[/latex]",
+    "min": 8.0,
+    "max": 8.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 At a municipal waste handling facility, 30 metric ton mixture of food waste,\nyard waste, and paper waste was available. The moisture content of this mixture\nwas found to be 10%. The ideal moisture content for composting this mixture is\n50%. The amount of water to be added to this mixture to bring its moisture\ncontent to the ideal condition is _______metric ton. (in integer)",
+    "solution": "Wt. of water initially present [latex]=frac{10}{100} \\times 30=3mT [/latex] Wt. of solid [latex]=30-3=27mT [/latex] In ideal condition, Wt. of solid [latex]=27mT [/latex] [latex] M/C=50%[/latex] Wt. of water [latex]=27mT [/latex] Amount of water needed to get ideal condition\n[latex] = 27 - 3 = 24 mT[/latex]",
+    "min": 24.0,
+    "max": 24.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 A sewage treatment plant receives sewage at a flow rate of 5000 [latex]m^3/day[/latex]. The\ntotal suspended solids (TSS) concentration in the sewage at the inlet of primary\nclarifier is 200 mg/L. After the primary treatment, the TSS concentration in\nsewage is reduced by 60%. The sludge from the primary clarifier contains 2%\nsolids concentration. Subsequently, the sludge is subjected to gravity thickening\nprocess to achieve a solids concentration of 6%. Assume that the density of\nsludge, before and after thickening, is 1000 [latex]kg/m^3[/latex]. The daily volume of the thickened sludge (in [latex]m^3/day[/latex]) will be_________.\n\n(round off to the nearest integer)",
+    "solution": "Wt. of TSS at inlet of PST [latex]=5000 \\times 10^3\\frac{L}{d} \\times 200 \\times 10^{-6}Kg/L=1000Kg/d [/latex] Wt. of solid in sludge from PST \n[latex]=0.6 \\times 1000=600 Kg/d [/latex] Wt. of sludge before thikeninig \n[latex] =\\frac{600}{\\frac{2}{100}}=30000 Kg/d[/latex] Wt. of sludge before thikeninig \n[latex] =\\frac{600}{\\frac{6}{100}}=10000 Kg/d[/latex] Daily volume of thickened sludge \n[latex] =frac{10000}{1000}=10m^3[/latex]",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 A sample of air analyzed at [latex] 25^{\\circ}C [/latex] and 1 atm pressure is reported to contain 0.04 ppm of [latex] SO_2 [/latex]. Atomic mass of S = 32, O = 16. The equivalent [latex] SO_2 [/latex] concentration (in [latex]\\mu g/m^3 [/latex]) will be__________. (round off to the nearest integer)",
+    "solution": "Concentration of [latex] SO_2[/latex] in ppm = 0.04 Let's equivalent concentration in [latex] =\\mu g/m^3[/latex] is [latex] x[/latex]. [latex] x\\mu g[/latex] of [latex] SO_2[/latex]\npresent in [latex] 1m^3[/latex]\nof air. We know, 1 mole of [latex] SO_2[/latex] \n (at [latex] 0^{\\circ}C[/latex], 1 atm) has volume of 22.4 L. at [latex] 25^{\\circ}C[/latex] and 1 atm, volume of [latex] SO_2[/latex] [latex]=\\frac{22.4}{273+0}\\times (273+25)=24.45 lit [/latex] [latex]\\frac{x \\times 10^{-6}}{64} [/latex] mole of [latex] SO_2[/latex] has volume [latex]\\frac{24.45 \\times x \\times 10^{-6}}{64} lit \\; in \\; 1m^3[/latex] of air. [latex]0.382x \\times 10^{-3}m^3 [/latex]  of [latex] SO_2[/latex] present in [latex] 10^{6}m^3 [/latex] of air. [latex]0.382x \\times 10^{-3}=0.04[/latex] [latex]x=104.7 \\approx105 [/latex] 0.04 ppm of [latex] SO_2=105\\mu g/m^3[/latex] of [latex] SO_2[/latex]",
+    "min": 102.0,
+    "max": 108.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 A parabolic vertical crest curve connects two road segments with grades +1.0% and -2.0%. If a 200 m stopping sight distance is needed for a driver at a height of 1.2 m to avoid an obstacle of height 0.15 m, then the minimum curve length\nshould be ______ m. (round off to the nearest integer)",
+    "solution": "Given that, [latex] n_1=+1%[/latex] and [latex] n_2=-2%[/latex] [latex] n=n_1-n_2=3%[/latex] SSD = 200 m and [latex] h_1= 1.2 m[/latex] and [latex] h_2= 0.15 m[/latex] as given [latex] n_1[/latex] up gradient, and [latex] n_2[/latex] - down gradient. So curve is summit curve. Assume L > SSD [latex] \\begin{aligned}\nL &=\\frac{NS^2}{2(\\sqrt{n_1}+\\sqrt{n_2})^2} \\\\ \n &= \\frac{3}{100} \\times \\frac{(200)^2}{2 \\times (\\sqrt{1.2}+\\sqrt{0.15})^2}\\\\ \n &=272.91>200 \\\\ \n L&=272.91m \n\\end{aligned}[/latex]",
+    "min": 270.0,
+    "max": 275.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 Assuming that traffic on a highway obeys the Greenshields model, the speed of\na shockwave between two traffic streams (P) and (Q) as shown in the schematic\nis _______ kmph. (in integer)",
+    "solution": "[latex] \\text{Speed of shock wave}=\\frac{\\text{Change in flow}}{\\text{Change in density}}[/latex] [latex]\\text{Flow}=\\text{Speed} \\times \\text{Density} [/latex] [latex] \\begin{aligned}\nDensity&=\\frac{Flow}{speed}\\\\\n&=\\frac{q_Q-q_P}{\\frac{q_Q}{V_Q}-\\frac{q_P}{V_P}}\\\\\n &=\\frac{1800-1200}{\\frac{1800}{30}-\\frac{1200}{60}}\\\\\n&=\\frac{600}{60-20}\\\\\n&=15Kmph\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2022_Set2/page11_q3.webp",
+    "min": 15.0,
+    "max": 15.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 It is given that an aggregate mix has 260 grams of coarse aggregates and\n240 grams of fine aggregates. The specific gravities of the coarse and fine\naggregates are 2.6 and 2.4, respectively. The bulk specific gravity of the mix is\n2.3. The percentage air voids in the mix is ____________. (round off to the nearest\ninteger)",
+    "solution": "Given that, Coarse aggregate = 260 gms Fine aggregate = 240 gms [latex]G_{CA}=2.6 [/latex] [latex]G_{FA}=2.4 [/latex] Bulk specific gravity [latex]G_m=2.3 [/latex] Percentage air voids in the mix = ? [latex]G_t [/latex] (Theoretical specific gravity) [latex] \\begin{aligned}\n&=\\frac{\\Sigma W}{\\Sigma \\frac{W}{G}}\\\\\n &=\\frac{260+240}{\\frac{260}{2.6}+\\frac{240}{2.4}}\\\\\n&=2.5\n\\end{aligned}[/latex] [latex]\\begin{aligned}\n% \\text{ air voids} (V_V)&=\\frac{G_t-G_m}{G_t} \\times 100\\\\\n &=\\frac{2.5-2.3}{2.3}\\times 100\\\\\nV_V&=8%\n\\end{aligned} [/latex]",
+    "min": 8.0,
+    "max": 8.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 The lane configuration with lane volumes in vehicles per hour of a four-arm\nsignalized intersection is shown in the figure. There are only two phases: the first\nphase is for the East-West and the West-East through movements, and the second\nphase is for the North-South and the South-North through movements. There are\nno turning movements. Assume that the saturation flow is 1800 vehicles per hour\nper lane for each lane and the total lost time for the first and the second phases\ntogether is 9 seconds. The optimum cycle length (in seconds), as per the Webster's method, is\n____________. (round off to the nearest integer)",
+    "solution": "From figure [latex]\\begin{aligned}\ny_{N-S}&=\\left [ \\frac{360}{1800},\\frac{396}{1800} \\right ]_{max}\\\\\n&=0.22\\\\\ny_{E-W}&=\\left [ \\frac{504+504}{2 \\times 18},\\frac{440}{1800} ,\\frac{460}{1800}\\right ]_{max}\\\\\n&=0.28\\\\\n&\\text{Optimum cycle length}\\\\\n&=\\frac{1.5L+5}{1-y}\\\\\n&=\\frac{1.5 \\times 9+5}{1-(y_{N-S}+y_{E-W})}\\\\\n&=\\frac{1.5 \\times 9+5}{1-(0.22+0.28)}\\\\\nC_o&=37secs.\n\\end{aligned} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2022_Set2/page11_q5.webp",
+    "min": 37.0,
+    "max": 37.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 The movie was funny and I _________.",
+    "solution": "",
+    "options": {
+      "A": "could help laughing",
+      "B": "couldn't help laughed",
+      "C": "couldn't help laughing",
+      "D": "could helped laughed"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 [latex]x:y:z=\\frac{1}{2}:\\frac{1}{3}:\\frac{1}{4}[/latex] What is the value of [latex]frac{x+z-y}{y}[/latex]",
+    "solution": "",
+    "options": {
+      "A": "0.75",
+      "B": "1.25",
+      "C": "2.25",
+      "D": "3.25"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Both the numerator and the denominator of [latex]frac{3}{4}[/latex] are increased by a positive integer, x, and those of [latex]frac{15}{17}[/latex] are decreased by the same integer. This operation results in the same value for both the fractions. What is the value of x?",
+    "solution": "",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 A survey of 450 students about their subjects of interest resulted in the following outcome. 150 students are interested in Mathematics. 200 students are interested in Physics. 175 students are interested in Chemistry. 50 students are interested in Mathematics and Physics. 60 students are interested in Physics and Chemistry. 40 students are interested in Mathematics and Chemistry. 30 students are interested in Mathematics, Physics and Chemistry. Remaining students are interested in Humanities. Based on the above information, the number of students interested in\nHumanities is",
+    "solution": "",
+    "options": {
+      "A": "10",
+      "B": "30",
+      "C": "40",
+      "D": "45"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 For the picture shown above, which one of the following is the correct picture\nrepresenting reflection with respect to the mirror shown as the dotted line?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2022_Set2/page12_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 In the last few years, several new shopping malls were opened in the city. The\ntotal number of visitors in the malls is impressive. However, the total revenue\ngenerated through sales in the shops in these malls is generally low. Which one of the following is the CORRECT logical inference based on the\ninformation in the above passage?",
+    "solution": "",
+    "options": {
+      "A": "Fewer people are visiting the malls but spending more",
+      "B": "More people are visiting the malls but not spending enough",
+      "C": "More people are visiting the malls and spending more",
+      "D": "Fewer people are visiting the malls and not spending enough"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 In a partnership business the monthly investment by three friends for the first\nsix months is in the ratio 3: 4: 5. After six months, they had to increase their\nmonthly investments by 10%, 15% and 20%, respectively, of their initial\nmonthly investment. The new investment ratio was kept constant for the next\nsix months. What is the ratio of their shares in the total profit (in the same order) at the end\nof the year such that the share is proportional to their individual total investment\nover the year?",
+    "solution": "",
+    "options": {
+      "A": "22:23:24",
+      "B": "22:33:50",
+      "C": "33 : 46 : 60",
+      "D": "63 : 86 : 110"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 Consider the following equations of straight lines: Line L1: 2x - 3y = 5 Line L2: 3x + 2y = 8 Line L3: 4x - 6y = 5 Line L4: 6x - 9y = 6 Which one among the following is the correct statement?",
+    "solution": "",
+    "options": {
+      "A": "L1 is parallel to L2 and L1 is perpendicular to L3",
+      "B": "L2 is parallel to L4 and L2 is perpendicular to L1",
+      "C": "L3 is perpendicular to L4 and L3 is parallel to L2",
+      "D": "L4 is perpendicular to L2 and L4 is parallel to L3"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 Given below are two statements and four conclusions drawn based on the statements. Statement 1: Some soaps are clean. Statement 2: All clean objects are wet. Conclusion I: Some clean objects are soaps. Conclusion II: No clean object is a soap. Conclusion III: Some wet objects are soaps. Conclusion IV: All wet objects are soaps. Which one of the following options can be logically inferred?",
+    "solution": "",
+    "options": {
+      "A": "Only conclusion I is correct",
+      "B": "Either conclusion I or conclusion II is correct",
+      "C": "Either conclusion III or conclusion IV is correct",
+      "D": "Only conclusion I and conclusion III are correct"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 An ant walks in a straight line on a plane leaving behind a trace of its\nmovement. The initial position of the ant is at point P facing east. The ant first turns [latex]72^{\\circ}[/latex]\n\nanticlockwise at P, and then does the following two\n\nsteps in sequence exactly FIVE times before halting. 1. moves forward for 10 cm. 2. turns [latex]144^{\\circ}[/latex] clockwise. The pattern made by the trace left behind by the ant is",
+    "solution": "MTA - Marks to All",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2022_Set2/page13_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  }
+]

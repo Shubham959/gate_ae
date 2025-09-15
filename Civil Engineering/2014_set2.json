@@ -1,0 +1,670 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 A fair (unbiased) coin was tossed four times in succession and resulted in the following outcomes: (i) Head, (ii) Head, (iii) Head, (iv) Head. The probability of obtaining a \"Tail\" when the coin is tossed again is",
+    "solution": "",
+    "options": {
+      "A": "0",
+      "B": "[latex]\\frac{1}{2}[/latex]",
+      "C": "[latex]\\frac{4}{5}[/latex]",
+      "D": "[latex]\\frac{1}{5}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 The determinant of matrix [latex]\\begin{bmatrix} 0 &1 &2 &3 \\\\ 1 &0 &3 &0 \\\\ 2 &3 &0 &1 \\\\ 3 &0 &1 &2 \\end{bmatrix}[/latex] is__________.",
+    "solution": "[latex]\\begin{aligned} \\Delta &=\\begin{vmatrix} 0 & 1 & 2 & 3\\\\ 1 & 0 & 3 & 0\\\\ 2 & 3 & 0 & 1\\\\ 3 & 0 & 1 & 2 \\end{vmatrix} \\\\ R_{4} & \\rightarrow R_{4}-R_{2}-R_{3} \\\\ \\Delta &=\\begin{vmatrix} 0 & 1 & 2 & 3\\\\ 1 & 0 & 3 & 0\\\\ 2 & 3 & 0 & 1\\\\ 0 & -3 & -2 &1 \\end{vmatrix} \\\\ R_{4} & \\rightarrow R_{4}+3R_{1} \\\\ \\Delta &=\\begin{vmatrix} 0 & 1 & 2 & 3\\\\ 1 & 0 & 3 & 0\\\\ 2 & 3 & 0 & 1\\\\ 0 & 0 & 4 & 10 \\end{vmatrix} \\\\ R_{3} & \\rightarrow R_{3}-3R_{1} \\\\ \\Delta &=\\begin{vmatrix} 0 & 1 & 2 & 3\\\\ 1 & 0 & 3 & 0\\\\ 2 & 0 & -6 & -8\\\\ 0 & 0 & 4 & 10 \\end{vmatrix} \\end{aligned}[/latex] interchanging column 1 and column 2 and taking transpose, [latex]\\begin{aligned} \\Delta &=-\\begin{vmatrix} 1 & 0 & 0 & 0\\\\ 0 & 1 & 2 & 0\\\\ 2 & 3 & -6 & 4\\\\ 3 & 0 & -8 & 10 \\end{vmatrix} \\\\  &=-1\\times \\begin{vmatrix} 1 & 2 & 0\\\\ 3 & -6 & 4\\\\ 0 & -8 & 10 \\end{vmatrix} \\\\  &=1\\times \\left \\{ 1\\left ( -60+32 \\right )+2\\left ( 0-30 \\right ) \\right \\} \\\\  &=-\\left ( -28-60 \\right )=88\\end{aligned}[/latex]",
+    "min": 88.0,
+    "max": 88.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 [latex]z=\\frac{2-3i}{-5+i}[/latex] can be expressed as",
+    "solution": "[latex]\\begin{aligned} \\frac{\\left ( 2-3i \\right )}{\\left ( -5+i \\right )}&=\\frac{\\left ( 2-3i \\right )}{\\left ( -5+i \\right )}\\times \\frac{\\left ( -5-i \\right )}{\\left ( -5-i \\right )} \\\\   &=\\frac{-10-2i+15i-3}{25+1} \\\\   &=\\frac{-13+13i}{26} \\\\   &=-0.5+0.5i \\end{aligned}[/latex]",
+    "options": {
+      "A": "-0.5-0.5i",
+      "B": "-0.5+0.5i",
+      "C": "0.5-0.5i",
+      "D": "0.5+0.5i"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 The integrating factor for the differential equation [latex]\\frac{\\mathrm{d} P}{\\mathrm{d} t}+k_{2}P=k_{1}L_{o}e^{-k_{1}t}[/latex] is",
+    "solution": "",
+    "options": {
+      "A": "[latex]e^{-k_{1}t}[/latex]",
+      "B": "[latex]e^{-k_{2}t}[/latex]",
+      "C": "[latex]e^{k_{1}t}[/latex]",
+      "D": "[latex]e^{k_{2}t}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 If {x} is a continuous, real valued random variable defined over the interval [latex](-\\infty ,+\\infty )[/latex] and its occurrence is defined by the density function given as: [latex]f(x)=\\frac{1}{\\sqrt{2\\pi*b}}e^{\\frac{-1}{2}(\\frac{x-a}{b})^{2}}[/latex] where 'a' and 'b' are the statistical attributes of the random variable {x}. The value of the integral [latex]\\int_{-\\infty }^{a}\\frac{1}{\\sqrt{2\\pi*b}}e^{\\frac{-1}{2}(\\frac{x-a}{b})^{2}} dx[/latex] is:",
+    "solution": "",
+    "options": {
+      "A": "1",
+      "B": "0.5",
+      "C": "[latex]\\pi[/latex]",
+      "D": "[latex]\\frac{\\pi}{2}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Group I contains representative stress-strain curves as shown in the figure, while Group II given the list of materials. Match the stress-strain curves with the corresponding materials.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2014_Set2/page2_q1.webp",
+    "options": {
+      "A": "P-1; Q-3; R-2",
+      "B": "P-2; Q-3; R-1",
+      "C": "P-3; Q-1; R-2",
+      "D": "P-3; Q-2; R-1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 The first moment of area about the axis of bending for a beam cross-section is",
+    "solution": "",
+    "options": {
+      "A": "moment of inertia",
+      "B": "section modulus",
+      "C": "shape factor",
+      "D": "polar moment of inertia"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 8 Polar moment of inertia ([latex]I_{p}[/latex]), in [latex]cm^{4}[/latex], of a rectangular section having width, b=2 and depth, d=6 cm is _____",
+    "solution": "Polar moment of inertia, [latex]\\begin{aligned} I_p&= I_x+I_y\\\\ &=\\frac{bd^3}{12}+\\frac{db^3}{12}\\\\ &=\\frac{bd}{12}(b^2+d^2) \\\\ &= \\frac{2 \\times 6}{12}(2^2+6^2)\\\\ &=40\\; cm^4 \\end{aligned}[/latex]",
+    "min": 40.0,
+    "max": 40.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 The target means strength [latex]f_{cm}[/latex] for concrete mix design obtained from the characteristic strength [latex]f_{ck}[/latex] and standard deviation [latex]\\sigma[/latex], as defined in IS:456-2000, is",
+    "solution": "",
+    "options": {
+      "A": "[latex]f_{ck}+1.35\\sigma[/latex]",
+      "B": "[latex]f_{ck}+1.45\\sigma[/latex]",
+      "C": "[latex]f_{ck}+1.55\\sigma[/latex]",
+      "D": "[latex]f_{ck}+1.65\\sigma[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 The flexural tensile strength of M25 grade of concrete, in [latex]N/mm^{2}[/latex], as per IS:456-2000 is",
+    "solution": "[latex]\\text { Flexural strength }=0.7 \\sqrt{f_{c k}}=3.5 \\mathrm{N} / \\mathrm{mm}^{2}[/latex]",
+    "min": 3.5,
+    "max": 3.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 The modulus of elasticity, [latex]E=5000\\sqrt{f_{ck}}[/latex]  where [latex]f_{ck}[/latex] is the characteristic compressive strength of concrete, specified in IS:456-2000 is based on",
+    "solution": "In IS:456-2000, the modulus of elasticity of concrete is given by: [latex] E = 5000 \\sqrt{f_{ck}} \\quad \\text{(in MPa)} [/latex] This value is derived from the stress-strain curve of concrete and is defined as the secant modulus, which is the slope of the line joining the origin to a point on the stress-strain curve at working stress level (typically at 0.33 of ultimate strength).",
+    "options": {
+      "A": "tangent modulus",
+      "B": "initial tangent modulus",
+      "C": "secant modulus",
+      "D": "chord modulus"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 The static indeterminacy of the two-span continuous beam with an internal hinge,shown below,is_________",
+    "solution": "Number of member, [latex] m=4[/latex] Number of external reaction, [latex] r_{e}=4[/latex] Number of joint, [latex] j=5[/latex] Number of reaction released, [latex] r_{r}=1[/latex] Degree of static -indeterminacy [latex] \\begin{aligned} D_{s} &=3 m+r_{e}-3 j-r_{r} \\\\ &=3 \\times 4+4-3 \\times 5-1 \\\\ &=0 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2014_Set2/page3_q2.webp",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 As per Indian Standard Soil Classification System (IS: 1498-1970), an expression for A-line is",
+    "solution": "",
+    "options": {
+      "A": "[latex]I_{p}=0.73(w_{L}-20)[/latex]",
+      "B": "[latex]I_{p}=0.70(w_{L}-20)[/latex]",
+      "C": "[latex]I_{p}=0.73(w_{L}-10)[/latex]",
+      "D": "[latex]I_{p}=0.70(w_{L}-10)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 The clay mineral primarily governing the swelling behavior of Black Cotton soil is",
+    "solution": "",
+    "options": {
+      "A": "Halloysite",
+      "B": "Illite",
+      "C": "Kaolinite",
+      "D": "Montmorillonite"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 The contact pressure for a rigid footing resting on clay at the center and the edges are respectively",
+    "solution": "Stress distribution for cohesiv soil Minimum at center and maximum at adge",
+    "options": {
+      "A": "maximum and zero",
+      "B": "maximum and minimum",
+      "C": "zero and maximum",
+      "D": "minimum and maximum"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 16 A certain soil has the following properties: [latex]G_{s}[/latex]=2.71, n=40% and w=20%. The degree of saturation of soil (rounded off to the nearest percent) is _____",
+    "solution": "[latex]\\begin{aligned} Se&=wG \\\\ \\text{and }e&=\\frac{n}{1-n}=0.67 \\\\ \\Rightarrow \\quad S&=\\frac{2.71 \\times 20}{0.67}=81.3 \\% \\end{aligned}[/latex]",
+    "min": 81.0,
+    "max": 81.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 A plane flow has velocity components [latex]u=\\frac{x}{T_{1}}, \\; v=-\\frac{y}{T_{2}}[/latex] and w=0 along x, y and z directions respectively, where[latex]T_{1}(\\neq 0)[/latex] and [latex]T_{2}(\\neq 0)[/latex] are constants having the dimensions of time. The given flow is incompressible if",
+    "solution": "For a flow to exist [latex] \\begin{aligned} \\Rightarrow \\quad \\frac{\\partial u}{\\partial x}+\\frac{\\partial v}{\\partial y}&=0 \\\\ \\Rightarrow \\quad \\frac{1}{T_{1}}-\\frac{1}{T_{2}}&=0 \\\\ \\Rightarrow \\quad T_{1}&=T_{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]T_{1}=-T_{2}[/latex]",
+      "B": "[latex]T_{1}=-\\frac{T_{2}}{2}[/latex]",
+      "C": "[latex]T_{1}=\\frac{T_{2}}{2}[/latex]",
+      "D": "[latex]T_{1}=T_{2}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 Group I lists a few devices while Group II provides information about their uses. Match the devices with their corresponding use.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2014_Set2/page4_q3.webp",
+    "options": {
+      "A": "P-1; Q-2; R-3; S-4",
+      "B": "P-2; Q-1; R-4; S-3",
+      "C": "P-4; Q-2; R-1; S-3",
+      "D": "P-4; Q-3; R-2; S-1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 An isolated 3-h rainfall event on a small catchment produces a hydrograph peak and point of inflection on the falling limb of the hydrograph at 7 hours and 8.5 hours respectively, after the start of the rainfall. Assuming, no losses and no base flow contribution, the time of concentration (in hours) for this catchment is approximately",
+    "solution": "In a small catchment, Time of concentration = Lag time of peak flow =7.0-1.5=5.5 hr",
+    "options": {
+      "A": "8.5",
+      "B": "7",
+      "C": "6.5",
+      "D": "5.5"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 The Muskingum Model of routing a flood through a stream reach is expressed as [latex]O_{2}=K_{0}I_{2}+K_{1}I_{1}+K_{2}O_{1}[/latex], where [latex]K_{0}[/latex], [latex]K_{1}[/latex] and [latex]K_{2}[/latex] are the routing coefficients for the concerned reach, [latex]I_{1}[/latex] and [latex]I_{2}[/latex] are the inflows to reach, and [latex]O_{1}[/latex] and [latex]O_{2}[/latex] are the outflows from the reach corresponding to time step 1 and 2 respectively. The sum of [latex]K_{0}[/latex], [latex]K_{1}[/latex] and [latex]K_{2}[/latex] of the model is",
+    "solution": "",
+    "options": {
+      "A": "-1",
+      "B": "-0.5",
+      "C": "0.5",
+      "D": "1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 The dominating microorganisms in an activated sludge process reactor are",
+    "solution": "",
+    "options": {
+      "A": "aerobic heterotrophs",
+      "B": "anaerobic heterotrophs",
+      "C": "autotrophs",
+      "D": "phototrophs"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 The two air pollution control devices that are usually used to remove very fine particles from the flue gas are",
+    "solution": "",
+    "options": {
+      "A": "Cyclone and Venturi Scrubber",
+      "B": "Cyclone and Packed Scrubber",
+      "C": "Electrostatic Precipitator and Fabric Filter",
+      "D": "Settling Chamber and Tray Scrubber"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 The average spacing between vehicles in a traffic stream is 50 m, then the density (in veh/km) of the stream is_______",
+    "solution": "[latex]\\begin{aligned} \\text { Capacity } &=\\frac{1000 \\times V}{S}=V \\times \\text { density } \\\\ \\Rightarrow \\quad \\text { Density }&=\\frac{1000}{S}=20 \\text { veh } / \\mathrm{km} \\end{aligned}[/latex]",
+    "min": 20.0,
+    "max": 20.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 A road is being designed for a speed of 110 km/hr on a horizontal curve with a super elevation of 8%. If the coefficient of side friction is 0.10, the minimum radius of\nthe curve (in m) required for safe vehicular movement is",
+    "solution": "[latex]\\begin{aligned} e+f &=\\frac{(0.278 \\mathrm{V})^{2}}{\\mathrm{g} R} \\\\ \\Rightarrow \\quad e+f &=\\frac{V^{2}}{127 R} \\\\ \\Rightarrow \\quad R &=\\frac{V^{2}}{127(e+f)} \\\\ &=\\frac{(110)^{2}}{127(0.08+0.1)} \\\\ &=528.5 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "115",
+      "B": "152.3",
+      "C": "264.3",
+      "D": "528.5"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 The survey carried out to delineate natural features,such as hills, rivers, forests and manmade features, suchas towns, villages, buildings, roads, transmission lines\nand canals is classified as",
+    "solution": "Tropographic survey is done to determine the natural features of a country such as rivers, strains, lakes, wood, hills etc. and artificial features such as roads, railways, canals, towns and villages.",
+    "options": {
+      "A": "engineering survey",
+      "B": "geological survey",
+      "C": "land survey",
+      "D": "topographic survey"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 The expression [latex]\\lim_{\\alpha \\rightarrow 0}\\frac{x^{\\alpha }-1}{\\alpha }[/latex] is eual to",
+    "solution": "[latex]\\begin{aligned} &\\lim_{\\alpha \\rightarrow 0}\\frac{x^{\\alpha }}{\\alpha } \\;\\;\\; \\left [ \\frac{0}{0}form \\right ] \\\\ &\\lim_{\\alpha \\rightarrow 0}\\frac{e^{\\alpha \\ln x}-1}{\\alpha }\\\\ &\\text{Use L-Hospital Rule}\\\\ &\\Rightarrow \\; \\; \\lim_{\\alpha \\rightarrow 0}\\frac{e^{\\alpha \\ln x}\\ln x}{1}=\\ln x \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\log x[/latex]",
+      "B": "0",
+      "C": "[latex]x\\log x[/latex]",
+      "D": "[latex]\\infty[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 An observer counts 240 veh/h at a specific highway location. Assume that the vehicle arrival at the location is Poisson distributed, the probability of having one vehicle arriving over a 30 seconds time interval is ______.",
+    "solution": "[latex]\\begin{aligned} P(n, t)&=\\frac{e^{-\\lambda t} \\cdot(\\lambda t)^{n}}{n !} \\\\ \\text{Here,}\\quad \\lambda&= no. of vehicles\\\\ &=240 \\text{vehicle}/\\mathrm{km} \\\\ P(1,30) &=\\frac{e^{\\frac{-240 \\times 30}{3600}}\\left(\\frac{240}{3600} \\times 30\\right)^{1}}{1 !} \\\\ &=2 . e^{-2}=0.2707 \\end{aligned}[/latex]",
+    "min": 0.25,
+    "max": 0.28
+  },
+  {
+    "type": "numerical",
+    "question": "Question 28 The rank of matrix [latex]\\begin{bmatrix} 6 &0 &4 &4 \\\\ -2 &14 &8 &18 \\\\ 14 &-14 &0 &10 \\\\ \\end{bmatrix}[/latex] is:",
+    "solution": "[latex]\\begin{aligned} &\\begin{bmatrix} 6 & 0 & 4 & 4\\\\ -2 & 14 & 8 & 18\\\\ 14 & -14 & 0 & -10 \\end{bmatrix} \\\\ &R_{3} \\rightarrow R_{3}-2R_{1}+R_{2} \\\\ & \\begin{bmatrix} 6 & 0 & 4 & 4\\\\ -2& 14 & 8 & 18\\\\ 0 & 0 & 0 & 0 \\end{bmatrix} \\end{aligned}[/latex] Determinant of matrix [latex]\\begin{bmatrix} 6 &0 \\\\ -2 & 14 \\end{bmatrix}[/latex] is not zero. [latex]\\therefore[/latex] Rank is 2.",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 Water is flowing at a steady rate through a homogeneous and saturated horizontal soil strip of 10 m length. The strip is being subjected to a constant water head(H) of 5 m at the beginning and 1 m at the end. If the governing equation of flow in the soil strip is [latex]\\frac{d^{2}H}{dx^2}=0[/latex] (where x is the distance along the soil strip), the value of H (in m) at the middle of the strip is ________.",
+    "solution": "Given, equation of the flow of soil strip is [latex] \\begin{aligned} \\frac{d^{2} H}{d x^{2}}&=0 \\\\ \\Rightarrow \\quad \\frac{\\mathrm{d} \\mathrm{H}}{\\mathrm{d} x}&=\\mathrm{C}_{1} \\\\ \\Rightarrow \\quad H&=C_{1} x+C_{2} \\\\ \\text{at }x=0, H=&5 \\mathrm{m} \\\\ \\Rightarrow \\quad C_{2}&=5 \\\\ \\Rightarrow \\quad H&=C_{1} x+5 \\\\ \\text{at }x&=10, H=1 \\mathrm{m} \\\\ \\Rightarrow \\quad 1&=C_{1} \\times 10+5 \\\\ \\Rightarrow \\quad 10 C_{1}&=-4 \\\\ \\Rightarrow \\quad C_{1}&=-\\frac{2}{5} \\\\ \\Rightarrow \\quad H&=-\\frac{2}{5} x+5 \\\\ \\text{at }x&=5 \\mathrm{m} \\\\ H&=-\\frac{2}{5} \\times 5+5 \\\\ H&=3 \\mathrm{m} \\end{aligned}[/latex]",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 The values of axial stress ([latex]\\sigma[/latex]) in kN/[latex]m^{2}[/latex], bending moment (M) in kNm, and shear force (V) in kN acting at point P for the arrangement shown in the figure are respectively",
+    "solution": "Loading after removing the cable [latex]\\begin{array}{l} \\text { Axial stress }=\\frac{50}{0.2 \\times 0.2}=1250 \\mathrm{kN} / \\mathrm{m}^{2} \\\\ \\text { Bending moment }=50 \\times 3=150 \\mathrm{kNm} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2014_Set2/page6_q5.webp",
+    "options": {
+      "A": "1000, 75 and 25",
+      "B": "1250, 150 and 50",
+      "C": "1500, 225 and 75",
+      "D": "1750, 300 and 100"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 The beam of an overall depth 250 mm (shown below) is used in a building subjected to two different thermal environments. The temperatures at the top and bottom surfaces of the beam are 36[latex]^{\\circ} C[/latex] and 72[latex]^{\\circ} C[/latex]  respectively. Considering coefficient of thermal expansion ([latex]\\alpha[/latex]) as [latex]1.50 \\times 10^{-5}[/latex] per [latex]^{\\circ} C[/latex], the vertical deflection of the beam (in mm) at its mid-span due to temperature gradient is",
+    "solution": "[latex]\\begin{aligned} R&=\\frac{h}{\\alpha T}\\\\ \\text{From properties }&\\text{of circle}\\\\ (2 R-\\delta) \\delta=\\frac{L}{2} \\times \\frac{L}{2}\\\\ \\text{(Considering }'&\\delta ' \\text{very small so neglect }\\delta^{2} )\\\\ \\Rightarrow \\quad \\delta=\\frac{L^{2}}{8 R}=\\frac{L^{2} \\alpha T}{8 h}\\\\ \\end{aligned}[/latex] [latex] \\begin{aligned} Given, \\alpha&=1.50 \\times 10^{-5} /{ }^{\\circ} \\mathrm{C} \\\\ \\Rightarrow \\quad \\delta&=\\frac{\\alpha T L^{2}}{8 h} \\\\ &=\\frac{1.50 \\times 10^{-5} \\times(72-36) \\times 3^{2}}{8 \\times\\left(250 \\times 10^{-3}\\right)} \\\\ &=2.43 \\mathrm{mm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2014_Set2/page7_q1.webp",
+    "min": 2.38,
+    "max": 2.45
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 The axial load (in kN) in the member PQ for the arrangement/assembly shown in the figure given below is__________",
+    "solution": "Free body diagram For principle of superposition [latex]\\frac{160 \\times 2^{3}}{3 E I}+\\frac{160 \\times 2^{2}}{2 E I} \\times 2-\\frac{V_{Q} L^{3}}{3 E I}=\\frac{V_{Q} L}{A E} \\quad \\ldots(i)[/latex] Deflections due to axial forces will be very less as compared to bending forces. So we can neglect the axial deformation. [latex] \\therefore[/latex] From equation (i) [latex] \\begin{aligned} \\frac{160 \\times 2^{3}}{3 E I}+\\frac{160 \\times 2^{2}}{2 E I} \\times 2-\\frac{V_{0} 4^{3}}{3 E I}&=0 \\\\ \\Rightarrow \\quad \\frac{160 \\times 2^{3}}{3}+\\frac{160 \\times 2^{2} \\times 2}{2}&=\\frac{V_{Q} \\times 4^{3}}{3} \\\\ \\Rightarrow \\quad V_{Q}&=50 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2014_Set2/page7_q2.webp",
+    "min": 50.0,
+    "max": 50.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 Considering the symmetry of a rigid frame as shown below, the magnitude of the bending moment (in kNm) at P (preferably using the moment distributing method) is",
+    "solution": "Distribution Factor Fixed End Moment [latex]\n\\begin{array}{l}\n\\overline{M_{A B}}=\\overline{M_{B A}}=\\overline{M_{P E}}=\\overline{M_{E P}}=\\overline{M_{\\infty}}=\\overline{M_{D C}}=0 \\\\\n\\overline{M_{B P}}=-\\frac{24 \\times(8)^{2}}{12}=-128 \\mathrm{kNm} \\\\\n\\overline{M_{P B}}=+128 \\mathrm{kNm} \\\\\n\\overline{M_{P C}}=-128 \\mathrm{kNm}\n\\end{array}[/latex] Distribution Table",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2014_Set2/page7_q3.webp",
+    "options": {
+      "A": "170",
+      "B": "172",
+      "C": "176",
+      "D": "178"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 A prismatic beam (as shown below) has plastic moment capacity of [latex]M_{p}[/latex], then the collapse load P of the beam is",
+    "solution": "Here degree of static indeterminacy =0 [latex]\\therefore[/latex] Number of plastic hinges required for mechanical equlibrium [latex]=D_{s}+1=0+1=1[/latex] From principal of virtual work [latex]\\begin{aligned}\n    -M_{P}\\theta -M_{P}\\theta +P\\frac{L}{2}\\theta -\\frac{P}{2}\\times \\frac{L}{3}\\theta &=0 \\\\ -2M_{P}\\theta +\\frac{PL}{2}\\theta -\\frac{PL}{6}\\theta &=0 \\\\ 2M_{P}=\\frac{PL}{2}-{PL}{6}=\\frac{\\left ( 3-1 \\right )PL}{6}&=\\frac{1}{3}PL \\\\  P&=\\frac{6M_{p}}{L}\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2014_Set2/page7_q4.webp",
+    "options": {
+      "A": "[latex]\\frac{2M_{p}}{L}[/latex]",
+      "B": "[latex]\\frac{4M_{p}}{L}[/latex]",
+      "C": "[latex]\\frac{6M_{p}}{L}[/latex]",
+      "D": "[latex]\\frac{8M_{p}}{L}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 The tension (in kN) in a 10m long cable, shown in figure, neglecting its self-weight is",
+    "solution": "[latex]\\begin{aligned} \\Sigma F_{y} &=0 \\\\ \\Rightarrow\\quad 2 \\text{Tc} 0 s \\theta &=120 \\\\ \\text{Here, }\\quad \\cos \\theta &=\\frac{4}{5} \\\\ 2 T \\times \\frac{4}{5}&=120 \\\\ \\Rightarrow\\quad T=\\frac{120 \\times 5}{2 \\times 4}&=75 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2014_Set2/page7_q5.webp",
+    "options": {
+      "A": "120",
+      "B": "75",
+      "C": "60",
+      "D": "45"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 For the state of stresses (in MPa) shown in the figure below, the maximum shear stress (in MPa) is _____",
+    "solution": "[latex]\\begin{aligned} \\tau_{\\max } &=\\frac{\\sigma_{1}-\\sigma_{2}}{2}=\\sqrt{\\left(\\frac{\\sigma_{x}-\\sigma_{y}}{2}\\right)^{2}+\\tau_{x y}^{2}} \\\\ &=5.0 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2014_Set2/page8_q1.webp",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 An infinitely long slope is made up of a [latex]c-\\phi[/latex] soil having the properties: cohesion (c)=20 kPa, and dry unit weight [latex](\\gamma _{d} )= 16kN/m^{3}[/latex]. The angle of inclination and critical height of the slope are [latex]40^{\\circ}[/latex] and 5 m, respectively. To maintain the limiting equilibrium, the angle of internal friction of the soil (in degree) is _____",
+    "solution": "[latex]\\begin{array}{l} F_{0}=\\frac{c}{\\gamma H \\sin \\beta \\cdot \\cos \\beta}+\\frac{\\tan \\phi}{\\tan \\beta} \\geq 1 \\\\ c=20 \\mathrm{kPa}, \\gamma=16 \\mathrm{kN} / \\mathrm{m}^{3}, \\beta=40^{\\circ} \\text { and } \\\\ H=5 \\mathrm{m} \\\\ \\Rightarrow \\quad, \\quad \\phi \\geq 22.44^{\\circ} \\end{array}[/latex]",
+    "min": 21.0,
+    "max": 23.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 Group I enlists in-situ field tests carried out for soil exploration, while Group II provides a list of parameters for sub-soil strength characterization. Math the type of tests with the characterization parameters",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2014_Set2/page8_q3.webp",
+    "options": {
+      "A": "P-1; Q-3; R-2; S-4",
+      "B": "P-1; Q-2; R-3; S-4",
+      "C": "P-2; Q-3; R-4; S-1",
+      "D": "P-4; Q-1; R-2; S-3"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 A single vertical friction pile of diameter 500 mm and length 20 m is subjected to a vertical compressive load. The pile is embedded in a homogeneous sandy stratum where: angle of internal friction is [latex]\\phi=30^{\\circ}[/latex], dry unit weight [latex](\\gamma _{d})=20 kN/m^{3}[/latex] and angle of wall friction is [latex]\\delta =2\\varphi /3[/latex]. Considering the coefficient of lateral earth pressure (K)=2.7 and the bearing capacity factor ([latex]N_q[/latex])=25, the ultimate bearing capacity of the pile (in kN) is________",
+    "solution": "Homogeneous sandy stratum [latex] \\begin{aligned} \\phi &=30^{\\circ} \\\\ \\gamma_{d} &=20 \\mathrm{kN} / \\mathrm{m}^{3} \\end{aligned}[/latex] Wall friction angle. [latex] \\delta=\\frac{2}{3} \\phi=\\frac{2}{3} \\times 30=20^{\\circ}[/latex] Lateral earth pressure coefficient, [latex] K=2.7[/latex] Bearing capacity factor, [latex] N_{q}=25[/latex] Ultimate load capacity, [latex] Q_{u}=?[/latex] Vertical effective stress at 20m. [latex] \\overline{\\sigma_{v}}=20 \\times 20=400 \\mathrm{kN} / \\mathrm{m}^{2}[/latex] From 0 to 20m, unit point bearing resistance and skin friction resistance remain constant at [latex] \\overline{\\sigma_{\\mathrm{v}}}=400 \\mathrm{kN} / \\mathrm{m}^{2}[/latex] The ultimate load capacity is given by [latex] \\begin{aligned} Q_{u}&=q_{\\mathrm{up}} \\cdot A_{p}+q_{\\mathrm{s}} \\cdot A_{s}\\\\ &=f_{s}\\left(Q_{u p}=0\\right. for friction pile) \\\\ \\text{where}\\quad q_{s}&=\\frac{1}{2} \\cdot \\overline{\\sigma_{v}} \\cdot K \\cdot \\tan \\delta\\\\ &=\\frac{1}{2} \\times 400 \\times 2.7 \\tan 20^{\\circ} \\\\ &=196.54 \\mathrm{kN} / \\mathrm{m}^{2} \\end{aligned}[/latex] Skin friction resistance, [latex] \\begin{aligned} Q_{u}=f_{s} &=196.54 \\times \\pi \\times 0.5 \\times 20 \\\\ &=6174.49 \\mathrm{kN} \\end{aligned}[/latex]",
+    "min": 6150.0,
+    "max": 6190.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 A circular raft foundation of 20 m diameter and 1.6m thick is provided for a tank that applies a bearing pressure of 110 kPa on sandy soil with Young's modulus, [latex]E_s'= 30 [/latex]MPa and Poisson's ration, [latex]v_s=0.3[/latex]. The raft is made of concrete ([latex]E_c=30[/latex] GPa and [latex]v_c=0.15[/latex]). Considering the raft as rigid, the elastic settlement (in mm) is",
+    "solution": "Elastic settlement of rigid footing [latex] =\\frac{q B\\left(1-\\mu^{2}\\right)}{E_{s}} \\times I_{f}[/latex] Shape factor for circular raft footing. [latex] \\begin{aligned} I_{t} &=0.8 \\\\ \\Rightarrow \\quad S_{1} &=0.8\\left[\\frac{110 \\times 20\\left(1-0.3^{2}\\right)}{30}\\right] \\\\ &=53.386 \\mathrm{mm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "50.96",
+      "B": "53.38",
+      "C": "63.72",
+      "D": "66.71"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 A horizontal nozzle of 30 mm diameter discharges a steady jet of water into the atmosphere at a rate of 15 liters per second. The diameter of inlet to the nozzle is 100 mm. The jet Impinges normal to a flat stationary plate held close to the nozzle end. Neglecting air friction and considering the density of water as 1000 kg/[latex]m^3[/latex], force exerted by the jet (in N) on the plate is _______",
+    "solution": "[latex]\\text{Force }=\\rho a V^{2} [/latex] [latex] \\mathrm{Q}=\\mathrm{a} \\mathrm{V}=15 \\; litre/sec (given)[/latex] [latex] \\text{Force }=\\rho \\frac{\\mathrm{Q}^{2}}{\\mathrm{a}} [/latex] [latex] =1000 \\times \\frac{15^{2}}{\\pi} \\times 30^{2} \\mathrm{m}^{3} \\times 10^{-6} \\frac{\\mathrm{m}^{6}}{\\mathrm{s}^{2}} \\times \\frac{1}{10^{-6}} \\mathrm{m}^{2} [/latex] [latex] =1000 \\times \\frac{1}{\\pi} \\mathrm{N}=318.3 \\mathrm{N}[/latex]",
+    "min": 318.0,
+    "max": 319.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 A venturimeter having a throat diameter of 0.1 m is used to estimate the flow rate of a horizontal pipe having a diameter of 0.2 m. For an observed pressure difference of 2 m of water head and coefficient of discharge equal to unity, assuming that the energy losses are negligible, the flow rate (in [latex]m^3[/latex]/s) through the pipe is approximately equal to",
+    "solution": "Diameter of throat, [latex] d=0.1 \\mathrm{m}[/latex] Diameter of pipe, [latex] D=0.2 \\mathrm{m}[/latex] Pressure difference, [latex] \\frac{P_{1}-P_{2}}{w}=2 m=h[/latex] Coefficient of discharge [latex] C_{D}=1[/latex] Discharge, [latex] \\begin{aligned} Q&=\\frac{C_{D} A_{1} A_{2} \\sqrt{2 g h}}{\\sqrt{A_{1}^{2}-A_{2}^{2}}}\\\\ A_{1} &=\\frac{\\pi}{4}(0.2)^{2} \\\\ \\text { and } A_{2} &=\\frac{\\pi}{4}(0.1)^{2} \\\\ \\Rightarrow \\quad Q &=\\frac{1 \\times\\left(\\frac{\\pi}{4}\\right)^{2} \\times(0.2)^{2}(0.1)^{2} \\sqrt{2 \\times 9.81 \\times 2}}{\\left(\\frac{\\pi}{4}\\right) \\sqrt{(0.2)^{4}-(0.1)^{4}}} \\\\ &=0.0508=0.050 \\mathrm{m}^{3} / \\mathrm{sec} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.5",
+      "B": "0.15",
+      "C": "0.05",
+      "D": "0.015"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 A rectangular channel of 2.5 m width is carrying a discharge of 4 [latex]m^3[/latex]/s. Considering that acceleration due to gravity as 9.81 m/[latex]s^2[/latex], the velocity of flow (in m/s) corresponding to the critical depth (at which the specific energy is minimum) is _______",
+    "solution": "[latex]\\begin{aligned} Q &=4 m^{3} / s, B=2.5 m \\\\ \\Rightarrow \\quad q &=\\frac{4}{2.5} m^{3} / s / m \\\\ &=1.6 m^{3} / s / m \\\\ y_{c}^{3} &=\\frac{q^{2}}{g} \\Rightarrow y_{c}=0.639 m \\end{aligned} [/latex] At critical depth velocity head [latex]=\\frac{y_{c}}{2} [/latex] [latex] \\begin{aligned} \\Rightarrow \\quad \\frac{V^{2}}{2 g}&=\\frac{0.639}{2}\\\\ \\Rightarrow V&=\\sqrt{0.639 \\times 9} \\\\ &=2.504 \\mathrm{m} / \\mathrm{s} \\end{aligned}[/latex]",
+    "min": 2.45,
+    "max": 2.55
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 Irrigation water is to be provided to a crop in a field to bring the moisture content of the soil from the existing 18% to the field capacity of the soil at 28%. The effective root zone of the crop is 70 cm. If the densities of the soil and water are 1.3 g/[latex]cm^2[/latex] and 1.0 g/[latex]cm^3[/latex]respectively, the depth of irrigation water (in mm) required for irrigating the crop is ________",
+    "solution": "Given, Root zone depth, [latex] d=70 \\mathrm{cm}[/latex] Field capacity, [latex] F_{C}=28 \\%[/latex] Existing moisture content, [latex] w=18 \\%[/latex] Density of soil, [latex] \\gamma=1.3 \\mathrm{gm} / \\mathrm{cm}^{3}[/latex] Density of water, [latex] \\gamma_{w}=1.0 \\mathrm{gm} / \\mathrm{cm}^{3}[/latex] Depth of irrigation water required, [latex] \\begin{aligned} d_{w} &=\\frac{\\gamma}{\\gamma_{w}} d\\left(F_{c}-w\\right) \\\\ &=\\frac{1.3}{1.0} \\times(70 \\times 10)(28 \\%-18 \\%) \\\\ &=1.3 \\times(70 \\times 10) \\times \\frac{10}{100} \\\\ &=91 \\mathrm{mm} \\end{aligned}[/latex]",
+    "min": 91.0,
+    "max": 91.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 With reference to a standard Cartesian (x,y) plane, the parabolic velocity distribution profile of fully developed laminar flow in x-direction between two parallel, stationary and identical plates that are separated by distance, h, is given by the expression [latex]u=-\\frac{h^{2}}{8\\mu }\\frac{\\mathrm{d} p}{\\mathrm{d} x}\\left [ 1-4(\\frac{y}{h})^{2} \\right ][/latex] In this equation, the y=0 axis lies equidistant between the plates at a distance h/2 from the two plates, p is the pressure variable and [latex]\\mu[/latex] is the dynamic viscosity term. The maximum and average velocities are, respectively",
+    "solution": "Velocily expression for a laminar flow between two parallel plates is [latex] U=-\\frac{n^{2}}{8 u}\\left(\\frac{d p}{d x}\\right)\\left[1-4\\left(\\frac{y}{n}\\right)^{2}\\right][/latex] End condition [latex] U=U_{max}\\text{ at }y=0[/latex] [latex] \\Rightarrow U_{max} = -\\frac{h^{2}}{8\\mu}\\left(\\frac{dp}{dx} \\right )[/latex] Discharges dQ = Area x Velocily [latex] \\Rightarrow \\Delta 0=\\left[-\\frac{\\hbar^{2}}{8 \\mu}\\left(\\frac{d \\rho}{d x}\\right)\\left(1-4\\left(\\frac{y}{n}\\right)^{2}\\right)\\right](d y \\times 1)[/latex] [latex]\\begin{aligned} &\\Rightarrow Q=-\\frac{h^{2}}{8 \\mu}\\left(\\frac{d p}{d x}\\right) \\int_{-h / 2}^{h / 2}\\left(1-\\frac{4 y^{2}}{h^{2}}\\right) d y\\\\ &=-\\frac{h^{2}}{8 \\mu}\\left(\\frac{d p}{d x}\\right)\\left[y-\\frac{4 y^{3}}{3 h^{2}}\\right]_{-n / 2}^{h / 2}\\\\ &=-\\frac{h^{2}}{8 \\mu}\\left(\\frac{d p}{d x}\\right)\\left[\\left\\{\\frac{h}{2}-\\left(-\\frac{h}{2}\\right)\\right\\}-\\left\\{\\frac{4}{3 h^{2}}\\left(\\frac{h^{3}}{8}-\\left(-\\frac{h^{3}}{8}\\right)\\right)\\right\\}\\right]\\\\ &=-\\frac{h^{3}}{12 \\mu}\\left(\\frac{d p}{d x}\\right)\\\\ &Q=A V\\\\ &-\\frac{h^{3}}{12 \\mu}\\left(\\frac{d p}{d x}\\right)=(h \\times 1) \\times U_{a v g}\\\\ &\\Rightarrow \\quad U_{a v g}=-\\frac{h^{2}}{12 \\mu}\\left(\\frac{d p}{d x}\\right) \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]u_{max}=-\\frac{h^{2}}{8\\mu }\\frac{\\mathrm{d} p}{\\mathrm{d} x}[/latex]   and [latex]  u_{average}=\\frac{2}{3}u_{max}[/latex]",
+      "B": "[latex]u_{max}=\\frac{h^{2}}{8\\mu }\\frac{\\mathrm{d} p}{\\mathrm{d} x}[/latex]   and [latex] u_{average}=\\frac{2}{3}u_{max}[/latex]",
+      "C": "[latex]u_{max}=-\\frac{h^{2}}{8\\mu }\\frac{\\mathrm{d} p}{\\mathrm{d} x}[/latex]   and [latex]  u_{average}=\\frac{3}{8}u_{max}[/latex]",
+      "D": "[latex]u_{max}=\\frac{h^{2}}{8\\mu }\\frac{\\mathrm{d} p}{\\mathrm{d} x}[/latex]   and [latex] u_{average}=\\frac{3}{8}u_{max}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 A suspension of sand like particles in water with particles of diameter 0.10 mm and below is flowing into a settling tank at 0.10 [latex]m^3[/latex]/s. Assume g=9.81 m/[latex]s^{2}[/latex], specific gravity of particles=2.65, and kinematic vescosity of water=[latex]1.0105 \\times 10^{-2} cm^{2}[/latex]/s. The minimum surface area (in [latex]m^{2}[/latex]) required for this settling tank to remove particles of size 0.06 mm and above with 100% efficiency is_________",
+    "solution": "[latex]\\begin{aligned} V_{s} &=\\frac{\\left(G_{s}-1\\right) g d^{2}}{18 v} \\\\ &=\\frac{(2.65-1) \\times 9.81 \\times\\left(6 \\times 10^{-2}\\right)^{2}}{18 \\times 1.0105 \\times 10^{-2}} \\\\ &=\\frac{1.65 \\times 9.81 \\times 36 \\times 10^{-4}}{18 \\times 1.0105 \\times 10^{-2} \\times 10^{2}} \\\\ &=3.204 \\times 10^{-3} \\mathrm{m} / \\mathrm{s} \\\\ V_{s} &=\\frac{Q}{B L} \\\\ \\Rightarrow\\quad B L &=\\frac{0.1}{3.204 \\times 10^{-3}}=31.214 \\mathrm{m}^{2} \\end{aligned}[/latex]",
+    "min": 31.0,
+    "max": 32.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 A surface water treatment plant operates round the clock with a flow rate of 35 [latex]m^{3}[/latex]/min. The water temperature is [latex]15^{\\circ}C[/latex] and jar testing indicated an alum dosage of 25 mg/l with flocculation at a Gt value of [latex]4\\times 10^{4}[/latex] producing optimal result. The alum quantity required for 30 days (in kg) of operation of the plant is",
+    "solution": "Given data [latex] \\begin{aligned} \\text { Flow rate, } & Q=35 \\mathrm{m}^{3} / \\mathrm{min} \\\\ & G t=4 \\times 10^{4} \\\\ \\text { Alum dosage } &=25 \\mathrm{mg} / \\mathrm{lit} . \\end{aligned}[/latex] Alum quantity (kg) required for 30 days [latex] =35 \\times 10^{3} \\times 60 \\times 24 \\times 30 \\times 25 \\times 10^{-6} [/latex] [latex] =37,800 \\mathrm{kg}[/latex]",
+    "min": 37800.0,
+    "max": 37800.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 An effluent at a flow rate of 2670 [latex]m^{3}[/latex]/d from a sewage treatment plant is to be disinfected. The laboratory data of disinfection studies with a chlorine dosage of 15 mg/l yield the model [latex]N_{t}=N_{o}e^{-0.145t}[/latex]  where [latex]N_t[/latex]= number of micro-organisms surviving at time t (in min.) and [latex]N_o[/latex]= number of micro-organism present initially (at t=0). The volume of disinfection unit (in [latex]m^{3}[/latex]) required to achieve a 98% kill of micro-organisms is______",
+    "solution": "[latex]\\begin{aligned} Q&=2670 \\mathrm{m}^{3} / \\mathrm{d} \\\\ N_{t}&=\\mathrm{No} . \\mathrm{e}^{-0.145 \\mathrm{t}} \\end{aligned}[/latex] Let x be the no. of microorganisms (M.O.) present initially. 98% kill of M.O. imlies that at time 't' 2% of M.O. are still surviving [latex] \\therefore [/latex] M.O. surviving at time 't' [latex]=\\frac{2}{100} x [/latex] [latex] \\begin{aligned} \\therefore \\quad \\frac{2}{100} x &=x \\cdot \\mathrm{e}^{-0.145 \\mathrm{t}} \\\\ \\therefore \\qquad t &=26.979 \\mathrm{min} \\\\ t &=0.018736 \\text { days } \\\\ \\therefore \\qquad \\text { Volume } &=Q . t \\\\ &=2670 \\times 0.018736 \\\\ &=50.0244 \\mathrm{m}^{3} \\end{aligned}[/latex]",
+    "min": 49.0,
+    "max": 51.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 A waste water stream (flow=2 [latex]m^{3}[/latex]/s, ultimate BOD=90 mg/l) is joining a small river (flow=12 [latex]m^{3}[/latex]/s, ultimate BOD=5 mg/l). Both water streams get mixed up instantaneously. Cross sectional area of the river is 50 [latex]m^{2}[/latex]. Assuming the de-oxygenation rate constant, k'=0.25/day the BOD (in mg/l) of the river water, 10 km downstream of the mixing point is",
+    "solution": "Flow of waste water stream, [latex] Q_{w}=2 \\mathrm{m}^{3} / \\mathrm{sec}[/latex] Ultimate BOD, [latex] Y_{w}=90 \\mathrm{mg} / l=90 \\mathrm{gm} / \\mathrm{m}^{3}[/latex] Flow of river, [latex] Q_{R}=12 \\mathrm{m}^{3} / \\mathrm{sec}[/latex] Ultimate BOD of river, [latex] Y_{R}=0.5 \\mathrm{mg} / l=5 \\mathrm{gm} / \\mathrm{m}^{3}[/latex] BOD of mixture, [latex] \\begin{aligned} Y_{0} &=\\frac{(2 \\times 90)+(12 \\times 5)}{2+12} \\\\ &=\\frac{180+60}{14}=\\frac{240}{14} \\\\ &=17.143 \\mathrm{gm} / \\mathrm{m}^{3} \\\\ k_{D} &=0.434 \\mathrm{K} \\\\ &=0.434 \\times 0.25=0.1085 \\\\ Y_{t} &=Y_{0}\\left[1-(10)^{-k_{0} t}\\right] &\\ldots(i)\\\\ \\text { Area of river } &=50 \\mathrm{m}^{2} \\\\ \\text { Flow of river } &=12 \\mathrm{m}^{3} / \\mathrm{sec} \\\\ \\text { Stream velocity } &=\\frac{14}{50}=0.28 \\mathrm{m} / \\mathrm{sec} \\\\ \\text { Time taken, } & t=\\frac{10 \\mathrm{km}}{0.28 \\mathrm{m} / \\mathrm{s}}=0.4133 \\text { days } \\end{aligned}[/latex] [latex]\\therefore [/latex] From eq. (i), [latex] \\begin{aligned} \\mathrm{BOD}_{\\text {left }} &=Y_{0}-Y_{t} \\\\ &=Y_{0} \\times 10^{-k t} \\\\ &=17.143 \\times 10^{-0.1085 \\times 0.4133} \\\\ &=15.46 \\mathrm{mg} / l \\end{aligned}[/latex]",
+    "options": {
+      "A": "1.68",
+      "B": "12.63",
+      "C": "15.46",
+      "D": "1.37"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 In a Marshall sample, the bulk specific gravity of mix and aggregates are 2.324 and 2.546 respectively. The sample includes 5% of bitumen (by total weight of mix) of specific gravity 1.10. The theoretical maximum specific gravity of mix is 2.441. The void filled with bitumen (VFB) in the Marshall sample (in %) is _______",
+    "solution": "[latex]V_{v}=\\frac{G_{t}-G_{m}}{G_{t}} \\times 100=\\frac{2.441-2.324}{2.441} \\times 100[/latex] [latex] =4.79 \\% [/latex] Void filled with bitumen, [latex] \\begin{array}{l} V_{b}=G_{m} \\times \\frac{W_{b}(\\%)}{G_{b}}=2.324 \\times \\frac{5}{1.1}=10.56 \\%\\\\ \\mathrm{VMA}=V_{v}+V_{b}=4.79+10.56=15.35 \\% \\\\ \\therefore \\mathrm{VFB}=\\frac{V_{b}(\\%)}{\\mathrm{VMA}} \\times 100=\\frac{10.56}{15.35} \\times 100=68.79 \\% \\end{array}[/latex]",
+    "min": 62.0,
+    "max": 66.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 A student riding a bicycle on a 5 km one-way street takes 40 minutes to reach home. The student stopped for minutes during this ride. 60 vehicles overtook the student (assume the number of vehicles overtaken by the student is zero) during the ride and 45 vehicles while the student stopped. The speed of vehicle stream on that road (in km/hr) is",
+    "solution": "Velocity of student [latex]=\\frac{5 k m}{(40-15) \\min } [/latex] [latex] =12\\mathrm{km} / \\mathrm{hr}[/latex] [latex] \\left(\\frac{\\text { Vehicle/min }}{\\text { Relative speed of vehicle w.r.t. student }}\\right)_{\\text {moving}} [/latex] [latex] =\\left(\\frac{\\text { Vehicle/min }}{\\text { Relative speed of vehicle w.r.t. student }}\\right)_{\\text {standing }} [/latex] [latex] \\begin{aligned} \\Rightarrow \\quad \\frac{60 / 25}{x-12} &=\\frac{45 / 15}{x-0} \\\\ \\Rightarrow \\quad x &=60 \\mathrm{km} / \\mathrm{hr} \\end{aligned}[/latex]",
+    "options": {
+      "A": "7.5",
+      "B": "12",
+      "C": "40",
+      "D": "60"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 On a section of a highway the speed-density relationship is linear and is given by [latex]v=[80-\\frac{2}{3}k][/latex]; where v is in km/h and k is in veh/km. The capacity (in veh/h) of this section of the highway would be",
+    "solution": "[latex]\\begin{aligned} v&=80-\\frac{2 k}{3} \\\\ \\text{Capacity,}\\quad &=v \\times k \\\\ &=80 k-\\frac{2 k^{2}}{3} \\end{aligned}[/latex] For q to be maximum [latex] \\begin{aligned} \\frac{d q}{d k}&=0\\\\ \\Rightarrow \\quad \\frac{d q}{d k} &=80-\\frac{4 k}{3}=0 \\\\ \\Rightarrow k&=60 \\end{aligned} [/latex] Maximum capacity, [latex] \\begin{aligned} q&=80 \\times 60-\\frac{2}{3}(60)^{2} \\\\ &=4800-\\frac{2}{3} \\times 3600 \\\\ &=2400 \\end{aligned}[/latex]",
+    "options": {
+      "A": "1200",
+      "B": "2400",
+      "C": "4800",
+      "D": "9600"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 A pre-timed four phase signal has critical lane flow rate for the first three phases as 200, 187 and 210 veh/hr with saturation flow rate of 1800 veh/hr/lane for all phases. The lost time is given as 4 seconds for each phase. If the cycle length is 60 seconds, the effective green time (in seconds) of the fourth phase is _________",
+    "solution": "Flow rates for the first three phase are given as [latex] \\begin{aligned} q_{1}&=200 \\mathrm{veh} / \\mathrm{hr} \\\\ q_{2}&=187 \\mathrm{veh} / \\mathrm{hr}\\\\ \\text{and}\\quad q_{3}&=210 \\text { veh/hr } \\end{aligned}[/latex] Saturation flow rate is 1800 veh/hr/lane Lost time, [latex] L=4 \\times 4=16 \\mathrm{sec}[/latex] Length of the cycle, [latex] C_{0}=60 \\mathrm{sec}[/latex] [latex] \\begin{aligned} \\text { Now, } \\quad y_{1} &=\\frac{q_{1}}{s_{1}}=\\frac{200}{1800} \\\\ y_{2} &=\\frac{q_{2}}{s_{2}}=\\frac{187}{1800} \\\\ y_{3} &=\\frac{q_{3}}{s_{3}}=\\frac{210}{1800} \\\\ C_{0} &=\\frac{1.5 L+5}{1-y} \\\\ \\Rightarrow \\quad 60 &=\\frac{1.5 \\times 16+5}{1-y}\\\\ \\Rightarrow 60 &=\\frac{24+5}{1-y} \\\\ \\Rightarrow 1-y &=\\frac{29}{60} \\\\ \\Rightarrow \\quad y&=\\frac{1-29}{60}=\\frac{60-29}{60} \\\\ &=0.517\\\\ \\text{And}\\quad y&=y_{1}+y_{2}+y_{3}+y_{4}\\\\ \\Rightarrow \\quad 0.517 &=\\frac{597}{1800}+y_{4} \\\\ \\Rightarrow \\quad y_{4}&=0.185 \\\\ G &=\\frac{y_{4}}{y}\\left(C_{0}-L\\right)\\\\ &=\\frac{0.185}{0.517}(60-16) \\\\ &=15.745 \\mathrm{sec} \\end{aligned}[/latex]",
+    "min": 14.0,
+    "max": 18.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 A tachometer was placed at point P to estimate the horizontal distances PQ and PR. The corresponding stadia intercepts with the telescope kept horizontal, are 0.320 m and 0.210 m, respectively. The [latex]\\angle QPR[/latex] is measured to be [latex]61^{\\circ}{30}'{30}''[/latex]. If the stadia multiplication constant=100 and stadia addition constant=0.10 m, the horizontal distance (in m) between the points Q and R is ________",
+    "solution": "[latex]\\begin{aligned} P Q &=k s+C \\\\ &=100(0.32)+0.1=32.1 \\mathrm{m} \\\\ P R &=k s+C \\\\ &=100(0.21)+0.1=21.1 \\mathrm{m} \\end{aligned}[/latex] Applying the cosine rule [latex] \\begin{array}{l} Q R=\\sqrt{P Q^{2}+P R^{2}-2(P Q)(P R) \\cos \\theta} \\\\ \\text { Where, } \\theta=61^{\\circ} 30^{\\prime} 30^{\\prime \\prime}=61.508^{\\circ} \\\\ =\\sqrt{1030,41+445.21-2(32,1)(21,1) \\cos 61.508^{\\circ}} \\\\ =\\sqrt{1030.41+445.21-646.2}=28.8 \\mathrm{m} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2014_Set2/page11_q4.webp",
+    "min": 28.0,
+    "max": 29.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 The chainage of the intersection point of two straights is 1585.60 m and the angle of intersection is [latex]140^{\\circ}[/latex]. If the radius of a circular curve is 600.00 m, the tangent distance (in m) and length of the curve (in m), respectively are",
+    "solution": "[latex]A=180^{\\circ}-140^{\\circ}=40^{\\circ}[/latex] Lengin of the gurve [latex]=\\frac{\\pi G}{180^{\\circ}} \\mathrm{A} [/latex] [latex] =\\frac{\\pi \\times 600}{180} \\times 40=418.82 \\mathrm{m} [/latex] Tangent distance (7) is the distance between P.C to P.I (also the distance from P.I to P.) [latex] \\Rightarrow T=T_{1} V [/latex] [latex] =T_{2} V=O T_{1} \\tan \\frac{\\Delta}{2}=R \\tan \\frac{\\Delta}{2} [/latex] [latex] =600 \\tan 20^{\\circ}=218.88 \\mathrm{m}[/latex]",
+    "options": {
+      "A": "418.88 and 1466.08",
+      "B": "218.38 and 1648.49",
+      "C": "218.38 and 418.88",
+      "D": "418.88 and 218.38"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 Choose the most appropriate word from the options given below to complete the following sentence. A person suffering from Alzheimer's disease ____________ short-term memory loss.",
+    "solution": "",
+    "options": {
+      "A": "experienced",
+      "B": "has experienced",
+      "C": "is  experiencing",
+      "D": "experiences"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Choose the most appropriate word from the options given below to complete the following sentence. ____________ is the key to their happiness, they are satisfied with what they have.",
+    "solution": "",
+    "options": {
+      "A": "Contentment",
+      "B": "Ambition",
+      "C": "Perseverance",
+      "D": "Hunger"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Which of the following options is the closest in meaning to the sentence below? \"As a woman, I have no country\".",
+    "solution": "",
+    "options": {
+      "A": "Women have no country.",
+      "B": "Women are not citizens of any country.",
+      "C": "Women's solidarity knows no national boundaries.",
+      "D": "Women of all countries have equal legal rights."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 59 In any given year, the probability of an earthquake greater than Magnitude 6 occurring in the Garhwal Himalayas is 0.04. The average time between successive occurrences of such earthquakes is ________ years.",
+    "solution": "",
+    "min": 25.0,
+    "max": 25.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 The population of a new city is 5 million and is growing at 20% annually. How many years would it take to double at this growth rate?",
+    "solution": "",
+    "options": {
+      "A": "3-4 years",
+      "B": "4-5 years",
+      "C": "5-6 years",
+      "D": "6-7 years"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 In a group of four children, Som is younger to Riaz. Shiv is elder to Ansu. Ansu is youngest in the group. Which of the following statements is/are required to find the eldest child in the group? Statements 1. Shiv is younger to  Riaz. 2. Shiv is elder to Som.",
+    "solution": "",
+    "options": {
+      "A": "Statement 1 by itself determines the eldest child.",
+      "B": "Statement 2 by itself determines the eldest child.",
+      "C": "Statement 1 and 2 are both required to determine the eldest child.",
+      "D": "Statement 1 and 2 are not sufficient to determine the eldest child."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 Moving into a world of big data will require us to change our thinking about the merits of exactitude. To apply the conventional mindset of measurement to the digital, connected world of the twenty-first century is to miss a crucial point. As mentioned earlier, the obsession with exactness is an artefact of the information-deprived analog era. When data was sparse, every data point was critical, and thus great care was taken to avoid letting any bias the analysis. From \"Big DATA\" Viktor Mayer-Schonberger and Kenneth Cukier The main point of the paragraph is:",
+    "solution": "",
+    "options": {
+      "A": "The twenty-first century is a digital world",
+      "B": "Big data is obsessed with exactness",
+      "C": "Exactitude is not critical in dealing with big data",
+      "D": "Sparse data leads to a bias in the analysis"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 The total exports and revenues from the exports of a country are given in the two pie charts below.The pie chart for exports shows the quantity of each item as a percentage of the total quantity of exports. The pie chart for the revenues shows the percentage of the total revenue generated through export of each item. The total quantity of exports of all the items is 5 lakh tonnes and the total revenues are 250 crore rupees. What is the ratio of the revenue generated through export of Item  1 per kilogram to the revenue generated through export of Item 4 per kilogram?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/2014_Set2/page13_q3.webp",
+    "options": {
+      "A": "01:02",
+      "B": "02:01",
+      "C": "01:04",
+      "D": "04:01"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 X  is 1 km northeast of Y. Y is 1 km southeast of Z. W is 1 km west of Z. P is 1 km south of W. Q is 1 km east of P. What is the distance between X and Q in km?",
+    "solution": "",
+    "options": {
+      "A": "[latex]1[/latex]",
+      "B": "[latex]\\sqrt{2}[/latex]",
+      "C": "[latex]\\sqrt{3}[/latex]",
+      "D": "[latex]2[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 65 10%  of the population in a town is [latex]HIV^+[/latex]. A new diagnostic kit for [latex]HIV[/latex] detection is available, this kit correctly identifies [latex]HIV^+[/latex] individuals 95% of the time, and[latex]HIV^-[/latex] individuals 89% of the time. A particular patient is tested using this kit and is found to be positive. The probability that the individual is actually positive is_______",
+    "solution": "",
+    "min": 0.48,
+    "max": 0.49
+  }
+]
