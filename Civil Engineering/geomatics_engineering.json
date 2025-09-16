@@ -1,0 +1,1135 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 A surveyor measured the distance between two points on the plan drawn to a scale of [latex]1\\ \\text{cm} = 40\\ \\text{m}[/latex] and the result was 468 m. Later, it was discovered that the scale used was [latex]1\\ \\text{cm} = 20\\ \\text{m}[/latex]. The true distance between the points (in m) is ______ (round off to the nearest integer).",
+    "solution": "[latex]\\text{RF of wrong scale} = \\frac{1}{20}[/latex] [latex]\\text{RF of corrected scale} = \\frac{1}{40}[/latex] [latex]\\text{Measured length} = 468 , \\text{m}[/latex] [latex]\\text{Corrected length} = \\left( \\frac{(RF){\\text{wrong scale}}}{(RF){\\text{corrected scale}}} \\right) \\times \\text{Measured length}[/latex] [latex]= \\left( \\frac{\\frac{1}{20}}{\\frac{1}{40}} \\right) \\times 468 = 936 , \\text{m}[/latex]",
+    "min": 936.0,
+    "max": 936.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 In levelling between two points A and B on the opposite banks of a river, the readings  are taken by setting the instrument both at [latex]A[/latex] and [latex]B[/latex], as shown in the table. It the RL of A is 150.000 m,  the RL of B (in m) is _________\n (rounded off to 3 decimal places). Level position Staff readings A B A 1.800 1.350 B 1.450 0.950",
+    "solution": "Here, [latex]\nH_{s e}=\\frac{(1.8-1.35)+(1.45-0.85)}{2}=0.475 \\mathrm{~m}\n[/latex] [latex]\\therefore[/latex]\n[latex]\n\\begin{aligned}\nR L \\text { of } B & =R L \\text { of } A+H_{w g} \\\\\n& =150+0.475=150.475 \\mathrm{~m}\n\\end{aligned}\n[/latex]",
+    "min": 150.47,
+    "max": 150.48
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 If the quadrantal bearing of a line is [latex] \\text{N}30^\\circ\\text{W} [/latex], then the whole circle bearing of the line is",
+    "solution": "Given quadrantal bearing: [latex] \\text{N}30^\\circ\\text{W} [/latex] This lies in the 4th quadrant (North-West) Whole circle bearing (WCB) = [latex] 360^\\circ - 30^\\circ = 330^\\circ [/latex]",
+    "options": {
+      "A": "[latex]120^{\\circ}[/latex]",
+      "B": "[latex]210^{\\circ}[/latex]",
+      "C": "[latex]300^{\\circ}[/latex]",
+      "D": "[latex]330^{\\circ}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 If the horizontal distance between a staff point and the point of observation is [latex]d[/latex], the error due to the curvature of earth is proportional to",
+    "solution": "We know, error due to curvature [latex]\n\\begin{array}{ll} \n& E=+0.0785 d^{2} \\\\\n\\Rightarrow \\quad & E \\propto d^{2}\n\\end{array}\n[/latex]",
+    "options": {
+      "A": "[latex]d[/latex]",
+      "B": "[latex]\\frac{1}{d}[/latex]",
+      "C": "[latex]d^{2}[/latex]",
+      "D": "[latex]\\frac{1}{d^{2}}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 Differential levelling is carried out from point [latex] P [/latex] ( [latex] B [/latex] N [latex] +200.000 \\mathrm{~m} [/latex] ) to point [latex] \\mathrm{R} [/latex]. The reading taken are given in the table. Reduced level (in meters) of the point [latex] \\mathrm{R} [/latex] is ______(rounded off to 3 decimal places)",
+    "solution": "Using go through line (starting from [latex] \\mathrm{P} [/latex] ) [latex]\n-2.05+0.1+1.655=-0.295\n [/latex] (means [latex] \\mathrm{R} [/latex] is 0.295 lower than [latex] \\mathrm{P} [/latex] )\n\n[latex] \\therefore \\quad \\mathrm{RL} [/latex] of [latex] \\mathrm{R}=200-0.295=199.705 [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page1_q5.webp",
+    "min": 199.704,
+    "max": 199.706
+  },
+  {
+    "type": "numerical",
+    "question": "Question 6 A child walks on a level surface from point [latex] P [/latex] to point [latex] \\mathrm{Q} [/latex] at a bearing of [latex] 30^{\\circ} [/latex], from point [latex] \\mathrm{Q} [/latex] to point [latex] R [/latex] at a bearing of [latex] 90^{\\circ} [/latex] and then directly returns to the starting point [latex] P [/latex] at a bearing of [latex] 240^{\\circ} [/latex]. The straightline paths [latex] P Q [/latex] and [latex] Q R [/latex] are [latex] 4 m [/latex] each. Assuming that all bearings are measured from the magnetic north in degrees, the straight-line path length RP (in meters) is ____(rounded off to the nearest integer)",
+    "solution": "[latex]\n\\begin{array}{c|c|c}\nLine & Length & Bearing \\\\\n\\hline\nPQ &  4 \\mathrm{~m}  &  30^{\\circ}  \\\\\nQR &  4 \\mathrm{~m}  &  90^{\\circ}  \\\\\nRP &  \\mathrm{L}  &  240^{\\circ}  \\\\\n\\end{array}\n[/latex] Closed traverse, [latex] \\Sigma \\mathrm{L}=0,4 \\cos 30^{\\circ}+4 \\cos 90^{\\circ}+\\mathrm{L} \\cos 240^{\\circ}=0 [/latex] [latex] \\therefore \\mathrm{L}=6.928 \\mathrm{~m} \\approx 7 \\mathrm{~m} [/latex]",
+    "min": 6.0,
+    "max": 8.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 To finalize the direction of a survey, four surveyors set up a theodolite at a station [latex] \\mathrm{P} [/latex] and performed all the temporary adjustments. From the station P, each of the surveyors observed the bearing to a tower located at station [latex] \\mathrm{Q} [/latex] with the same instrument without shifting it. The bearing observed by the surveyors are [latex] 30^{\\circ} 30^{\\prime} 00^{\\prime \\prime}, 30^{\\circ} 29^{\\prime} 40^{\\prime \\prime}, 30^{\\circ} 30^{\\prime} 20^{\\prime \\prime} [/latex] and [latex] 30^{\\circ} 31^{\\prime} 20^{\\prime \\prime} [/latex]. Assuming that each measurement is taken with equal precision, the most probable value of the bearing is",
+    "solution": "Most probable value with equal weightage [latex] =30^{\\circ}\\left[\\frac{30^{\\prime}+29^{\\prime} 40^{\\prime \\prime}+30^{\\prime} 20^{\\prime \\prime}+31^{\\prime} 20^{\\prime \\prime}}{4}\\right]=30^{\\circ} 30^{\\prime} 20^{\\prime \\prime} [/latex]",
+    "options": {
+      "A": "[latex] 30^{\\circ} 29^{\\prime} 40^{\\prime \\prime} [/latex]",
+      "B": "[latex] 30^{\\circ} 30^{\\prime} 20^{\\prime \\prime} [/latex]",
+      "C": "[latex] 30^{\\circ} 30^{\\prime} 00^{\\prime \\prime} [/latex]",
+      "D": "[latex] 30^{\\circ} 31^{\\prime} 20^{\\prime \\prime} [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 What is the CORRECT match between the survey instruments/parts of instruements shown in the table and the operations carried out with them? [latex]\n\\begin{array}{|l|l|}\n\\hline\n\\text{Instruments/Parts of \ninstruments} &   \\text{Operations} \\\\\n\\hline\n\\text{P.  Bubble tube} & \\text{i.  Tacheometry} \\\\\n\\text{Q.  Plumb bob} & \\text{ii.  Minor movements} \\\\\n\\text{R.  Tangent screw} & \\text{iii.  Centering} \\\\\n\\text{S.  Stadia cross-wire} & \\text{iv.  Levelling} \\\\\n\\hline\n\\end{array}\n[/latex]",
+    "solution": "Bubble tube is used for levelling Plumb bob is used for centering Tangent screw in theodolite is used for minor movements Stadia cross wire is used in Tacheometry",
+    "options": {
+      "A": "P-ii, Q-iii, R-iv, S-i",
+      "B": "P-iv, Q-iii, R-ii, S-i",
+      "C": "P-i, Q-iii, R-ii, S-iv",
+      "D": "P-iii, Q-iv, R-i, S-ii"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 For a reconnaissance survey, it is necessary to obtain vertical aerial photographs of a terrain at an average scale of 1:13000 using a camera. If the permissible flying height is assumed as 3000m above a datum and the average terrain elevation is 1050 m above the datum, the required focal length (in [latex] \\mathrm{mm} [/latex] ) of the camera is",
+    "solution": "[latex]\n\\text { Scale }=\\frac{1}{13000}\n [/latex] Flying height [latex] (\\mathrm{H})=3000 \\mathrm{~m} [/latex] Elevation [latex] (h)=1050 m [/latex] [latex]\n\\begin{aligned}\nS & =\\frac{f}{H-h} \\\\\n\\frac{1}{13000} & =\\frac{f}{3000-1050} \\\\\n\\therefore \\quad f & =0.15 m=150 \\mathrm{~mm}\n\\end{aligned}\n [/latex]",
+    "options": {
+      "A": "100",
+      "B": "150",
+      "C": "125",
+      "D": "200"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 A bird is resting on a point [latex]P [/latex] at a height of [latex]8 \\mathrm{~m} [/latex] above the Mean Sea Level (MSL). Upon hearing a loud noise, the bird flies parallel to the ground surface and reaches a point [latex]Q [/latex] which is located at a height of [latex]3 \\mathrm{~m} [/latex] above MSL. The ground surface has a falling gradient of 1 in 2. Ignoring the effects of curvature and refraction, the horizontal distance (in meters) between points [latex]P [/latex] and [latex]Q [/latex] is ____ (in integer).",
+    "solution": "For a falling gradient of 1 in 2 , [latex]\\therefore [/latex] For vertical distance of [latex]5 \\mathrm{~m} [/latex] between [latex]P [/latex] and [latex]Q [/latex], Horizontal distance between [latex]P [/latex] and [latex]Q [/latex] [latex]\n\\begin{aligned}\n& =5 \\times 2 \\\\\n& =10 \\mathrm{~m}\n\\end{aligned}\n [/latex]",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 A map is prepared with a scale of 1: 1000 and a contour interval of [latex]1 \\mathrm{~m} [/latex]. If the distance between two adjacent contours on the map is [latex]10 \\mathrm{~mm} [/latex], the slope of the ground between the adjacent contours is",
+    "solution": "Given, contour Interval [latex]=1 \\mathrm{~m} [/latex] Distance between contour in map [latex]=10 \\mathrm{~mm} [/latex] [latex]\n\\text { Map scale }=\\frac{1}{1000}\n [/latex] [latex]\\therefore \\quad [/latex] Distance between contour [latex]=10 \\times 1000 [/latex]\n\n[latex]\n=10,000 \\mathrm{~mm}\n [/latex] [latex]\\Rightarrow \\quad [/latex] Gradient [latex]=\\frac{\\text { Contour Interval }}{\\text { Distance between contour }} [/latex]\n\n[latex]=\\frac{1000 \\mathrm{~mm}}{10,000 \\mathrm{~mm}} [/latex]\n\n[latex]=\\frac{1}{10}=\\frac{1}{10} \\times 100=10 \\% [/latex]",
+    "options": {
+      "A": "[latex]30 \\% [/latex]",
+      "B": "[latex]10 \\% [/latex]",
+      "C": "[latex]35 \\% [/latex]",
+      "D": "[latex]40 \\% [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Among the following statements relating the fundamental lines of a transit theodolite, which one is CORRECT",
+    "solution": "Line of collimation must be perpendicular to\nhorizontal axis.",
+    "options": {
+      "A": "The line of collimation must be perpendicular to the horizontal axis at its intersection with the vertical axis.",
+      "B": "The axis of altitude level must be perpendicular to the line of collimation",
+      "C": "The axis of plate level must lie in a plane parallel to the vertical axis.",
+      "D": "The Vernier of vertical circle must read zero when the line of collimation is vertical."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 A surveyor observes a zenith angle of [latex] 93^{\\circ} 00^{\\prime} 00^{\\prime \\prime}[/latex] during a theodolite survey The corresponding vertical angle is",
+    "solution": "",
+    "options": {
+      "A": "[latex] -03^{\\circ} 00^{\\prime} 00^{\\prime \\prime}[/latex]",
+      "B": "[latex] +03^{\\circ} 00^{\\prime} 00^{\\prime \\prime}[/latex]",
+      "C": "[latex]- 87^{\\circ} 00^{\\prime} 00^{\\prime \\prime}[/latex]",
+      "D": "[latex]+ 87^{\\circ} 00^{\\prime} 00^{\\prime \\prime}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 If the number of sides resulting in a closed traverse is increased from three to four, the sum of the interior angles increases by",
+    "solution": "Sum of interior angles [latex] =(n-2) \\times 180^{\\circ}[/latex] So, sum of interior angles for 3 sides [latex] =(3-2) \\times 180^{\\circ}=180^{\\circ}[/latex] Now, sum of interior angles for 4 sides [latex] =(4-2) \\times 180^{\\circ}=360^{\\circ}[/latex] [latex]\\therefore[/latex]  Increase in sum of interior angles [latex] =360^{\\circ}-180^{\\circ}=180^{\\circ}[/latex]",
+    "options": {
+      "A": "[latex] 90^{\\circ}[/latex]",
+      "B": "[latex] 180^{\\circ}[/latex]",
+      "C": "[latex] 270^{\\circ}[/latex]",
+      "D": "[latex] 360^{\\circ}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 A delivery agent is at a location R. To deliver the order, she is instructed to travel to location [latex]P[/latex] along straight-line paths of [latex]\\mathrm{RC}, \\mathrm{CA}, \\mathrm{AB}[/latex] and [latex]\\mathrm{BP}[/latex] of [latex]5 \\mathrm{~km}[/latex] each. The direction of each path is given in the table below as whole circle bearings. Assume that the latitude (L) and departure (D) of [latex]R[/latex] is [latex](0,0) \\mathrm{km}[/latex]. What is the latitude and departure of [latex]P[/latex] (in km, rounded off to one decimal place)? [latex]\r\n\r\n\\begin{array}{|c|c|c|c|c|}\r\n\\hline\r\nPaths & RC & CA & AB & BP \\\\\r\n\\hline\r\n\\begin{array}{c}\\text {Directions} \\\\ \\text {(in degrees)}\\end{array} & 120 & 0 & 90 & 240 \\\\\r\n\\hline\r\n\\end{array}\r\n\r\n[/latex]",
+    "solution": "Latitude of ' [latex]C[/latex] ' [latex]=-5 \\sin 30^{\\circ}=-2.5 \\mathrm{Km}[/latex] Departure of ' [latex]C[/latex] ' [latex]=5 \\cos 30^{\\circ}=+4.33 \\mathrm{Km}[/latex] Latitude of ' [latex]\\mathrm{B}[/latex] ' [latex]=[/latex] Latitude of ' [latex]\\mathrm{C}[/latex] ' [latex]+5 \\mathrm{Km}[/latex]\n\n[latex]=-2.5+5=+2.5 \\mathrm{Km}[/latex] Departure of 'B' [latex]=[/latex] Departure of ' [latex]C[/latex] ' [latex]+5 \\mathrm{Km}[/latex]\n\n[latex]=+4.33+5=+9.33 \\mathrm{Km}[/latex] Latitude of ' [latex]P[/latex] ' = Latitude of ' [latex]B[/latex] ' [latex]-5 \\sin 30^{\\circ}[/latex]\n\n[latex]=+2.5-2.5=0[/latex] Departure of ' [latex]P[/latex] ' [latex]=[/latex] Departure of ' [latex]B[/latex] ' [latex]-5 \\sin 30^{\\circ}[/latex]\n\n[latex]=9.33-4.33=+5 \\mathrm{Km}[/latex] [latex]\\therefore \\quad \\mathrm{L}=0.0, \\quad \\mathrm{D}=5.0[/latex]",
+    "options": {
+      "A": "[latex]L=2.5 ; D=5.0[/latex]",
+      "B": "[latex]L=0.0 ; D=5.0[/latex]",
+      "C": "[latex]L=5.0 ; D=2.5[/latex]",
+      "D": "[latex]L=0.0 ; D=0.0[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 16 If the size of the ground area is [latex]6 \\mathrm{~km} \\times 3 \\mathrm{~km}[/latex] and the corresponding photo size in the aerial photograph is [latex]30 \\mathrm{~cm} \\times 15 \\mathrm{~cm}[/latex], then the scale of the photograph is 1 : ____ (in integer).",
+    "solution": "Scale of Photograph [latex](\\mathrm{S})=\\frac{\\text { Photo distance }}{\\text { Ground distance }}[/latex] For Length scale : [latex]\n\\begin{aligned}\nS & =\\frac{30 \\mathrm{~cm}}{6 \\mathrm{~cm}} \\\\\n& =\\frac{30 \\mathrm{~cm}}{60 \\times 10^{4} \\mathrm{~cm}}\n\\end{aligned}\n[/latex] [latex]\\Rightarrow \\quad \\mathrm{S}=\\frac{1}{20000}[/latex] For Breadth Scale : [latex]\n\\begin{aligned}\nS & =\\frac{15 \\mathrm{~cm}}{3 \\mathrm{Km}} \\\\\n& =\\frac{15 \\mathrm{~cm}}{30 \\times 10^{4} \\mathrm{~cm}}\n\\end{aligned}\n[/latex] [latex]\nS=\\frac{1}{20000}\n[/latex] [latex]\\therefore[/latex] Scale of photograph, [latex]S=1: 20000[/latex]",
+    "min": 20000.0,
+    "max": 20000.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 The magnetic bearing of the sun for a location at noon is [latex]183^{\\circ} 30^{\\prime}[/latex]. If the sun is exactly on the geographic meridian at noon, the magnetic declination of the location is ___",
+    "solution": "At any place 12 O'clock sun will be exactly over the true meridian of that place. Declination [latex]=183^{\\circ} 30^{\\prime}-180^{\\circ}=3^{\\circ} 30^{\\prime} \\mathrm{W}[/latex] Magnetic declination will be [latex]3^{\\circ} 30 \\mathrm{~W}[/latex].",
+    "options": {
+      "A": "[latex]3^{\\circ} 30^{\\prime} \\mathrm{W}[/latex]",
+      "B": "[latex]3^{\\circ} 30^{\\prime} \\mathrm{E}[/latex]",
+      "C": "[latex]93^{\\circ} 30^{\\prime} \\mathrm{W}[/latex]",
+      "D": "[latex]93^{\\circ} 30^{\\prime} \\mathrm{E}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18 Trigonometric levelling was carried out from two stations [latex]P[/latex] and [latex]Q[/latex] to find the reduced level (R.L.) of the top of hillock, as shown in the table. The distance between stations [latex]P[/latex] and [latex]Q[/latex] is [latex] 55 \\mathrm{~m}[/latex]. Assume stations [latex]P[/latex] and [latex]Q[/latex], and the hillock are in the same vertical plane. The R. L. of the top of the hillock  (in[latex]\\mathrm{m}[/latex] ) is _____ (round off to three decimal places) [latex]\r\n\\begin{array}{|l|l|l|l|}\r\n\\hline Station &\\begin{array}{c}\\text{Vertical} \\\\ \\text{angle of} \\\\\r\n\\text {the top of} \\\\ \\text{hillock }\\end{array} &\\begin{array}{c}\\text {Staff} \\\\ \\text{reading} \\\\\r\n\\text {on} \\\\ \\text{benchmark}\\end{array} &\\begin{array}{c}\\text {R.L. of} \\\\\r\n\\text {benchmark}\\end{array} \\\\\r\n\\hline P &18^{\\circ} 45^{\\prime} &2.340 \\mathrm{~m} &100.000 \\mathrm{~m} \\\\\r\n\\hline Q &12^{\\circ} 45^{\\prime} &1.660 \\mathrm{~m}& \\\\\r\n\\hline\r\n\\end{array}\r\n[/latex]",
+    "solution": "While taking reading from [latex]P[/latex], RL of hillock [latex]=H I_P+x \\tan 18^{\\circ} 45^{\\prime}[/latex] [latex]=100+2.34+x \\tan 18^{\\circ} 45^{\\prime}[/latex] While taking reading from [latex]Q[/latex]. [latex]\\mathrm{RL}[/latex] of hillock [latex]=\\mathrm{HI}_Q+(\\mathrm{x}+55) \\tan 12^{\\circ} 45^{\\prime}[/latex] [latex]=100+1.66+(x +55)\\tan 12^{\\circ} 45^{\\prime}[/latex] Equating both, [latex]100+2.34+x \\tan 18^{\\circ} 45^{\\prime}=100+1.66+(x +55)\\tan 12^{\\circ} 45^{\\prime}[/latex] [latex]2.34+0.339 x=1.66+12.445+0.226 x[/latex] [latex]\\therefore x=104.115[/latex] [latex]\\quad \\therefore \\quad[/latex] RL of hillock [latex]\r\n=100+2.34+104.115 \\tan 18^{\\circ} 45^{\\prime}\r\n[/latex] [latex]\r\n=137.682\r\n[/latex]",
+    "min": 137.5,
+    "max": 137.73
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 A student is scanning his 10 inch [latex]\\times [/latex] 10 inch certificate at 600 dots per inch (dpi) to convert it to raster. What is the percentage reduction in number of pixels if the same certificate is scanned at 300 dpi?",
+    "solution": "DPI = Dots Per Inch, it should be noted that DPI is not dots per square inch. [latex]\\%[/latex] reduction in number of pixels [latex]=\\frac{10 \\times 600 \\times 10 \\times 600-100 \\times 300 \\times 10 \\times 300}{10 \\times 600 \\times 10 \\times 600} \\times 100[/latex] [latex]=\\frac{600^{2}-300^{2}}{600^{2}} \\times 100[/latex] [latex]=75 \\%[/latex]",
+    "options": {
+      "A": "62",
+      "B": "88",
+      "C": "75",
+      "D": "50"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 The direct and reversed zenith angles observed by a theodolite are [latex]56^{\\circ} 00^{\\prime} 00^{\\prime \\prime}[/latex] and [latex]303^{\\circ} 00^{\\prime} 00^{\\prime \\prime}[/latex], respectively. What is the vertical collimation correction?",
+    "solution": "In above example of both direct zenith angle and reversed zerwith angle are smaller than true value. The error [latex](\\varepsilon)=\\left[\\frac{\\left(\\phi_{1}+\\phi_{2}\\right)-360}{2}\\right][/latex] [latex]\\therefore[/latex] here, error [latex]=\\frac{\\left(56^{\\circ}+303^{\\circ}\\right)-360^{\\circ}}{2}=-30^{\\prime}[/latex] [latex]\\therefore \\quad[/latex] Correction [latex]=+30^{\\prime}[/latex]",
+    "options": {
+      "A": "[latex]+1^{\\circ}00'00''[/latex]",
+      "B": "[latex]-1^{\\circ}00'00''[/latex]",
+      "C": "[latex]-0^{\\circ}30'00''[/latex]",
+      "D": "[latex]+0^{\\circ}30'00''[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 The error in measuring the radius of a 5 cm circular rod was 0.2%. If the\ncross-sectional area of the rod was calculated using this measurement, then the\nresulting absolute percentage error in the computed area is______.\n(round off to two decimal places)",
+    "solution": "[latex]\\begin{aligned}\r\nr&=5 \\\\\r\ne_r&=\\frac{0.2}{100} \\times 5=0.01cm  \\\\\r\nA&=\\pi r^2  \\\\\r\ne_A&=2 \\pi r.e_r  \r\n\\end{aligned} [/latex] Absolute perecentage error in computed area [latex]\\begin{aligned}\r\n&=\\frac{e_A}{A} \\times 100  \\\\\r\n&=\\frac{2 \\pi r.e_r}{\\pi r^2} \\times 100\\\\\r\n&=2 \\times \\left ( \\frac{e_r}{r} \\times 100 \\right )\\\\\r\n&=2 \\times 0.2=0.4\r\n\\end{aligned} [/latex]",
+    "min": 0.39,
+    "max": 0.41
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 If the magnetic bearing of the Sun at a place at noon is [latex]S2^{\\circ}E[/latex], the magnetic declination (in degrees) at that place is",
+    "solution": "[latex]MB=S2^{\\circ}E=180^{\\circ}-2^{\\circ}=178^{\\circ} [/latex] [latex]TB= 180^{\\circ}[/latex] Declination, \n[latex]\\delta =TB-MB=180-178=2^{\\circ} \\; or \\; 2^{\\circ}E [/latex]",
+    "options": {
+      "A": "[latex]2^{\\circ}E[/latex]",
+      "B": "[latex]2^{\\circ}W[/latex]",
+      "C": "[latex]4^{\\circ}E[/latex]",
+      "D": "[latex]4^{\\circ}W[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 The bearing of a survey line is [latex]N31^{\\circ}17'W[/latex]. Its azimuth observed from north is\n______ deg. (round off to two decimal places)",
+    "solution": "[latex] WCB=360-\\left ( 31+\\frac{17}{60} \\right )^{\\circ}=328.716^{\\circ} [/latex]",
+    "min": 328.6,
+    "max": 328.8
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 A line between stations P and Q laid on a slope of 1 in 5 was measured as 350 m using a 50 m tape. The tape is known to be short by 0.1 m. The corrected horizontal length (in m) of the line PQ will be",
+    "solution": "Horizontal distance of line [latex]PQ=350 \\cos \\theta =\\frac{350 \\times 5}{\\sqrt{26}}=343.20m[/latex] Tape is 0.1 m short. Nominal length of tape,[latex] l = 50 m[/latex] Actual length of tape, [latex]l' = 50 - 0.1 = 49.9 m[/latex] Corrected horizontal length of line PQ [latex]\\begin{aligned}\n&=\\left ( \\frac{l'}{l} \\right ) \\times 343.2\\\\\n&=\\left ( \\frac{49.9}{50} \\right )\\times 343.2\\\\\n&=342.517\\simeq 342.52m\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "342.52",
+      "B": "349.3",
+      "C": "356.2",
+      "D": "350.7"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 An aerial photograph is taken from a flight at a height of 3.5 km above mean\nsea level, using a camera of focal length 152 mm. If the average ground\nelevation is 460 m above mean sea level, then the scale of the photograph is",
+    "solution": "[latex]\\begin{aligned}\nH &=3.5Km=3500m\\\\ \n f&=152mm \\\\ \n h_{avg}&=460m \\\\ \n Scale&=\\frac{f}{H-h_{avg}} \\\\ \n &= \\frac{152 \\times 10^{-3}}{3500-460}\\\\\n&=\\frac{1}{20000}\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "1 : 20000",
+      "B": "01:20",
+      "C": "1 : 100000",
+      "D": "1.986111111"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 For a given traverse, latitudes and departures are calculated and it is found that sum of latitudes is equal to +2.1 m and the sum of departures is equal to -2.8 m. The length and bearing of the closing error, respectively, are",
+    "solution": "[latex]\\begin{aligned} e_{L} &=+2.1 \\mathrm{~m} \\\\ e_{D} &=-2.8 \\mathrm{~m} \\\\ e &=\\sqrt{e_{L}^{2}+e_{D}^{2}} \\\\ &=\\sqrt{(2.1)^{2}+(2.8)^{2}}=3.5 \\mathrm{~m} \\\\ \\text { Bearing of closing error } &=\\tan ^{-1}\\left(\\frac{e_{D}}{e_{L}}\\right) \\\\ &=\\tan ^{-1}\\left(\\frac{-2.8}{2.1}\\right)=-53.13^{\\circ} \\\\ &=53^{\\circ} 7^{\\prime} 48^{\\prime \\prime} \\mathrm{NW} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]3.50 \\mathrm{~m} \\text { and } 53^{\\circ} 7^{\\prime} 48^{\\prime \\prime} \\mathrm{NW}[/latex]",
+      "B": "[latex]2.45 \\mathrm{~m} \\text { and } 53^{\\circ} 7^{\\prime} 48^{\\prime \\prime} \\text { NW }[/latex]",
+      "C": "[latex]0.35 \\mathrm{~m} \\text { and } 53.13^{\\circ} \\mathrm{SE}[/latex]",
+      "D": "[latex]3.50 \\mathrm{~m} \\text { and } 53.13^{\\circ} \\mathrm{SE}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 A horizontal angle [latex]\\theta[/latex] is measured by four different surveyors multiple times and the values reported are given below. [latex]\\begin{array}{|c|c|c|} \\hline \\text { Surveyor } & \\text { Angle } \\theta & \\text { Number of observations } \\\\ \\hline 1 & 36^{\\circ} 30^{\\prime} & 4 \\\\ \\hline 2 & 36^{\\circ} 00^{\\prime} & 3 \\\\ \\hline 3 & 35^{\\circ} 30^{\\prime} & 8 \\\\ \\hline 4 & 36^{\\circ} 30^{\\prime} & 4 \\\\ \\hline \\end{array}[/latex] he most probable value of the angle [latex]\\theta[/latex] ( in degree, round off to two decimal placesis ________",
+    "solution": "[latex]\\begin{aligned} \\mathrm{MPV} &=\\frac{\\left(36^{\\circ} 30^{\\prime} \\times 4\\right)+\\left(36^{\\circ} \\times 3\\right)+\\left(35^{\\circ} 30^{\\prime} \\times 8\\right)+\\left(36^{\\circ} 30^{\\prime} \\times 4\\right)}{4+3+8+4} \\\\ &=36^{\\circ} \\end{aligned}[/latex]",
+    "min": 36.0,
+    "max": 36.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 In general, the CORRECT sequence of surveying operations is",
+    "solution": "Reconnaissance[latex]\\rightarrow[/latex]Field observations[latex]\\rightarrow[/latex]Data analysis[latex]\\rightarrow[/latex]Map making",
+    "options": {
+      "A": "Field observations[latex]\\rightarrow[/latex]\nReconnaissance[latex]\\rightarrow[/latex]\nData analysis[latex]\\rightarrow[/latex]\nMap making",
+      "B": "Data analysis[latex]\\rightarrow[/latex]\n Reconnaissance[latex]\\rightarrow[/latex]\nField observations [latex]\\rightarrow[/latex]\n Map making",
+      "C": "Reconnaissance[latex]\\rightarrow[/latex]\nField observations [latex]\\rightarrow[/latex]\nData analysis [latex]\\rightarrow[/latex]\nMap making",
+      "D": "Reconnaissance[latex]\\rightarrow[/latex]\n Data analysis [latex]\\rightarrow[/latex]\nField observations [latex]\\rightarrow[/latex]\n Map making"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 Traversing is carried out for a closed traverse PQRS. The internal angles at vertices P, Q, R and S are measured as [latex]92^{\\circ} [/latex],[latex]68^{\\circ} [/latex],[latex]123^{\\circ} [/latex] and [latex]77^{\\circ} [/latex], respectively. If fore bearing of line PQ is [latex]27^{\\circ} [/latex], fore bearing of line RS (in degrees, in integer) is _________",
+    "solution": "[latex]\\begin{array}{l} Q=\\left[\\begin{array}{l} B B \\text { of } P Q=27^{\\circ}+180^{\\circ}=207^{\\circ} \\\\ F B \\text { of } Q R=207^{\\circ}-68^{\\circ}=139^{\\circ} \\end{array}\\right. \\\\ R=\\left[\\begin{array}{l} B B \\text { of } Q R=139^{\\circ}+180^{\\circ}=319^{\\circ} \\\\ F B \\text { of } R S=319^{\\circ}-123^{\\circ}=196^{\\circ} \\end{array}\\right. \\end{array}[/latex] [latex]\\begin{array}{l} Q=\\left[\\begin{array}{l} B B \\text { of } P Q=27^{\\circ}+180^{\\circ}=207^{\\circ} \\\\ F B \\text { of } Q R=207^{\\circ}+68^{\\circ}=275^{\\circ} \\end{array}\\right. \\\\ R=\\left[\\begin{array}{l} B B \\text { of } Q R=275^{\\circ}-180^{\\circ}=95^{\\circ} \\\\ F B \\text { of } R S=95^{\\circ}+123^{\\circ}=218^{\\circ} \\end{array}\\right. \\end{array}[/latex]",
+    "min": 218.0,
+    "max": 218.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Which of the following is/are correct statement(s)?",
+    "solution": "The principal of fixed hair tacheometry is that distances are proportional to staff intercept. As distance increase, staff intercept also increases.",
+    "options": {
+      "A": "Back Bearing of a line is equal to Fore Bearing [latex]\\pm 180^{\\circ}[/latex]",
+      "B": "If the whole circle bearing of a line is [latex]270^{\\circ}[/latex], its reduced bearing is [latex]90^{\\circ} \\mathrm{NW}[/latex]",
+      "C": "The boundary of water of a calm water pond will represent contour line",
+      "D": "In the case of fixed hair stadia tachometry, the staff intercept will be larger, when the staff is held nearer to the observation point"
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 Which of the following is NOT a correct statement?",
+    "solution": "First reading from level station is called BS.",
+    "options": {
+      "A": "The first reading from a level station is a 'Fore Sight'",
+      "B": "Basic principle of surveying is to work from whole to parts",
+      "C": "Contours of different elevations may intersect each other in case of an overhanging cliff",
+      "D": "Planimeter is used for measuring 'area'"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 A theodolite is set up at station A. The RL of instrument axis is 212.250 m. The angle\nof elevation to the top of a 4 m long staff, held vertical at station B, is [latex]7^{\\circ}[/latex]. The horizontal\ndistance between station A and B is 400 m. Neglecting the errors due to curvature of\nearth and refraction, the RL (in m, round off to three decimal places) of station B is\n__________",
+    "solution": "[latex]\\begin{aligned} V&=400 \\tan 7^{\\circ}\\\\ &=49.113\\\\ x&=(49.113-4)=45.113\\\\ RL_B&=212.25+45.113\\\\ &=257.363m \\end{aligned}[/latex]",
+    "min": 257.2,
+    "max": 257.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 The diameter and height of a right circular cylinder are 3 cm and 4 cm, respectively.\nThe absolute error in each of these two measurements is 0.2 cm. The absolute error in\nthe computed volume (in [latex]cm^3[/latex], round off to three decimal places), is _______.",
+    "solution": "Let diameter, x = 3 and height = y = 4 and error= [latex]\\pm 0.2[/latex] [latex]\\begin{aligned} V&= \\pi\\left ( \\frac{x}{2} \\right )^2y=\\frac{\\pi x^2 y}{4}\\\\ V&=f(x,y) \\\\ dV&= \\left ( \\frac{\\partial V}{\\partial x} \\right )dx +\\left ( \\frac{\\partial V}{\\partial y} \\right )dy\\\\ dV&= \\left ( \\frac{1}{2}\\pi xy \\right )dx +\\left ( \\frac{\\pi x^2}{4} \\right )dy\\\\ &= \\frac{1}{2} \\pi \\times 3 \\times 4 \\times (0.2)+\\frac{\\pi}{4} \\times (3)^2 \\times (0.2)\\\\ &= 1.65 \\pi\\\\ &=1.65 \\times 3.14=5.18 \\end{aligned}[/latex] i.e., absolute error = |5.18| = 5.18",
+    "min": 5.18,
+    "max": 5.2
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 A theodolite was set up at a station P. The angle of depression to a vane 2 m above\nthe foot of a staff held at another station Q was [latex]45^{\\circ}[/latex]. The horizontal distance between\nstations P and Q is 20 m. The staff reading at a benchmark S of RL 433.050 m\nis 2.905 m. Neglecting the errors due to curvature and refraction, the RL of the station Q (in m), is",
+    "solution": "[latex]\\begin{aligned} \\frac{x}{20}&=\\tan 45^{\\circ}\\\\ x&=20m\\\\ RL \\; of \\; Q&=433.05+2.905-x-2\\\\ &=433.05+2.905-20-2\\\\ &=413.955m \\end{aligned}[/latex]",
+    "options": {
+      "A": "413.05",
+      "B": "413.955",
+      "C": "431.05",
+      "D": "435.955"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 The length and bearings of a traverse PQRS are: The length of line segment SP (in m, round off to two decimal places), is ________.",
+    "solution": "[latex]\\begin{aligned} \\Delta L&= 40 \\cos 80^{\\circ}+50 \\cos 10^{\\circ}+30 \\cos 210^{\\circ}\\\\ &=30.20 \\\\ \\Delta D&=40 \\sin 80^{\\circ}+50 \\sin 10^{\\circ}+30 \\sin 210^{\\circ} \\\\ &=33.07 \\\\ \\text{Length, \\; SP}&=\\sqrt{\\Delta L^2+\\Delta D^2}\\\\ &=44.79m \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page7_q5.webp",
+    "min": 44.0,
+    "max": 45.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 An open traverse PQRST is surveyed using theodolite and the consecutive coordinates\nobtained are given in the table If the independent coordinates (Northing, Easting) of station P are (400 m, 200 m) the\nindependent coordinates (in m) of station T, are",
+    "solution": "[latex]\\begin{aligned} \\Delta L &=-5.3 \\\\ \\Delta D&=-29.9 \\\\ T, \\; \\text{Northing}&\\{400+(-5.3)\\}=394.7 \\\\ T, \\; \\text{Easting}&\\{200+(-29.9)\\}=170.1\\\\ &T[394.7m, 170.1m] \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page8_q1.webp",
+    "options": {
+      "A": "194.7, 370.1",
+      "B": "205.3, 429.9",
+      "C": "394.7, 170.1",
+      "D": "405.3, 229.9"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 A series of perpendicular offsets taken from a curved boundary wall to a straight survey line at an interval of 6m are 1.22, 1.67, 2.04, 2.34, 2.14, 1.87, and 1.15 m. The area (in [latex]m^2[/latex], round off to 2 decimal places) bounded by the survey line, curved boundary wall, the first and the last offsets, determined using Simpson's rule, is _______",
+    "solution": "Area by Simpson's rule [latex]\\begin{aligned} A&=\\frac{d}{3}[h_0+h_n+4(h_1+h_3+...)+\\\\ & 2(h_2+h_4+...)] \\\\ &= \\frac{6}{3}[1.22+1.15+4 \\times(1.67+2.34+1.87)+\\\\ & 2(2.04+2.14)]\\\\ &= 68.50m^2 \\end{aligned}[/latex]",
+    "min": 67.0,
+    "max": 70.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 A camera with a focal length of 20 cm fitted in an aircraft is used for taking vertical aerial photographs of a terrain. The average elevation of the terrain is 1200 m above mean sea level (MSL). What is the height above MSL at which an aircraft must fly in order to get the aerial photographs at a scale of 1:8000?",
+    "solution": "Given focal length = 20 cm as we know scale of vertical photograph [latex]=\\frac{f}{H-h_{avg}}[/latex] its given as 1 : 8000 Hence, [latex]\\begin{aligned} \\frac{f}{H-h_{avg}} &=\\frac{1}{8000} \\\\ \\frac{20 cm}{(H-1200) \\times 100cm}&=\\frac{1}{8000} \\\\ \\Rightarrow \\;\\;H &=2800m \\end{aligned}[/latex]",
+    "options": {
+      "A": "2600 m",
+      "B": "2800 m",
+      "C": "3000 m",
+      "D": "3200 m"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 Consider the hemi-spherical tank of radius 13 m as shown in the figure. What is the volume of water (in [latex]m^3[/latex]) when the depth of water at the centre of the tank is 6 m?",
+    "solution": "[latex]\\begin{aligned} \\text{Volume of water}&=\\frac{1}{3}\\pi h^2(3r-h)\\\\ &=\\frac{1}{3}\\pi \\times 6^2 \\times (3 \\times 13 -6)\\\\ &=396\\pi \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page8_q4.webp",
+    "options": {
+      "A": "[latex]78 \\pi[/latex]",
+      "B": "[latex]156 \\pi[/latex]",
+      "C": "[latex]396 \\pi[/latex]",
+      "D": "[latex]468 \\pi[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 The data from a closed traverse survey PQRS (run in the clockwise direction) are given in the table The closing error for the traverse PQRS (in degrees) is ___",
+    "solution": "Assuming it as anticlockwise traverse. Mathematically sum of interior angle for a closed traverse\n[latex]=(2n-4)\\times 90 = (2 \\times 4 -4) \\times 90 = 360^{\\circ}[/latex] Given sum of interior angles,\n[latex]= 88 + 92 + 94 + 89 = 363^{\\circ}[/latex] Then error in interior angle [latex]= 363 - 360 = 3^{\\circ}[/latex] Note: In this question as per clockwise traverse included angle should be taken as exterior angle. But if we take exterior angle then we get all interior angles more than\n[latex]180^{\\circ}[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page8_q5.webp",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 A staff is placed on a benchmark (BM) of reduced level (RL) 100.000 m and a theodolite is placed at a horizontal distance of 50 m from the BM to measure the vertical angles. The measured vertical angles from the horizontal at the staff readings of 0.400 m and 2.400 m are found to be the same. Taking the height of the instrument as 1.400m, the RL (in m) of the theodolite station is _____",
+    "solution": "[latex]\\begin{aligned} x&=50 \\tan \\alpha \\\\ 2-x&=50 \\tan \\alpha \\\\ \\therefore \\;\\;x&=2-x \\\\ 2x&=2 \\\\ x&=1m \\end{aligned}[/latex] R.L of theodolite station (P): 100 + 1.4 - 0.1 - 0.4 = 100 m",
+    "min": 100.0,
+    "max": 100.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 The interior angles of four triangles are given below: Which of the triangles are ill-conditioned and should be avoided in Triangulation surveys?",
+    "solution": "For an ill conditioned traingle in triangulation survey, any angle can be less than [latex]30^{\\circ}[/latex], and can be greater than [latex]120^{\\circ}[/latex]. For traingles Q and S, the above condition is valid.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page9_q2.webp",
+    "options": {
+      "A": "Both P and R",
+      "B": "Both Q and R",
+      "C": "Both P and S",
+      "D": "Both Q and S"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 An aerial photograph of a terrain having an average elevation of 1400 m is taken at a scale of 1:7500. The focal length of the camera is 15 cm. The altitude of the flight above mean sea level (in m, up to one decimal place) is ______",
+    "solution": "[latex]\\begin{aligned} h &=1400 \\mathrm{m} \\\\ \\text { Scale } &=1: 7500 \\\\ f &=15 \\mathrm{cm} \\\\ \\text { Scale } &=\\frac{f}{H-h} \\\\ \\Rightarrow\\quad \\frac{1}{7500} &=\\frac{15 \\times 10^{-2}}{H-1400} \\\\ \\Rightarrow\\quad H &=2525 \\mathrm{m} \\end{aligned}[/latex]",
+    "min": 2520.0,
+    "max": 2530.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 A level instrument at a height of 1.320 m has been placed at a station having a Reduced Level (RL) of 112.565 m. The instrument reads -2.835 m on a levelling staff held at the bottom of a bridge deck. The RL (in m) of the bottom of the bridge deck is",
+    "solution": "[latex]\\begin{aligned} &\\text { RL of bottom of bridge deck }\\\\ &=112.565+1.320+(2.835)\\\\ &=116.720 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "116.72",
+      "B": "116.08",
+      "C": "114.08",
+      "D": "111.05"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 A square area (on the surface of the earth) with side 100 m and uniform height, appears as 1 [latex]cm^{2}[/latex] on a vertical aerial photograph. The topographic map shows that a contour of 650 m passes through the area. If focal length of the camera lens is 150 mm, the height from which the aerial photograph was taken, is",
+    "solution": "[latex]\\begin{aligned} A&=100 \\times 100 \\mathrm{m}^{2}\\\\ \\text { Area on photo, }\\\\ a &=1 \\mathrm{cm}^{2} \\\\ \\text { Scale } \\quad 1 \\mathrm{cm} &=100 \\mathrm{m} \\\\ f &=150 \\mathrm{mm} \\\\ h &=650 \\mathrm{m} \\\\ \\text { Scale } \\quad &=\\frac{1}{100}=\\frac{1}{100 \\times 10^{2}}\\\\ &=\\frac{1}{10000}=\\frac{f}{H-h}\\\\ \\Rightarrow \\quad \\frac{1}{10000}&=\\frac{150 \\times 10^{-3}}{H-650} \\\\ \\Rightarrow \\quad H&=2150 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "800 m",
+      "B": "1500 m",
+      "C": "2150 m",
+      "D": "3150 m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 The following details refer to a closed traverse: The length and direction (whole circle bearing) of closure, respectively are",
+    "solution": "[latex]\\begin{aligned} \\text { Latitude }_{P Q} &=L_{P Q}=-437 \\mathrm{m} \\\\ L_{S P} &=-83 \\mathrm{m} \\\\ L_{O R} &=+101 \\mathrm{m}\\\\ L_{R S} &=+419 \\mathrm{m} \\\\ \\Sigma \\text { Latitudes } &=-437-83+101+419 \\\\ &=0 \\mathrm{m} \\\\ \\text { Departure }_{P O} &=D_{P O}=+173 \\mathrm{m} \\\\ D_{O R} &=+558 \\mathrm{m} \\\\ D_{8 S} &=-96 \\mathrm{m} \\\\ D_{S P} &=-634 \\mathrm{m} \\end{aligned}[/latex] [latex] \\Sigma[/latex] Departures =1 m For closure of traverse [latex] \\Sigma[/latex] Latitude =0 [latex] \\Sigma [/latex] Departure =0 Then, Departure of closure =-1 m, Latitude of closure =0 So the length and direction (whole circle bearing of closure is 1m and [latex]270^{\\circ}[/latex] respectively.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page10_q1.webp",
+    "options": {
+      "A": "1 m and [latex]90^{\\circ}[/latex]",
+      "B": "2 m and  [latex]90^{\\circ}[/latex]",
+      "C": "1 m and [latex]270^{\\circ}[/latex]",
+      "D": "2 m and [latex]270^{\\circ}[/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 An observer standing on the deck of a ship just sees the top of a lighthouse. The top of the lighthouse is 40 m above the sea level and the height of the observer's eye is 5 m above the sea level. The distance (in km, up to one decimal place) of the observer form the lighthouse is____",
+    "solution": "Distance of observer trom the lighthouse, [latex] \\begin{aligned} d &=d_{1}+d_{2} \\\\ &=3.865\\left(\\sqrt{h_{1}}+\\sqrt{h_{0}}\\right) \\\\ &=3.865(\\sqrt{5}+\\sqrt{40}) \\\\ &=33.0012 \\mathrm{km} \\end{aligned}[/latex]",
+    "min": 32.5,
+    "max": 33.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 Two towers A and B, standing vertically on a horizontal ground, appear in a vertical aerial\nphotograph as shown in the figure. The length of the image of the tower A on the photograph is1.5 cm and of the tower B is 2.0\ncm. The distance of the top the tower A (as shown by the arrowhead) is 4.0 cm and the\ndistance of the top of the tower B is 6.0 cm, as measured form the principal point p of the\nphotograph. If the height of the tower B is 80 m, the height (in meters) of the tower A is_____",
+    "solution": "For Tower A: Reliet displacement, [latex] \\begin{array}{l} d_{A}=1.5 \\mathrm{cm} \\\\ r_{A}=4 \\mathrm{cm} \\\\ h_{A}=? \\end{array}[/latex] For Tower B: Relier displacement. [latex] \\begin{array}{l} d_{B}=2.0 \\mathrm{cm} \\\\ r_{B}=6 \\mathrm{cm} \\\\ h_{B}=80\\mathrm{m} \\end{array}[/latex] Reliet displacement. [latex] \\begin{aligned} D&=\\frac{h.r}{\\left(H-h_{\\text{avg}} \\right )}\\\\ \\text{For A:}d_{A}&=\\frac{h_{A}.r_{A}}{\\left(H-h_{\\text{avg}} \\right )}\\\\ 1.5&=\\frac{h_{A}\\times 4}{240}\\\\ h_{A}&=90m\\\\ \\text{For B: }d_{B}&=\\frac{h_{B}.r_{B}}{\\left(H-h_{\\text{avg}} \\right )}\\\\ \\Rightarrow \\quad 2&=\\frac{80\\times 6}{\\left(H-h_{\\text{avg}} \\right )}\\\\ \\Rightarrow \\left(H-h_{\\text{avg}} \\right )&=240m \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page10_q3.webp",
+    "min": 89.0,
+    "max": 91.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 The VPI (vertical point of intersection) is 100 m away (when measured along the horizontal) from the VPC (vertical point of curvature). If the vertical curve is parabolic, the length of the curve (in meters and measured along the horizontal) is______",
+    "solution": "[latex]L_{2}=2\\times 100=200m[/latex]",
+    "min": 199.99,
+    "max": 200.01
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 The method of orientation used, when the plane table occupies a position not yet located on the map, is called as",
+    "solution": "",
+    "options": {
+      "A": "traversing",
+      "B": "radiation",
+      "C": "levelling",
+      "D": "resection"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 The observed bearings of a traverse are given below: The stations(s) most likely to be affected by the local attraction is/are",
+    "solution": "As per GATE official Answer key MTA( Marks to ALL) Station R is most likely to be affected.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page11_q1.webp",
+    "options": {
+      "A": "Only R",
+      "B": "Only S",
+      "C": "R and S",
+      "D": "P and Q"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 The number of spectral bands in the Enhanced Thematic Mapper sensor on the remote sensing satellite Landsat-7 is",
+    "solution": "Total number of spectrum band in Enhanced \r\nThematic Mapper sender =8",
+    "options": {
+      "A": "64",
+      "B": "10",
+      "C": "8",
+      "D": "15"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 The accuracy of an Electronic Distance Measuring Instrument (EDMI) is specified as [latex]\\pm[/latex]( a mm + b ppm). Which one of the following statements is correct?",
+    "solution": "Accuracy of EDMI is generally stated in terms \r\nof constant instruments error and a measuring \r\nerror proportional to the distance being measured: [latex]\\pm [/latex](a mm + b ppm). The first part indicates a \r\nconstant instrument error that is independent of \r\nthe length of the line measured. The second \r\ncomponent is the distance related error.",
+    "options": {
+      "A": "Both a and b remain constant, irrespective of the distance being measured.",
+      "B": "a remains constant and b varies in proportion to the distance being measured.",
+      "C": "a varies in proportion to the distance being measured and b remains constant.",
+      "D": "Both a and b vary in proportion to the distance being measured."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 A tall tower was photographed from an elevation of 700 m above the datum. The radial distances of the top and bottom of the tower from the principal points are 112.50 mm and 82.40 mm, respectively. If the bottom of the tower is at an elevation 250 m above the datum, then the height (expressed in m) of the tower is _____.",
+    "solution": "Given [latex] H=700 \\mathrm{m}_{1} h_{\\text {avg }}=250[/latex] Relief distance, [latex] \\begin{aligned} d&=f_{1}=1 \\\\ &=112.5-82.40=30.1 \\mathrm{mm}\\\\ \\therefore\\quad d&=\\frac{h_{1}}{H=h_{a v}}\\\\ &[\\text{where his height of tower}]\\\\ \\Rightarrow \\quad 30.1&=\\frac{h \\times 112.5}{100=250} \\\\ \\therefore \\quad h&=120.4 \\mathrm{mm} \\end{aligned}[/latex]",
+    "min": 120.0,
+    "max": 121.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 A circular curve of radius R connects two straights with a deflection angle of [latex]60^{\\circ}[/latex]. The tangent length is",
+    "solution": "Tangent length, [latex]\r\n V T_{1}=R \\tan \\frac{\\Delta}{2}=R \\tan 30^{\\circ}=0.577 R [/latex]",
+    "options": {
+      "A": "0.577 R",
+      "B": "1.155 R",
+      "C": "1.732 R",
+      "D": "3.464 R"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 The reduced bearing of a 10 m long line is [latex]N30^{\\circ}E[/latex]. The departure of the line is",
+    "solution": "The departure of the line, [latex]\n\\begin{aligned}\nD &=l \\sin \\theta \\\\\n&=10 \\sin 30^{\\circ} \\\\\n&=\\frac{10}{2}=5 \\mathrm{m}\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "10.00 m",
+      "B": "8.66 m",
+      "C": "7.52 m",
+      "D": "5.00 m"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Optimal flight planning for a photogrammetric survey should be carried out considering",
+    "solution": "",
+    "options": {
+      "A": "only side-lap",
+      "B": "only end-lap",
+      "C": "either side-lap or end-lap",
+      "D": "both side-lap as well as end-lap"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 58 The vertical angles subtended by the top of a tower T at two instrument stations set up at P and Q, are shown in the figure. The two stations are in line with the tower and spaced at a distance of 60m. Readings taken from these two stations on a leveling staff placed at the benchmark (BM = 450.000 m) are also shown in the figure. The reduced level of the top of the tower T (expressed in m) is _____ .",
+    "solution": "[latex]\\begin{aligned} \\ln \\Delta B E T \\\\ \\tan 16.5^{\\circ}&=\\frac{x}{y}\\\\ \\Rightarrow \\quad y&=3.3759 x &\\ldots(i)\\\\ In \\triangle A O T \\\\ \\tan 10.5&=\\frac{x+2}{60+y}&\\ldots(ii) \\end{aligned}[/latex] Put value of y in eq. (ii) [latex] \\begin{aligned} 0.1853&=\\frac{x+2}{60+3.3759 x} \\\\ 11.1203+&0.6255 x=x+2 \\\\ x=& 24.3588 \\mathrm{m} \\end{aligned}[/latex] So, the reduced level of tower [latex] \\begin{aligned} T&=450.000+2.555+24.358\\\\ &=476.911 \\mathrm{m} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page12_q3.webp",
+    "min": 476.5,
+    "max": 477.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 The staff reading taken on a workshop floor using a level is 0.645 m. The inverted staff reading taken to the bottom of a beam is 2.960 m. The reduced level of the floor is 40.500 m. The reduced level (expressed in m) of the bottom of the beam is",
+    "solution": "Height of instrument, HI A.L. of floor + stall reading from floor [latex] \\begin{array}{l} =40.500+0.645 \\\\ =41.145 \\mathrm{m} \\end{array}[/latex] R.L. of bottom of beam =H / 4 inverted staff reading taken from bottom of beam [latex] \\begin{array}{l} =41.145+2.800 \\\\ =44.105 \\mathrm{m} \\end{array}[/latex]",
+    "options": {
+      "A": "44.105",
+      "B": "43.46",
+      "C": "42.815",
+      "D": "41.145"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 The system that uses the Sun as a source of electromagnetic energy and records the naturally radiated and reflected energy from the object is called",
+    "solution": "The sun provide a very convenient source of energy for remote sensing. The Sun e energy is either refleoted, as it is tor visible wavelengths, of absorbed and then re-emitted, as it is for themal intrared wavelengths, Remote sensing system which measure energy le. naturally available are called as passive remote sensing.",
+    "options": {
+      "A": "Geographical Information System",
+      "B": "Global Positioning System",
+      "C": "Passive Remote Sensing",
+      "D": "Active Remote Sensing"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 The minimum number of satellites needed for a GPS to determine its position precisely is",
+    "solution": "At a minimum, four satellite must be in view of the receiver tor it to compute four unknown quantity (three position eoordinate and one for clock deviation trom satellite time).",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "24"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 62 Two pegs A and B were fixed on opposite banks of a 50m wide river. The level was set up at A and the staff readings on Pegs A and B were observed as 1.350 m and 1.550 m, respectively. Thereafter the instrument was shifted and set up at B. The staff readings on Pegs B and A were observed as 0.750 m and 0.550 m, respectively. If the R.L. of Peg A is 100.200 m, the R.L. (in m) of Peg B is _____",
+    "solution": "Staff readings shows that station B is below station A [latex] \\begin{aligned} a_{1} &=1.350 \\\\ a_{2} &=0.550 \\\\ b_{1} &=1.550 \\\\ b_{2} &=0.750 \\\\ h_{18} &=\\frac{\\left(b_{1}-a_{1}\\right)+\\left(b_{2}-a_{2}\\right)}{2} \\\\ &=\\frac{(1.550-1.350)+(0.750-0.550)}{2} \\\\ &=0.200\\\\ \\text{RL of }B&=\\text{RL of A}-0.200 \\\\ &=100.200-0.200 \\\\ &=100.000 \\mathrm{m} \\end{aligned}[/latex]",
+    "min": 100.0,
+    "max": 100.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 The bearings of two inaccessible stations, [latex]S_{1}[/latex] (Easting 500 m, Northing 500 m) and [latex]S_{2}[/latex] (Easting 600 m, Northing450 m) from a station [latex]S_{3}[/latex] were observed as [latex]225^{\\circ}[/latex] and [latex]153^{\\circ}{26}'[/latex] respectively. The independent Easting (in m) of station [latex]S_{3}[/latex] is:",
+    "solution": "[latex]Let S_{1} S_{3}=l_{1}\\text{ and }S_{2} S_{3}=l_{2} [/latex] Northing of [latex]\\mathrm{S}_{3}: [/latex] [latex] \\begin{aligned} &500+l_{1} \\cos 45^{\\circ}=450+l_{2} \\cos 26^{\\circ} 34^{\\prime} \\\\ &l_{1} \\cos 45^{\\circ}-l_{2} \\cos 26^{\\circ} 34^{\\prime}=-50 &\\ldots(i) \\end{aligned}[/latex] Easting of [latex]\\mathrm{S}_{3}: [/latex] [latex] \\begin{aligned} 500+l_{1} \\sin 45^{\\circ}=600-l_{2} \\sin 26^{\\circ} 34^{\\prime} \\\\ l_{1} \\sin 45^{\\circ}+l_{2} \\sin 26^{\\circ} 34^{\\prime}=100 &\\ldots(ii) \\end{aligned}[/latex] Solving eq. (i) and eq. (ii), [latex] \\begin{aligned} l_{1}&=70.707 \\\\ l_{2}&=111.802 \\end{aligned}[/latex] [latex] \\therefore \\quad[/latex] Easting of [latex]S_{3}=500+70.707 \\sin 45^{\\circ} [/latex] [latex] =550 \\mathrm{m}[/latex]",
+    "options": {
+      "A": "450",
+      "B": "570",
+      "C": "550",
+      "D": "650"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 The combined correction due to curvature and refraction (in m) for distance of 1 km on the surface of Earth is",
+    "solution": "Correction due to curvature, [latex] C_{c}=-0.0785 d^{2}[/latex] Correction due to refraction, [latex] C_{f}=+0.0112 d^{2}[/latex] [latex] \\therefore [/latex] Composite correction [latex] \\begin{aligned} C &=-0.0785 d^{2}+0.0112 d^{2} \\\\ &=-0.0673 d^{2} \\end{aligned}[/latex] where d is in km, C is in m. [latex] \\Rightarrow \\quad C=0.0673 \\times 1^{2}=0.0673 \\mathrm{m}[/latex]",
+    "options": {
+      "A": "0.0673",
+      "B": "0.673",
+      "C": "7.63",
+      "D": "0.763"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 65 In a leveling work, sum of the Back Sight (B.S.) and Fore Sight (F.S.) have been found to be 3.085 m and 5.645 m respectively. If the Reduced Level (R.L.) of the starting station is 100.000 m, the R.L. (in m) of the last station is _______.",
+    "solution": "Using Rise and Fall method [latex] \\begin{aligned} \\Sigma F S, &>\\Sigma B . S \\\\ \\therefore \\text { Fall }&=\\Sigma F . S,-\\Sigma B . S .=R . L, \\text { of first }\\\\ &\\text{station - R.L, of last station}\\\\ &=5.645-3.085=2.56 \\mathrm{m}\\\\ R.L.\\text{ (last station) }&= R.L.\\text{ (firet station) - Fall}\\\\ &=100-2.56=97.44 \\mathrm{m} \\end{aligned}[/latex]",
+    "min": 97.44,
+    "max": 97.44
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 In a region with magnetic declination of [latex]2^{\\circ}E[/latex] , the magnetic Force Bearing (FB) of a line AB was measured as [latex]N79^{\\circ}{50}'E[/latex] . There was local attraction at A. To determine the correct magnetic bearing to the line, a point O was selected at which there was no local attraction. The magnetic FB of line AO and OA were observed to be [latex]S 52^{\\circ}{40}'E[/latex] and [latex]N 50^{\\circ}{20}'W[/latex] respectively. What is the true FB of line AB?",
+    "solution": "Magnetic Declination, [latex]\\delta=2^{\\circ} \\mathrm{E} [/latex] Magnetic FB of AB [latex]=\\mathrm{N} 79^{\\circ} 50'E[/latex] To find local atraction at station A As station O is free from local attraction Heance FB of OA will be correct Correct FB of OA [latex]= N 50^{\\circ}20^{\\circ}W=309^{\\circ}40^{\\circ}[/latex] [latex] \\therefore [/latex] Correct BB of [latex]OA = 120^{\\circ}40^{\\circ}[/latex] [latex] \\because[/latex] Obserbed FB of AO = Observed BB of OA [latex] =120^{\\circ}40^{\\circ}[/latex] [latex] 127^{\\circ}20^{\\circ}[/latex] Error [latex]= MB = TB =127^{\\circ}20^{\\circ}=120^{\\circ}40^{\\circ}[/latex] [latex] ==2^{\\circ}20^{\\circ}[/latex] Correction [latex]=+2^{\\circ}20^{\\circ}[/latex] Local attraction at station A [latex] =+2^{\\circ}20^{\\circ}=2^{\\circ}20^{\\circ}E[/latex] [latex] \\therefore [/latex] Magnetic FB of [latex]AB=N76^{\\circ}50^{\\circ}E[/latex] [latex] \\delta = 2^{\\circ}E[/latex] and local attraction [latex]=2^{\\circ}20^{\\circ}E[/latex] [latex] \\therefore[/latex] TB of FB of AB [latex]= 70^{\\circ}50^{\\circ}+2^{\\circ}20^{\\circ}+2^{\\circ}[/latex] [latex] =N84^{\\circ}10^{\\prime}E[/latex]",
+    "options": {
+      "A": "[latex]N81^{\\circ}{50}'E[/latex]",
+      "B": "[latex]N82^{\\circ}{10}'E[/latex]",
+      "C": "[latex]N84^{\\circ}{10}'E[/latex]",
+      "D": "[latex]N77^{\\circ}{50}'E[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 In a survey work, three independent angle, X, Y and Z were observed with weight [latex]W_{X},W_{Y},W_{Z}[/latex] respectively. The weight of the sum of angles X, Y and Z is given by:",
+    "solution": "",
+    "options": {
+      "A": "[latex]1/(\\frac{1}{W_{X}}+\\frac{1}{W_{Y}}+\\frac{1}{W_{Z}})[/latex]",
+      "B": "[latex](\\frac{1}{W_{X}}+\\frac{1}{W_{Y}}+\\frac{1}{W_{Z}})[/latex]",
+      "C": "[latex]W_{X}+W_{Y}+W_{Z}[/latex]",
+      "D": "[latex]W_{X}^{2}+W_{Y}^{2}+W_{Z}^{2}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 In a closed loop traverse of 1 km total length, the closing errors in departure and latitude are 0.3 m and 0.4m, respectively. The relative precision of this traverse will be:",
+    "solution": "Relative precision [latex]=\\frac{1}{p / e} [/latex] where p= Perimeter of traverse e= Closing error Closing error, [latex]e=\\sqrt{0.3^{2}+0.4^{2}}=0.5 \\mathrm{m} [/latex] Relative precision [latex]=\\frac{1}{\\frac{1000}{0.5}}=\\frac{1}{2000}[/latex]",
+    "options": {
+      "A": "[latex]1:5000[/latex]",
+      "B": "[latex]1:4000[/latex]",
+      "C": "[latex]1:3000[/latex]",
+      "D": "[latex]1:2000[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 Which of the following statements is FALSE?",
+    "solution": "Mean sea level (MSL) is used as a reference surface for establishing the vertical control.",
+    "options": {
+      "A": "Plumb line is along the direction of gravity",
+      "B": "Mean Sea Level (MSL) is used as a reference surface for establishing the horizontal control",
+      "C": "Mean Sea Level (MSL) is a simplification of Geoid",
+      "D": "Geoid is an equi-potential surface of gravity"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 The chainage of the intersection point of two straights is 1585.60 m and the angle of intersection is [latex]140^{\\circ}[/latex]. If the radius of a circular curve is 600.00 m, the tangent distance (in m) and length of the curve (in m), respectively are",
+    "solution": "[latex]A=180^{\\circ}-140^{\\circ}=40^{\\circ}[/latex] Lengin of the gurve [latex]=\\frac{\\pi G}{180^{\\circ}} \\mathrm{A} [/latex] [latex] =\\frac{\\pi \\times 600}{180} \\times 40=418.82 \\mathrm{m} [/latex] Tangent distance (7) is the distance between P.C to P.I (also the distance from P.I to P.) [latex] \\Rightarrow T=T_{1} V [/latex] [latex] =T_{2} V=O T_{1} \\tan \\frac{\\Delta}{2}=R \\tan \\frac{\\Delta}{2} [/latex] [latex] =600 \\tan 20^{\\circ}=218.88 \\mathrm{m}[/latex]",
+    "options": {
+      "A": "418.88 and 1466.08",
+      "B": "218.38 and 1648.49",
+      "C": "218.38 and 418.88",
+      "D": "418.88 and 218.38"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 71 A tachometer was placed at point P to estimate the horizontal distances PQ and PR. The corresponding stadia intercepts with the telescope kept horizontal, are 0.320 m and 0.210 m, respectively. The [latex]\\angle QPR[/latex] is measured to be [latex]61^{\\circ}{30}'{30}''[/latex]. If the stadia multiplication constant=100 and stadia addition constant=0.10 m, the horizontal distance (in m) between the points Q and R is ________",
+    "solution": "[latex]\\begin{aligned} P Q &=k s+C \\\\ &=100(0.32)+0.1=32.1 \\mathrm{m} \\\\ P R &=k s+C \\\\ &=100(0.21)+0.1=21.1 \\mathrm{m} \\end{aligned}[/latex] Applying the cosine rule [latex] \\begin{array}{l} Q R=\\sqrt{P Q^{2}+P R^{2}-2(P Q)(P R) \\cos \\theta} \\\\ \\text { Where, } \\theta=61^{\\circ} 30^{\\prime} 30^{\\prime \\prime}=61.508^{\\circ} \\\\ =\\sqrt{1030,41+445.21-2(32,1)(21,1) \\cos 61.508^{\\circ}} \\\\ =\\sqrt{1030.41+445.21-646.2}=28.8 \\mathrm{m} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page15_q1.webp",
+    "min": 28.0,
+    "max": 29.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 72 The survey carried out to delineate natural features,such as hills, rivers, forests and manmade features, suchas towns, villages, buildings, roads, transmission lines\nand canals is classified as",
+    "solution": "Tropographic survey is done to determine the natural features of a country such as rivers, strains, lakes, wood, hills etc. and artificial features such as roads, railways, canals, towns and villages.",
+    "options": {
+      "A": "engineering survey",
+      "B": "geological survey",
+      "C": "land survey",
+      "D": "topographic survey"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 Group I lists tool/instrument while Group II lists the method of surveying. Match the tool/instrument with the corresponding method of surveying.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page15_q3.webp",
+    "options": {
+      "A": "P-3; Q-2; R-1; S-4",
+      "B": "P-2; Q-4; R-3; S-1",
+      "C": "P-1 ; Q-2; R-4; S-3",
+      "D": "P-3; Q-1; R-2; S-4"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 74 A levelling is carried out to establish the Reduced Levels (RL) of point R with respect to the Bench Mark (BM) at P. The staff readings taken are given below. If RL of P is +100.000 m, then RL (in m) of R is",
+    "solution": "[latex]\\begin{aligned} H&=A L+B S \\\\ \\text{and }\\quad R L&=H I-F S \\end{aligned}[/latex] [latex] \\therefore RL\\text{ of }R = 101.455m[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page15_q4.webp",
+    "options": {
+      "A": "103.355",
+      "B": "103.155",
+      "C": "101.455",
+      "D": "100.355"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 75 The Reduced Levels (RLs) of the points P and Q are +49.600 m and +51.870 m respectively. Distance PQ is 20 m. The distance (in m from P) at which the +51.000 m contour cuts the line PQ is",
+    "solution": "[latex]\\begin{aligned} \\triangle APRS &\\sim \\triangle P O R, we get\\\\ \\Rightarrow \\frac{x}{(51-436)}&=\\frac{20}{(5187-43.6)} \\\\ x&=12.33 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "15",
+      "B": "12.33",
+      "C": "3.52",
+      "D": "2.27"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 76 A theodolite is set up at station A and a 3 m long staff is held vertically at station B. The depression\nangle reading at 2.5 m marking on the staffis 6[latex]^{\\circ}[/latex]10'. The horizontal distance between A and B is\n2200 m. Height of instrument at station A is 1.1 m and R.L. of A is 880.88 m. Apply the curvature\nand refraction correction, and determine the R.L. of B (in m). __________",
+    "solution": "RL of [latex]\\mathrm{A}=880.88 \\mathrm{m} [/latex] RL of plane of collimation [latex] =880.88+1.1=881.98 \\mathrm{m}[/latex] [latex] \\begin{aligned} \\frac{B B^{\\prime \\prime}}{C B^{\\prime}} &=\\tan 6^{\\circ} 10^{\\prime} \\\\ B^{\\prime} B^{\\prime} &=2200 \\mathrm{m} \\times \\tan 6^{\\circ} 10^{\\prime} \\\\ &=237.701 \\mathrm{m}\\\\ \\text{RL of }B&=R L\\text{ of Ine of sight }-B B^{\\prime \\prime} \\\\ &=881.98-237.701-(25-0.3257) \\\\ &=642.105 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "258.56",
+      "B": "963.25",
+      "C": "741.25",
+      "D": "642.1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 Following bearings are observed while traversing with a compass. After applying the correction due to local attraction, the corrected fore bearing of line BC will be:",
+    "solution": "The difference between back bearing and fore bearing of line DE [latex] =258^{\\circ} 30^{\\circ}-78^{\\circ} 30^{\\circ}=180^{\\circ} [/latex] [latex] \\therefore [/latex] Station D and E are free from local attraction Fore bearing of line [latex] E A=216^{\\circ} 30^{\\circ} [/latex] [latex] \\therefore [/latex] Correct back bearing of line EA [latex] \\begin{array}{c} =216^{\\circ} 30^{\\circ}-180^{\\circ}=36^{\\circ} 30^{\\circ}\\\\ \\therefore \\text{ Error at } A=31^{\\circ} 45^{\\circ}-36^{\\circ} 30^{\\circ} \\\\ =-4^{\\circ} 45^{\\circ} \\end{array}[/latex] Hence correction at [latex] A=+4^{\\circ} 45[/latex] [latex] \\therefore [/latex] Correct fore bearing of line AB [latex] \\begin{array}{l} =126^{\\circ} 45^{\\prime}+4^{\\circ} 45^{\\prime} \\\\ =131^{\\circ} 30^{\\prime} \\end{array}[/latex] Correct back bearing of AB [latex] \\begin{array}{l} =131^{\\circ} 30+180^{\\circ} \\\\ =311^{\\circ} 30^{\\prime} \\end{array}[/latex] [latex] \\therefore [/latex] Error at [latex]B=-3^{\\circ} 30^{\\circ} [/latex] Correction at [latex]\\mathrm{B}=+3^{\\circ} 30^{\\circ} [/latex] Hence correct bearing of BC [latex] \\begin{array}{l} =45^{\\circ} 15^{\\prime}+3^{\\circ} 30^{\\prime} \\\\ =48^{\\circ} 45^{\\prime} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page16_q2.webp",
+    "options": {
+      "A": "48[latex]^{\\circ}[/latex] 15'",
+      "B": "50[latex]^{\\circ}[/latex] 15'",
+      "C": "49[latex]^{\\circ}[/latex] 45'",
+      "D": "48[latex]^{\\circ}[/latex] 45'"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 78 The latitude and departure of a line AB are +78 m and -45.1 m, respectively. The whole circle\nbearing of the line AB is:",
+    "solution": "since the latitude of line is positive and departure is negative, the line lies in the second quadrant. [latex] \\begin{aligned} \\therefore \\quad l \\cos \\theta &=78 \\\\ l \\sin \\theta &=-45.1 \\\\ \\Rightarrow \\quad \\tan \\theta &=-0.578 \\\\ \\quad \\theta&=-30^{\\circ}\\\\ \\therefore W C B \\text{ of } A B&=360^{\\circ}-30^{\\circ} \\\\ &=380^{\\circ} \\end{aligned}[/latex]",
+    "options": {
+      "A": "30[latex]^{\\circ}[/latex]",
+      "B": "150[latex]^{\\circ}[/latex]",
+      "C": "210[latex]^{\\circ}[/latex]",
+      "D": "330[latex]^{\\circ}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 79 The horizontal distance between two stations P and Q is 100 m. The vertical angles from P and Q\nto the top of a vertical tower at T are 3[latex]^{\\circ}[/latex] and 5[latex]^{\\circ}[/latex] above horizontal, respectively. The vertical angles from P and Q to the base of the tower are 0.1[latex]^{\\circ}[/latex] and 0.5[latex]^{\\circ}[/latex] below horizontal, respectively. Stations P,\nQ and the tower are in the same vertical plane with P and Q being on the same side of T. Neglecting\nearth's curvature and atmospheric refraction, the height (in m) of the tower is",
+    "solution": "[latex]\\begin{aligned} x(\\tan 3+\\tan 0.1)&=(x-100)\\left(\\tan 5^{\\circ}+\\tan 0.5^{\\circ}\\right) \\\\ \\Rightarrow \\quad x&=228.758 \\end{aligned}[/latex] [latex] \\begin{aligned} \\text { Height of tower } &=228.758\\left(\\tan 3^{\\circ}+\\tan 0.1^{\\circ}\\right) \\\\ &=12.387 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "6.972",
+      "B": "12.387",
+      "C": "12.54",
+      "D": "128.745"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 Which of the following errors can be eliminated by reciprocal measurements in differential leveling? I Error due to earth's curvature II Error due to atmospheric refraction",
+    "solution": "Reciprocal levelling eliminates the errors due to\n(i) Error in instrument adjustment.\n(ii) Combined effect of earth's curvature and the refraction of the atmosphere.\n(iii) Variation in the average refraction.",
+    "options": {
+      "A": "Both I and II",
+      "B": "I only",
+      "C": "II only",
+      "D": "Neither I nor II"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 81 The observations from a closed loop traverse around an obstacle are What is the value of the missing measurement (rounded off to the nearest 10 mm)?",
+    "solution": "In a closed loop travers, the algebraic sum of all the latitudes should be equal to zeroi.e., [latex]\\Sigma.=0 [/latex] [latex] \\begin{aligned} \\Rightarrow\\quad L \\cos 33.7500^{\\circ}&+300 \\cos 86.3847^{\\circ} \\\\ +354.524 \\cos &169.3819^{\\circ}+450 \\\\ \\cos 243.900^{\\circ}&+268 \\cos 317.5^{\\circ}=0 \\\\ \\Rightarrow\\quad L \\cos 33.75^{\\circ} &=329.9166 \\\\ \\Rightarrow\\quad L &=396.79 \\mathrm{m} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page17_q1.webp",
+    "options": {
+      "A": "396.86m",
+      "B": "396.79m",
+      "C": "396.05m",
+      "D": "396.94m"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 82 Curvature correction to a staff reading in a differential leveling survey is",
+    "solution": "",
+    "options": {
+      "A": "always subtractive",
+      "B": "always zero",
+      "C": "always additive",
+      "D": "dependent on latitude"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 A bench mark has been established at the soffit of an ornamental arch at the\nknown elevation of 100.0 m above mean sea level. The back sight used to establish\nheight of instrument is a inverted staffreading of 2.105m. A forward sight reading\nwith normally held staff of 1.105m is taken on a recently constructed plinth. The\nelevation of the plinth is",
+    "solution": "Height of instrument =BM + Back sight since, the staff is inverted, the back sight will be negative. [latex] \\therefore [/latex] Height of instrument [latex] =100+(-2.105)=97.897 m[/latex] Elevation of plinth = Height of instrument-Fore sight [latex] =97.895-1.105=96.790 \\mathrm{m}[/latex]",
+    "options": {
+      "A": "103.210m",
+      "B": "101.000m",
+      "C": "99.000m",
+      "D": "96.790m"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 The local mean time at a place located in longitude 90[latex]^{\\circ}[/latex]40' E when the standard time is 6 hours and 30 minutes and the standard meridian is 82[latex]^{\\circ}[/latex]30' E is",
+    "solution": "Difference between standard meridian and the longitude of the given [latex] \\text { place }=90^{\\circ} 40^{\\circ} \\mathrm{E}-82^{\\circ} 30^{\\circ} \\mathrm{E}=8^{\\circ} 10^{\\prime}[/latex] The longitude of the given place is more than the standard meridian. Hence the local mean time of the given place will be ahead of the standard time. [latex] 8^{\\circ}=\\frac{8}{15} \\text { hours }[/latex] =0 hours and 32 minutes and 0 seconds [latex] 10^{\\prime}=\\frac{10}{15} \\text { minutes }[/latex] =0 hours and 0 minutes and 40 seconds Time for a difference of [latex] 8^{\\circ} 10^{\\prime}=32[/latex] minutes and 40 seconds Local mean time = standard time +32 minutes and 40 seconds [latex] \\begin{aligned} =& 6 \\text { hours and } 30 \\text { minutes } \\\\ &+32 \\text { minutes and } 40 \\text { seconds } \\\\ =& 7 \\text { hours, } 02 \\text { minutes and } 40 \\text{seconds} \\end{aligned}[/latex]",
+    "options": {
+      "A": "5 hours, 2 minutes and 40 seconds",
+      "B": "5 hours, 57 minutes and 20 seconds",
+      "C": "6 hours and 30 minutes",
+      "D": "7 hours, 02 minutes and 40 seconds"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 Determine the correctness or otherwise of the following Assertion[a] and the Reason[r]: Assertion[a]: Curvature correction must be applied when the sights are long. Reason[r]: Line of collimation is not a level line but is tangential to the level line.",
+    "solution": "For Long sight curvature correction must be applied because due to curvature of earth, lines of collimation differs from the level line, It is tengential to level lines.",
+    "options": {
+      "A": "both [a] and [r] are true and [r] is the correct explanation of [a]",
+      "B": "both [a] and [r] are true but [r] is not a correct explanation of [a]",
+      "C": "[a] is true but [r] is false",
+      "D": "[a] is false but [r] is true"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 The magnetic bearing of a line AB was [latex]N\\; 59^{\\circ} {30}' \\; W[/latex]\n in the year 1967, when the\ndeclination was [latex]4^{\\circ}10' E[/latex]. If the present declination is [latex]3^{\\circ}\\; W[/latex], the whole circle bearing of the line is",
+    "solution": "True Bearing of [latex] \\begin{aligned} \\mathrm{AB}&=\\text { Magnetic bearing of } \\mathrm{AB}\\\\ &- \\text{ Magnetic declination}\\\\ &=\\mathrm{N} 59^{\\circ} 30 \\mathrm{W}-4^{\\circ} 10^{\\prime} \\\\ &=\\mathrm{N} 55^{\\circ} 20 \\mathrm{W} \\end{aligned}[/latex] Present Magnetic bearing of [latex] \\begin{aligned} \\mathrm{AB}&=\\text { True bearing } \\mathrm{AB}\\\\ &-\\text{ Magnetic declination}\\\\ &=\\mathrm{N} 55^{\\circ} 20 \\mathrm{W}-3^{\\circ} \\\\ &=\\mathrm{N} 52^{\\circ} 20 \\mathrm{W} \\end{aligned}[/latex] Whole circle bearing of [latex] A B=360^{\\circ}-52^{\\circ} 20^{\\prime}=307^{\\circ} 40^{\\prime}[/latex]",
+    "options": {
+      "A": "[latex]299^{\\circ}20'[/latex]",
+      "B": "[latex]307^{\\circ}40'[/latex]",
+      "C": "[latex]293^{\\circ}20'[/latex]",
+      "D": "[latex]301^{\\circ}40'[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 In quadrantal bearing system, bearing of a line varies from",
+    "solution": "",
+    "options": {
+      "A": "[latex]0^{\\circ} \\; to \\;  360^{\\circ}[/latex]",
+      "B": "[latex]0^{\\circ}  \\; to \\;   180^{\\circ}[/latex]",
+      "C": "[latex]0^{\\circ}  \\; to \\;   90^{\\circ}[/latex]",
+      "D": "[latex]0^{\\circ}N  \\; to \\;   90^{\\circ}S[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 A light house of 120 m height is just visible above the horizon from a ship. The\ncorrect distance (m) between the ship and the light house considering combined\ncorrection for curvature and refraction, is",
+    "solution": "Correction due to curvature, [latex] C_{c}=-0.0785 d^{2}[/latex] Correction due to refraction, [latex] C_{r}=+0.0112 d^{2}[/latex] [latex] \\therefore [/latex] Composte correction. [latex] \\begin{aligned} C &=-0.0785 d^{2}+0.0112 d^{2} \\\\ &=-0.0673 \\phi^{2} \\end{aligned}[/latex] where C is in metres and d is in Klometers [latex] \\begin{aligned} \\text{Here}\\quad C&=120 \\mathrm{m}, d=?\\\\ 120&=0.0673 \\times 0^{2} \\\\ \\Rightarrow d&=\\sqrt{1783.06} \\\\ \\Rightarrow d&=42208 \\times 1000 \\\\ \\Rightarrow d&=4206 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "39.098",
+      "B": "42.226",
+      "C": "39098",
+      "D": "42226"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 89 A road is provided with a horizontal circular curve having deflection angle of 55[latex]^{\\circ}[/latex] \nand centre line radius of 250 m. A transition curve is to be provided at each end\nof the circular curve of such a length that the rate of gain of radial acceleration\nis 0.3 [latex]m/s^{3}[/latex] at a speed of 50 km per hour. Length of the transition curve required at each of the ends is",
+    "solution": "If [latex]\\alpha[/latex] is the rate of change of radial acceleration, the radial acceleration (a) attained during the time the vehicle passes over the transition curve is given by [latex] a=\\alpha t=\\alpha \\times \\frac{L}{V}[/latex] Radial acceleration, [latex] \\begin{aligned} a&=\\frac{v^{2}}{R} \\\\ \\therefore \\quad \\alpha \\times \\frac{L}{V}&=\\frac{v^{2}}{R} \\\\ \\Rightarrow \\quad L&=\\frac{V^{3}}{\\alpha R} \\\\ \\therefore \\quad L&=\\frac{\\left(\\frac{50 \\times 1000}{60 \\times 60}\\right)^{3}}{0.3 \\times 250}\\\\ \\Rightarrow \\quad L&=35.73 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "2.57m",
+      "B": "33.33m",
+      "C": "35.73m",
+      "D": "1666.67m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 The focal length of the object glass of a tacheometer is 200 mm, the distance\nbetween the vertical axis of the tacheometer and the optical centre of the object\nglass is 100 mm and the spacing between the upper and lower line of the diagram\naxis is 4 mm. With the line of collimation perfectly horizontal, the staff intercepts\nare 1 m (top), 2m (middle), and 3 m (bottom). The horizontal distance (m)\nbetween the staff and the instrument station is",
+    "solution": "The horizontal distance (D) between the vertical axis and staff may be given as [latex] \\begin{aligned} D &=u+d \\\\ \\text { But } u &=\\left(\\frac{f}{i}\\right) s+f \\\\ D &=\\left(\\frac{f}{i}\\right) s+f+d \\\\ &=\\left(\\frac{200}{4}\\right) \\times(3-1)+\\frac{200}{1000}+\\frac{100}{1000} \\\\ &=100+0.3=100.3 m \\end{aligned}[/latex]",
+    "options": {
+      "A": "100.3",
+      "B": "103",
+      "C": "150",
+      "D": "153"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 The lengths and bearing of a closed traverse PQRSP are given below. The missing length and bearing, respectively of the line SP are",
+    "solution": "For a closed traverse sum of latitutes and departures should be zero respectively l.e. [latex] \\begin{array}{l} \\sum L=0\\\\ 200 \\cos 0^{\\circ}+1000 \\cos 45^{\\circ}+907 \\cos 180^{\\circ} \\\\ +L\\cos \\theta=0 \\quad\\ldots(i)\\\\ L\\cos \\theta=-0.10678 \\\\ 2D=0 \\\\ 200 \\sin \\theta^{2}+1000 \\sin 45^{\\circ}+907 \\sin 180^{\\circ} \\\\ +L\\sin \\theta=0 \\\\ L \\sin \\theta = -707.10678 \\quad\\ldots(ii) \\end{array}[/latex] Dividing (i) by (ii) we get [latex] \\tan \\theta = 6622.09[/latex] [latex] \\theta = 270^{\\circ}[/latex] [latex] \\therefore L = \\frac{-707.10678}{\\sin 270^{\\circ}}=707.10678m[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page19_q1.webp",
+    "options": {
+      "A": "207 m and 270[latex]^{\\circ}[/latex]",
+      "B": "707 m and 270[latex]^{\\circ}[/latex]",
+      "C": "707 m and 180[latex]^{\\circ}[/latex]",
+      "D": "907 m and 270[latex]^{\\circ}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 The plan of a survey plotted to a scale of 10 m to 1 cm is reduced in such a way\nthat a line originally 10 cm long now measures 9 cm. The area of the reduced plan\nis measured as 81 [latex]cm^{2}[/latex]. The actual area ([latex]m^{2}[/latex]) of the survey is",
+    "solution": "Shrinking factor [latex]= \\frac{9}{10}=0.9[/latex] Reduced plan area [latex]=(\\text { Shrinkage factor })^{2} [/latex] [latex] \\times [/latex] Actual plan area [latex] \\Rightarrow \\quad 81=(0.9)^{2} \\times [/latex] Actual plan area [latex] \\Rightarrow [/latex] Actual plan area [latex]=100 \\mathrm{cm}^{2} [/latex] [latex] \\therefore \\quad [/latex] Actual area of survey in [latex] \\mathrm{m}^{2} [/latex] [latex] \\begin{aligned} &=100 \\times(10)^{2} \\\\ &=10000 \\end{aligned}[/latex]",
+    "options": {
+      "A": "10000",
+      "B": "6561",
+      "C": "1000",
+      "D": "656"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 The type of surveying in which the curvature of the earth is taken into account\nis called",
+    "solution": "Geodetic surveying is that type of surveying in which the shape of the earth is taken into account.\nGeodetic surveying involves spherical\ntrigonometry.",
+    "options": {
+      "A": "Geodetic surveying",
+      "B": "Plane surveying",
+      "C": "Preliminary surveying",
+      "D": "Topographical surveying"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 94 The magnetic bearing of a line AB is S 45[latex]^{\\circ}[/latex] E and the declination is 5[latex]^{\\circ}[/latex] West. The true bearing of the line AB is",
+    "solution": "The bearng of AB, [latex](\\alpha)[/latex] = MB of AB + Magnetic declination [latex] =45^{\\circ}+5^{\\circ}=S\\; 50^{\\circ} \\mathrm{E}[/latex]",
+    "options": {
+      "A": "S45[latex]^{\\circ}[/latex]E",
+      "B": "S40[latex]^{\\circ}[/latex]E",
+      "C": "S50[latex]^{\\circ}[/latex]E",
+      "D": "S50[latex]^{\\circ}[/latex]W"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 Two straight lines intersect at an angle of 60[latex]^{\\circ}[/latex]. The radius of a curve joining the two straight lines is 600 m. The length of long chord and mid-ordinate in metres\nof the curve are",
+    "solution": "Length of long chord, [latex] \\begin{aligned} T_{1} T_{2} &=2 R \\sin (\\Delta / 2) \\\\ &=2 \\times 600 \\times \\sin (60 / 2) \\\\ &=600 \\mathrm{m} \\quad\\left(\\because \\Delta=60^{\\circ}\\right) \\end{aligned}[/latex] Length of mid-ordinate, [latex] \\begin{aligned} M &=R[1-\\cos (\\Delta / 2)] \\\\ &=600[1-\\cos (60 / 2)] \\\\ &=600 \\times 0.134=80.4 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "80.4, 600.0",
+      "B": "600.0, 80.4",
+      "C": "600.0, 39.89",
+      "D": "49.89, 300.0"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 96 The following measurements were made during testing a levelling instrument. [latex]P_{1}[/latex]\n is close to P and [latex]Q_{1}[/latex] is close to Q . If the reduced level of station P is 100.000 m, the reduced level of station Q is",
+    "solution": "Diference of staff reading at [latex]P_{1}[/latex] and Q When instrument is at P + Difference of staff [latex] n=\\frac{\\text{readings at }P_{1} \\text{ and }Q_{1}\\text{ when instrument is at Q }}{2}[/latex] [latex] \\Rightarrow h=\\frac{(2.800-1.700)+(2.700-1.800)}{2} [/latex] [latex] \\Rightarrow h=1 [/latex] [latex] \\therefore [/latex] Reduced level of station, Q= Reduced level of P+h [latex] =100.000+1=101.000 \\mathrm{m}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page20_q1.webp",
+    "options": {
+      "A": "99m",
+      "B": "100m",
+      "C": "101m",
+      "D": "102m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 97 The following table gives data of consecutive coordinates in respect of a closed\r\ntheodolite traverse PQRSP. The magnitude and direction of error of closure in whole circle bearing are.",
+    "solution": "[latex]\\Delta L=400.75+100.25-199.0-300.0=2 [/latex] [latex] \\Delta D=-300.5+199.25+299.75^{*}-200.5=-2 [/latex] [* This value is given as 399.75 in the original question paper Which is incorrect] [latex] \\therefore [/latex]Error of closure. [latex] \\begin{aligned} e &=\\sqrt{(\\Delta L)^{2}+(\\Delta D)^{2}} \\\\ &=\\sqrt{(2)^{2}+(-2)^{2}}=2.82 \\mathrm{m}\\\\ \\therefore \\quad \\tan \\theta&=\\frac{\\Delta D}{\\Delta L} \\\\ \\Rightarrow \\quad \\theta&=\\tan ^{-1}\\left(\\frac{-2}{2}\\right) \\\\ \\Rightarrow \\quad \\theta&=-45^{\\circ} \\\\ \\text{or}\\quad \\theta&=360-45=315^{\\circ} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page20_q2.webp",
+    "options": {
+      "A": "2.0m and 45[latex]^{\\circ}[/latex]",
+      "B": "2.0m and 315[latex]^{\\circ}[/latex]",
+      "C": "2.82m and 315[latex]^{\\circ}[/latex]",
+      "D": "3.42m and 45[latex]^{\\circ}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 The plan of a map was photo copied to a reduced size such that a line originally\n100 mm, measures 90 mm. The original scale of the plan was 1:1000. The revised scale is",
+    "solution": "[latex]\\begin{aligned} \\text { Reduction factor }&=\\frac{90}{100}=0.9 \\\\ \\text { Revised scale }&=\\text { Original scale }\\\\ &\\times \\text { Reduction factor }\\\\ =\\frac{1}{1000} \\times 0.9&=\\frac{1}{1000 / 0.9}=\\frac{1}{1111} \\end{aligned}[/latex]",
+    "options": {
+      "A": "1:900",
+      "B": "1:1111",
+      "C": "1:1121",
+      "D": "1:1221"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 99 During a levelling work along a falling gradient using a Dumpy level and a Staff\nof 3 m length, following successive readings were taken :\n1.785,2.935,0.360,1.320. What will be the correct order of booking these four\nreadings in a level book ? (BS : Back Sight, IS : Intermediate Sight, FS : Fore Sight)",
+    "solution": "The first reading is always BS. The second reading is foresight because the instrument has been shifted after this reading which is evident from the low value of third reading. Since the instrument has been shifted the third reading is backlight again. Successively the fourth reading is foresight.",
+    "options": {
+      "A": "BS, FS, BS, FS",
+      "B": "BS, IS, FS, FS",
+      "C": "BS, IS, IS, FS",
+      "D": "BS, IS, BS, FS"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 100 In the figure given below, the length PQ (WCB : 30[latex]^{\\circ}[/latex]) and QR (WCB : 45[latex]^{\\circ}[/latex]) respectively up to three places of decimal are",
+    "solution": "Let, length of PQ and QR are [latex]L_{1}[/latex] and [latex]L_{2} [/latex] respectively. From P, coordiantes of [latex]Q =(100+L_{1}\\cos 30^{\\circ},200 \\left.+L_{1} \\sin 30^{\\circ}\\right) [/latex] From R, coordinates of [latex]Q=\\left(1000-L_{2},\\cos 45^{\\circ},\\right. \\left.1000-L_{9} \\sin 45^{\\circ}\\right) [/latex] But, [latex] 100 + L_{1} \\cos 30^{\\circ} = 100-L_{2}\\cos45^{\\circ}[/latex] [latex] \\Rightarrow \\frac{\\sqrt{3}}{2} L_{1}+\\frac{1}{\\sqrt{2}} L_{9}=900 \\;\\;\\;...(i)[/latex] and [latex]200+L_{1} \\sin 30^{n}=1000-L_{2} \\sin 46^{\\prime} [/latex] [latex] \\Rightarrow \\frac{1}{2} L_{1}+\\frac{1}{\\sqrt{2}} L_{9}=800 \\;\\;\\; ...(ii)[/latex] Solving (i) and (ii) we get [latex] L_{1}=273.206 \\mathrm{m}\\text{ and }\\mathrm{L}_{2}=936.166 \\mathrm{m}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page20_q5.webp",
+    "options": {
+      "A": "273.205, 938.186",
+      "B": "273.205, 551.815",
+      "C": "551.815, 551.815",
+      "D": "551.815, 938.186"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 Consider the following figure, which is an extract from a contour map (scale\r\n=1:20,000) of an area. An alignment of a road at a ruling gradient of 4% is to be\r\nfixed from the point O and beyond. What should be the radius of the arc with\r\nO as the center to get the point of alignment on the next contour on the map ?",
+    "solution": "The contour interval =20 m For 4% gradient, the length needed from one contour to another [latex] =\\frac{20}{0.04}=500 \\mathrm{m}[/latex] [latex] \\therefore[/latex] Radius of arc [latex]=\\frac{500 \\times 100}{20000}=2.5 \\mathrm{cm}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ge/page21_q1.webp",
+    "options": {
+      "A": "0.025cm",
+      "B": "0.25cm",
+      "C": "2.5cm",
+      "D": "5cm"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 102 A Bench Marck (BM) with Reduced Level (RL) = 155.305 m has been established\nat the floor of a room. It is required to find out the RL of the underside of root\n(R) of the room using Spirit Levelling. The Back Sight (BS) to the BM has been\nobserved as 1.500 m whereas the Fore Sight (FS) to R has been observed as 0.575\nm (Shaff held inverted). The RL(m) of R will be",
+    "solution": "Height of instrument [latex] \\begin{aligned} &=\\mathrm{RL} \\text { of bench mark }+\\mathrm{BS} \\\\ &=155.305+1.500 \\\\ &=156.805 \\mathrm{m} \\end{aligned}[/latex] Now, the staff is held inverted and the foresight (FS) is 0.575m [latex] \\begin{aligned} \\therefore \\quad \\text{ RL of R}&=\\text{ Height of instrument }+ FS \\\\ &=156.805+0.575 \\\\ &=157.380 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "155.88",
+      "B": "156.23",
+      "C": "157.38",
+      "D": "157.86"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 103 The observed magnetic bearing of a line OE was found to be 185[latex]^{\\circ}[/latex]. It was later discovered that station O had a local attraction of +1.5[latex]^{\\circ}[/latex].\nThe true bearing of the line OE, considering a magnetic declination of 3.5[latex]^{\\circ}[/latex]E shall be",
+    "solution": "Observed magnetic bearing of [latex]\\mathrm{OE}=185^{\\circ} [/latex] Local attraction at [latex]0=+1.5^{\\circ} [/latex] Corrected magnetic bearing of [latex] O E=185^{\\circ}-1.5^{\\circ}=183.6^{\\circ} [/latex] [latex] \\therefore [/latex] True bearing of OE = Corrected magnetic declination of OE + Magnetic declination [latex] =103.6^{\\circ}+3.5^{\\circ}=187^{\\circ}[/latex]",
+    "options": {
+      "A": "180[latex]^{\\circ}[/latex]",
+      "B": "187[latex]^{\\circ}[/latex]",
+      "C": "190[latex]^{\\circ}[/latex]",
+      "D": "193[latex]^{\\circ}[/latex]"
+    },
+    "correct_answer": "B"
+  }
+]

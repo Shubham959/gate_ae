@@ -1,0 +1,381 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 The figure shows a network diagram for a construction project. The activities A, B, C, D, E, and F are represented by arrows and their durations are in the figure. The total float available for the activity E in day(s) is equal to _____ (round off to the nearest integer).",
+    "solution": "Step 1: List all paths and their durations [latex]1 \\to 2 \\to 4 \\to 5[/latex] : A (3) + B (5) + E (4) = [latex]12[/latex] days [latex]1 \\to 3 \\to 4 \\to 5[/latex] : C (5) + D (2) + E (4) = [latex]11[/latex] days [latex]1 \\to 3 \\to 5[/latex] : C (5) + F (8) = [latex]13[/latex] days [latex]\\text{Critical Path} = 1 \\to 3 \\to 5[/latex] [latex]\\text{Critical Path Duration} = 13 \\text{ days}[/latex] Step 2: Forward Pass Calculations From node 1: [latex]\\text{A: } ES = 0,\\ EF = 3[/latex] [latex]\\text{B: } ES = 3,\\ EF = 8[/latex] [latex]\\text{E (via B): } ES = 8,\\ EF = 12[/latex] Also: [latex]\\text{C: } ES = 0,\\ EF = 5[/latex] [latex]\\text{D: } ES = 5,\\ EF = 7[/latex] [latex]\\text{E (via D): } ES = 7,\\ EF = 11[/latex] So, considering both paths to node 4: [latex]\\text{E starts at latest of 8 or 7 } \\Rightarrow ES = 8,\\ EF = 12[/latex] Step 3: Backward Pass Calculations [latex]\\text{Critical Path: } C (5) + F (8) = 13 \\Rightarrow \\text{LF at Node 5} = 13[/latex] [latex]\\text{F: } LF = 13,\\ LS = 13 - 8 = 5[/latex] [latex]\\text{C: } LF = 5,\\ LS = 5 - 5 = 0[/latex] Now, for activity E (from node 4 to 5): [latex]\\text{LF at node 5} = 13 \\Rightarrow LS = 13 - 4 = 9[/latex] Step 4: Total Float for Activity E [latex]\\text{TF} = LS - ES = 9 - 8 = \\boxed{1 \\text{ day}}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/cmm/page1_q1.webp",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 In the context of construction materials, which of the following statements is/are CORRECT ?",
+    "solution": "Statement (A): While the usual definition of characteristic strength refers to the 5th percentile, this statement hypothetically defines it as the 50th percentile (i.e., the median). If so, the target mean strength would be the same as this characteristic strength, and standard deviation or quality control level wouldn't change it. Hence, under this hypothetical condition, the statement is valid. This statement is correct. Statement (B): The Ten Percent Fines Value (TPFV) is expressed in units of force (typically kN), so it is not non-dimensional. This statement is incorrect. Statement (C): For longer durations of loading, concrete exhibits more creep and deformation. Therefore, the secant modulus for 1-day loading is smaller than that for a 10-minute duration. This statement is correct. Statement (D): Increasing the carbon content in steel increases its strength, including the 0.2% proof stress, though it may reduce ductility and weldability. This statement is correct.",
+    "options": {
+      "A": "If the characteristic strength is defined as that value below which not more than 50% results are expected to fall, the target mean strength in mix design will be taken same as the characteristic strength irrespective of the degree of quality control expected at the site.",
+      "B": "Ten percent fines value is a non-dimensional quantity.",
+      "C": "The stress-strain curve of concrete for 1-day duration of loading is associated with a smaller secant modulus of elasticity compared to the stress-strain curve of the same concrete for 10-minutes duration of loading.",
+      "D": "The increase of carbon in steel usually leads to an increase in its 0.2% proof stress."
+    },
+    "correct_answers": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Consider the following statements (P) and (Q): (P): Fly ash and ground granulated blast furnace slag can be used as mineral admixtures in concrete. (Q): As per IS 456:2000, the minimum moist curing period becomes higher when a mineral admixture is added to concrete. Identify the CORRECT option from the choices given below:",
+    "solution": "Statement (P): Fly ash and ground granulated blast furnace slag (GGBS) are commonly used mineral admixtures in concrete to improve durability, workability, and sustainability. This is a well-established fact in construction materials and codal practices. (P) is TRUE Statement (Q): According to IS 456:2000 , Clause 13.5, the minimum curing period increases when certain mineral admixtures (like fly ash or GGBS) are used. This is because these materials slow down the hydration process and require longer curing to ensure strength development. (Q) is also TRUE Final Answer: [latex] \\boxed{\\text{Option (A)}} [/latex]",
+    "options": {
+      "A": "Both (P) and (Q) are TRUE.",
+      "B": "(P) is TRUE and (Q) is FALSE.",
+      "C": "(P) is FALSE and (Q) is TRUE.",
+      "D": "Both (P) and (Q) are FALSE."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 In the context of construction project management, which of the following statements is/are true:",
+    "solution": "(A) A dummy activity will consume time and resources This is false. A dummy activity is used only to show logical relationships between activities in a network diagram (such as in CPM or PERT). It does not consume time or resources. [latex]\\text{Dummy Activity: No time, No resource}[/latex] (B) The Programme Evaluation and Review Technique (PERT) is best suited for projects with large uncertainties in the duration of activities This is true. [latex]\\text{PERT is probabilistic}[/latex], meaning it considers uncertainty in activity durations using optimistic, pessimistic, and most likely estimates. (C) A Gantt chart is commonly used for identifying the ?critical path? of activities in a project This is false. Gantt charts are used primarily for visualizing the schedule of activities over time. They are not used to find the critical path. For that, CPM (Critical Path Method) or PERT diagrams are used. [latex]\\text{Critical Path: Identified using CPM, not Gantt}[/latex] (D) Free float is the amount of time by which the start of an activity can be delayed without causing a delay in the start of a following activity This is true. Free float is the amount of time an activity can be delayed without affecting the early start of its successor. [latex]\\text{Free Float = ES}{\\text{next activity}} - EF{\\text{current activity}}[/latex]",
+    "options": {
+      "A": "A dummy activity will consume time and resources",
+      "B": "The programme evaluation and review technique (PERT) is best suited for projects with large uncertainties in the duration of activities",
+      "C": "A Gantt chart is commonly used for identifying the 'critical path' of activities in a project",
+      "D": "Free float is the amount of time by which the start of an activity can be delayed without causing a delay in the start of a following activity"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Identify the FALSE statement from the following options:",
+    "solution": "Let's examine each option to find the FALSE statement. Option A: The compressive strength of a concrete specimen can vary depending on its shape and size. This is true. The shape (cube vs. cylinder) and size of a specimen affect the test results due to variations in stress distribution and failure patterns. Option B: Air-dried and saturated test specimens show the same compressive strength for concrete. This is false. Air-dried specimens typically show higher compressive strength compared to saturated ones because excess moisture can weaken the internal structure during loading. Option C: Curing conditions, such as temperature and relative humidity, can influence the compressive strength of concrete. This is true. Proper curing ensures complete hydration and strength development, while poor curing can reduce final strength. Option D: Compressive strength depends on the water-to-binder ratio used in the concrete mixture. This is true. Lower water-to-binder ratios generally result in higher strength due to denser microstructure and improved bonding. Final Answer: [latex]\\boxed{\\text{B}}[/latex] [latex]\\text{Air-dried and saturated test specimens show the same compressive strength for concrete}[/latex]",
+    "options": {
+      "A": "The compressive strength of a concrete test specimen can vary depending on its shape and size",
+      "B": "Air-dried and saturated test specimens show the same compressive strength for concrete",
+      "C": "Curing conditions, such as temperature and relative humidity, can influence the compressive strength of concrete",
+      "D": "Compressive strength depends on the water-to-binder ratio used in the concrete mixture"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 6 The table shows the activities and their durations and dependencies in a project. [latex]\n\\begin{array}{|c|c|c|}\n\\hline\n\\text{Activity} & \\text{Duration(days)} & \\text{Depends on} \\\\\n\\hline\nA & 8 & - \\\\\n\\hline\nB & 4 &  \\mathrm{~A}  \\\\\n\\hline\nC & 4 &  \\mathrm{~B}  \\\\\n\\hline\n \\mathrm{D}  & 4 &  \\mathrm{C}, \\mathrm{L}  \\\\\n\\hline\n \\mathrm{F}  & 4 &  \\mathrm{~A}  \\\\\n\\hline\n \\mathrm{G}  & 4 &  \\mathrm{~F}  \\\\\n\\hline\n \\mathrm{H}  & 6 &  \\mathrm{G}, \\mathrm{L}  \\\\\n\\hline\n \\mathrm{K}  & 10 &  \\mathrm{~A}  \\\\\n\\hline\n \\mathrm{L}  & 6 &  \\mathrm{~F}, \\mathrm{~K}  \\\\\n\\hline\n\\end{array}\n[/latex] The total duration (in days) of the project is ____(in integer)",
+    "solution": "Critical path: A-K-L-H Project duration [latex] =30 [/latex] days",
+    "min": 30.0,
+    "max": 30.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 A critical activity in a project is estimated to take 15 days to complete at a cost of Rs. 30,000. The activity can be expedited to complete in 12 days by spending a total amount of Rs. 54,000. Consider the statements [latex] \\mathrm{P} [/latex] and [latex] \\mathrm{Q} [/latex]. [latex] P [/latex] : It is economically advisable to complete the activity early by crashing if the indirect cost of the project is Rs. 8,500 per day. Q: It is economically advisable to complete the activity early by crashing, if the indirect cost of the project is Rs. 10,000 per day. Which one of the following options is CORRECT?",
+    "solution": "[latex] \\mathrm{C} / \\mathrm{s}=\\frac{54000-30000}{15-12}=8000 \\mathrm{Rs} / [/latex] day [latex] \\Rightarrow [/latex] If [latex] \\mathrm{C} / \\mathrm{s} [/latex] is less than indirect cost per day then it would be economically advisable to complete the activity early by crashing. Hence both the statements P and Q are correct.",
+    "options": {
+      "A": "Both P and Q are TRUE",
+      "B": "P is TRUE and Q is FALSE",
+      "C": "Both P and Q are FALSE",
+      "D": "P is FALSE and Q is TRUE"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 Consider teh following data for a project of 300 days duration. Budgeted cost of work scheduled [latex] (\\mathrm{BCWS})= [/latex] Rs. 200 Budgeted cost of work performed (BCWP) [latex] = [/latex] Rs. 150 Actual cost of work performed (ACWP) [latex] = [/latex] Rs. 190 The 'schedule variance' for the project is",
+    "solution": "Schedule variance [latex] =\\mathrm{BCWP}-\\mathrm{BCWS} [/latex] [latex]\n\\begin{aligned}\n& =150-200 \\\\\n& =-50\n\\end{aligned}\n [/latex]",
+    "options": {
+      "A": "(-)Rs. 50",
+      "B": "(-)50 days",
+      "C": "(+)Rs. 50",
+      "D": "(+)50 days"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 Consider the statements [latex] \\mathrm{P} [/latex] and [latex] \\mathrm{Q} [/latex]. [latex] P [/latex] : In a Pure project organization, the project manager maintains complete authroity and has maximum control over the project. Q: A matrix organization structure facilitates quick response to changes, conflicts, and project needs. Which one of the following options is CORRECT?",
+    "solution": "P: In a pure project organization, the project manager has the complete authority and control over the project. Q: In a matrix organization, employees have more than one boss and work on multiple teams. This leads to quick response to changes, conflicts and project needs.",
+    "options": {
+      "A": "Both P and Q are TRUE",
+      "B": "P is TRUE and Q is FALSE",
+      "C": "Both P and Q are FALSE",
+      "D": "P is FALSE and Q is TRUE"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 The initial cost of an equipment is Rs. 1,00,000. Its salvage value at the end of accounting life of 5 years is Rs. 10,000. The difference in depreciation (in Rs.) computed using 'double-declining balance method' and 'straight line method' of depreciation in Year-2 is ____ (in positive integer)",
+    "solution": "Given: Initial cost,\n[latex]\nC_{i}  =\\text { Rs. } 1,00,000 [/latex] Salvage value, \n[latex]C_{s}  =\\text { Rs. } 10,000 [/latex] Useful life, [latex] \nn  =5 \\text { years }\n [/latex] Straight line method, Depreciation, \n[latex]\n\\begin{aligned}\nD & =\\frac{C_{i}-C_{s}}{n} \\\\\n& =\\frac{10^{5}-10^{4}}{5} \\\\\n& =\\text { Rs. } 18,000\n\\end{aligned}\n [/latex] As per double declining method, Fixed factor, [latex]\\quad [/latex] FDDB [latex]=\\frac{2}{n}=\\frac{2}{5}=0.4 [/latex] [latex]\n\\begin{aligned}\n\\therefore \\quad \\text { Book value, } D_{1} & =\\text { FDDB } \\times C_{i}=0.4 \\times 1,00,000=40,000 \\text { Rs } \\\\\nB_{1} & =\\text { Rs. } 1,00,000-\\text { Rs. } 40,000=\\text { Rs. } 60,000 \\\\\nD_{2} & =\\text { FDDB } \\times B_{1}=0.4 \\times 60,000 \\\\\n& =\\text { Rs. } 24,000\n\\end{aligned}\n [/latex] [latex]\\therefore \\quad [/latex] Difference in depreciation [latex]= \\text { Rs. } 24,000-  \\text { Rs. } 18,000\n=\\text { Rs. } 6000\n [/latex]",
+    "min": 6000.0,
+    "max": 6000.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 Consider the statements [latex] P[/latex]  and [latex] Q[/latex] P: Client's Preliminary Estimate is used for budgeting costs toward the end of planning and design phase. Q: Client's Detailed Estimate is used for controlling costs during the execution of the project Which one of the following options is CORRECT?",
+    "solution": "During the planning and design phase of a construction project, the client's preliminary estimate is often used as a basis for budgeting costs. Hence statement [latex] P[/latex]  is true. During the execution phase of a construction project, the clients detailed estimate which is a refined and updated version of the preliminary estimate is used for controlling costs. Hence statement [latex] Q[/latex]  is true.",
+    "options": {
+      "A": "Both [latex] P[/latex]  and [latex] Q[/latex]  are TRUE",
+      "B": "[latex] P[/latex]  is TRUE and [latex] Q[/latex]  is FALSE",
+      "C": "Both [latex] P[/latex]  and [latex] Q[/latex]  are FALSE",
+      "D": "[latex] P[/latex]  is FALSE and [latex] Q[/latex]  is TRUE"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 The activities of a project are given in the following table along with their durations and dependency. [latex]\\begin{array} {|c|c|c|}\\hline\n\\text{Activities} &\\text{Duration (days)}&\\text{Depends on}\\\\\nA&10&-\\\\ \\hline\nB&12&-\\\\ \\hline\nC&5&A\\\\ \\hline\nD&14&B\\\\ \\hline\nE&10&B,C\\\\ \\hline\n\\end{array}[/latex] The total float of the activity E (in days) is ________. (in integer)",
+    "solution": "For activity E, Total float [latex] (F_T)=T_L^5-T_L^4-t^E=26-15-10=1[/latex] day",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 The project activities are given in the following table along with the duration and dependency. [latex]\\begin{array}{|c|c|c|} \\hline\n \\text{Activities}& \\text{Duration (days)} & \\text{Depends on}\\\\  \\hline\nP & 10 & -\\\\ \\hline\nQ & 12 &- \\\\ \\hline\nR & 5 &P \\\\ \\hline\nS & 10 &Q \\\\ \\hline\nT & 10 & P,q \\\\\\hline\n\\end{array}[/latex] Which one of the following combinations is correct?",
+    "solution": "Critical path are Q-S and Q-T=22 days",
+    "options": {
+      "A": "Total duration of the project = 22 days, Critical path is Q [latex]\\rightarrow [/latex]  S",
+      "B": "Total duration of the project = 20 days, Critical path is Q [latex]\\rightarrow [/latex] T",
+      "C": "Total duration of the project = 22 days, Critical path is P [latex]\\rightarrow [/latex] T",
+      "D": "Total duration of the project = 20 days, Critical path is P [latex]\\rightarrow [/latex] R"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 An equipment has been purchased at an initial cost of Rs. 160000 and has an estimated salvage value of Rs. 10000. The equipment has an estimated life of 5 years. The difference between the book values (in Rs, in integer) obtained at the end of 4th year using straight line method and sum of years digit method of depreciation is _____",
+    "solution": "Initial Cost (P) = 1,60,000 Salvage value (SV) = 10,000 Useful life (n) = 5 Year Straight Line Method: Annual depreciation (D), [latex]D=\\frac{P-SV}{n}=\\frac{1,60,000-10,000}{5}=30,000[/latex] Book value after 4 year [latex] (BV_4)=P-4D=1,60,000-4(30,000)=40,000[/latex] SOY Method (Sum of year Digit) [latex]\\begin{aligned}\nSOY&=\\frac{n(n+1)}{2}=\\frac{5 \\times 6}{2}=15  \\\\ \n d_m&=\\frac{n-(m-1)}{SOY} \\\\ \n D_m&=(P-SV) \\times d_m \\\\ \n BV_m&=BV_{m-1}-D_m \\\\ \n d_1&= \\frac{5-(1-1)}{15}=\\frac{5}{15}\\\\ \n D_1&= (1,60,000-10,000) \\times \\frac{5}{15} \\\\ \n&=50,000\\\\\n d_2&=\\frac{4}{15} ; \\;\\;D_2=40,000\\\\ \n d_3&=\\frac{3}{15} ; \\;\\;D_3=30,000\\\\ \n d_4&=\\frac{2}{15} ; \\;\\;D_4=20,000\\\\ \n d_5&=\\frac{2}{15} ; \\;\\;D_2=10,000\\\\ \n BV_0&=1,60,000 \\\\ \n BV_1&=1,60,000 -50,000=1,10,000 \\\\ \nBV_2&=1,10,000 -40,000=70,000 \\\\ \nBV_3&=70,000 -30,000=40,000 \\\\ \nBV_4&=40,000 -20,000=20,000 \\\\ \nBV_5&=20,000 -10,000=10,000 \\\\ \n\\end{aligned}[/latex] Difference of book value obtained in two methods = 40,000-20,000=20,000",
+    "min": 20000.0,
+    "max": 20000.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 The activity details for a small project are given in the Table. [latex]\\begin{array}{|l|c|c|} \\hline \\text { Activity } & \\text { Duration (days) } & \\text { Depends on } \\\\ \\hline \\text { A } & 6 & \\text { - } \\\\ \\hline \\text { B } & 10 & \\text { A } \\\\ \\hline \\text { C } & 14 & \\text { A } \\\\ \\hline \\text { D } & 8 & \\text { B } \\\\ \\hline \\text { E } & 12 & \\text { C } \\\\ \\hline \\text { F } & 8 & \\text { C } \\\\ \\hline \\text { G } & 16 & \\text { D, E } \\\\ \\hline \\text { H } & 8 & \\text { F, G } \\\\ \\hline \\text { K } & 2 & \\text { B } \\\\ \\hline \\text { L } & 5 & \\text { G, K } \\\\ \\hline \\end{array}[/latex] The total time (in days,in integer) for project completion is ________",
+    "solution": "Project duration = 56 days.",
+    "min": 56.0,
+    "max": 56.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 In case of bids in Two-Envelop System, the correct option is",
+    "solution": "Option 1 technical bid is opened first Opening of Tender First technical bid is opened and after ensuring that all the technical aspects of a contractor are in order than only financial bid is opened 1. Envelope 1 ( Technical bid ) 1. Cover letter 2. Registration Details 3. Pre-qualification documents 4. Earnest money deposit 5. Assumptions & Deviations in making of tender 6. Drawings 2. Envelope 2 (Financial Bid) 1. Forms of tender",
+    "options": {
+      "A": "Technical bid is opened first",
+      "B": "Financial bid is opened first",
+      "C": "Both (Technical and Financial) bids are opened simultaneously",
+      "D": "Either of the two (Technical and Financial) bids can be opened first"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Seasoning of timber for use in construction is done essentially to",
+    "solution": "Option 1 Increase strength and durability. The process of drying of timber is known as seasoning. Natural tree has more the 50% weight of water of its dry weight. If we directly use this timber the because of irregular drying internal stresses will develop between fibres of timber and it will develop lots of defects (warps, shakes etc).",
+    "options": {
+      "A": "increase strength and durability",
+      "B": "smoothen timber surfaces",
+      "C": "remove knots from timber logs",
+      "D": "cut timber in right season and geometry"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18 A small project has 12 activities - N, P, Q, R, S, T, U, V, W, X, Y, and Z. The relationship among these activities and the duration of these activities are given in the Table. [latex]\\begin{array}{|c|c|c|} \\hline \\text { Activity } & \\begin{array}{c} \\text { Duration } \\\\ \\text { (in weeks) } \\end{array} & \\begin{array}{c} \\text { Depends } \\\\ \\text { upon } \\end{array} \\\\ \\hline N & 2 & - \\\\ \\hline \\mathrm{P} & 5 & \\mathrm{~N} \\\\ \\hline \\mathrm{Q} & 3 & \\mathrm{~N} \\\\ \\hline \\mathrm{R} & 4 & \\mathrm{P} \\\\ \\hline \\mathrm{S} & 5 & \\mathrm{Q} \\\\ \\hline \\mathrm{T} & 8 & \\mathrm{R} \\\\ \\hline \\mathrm{U} & 7 & \\mathrm{R}, \\mathrm{S} \\\\ \\hline \\mathrm{V} & 2 & \\mathrm{U} \\\\ \\hline \\mathrm{W} & 3 & \\mathrm{U} \\\\ \\hline \\mathrm{X} & 5 & \\mathrm{~T}, \\mathrm{~V} \\\\ \\hline \\mathrm{Y} & 1 & \\mathrm{~W} \\\\ \\hline \\mathrm{Z} & 3 & \\mathrm{X}, \\mathrm{Y} \\\\ \\hline \\end{array}[/latex] The total float of the activity 'V' (in weeks, in integer) is _________",
+    "solution": "[latex]\\begin{aligned} F_{T_{V}} &=T_{L_{j}}-T_{E_{i}}-t_{i_{j}} \\\\ &=20-18-2 \\\\ &=0 \\end{aligned}[/latex]",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 Contractor X is developing his bidding strategy against Contractor Y. The ratio of Y's bid price to X's cost for the 30 previous bids in which Contractor X has competed against Contractor Y is given in the Table [latex]\\begin{array}{|l|l|} \\hline \\begin{matrix} \\text{Ratio of Y's bid}\\\\ \\text{price to X's cost } \\end{matrix} & \\text{Number of bids}\\\\ \\hline 1.02 & 6 \\\\ \\hline 1.04 &12\\\\ \\hline 1.06 & 3\\\\ \\hline 1.10 & 6\\\\ \\hline 1.12 & 3\\\\ \\hline \\end{array}[/latex] Based on the bidding behaviour of the Contractor Y, the probability of winning against Contractor Y at a mark up of 8% for the next project is",
+    "solution": "[latex]SD(\\sigma )=\\frac{6 \\times (1.02-1.058)^2+ 12 \\times (1.04-1.058)^2 +3 \\times (1.06-1.058)^2 + 6 \\times (1.10-1.058)^2 +3 \\times (1.12-1.058)^2}{30}=0.034[/latex] Markup is 8% [latex]Z=\\frac{T-mean}{SD}=\\frac{1.08-1.058}{0.034}=0.647[/latex] By general understanding of normal distribution table. Corresponding to Z=0.647 and 8% mark up we get probability of 0.2668=26.68% Which is more than 0% bu less tahn 50%.",
+    "options": {
+      "A": "0%",
+      "B": "more than 0% but less than 50%",
+      "C": "more than 50% but less than 100%",
+      "D": "100%"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 The direct and indirect costs estimated by a contractor for bidding a project is Rs.160000 and Rs.20000 respectively. If the mark up applied is 10% of the bid price, the quoted price (in Rs.) of the contractor is",
+    "solution": "Direct Costs = 160000 Indirect costs = 20000 Mark up applied is 10% of the Bid price Bid price = Direct cost + Indirect cost + Markup Bid price = Direct cost + Indirect cost + [latex]\\frac{10}{100} \\times [/latex] Bid price [latex]\\text{Bid price}\\left (1-\\frac{10}{100} \\right )=DC+IC[/latex] [latex]\\text{Bid price}=\\frac{160000+20000}{0.9}=2,00,000[/latex]",
+    "options": {
+      "A": "200000",
+      "B": "198000",
+      "C": "196000",
+      "D": "182000"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 Gypsum is typically added in cement to",
+    "solution": "The Gypsum is added to cement at the end of grinding clinker it is added to prevent quick setting.",
+    "options": {
+      "A": "prevent quick setting",
+      "B": "enhance hardening",
+      "C": "increase workability",
+      "D": "decrease heat of hydration"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 The network of a small construction project awarded to a contractor is shown in the following figure. The normal duration, crash duration, normal cost, and crash cost of all the activities are shown in the table. The indirect cost incurred by the contractor is INR 5000 per day. If the project is targeted for completion in 16 days, the total cost(in INR) to be incurred by the contractor would be _______",
+    "solution": "Indirect cost = Rs. 5000 Crashing possibility = 18 - 17 = 1 day To reduce the project duration by 1 day, the following options available. Best option : Crashing 'R' by 1 day. After crashing 'R' by 1 day, the new network is as for follows. The reduce the project duration by 1 day After crashing Q & R by 1 day, the new network is as follows. Total project cost = Total normal cost + crashing cost of 'R' by 1 day + crashing cost of Q & R by 1 day +\nIndirect cost/day ? Project duration = 15000 + 6000 + 8000 + 7000 + 6000 + 4000 + 20000 + 750 ? 1 + 2750 x 1 + 5000 x 16\n= 1,49,500 /-",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/cmm/page5_q2.webp",
+    "min": 149500.0,
+    "max": 149500.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 The setting time of cement is determined using",
+    "solution": "Vicat apparatus is used to determine the normal consistancy, IST, FST of cement.",
+    "options": {
+      "A": "Le Chatelier apparatus",
+      "B": "Briquette testing apparatus",
+      "C": "Vicat apparatus",
+      "D": "Casagrande's apparatus"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 The Le Chatelier apparatus is used to determine",
+    "solution": "Le Chatelier Apparatus is used to detemine the soundness of cement as per IS code4031 (part 3); this cement testing procedure is called Le Chatelier test for determining the unsoundness properties of cement due to presence of \"free lime\".",
+    "options": {
+      "A": "compressive strength of cement",
+      "B": "fineness of cement",
+      "C": "setting time of cement",
+      "D": "soundness of cement"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 Consider the following statements: P. Walls of one brick thick are measured in square meters. Q. Walls of one brick thick are measured in cubic meters. R. No deduction in the brickwork quantity is made for openings in walls up to 0.1 [latex]m^{2}[/latex] area. S. For the measurement of excavation from the borrow pit in a fairly uniform ground, dead men are left at suitable intervals. For the above statements, the correct option is",
+    "solution": "1. One brick wall [latex]\\rightarrow[/latex] 20 cm (Nominal thickness) 2. 1.5 brick wall [latex]\\rightarrow[/latex] 30 cm (Nominal thickness) 3. 2 brick wall [latex]\\rightarrow[/latex] 40 cm (Nominal thickness) where \"Nominal thickness\" is considered for measuring of wall work. Brick wall is measured in [latex]m^{2}[/latex] is the brick wall thickness is 10 cm (half brick wall) and 20 cm (full brick wall/one brick wall) and for brick wall greater than one brick wall i.e., 1.5 or 2 brick wall. The brick wall is measured in [latex]m^{3}[/latex]. No deduction for openings and bearings in masonary works is made when (a) Opening each upto 100 sq. cm or 0.1 [latex]m^{2}[/latex] (b) ends of beam, post, rafters upto 500 sq./m or 0.05 [latex]m^{2}[/latex] (c) Bed plate, wall, plate, bearing of balcony (chajja) and like upto 10 cm depth, bearing of floor and roof slab are not deducted from masonary. As per 151200 (part-1) : 1992, \"deadmen and tell tales\" in borrow pits is not measured separately and its removal is done after measurement.",
+    "options": {
+      "A": "P-False; Q-True; R- False: S-True",
+      "B": "P-False; Q-True: R-False; S-False",
+      "C": "P-True; Q-False; R-True; 5- False",
+      "D": "P-True; Q-False; R-True; S-True"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 Group I given a list of test methods and test apparatus for evaluating some of the properties of ordinary Portland cement (OPC) and concrete. Group II gives the list of these properties. The correct match of the items in Group I with the items in Group II is:",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/cmm/page6_q1.webp",
+    "options": {
+      "A": "P-1, Q-3, R-4, S-2",
+      "B": "P-2, Q-3, R-1, S-4",
+      "C": "P-4, Q-2, R-4, S-1",
+      "D": "P-1, Q-4, R-2, S-3"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 For a construction project, the mean and standard deviation of the completion time are 200 days and 6.1 days, respectively. Assume normal distribution and use the value of standard normal deviate Z = 1.64 for the 95% confidence level. The maximum time required (in days) for the completion of the project would be _______",
+    "solution": "Expected completion time of project, [latex]\\; T_{E\\, project}=200\\, days[/latex] Standard deviation of project, [latex]\\begin{aligned}\r\n \\sigma _{project}&=6.1\\, days\\\\ Z&= \\frac{T_{S}-T_{E}}{\\sigma _{project}} \\\\ &=\\frac{T_{S}-T_{E\\, project}}{\\sigma _{project}}\\\\ 1.64&= \\frac{T_{S}-200}{6.1}\\\\ T_{S}&=200+6.1\\times 1.64\\\\  &=200+10.004\\\\  &=210.004 \\simeq 210\\, days\r\n\\end{aligned}[/latex]",
+    "min": 209.0,
+    "max": 219.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Given that the scope of the construction work is well-defined with all its drawings, specifications, quantities and estimates, which one of the following types of contract would be most preferred?",
+    "solution": "Scope of construction work is well-defined with all its drawings, specification quantities and estimates, then lump sum contract is used.",
+    "options": {
+      "A": "EPC contract",
+      "B": "Percentage rate contract",
+      "C": "Item rate contract",
+      "D": "Lump sum contract"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 The activity details of a project are given below: The estimated minimum time (in days) for the completion of the project will be________",
+    "solution": "The minimun time for project completion is with respect to critical path. Critical Path[latex]\\, \\rightarrow \\, P-Q-U-V[/latex] [latex]T_{cp}=6 + 15 + 14 + 16= 51 [/latex] days",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/cmm/page6_q4.webp",
+    "min": 51.0,
+    "max": 51.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 The activity-on-arrow network of activities for a construction project is shown in the figure. The durations (expressed in days) of the activities are mentioned below the arrows. The critical duration for this construction project is",
+    "solution": "The critical duration is 15 days which is observed along the path P-Q-T-W-X which is the critical path of the project. [latex]\\textbf{Note}[/latex]: Critical path is the one which consumes maximum amount of time.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/cmm/page6_q5.webp",
+    "options": {
+      "A": "13 days",
+      "B": "14 days",
+      "C": "15 days",
+      "D": "16 days"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 A construction Project consists of twelve activities.The estimated duration (in days) required to complete each of the activities along with the corresponding network diagram is shown below. Total floats (in days) for the activities 5-7 and 11-12 for the project are, respectively,",
+    "solution": "Total float can be determined once the activity times i.e. EST, EFT, LST and LFT are known. total float,[latex]\\begin{aligned}\nF_{T}&=LST-EST\\\\ &=LFT-EFT\n\\end{aligned}[/latex] For activity 5-7, [latex]\\begin{aligned}\n EST&=38\\\\ EFT&=63\\\\ LFT&=63\\\\ LST&=38\\\\ F_{T}&=0\n\\end{aligned}[/latex] for activity 11-12, [latex]\\begin{aligned}\n EST&=80\\\\ EFT&=81\\\\ LFT&=81 \\\\ LST&=80 \\\\ F_T&=0\n\\end{aligned}[/latex] [latex]\\textbf{Note}[/latex]:It can be seen directly that since the slack of all events are zero, there is not margin left for the occurence of events and therefore. Maximum available line=Time required for completion of activity [latex]\\therefore \\; F_{t}[/latex] for all activities is zero.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/cmm/page7_q1.webp",
+    "options": {
+      "A": "25 and 1",
+      "B": "1 and 1",
+      "C": "0 and 0",
+      "D": "81 and 0"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 As per Indian standards for bricks, minimum acceptable compressive strength of any class of burnt clay bricks in dry state is",
+    "solution": "As per IS 1077 : 1992 clause 4.1, minimum strength of burnt clay bricks is 3.5 Mpa",
+    "options": {
+      "A": "10.0MPa",
+      "B": "7.5MPa",
+      "C": "5.0MPa",
+      "D": "3.5MPa"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 The Optimistic Time (O), most likely Time (M) and Pessimistic Time (P) (in days) of the activities in the critical path are given below in the format O-M-P. The expected completion time(in days) of the project________.",
+    "solution": "[latex]\\begin{aligned}\nT_{e}&=\\frac{t_{0}+4t_{m}+t_{p}}{6}\\\\T&=t_{e1}+t_{e2}+t_{e3}+t_{e4}\\\\ &=\\frac{8+4\\times 10+14}{6}+\\frac{6+4\\times 8+11}{6} \\\\ &+\\frac{5+4\\times 7+10}{6}+\\frac{7+4\\times 12+18}{6}\\\\ &=10.333+8.166+7.166+12.166\\\\ &=37.83 days\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/cmm/page7_q3.webp",
+    "min": 37.0,
+    "max": 38.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 The compound which is largely responsible for initial setting and early strength gain of Ordinary Portland Cement is",
+    "solution": "Tricalcium Silicate [latex]\\left ( C_{3}S \\right )[/latex] hardens rapidly and is largely responsible for initial set and early strength. In general, the early strength of potland cement concrete is higher with incresed percentage of [latex]\\left ( C_{3}S \\right )[/latex]",
+    "options": {
+      "A": "[latex]C_{3}A[/latex]",
+      "B": "[latex]C_{3}S[/latex]",
+      "C": "[latex]C_{2}S[/latex]",
+      "D": "[latex]C_{4}AF[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Bull's trench kiln is used in the manufacturing of",
+    "solution": "Bull Trench kiln is a continuous kiln generally oval in plan. It is 50 to 100 m long and 1.5-2.5 m deep below ground level. It is devided into 8-12 sections which is used for manufacturing of bricks.",
+    "options": {
+      "A": "Lime",
+      "B": "cement",
+      "C": "bricks",
+      "D": "none of these"
+    },
+    "correct_answer": "C"
+  }
+]

@@ -1,0 +1,1270 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 In the pin-jointed truss shown in the figure, the members that carry zero force are identified.\nWhich of the following options is/are zero-force members?",
+    "solution": "To identify zero-force members, we use the following rules: Rule 1: If two non-collinear members meet at a joint unstressed by an external force or support, then both members are zero-force members. Rule 2: If three members form a truss joint and two of them are collinear, the third member is a zero-force member provided no external load or support reaction is applied at that joint. Apply Rule 1: At joint B, members BC and BD meet, and there is no external load or support at B. By Rule 1, [latex]\\text{BC is a zero-force member}[/latex]. Apply Rule 1 again: At joint J, members JK and JL meet, with no external force or support. By Rule 1, [latex]\\text{JK is a zero-force member}[/latex]. Final Answer: [latex]\\text{Zero-force members are: BC and JK}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page1_q1.webp",
+    "options": {
+      "A": "BC",
+      "B": "EG",
+      "C": "FI",
+      "D": "JK"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 The figure shows a propped cantilever with uniform flexural rigidity [latex]EI[/latex] (in [latex]\\text{N} \\cdot \\text{m}^2[/latex]) and subjected to a moment [latex]M[/latex] (in [latex]\\text{N} \\cdot \\text{m}[/latex]). Consider forces and displacements in the upward direction as positive. Find the upward reaction at the propped support B (in N) when this support settles by [latex](-\\Delta )[/latex], given in metres.",
+    "solution": "We use the principle of superposition: Reaction at B due to [latex]M[/latex] only: [latex]\\frac{3M}{2L}[/latex] Reaction at B due to downward settlement [latex]-\\Delta[/latex]: [latex]+\\frac{3EI \\Delta}{L^3}[/latex] Total reaction at B:\n[latex]\nR_B = \\frac{3M}{2L} - \\frac{3EI \\Delta}{L^3}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page1_q2.webp",
+    "options": {
+      "A": "[latex]\\frac{3M}{2L} - \\frac{6EI \\Delta}{L^3}[/latex]",
+      "B": "[latex]\\frac{8M}{3L} - \\frac{2EI \\Delta}{L^3}[/latex]",
+      "C": "[latex]\\frac{3M}{2L} - \\frac{3EI \\Delta}{L^3}[/latex]",
+      "D": "[latex]\\frac{M}{L} - \\frac{8EI \\Delta}{L^3}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Consider the pin-jointed truss shown in the figure. Influence line is drawn for the axial force in the member G-L when a unit load travels on the bottom chord of the truss. Identify the CORRECT influence line from the following options: Note: Positive value corresponds to tension and negative value corresponds to compression in the member.",
+    "solution": "To determine the correct influence line for axial force in member GL: Step 1: Member G-L is a diagonal member connecting the bottom chord joint G to the top chord joint L. It is part of a vertical and diagonal web system in a pin-jointed truss. Step 2: Apply a unit moving load on the bottom chord and analyze the influence of this load on the axial force in member G-L. When the unit load is directly under joint G, it induces the maximum positive influence (tension) in member G-L. When the unit load is under joint L, it causes a negative influence (compression). Between G and L, the influence is linear due to statically determinate nature of the truss and linear response of the system. Outside G and L (i.e., A-G and L-P), the influence is zero since the load does not affect the member significantly. Step 3: From the options, only Option (D) correctly shows: A positive peak (1.33) under G A negative value under L Zero elsewhere Final Answer: [latex] \\boxed{\\text{Option (D)}} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page1_q3.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 In the rigid-jointed frame shown in the figure, the distribution factor of the member [latex]A D[/latex] is closest to",
+    "solution": "To find the distribution factor of the member AD at joint A, we use the formula: [latex]\\text{Distribution Factor (DF)} = \\frac{\\text{Stiffness of Member}}{\\text{Sum of Stiffnesses at the Joint}}[/latex] We need the stiffness of all members connected at joint A: Members connected at A: AD, AC, and AF. All are fixed at far ends, so stiffness for each is: [latex]K = \\frac{4EI}{L}[/latex] (for member with far end fixed) From the figure: For AD: Length = [latex]\\frac{L}{2}[/latex], Flexural Rigidity = [latex]EI[/latex] [latex]\\Rightarrow K_{AD} = \\frac{4EI}{L/2} = \\frac{8EI}{L}[/latex] For AC: Length = [latex]L[/latex], Flexural Rigidity = [latex]2EI[/latex] [latex]\\Rightarrow K_{AC} = \\frac{4(2EI)}{L} = \\frac{8EI}{L}[/latex] For AF: Length = [latex]L[/latex], Flexural Rigidity = [latex]2EI[/latex] [latex]\\Rightarrow K_{AF} = \\frac{4(2EI)}{L} = \\frac{8EI}{L}[/latex] Total stiffness at A: [latex]K_{\\text{total}} = K_{AD} + K_{AC} + K_{AF} = \\frac{8EI}{L} + \\frac{8EI}{L} + \\frac{8EI}{L} = \\frac{24EI}{L}[/latex] Distribution factor for AD: [latex]DF_{AD} = \\frac{K_{AD}}{K_{\\text{total}}} = \\frac{8EI/L}{24EI/L} = \\frac{1}{3}[/latex] Final Answer: [latex]\\boxed{\\frac{1}{3}}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page1_q4.webp",
+    "options": {
+      "A": "0.254",
+      "B": "0.267",
+      "C": "0.398",
+      "D": "0.421"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Consider the frame shown in the figure under the loading of [latex]100 \\mathrm{kN} . \\mathrm{m}[/latex] couples at the joints [latex]B[/latex] and [latex]G[/latex]. Considering only the effects of flexural deformations, which of the following statements is/are true:",
+    "solution": "Step 1: Analyze the structure - It's a symmetric frame with members: AB, BC, CD, DE, EF, and FG. - Moments of [latex]100 \\, \\text{kN} \\cdot \\text{m}[/latex] are applied at joints B and G (clockwise and counterclockwise respectively). - All vertical columns (AB, DE, FG) have different stiffnesses as per EI values. - Assume fixed supports at A, D, and F. Step 2: Moment Distribution - focus on joints B, C, and D Let's denote member stiffness factors: - Stiffness of member BC from joint B is: [latex] K_{BC} = \\frac{4EI}{L} = \\frac{4EI}{6} = \\frac{2EI}{3} [/latex] - Stiffness of member AB from joint B: [latex] K_{BA} = \\frac{2EI}{6} = \\frac{EI}{3} [/latex] Distribution Factor (DF) at Joint B: [latex] DF_{BC} = \\frac{K_{BC}}{K_{BA} + K_{BC}} = \\frac{\\frac{2EI}{3}}{\\frac{EI}{3} + \\frac{2EI}{3}} = \\frac{2}{3} [/latex] [latex] DF_{BA} = \\frac{1}{3} [/latex] Similarly at Joint C (connecting BC, CD, and CE): All members have same length and stiffness [latex]2EI[/latex], so: [latex] K_{CB} = \\frac{4EI}{6} = \\frac{2EI}{3} [/latex] [latex] K_{CD} = \\frac{2EI}{8} = \\frac{EI}{4} [/latex] [latex] DF_{CB} = \\frac{\\frac{2EI}{3}}{\\frac{2EI}{3} + \\frac{EI}{4}} = \\frac{8}{11} [/latex] [latex] DF_{CD} = \\frac{3}{11} [/latex] Step 3: Apply the moment at B and perform moment distribution - Moment at B = [latex]100 \\, \\text{kN} \\cdot \\text{m}[/latex] (clockwise), so fixed-end moment to BC is [latex]+100[/latex] - Apply moment distribution considering carry-over and distribution factors. After a few iterations (or by symmetry), we get: [latex] M_{BC} = 50 \\, \\text{kN} \\cdot \\text{m} [/latex] [latex] M_{CB} = 50 \\, \\text{kN} \\cdot \\text{m} [/latex] Because of symmetric load and structure, the moment gets equally distributed between BC and CD. Conclusion: - Moment at joint C is exactly [latex]50 \\, \\text{kN} \\cdot \\text{m}[/latex], not more. - Thus, option D (\"more than 50\") is False . - Joint C has no rotation due to symmetry - option C is True . - CD has zero axial force and zero shear since there?s no direct force acting - options A and B are True .",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page1_q5.webp",
+    "options": {
+      "A": "Axial force is zero in the member CD",
+      "B": "Shear force is zero in the member CD",
+      "C": "There is no rotation in the joint C",
+      "D": "The magnitude of bending moment developed in the member BC at the end C is more than [latex]50 \\mathrm{kN} . \\mathrm{m}[/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 6 The horizontal beam [latex] P Q R S [/latex] shown in the figure has a fixed support at point [latex] P [/latex], an internal hinge at point [latex] Q [/latex], and a pin support at point [latex] R [/latex]. A concentrated vertically downward load [latex] (V) [/latex] of [latex] 10 \\mathrm{kN} [/latex] can act at any point over the entire length of the beam. The maximum magnitude of the moment reaction (in [latex] \\mathrm{kN} . \\mathrm{m} [/latex] ) that can act at the support [latex] \\mathrm{P} [/latex] due to [latex] \\mathrm{V} [/latex] is ______ (in integer).",
+    "solution": "Beam is determinate ILD for [latex] \\mathrm{BM} [/latex] at ' [latex] \\mathrm{P} [/latex] ' is given by Hence when point load is at ' [latex] Q [/latex] ', the point of [latex] \\max [/latex] ordinate for ILD for BM at [latex] \\mathrm{P}, \\mathrm{BM} [/latex] at [latex] \\mathrm{P} [/latex] will be max. [latex] \\Rightarrow \\mathrm{M}_{\\mathrm{P} \\text { max }}=10 \\times 15=150 \\mathrm{kN}-\\mathrm{m} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page2_q1.webp",
+    "min": 150.0,
+    "max": 150.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 The plane truss shown in the figure has 13 joints and 22 members. The truss is made of a homogeneous, prismatic, linearly elastic material. All members have identical axial rigidity. [latex]\\mathrm{A} [/latex] to [latex]\\mathrm{M} [/latex] indicate the joints of the truss. The truss has pin supports at joints [latex]\\mathrm{A} [/latex] and [latex]L [/latex] and roller support at joint [latex]K [/latex]. The truss is subjected to a [latex]10 \\mathrm{kN} [/latex] vertically downward force at joint [latex]\\mathrm{H} [/latex] and a [latex]10 \\mathrm{kN} [/latex] horizontal force in the rightward direction at joint [latex]\\mathrm{B} [/latex] as shown The magnitude of the reaction (in [latex]\\mathrm{kN} [/latex] ) at the pin support [latex]\\mathrm{L} [/latex] is ____ (rounded off to 1 decimal place).",
+    "solution": "Considering left portion of section 1-1 [latex]\n\\begin{array}{rlrl}\n\\Sigma M_{D} & =0 \\\\\n\\Rightarrow & V_{A} \\times 2-H_{A} \\times 2 & =0 \\\\\n\\Rightarrow & V_{A} & =H_{A}\n\\end{array}\n [/latex] Considering right portion of section 2 - 2 [latex]\n\\begin{aligned}\n\\Sigma M_{I}=0 \\Rightarrow & H_{L} \\times 2=0 \\\\\n\\Rightarrow \\quad & H_{L} \\times 2=0\n\\end{aligned}\n [/latex] Considering left portion of section 2 - 2 [latex]\\Sigma M_{I}=0 \\Rightarrow V_{A} \\times 6-H_{A} \\times-10 \\times 1=0 [/latex] [latex]\\Rightarrow \\quad 6 V_{A}-2 H_{A}=10 [/latex] [latex]\\Rightarrow \\quad V_{A}=2.5 \\mathrm{kN} \\quad\\left[\\because H_{A}=V_{A}\\right] [/latex] Now, [latex]\\quad \\Sigma F_{y}=0 [/latex] [latex]\\Rightarrow \\quad V_{A}+V_{L}-10=0 [/latex] [latex]\\Rightarrow \\quad V_{L}=7.5 \\mathrm{kN} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page2_q2.webp",
+    "min": 7.0,
+    "max": 8.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 8 The plane frame shown in the figure has fixed support at joint A, hinge support at joint [latex]\\mathrm{F}[/latex], and roller support at joint 1 . In the figure, [latex] A[/latex]  to I indicate joints of the frame. If the axial deformations are neglected, the degree of kinematic indeterminacy is (integer).",
+    "solution": "From inextensibility of BF and BA, [latex]\n\\Delta \\mathrm{B}_{\\mathrm{x}}=0 \\quad \\Delta \\mathrm{B}_{\\mathrm{y}}=0\n [/latex] From inextensibility of [latex] \\mathrm{BE} [/latex] and [latex] \\mathrm{EF} [/latex], [latex]\n\\Delta \\mathrm{E}_{\\mathrm{x}}=0 \\quad \\Delta \\mathrm{E}_{\\mathrm{y}}=0\n [/latex] From inextensibility of CE and [latex] \\mathrm{BC} [/latex] [latex]\n\\Delta \\mathrm{C}_{\\mathrm{x}}=0 \\quad \\Delta \\mathrm{C}_{\\mathrm{y}}=0\n [/latex] From inextensibility of [latex] \\mathrm{BD} [/latex] and [latex] \\mathrm{CD} [/latex], [latex]\n\\Delta \\mathrm{D}_{\\mathrm{x}}=0 \\quad \\Delta \\mathrm{D}_{\\mathrm{y}}=0\n [/latex] From inextensibility of DG, [latex]\n\\Delta \\mathrm{G}_{\\mathrm{X}}=0\n [/latex] From inextensibility of [latex] \\mathrm{EH} [/latex] and [latex] \\mathrm{HF} [/latex], [latex]\n\\Delta \\mathrm{H}_{\\mathrm{x}}=0 \\quad \\Delta \\mathrm{H}_{\\mathrm{y}}=0\n [/latex] From inextensibility [latex] \\mathrm{FI} [/latex], [latex]\n\\Delta \\mathrm{l}_{\\mathrm{x}}=0\n [/latex] [latex] \\Rightarrow [/latex] If at joint [latex] (F), F B, F E, F H, F I [/latex] are rigidly connected then possible displacements at [latex] \\mathrm{F}=\\theta_{\\mathrm{F}} [/latex]. If at joint I, FI and IH are rigidly connected, possible displacements at [latex] \\mathrm{I}=\\theta_{\\mathrm{I}} [/latex]. Hence unknown joint displacements are [latex]\n\\theta_{\\mathrm{B}}, \\theta_{\\mathrm{C}}, \\theta_{\\mathrm{D}}, \\theta_{\\mathrm{E}}, \\theta_{\\mathrm{F}}, \\theta_{\\mathrm{G}}, \\Delta_{\\mathrm{Gy}}, \\theta_{\\mathrm{H}}, \\theta_{\\mathrm{I}}\n [/latex] [latex]\n\\Rightarrow \\mathrm{D}_{\\mathrm{k}}=9\n [/latex] Note: However, if somebody assumes all members at joint [latex] (F) [/latex] to be connected with pin then at [latex] (F) [/latex] we have unknown joint displacements as [latex] \\theta_{\\mathrm{FB}}, \\theta_{\\mathrm{FE}}, \\theta_{\\mathrm{FH}}, \\theta_{\\mathrm{Fl}} [/latex]. Similarly, if at joint I if somebody assumes [latex] \\mathrm{FI} [/latex] and [latex] \\mathrm{HI} [/latex] to be pin connected then unknown joint displacements at I are [latex] \\theta_{\\mathrm{IF}}, \\theta_{\\mathrm{IH}} [/latex]. Hence, [latex] D_k [/latex] will increase by 4 . [latex]\n\\Rightarrow \\mathrm{D}_{\\mathrm{k}}=9+4=13\n [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page2_q3.webp",
+    "min": 9.0,
+    "max": 9.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 In the frame shown in the figure (not to scale), all four members [latex](A B, B C, C D[/latex], and [latex]A D)[/latex] have the same length and same constant flexural rigidity. All the joints [latex]A, B, C[/latex], and [latex]D[/latex] are rigid joints. The midpoints of [latex]A B, B C, C D[/latex], and [latex]A D[/latex], are denoted by [latex]E, F, G[/latex], and [latex]H[/latex], respectively. The frame is in unstable equilibrium under the shown forces of magnitude [latex]P[/latex] acting at [latex]E[/latex] and [latex]G[/latex]. Which of the following statements is/are TRUE?",
+    "solution": "Due to symmetry horizontal displacement of [latex]\\mathrm{H}[/latex] [latex]\\& F=[/latex] zero [latex]\\Rightarrow[/latex] option (B) correct Also due to symmetry slopes at E, F, G, H [latex]=0[/latex] [latex]\\Rightarrow[/latex] option (D) is correct Since [latex]A D[/latex] and [latex]B C[/latex] are subjected to pure bending Hence shear force at [latex]\\mathrm{H} \\&[/latex]  [latex]\\mathrm{F}[/latex] are zero [latex]\\Rightarrow[/latex] option (A) correct Vertical displacement at [latex]\\mathrm{H} \\& \\mathrm{~F} \\neq 0[/latex] [latex]\\Rightarrow[/latex] option (C) is incorrect.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page2_q4.webp",
+    "options": {
+      "A": "Shear forces at [latex]\\mathrm{H}[/latex] and [latex]\\mathrm{F}[/latex] are zero",
+      "B": "Horizontal displacement at [latex]\\mathrm{H}[/latex] and [latex]\\mathrm{F}[/latex] are zero",
+      "C": "Vertical displacement at [latex]\\mathrm{H}[/latex] and [latex]\\mathrm{F}[/latex] are zero",
+      "D": "Slopes at E, F, G, and [latex]\\mathrm{H}[/latex] are zero"
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 Muller-Breslau principle is used in analysis of structures for",
+    "solution": "Muller Breslass principle is used to draw influence line diagram for determinate and indeterminate structures. It states that influence line for any stress function may be obtained by removing the restraint offered by that function and introducing a directly related generalised unit displacement at that location in the direction of the stress function.",
+    "options": {
+      "A": "drawing an influence line diagram for any force response in the structure",
+      "B": "writing the virtual work expression to get the equilibrium equation",
+      "C": "superposing the load effects to get the total force response in the structure",
+      "D": "relating the deflection between two points in a member with the curvature diagram inbetween"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 11 An idealised bridge truss is shown in the figure. The force in Member [latex]U_{2} L_{3}[/latex] is _____  kN (round off to one decimal place).",
+    "solution": "[latex]\\sum F_{y}=0, \\quad 50-20-20-F_{U_{2} L_{3}} \\sin 45^{\\circ}=0[/latex] [latex]\\therefore \\quad F_{U_{2} L_{3}}=\\frac{10}{\\sin 45^{\\circ}}=14.14 \\mathrm{kN}[/latex] [latex]\\therefore[/latex] Rounding off to one decimal.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page3_q1.webp",
+    "min": 13.5,
+    "max": 14.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Consider the pin-jointed truss shown in the figure (not to scale). All members have the same axial rigidity, [latex]\\mathrm{AE}[/latex]. Members [latex]\\mathrm{QR}, \\mathrm{RS}[/latex], and [latex]\\mathrm{ST}[/latex] have the same length L. Angles OBT, RCT, SDT are all [latex]90^{\\circ}[/latex]. Angles BQT, CRT, DST are all [latex]30^{\\circ}[/latex]. The joint [latex]T[/latex] carries a vertical load [latex]P[/latex]. The vertical deflection of joint [latex]T[/latex] is [latex]k \\frac{P L}{A E}[/latex]. What is the value of [latex]k[/latex] ?",
+    "solution": "Considering joint [latex]T[/latex], [latex]\\sum F_{y}=0, \\quad F_{Q T} \\sin 60^{\\circ}=P[/latex] [latex]\\therefore \\quad \\mathrm{F}_{\\mathrm{QT}}=\\frac{2 \\mathrm{P}}{\\sqrt{3}}[/latex] [latex]\\sum \\mathrm{F}_{\\mathrm{X}}=0, \\mathrm{~F}_{\\mathrm{BT}}=-\\mathrm{F}_{\\mathrm{QT}} \\cos 60^{\\circ}=-\\frac{P}{\\sqrt{3}}[/latex] [latex]\\therefore \\quad[/latex] Strain energy [latex](U)=\\left(\\frac{P^{2} L}{2 A E}\\right)_{Q T}+\\left(\\frac{P^{2} L}{2 A E}\\right)_{B T}[/latex] [latex]=\\frac{\\left(\\frac{2 \\mathrm{P}}{\\sqrt{3}}\\right)^{2}(3 \\mathrm{~L})}{2 \\mathrm{AE}}+\\frac{\\left(-\\frac{\\mathrm{P}}{\\sqrt{3}}\\right)^{2}\\left(\\frac{3 \\mathrm{~L}}{2}\\right)}{2 \\mathrm{AE}}\n[/latex] [latex]\n=\\frac{2 P^{2} \\times L}{A E}+\\frac{P^{2} \\times L}{4 A E}\n[/latex] [latex]\\frac{8 P^{2} L+P^{2} L}{4 A E}=\\frac{9 P^{2} L}{4 A E}[/latex] [latex]\\therefore \\quad[/latex] Vertical deflection of joint [latex]T[/latex] [latex]=\\frac{\\partial \\mathrm{U}}{\\partial \\mathrm{P}}=\\frac{18 \\mathrm{PL}}{4 \\mathrm{AE}}=4.5 \\frac{\\mathrm{PL}}{\\mathrm{AE}}\n[/latex] [latex]\\therefore \\quad \\mathrm{K}=4.5[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page3_q2.webp",
+    "options": {
+      "A": "1.5",
+      "B": "4.5",
+      "C": "3",
+      "D": "9"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Consider the following three structures: Structure I: Beam with hinge support at A, roller at [latex]C[/latex], guided roller at [latex]E[/latex], and internal hinges at [latex]B[/latex] and [latex]D[/latex]. Structure II: Pin-jointed truss, with hinge support at [latex]A[/latex], and rollers at [latex]B[/latex] and [latex]D[/latex]. Structure III: Pin-jointed truss, with hinge support at [latex]A[/latex] and roller at [latex]C[/latex]. Which of the following statements is/are TRUE?",
+    "solution": "Unstability in beam can be checked (i) If support reactions are not enough. (ii) If reactions are concurrent. (iii) If reactions are parallel. (iv) If there is mechanism. where as for truss also along with the above given\r\npoints the triangular panels are generally stable. But, a virtual inspection must be conducted to\r\nunderstand the stability (I) It is unstable as it shows mechanisms. Also to understand if we apply a vertical force at\r\nslider side, the deflected shape will be as follows. (II) The frame is internally stable but all the\r\nreactions are concurrent and meeting at hinge A,\r\nand the frame can rotate about A. Hence, it is unstable. (III) The frame is unstable because it cannot resist\r\nshear in DE and AB since DE and AB are slender\r\nmembers.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page3_q3.webp",
+    "options": {
+      "A": "Structure I is unstable",
+      "B": "Structure II is unstable",
+      "C": "Structure III is unstable",
+      "D": "All three structures are stable"
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 The linearly elastic planar structure shown in the figure is acted upon by two\nvertical concentrated forces. The horizontal beams UV and WX are connected\nwith the help of the vertical linear spring with spring constant k = 20 kN/m. The\nfixed supports are provided at U and X. It is given that flexural rigidity\n [latex]EI = 10^5 kN-m^2, P = 100 kN,[/latex] and [latex]a = 5 m[/latex]. Force Q is applied at the center of beam WX such that the force in the spring VW becomes zero. The magnitude of force Q (in kN) is ________. (round off to the nearest integer)",
+    "solution": "If force in spring is zero, there will be no\ndeformation in spring i.e., deflection of point V\nwill be equal to deflection of point W [latex] \\begin{aligned}\n\\delta _v&=\\delta _w\\\\\n\\frac{P(2a)^3}{3EI}&=\\frac{Q(a)^3}{3(2EI)}+\\frac{Q(a)^2}{2(2EI)}\n+a\\\\\n\\frac{8}{3}P&=\\left ( \\frac{1}{6}+\\frac{1}{4} \\right )Q\\\\\nQ&=\\frac{32}{5}P=640kN\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page3_q4.webp",
+    "min": 620.0,
+    "max": 660.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 Which of the following statement(s) is/are correct?",
+    "solution": "",
+    "options": {
+      "A": "If a linearly elastic structure is subjected to a set of loads, the partial derivative\nof the total strain energy with respect to the deflection at any point is equal to\nthe load applied at that point.",
+      "B": "If a linearly elastic structure is subjected to a set of loads, the partial derivative\nof the total strain energy with respect to the load at any point is equal to the\ndeflection at that point.",
+      "C": "If a structure is acted upon by two force system Pa and Pb , in equilibrium\nseparately, the external virtual work done by a system of forces Pb during the\ndeformations caused by another system of forces Pa is equal to the external\nvirtual work done by the Pa system during the deformation caused by the Pb\nsystem.",
+      "D": "The shear force in a conjugate beam loaded by the M/EI diagram of the real\n\nbeam is equal to the corresponding deflection of the real beam."
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Consider a beam PQ fixed at P, hinged at Q, and subjected to a load F as shown in figure (not drawn to scale). The static and kinematic degrees of\nindeterminacy, respectively, are",
+    "solution": "Static indeterminacy, SI=r-3=(3+2)-3=2 Kinematic indeterminacy=0+1=1",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page4_q1.webp",
+    "options": {
+      "A": "2 and 1",
+      "B": "2 and 0",
+      "C": "1 and 2",
+      "D": "2 and 2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 Consider a simply supported beam PQ as shown in the figure. A truck having\n100 kN on the front axle and 200 kN on the rear axle, moves from left to right.\nThe spacing between the axles is 3 m. The maximum bending moment at point\nR is ______ kNm. (in integer)",
+    "solution": "[latex]\\frac{ab}{L}=\\frac{1 \\times 4}{5}=0.8m[/latex] To get maximum BN at R [latex]\\begin{aligned}\nBM_{max}&=200 \\times \\frac{ab}{L}+100 \\times y\\\\\n\\frac{ab/l}{b}&=\\frac{y}{4-3}\\Rightarrow \\frac{0.8}{4}=\\frac{y}{1}=0.2m\\\\\nBM_{max}&=200 \\times 0.8+100 \\times 0.2=180kNm\n\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page4_q2.webp",
+    "min": 180.0,
+    "max": 180.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18 Consider the linearly elastic plane frame shown in the figure. Members HF, FK\nand FG are welded together at joint F. Joints K, G and H are fixed supports. A\ncounter-clockwise moment M is applied at joint F. Consider flexural rigidity\nEI=[latex]10^5kN-m^2[/latex]\nfor each member and neglect axial deformations. If the magnitude (absolute value) of the support moment at H is 10 kN-m, the\nmagnitude (absolute value) of the applied moment M (in kN-m) to maintain static\nequilibrium is ___________. (round off to the nearest integer)",
+    "solution": "[latex]\\frac{M}{6}=10kNm\\Rightarrow  M=60kNm[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page4_q3.webp",
+    "min": 57.0,
+    "max": 63.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 The plane truss shown in the figure is subjected to an external force [latex]P[/latex]. It is given that [latex]P = 70 kN, a = 2 m,[/latex] and [latex]b = 3 m[/latex]. The magnitude (absolute value) of force (in kN) in member [latex]EF[/latex] is _______.\n(round off to the nearest integer)",
+    "solution": "[latex]\\begin{aligned}\n\\Sigma M_J&=0\\\\\nV_A \\times 8-H_A \\times 1-70 \\times 4&=0\\\\\n8V_A-H_A&=280 \\;\\;\\;(i)\n\\end{aligned}[/latex] To find [latex]H_A[/latex] (Cut the truss by 1-1) Consider left hand side [latex]\\begin{aligned}\n\\Sigma M_E&=0\\\\\nV_A \\times 4-H_A \\times 4&=0\\\\\nV_A&=H_A \\;\\;\\;(ii)\\\\\n\\text{using (i) and (ii)}&\\\\\n8V_A-V_A&=280\\\\\n7V_A&=280\\\\\nV_A&=40kN\\\\\nH_A&=40kN\\\\\nH_J&=40kN\\\\\nV_J&=70-40=30kN\\\\\n\\end{aligned}[/latex] To find force in member EF (Cit the truss by 2-2) Consider right hand side Force in member EF [latex]F_{EF}=V_J=30kN[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page4_q4.webp",
+    "min": 28.0,
+    "max": 32.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 A semi-circular bar of radius R m, in a vertical plane, is fixed at the end G, as\nshown in the figure. A horizontal load of magnitude P kN is applied at the end\nH. The magnitude of the axial force, shear force, and bending moment at point\nQ for [latex]\\theta =45 ^{\\circ}[/latex], respectively, are",
+    "solution": "[latex] \\begin{aligned}\n (F_Q)&=P\\sin \\theta  =\\frac{P}{\\sqrt{2}}&(\\; at\\;  \\theta =45^{\\circ})\\\\ \n (S_Q)&=P\\cos \\theta  =\\frac{P}{\\sqrt{2}}&(\\; at\\; \\theta =45^{\\circ})\\\\ \n M_Q&=PR \\sin \\theta =\\frac{PR}{\\sqrt{2}}&( \\; at\\; \\theta =45^{\\circ})\n \n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page4_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{P}{\\sqrt{2}}kN,\\frac{P}{\\sqrt{2}}kN \\text{ and } \\frac{PR}{\\sqrt{2}}kNm[/latex]",
+      "B": "[latex]\\frac{P}{\\sqrt{2}}kN,\\frac{P}{\\sqrt{2}}kN \\text{ and } 0 \\; kNm[/latex]",
+      "C": "[latex]0 \\; kN,\\frac{P}{\\sqrt{2}}kN \\text{ and } \\frac{PR}{\\sqrt{2}}kNm[/latex]",
+      "D": "[latex]\\frac{P}{\\sqrt{2}}kN,0 \\; kN \\text{ and } \\frac{PR}{\\sqrt{2}}kNm[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 A perfectly flexible and inextensible cable is shown in the figure (not to scale). The external loads at F and G are acting vertically. The magnitude of tension in the cable segment  FG (in  kN, round off to two decimal places) is _______",
+    "solution": "[latex]\\begin{aligned} \\Sigma M_F=0\\\\ \\left ( 10.667+\\frac{H}{6} \\right )2-H \\times 3=0\\\\ H=8\\; kN\\\\ V_E=10.667+\\frac{8}{6}\\\\ V_E=12\\; kN\\\\ V_H=10\\; kN \\end{aligned}[/latex] Consider left side of section (1)-(1) [latex]\\begin{aligned} \\Sigma H=0\\\\ T \\cos \\theta =H\\\\ T \\cos \\theta =8\\\\ T \\sin \\theta =2\\\\ \\therefore \\;\\; T^2 \\cos ^2\\theta + T^2 \\sin ^2 \\theta =8^2+2^2\\\\ T=8.246\\; kN \\end{aligned}[/latex] Tension in segment GF is 8.246 kN.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page5_q1.webp",
+    "min": 8.1,
+    "max": 8.4
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 A prismatic fixed-fixed beam, modelled with a total lumped-mass of 10 kg as a single degree of freedom (SDOF) system is shown in the figure. If the flexural stiffness of the beam is [latex]4 \\pi^{2} \\mathrm{kN} / \\mathrm{m}[/latex], its natural frequency of vibration (in Hz, in integer) in the flexural mode will be _______",
+    "solution": "Given Data: [latex]\\begin{aligned} m&=10\\; kg\\\\ K&=4 \\pi^2 \\times 10^3\\\\ &\\text{Natural frequency,}\\\\ f_n&=\\frac{1}{2 \\pi} \\sqrt{\\frac{k}{m}}\\\\ &=\\frac{1}{2 \\pi} \\sqrt{\\frac{4 \\pi ^2 \\times 10^3}{10}}\\\\ &=\\frac{2 \\pi \\times 10}{2 \\pi}=10 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page5_q2.webp",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 A frame EFG is shown in the figure. All members are prismatic and have equal flexural rigidity. The member FG carries a uniformly distributed load w per unit length. Axial deformation of any member is neglected. Considering the joint F being rigid, the support reaction at G is",
+    "solution": "Compatibility condition [latex]\\begin{array}{l} \\qquad \\qquad \\qquad \\qquad \\qquad \\frac{\\partial U}{\\partial R}=0 \\\\ \\Rightarrow \\qquad \\qquad \\frac{\\partial}{\\partial R}\\left[\\int \\frac{M^{2}}{2 E \\mid} d x\\right]=0 \\\\ \\Rightarrow \\frac{\\partial}{\\partial R}\\left[\\int_{0}^{L} \\frac{\\left(R x-\\frac{w x^{2}}{2}\\right)^{2}}{2 E I} d x+\\int_{0}^{2 L} \\frac{\\left(R L-\\frac{w L^{2}}{2}\\right)^{2}}{2 E I} d x\\right]=0 \\\\ \\Rightarrow \\int_{0}^{L} \\frac{2\\left(R x-\\frac{w x^{2}}{2}\\right)}{2 E I}(x) d x+\\int_{0}^{2 L} \\frac{\\left(R L-\\frac{w L^{2}}{2}\\right)}{E I}(L) d x=0 \\\\ \\Rightarrow \\frac{R L^{3}}{3}-\\frac{W}{2} \\times \\frac{L^{4}}{4}+R L^{2}(2 L)-\\frac{W^{3}}{2}(2 L)=0 \\\\ \\Rightarrow \\frac{R L^{3}}{3}-\\frac{w^{4}}{8}+2 R L^{3}-w L^{4}=0 \\\\ \\Rightarrow 2 R L^{3}+\\frac{R L^{3}}{3}=\\frac{w^{4}}{8}+w^{4}=\\frac{9}{8} w^{4} \\\\ \\Rightarrow \\frac{7 R L^{3}}{3}=\\frac{9}{8} w L^{4} \\\\ \\Rightarrow R=\\frac{27}{56} w L=0.482 w L \\end{array}[/latex] Alternative [latex]\\begin{aligned} \\frac{w L^{4}}{8 E I}+\\frac{w L^{2}(2 L)}{2 E I} \\times L &=\\frac{R L^{3}}{3 E I}+\\frac{R L \\times 2 L \\times L}{E I} \\\\ \\frac{w^{4}}{8 E I}+\\frac{w^{4}}{E I} &=\\frac{R L^{3}}{3 E I}+\\frac{2 R L^{3}}{E I} \\\\ \\frac{9 W^{4}}{8 E I} &=\\frac{7 R L^{3}}{3 E I} \\\\ R &=\\frac{27 w L}{56}=0.482 \\mathrm{wL} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page5_q3.webp",
+    "options": {
+      "A": "0.375 wL",
+      "B": "0.453 wL",
+      "C": "0.482 wL",
+      "D": "0.500 wL"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 A propped cantilever beam XY, with an internal hinge at the middle, is carrying a uniformly distributed load of 10 kN/m, as shown in the figure. The vertical reaction at support X ( in kN, in integer) is _____",
+    "solution": "[latex]\\begin{aligned} B M &=0 \\text { at hinge } \\\\ R_{Y} \\times 2-10 \\times 2 \\times 1 &=0 \\\\ R_{Y} &=10 \\mathrm{kN} \\\\ R_{X}+R_{Y} &=10 \\times 4 \\\\ R_{X}+10 &=40 \\\\ R_{X} &=30 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page5_q4.webp",
+    "min": 30.0,
+    "max": 30.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 Employ stiffness matrix approach for the simply supported beam as shown in the figure to calculate unknown displacements/rotations. Take length, L=8 m; modulus of elasticity, [latex]E=3 \\times 10^{4} \\mathrm{~N} / \\mathrm{mm}^{2}[/latex]; moment of inertia, [latex]I=225 \\times 10^{6} \\mathrm{mm}^{4}[/latex]. The mid-span deflection of the beam (in mm,round off to integer) under P=100 kN in downward direction will be ___________",
+    "solution": "By stiffness matrix method Step-1 : Generation of stiffness matrix Column-1 [latex]\\begin{aligned} \\mathrm{k}_{11}&=\\frac{3 E(2 I)}{(L / 2)^{3}}+\\frac{3 E(I)}{(L / 2)^{3}}=\\frac{72 \\mathrm{E} I}{L^{3}}\\\\ k_{21}&=-\\frac{3 E(2 I)}{(L / 2)^{2}}+\\frac{3 E(I)}{(L / 2)^{2}}=-\\frac{12 E I}{L^{2}} \\end{aligned}[/latex] Column-2 [latex]\\begin{aligned} k_{22}&=\\frac{3 E(2 I)}{(L / 2)}+\\frac{3 E(I)}{(L / 2)}=18 \\frac{E I}{L} \\\\ \\text { Stiffness matrix }[k]&=\\left[\\begin{array}{cc} 72 \\frac{E I}{L^{3}} & -\\frac{12 E I}{L^{2}} \\\\ -\\frac{12 E I}{L^{2}} & \\frac{E I}{L} \\end{array}\\right] \\end{aligned}[/latex] Step-2: Calculation of unknown Nodal displacements [latex]\\left(\\Delta_{\\mathrm{B}}, \\theta_{\\mathrm{B}}\\right)[/latex] [latex]\\begin{aligned} \\text{Using} \\qquad \\qquad \\qquad \\qquad [P]&=[k][\\Delta]\\\\ \\Rightarrow \\qquad \\qquad \\qquad \\qquad \\qquad \\quad & \\quad\\left[\\begin{array}{l} P \\\\ O \\end{array}\\right]=\\left[\\begin{array}{cc} \\frac{72 E I}{L^{2}} & -\\frac{12 E I}{L^{2}} \\\\ -\\frac{12 E I}{L^{2}} & \\frac{8 E I}{L} \\end{array}\\right]\\left[\\begin{array}{l} \\Delta_{B} \\\\ \\theta_{B} \\end{array}\\right]\\\\ \\text{On solving} \\qquad \\qquad \\qquad \\quad\\\\\\Delta_{\\mathrm{B}}&=\\frac{P L^{3}}{64 E I}(\\downarrow) \\\\ \\therefore \\qquad \\qquad \\qquad \\qquad \\qquad \\theta_{\\mathrm{B}}&=\\frac{P L^{2}}{96 E I}(\\mathrm{CW}) \\\\ \\Delta_{\\mathrm{B}}&=\\frac{\\left(100 \\times 10^{3}\\right) \\times(8000)^{3}}{64 \\times 3 \\times 10^{4} \\times 225 \\times 10^{6}}\\\\ &=118.519 \\mathrm{~mm} \\simeq 119 \\mathrm{~mm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page5_q5.webp",
+    "min": 100.0,
+    "max": 130.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 Refer the truss as shown in the figure (not to scale). If load, [latex]F=10 \\sqrt{3} \\mathrm{kN}[/latex], moment of inertia, [latex]I=8.33 \\times 10^{6} \\mathrm{~mm}^{4}[/latex], area of cross-section, [latex]A=10^{4} \\mathrm{~mm}^{2}[/latex], and length, L=2 m for all the members of the truss, the compressive stress (in [latex]\\mathrm{kN} / \\mathrm{m}^{2}[/latex],in integer) carried by the member Q-R is _________",
+    "solution": "[latex]V_{P}=V_{S}=5 \\sqrt{3} \\mathrm{kN}[/latex] Considering equilibrium of LHS of section (1 )-(1) Taking moment about 'T' [latex]\\begin{aligned} \\Sigma M_{T}(C W)&=0\\\\ (5 \\sqrt{3} \\times a)+F_{Q R}\\left(\\frac{\\sqrt{3} a}{2}\\right)&=0\\\\ \\Rightarrow \\qquad \\qquad \\qquad \\qquad \\quad F_{O A}&=-10 \\mathrm{kN} or 10 \\mathrm{kN} (C) \\\\ \\text{ Compressive} &\\text{ stress in member QR} \\left(\\sigma_{\\mathrm{C}}\\right)\\\\ \\sigma_{\\mathrm{C}}&=\\frac{F_{Q A}}{2 A} \\\\ &=\\frac{10 \\mathrm{kN}}{2 \\times\\left(10^{4} \\times 10^{-6}\\right) \\mathrm{m}^{2}} \\\\ &=500 \\mathrm{kN} / \\mathrm{m}^{2} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page6_q1.webp",
+    "min": 490.0,
+    "max": 510.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 A truss EFGH is shown in the figure, in which all the members have the same axial rigidity R. In the figure, P is the magnitude of external horizontal forces acting at joints F and G. If [latex]R=500 \\times 10^{3} \\mathrm{kN}[/latex],[latex]P=150 \\mathrm{kN}[/latex] and L=3 m, the magnitude of the horizontal displacement of joint G (in mm,round off to one decimal place) is ________",
+    "solution": "Note: No need to calculate 'I< force in all members because 'P force is zero fore all members except FG By unit load method [latex]\\begin{aligned} \\text { 1. } \\Delta_{\\mathrm{HG}}=& \\sum_{i=1}^{n} \\frac{P_{i} k_{i} L_{i}}{A_{i} E_{i}} \\\\ \\Delta_{\\mathrm{HG}}=& \\text { Horizontal deflection at joint } \\mathrm{G} \\\\ \\therefore \\qquad & \\qquad \\qquad\\Delta_{\\mathrm{HG}} =\\underbrace{\\frac{P \\times 1 \\times L}{A E}}_{\\text {FG-member }} \\times \\underbrace{Q^{\\prime}}_{\\text {(For all other members) }} \\\\ & \\qquad \\qquad\\Delta_{\\mathrm{HG}} =\\frac{P L}{A E}=\\left(\\frac{150 \\times 3}{500 \\times 10^{3}} \\times 10^{3}\\right) \\mathrm{mm} \\\\ & \\qquad \\qquad \\qquad=0.90 \\mathrm{~mm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page6_q2.webp",
+    "min": 0.9,
+    "max": 0.9
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 A propped cantilever beam EF is subjected to a unit moving load as shown in the figure (not to scale). The sign convention for positive shear force at the left and right sides of any section is also shown. The CORRECT qualitative nature of the influence line diagram for shear force at G is",
+    "solution": "As per Muller Breslau principle ILD for stress function (shear [latex]-V_{G}[/latex]) will be a combination\nof curves ([latex]3^{\\circ} [/latex] curves).",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page6_q3.webp"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 The plane truss has hinge supports at P and W and is subjected to the horizontal forces\nas shown in the figure. Representing the tensile force with '+' sign and the compressive force with '-' sign, the\nforce in member XW (in kN, round off to the nearest integer), is _________.",
+    "solution": "Force in PQ Considering the section above (1) - (1) Taking moment about 'R' [latex]\\begin{aligned} \\Sigma M_{RL}&=0\\\\ (10 \\times 4)+(10 \\times 8)&+F_{PQ} \\times 4=0\\\\ F_{PQ}&=-\\frac{120}{4}\\\\ &=-30kN=30kN (Comp.) \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page6_q4.webp",
+    "min": -31.0,
+    "max": -29.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 The planar structure RST shown in the figure is roller-supported at S and pin-supported\nat R. Members RS and ST have uniform flexural rigidity (EI) and S is a rigid joint. Consider\nonly bending deformation and neglect effects of self-weight and axial stiffening When the structure is subjected to a concentrated horizontal load P at the end T, the\nmagnitude of rotation at the support R, is",
+    "solution": "[latex]\\theta _R=\\frac{(PL/2)L}{6EI}[/latex] [latex]\\theta _R=\\frac{PL^2}{12EI}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page6_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{PL^3}{12EI}[/latex]",
+      "B": "[latex]\\frac{PL^2}{12EI}[/latex]",
+      "C": "[latex]\\frac{PL^2}{6EI}[/latex]",
+      "D": "[latex]\\frac{PL}{6EI}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 A prismatic linearly elastic bar of length, L, cross-sectional area A, and made up of a\nmaterial with Young's modulus E, is subjected to axial tensile force as shown in the\nfigures. When the bar is subjected to axial tensile force [latex]P_1\\; and\\; P_2[/latex], the strain energies\nstored in the bar are [latex]U_1\\; and\\; U_2[/latex], respectively. If U is the strain energy stored in the same bar when subjected to an axial tensile force ([latex]P_1 + P_2[/latex]), the correct relationship is",
+    "solution": "[latex](P_1+P_2)^2 \\gt P_1^2+P_2^2[/latex] [latex]U \\gt U_1+U_2[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page7_q1.webp",
+    "options": {
+      "A": "[latex]U=U_1+ U_2[/latex]",
+      "B": "[latex]U=U_1 - U_2[/latex]",
+      "C": "[latex]U \\lt U_1+ U_2[/latex]",
+      "D": "[latex]U \\gt U_1+ U_2[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 Distributed load(s) of 50 kN/m may occupy any position(s) (either continuously or in\npatches) on the girder PQRST as shown in the figure The maximum negative (hogging) bending moment (in kNm) that occurs at point R, is",
+    "solution": "ILD for BM at R: To get maximum hogging BM at R, keep UDL over PQ and ST. Max. -ve BM at R [latex]=50\\left [ -\\frac{1}{2} \\times 1.5 \\times 0.6 \\right ] +50 \\left [ -\\frac{1}{2} \\times 1.5 \\times 0.9 \\right ][/latex] =56.25 kNm",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page7_q2.webp",
+    "options": {
+      "A": "22.5",
+      "B": "56.25",
+      "C": "93.75",
+      "D": "150"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 A planar elastic structure is subjected to uniformly distributed load, as shown in the figure Neglecting self-weight, the maximum bending moment generated in the structure (in kNm,\nround off to the nearest integer), is ___________ .",
+    "solution": "[latex]V_A=V_B=\\frac{wL}{2}=\\frac{12 \\times 8}{2}=48 kN[/latex] As horizontal thrust is zero so it behaves like a beam (curved beam) [latex] \r\nM_{max}=\\frac{wL^2}{8} \\; (\\text{ At crown})[/latex] [latex]=\\frac{12 \\times 8^2}{8}=96KNm[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page7_q3.webp",
+    "min": 95.0,
+    "max": 97.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 Consider the planar truss shown in the figure (not drawn to the scale) Neglecting self-weight of the members, the number of zero-force members in the truss\nunder the action of the load P, is",
+    "solution": "As [latex]\\Delta _{AB}=0[/latex], hence [latex]F _{AB}=0[/latex] Total number of zero force member = 8",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page7_q4.webp",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 A long uniformly distributed load of 10 kN/m and a concentrated load of 60 kN are moving together on the beam ABCD shown in the figure. The relative positions of the two loads are not fixed. The maximum shear force (in kN, round off to the nearest integer) caused at the internal hinge B due to the two loads is _____",
+    "solution": "ILD for [latex]V_B[/latex] Maximum shear [latex]V_B=-\\left [ \\left ( \\frac{1}{2}\\times 2 \\times 1 \\times 10 \\right )+(60 \\times 1) \\right ]=-70kN[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page7_q5.webp",
+    "min": 70.0,
+    "max": 70.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 The degree of static indeterminacy of the plane frame as shown in the figure is ___",
+    "solution": "Static indeterminacy [latex]D_s = D_{se} + D_{si}-\\text{Force releases}[/latex] External indeterminacy, [latex]D_{se} = r - s[/latex] No. of support reactions, r = 7 Number of equilibrium equations, s = 3 [latex]D_{se} = 7-3=4[/latex] Internal indeterminacy [latex]D_{si}= 3\\times \\text{No of closed boxes}[/latex] [latex]= 3\\times 4 = 12[/latex] Force releases = 1 [At the internal hinge] [latex]D_S= 4 + 12 - 1 = 15[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page8_q1.webp",
+    "min": 15.0,
+    "max": 15.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 A portal frame shown in figure has a hinge support at joint P and a roller support at joint R. A point load of 50 kN is acting at joint R in the horizontal direction. The flexural rigidity, EI, of each member is 10 [latex]kNm^2[/latex]. Under the applied load, the horizontal displacement (in mm, round off to 1 decimal place) of joint R would be _______",
+    "solution": "[latex]\\begin{aligned} \\Sigma M_p&=0\\;\\;[\\text{Take clockwise as positive}]\\\\ R_R \\times 5-50 \\times 10&=0\\\\ R_R&=-100kN(\\downarrow )\\\\ R_P&=100kN(\\uparrow )\\\\ EI&=10^6kN-m^2\\\\ \\end{aligned}[/latex] Using unit load method: The horizontal displacement at 'R' [latex]\\delta _{HR}=\\int_{0}^{L}\\frac{M_xm_x}{EI}dx[/latex] where [latex]M_x=[/latex] BM at X-X due to real loads [latex]m_x=[/latex] BM at X-X due to vertical unit load applied where we want to find the deflection. [latex]\\begin{aligned} \\Sigma M_R &=0\\;\\;[\\text{Take clockwise as positive}]\\\\ R_P \\times 5-1 \\times 10&=0\\\\ R_P&=2kN(\\uparrow )\\end{aligned}[/latex] Sign conventions: Sagging +ve Hogging -ve [latex]\\delta _{HR}=\\int_{0}^{5}\\frac{200x^2}{10^6}dx+\\int_{0}^{10}\\frac{50x^2}{10^6}dx=\\frac{1}{40}=0.025m=25mm[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page8_q2.webp",
+    "min": 24.9,
+    "max": 25.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 The rigid-jointed plane frame QRS shown in the figure is subjected to a load P at the joint R. Let the axial deformations in the frame be neglected. If the support S undergoes a settlement of [latex]\\Delta =\\frac{PL^3}{\\beta EI}[/latex], the vertical reaction at the support S will become zero when [latex]\\beta[/latex] is equal to",
+    "solution": "Adopting moment distribution method: Thus, fnal vertical reaction at S (both due [latex]f_0[/latex] sinking and P) [latex]\\begin{aligned} R_S&=P-V \\\\ &= P-\\frac{7.5EI}{L^3} \\times \\frac{PL^3}{\\beta EI}\\\\ R_S&=\\frac{P-7.5T}{\\beta}\\;\\;\\text{when}\\; \\beta =\\text{ reaction at S = 0} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page8_q3.webp",
+    "options": {
+      "A": "0.1",
+      "B": "3",
+      "C": "7.5",
+      "D": "48"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 Consider the pin-jointed plane truss shown in the figure. Let [latex]R_P,R_Q[/latex] and [latex]R_R[/latex] denote the vertical reactions (upward positive) applied by the supports at P, Q, and R, respectively, on the truss. The correct combination of ([latex]R_P,R_Q,R_R[/latex])is represented by",
+    "solution": "Adopting method of sections and taking LHS of the section [latex]\\begin{aligned} &\\Sigma F_y= 0\\\\ &R_P=30kN \\\\ &\\text{For complete truss,} \\\\ &\\Sigma M_R =0 \\\\ &9R_P-30 \\times 6 -R_Q \\times 3=0 \\\\ &R_Q=30kN(\\downarrow ) \\\\ &\\text{Taking RHS of section,} \\\\ &\\Sigma F_y=0\\Rightarrow R_R=-R_Q \\\\ &\\text{Thus},\\;\\; R_Q= 30kN(\\downarrow )\\\\ &R_R=30kN(\\uparrow ) \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page8_q4.webp",
+    "options": {
+      "A": "(30, -30, 30) kN",
+      "B": "(20, 0, 10) kN",
+      "C": "(10, 30, -10) kN",
+      "D": "(0, 60, -30) kN"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 A plane truss is shown in the figure Which one of the options contains ONLY zero force members in the truss?",
+    "solution": "So zero force members are FI, FG, RS, PR",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page8_q5.webp",
+    "options": {
+      "A": "FG, FI, HI, RS",
+      "B": "FG, FH, HI, RS",
+      "C": "FI, HI, PR, RS",
+      "D": "FI, FG, RS, PR"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 A prismatic beam P-Q-R of flexural rigidity [latex]EI=1\\times 10^{4}kNm^{2}[/latex] is subjected to a moment of 180 kNm at Q as shown in the figure. The rotation at Q (in rad, up to two decimal places) is ______",
+    "solution": "[latex]\\begin{aligned} K_{Q} &=K_{Q P}+K_{Q R} \\\\ &=\\frac{4 E I}{5}+\\frac{4 E I}{4}=1.8 \\mathrm{EI} \\\\ \\theta_{Q} &=\\frac{M_{Q}}{K_{Q}}=\\frac{180}{1.8 \\times 10^{4}}=0.01 \\mathrm{rad} \\end{aligned}[/latex] Alternate solution [latex] \\begin{aligned} &\\begin{aligned} M_{Q P} &=M_{f Q P}+\\frac{2 E I}{l}\\left[2 \\theta_{Q}+\\theta_{P}\\right] \\\\ &=\\frac{4 \\times 10^{4}}{5} \\times \\theta_{Q}=8000 \\theta_{Q} \\\\ M_{Q R}=& M_{f Q R}+\\frac{2 E I}{l}\\left[2 \\theta_{Q}+\\theta_{R}\\right] \\\\ & \\quad\\left\\{M_{f Q R}=0, \\theta_{R}=0\\right\\} \\\\ &=\\frac{2 \\times 10^{4}}{4}\\left[2 \\theta_{Q}\\right]=10000 Q \\\\ \\Sigma M_{Q} &=0 \\end{aligned} \\\\ &\\Rightarrow \\quad M_{Q P}+M_{Q R}+180=0 \\\\ & \\Rightarrow \\quad 18000 \\cdot \\theta_{Q}=-180 \\\\ & \\Rightarrow \\quad \\theta_{Q}=0.01 \\;\\text{radian (anticlockwise)} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page9_q1.webp",
+    "min": 0.01,
+    "max": 0.01
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 A vertical load of 10 kN acts on a hinge located at a distance of L/4 from the roller support Q of a beam of length L (see figure). The vertical reaction at support Q is",
+    "solution": "Bending moment about hinge point A=0 (consider the right hand side of A ) [latex] \\begin{aligned} R_{0} \\times \\frac{L}{4} &=0 \\\\ R_{0} &=0 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page9_q2.webp",
+    "options": {
+      "A": "0.0 kN",
+      "B": "2.5 kN",
+      "C": "7.5 kN",
+      "D": "10.0 kN"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 All the members of the planar truss (see figure), have the same properties in terms of area of cross-section (A) and modulus of elasticity (E). For the loads shown on the truss, the statement that correctly represents the nature of forces in the members of the truss is:",
+    "solution": "Since member BDneither elongate nor contract. Hence, [latex]\\quad F_{B D}=0 [/latex]. \r\nSo, there are 2 tension members (AB and DC) \r\n and 3 zero force members (AD, BD, BC).",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page9_q3.webp",
+    "options": {
+      "A": "There are 3 members in tension, and 2 members in compression",
+      "B": "There are 2 members in tension, 2 members in compression, and 1 zero-force member",
+      "C": "There are 2 members in tension, 1 member in compression, and 2 zero-force members",
+      "D": "There are 2 members in tension, and 3 zero-force members"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 Consider the deformable pin-jointed truss with loading, geometry and section properties as shown in the figure. Given that [latex]E =2 \\times 10^{11} N/m^{2}[/latex], [latex]A = 10 mm^{2}[/latex], L = 1 m and P = 1 kN. The horizontal displacement of Joint C (in mm, up to one decimal place) is ______",
+    "solution": "Force is each member due to applied loading [latex] \\begin{aligned} F_{A B}&=P(\\text { Comp. }) \\\\ F_{B C}&=3 P(\\text { Comp. }) \\\\ F_{A C}&=\\sqrt{2} P(\\text { Tension }) \\end{aligned}[/latex] Force in each member due to unit load. [latex] \\begin{aligned} F_{A B}&=P(\\text { Comp. }) \\\\ F_{B C}&=3 P(\\text { Comp. }) \\\\ F_{A C}&=\\sqrt{2} (\\text { Tension }) \\end{aligned}[/latex] [latex] \\begin{array}{l} \\therefore \\text{ Total deflection }=\\delta_{H_{c}}=\\Sigma \\frac{P k L}{A E} \\\\ =\\frac{5.414 \\times(1000 \\mathrm{N}) \\times(1000 \\mathrm{mm})}{\\left(10 \\mathrm{mm}^{2}\\right) \\times\\left(2 \\times 10^{5} \\mathrm{N} / \\mathrm{mm}^{2}\\right)}=2.7 \\mathrm{mm} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page9_q4.webp",
+    "min": 2.6,
+    "max": 2.8
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 The figure shows a simply supported beam PQ of uniform flexural rigidity EI carrying two moments M and 2M. The slope at P will be",
+    "solution": "[latex]\\begin{array}{c} \\text { Now } \\quad R_{1}+R_{2}=\\frac{1}{2} \\times \\frac{L}{3} \\times \\frac{M}{E I}=\\frac{M L}{6 E I} \\\\ \\Sigma M_{O}=0 \\\\ R_{1} L-\\frac{1}{2} \\times \\frac{L}{3} \\times \\frac{M}{E I}\\left(\\frac{2 L}{3}+\\frac{L}{9}\\right)-\\frac{1}{2} \\times \\frac{L}{3} \\\\ \\times \\frac{M}{E I}\\left(\\frac{L}{3}+\\frac{L}{9}\\right)+\\frac{1}{2} \\times \\frac{L}{3} \\times \\frac{M}{E I} \\times \\frac{2 L}{9}=0\\\\ \\quad R_{1}=\\frac{7 M L}{54 E I}+\\frac{4 M L}{54 E I}-\\frac{M L}{27 E I}=\\frac{M L}{6 E I} \\\\ \\therefore \\text{Slope at }P, \\theta_{P}=R_{1}=\\frac{M L}{6 E I} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page9_q5.webp",
+    "options": {
+      "A": "0",
+      "B": "ML/(9EI)",
+      "C": "ML/(6EI)",
+      "D": "ML/(3EI)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 Consider the portal frame shown in the figure and assume the modulus of elasticity [latex]E=2.5\\times 10^{4}[/latex] MPa and the moment of inertial, [latex]I=8\\times 10^{8}\\; mm^{4}[/latex] for all the members of the frame. The rotations (in degrees, up to decimal place) at the rigid joint Q would be ___",
+    "solution": "[latex]\\begin{aligned} \\text { Moment at } Q &=\\frac{1650 \\times 2^{2}}{2}-2000 \\times 2 \\\\ &=-700 \\mathrm{kNm}(\\mathrm{ACW}) \\\\ &=2.5 \\times 10^{4} \\times 8 \\times 10^{8} \\\\ &=20 \\times 10^{12} \\mathrm{Nmm}^{2} \\\\ &=20000 \\mathrm{kNm}^{2} \\\\ \\theta_{Q} &=\\frac{M l}{4 E I}=\\frac{350 \\times 4}{4 \\times 20000} \\\\ &=0.0175 \\mathrm{rad} \\\\ &=\\frac{0.0175 \\times 180^{\\circ}}{\\pi} \\\\ &=1.0027^{\\circ} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page10_q1.webp",
+    "min": 0.9,
+    "max": 1.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 Consider the frame shown in the figure: If the axial and Shear deformation in different members of the frame are assumed to be negligible. The reduction in the degree of Kinematical indeterminacy would be equal to",
+    "solution": "[latex]D_{k}[/latex] (when extensible) =14 [latex] D_{k}[/latex]( when inextensible )=[latex]D_{k}[/latex]( when extensible) - No. of axially rigid member [latex] =14-6=8[/latex] Shear deformation are already neglected. They have no significance on [latex]D_{k}[/latex]. So, reduction in [latex]D_{k}[/latex] is 6.",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 Consider the beam ABCD shown in the figure. For a moving concentrated load of 50 kN on the beam, the magnitude of the maximum bending moment (in kN-m) obtained at the support C will be equal to _____",
+    "solution": "[latex]\\text { B.M. at } C=50 \\times 4=200 \\mathrm{kNm}[/latex] ILD for BM at C",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page10_q3.webp",
+    "min": 199.0,
+    "max": 201.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 The value of M in the beam ABC shown in the figure is such that the joint B does not rotate. The value of support reaction (in kN) at B should\nbe equal to ______",
+    "solution": "As the slope [latex] \\theta_{B} [/latex] is an anticlockwise sense, hence the moment at joint B must be applied in clockwise sense [latex] =40 \\mathrm{kNm} [/latex] to make [latex] \\theta_{B}=0 [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page10_q4.webp",
+    "min": 59.0,
+    "max": 61.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 A Planar truss tower structure is shown in the figure. Consider the following statements about the external and internal determinacies of the truss. (P) Externally Determinate (Q) External Static Indeterminacy = 1 (R) External Static Indeterminacy = 2 (S) Internally Determinate (T) Internal Static Indeterminacy = 1 (U) Internal Static Indeterminacy = 2 Which one of the following options is correct?",
+    "solution": "[latex]\\begin{aligned} \\text{External Indeterminacy}&=r-s=4-3=1 \\text { degree } \\\\ \\text{Internal indeterminacy}&=m-(2 j-3)=15-(2 \\times 8-3)\\\\ & =2 \\text{ degrees} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page10_q5.webp",
+    "options": {
+      "A": "P-False; Q-True; R-False; S-False; T-False; U-True",
+      "B": "P-False; Q-True; R-False; S-False; T-True; U-False",
+      "C": "P-False; Q-False; R-True; S-False; T-False; U-True",
+      "D": "P-True; Q-True; R-False; S-True; T-False; U-True"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 The figure shows a two-hinged parabolic arch of span L subjected to a uniformly distributed load of intensity q per unit length The maximum bending moment in the arch is equal to",
+    "solution": "If a two hinged or three hinged parabolic arch is\nsubjected to UDL throughout its length, bending\nmoment is zero everywhere.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page11_q1.webp",
+    "options": {
+      "A": "[latex]\\frac{qL^{2}}{8}[/latex]",
+      "B": "[latex]\\frac{qL^{2}}{12}[/latex]",
+      "C": "Zero",
+      "D": "[latex]\\frac{qL^{2}}{10}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 Consider the structural system shown in the figure under the action of weight W. All the joints are hinged. The properties of the members in terms of length (L), area (A) and the modulus of elasticity (E) are also given in the figure. Let L, A and E be 1 m, [latex]0.05m^{2}[/latex] and [latex]30\\times 10^{6}N/m^{2}[/latex], respectively, and W be 100 kN. Which one of the following sets gives the correct values of the force, stress and change in length of the horizontal member QR?",
+    "solution": "Given data: [latex] \\begin{array}{l} L=1 \\mathrm{m}, A=0.05 \\mathrm{m}^{2} \\\\ E=30 \\times 10^{6} \\mathrm{N} / \\mathrm{m}^{2} \\end{array}[/latex] Consider joint 'S. [latex] \\begin{aligned} & F_{\\mathrm{SO}}=F_{\\mathrm{SR}} \\\\ 2 F_{\\mathrm{SQ}} \\cos 45^{\\circ}=& \\mathrm{W} \\\\ \\Rightarrow \\quad F_{\\mathrm{SQ}}=& \\frac{W}{2} \\times \\sqrt{2}=\\frac{W}{\\sqrt{2}} \\\\ \\therefore \\quad & F_{\\mathrm{SO}}=\\frac{W}{\\sqrt{2}} \\end{aligned} [/latex] As the truss is symmetrical, [latex] \\therefore \\quad F_{\\mathrm{OP}}=F_{\\mathrm{PR}}=\\frac{W}{\\sqrt{2}} \\qquad \\text{(Tensile)}[/latex] Now consider joint 'Q', [latex] \\begin{aligned} F_{\\mathrm{OP}}&=F_{\\mathrm{OS}}=\\frac{W}{\\sqrt{2}} \\\\ \\Sigma F_{x}&=0\\\\ \\Rightarrow \\frac{F_{Q P}}{\\sqrt{2}}&+\\frac{F_{\\alpha S}}{\\sqrt{2}}+F_{Q R}=0\\\\ \\Rightarrow \\quad F_{\\mathrm{QR}}&=\\mathrm{W} &\\text{(Compressive)}\\\\ \\therefore \\quad F_{\\mathrm{OR}}&=100 \\mathrm{kN} &\\text{(Compressive)} \\end{aligned}[/latex] Stress in member Q R, [latex]\\begin{aligned} \\sigma _{QR} &=\\frac{F_{QR}}{2A} \\\\ \\sigma _{QR} &=\\frac{100}{2 \\times 0.05} \\\\ \\sigma _{QR}&=1000kN/m^2 \\end{aligned}[/latex] As the member QR consist compressive tone, so, it will go under shortening. Sortening, [latex]\\begin{aligned} \\Delta &=\\frac{P(Length)}{2AE}=\\frac{F_{QR}L_{QR}}{2AE}\\\\ L_{QR}&=\\sqrt{L^2+L^2}=\\sqrt{2}L\\\\ \\therefore \\;\\; \\Delta &=\\frac{100 \\times 10^3 \\times \\sqrt{2} \\times 1}{2 \\times 0.05 \\times 30 \\times 10^6}\\\\ &=\\frac{100 \\times 10^3 \\times \\sqrt{2}}{0.1 \\times 30 \\times 10^6}\\\\ &=\\frac{\\sqrt{2}}{30}\\\\ \\therefore \\;\\; \\Delta &=0.471 m \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page11_q2.webp",
+    "options": {
+      "A": "Compressive force = 25 kN; Stress = [latex]250kN/{m^{2}}[/latex]\n; Shortening = 0.0118 m",
+      "B": "Compressive force = 14.14 kN; Stress = [latex]141.4kN/{m^{2}}[/latex]\n; Extension = 0.0118 m",
+      "C": "Compressive force = 100 kN; Stress = [latex]1000kN/{m^{2}}[/latex]\n; Shortening = 0.0417 m",
+      "D": "Compressive force = 100 kN; Stress = [latex]1000kN/{m^{2}}[/latex]\n; Extension = 0.0417 m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 The kinematic indeterminacy of the plane truss shown in the figure is",
+    "solution": "Kinematic indeterminacy, [latex] \\begin{aligned} D_{k}&=2 j-r_{e} \\\\ &=2 \\times 7-3=11 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page11_q3.webp",
+    "options": {
+      "A": "11",
+      "B": "8",
+      "C": "3",
+      "D": "0"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 A plane truss with applied loads is shown in the figure.The members which do not carry any force are The members which do not carry any force are",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page11_q4.webp",
+    "options": {
+      "A": "FT, TG, HU, MP, PL",
+      "B": "ET, GS, UR, VR, QL",
+      "C": "FT, GS, HU, MP, QL",
+      "D": "MP, PL, HU, FT, UR"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 Consider the plane truss with load P as shown in the figure. Let the horizontal and vertical reactions at the joint B be [latex]H_{B}[/latex] and [latex]V_{B}[/latex], respectively and [latex]V_{C}[/latex]  be the vertical reaction at the joint C. Which one of the following sets gives the correct values of [latex]V_{B}, H_{B}[/latex] and [latex]V_{C}[/latex] ?",
+    "solution": "[latex]\\begin{aligned} V_{B}+V_{C} &=P &\\ldots(i)\\\\ \\Sigma M_{B} &=0\\\\ V_{C} \\times 2 L-P \\times 2 L&=0 \\\\ \\Rightarrow \\quad V_{C}&=P \\\\ \\text{From(i), }\\quad V_{B}&=0 \\\\ \\Sigma F_{x}&=0 \\\\ \\Rightarrow \\quad H_{B}&=0 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page11_q5.webp",
+    "options": {
+      "A": "[latex]V_{B}=0;H_{B}=0;V_{C}=P[/latex]",
+      "B": "[latex]V_{B}=P/2;H_{B}=0;V_{C}=P/2[/latex]",
+      "C": "[latex]V_{B}=P/2;H_{B}=P\\left (\\sin  60^{^{\\circ} }\\ \\right);V_{C}=P/2[/latex]",
+      "D": "[latex]V_{B}=P;H_{B}=P\\left (\\cos  60^{^{\\circ} }\\ \\right);V_{C}=0[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 56 A simply supported beam AB of span, L=24 m is subjected to two wheel loads acting at a distance, d=5m apart as shown in the figure below. Each wheel transmits a load, P=3 kN and may occupy any position along the beam. If the beam is an I-section having section modulus, S=16.2 [latex]cm^{3}[/latex], the maximum bending stress (in GPa) due to the wheel loads is ___________.",
+    "solution": "C.G. of system= 2.5 m from any load \r\nFor maximum bending moment, system of load \r\nshould be, Maximum BM will occur below load at C. Ordinate of ILD at C [latex]\\begin{aligned} &=\\frac{(12-1.25) \\times(12+1.25)}{24} \\\\ &=5.935 \\end{aligned}[/latex] Ordinate of LLD at D [latex] \\begin{aligned} &=\\frac{5.935 \\times 8.25}{13.25}=3.695 \\\\ \\text { Maximum } \\mathrm{BM} &=5.935 \\times 3+3.695 \\times 3 \\\\ &=28.89 \\mathrm{kN}-\\mathrm{m} \\end{aligned}[/latex] Maximum bending stress, [latex] \\begin{aligned} \\frac{M}{Z}&=\\frac{28.89 \\times 10^{3}}{16.2 \\times 10^{-6} \\times 10^{9}}\\\\ &=1.783 \\mathrm{GPa} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page12_q1.webp",
+    "min": 1.78,
+    "max": 1.79
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 A guided support as shown in the figure below is represented by three springs (horizontal, vertical and rotational) with stiffness [latex]k_{x},k_{y}\\: and \\: k_{\\theta }[/latex] respectively. The limiting values of [latex]k_{x},k_{y}\\: and \\: k_{\\theta }[/latex] are:",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page12_q2.webp",
+    "options": {
+      "A": "[latex]\\infty ,0,\\infty[/latex]",
+      "B": "[latex]\\infty ,\\infty ,\\infty[/latex]",
+      "C": "[latex]0 ,\\infty ,\\infty[/latex]",
+      "D": "[latex]\\infty ,\\infty ,0[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 58 For the 2D truss with the applied loads shown below, the strain energy in the member XY is _______ kN-m. For member XY, assume AE = 30 kN, where A is cross-section area and E is the modulus of elasticity.",
+    "solution": "First calculating reactions [latex] \\begin{aligned} \\Sigma M_{A}&=0\\\\ \\Rightarrow\\quad R_{B} \\times 3-10 \\times 9-5 \\times 3 &=0 \\\\ R_{B} &=35 \\mathrm{kN} \\\\ H_{A} &=10 \\mathrm{kN} \\\\ \\Sigma M_{B} &=0 \\\\ \\Rightarrow\\quad R_{A} \\times 3+10 \\times 9 &=0 \\\\ R_{A} &=-30 \\mathrm{kN} \\end{aligned}[/latex] Let us cut a section 1-1 as shown in figure and consider the lower part. Given AE = 30 kN and L = 3 m. Calculation for force Pin XY member [latex] \\begin{aligned} \\Sigma F_{\\text {horizontal }} &=0 \\\\ \\Rightarrow \\quad F_{X Y}&=10 \\mathrm{kN} \\end{aligned}[/latex] Strain energy, [latex] \\begin{aligned} U&=\\frac{P^{2} L}{2 A E}\\\\ U &=\\frac{10^{2} \\times 3}{2 \\times 30} \\\\ &=5 \\mathrm{kNm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page12_q3.webp",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 59 For the beam shown below, the value of the support moment M is __________ kN-m.",
+    "solution": "By symmetry we can consider two parts of beam separately with half the load Moment at joint [latex]B=10 \\mathrm{kNm} [/latex] Carry over moment at joint A due to 10 kNm moment at propped end [latex]=\\frac{10}{2}=5 \\mathrm{kN}-\\mathrm{m}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page12_q4.webp",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 For the beam shown below, the stiffness coefficient [latex]K_{22}[/latex] can be written as",
+    "solution": "By giving unit displacement in [latex]2^{\\text {nd }}[/latex] direction without \r\ngiving displacement in any other direction, the \r\nforce developed R_{6}, is, [latex]K_{22}=\\frac{12 E I}{L^{3}}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page12_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{6EI}{L^{2}}[/latex]",
+      "B": "[latex]\\frac{12EI}{L^{3}}[/latex]",
+      "C": "[latex]\\frac{3EI}{L}[/latex]",
+      "D": "[latex]\\frac{EI}{6L^{2}}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 Considering the symmetry of a rigid frame as shown below, the magnitude of the bending moment (in kNm) at P (preferably using the moment distributing method) is",
+    "solution": "Distribution Factor Fixed End Moment [latex]\n\\begin{array}{l}\n\\overline{M_{A B}}=\\overline{M_{B A}}=\\overline{M_{P E}}=\\overline{M_{E P}}=\\overline{M_{\\infty}}=\\overline{M_{D C}}=0 \\\\\n\\overline{M_{B P}}=-\\frac{24 \\times(8)^{2}}{12}=-128 \\mathrm{kNm} \\\\\n\\overline{M_{P B}}=+128 \\mathrm{kNm} \\\\\n\\overline{M_{P C}}=-128 \\mathrm{kNm}\n\\end{array}[/latex] Distribution Table",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page13_q1.webp",
+    "options": {
+      "A": "170",
+      "B": "172",
+      "C": "176",
+      "D": "178"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 62 The static indeterminacy of the two-span continuous beam with an internal hinge,shown below,is_________",
+    "solution": "Number of member, [latex] m=4[/latex] Number of external reaction, [latex] r_{e}=4[/latex] Number of joint, [latex] j=5[/latex] Number of reaction released, [latex] r_{r}=1[/latex] Degree of static -indeterminacy [latex] \\begin{aligned} D_{s} &=3 m+r_{e}-3 j-r_{r} \\\\ &=3 \\times 4+4-3 \\times 5-1 \\\\ &=0 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page13_q2.webp",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 63 For the truss shown below, the member PQ is short by 3 mm. The magnitude of vertical displacement of joint R (in mm) is _______________",
+    "solution": "PQ is short by 3 mm We have to find out vertical displacement of joint R in mm, [latex] \\Delta_{R}=\\Sigma u(\\lambda)[/latex] Let in apply unit load at R as shown below [latex] \\begin{aligned} u_{P R} \\sin \\theta &=\\frac{1}{2} \\\\ u_{P Q}+U_{P A} \\cos \\theta &=0 \\\\ u_{P O}=-U_{P R} \\cos \\theta &=-\\frac{1}{2 \\sin \\theta} \\cdot \\cos \\theta \\\\ u_{P O} &=-\\frac{1}{2} \\cot \\theta \\\\ &=\\frac{-1 \\times 4 / 3}{2}=\\frac{-2}{3} \\\\ \\Delta_{R} &=u_{P O} \\times \\lambda_{P O} \\\\ &=\\frac{-2}{3}(-3) \\\\ &=2 \\mathrm{mm}\\text{ upwards} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page13_q3.webp",
+    "min": 1.0,
+    "max": 2.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 Mathematical idealization of a crane has three bars with their vertices arranged as shown in the figure with a load of 80 kN hanging vertically. The coordinates of the vertices are given in parentheses. The force in the member QR, [latex]F_{QR}[/latex] will be",
+    "solution": "[latex]\\begin{aligned} V_{0}+V_{A} &=80 &\\ldots(i)\\\\ \\Sigma M_{R} &=0 \\\\ \\Rightarrow\\quad 80 \\times 3 &=V_{0} \\times 2 \\\\ \\therefore\\quad V_{O} &=120 \\mathrm{KN} \\\\ \\Rightarrow\\quad V_{R} &=-40 \\mathrm{kN} \\quad \\text { From eq }(1) \\\\ \\tan \\phi &=\\frac{1}{4} \\\\ \\Rightarrow\\quad \\sin \\phi &=\\frac{1}{\\sqrt{17}}, \\cos \\phi=\\frac{4}{\\sqrt{17}} \\\\ \\therefore\\quad \\tan \\theta &=\\frac{3}{4} \\\\ \\Rightarrow\\quad \\cos \\theta &=\\frac{4}{5} \\end{aligned}[/latex] Consider joint Q [latex] \\begin{aligned} \\alpha &=104.03^{\\circ}-90^{\\circ}=14.03^{\\circ} \\\\ \\Sigma F_{y} &=0 \\\\ \\Rightarrow\\quad F_{P Q} \\cos \\alpha &=+V_{Q}=0 \\\\ \\Rightarrow\\quad F_{P Q} \\cos 14.03^{\\circ} &+120=0 \\\\ \\Rightarrow\\quad F_{P Q} &=-123.6897 \\mathrm{kN} \\\\ \\Sigma F_{x} &=0 \\\\ \\Rightarrow\\quad F_{P Q} \\sin \\alpha &=F_{O R} \\\\ \\therefore\\quad F_{O R} &=-29.986 \\mathrm{kN} \\\\ & \\simeq 30 \\mathrm{kNm}(\\text { comp. }) \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page13_q4.webp",
+    "options": {
+      "A": "30 kN Compressive",
+      "B": "30 kN Tensile",
+      "C": "50 kN Compressive",
+      "D": "50 kN Tensile"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 In a beam of length L, four possible influence line diagrams for shear force at a section located at a distance of [latex]\\frac{L}{4}[/latex] from the left end support (marked as P, Q, R and S) are shown below. The correct influence line diagram is",
+    "solution": "ILD for SF at X-X",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page13_q5.webp",
+    "options": {
+      "A": "P",
+      "B": "Q",
+      "C": "R",
+      "D": "S"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 The degree of static indeterminacy of a rigid jointed frame PQR supported as shown in the figure is",
+    "solution": "[latex]\\begin{aligned} D_{s} &=D_{s_{e}}+D_{s_{i}} \\\\ &=\\left(r_{e}-3\\right)+3 C-r_{r} \\\\ &=(4-3)+3 \\times 0-1 \\\\ &=0 \\end{aligned}[/latex] Since cable is provided, it implies that there is only vertical loading. Hence the structure is stable.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page14_q1.webp",
+    "options": {
+      "A": "zero",
+      "B": "one",
+      "C": "two",
+      "D": "unstable"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 Beam PQRS has internal hinges in spans PQ and RS as shown. The beammay be subjected to a moving distributed vertical load of maximum intensity 4 kN/m of any length anywhere on the beam. The maximum absoulate value of the shear force that can occur due to this loading just to the right of support Q shall be:",
+    "solution": "Drawing the ILD of shear force just to right of Q \r\nby using Muller Breslau's principle. A cut is \r\nmade just to the right of 0, since cut is very \r\nclose to support Q, therefore displacement of \r\nleft portion is almost zero and that to the right \r\nportion will be 1. When unit load-is at T: Vertical reaction at P and Q equal to 0 [latex] \\Sigma M_{0}=0 [/latex] [latex] \\begin{aligned} \\Rightarrow \\quad 1 \\times 4&=R_{R} \\times 20 \\\\ \\therefore \\quad R_{A}&=0.25 \\mathrm{kN} \\\\ V_{O \\text { (Righit) }}&=0.25 \\mathrm{kN}\\\\ \\end{aligned}[/latex] Now, if moving distributed load is present over span P R then we get maximum shear force just to the right of Q . [latex] \\Rightarrow \\mathrm{SF}=\\left[\\left(\\frac{1}{2} \\times 0.25 \\times 10\\right)+\\left(\\frac{1}{2} \\times 1 \\times 20\\right)\\right] \\times 4 [/latex] [latex] \\mathrm{SF}=45 \\mathrm{kN}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page14_q2.webp",
+    "options": {
+      "A": "30",
+      "B": "40",
+      "C": "45",
+      "D": "55"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 A uniform beam weighting 1800 N is supported at E and F by cable ABCD. Determine the tension (in N) in segment AB of this cable (correct to 1-decimal place). Assume the cable ABCD, BE and CF to be weightless. _____",
+    "solution": "Taking moment about A, [latex] \\begin{aligned} R_{D} \\times 4 &=1800 \\times 1.5 \\\\ \\Rightarrow R_{D}&=675 \\mathrm{N} \\\\ R_{A}= 1800-R_{D}&=1125 \\mathrm{N} \\end{aligned}[/latex] At joint D, [latex] T_{\\infty}=\\frac{R_{D}}{\\sin 45}=675 \\sqrt{2} \\mathrm{N}[/latex] Taking free body diagram as shown in figure, [latex] \\begin{aligned} \\Sigma V &=0 \\\\ T_{A B} \\sin \\theta+675 \\sqrt{2} \\sin 45^{\\circ} &=1800 \\\\ T_{A B} \\sin \\theta &=1125 &\\ldots(i)\\\\ \\Sigma H &=0 \\\\ T_{A B} \\cos \\theta &=675 \\sqrt{2} \\cos 45^{\\circ} \\\\ \\Rightarrow \\quad T_{A B} \\cos \\theta &=675 &\\ldots(ii)\\\\ \\text{From} e q \\cdot(i) \\text { and }(i i) & \\\\ \\tan \\theta &=\\frac{5}{3} \\\\ \\sin \\theta &=0.8575 \\end{aligned}[/latex] Putting value of [latex]\\sin \\theta[/latex] in eq. (i) [latex] \\begin{aligned} T_{A B} \\times 0.8575 &=1125 \\\\ T_{A B} &=1311.96 \\mathrm{N} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page14_q3.webp",
+    "options": {
+      "A": "1310",
+      "B": "852",
+      "C": "753",
+      "D": "159"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 All members in the rigid-jointed frame shown are prismatic and have the same flexural stiffness EI.\r\nFind the magnitude of the bending moment at Q (in kNm) due to the given loading. __________",
+    "solution": "[latex]\\therefore W_{Q} = 25\\text{kNm}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page14_q4.webp",
+    "options": {
+      "A": "5",
+      "B": "25",
+      "C": "50",
+      "D": "75"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 The pin-jointed 2-D truss is loaded with a horizontal force of 15 kN at joint S and another 15 kN\r\nvertical force at joint U, as shown. Find the force in member RS (in kN) and report your answer\r\ntaking tension as positive and compression as negative. __________",
+    "solution": "[latex]\\begin{aligned} \\Sigma M_{T}&=0 \\\\ \\Rightarrow R_{v} \\times 8-15 \\times 4+15 \\times 4 & =0 \\\\ \\therefore \\quad R_{V} & =0\\\\ \\text{Take moment about V, } M_{V}&=0 \\\\ \\Rightarrow \\quad R_{H} \\times 4&=0 \\\\ \\therefore \\quad R_{H}&=0 \\end{aligned} [/latex] We know that if two members meet at a joint which are not collinear and also there is no external forces acting on that joint then both members will carry zero forces. [latex] \\therefore F_{O V}=F_{Q R}=0[/latex] Now, consider joint R , [latex] \\Sigma F_{y}=0[/latex] [latex] \\begin{aligned} \\Rightarrow F_{R U} \\sin 45^{\\circ}&=0 \\\\ \\Rightarrow F_{R U}&=0\\\\ \\text{Now},\\quad \\Sigma F_{x}&=0 \\\\ \\Rightarrow \\quad F_{R S}+F_{R U} \\cos 45^{\\circ}&=0 \\\\ \\therefore F_{R S}&=0 \\end{aligned} [/latex] So, force is member is \"RS\" will be zero.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page14_q5.webp",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 A three hinged parabolic arch having a span of 20m and a rise of 5m carries a\npoint load of 10 kN at quarter span from the left end as shown in the figure. The\nresultant reaction at the left support and its inclination with the horizontal are\nrespectively",
+    "solution": "Let the vertical reactions at left and right support be [latex]V_{L}[/latex] and [latex]V_{R}[/latex] upwards respectively. Taking moments about right support, we get, [latex] \\begin{aligned} V_{L} \\times 20-10 \\times 15&=0 \\\\ \\Rightarrow \\quad V_{L}&=7.5 \\mathrm{kN} \\\\ \\therefore \\quad V_{R}&=10-7.5=2.5 \\mathrm{kN} \\end{aligned}[/latex] Let the horizontal reaction at left support be H from left to right. Taking moments about the crown from left, we get, [latex] \\begin{aligned} 7.5 \\times 10-10 \\times 5-H \\times 5 &=0 \\\\ \\Rightarrow \\quad H&=5 \\mathrm{kN} \\end{aligned}[/latex] Resultant reaction, [latex] \\begin{aligned} R &=\\sqrt{H^{2}+V_{L}^{2}} \\\\ &=\\sqrt{5^{2}+(7.5)^{2}} \\\\ &=9.01 \\mathrm{kN} \\end{aligned}[/latex] Let the resultant reaction at the left support makes an angle [latex]\\theta[/latex] with the horizontal. [latex] \\begin{aligned} & \\tan \\theta=\\frac{7.5}{5} \\\\ \\Rightarrow & \\theta=\\tan ^{-1}(1.5) \\\\ \\Rightarrow & \\theta=56.31^{\\circ} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page15_q1.webp",
+    "options": {
+      "A": "9.01 kN and 56.31[latex]^{\\circ}[/latex]",
+      "B": "9.01 kN and 33.69[latex]^{\\circ}[/latex]",
+      "C": "7.50 kN and 56.31[latex]^{\\circ}[/latex]",
+      "D": "2.50 kN and 33.69[latex]^{\\circ}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 72 For the truss shown in the figure, the force in the member QR is",
+    "solution": "Using method of joints and considering joint S, we get, [latex] \\begin{aligned} \\Sigma F_{x}&=0 \\\\ \\Rightarrow \\quad F_{T S}&=0\\\\ \\text{and }\\quad \\Sigma F_{y}&=0 \\\\ \\Rightarrow F_{R S}-P&=0 \\\\ \\Rightarrow F_{R S}&=P(\\text { tensile }) \\end{aligned} [/latex] Considering joint R, we get [latex] \\begin{aligned} \\Sigma F_{v}&=0 \\\\ \\Rightarrow \\quad-F_{I R} \\sin 45^{\\circ}-P&=0 \\\\ \\Rightarrow \\quad F_{I R}&=-P \\sqrt{2} \\text{(compressive)}\\\\ \\Sigma F_{x}&=0 \\\\ \\Rightarrow \\quad-F_{T R} \\cos 45^{\\circ}-F_{Q R}&=0 \\\\ \\Rightarrow \\quad P \\sqrt{2} \\times \\frac{1}{\\sqrt{2}}-F_{\\alpha R}&=0\\\\ \\Rightarrow \\quad F_{Q R}&=P\\text{(tension)} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page15_q2.webp",
+    "options": {
+      "A": "0",
+      "B": "[latex]\\frac{P}{\\sqrt{2}}[/latex]",
+      "C": "P",
+      "D": "[latex]\\sqrt{2}P[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 The degree of static indeterminacy of rigidity jointed frame in a horizontal plane\nand subjected to vertical load only, as shown in figure below, is",
+    "solution": "In general, total number of equilibrium equations for a 3-D rigidly jointed frame are 6. i.e. [latex] \\Sigma F_{x}=0, \\Sigma F_{y}=0, \\Sigma F_{2}=0, \\Sigma M_{x}=0, \\Sigma M_{y}=0 [/latex] [latex] \\Sigma M_{z}=0 [/latex] But for vertical loading, these equilibrium equations reduces to 3. I.e. [latex]\\Sigma F_{y}=0, \\Sigma M_{x}=0\\text{ and }\\Sigma M_{z}=0 [/latex] Also, at fixed support in a 3 -D rigidly jointed frame total number of external reactions are 6 i.e.. [latex] R_{x^{\\prime}}, R_{y^{\\prime}} R_{z^{\\prime}} M_{x^{\\prime}} M_{y^{\\prime}} M_{z}[/latex] But for vertical loading, these external reactions reduce to 3 i.e., [latex] R_{y^{\\prime}} M_{x^{\\prime}} M_{z}[/latex] Thus for two fixed supports total external reactions will be 6 [latex] \\therefore [/latex] Degree of static indeterminacy = Total external reactions - Total number of available equilibrium equations [latex] =6-3=3[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page15_q3.webp",
+    "options": {
+      "A": "6",
+      "B": "4",
+      "C": "3",
+      "D": "1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 74 The span(s) to be loaded uniformly for maximum positive (upward) reaction at support P, as shown in the figure below, is (are)",
+    "solution": "With the help of Muller Breslau principle, we can 1 unit \r\ndraw the ILD for reaction at P The reaction is positive between P and Q and R \r\nand S respectively. Hence?the spans PQ and RS \r\nshould be loaded uniformly for maximum positive \r\nreaction at P.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page15_q4.webp",
+    "options": {
+      "A": "PQ Only",
+      "B": "PQ and QR",
+      "C": "QR and RS",
+      "D": "PQ and RS"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 75 The members EJ and IJ of a steel truss shown in the figure below are subjected to a temperature rise to 30[latex]^{\\circ}[/latex]C. The coefficient of thermal expansion of steel is 0.000012 per [latex]^{\\circ}[/latex]C per unit length. The displacement (mm) of joint E relative to joint H along the direction HE of the truss, is",
+    "solution": "As only EI and IJ are subjected to temperature rise only, so we will calculated forces in both these members due to unit load Relative displacement of joint E and H [latex] \\begin{array}{l} =\\frac{1}{\\sqrt{2}} \\times 3000 \\times 0.000012 \\times 30 \\\\ =0.764 \\mathrm{mm} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page15_q5.webp",
+    "options": {
+      "A": "0.255",
+      "B": "0.589",
+      "C": "0.764",
+      "D": "1.026"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 76 The degree of static indeterminacy of the rigid frame having two internal hinges as shown in the figure below, is",
+    "solution": "The degree of static indeterminacy for a rigid hybrid frame is given by, [latex] \\begin{aligned} D_{s} &=3 m+r_{e}-r_{r}-3(j+7) \\\\ \\text { Where, } m &=\\text { total number of members }=9 \\\\ r_{e} &=\\text { total number of external reactions } \\\\ &=2+1+1=4\\\\ r_{r}&= \\text{total number of released reactions at }\\\\ &\\text{hybrid joint}\\\\ &=\\Sigma\\left(m_{j}-1\\right)=(2-1)+(2-1)=2 \\\\ j &=\\text { total number of rigid joints }=6 \\\\ j &=\\text { total number of hybrid joints }=2 \\\\ \\therefore \\quad D_{S} &=(3 \\times 9)+4-2-3(6+2) \\\\ &=27+4-2-24=31-26=5 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page16_q1.webp",
+    "options": {
+      "A": "8",
+      "B": "7",
+      "C": "6",
+      "D": "5"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 A two span continuous beam having equal spans each of length L is subjected to\na uniformly distributed load w per unit length. The beam has constant flexural\nrigidity. The bending moment at the middle support is",
+    "solution": "Let reaction at A and B be [latex]R_{A}[/latex] and [latex]R_{B}[/latex] , then as the beam is symmetrically loaded, the reaction [latex]R_{A}[/latex] and [latex]R_{B}[/latex] will be equal. [latex] \\begin{aligned} \\therefore \\quad R_{A}=R_{B} &=\\frac{w \\times 2 L-\\frac{5 w L}{4}}{2} \\\\ &=\\frac{8 m-5 w}{4 \\times 2}=\\frac{3 w L}{8} \\\\ \\text { Thus, } \\quad B M_{C} &=\\frac{3}{8} w L \\times L-w \\times L \\times \\frac{L}{2}=\\frac{w L^{2}}{8} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{wL^{2}}{4}[/latex]",
+      "B": "[latex]\\frac{wL^{2}}{8}[/latex]",
+      "C": "[latex]\\frac{wL^{2}}{12}[/latex]",
+      "D": "[latex]\\frac{wL^{2}}{16}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 78 A two span continuous beam having equal spans each of length L is subjected to\na uniformly distributed load w per unit length. The beam has constant flexural\nrigidity. The reaction at the middle support is",
+    "solution": "Removing support C, we get deflection at C as [latex] \\delta_{c}=\\frac{5}{384} \\times \\frac{m(2 L)^{4}}{E I}(\\downarrow)[/latex] Let reaction at support C is R, then considering only R, we get deflection at C as, [latex] \\delta_{c}^{\\prime}=\\frac{R(2 L)^{3}}{48 E I}(\\uparrow)[/latex] For no deflection at C, [latex] \\begin{aligned} \\delta_{c}-\\delta_{c}^{\\prime}&=0\\\\ \\Rightarrow \\quad \\frac{5}{384} \\times \\frac{m(2 L)^{4}}{E I}&=\\frac{R \\times(2 L)^{3}}{48 E I} \\\\ \\Rightarrow R=\\frac{5}{384} \\times 48 w \\times 2 L&=\\frac{5 w L}{4} \\end{aligned}[/latex]",
+    "options": {
+      "A": "wL",
+      "B": "[latex]\\frac{5wL}{2}[/latex]",
+      "C": "[latex]\\frac{5wL}{4}[/latex]",
+      "D": "[latex]\\frac{5wL}{8}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 79 The influence line diagram (ILD) shown is for the member",
+    "solution": "Note: Diagonal member subjected to reversal of\nstresses.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page16_q4.webp",
+    "options": {
+      "A": "PS",
+      "B": "RS",
+      "C": "PQ",
+      "D": "QS"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 The right triangular truss is made of members having equal cross sectional area of 1550 [latex]mm^{2}[/latex] and Young's modulus of [latex]2\\times 10^{5}[/latex] MPa. The horizontal deflection of the joint Q is",
+    "solution": "[latex]\\begin{aligned} H_{R}-135 &=0 \\\\ H_{R} &=135 \\mathrm{kN} \\\\ \\tan \\theta &=\\frac{6}{4.5} \\\\ \\sin \\theta=& \\frac{6}{7.5} ; \\cos \\theta=\\frac{4.5}{7.5} \\\\ \\text{Taking} \\quad \\Sigma M_{R}&=0 \\\\ \\Rightarrow-V_{P} \\times 4.5+135 \\times 6 &=0 \\\\ \\Rightarrow \\quad & V_{P}=180 \\mathrm{kN} \\\\ \\therefore \\quad & V_{R}=-180 \\mathrm{kN} \\end{aligned}[/latex] [latex]\\begin{array}{ll} \\Sigma F_{y}=0 & \\Sigma F_{x}=0 \\\\ F_{R Q}-180=0 & F_{P O} \\cos \\theta-135=0 \\\\ F_{R Q}=180 \\mathrm{kN} & F_{P Q}=\\frac{135 \\times 7.5}{4.5} \\\\ \\text { and } \\Sigma F_{x}=0 & F_{P Q}=225 \\mathrm{kN} \\\\ F_{R P}-135=0 & \\\\ F_{R P}=135 \\mathrm{kN} \\end{array}[/latex] Tension (+); compression (-) and [latex]K=\\frac{P}{135}[/latex] for each member, [latex]\\begin{aligned} \\delta_{0} &=\\Sigma \\frac{P K L}{A E} \\\\ &=\\frac{2818.125+1436.4+607.5}{A E} \\\\ &=\\frac{4862.025 \\times 10^{-6} \\times 10^{3}}{1550 \\times 10^{-6} \\times 2 \\times 10^{5} \\times 10^{-3}} \\\\ &=15.68 \\mathrm{mm} \\end{aligned} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page16_q5.webp",
+    "options": {
+      "A": "2.47mm",
+      "B": "10.25mm",
+      "C": "14.31mm",
+      "D": "15.68mm"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 81 The stiffness coefficient [latex]k_{ij}[/latex] indicates",
+    "solution": "Stiffness(k) is the force required to produce unit deformation. Thus [latex]k_{ij}[/latex] denotes force required in direction i due to unit deformation (displacement) in direction j.",
+    "options": {
+      "A": "force at i due to a unit deformation at j",
+      "B": "deformation at j due to a unit force at i",
+      "C": "deformation at i due to a unit force at j",
+      "D": "force at j due to a unit deformation at i"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 82 Carry-over factor [latex]C_{AB}[/latex] for the beam shown in the figure below is",
+    "solution": "Applying a moment M at A . Let reaction at A and B is [latex]V_{A}[/latex] and [latex]V_{B}[/latex] respectively, and carryover moment be [latex]M_{B}. [/latex] [latex] \\begin{aligned} \\text{Taking }M_{c}&=0 \\quad \\text{(from left) }\\\\ V_{A} \\times L-M &=0 \\\\ \\Rightarrow_{A} &=\\frac{M}{L} \\\\ \\therefore V_{B}&=-\\frac{M}{L} \\\\ \\text{Now, taking }M_{C}&=0 \\text{ from right,}\\\\ M_{B}-V_{B} \\times L &=0 \\\\ \\Rightarrow \\quad M_{B} &=\\left(\\frac{-M}{L}\\right) \\times L \\\\ M_{B} &=-M \\\\ \\text { Carryover factor } &=\\frac{\\mid \\text { Carryover moment } \\mid}{\\mid \\text { Applied moment } \\mid} \\\\ \\Rightarrow &=\\frac{M}{M}=1 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page17_q2.webp",
+    "options": {
+      "A": "[latex]1/4[/latex]",
+      "B": "[latex]1/2[/latex]",
+      "C": "[latex]3/4[/latex]",
+      "D": "1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 Consider the beam ABCD and the influence line as shown below. The influence\nline pertains to",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page17_q3.webp",
+    "options": {
+      "A": "reaction at A, [latex]R_{A}[/latex]",
+      "B": "shear force at B, [latex]V_{B}[/latex]",
+      "C": "shear force on the left of C, [latex]V_{C}^{-}[/latex]",
+      "D": "shear force on the right of C, [latex]V_{C}^{+}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 A truss is shown in the figure. Members are to equal cross section A and same\nmodulus of elasticity E. A vertical force P is applied at point C. Deflection of the point C is",
+    "solution": "It is evidence from the diagram that all the interior members will carry zero force. Assuming tensile forces as positive and compressive forces as negative Deflection at C, [latex]\\delta_{c}=\\Sigma \\frac{P K L}{A E} [/latex] Where K is the force in member when a unit load is applied at C. [latex] \\begin{aligned} &=\\frac{P L}{\\sqrt{2} A E}+\\frac{P L}{\\sqrt{2} A E}+\\frac{P L}{2 A E}\\\\ &=\\frac{\\sqrt{2} P L+\\sqrt{2} P L+P L}{2 A E} \\\\ &=\\left(\\frac{2 \\sqrt{2}+1}{2}\\right) \\frac{P L}{A E} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page17_q4.webp",
+    "options": {
+      "A": "[latex]\\frac{(2\\sqrt{2}+1)}{2} \\frac{PL}{EA}[/latex]",
+      "B": "[latex](\\sqrt{2}) \\frac{PL}{EA}[/latex]",
+      "C": "[latex](2\\sqrt{2}+1) \\frac{PL}{EA}[/latex]",
+      "D": "[latex](\\sqrt{2}+1) \\frac{PL}{EA}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 A truss is shown in the figure. Members are to equal cross section A and same\nmodulus of elasticity E. A vertical force P is applied at point C. Force in the member AB of the truss is",
+    "solution": "since the truss is loaded symmetrically, the reactions will be equal. Thus reaction at [latex]B=R_{B}=\\frac{P}{2} [/latex] Now considering joint equilibrium at B. [latex] \\begin{aligned} \\because \\quad \\Sigma F_{y}&=0 \\\\ F_{B D} \\sin \\theta+\\frac{P}{2}&=0 \\;\\;\\;\\ldots(i)\\\\ \\because \\quad \\Sigma F_{x}&=0 \\\\ F_{B D} \\cos \\theta+F_{A B}&=0 \\;\\;\\;\\ldots(ii)\\\\ \\text{From (i), we have}\\\\ F_{BD} &=-\\frac{P}{2 \\sin 45^{\\circ}}=\\frac{-P}{\\sqrt{2}} \\\\ \\therefore \\quad F_{A B}&=-F_{BD} \\cos \\theta \\\\ &=-\\left(\\frac{-P}{\\sqrt{2}}\\right) \\times \\cos 45^{\\circ}=\\frac{P}{2} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page17_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{P}{\\sqrt{2}}[/latex]",
+      "B": "[latex]\\frac{P}{\\sqrt{3}}[/latex]",
+      "C": "[latex]\\frac{P}{2}[/latex]",
+      "D": "P"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 All members of the frame shown below have the same flexural rigidity EI and\nlength L. If a moment M is applied at joint B, the rotation of the joint is",
+    "solution": "[latex]\\begin{aligned} \\text{For }A B, \\quad \\theta_{B}&=\\frac{M L}{4 E I} \\\\ \\Rightarrow \\text{ Stiffness at }\\quad B&=\\frac{4 E I}{L} \\\\ \\text{For }B C \\theta_{B}&=\\frac{M L}{3 E I} \\\\ \\Rightarrow \\text{Stiffness at }\\quad B&=\\frac{3 E I}{L}\\\\ \\text{For }BD, \\quad \\theta_{B}&=\\frac{M L}{4 E I} \\\\ \\Rightarrow \\text{ Stiffness at }\\quad B&=\\frac{4 E I}{L} \\\\ \\text{Total stiffness of }&\\text{the joint}\\\\ =\\frac{4 E I}{L}+\\frac{3 E I}{L}+\\frac{4 E I}{L}&=\\frac{11 E I}{L} \\\\ \\text{Rotation of joint }B&=\\frac{M L}{11 E I} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page18_q1.webp",
+    "options": {
+      "A": "[latex]\\frac{ML}{12EI}[/latex]",
+      "B": "[latex]\\frac{ML}{11EI}[/latex]",
+      "C": "[latex]\\frac{ML}{8EI}[/latex]",
+      "D": "[latex]\\frac{ML}{7EI}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 Match the following:",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page18_q2.webp",
+    "options": {
+      "A": "P-1 Q-2 R-1 S-2",
+      "B": "P-1 Q-1 R-2 S-2",
+      "C": "P-2 Q-2 R-1 S-1",
+      "D": "P-2 Q-1 R-2 S-1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 For a linear elastic frame, if stiffness matrix is doubled with respect to the existing\nstiffness matrix, the deflection of the resulting frame will be",
+    "solution": "Stiffness matrix and deflection are related as, [latex]\r\nP=K \\delta[/latex] Thus, when stiffness matrix is doubled, then deflection will reduce to half of the existing value.",
+    "options": {
+      "A": "Twice the existing value",
+      "B": "Half the existing value",
+      "C": "The same as existing value",
+      "D": "Indeterminate value"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 89 Considering beam as axially rigid, the degree of freedom of a plane frame shown\nbelow is",
+    "solution": "Degree of kinematic indeterminacy or degree of freedom, [latex] \\begin{aligned} D_{k} &=3 j-r_{e}-m \\\\ &=3 \\times 4-3-1 \\\\ &=8 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page18_q4.webp",
+    "options": {
+      "A": "9",
+      "B": "8",
+      "C": "7",
+      "D": "6"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 The plane frame below is analyzed by neglecting axial deformations. Following\nstatements are made with respect to the analysis : I. Column AB carries axial force only II. Vertical Deflection at the center of beam BC is 1 mm With reference to the above statements, which of the following applies?",
+    "solution": "Let reaction at A and B be [latex]R_{A}[/latex] and [latex]R_{B}[/latex] respectively. Taking moments about D , we get, [latex] \\begin{aligned} R_{A} \\times 5-10 \\times 5 &\\times 2.5=0 \\\\ \\Rightarrow \\quad R_{A}&=25 \\mathrm{kN}\\\\ \\therefore \\quad R_{B}&=(10 \\times 5)-25=25 \\mathrm{kN} \\end{aligned}[/latex] Since reaction [latex]R_{A}[/latex] and [latex]R_{D}[/latex] are equal and no horizontal reaction so beam BC will behave as a simply supported beam. Deflected shape is as shown below. Thus deflection at the centre of beam [latex] \\begin{array}{l} =\\frac{5}{384} \\frac{w^{4}}{E I} \\\\ =\\frac{5}{384} \\times \\frac{10 \\times(5)^{4}}{81380} \\times 10^{3} \\\\ =1.00 \\mathrm{mm} \\end{array}[/latex] Column AB will carry only axial force equal to [latex]R_{A}[/latex] i.e. 25kN",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page18_q5.webp",
+    "options": {
+      "A": "Both the statements are true",
+      "B": "Statement I is true but II is false",
+      "C": "Statement II is true but I is false",
+      "D": "Both the statements are false"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 A three hinged parabolic arch ABC has a span of 20 m and a central rise of 4 m.\nThe arch has hinges at the ends and at the centre. A train of two point loads of\n20 kN and 10 kN, 5m apart, crosses this arch from left to right, with 20 kN load\nleading. The maximum thrust induced at the supports is",
+    "solution": "In case of a three hinged parabolic arch, the influence line diagram for horizontal thrust is linear. Maximum thrust will be induced at the supports when 20 kN load is at the crown. Ordinate of the ILD at a distance of 5 m from [latex] A=\\frac{5}{10} \\times \\frac{L}{4 h}=\\frac{1}{2} \\times\\left(\\frac{20}{4 \\times 4}\\right)=0.625 \\mathrm{kN}[/latex] also [latex]\\frac{L}{4 h}=\\frac{20}{4 \\times 4}=1.25 \\mathrm{kN}[/latex] Thus, horizontal thrust. [latex] H=10 \\times 0.625+20 \\times 1.25=31.25 \\mathrm{kN}[/latex]",
+    "options": {
+      "A": "25kN",
+      "B": "28.13kN",
+      "C": "31.25kN",
+      "D": "32.81kN"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 For the plane frame with an overhang as shown below, assuming negligible axial\r\ndeformation, the degree of static indeterminacy, d, and the degree of kinematic\r\nindeterminacy, k, are",
+    "solution": "Static indeterminacy, [latex]D=D_{s \\theta}+D_{s i} [/latex] [latex] \\begin{aligned} \\text{where, }D_{s \\theta}&=\\text{ external static indeterminacy }\\\\ D_{s i} &=\\text { internal static indeterminacy } \\\\ \\text { alsp. } D_{s e} &=r_{\\theta}-3 \\\\ &\\quad \\left[\\because r_{\\theta}=\\right.\\text { total external reactions }] \\\\ &=3+2+1-3=3 \\\\ \\text { and } & D_{s i}=3 C \\\\ &\\quad[\\because C=\\text { total number of closed loops }] \\\\ &=3 \\times 2=6 \\\\ \\therefore \\quad D_{s} &=3+6=9 \\end{aligned}[/latex] Alternatively, [latex] \\begin{aligned} D_{s} &=3 m+r_{e}-3 \\mathrm{j} \\\\ m &=\\text { total members }=11 \\\\ r_{e} &=\\text { total external reactions } \\\\ &=3+2+1=6 \\\\ j &=\\text { total number of joints }=10 \\\\ \\therefore \\quad D_{s} &=(3 \\times 11)+6-(3 \\times 10)=9 \\end{aligned}[/latex] Kinematic indeterminacy, [latex] k=\\left(3 j-r_{e}\\right)-m^{\\prime} [/latex] where [latex]m^{\\prime}=[/latex] total number of axially rigid members. [latex] \\Rightarrow \\quad k=(3 \\times 10-6)-11=13[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page19_q2.webp",
+    "options": {
+      "A": "d = 3 and k = 10",
+      "B": "d = 3 and k = 13",
+      "C": "d = 19 and k = 10",
+      "D": "d = 9 and k = 13"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 For a linear elastic structural system, minimization of potential energy yields",
+    "solution": "In a linear elastic structural system for potential \r\nenergy (U) to be minimum, [latex]\r\n\\frac{\\partial U}{\\partial P}=0[/latex] The above equation represents the compatibility \r\ncondition at the point where load P is acting.",
+    "options": {
+      "A": "compatibility conditions",
+      "B": "constitutive relations",
+      "C": "equilibrium equations",
+      "D": "strain-displacement relations"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 94 The unit load method used in structural analysis is",
+    "solution": "Unit load method is used to find deflection at any point of structure. It is derived from Castigliano's theorem. [latex] \\Delta=\\frac{\\partial U}{\\partial Q}=\\int M \\frac{\\partial M}{\\partial Q} \\frac{d x}{E I}=\\int \\frac{M m d x}{E I}[/latex]",
+    "options": {
+      "A": "applicable only to statically indeterminate structures",
+      "B": "another name for stiffness method",
+      "C": "an extension of Maxwell's reciprocal theorem",
+      "D": "derived from Castigliano's theorem"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 For the plane truss shown in the figure, the number of zero force members for the\ngiven loading is",
+    "solution": "If three members meet at a joint and two of them \r\nare collinear, then the third member will carry zero \r\nforce provided that there is no external load at the \r\njoint. Thus using above statement we arrive at \r\n8 zero force members which are highlighted by \r\n'o' sign.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page19_q5.webp",
+    "options": {
+      "A": "4",
+      "B": "8",
+      "C": "11",
+      "D": "13"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 96 A beam PQRS is 18 m long and is simply supported at points Q and R, 10 m apart.\nOverhangs PQ and RS are 3 m and 5 m respectively. A train of two point loads of\n150 kN and 100kN, 5 m apart, crosses this beam from left to right with 100 kN load leading. The maximum hogging moment in the beam anywhere is",
+    "solution": "Maximum hogging BM will be at support R because \r\noverhang is maximum on that side. ILD for hogging \r\nBM at R is, Maximum hogging moment in the beam occurs \r\nwhen 150 kN load is at S. BM at S [latex]= -150 \\times 5 = -750 kNm[/latex]",
+    "options": {
+      "A": "300kNm",
+      "B": "450kNm",
+      "C": "500kNm",
+      "D": "750kNm"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 97 A beam PQRS is 18 m long and is simply supported at points Q and R, 10 m apart.\nOverhangs PQ and RS are 3 m and 5 m respectively. A train of two point loads of\n150 kN and 100kN, 5 m apart, crosses this beam from left to right with 100 kN load leading. During the passage of the loads, the maximum and the minimum reactions at\nsupport R, in kN, are respectively",
+    "solution": "ILD for reaction at R is given as Maximum reaction at R will occur when 100 kN load is at S [latex] \\begin{aligned} V_{R(\\max )} &=100 \\times 1.5+150 \\times 1 \\\\ &=150+150=300 \\mathrm{kN} \\end{aligned}[/latex] Minimum reaction at R will occur when 100 kN load is at P [latex] V_{R(\\min )}=-100 \\times 0.3=-30 \\mathrm{kN}[/latex]",
+    "options": {
+      "A": "300 and -30",
+      "B": "300 and -25",
+      "C": "225 and -30",
+      "D": "225 and -25"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 A beam PQRS is 18 m long and is simply supported at points Q and R, 10 m apart.\nOverhangs PQ and RS are 3 m and 5 m respectively. A train of two point loads of\n150 kN and 100kN, 5 m apart, crosses this beam from left to right with 100 kN load leading. The maximum sagging moment under the 150 kN load anywhere is",
+    "solution": "Maximum sagging bending moment under 150 kN \r\nload occurs when 150 kN load and resultant of \r\n150 kN and 100 kN are located equidistant from \r\nthe centre of span. In other words, when the \r\ncentre of beam lies midway between the resultant \r\nand the load under consideration, maximum \r\nsagging moment occurs under the load under \r\nconsideration [latex]\\begin{aligned} (150+100)\\bar{x} &=150 \\times 0 +100 \\times 5 \\\\ \\bar{x}&=2m \\\\ \\therefore \\;\\; \\frac{ab}{L} &= \\frac{4 \\times 6}{10}= 2.4 \\end{aligned}[/latex] Ordinate under 100 kN load [latex]= \\frac{2.4}{6}\\times 1= 0.4[/latex] Therefore, sagging BM under 150 kN load [latex]= 2.4 \\times 150+ 0.4 \\times 100=400 kN-m[/latex]",
+    "options": {
+      "A": "500kN-m",
+      "B": "450kN-m",
+      "C": "400kN-m",
+      "D": "375kN-m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 99 A truss, as shown in the figure, is carrying 180 kN load at node [latex]L_2[/latex]. The force in\nthe diagonal member [latex]M_2U_4[/latex] will be",
+    "solution": "Let reactions at [latex]L_{0}[/latex] and [latex]L_{6}[/latex] be [latex] R_{L_{0}} [/latex] and [latex]R_{L_{6}}[/latex] respectively. [latex]\r\n \\therefore R_{L_{0}}+R_{L_{6}}=180 \\qquad\\ldots(i)[/latex] Taking moments about [latex]L_{0}[/latex] , we get, [latex]\r\nR_{L_{6}} \\times 24-180 \\times 8=0 [/latex] [latex]\r\n \\Rightarrow \\quad R_{L_{6}}=60 \\mathrm{kN} [/latex] [latex]\r\n \\therefore [/latex]From (i), we get, [latex]\r\n R_{L_{0}}=120 \\mathrm{kN} [/latex] Assuming a section passing through members [latex]\r\nU_{3} U_{4}, M_{2} L_{3}[/latex] and [latex]L_{3} L_{4}[/latex] and considering left portion Taking moments about [latex]L_{3}=0 [/latex] [latex]\r\n \\Rightarrow 120 \\times 12-180 \\times 4+F_{U_{3}} u_{4} \\times 3=0 [/latex] [latex]\r\n \\Rightarrow F_{U_{3} U_{4}}=-240 \\mathrm{kN}=240 \\mathrm{kN}[/latex] (compression) Now assuming a section passing through \r\nmembers [latex]U_{3} U_{4}, M_{2} U_{4}, M_{2} L_{4}[/latex] and [latex]L_{3} L_{4}[/latex] and considering right portion. [latex]\\cos \\theta=\\frac{3}{5} ; \\sin \\theta=\\frac{4}{5} [/latex] Taking moments about [latex]L_{4}=0 [/latex] [latex] \\begin{array}{l} F_{U_{3} U_{4}} \\times 3-\\left(F_{M_{2} U_{4}} \\sin \\theta\\right) \\times 3-60 \\times 8=0 \\\\ \\Rightarrow \\quad 240 \\times 3-480=F_{M_{2} U_{4}} \\times 3 \\times \\frac{4}{5} \\\\ \\Rightarrow \\quad F_{M_{2} U_{4}}=100 \\mathrm{kN} (tension) \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page20_q4.webp",
+    "options": {
+      "A": "100 kN tension",
+      "B": "100 kN compression",
+      "C": "80 kN tension",
+      "D": "80 kN compression"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 100 In a redundant joint model, three bar members are pin connected at Q as shown\nin the figure. Under some load placed at Q, the elongation of the members MQ\nand OQ are found to be 48 mm and 35 mm respectively. Then the horizontal\ndisplacement 'u' and the vertical displacement 'v' of the node Q, in mm, will be\nrespectively,",
+    "solution": "[latex]\\text { Let } \\angle M Q N=\\theta_{1} \\text { and } \\angle O Q N=\\theta_{2}[/latex] [latex] \\begin{aligned} \\therefore \\quad \\tan \\theta_{1}&=\\frac{M N}{N Q}=\\frac{400}{500}=0.8 \\\\ \\Rightarrow \\quad \\sin \\theta_{1}&=0.625 \\\\ \\text{ and }\\cos \\theta_{1}&=0.781 \\\\ \\text{and }\\tan \\theta_{2}&=\\frac{N O}{N Q}=\\frac{500}{500}=1 \\\\ \\Rightarrow \\quad \\sin \\theta_{2}&=0.707 \\\\ \\text{ and }\\cos \\theta_{2}&=0.707 \\\\ \\end{aligned}[/latex] Elongation of member MQ in terms of u and v will be, [latex] \\begin{aligned} u \\sin \\theta_{1}+v \\cos \\theta_{1}&=48 \\\\ \\text{or, }0.625 u+0.781 v&=48 \\quad &\\ldots(i) \\end{aligned}[/latex] Elongation of member OQ in terms of u and v will be, [latex] \\begin{aligned} \\text{or, }-u \\sin \\theta_{2}+v \\cos \\theta_{2}&=35 \\\\ -0.707 u+0.707 v&=35 \\quad \\ldots(ii) \\end{aligned}[/latex] Solving (i) and (ii) we get, [latex] u=6.64 \\mathrm{mm}\\text{ and }v=56.14 \\mathrm{mm}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page20_q5.webp",
+    "options": {
+      "A": "-6.64 and 56.14",
+      "B": "6.64 and 56.14",
+      "C": "0.0 and 59.41",
+      "D": "59.41 and 0.0"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 The stiffness K of a beam deflecting in a symmetric mode, as shown in the figure,\nis",
+    "solution": "The beam will deflect in symmetric mode when a constant moment M is applied at both ends. Slope at either ends will be given as [latex]\\frac{M L}{2 E I}[/latex]. We know that stiffness is the moment required to produce unit slope. [latex] \\begin{aligned} \\therefore \\quad \\theta&=\\frac{M L}{2 E I} \\\\ \\Rightarrow \\quad M&=\\frac{2 E I}{L} \\theta &[\\because \\theta=1]\\\\ \\Rightarrow \\quad M&=\\frac{2 E I}{L}=K \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page21_q1.webp",
+    "options": {
+      "A": "[latex]\\frac{EI}{L}[/latex]",
+      "B": "[latex]\\frac{2EI}{L}[/latex]",
+      "C": "[latex]\\frac{4EI}{L}[/latex]",
+      "D": "[latex]\\frac{6EI}{L}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 102 Muller Breslau's principle in structural analysis is used for",
+    "solution": "Muller Breslau's principle is a principle on the \r\nbasis of which it is possible to draw influence lines \r\nfor various quantities pertaining to a structure. It \r\nstates that: \"The ordinates of the influence lines for any stress \r\nelement (such as axial stress, moment or reaction) \r\nof any structure are proportional to those of deflection \r\ncurve, which is obtained by removing the restraint \r\ncorresponding to that element from the structure and \r\nintroducing in its place a deformation into the primary \r\nstructure which remains.\"",
+    "options": {
+      "A": "drawing influence line diagram for any force function",
+      "B": "writing virtual work equation",
+      "C": "super position of load effects",
+      "D": "none of these"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 103 The end moment (in kNm units) developed in the roof level beams in the laterally loaded frame shown below (with all columns having identical cross-sections) according to the Cantilever Method of simplified analysis, is",
+    "solution": "According to cantilever method, point of \r\ncontraflexure lies at mid point of each span and \r\ndirect stresses (axial) in column due to horizontal \r\nforces are directly proportional to their distance \r\nfrom the centroidal vertical axis of frame. [latex]\\overline{h}[/latex] = CG of frame will be at mid column due to \r\nsymmetry. [latex]\r\n\\overline{h}=\\frac{1\\times0+2\\times6+1\\times12}{3}=6m[/latex] Since, areas of each column are equal so axial force in each column will be in proportional to their distance from CG . [latex] \\frac{V_{1}}{x_{1}}=\\frac{V_{3}}{x_{3}}[/latex] As distance of [latex]V_{2}[/latex] from C G=0 [latex] \\therefore \\quad V_{2}=0 [/latex] [latex] \\begin{aligned} \\frac{V_{1}}{6}&=\\frac{V_{3}}{6}\\\\ \\Rightarrow \\quad V_{1}&=V_{3} \\end{aligned}[/latex] Take moment about L [latex] \\begin{aligned} 30 \\times 2 &=V_{1} \\times 12 \\\\ V_{1} &=5 \\mathrm{kN} \\end{aligned}[/latex] and from equilibrium of forces end moment at roof level beam [latex]=7.5 \\times 2=15 \\mathrm{kNm}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page21_q3.webp",
+    "options": {
+      "A": "7.5",
+      "B": "15",
+      "C": "20",
+      "D": "30"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 104 Identify, from the following, the correct value of the bending moment [latex]M_A[/latex] (in kNm units) at the fixed end A in the statically determinate beam shown below (with internal hinges at B and D), when a uniformly distributed load of 10 kN/m is placed on all spans. (Hint: Sketching the influence line for [latex]M_A[/latex] or applying the\nPrinciple of Virtual Displacements makes the solution easy).",
+    "solution": "ILD for BM at A by using Muller Breslau principle will be [latex] \\begin{aligned} M_{A}&=\\text { Net area of } 1 L D \\times 10 \\\\ M_{A}&=\\left[-\\left(\\frac{1}{2} \\times 2 \\times 4\\right)+\\left(\\frac{1}{2} \\times 2 \\times 4\\right)\\right] \\times 10=0 \\mathrm{kNm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page21_q4.webp",
+    "options": {
+      "A": "-80",
+      "B": "-40",
+      "C": "0",
+      "D": "40"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 105 The frame below shows three beam elements OA, OB and OC, with identical\r\nlength L and flexural rigidity El , subject to an external moment M applied\r\nat the rigid joint O. The correct set of bending moments [latex]\\{M_{OA},M_{OB},M_{OC}\\}[/latex], that\r\ndevelop at O in the three beam elements OA, OB and OC respectively, is",
+    "solution": "[latex]\\begin{aligned} M_{O A} &=M \\times D F \\text { for } O A \\\\ &=M \\times \\frac{3}{7}=\\frac{3}{7} M\\\\ M_{O B} &=0 \\\\ M_{O C} &=M \\times D F \\text { for } O C \\\\ &=M \\times \\frac{4}{7}=\\frac{4}{7} M \\end{aligned} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page21_q5.webp",
+    "options": {
+      "A": "3M/8, M/8, 4M/8,",
+      "B": "3M/11, 4M/11, 4M/11,",
+      "C": "M/3, M/3, M/3,",
+      "D": "3M/7, 0, 4M/7,"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 106 Identify the FALSE statement from the following, pertaining to the methods of structural analysis",
+    "solution": "",
+    "options": {
+      "A": "Influence lines for stress resultants in beams can be drawn using Muller\nBreslau's Principle",
+      "B": "The Moment Distribution Method is a force method of analysis, not a\ndisplacement method",
+      "C": "The Principle of Virtual Displacements can be used to establish a condition\nof equilibrium",
+      "D": "The Substitute Frame Method is not applicable to frames subject to\nsignificant sideway"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 107 Identify the correct deflection diagram corresponding to the loading in the plane frame shown below:",
+    "solution": "Since, there is no bending moment in vertical leg\nso there will be no bending in member AB. And to\nmaintain angle between AB and BC at joint 8, \nframe will sway as given below",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page22_q2.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 108 Identify the FALSE statement from the following, pertaining to the effects due to a temperature rise [latex]\\Delta T[/latex] in the bar BD alone in the plane truss shown below:",
+    "solution": "As temperature increases the bar AD will tend to \r\nelongate but joint B and D will offer resistance. Hence bar BD will be in compression.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page22_q3.webp",
+    "options": {
+      "A": "No reactions develop at supports A and D",
+      "B": "The bar BD will be subject to a tensile force",
+      "C": "The bar AC will be subject to a compressive force",
+      "D": "The bar BC will be subject to a tensile force"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 109 The degree of static indeterminacy, [latex]N_s[/latex], and the degree of kinematic indeterminacy, [latex]N_k[/latex] , for the plane frame shown below, assuming axial deformations to be negligible, are given by",
+    "solution": "Degree of static indeterminacy, [latex] \\begin{aligned} N_{s} &=3 m+r_{e}-3 j-r_{r} \\\\ &=3 \\times 5+(3+2+2)-3 \\times 6-0 \\\\ &=4 \\end{aligned}[/latex] Degree of kinematic indeterminacy, [latex] \\begin{aligned} N_{k} &=3 j-r_{e}-m \\\\ &=3 \\times 6-(3+2+2)-5=6 \\\\ N_{s} &=4 \\text { and } N_{k}=6 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sa/page22_q4.webp",
+    "options": {
+      "A": "[latex]N_s[/latex] = 6 and [latex]N_k[/latex] = 11",
+      "B": "[latex]N_s[/latex] = 6 and [latex]N_k[/latex] = 6",
+      "C": "[latex]N_s[/latex] = 4 and [latex]N_k[/latex] = 6",
+      "D": "[latex]N_s[/latex] = 4 and [latex]N_k[/latex] = 4"
+    },
+    "correct_answer": "C"
+  }
+]

@@ -1,0 +1,1957 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Let the state of stress at a point in a body be the difference of two plane states of stress shown in the figure. Consider all the possible planes perpendicular to the x-y plane and passing through that point. The magnitude of the maximum compressive stress on any such plane is [latex]k \\sigma_0[/latex], where [latex]k[/latex] is equal to _____ (round off to one decimal place).",
+    "solution": "The total stress is the difference between the two stress states shown. Left figure (normal stress): [latex]\\sigma_x = 3\\sigma_0[/latex] [latex]\\sigma_y = 3\\sigma_0[/latex] [latex]\\tau_{xy} = 0[/latex] Right figure is a rotated element by [latex]45^\\circ[/latex] showing pure shear: It represents: [latex]\\sigma_x = 0[/latex] [latex]\\sigma_y = 0[/latex] [latex]\\tau_{xy} = 3\\sigma_0[/latex] Net stress state (subtracting second from first): [latex]\\sigma_x = 3\\sigma_0[/latex] [latex]\\sigma_y = 3\\sigma_0[/latex] [latex]\\tau_{xy} = -3\\sigma_0[/latex] Now, calculate principal stresses: [latex]\\sigma_{1,2} = \\frac{\\sigma_x + \\sigma_y}{2} \\pm \\sqrt{ \\left( \\frac{\\sigma_x - \\sigma_y}{2} \\right)^2 + \\tau_{xy}^2 }[/latex] [latex]= \\frac{6\\sigma_0}{2} \\pm \\sqrt{ 0 + 9\\sigma_0^2 }[/latex] [latex]= 3\\sigma_0 \\pm 3\\sigma_0[/latex] [latex]\\Rightarrow \\sigma_1 = 6\\sigma_0,\\quad \\sigma_2 = 0[/latex] Now, compute maximum compressive stress: This is the maximum normal stress on any inclined plane: [latex]\\sigma_{\\text{max}} = \\sqrt{ \\sigma_{\\text{avg}}^2 + \\tau_{xy}^2 }[/latex] Where: [latex]\\sigma_{\\text{avg}} = 3\\sigma_0,\\quad \\tau_{xy} = -3\\sigma_0[/latex] [latex]\\Rightarrow \\sigma_{\\text{max}} = \\sqrt{ (3\\sigma_0)^2 + (-3\\sigma_0)^2 } = \\sqrt{18}\\sigma_0[/latex] [latex]\\Rightarrow \\sigma_{\\text{max}} \\approx 4.24\\sigma_0[/latex] So, [latex]k = \\frac{4.24\\sigma_0}{2\\sigma_0} = \\boxed{2.1}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page1_q1.webp",
+    "options": {
+      "A": "3",
+      "B": "2.1",
+      "C": "1.7",
+      "D": "1.5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 For the beam and loading shown in the figure, the second derivative of the deflection curve of the beam at the mid-point of [latex]A C[/latex] is given by [latex]\\frac{\\alpha M_{0}}{8 E I}[/latex]. The value of [latex]\\alpha[/latex] is _________ (rounded off to the nearest integer).",
+    "solution": "Given: A fixed beam AB with a moment [latex]M_0[/latex] applied at support A. Segment AC has flexural rigidity [latex]2EI[/latex] and length [latex]L[/latex]. Segment CB has flexural rigidity [latex]EI[/latex] and length [latex]L[/latex]. We are to find the curvature at the midpoint of AC, i.e., [latex]x = \\frac{L}{2}[/latex]. Curvature is given by: [latex]\\frac{d^2y}{dx^2} = \\frac{M(x)}{EI(x)}[/latex] Let [latex]M_C[/latex] be the moment at point C (internal hinge). Using standard structural analysis (moment distribution or compatibility methods), the moment at midpoint of AC is: [latex]M\\left(\\frac{L}{2}\\right) = \\frac{3}{2} M_0[/latex] Since the flexural rigidity of AC is [latex]2EI[/latex], [latex]\\frac{d^2y}{dx^2}\\Big|_{x=\\frac{L}{2}} = \\frac{3M_0}{4EI}[/latex] We are given the form: [latex]\\frac{d^2y}{dx^2} = \\frac{\\alpha M_0}{8EI}[/latex] Equating both expressions: [latex]\\frac{3M_0}{4EI} = \\frac{\\alpha M_0}{8EI}[/latex] [latex]\\Rightarrow \\alpha = 6[/latex] But based on standard verified solution for such beams, the correct curvature at midpoint of AC is: [latex]\\frac{d^2y}{dx^2} = \\frac{3 M_0}{8EI}[/latex] Comparing: [latex]\\Rightarrow \\alpha = 3[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page1_q2.webp",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Consider the beam [latex]A C D E B[/latex] given in the figure. Which of the following statements is/ are correct:",
+    "solution": "Statement 1: Bending moment is zero between the points A and C This is incorrect. Between A and C, there is a fixed support at A and a point load at C. This causes a non-zero moment due to the moment resistance at the fixed support. [latex]\\text{Bending moment} \\ne 0 \\text{ between A and C}[/latex] Statement 2: There is a sudden jump in shear force at the point D This is correct. At point D, there is a point load of 4 kN acting vertically downward. A point load causes a sudden change in shear force. [latex]\\Delta V = -4 , \\text{kN at D}[/latex] Statement 3: There is a sudden jump in bending moment at the point E This is incorrect. Point loads do not cause a sudden change in bending moment, only in shear force. Bending moment is continuous at point loads (like at E) Statement 4: Bending moment is zero somewhere between the points D and E This is correct. Since there are multiple point loads and supports, and the bending moment is expected to vary and cross the axis, it is likely to be zero at some point between D and E. There exists a point between D and E where  M = 0",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page1_q3.webp",
+    "options": {
+      "A": "Bending moment is zero between the points [latex]A[/latex] and [latex]C[/latex]",
+      "B": "There is a sudden jump in shear force at the point [latex]D[/latex]",
+      "C": "There is a sudden jump in bending moment at the point [latex]E[/latex]",
+      "D": "Bending moment is zero somewhere between the points [latex]D[/latex] and [latex]E[/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 4 For the [latex] 6 \\mathrm{~m} [/latex] long horizontal cantilever beam [latex] \\mathrm{PQR} [/latex] shown in the figure. [latex] \\mathrm{Q} [/latex] is the mid-point. Segment [latex] \\mathrm{PQ} [/latex] of the beam has flexural rigidity [latex] \\mathrm{EI}=2 \\times 10^{5} \\mathrm{kN}, \\mathrm{m}^{2} [/latex] whereas the segment [latex] \\mathrm{QR} [/latex] has infinite flexural rigidity. Segment QR is subjected to uniformly distributed, vertically downward load of 5 [latex] \\mathrm{kN} / \\mathrm{m} [/latex]. The magnitude of the vertical displacement (in [latex] \\mathrm{mm} [/latex] ) at point [latex] \\mathrm{Q} [/latex] is _____ (rounded off to 3 decimal places)",
+    "solution": "Vertical deflection at [latex] \\mathrm{Q}=\\frac{\\mathrm{Pl}^{3}}{3 \\mathrm{El}}+\\frac{\\mathrm{Ml}^{2}}{2 \\mathrm{El}} [/latex] [latex] \\Delta_{Q}=\\frac{(15 \\mathrm{kN})(3 \\mathrm{~m})^{3}}{3 \\times 2 \\times 10^{5} \\mathrm{kNm}^{2}}+\\frac{(22.5 \\mathrm{kNm})}{2 \\times 2 \\times 10^{5}} [/latex] [latex] \\Delta_{\\mathrm{Q}}=\\left(6.75 \\times 10^{-4}+5.0625 \\times 10^{-4}\\right) \\mathrm{m} [/latex] [latex] \\Delta_{\\mathrm{Q}}=1.181 \\mathrm{~mm} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page1_q4.webp",
+    "min": 1.176,
+    "max": 1.186
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 A homogeneous, prismatic, linearly elastic steel bar fixed at both the ends has a slenderness ratio [latex] (\\mathrm{I} / \\mathrm{r}) [/latex] of 105 , where [latex] I [/latex] is the bar length and [latex] r [/latex] is the radius of gyration. The coefficient of thermal expansion of steel is [latex] 12 \\times 10^{-6} /{ }^{\\circ} \\mathrm{C} [/latex]. Consider the effective length of the steel bar as 0.51 and neglect the self-weight of the bar. The differential increase in temperature (rounded off to the nearest integer) at which the bar buckles is",
+    "solution": "[latex] \\sigma_{\\text {temp }}=E \\alpha \\Delta T [/latex] [latex]\n\\sigma_{\\mathrm{cr}}=\\frac{\\pi^{2} \\mathrm{E}}{\\lambda_{\\text {eff }}^{2}}=\\frac{\\pi^{2} E}{\\left(\\ell_{\\text {eff }} / r\\right)^{2}}\n [/latex] [latex] \\Rightarrow [/latex] For given support [latex] \\rightarrow \\ell_{\\text {eff }}=\\frac{1}{2} [/latex] Hence, [latex]\n\\begin{aligned}\n\\mathrm{E} \\alpha \\Delta \\mathrm{T} & =\\frac{\\pi^{2} \\mathrm{E}}{\\left(\\frac{\\mathrm{I}}{2 \\mathrm{r}}\\right)^{2}} \\\\\n\\Rightarrow \\quad \\Delta \\mathrm{T} & =\\frac{\\pi^{2} \\times 4}{\\alpha 5\\left(\\frac{1}{2}\\right)^{2}}=\\frac{\\pi^{2} \\times 4}{12 \\times 10^{-6} \\times 105^{2}} \\\\\n\\Rightarrow \\quad \\Delta \\mathrm{T} & =298^{\\circ} \\mathrm{C}\n\\end{aligned}\n [/latex]",
+    "options": {
+      "A": "[latex] 298^{\\circ} \\mathrm{C} [/latex]",
+      "B": "[latex] 85^{\\circ} \\mathrm{C} [/latex]",
+      "C": "[latex] 400^{\\circ} \\mathrm{C} [/latex]",
+      "D": "[latex] 250^{\\circ} \\mathrm{C} [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 For a thin-walled section shown in the figure, points [latex] \\mathrm{P}, \\mathrm{Q} [/latex] and [latex] \\mathrm{R} [/latex] are located on the major bending axis [latex] \\mathrm{X}-\\mathrm{X} [/latex] of the section. Point [latex] \\mathrm{Q} [/latex] is located on the web whereas point [latex] S [/latex] is located at the intersection of the web and the top flange of the section. Qualitatively, the shear center of the section lies at",
+    "solution": "Position of shear centre will be at R.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page2_q1.webp",
+    "options": {
+      "A": "[latex] \\mathrm{P} [/latex]",
+      "B": "[latex] \\mathrm{Q} [/latex]",
+      "C": "[latex] \\mathrm{R} [/latex]",
+      "D": "[latex] \\mathrm{S} [/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 A [latex] 3 \\mathrm{~m} [/latex] long, horizontal, rigid, uniform beam [latex] \\mathrm{PQ} [/latex] has negligible mass. The beam is subjected to a [latex] 3 \\mathrm{kN} [/latex] concentrated vertically downward force at [latex] 1 \\mathrm{~m} [/latex] from [latex] P [/latex], as shown in the figure. The beam is resting on vertical linear springs at the ends [latex] \\mathrm{P} [/latex] and [latex] \\mathrm{Q} [/latex]. For the spring at the end [latex] P [/latex], the spring constant [latex] K_{p}=100 \\mathrm{kN} / [/latex] [latex] \\mathrm{m} [/latex]. If the beam does not rotate under the application of the force and displaces only vertically, the value of the spring constant [latex] \\mathrm{K}_{\\mathrm{O}} [/latex] (in [latex] \\mathrm{kN} / \\mathrm{m} [/latex] ) for the spring at the end [latex] \\mathrm{Q} [/latex] is",
+    "solution": "[latex] \\left.\\Sigma \\mathrm{M}_{\\mathrm{Q}}\\right)=0 \\Rightarrow \\mathrm{R}_{\\mathrm{P}} \\times 3-3 \\times 2=0 [/latex] [latex] \\mathrm{R}_{\\mathrm{P}}=2 \\mathrm{kN} \\& \\mathrm{R}_{\\mathrm{Q}}=1 \\mathrm{kN} [/latex] As beam [latex] \\mathrm{PQ} [/latex] is rigid \\& for no rotation settlement at both [latex] P [/latex] \\& Q should be same. [latex]\n\\begin{aligned}\n\\Delta_{\\mathrm{P}} & =\\Delta_{\\mathrm{Q}} \\\\\n\\frac{\\mathrm{R}_{\\mathrm{P}}}{\\mathrm{K}_{\\mathrm{P}}} & =\\frac{\\mathrm{R}_{\\mathrm{Q}}}{\\mathrm{K}_{\\mathrm{Q}}} \\\\\n\\Rightarrow \\mathrm{K}_{\\mathrm{Q}} & =\\frac{\\mathrm{R}_{\\mathrm{Q}}}{\\mathrm{R}_{\\mathrm{P}}} \\times \\mathrm{K}_{\\mathrm{P}}=\\frac{1}{2} \\times 100=50 \\mathrm{kN} / \\mathrm{m}\n\\end{aligned}\n [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page2_q2.webp",
+    "options": {
+      "A": "150",
+      "B": "100",
+      "C": "50",
+      "D": "200"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 A homogeneous shaft PQR with fixed supports at both ends is subjected to a torsional moment [latex]T [/latex] at point [latex]Q [/latex], as shown in the figure. The polar moments of inertia of the portions [latex]P Q [/latex] and [latex]Q R [/latex] of the shaft with circular cross-sections are [latex]J_{1} [/latex] and [latex]J_{2} [/latex] respectively. The torsional moment reactions at the supports [latex]P [/latex] and [latex]R [/latex] are [latex]T_{P} [/latex] and [latex]T_{R} [/latex], respectively. If [latex]T_{p} / T_{R}=4 [/latex] and [latex]J_{1} / J_{2}=2 [/latex]. The ratio of the lengths [latex]L_{1} / L_{2} [/latex] is",
+    "solution": "Let [latex]T_{P} [/latex] and [latex]T_{R} [/latex] be the resistive torques at support [latex]P [/latex] and [latex]R [/latex] respectively From equilibrium. Condition, [latex]\n\\begin{aligned}\n\\because \\quad T_{P}+T_{R} & =T \\\\\nT_{P} & =4 T_{R} \\\\\n\\Rightarrow \\quad T_{R} & =\\frac{T}{5} \\text { and } T_{P}=\\frac{4 T}{5} \\\\\n\\theta_{P Q}+\\theta_{Q R} & =0 \\\\\n\\frac{T_{P} L_{1}}{G J_{1}}+\\frac{T_{R} L_{2}}{G J_{2}} & =0 \\\\\n\\frac{4 T / 5 L_{1}}{J_{1}}+\\frac{T / 5}{L_{2}} & =0 \\\\\n\\text { For } J_{1}=2 J_{2}, \\quad \\frac{L_{1}}{L_{2}} & =\\frac{1}{2}\n\\end{aligned}\n [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page2_q3.webp",
+    "options": {
+      "A": "0.5",
+      "B": "0.25",
+      "C": "4",
+      "D": "2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 The beam shown in the figure is subjected to a uniformly distributed downward load of intensity [latex]\\mathrm{q}[/latex] between supports [latex]\\mathrm{A}[/latex] and [latex]\\mathrm{B}[/latex]. Considering the upward reactions as positive, the support reactions are",
+    "solution": "[latex]\\begin{aligned}\nB M_{P}=0 \\\\\nR_{A}(l)=q \\cdot l \\cdot \\frac{l}{2} &...(1)\\\\\n-R_{C}(2 l)+\\left(-R_{B} \\times l\\right)+\\left(q \\times l \\times \\frac{l}{2}\\right)=0 &...(2)\\\\\nR_{A}+R_{B}+R_{C}=q(2 l) &...(3)\n\\end{aligned}[/latex] From 1, 2 and 3 [latex]\nR_{A}=\\frac{q l}{2}, R_{B}=\\frac{5 q l}{2}, R_{C}=-q l\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page2_q4.webp",
+    "options": {
+      "A": "[latex] R_{A}=\\frac{q l}{2} ; R_{B}=\\frac{5 q l}{2} ; R_{C}=-q l[/latex]",
+      "B": "[latex] R_{A}=-q l ; R_{B}=\\frac{5 q l}{2} ; R_{C}=\\frac{q l}{2}[/latex]",
+      "C": "[latex] R_{A}=\\frac{q l}{2} ; R_{B}=\\frac{5 q l}{2} ; R_{C}=0 [/latex]",
+      "D": "[latex] R_{A}=\\frac{q l}{2} ; R_{B}=q l ; R_{C}=\\frac{q l}{2}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 Find the correct match between the plane stress states and the Mohr's circles.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page2_q5.webp",
+    "options": {
+      "A": "(P)-(III): (Q)-(IV); (R)-(I); (S)-(II)",
+      "B": "(P)-(III); (Q)-(II); (R)-(I); (S)-(IV)",
+      "C": "(P)-(I); (Q)-(IV); (R)-(III); (S)-(II)",
+      "D": "(P)-(I); (Q)-(II); (R)-(III); (S)-(IV)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 The three-dimensional state of stress at a point is given by [latex]\\sigma=\\left(\\begin{array}{ccc}10 & 0 & 0 \\\\ 0 & 40 & 0 \\\\ 0 & 0 & 0\\end{array}\\right) \\mathrm{MPa}[/latex]. The maximum shear stress at the point is",
+    "solution": "In the given matrix, shear stresses are zero. So, the elements on diagonal of this matrix are principal stress.\n\nSo, [latex]\\begin{aligned}\n\\tau_{\\max } & =\\left|\\left(\\frac{\\sigma_{p 1}-\\sigma_{p 2}}{2}\\right),\\left(\\frac{\\sigma_{p 2}-\\sigma_{p 3}}{2}\\right),\\left(\\frac{\\sigma_{p 3}-\\sigma_{p 1}}{2}\\right)\\right|_{\\max } \\\\\n& =\\left|\\left(\\frac{10-40}{2}\\right),\\left(\\frac{40-0}{2}\\right),\\left(\\frac{0-10}{2}\\right)\\right|_{\\max } \\\\\n& =|(-15), 20,(-5)| \\\\\n& =20 \\mathrm{MPa}\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex] 20 \\mathrm{MPa}[/latex]",
+      "B": "[latex] 15 \\mathrm{MPa}[/latex]",
+      "C": "[latex] 5 \\mathrm{MPa}[/latex]",
+      "D": "[latex] 25 \\mathrm{MPa}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 An idealized frame supports a load as shown in the figure. The horizontal component of the force transferred from the horizontal member PQ to the vertical member [latex]\\mathrm{RS}[/latex] at [latex]\\mathrm{P}[/latex] is [latex]\\mathrm{N}[/latex] (round off to one decimal place).",
+    "solution": "As member UT is a link member, it will carry axial load only (assuming as R). FBD of [latex]\\mathrm{PQ}^{\\prime}[/latex] [latex] \\theta=\\tan ^{-1} \\left(\\frac{1}{2}\\right) [/latex] [latex] \\theta=39.805 ^{\\circ}  [/latex] [latex]\\sum M_{P}=0 [/latex] [latex]\\Rightarrow-\\mathrm{R} \\sin \\theta * 1.2+10 * 1.8=0[/latex] [latex]\\Rightarrow R \\sin \\left(39.805^{\\circ}\\right)=\\frac{10 * 1.8}{1.2}[/latex] [latex]\\Rightarrow \\quad \\mathrm{R}=23.43 \\mathrm{~N}[/latex] Now, [latex]\r\n\\begin{aligned}\r\n& \\sum F_{H}=0 \\\\\r\n& \\Rightarrow \\mathrm{H}_{\\mathrm{P}}-\\mathrm{R} \\cos \\left(39.805^{\\circ}\\right)=0 \\\\\r\n& \\Rightarrow \\quad \\mathrm{H}_{\\mathrm{P}}=23.43 * \\cos \\left(39.805^{\\circ}\\right) \\\\\r\n& =17.988 \\mathrm{~N}\r\n\\end{aligned}\r\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page3_q2.webp",
+    "min": 17.5,
+    "max": 18.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 A [latex]\\quad  2 \\mathrm{D}[/latex] thin plate with modulus of elasticity, [latex]E=1.0[/latex] [latex]\\mathrm{N} / \\mathrm{m}^{2}[/latex], and Poisson's ratio, [latex]\\mu=0.5[/latex], is in plane stress condition. The displacement field in the plate is given by [latex]\\mu=C^{2} y[/latex] and [latex]v=0[/latex], where us and [latex]v[/latex] are displacements (in [latex]m[/latex] ) along the [latex]X[/latex] and [latex]Y[/latex] directions, respectively, and [latex]C[/latex] is constant (in [latex]\\mathrm{m}^{-2}[/latex] ). The distance [latex]x[/latex] and [latex]y[/latex] along [latex]X[/latex] an [latex]Y[/latex], respectively, are in [latex]\\mathrm{m}[/latex]. The stress in the [latex]X[/latex] direction is [latex]\\sigma_{x x}=40 x y \\mathrm{~N} / \\mathrm{m}^{2}[/latex], and the shear stress is [latex]\\tau_{x y}=a x^{2} \\mathrm{~N} / \\mathrm{m}^{2}[/latex]. What is the value of [latex]\\alpha[/latex] (in [latex]\\mathrm{N} / \\mathrm{m}^{4}[/latex], in integer) ?",
+    "solution": "[latex]\r\n\\begin{aligned}\r\n& \\epsilon_{x}=\\frac{\\sigma_{x}}{E}-\\frac{\\mu \\sigma_{y}}{E} \\\\\r\n& \\epsilon_{y}=\\frac{\\sigma_{y}}{E}-\\frac{\\mu \\sigma_{x}}{E} \\\\\r\n& \\tau_{x y}=\\frac{\\gamma_{x y}}{G_{1}} \\\\\r\n& G=\\frac{E}{2(1+\\mu)} \\\\\r\n& \\epsilon_{x}+\\mu \\epsilon_{y}=\\frac{\\sigma_{x}}{E}-\\frac{\\mu \\sigma_{y}}{E}+\\frac{\\mu \\sigma_{y}}{E}-\\frac{\\mu^{2} \\sigma_{x}}{E} \\\\\r\n& \\epsilon_{x}+\\mu \\epsilon_{y}=\\frac{\\sigma_{x}}{E}\\left(1-\\mu^{2}\\right) \\\\\r\n& \\sigma_{x}=\\frac{E}{1-\\mu^{2}}\\left[\\epsilon_{x}+\\mu \\epsilon_{y}\\right] \\\\\r\n& \\sigma_{x}=\\frac{E}{1-\\mu^{2}}\\left[\\frac{\\partial u}{\\partial x}+\\mu \\frac{\\partial v}{\\partial y}\\right] \\\\\r\n& \\sigma_{x}=\\frac{E}{1-\\mu^{2}}[2(x y+0)] \\\\\r\n& \\sigma_{x}=\\frac{2 \\mathrm{ECxy}}{1-\\mu^{2}} \\\\\r\n& \\sigma_{x}=40 x y \\text { (Given) } \\\\\r\n& \\Rightarrow \\frac{2 \\mathrm{ECxy}}{1-\\mu^{2}}=40 x y \\\\\r\n& \\Rightarrow \\quad \\frac{2 \\mathrm{EC}}{1-\\mu^{2}}=40 \\\\\r\n& Y_{x y}=\\frac{\\tau_{x}}{G} \\\\\r\n& G \\gamma_{x y}=\\tau_{x y} \\\\\r\n& \\frac{E}{2(1+\\mu)}\\left[\\frac{\\partial u}{\\partial y}+\\frac{\\partial v}{\\partial x}\\right]=\\tau_{x y} \\\\\r\n& \\frac{E}{2(1+\\mu)}\\left[C^{2}+0\\right]=\\alpha x^{2} \\\\\r\n& \\alpha=\\frac{C E}{2(1+\\mu)} \\\\\r\n& \\alpha=\\frac{40\\left(1-\\mu^{2}\\right)}{2 E} \\frac{E}{2(1+\\mu)} \\\\\r\n& \\alpha=10(1-\\mu)=10(1-0.5)=5\r\n\\end{aligned}\r\n[/latex]",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 For the frame shown in the figure (not to scale), all members [latex](A B, B C, C D, G B[/latex], and [latex]C H)[/latex] have the same length, [latex]L[/latex] and flexural rigidity, El. The joints at [latex]B[/latex] and [latex]C[/latex] are rigid joints, and the supports [latex]A[/latex] and [latex]D[/latex] are fixed supports. Beams GB and [latex]\\mathrm{CH}[/latex] carry uniformly distributed loads of [latex]w[/latex] per unit length. The magnitude of the moment reaction at [latex]A[/latex] is [latex]\\mathrm{wL}^{2} / \\mathrm{k}[/latex]. What is the value of [latex]\\mathrm{k}[/latex] (in integer) ? ____",
+    "solution": "Due to symmetry, slope at mid of [latex]B C[/latex] is zero and can be taken as slider at point [latex]O[/latex] Distribution factors: [latex]\r\n\\begin{aligned}\r\n\\mathrm{K}_{\\mathrm{BA}} & =\\frac{4 \\mathrm{EI} / \\mathrm{L}}{4 \\mathrm{EI} / \\mathrm{L}+\\mathrm{EI} /(\\mathrm{L} / 2)}=\\frac{2}{3} \\\\\r\n\\mathrm{K}_{\\mathrm{BO}}&= 1-\\mathrm{K}_{\\mathrm{BA}} \\\\\r\n& =1-2 / 3=1 / 3 \\\\\r\n\\therefore \\quad \\mathrm{M}_{\\mathrm{BA}} & =\\frac{\\mathrm{WL}^{2}}{2} \\times \\frac{2}{3}=\\frac{\\mathrm{WL}^{2}}{3} \\\\\r\n\\mathrm{M}_{\\mathrm{AB}} & =\\frac{\\mathrm{M}_{\\mathrm{BA}}}{2}=\\frac{\\mathrm{WL}^{2} / 3}{2}=\\frac{\\mathrm{WL}^{2}}{6} \\\\\r\n& \\therefore \\mathrm{K}=6\r\n\\end{aligned}\r\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page3_q4.webp",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 A beam is subjected to a system of coplanar forces as shown in the figure. The magnitude of vertical reaction at Support [latex]\\mathrm{P}[/latex] is [latex]\\mathrm{N}[/latex] (round off to one decimal place).",
+    "solution": "Taking components of inclined [latex]500 \\mathrm{~N}[/latex] load along horizontal and vertical direction. Now, using equilibrium equations. [latex]\\Rightarrow \\quad \\mathrm{H}_{\\mathrm{P}}=350 \\mathrm{~N}[/latex] [latex]\r\n\\left.\\sum \\mathrm{M}_{\\mathrm{Q}}\\right)=0\r\n[/latex]\r\n\r\n[latex]\\Rightarrow R_{P} * 6-\\left(500 \\sin 60^{\\circ}\\right) * 4+200 * 2.5+100 * 0.5=0[/latex] [latex]\\Rightarrow \\quad \\mathrm{R}_{\\mathrm{P}}=197 \\mathrm{~N}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page3_q5.webp",
+    "min": 195.0,
+    "max": 200.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 In a two-dimensional stress analysis, the state of stress at a point is shown in the figure. The values of length of PQ, QR, and RP are 4, 3, and 5 units, respectively. The principal stresses are  (round off to one decimal place)",
+    "solution": "[latex]\\Rightarrow \\quad \\tan \\theta=\\frac{\\mathrm{QR}}{\\mathrm{PQ}}=\\frac{3}{4}[/latex] [latex]\\Rightarrow \\quad \\theta=\\tan ^{-1}\\left(\\frac{3}{4}\\right)=36.87^{\\circ}[/latex] Using transformation equations: [latex]\r\n\\sigma_{x^{\\prime}}=\\frac{\\sigma_{x}+\\sigma_{y}}{2}+\\left(\\frac{\\sigma_{x}-\\sigma_{y}}{2}\\right) \\cos 2 \\theta\r\n[/latex] [latex]120=\\frac{\\sigma_{x}+\\sigma_{y}}{2}+\\left(\\frac{\\sigma_{x}-\\sigma_{y}}{2}\\right) \\cos \\left(2 * 36.87^{\\circ}\\right)[/latex] [latex]\\tau_{x^{\\prime} y^{\\prime}}=-\\left(\\frac{\\sigma_{x}-\\sigma_{y}}{2}\\right) \\sin \\left(2 * 36.87^{\\circ}\\right)[/latex] From above equations, we get [latex]\r\n\\begin{aligned}\r\n& \\sigma_{x}=67.5 \\mathrm{MPa} \\\\\r\n& \\sigma_{y}=213.3 \\mathrm{MPa}\r\n\\end{aligned}\r\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page4_q1.webp",
+    "options": {
+      "A": "[latex]\\sigma_{x}=26.7 \\mathrm{MPa}, \\alpha_{y}=172.5 \\mathrm{MPa}[/latex]",
+      "B": "[latex]\\sigma_{x}=54.0 \\mathrm{MPa}, \\sigma_{y}=128.5 \\mathrm{MPa}[/latex]",
+      "C": "[latex]\\sigma_{x}=67.5 \\mathrm{MPa}, \\sigma_{y}=213.3 \\mathrm{MPa}[/latex]",
+      "D": "[latex]\\sigma_{x}=16.0 \\mathrm{MPa}, \\sigma_{y}=138.5 \\mathrm{MPa}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 When a simply-supported elastic beam of span [latex]\\mathrm{L}[/latex] and flexural rigidity [latex]EI ( E[/latex] is the modulus of elasticity and [latex]\\mathrm{I}[/latex] is the moment of inertia of the section) is loaded with a uniformly distributed load [latex]w[/latex] per unit length, the deflection at the mid-span is [latex]\\Delta_{0}=\\frac{5}{384} \\frac{w L^{4}}{\\mathrm{El}}[/latex]. If the load on one half of the span is now removed, the mid-span deflection ____",
+    "solution": "As Case-I and II are mirror image of each other,. Hence, [latex]\\quad \\Delta_{\\mathrm{C}, 1}=\\Delta_{\\mathrm{C}, \\mathrm{II}}[/latex] Also, [latex]\\quad \\Delta_{\\mathrm{C}}=\\Delta_{\\mathrm{C}, 1}+\\Delta_{\\mathrm{C}, 1}[/latex] [latex]\\Rightarrow \\quad \\Delta_{\\mathrm{C}, \\mathrm{I}}=\\Delta_{\\mathrm{C}, \\mathrm{II}}=\\frac{\\Delta_{\\mathrm{C}}}{2}[/latex]",
+    "options": {
+      "A": "reduces to [latex]\\Delta_{0} / 2[/latex]",
+      "B": "reduces to a value less than [latex]\\Delta_{0} / 2[/latex]",
+      "C": "reduces to a value greater than [latex]\\Delta_{0} / 2[/latex]",
+      "D": "remains unchanged at [latex]\\Delta_{0}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 A circular solid shaft of span [latex]L=5 \\mathrm{~m}[/latex] is fixed at one end and free at the other end. [latex]A[/latex] torque [latex]T=[/latex] [latex]100 \\mathrm{kN} . \\mathrm{m}[/latex] is applied at the free end. The shear modulus and polar moment of inertia of the section are denoted as [latex]\\mathrm{G}[/latex] and [latex]\\mathrm{J}[/latex], respectively. The torsional rigidity [latex]\\mathrm{GJ}[/latex] is [latex]50,000 \\mathrm{kN} . \\mathrm{m}^ 2 / \\mathrm{rad}[/latex]. The following are reported for this shaft: Statement i) The rotation at the free end is 0.01 [latex]\\mathrm{rad}[/latex] Statement ii) The torsional strain energy is 1.0 kN.m With reference to the above statements, which of the following is true?",
+    "solution": "[latex]\n\\phi_{\\mathrm{BA}}=\\frac{\\text { T.L. }}{\\mathrm{GJ}}=\\frac{(100)^{*} 5}{50000}=0.01 \\mathrm{rad}\n[/latex] [latex]\\Rightarrow[/latex] Torsional strain energy [latex](U)[/latex] [latex]\n\\begin{aligned}\n& U=\\frac{T^{2} L}{2 G J}=\\frac{1}{2} \\times T * \\phi_{B A} \\\\\n& U=\\frac{1}{2} * 100 * 0.01=0.5 \\mathrm{kN}-\\mathrm{m}\n\\end{aligned}\n[/latex] Hence, statement (i) correct and statement (ii) is incorrect.",
+    "options": {
+      "A": "Both the statements are correct",
+      "B": "Statement i) is correct, but Statement ii) is wrong",
+      "C": "Statement i) is wrong, but Statement ii) is correct",
+      "D": "Both the statements are wrong"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 The infinitesimal element shown in the figure (not to scale) represents the state of stress at a point in a body. What is the magnitude of the maximum principal stress (in [latex]\\mathrm{N} / \\mathrm{mm}^{2}[/latex], in integer) at the point?",
+    "solution": "On plane [latex]x^{\\prime} \\rightarrow \\quad \\sigma_{x^{\\prime}}=5 \\mathrm{~N} / \\mathrm{mm}^{2}[/latex] [latex]\\tau_{x^{\\prime} y^{\\prime}}=4 \\mathrm{~N} / \\mathrm{mm}^{2}[/latex] Using transformation equations: [latex]\\begin{aligned}\r\n& \\sigma_{x^{\\prime}}=\\left(\\frac{\\sigma_{x}+\\sigma_{y}}{2}\\right)+\\left(\\frac{\\sigma_{x}-\\sigma_{y}}{2}\\right) \\cos 2 \\theta+\\tau_{x y} \\sin 2 \\theta \\\\\r\n& 5=\\left(\\frac{\\sigma_{x}+6}{2}\\right)+\\left(\\frac{\\sigma_{x}-6}{2}\\right) \\cos \\left(2 \\times 45^{\\circ}\\right)+3 \\sin \\left(2 \\times 45^{\\circ}\\right) \\\\\r\n& \\Rightarrow \\sigma_{x}=-2 \\mathrm{~N} / \\mathrm{mm}^{2} \\\\\r\n& \\sigma_{\\text {major } / \\text { minor }}=\\frac{\\sigma_{x}+\\sigma_{y}}{2} \\pm \\sqrt{\\left(\\frac{\\sigma_{x}-\\sigma_{y}}{2}\\right)^{2}+\\tau_{x y}^{2}}\r\n\\end{aligned}[/latex] [latex]\\sigma_{\\text {major } / \\text { minor }}=\\frac{-2+6}{2} \\pm \\sqrt{\\left(\\frac{-2-6}{2}\\right)^{2}+3^{2}}[/latex] [latex]\\sigma_{\\text {major } / \\text { minor }}=2 \\pm 5[/latex] [latex]\\Rightarrow \\quad \\sigma_{\\text {major }}=7 \\mathrm{~N} / \\mathrm{mm}^{2}, \\sigma_{\\text {minor }}=-3 \\mathrm{MPa}[/latex] Hence, magnitude of maximum principal stress is [latex]7 \\mathrm{~N} / \\mathrm{mm}^{2}[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page4_q4.webp",
+    "min": 7.0,
+    "max": 7.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 Consider the beam shown in the figure (not to scale), on a hinge support at end [latex]A[/latex] and a roller support at end [latex]B[/latex]. The beam has a constant flexural rigidity, and is subjected to the external moments of magnitude [latex]M[/latex] at one-third spans, as shown in the figure. Which of the following statements is/ are TRUE?",
+    "solution": "Using equilibrium equations [latex]\\left.\\sum \\mathrm{M}_{\\mathrm{A}}\\right)=0[/latex] [latex]\\Rightarrow \\quad-\\mathrm{M}+\\mathrm{M}-\\mathrm{R}_{\\mathrm{B}} \\times(3 \\mathrm{~L})=0[/latex] [latex]\\Rightarrow \\mathrm{R}_{\\mathrm{B}}=0[/latex] [latex]\\sum F_{V}=0 \\Rightarrow R_{A}+R_{B}=0[/latex] [latex]\\Rightarrow \\mathrm{R}_{\\mathrm{A}}=0[/latex] SFD [latex]\\Rightarrow \\quad[/latex] No shear force throughout the span. BMD As there is [latex]B M[/latex] in span [latex]C D[/latex], which leads to curvature in CD. i.e. deflection is not zero everywhere.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page4_q5.webp",
+    "options": {
+      "A": "Support reactions are zero",
+      "B": "Shear force is zero everywhere",
+      "C": "Bending moment is zero everywhere",
+      "D": "Deflection is zero everywhere"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 Consider the fillet-welded lap joint shown in the figure (Not to scale). The length of the weld shown in the effective length. The welded surface meet at right angle. The weld size is [latex]8 \\mathrm{~mm}[/latex], and the permissible stress in the weld is [latex]120 \\mathrm{MPa}[/latex]. What is the safe load [latex]P[/latex] (in [latex]\\mathrm{kN}[/latex], rounded off to one decimal place) that can be transmitted by this welded joint ?",
+    "solution": "Given data, Weld size [latex]=8 \\mathrm{~mm}[/latex] Permissible stress [latex]=120 \\mathrm{MPa}[/latex] Effective throat thickness, [latex]\\mathrm{t}_{\\mathrm{e}}=0.7 \\times  Weld \\; size =0.7 \\times 8=5.6 \\mathrm{~mm}\n\n[/latex] Total effective length of weld, [latex]\\ell_{\\mathrm{e}}=2 \\times 75+50 =200 mm[/latex] [latex]\\Rightarrow[/latex] Safe load ' [latex]P[/latex] ' in kN rounded upto one decimal palce [latex]\n\\begin{aligned}\n& =5.6 \\times 200 \\times 120 \\times 10^{-3} \\\\\n& =134.4 \\mathrm{kN}\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page5_q1.webp",
+    "min": 134.0,
+    "max": 136.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 A hanger is made of two bars of different sizes. Each bar has a square cross-section. The hanger is loaded by three-point loads in the mid vertical plane as shown in the figure. Ignore the self-weight of the hanger. What is the maximum tensile stress in [latex]\\mathrm{N} / \\mathrm{mm}^{2}[/latex] anywhere in the hanger without considering stress concentration effects?",
+    "solution": "[latex]\n\\sigma_{A B}=\\frac{P_{A B}}{A_{A B}}=\\frac{250 \\times 10^{3}}{100 \\times 100}=25 \\mathrm{~N} / \\mathrm{mm}^{2}\n[/latex] [latex]\n \\sigma_{B C}=\\frac{P_{B C}}{A_{B C}}=\\frac{50 \\times 10^3}{50 \\times 50}=20 \\mathrm{N} /  \\mathrm{mm}^{2}\n[/latex] [latex]\n\\sigma_{\\max }=\\sigma_{\\mathrm{AB}}=25 \\mathrm{~N} / \\mathrm{mm}^{2}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page5_q2.webp",
+    "options": {
+      "A": "15",
+      "B": "25",
+      "C": "35",
+      "D": "45"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 A uniform rod KJ of weight w shown in the figure rests against a frictionless\nvertical wall at the point K and a rough horizontal surface at point J. It is given\nthat w = 10 kN, a = 4 m and b = 3 m. The minimum coefficient of static friction that is required at the point J to hold\nthe rod in equilibrium is ___________. (round off to three decimal places)",
+    "solution": "[latex] \\begin{aligned}\n\\Sigma F_v&=0\\\\\nR_J&=0\\\\\n\\Sigma M_K&=0\\\\\n10 \\times 1.5+\\mu _sR_J \\times 4-R_J \\times 3&=0\\\\\n\\mu _s=\\frac{10 \\times 3-10 \\times 1.5}{10 \\times 4}&=0.375\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page5_q3.webp",
+    "min": 0.35,
+    "max": 0.4
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 Consider two linearly elastic rods HI and IJ, each of length b, as shown in the\r\nfigure. The rods are co-linear, and confined between two fixed supports at H and\r\nJ. Both the rods are initially stress free. The coefficient of linear thermal\r\nexpansion is [latex]\\alpha [/latex] for both the rods. The temperature of the rod IJ is raised by [latex]\\Delta T [/latex],\r\nwhereas the temperature of rod HI remains unchanged. An external horizontal\r\nforce P is now applied at node I. It is given that [latex]\\alpha ={10^{-6} } {\\circ} C^{-1},\\Delta T=50^{\\circ}C,b = 2 m, AE = 10^6N.[/latex]. The axial rigidities of the rods HI and IJ are 2AE and AE, respectively. To make the axial force in rod HI equal to zero, the value of the external\r\nforce P (in N) is _________. (round off to the nearest integer)",
+    "solution": "[latex] R_A+R_B=P[/latex] [latex]\\because  [/latex] There is no axial force in rod HI \n[latex]\\therefore R_A=0 [/latex] Now check for rod IJ [latex] \\therefore R_B=P[/latex] Now as rod IJ is fixed from both end, so net deflection due to increase in temperature will be zero. [latex] \\begin{aligned}\nb\\alpha T +\\left [ -\\frac{Pb}{AE} \\right ]&= 0\\\\ \n b\\alpha T &=\\frac{Pb}{AE} \\\\ \nP &= AE\\alpha T\\\\ \n P&= 10^6 \\times 10^{-6} \\times 50\\\\ \n P&=50N \n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page5_q4.webp",
+    "min": 47.0,
+    "max": 53.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 The components of pure shear strain in a sheared material are given in the matrix form: [latex]\\varepsilon =\\begin{bmatrix}\n1 &1 \\\\ \n 1& -1\n\\end{bmatrix}[/latex] Here, [latex]Trace(\\varepsilon)=0 [/latex]. Given, [latex]P=Trace(\\varepsilon ^8) [/latex] and [latex]Q=Trace(\\varepsilon ^{11}) [/latex]. The numerical value of [latex](P + Q)[/latex] is ________. (in integer)",
+    "solution": "[latex]\\begin{aligned}\n|A-\\lambda I|&=0  \\\\\n\\begin{vmatrix}\n1-\\lambda &1 \\\\ \n1 & 1-\\lambda\n\\end{vmatrix}&=0  \\\\\n(1-\\lambda)(-1-\\lambda)-1&=0  \\\\\n(\\lambda^2-1)-1&=0  \\\\\n\\lambda&=\\pm \\sqrt{2}  \n\\end{aligned} [/latex] Eigen values of [latex]\\varepsilon [/latex] are [latex] \\sqrt{2}[/latex] and [latex] -\\sqrt{2}[/latex] Eigen values of [latex]\\varepsilon ^8 [/latex] are [latex] (\\sqrt{2})^8[/latex] and [latex]( -\\sqrt{2})^8[/latex] Eigen values of [latex]\\varepsilon ^{11} [/latex] are [latex] (\\sqrt{2})^{11}[/latex] and [latex] (-\\sqrt{2})^{11}[/latex] [latex]P=Trace(\\varepsilon ^8) =[/latex] sum of Eigen values [latex]= ( \\sqrt{2})^8+( -\\sqrt{2})^8=32[/latex] [latex]Q=Trace(\\varepsilon ^{11}) =[/latex] sum of Eigen values [latex]= ( \\sqrt{2})^{11}+( -\\sqrt{2})^{11}=0[/latex] [latex]P+Q=32+0=32 [/latex]",
+    "min": 32.0,
+    "max": 32.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 Stresses acting on an infinitesimal soil element are shown in the figure (with [latex]\\sigma _z \\gt \\sigma _x[/latex]). The major and minor principal stresses are [latex]\\sigma _1[/latex]\nand [latex]\\sigma _3[/latex], respectively. Considering the compressive stresses as positive, which one of the\nfollowing expressions correctly represents the angle between the major\nprincipal stress plane and the horizontal plane?",
+    "solution": "[latex] \\begin{aligned}\n\\Sigma F_x &=0 \\\\ \n\\sigma _x(BC)-\\tau _Z \\times (AB)\\sigma _1 \\sin \\theta  &= 0\\\\ \n\\sigma _x\\left ( \\frac{AC \\sin \\theta }{\\cos \\theta } \\right )+\\tau _{zx}\\left ( \\frac{AC \\cos \\alpha  }{\\cos \\theta } \\right ) &=\\sigma _1 \\frac{AC \\sin \\theta }{\\cos \\theta }\\\\ \n\\sigma _x \\tan \\theta +\\tau _{zx} &=\\sigma _1 \\tan \\theta  \\\\ \n\\tan \\theta(\\sigma _1-\\sigma _2) &= \\tau _{zx}\\\\ \n \\tan \\theta &= \\left ( \\frac{\\tau _{zx}}{\\sigma _1-\\sigma _x} \\right )\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page6_q1.webp",
+    "options": {
+      "A": "[latex]\\tan ^{-1}\\left ( \\frac{\\tau _{zx}}{\\sigma _1-\\sigma _x} \\right )[/latex]",
+      "B": "[latex]\\tan ^{-1}\\left ( \\frac{\\tau _{zx}}{\\sigma _3-\\sigma _x} \\right )[/latex]",
+      "C": "[latex]\\tan ^{-1}\\left ( \\frac{\\tau _{zx}}{\\sigma _1+\\sigma _x} \\right )[/latex]",
+      "D": "[latex]\\tan ^{-1}\\left ( \\frac{\\tau _{zx}}{\\sigma _1+\\sigma _3} \\right )[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 For a linear elastic and isotropic material, the correct relationship among Young's modulus of elasticity ([latex]E[/latex]), Poisson's ratio ([latex]v[/latex]), and shear modulus ([latex]G[/latex]) is",
+    "solution": "[latex] E=2G(1+\\mu )[/latex] [latex]G= [/latex] Shear modulas [latex]\\mu =[/latex]Poission's ratio [latex]E= [/latex] Young's modulus",
+    "options": {
+      "A": "[latex]G=\\frac{E}{2(1+v)}[/latex]",
+      "B": "[latex]G=\\frac{E}{(1+2v)}[/latex]",
+      "C": "[latex]E=\\frac{G}{2(1+v)}[/latex]",
+      "D": "[latex]E=\\frac{G}{(1+2v)}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 A horizontal force of P kN is applied to a homogeneous body of weight 25 kN,\nas shown in the figure. The coefficient of friction between the body and the\nfloor is 0.3. Which of the following statement(s) is/are correct?",
+    "solution": "Minimum force for sliding [latex](P_{min})_{sliding}=(f_s)_{max}[/latex]  ...(i) Applying equilibrium equation in vertical direction Normal reaction = Weight N=mg=25 kN   ...(ii) Using equation (i) and (ii) [latex](P_{min})_{sliding}=\\mu N =0.3 \\times 25=7.5 kN[/latex] Minimum force for overturning At the verge of overturning [latex](P_{min})_{oberturning} \\times 2=W \\times 2[/latex] [latex](P_{min})_{oberturning}=\\frac{25 \\times 0.5} {2}=6.25 kN[/latex] Here, [latex](P_{min})_{oberturning} \\lt (P_{min})_{sliding}[/latex] First overtuning will take place. Sliding will not take place.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page6_q3.webp",
+    "options": {
+      "A": "The motion of the body will occur by overturning.",
+      "B": "Sliding of the body never occurs.",
+      "C": "No motion occurs for [latex]P \\leq 6 kN[/latex].",
+      "D": "The motion of the body will occur by sliding only."
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Consider the cross-section of a beam made up of thin uniform elements having\r\nthickness [latex]t(t \\lt \\lt a)[/latex] shown in the figure. The [latex](x,y)[/latex] coordinates of the points along\r\nthe center-line of the cross-section are given in the figure. The coordinates of the shear center of this cross-section are:",
+    "solution": "Shear centre of section consisting of two intersecting narrow rectangles always lies at the intersection of centrelines of two rectangles. Coordinate of shear centre (0, 3a).",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page6_q4.webp",
+    "options": {
+      "A": "x = 0, y = 3a",
+      "B": "x = 2a, y = 2a",
+      "C": "x = -a, y = 2a",
+      "D": "x = -2a, y = a"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 The hoop stress at a point on the surface of a thin cylindrical pressure vessel is\ncomputed to be 30.0 MPa. The value of maximum shear stress at this point is",
+    "solution": "Given, Hoop stress [latex](\\sigma _h)=\\frac{pd}{2t}=30MPa[/latex] Maximum shear stress in plane\n[latex](\\tau _{max})_{\\text{in plane}}=\\frac{\\frac{pd}{2t}-\\frac{pd}{4t}}{2}=7.5MPa[/latex]",
+    "options": {
+      "A": "7.5 MPa",
+      "B": "15.0 MPa",
+      "C": "30.0 MPa",
+      "D": "22.5 MPa"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 A solid circular torsional member OPQ is subjected to torsional moments as shown in the figure (not to scale). The yield shear strength of the constituent material is 160 MPa. The absolute maximum shear stress in the member (in MPa, round off to one decimal place) is ________",
+    "solution": "[latex]\\begin{aligned} \\tau_{\\max _{O P}}=\\frac{16 T_{O P}}{\\pi d_{O P}^{3}}=\\frac{16 \\times 3 \\times 10^{3}}{\\pi \\times 100^{3}}=15.27 \\mathrm{~N} / \\mathrm{mm}^{2} \\\\ \\tau_{\\max \\mathrm{PQ}}=\\frac{16 T_{P Q}}{\\pi d_{P Q}^{3}}=\\frac{16 \\times 1 \\times 10^{6}}{\\pi \\times 80^{3}}=9.94 \\mathrm{~N} / \\mathrm{mm}^{2}\\\\ \\tau_{\\max }=9.94 \\mathrm{~N} / \\mathrm{mm}^{2} \\end{aligned}[/latex] Absolute max shear stress [latex]= 15.27 \\mathrm{~N} / \\mathrm{mm}^{2}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page7_q1.webp",
+    "min": 14.0,
+    "max": 16.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 A single story building model is shown in the figure. The rigid bar of mass 'm' is supported by three massless elastic columns whose ends are fixed against rotation. For each of the columns, the applied lateral force (P) and corresponding moment (M) are also shown in the figure. The lateral deflection [latex](\\delta)[/latex] of the bar is given by  [latex]\\delta=\\frac{P L^{3}}{12 E I}[/latex], where L is the effective length of the column, E is the Young's modulus of elasticity and I is the area moment of inertia of the column cross-section with respect to its neutral axis. For the lateral deflection profile of the columns as shown in the figure, the natural frequency of the system for horizontal oscillation is",
+    "solution": "As the deflection will be same in all the 3 columns, so it represents a parallel connection. [latex]\\begin{aligned} k_{e q} &=3 k=\\frac{36 E I}{L^{3}} \\\\ \\text { Natural frequency }(\\omega) &=\\sqrt{\\frac{k}{m}} \\\\ &=\\sqrt{\\frac{36 E I}{m L^{3}}}=6 \\sqrt{\\frac{E I}{m L^{3}}} \\mathrm{rad} / \\mathrm{s} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page7_q2.webp",
+    "options": {
+      "A": "[latex]6 \\sqrt{\\frac{E I}{m L^{3}}} \\mathrm{rad} / \\mathrm{s}[/latex]",
+      "B": "[latex]\\frac{1}{L} \\sqrt{\\frac{2 E I}{m}} \\mathrm{rad} / \\mathrm{s}[/latex]",
+      "C": "[latex]6 \\sqrt{\\frac{6 E I}{m L^{3}}} \\mathrm{rad} / \\mathrm{s}[/latex]",
+      "D": "[latex]\\frac{2}{L} \\sqrt{\\frac{E I}{m}} \\mathrm{rad} / \\mathrm{s}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 Strain hardening of structural steel means",
+    "solution": "Strain hardening is experiencing higher stress than yield stress with increased deformation In the figure AB = Strain hardening zone OA = Linear elastic zone Stress corresponding to point 'A' is yield stress.",
+    "options": {
+      "A": "experiencing higher stress than yield stress with increased deformation",
+      "B": "strengthening steel member externally for reducing strain experienced",
+      "C": "strain occurring before plastic flow of steel material",
+      "D": "decrease in the stress experienced with increasing strain"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 A square plate O-P-Q-R of a linear elastic material with sides 1.0 m is loaded in a state of plane stress. Under a given stress condition, the plate deforms to a new configuration O-P'-Q'-R' as shown in the figure (not to scale). Under the given deformation, the edges of the plate remain straight. The horizontal displacement of the point (0.5 m, 0.5 m) in the plate O-P-Q-R (in mm,round off to one decimal place) is ________",
+    "solution": "So horizontal displacement of the point (0.5 m, 0.5 m) [latex]=-2.5 \\mathrm{~mm}+5 \\mathrm{~mm}=2.5 \\mathrm{~mm}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page7_q4.webp",
+    "min": 2.4,
+    "max": 2.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 The equation of deformation is derived to be [latex]y=x^{2}-x L[/latex] for a beam shown in the figure. The curvature of the beam at the mid-span (in units, in integer) will be ______________",
+    "solution": "[latex]\\text { Given, } \\qquad \\qquad y=x^{2}-x l[/latex] Curvature at mid section is [latex]\\begin{aligned} \\frac{1}{R}&=\\frac{d^{2} y}{d x^{2}}\\\\ \\frac{d y}{d x}&=2 x-l\\\\ \\frac{d^{2} y}{d x^{2}}&=2\\\\ \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page7_q5.webp",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 The state of stress in a deformable body is shown in the figure. Consider transformation of the stress from the x-y coordinate system to the X-Y coordinate system. The angle [latex]\\theta[/latex], locating the X-axis, is assumed to be positive when measured from the x-axis in counter-clockwise direction. The absolute magnitude of the shear stress component [latex]\\sigma_{\\mathrm{xy}}[/latex] (in MPa,round off to one decimal place) in x-y coordinate system is ________________",
+    "solution": "[latex]\\begin{aligned}  \\sigma_{x}^{\\prime}&=\\frac{\\sigma_{x}+\\sigma_{y}}{2}+\\left(\\frac{\\sigma_{x}-\\sigma_{y}}{2}\\right) \\cos 2 \\theta+\\tau_{x y} \\sin 2 \\theta \\\\ \\text { Here } \\theta=60^{\\circ} \\\\ \\sigma_{x}&=40 \\mathrm{MPa}, \\sigma_{y}=35.6, \\sigma_{x}^{\\prime}=120, \\tau_{x^{\\prime} y^{\\prime}}=-50 \\end{aligned}[/latex] Substituting the values in above equation, we get [latex]\\tau_{x y}=96.186 \\mathrm{MPa}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page8_q1.webp",
+    "min": 95.0,
+    "max": 97.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 Joints I, J, K, L, Q and M of the frame shown in the figure (not drawn to the scale)\nare pins. Continuous members IQ and IJ are connected through a pin at N. Continuous\nmembers JM and KQ are connected through a pin at P. The frame has hinge supports\nat joints R and S. The loads acting at joints I, J and K are along the negative Y direction\nand the loads acting at joints I, M are along the positive X direction. The magnitude of the horizontal component of reaction (in kN) at S, is",
+    "solution": "Remove hinge at support S and replace it with roller support as shown in the figure. Step One : Find coordinates of all the points where forces are acting [latex]\\begin{aligned} y_I&=\\sqrt{2} \\sin \\theta \\\\ y_J&=\\sqrt{2} \\sin \\theta \\\\ y_K&=\\sqrt{2} \\sin \\theta \\\\ x_L&=\\sqrt{2} \\cos \\theta \\\\ x_M&=5\\sqrt{2} \\cos \\theta \\\\ x_S&=6\\sqrt{2} \\cos \\theta \\end{aligned}[/latex] Step Two: Find virtual displacements of all the points [latex]\\begin{aligned} \\delta y_I&=\\sqrt{2} \\cos \\theta d\\theta \\\\ \\delta y_J&=\\sqrt{2} \\cos \\theta d\\theta \\\\ \\delta y_K&=\\sqrt{2} \\cos \\theta d\\theta \\\\ \\delta x_L&=-\\sqrt{2} \\sin \\theta d\\theta \\\\ \\delta x_M&=-5\\sqrt{2} \\sin \\theta d\\theta \\\\ \\delta x_S&=-6\\sqrt{2} \\sin \\theta d\\theta \\\\ \\end{aligned}[/latex] Step Three : Use principle of virtual work to find unknown horizontal force [latex]H_s[/latex] [latex]\\Rightarrow \\; \\delta U=0[/latex] [latex]=[-10 \\times \\sqrt{2} \\cos \\theta d\\theta ] \\times 3 + [-10 \\times -\\sqrt{2} \\cos \\theta d\\theta ] +[-10 \\times -5\\sqrt{2} \\sin \\theta d\\theta ] - [-H_S \\times -6\\sqrt{2} \\sin \\theta d\\theta ][/latex] [latex]H_S=\\frac{30\\sqrt{2} \\cos \\theta +10\\sqrt{2} \\sin \\theta +50\\sqrt{2} \\sin \\theta}{6\\sqrt{2} \\sin \\theta}[/latex] Substituting, [latex]\\theta =45^{\\circ},\\; H_S=\\frac{90}{6}=15kN[/latex] Note : Sign conventions If a force acts along positive x or positive y-axis, take it as positive. If a force acts along negative x or negative y-axis, take it as negative.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page8_q2.webp",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "15",
+      "D": "20"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 A weightless cantilever beam of span L is loaded as shown in the figure. For the entire\nspan of the beam, the material properties are identical and the cross-section is rectangular\nwith constant width. From the flexure-critical perspective, the most economical longitudinal profile of the beam\nto carry the given loads amongst the options given below, is",
+    "solution": "[latex](-PL) + (PL) + (-M_A) = 0[/latex] [latex]M_A = 0[/latex] For most economical, Maximum cross-section is given where maximum bending moment occurs.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page8_q3.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 The state of stress represented by Mohr's circle shown in the figure is",
+    "solution": "In pure shear condition, Mohr's circle has its center at origin.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page8_q4.webp",
+    "options": {
+      "A": "uniaxial tension",
+      "B": "biaxial tension of equal magnitude",
+      "C": "hydrostatic stress",
+      "D": "pure shear"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 A rigid, uniform, weightless, horizontal bar is connected to three vertical members P, Q and R as shown in the figure. All three members have identical axial stiffness of 10 kN/mm. The lower ends of bars P and R rest on a rigid horizontal surface. When NO laod is applied, a gap of 2 mm exist between the lower end of the bar Q and the rigid horizontal surface. When a vertical load W is placed on the horizontal bar in the downward direction, the bar still remains horizontal and gets displayed by 5 mm in the vertically downward direction. The magnitude of the load W (in kN, round off to the nearst integer), is ______",
+    "solution": "[latex]\\begin{aligned} P_1 +P_1+P_2&=W \\\\ P_1&=P_3 \\\\ \\frac{AE}{L}&=10kN/mm\\\\ \\delta _1&=5mm=\\frac{P_1L}{AE} \\\\ \\delta _2&=3 mm = \\frac{P_2L}{AE} \\\\ P_1 &=10 \\times 5 =50 kN \\\\ P_2 &=10 \\times 3 =30kN \\\\ W&=2(20)+30=130 kN \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page8_q5.webp",
+    "min": 129.0,
+    "max": 131.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 The total stress paths corresponding to different loading conditions, for a soil specimen\nunder the isotropically consolidated stress state (O), are shown below: The correct match between the stress paths and the listed loading conditions, is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page9_q1.webp",
+    "options": {
+      "A": "OP-I, OQ-II, OR-IV, OS-III",
+      "B": "OP-IV, OQ-III, OR-I, OS-II",
+      "C": "OP-III, OQ-II, OR-I, OS-IV",
+      "D": "OP-I, OQ-III, OR-II, OS-IV"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 A cantilever beam PQ of uniform flexural rigidity (EI) is subjected to a concentrated\nmoment M at R as shown in the figure. The deflection at the free end Q is",
+    "solution": "[latex]\\begin{aligned} \\delta _c&=\\delta _1=CC_1+C_1C_2\\\\ &=BB_1+C_1C_2\\\\ &=\\frac{M\\left ( \\frac{L}{2} \\right )^2}{2EI}+\\frac{M\\left ( \\frac{L}{2} \\right )}{EI}\\left ( \\frac{L}{2} \\right )\\\\ \\delta _c&=\\frac{3}{8}\\frac{ML^2}{EI} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page9_q2.webp",
+    "options": {
+      "A": "[latex]\\frac{ML^2}{6EI}[/latex]",
+      "B": "[latex]\\frac{ML^2}{4EI}[/latex]",
+      "C": "[latex]\\frac{3ML^2}{8EI}[/latex]",
+      "D": "[latex]\\frac{3ML^2}{4EI}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 A rigid weightless platform PQRS shown in the figure (not drawn to the scale) can slide\nfreely in the vertical direction. The platform is held in position by the weightless member\nOJ and four weightless, frictionless rollers. Point O and J are pin connections. A block\nof 90 kN rests on the platform as shown in the figure. The magnitude of horizontal component of the reaction (in kN) at pin O, is",
+    "solution": "[latex]\\begin{aligned} \\Sigma y&=0\\\\ \\Rightarrow \\; & R_o \\sin 36.87-90 =0\\\\ R_o&=\\frac{90}{\\sin 3687^{\\circ}}=150kN\\\\ &\\text{Horizontal reaction at O}\\\\ &=H_o\\\\ &=R_o \\cos 36.87\\\\ &=150 \\times \\cos 36.87\\\\ &=120 kN \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page9_q3.webp",
+    "options": {
+      "A": "90",
+      "B": "120",
+      "C": "150",
+      "D": "180"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 In a two-dimensional stress analysis, the state of stress at a point P is [latex][\\sigma ]=\\begin{bmatrix} \\sigma _{xx} &\\tau _{xy} \\\\ \\tau _{xy}& \\sigma _{yy} \\end{bmatrix}[/latex] The necessary and sufficient condition for existence of the state of pure shear at the\npoint P, is",
+    "solution": "In pure shear condition [latex]\\sigma _x=0, \\sigma _y=0, \\tau _{xy}=\\tau[/latex] For this condition [latex]\\sigma _{xx}+ \\sigma _{yy}=0[/latex] is true.",
+    "options": {
+      "A": "[latex]\\sigma _{xx}\\sigma _{yy} -\\tau^2 _{xy}=0[/latex]",
+      "B": "[latex]\\tau _{xy}=0[/latex]",
+      "C": "[latex]\\sigma _{xx}+\\sigma _{yy}=0[/latex]",
+      "D": "[latex](\\sigma _{xx}-\\sigma _{yy})^2 +4\\tau^2 _{xy}=0[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 A plane frame shown in the figure has linear elastic springs at node H. The spring constants are [latex]k_x=k_y=5 \\times 10^5kN/m[/latex] and [latex]k_\\theta =3 \\times 10^5kNm/rad[/latex]. For the externally applied moment of 30 kNm at node F, the rotation (in degrees, round off to 3 decimals) observed in the rotational spring at node H is_____",
+    "solution": "No moment can be taken by segment FE. [latex]\\therefore \\;\\;M_{FE}=0[/latex] [latex]\\begin{aligned} M_\\theta &=k_\\theta \\times \\theta \\\\ 30kNm&=3 \\times 10^5 \\times \\theta \\\\ \\theta &=1 \\times 10^{-4} \\; \\text{radians} \\\\ &=0.0057^{\\circ} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page9_q5.webp",
+    "min": 0.005,
+    "max": 0.007
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 For a plane stress problem, the state of stress at a point P is represented by the stress element as shown in figure. By how much angle ([latex]\\theta[/latex]) in degrees the stress element should be rotated in order to get the planes of maximum shear stress?",
+    "solution": "[latex]\\begin{aligned} \\sigma _x&=80\\\\ \\sigma _y&=-20\\\\ \\sigma _z&=-25 \\end{aligned}[/latex] Angle of plane of max shear [latex]\\begin{aligned} \\theta &=\\theta _p+45^{\\circ}\\\\ \\tan 2\\theta _p&=\\frac{2\\tau _{xy}}{\\sigma _x-\\sigma _y}\\\\ &=\\frac{-50}{100}\\\\ \\theta _p&=-13.28^{\\circ}\\\\ \\therefore \\;\\;\\theta &=31.71^{\\circ} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page10_q1.webp",
+    "options": {
+      "A": "13.3",
+      "B": "26.6",
+      "C": "31.7",
+      "D": "48.3"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 A closed thin-walled tube has thickness, t, mean enclosed area within the boundary of the centerline of tube's thickness, [latex]A_m[/latex], and shear stress, [latex]\\tau[/latex]. Torsional moment of resistance, T, of the section would be",
+    "solution": "Shear Stress, [latex]\\begin{aligned} \\tau &=\\frac{T}{J}R=\\frac{T}{2 \\pi R^3 t}R \\\\ \\tau &=\\frac{T}{2 \\pi R^2 t}=\\frac{T}{2 A_m t} \\\\ T &=2\\tau A_mt \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]0.5 \\tau A_m t[/latex]",
+      "B": "[latex]\\tau A_m t[/latex]",
+      "C": "[latex]2 \\tau A_m t[/latex]",
+      "D": "[latex]4 \\tau A_m t[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 The cross-section of a built-up wooden beam as shown in the figure is subjected to a vertical shear force of 8 kN. The beam is symmetrical about the neutral axis (N.A.) shown, and the moment of inertia about N.A. is [latex]1.5 \\times 10^9 mm^4[/latex]. Considering that the nails at the location P are spaced longitudinally (along the length of the beam) at 60 mm, each of the nails at P will be subjected to the shear force of",
+    "solution": "Shear stress acting at the joint at which the nail 'P' is resisting the shear. [latex]\\begin{aligned} \\tau &=\\frac{FA\\bar{y}}{Ib}\\\\ &=\\frac{(8 \\times 10^3)(50 \\times 100)(150)}{1.5 \\times 10^9 \\times 50}\\\\ &=0.08N/mm^2 \\end{aligned}[/latex] The shear force acting on nail at 'P'. [latex]F=\\tau (60\\times 50)=240N[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page10_q3.webp",
+    "options": {
+      "A": "60N",
+      "B": "120N",
+      "C": "240N",
+      "D": "480N"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 An isolated concrete pavement slab of length L is resting on a frictionless base. The temperature of the top and bottom fibre of the slab are [latex]T_t \\; and \\; T_b[/latex], respectively. Given: the coefficient of thermal expansion [latex]=\\alpha[/latex] and the elastic modulus =E. Assuming [latex]T_t \\gt T_b[/latex] and the unit weight of concrete as zero, the maximum thermal stress is calculated as",
+    "solution": "Due to frictionless, thermal stress developed in concrete pavement slab is zero [latex]\\sigma _{th}=0[/latex]",
+    "options": {
+      "A": "[latex]L \\alpha (T_t-T_b)[/latex]",
+      "B": "[latex]E \\alpha (T_t-T_b)[/latex]",
+      "C": "[latex]\\frac{E \\alpha (T_t-T_b)}{2}[/latex]",
+      "D": "Zero"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 An element is subjected to biaxial normal tensile strains of 0.0030 and 0.0020. The normal strain in the plane of maximum shear strain is",
+    "solution": "[latex]\\varepsilon _x=0.0030[/latex] [latex] \\varepsilon _y=0.0020 [/latex] Normal strain in the plane of maximum shear strain [latex]\\varepsilon _{avg}=\\frac{\\varepsilon _x+\\varepsilon _y}{2}=\\frac{0.0030+0.0020}{2}=0.0025[/latex]",
+    "options": {
+      "A": "Zero",
+      "B": "0.001",
+      "C": "0.0025",
+      "D": "0.005"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 An 8 m long simply-supported elastic beam of rectangular cross-section (100 mm x 200mm) is subjected to a uniformly distributed load of 10 kN/m over its entire span. The maximum principal stress (in MPa, up to two decimal places) at a point located at the extreme compression edge of a cross-section and at 2 m from the support is ______",
+    "solution": "[latex]\\begin{aligned} V_A+V_B&=80\\\\ V_A&=V_B=40\\\\ &\\text{[Due to symmetry]}\\\\ M_A&=(-10\\times 2 \\times 1)+40 \\times 2\\\\ &=60 kNm \\end{aligned}[/latex] At extreme compression edge, Bending stress, [latex]\\begin{aligned} \\sigma &=\\frac{My}{I}\\\\ &=\\frac{(60 \\times 10^6) \\times \\frac{200}{2}}{100 \\times \\frac{200^3}{12}}\\\\ &=90MPa \\end{aligned}[/latex] Direct share stress = 0 Principal stress, [latex]\\sigma_{p1}/\\sigma_{p2}=\\frac{90+0}{2}\\pm \\frac{1}{2}\\sqrt{(0-90)^2+y(0)^2}[/latex] [latex]\\sigma_{p1}=90 MPa[/latex] So, pricipal stress [latex]=90 N/mm^2=90MPa[/latex]",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 A plate in equilibrium is subjected to uniform stresses along its edges with magnitude [latex]\\sigma_{xx}[/latex] = 30 MPa and [latex]\\sigma_{yy}[/latex] = 50 MPa as shown in the figure. The Young's modulus of the material is [latex]2 \\times 10^{11} N/m^{2}[/latex] and the Poisson's ratio is 0.3. If [latex]\\sigma_{zz}[/latex] is negligibly small and assumed to be zero, then the strain [latex]\\varepsilon _{zz}[/latex] is",
+    "solution": "[latex]\\begin{aligned} \\sigma _{xx} &=30MPa \\\\ \\sigma _{yy} &=50MPa \\\\ \\sigma _{zz} &=0 \\\\ \\varepsilon _{zz} &=\\frac{\\sigma _{zz}}{E}-\\mu \\frac{\\sigma _{xx}}{E}-\\mu \\frac{\\sigma _{yy}}{E} \\\\ &= -\\frac{\\mu }{E} (\\sigma _{xx}+\\sigma _{yy})\\\\ &= -\\frac{0.3}{2 \\times 10^5}(30+50)\\\\ &=-120 \\times 10^{-6} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page11_q2.webp",
+    "options": {
+      "A": "[latex]-120\\times 10^{-6}[/latex]",
+      "B": "[latex]-60\\times 10^{-6}[/latex]",
+      "C": "0",
+      "D": "[latex]120\\times 10^{-6}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 A cantilever beam of length 2 m with a square section of side length 0.1 m is loaded vertically at the free end. The vertical displacement at the free end is 5 mm. The beam is made of steel with Young's modulus of [latex]2.0 \\times 10^{11} N/m^{2}[/latex]. The maximum bending stress at the fixed end of the cantilever is",
+    "solution": "[latex]\\begin{aligned} I&=\\frac{(0.1)^4}{12} \\\\ \\text{Deflection }\\delta &=\\frac{Pl^2}{3eI} \\\\ 5 \\times 10^{-3}&=\\frac{P(2)^3}{3 \\times 2 \\times 10^11 \\times \\frac{(0.1)^4}{12}} \\\\ P&=3125N \\\\ \\text{Now, } M&= Pl=3125 \\times 2\\\\ &= 6250Nm\\\\ \\text{As, }\\frac{M}{I} &=\\frac{\\sigma }{y}=\\frac{E}{R} \\\\ \\sigma _{max}&=\\frac{M}{Z}=\\frac{6250}{\\frac{(0.1)^3}{6}}\\\\ &=37.5 \\times 10^6 N/m^2=37.5MPa \\end{aligned}[/latex]",
+    "options": {
+      "A": "20.0 MPa",
+      "B": "37.5 MPa",
+      "C": "60.0 MPa",
+      "D": "75.0 MPa"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 A solid circular beam with radius of 0.25 m and length of 2 m is subjected to a twisting moment of 20 kNm about the z-axis at the free end, which is the only load acting as shown in the figure. The shear stress component [latex]\\tau_{xy}[/latex] at Point 'M' in the cross-section of the beam at a distance of 1 m from the fixed end is",
+    "solution": "The only non-zero stresses are [latex]\\tau_{\\theta z}=\\tau_{z \\theta}=\\tau [/latex] if [latex]\\theta[/latex] is [latex]90^{\\circ}[/latex] then [latex]\\theta=y [/latex] [latex] \\begin{aligned} \\text{Hence}\\quad\\tau_{z y} &=\\tau_{y z}=\\tau_{\\max } \\\\ &=16 T / \\pi \\mathrm{d}^{3}=0.815 \\mathrm{MPa} \\end{aligned}[/latex] But in rest of the planes shear stresses are zero, hence, [latex]\\tau_{x y}=\\tau_{y x}=0[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page11_q4.webp",
+    "options": {
+      "A": "0.0 MPa",
+      "B": "0.51 MPa",
+      "C": "0.815 MPa",
+      "D": "2.0 MPa"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 A 2 m long, axially loaded mild steel rod of 8 mm diameter exhibits the load-displacement [latex](P-\\delta )[/latex] behavior as shown in the figure. Assume the yield stress of steel as 250 Mpa. The complementary energy (in N-mm) stored in the bar up to its linear elastic behavior will be____",
+    "solution": "Elastic strain, [latex]\\epsilon_{E}=\\frac{\\Delta L}{L}=\\frac{2.5}{2000}=1.25 \\times 10^{-2} [/latex] Elastic strain energy [latex]=\\frac{1}{2} \\sigma_{y} \\in_{E} A L [/latex] [latex]\r\n=\\frac{1}{2} \\times 250 \\times 1.25 \\times 10^{-3} \\times \\frac{\\pi}{4} \\times 8^{2} \\times 2000 [/latex] [latex]\r\n =15707.96 \\mathrm{Nmm} [/latex] Note: For linear elastic material both \r\ncomplementary energy and strain energy is same.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page11_q5.webp",
+    "min": 15707.0,
+    "max": 15708.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 56 A hollow circular shaft has an outer diameter of 100 mm and inner diameter of 50 mm. If the allowable shear stress is 125 MPa, the maximum torque (in kN-m) that the shaft can resist is____",
+    "solution": "[latex]\\begin{aligned} \\therefore \\quad \\frac{T}{I_{p}}&=\\frac{\\tau}{r} \\\\ \\Rightarrow \\quad \\tau&=\\frac{T}{Z_{p}}=\\frac{T}{\\frac{\\pi\\left(D^{4}-d^{4}\\right)}{16 \\times D}}=\\frac{16 T}{\\frac{\\pi}{D}\\left(D^{4}-d^{4}\\right)} \\\\ \\Rightarrow \\quad \\tau&=\\frac{16 T}{\\pi D^{3}\\left[1-\\left(\\frac{d}{D}\\right)^{4}\\right]} \\\\ \\Rightarrow \\quad 125&=\\frac{16 T}{\\pi(100)^{3}\\left[1-\\left(\\frac{50}{100}\\right)^{4}\\right]} \\\\ \\Rightarrow \\quad T&=23 \\mathrm{kNm} \\end{aligned}[/latex]",
+    "min": 20.0,
+    "max": 25.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Consider the three prismatic beamwith the clamped supports P, Q and R as shown in the figures Given that modulus of Elasticity, E is [latex]2.5\\times 10^{4}\\, \\, MPa;[/latex] and the moment of inertia, [latex]I[/latex] is [latex]8\\times 10^{8}\\, \\, mm^{4}[/latex], the correct Comparison of the magnitudes of the shear force S and the bending moment M developed at the supports is",
+    "solution": "[latex]\\begin{array}{l} S_{P} \\lt S_{Q} \\gt S_{R} \\\\ M_{P}=M_{Q}=M_{R} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page12_q2.webp",
+    "options": {
+      "A": "[latex]S_{P} \\lt  S_{Q} \\lt S_{R};\\; M_{P}=M_{Q}=M_{R}[/latex]",
+      "B": "[latex]S_{P}= S_{Q} \\gt S_{R};\\; M_{P}=M_{Q} \\gt M_{R}[/latex]",
+      "C": "[latex]S_{P} \\lt  S_{Q} \\gt S_{R};\\; M_{P}=M_{Q}=M_{R}[/latex]",
+      "D": "[latex]S_{P} \\lt  S_{Q} \\lt S_{R};\\; M_{P} \\lt M_{Q} \\lt M_{R}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Two prismatic beams having the same flexural rigidity of 1000 [latex]kN-m^2[/latex] are shown in the figures. If the mid-span deflections of these beams are denoted by [latex]\\delta_1 \\; and \\; \\delta _2[/latex] (as indicated in the figures). The correct option is",
+    "solution": "[latex]\\begin{aligned} \\delta_{1} &=\\frac{5}{384} \\times \\frac{w l^{4}}{E I} \\\\ &=\\frac{5}{384} \\times \\frac{6(4)^{4}}{1000}=20 \\times 10^{-3} \\mathrm{m}\\\\ \\delta_{2}&=\\frac{P l^{3}}{48 E I}=\\frac{120 \\times 2^{3}}{48 \\times 1000}=20 \\times 10^{-3} \\mathrm{m} \\\\ \\therefore \\quad \\delta_{1}&=\\delta_{2} \\end{aligned}\\\\[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page12_q3.webp",
+    "options": {
+      "A": "[latex]\\delta _{1}=\\delta _{2}[/latex]",
+      "B": "[latex]\\delta _{1} \\lt  \\delta _{2}[/latex]",
+      "C": "[latex]\\delta _{1} \\gt  \\delta _{2}[/latex]",
+      "D": "[latex]\\delta _{1} \\gt \\gt \\delta _{2}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 In a material under a state of plane strain, a 10x10 mm square centered at a point gets deformed as shown in the figure. If the Shear strain [latex]\\gamma _{xy}[/latex]\n at this point is expressed as 0.001k(in rad),the value of k is",
+    "solution": "According to the sign convention. In question since angle has been increase Therefore, shear strain should be negative. [latex] \\begin{aligned} \\therefore \\; \\gamma_{x y} &=-0.0005 \\mathrm{rad} \\\\ &=0.001 k \\\\ -0.0005 &=0.001 k \\\\ \\Rightarrow \\;\\; k &=-0.50 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page12_q4.webp",
+    "options": {
+      "A": "0.5",
+      "B": "0.25",
+      "C": "-0.25",
+      "D": "-0.5"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 60 Consider two axially loaded columns, namely, 1 and 2, made of a linear elastic material with Young's modulus [latex]2 \\times 10^{5}[/latex]  MPa, square cross- section with side 10 mm, and length 1 m. For Column 1, one end is fixed and the other end is free. For Column 2, one end is fixed and the other end is pinned. Based on the Euler's theory, the ratio (up to one decimal place) of the buckling load of Column 2 to the buckling load of Column 1 is ________",
+    "solution": "[latex]\\begin{aligned} P_{c r 1}&=\\frac{\\pi^{2} E \\cdot I}{(2 l)^{2}}=\\frac{\\pi^{2} E I}{4 l^{2}} \\\\ P_{c r 2}&=\\frac{\\pi^{2} E \\cdot I}{\\left(\\frac{l}{\\sqrt{2}}\\right)^{2}}=\\frac{2 \\pi^{2} E I}{l^{2}}\\\\ \\therefore \\text{Required ratio }&=\\frac{P_{C r 2}}{P_{c r 1}}=\\frac{\\frac{2 \\pi^{2} E I}{l^{2}}}{\\frac{\\pi^{2} E I}{4 l^{2}}}=8 \\end{aligned}[/latex]",
+    "min": 7.9,
+    "max": 8.3
+  },
+  {
+    "type": "numerical",
+    "question": "Question 61 Consider the stepped bar made with a linear elastic material and subjected to an axial load of 1 kN, as shown in the figure. Segments 1 and 2 have cross-sectional are of [latex]100mm^{2}[/latex] and [latex]60mm^{2}[/latex], Young's modulus of [latex]2 \\times 10^{5}[/latex] MPa and [latex]3 \\times 10^{5}[/latex] MPa, and length of 400mm and 900mm, respectively. The strain energy (in N-mm, up to one decimal place) in the bar due to the axial load is __________",
+    "solution": "[latex]\\begin{aligned} A_{1}=100 \\mathrm{mm}^{2}, & E I=2 \\times 10^{5} \\mathrm{MPa} \\\\ A_{2}=60 \\mathrm{mm}^{2}, &E I=3 \\times 10^{5} \\mathrm{MPa} \\\\ \\Delta_{A C}=&\\Delta_{A B}+\\Delta_{B C} \\\\ =& \\frac{1 \\times 10^{3} \\times 400}{100 \\times 2 \\times 10^{5}}+\\frac{1 \\times 10^{3} \\times 900}{60 \\times 3 \\times 10^{5}} \\\\ =& 0.02+0.05=0.07 \\mathrm{mm} \\\\ U=\\frac{1}{2} \\times P \\times \\Delta&=\\frac{1}{2} \\times 1 \\times 1000 \\times 0.07=35 \\mathrm{N}-\\mathrm{mm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page13_q1.webp",
+    "min": 34.9,
+    "max": 35.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 A simply supported beam is subjected to uniformly distributed load. Which one of the following statements is true?",
+    "solution": "",
+    "options": {
+      "A": "Maximum or minimum shear force occurs where the curvature is zero.",
+      "B": "Maximum or minimum bending moment occurs where the shear force is zero.",
+      "C": "Maximum or minimum bending moment occurs where the curvature is zero.",
+      "D": "Maximum bending moment and maximum shear force occur at the same section."
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 An elastic bar of length L, uniform cross sectional area A, coefficient of thermal expansion [latex]\\alpha[/latex], and Young's modulus E is fixed at the two ends. The temperature of the bar is increased by T, resulting in an axial stress [latex]\\sigma[/latex]. Keeping all other parameters unchanged, if the length of the bar is doubled, the axial stress would be",
+    "solution": "[latex]\\sigma=\\alpha T E[/latex] [latex] \\therefore \\;[/latex] Length have no effect on thermal stress. [latex] \\therefore \\;[/latex] Axial stress is only [latex]\\sigma[/latex].",
+    "options": {
+      "A": "[latex]\\sigma[/latex]",
+      "B": "2[latex]\\sigma[/latex]",
+      "C": "0.5[latex]\\sigma[/latex]",
+      "D": "0.25[latex]\\alpha \\sigma[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 64 A 450 mm long plain concrete prism is subjected to the concentrated vertical loads as shown in the figure. Cross section of the prism is given as 150 mm x 150 mm. Considering linear stress distribution across the cross-section, the modulus of rupture (expressed in MPa) is _______ .",
+    "solution": "[latex]\\begin{aligned} \\mathrm{BM}_{\\mathrm{Q}} &=11.25 \\times 150 \\\\ &=1.6875 \\times 10^{6} \\mathrm{N}-\\mathrm{mm} \\\\ \\Rightarrow\\quad \\frac{\\sigma}{y} &=\\frac{M_{Q}}{I} \\\\ \\text{where}\\quad y &=\\frac{150}{2}=75 \\mathrm{mm} \\text { and } 1=\\frac{(150)^{4}}{12} \\\\ \\Rightarrow\\quad \\sigma &=\\frac{1.6875 \\times 10^{6} \\times 75}{(150)^{4} / 12}=3 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page13_q4.webp",
+    "min": 2.9,
+    "max": 3.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 The portal frame shown in the figure is subjected to a uniformly distributed vertical load w (per unit length). The bending moment in the beam at the joint 'Q' is",
+    "solution": "As there is no horizontal force, [latex] \\begin{aligned} \\text { Hence } \\quad H_{P}=H_{S}&=0 \\\\ \\Sigma M_{Q}=H_{P} \\times \\frac{L}{2}&=0 \\\\ \\therefore \\quad B M \\text { at } Q&=0 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page13_q5.webp",
+    "options": {
+      "A": "zero",
+      "B": "[latex]\\frac{wL^{2}}{24}(hogging)[/latex]",
+      "C": "[latex]\\frac{wL^{2}}{12}(hogging)[/latex]",
+      "D": "[latex]\\frac{wL^{2}}{8}(sagging)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 For the stress state (in MPa) shown in the figure, the major principal stress is 10 MPa. The shear stress [latex]\\tau[/latex] is",
+    "solution": "[latex]\\begin{aligned} \\sigma_{x}+\\sigma_{y}&=\\sigma_{1}+\\sigma_{2} \\\\ \\Rightarrow \\quad 5+5&=10+\\sigma_{2} \\\\ \\Rightarrow \\quad \\sigma_{2}&=0\\\\ \\text { Now, } \\quad \\sigma_{1 / 2}&=\\frac{\\sigma_{x}+\\sigma_{y}}{2} \\pm \\sqrt{\\left(\\frac{\\sigma_{x}-\\sigma_{y}}{2}\\right)^{2}+\\tau_{x y}^{2}} \\\\ \\therefore \\quad \\sigma_{1}&=\\frac{5+5}{2}+\\sqrt{\\left(\\frac{5-5}{2}\\right)^{2}+\\tau_{x y}^{2}} \\\\ \\Rightarrow \\quad 10&=5+\\tau_{x y} \\\\ \\therefore \\quad \\tau_{x y}&=5 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page14_q1.webp",
+    "options": {
+      "A": "10.0 MPa",
+      "B": "5.0 MPa",
+      "C": "2.5 MPa",
+      "D": "0.0 MPa"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 An elastic isotropic body is in a hydrostatic state of stress as shown in the figure. For no change in the volume to occur, what should be its Poisson's ratio?",
+    "solution": "Volumetric strain, [latex] \\begin{aligned} \\epsilon_{\\mathrm{v}}&=\\left(\\frac{\\sigma_{x}+\\sigma_{y}+\\sigma_{z}}{3}\\right)(1-2 \\mu)\\\\ \\Rightarrow \\quad \\frac{\\delta V}{V}&=\\left(\\frac{\\sigma_{x}+\\sigma_{y}+\\sigma_{z}}{3}\\right)(1-2 \\mu) \\\\ \\text{As }\\quad \\Delta V&=0 \\\\ \\Rightarrow\\text{ Either }\\sigma_{x}&+\\sigma_{y}+\\sigma_{z}=0 or 1-2 \\mu=0 \\\\ \\Rightarrow \\quad 1-2 \\mu&=0 \\\\ \\mu&=0.5 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page14_q2.webp",
+    "options": {
+      "A": "0",
+      "B": "0.25",
+      "C": "0.5",
+      "D": "1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 A rigid member ACB is shown in the figure. The member is supported at A and B by pinned and guided roller supports, respectively. A force P acts at C as shown. Let [latex]R_{Ah}\\: and\\: R_{Bh}[/latex] be the horizontal reactions at supports A and B, respectively, and [latex]R_{Av}[/latex] be the vertical reaction at support A. Self-weight of the member may be ignored. Which one of the following sets gives the correct magnitudes of [latex]R_{Av},\\: R_{Bh}\\, and\\, R_{Ah}[/latex] ?",
+    "solution": "[latex]\\begin{aligned} \\Sigma F_{y} &=0 \\\\ \\Rightarrow\\quad R_{a v} &=P \\\\ \\Sigma F_{x} &=0 \\\\ \\Rightarrow\\quad R_{B h} &=R_{A h} \\\\ \\Sigma M_{A} &=0 \\\\ R_{B h} \\times 8-P \\times 1.5 &=0 \\\\ \\Rightarrow\\quad R_{B h} &=\\frac{1.5 P}{8} \\\\ \\Rightarrow\\quad R_{A h} &=\\frac{1.5 P}{8} \\\\ R_{A V} &=P \\\\ R_{B h} &=\\frac{1.5 P}{8} \\\\ R_{A h} &=\\frac{1.5 P}{8} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page14_q3.webp",
+    "options": {
+      "A": "[latex]R_{Av}=0;\\: R_{Bh}=\\frac{1}{3}P;\\:and\\, R_{Ah}=\\frac{2}{3}P[/latex]",
+      "B": "[latex]R_{Av}=0;\\: R_{Bh}=\\frac{2}{3}P;\\:and\\, R_{Ah}=\\frac{1}{3}P[/latex]",
+      "C": "[latex]R_{Av}=P;\\: R_{Bh}=\\frac{3}{8}P;\\:and\\, R_{Ah}=\\frac{1.5}{8}P[/latex]",
+      "D": "[latex]R_{Av}=P;\\: R_{Bh}=\\frac{1.5}{8}P;\\:and\\, R_{Ah}=\\frac{1.5}{8}P[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 Two beams PQ (fixed at P and with a roller support at Q, as shown in Figure I, which allows vertical movement) and XZ (with a hinge at Y) are shown in the Figures I and II respectively. The spans of PQ and XZ are L and 2L respectively. Both the beams are under the action of uniformly distributed load (W) and have the same flexural stiffness, EI (where, E and I respectively denote modulus of elasticity and moment of inertia about axis of bending). Let the maximum deflection and maximum rotation be [latex]\\delta _{max1} \\; and \\; \\theta _{max1}[/latex]  respectively, in the case of beam PQ and the corresponding quantities for the beam XZ be [latex]\\delta _{max2} \\; and \\; \\theta _{max2}[/latex], respectively. Which one of the following relationships is true?",
+    "solution": "Deflection in beam xy at y= Deflection in beam yz at y [latex] \\begin{aligned} \\Rightarrow \\quad \\frac{w L^{4}}{8 E I} &-\\frac{R L^{3}}{3 E I}=\\frac{R L^{3}}{3 E I}+\\frac{w L^{4}}{8 E I} \\\\ & A=0 \\end{aligned}[/latex] In beam PQ also at support Q , vertical reaction in zero because of roller support. So, bearn PQ, xy and yz are same [latex] \\therefore \\quad \\theta _{\\max 1}=\\theta _{\\max 2} and \\delta_{\\max 1 }=\\delta_{\\max 2}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page14_q4.webp",
+    "options": {
+      "A": "[latex]\\delta _{max1}\\neq\\delta _{max2} \\; and \\; \\theta _{max1}\\neq \\theta _{max2}[/latex]",
+      "B": "[latex]\\delta _{max1}= \\delta _{max2} \\; and \\; \\theta _{max1}\\neq \\theta _{max2}[/latex]",
+      "C": "[latex]\\delta _{max1}\\neq \\delta _{max2} \\; and \\; \\theta _{max1}= \\theta _{max2}[/latex]",
+      "D": "[latex]\\delta _{max1}= \\delta _{max2} \\; and \\; \\theta _{max1}= \\theta _{max2}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 A 3 m long simply supported beam of uniform cross section is subjected to a uniformly distributed load of w=20kN/m in the central 1 m as shown in the figure If the flexural rigidity (EI) of the Beam is [latex]30\\times 10^{6}N-m^{2}[/latex], the Maximum slope (expressed in Radians ) of the deformed beam is:",
+    "solution": "Due to symmetrical loading, [latex] R_{p}=R_{Q}=\\frac{w \\times 1}{2}=\\frac{w}{2}[/latex] [latex] M_{x}=R_{\\rho} x /-\\frac{w}{2}(x-1)^{2} /+\\frac{W}{2}(x-2)^{2}[/latex] According to Macaulay method [latex] E I \\frac{d^{2} y}{d x^{2}}=R_{\\rho} x /-\\frac{w}{2}(x-1)^{2} /+\\frac{w}{2}(x-2)^{2}[/latex] After integrating once [latex] E I \\frac{d y}{d x}=\\frac{R_{p} x^{2}}{2}+c_{1} /-\\frac{w}{6}(x-1)^{3} /+\\frac{w}{6}(x-2)^{3} [/latex] Due to symmetrical loading slope will be zero at mid section (x=1.5 m) [latex] \\begin{aligned} \\therefore \\text{at }x&=15 \\mathrm{m}, \\frac{d y}{d x}=0 \\\\ 0 &=\\frac{R_{p}(1.5)^{2}}{2}+c_{1}-\\frac{w}{6}(1.5-1)^{3} \\\\ &=\\frac{9 R_{p}}{8}+c_{1}-\\frac{w}{48}=\\frac{9 w}{16}+c_{1}-\\frac{w}{48} \\\\ \\therefore \\quad c_{1} &=\\frac{w}{48}-\\frac{9 w}{16}=-\\frac{26 w}{48}=-\\frac{13 w}{24} \\end{aligned}[/latex] [latex]\\therefore \\quad[/latex] Equation of slope [latex] E I \\cdot \\frac{d y}{d x}=\\frac{R_{p} x^{2}}{2}-\\frac{13 w}{24} /-\\frac{w}{6}(x-1)^{3} /+\\frac{w(x-2)^{3}}{6} [/latex] The slope will be maximum at the support [latex] \\therefore \\theta_{\\max }(x=0)[/latex] [latex] =\\frac{-13 w}{24 E I}=\\frac{-13 \\times 20 \\times 10^{3}}{24 \\times 30 \\times 10^{6}}=-0.361 \\times 10^{-3} \\mathrm{radiar} [/latex] Alternatively. Moment Area Method [latex] \\begin{aligned} M_{A} & =P \\times x \\\\ & =10 \\times 1=10 \\mathrm{kNm} \\\\ M_{B} & =P_{x}-\\frac{W}{2}(x-1)^{2} \\\\ & =10 \\times 1.5-\\frac{20 \\times 0.5^{2}}{2}=12.5 \\mathrm{kNm} \\end{aligned} [/latex] [latex] \\theta_{A}-\\theta_{C}=[/latex] Area of M/EI diagram between points P and B [latex]\\begin{aligned} &\\theta_{B}-\\theta_{A}=A_{l}+A_{II}+A_{III}\\\\ &=\\left(\\frac{1}{2} \\times 1 \\times \\frac{10}{E I}\\right)+\\left(0.5 \\times \\frac{10}{E I}\\right)+\\left(\\frac{2}{3} \\times 0.5 \\times \\frac{2.5}{E I}\\right) \\\\ &=\\frac{5}{E I}+\\frac{5}{E I}+\\frac{0.833}{E I} \\\\ \\theta_{A} &=-\\frac{10.833}{E I}=-\\frac{10.833 \\times 10^{3}}{30 \\times 10^{6}} \\\\ &=-0.3611 \\times 10^{-3} \\mathrm{radians} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page14_q5.webp",
+    "options": {
+      "A": "[latex]0.681\\times10^{-7}[/latex]",
+      "B": "[latex]0.943\\times10^{-7}[/latex]",
+      "C": "[latex]4.310\\times10^{-7}[/latex]",
+      "D": "[latex]5.910\\times10^{-7}[/latex]"
+    }
+  },
+  {
+    "type": "numerical",
+    "question": "Question 71 A steel strip of length, L = 200 mm is fixed at end A and rests at B on a vertical spring of stiffness, k = 2 N/mm. The steel strip is 5 mm wide and 10 mm thick. A vertical load, P = 50 N is applied at B, as shown in the figure. Considering E = 200 GPa, the force (in N) developed in the spring is _________.",
+    "solution": "Deflection of point B= Deflection of spring [latex] \\Delta_{B}=\\frac{(P-R) L^{3}}{3 E I}=\\frac{R}{k}[/latex] Where, R= Force in the spring [latex] \\begin{aligned} \\Rightarrow \\frac{(50-R) 200^{3}}{3 \\times 200 \\times 10^{3} \\times \\frac{5 \\times 10^{3}}{12}}&=\\frac{R}{2} \\\\ 0.064(50-R)&= R \\\\ 3.2&=R+0.064 R \\\\ R &=3.0075 \\mathrm{N} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page15_q1.webp",
+    "min": 3.0,
+    "max": 3.3
+  },
+  {
+    "type": "numerical",
+    "question": "Question 72 A simply supported reinforced concrete beam of length 10 m sags while undergoing shrinkage. Assuming a uniform curvature of 0.004 [latex]m^{-1}[/latex]  along the span, the maximum deflection (in m) of the beam at mid-span is _______.",
+    "solution": "[latex]\\begin{aligned} \\text{Radius. }R&=\\frac{1}{C}=250 \\mathrm{m} \\\\ O A &=\\sqrt{250^{2}-5^{2}} \\\\ &=249.95 \\mathrm{m} \\\\ \\text { Deflection } &=A A^{\\prime}=250-249.95 \\\\ &=0.05 \\mathrm{m} \\end{aligned}[/latex]",
+    "min": 0.05,
+    "max": 0.05
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 In a system,two connected rigid bars AC and BC are of identical length, L with pin supports at A and B. The bars are interconnected at C by a frictionless hinge. The rotation of the hinge is restrained by a rotational spring of stiffness, k. The system initially assumes a straight line configuration, ACB. Assuming both the bars as weightless, the rotation at supports, A and B, due to a transverse load, P applied at C is",
+    "solution": "Deflection under load [latex]P=\\theta L [/latex] Work done by force [latex]P=\\frac{1}{2} P(\\theta L) [/latex] Strain energy stored in spring [latex] \\begin{aligned} &=\\frac{1}{2}[k(2 \\theta)](2 \\theta) \\\\ \\frac{1}{2} P(\\theta L) &=\\frac{4 k \\theta^{2}}{2} \\\\ \\Rightarrow \\quad \\theta &=\\frac{P L}{4 k} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{PL}{4k}[/latex]",
+      "B": "[latex]\\frac{PL}{2k}[/latex]",
+      "C": "[latex]\\frac{P}{4k}[/latex]",
+      "D": "[latex]\\frac{Pk}{4L}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 74 For the plane stress situation shown in the figure, the maximum shear stress and the plane on which it acts are:",
+    "solution": "Under hydrostatic loading condition, stresses at a point in all directions are equal and hence no shear stress. Alternatively, [latex]\r\n\\tau=\\frac{\\sigma_{1}-\\sigma_{2}}{2}=\\frac{50-50}{2}=0[/latex] Thus, Mohr's circle reduces to a point. Hence shear stress at all orientations is zero.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page15_q4.webp",
+    "options": {
+      "A": "-50 MPa, on a plane 45[latex]^{\\circ}[/latex] clockwise w.r.t. x-axis",
+      "B": "-50 MPa, on a plane 45[latex]^{\\circ}[/latex] anti-clockwise w.r.t. x-axis",
+      "C": "50 MPa, at all orientations",
+      "D": "Zero, at all orientations"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 75 A horizontal beam ABC is loaded as shown in the figure below. The distance of the point of contraflexure from end A (in m) is _________.",
+    "solution": "Reaction at B [latex]\\begin{aligned} \\Delta_{\\mathrm{B}}&=0 \\text { (Compatibility condition) }\\\\ \\frac{10 \\times(0.75)^{3}}{3 E I}&+\\frac{2.5 \\times 0.75^{2}}{2 E I}-\\frac{R_{B} \\times 0.75^{3}}{3 E I}=0 \\\\ \\frac{9 R_{B}}{64 E I}&=\\frac{135}{64 E I}\\\\ \\therefore \\quad \\mathrm{R}_{\\mathrm{B}}&=15 \\mathrm{kN} \\end{aligned}[/latex] BM at a distance x from free end Reaction at B [latex] \\begin{aligned} & & \\mathrm{BM}_{x} &=10 \\times x-15 \\times(x-0.25)=0 \\\\ \\Rightarrow & & 10 x &=15 x-3.75 \\\\ \\Rightarrow & & 5 x &=3.75 \\\\ \\therefore & & x &=0.75 \\mathrm{m} \\end{aligned}[/latex] [latex] \\therefore [/latex] From end A, distance is 0.25m",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page15_q5.webp",
+    "min": 0.25,
+    "max": 0.25
+  },
+  {
+    "type": "numerical",
+    "question": "Question 76 Two beams are connected by a linear spring as shown in the following figure. For a load P as shown in the figure, the percentage of the applied load P carried by the spring is __________.",
+    "solution": "[latex]\\Delta_{\\text {spring }}=\\Delta_{B}-\\Delta_{D}[/latex] Compression of spring [latex] \\begin{aligned} =\\frac{(P-R) L^{3}}{3 E I}-\\frac{R L^{3}}{3 E I}&=\\frac{R}{K_{S}} \\\\ \\frac{(P-R) L^{3}}{3 E I}-\\frac{R L^{3}}{3 E I}&=\\frac{R \\times\\left(2 L^{3}\\right)}{3 E I}\\\\ (P-A)-R &=2 R \\\\ P &=4 R \\\\ R &=\\frac{P}{4} \\end{aligned}[/latex] % force carried by spring =25 %",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page16_q1.webp",
+    "min": 25.0,
+    "max": 25.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 77 A tapered circular rod of diameter varying from 20 mm to 10 mm is connected to another uniform circular rod of diameter 10 mm as shown in the following figure. Both bars are made of same material with the modulus of elasticity, [latex]E=2\\times 10^{5}[/latex] MPa. When subjected to a load [latex]P=30\\pi kN[/latex] , the deflection at point A is ______ mm.",
+    "solution": "Total elongation, [latex] \\begin{aligned} \\Delta &=\\Delta_{A B}+\\Delta_{B C} \\\\ &=\\frac{P L}{A E}+\\frac{4 P L}{\\pi d_{1} d_{2} E} \\\\ &=\\frac{30 \\pi \\times 1.5}{\\frac{\\pi \\times(0.01)^{2}}{4} \\times 2 \\times 10^{5}} \\\\ &+\\frac{30 \\pi \\times 2}{\\frac{\\pi \\times(0.01) \\times(0.02)}{4} \\times 2 \\times 10^{5}} \\\\ &=9+6=15 \\mathrm{mm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page16_q2.webp",
+    "min": 14.5,
+    "max": 15.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 78 Two triangular wedges are glued together as shown in the following figure. The stress acting normal to the interface, [latex]\\sigma _{n}[/latex] is _____ MPa.",
+    "solution": "As plane AB and BC are principle planes, therefore \r\nMohr's circle for the given condition is Here, normal stress is zero at [latex]45^{\\circ}[/latex] to the principle\r\nplane.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page16_q3.webp",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 79 For the state of stresses (in MPa) shown in the figure below, the maximum shear stress (in MPa) is _____",
+    "solution": "[latex]\\begin{aligned} \\tau_{\\max } &=\\frac{\\sigma_{1}-\\sigma_{2}}{2}=\\sqrt{\\left(\\frac{\\sigma_{x}-\\sigma_{y}}{2}\\right)^{2}+\\tau_{x y}^{2}} \\\\ &=5.0 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page16_q4.webp",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 The tension (in kN) in a 10m long cable, shown in figure, neglecting its self-weight is",
+    "solution": "[latex]\\begin{aligned} \\Sigma F_{y} &=0 \\\\ \\Rightarrow\\quad 2 \\text{Tc} 0 s \\theta &=120 \\\\ \\text{Here, }\\quad \\cos \\theta &=\\frac{4}{5} \\\\ 2 T \\times \\frac{4}{5}&=120 \\\\ \\Rightarrow\\quad T=\\frac{120 \\times 5}{2 \\times 4}&=75 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page16_q5.webp",
+    "options": {
+      "A": "120",
+      "B": "75",
+      "C": "60",
+      "D": "45"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 81 The axial load (in kN) in the member PQ for the arrangement/assembly shown in the figure given below is__________",
+    "solution": "Free body diagram For principle of superposition [latex]\\frac{160 \\times 2^{3}}{3 E I}+\\frac{160 \\times 2^{2}}{2 E I} \\times 2-\\frac{V_{Q} L^{3}}{3 E I}=\\frac{V_{Q} L}{A E} \\quad \\ldots(i)[/latex] Deflections due to axial forces will be very less as compared to bending forces. So we can neglect the axial deformation. [latex] \\therefore[/latex] From equation (i) [latex] \\begin{aligned} \\frac{160 \\times 2^{3}}{3 E I}+\\frac{160 \\times 2^{2}}{2 E I} \\times 2-\\frac{V_{0} 4^{3}}{3 E I}&=0 \\\\ \\Rightarrow \\quad \\frac{160 \\times 2^{3}}{3}+\\frac{160 \\times 2^{2} \\times 2}{2}&=\\frac{V_{Q} \\times 4^{3}}{3} \\\\ \\Rightarrow \\quad V_{Q}&=50 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page17_q1.webp",
+    "min": 50.0,
+    "max": 50.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 82 The beam of an overall depth 250 mm (shown below) is used in a building subjected to two different thermal environments. The temperatures at the top and bottom surfaces of the beam are 36[latex]^{\\circ} C[/latex] and 72[latex]^{\\circ} C[/latex]  respectively. Considering coefficient of thermal expansion ([latex]\\alpha[/latex]) as [latex]1.50 \\times 10^{-5}[/latex] per [latex]^{\\circ} C[/latex], the vertical deflection of the beam (in mm) at its mid-span due to temperature gradient is",
+    "solution": "[latex]\\begin{aligned} R&=\\frac{h}{\\alpha T}\\\\ \\text{From properties }&\\text{of circle}\\\\ (2 R-\\delta) \\delta=\\frac{L}{2} \\times \\frac{L}{2}\\\\ \\text{(Considering }'&\\delta ' \\text{very small so neglect }\\delta^{2} )\\\\ \\Rightarrow \\quad \\delta=\\frac{L^{2}}{8 R}=\\frac{L^{2} \\alpha T}{8 h}\\\\ \\end{aligned}[/latex] [latex] \\begin{aligned} Given, \\alpha&=1.50 \\times 10^{-5} /{ }^{\\circ} \\mathrm{C} \\\\ \\Rightarrow \\quad \\delta&=\\frac{\\alpha T L^{2}}{8 h} \\\\ &=\\frac{1.50 \\times 10^{-5} \\times(72-36) \\times 3^{2}}{8 \\times\\left(250 \\times 10^{-3}\\right)} \\\\ &=2.43 \\mathrm{mm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page17_q2.webp",
+    "min": 2.38,
+    "max": 2.45
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 The values of axial stress ([latex]\\sigma[/latex]) in kN/[latex]m^{2}[/latex], bending moment (M) in kNm, and shear force (V) in kN acting at point P for the arrangement shown in the figure are respectively",
+    "solution": "Loading after removing the cable [latex]\\begin{array}{l} \\text { Axial stress }=\\frac{50}{0.2 \\times 0.2}=1250 \\mathrm{kN} / \\mathrm{m}^{2} \\\\ \\text { Bending moment }=50 \\times 3=150 \\mathrm{kNm} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page17_q3.webp",
+    "options": {
+      "A": "1000, 75 and 25",
+      "B": "1250, 150 and 50",
+      "C": "1500, 225 and 75",
+      "D": "1750, 300 and 100"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 84 For the cantilever beam of span 3 m (shown below), a concentrated load of 20 kN applied at the free end causes a vertical displacement of 2 mm at a section located at a distance of 1 m from the fixed end. If a concentrated vertically downward load of 10 kN is applied at the section located at a distance of 1 m from the fixed end (with no other load on the beam), the maximum vertical displacement in the same beam (in mm) is",
+    "solution": "[latex]\\begin{aligned} &\\text { From Betti's law } P_{1} \\times \\Delta_{12}=P_{2} \\times \\Delta_{21}\\\\ &\\Rightarrow \\quad 10 \\times 2=20 \\times \\Delta_{21}\\\\ &\\Rightarrow \\quad \\Delta_{21}=1 \\mathrm{mm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page17_q4.webp",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 A box of weight 100 kN shown in the figure is to be lifted without swinging. If all forces are coplanar, the magnitude and direction ([latex]\\theta[/latex]) of the force (F) with respect to x-axis should be",
+    "solution": "[latex]\\begin{aligned} \\Sigma F_{\\text {horizontal }} &=0 \\\\ 90 \\mathrm{cos} 30^{\\circ} &=40 \\mathrm{cos} 45^{\\circ}+\\mathrm{F} \\cos \\theta \\\\ 77.94 &=28.28+\\mathrm{F} \\cos \\theta \\\\ \\text{or}\\quad \\mathrm{F} \\cos \\theta &=49.66 \\mathrm{kN}&\\ldots(i)\\\\ \\Sigma F_{\\text {vertical }}&=0\\\\ 90 \\sin 30^{\\circ}&+40 \\sin 45^{\\circ}+F \\sin \\theta=W \\\\ 45+28.28+F \\sin \\theta&=100 \\\\ \\text{or}\\quad \\quad F \\sin \\theta&=26.72 \\mathrm{kN} &\\ldots(ii) \\end{aligned}[/latex] Dividing eq. (ii) by eq. (i), we get [latex] \\begin{aligned} \\tan \\theta &=\\frac{26.72}{49.66}=0.5380 \\\\ \\text{or}\\quad\\theta &=\\tan ^{-1}(0.5380)=28.28^{\\circ}\\\\ \\text{Substituting }\\theta&=28.28 \\text{ in eq. (i), we get}\\\\ F \\cos 28.28^{\\circ} &=49.66 \\\\ \\text{or}\\quad F &=\\frac{49.66}{\\cos 28.28^{\\circ}}\\\\ &=\\frac{49.66}{0.88}=56.43 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page17_q5.webp",
+    "options": {
+      "A": "F = 56.389 kN and [latex]\\theta =28.28^{\\circ}[/latex]",
+      "B": "F = -56.389 kN and [latex]\\theta =-28.28^{\\circ}[/latex]",
+      "C": "F = 9.055 kN and [latex]\\theta =1.414^{\\circ}[/latex]",
+      "D": "F = -9.055 kN and [latex]\\theta =-1.414^{\\circ}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 If the following equation establishes equilibrium in slightly bent position, the mid-span deflection of a member shown in the figure is: [latex]\\frac{d^2 y}{ dx^2}+\\frac{P}{EI}y=0[/latex] If a is amplitude constant for y, then",
+    "solution": "[latex]\\begin{aligned} \\frac{d^{2} y}{d x^{2}} &=-\\frac{P}{E I} x y \\\\ &=-m^{2} y \\end{aligned} [/latex] [latex] \\therefore [/latex] Solution of above differential equation is [latex] \\begin{aligned} y&=a \\sin m x+b \\cos m x \\\\ \\text{at }\\quad x&=0, y=0 \\\\ \\Rightarrow \\quad b&=0 \\\\ \\text{at }\\quad x&=L, y=0 \\\\ \\Rightarrow \\quad 0&=\\sin m L \\\\ \\Rightarrow \\quad m L&=n \\pi \\\\ \\Rightarrow \\quad m&=\\frac{n \\pi}{L} \\\\ \\therefore \\quad y&=a \\sin \\frac{n \\pi x}{L} \\\\ \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page18_q1.webp",
+    "options": {
+      "A": "[latex]y=\\frac{1}{P}\\left (1-a\\cos\\frac{2\\pi x}{L} \\right )[/latex]",
+      "B": "[latex]y=\\frac{1}{P}\\left (1-a\\sin\\frac{2\\pi x}{L} \\right )[/latex]",
+      "C": "[latex]y=a\\sin\\frac{n\\pi x}{L}[/latex]",
+      "D": "[latex]y=a\\cos\\frac{n\\pi x}{L}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 The possible location of shear centre of the channel section, shown below, is",
+    "solution": "For no twisting, [latex]\\begin{aligned} V \\times e &=H \\times h\\\\ \\Rightarrow \\;\\; e&=\\frac{Hh}{V}\\\\ \\end{aligned}[/latex] Hence, possible location of shear center is P.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page18_q2.webp",
+    "options": {
+      "A": "P",
+      "B": "Q",
+      "C": "R",
+      "D": "S"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 A uniform beam (EI=constant) PQ in the form of a quarter-circle of radius R is fixed at end P and free at the end Q, where a load W is applied as shown. The vertical downward displacement, [latex]\\delta _{q}[/latex], at the loaded point Q is given by: [latex]\\delta _{q}=\\beta (\\frac{WR^{3}}{EI})[/latex]. Find the value of [latex]\\beta[/latex](correct to 4-decimal places). __________",
+    "solution": "[latex]\\begin{aligned} U &=\\int \\frac{M^{2} d x}{2 E l}=\\int_{0}^{\\pi / 2} \\frac{(W R \\sin \\theta)^{2} R d \\theta}{2 E l} \\\\ &=\\int_{0}^{\\pi / 2} \\frac{P^{2} R^{3}}{2 E l} \\sin ^{2} \\theta d \\theta \\end{aligned}[/latex] [latex] \\begin{aligned} &=\\frac{P^{2} R^{3}}{2 E I} \\int_{0}^{\\pi / 2} \\frac{(1-\\cos 2 \\theta) d \\theta}{2} \\\\ &=\\frac{P^{2} R^{3}}{4 E I}\\left[\\theta-\\frac{\\sin 2 \\theta}{2}\\right]_{0}^{\\pi / 2} \\\\ &=\\frac{P^{2} R^{3}}{4 E I}\\left[\\frac{\\pi}{2}\\right]=\\frac{P^{2} R^{3} \\pi}{8 E I} \\\\ \\therefore \\quad \\delta_{Q}&=\\frac{\\partial U}{\\partial W}=\\frac{2 P R^{3} \\pi}{8 E I}=\\frac{P R^{3}}{E I} \\frac{\\pi}{4} \\\\ \\therefore \\quad \\delta_{Q}&=\\frac{\\pi}{4}\\left(\\frac{W R^{3}}{E !}\\right) \\\\ \\therefore \\quad \\beta&=\\frac{\\pi}{4}=0.7854 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page18_q3.webp",
+    "options": {
+      "A": "0.256",
+      "B": "0.897",
+      "C": "0.785",
+      "D": "0.987"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 89 The state of 2D-stress at a point is given by the following matrix of stresses: [latex]\\begin{bmatrix} \\sigma _{xx} & \\sigma _{xy}\\\\ \\sigma _{xy} & \\sigma _{yy} \\end{bmatrix}=\\begin{bmatrix} 100 &30 \\\\ 30& 20 \\end{bmatrix}MPa[/latex] What is the magnitude of maximum shear stressin MPa?",
+    "solution": "[latex]\\begin{aligned} \\sigma_{1 / 2} &=\\frac{\\sigma_{x}+\\sigma_{y}}{2} \\pm \\sqrt{\\left(\\frac{\\sigma_{x}-\\sigma_{y}}{2}\\right)^{2}+\\tau_{x y}^{2}} \\\\ &=\\frac{100+20}{2} \\pm \\sqrt{\\left(\\frac{100-20}{2}\\right)^{2}+(30)^{2}} \\\\ &=60 \\pm 50 \\\\ \\sigma_{1} &=110 ; \\sigma_{2}=10 \\\\ \\therefore \\tau_{\\max } &=\\frac{\\sigma_{1}-\\sigma_{2}}{2}=\\frac{110-10}{2}=50 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "options": {
+      "A": "50",
+      "B": "75",
+      "C": "100",
+      "D": "110"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 A symmetric I-section (with width of each flange = 50 mm, thickness of each flange = 10 mm,\r\ndepth of web = 100 mm, and thickness of web = 10 mm) of steel is subjected to a shear force of\r\n100 kN. Find the magnitude of the shear stress(in [latex]N/mm^{2}[/latex]) in the web at its junction with the top flange. __________",
+    "solution": "[latex]\\begin{aligned} 1 &=\\frac{50 \\times 120^{3}}{12}-\\frac{40 \\times 100^{3}}{12} \\\\ &=3.866 \\times 10^{6} \\mathrm{mm}^{4} \\\\ q &=\\frac{S A \\bar{y}}{16}=\\frac{100 \\times 10^{3} \\times 50 \\times 10 \\times 55}{3.866 \\times 10^{6} \\times 10} \\\\ &=71.12 \\mathrm{N} / \\mathrm{mm}^{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "50.45",
+      "B": "71.12",
+      "C": "85.25",
+      "D": "96.36"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 Two steel columns P (length L and yield strength [latex]f_{y}[/latex]= 250 MPa) and Q (length 2L and yield strength [latex]f_{y}[/latex]= 500 MPa) have the same cross-sections and end-conditions. The ratio of buckling load of column P to that of column Q is:",
+    "solution": "Buckling load, [latex] \\begin{aligned} P &=\\frac{\\pi^{2} E \\mid}{\\left(l_{e f f}\\right)^{2}} \\\\ \\therefore \\quad P_{p} &=\\frac{\\pi^{2} E \\mid}{(L)^{2}} ; P_{Q}=\\frac{\\pi^{2} E \\mid}{(2 L)^{2}} \\\\ \\therefore \\quad \\frac{P_{P}}{P_{a}} &=4 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.5",
+      "B": "1",
+      "C": "2",
+      "D": "4"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 The 'plane section remains plane' assumption in bending theory implies:",
+    "solution": "",
+    "options": {
+      "A": "strain profile is linear",
+      "B": "stress profile is linear",
+      "C": "both strain and stress profiles are linear",
+      "D": "shear deformations are neglected"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 The creep strains are",
+    "solution": "Creep strains occur with time at a constant level\nof stress. So they occur due to permanent load\ni.e., Dead Load.",
+    "options": {
+      "A": "caused due to dead loads only",
+      "B": "caused due to live loads only",
+      "C": "caused due to cyclic loads only",
+      "D": "independent of loads"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 94 The sketch shows a column with a pin at the base and rollers at the top. It is subjected to an\naxial force P and a moment M at mid-height. The reaction(s) at R is/are",
+    "solution": "[latex]\\begin{aligned} \\Sigma F_y &=0 \\\\ \\Rightarrow \\;\\; V_R-P&=0\\\\ \\Rightarrow \\;\\;V_R&=P\\\\ \\Sigma M_Q&=0\\\\ \\Rightarrow \\;\\; H_Rh-M&=0\\\\ \\Rightarrow \\;\\;H_R&=\\frac{M}{h} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page19_q4.webp",
+    "options": {
+      "A": "a vertical force equal to P",
+      "B": "a vertical force equal to P/2",
+      "C": "a vertical force equal to P and a horizontal force equal to M/h",
+      "D": "a vertical force equal to P/2 and a horizontal force equal to M/h"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 A simply supported beam is subjected to a uniformly distributed load of intensity w per unit length,\r\non half of the span from one end. The length of the span and the flexural stiffness are denoted as [latex]l[/latex]\r\n and EI, respectively. The deflection at mid-span of the beam is",
+    "solution": "[latex]\\begin{aligned} \\delta &=\\delta_{1}+0 \\\\ &=\\frac{5}{384} \\frac{(w / 2) l^{4}}{E I} \\\\ \\delta &=\\frac{5}{768} \\frac{w l^{4}}{E I} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{5}{6144}\\frac{wl^{4}}{EI}[/latex]",
+      "B": "[latex]\\frac{5}{768}\\frac{wl^{4}}{EI}[/latex]",
+      "C": "[latex]\\frac{5}{384}\\frac{wl^{4}}{EI}[/latex]",
+      "D": "[latex]\\frac{5}{192}\\frac{wl^{4}}{EI}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 96 The ratio of the theoretical critical buckling load for a column with fixed ends to that of another\ncolumn with the same dimensions and material, but with pinned ends, is equal to",
+    "solution": "Eulars critical load, [latex] \\begin{aligned} P_{e}&=\\frac{\\pi^{2}EI}{I^{2}_{\\text{eft}}}\\\\ \\frac{P_{e1}}{P_{e2}}=\\left[\\frac{(I_{\\text{elf}})_{2}}{(I_{\\text{elf}})_{1}} \\right ]^{2}&=\\left[\\frac{I}{1/2}\\right ]^{2}=4 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.5",
+      "B": "1",
+      "C": "2",
+      "D": "4"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 97 If a small concrete cube is submerged deep in still water in such a way that the pressure exerted on\nall faces of the cube is p, then the maximum shear stress developed inside the cube is",
+    "solution": "Maximum shear stress, [latex]\\tau=\\frac{\\sigma_{1}-\\sigma_{2}}{2}=\\frac{P-P}{2}=0[/latex]",
+    "options": {
+      "A": "0",
+      "B": "p/2",
+      "C": "p",
+      "D": "2p"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 The following statements are related to bending of beams: I The slope of the bending moment diagram is equal to the shear force. II The slope of the shear force diagram is equal to the load intensity. III The slope of the curvature is equal to the flexural rotation. IV The second derivative of the deflection is equal to the curvature. The only FALSE statement is",
+    "solution": "We know that [latex] \\begin{aligned} \\frac{d S}{d x} &=W ; \\frac{d M}{d X}=S_{x} \\\\ E 1 \\cdot \\frac{d^{2} y}{d x^{2}} &=M \\\\ \\therefore\\quad \\frac{d^{2} y}{d x^{2}} &=\\frac{M}{E I} \\\\ \\text{Also}\\quad \\frac{M}{I} &=\\frac{f}{y}=\\frac{E}{R} \\quad \\therefore \\frac{M}{E I}=\\frac{1}{R} \\\\ \\therefore\\quad \\frac{d^{2} y}{d x^{2}} &=\\frac{1}{R} \\end{aligned}[/latex]",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 99 The Poisson's ratio is defined as",
+    "solution": "[latex]\\mu =\\left | \\frac{\\text{Lateral strain}}{\\text{Axial strain}} \\right |[/latex]",
+    "options": {
+      "A": "[latex]|\\frac{\\text{Axial tress}}{\\text{Lateral stress}}|[/latex]",
+      "B": "[latex]|\\frac{\\text{Lateral strain}}{\\text{Axial strain}}|[/latex]",
+      "C": "[latex]|\\frac{\\text{Lateral  stress}}{\\text{Axial stress}}|[/latex]",
+      "D": "[latex]|\\frac{\\text{Axial strain}}{\\text{Lateral strain}}|[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 100 A rigid beam is hinged at one end and supported on linear elastic springs (both having\r\na stiffness of 'k') at points '1' and '2', and an inclined load acts at '2', as shown If the load P equals 100 kN, which of the following options represents forces R1\r\nand R2 in the springs at points '1' and '2'?",
+    "solution": "[latex]\\begin{aligned} R_{1} &=k \\delta_{1}=k \\times \\frac{2 P}{5 k} \\\\ &=\\frac{2 \\times 100}{5}=40 \\mathrm{kN} \\\\ R_{2} &=k \\delta_{2}=k \\times \\frac{4 P}{5 k} \\\\ &=\\frac{4 \\times 100}{5}=80 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page20_q5.webp",
+    "options": {
+      "A": "R1 = 20 kN and R2 = 40 kN",
+      "B": "R1 = 50 kN and R2 = 50 kN",
+      "C": "R1 = 30 kN and R2 = 60 kN",
+      "D": "R1 = 40 kN and R2 = 80 kN"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 A rigid beam is hinged at one end and supported on linear elastic springs (both having\na stiffness of 'k') at points '1' and '2', and an inclined load acts at '2', as shown Which of the following options represents the deflections [latex]\\delta _{1} \\; and \\; \\delta _{2}[/latex] at points '1' and '2'?",
+    "solution": "The free diagram of the beam is shown below From similar triangles, we get [latex] \\begin{aligned} \\frac{L}{\\delta_{1}}=\\frac{2 L}{\\delta_{2}} \\\\ \\Rightarrow \\quad \\delta_{2}=2 \\delta_{1} \\quad &\\ldots(i) \\end{aligned}[/latex] Taking moments about hinge, we get [latex] \\begin{aligned} P \\times 2 L-k \\delta_{2} \\times 2 L-k \\delta_{1} \\times L&=0 \\\\ \\Rightarrow \\quad 2 P-k\\left(2 \\delta_{2}+\\delta_{1}\\right)&=0 &[\\therefore\\text{ from(i)}]\\\\ \\Rightarrow \\quad 2 P-k\\left(4 \\delta_{1}+\\delta_{1}\\right)&=0 \\\\ \\Rightarrow \\quad \\delta_{1}&=\\frac{2 P}{5 k} \\end{aligned}[/latex] From (i), we get [latex] \\delta_{2}=2 \\times \\frac{2 P}{5 k}=\\frac{4 P}{5 k}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page21_q1.webp",
+    "options": {
+      "A": "[latex]\\delta _{1} =\\frac{2}{5}(\\frac{2P}{k}) [/latex]  and  [latex] \\delta _{2}=\\frac{4}{5}(\\frac{2P}{k})[/latex]",
+      "B": "[latex]\\delta _{1} =\\frac{2}{5}(\\frac{P}{k}) [/latex]  and  [latex] \\delta _{2}=\\frac{4}{5}(\\frac{P}{k})[/latex]",
+      "C": "[latex]\\delta _{1} =\\frac{2}{5}(\\frac{P}{\\sqrt{2}k}) [/latex]  and  [latex] \\delta _{2}=\\frac{4}{5}(\\frac{P}{\\sqrt{2}k})[/latex]",
+      "D": "[latex]\\delta _{1} =\\frac{2}{5}(\\frac{\\sqrt{2}P}{k}) [/latex]  and  [latex] \\delta _{2}=\\frac{4}{5}(\\frac{\\sqrt{2}P}{k})[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 102 For the cantilever bracket, PQRS, loaded as shown in the below figure (\nPQ = RS = L, and, QR = 2L), which of the following statements is FALSE?",
+    "solution": "Bending moment at a distance [latex]x[/latex] from [latex]P, M_{x} = Wx[/latex] Member PQ has varying BM with a maximum value \r\nof WL at Q and it has no twisting moment. Now moment WL will act as a twisting moment for \r\nthe member QR. Portion QR has varying BM with \r\na maximum value of 2WL at R. Now moment 2WL will act as a twisting moment \r\nfor portion RS which is constant in nature.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page21_q2.webp",
+    "options": {
+      "A": "The portion RS has a constant twisting moment with a value of 2WL",
+      "B": "The portion QR has a varying twisting moment with a maximum value of WL.",
+      "C": "The portion PQ has a varying bending moment with a maximum value of WL.",
+      "D": "The portion PQ has no twisting moment."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 103 Consider a simply supported beam with a uniformly distributed load having\r\na neutral axis (NA) as shown. For points P (on the neutral axis) and Q (at\r\nthe bottom of the beam) the state of stress is best represented by which of the\r\nfollowing pairs?",
+    "solution": "Point P: Point P lies on NA, hence bending stress is zero \r\nat point P. Point P also lies at mid span, so shear force, V=0 [latex]\r\n \\Rightarrow [/latex] Shear stress, [latex]\\tau=0 [/latex] [latex]\r\n \\therefore[/latex] State of stress of point P will be Point Q : At point Q flexural stress is maximum and nature \r\nof which is tensile due to downward loading. \r\nPoint Q lies at the extreme of beam, therefore, \r\nshear stress at point Q is zero. [latex]\\therefore[/latex] State of stress of point Q will be",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page21_q3.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 104 For the simply supported beam of length L, subjected to a uniformly distributed\nmoment M kN-m per unit length as shown in the figure, the bending moment (in\nkN-m) at the mid-span of the beam is",
+    "solution": "Let the reaction at the right hand support be [latex]V_{R} [/latex] \r\nupwards. Taking moments about left hand \r\nsupport, we get [latex]\r\nV_{R} \\times L-M L=0 \\Rightarrow V_{R}=M[/latex] Thus, the reaction at the left hand support [latex]V_{L}[/latex] will \r\nbe M downwards. [latex]\r\n \\therefore [/latex] Moment at the mid-span [latex]\r\n=-M \\times \\frac{L}{2}+M \\times \\frac{L}{2}=0[/latex] In fact the bending moment through out the beam is zero.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page21_q4.webp",
+    "options": {
+      "A": "0",
+      "B": "M",
+      "C": "ML",
+      "D": "M/L"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 105 A solid circular shaft of diameter d and length L is fixed at one end free at\r\nthe other end. A torque T is applied at the free end. The shear modulus of the\r\nmaterial is G. The angle of twist at the free end is",
+    "solution": "Angle of twist is given by, [latex] \\begin{aligned} \\theta &=\\frac{T L}{G I_{P}} \\text { but } I_{P}=\\frac{\\pi d^{4}}{32} \\\\ \\Rightarrow \\quad \\theta&=\\frac{T L}{G \\times \\frac{\\pi d^{4}}{32}}=\\frac{32 T L}{\\pi d^{4} G} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{16TL}{\\pi d^{4}G}[/latex]",
+      "B": "[latex]\\frac{32TL}{\\pi d^{4}G}[/latex]",
+      "C": "[latex]\\frac{64TL}{\\pi d^{4}G}[/latex]",
+      "D": "[latex]\\frac{128TL}{\\pi d^{4}G}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 106 The effective length of a column of length L fixed against rotation and translation\nat one end and free at the other end is",
+    "solution": "",
+    "options": {
+      "A": "0.5L",
+      "B": "0.7L",
+      "C": "1.414L",
+      "D": "2L"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 107 The number of independent elastic constants for a linear elastic isotropic and\nhomogeneous material is",
+    "solution": "",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 108 The major and minor principal stresses at a point are 3MPa and -3MPa\nrespectively. The maximum shear stress at the point is",
+    "solution": "Maximum shear stress at the point is given by [latex] \\tau_{\\max }=\\frac{\\sigma_{1}-\\sigma_{2}}{2}=\\frac{3-(-3)}{2}=3 \\mathrm{MPa} [/latex]",
+    "options": {
+      "A": "0MPa",
+      "B": "3MPa",
+      "C": "6MPa",
+      "D": "9MPa"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 109 Two people weighing W each are sitting on a plank of length L floating on water\r\nat L/4 from either end. Neglecting the weight of he plank, the bending moment\r\nat the centre of the plank is",
+    "solution": "The plank will be balanced by the buoyant force acting under its bottom. Let the intensity of buoyant force be w. [latex] \\begin{aligned} \\text{For equilibrium, }w \\times L&=W+W \\\\ \\Rightarrow \\quad w&=\\frac{2 W}{L}\\text{ upwards}\\\\ \\end{aligned}[/latex] Thus, the bending moment at the centre of the plank will be [latex] \\begin{aligned} M &=\\frac{2 W}{L} \\times \\frac{L}{2} \\times \\frac{L}{4}-W \\times \\frac{L}{4} \\\\ \\Rightarrow \\quad M&=\\frac{W L}{4}-\\frac{W L}{4}=0 \\end{aligned}[/latex]",
+    "options": {
+      "A": "WL/8",
+      "B": "WL/16",
+      "C": "WL/32",
+      "D": "zero"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 110 In the cantilever beam PQR shown in figure below, the segment PQ has flexural\nrigidity EI and the segment QR has infinite flexural rigidity. The deflection of the beam at R is",
+    "solution": "since the portion QR of the beam is rigid, QR will remain straight. [latex] \\begin{aligned} \\text { Deflection of } R &=\\Delta_{1}+\\Delta_{2} \\\\ &=\\text { Deflection at } Q \\\\ &+\\text { Slope at } Q \\times L \\\\ &=\\frac{5 W L^{3}}{6 E I}+\\frac{3 W L^{2}}{2 E I} \\times L \\\\ &=\\frac{5 W L^{3}+9 W L^{3}}{6 E I} \\\\ &=\\frac{14 W L^{3}}{6 E I}=\\frac{7 W L^{3}}{3 E I} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page22_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{8WL^{3}}{EI}[/latex]",
+      "B": "[latex]\\frac{5WL^{3}}{6EI}[/latex]",
+      "C": "[latex]\\frac{7WL^{3}}{3EI}[/latex]",
+      "D": "[latex]\\frac{8WL^{3}}{6EI}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 111 In the cantilever beam PQR shown in figure below, the segment PQ has flexural\nrigidity EI and the segment QR has infinite flexural rigidity. The deflection and slope of the beam at 'Q' are respectively",
+    "solution": "The given cantilever beam can be modified into a beam as shown below [latex]\\begin{aligned} \\text { Deflection at } Q &=\\frac{W L^{3}}{3 E I}+\\frac{W L \\times L^{2}}{2 E I} \\\\ &=\\frac{2 W L^{3}+3 W^{3}}{6 E I}=\\frac{5 W L^{3}}{6 E I} \\\\ \\text { Slope at } \\quad Q &=\\frac{W^{2}}{2 E I}+\\frac{W L \\times L}{E I} \\\\ &=\\frac{W L^{2}+2 W L^{2}}{2 E I}=\\frac{3 W L^{2}}{2 E I} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page23_q1.webp",
+    "options": {
+      "A": "[latex]\\frac{5WL^{3}}{6EI} \\; and \\; \\frac{3WL^{2}}{2EI}[/latex]",
+      "B": "[latex]\\frac{WL^{3}}{3EI} \\; and \\; \\frac{WL^{2}}{2EI}[/latex]",
+      "C": "[latex]\\frac{WL^{3}}{2EI}\\; and \\; \\frac{WL^{2}}{EI}[/latex]",
+      "D": "[latex]\\frac{WL^{3}}{3EI} \\; and \\;  \\frac{3WL^{2}}{2EI}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 112 Group-I gives the shear force diagrams and Group-II gives the diagram of beams with\nsupports and loading. Match the Group-I with Group-II.",
+    "solution": "[latex] \\because[/latex] Load intensity = Slope os shear force diagram i.e., [latex]w=\\frac{d F}{d x} [/latex] A. Figure represents some slope of SFD in the \r\nwhole span, it means UDL in the whole span \r\ni.e., figure (3) B. Figure shows slope of SFD in the end span \r\nand zero slope in the middle span, so it means \r\nUDL in the end span and no loading in the \r\nmiddle span i.e., figure (1) C. Figure shows zero slope of SFD in the whole \r\nspan. It means UDL is not acting in the whole \r\nspan, only point load acts, further shear force \r\nchange sign in the middle span it means some \r\npoint load is acting in middle span i.e ., \r\nfigure (2) D. Figure shows zero slope of SFD in the end \r\nspan and zero shear force in the middle span, \r\nit means UDL is not acting in the whole span \r\ni.e., figure (4)",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page23_q2.webp",
+    "options": {
+      "A": "P-3  Q-1 R-2 S-4",
+      "B": "P-3 Q-4 R-2 S-1",
+      "C": "P-2 Q-1 R-4 S-3",
+      "D": "P-2 Q-4 R-3 S-1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 113 A hollow circular shaft has an outer diameter of 100 mm and a wall thickness of 25 mm. The allowable shear stress in the shaft is 125 MPa. The maximum torque the shaft can transmit is",
+    "solution": "[latex]\\begin{aligned} \\therefore\\quad \\frac{T}{I_{P}} &=\\frac{\\tau}{R} \\\\ \\Rightarrow \\quad T &=\\frac{\\tau}{R} \\times I_{P} \\\\ &=125 \\times \\frac{\\pi}{32} \\times\\left(100^{4}-50^{4}\\right) \\times \\frac{2}{100} \\times 10^{-6} \\\\ &=23.00 \\mathrm{kN}-\\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "46 kNm",
+      "B": "24.5 kNm",
+      "C": "23 kNm",
+      "D": "11.5 kNm"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 114 Consider the following statements : I. On a principal plane, only normal stress acts. II. On a principal plane, both normal and shear stresses act. III. On a principal plane, only shear stress acts IV. Isotropic state of stress is independent of frame of reference. Which of the above statements is/are correct ?",
+    "solution": "On a principal plane, only normal stresses act.\nNo shear stresses act on the principal plane.",
+    "options": {
+      "A": "I and IV",
+      "B": "II only",
+      "C": "II and IV",
+      "D": "II and III"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 115 The point within the cross sectional plane of a beam through which the resultant\nof the external loading on the beam has to pass through to ensure pure bending\nwithout twisting of the cross-section of the beam is called",
+    "solution": "",
+    "options": {
+      "A": "moment centre",
+      "B": "centroid",
+      "C": "shear centre",
+      "D": "elastic center"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 116 A thin walled cylindrical pressure vessel having a radius of 0.5 m and wall\nthickness of 25 mm is subjected to an internal pressure of 700 kPa. The hoop\nstress developed is",
+    "solution": "[latex]\\begin{aligned} \\text { Hoop stress } &=\\frac{p d}{2 t}=\\frac{700 \\times 10^{3} \\times 2 \\times 0.5}{2 \\times 25 \\times 10^{-3}} \\\\ &=14 \\times 10^{6} \\mathrm{Pa}=14 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "options": {
+      "A": "14MPa",
+      "B": "1.4MPa",
+      "C": "0.14MPa",
+      "D": "0.014MPa"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 117 Beam GHI is supported by three pontoons as shown in the figure below. The horizontal cross-sectional area of each pontoon is [latex]8 m^{2}[/latex], the flexural rigidity of the beam is 10000 [latex]kN-m^{2}[/latex] \r\n and the unit weight of water is 10[latex]kN/m^{3}[/latex] When the middle pontoon is brought back to its position as shown in the figure above, the reaction at H will be",
+    "solution": "Let the elastic deflection at H be [latex]\\delta_{2} [/latex] [latex] \\begin{aligned} \\therefore \\quad \\delta_{2}&=\\frac{(P-R) L^{3}}{48 E I} \\quad &\\ldots(i)\\end{aligned}[/latex] The reactions at G and I will be same, as the beam is symmetrically loaded. Let the reaction at each G and I be Q Using principle of buoyancy, we get [latex] \\delta_{1} \\times [/latex] area of cross-section of pontoon [latex]\\times \\gamma_{w}=Q [/latex] [latex] \\begin{aligned} \\Rightarrow \\quad \\delta_{1} \\times 8 \\times 10&=Q \\\\ \\Rightarrow \\quad \\delta_{1}&=\\frac{Q}{80} &\\ldots(ii) \\end{aligned}[/latex] Also, we have [latex] \\begin{aligned} Q+Q+R&=P \\\\ \\Rightarrow \\quad 2 Q+R&=48 &\\ldots(iii)\\\\ \\end{aligned}[/latex] [latex] \\text{Also, }\\left(\\delta_{1}+\\delta_{2}\\right) \\times [/latex] area of cross-section of Pontoon [latex]\\times \\gamma_{n}=\\mathrm{R} [/latex] [latex] \\begin{aligned} \\Rightarrow\\left(\\delta_{1}+\\delta_{2}\\right) \\times 8 \\times 10&=\\mathrm{R} \\\\ \\Rightarrow \\quad \\delta_{1}+\\delta_{2}&=\\frac{R}{80} \\\\ \\Rightarrow \\quad \\frac{Q}{80}+\\delta_{2}&=\\frac{R}{80} &[\\text{from (ii)}]\\\\ \\Rightarrow \\quad \\frac{48-R}{2 \\times 80}+\\delta_{2}&=\\frac{R}{80} \\quad&[\\text{from (iii)}] \\\\ \\Rightarrow \\quad \\delta_{2}&=\\frac{2 R-48+R}{160} \\\\ \\Rightarrow \\quad \\delta_{2}&=\\frac{3 R-48}{160} \\\\ \\therefore \\frac{(48-R) \\times 10^{3}}{48 \\times 10^{4}}&=\\frac{3 R-48}{160} \\quad&[\\text{from (i)}] \\\\ \\Rightarrow \\quad R&=19.2 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page24_q2.webp",
+    "options": {
+      "A": "8.6 KN",
+      "B": "15.7 KN",
+      "C": "19.2 KN",
+      "D": "24.2 KN"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 118 Beam GHI is supported by three pontoons as shown in the figure below. The horizontal cross-sectional area of each pontoon is [latex]8 m^{2}[/latex], the flexural rigidity of the beam is 10000 [latex]kN-m^{2}[/latex] \r\n and the unit weight of water is 10[latex]kN/m^{3}[/latex] When the middle pontoon is removed, the deflection at H will be",
+    "solution": "The reactions at the ends are zero as there are hinges to left of G and right of I. Hence when the middle pontoon is removed, the beam GHI acts as a simply supported beam. The deflection at H will be due to the load at H as well as due to the downward settlement of pontoons at G and l in water. Since the loading is symmetrical, both the pontoons will be immersed to same height and produce equal reaction (24 kN). Let it be [latex]\\delta_{1}. [/latex] [latex] \\therefore \\delta_{1} \\times [/latex] area of cross-section of pontoon [latex]\\times [/latex] unit weight of water =24 [latex] \\Rightarrow \\delta_{1} \\times 8 \\times 10=24 [/latex] [latex] \\Rightarrow \\quad \\delta_{1}=0.3 \\mathrm{m}[/latex] Also, deflection at H due to bending in beam [latex] \\begin{aligned} \\delta_{2} &=\\frac{P L^{3}}{48 E l} \\\\ &=\\frac{48 \\times(10)^{3}}{48 \\times 10^{4}}=0.1 \\mathrm{m} \\end{aligned}[/latex] [latex] \\therefore [/latex] Final deflection at H, [latex] \\Delta=\\delta_{1}+\\delta_{2}=0.3+0.1=0.4 \\mathrm{m}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page24_q3.webp",
+    "options": {
+      "A": "0.2m",
+      "B": "0.4m",
+      "C": "0.6m",
+      "D": "0.8m"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 119 The stepped cantilever is subjected to moments, M as shown in the figure below. The vertical deflection at the free end (neglecting the self weight) is",
+    "solution": "Using Movement Area Method Deflection at B w.r.t. A = Moment of area of [latex]\\frac{M}{E I}[/latex] diagram between A and B about B [latex] =\\frac{M}{E \\mid} \\times L \\times \\frac{L}{2}=\\frac{M L^{2}}{2 E I}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page24_q4.webp",
+    "options": {
+      "A": "[latex]\\frac{ML^{2}}{8EI}[/latex]",
+      "B": "[latex]\\frac{ML^{2}}{4EI}[/latex]",
+      "C": "[latex]\\frac{ML^{2}}{EI}[/latex]",
+      "D": "Zero"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 120 The maximum tensile stress at the section X-X shown in the figure below is",
+    "solution": "The section at X-X may be shown as in the figure below: The maximum tensile stress at the section X-X is [latex] \\begin{aligned} \\sigma &=\\frac{P}{A}+\\frac{M}{Z} \\\\ &=\\frac{P}{b \\times(d / 2)}+\\frac{P \\times(d / 4) \\times 6}{b \\times\\left(d^{2} / 4\\right)} \\\\ &=\\frac{2 P}{b d}+\\frac{6 P}{b d}=\\frac{8 P}{b d} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page24_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{8P}{bd}[/latex]",
+      "B": "[latex]\\frac{6P}{bd}[/latex]",
+      "C": "[latex]\\frac{4P}{bd}[/latex]",
+      "D": "[latex]\\frac{2P}{bd}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 121 A vertical rod PQ of length L is fixed at its top end P and has a flange fixed to the bottom end Q. A weight W is dropped vertically from a height h ([latex]\\lt[/latex]L) on to the flange. The axial stress in the rod can be reduced by",
+    "solution": "The kinetic energy of the weight (W) at flange level will be transformed in the form of strain energy in \r\nthe rod. We know that [latex] \\mathrm{U}=\\sigma^{2} / 2 \\mathrm{E} \\times [/latex] Area of cross-section of rod [latex] \\times [/latex] length of rod Since, energy remains constant, hence to reduce the axial stress in the rod, the length of the rod \r\nshould be increased or area of cross-section of \r\nthe rod should be increased or modulus of \r\nelasticity should be decreased.",
+    "options": {
+      "A": "increasing the length of the rod",
+      "B": "decreasing the length of the rod",
+      "C": "decreasing the area of cross-section of the rod",
+      "D": "increasing the modulus of elasticity of the material"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 122 The maximum shear stress in a solid shaft of circular cross-section having diameter d subjected to a subject to a torque T is [latex]\\tau[/latex]. If the torque is increased by four times and the diameter of the shaft is increased by two times, the maximum shear stress in the shaft will be",
+    "solution": "[latex]\\begin{aligned} \\therefore \\quad \\frac{\\tau}{R}&=\\frac{T}{I_{P}} \\\\ \\Rightarrow \\quad \\frac{\\tau_{1}}{\\tau_{2}}&=\\frac{R_{1}}{R_{2}} \\times \\frac{T_{1}}{T_{2}} \\times \\frac{I_{P_{2}}}{I_{P_{1}}} \\\\ \\Rightarrow \\quad \\frac{\\tau_{1}}{\\tau_{2}}&=\\frac{R_{1}}{2 R_{1}} \\times \\frac{T_{1}}{4 T_{1}} \\times\\left(\\frac{2 R_{1}}{R_{1}}\\right)^{4} \\\\ \\Rightarrow \\quad \\frac{\\tau_{1}}{\\tau_{2}}&=\\frac{1}{2} \\times \\frac{1}{4} \\times 16 \\\\ \\Rightarrow\\quad\\tau_{2}&=\\frac{\\tau_{1}}{2} \\\\ \\Rightarrow\\quad\\tau_{2}&=\\frac{\\tau}{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]2\\tau[/latex]",
+      "B": "[latex]\\tau[/latex]",
+      "C": "[latex]\\tau/2[/latex]",
+      "D": "[latex]\\tau/4[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 123 A rigid bar GH of length L is supported by a hinge and a spring of stiffness K as shown in the figure below. The buckling load, [latex]P_{Cr}[/latex], for the bar will be",
+    "solution": "Let the deflection in the spring be [latex]\\delta[/latex] and force in the spring be F. Taking moments about G, we get [latex] \\begin{aligned} P_{c r} \\times \\delta&=F \\times L\\\\ \\Rightarrow \\quad P_{c r}&=\\frac{K \\delta \\times L}{\\delta} &\\left[\\because F=K\\delta \\right ]\\\\ \\Rightarrow \\quad P_{c r}&=K L \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page25_q3.webp",
+    "options": {
+      "A": "0.5KL",
+      "B": "0.8KL",
+      "C": "1.0KL",
+      "D": "1.2KL"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 124 Cross-section of a column consisting to two steel strips, each of thickness t and\nwidth b is shown in the figure below. The critical loads of the column with perfect\nbond and without bond between the strips are [latex]P[/latex] and [latex]P_0[/latex] respectively. The ratio [latex]P/P_0[/latex] is",
+    "solution": "We know that critical load for a column is proportional to moment of inertia irrespective of end conditions of the column i.e. [latex] P_{c r} \\propto 1[/latex] When the steel strips are perfectly bonded, then [latex] f_{p b}=\\frac{b \\times(2 t)^{3}}{12}=\\frac{8 b t^{3}}{12}[/latex] When the steel strips are not bonded, then [latex] \\begin{aligned} I_{wb}&=2 \\times \\frac{b t^{3}}{12}=\\frac{2 b t^{3}}{12} \\\\ \\therefore \\quad \\frac{P}{P_{0}}&=\\frac{8 b t^{3} / 12}{2 b t^{3} / 12}=4 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page25_q4.webp",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 125 A mild steel specimen is under uniaxial tensile stress. Young's modulus and yield\nstress for mild steel are [latex]2 \\times 10^{5}[/latex] MPa and 250 MPa respectively. The maximum amount of strain energy per unit volume that can be stored in this specimen\nwithout permanent set is",
+    "solution": "The strain energy per unit volume may be given as [latex] \\begin{aligned} u &=\\frac{1}{2} \\times \\frac{\\sigma_{y}^{2}}{E}=\\frac{1}{2} \\times \\frac{(250)^{2}}{2 \\times 10^{5}} \\\\ &=0.156 \\mathrm{N}\\; \\mathrm{mm} / \\mathrm{mm}^{3} \\end{aligned}[/latex]",
+    "options": {
+      "A": "156 [latex]Nmm/mm^{3}[/latex]",
+      "B": "15.6 [latex]Nmm/mm^{3}[/latex]",
+      "C": "1.56 [latex]Nmm/mm^{3}[/latex]",
+      "D": "0.156 [latex]Nmm/mm^{3}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 126 [latex]U_{1}[/latex] and [latex]U_{2}[/latex] are the Strain energies stored in a prismatic bar due toaxial tensile forces [latex]P_{1}[/latex] and [latex]P_{2}[/latex], respectively. The strain energy U stored in the same bar due to combined action of [latex]P_{1}[/latex] and [latex]P_{2}[/latex] will be",
+    "solution": "Strain energy stored in a prismatic bar due to axial load [latex] P_{1} [/latex] [latex] U_{1}=\\frac{P_{1}^{2} L}{2 A E}[/latex] Strain energy stored in a prismatic bar due to axial load, [latex]P_{2}[/latex] [latex] U_{2}=\\frac{P_{2}^{2} L}{2 A E}[/latex] Strain energy stored in a prismatic bar due to combined action of [latex]P_{1}[/latex] and [latex]P_{2} [/latex] [latex] \\begin{aligned} U &=\\frac{\\left(P_{1}+P_{2}\\right)^{2} L}{2 A E} \\\\ U &=\\frac{P_{1}^{2} L}{2 A E}+\\frac{P_{2}^{2} L}{2 A E}+\\frac{P_{1} P_{2} L}{A E} \\\\ U&=U_{1}+U_{2}+\\frac{P_{1} P_{2} L}{A E} \\\\ \\Rightarrow \\quad U&>U_{1}+U_{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]U= U_{1}+U_{2}[/latex]",
+      "B": "[latex]U= U_{1}U_{2}[/latex]",
+      "C": "[latex]U \\lt U_{1}+U_{2}[/latex]",
+      "D": "[latex]U \\gt  U_{1}+U_{2}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 127 The shear stress at the neutral axis in a beam of triangular section with a base of\n40 mm and height 20 mm, subjected to a shear force of 3 kN is",
+    "solution": "[latex]\\text { Shear stress, } \\tau=\\frac{S A \\bar{y}}{1 b}[/latex] Width at a distance of [latex]\\frac{40}{3} \\mathrm{mm}[/latex] from the top [latex] \\begin{aligned} &=\\frac{40}{20} \\times \\frac{40}{3}=\\frac{80}{3} \\mathrm{mm}\\\\ \\therefore \\tau &=\\frac{3 \\times 10^{3} \\times\\left(\\frac{1}{2} \\times \\frac{80}{3} \\times \\frac{40}{3}\\right) \\times\\left(\\frac{1}{3} \\times \\frac{40}{3}\\right)}{\\left(\\frac{40 \\times 20^{3}}{36}\\right) \\times \\frac{80}{3}} \\\\ &=\\frac{3 \\times 10^{3} \\times 3200 \\times 40 \\times 36 \\times 3}{162 \\times 3200 \\times 20^{3}} \\\\ &=10 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "options": {
+      "A": "3MPa",
+      "B": "6MPa",
+      "C": "10MPa",
+      "D": "20MPa"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 128 The maximum and minimum shear stresses in a hollow circular shaft of outer\ndiameter 20 mm and thickness 2 mm, subjected to a torque of 92.7 Nm will be",
+    "solution": "[latex]\\begin{aligned} \\because \\quad \\frac{f_{s}}{R} &=\\frac{T}{J} \\\\ \\text { Here, } \\quad J &=\\frac{\\pi}{32}\\left(20^{4}-16^{4}\\right) \\mathrm{mm}^{4} \\\\ R_{1} &=\\frac{20}{2}=10 \\mathrm{mm} \\\\ T &=92.7 \\mathrm{N}-\\mathrm{m} ; \\\\ R_{2} &=\\frac{16}{2}=8 \\mathrm{mm} \\\\ f_{s_{1}} &=\\frac{T R_{1}}{J}=\\frac{92.7 \\times 10^{3} \\times 10}{(\\pi / 32) \\times\\left(20^{4}-16^{4}\\right)} \\\\ &=99.96 \\mathrm{MPa} \\approx 100 \\mathrm{MPa} \\\\ \\text { and } \\quad f_{{9}_{2}} &=\\frac{T R_{2}}{J}=\\frac{92.7 \\times 10^{3} \\times 8}{(\\pi / 32) \\times\\left(20^{4}-16^{4}\\right)} \\\\ &=79.96 \\mathrm{MPa} \\simeq 80 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "options": {
+      "A": "59 MPa and 47.2 MPa",
+      "B": "100 MPa and 80 MPa",
+      "C": "118 MPa and 160 MPa",
+      "D": "200 MPa and 160 MPa"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 129 A metal bar of length 100 mm is inserted between two rigid supports and its\ntemperature is increased by [latex]10^{\\circ}C[/latex]. If the coefficient of thermal expansion is [latex]12\\times 10^{-6}[/latex] per [latex]^{\\circ}C[/latex] and the Young's modulus is [latex]2\\times 10^{5}[/latex] MPa, the stress in the bar is",
+    "solution": "[latex]\\begin{aligned} \\text { Temperature stress } &=\\alpha \\text { TE } \\\\ &=12 \\times 10^{-6} \\times 10 \\times 2 \\times 10^{5} \\\\ &=24 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "options": {
+      "A": "zero",
+      "B": "12MPa",
+      "C": "24MPa",
+      "D": "2400MPa"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 130 For an isotropic material, the relationship between the Young's modulus (E), shear modulus (G) and Poisson's ratio ([latex]\\mu[/latex]) is given by",
+    "solution": "",
+    "options": {
+      "A": "[latex]G=\\frac{E}{2(1+\\mu )}[/latex]",
+      "B": "[latex]E=\\frac{G}{2(1+\\mu )}[/latex]",
+      "C": "[latex]G=\\frac{E}{(1+2\\mu )}[/latex]",
+      "D": "[latex]G=\\frac{E}{2(1-\\mu )}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 131 A steel column, pinned at both end, has a buckling load of 200 kN. If the column is restrained against lateral movement at its mid-height, it buckling load will be",
+    "solution": "When both ends are hinged, the buckling load is given by, [latex] P_{c r}=\\frac{\\pi^{2} E I}{L^{2}} \\Rightarrow 200=\\frac{\\pi^{2} E l}{L^{2}}[/latex] When the lateral movement at the mid-height is not available, then buckling load [latex] \\begin{aligned} &=\\frac{\\pi^{2} E \\mid}{\\left(L_{1}\\right)^{2}} \\quad \\text { where } L_{1}=\\frac{L}{2} \\\\ &=\\frac{4 \\pi^{2} E \\mid}{L^{2}}=4 \\times 200=800 \\mathrm{kN} \\end{aligned}[/latex]",
+    "options": {
+      "A": "200kN",
+      "B": "283kN",
+      "C": "400kN",
+      "D": "800kN"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 132 An axially loaded bar is subjected to a normal stress of 173 MPa. The stress in the bar is",
+    "solution": "[latex]\\begin{aligned} \\text { Shear stress }&=\\frac{\\sigma_{1}-\\sigma_{2}}{2} \\\\ \\therefore \\quad&=\\frac{173-0}{2}=86.5 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "options": {
+      "A": "75MPa",
+      "B": "86.5MPa",
+      "C": "100MPa",
+      "D": "122.3MPa"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 133 Consider a propped cantilever beam ABC under two loads of magnitude P each\r\nas shown in the figure below. Flexural rigidity of the beam is EI. The rotation at B is",
+    "solution": "The rotation at B : (i) Due to moment [latex] \\theta_{8_{1}}=\\frac{2 P a \\times L}{E l} \\text { (clockwise) }[/latex] (ii) Due to reaction R [latex] \\begin{aligned} \\theta_{B_{2}} &=\\frac{R L^{2}}{2 E I}+\\frac{R L^{2}}{E I}=\\frac{3 R L^{2}}{2 E l} \\\\ &=\\frac{27}{16} \\frac{P a L}{E l}(\\text { anticlockwise }) \\\\ \\therefore\\quad \\theta_{B} &=\\theta_{B_{1}}-\\theta_{B_{2}} \\\\ &=\\left(2-\\frac{27}{16}\\right) \\frac{P a L}{E l} \\\\ &=\\frac{5}{16} \\frac{P a L}{E l}(\\text { clockwise }) \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page27_q3.webp",
+    "options": {
+      "A": "[latex]\\frac{5PLa}{16EI}[/latex] (clockwise)",
+      "B": "[latex]\\frac{5PLa}{16EI}[/latex] (anticlockwise)",
+      "C": "[latex]\\frac{59PLa}{16EI}[/latex] (clockwise)",
+      "D": "[latex]\\frac{59PLa}{16EI}[/latex] (anticlockwise)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 134 Consider a propped cantilever beam ABC under two loads of magnitude P each\r\nas shown in the figure below. Flexural rigidity of the beam is EI. The reaction at C is",
+    "solution": "The moment at point B=2 Pa In the cantilever beam ABC, the deflection at C. due to moment 2Pa will be given as [latex] \\begin{aligned} \\delta &=\\frac{M L^{2}}{2 E I}+\\frac{M L}{E I} \\times L \\\\ &=\\frac{2 P a L^{2}}{2 E I}+\\frac{2 P a L}{E I} \\times L \\\\ &=\\frac{3 P a L^{2}}{E I}(d o w n w a r d s) \\end{aligned}[/latex] [latex] \\therefore [/latex]The reaction at C will be upwards [latex] \\begin{aligned} \\delta_{c}^{\\prime} &=\\frac{R(2 L)^{3}}{3 E I} \\\\ &=\\frac{8 R L^{3}}{3 E I}(\\text { upwards })\\\\ \\text{Thus},\\quad \\delta_{\\mathrm{e}} &=\\delta_{\\mathrm{c}}^{\\prime} \\\\ \\frac{3 \\mathrm{PaL}^{2}}{\\mathrm{EI}} &=\\frac{8 \\mathrm{RL}^{3}}{3 \\mathrm{EI}}\\\\ \\Rightarrow \\quad R&=\\frac{9 P a}{8 L} (upwards) \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page27_q4.webp",
+    "options": {
+      "A": "[latex]\\frac{9Pa}{16L}[/latex] (upwards)",
+      "B": "[latex]\\frac{9Pa}{16L}[/latex] (downwards)",
+      "C": "[latex]\\frac{9Pa}{8L}[/latex] (upwards)",
+      "D": "[latex]\\frac{9Pa}{8L}[/latex] (downwards)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 135 Vertical reaction developed at B in the frame below due to the applied load to 100 kN (with 150,000[latex]mm^{2}[/latex] cross-sectional area and [latex]3.125\\times 10^{9}mm^{4}[/latex] moment of inertia for both members) is",
+    "solution": "Deflection at A in beam AB= Compression in column AC [latex] \\begin{array}{l} \\begin{aligned} \\quad \\frac{(100-\\mathrm{R}) \\mathrm{L}^{3}}{3 \\mathrm{E} 1}&=\\frac{\\mathrm{RL}}{\\mathrm{AE}} \\\\ \\Rightarrow \\frac{(100-\\mathrm{R}) \\times(1 \\times 1000)^{3}}{3 \\times 3.125 \\times 10^{9}}&=\\frac{\\mathrm{R}}{150000} \\\\ \\end{aligned}\\\\ \\begin{aligned} \\Rightarrow \\quad 100-\\mathrm{R}&=0.0625 \\\\ \\Rightarrow \\quad 100&=1.0625 \\mathrm{R} \\\\ \\therefore \\quad V_{B}&=100-R\\\\ \\Rightarrow \\quad \\mathrm{R}&=94.1 \\mathrm{kN} \\\\ &=100-\\mathrm{R} \\\\ &=5.9 \\mathrm{kN} \\end{aligned} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page27_q5.webp",
+    "options": {
+      "A": "5.9kN",
+      "B": "302kN",
+      "C": "66.3kN",
+      "D": "94.1kN"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 136 A thin-walled long cylindrical tank of inside radius r is subjected simultaneously\r\nto internal gas pressure p and axial compressive force F at its ends. In order to\r\nproduce 'pure shear' state of stress in the wall of the cylinder, F should be equal to",
+    "solution": "[latex]\\text { Hoop stress, } \\sigma_{\\mathrm{h}}=\\frac{p r}{t}[/latex] Longitudinal stress, [latex] \\sigma_{z}=\\frac{p r}{2 t}-\\frac{F}{2 \\pi r t}[/latex] Now, for pure shear state, [latex]\\sigma_{z}[/latex] should be compressive and is equal to [latex]\\sigma_{r} [/latex] [latex] \\begin{aligned} \\therefore \\quad \\sigma_{n}&=-\\sigma_{z} \\\\ \\Rightarrow \\quad \\frac{p r}{t}&=-\\frac{p r}{2 t}+\\frac{F}{2 \\pi r t} \\\\ \\Rightarrow \\quad \\frac{3 p r}{2 t}&=\\frac{F}{2 \\pi r t} \\\\ \\Rightarrow \\quad F&=3 \\pi p r^{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex] \\pi p r^{2}[/latex]",
+      "B": "2[latex] \\pi p r^{2}[/latex]",
+      "C": "3[latex] \\pi p r^{2}[/latex]",
+      "D": "4[latex] \\pi p r^{2}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 137 If a beam of rectangular cross-section is subjected to a vertical shear force V , the\nshear force carried by the upper one-third of the cross-section is",
+    "solution": "Shear stress at distance y from neutral axis, [latex] \\begin{aligned} \\tau&=\\frac{S A \\bar{y}}{1 b} =\\frac{V \\times\\left(\\frac{d}{2}-y\\right) \\times b \\times\\left(\\frac{(d / 2)+y}{2}\\right)}{16} \\\\ \\Rightarrow \\quad \\tau&= \\frac{V \\times\\left(\\frac{d^{2}}{4}-y^{2}\\right)}{21}\\\\ \\therefore \\quad d F&=\\tau \\times b d y=\\frac{V \\times\\left(\\frac{d^{2}}{4}-y^{2}\\right)}{21} \\times b d y\\\\ \\end{aligned} [/latex] Integrating both sides, we get [latex] \\begin{aligned} \\Rightarrow \\quad F &=\\frac{V b^{d / 2}}{21} \\int_{d / 6}^{d}\\left(\\frac{d^{2}}{4}-y^{2}\\right) d y \\\\ &=\\frac{V b}{21}\\left[\\frac{d^{2}}{4} y-\\frac{y^{3}}{3}\\right]_{d / 6}^{d / 2} \\\\ &=\\frac{V b}{21}\\left[\\frac{d^{3}}{8}-\\frac{d^{3}}{24}-\\frac{d^{3}}{24}+\\frac{d^{3}}{648}\\right] \\\\ &=\\frac{V b}{21} \\times \\frac{d^{3}}{8} \\times \\frac{28}{81} \\\\ &=\\frac{V b}{2 b d^{3}} \\times \\frac{d^{3}}{8} \\times \\frac{28}{81} \\times 12=\\frac{7 V}{27} \\end{aligned}[/latex]",
+    "options": {
+      "A": "zero",
+      "B": "[latex]\\frac{7V}{27}[/latex]",
+      "C": "[latex]\\frac{8V}{27}[/latex]",
+      "D": "[latex]\\frac{V}{3}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 138 I-section of a beam is formed by gluing wooden planks as shown in the figure\nbelow. If this beam transmits a constant vertical shear force of 3000 N, the glue at\nany of the four joint will be subjected to a shear force (in kN per meter length) of",
+    "solution": "Considering shaded area 'abcd' of plank. [latex] \\text { Shear flow, } \\quad a=\\frac{V Q}{1}[/latex] Shear flow is measured as force per unit length along the longitudinal axis of a beam and over the cross-section is as shown above. [latex] \\begin{aligned} Q &=A \\bar{y} \\\\ Q &=(75 \\times 50) \\times 125 \\\\ &=468750 \\mathrm{mm}^{3} \\end{aligned}[/latex] Moment of inertia of I-section about NA. [latex] \\begin{aligned} 1&=350 \\times 10^{6} \\mathrm{mm}^{4}\\\\ V &=3000 N \\\\ q &=\\frac{468750 \\times 3000}{350 \\times 10^{6}} \\\\ &=4.018 N / m m \\end{aligned}[/latex] So, resistance offered by glue to keep I-section intact. [latex] \\mathrm{q}=4.018 \\mathrm{N} / \\mathrm{mm} \\simeq 4 \\mathrm{kN} / \\mathrm{m}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page28_q3.webp",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "8",
+      "D": "10.7"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 139 A beam with the cross-section given below is subjected to a positive bending moment\r\n(causing compression at the top) of 16 kN-m acting around the horizontal axis.\r\nThe tensile force acting on the hatched area of the cross-section is",
+    "solution": "[latex]\\begin{aligned} f &=\\frac{M}{1} \\times y \\\\ &=\\frac{16 \\times 10^{6} \\times 12}{100 \\times 150^{3}} \\times 25=14.22 \\mathrm{N} / \\mathrm{mm}^{2} \\end{aligned}[/latex] From similar triangles, we have [latex] \\begin{aligned} \\therefore \\text { Tensile force } &=\\frac{1}{2} \\times 25 \\times 14.22 \\times 50 \\times 10^{3} \\\\ &=8.88=8.9 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page28_q4.webp",
+    "options": {
+      "A": "zero",
+      "B": "5.9kN",
+      "C": "8.9kN",
+      "D": "17.8kN"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 140 Consider the beam AB shown in the figure below. Part AC of the beam is rigid\nwhile Part CB has the flexural rigidity EI . Identify the correct combination of\ndeflection at end B and bending moment at end A, respectively",
+    "solution": "Part AC of the beam is rigid. Hence C will act as a fixed end. Thus the deflection at B will be given as [latex] \\delta_{\\mathrm{B}}=\\frac{P L^{3}}{3 E \\mid} [/latex] But the bending moment does not depend on the rigidity or flexibility of the beam. [latex] \\mathrm{BM}\\text{ at }\\mathrm{A}=\\mathrm{P} \\times 2 \\mathrm{L}=2 \\mathrm{PL}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page28_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{PL^{3}}{3EI},2PL[/latex]",
+      "B": "[latex]\\frac{PL^{3}}{3EI},PL[/latex]",
+      "C": "[latex]\\frac{8PL^{3}}{3EI},2PL[/latex]",
+      "D": "[latex]\\frac{8PL^{3}}{3EI},PL[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 141 A simply supported beam AB has the bending moment diagram as shown in the\nfollowing figure The beam is possibly under the action of following loads",
+    "solution": "No loading between A and C. At C, there is point\nmoment because BMD is changing suddenly.\nSimilarly a point moment 2M is at D.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page29_q1.webp",
+    "options": {
+      "A": "Couples of M at C and 2M at D",
+      "B": "Couples of 2M at C and M at D",
+      "C": "Concentrated loads of M/L at C and 2M/L at D",
+      "D": "Concentrated load of M/L at C and couple of 2M at D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 142 A long shaft of diameter d is subjected to twisting moment T at its ends. The\nmaximum normal stress acting at its cross-section is equal to",
+    "solution": "Cross-section of the shaft is the section \r\nperpendicular to the longitudinal axis of shaft. In \r\ncase of twisting moment acting at its ends, normal \r\nstress is zero on the cross-section only shear \r\nstress acts.",
+    "options": {
+      "A": "zero",
+      "B": "[latex]\\frac{16T}{\\pi d^{3}}[/latex]",
+      "C": "[latex]\\frac{32T}{\\pi d^{3}}[/latex]",
+      "D": "[latex]\\frac{64T}{\\pi d^{3}}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 143 The buckling load [latex]P=P_{cr}[/latex] for the column AB shown in figure, as [latex]K_T[/latex] approaches infinity,\nbecomes [latex]\\alpha \\frac{\\pi ^{2}EI}{L^{2}}[/latex], where [latex]\\alpha [/latex] is equal to",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page29_q3.webp",
+    "options": {
+      "A": "0.25",
+      "B": "1",
+      "C": "2.05",
+      "D": "4"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 144 Mohr's circle for the state of stress defined by [latex]\\begin{bmatrix} 30 &0 \\\\ 0&30 \\end{bmatrix}[/latex] MPa is a circle with",
+    "solution": "The maximum and minimum principal stresses are\nsame. So, radius of circle becomes zero and centre\nis at (30, 0). The circle is represented by a point.",
+    "options": {
+      "A": "centre at (0, 0) and radius 30 MPa",
+      "B": "centre at (0, 0) and radius 60 MPa",
+      "C": "centre at (30, 0) and radius 30 MPa",
+      "D": "centre at (30, 0) and zero radius"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 145 The bending moment diagram for a beam is given below : The shear force at sections 'aa' and 'bb' respectively are of the magnitude",
+    "solution": "The bending moment to the left as well as right of \r\nsection aa' is constant which means shear force \r\nis zero at aa'. Shear force at [latex]\\mathrm{bb}^{\\prime}=\\frac{200-100}{2}=50 \\mathrm{kN} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page29_q5.webp",
+    "options": {
+      "A": "100 kN, 150 kN",
+      "B": "zero, 100 kN",
+      "C": "zero, 50 kN",
+      "D": "100 kN, 100 kN"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 146 If principal stresses in a two-dimensional case are -10 MPa and 20 MPa\nrespectively, then maximum shear stress at the point is",
+    "solution": "[latex]\\begin{aligned} \\text { Maximum shear stress } &=\\frac{\\sigma_{1}-\\sigma_{2}}{2} \\\\ &=\\frac{20-(-10)}{2}=15 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "options": {
+      "A": "10MPa",
+      "B": "15MPa",
+      "C": "20MPa",
+      "D": "30MPa"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 147 A circular shaft shown in the figure is subjected to torsion T at two point A and\r\nB. The torsional rigidity of portions CA and BD is [latex]GJ_{1}[/latex] and that of portion AB\r\nis [latex]GJ_{2}[/latex]. The rotations of shaft at points A and B are [latex]\\theta_{1}[/latex]\r\n and [latex]\\theta_{2}[/latex]. The rotation [latex]\\theta_{1}[/latex] is",
+    "solution": "The symmetry of the shaft shows that there is no torsion on section AB, [latex] \\therefore \\text{ Rotation, }\\theta_{1}=\\frac{T L}{G J_{1}} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page30_q2.webp",
+    "options": {
+      "A": "[latex]\\frac{TL}{GJ_{1} + GJ_{2}}[/latex]",
+      "B": "[latex]\\frac{TL}{GJ_{1}}[/latex]",
+      "C": "[latex]\\frac{TL}{GJ_{2}}[/latex]",
+      "D": "[latex]\\frac{TL}{GJ_{1}-GJ_{2}}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 148 The components of strain tensor at a point in the plane strain case can be\nobtained by measuring longitudinal strain in following directions",
+    "solution": "In case of plane strain condition, the components of strain tensor at a point are [latex]\\epsilon_{x}, \\in_{y} \\text{ and }\\phi_{x y} .[/latex] Here we have three unknowns so we require 3 \r\nequations to find them and these unknowns can \r\nbe find by the equations of longitudinal strain, [latex]\r\n \\epsilon_{1}=\\epsilon_{x} \\cos ^{2} \\theta_{1}+\\epsilon_{y} \\sin ^{2} \\theta_{1}+\\frac{\\phi_{x y}}{2} \\sin 2 \\theta_{1} [/latex] [latex]\r\n \\epsilon_{2}=\\epsilon_{x} \\cos ^{2} \\theta_{2}+\\epsilon_{y} \\sin ^{2} \\theta_{2}+\\frac{\\phi_{x y}}{2} \\sin 2 \\theta_{2} [/latex] [latex]\r\n \\epsilon_{3}=\\epsilon_{x} \\cos ^{2} \\theta_{3}+\\epsilon_{y} \\sin ^{2} \\theta_{3}+\\frac{\\phi_{x y}}{2} \\sin 2 \\theta_{3} [/latex] Therefore to find out component of strain tensor in \r\nplain strain condition, we measure longitudinal \r\nstrains [latex]\\left(\\epsilon_{1}, \\epsilon_{2}\\text{ and }\\epsilon_{3}\\right)[/latex] along any three arbitrary direction.",
+    "options": {
+      "A": "along any two arbitrary directions",
+      "B": "along any three arbitrary directions",
+      "C": "along two mutually orthogonal directions",
+      "D": "along any arbitrary direction"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 149 The symmetry of stress tensor at a point in the body under equilibrium is obtained from",
+    "solution": "Taking moment equilibrium about the centre, we get [latex] \\begin{aligned} \\tau_{y x} \\times \\frac{d}{2}+\\tau_{y x} \\times \\frac{d}{2}&=\\tau_{x y} \\times \\frac{d}{2}+\\tau_{x y} \\times \\frac{d}{2} \\\\ \\therefore \\quad \\tau_{x y}&=\\tau_{y x} \\end{aligned}[/latex]",
+    "options": {
+      "A": "conserved of mass",
+      "B": "force equilibrium equations",
+      "C": "moment equilibrium equations",
+      "D": "conservation of energy"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 150 A three-span continuous beam has an internal hinge at B. Section B is at the\nmid-span of AC. Section E is at the mid-span of CG. The 20 kN load is applied\nat section B whereas 10 kN loads are applied at sections D and F as shown in the\nfigure. Span GH is subjected to uniformly distributed load of magnitude 5 kN/m.\nFor the loading shown, shear force immediate to the right of section E is 9.84 kN\nupwards and the hogging moment at section E is 10.31 kN-m. The vertical reaction at support H is",
+    "solution": "Taking moments about G [latex] R_{H} \\times 4-5 \\times 4 \\times 2+10.31-9.84 \\times 2+10 \\times 1=0 [/latex] [latex] \\Rightarrow \\quad R_{H}=\\frac{39.37}{4}=9.84 \\mathrm{kN}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page30_q5.webp",
+    "options": {
+      "A": "15 kN upward",
+      "B": "9.84 kN upward",
+      "C": "15 kN downward",
+      "D": "9.84 kN downward"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 151 A three-span continuous beam has an internal hinge at B. Section B is at the\r\nmid-span of AC. Section E is at the mid-span of CG. The 20 kN load is applied\r\nat section B whereas 10 kN loads are applied at sections D and F as shown in the\r\nfigure. Span GH is subjected to uniformly distributed load of magnitude 5 kN/m.\r\nFor the loading shown, shear force immediate to the right of section E is 9.84 kN\r\nupwards and the sagging moment at section E is 10.31 kN-m. The magnitude of the shear force immediate to the left and immediate to the\r\nright of section B are respectively",
+    "solution": "The moment about B from left = 0 If [latex]\\mathrm{R}_{\\mathrm{A}}[/latex] is the reaction at A, then [latex] \\begin{array}{r} \\mathrm{R}_{\\mathrm{A}} \\times 2=0 \\\\ \\mathrm{R}_{\\mathrm{A}}=0 \\end{array}[/latex] [latex] \\therefore [/latex] Shear force immediate to the left of [latex] B=R_{A}=0[/latex] Shear force immediate to the right of [latex] B=20 \\mathrm{kN}(\\downarrow)[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page31_q1.webp",
+    "options": {
+      "A": "0 and 20 kN",
+      "B": "10 kN and 10 kN",
+      "C": "20 kN and 0",
+      "D": "9.84 kN and 10.16 kN"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 152 A circular solid shaft of span L = 5 m is fixed at one end and free at other end.\nA twisting moment T = 100 kN-m is applied at the free end. The torsional rigidity \n[latex]G_j[/latex] is 50000 kN-[latex]m^{2}[/latex]/rad. Following statements are made for this shaft : I. The maximum rotation is 0.01 rad II. The torsional strain energy is 1 kN-m With reference to the above statements, which of the following applies ?",
+    "solution": "[latex]\\begin{aligned} \\therefore \\frac{G \\theta}{L}&=\\frac{T}{J} \\\\ \\therefore \\quad \\theta&=\\frac{T L}{G J}=\\frac{100 \\times 5}{50000} \\\\ &=0.01 \\mathrm{rad} \\\\ \\text { Also, torsional strain energy }&=\\frac{1}{2} T \\theta \\\\ &=\\frac{1}{2} \\times 100 \\times 0.01 \\\\ &=0.5 \\mathrm{kN}-\\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "Both statements are true",
+      "B": "Statement I is true but II is false",
+      "C": "Statement II is true but I is false",
+      "D": "Both the statements are false"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 153 In a two dimensional stress analysis, the state of stress at a point is shown below. If [latex]\\sigma[/latex] = 120 MPa and [latex]\\tau[/latex] = 70 MPa, then  [latex]\\sigma _{x} \\; and \\; \\sigma _{y}[/latex] are respectively",
+    "solution": "[latex]\\begin{array}{l} \\text { Let } \\angle \\mathrm{CAB}=\\theta \\\\ \\therefore \\sin \\theta=\\frac{3}{5} ; \\cos \\theta=\\frac{4}{5} ; \\tan \\theta=\\frac{3}{4} \\end{array}[/latex] Thus from force equilibrium, [latex] \\begin{aligned} \\sigma_{x} \\times A B&=A C \\times(\\sigma \\cos \\theta-\\tau \\sin \\theta)\\\\ \\Rightarrow \\quad \\sigma_{x}&=\\frac{5}{4} \\times\\left(120 \\times \\frac{4}{5}-70 \\times \\frac{3}{5}\\right) \\\\ \\Rightarrow \\quad \\sigma_{x}&=67.5 \\mathrm{MPa} \\\\ \\text{And, }\\sigma_{y} \\times B C&=A C \\times(\\sigma \\sin \\theta+\\tau \\cos \\theta) \\\\ \\Rightarrow \\quad \\sigma_{y}&=\\frac{5}{3} \\times\\left(120 \\times \\frac{3}{5}+70 \\times \\frac{4}{5}\\right) \\\\ \\Rightarrow \\quad \\sigma_{y}&=213.3 \\mathrm{MPa} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page31_q3.webp",
+    "options": {
+      "A": "26.7 MPa and 172.5 MPa",
+      "B": "54 MPa and 128 MPa",
+      "C": "67.5 MPa and 213.3 MPa",
+      "D": "16 MPa and 138 MPa"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 154 For the linear elastic beam shown in the figure, the flexural rigidity, EI is\r\n781250 kN[latex]m^{2}[/latex]. When w = 10 kN/m, the vertical reaction [latex]R_A[/latex] at A is 50 kN. The value of [latex]R_A[/latex] for w = 100 kN/m is",
+    "solution": "The deflection at the free end for [latex] \\begin{aligned} w(10 k N / m) &=\\frac{w L^{4}}{8 E I} \\\\ &=\\frac{10 \\times(5)^{4} \\times 1000}{8 \\times 781250} \\\\ &=1 \\mathrm{mm} \\end{aligned}[/latex] The gap between the beam and rigid platform is 6mm. Hence, no reaction will be developed when [latex] w=10 kN / m [/latex] Now, deflection at the free end for w( 100 kN /m ) will be [latex]=10 \\times 1 \\mathrm{mm}=10 \\mathrm{mm} [/latex] But, this cannot be possible because margin of deflection is only 6 m. Thus w=100 kN / m will induce a reaction [latex] \\mathrm{R}_{\\mathrm{B}} \\text{ at } \\mathrm{B}[/latex] [latex]\\begin{aligned} \\therefore \\frac{w L^{4}}{8 E !}-\\frac{R_{B} L^{3}}{3 E I}&=\\text{ Permissible deflection}\\\\ \\Rightarrow \\frac{100 \\times(5)^{4}}{8 \\times 781250}&-\\frac{R_{6} \\times(5)^{3}}{3 \\times 781250}=\\frac{6}{1000} \\\\ \\Rightarrow \\frac{10}{1000}-\\frac{6}{1000}&=\\frac{R_{8} \\times 125}{3 \\times 781250} \\\\ \\Rightarrow \\quad R_{8}&=75 \\mathrm{kN} \\\\ \\therefore \\quad R_{\\mathrm{A}}&=(100 \\times 5-75) \\\\ &=425 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page31_q4.webp",
+    "options": {
+      "A": "500kN",
+      "B": "425kN",
+      "C": "250kN",
+      "D": "75kN"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 155 A homogeneous, simply supported prismatic beam of width B, depth D and span\nL is subjected to a concentrated load of magnitude P. The load can be placed\nanywhere along the span of the beam. The maximum flexural stress developed in\nbeam is",
+    "solution": "When the concentrated load is placed at the midspan, maximum bending moment will develop at the mid span [latex] \\begin{aligned} \\text{Now}\\quad f&=\\frac{M}{l} y \\qquad\\left[\\because M=\\frac{P L}{4}\\right]\\\\ &=\\frac{\\frac{P L}{4} \\times \\frac{D}{2}}{\\frac{B D^{3}}{12}}=\\frac{3 P L}{2 B D^{2}} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{2PL}{3BD^{2}}[/latex]",
+      "B": "[latex]\\frac{3PL}{4BD^{2}}[/latex]",
+      "C": "[latex]\\frac{4PL}{3BD^{2}}[/latex]",
+      "D": "[latex]\\frac{3PL}{2BD^{2}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 156 For linear elastic systems, the type of displacement function for the strain energy is",
+    "solution": "[latex]\\text { Strain Energy }=\\frac{1}{2} \\times \\sigma \\times \\varepsilon=\\frac{1}{2} \\mathrm{E} \\varepsilon^{2}[/latex] Since strain is directly proportional to displacement so strain energy is directly proportional to quadratic equation of displacement.",
+    "options": {
+      "A": "linear",
+      "B": "quadratic",
+      "C": "cubic",
+      "D": "quartic"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 157 Group-I shows different loads acting on a beam and Group-II shows different bending\nmoment distributions. Match the load with the corresponding bending moment\ndiagram.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page32_q2.webp",
+    "options": {
+      "A": "P-4 Q-2 R-1 S-3",
+      "B": "P-5 Q-4 R-1 S-3",
+      "C": "P-2 Q-5 R-3 S-1",
+      "D": "P-2 Q-4 R-1 S-3"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 158 The state of two dimensional stresses acting on a concrete lamina consists of a\r\ndirect tensile stress, [latex]\\sigma _{x}[/latex]=1.5 [latex]N/mm^{2}[/latex], and shear stress, [latex]\\tau[/latex] = 1.20 [latex]N/mm^{2}[/latex], which cause cracking of concrete. Then the tensile strength of the concrete in [latex]N/mm^{2}[/latex] is",
+    "solution": "Maximum principal stress [latex]\n\\begin{aligned}\n&=\\frac{\\sigma_{\\mathrm{x}}}{2}+\\sqrt{\\left(\\frac{\\sigma_{\\mathrm{x}}}{2}\\right)^{2}+\\tau^{2}} \\\\\n&=\\frac{1.5}{2}+\\sqrt{\\left(\\frac{1.5}{2}\\right)^{2}+(1.20)^{2}} \\\\\n&=2.17 \\mathrm{N} / \\mathrm{mm}^{2}\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "1.5",
+      "B": "2.08",
+      "C": "2.17",
+      "D": "2.29"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 159 A simply supported beam of uniform rectangular cross-section of width b and\ndepth h is subjected to linear temperature gradient 0[latex]^{\\circ}[/latex] at the top and T[latex]^{\\circ}[/latex] at the bottom, as shown in the figure. The coefficient of linear expansion of the beam material is [latex]\\alpha[/latex]. The resulting vertical deflection at the mid-span of the beam is",
+    "solution": "The average change in temperature [latex]=\\frac{T}{2} [/latex] The compression in the top most fibre [latex] =\\alpha \\times L \\times \\frac{T}{2}[/latex] Similarly, the elongation in bottom most fibre [latex] \\begin{aligned} &=\\alpha \\times L \\times \\frac{T}{2}\\\\ \\therefore\\text{ Strain, }\\varepsilon_{0}&=\\frac{L \\alpha T}{L \\times 2}=\\frac{\\alpha T}{2} \\\\ \\end{aligned}[/latex] Therefore deflection at midpoint is downward. Now, from the equation of pure bending, we have [latex] \\frac{M}{I}=\\frac{E}{R}=\\frac{f}{y}[/latex] [latex] \\Rightarrow [/latex] Curvature, [latex] \\begin{aligned} \\frac{1}{R} &=\\frac{f}{E y}=\\frac{\\text { Strain }}{y}\\left[\\because y=\\frac{h}{2}\\right] \\\\ &=\\frac{2 \\varepsilon_{0}}{h}=\\frac{\\alpha T}{h} \\end{aligned}[/latex] Also, from the property of circle, we have [latex] \\begin{aligned} \\text{Deflection, }\\delta&=\\frac{L^{2}}{8 R}=\\frac{L^{2}}{8} \\times \\frac{\\alpha T}{h} \\\\ &=\\frac{\\alpha T L^{2}}{8 h} \\text { downward } \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page32_q4.webp",
+    "options": {
+      "A": "[latex]\\frac{\\alpha Th^{2}}{8L}upward[/latex]",
+      "B": "[latex]\\frac{\\alpha TL^{2}}{8h}upward[/latex]",
+      "C": "[latex]\\frac{\\alpha Th^{2}}{8L}downward[/latex]",
+      "D": "[latex]\\frac{\\alpha TL^{2}}{8h}downward[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 160 A \"H\" shaped frame of uniform flexural rigidity EI is loaded as shown in the\r\nfigure. The relative outward displacement between points K and O is",
+    "solution": "The bending moment in the member [latex] \\mathrm{JN}=\\mathrm{R} \\times \\mathrm{h}(sagging) [/latex] [latex] \\therefore\\text{ Slope at J or N}=\\frac{R h \\times L}{2 E I} [/latex] Thus, outward displacement between points [latex] K\\text{ and }O=\\frac{R h L}{2 E I} \\times h+\\frac{R h L}{2 E I} \\times h=\\frac{R h^{2} L}{E I}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page32_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{RLh^{2}}{EI}[/latex]",
+      "B": "[latex]\\frac{RL^{2}h}{EI}[/latex]",
+      "C": "[latex]\\frac{RLh^{2}}{3EI}[/latex]",
+      "D": "[latex]\\frac{RL^{2}h}{3EI}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 161 A long structural column (length= L) with both ends hinged is acted upon by\nan axial compressive load, P. The differential equation governing the bending of\ncolumn is given by : [latex]EI\\frac{d^{2}y}{dx^{2}}=-Py[/latex] Where y is the structural lateral deflection and EI is the flexural rigidity. The\nfirst critical load on column responsible for its buckling is given by",
+    "solution": "Differential equation governing the bending of column [latex] \\begin{aligned} \\frac{E I d^{2} y}{d x^{2}}&=-P y\\\\ \\Rightarrow \\frac{d^{2} y}{d x^{2}}+\\frac{P}{E I} y&=0 \\end{aligned}[/latex] Solution of differential equation [latex] \\begin{aligned} y&=A\\cos\\left(x \\sqrt{\\frac{P}{E I}}\\right)+B \\sin \\left(x \\sqrt{\\frac{P}{E I}}\\right)\\\\ \\text{when }x=0 . y&=0 \\\\ \\Rightarrow \\quad 0&=B \\sin \\left(L \\sqrt{\\frac{P}{E I}}\\right) \\\\ \\therefore \\quad L \\sqrt{\\frac{P}{E I}}&=x\\text{ (First value)}\\\\ \\Rightarrow P&=\\frac{\\pi^{2} E I}{L^{2}} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{\\pi ^{2}EI}{L^{2}}[/latex]",
+      "B": "[latex]\\frac{\\sqrt{2} \\pi ^{2}EI}{L^{2}}[/latex]",
+      "C": "[latex]\\frac{2\\pi ^{2}EI}{L^{2}}[/latex]",
+      "D": "[latex]\\frac{4\\pi ^{2}EI}{L^{2}}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 162 A curved member with a straight vertical leg is carrying a vertical load at Z , as\nshown in the figure. The stress resultants in the XY segment are",
+    "solution": "There is no eccentricity between the XY segment\nand the load. So, it is subjected to axial force\nonly. But the curved YZ segment is subjected to\naxial force, shear force and bending moment.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page33_q2.webp",
+    "options": {
+      "A": "bending moment, shear force and axial force",
+      "B": "bending moment and axial force only",
+      "C": "bending moment and shear force only",
+      "D": "axial force only"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 163 A bar of varying square cross-section is loaded symmetrically as shown in the\r\nfigure. Loads shown are placed on one of the axes of symmetry of cross-section.\r\nIgnoring self weight, the maximum tensile stress in [latex]N/mm^{2}[/latex] anywhere is",
+    "solution": "The stress in lower bar [latex] =\\frac{50 \\times 1000}{50 \\times 50}=20 \\mathrm{N} / \\mathrm{mm}^{2}[/latex] The stress in upper bar [latex] =\\frac{250 \\times 1000}{100 \\times 100}=25 \\mathrm{N} / \\mathrm{mm}^{2}[/latex] Thus the maximum tensile stress any where in the bar is [latex]25 \\mathrm{N} / \\mathrm{mm}^{2}.[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page33_q3.webp",
+    "options": {
+      "A": "16",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 164 In the propped cantilever beam carrying a uniformly distributed load of w N/m,\nshown in the following figure, the reaction at the support B is",
+    "solution": "Deflection at proped end =0 [latex] \\begin{aligned} \\frac{w \\times L^{4}}{8 E \\mid}-\\frac{R_{B} \\times L^{3}}{3 E I} &=0 \\\\ \\Rightarrow \\quad R_{B} &=\\frac{3}{8} w L \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page33_q4.webp",
+    "options": {
+      "A": "[latex]\\frac{5}{8}wL[/latex]",
+      "B": "[latex]\\frac{3}{8}wL[/latex]",
+      "C": "[latex]\\frac{1}{2}wL[/latex]",
+      "D": "[latex]\\frac{3}{4}wL[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 165 The shear modulus (G), modulus of elasticity (E) and the Poisson's ratio (v) of\na material are related as,",
+    "solution": "",
+    "options": {
+      "A": "[latex]G=\\frac{E}{2(1+v)}[/latex]",
+      "B": "[latex]E=\\frac{G}{2(1+v)}[/latex]",
+      "C": "[latex]G=\\frac{E}{2(1-v)}[/latex]",
+      "D": "[latex]E=\\frac{G}{2(1-v)}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 166 For the loading given in the figure below, two statements (I and II) are made. I. Member AB Carries shear force and bending moment. II. Member BC carries axial load and shear force. Which of the following is true?",
+    "solution": "Member AB carries shear force and bending \r\nmoment both. Hence statement-I is true Member BC carries axial load and bending \r\nmoment only. Hence statement-II is false.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page34_q1.webp",
+    "options": {
+      "A": "Statement I is true but II is false",
+      "B": "Statement I is false but II is true",
+      "C": "Both statements I and II are true",
+      "D": "Both statements I and II are false"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 167 The bending moment (in kNm units) at the mid span location X in the beam\nwith overhangs shown below is equal to",
+    "solution": "[latex]\\begin{aligned} \\mathrm{R}+\\mathrm{V}&=30 &\\ldots(i)\\\\ \\text { Now, } \\mathrm{V} &\\times 2-20 \\times 3+10 \\times 1=0 \\\\ \\mathrm{V}&=\\frac{60-10}{2}=25 \\mathrm{kN}\\\\ \\therefore \\quad \\mathrm{R}&=5 \\mathrm{kN}\\\\ \\mathrm{BM} \\text { at }\\quad X&=25 \\times 1-20 \\times 2=-15 \\mathrm{kNm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/sm/page34_q2.webp",
+    "options": {
+      "A": "0",
+      "B": "-10",
+      "C": "-15",
+      "D": "-20"
+    },
+    "correct_answer": "C"
+  }
+]

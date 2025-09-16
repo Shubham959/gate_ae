@@ -1,0 +1,964 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 The peak of flood hydrograph due to a 3-hour duration storm in a catchment is 180 [latex] \\text{m}^3/\\text{s} [/latex]. The total rainfall depth is 6.6 cm. It can be assumed that the average infiltration loss is 0.2 cm/h. There are no other losses. The base flow is constant at a value of 30 [latex] \\text{m}^3/\\text{s} [/latex]. The peak value of the 3-hour unit hydrograph for this catchment (in [latex] \\text{m}^3/\\text{s} [/latex]) is ______ (round off to the nearest integer).",
+    "solution": "Step 1: Calculate effective rainfall (runoff depth): Infiltration loss = [latex] 0.2 , \\text{cm/h} [/latex] for 3 hours = [latex] 0.6 , \\text{cm} [/latex] Effective rainfall = [latex] 6.6 - 0.6 = 6.0 , \\text{cm} [/latex] Step 2: Calculate direct runoff peak flow: Total peak discharge = [latex] 180 , \\text{m}^3/\\text{s} [/latex] Base flow = [latex] 30 , \\text{m}^3/\\text{s} [/latex] Direct runoff peak = [latex] 180 - 30 = 150 , \\text{m}^3/\\text{s} [/latex] Step 3: Compute peak of unit hydrograph: Since the rainfall depth (i.e., runoff) corresponds to 6.0 cm, then peak of 3-hour unit hydrograph = [latex] \\frac{150}{6} = 25 , \\text{m}^3/\\text{s} [/latex] Answer: [latex] \\boxed{25 , \\text{m}^3/\\text{s}} [/latex]",
+    "min": 25.0,
+    "max": 25.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 In the context of the effect of drainage density on the run-off generation and the hydrograph at the catchment outlet, all other factors remaining the same, pick one or more CORRECT statement(s) from the choices given below.",
+    "solution": "Understanding Drainage Density: Drainage density is defined as the total length of streams and rivers in a basin divided by the total area of the basin. [latex]\\text{Drainage Density} = \\frac{\\text{Total Length of Streams}}{\\text{Catchment Area}}[/latex] Effect on Runoff and Hydrograph: A higher drainage density means that water reaches the outlet faster, leading to a sharper and higher peak in the flood hydrograph and a shorter time base. A lower drainage density implies that water takes longer to concentrate, causing a broader hydrograph with a lower peak and a longer time base. Statement (A): This is incorrect. Lower drainage density leads to lower, not higher, flood peaks. Statement (B): Correct. Lower drainage density causes slower concentration of runoff and hence a lower peak in the hydrograph. Statement (C): Correct. Lower drainage density leads to slower runoff and hence a longer time base. Statement (D): Incorrect. Lower drainage density leads to longer, not shorter, time base. Final Answer: (B) and (C) are correct.",
+    "options": {
+      "A": "Lower drainage density results in higher peak in flood hydrograph compared to that when the drainage density is higher.",
+      "B": "Lower drainage density results in lower peak in flood hydrograph compared to that when the drainage density is higher.",
+      "C": "Lower drainage density results in a flood hydrograph with a longer time base compared to that when the drainage density is higher.",
+      "D": "Lower drainage density results in a flood hydrograph with a shorter time base compared to that when the drainage density is higher."
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 The mean rainfall over a catchment has to be estimated. The data for four rain gauges located in and around the catchment is listed in the table. Which one of the following statements is correct: [latex]\n\\begin{array}{|l|c|c|c|c|}\n\\hline\n\\text{Rain gauge station }& P & Q & R & S \\\\\n\\hline\n\\text{Whether located inside the catchment} & Yes & Yes & Yes & No \\\\\n\\hline\n\\text{Thiessen weightage factor }& 0.25 & 0.50 & 0.10 & 0.15 \\\\\n\\hline\n\\text{Rainfall (mm)} & 100 & 110 & 100 & 125 \\\\\n\\hline\n\\end{array}\n[/latex]",
+    "solution": "Given Data: Rainfall (mm): P = 100, Q = 110, R = 100, S = 125 Thiessen Weights: P = 0.25, Q = 0.50, R = 0.10, S = 0.15 1. Arithmetic Mean (Only Inside the Catchment) Stations considered: P, Q, R [latex] \\text{Arithmetic Mean} = \\frac{100 + 110 + 100}{3} = \\frac{310}{3} = 103.33 \\ \\text{mm} [/latex] 2. Thiessen Mean (All Stations with Given Weights) [latex] \\text{Thiessen Mean} = (0.25)(100) + (0.50)(110) + (0.10)(100) + (0.15)(125) \\ = 25 + 55 + 10 + 18.75 = 108.75 \\ \\text{mm} [/latex] Conclusion: [latex] \\text{Thiessen Mean (108.75 mm)} > \\text{Arithmetic Mean (103.33 mm)} [/latex] Correct Option: (A) The estimate obtained from the Thiessen-mean method is greater than that obtained using the arithmetic-mean method.",
+    "options": {
+      "A": "The estimate obtained from the Thiessen-mean method is greater than that obtained using the arithmetic-mean method",
+      "B": "The estimate obtained from the Thiessen-mean method is equal to that obtained using the arithmetic-mean method",
+      "C": "The estimate obtained from the Thiessen-mean method is less than that obtained using the arithmetic-mean method",
+      "D": "The Thiessen-mean method cannot be applied in this case"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 4 A water resources project with an expected life of 25 years has to be designed for an acceptable risk of [latex]5 \\%[/latex] against a design flood. The return period for the design flood (in years) is _________ (rounded off to the nearest integer).",
+    "solution": "To find the return period (T) for a given acceptable risk (R) over the project life (n), we use the formula: [latex] R = 1 - \\left(1 - \\frac{1}{T} \\right)^n [/latex] Given: [latex] R = 0.05 [/latex] (5% acceptable risk) [latex] n = 25 [/latex] years Rearranging the formula to solve for T: [latex] 0.05 = 1 - \\left(1 - \\frac{1}{T} \\right)^{25} [/latex] [latex] \\left(1 - \\frac{1}{T} \\right)^{25} = 0.95 [/latex] Taking natural log on both sides: [latex] 25 \\cdot \\ln\\left(1 - \\frac{1}{T} \\right) = \\ln(0.95) [/latex] [latex] \\ln\\left(1 - \\frac{1}{T} \\right) = \\frac{\\ln(0.95)}{25} [/latex] [latex] 1 - \\frac{1}{T} = e^{\\frac{\\ln(0.95)}{25}} [/latex] [latex] \\frac{1}{T} = 1 - e^{\\frac{\\ln(0.95)}{25}} [/latex] Now calculate: [latex] \\frac{1}{T} = 1 - e^{-0.002051} \\approx 1 - 0.99795 = 0.00205 [/latex] [latex] T = \\frac{1}{0.00205} \\approx 487.8 [/latex] Final Answer: [latex] \\boxed{488} [/latex]",
+    "min": 476.0,
+    "max": 500.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 To derive the total flood hydrograph at a catchment outlet from an isolated storm, the order in which the following methods are applied, from the first method to the last method, is P. Obtaining the hyetograph Q. Addition of baseflow R. Estimation of initial and infiltration losses S. Application of unit hydrograph",
+    "solution": "To derive the total flood hydrograph at a catchment outlet from an isolated storm, the correct order of methods is: [latex]\\text{Step 1: Obtain the hyetograph}[/latex] [latex]\\text{Step 2: Estimate initial and infiltration losses to compute effective rainfall}[/latex] [latex]\\text{Step 3: Apply unit hydrograph to derive direct runoff hydrograph (DRH)}[/latex] [latex]\\text{Step 4: Add baseflow to DRH to get total flood hydrograph}[/latex] [latex]\\text{Correct Order: P} \\rightarrow \\text{R} \\rightarrow \\text{S} \\rightarrow \\text{Q}[/latex]",
+    "options": {
+      "A": "PRSQ",
+      "B": "PQRS",
+      "C": "RPSQ",
+      "D": "PSQR"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 6 A storm with a recorded precipitation of [latex] 11.0 \\mathrm{~cm} [/latex], as shown in the table, produced a direct run-off of [latex] 6.0 \\mathrm{~cm} [/latex] [latex]\n\\begin{array}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\begin{array}{c}\nTime from \\\\\nstart (hours) \\\\\n\\end{array} & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\\\\n\\hline\n\\begin{array}{c}\nRecorded \\\\\ncumulative \\\\\nprecipitation \\\\\n (\\mathrm{cm})  \\\\\n\\end{array} & 0.5 & 1.5 & 3.1 & 5.5 & 7.3 & 8.9 & 10.2 & 11.0 \\\\\n\\hline\n\\end{array}\n[/latex] The [latex] \\phi [/latex]-index of this storm is ____[latex] \\mathrm{cm} / \\mathrm{hr} [/latex]\n(rounded off to 2 decimal places)",
+    "solution": "Assume [latex] \\phi \\leq \\mathrm{i}_{\\text {lowest }} [/latex] [latex]\n\\begin{aligned}\n\\phi & =\\left(\\frac{\\mathrm{P}-\\mathrm{R}}{\\mathrm{t}}\\right)_{\\text {eff. duration }} \\\\\n& =\\frac{11-6}{8}=0.625\n\\end{aligned}\n [/latex] Assume [latex] 0.625 \\lt \\phi \\leq 0.8 [/latex] [latex]\n\\begin{aligned}\n\\phi & =\\left(\\frac{P-R}{t}\\right)_{\\text {eff. }} \\\\\n& =\\frac{10.5-6}{7}=0.643\n\\end{aligned}\n [/latex] [latex]\n\\begin{array}{c|c|c}\n \\mathrm{t}(\\mathrm{m}) & Rainfall \\; (\\mathrm{cm})  & Intensity \\; \\mathrm{cm} / \\mathrm{h}  \\\\\n\\hline\n 0-1  & 0.5 & 0.5 \\\\\n 1-2  & 1 & 1 \\\\\n 2-3 & 1.6 & 1.6 \\\\\n3-4  & 2.4 & 2.4 \\\\\n 4-5 & 1.8 & 1.8 \\\\\n 5-6  & 1.6 & 1.6 \\\\\n 6-7  & 1.3 & 1.3 \\\\\n7-8  & 0.8 & 0.8 \\\\\n\\end{array}\n [/latex]",
+    "min": 0.64,
+    "max": 0.65
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 The ordinates of a 1-hour unit hydrograph [latex](\\mathrm{UH}) [/latex] are given below. These ordinates are used to derive a 3-hour UH. The peak discharge (in [latex]\\mathrm{m}^{3} / \\mathrm{s} [/latex] ) for the derived 3-hour UH is ______(rounded off to the nearest integer).",
+    "solution": "Maximum ordinate of [latex]3 \\mathrm{H} \\mathrm{UH} [/latex] is [latex]86.67 \\mathrm{~m}^{3} / \\mathrm{s} [/latex] Maximum ordinate is [latex]87 \\mathrm{~m}^{3} / \\mathrm{s} [/latex] (to nearest integer)",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page2_q2.webp",
+    "min": 86.0,
+    "max": 88.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 8 A [latex] 2 \\mathrm{~m} \\times 2 \\mathrm{~m}[/latex] tank of [latex] 3 \\mathrm{~m}[/latex] height has inflow, outflow and stirring mechanisms. Initially, the tank was half filled with fresh water. At [latex] t=0 [/latex], an inflow of salt a solution of concentration [latex] 5 \\mathrm{~g} / \\mathrm{m}^{3}[/latex] at the rate of 2 litre/s and an outflow of the well stirred mixture at the rate of 1 litre/s are initiated. This process can be modeled using the following differential equation. [latex]\\frac{d m}{d t}+\\frac{m}{6000+t}=0.01\n[/latex] where [latex] m[/latex]  is the mass (grams) of salt at time [latex] t[/latex]  (seconds). The mass of the salt (in grams) in the tank at [latex] 75 \\%[/latex]  of its capacity is ______(rounded off to 2 decimal places).",
+    "solution": "Total capacity of tank [latex] =2 \\times 2 \\times 3=12 \\mathrm{~m}^{3}[/latex] At [latex] 50 \\%[/latex]  capacity, [latex]\\text { Volume }\\left(V_{50}\\right)=0.5 \\times 12=6 \\mathrm{~m}^{3}[/latex] At [latex] 75 \\%[/latex]  capacity, [latex]\\text { Volume }\\left(V_{75}\\right)=0.75 \\times 12 \\mathrm{~m}^{3}=9 \\mathrm{~m}^{3}[/latex] Now, increase in volume [latex]\\Delta V=V_{75}-V_{50}=(9-6) \\mathrm{m}^{3}=3 \\mathrm{~m}^{3}[/latex] Also, [latex]\\text { Inflow }(I)=2 \\mathrm{l} / \\mathrm{s}[/latex] Outflow [latex] (Q)=1 \\mathrm{l} / \\mathrm{s}[/latex] Rate of change storage, [latex]\\begin{aligned}\n\\frac{\\Delta S}{\\Delta t} & =I-Q=2-1=1 \\mathrm{l} / \\mathrm{s} \\\\\n& =\\frac{3000 l}{1 \\mathrm{l} / \\mathrm{s}}=3000 \\mathrm{sec}\n\\end{aligned}[/latex] Now, [latex]\\frac{d m}{d t}+\\frac{m}{6000+t}=0.01\n[/latex] [latex]\\Rightarrow \\quad \\frac{d m}{d t}+\\frac{m}{6000+3000}=0.01[/latex] [latex]\\Rightarrow \\quad \\frac{d m}{d t}+\\frac{m}{9000}=0.01[/latex] [latex]\\Rightarrow \\quad \\frac{d m}{0.01-\\frac{m}{9000}}=d t[/latex] Integrating both sides [latex]\\Rightarrow \\quad \\int_{m_{0}=0}^{m} \\frac{d m}{0.01-\\frac{m}{9000}}=\\int_{t=0}^{t=3000} d t[/latex] [latex]\\Rightarrow \\quad \\frac{\\left[\\ln \\left(0.01-\\frac{m}{9000}\\right)\\right]_{0}^{m}}{-\\frac{1}{9000}}=(3000-0)[/latex] [latex]\\Rightarrow \\quad \\ln \\left(0.01-\\frac{m}{9000}\\right)-\\ln 0.01=-\\frac{1}{9000} \\times 3000 [/latex] [latex]\\begin{array}{rlrl}\n\\Rightarrow & & \\ln \\left(0.01-\\frac{m}{9000}\\right) & =-4.938 \\\\\n\\Rightarrow & 0.01-\\frac{m}{9000} & =7.165 \\times 10^{-3} \\\\\n\\Rightarrow & m & =25.5 \\mathrm{gm}\n\\end{array}[/latex]",
+    "min": 24.5,
+    "max": 25.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 The return period of a large earthquake for a given region is 200 years. Assuming that earthquake occurrence follows Poisson's distribution, the probability that it will be exceeded at least once in 50 years is ______[latex]\\% [/latex]. (rounded off to the nearest integer).",
+    "solution": "[latex]\n\\begin{aligned}\n\\Rightarrow \\quad \\text { Risk } & =1-\\left[\\frac{\\lambda^{r} \\cdot e^{-\\lambda}}{r !}\\right] \\\\\n& =1-\\left[\\frac{\\lambda^{0} \\cdot e^{-\\lambda}}{0 !}\\right] \\\\\n\\lambda & =n p=50 \\times \\frac{1}{200}=0.25 \\\\\n\\text { Now, } \\quad \\text { Risk } & =1-\\left[e^{-0.25}\\right] \\\\\n& =0.2211 \\text { or } 22.11 \\%\n\\end{aligned}\n [/latex]",
+    "min": 21.0,
+    "max": 23.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 The cross-section of a small river is sub-divided into seven segments of width [latex]1.5 \\mathrm{~m}[/latex] each. The average depth, and velocity at different depths were measured during a field campaign at the middle of each segment width. The discharge computed by the velocity area method for the given data is ____ [latex]\\mathrm{m}^{3} / \\mathrm{s}[/latex] (round off to one decimal place).",
+    "solution": "Average width for 1 st land last sections, [latex]\r\n\\begin{aligned}\r\n\\bar{\\omega}_{1}=\\bar{\\omega}_{\\mathrm{n}} & =\\frac{\\left(\\omega_{1}+\\frac{\\omega_{2}}{2}\\right)^{2}}{2 \\omega_{1}} \\\\\r\n& =\\frac{\\left(1.5+\\frac{1.5}{2}\\right)^{2}}{2 \\times 1.5} \\\\\r\n& =1.6875 \\mathrm{~m}\r\n\\end{aligned}\r\n[/latex] [latex]\r\n\r\n\\begin{array}{|c|c|c|c|}\r\n\\hline\r\n\\begin{array}{l}\\text { Avg. width } \\\\ \\text { (m) } \\\\ \\text { (1) }\\end{array} & \\begin{array}{l}\\text { Avg. Depth } \\\\ \\text { (m) } \\\\ \\text { (2) }\\end{array} & \\begin{array}{l}\\text { Avg. Velocity } \\\\ \\text { (m/s) } \\\\ \\text { (3) }\\end{array} & \\begin{array}{c}\\text { Segmental } \\\\ \\text { discharge } \\\\ \\left(\\mathrm{m}^{3} / \\mathrm{s}\\right)=(1) \\times(2) \\times(3)\\end{array} \\\\\r\n\\hline\r\n1.6875 & 0.40 & 0.40 & 0.270 \\\\\r\n\\hline\r\n1.5 & 0.70 & \\frac{0.76+0.70}{2}=0.73 & 0.767 \\\\\r\n\\hline\r\n1.5 & 1.20 & \\frac{1.19+1.13}{2}=1.16 & 2.088 \\\\\r\n\\hline\r\n1.5 & 1.40 & \\frac{1.25+1.10}{2}=1.175 & 2.467 \\\\\r\n\\hline\r\n1.5 & 1.10 & \\frac{1.13+1.09}{2}=1.11 & 1.831 \\\\\r\n\\hline\r\n1.5 & 0.80 & \\frac{0.69+0.65}{2}=0.67 & 0.804 \\\\\r\n\\hline\r\n1.6875 & 0.45 & 0.42 & 0.319 \\\\\r\n\\hline\r\n &  &  & \\Sigma=8.546 \\\\\r\n\\hline\r\n\\end{array}\r\n\r\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page2_q5.webp",
+    "min": 8.4,
+    "max": 8.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 11 A catchment may be idealized as a circle of radius [latex]30 \\mathrm{~km}[/latex]. There are five rain gauges, one at the center of the catchment and four on the boundary (equi-spaced), as shown in the figure (not to scale). The annual rainfall recorded at these gauges in a particular year are given below. [latex]\r\n\r\n\\begin{array}{|c|c|c|c|c|c|}\r\n\\hline\r\nGauge & \\mathrm{G}_{1} & \\mathrm{G}_{2} & \\mathrm{G}_{3} & \\mathrm{G}_{4} & \\mathrm{G}_{5} \\\\\r\n\\hline\r\nRainfall (mm) & 910 & 930 & 925 & 895 & 905 \\\\\r\n\\hline\r\n\\end{array}\r\n\r\n[/latex] Using the Thiessen polygon method, what is the average rainfall (in [latex]\\mathrm{mm}[/latex], rounded off to two decimal places) over the catchment in that year ? ___",
+    "solution": "Radius of basin [latex]=30 \\mathrm{~km}[/latex] We know that in Theissen polygon method, the polygons are obtained by joining the perpendicular bisectors of triangles formed, when various rain gauge stations are joined. The Theissen polygon in the given basin can be drawn as: Area under influence of station GI [latex]=30 \\times 30=900 \\mathrm{~km}^{2}[/latex] Area under influence of stations G2, G3, G4, G5 [latex]=\\frac{\\pi \\times 30^{2}-900}{4}[/latex] [latex]=481.86 \\mathrm{~km}^{2}[/latex] mean rainfall [latex]=\\frac{\\begin{array}{c}910 \\times 900+481.86 \\times 930+ \\\\ 481.86 \\times 925+481.86 \\times 895+ \\\\ 481.86 \\times 905\\end{array}}{900+481.86 \\times 4}[/latex]\r\n\r\n[latex]=912.56 \\mathrm{~mm}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page3_q1.webp",
+    "min": 912.28,
+    "max": 912.82
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Which one of the following options provides the correct match of the terms listed in Column-I and Column-2 ? [latex]\r\n\\begin{array}{|l|l|}\r\n\\hline\r\n\\text{Column-I} & \\text{Column-II} \\\\\r\n\\hline\r\n\\text{P : Horton equation} & \\text{I: Precipitation} \\\\\r\n\\hline\r\n\\text{Q : Muskingum method} & \\text{II: Flood frequency} \\\\\r\n\\hline\r\n\\text{R : Penman method} & \\text{III: Evapotranspiration} \\\\\r\n\\hline\r\n & \\text{IV : Infiltration} \\\\\r\n\\hline\r\n & \\text{V : Channel routing} \\\\\r\n\\hline\r\n\\end{array}\r\n[/latex]",
+    "solution": "Horton's equation is used to calculate total infiltration. Muskingum method is used in flood response analysis in channels. Penman equation is used to calculate potential evapotranspiration.",
+    "options": {
+      "A": "P-IV, Q-V, R-III",
+      "B": "P-III, Q-IV, R-I",
+      "C": "P-IV, Q-III, R-II",
+      "D": "P-III, Q-I, R-IV"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 In Horton's equation fitted to the infiltration data for a soil, the initial infiltration capacity is [latex]10 \\mathrm{~mm} / \\mathrm{h}[/latex]; final infiltration capacity is [latex]5 \\mathrm{~mm} / \\mathrm{h}[/latex]; and the exponential decay constant is [latex]0.5 \\mathrm{~h}[/latex]. Assuming that the infiltration takes place at capacity rates, the total infiltration depth (in [latex]\\mathrm{mm}[/latex] ) from a uniform storm of duration [latex]12 \\mathrm{~h}[/latex] is ____. (round off to one decimal place)",
+    "solution": "[latex]\\begin{aligned}\nf_{0} & =10 \\text { meter } \\\\\nf_{C} & =5 \\text { meter } \\\\\nK & =0.5 h r^{-1} \\\\\nf & =f_{c}+\\left(f_{0}-f_{c}\\right) e^{-k t} \\\\\nf & =5+5 e^{-0.5 \\times t}\n\\end{aligned}[/latex] At capacity rates i.e. [latex]t \\rightarrow \\infty[/latex] [latex]\\begin{aligned}\nf & =5+5 e^{-0.5 \\times \\infty} \\\\\n& =5 \\text { meters }\n\\end{aligned}[/latex] Infiltration in [latex]12 \\mathrm{hr} .=5 \\times 12=60 \\mathrm{~mm}[/latex] If above is not the case : then [latex]\\begin{aligned}\n\\text { Infiltration } & =\\int \\mathrm{fdt} \\\\\n& =\\int_{0}^{12} 5+5 \\mathrm{e}^{-0.5 \\mathrm{t}} \\mathrm{dt} \\\\\n& =5 \\times(\\mathrm{t})_{0}^{12}+\\left.\\frac{5}{-0.5} \\mathrm{e}^{-0.5 \\mathrm{t}}\\right|_{0} ^{2} \\\\\n& =60+10\\left(1-\\mathrm{e}^{-0.5 \\times 12}\\right) \\\\\n& =69.975 \\mathrm{~mm}=70 \\mathrm{~mm}\n\\end{aligned}[/latex]",
+    "min": 69.7,
+    "max": 70.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 A 12-hour storm occurs over a catchment and results in a direct runoff depth of [latex]100 \\mathrm{~mm}[/latex]. The time-distribution of the rainfall intensity is shown in the figure (not to scale). The [latex]\\phi[/latex]-index of the storm is (in [latex]\\mathrm{mm}[/latex], rounded off to two decimal places)_____",
+    "solution": "[latex]D=12[/latex] hrs. Direct runoff [latex](R)=100 \\mathrm{~mm}=10 \\mathrm{~cm}[/latex] [latex]\\mathrm{P}=[/latex] total rainfall [latex]P=[/latex] Area under above diagram [latex]P=\\frac{1}{2} \\times(12+2) \\times 20[/latex] [latex]=14 \\times 10=140 \\mathrm{~mm}=14 \\mathrm{~cm}[/latex] Total Infiltration [latex]=[/latex] Total rainfall [latex]-[/latex] runoff [latex]=140-100=40 \\mathrm{~mm}[/latex] Assuming infiltration rate as [latex]x\\; \\mathrm{ mm} / \\mathrm{hr}[/latex]. [latex]\\frac{x}{y_{1}}=\\frac{20}{4}[/latex] [latex]y_{1}=\\frac{x}{5}[/latex] [latex]\\begin{aligned}\r\n& y_{2}=\\frac{x}{y_{2}}=\\frac{20}{6} \\\\\r\n& y_{2}=\\frac{3 x}{10}\r\n\\end{aligned}[/latex] Total Infiltration = Area under rainfall intensity duration curve Area of same curve below [latex]\\phi[/latex]-index line. [latex]\\Rightarrow \\frac{1}{2} \\times \\frac{x}{5} \\times x+\\frac{1}{2} \\times \\frac{3 x}{10} \\times x+\\left(12-\\frac{5 x}{10}\\right) \\times x=40[/latex] [latex]\\Rightarrow \\frac{x^{2}}{10}+\\frac{3 x^{2}}{20}+12 x-\\frac{5 x^{2}}{10}=40[/latex] [latex]\\Rightarrow-\\frac{5 x^{2}}{20}+12 x=40[/latex] [latex]\\Rightarrow \\mathrm{x}^{2}-48 \\mathrm{x}+160=0[/latex] [latex]\\Rightarrow \\quad \\mathrm{x}=3.6[/latex] and [latex]\\mathrm{x}=44.39[/latex] [Discarded] [latex]\\Rightarrow \\quad \\phi=3.6 \\mathrm{~mm} / \\mathrm{hr}[/latex].",
+    "min": 3.6,
+    "max": 3.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 The ordinates of a one-hour unit hydrograph for a catchment are given below : [latex]\r\n\r\n\\begin{array}{|l|l|l|l|l|l|l|l|l|}\r\n\\hline\r\n\\mathrm{t} (hour) & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\\\\r\n\\hline\r\n\\mathrm{Q}\\left(\\mathrm{m}^{3} / \\mathrm{s}\\right) & 0 & 9 & 21 & 18 & 12 & 5 & 2 & 0 \\\\\r\n\\hline\r\n\\end{array}\r\n[/latex] Using the principle of superposition, a D-hour unit hydrograph for the catchment was derived from the one-hour unit hydrograph. The ordinate of the D-hour unit hydrograph were obtained as [latex]3 \\mathrm{~m}^{3} / \\mathrm{s}[/latex] at [latex]t=1[/latex] hour and [latex]10 \\mathrm{~m}^{3} / \\mathrm{s}[/latex] at [latex]t=2[/latex] hour. the value of [latex]D[/latex] (in integer) is _____",
+    "solution": "Clearly seen The duration [latex]D=3[/latex] hours",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 16 A flood control structure having an expected life of n years is designed by\nconsidering a flood of return period [latex]T  [/latex] years. When [latex]T=n  [/latex], and [latex]n\\rightarrow \\infty  [/latex], the\nstructure's hydrologic risk of failure in percentage is .\n(round off to one decimal place)",
+    "solution": "Risk of failure [latex]=1-q^n=1-(1-p)^n=1-\\left ( 1-\\frac{1}{T} \\right )^n [/latex] For \n[latex] T=n\\rightarrow \\infty [/latex] Risk of failure [latex] =1-\\frac{1}{e}=0.632[/latex] % risk of failure = 0.632 x 100=63.2%",
+    "min": 63.0,
+    "max": 63.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 In a certain month, the reference crop evapotranspiration at a location is\n6 mm/day. If the crop coefficient and soil coefficient are 1.2 and 0.8, respectively,\nthe actual evapotranspiration in mm/day is",
+    "solution": "Actual evapotranspiration [latex](ET_C) [/latex] [latex]=K_S \\times K_C \\times [/latex] Reference evapotranspiration [latex](ET_0) [/latex] [latex] =0.8 \\times 1.2 \\times 6=5.76mm[/latex]",
+    "options": {
+      "A": "5.76",
+      "B": "7.2",
+      "C": "6.8",
+      "D": "8"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18 A two-hour duration storm event with uniform excess rainfall of 3 cm occurred\non a watershed. The ordinates of streamflow hydrograph resulting from this event\nare given in the table. [latex]\\begin{array}{|c|c|c|c|c|c|c|c|c|}\\hline\n \\text{Time (hours)}&  0&1  &2  &3  &4  &5  &6 &7 \\\\ \\hline\n \\text{Streamflow}(m^3/s)& 10 &16  & 34 &40  & 31 & 25 &16&10 \\\\ \\hline\n\\end{array} [/latex] Considering a constant baseflow of 10 [latex]m^3/s [/latex], the peak flow ordinate (in [latex]m^3/s [/latex]) of one-hour unit hydrograph for the watershed is ________ . (in integer)",
+    "solution": "[latex] C_1 [/latex] = Time [latex] C_2 [/latex] = Ordinates of 2hr DRH [latex] C_3 [/latex] = Ordinates of 2hr UH=(Ordinates of 2hr DRH)/(Rianfall excess of 3cm) [latex] C_4 [/latex] = S-curve lag by 2hr [latex] C_5 [/latex] = S-curve ordinates [latex] S_2 [/latex] [latex] C_6 [/latex] = [latex] S_1 [/latex] curve [latex] C_7 [/latex] = Ordinates of 1hr UH [latex]= \\frac{S_2-S-1}{1/2} [/latex] [latex]\\begin{array}{|c|c|c|c|c|c|c|}\n\\hline\nC_1& C_2& C_3& C_4& C_5& C_6&C_7 \\\\ \n\\hline 0&0 &0 &- &0 &- & 0\\\\ \\hline\n 1&6 & 2& -&2 & 0& 4\\\\ \\hline\n 2&24 & 8&0 &8 & 2&12 \\\\ \\hline\n 3&30 &10 &2 &12 &8 &8 \\\\ \\hline\n 4&21 & 7& 8& 15& 12& 6\\\\ \\hline\n 5&15 &5 & 12& 17& 15& 4\\\\ \\hline\n 6&6 & 2&  15& 17&17& 0\\\\ \\hline\n7 &0 & 0&  17& 17& 17&0\\\\ \\hline\n & &  & 17& 17& 17&0\\\\ \\hline\n\\end{array}  [/latex]",
+    "min": 12.0,
+    "max": 12.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 The hyetograph in the figure corresponds to a rainfall event of 3 cm. If the rainfall event has produced a direct runoff of 1.6 cm, the [latex]\\phi[/latex]-index of the event (in mm/hour,round off to one decimal place) would be",
+    "solution": "[latex]\\begin{aligned} \\text { Total rainfall } &=3 \\mathrm{~cm} \\\\ \\text { Total runoff } &=1.6 \\mathrm{~cm} \\\\ \\therefore \\qquad \\qquad \\qquad\\text { Total infiltration } &=3-1.6=1.4 \\mathrm{~cm}\\\\ \\therefore \\qquad \\qquad \\qquad \\qquad\\qquad\\text { W-index }&=\\frac{\\text { Total infiltration }}{\\text { Total duration of storm }}\\\\ &=\\frac{1.4}{(210 / 60)} \\mathrm{cm} / \\mathrm{hr} \\\\ &=0.4 \\mathrm{~cm} / \\mathrm{hr}=4 \\mathrm{~mm} / \\mathrm{hr}\\\\ \\text { As } \\phi \\text { -index }>\\text { W-index }\\qquad \\qquad \\end{aligned}[/latex] Hence storm of intensities 4 mm/hr and 3 mm/hr will not produce rainfall exam. [latex]\\begin{aligned} \\phi \\text { -index } &=\\frac{\\text { Total infiltration in which rainfall excess occur }}{\\text { Time period in which rainfall excess occur }} \\\\ &=\\frac{\\text { Total infiltration }-\\text { Infiltration in which no rainfall excess occur }}{T_{\\text {excess }}} \\\\ &=\\frac{14 \\mathrm{~mm}-\\left(4 \\times \\frac{30}{60}+3 \\times \\frac{30}{60}\\right) \\mathrm{mm}}{\\left(\\frac{150}{60}\\right) \\mathrm{hr}} \\\\ &=4.2 \\mathrm{~mm} / \\mathrm{hr} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page4_q4.webp",
+    "min": 4.2,
+    "max": 4.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 A 12-hour unit hydrograph (of 1 cm excess rainfall) of a catchment is of a triangular shape with a base width of 144 hour and a peak discharge of [latex]23 \\mathrm{~m}^{3} / \\mathrm{s}[/latex]. The area of the catchment (in [latex]\\mathrm{~km}^{2}[/latex],round off to the nearest integer) is _______",
+    "solution": "Area of hydrograph = Total direct runoff volume [latex]\\begin{aligned} \\Rightarrow \\frac{1}{2} \\times 23 \\mathrm{~m}^{3} / \\mathrm{sec} \\times 144 \\times &3600 \\mathrm{sec}=\\text { Area of catchment } \\times \\text { Runoff depth }\\\\ \\Rightarrow \\frac{1}{2} \\times 23 \\times 144 \\times 3600 \\mathrm{~m}^{3} &=A \\times \\frac{1}{100} \\mathrm{~m} \\\\ A &=596.16 \\times 10^{6} \\mathrm{~m}^{2} \\\\ \\therefore \\quad \\text{ Area of catchment }&=596.16 \\mathrm{~km}^{2} \\end{aligned}[/latex]",
+    "min": 595.0,
+    "max": 598.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 A tube-well of 20 cm diameter fully penetrates a horizontal, homogeneous and isotropic confined aquifer of infinite horizontal extent. The aquifer is of 30 m uniform thickness. A steady pumping at the rate of 40 litres/s from the well for a long time results in a steady drawdown of 4 m at the well face. The subsurface flow to the well due to pumping is steady, horizontal and Darcian and the radius of influence of the well is 245 m. The hydraulic conductivity of the aquifer (in m/day,round off to integer) is ______________",
+    "solution": "[latex]\\begin{aligned} 40 \\times 10^{-3} \\mathrm{~m}^{3} / \\mathrm{s} &=\\frac{2 \\pi k \\times 30 \\mathrm{~m} \\times 4 \\mathrm{~m}}{\\ln \\left(\\frac{245}{0.1}\\right)} \\\\ k &=4.14 \\times 10^{-4} \\mathrm{~m} / \\mathrm{s} \\\\ \\text{or, } \\qquad \\qquad \\qquad \\qquad k &=35.77 \\mathrm{~m} / \\mathrm{d} \\\\ &\\approx 36 \\mathrm{~m} / \\mathrm{d} (\\text{ round off to nearest integer}) \\end{aligned}[/latex]",
+    "min": 34.0,
+    "max": 38.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 The value of abscissa (x) and ordinate (y) of a curve are as follows: [latex]\\begin{array}{|c|c|} \\hline x & y \\\\ \\hline 2.0 & 5.00 \\\\ \\hline 2.5 & 7.25 \\\\ \\hline 3.0 & 10.00 \\\\ \\hline 3.5 & 13.25 \\\\ \\hline 4.0 & 17.00 \\\\ \\hline \\end{array}[/latex] By Simpson's [latex]1 / 3^{\\mathrm{rd}}[/latex] rule, the area under the curve (round off to two decimal places) is ______________",
+    "solution": "d = 0.5 unit [latex]\\begin{aligned} A &=\\frac{d}{3}\\left[\\left(y_{1}+y_{5}\\right)+4\\left(y_{2}+y_{4}\\right)+2 y_{3}\\right] \\\\ &=\\frac{0.5}{3}[(5+17)+4(7.25+13.25)+2 \\times 10] \\\\ &=20.67 \\text { unit }^{2} \\end{aligned}[/latex]",
+    "min": 20.0,
+    "max": 21.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 Two reservoirs are connected through a homogeneous and isotropic aquifer having hydraulic conductivity (K) of 25 m/day and effective porosity [latex](\\eta)[/latex] of 0.3 as shown in the figure (not to scale). Ground water is flowing in the aquifer at the steady state. If water in Reservoir 1 is contaminated then the time (in days, round off to one decimal place) taken by the contaminated water to reach to Reservoir 2 will be _____________",
+    "solution": "[latex]\\begin{aligned} k&=25 \\mathrm{~m} / \\mathrm{d} \\\\ n&=0.3 \\\\ i&=\\frac{20 \\mathrm{~m}}{2000 \\mathrm{~m}}=0.01 \\\\ V&=k i \\\\ V_{s}&=\\frac{V}{n} \\\\ t&=\\frac{l}{V_{s}} \\\\ t&=2400 \\mathrm{days} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page5_q3.webp",
+    "min": 2400.0,
+    "max": 2400.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 A triangular direct runoff hydrograph due to a storm has a time base of 90 hours. The\npeak flow of 60 [latex]m^3/s[/latex] occurs at 20 hours from the start of the storm. The area of catchment\nis 300 [latex]km^2[/latex]. The rainfall excess of the storm (in cm), is",
+    "solution": "[latex]\\left [ \\frac{\\frac{1}{2} \\times 60 m^3/s \\times 90 \\times 3600s}{300 \\times 10^6m^2} \\times 100 \\right ]cm[/latex]= Rainfall excess Rainfall excess = 3.24 cm",
+    "options": {
+      "A": "2",
+      "B": "3.24",
+      "C": "5.4",
+      "D": "6.48"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 Superpassage is a canal cross-drainage structure in which",
+    "solution": "Cross-section of a super passage",
+    "options": {
+      "A": "natural stream water flows with free surface below a canal",
+      "B": "natural stream water flows under pressure below a canal",
+      "C": "canal water flows with free surface below a natural stream",
+      "D": "canal water flows under pressure below a natural stream"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 Muskingum method is used in",
+    "solution": "Muskingum method is used in hydrological channel routing",
+    "options": {
+      "A": "hydrologic reservoir routing",
+      "B": "hydrologic channel routing",
+      "C": "hydraulic channel routing",
+      "D": "hydraulic reservoir routing"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 In a homogeneous unconfined aquifer of area 3.00 [latex]km^2[/latex], the water table was at an elevation\nof 102.00 m. After a natural recharge of volume 0.90 million cubic meter ([latex]Mm^2[/latex]), the water\ntable rose to 103.20 m. After this recharge, ground water pumping took place and the\nwater table dropped down to 101.020 m. The volume of ground water pumped after the\nnatural recharge, expressed (in [latex]Mm^2[/latex] and round off to two decimal places), is ______.",
+    "solution": "[latex]\\begin{aligned} V_R&=0.9Mm^3\\\\ V&=3 \\times (103.2-102)\\\\ y_s \\; \\text{or}\\; y_R&=\\frac{VR}{V}=\\frac{0.9}{3.6}\\\\ \\text{Now,}\\;\\; y_s&=\\frac{V_D}{V}\\\\ V_D&=\\frac{0.9}{3.6}[3 \\times (103.2-101.2)]\\\\ V_D&=1.5Mm^3 \\end{aligned}[/latex]",
+    "min": 1.4,
+    "max": 1.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 28 The probability that a 50 year flood may NOT occur at all during 25 years life of a project\n(round off to two decimal places), is _______.",
+    "solution": "[latex]\\begin{aligned} P&=\\frac{1}{T}=\\frac{1}{50}=0.02 \\\\ q&=1-P=0.98 \\end{aligned} [/latex] [latex]\\therefore \\;[/latex] Probability of non-occurance of an event is given by [latex]\\begin{aligned} \\text{Assurance} &= q^n \\\\ &= (0.98)^{25}\\\\ &= 0.603 \\end{aligned}[/latex]",
+    "min": 0.59,
+    "max": 0.61
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 The ordinates, u, of a 2-hour unit hydrograph (i.e., for 1 cm of effective rain), for a catchment are shown in the table. A 6-hour storm occurs over the catchment such that the effective rainfall intensity is 1 cm/hour for the first two hours, zero for the next two hours, and 0.5 cm/hour for the last two hours. If the base flow is constant at 5 [latex]m^3/s[/latex], the peak flow due to this storm (in [latex]m^3/s[/latex],round off to 1 decimal place) will be _____",
+    "solution": "Rainfall excess in 1st two hours, [latex]R_1=1cm/hr \\times 2 hr=2cm[/latex] Rainfall excess in 2nd two hours [latex]R_2=0[/latex] Rainfall excess in 3rd two hours, [latex]R_3=0.5cm/hr \\times 2 hr=1cm[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page6_q4.webp",
+    "min": 96.5,
+    "max": 97.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 An inflow hydrograph is routed through a reservoir to produce an outflow hydrograph. The peak flow of the inflow hydrograph is [latex]P_I[/latex] and the time of occurrence of the peak is [latex]t_I[/latex]. The peak flow of the outflow hydrograph is [latex]P_O[/latex] and the time of occurrence of the peak is [latex]t_O[/latex]. Which one of the following statements is correct?",
+    "solution": "The outflow from the reservoir is uncontrolled therefore peak of outflow hydrograph will occur at the junction of inflow and outflow hydrograph. [latex]P_I \\gt P_0[/latex] [latex]t_I \\lt t_0[/latex]",
+    "options": {
+      "A": "[latex]P_I \\lt P_O \\; and \\; t_I \\lt t_O[/latex]",
+      "B": "[latex]P_I \\lt P_O \\; and \\; t_I \\gt t_O[/latex]",
+      "C": "[latex]P_I \\gt P_O \\; and \\; t_I \\lt t_O[/latex]",
+      "D": "[latex]P_I \\gt P_O \\; and \\; t_I \\gt t_O[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 The hyetograph of a storm event of duration 140 minutesis shown in the figure. The infiltration capacity at the start of this event (t=0) is 17 mm/hour, which linearly decreases to 10 mm/hour after 40 minutes duration. As the event progresses, the infiltration rate further drops down linearly to attain a value of 4 mm/hour at t=100 minutes and remains constant thereafter till the end of the storm event. The value of the infiltration index, [latex]\\phi[/latex] (in mm/hour, round off to 2 decimal places), is _______",
+    "solution": "[latex]\\begin{aligned} P&=(4+8+15+10+8+3+1) \\times \\frac{20}{60} \\\\ &=16.33\\; minute \\\\ Q&=(15-10) \\times \\frac{20}{60} +(10-8) \\times \\frac{20}{60} \\\\ &+(8-6) \\times \\frac{20}{60} +\\frac{1}{2}\\times 2 \\times \\frac{20}{60}+\\frac{1}{2} \\\\ &+\\frac{1}{2}\\times 2 \\times \\frac{20}{60}+frac{1}{2}\\times 2 \\times \\frac{20}{60}\\\\ &=4mm\\\\ W-index&=\\frac{P-Q}{t}=\\frac{16.33-4}{\\frac{140}{60}}=5.28 mm/hr\\\\ \\text{Since,} \\; \\phi & \\geq W\\\\ \\text{Assume, }\\; \\phi &=5.28 mm/hr\\\\ \\Rightarrow \\; \\text{Corrected, }\\phi &=\\frac{16.33-4-4 \\times \\frac{20}{60}-3 \\times \\frac{20}{60}-1 \\times \\frac{20}{60}}{\\left ( \\frac{140-30-20-20}{60} \\right )} \\\\ &=7.2475 mm/hr \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page7_q1.webp",
+    "min": 7.0,
+    "max": 7.3
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 The probability that the annual maximum flood discharge will exceed 25000 [latex]m^3/s[/latex], at least once in next 5 years is found to be 0.25. The return period of this flood event (in years, round off to 1 decimal place) is ____",
+    "solution": "[latex]\\begin{aligned} \\text{Risk} &=1-q^n \\\\ 0.25&=1-q^5 \\\\ q&=0.944087 \\\\ 1-p&=0.944087 \\\\ 1-\\frac{1}{T}&=0.944087 \\\\ T&\\simeq 17.9 \\; \\text{years} \\end{aligned}[/latex]",
+    "min": 17.8,
+    "max": 18.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 A catchment may be idealised as a rectangle. There are three rain gauges located inside the catchment at arbitrary locations. The average precipitation over the catchment is estimated by two methods: (i) Arithmetic mean ([latex]P_A[/latex]), and (ii) Thiessen polygon ([latex]P_T[/latex]). Which one of the followingstatements is correct?",
+    "solution": "The result from Thiessen polygon method is more accurate than arithmetic mean method.\nBut there is no any close relationship between values obtained by Thiessen polygon method and Arithmetic mean method. Therefore, there is no any relation between [latex]P_A[/latex] and [latex]P_T[/latex].",
+    "options": {
+      "A": "[latex]P_A[/latex] is always smaller than [latex]P_T[/latex]",
+      "B": "[latex]P_A[/latex] is always greater than [latex]P_T[/latex]",
+      "C": "[latex]P_A[/latex] is always  equal to [latex]P_T[/latex]",
+      "D": "There is no definite relationship between [latex]P_A \\; and \\; P_T[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 The total rainfall in a catchment of area [latex]1000\\: km^{2}[/latex], during a 6 h storm, is 19 cm. The surface runoff due to this storm computed from triangular direct runoff hydrograph is [latex]1 \\times 10^8 m^{3}[/latex]. The [latex]\\phi _{index}[/latex] for this storm (in cm/h, up to one decimal place) is ______",
+    "solution": "Surface runoff [latex]=\\frac{1\\times 10^{8}m^{3}}{1000\\times 10^{6}m^{2}} =0.1 m=10 cm [/latex] Total rainfall = 19cm Rainfall intensity [latex]=\\frac{19}{6}=3.167 cm/hr[/latex] w-Index [latex]= \\frac{P-Q}{t}   =\\frac{\\text{Total Infiltration}}{\\text{Total duration of storm}} [/latex] [latex] \\therefore \\;\\; w-Index=\\frac{19-10}{6}=1.5 cm/hr[/latex] As intensity of rainfall [latex] \\gt [/latex]w-Index And rainfall intensity is uniform therefore [latex]\\phi[/latex]-index = w-Index= 1.5 cm/hr.",
+    "min": 1.5,
+    "max": 1.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 A culvert is designed for a flood frequency of 100 years and a useful life of 20 years. The risk involved in the design of the culvert (in percentage, up to two decimal places) is______",
+    "solution": "Risk = The probabality of a flood to occur at least once in n-successive years. [latex]\\begin{aligned} \\therefore \\;\\; \\text{Risk }&=1-q^{n} \\\\  &=1-\\left ( 1-P \\right )^{n} \\\\  &=1-\\left ( 1-\\frac{1}{T} \\right )^{n} \\\\ &=1-\\left ( 1-\\frac{1}{100} \\right )^{20} \\\\  &=1-\\left ( 0.99 \\right )^{20} \\\\ &=0.18209=18.209\\% \\end{aligned}[/latex]",
+    "min": 17.5,
+    "max": 18.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 The infiltration rate f in a basin under ponding condition is given by [latex]f=30+10e^{-2t}[/latex], where, f is in mm/h and t is time in hour. Total depth of infiltration (in mm, up to one decimal place) during the last 20 minutes of a storm of 30 minutes duration is ______",
+    "solution": "Infiltration rate [latex]f(t)= 30+10e^{-2t}[/latex] Total infiltration depth in time 10 min. to 30 min. i.e., 0.166 hour to 0.5 hour [latex]=\\int_{0.166}^{0.5}\\left ( 30+10e^{-2t} \\right )dt =11.74 mm  [/latex]",
+    "min": 11.0,
+    "max": 12.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 Rainfall depth over a watershed is monitored through six number of well distributed rain gauges. Gauged data are given below The Thiessen mean value (in mm, up to one decimal place) of the rainfall is ______",
+    "solution": "Thiessen mean value of rainfall; [latex]P_{avg}=\\frac{\\sum_{i=1}^{6}P_{i}A_{i}}{\\sum_{i=1}^{6}A_{i}} [/latex] [latex] P_{avg}=\\frac{470\\times 95+465\\times 100+435\\times 98+525\\times 80+480\\times 85+510\\times 92}{95+100+98+80+85+92} =479.09 mm[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page8_q2.webp",
+    "min": 478.5,
+    "max": 479.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 For routing of flood in a given channel using the Muskingum method, two of the routing coefficients are estimated as [latex]C_{0}=-0.25[/latex] and [latex]C_{1}= 0.55[/latex]. The value of the third coefficient [latex]C_{2}[/latex] would be ______",
+    "solution": "In Muskingum flood routing method [latex]\\begin{aligned}C_{0}+C_{1}+C_{2}&=1 \\\\ \\Rightarrow \\;\\; C_{2}&=1-\\left ( -0.25 \\right )-0.55=0.7 \\end{aligned}[/latex]"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 A catchment is idealized as a 25 km x 25 km square. It has five rain gauges, one at each corner and one at the center, as shown in the figure. During a month, the precipitation at these gauges is measured as [latex]G_{1}[/latex] = 300 mm, [latex]G_{2}[/latex] = 285 mm, [latex]G_{3}[/latex] = 272mm, [latex]G_{4}[/latex] = 290mm and [latex]G_{5}[/latex] = 288mm. The average precipitation (in mm, up to one decimal place) over the catchment during this month by using the Thiessen polygon method is ______",
+    "solution": "Let sides of square as, a=25 km Now area of the polygon is calculated as, [latex] \\begin{aligned} A_{1}&=A_{2}=A_{3}=A_{4} \\\\ &=\\frac{1}{2}\\times \\frac{a}{2}\\times \\frac{a}{2} \\\\ &=\\frac{a^{2}}{8}=\\frac{25^{2}}{8}=78.125 \\\\ A_{5}&=\\text{Area of square of sides } \\frac{\\sqrt{2}a}{2} \\\\ &=\\frac{a}{\\sqrt{2}}   =\\frac{a^{2}}{2}=\\frac{25^{2}}{2}=312.5\\, km^{2} \\\\ \\therefore & \\text{Mean precipitation,}\\\\ \\bar{P}&=\\frac{G_{1}A_{1}+G_{2}A_{2}+G_{3}A_{3}+G_{4}A_{4}+G_{5}A_{5}}{A_{1}+A_{2}+A_{3}+A_{4}+A_{5}} \\\\ \\therefore \\;\\;\\bar{P}&=\\frac{\\left ( 300+255+272+290 \\right )\\times 78.125+288\\times 312.5}{\\left ( 4\\times 78.125 \\right )+312.5} \\\\  &= 287.375 mm\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page8_q4.webp",
+    "min": 286.9,
+    "max": 287.9
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 The infiltration capacity of a soil follows the Horton's exponential model, [latex]f=c_{1}+c_{2} e^{-kt}[/latex]. During and experiment, the initial infiltration capacity was observed to be 200 mm/h. After a long time, the infiltration capacity was reduced to 25 mm/h. If the infiltration capacity after 1 hour was 90 mm/h, the value of the decay rate constant, k (in [latex]h^{-1}[/latex], up to two decimal places) is____",
+    "solution": "Horton's expression for infiltration capacity of a soil is given as, [latex]f=C_{1}+C_{2}.e^{-kt}[/latex] Here, [latex]C_{1}=[/latex] Constant or steady stage infiltration capacity [latex]  C_{2}=[/latex] Difference between initial and steady stage infiltration capacity [latex]=\\left ( f_{0}-f_{c} \\right ) [/latex] [latex] f= [/latex] Infiltration capacity of any time 't' [latex]\\therefore \\;\\;  f_{p}=f_{c}+\\left ( f_{0}-f_{c} \\right )e^{-k_{h}t} [/latex] [latex] \\Rightarrow \\;\\; 90=25+\\left ( 200-25 \\right )e^{-k_{h}1} [/latex] [latex] \\Rightarrow \\;\\; k_{h}=0.9904\\, hr^{-1}[/latex]",
+    "min": 0.98,
+    "max": 1.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 During a storm event in a certain period, the rainfall intensity is 3.5 cm/hour and the [latex]\\Phi[/latex]-index is 1.5 cm/hour. The intensity of effective rainfall (in cm/hour, up to one decimal place) for this period is",
+    "solution": "Let the rainfall duration is 't' hours [latex]\\therefore[/latex] Total rainfall =3.5 cm/hr [latex]\\times t[/latex] hr =3.5 t Total infitration = [latex]\\phi[/latex]-index [latex]\\times t[/latex] =1.5 t [latex]\\therefore[/latex] Intensity of rainfall excess [latex]=\\frac{\\text{Total rainfall excess}}{\\text{Time period}} [/latex] [latex]=\\frac{3.5t-1.5t}{t}[/latex] cm/hr =2.0 cm/hr",
+    "min": 1.9,
+    "max": 2.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 An effective rainfall of 2-hour duration produced a flood hydrograph peak of 200 [latex] m^{3}/s [/latex]. The flood hydrograph has a base flow of 20 [latex] m^{3}/s [/latex]. If the spatial average rainfall in the watershed for the duration of storm is 2 cm and the average loss rate is 0.4 cm/hour, the peak of 2-hour unit hydrograph (in [latex] m^{3}/s-cm [/latex], up to one decimal place) is _____",
+    "solution": "Peak of 2 hr direct runoff hydrograph = Peak of 2 hr flood hydrograph-Base flow =200-20 =180 [latex]m^{3}/sec. [/latex] The rainfall excess depth for a given duration of 2 hr effective storm/rainfall is given by, Rainfall excess depth [latex] =2 cm-0.4 \\frac{cm}{hr}\\times 2 hr[/latex] [latex] =1.2 cm[/latex] [latex]\\therefore[/latex]Peak of 2 hr UH [latex]=\\frac{180}{1.2}=150 m^{3}/s-cm[/latex]",
+    "min": 149.0,
+    "max": 151.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 The ordinates of a 2-hour unit hydrograph for a catchment are given as The ordinate (in [latex]m^{3}/s[/latex] ) of a 4-hour unit hydrograph for this catchment at the time of 3 h would be ______",
+    "solution": "[latex]\\therefore[/latex] Ordinate of 4 hr U.H. at 3 hr duration [latex]=15.0 m^{3}/sec.[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page9_q3.webp",
+    "min": 15.0,
+    "max": 15.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 The ordinates of a one-hour unit hydrograph at sixty minute interval are 0, 3, 12, 8, 6, 3 and 0 [latex]m^{3}/s[/latex]. A two-hour storm of 4 cm excess rainfall occurred in the basin from 10 AM. Considering constant base flow of 20 [latex]m^{3}/s[/latex], the flow of the river (expressed in [latex]m^{3}/s[/latex] ) at 1 PM is_____________",
+    "solution": "[latex]\\therefore[/latex] Ordinate of 01:00 pm [latex]=60 m^{3}/sec[/latex]",
+    "min": 59.0,
+    "max": 61.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 The type of flood routing (Group I) and the equation(s) used for the purpose (Group II) are given below. The correct match is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page9_q5.webp",
+    "options": {
+      "A": "P - 1; Q - 1, 2 & 3",
+      "B": "P - 1; Q - 1 & 2",
+      "C": "P - 1 & 2; Q - 1",
+      "D": "P - 1 & 2; Q - 1 & 2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 The direct runoff hydrograph in response to 5 cm rainfall excess in a catchment is shown in the figure. The area of the catchment (expressed in hectares) is ___________.",
+    "solution": "[latex] \\begin{aligned} \\frac{1}{2}\\times 1\\times 6\\times 3600&=A\\times \\frac{5}{100} \\\\ \\Rightarrow \\;\\; 2160\\times 100&=A \\\\ \\Rightarrow \\;\\; A&=216000 m^{2} \\\\ &=21.6 ha \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page10_q1.webp",
+    "min": 21.5,
+    "max": 21.7
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 The average surface area of a reservoir in the month of June is 20 [latex]km^{2}[/latex]. In the same month, the average rate of inflow is 10 [latex]m^{3}[/latex]/s, outflow rate is 15 [latex]m^{3}[/latex]/s, monthly rainfall is 10 cm, monthly seepage loss is 1.8 cm and the storage change is 16 million [latex]m^{3}[/latex]. The evaporation (in cm) in that month is",
+    "solution": "Let 'x' cm evaporation takes place in month of June. Total inflow [latex] \\begin{array}{l} =\\left(\\frac{10 \\times 30 \\times 24 \\times 60 \\times 60}{20 \\times 10^{6}} \\times 100\\right)+10 \\\\ =139.6 \\mathrm{cm} \\end{array}[/latex] Total outflow [latex] \\begin{array}{l} =\\left(\\frac{15 \\times 30 \\times 24 \\times 60 \\times 60}{20 \\times 10^{6}} \\times 100\\right)+1.8+x\\\\ =196.2+x \\mathrm{cm} \\end{array}[/latex] As total outflow is more than total inflow, therefore depression in storage takes place. Depression in storage [latex] \\begin{aligned} =-\\frac{16 \\times 10^{6}}{20 \\times 10^{6}} \\times 100&=-80 \\mathrm{cm} \\\\ \\Rightarrow 139.6-(196.2+x)&=-80 \\\\ -x &=-80+56.6\\\\ \\therefore \\quad x&=23.4 \\mathrm{cm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "46.8",
+      "B": "136",
+      "C": "13.6",
+      "D": "23.4"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 The 4-hr unit hydrograph for a catchment is given in the table below. What would be the maximum ordinate of the S-curve (in [latex]m^{3}/s[/latex] ) derive from this hydrograph?",
+    "solution": "Hence, maximum ordinate is 22 [latex]m^{3}/s.[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page10_q3.webp",
+    "min": 21.9,
+    "max": 22.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 In a catchment, there are four rain-gauge stations, P, Q, R, and S. Normal annual precipitation values at these stations are 780 mm, 850 mm, 920 mm, and 980 mm respectively. In the year 2013, stations Q, R, and S, were operative but P was not. Using the normal ratio method, the precipitation at station P for the year 2013 has been established as 860 mm. If the observed precipitation at station Q and R for the year 2013 were 930 mm and 1010 mm, respectively; what was the observed precipitation (in mm) at station S for that year?",
+    "solution": "Let [latex]P_{p}=[/latex] Precipitation in 2013 at station P [latex] N_{p}=[/latex] Noramal annual precipitation at station P [latex] \\begin{aligned} \\frac{P_{p}}{N_{p}}&=\\frac{1}{3}\\left [ \\frac{P_{Q}}{N_{q}}+\\frac{P_{R}}{N_{R}}+\\frac{P_{S}}{N_{S}} \\right ]\\\\ \\frac{860}{780}&=\\frac{1}{3}\\left [ \\frac{930}{850}+\\frac{1010}{920}+\\frac{P_{S}}{980} \\right ] \\\\ \\Rightarrow \\;\\; P_{s}&=1093.43 mm \\end{aligned}[/latex]",
+    "min": 1093.0,
+    "max": 1094.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 The Muskingum Model of routing a flood through a stream reach is expressed as [latex]O_{2}=K_{0}I_{2}+K_{1}I_{1}+K_{2}O_{1}[/latex], where [latex]K_{0}[/latex], [latex]K_{1}[/latex] and [latex]K_{2}[/latex] are the routing coefficients for the concerned reach, [latex]I_{1}[/latex] and [latex]I_{2}[/latex] are the inflows to reach, and [latex]O_{1}[/latex] and [latex]O_{2}[/latex] are the outflows from the reach corresponding to time step 1 and 2 respectively. The sum of [latex]K_{0}[/latex], [latex]K_{1}[/latex] and [latex]K_{2}[/latex] of the model is",
+    "solution": "",
+    "options": {
+      "A": "-1",
+      "B": "-0.5",
+      "C": "0.5",
+      "D": "1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 An isolated 3-h rainfall event on a small catchment produces a hydrograph peak and point of inflection on the falling limb of the hydrograph at 7 hours and 8.5 hours respectively, after the start of the rainfall. Assuming, no losses and no base flow contribution, the time of concentration (in hours) for this catchment is approximately",
+    "solution": "In a small catchment, Time of concentration = Lag time of peak flow =7.0-1.5=5.5 hr",
+    "options": {
+      "A": "8.5",
+      "B": "7",
+      "C": "6.5",
+      "D": "5.5"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 In reservoirs with an uncontrolled spillway, the peak of the plotted outflow hydrograph",
+    "solution": "",
+    "options": {
+      "A": "lies outside the plotted inflow hydrograph",
+      "B": "lies on the recession limb of the plotted inflow hydrograph",
+      "C": "lies on the peak of the inflow hydrograph",
+      "D": "is higher than the peak of the plotted inflow hydrograph"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 A conventional flow duration curve is a plot between",
+    "solution": "",
+    "options": {
+      "A": "Flow and percentage time flow is exceeded",
+      "B": "Duration of flooding and ground level elevation",
+      "C": "Duration of water supply in a city and proportion of area receiving supply exceeding this duration",
+      "D": "Flow rate and duration of time taken to empty a reservoir at that flow rate"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 At a station, Storm I of 5 hour duration with intensity 2 cm/h resulted in a runoff of 4 cm and Storm II of 8\nhour duration resulted in a runoff of 8.4 cm. Assume that the [latex]\\phi[/latex]-index is the same for both the storms. The intensity of storm II (in cm/h) is:",
+    "solution": "Let intensity of storm-II be P cm/hr, [latex]\\therefore  \\;\\; 1.2=\\frac{P\\times 8-8.4}{8} [/latex] [latex] \\Rightarrow \\;\\; 1.2\\times 8+8.4=P\\times 8 [/latex] [latex]  P=2.25 cm/hr[/latex]",
+    "options": {
+      "A": "2",
+      "B": "1.75",
+      "C": "1.5",
+      "D": "2.25"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 At a station, Storm I of 5 hour duration with intensity 2 cm/h resulted in a runoff of 4 cm and Storm II of 8\nhour duration resulted in a runoff of 8.4 cm. Assume that the [latex]\\phi[/latex]-index is the same for both the storms. The [latex]\\phi[/latex]-index (in cm/h) is:",
+    "solution": "[latex]\\phi -index= \\frac{2\\times 5-4}{5} =\\frac{10-4}{5}=\\frac{6}{5}=1.2cm/hr [/latex]",
+    "options": {
+      "A": "1.2",
+      "B": "1",
+      "C": "1.6",
+      "D": "1.4"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 An isohyet is a line joining points of",
+    "solution": "",
+    "options": {
+      "A": "equal temperature",
+      "B": "equal humidity",
+      "C": "equal rainfall depth",
+      "D": "equal evaporation"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 A 1-h rainfall of 10 cm magnitude at a station has a return period of 50 years. The probability that\r\na 1-h rainfall of magnitude 10 cm or more will occur in each of two successive years is:",
+    "solution": "Return period of rainfall, [latex] [/latex] T&=50 years [latex]\\therefore[/latex] probability of occurrence once in 50 years, [latex] [/latex]p&=[latex]\\frac{1}{50}[/latex]&=0.02 Probability of occurrence in each of 2 successive year [latex]=p^{2}=\\left ( 0.02 \\right )^{2}=0.0004[/latex]",
+    "options": {
+      "A": "0.04",
+      "B": "0.2",
+      "C": "0.02",
+      "D": "0.0004"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 The drainage area of a watershed is 50 [latex]km^2[/latex]. The [latex]\\phi[/latex] index is 0.5 cm/hour and the base flow at the outlet is\n10 [latex]m^3[/latex]/s. One hour unit hydrograph (unit depth = 1 cm) of the watershed is triangular in shape with a time\nbase of 15 hours. The peak ordinate occurs at 5 hours For a storm of depth of 5.5 cm and duration of 1 hour, the peak ordinate (in [latex]m^3[/latex]/s) of the hydrograph is",
+    "solution": "Total infiltration [latex]=0.5\\times 1=0.5cm[/latex] Total runoff =5.5-0.5=5.0 cm [latex]\\therefore[/latex] Peak of the direct runoff hydrograph due to 5 cm of rainfall excess depth [latex]=18.52\\times 5=92.60cm [/latex] Peak of the flood hydrograph =Peak of D.R.H. + Base flow =92.60+10=102.60 [latex]m^{3}/s[/latex]",
+    "options": {
+      "A": "55",
+      "B": "82.6",
+      "C": "92.6",
+      "D": "102.6"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 The drainage area of a watershed is 50 [latex]km^2[/latex]. The [latex]\\phi[/latex] index is 0.5 cm/hour and the base flow at the outlet is\n10 [latex]m^3[/latex]/s. One hour unit hydrograph (unit depth = 1 cm) of the watershed is triangular in shape with a time\nbase of 15 hours. The peak ordinate occurs at 5 hours The peak ordinate (in [latex]m^3[/latex]/s/cm) of the unit hydrograph is",
+    "solution": "Peak ordinate of unit hydrograph can be found by equating the Area of triangle by volume of the catchment. [latex]\\Rightarrow \\;\\; \\frac{1}{2} \\cdot Q_{P} \\cdot \\left ( 15\\times 3600 \\right ) = 50\\times 10^{6}\\times 1\\times 10^{-2} [/latex] [latex] \\Rightarrow \\;\\; Q_{P}=18.52 m^{3}/s[/latex]",
+    "options": {
+      "A": "10",
+      "B": "18.52",
+      "C": "37.03",
+      "D": "185.2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 Group I contains parameters and Group II lists methods/instruments. The CORRECT match of Group I with Group II is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page12_q5.webp",
+    "options": {
+      "A": "P - 1, Q - 2, R - 3, S - 4",
+      "B": "P - 4, Q - 3, R - 2, S - 1",
+      "C": "P - 4, Q - 2, R - 3, S - 1",
+      "D": "P - 1, Q - 3, R - 2, S - 4"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 The top width and the depth of flow in a triangular channel were measured as 4 m and 1 m,\nrespectively. The measured velocities on the centre line at the water surface, 0.2 m and 0.8 m below\nthe surface are 0.7 m/s, 0.6 m/s and 0.4 m/s, respectively. Using two-point method of velocity\nmeasurement, the discharge (in [latex]m^3[/latex]/s) in the channel is",
+    "solution": "[latex]\\begin{aligned} V_{0.2}&=0.6m/s \\\\ V_{0.8}&=0.4 m/s \\\\ V&=\\frac{V_{0.2}+V_{0.8}}{2} \\\\ &=\\frac{0.6+0.4}{2}=0.5 m/s\\\\ Q&=AV \\\\ &= \\frac{1}{2}\\times 1\\times 4\\times 0.5=1.0m^{3}/s. \\end{aligned}[/latex]",
+    "options": {
+      "A": "1.4",
+      "B": "1.2",
+      "C": "1",
+      "D": "0.8"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 The ratio of actual evapo-transpiration to potential evapo-transpiration is in the range",
+    "solution": "",
+    "options": {
+      "A": "0.0 to 0.4",
+      "B": "0.6 to 0.9",
+      "C": "0.0 to 1.0",
+      "D": "1.0 to 2.0"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 The ordinates of a 2-h unit hydrograph at 1 hour intervals starting from time t = 0, are\n0, 3, 8, 6, 3, 2 and 0 [latex]m^3[/latex]/s. Use trapezoidal rule for numerical integration, if required. A storm of 6.6 cm occurs uniformly over the catchment in 3 hours. If [latex]\\phi[/latex] -index is equal to 2mm/h and base flow is 5[latex]m^{3}/s[/latex], what is the peak flow due to the storm?",
+    "solution": "Peak of 3-h UH [latex]= 6 m^{3}[/latex]/s Runoff due to storm [latex]  =6.6\\times \\frac{2}{10}\\times 3=6[/latex] cm Peak flow due to storm [latex]  =6\\times 6+5=41\\, m^{3}/s[/latex]",
+    "options": {
+      "A": "41[latex]m^{3}/s[/latex]",
+      "B": "43.4[latex]m^{3}/s[/latex]",
+      "C": "53[latex]m^{3}/s[/latex]",
+      "D": "56.2[latex]m^{3}/s[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 The ordinates of a 2-h unit hydrograph at 1 hour intervals starting from time t = 0, are\n0, 3, 8, 6, 3, 2 and 0 [latex]m^3[/latex]/s. Use trapezoidal rule for numerical integration, if required. What is the catchment area represented by the unit hydrograph?",
+    "solution": "Volume of UH, [latex]=1\\times 60\\times 60\\times \\left ( 0+3+8+6+3+2 \\right )= 79200m^{3}[/latex] But, catchment area [latex]\\times 1\\times 10^{-2}=[/latex] volume of UH [latex]\\Rightarrow[/latex] Catchment area [latex]=\\frac{79200}{10^{-2}} [/latex] [latex] \\Rightarrow[/latex] Catchment area [latex]=7920000 m^{2} [/latex] [latex] \\Rightarrow[/latex] Catchment area [latex] =7.92 km^{2}[/latex]",
+    "options": {
+      "A": "1[latex]km^{2}[/latex]",
+      "B": "2[latex]km^{2}[/latex]",
+      "C": "7.92[latex]km^{2}[/latex]",
+      "D": "8.64[latex]km^{2}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 A watershed got transformed from rural to urban over a period of time. The effect\nof urbanization on storm runoff hydrograph from the watershed is to",
+    "solution": "",
+    "options": {
+      "A": "decrease the volume of runoff",
+      "B": "increase the time to peak discharge",
+      "C": "decrease the time base",
+      "D": "decrease the peak discharge"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 The correct match of Group I Group II is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page14_q1.webp",
+    "options": {
+      "A": "P-1, Q-3, R-4, S-2",
+      "B": "P-1, Q-4, R-2, S-3",
+      "C": "P-3, Q-4, R-1, S-2",
+      "D": "P-4, Q-2, R-1, S-3"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 One hour triangular unit hydrograph of a watershed has the peak discharge of 60 [latex]m^3/sec . cm[/latex] at 10 hours and time base of 30 hours. The [latex]\\phi[/latex] index is 0.4 cm per hour\nand base flow is 15 [latex]m^3/sec[/latex]. If there is rainfall of 5.4 cm in 1 hour, the ordinate of the flood hydrograph at [latex]15^{th}[/latex] hour is",
+    "solution": "Total rainfall =5.4 cm Infiltration in 1 hour [latex]=\\phi -index \\times 1 =0.4\\times 1=0.4 cm[/latex] Runoff depth [latex]=5.4-0.4 =5 cm.[/latex] The discharge in the unit hydrograph decreases from [latex]60 m^{3}/sec[/latex] to 0 in a period of 20 hours. [latex]\\therefore[/latex] Discharge at the 15th hour [latex]=60-\\frac{60}{20}\\times 5=45 m^{3} /sec [/latex] [latex]\\therefore[/latex] Ordinate of DRH of 1h [latex]=45\\times 5=225m^{3}/s[/latex] Ordinate of flood hydrograph, Q=225+ Base flow = 225+15 = 240 [latex]m^3/sec[/latex]",
+    "options": {
+      "A": "225[latex]m^{3}/sec[/latex]",
+      "B": "240[latex]m^{3}/sec[/latex]",
+      "C": "249[latex]m^{3}/sec[/latex]",
+      "D": "258[latex]m^{3}/sec[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 One hour triangular unit hydrograph of a watershed has the peak discharge of 60 [latex]m^3/sec . cm[/latex] at 10 hours and time base of 30 hours. The [latex]\\phi[/latex] index is 0.4 cm per hour\nand base flow is 15 [latex]m^3/sec[/latex]. The catchment area of the watershed is",
+    "solution": "Depth =1 cm Volume of runoff [latex]= A \\times 1\\times 10^{-2}m^{2}[/latex] But, Volume of runoff=Area of the unit hydrograph [latex]\\begin{aligned} &=\\frac{1}{2}\\times 30\\times 60\\times 3600\\\\ &=324\\times 10^{4}m^{3} \\\\ \\therefore \\;\\; A\\times 10^{-2}&=324\\times 10^{4} \\\\ \\Rightarrow \\;\\; A&=324\\times 10^{6}m^{2} \\\\ \\Rightarrow \\;\\; A&=324 km^{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "3.24[latex]km^{2}[/latex]",
+      "B": "32.4[latex]km^{2}[/latex]",
+      "C": "324[latex]km^{2}[/latex]",
+      "D": "3240[latex]km^{2}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 A flood wave with a known inflow hydrograph is routed through a large reservoir.\nThe outflow hydrograph will have",
+    "solution": "",
+    "options": {
+      "A": "attenuated peak with reduced time-base",
+      "B": "attenuated peak with increased time-base",
+      "C": "increased peak with increased time-base",
+      "D": "increased peak with reduced time-base"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 Ordinates of a 1-hour unity hydrograph at 1 hour intervals, starting from time t = 0 are 0, 2, 6, 4, 2, 1 and 0 [latex]m^{3}/s[/latex]. Ordinate of a 3-hour unit hydrograph for the catchment at t = 3 hours is",
+    "solution": "Thus at time t = 3h, the ordinate of 3h - UH is [latex]4 m^{3}/s[/latex]",
+    "options": {
+      "A": "2[latex]m^{3}/s[/latex]",
+      "B": "3[latex]m^{3}/s[/latex]",
+      "C": "4[latex]m^{3}/s[/latex]",
+      "D": "5[latex]m^{3}/s[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 Ordinates of a 1-hour unity hydrograph at 1 hour intervals, starting from time t = 0 are 0, 2, 6, 4, 2, 1 and 0 [latex]m^{3}/s[/latex]. Catchment area represented by this unit hydrograph is",
+    "solution": "[latex]\\begin{aligned} \\text { Volume of } \\mathrm{UH} &=60 \\times 60 \\times 1 \\\\ & \\times(0+2+6+4+2+1+0\\\\ &=54000 \\mathrm{m}^{3}\\\\ \\therefore \\text { Catchment area } &\\times 1 \\times 10^{-2}=54000\\\\ \\Rightarrow \\text { Catchment area }&=\\frac{54000}{100}=5.4 \\mathrm{km}^{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "1[latex]k m^{2}[/latex]",
+      "B": "2[latex]k m^{2}[/latex]",
+      "C": "3.2[latex]k m^{2}[/latex]",
+      "D": "5.4[latex]k m^{2}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 72 An isolated 4-hour storm occurred over a catchment as follows : The [latex]\\phi[/latex] index for the catchment is 10 mm/h. The estimated runoff depth from the\ncatchment due to the above storm is",
+    "solution": "[latex]\\begin{aligned} \\phi-index &=\\frac{\\text { Total Infiltration }}{\\text { Time of rainfall excess }} \\\\ \\Rightarrow \\quad 10&=\\frac{(28+12)-\\text { Runoff }}{\\text { Time of rainfall excess }} \\end{aligned}[/latex] But precipitation in the [latex] 1^{\\text {st }}[/latex] and [latex]4^{\\text {th }}[/latex] hours is less than the [latex] \\phi[/latex]-index i.e. the rainfall during these two hours is ineffective which means time of rainfall excess will be 2 hrs. [latex] \\begin{aligned} \\therefore \\quad 10&=\\frac{40-\\text { Runoff }}{2}\\\\ \\Rightarrow \\quad \\text{ Runoff }&=20 \\mathrm{mm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page15_q2.webp",
+    "options": {
+      "A": "10mm",
+      "B": "16mm",
+      "C": "20mm",
+      "D": "23mm"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 For a catchment, the S-curve (or S-hydrograph) due to a rainfall of intensity 1 cm/hr is given by [latex]Q=1-(1+t)exp(-t)[/latex] (t in hr and Q in [latex]m^3/s[/latex]) What will be the ordinate of a 2-hour unit hydrograph for this catchment at t=3 hours ?",
+    "solution": "The duration of S_curve =1 hr The ordinate of 2-hr UH is obtained by the following procedure: Step 1: The ordinate of S-curve at t=3 hr [latex]S_3=1-(1-3)e^{-3}=0.8m^3/s[/latex] Step 2: The ordinate of S-curve at [latex]t=3-2=1 \\;hr[/latex] [latex]S_1=1-(1+1)e^{-1}=0.26m^3/s[/latex] Step 3: [latex]S_3-S_1=0.8-0.26=0.54m^3/s[/latex] Step 4: The ordinate of UH at t=3 hr is [latex]\\frac{S_3-S_2}{2}=0.27 m^3/s[/latex]",
+    "options": {
+      "A": "0.13[latex]m^{3}/s[/latex]",
+      "B": "0.20[latex]m^{3}/s[/latex]",
+      "C": "0.27[latex]m^{3}/s[/latex]",
+      "D": "0.54[latex]m^{3}/s[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 74 For a catchment, the S-curve (or S-hydrograph) due to a rainfall of intensity 1 cm/hr is given by [latex]Q=1-(1+t)exp(-t)[/latex] (t in hr and Q in [latex]m^3/s[/latex]) What is the area of the catchment ?",
+    "solution": "[latex]\\begin{aligned} \\text { Volume of } \\mathrm{UH} &=60 \\times 60 \\times 1 \\\\ & \\times(0+2+6+4+2+1+0\\\\ &=54000 \\mathrm{m}^{3}\\\\ \\therefore \\text { Catchment area } &\\times 1 \\times 10^{-2}=54000\\\\ \\Rightarrow \\text { Catchment area }&=\\frac{54000}{100}=5.4 \\mathrm{km}^{2} \\end{aligned}[/latex] The saturation discharge of S-curve, [latex]Q_S=\\lim_{t \\to \\infty }Q[/latex] [latex]Q_S=1m^3/s[/latex] Rainfall intensity, [latex]i=1\\; cm/hr=\\frac{1}{360000}m/s[/latex] [latex]\\therefore\\; \\text{ Catchment area }\\times i=Q_S[/latex] [latex]\\Rightarrow \\;\\text{ Catchment area }=\\frac{1}{1/360000}[/latex] [latex]\\Rightarrow \\;\\text{ Catchment area }=360000m^2=0.36km^2[/latex]",
+    "options": {
+      "A": "0.01[latex]km^{2}[/latex]",
+      "B": "0.36[latex]km^{2}[/latex]",
+      "C": "1[latex]km^{2}[/latex]",
+      "D": "1.28[latex]km^{2}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 75 During a 3 hour storm event, it was observed that all abstractions other than\r\ninfiltration are negligible. The rainfall was idealized as 3 one hour storms of\r\nintensity 10 mm/hr, 20 mm/hr and 10 mm/hr respectively and the infiltration\r\nwas idealized as a Horton curve, [latex]f = 6.8 + 8.7 exp(- t)[/latex] (f in mm/hr and t in hr). \r\nWhat is the effective rainfall ?",
+    "solution": "From superposition of hyetograph and infiltration curve it is clear that first hour does not contribute to effective rainfall (i.e. rainfall excess). For t=1 to t=3, the effective rainfall is, [latex]\\begin{aligned} r_e&=20+10-\\int_{1}^{3} (6.8+8.7e^{-t})dt\\\\ &=30-\\left [ (6.8t)_1^3+8.7 \\int_{1}^{3}e^{-t} dt\\right ] \\\\ &= 30-[6.8 \\times 2 -8.7(e^{-t})_1^3]\\\\ &=30-13.6+8.7\\left [ \\frac{1}{e^3}-\\frac{1}{e^1} \\right ] \\\\ &= 16.4-2.77\\\\ &= 13.63mm \\end{aligned}[/latex]",
+    "options": {
+      "A": "10mm",
+      "B": "11.33mm",
+      "C": "12.43mm",
+      "D": "13.63mm"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 76 A four hour unit hydrograph of a catchment is triangular in shape with base of\n80hours. The area of the catchment is 720[latex]km^2[/latex]. The base flow and f-index are\n30[latex]m^3/s[/latex] and 1mm/h, respectively. A storm of 4cm occurs uniformly in 4 hours\nover the catchment. The peak flood discharge due to the storm is",
+    "solution": "Depth of precipitation =4 cm Infiltration in 4 hrs [latex]  =4\\times 1 =4 mm =0.4 cm[/latex] Run off depth [latex]=4-0.4=3.6 cm[/latex] Peak of DRH of 4 hrs [latex]  =50\\times 3.6 =180m^{3}/sec[/latex] Peak of flood discharge, [latex]  Q=180+30 =210m^{3}/sec[/latex]",
+    "options": {
+      "A": "210[latex]m^{3}/s[/latex]",
+      "B": "230[latex]m^{3}/s[/latex]",
+      "C": "260[latex]m^{3}/s[/latex]",
+      "D": "720[latex]m^{3}/s[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 A four hour unit hydrograph of a catchment is triangular in shape with base of\r\n80hours. The area of the catchment is 720[latex]km^2[/latex]. The base flow and f-index are\r\n30[latex]m^3/s[/latex] and 1mm/h, respectively. A storm of 4cm occurs uniformly in 4 hours\r\nover the catchment. The peak discharge of four unit hydrograph is",
+    "solution": "[latex]\\therefore \\;\\; \\frac{1}{2}\\times Q_{P}\\times 80\\times 60\\times 60=720\\times 10^{6}\\times 1\\times 10^{-2}[/latex] [latex] \\Rightarrow \\;\\; Q_{P}=50\\, m^{3}/sec[/latex]",
+    "options": {
+      "A": "40[latex]m^{3}/s[/latex]",
+      "B": "50[latex]m^{3}/s[/latex]",
+      "C": "60[latex]m^{3}/s[/latex]",
+      "D": "70[latex]m^{3}/s[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 78 When the outflow from a storage reservoir is uncontrolled as in a freely operating\r\nspillway, the peak of outflow hydrograph occurs at",
+    "solution": "When outflow from a reservoir is uncontrolled as in freely operating spillway, then the peak of outflow hydrograph will occur at a point of intersection of inflow and outflow curves, whereas if outflow from a reservoir is controlled then peak will occur after the intersection of the curve.",
+    "options": {
+      "A": "the point of inter-section of the inflow and outflow hydrographs",
+      "B": "a point, after the inter-section of the inflow and outflow hydrographs",
+      "C": "the tail of inflow hydrographs",
+      "D": "a point, before the inter-section of the inflow and ouflow hydrographs"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 79 The intensity of rainfall and time interval of a typical storm are : The maximum intensity of rainfall for 20 minutes duration of the storm is",
+    "solution": "Maximum intensity [latex]=\\frac{2.2\\times 10+1.5\\times 10}{10+10}=1.85 mm/minute[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page16_q4.webp",
+    "options": {
+      "A": "1.5 mm/minute",
+      "B": "1.85 mm/minute",
+      "C": "2.2 mm/minute",
+      "D": "3.7 mm/minute"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 The average rainfall for a 3 hour duration storm is 2.7 cm and the loss rate is 0.3\ncm/hr. The flood hydrograph has a base flow of 20[latex]m^{3}[/latex]/s and produces a peak flow of 210 [latex]m^{3}[/latex]/s. The peak of a 3-h unity hydrograph is",
+    "solution": "Rainfall excess [latex]=2.7-0.3 \\times 3 =1.8 [/latex] cm Peak discharge of DRH [latex]= 210-20=190 m^{3}/s [/latex] Peak of 3-h UH [latex]=\\frac{190}{1.8}=105.55 m^{3}/s[/latex]",
+    "options": {
+      "A": "125.5[latex]m^{3}/s[/latex]",
+      "B": "105.5[latex]m^{3}/s[/latex]",
+      "C": "77.77[latex]m^{3}/s[/latex]",
+      "D": "70.37[latex]m^{3}/s[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 81 The rainfall during three successive 2 hour periods are 0.5, 2.8 and 1.6 cm. The\nsurface runoff resulting from this storm is 3.2 cm. The [latex]\\phi[/latex] index value of this storm is",
+    "solution": "Total rainfall = 0.5+2.8+1.6&=4.9 cm Excess rainfall =4.9+3.2&=1.7 cm Taking excess rainfall duration, [latex]  t_{e}=2\\times 3=6[/latex] hrs [latex]\\phi[/latex]-index = [latex]\\frac{1.7}{6}=0.28[/latex]cm/hr This value being more than [latex]\\frac{0.5}{2}=0.25[/latex] cm/hr, the excess rainfall duration will reduce by 2-hrs. [latex]\\therefore \\;\\; t_{e}=[/latex]4 hrs Excess rainfall = 2.8 +1.6-3.2 =1.2 cm [latex]\\phi[/latex]-index [latex]=\\frac{1.2}{4}=0.3[/latex] cm/hr",
+    "options": {
+      "A": "0.20 cm/hr",
+      "B": "0.28 cm/hr",
+      "C": "0.30 cm/hr",
+      "D": "0.80 cm/hr"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 82 An average rainfall of 16 cm occurs over a catchment during a period of 12 hours\nwith a uniform intensity. The unit hydrograph (unit depth = 1cm, duration = 6\nhours) of the catchment rises linearly from 0 to 30 cumecs in six hours and then\nfalls linearly from 30 to 0 cumecs in the next 12 hours. [latex]\\phi[/latex] index of the catchment\nis known to be 0.5 cm/hr. Base flow in the river is known to be 5 cumecs. Area of the catchment in hectares is",
+    "solution": "Catchment area[latex]\\times[/latex] rainfall excess =Area under UH [latex] \\begin{aligned} A\\times \\frac{1}{100}&=\\frac{30\\times 18\\times 60\\times 60}{2} \\\\ \\Rightarrow \\;\\;A&=9720\\times 10^{4}m^{2} \\\\ \\Rightarrow \\;\\; A&=9720 ha\\end{aligned}[/latex]",
+    "options": {
+      "A": "97.2",
+      "B": "270",
+      "C": "9720",
+      "D": "27000"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 An average rainfall of 16 cm occurs over a catchment during a period of 12 hours\nwith a uniform intensity. The unit hydrograph (unit depth = 1cm, duration = 6\nhours) of the catchment rises linearly from 0 to 30 cumecs in six hours and then\nfalls linearly from 30 to 0 cumecs in the next 12 hours. [latex]\\phi[/latex] index of the catchment\nis known to be 0.5 cm/hr. Base flow in the river is known to be 5 cumecs. Peak discharge of the resulting direct runoff hydrograph shall be",
+    "solution": "The DRH of the storm of 12 hours can be prepared by superimposing another 6-hr UH lagged by 6-hr. Rainfall excess [latex]=16-0.5 \\times 12=10 cm[/latex] Peak discharge of resulting direct runoff is given by, [latex]Q_{P}=22.5 \\times \\text{rainfall excess } [/latex] [latex] \\;\\; =22.5\\times 10=225[/latex] cumecs",
+    "options": {
+      "A": "150 cumecs",
+      "B": "225 cumecs",
+      "C": "230 cumecs",
+      "D": "360 cumecs"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 Match the following:",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/eh/page17_q4.webp",
+    "options": {
+      "A": "P-1 Q-3 R-2 S-4",
+      "B": "P-3 Q-4 R-1 S-2",
+      "C": "P-1 Q-2 R-4 S-3",
+      "D": "P3 Q-4 R-2 S-1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 The plan area of a reservoir is 1 [latex]km^{2}[/latex]. The water level in the reservoir is observed to decline by 20 cm in certain period. During this period the reservoir receives a surface inflow of 10 hectare-meters, and 20 hectare-meters are abstracted\nfrom the reservoir for irrigation and power. The plan evaporation and rainflow\nrecorded during the same period at a nearby meteorological station are 12 cm\nand 3 cm respectively. The calibrated pan factor is 0.7. The seepage loss from the\nreservoir during the this period in hectare-meters is",
+    "solution": "Inflow to reservoir, I= 10 ha-m Outflow from reservoir, Q=20 ha-m Evaporation loss, [latex]E=1\\times 10^{6}\\times \\frac{12}{100}\\times 0.7 =8.4 ha-m[/latex] Rainfall,  [latex]P=1\\times 10^{6}\\times \\frac{3}{100} =3 ha-m[/latex] Change in storage, [latex]\\Delta S=1\\times 10^{6}\\times \\frac{20}{100} =-20 ha-m[/latex] We know that, [latex](I+P)-(E+Q+\\text{Seepage})=\\Delta S [/latex] [latex] \\Rightarrow \\;  (10+3)-(8.4+20+\\text{Seepage})=-20 [/latex] [latex]\\Rightarrow \\; 13-28.4-\\text{Seepage} = -20 [/latex] [latex]\\Rightarrow \\; \\text{Seepage} =4.6 ha-m[/latex]",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2.4",
+      "D": "4.6"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 While applying the Rational formula for computing the design discharge, the\nrainfall duration is stipulated as the time of concentration because",
+    "solution": "Time of concentration is the time when whole catchment starts contributing to runoff at the outlet.",
+    "options": {
+      "A": "this leads to the largest possible rainfall intensity",
+      "B": "this leads to the smallest possible rainfall intensity",
+      "C": "the time of concentration is the smallest rainfall duration for which the Rational formula is applicable",
+      "D": "the time of concentration is the largest rainfall duration for which the\nRational formula is applicable"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 The vertical hydraulic conductivity of the top soil at certain stage is 0.2 cm/hr. A storm of intensity 0.5 cm/hr occurs over the soil for an indefinite period.\nAssuming the surfaces drainage to be adequate, the infiltration rate after the\nstorm has lasted for a very long time, shall be",
+    "solution": "Permeability = Hydraulic conductivity [latex]\\left ( \\frac{\\mu }{\\rho g} \\right )[/latex] A storm of i=0.5 cm/hr occurs over the soil for an indefinite period. What is the meaning of \"indefinite period\"? In order to achieve steady state condition, continuous application of water is necessary so that the water level is maintained constant. 'Surface drainage adequate' means at steady state condition some water flows as surface runoff. 'Storm has lasted for a very long time' means the hydraulic conductivity approaches saturated hydraulic conductivity (so that Darcy's law can be obeyed) and at steady state condition infiltration rate is also constant. The constant infiltration rate which is achieved after very long time, shall be more than 0.2 cm/hr (as hydraulic conductivity has increased) but should be less than storm intensity 0.5 cm/hr due to adequate drainage.",
+    "options": {
+      "A": "smaller than 0.2 cm/hr",
+      "B": "0.2 cm/hr",
+      "C": "between 0.2 & 0.5 cm/hr",
+      "D": "0.5 cm/hr"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 The rainfall on five successive days in a catchment were measured as 3, 8, 12, 6,\nand 2 cms. If the total runoff at the outlet from the catchment was 15 cm, the\nvalue of the [latex]\\phi[/latex]-index (in mm/hour) is",
+    "solution": "W-index [latex]=\\frac{P-Q}{t}=\\frac{\\left ( 3+8+12+6+2 \\right )-15}{5} =3.2 cm/day[/latex] Now, as [latex]\\phi[/latex]-index [latex]\\geq[/latex] w-Index [latex]\\therefore[/latex] The rainfall of magnitude 3 cm and 2 cm will not participate in rainfall excess depth (i.e., these will completely infiltrate) [latex]\\therefore[/latex] [latex]\\begin{aligned} \\phi-index&= \\frac{\\text{Infiltration during rainfall excess depth}}{\\text{Time period of rainfall excess}} \\\\   &=\\frac{\\left ( 8+12+6 \\right )-15}{3}=3.67cm/day\\\\ \\text{i.e., } &=\\frac{3.67\\times 10}{24} mm/hr=1.525 mm/hr \\end{aligned}[/latex]",
+    "options": {
+      "A": "0",
+      "B": "1.04",
+      "C": "1.53",
+      "D": "sufficient information not available"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 89 During a 6-hour storm, the rainfall intensity was 0.8 cm/hour on a catchment\nof area 8.6 k[latex]m^{2}[/latex]. The measured runoff volume during this period was 256000 [latex]m^{3}[/latex]. The total rainfall was lost due to infiltration, evaporation, and transpiration (in cm/hour) is",
+    "solution": "Infiltration (per 6 hr)=Rainfall- Runoff [latex] =0.8\\times 6-\\frac{25600}{8.6\\times 10^{6}}\\times 100 [/latex] [latex]   [/latex]=1.823 cm [latex]\\therefore[/latex] Infiltration (per hr) [latex]  =\\frac{1.823}{6}=0.304 cm/hr[/latex]",
+    "options": {
+      "A": "0.8",
+      "B": "0.304",
+      "C": "0.496",
+      "D": "sufficient information not available"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 A 6-hour Unit Hydrograph (UH) of a catchment is triangular in shape with a\ntotal time base of 36 hours and a peak discharge of 18 [latex]m^3/s[/latex]. The area of the\ncatchment (in sq. km) is",
+    "solution": "[latex]\\frac{1}{2}\\times 36\\times 3600\\times 18=\\frac{A\\times 1}{100} [/latex] [latex] 3.6\\times 3.6\\times 9\\times 10^{6}=A [/latex] [latex] A=116.64 km^{2}\\simeq 117 km^{2}[/latex]",
+    "options": {
+      "A": "233",
+      "B": "117",
+      "C": "1.2",
+      "D": "Sufficient information not available"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 The direct runoff hydrograph of a storm obtained from a catchment is triangular in shape and has a base period of 80 hours. The peak flow rate is 30 [latex]m^3/sec[/latex] and catchment area is 86.4 [latex]km^2[/latex]. The rainfall excess that has resulted the above hydrograph is",
+    "solution": "[latex]A=86.4 km^{2}[/latex] Rainfall excess [latex]=\\frac{1}{2}\\frac{30\\times 80\\times 60\\times 60m^{3}}{86.4\\times 10^{4}m^{2}}\\times 100=5[/latex]cm",
+    "options": {
+      "A": "5cm",
+      "B": "8cm",
+      "C": "10cm",
+      "D": "16cm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 A linear reservoir is one in which",
+    "solution": "When outflow from a reservoir is uncontrolled as in freely operating spillway, then the peak of outflow hydrograph will occur at a point of intersection of inflow and outflow curves, whereas if outflow from a reservoir is controlled then peak will occur after the intersection of the curve.",
+    "options": {
+      "A": "Storage varies linearly with time",
+      "B": "Storage varies linearly with outflow rate",
+      "C": "Storage varies linearly with inflow rate",
+      "D": "Storage varies linearly with elevation"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 Isopleths are lines on a map through points having equal depth of",
+    "solution": "The mean annual PET (in cm) over various parts of the country is shown in the form of isopleths. Isopleths are the line on a map through places having equal depth of \"evapotranspiration\".",
+    "options": {
+      "A": "Rainfall",
+      "B": "Infiltration",
+      "C": "Evapotranspiration",
+      "D": "Total runoof"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 94 The stage-discharge relation in a river during the passage of flood is measured.\nIf [latex]q_f[/latex] is the discharge at the stage when water surface is falling and [latex]q_r[/latex] is the\ndischarge at the same stage when water surface is rising, then",
+    "solution": "At the same stage, more discharge passes through the river during rising stages than in falling ones. Note: Stage discharge relation is also known as rating curve.",
+    "options": {
+      "A": "[latex]q_f=q_r[/latex]",
+      "B": "[latex]q_f \\lt q_r[/latex]",
+      "C": "[latex]q_f \\gt q_r[/latex]",
+      "D": "[latex]\\frac{q_f}{q_r}=[/latex] constant for all stages"
+    },
+    "correct_answer": "B"
+  }
+]

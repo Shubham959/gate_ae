@@ -1,0 +1,584 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Pick one or more CORRECT statement(s) from the choices given below, in the context of upstream and downstream cut-offs provided below the concrete apron of weirs / barrages constructed across alluvial rivers.",
+    "solution": "Statement (A): Cut-offs are not related to increasing the rate of flow over the weir or barrage. Their primary function is structural and related to seepage control. This statement is incorrect. Statement (B): Cut-offs increase the seepage path (or seepage length), which helps in reducing the exit gradient and thereby prevents piping failure beneath the structure. This statement is correct. Statement (C): The depth of cut-offs is generally determined based on the expected scour depth to ensure stability and prevent undermining of the structure. This statement is correct. Statement (D): Hydraulic jump is controlled by the design of the stilling basin and energy dissipation arrangements (like baffle blocks, floor slopes). Cut-offs are not directly provided for hydraulic jump formation. This statement is incorrect.",
+    "options": {
+      "A": "Cut-offs are provided to increase the rate of flow over the weir / barrage.",
+      "B": "Cut-offs are provided to increase the seepage length and prevent failure due to piping.",
+      "C": "The bottom level of cut-offs mainly depends on the scour depth.",
+      "D": "Cut-offs are provided to ensure occurrence of hydraulic jump within the stilling basin."
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 A symmetrical trapezoidal canal is 100 km long. The bottom width is 10 m and the side slope is 1 Horizontal : 1 Vertical. The average flow depth in the canal is 2.5 m throughout the month of April. The measurement from a Class-A evaporimeter in the vicinity of the canal indicated an average evaporation rate of 0.5 cm viay in April.\nThe volume of water evaporated from the canal (in [latex]\\mathrm{m}^3[/latex] ) in the month of April is close to _________\n [latex]\\times 10^3[/latex] (rounded off to 1 decimal place).",
+    "solution": "In the month of April, number of days [latex]=30[/latex] Pan evaporation (in terms of depth) [latex]=0.5 \\mathrm{~cm} /[/latex] day [latex]\\times 30[/latex] day\n[latex]\n=15 \\mathrm{~cm}\n[/latex] For trapezoidal canal of length 10 km , [latex]\n\\text { Area of free surface of canal }=15 \\mathrm{~m} \\times 100 \\times 10^3 \\mathrm{~m}\n[/latex]\n[latex]\n=15 \\times 10^5 \\mathrm{~m}^2\n[/latex] [latex]\n\\begin{aligned}\n\\text { Pan evaporation } & =0.15 \\mathrm{~m} \\\\\n\\text { Evaporation loss in canal } & =C_P \\times \\text { Pan evaporation } \\\\\n& =0.7 \\times 0.15 \\mathrm{~m}=0.105 \\mathrm{~m}\n\\end{aligned}\n[/latex] [latex]\n\\text { (For class A pan, } C_P=0.7 \\text { ) }\n[/latex] Evaporation loss from canal in terms of volurne of water [latex]=0.105 \\mathrm{~m} \\times 15 \\times 10^5 \\mathrm{~m}^2[/latex]\n[latex]\n=157.5 \\times 10^9 \\mathrm{~m}^3\n[/latex]",
+    "min": 120.0,
+    "max": 180.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Lacey's regime equations, followed in India for making scour calculations while designing hydraulic structures across alluvial channels, are given below. Regarding these equations, which of the following statements is/are true: [latex]D=0.470 \\times\\left[\\frac{Q}{f_{s}}\\right]^{1 / 3}[/latex] [latex]P=4.75 \\times \\sqrt{Q}[/latex] [latex]f_{s}=1.76 \\times \\sqrt{d}[/latex] where, [latex]Q[/latex] is discharge and [latex]f_{s}[/latex] is silt factor",
+    "solution": "Given Lacey's regime equations: [latex] D = 0.47 \\left( \\frac{Q}{f_s} \\right)^{1/3} [/latex] [latex] P = 4.75 \\sqrt{Q} [/latex] [latex] f_s = 1.76 \\sqrt{d} [/latex] Where: [latex] Q [/latex] is discharge in [latex] \\text{m}^3/\\text{s} [/latex] [latex] f_s [/latex] is the silt factor [latex] d [/latex] is the average grain size diameter in millimetres [latex] D [/latex] is the regime flow depth (not scour depth) [latex] P [/latex] is the wetted perimeter, which in regime channels is approximately the channel width (A) [latex] D [/latex] is the depth of scour below the existing riverbed This is incorrect. [latex] D [/latex] represents the regime flow depth, not the scour depth. (B) [latex] P [/latex] is the Lacey's waterway width This is correct. In regime channels, the wetted perimeter [latex] P [/latex] approximates the width of the channel. (C) [latex] d [/latex] is the average grain size diameter of the bed material in centimetres This is incorrect. The silt factor equation uses [latex] d [/latex] in millimetres. (D) [latex] D [/latex] is the depth of scour below the design flood level This is incorrect. [latex] D [/latex] is the regime depth of flow, not a scour depth. Final correct option: [latex] \\boxed{(B)} [/latex]",
+    "options": {
+      "A": "[latex]D[/latex] is the depth of scour below the existing riverbed",
+      "B": "[latex]P[/latex] is the Lacey's waterway width",
+      "C": "[latex]d[/latex] is the average grain size diameter of the bed material in centimetres",
+      "D": "[latex]D[/latex] is the depth of scour below the design flood level"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 A round-bottom trianglular lined canal is to be liad at a slope of [latex] 1 \\mathrm{~m} [/latex] in 1500 , to carry a discharge of [latex] 25 \\mathrm{~m}^{3} / \\mathrm{s} [/latex]. The side slopes of the canal cross-section are to be kept at [latex] 1.25 \\mathrm{H}: 1 \\mathrm{~V} [/latex]. If Manning's roughtness coefficient is 0.013 , the flow depth (in meters) will be in the range of",
+    "solution": "[latex]\n\\begin{aligned}\n\\cot \\theta & =1.25 \\\\\n\\theta & =0.675 \\mathrm{rad} \\\\\n\\mathrm{n} & =0.013 \\\\\n\\mathrm{Q} & =25 \\mathrm{~m}^{3} / \\mathrm{s}, \\mathrm{S}=\\frac{1}{1500}\n\\end{aligned}\n [/latex] Using manning's equation: [latex]\n\\begin{aligned}\n\\text { Area } & =y^{2}(\\theta+\\cot \\theta) \\\\\nA & =1.925 y^{2} \\\\\nR & =\\frac{y}{2} \\\\\nQ & =\\frac{A}{n} R^{2 / 3}(S)^{1 / 2} \\\\\n25 & =\\frac{1.925 y^{2}}{0.013}\\left(\\frac{y}{2}\\right)^{2 / 3}\\left(\\frac{1}{1500}\\right)^{1 / 2} \\\\\n\\Rightarrow \\quad y & =2.40 \\mathrm{~m}\n\\end{aligned}\n [/latex]",
+    "options": {
+      "A": "2.39 to 2.42",
+      "B": "1.94 to 1.97",
+      "C": "2.24 to 2.27",
+      "D": "2.61 to 2.64"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 A standard round bottom triangular canal section as shown in the figure has a bed slope of 1 in 200. Consider the Chezy's coefficient as 150 1/2/s. The normal depth of flow, [latex] y[latex]  (in meters) for carrying a discharge of [latex] 20 \\mathrm{~m}^{3} / \\mathrm{s}[/latex] is ____ (rounded off to 2 decimal places).",
+    "solution": "Discharge, [latex] Q=A \\times V[/latex] Now, Cross-section area, [latex] A=y^{2}\\left(\\theta_{\\text {radian }}+\\cot \\theta\\right)=y^{2}(0.588+1.5)\n=2.088 y^{2}[/latex] Perimeter, [latex] P=2 y\\left(\\theta_{\\text {radian }}+\\cot \\theta\\right)[/latex] Hydraulic radius, [latex] R=\\frac{A}{P}=\\frac{y^{2}\\left(\\theta_{\\text {radian }}+\\cot \\theta\\right)}{2 y\\left(\\theta_{\\text {radian }}+\\cot \\theta\\right)}=\\frac{y}{2}[/latex] Now,\nVelocity, [latex] V=C \\sqrt{R . S}=150 \\sqrt{\\left(\\frac{y}{2}\\right) \\times \\frac{1}{200}}=\\frac{150}{20} y^{1 / 2}[/latex] Now,\n\n[latex] Q=A \\times V[/latex] [latex] 20=2.088 y^{2} \\times \\frac{150}{20} \\cdot y^{1 / 2}[/latex] [latex]\\Rightarrow \\quad y=1.10 \\mathrm{~m}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ie/page1_q5.webp",
+    "min": 1.09,
+    "max": 1.12
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Identify the cross-drainage work in the figure.",
+    "solution": "In given CDW, river is above the canal with underside of trough sufficiently above the full supply level of canal. Hence it is super passage.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ie/page2_q1.webp",
+    "options": {
+      "A": "Super passage",
+      "B": "Aqueduct",
+      "C": "Siphon aqueduct",
+      "D": "Level crossing"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 A canal supplies water to an area growing wheat over 100 hectares. The duration between the first and last watering is 120 days, and the total depth of water required by the crop is [latex]35 \\mathrm{~cm}[/latex]. The most intense watering is required over a period of 30 days and requires a total depth of water equal to [latex]12 \\mathrm{~cm}[/latex]. Assuming precipitation to be negligible and neglecting all losses, the minimum discharge (in [latex]\\mathrm{m}^{3} / \\mathrm{s}[/latex], rounded off to three decimal places) in the canal to satisfy the crop requirement is _____",
+    "solution": "[latex]{Area}(A)=100[/latex] ha Total duration of irrigation [latex]=120[/latex] days Total depth of water required [latex]=35 \\mathrm{~cm}[/latex] Intense irrigation [latex](A)[/latex] Time [latex]\\left(B_{A}\\right)=30[/latex] days Depth of water [latex]\\left(\\Delta_{A}\\right)=12 \\mathrm{~cm}[/latex] [latex]{Duty}\\left(D_{A}\\right)=\\frac{8.64 B_{A}}{\\Delta_{A}}\r\n[/latex] [latex]\\mathrm{D}_{\\mathrm{A}}=\\frac{8.64 \\times 30}{0.12}\r\n[/latex] [latex]D_{A}=2160 \\mathrm{ha} / \\text { cumec }\r\n[/latex] Discharge required, [latex]\\begin{aligned}\r\n& Q_{A}=\\frac{A}{D_{A}} \\\\\r\n& Q_{A}=\\frac{100}{2160}=0.0463 \\mathrm{~m}^{3} / \\mathrm{s}\r\n\\end{aligned}\r\n[/latex] Remaining irrigation (B) Duration [latex]\\left(B_{B}\\right)=90[/latex] days Depth of water [latex]\\left(\\Delta_{\\mathrm{B}}\\right)=23 \\mathrm{~cm}[/latex] [latex] \\begin{aligned}\r\n\\text { Duty } \\left(D_{B}\\right) & =\\frac{8.64 \\times 90}{0.23} \\\\\r\nD_{B} & =3380.87 \\mathrm{ha} / \\text { cumec }\r\n\\end{aligned}\r\n[/latex] Discharge required [latex]\\left(Q_{B}\\right)=\\frac{A}{D_{B}}[/latex] [latex]\\Rightarrow \\quad \\mathrm{Q}_{\\mathrm{B}}=0.0296 \\mathrm{~m}^{3} / \\mathrm{s}[/latex] Hence, minimum capacity required [latex]=0.0463 \\mathrm{~m}^{3} / \\mathrm{s}[/latex].",
+    "min": 0.045,
+    "max": 0.047
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 In the context of cross-drainage structures, the correct statement(s) regarding\nthe relative positions of a natural drain (stream/river) and an irrigation canal,\nis/are",
+    "solution": "In Aqueduct and Syphon aqueduct under irrigation\ncanal or canal passes over natural drain. In Super passage and Canal syphon or simply\nsyphon, natural drain passes over irrigation canal\nor canal goes under natural drain. In level crossing, natural drain water goes through\nthe irrigation canal.",
+    "options": {
+      "A": "In an aqueduct, natural drain water goes under the irrigation canal, whereas in a super-passage, natural drain water goes over the irrigation canal.",
+      "B": "In a level crossing, natural drain water goes through the irrigation canal.",
+      "C": "In an aqueduct, natural drain water goes over the irrigation canal, whereas in a super-passage, natural drain water goes under the irrigation canal.",
+      "D": "In a canal syphon, natural drain water goes through the irrigation canal."
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 During a particular stage of the growth of a crop, the consumptive use of water is\n2.8 mm/day. The amount of water available in the soil is 50 % of the maximum\ndepth of available water in the root zone. Consider the maximum root zone depth\nof the crop as 80 mm and the irrigation efficiency as 70%. The interval between irrigation (in days) will be _________. (round off to the\nnearest integer)",
+    "solution": "MTA-Marks to ALL Frequency =[latex]\r\n\\frac{\\text{Depth of water needed}}{\\text{Consumptive use}}=\\frac{40}{2.8}=14.28 days[/latex]",
+    "min": 14.28,
+    "max": 14.28
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 A reservoir with a live storage of 300 million cubic metre irrigates 40000 hectares ( 1 hectare= [latex]10^{4} \\mathrm{~m}^{2}[/latex]) of a crop with two fillings of the reservoir. If the base period of the crop is 120 days, the duty for this crop (in hectares per cumec, round off to integer) will then be ________",
+    "solution": "[latex]\\begin{aligned} \\text { Live storage } &=300 \\mathrm{Mm}^{3} \\\\ \\text { Area } &=40000 \\text { hectare }\\\\ \\text {Since 2 filling,} & \\text{ so volume of water needed,} \\\\ &=600 \\mathrm{Mm}^{3}\\\\ B&=120 days \\\\\\text { Duty } &=\\frac{8.64 B}{\\Delta} \\\\ \\Delta &=\\frac{600 \\times 10^{6}}{40000 \\times 10^{4}}=1.5 \\mathrm{~m} \\\\ \\text { Duty } &=\\frac{8.64 \\times 120}{1.5}=691.2 \\text { ha/cumec } \\end{aligned}[/latex]",
+    "min": 689.0,
+    "max": 693.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 11 An unlined canal under regime conditions along with a silt factor of 1 has a width of flow 71.25m. Assuming the unlined canal as a wide channel, the corresponding average depth of flow (in m, round off to two decimal places) in the canal will be ______________",
+    "solution": "R = D (for wide rectangular channel) [latex]\\begin{aligned} &\\begin{aligned} A f^{2} &=140\\left(\\frac{2}{5} f R\\right)^{5 / 2} \\\\ (B D) f^{2} &=140\\left(\\frac{2}{5} f \\times D\\right)^{5 / 2} \\\\ (71.25 \\times D) \\times 1 &=140\\left(\\frac{2}{5} \\times 1 \\times D\\right)^{5 / 2} \\\\ D \\times 0.5089 &=\\left(\\frac{2}{5}\\right)^{5 / 2} \\times(D)^{5 / 2} \\\\ D^{3 / 2} &=5.029 \\\\ \\text { or } \\qquad \\qquad \\qquad \\qquad D &=2.94 \\mathrm{~m} \\end{aligned} \\end{aligned}[/latex]",
+    "min": 2.8,
+    "max": 2.95
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 A concrete dam holds 10 m of static water as shown in the figure (not drawn to the\nscale). The uplift assumed to vary linearly from full hydrostatic head at the heel, to zero\nat the toe of dam. The coefficient of friction between the dam and foundation soil is 0.45.\nSpecific weights of concrete and water are 24 [latex]kN/m^3[/latex] and 9.81 [latex]kN/m^3[/latex], respectively. For NO sliding condition, the required minimum base width B (in m, round off to two\ndecimal places) is __________.",
+    "solution": "[latex]\\begin{aligned} \\mu &=0.45\\\\ \\gamma_{conc} &=24 kN/m^3\\\\ B_{min. sliding}&=\\frac{10}{0.45(2.4-1)}\\\\ &=15.873m \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ie/page3_q2.webp",
+    "min": 15.0,
+    "max": 16.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Crops are grown in a field having soil, which has field capacity of 30% and permanent\nwilting point of 13%. The effective depth of root zone is 80 cm. Irrigation water is supplied\nwhen the average soil moisture drops to 20%. Consider density of the soil as 1500 [latex]kg/m^3[/latex]\nand density of water as 1000 [latex]kg/m^3[/latex]. If the daily consumptive use of water for the crops\nis 2 mm, the frequency of irrigating the crops (in days), is",
+    "solution": "As per GATE Official Answer Key MTA (Marks to All) FC=30% PWP=13% [latex]\\begin{aligned} d_w&=\\frac{\\gamma _d}{\\gamma _w}d \\times (FC-OMC) \\\\ &= \\frac{1500}{1000}\\times 80 (0.3-0.2)\\\\ &= 12cm=120mm \\end{aligned}[/latex] Consumptive use = 2 mm/day So, frequency of irrigation =120/2 = 60day",
+    "options": {
+      "A": "7",
+      "B": "10",
+      "C": "11",
+      "D": "13"
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 The data for an agricultural field for a specific month are given below: Pan Evaporation = 100 mm Effective Rainfall = 20 mm (after deducting losses due to runoff and deep percolation) Crop Coefficient = 0.4 Irrigation Efficiency = 0.5 The amount of irrigation water (in mm) to be applied to the field in that month, is",
+    "solution": "Water required by the crop = 100 x 0.4 = 40mm Effective rainfall =20mm Additional water required =20mm Amount of water required after accounting irrigation efficiency [latex]=\\frac{20}{0.5}=40mm[/latex]",
+    "options": {
+      "A": "0",
+      "B": "20",
+      "C": "40",
+      "D": "80"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 At the foot of a spillway, water flows at a depth of 23 cm with a velocity of 8.1 m/s, as shown in the figure. The flow enters as an M-3 profile in the long wide rectangular channel with bed slope = [latex]\\frac{1}{1800}[/latex] and Manning's n= 0.015. A hydraulic jump is formed at a certain distance from the foot of the spillway. Assume the acceleration due to gravity, g = 9.81 [latex]m/s^2[/latex]. Just before the hydraulic jump, the depth of flow [latex]y_1[/latex]\n (in m, round off to 2 decimal places) is _______",
+    "solution": "[latex]\\begin{aligned} y &=0.23m \\\\ V&=8.1m/s \\\\ q&=Vy=0.23 \\times 8.1 \\\\ &= 1.863 m^3/s-m\\\\ S_0&=\\frac{1}{800} \\\\ D&=0.015 \\end{aligned}[/latex] [latex]y_n=[/latex] Normal depth of flow R = y for wide rectangular channel By Manning's equation [latex]\\begin{aligned} q&=\\frac{y_n}{n}R^{2/3}S_0^{1/2} \\\\ 1.863&=\\frac{y_n^{5/3}}{0.015} \\times \\left ( \\frac{1}{1800} \\right )^{1/2} \\\\ y_n&= 1.108m \\end{aligned}[/latex] [latex]y_1[/latex] is conjugate depth of [latex]y_0[/latex], [latex]\\begin{aligned} \\frac{y_1}{y_n}&=\\frac{-1+\\sqrt{1+8Fr_n^2}}{2} \\\\ \\because &\\;\\;\\left ( Fr_n^2=\\frac{q^2}{gy_n^3} \\right ) \\\\ y_1&=\\frac{-1+\\sqrt{1+8 \\times \\frac{1.863^2}{9.81 \\times 1.108^3}}}{2} \\times 1.108\\\\ &=0.418m\\simeq 0.42m \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ie/page3_q5.webp",
+    "min": 0.41,
+    "max": 0.43
+  },
+  {
+    "type": "numerical",
+    "question": "Question 16 A confined aquifer of 15 m constant thickness is sandwiched between two aquicludes as shown in the figure. The heads indicated by two piezometers P and Q are 55.2 m and 34.1 m, respectively. The aquifer has a hydraulic conductivity of 80 m/day and its effective porosity is 0.25. If the distance between the piezometers is 2500 m, the time taken by the water to travel through the aquifer from piezometer location P to Q (in days,round off to 1 decimal place) is______",
+    "solution": "Discharge velocity, [latex]\\begin{aligned} V&=ki\\\\ V&=k\\frac{h_1-h_2}{L}\\\\ &=80 \\left ( \\frac{55.2-34.1}{2500} \\right )\\\\ &=0.6752 m/day\\\\ &\\text{Porosity}, n =0.25\\\\ &\\therefore \\;\\;\\text{Seepage velocity,}\\\\ V_s&=\\frac{V}{n}=\\frac{0.6752}{0.25}\\\\ &=2.7008 m/day\\\\ \\text{Time taken}&=\\frac{L}{V_s}\\\\ &=\\frac{2500}{2.7008}=925.65 days \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ie/page4_q1.webp",
+    "min": 924.0,
+    "max": 926.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 The command area of a canal grows only one crop, i.e., wheat. The base period of wheat is 120 days and its total water requirement, [latex]\\Delta[/latex], is 40 cm. If the canal discharge is 2 [latex]m^3/s[/latex], the area, in hectares, rounded off to the nearest integer, which could be irrigated (neglectingall losses) is _______",
+    "solution": "Given data: Base period, B = 120 days Delta of crop, [latex]\\Delta = 40 cm[/latex] Discharge, [latex]Q = 2 m^3/s[/latex] Area to be irrigated, A = ? Duty of water, [latex]\\Delta =\\frac{864 \\times B}{\\Delta }[/latex] ha/cumec and Area to be irrigated; A = Q x D [latex]\\Rightarrow A = 2 m^3/s \\times \\frac{864 \\times 120}{40}\\; ha/cumec[/latex] [latex]A = 5184\\; ha[/latex]",
+    "min": 5180.0,
+    "max": 5190.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 If the path of an irrigation canal is below the bed level of a natural stream, the type of cross-drainage structure provided is",
+    "solution": "Irrigation canal below the bed level of a natural stream [latex]\\rightarrow[/latex] Super passage",
+    "options": {
+      "A": "Aqueduct",
+      "B": "Level crossing",
+      "C": "Sluice gate",
+      "D": "Super passage"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 The intensity of irrigation for the Kharif season is 50% for an irrigation project with culturable command area of 50,000 hectares. The duty for the Kharif season is 1000 hectare/cumec. Assuming transmission loss of 10%, the required discharge (in cumec, up to two decimal places) at the head of the canal is ______",
+    "solution": "Culturable command area =50000ha Intensity of irrigation for kharif season =50 % [latex] \\therefore [/latex] Area under kharif =25000ha Duty for kharif season =1000 ha/cumec Duty [latex]=\\frac{\\text { Area }}{\\text { Discharge }} [/latex] [latex] \\therefore [/latex] Discharge at the head of field [latex] \\begin{aligned} Q &=\\frac{25000 \\mathrm{ha}}{1000 \\mathrm{ha} / \\mathrm{cumec}} \\\\ &=25 \\mathrm{cumec} \\end{aligned}[/latex] Transmission/conveyance loss =10 % [latex] \\therefore \\quad \\eta_{\\text {conveyance }}=90 % [/latex] Discharge at the head of canal [latex] \\begin{array}{l} =\\frac{25}{0.9} \\text { cumec } \\\\ =27.78 \\text { cumec } \\end{array}[/latex]",
+    "min": 27.0,
+    "max": 28.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 The culturable command area of a canal is 10,000 ha. The area grows only two crops-rice in the Kharif season and wheat in the Rabi season. The design discharge of the canal is based on the rice requirements, which has an irrigated area of 2500 ha, base period of 150 days and delta of 130 cm. The maximum permissible irrigated area (in ha) for wheat, with a base period of 120 days and delta of 50 cm, is",
+    "solution": "[latex]\\begin{aligned} \\mathrm{CCA} &=10000 \\mathrm{ha} \\\\ \\text { For rice, } \\Delta_{r}&=130 \\mathrm{cm}=1.3 \\mathrm{m} \\\\ A_{r} & =2500 \\mathrm{ha} \\\\ B_{r} & =150 \\text { days } \\\\ \\text{Duty,}\\quad D_{r} & =\\frac{8.64 B_{r}}{\\Delta_{r}}=\\frac{8.64 \\times 150}{1.30} \\\\ D_{r} & =996.923 \\mathrm{ha} / \\mathrm{cumecs} \\\\ D_{r} & =\\frac{A}{Q} \\\\ Q & =\\frac{2500}{996.923} \\mathrm{m}^{3} / \\mathrm{s}=2.5077 \\mathrm{m}^{3} / \\mathrm{s}\\\\ \\text{For wheat also,} &\\text{discharge is }2.5077 \\mathrm{m}^{3} / \\mathrm{s}\\\\ B_{w} &=120 \\text { days } \\\\ \\Delta &=50 \\mathrm{cm} \\\\ A_{w} &=Q \\times D_{w} \\\\ D_{w} &=\\frac{8.64 \\times B_{w}}{\\Delta_{w}} \\\\ &=\\frac{8.64 \\times 120}{0.5}=2073.6 \\\\ \\therefore \\quad A_{w} &=2.5077 \\times 2073.6 \\\\ &=5199.966 \\mathrm{ha} \\simeq 5200 \\mathrm{ha} \\end{aligned}[/latex]",
+    "min": 5150.0,
+    "max": 5250.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 Group I contains three broad classes of irrigation supply canal outlets. Group II presents hydraulic performance attributes. The correct match of the items in Group I with the items in Group II is",
+    "solution": "Non-modular outlet :These are the outlets whose \r\ndischarge depends on the difference in water \r\nlevels in the distributing channel and the water <\r\ncourse. The discharge of such outlets, therefore, \r\nvaries with the variation of the water levels in the \r\ndistributing channel and the water course. Semi-modular outlet : These are the outlets \r\nwhose discharge varies with the variation of the \r\nwater level in the distribution channel but it is \r\nindependent of the water level in the water course, \r\nso long as the minimum working head required \r\nfor their working is available. Modular outlet : These are the outlets whose \r\ndischarge is independent of the water levels in \r\nthe distributing channel and the water course, \r\nwithin reasonable working limits. In other words \r\nmodular outlets maintain a constant discharge \r\nirrespective of variation of the water levels in the \r\ndistributing channel and the water course.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ie/page5_q1.webp",
+    "options": {
+      "A": "P-1; Q-2; R-3",
+      "B": "P-3; Q-1; R-2",
+      "C": "P-2; Q-3; R-1",
+      "D": "P-1; Q-3; R-2"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 Profile of a weir on permeable foundation is shown in figure I and an elementary profile of 'upstream pile only case' according to Khosla's theory is shown in figure II. The uplift pressure heads at key points Q, R and S are 3.14 m, 2.75 m and 0 m, respectively (refer figure II). What is the uplift pressure head at point P downstream of the weir (junction of floor and pile as shown in the figure I)?",
+    "solution": "[latex]\\begin{aligned} \\phi_{\\mathrm{R}} &=\\frac{2.75}{4} \\times 100=68.75 \\% \\\\ \\phi_{\\mathrm{P}} &=100-\\phi_{\\mathrm{R}}=31.25 \\% \\\\ \\text { Now, } \\phi_{p} &=\\frac{\\text { Pressure head at point } \\mathrm{P}}{\\text { Total head }} \\times 100 \\\\ 31.25 &=\\frac{h}{4} \\times 100 \\\\ \\therefore \\quad h &=1.25 \\mathrm{m} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ie/page5_q2.webp",
+    "options": {
+      "A": "2.75 m",
+      "B": "1.25 m",
+      "C": "0.8 m",
+      "D": "data not sufficient"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 A concrete gravity dam section is shown in the figure. Assuming unit weight of water as [latex]10\\: kN/m^{3}[/latex] and unit weight of concrete as [latex]24\\: kN/m^{3}[/latex], the uplift force per unit length of the dam (expressed in kN/m) at PQ is ____________.",
+    "solution": "[latex]\\begin{aligned} &\\text { Total uplift pressure }\\\\ &=250 \\times 10+40 \\times 50+\\frac{1}{2} \\times 200 \\times 40+\\frac{1}{2} \\times 400 \\times 10\\\\ &=2500+2000+4000+2000\\\\ &=10500 \\mathrm{kN} / \\mathrm{m} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ie/page5_q3.webp",
+    "min": 10490.0,
+    "max": 10510.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 A field channel has cultivable commanded area of 2000 hectares. The intensities of irrigation for gram and wheat are 30% and 50% respectively. Gram has a kor period of 18 days, kor depth of 12 cm, while wheat has a kor period of 18 days and a kor depth of 15 cm. The discharge (in [latex]m^{3}[/latex]/s) required in the field channel to supply water to the commanded area during the kor period is_____.",
+    "solution": "Gram and wheat are Rabi crops. So both are grown in the same period. Discharge required for gram, [latex] Q_{g}=\\frac{A_{g}}{D_{g}}=\\frac{2000 \\times 0.3}{8.64 \\times \\frac{18}{0.12}}=0.4630 \\mathrm{m}^{3} / \\mathrm{s} [/latex] Discharge required for wheat, [latex] Q_{w}=\\frac{A_{w}}{D_{w}}=\\frac{2000 \\times 0.5}{8.64 \\times \\frac{18}{0.15}}=0.9645 \\mathrm{m}^{3} / \\mathrm{s} [/latex] [latex] Total discharge =Q_{g}+Q_{w}=1.4275 \\mathrm{m}^{3} / \\mathrm{s}[/latex]",
+    "min": 1.4,
+    "max": 1.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 The two columns below show some parameters and their possible values. Which of the following options matches the parameters and the values correctly?",
+    "solution": "Gross Command Area is measured in hectares. (P-III) Duty has a unit of ha/cumec. (R-I) Delta of wheat can be practically 40 cm (S- V)",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ie/page5_q5.webp",
+    "options": {
+      "A": "P-I, Q-II, R-III, S-IV",
+      "B": "P-III, Q-VI, R-I, S-V",
+      "C": "P-I, Q-V, R-VI, S-II",
+      "D": "P-III, Q-II, R-V, S-IV"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 Irrigation water is to be provided to a crop in a field to bring the moisture content of the soil from the existing 18% to the field capacity of the soil at 28%. The effective root zone of the crop is 70 cm. If the densities of the soil and water are 1.3 g/[latex]cm^2[/latex] and 1.0 g/[latex]cm^3[/latex]respectively, the depth of irrigation water (in mm) required for irrigating the crop is ________",
+    "solution": "Given, Root zone depth, [latex] d=70 \\mathrm{cm}[/latex] Field capacity, [latex] F_{C}=28 \\%[/latex] Existing moisture content, [latex] w=18 \\%[/latex] Density of soil, [latex] \\gamma=1.3 \\mathrm{gm} / \\mathrm{cm}^{3}[/latex] Density of water, [latex] \\gamma_{w}=1.0 \\mathrm{gm} / \\mathrm{cm}^{3}[/latex] Depth of irrigation water required, [latex] \\begin{aligned} d_{w} &=\\frac{\\gamma}{\\gamma_{w}} d\\left(F_{c}-w\\right) \\\\ &=\\frac{1.3}{1.0} \\times(70 \\times 10)(28 \\%-18 \\%) \\\\ &=1.3 \\times(70 \\times 10) \\times \\frac{10}{100} \\\\ &=91 \\mathrm{mm} \\end{aligned}[/latex]",
+    "min": 91.0,
+    "max": 91.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 The transplantation of rice requires 10 days and total depth of water required during transplantation\nis 48 cm. During transplantation, there is an effective rainfall (useful for irrigation) of 8 cm. The\nduty of irrigation water (in hectares/cumec) is:",
+    "solution": "[latex]\\begin{aligned} D &=864 \\mathrm{B} / \\Delta \\mathrm{ha} / \\mathrm{cumecs} \\\\ &=\\frac{864 \\times 10}{(48-8) \\times 10}=216 \\mathrm{ha} / \\mathrm{cumecs} \\end{aligned}[/latex]",
+    "options": {
+      "A": "612",
+      "B": "216",
+      "C": "300",
+      "D": "108"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Wheat crop requires 55 cm of water during 120 days of base period. The total rainfall during this\nperiod is 100 mm. Assume the irrigation efficiency to be 60%. The area (in ha) of the land which\ncan be irrigated with a canal flow of 0.01 [latex]m^3[/latex]/s is",
+    "solution": "Given, Base period, B=120 days [latex] \\Delta=55-10=45 \\mathrm{cm}=0.45 \\mathrm{m}[/latex] [latex] \\because \\quad \\Delta=8.64 \\frac{B}{D}, \\quad \\therefore D=\\frac{8.64 \\times 120}{0.45}=2304 [/latex] [latex] \\therefore \\text{ Area, } \\quad A=2304 \\times 0.01=23.04 [/latex] As efficiency of Irrigation is 60 % Then required area for wheat crop [latex] =23.04 \\times \\frac{60}{100}=13.82 \\mathrm{ha}[/latex]",
+    "options": {
+      "A": "13.82",
+      "B": "18.85",
+      "C": "23.04",
+      "D": "230.4"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 The moisture holding capacity of the soil in a 100 hectare farm is 18cm/m. the field is to\nbe irrigated when 50 percent of the available moisture in the root zone is depleted. The\nirrigation water is to be supplied by a pump working for 10hours a day, and water\napplication efficiency is 75%. Details of crops planned for cultivation are as follows: The area of crop 'Y ' that can be irrigated when the available capacity of irrigation\nsystem is 40 litres/sec is",
+    "solution": "Moisture holding capacity of soil for crop [latex] Y=18 \\times 0.8=14.4 \\mathrm{cm} [/latex] Allowable depletion of moisture [latex] =\\frac{50}{100} \\times 14.4=7.2 \\mathrm{cm}[/latex] Consumptive use of water.for crop. [latex] Y=0.4 \\mathrm{cm} / \\mathrm{day}[/latex] [latex] \\therefore [/latex]Frequency of irrigation [latex]=\\frac{7.2}{0.4}=18 \\mathrm{days} [/latex] Thus 7.2 cm depth of water is to be applied to the crop Y in the next 18 days. Irrigation requirement [latex]=\\frac{7.2}{0.75}=9.6 \\mathrm{cm} [/latex] Quantity of water required = Discharge through pump [latex] \\Rightarrow\\quad \\frac{9.6}{100} \\times A \\times 10^{4}=40 \\times 10^{-3} \\times 18 \\times 10 \\times 60 \\times 60 [/latex] [latex] \\Rightarrow\\quad A=27 \\mathrm{hectares}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ie/page6_q4.webp",
+    "options": {
+      "A": "40 hectares",
+      "B": "36 hectares",
+      "C": "30 hectares",
+      "D": "27 hectares"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 The moisture holding capacity of the soil in a 100 hectare farm is 18cm/m. the field is to\nbe irrigated when 50 percent of the available moisture in the root zone is depleted. The\nirrigation water is to be supplied by a pump working for 10hours a day, and water\napplication efficiency is 75%. Details of crops planned for cultivation are as follows: The capacity of irrigation system to irrigate crop 'X' in 36 hectares is",
+    "solution": "Moisture holding capacity of soil =18cm / m Root zone depth of crop X=1.0 m M Moisture holding capacity of soil for crop [latex]\r\nX=18 \\times 1=18 \\mathrm{cm}[/latex] Allowable depletion of moisture [latex]\r\n=\\frac{50}{100} \\times 18=9 \\mathrm{cm}[/latex] Consumptive use of water for crop [latex]\r\nX=0.5 \\mathrm{cm} / \\text { day }[/latex] [latex]\r\n \\therefore [/latex] Frequency of irrigation [latex] =\\frac{9}{0.5}=18\\text{days}[/latex] Thus 9 cm depth of water is to be applied to the \r\ncrop X in the next 18 days. Irrigation requirement [latex]=\\frac{\\text { Net water depth }}{\\text { Water application efficiency }} [/latex] [latex] =\\frac{9}{0.75}=12 \\mathrm{cm} [/latex] Quantity of water required [latex] =\\frac{12}{100} \\times 36 \\times 10^{4}=43200 \\mathrm{m}^{3} [/latex] [latex] \\therefore \\quad[/latex] Discharge through pump [latex] =\\frac{43200}{18 \\times 10 \\times 60 \\times 60} \\times 10^{3}\\text{ litres/sec}[/latex] [latex] =66.67 \\text{ litres/sec }\\simeq 67 \\quad\\text{ litres/sec}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ie/page6_q5.webp",
+    "options": {
+      "A": "83 liters/sec",
+      "B": "67 literse/sec",
+      "C": "57 liters/sec",
+      "D": "53 liters/sec"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 An agricultural land of 437 ha is to be irrigated for a particular crop. The base period of the crop is 90 days and the total depth of water required by the crop is 105 cm. If a rainfall of 15 cm occurs during the base period, the duty of irrigation water is",
+    "solution": "Total depth of water required by the crop =105 cm Contribution of rainfall during the base period [latex] \\begin{aligned} =15 \\mathrm{cm} \\\\ \\therefore \\text{Delta,} \\quad \\Delta&=105-15=90 \\mathrm{cm} \\\\ \\text { Duty of crop } &=\\frac{864 \\mathrm{B}}{\\Delta}=\\frac{864 \\times 90}{90} \\\\ &=864 \\text { halcumec } \\end{aligned}[/latex]",
+    "options": {
+      "A": "437 ha/cumec",
+      "B": "486 ha/cumec",
+      "C": "741 ha/cumec",
+      "D": "864 ha/cumec"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 The depth of flow in an alluvial channel is 1.5 m. If critical velocity ratio is 1.1 and Manning's n is 0.018, the critical velocity of the channel as per Kenedy's method is",
+    "solution": "The critical velocity as per Kennedy's method is given by, [latex] \\begin{aligned} V_{0} &=0.55 \\mathrm{my}^{0.64}=0.55 \\times 1.1 \\times(1.5)^{0.64} \\\\ &=0.784 \\mathrm{m} / \\mathrm{s} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.713 m/s",
+      "B": "0.784 m/s",
+      "C": "0.879 m/s",
+      "D": "1.108 m/s"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 An outlet irrigates an area of 20 ha. The discharge (l/s) required at this outlet to meet the evapotranspiration requirement of 20 mm occurring uniformly in 20\r\ndays neglecting other field losses is",
+    "solution": "Volume of water required for evapo-transpiration [latex] \\begin{aligned} &=20 \\times 10^{4} \\times 20 \\times 10^{-3} \\times 10^{3} \\\\ &=4 \\times 10^{6} \\text { litres } \\end{aligned}[/latex] [latex] \\therefore [/latex] Discharge required at outlet [latex] =\\frac{4 \\times 10^{6}}{20 \\times 24 \\times 60 \\times 60}[/latex] [latex] =2.31 \\; \\text{litres/sec}[/latex]",
+    "options": {
+      "A": "2.52",
+      "B": "2.31",
+      "C": "2.01",
+      "D": "1.52"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 Water emerges from an ogee spilway with velocity = 13.72 m/s and depth = 0.3\nm at its toe. The tail water depth required to form a hydraulic jump at the toe is",
+    "solution": "Water depth required to form a hydraulic jump may be given as, [latex] \\begin{aligned} y_{2} &=\\frac{y_{1}}{2}\\left[-1+\\sqrt{1+\\frac{8 V_{1}^{2}}{g y_{1}}}\\right] \\\\ &=\\frac{0.3}{2} \\times\\left[-1+\\sqrt{1+\\frac{8 \\times(13.72)^{2}}{9.81 \\times 0.3}}\\right] \\\\ &=3.24 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "6.48m",
+      "B": "5.24m",
+      "C": "3.24m",
+      "D": "2.24m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 A weir on a permeable foundation with downstream sheet pile is shown in the\nfigure below. The exit gradient as per Khosla's method is",
+    "solution": "The exit gradient may be given as, [latex] \\begin{aligned} G_{E}&=\\frac{H}{d} \\times \\frac{1}{\\pi \\sqrt{\\lambda}}\\\\ \\text{where }\\lambda&=\\frac{1+\\sqrt{1+\\alpha^{2}}}{2} \\text{ and }\\alpha=\\frac{b}{d} \\\\ \\text{Here }\\quad b&=10 \\mathrm{m}, d=4 \\mathrm{m}, H=5 \\mathrm{m} \\\\ \\therefore \\quad \\alpha&=\\frac{b}{d}=\\frac{10}{4}=2.5 \\\\ \\text{and }\\quad \\lambda&=\\frac{1+\\sqrt{1+(2.5)^{2}}}{2}=1.85 \\\\ \\therefore \\quad G_{E}&=\\frac{5}{4} \\times \\frac{1}{\\pi \\times \\sqrt{1.85}} \\\\ \\Rightarrow \\quad G_{E}&=\\frac{1}{3.4} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ie/page7_q5.webp",
+    "options": {
+      "A": "1 in 6.0",
+      "B": "1 in 5.0",
+      "C": "1 in 3.4",
+      "D": "1 in 2.5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 The base width of an elementary profile of a gravity dam of height H is b. The\nspecific gravity of the material of the dam is G and uplift pressure coefficient is\nK. The correct relationship for no tension at the heel is given by",
+    "solution": "Tension will not be developed at the heel with full resevoir, when, [latex] b \\geq \\frac{H}{\\sqrt{G-K}} [/latex]",
+    "options": {
+      "A": "[latex]\\frac{b}{H}=\\frac{1}{\\sqrt{G-K}}[/latex]",
+      "B": "[latex]\\frac{b}{H}=\\sqrt{G-K}[/latex]",
+      "C": "[latex]\\frac{b}{H}=\\frac{1}{G-K}[/latex]",
+      "D": "[latex]\\frac{b}{H}=\\frac{1}{K\\sqrt{G-K}}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 A stable channel is to be designed for a discharge of Q [latex]m^{3}/s[/latex] with silt factor f as per Lacey's method. The mean flow velocity (m/s) in the channel is obtained by",
+    "solution": "",
+    "options": {
+      "A": "[latex][\\frac{Qf^{2}}{140}]^{1/6}[/latex]",
+      "B": "[latex][\\frac{Qf}{140}]^{1/3}[/latex]",
+      "C": "[latex][\\frac{Q^{2}f^{2}}{140}]^{1/6}[/latex]",
+      "D": "[latex]0.48*[\\frac{Q}{f}]^{1/3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 The culturable command area for a distributed channel is 20,000 hectares. Wheat\nis grown in the entire area and the intensity of irrigation is 50%. The kor period\nfor wheat is 30 days and the kor water depth is 120 mm. The outlet discharge for\nthe distributary should be",
+    "solution": "Area to be irrigated = Culturable command area [latex]\\times [/latex] Intensity of irrigation [latex] \\begin{aligned} &=20,000 \\times \\frac{50}{100} \\\\ &=10,000 \\mathrm{ha}\\\\ \\text{Duty, }\\quad D&=\\frac{8.64 \\mathrm{B}}{\\Delta}=\\frac{8.64 \\times 30}{120 \\times 10^{-3}} \\\\ &=2160 \\text { ha/cumec } \\\\ \\therefore \\text { Outlet discharge } &=\\frac{\\text { Area to be irrigated }}{\\text { Duty of crop }} \\\\ &=\\frac{10,000}{2160}=4.63 \\mathrm{m}^{3} / \\mathrm{s} \\end{aligned}[/latex]",
+    "options": {
+      "A": "2.85[latex]m^{3}/s[/latex]",
+      "B": "3.21[latex]m^{3}/s[/latex]",
+      "C": "4.63[latex]m^{3}/s[/latex]",
+      "D": "5.23[latex]m^{3}/s[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 As per the Lacey's method for design of alluvial channels, identify the TRUE\nstatement from the following :",
+    "solution": "As per Lacey's method of design of alluvial\nchannels, [latex]P=475 \\sqrt{Q}[/latex]",
+    "options": {
+      "A": "Wetted perimeter increases with an increase in design discharge.",
+      "B": "Hydraulic radius increases with an increase in slit factor.",
+      "C": "Wetted perimeter decreases with an increase in design discharge",
+      "D": "Wetted perimeter increases with an increase in slit factor."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 The consumptive use of water for a crop during a particular stage of growth is\n2.0 mm/day. The maximum depth of available water in the root zone is 60 mm.\nIrrigation is required when the amount of available water is 50% of the maximum\navailable water in the root zone. Frequency of irrigation should be",
+    "solution": "Consumptive use of water =2.0 mm/day Maximum depth of available water =60 mm If amount of available water is reduced by 50% then irrigation is required for a depth [latex] =\\frac{50}{100} \\times 60=30 \\mathrm{mm}[/latex] [latex] \\therefore [/latex] Frequency of irrigation [latex]=\\frac{30}{2}=15\\text{days}[/latex]",
+    "options": {
+      "A": "10days",
+      "B": "15days",
+      "C": "20days",
+      "D": "25days"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 In a cultivated area, the soil has porosity of 45% and field capacity of 38%. For a\nparticular crop, the root zone depth is 1.0m, the permanent wilting point is 10%\nand the consumptive use is 15 mm/d. If the irrigation efficiency is 60%, what\nshould be the frequency of irrigation such that the moisture content does not fall\nbelow 50% of the maximum available moisture ?",
+    "solution": "Depth of maximum available moisture, [latex] d_{w}=\\frac{\\gamma d}{\\gamma_{w}}(F-\\phi)[/latex] Field capacity [latex] \\begin{aligned} &= \\frac{\\text { weight of water retained by soil }}{\\text { weight of same area of soil }} \\\\ &=\\frac{\\gamma_{w} \\times V_{v}}{\\gamma \\times V} \\\\ \\text { But } \\frac{V_{v}}{V}&=n \\\\ \\therefore \\text { Field capacity } &=\\frac{\\gamma_{w}}{\\gamma} \\times n\\\\ \\Rightarrow \\frac{\\gamma_{\\mathrm{w}}}{\\gamma} &=\\frac{n}{\\text{Field capicity}} \\\\ \\Rightarrow \\frac{\\gamma_{\\mathrm{w}}}{\\gamma} &=\\frac{0.45}{0.38} \\\\ \\therefore \\quad \\quad d_{w} &=\\frac{0.45}{0.38} \\times 1 \\times[0.38-0.1] \\\\ &=0.331 \\mathrm{m} \\end{aligned}[/latex] But the moisture content should not fall below 50 % [latex] \\therefore [/latex] Depth of water required [latex] =0.5 \\times 0.331=0.165 \\mathrm{m}[/latex] Actual depth stored [latex] =\\frac{0.165 \\times 60}{100}=0.099 \\mathrm{m}=99 \\mathrm{mm}[/latex] Frequency of irrigation [latex] \\begin{array}{l} =\\frac{\\text { Actual depth stored }}{\\text { Consumptive use }}=\\frac{99}{15} \\\\ =6.63 \\mathrm{d} \\simeq 6 \\mathrm{d} \\end{array}[/latex]",
+    "options": {
+      "A": "5d",
+      "B": "6d",
+      "C": "9d",
+      "D": "15d"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 The culturable commanded area for a distributary is [latex]2\\times 10^{8}m^{2}[/latex]. The intensity of irrigation for a crop is 40%. If kor water depth and kor period for the crop are 14 cm and 4 weeks, respectively, the peak demand discharge is",
+    "solution": "[latex]\\begin{aligned} \\text { Area under crop } &=2 \\times 10^{8} \\times \\frac{40}{100} \\\\ &=0.8 \\times 10^{8} \\mathrm{m}^{2} \\\\ \\text { Volume } &=\\text { Area } \\times \\Delta \\\\ &=0.8 \\times 10^{8} \\times 14 \\times 10^{-2} \\\\ &=1.2 \\times 10^{7} \\mathrm{m}^{3} \\\\ \\text { Discharge, } Q &=\\frac{1.12 \\times 10^{7}}{4 \\times 7 \\times 24 \\times 3600} \\\\ &=4.63 \\mathrm{m}^{3} / \\mathrm{sec} \\end{aligned}[/latex]",
+    "options": {
+      "A": "2.63[latex]m^{3}/s[/latex]",
+      "B": "4.63[latex]m^{3}/s[/latex]",
+      "C": "8.53[latex]m^{3}/s[/latex]",
+      "D": "11.58[latex]m^{3}/s[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 A launching apron is to be designed at downstream of a weir for discharge intensity\r\nof 6.5 [latex]m^{3}[/latex]/s/m. For the design of launching aprons the scour depth is taken two times of Lacey scour depth. The silt factor of the bed material is unity. If the tailwater\r\ndepth is 4.4 m, the length of launching apron in the launched position is",
+    "solution": "Lacey's scour depth, [latex] \\begin{aligned} R=1.35\\left(\\frac{q^{2}}{f}\\right)^{1 / 3}&=1.35 \\times\\left(\\frac{6.5^{2}}{1}\\right)^{1 / 3}=4.7 \\mathrm{m} \\\\ \\text{Scour depth }&=2 R=9.4 \\mathrm{m} \\\\ \\therefore \\quad D&=2 R-4.4=5 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\sqrt{5}[/latex]m",
+      "B": "4.7m",
+      "C": "5m",
+      "D": "5[latex]\\sqrt{5}[/latex]m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 Uplift pressure at point E and D (shown in figure ) of a straight horizonal floor of negligible\nthickness with a sheet pile at downstream end are 28% and 20%, respectively. If the sheet pile is at upstream end of the floor, the uplift pressures at point [latex]D_{1}[/latex] and [latex]C_{1}[/latex] are",
+    "solution": "[latex]\\begin{aligned} \\text{Uplift pressure at }\\mathrm{D}_{1}, \\phi_{D_{1}}&=100-\\phi_{\\mathrm{D}} \\\\ &=100-20=80 \\% \\\\ \\text{Uplift pressure at }C_{1}, \\phi_{C_{1}}&=100-\\phi_{E} \\\\ &=100-28=72 \\% \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/ie/page9_q4.webp",
+    "options": {
+      "A": "68% and 60% respectively",
+      "B": "80% and 72% respectively",
+      "C": "88% and 70% respectively",
+      "D": "100% and zero respectively"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 Which one of the following equations represents the downstream profile of Ogee\r\nspillway with vertical upstream face? (x,y) are the co-ordinates of the point\r\non the downstream profile with origin at the crest of the spillway and [latex]H_d[/latex] is the\r\ndesign head.",
+    "solution": "For a spillway having a vertical u/s face, the d/s crest is given by the equation, [latex] \\begin{aligned} x^{1.85}&=-2 H_{d}^{0.85} \\times y\\\\ \\Rightarrow \\quad x^{1.85}&=-2 H_{d}^{0.85} y \\times \\frac{H_{d}}{H_{d}} \\\\ \\Rightarrow \\quad x^{1.85}&=-2 \\frac{H_{d}^{1.85} y}{H_{d}} \\\\ \\Rightarrow \\quad \\frac{x^{1.85}}{-2 H_{d}^{1.85}}&=\\frac{y}{H_{d}} \\\\ \\Rightarrow \\quad \\frac{y}{H_{d}}&=-0.5\\left(\\frac{\\dot{x}}{H_{d}}\\right)^{1.85} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{y}{H_{d}}= -0.5\\left ( \\frac{x}{H_{d}} \\right )^{1.85}[/latex]",
+      "B": "[latex]\\frac{y}{H_{d}}= -0.5\\left ( \\frac{x}{H_{d}} \\right )^{\\frac{1}{1.85}}[/latex]",
+      "C": "[latex]\\frac{y}{H_{d}}= -2.0\\left ( \\frac{x}{H_{d}} \\right )^{1.85}[/latex]",
+      "D": "[latex]\\frac{y}{H_{d}}= -2.0\\left ( \\frac{x}{H_{d}} \\right )^{\\frac{1}{1.85}}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 On which of the canal systems, R.G. Kennedy, executive engineer in the the\nPunjab Irrigation Department made his observations for proposing his theory on\nstable channels ?",
+    "solution": "",
+    "options": {
+      "A": "Krishna Western Delta canals",
+      "B": "Lower Bari Docab canals",
+      "C": "Lower Chenab canals",
+      "D": "Upper Bari Doab canals"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 A canal irrigates a portion of a culturable command area of grow sugarcane\nand wheat. The average discharges required to grow sugarcane and wheat are,\nrespectively, 0.36 and 0.27 cumecs. The time factor is 0.9. The required design\ncapacity of the canal is",
+    "solution": "Design discharge [latex] =\\frac{0.36+0.27}{0.9}=0.70 [/latex]",
+    "options": {
+      "A": "0.36 cumecs",
+      "B": "0.40 cumecs",
+      "C": "0.63 cumecs",
+      "D": "0.7 cumecs"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 A sprinkler irrigation system is suitable when",
+    "solution": "The conditions favouring the use of sprinkler \r\nIrrigation method are: (i) When the land topography is irregular. (ii) When the land gradient is steeper and soil is \r\neasily erodible. (iii)When the land soil is excessively permeable. (iv)When the water table is high. (v)When the seasonal water requirement is low. (vi)When the water availability is difficult and \r\nscarce.",
+    "options": {
+      "A": "the land gradient is steep and the soil is easily erodible",
+      "B": "the soil is having low permeability",
+      "C": "the water table is low",
+      "D": "the crops to be grown have deep roots"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 While designing a hydraulic structure, the piezometric head at bottom of the\nfloor is computed as 10 m. The datum is 3m below floor bottom. The assured\nstanding water depth above the floor is 2 m. The specific gravity of the floor \nmaterial is 2.5. The floor thickness should be",
+    "solution": "[latex]G=2.5[/latex] Pressure head [latex]=10-3=7 \\mathrm{m} [/latex] At critical condition, [latex] \\begin{aligned} \\text { Uplift }&=\\text { Downward pressure } \\\\ 7 \\times \\gamma_{w}&=\\left(\\gamma_{w} \\times 2\\right)+\\left(\\gamma_{\\text {floor }} \\times t\\right) \\\\ \\frac{5 \\gamma_{w}}{\\gamma_{\\text {floor }}}&=t=\\frac{5}{G}=\\frac{5}{2.5}\\\\ \\therefore \\quad t&=2 \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "2m",
+      "B": "3.3m",
+      "C": "4.4m",
+      "D": "6m"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 The moisture content of soil in the root zone of an agricultural crop at certain\nstage is found to be 0.05. The field capacity of the soil is 0.15. The root zone depth\nis 1.1 m. The consumptive use of crop at this stage is 2.5 mm/day and there is\nno precipitation during this period. Irrigation efficiency is 65%. It is intended to\nraise the moisture content to the field capacity in 8 days through irrigation. The\nnecessary depth of irrigation is",
+    "solution": "Depth of water required to raise the moisture content to the field capacity (without considering loss due to evaporation). [latex] \\begin{array}{l} =1.5 \\times 1.1 \\times(0.15-0.05) \\\\ =0.165 \\mathrm{m} \\end{array}[/latex] Adding, consumptive use @ 2.5mm / day for 8 days. [latex] \\text { Water required }=0.165+\\frac{8 \\times 2.5}{1000}=0.185 \\mathrm{m}[/latex] Irrigation efficiency =65 % [latex] \\therefore [/latex] The necessary depth of irrigation [latex] =\\frac{185}{0.65} \\mathrm{mm}=284.62 \\mathrm{mm}[/latex]",
+    "options": {
+      "A": "115mm",
+      "B": "169mm",
+      "C": "200mm",
+      "D": "285mm"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 The total irrigation depth of water, required by a certain crop in its entire growing\r\nperiod (150 days), is 25.92 cm. The culturable command area for a distributary\r\nchannel is 100,000 hectares. The distributary channel shall be designed for a\r\ndischarge",
+    "solution": "Given Delta, [latex] \\Delta=25.92 \\mathrm{cm}=0.2592 \\mathrm{m} [/latex] Base period, B=150 days Then Duty, [latex]D=\\frac{8.64 B}{\\Delta}=\\frac{8.64 \\times 150}{0.2592} [/latex] [latex]\r\n \\Rightarrow \\quad D=5000 \\text{ha/cumec}[/latex] [latex]\r\n \\therefore[/latex] Minimum discharge [latex]=\\frac{100,000}{5000} [/latex] [latex]\r\n =20 \\text{cumecs} [/latex] But the distributary channel should be designed \r\nfor a discharge more than 20 cumecs.",
+    "options": {
+      "A": "less than 2 cumecs",
+      "B": "2 cumecs",
+      "C": "20 cumecs",
+      "D": "more than 20 cumecs"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 A canal was designed to supply the irrigation needs of 1200 hectares to land\ngrowing rice of 140 days base period having a Delta of 134 cms. If this canal water\nis used to irriagate wheat of base period 120 days having a Delta of 52 cm, the\narea (in Hectares) that can be irrigtated is",
+    "solution": "[latex]\\begin{aligned} Q&=\\frac{1200 \\times 10^{4} \\times 134}{100 \\times 140}\\\\ &=\\frac{\\text { Area }}{120} \\times \\frac{52}{100} \\\\ \\text { Area } &=2650 \\mathrm{ha} \\end{aligned}[/latex]",
+    "options": {
+      "A": "2650",
+      "B": "3608",
+      "C": "543",
+      "D": "none of the above"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 A field was supplied water from an irrigation tank at a rate of 120 lit/sec to irrigate an area of 2.5 hectares. The duration of irrigation is 8 hours. It was found that the actual delivery at the field, which is about 4 km from the tank, was 100 lit/sec. The runoff loss in the field was estimated as 800 [latex]m^3[/latex]. The application efficiency in this situation is",
+    "solution": "Water application efficiency, [latex] \\eta_{\\mathrm{a}}=\\frac{\\begin{array}{c}\\text{Water stored in the}\\\\ \\text { root zone during irrigation }\\end{array}}{\\text { Water delivered to the field }} \\times 100 [/latex] Water supplied to field during 8 hour @ 100 lit/s [latex] \\begin{array}{l} =100 \\times 8 \\times 60 \\times 60 \\\\ =2880 \\mathrm{m}^{3} \\end{array}[/latex] Runoff loss in the field [latex]=800 \\mathrm{m}^{3} [/latex] Water stored in the root zone [latex] \\begin{aligned} &=2880-800=2080 \\mathrm{m}^{3} \\\\ \\therefore \\quad \\eta_{\\mathrm{a}}&=\\frac{2080}{2880} \\times 100=72.22 \\% \\end{aligned}[/latex]",
+    "options": {
+      "A": "62%",
+      "B": "72%",
+      "C": "76%",
+      "D": "80%"
+    },
+    "correct_answer": "B"
+  }
+]

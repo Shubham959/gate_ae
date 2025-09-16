@@ -1,0 +1,1056 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 A steel beam supported by three parallel pin-jointed steel rods is shown in the figure. The moment of inertia of the beam is [latex] 8 \\times 10^7 , \\text{mm}^4 [/latex]. Take modulus of elasticity of steel as [latex] 210 , \\text{GPa} [/latex]. The beam is subjected to a uniformly distributed load of [latex] 6.25 , \\text{kN/m} [/latex], including its self-weight. The axial force (in kN) in the centre rod CD is ______ (round off to one decimal place).",
+    "solution": "[latex] \\begin{aligned} w &= 6.25 , \\text{kN/m} \\\\ L &= 4 , \\text{m} \\quad (\\text{Span of the beam}) \\\\ E &= 210 , \\text{GPa} = 210 \\times 10^9 , \\text{Pa} \\\\ I &= 8 \\times 10^7 , \\text{mm}^4 = 8 \\times 10^{-5} , \\text{m}^4 \\\\ d_{CD} &= 30 , \\text{mm}, \\quad d_{AB} = d_{EF} = 12 , \\text{mm} \\end{aligned} [/latex] Since the beam is supported by three rods A, C, and E, and the middle rod CD is stiffer due to a larger diameter, it attracts more force. We assume: Axial force in rod CD = [latex]F[/latex] Let vertical deflection in beam at point C due to UDL and axial shortening of CD be equal Step 1: Area of rods [latex] \\begin{aligned} A_{CD} &= \\frac{\\pi}{4} (0.03)^2 = 7.07 \\times 10^{-4} , \\text{m}^2 \\ L_{rod} &= 1 , \\text{m} \\end{aligned} [/latex] Step 2: Deflection of beam at midspan (C) due to UDL alone For a simply supported beam with UDL: [latex] \\delta_B = \\frac{5wL^4}{384EI} [/latex] Substitute values: [latex] \\delta_B = \\frac{5 \\times 6.25 \\times 4^4}{384 \\times 210 \\times 10^9 \\times 8 \\times 10^{-5}} \\ \\delta_B = \\frac{5 \\times 6.25 \\times 256}{384 \\times 210 \\times 8 \\times 10^4} \\ \\delta_B \\approx 0.0003095 , \\text{m} [/latex] Step 3: Axial shortening of rod CD = [latex] \\delta_{rod} = \\frac{F L}{AE} [/latex] Equating both deflections: [latex] \\frac{F \\cdot 1}{7.07 \\times 10^{-4} \\cdot 210 \\times 10^9} = 0.0003095 [/latex] Solve for [latex]F[/latex]: [latex] F = 0.0003095 \\times 7.07 \\times 10^{-4} \\times 210 \\times 10^9 \\ F \\approx 16.3 , \\text{kN} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page1_q1.webp",
+    "min": 16.3,
+    "max": 16.6
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 A circular tube of thickness 10 mm and diameter 250 mm is welded to a flat plate using 5 mm fillet weld along the circumference. Assume Fe410 steel and shop welding.\nAs per IS 800:2007, the torque that can be resisted by the weld (in kN.m) is ______ (round off to one decimal place).",
+    "solution": "Weld type: Circular fillet weld Effective throat thickness for fillet weld:\n[latex]t = 0.7 \\times 5 = 3.5 , \\text{mm}[/latex] Length of weld (perimeter of tube):\n[latex]L = \\pi \\times 250 = 785.4 , \\text{mm}[/latex] Section modulus for circular weld (as per IS 800:2007): [latex]Z_p = \\frac{\\pi \\times D^2 \\times t}{4}[/latex] [latex]Z_p = \\frac{3.1416 \\times 250^2 \\times 3.5}{4} = 171,887.3 , \\text{mm}^3[/latex] Design shear strength of weld: [latex]f_w = \\frac{f_u}{\\sqrt{3} \\times \\gamma_{mw}}[/latex] For Fe410 steel, [latex]f_u = 410 , \\text{MPa}[/latex], shop weld [latex]\\Rightarrow \\gamma_{mw} = 1.25[/latex] [latex]f_w = \\frac{410}{\\sqrt{3} \\times 1.25} = 189.46 , \\text{MPa}[/latex] Torque resisted by weld: [latex]T = f_w \\times Z_p = 189.46 \\times 171,887.3 = 32,545,925.8 , \\text{N.mm}[/latex] Convert to kN.m: [latex]T = \\frac{32,545,925.8}{10^6} = 32.5 , \\text{kN.m}[/latex]  (Incorrect) Check formula for polar section modulus of circular weld (IS 800:2007): [latex]Z_p = \\frac{2 \\pi D^2 t}{4} = \\frac{\\pi D^2 t}{2}[/latex] [latex]Z_p = \\frac{3.1416 \\times 250^2 \\times 3.5}{2} = 343,774.6 , \\text{mm}^3[/latex] [latex]T = 189.46 \\times 343,774.6 = 65,091,851.6 , \\text{N.mm} = 65.1 , \\text{kN.m}[/latex]",
+    "options": {
+      "A": "65.1",
+      "B": "78.1",
+      "C": "156.2",
+      "D": "130.2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 3 Consider the built-up column made of two I-sections as shown in the figure, with each batten plate bolted to a component I-section of the column through 6 black bolts. Each connection of the batten plate with the component section is to be designed for a longitudinal shear of 70 kN and moment of [latex]10 \\mathrm{kN} . \\mathrm{m}[/latex]. The minimum bolt value required (in kN ) is _________ (rounded off to the nearest integer).",
+    "solution": "[latex]\n\\begin{aligned}\nr_{\\max } & =\\sqrt{140^{2}+35^{2}}=144.31 \\mathrm{~mm} \\\\\nV_{b} & =70 \\mathrm{kN} \\text { (Longitudinal shear) } \\\\\nM_{b} & =10 \\mathrm{kN}-\\mathrm{m} \\text { (Moment) }\n\\end{aligned}\n[/latex] Minimum bolt value required [latex]=[/latex] ? Concept: The bolt value [latex]<[/latex] Maximum resultant shear force on bolt. (1) Direct shear force on bolt, [latex]\nF_{1}=\\frac{V_{L}}{n}=\\frac{70}{6}=11.67 \\mathrm{kN}\n[/latex] (2) Maximum torsional shear on bolt, [latex]\nF_{2}=\\frac{(T . M .) r_{\\max }}{\\sum r_{i}^{2}}=\\frac{10 \\times 10^{3} \\times 144.31}{4 \\times 144.31^{2}+2 \\times 35^{2}}=16.82 \\mathrm{kN}\n[/latex] (3) Minimum angle of inclination between [latex]F_{1}[/latex] and [latex]F_{2}[/latex] will be [latex]\n\\theta=\\tan ^{-1}\\left(\\frac{140}{35}\\right)=75.96^{\\circ}\n[/latex] (4) Maximum resultant shear force on bolt, [latex]\n\\begin{aligned}\nF_{R \\max } & =\\sqrt{F_{1}^{2}+F_{2}^{2}+2 F_{1} F_{2} \\cos \\theta} \\\\\n& =\\sqrt{11.67^{2}+16.82^{2}+2 \\times 11.67 \\times 16.82 \\times \\cos 75.96^{\\circ}} \\\\\n& =22.67 \\mathrm{kN} \\simeq 23 \\mathrm{kN} \\quad \\text { (Nearest integer) } .\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page1_q3.webp",
+    "min": 21.0,
+    "max": 24.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 4 Consider the beam section shown in the figure, with [latex]y[/latex] indicating the depth of neutral axis (NA). The section is only subjected to an increasing bending moment. It is given that [latex]y=18.75 \\mathrm{~mm}[/latex], when the section has not yielded at the top and bottom fibres. Further, [latex]y[/latex] decreases to 5 mm , when the entire section has yielded. The shape factor of the section is _________ (rounded off to 2 decimal places).",
+    "solution": "For plastic section modulus [latex]\\left(Z_{p}\\right)=\\frac{A}{2}\\left(y_{c}+y_{t}\\right)[/latex] [latex]\n\\begin{aligned}\n  Z_p&=\\frac{A}{2}(Y_0+y_1)\\\\\n  &=\\frac{2 \\times 60 \\times 5}{2}(2.5+30)=9750mm^3\n  \\end{aligned}\n[/latex] For elastic section modulus [latex]\\left(Z_{e}\\right)=\\frac{I_{N A}}{y_{\\text {max }}}[/latex] Area moment of inertia about NA [latex]\n\\begin{aligned}\n& I_{N A}=\\left[\\frac{60 \\times 5^{3}}{12}+60 \\times 5(16.25)^{2}\\right]+\\left[\\frac{5 \\times 60^{3}}{12}+5 \\times 60 \\times(16.25)^{2}\\right] \\\\\n& I_{N A}=249062.5 \\mathrm{~mm}^{4} \\\\\n& Y_{\\max }=46.25 \\mathrm{~mm} \\\\\n& Z_{e}=\\frac{I_{N A}}{Y_{\\max }}=\\frac{249062.5 \\mathrm{~mm}^{4}}{46.25 \\mathrm{~mm}} \\\\\n& Z_{e}=5385.135 \\mathrm{~mm}^{3} \\\\\n& \\text { Now, shape factor } \\quad \\begin{aligned}\nS & =\\frac{M_{P}}{M_{y}}=\\frac{f_{y} Z_{p}}{f_{y} Z_{e}} \\\\\n& =\\frac{9750 \\mathrm{~mm}^{3}}{5385.135 \\mathrm{~mm}^{3}} \\\\\nS & =1.81\n\\end{aligned} \n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page1_q4.webp",
+    "min": 1.8,
+    "max": 1.82
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 The steel angle section shown in the figure has elastic section modulus of [latex] 150.92 \\mathrm{~cm}^{3} [/latex] about the horizontal X-X axis, which passes through the centroid of the section. The shape factor of the section is_______ (rounded off to 2 decimal places)",
+    "solution": "Shape factor [latex] =\\frac{Z_{p}}{Z_{e}} [/latex] [latex]\n\\begin{aligned}\nZ_p & =\\frac{A}{2}\\left(\\bar{y}_1+\\bar{y}_2\\right) \\\\\n& =\\frac{2 \\times 12 \\times 3}{2}(6+1.5)=270 \\\\\nS F & =\\frac{270}{150.92}=1.79\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page1_q5.webp",
+    "min": 1.75,
+    "max": 1.85
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 The elements that DO NOT increase the strength of structural steel are",
+    "solution": "Increase in carbon content increases the strength\nof steel. Also, manganese increases the strength of\nstructural steel. However, chlorine and sulphur do not increase the\nstrength of structural steel. Hence, the correct option (C) and (D).",
+    "options": {
+      "A": "Carbon",
+      "B": "Manganese",
+      "C": "Sulphur",
+      "D": "Chlorine"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Consider the horizontal axis passing through the centroid of the steel beam cross-section shown in the figure. What is the shape factor (rounded off to one decimal place) for the cross-section ?",
+    "solution": "[latex]\\begin{aligned}\r\nZ_{P} & =\\frac{A}{2}\\left(\\bar{y}_{1}+\\bar{y}_{2}\\right) \\\\\r\n& =\\left(3 b \\times \\frac{b}{2}+b \\times b\\right)\\left(2 \\times \\frac{11}{20} b\\right) \\\\\r\n& =\\frac{11}{4} b^{3}\r\n\\end{aligned}\r\n[/latex] [latex]\r\nz_{e}=\\frac{1}{y_{max }}=\\frac{\\frac{b \\times(3 b)^{3}}{12}+\\frac{2 b(b)^{3}}{12}}{\\frac{3 b}{2}}\r\n\r\n[/latex] [latex]z_{e}=\\frac{29}{18} b^{3}\r\n[/latex] Shape factor [latex](S)=\\frac{Z_{P}}{Z_{e}}=\\frac{\\frac{11}{4} b^{3}}{\\frac{29}{18} b^{3}}=1.7[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page2_q2.webp",
+    "options": {
+      "A": "1.5",
+      "B": "1.7",
+      "C": "1.3",
+      "D": "2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 For the square steel beam cross-section shown in the figure, the shape factor about\n[latex]z- z[/latex] axis is [latex]S[/latex] and the plastic moment capacity is [latex]M_P[/latex]. Consider yield stress\n[latex]f_y = 250 MPa[/latex] and [latex]a = 100 mm.[/latex] The values of [latex]S[/latex] and [latex]M_P[/latex] (rounded-off to one decimal place) are",
+    "solution": "Shape factor for diamond shaped section = 2 [latex] \\begin{aligned}\nS&=\\frac{M_P}{M_y}=\\frac{f_yZ_P}{f_yZ_e}\\\\\nM_P&=S.M_y=S.f_y.Z_e\n\\end{aligned}\n[/latex] [latex] \\begin{aligned}\nI_{ZZ}&=\\frac{a^4}{12}\\\\\nZ_{ZZ}&=\\frac{a^4 \\times \\sqrt{2}}{12 \\times a }=\\frac{\\sqrt{2}a^3}{12}mm^3\\\\\nM_P&=\\left [ 2 \\times 250 \\times \\frac{\\sqrt{2} \\times (100)^3}{12} \\right ] \\times 10^{-6} kNm\\\\\n&=58.93kNm\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page2_q3.webp",
+    "options": {
+      "A": "[latex]S = 2.0, M_P= 58.9 kN-m [/latex]",
+      "B": "[latex]S = 2.0, M_P=100.2 kN-m [/latex]",
+      "C": "[latex]S = 1.5, M_P= 58.9 kN-m [/latex]",
+      "D": "[latex]S = 1.5, M_P=100.2 kN-m [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 A weld is used for joining an angle section ISA 100 mm x 100 mm x 10 mm to\na gusset plate of thickness 15 mm to transmit a tensile load. The permissible\nstress in the angle is 150 MPa and the permissible shear stress on the section\nthrough the throat of the fillet weld is 108 MPa. The location of the centroid of\nthe angle is represented by [latex]C_{yy}[/latex] in the figure, where [latex]C_{yy}=28.4mm[/latex]. The area of\ncross-section of the angle is 1903 [latex]mm^2[/latex]. Assuming the effective throat thickness of the weld to be 0.7 times the given weld size, the lengths [latex]L_1[/latex] and [latex]L_2[/latex] (rounded-\noff to the nearest integer) of the weld required to transmit a load equal to the full strength of the tension member are, respectively",
+    "solution": "As per IS:800-2007 Clause no. 11.2.1 Full strength of tension member, [latex]\\begin{aligned}\nP&=\\sigma _{at} \\times A_g\\\\\nP&=150 \\times 1903\\\\\nP&=285450N\n\\end{aligned}[/latex] Weld strength of [latex]L_1[/latex], [latex]\\begin{aligned}\nP_1&=L_1\\times (0.7 \\times s) \\times 108\\\\\nP_1&=L_1\\times (0.7 \\times 5) \\times 108\\\\\nP_1&=378L_1\n\\end{aligned}[/latex] Weld strength of [latex]L_2[/latex], [latex]\\begin{aligned}\nP_2&=L_2\\times (0.7 \\times s) \\times 108\\\\\nP_2&=L_2\\times (0.7 \\times 5) \\times 108\\\\\nP_2&=378L_2\n\\end{aligned}[/latex] Applying moment CG equal to zero, [latex]\\begin{aligned}\nP_1 \\times 28.4 &=P_2 \\times (100-28.4)\\\\\n\\frac{P_1}{P_2}&=\\frac{71.6}{28.4}\\\\\n\\frac{L_1 \\times 378}{L_2 \\times 378}&=\\frac{71.6}{28.4}=2.521\\\\\nL_1&=2.521L_2\\\\\n\\text{Total weld strength}&=\\text{Tensile strength}\\\\\n(L_1+L_2) \\times 3.5 \\times 108&=285450\\\\\nL_1+L_2&=755.158\\\\\n2.521L_2+L_2&=755.152\\\\\nL_2&=214.472mm\\\\\nL_1&=540.685mm\\\\\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page2_q4.webp",
+    "options": {
+      "A": "541 mm and 214 mm",
+      "B": "214 mm and 541 mm",
+      "C": "380 mm and 151 mm",
+      "D": "151 mm and 380 mm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 A prismatic steel beam is shown in the figure. The plastic moment, [latex]M_{p}[/latex] calculated for the collapse mechanism using static method and kinematic method is",
+    "solution": "[latex]\\begin{aligned} \\text{At collapse,} \\quad M_{p} \\theta+M_{p} \\phi&=P \\Delta\\\\ \\Rightarrow \\quad \\quad 3 M_{P} \\frac{\\Delta}{l}+\\frac{3 M_{P} \\Delta}{2 l} &=P \\Delta \\\\ M_{P} &=\\frac{2 P l}{9}\\\\ \\text{Also,} \\qquad\\qquad \\quad M_{P ,\\text { static }}&=M_{P,\\text{ kinematic}} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page2_q5.webp",
+    "options": {
+      "A": "[latex]M_{P, \\text { static }}  \\gt \\frac{2 P L}{9}=M_{P, \\text { kinematic }}[/latex]",
+      "B": "[latex]M_{P, \\text { static }}=\\frac{2 P L}{9} \\neq M_{P, \\text { kinematic }}[/latex]",
+      "C": "[latex]M_{P, \\text { static }}=\\frac{2 P L}{9}=M_{P, \\text { kinematic }}[/latex]",
+      "D": "[latex]M_{P, \\text { static }} \\lt \\frac{2 P L}{9}=M_{P, \\text { kinematic }}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 11 A column is subjected to a total load (P) of 60 kN supported through a bracket connection, as shown in the figure (not to scale). The resultant force in bolt R (in kN,round off to one decimal place) is ________",
+    "solution": "[latex]\\begin{aligned} F_{1}&=\\frac{P}{n}=\\frac{60}{6}=10 \\mathrm{kN}\\\\ F_{2}&=\\frac{P \\cdot e}{\\sum r_{i}^{2}} \\times r_{R}=\\frac{60 \\times 100\\mathrm{~mm}}{4 \\times 50^{2}+2 \\times 40^{2}} \\times 40\\\\ F_{2}&=\\frac{60 \\times 100 \\times 40}{10000+3200}=\\frac{60 \\times 100 \\times 40}{13200}=\\frac{200}{11} \\mathrm{kN}\\\\ F_{R}&=F_{1}+F_{2}\\\\ &=10+\\frac{200}{11}=\\frac{310}{11}=28.2 \\mathrm{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page3_q1.webp",
+    "min": 27.0,
+    "max": 29.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 Two steel plates are lap jointed in a workshop using 6 mm thick fillet weld as shown\nin the figure (not drawn to the scale). The ultimate strength of the weld is 410 MPa. As per Limit State Design is IS 800 : 2007, the design capacity (in kN, round off to\nthree decimal places) of the welded connection, is _______.",
+    "solution": "Design capacity of welded connection [latex]P_s=f_b \\times l_{eff}\\times t_t[/latex] [latex]\\begin{aligned} P&=\\frac{410}{\\sqrt{3} \\times 1.25} \\times 520 \\times 0.7 \\times 6 \\\\ &= \\frac{716352}{\\sqrt{3}}=413586N\\\\ &= 413.586kN \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page3_q2.webp",
+    "min": 400.0,
+    "max": 420.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 The ratio of the plastic moment capacity of a beam section to its yield moment capacity\nis termed as",
+    "solution": "Ratio of [latex]\\frac{M_p}{M_y}=[/latex] Shape factor",
+    "options": {
+      "A": "aspect ratio",
+      "B": "load factor",
+      "C": "shape factor",
+      "D": "slenderness ratio"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 The flange and web plates of the doubly symmetric built-up section are connected by\ncontinuous 10 mm thick fillet welds as shown in the figure (not drawn to the scale). The\nmoment of inertia of the section about its principal axis X-X is [latex]7.73 \\times 10^{6} mm^4[/latex]. The\npermissible shear stress in the fillet welds is 100 [latex]N/ mm^2[/latex]. The design shear strength\nof the section is governed by the capacity of the fillet welds. The maximum shear force (in kN, round off to one decimal place) that can be carried\nby the section, is _______.",
+    "solution": "q = Shear stress at the level mn in the weld = 100 MPa [latex]=\\frac{SA\\bar{y}}{Ib}[/latex] Shear force at the given section A = Area of the cross-section above the level [latex]mn=100 \\times 10 mm^2[/latex] [latex]\\bar{y}=[/latex]C.G. of shaded area above the level mn = 60-5 = 55 m [latex]I=7.73 \\times 10^6 mm^4[/latex] b = Width of weld at mn (4 welds) = 4 x t = 4 x 7 = 28 mm t = Throat thickness [latex]\\begin{aligned} &=0.7 \\times s=0.7 \\times 10 \\times 4=28 mm \\\\ 100&= \\frac{F \\times (100 \\times 10) \\times 55}{7.73 \\times 10^6 \\times 28}\\\\ F&=\\frac{100 \\times 7.73 \\times 10^6 \\times 28}{1000\\times 55} \\\\ &=393.527kN \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page3_q4.webp",
+    "min": 393.5,
+    "max": 399.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 A rolled I-section beam is supported on a 75 mm wide bearing plate as shown in the figure. Thicknesses of flange and web of the I-section are 20 mm and 8 mm, respectively. Root radius of the I-section is 10 mm. Assume: material yield stress, [latex]f_y=250 MPa[/latex] and partial safety factor for material, [latex]\\gamma _{mo}=1.10[/latex]. As per IS: 800-2007, the web bearing strength (in kN, round off to 2 decimal places) of the beam is ________",
+    "solution": "Web bearing strength [latex]\\begin{aligned} &=[b+2.5(t_f+R)]\\times t_w \\times \\frac{f_y}{\\gamma _{mo}} \\\\ &= [75+2.5(20+10)] \\times 8 \\times \\frac{250}{1.1}\\\\ &= 272.73kN \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page3_q5.webp",
+    "min": 272.6,
+    "max": 272.8
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 The critical bending compressive stress in the extreme fibre of a structural steel section is 1000 MPa. It is given that the yield strength of the steel is 250 MPa, width of flange is 250 mm and thickness of flange is 15 mm. As per the provisions of IS:8002007, the non-dimensional slenderness ratio of the steel cross-section is",
+    "solution": "[latex]\\lambda =\\sqrt{\\frac{f_y}{f_{cr}}}=\\sqrt{\\frac{250}{1000}}=0.5[/latex]",
+    "options": {
+      "A": "0.25",
+      "B": "0.5",
+      "C": "0.75",
+      "D": "2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 For a channel section subjected to a downward vertical shear force at its centroid, which one of the following represents the correct distribution of shear stress in flange and web?",
+    "solution": "Shear flow in horizontal member (flange) is linear with zero at free end and in vertical member (web) it is parabolic.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page4_q2.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 A steel column is restrained against both translation and rotation at one end and is restrained only against rotation but free to translate at the other end. Theoretical and design (IS:800-2007) values, respectively, of effective length factor of the column are",
+    "solution": "The given support conditions indicates the following support/ end conditions of column [latex]l_{eff}[/latex] as per theoretical conditions = 1.0[latex]l_{o}[/latex] [latex]l_{eff}[/latex] as per IS 800 : 2007 = 1.2 [latex]l_{o}[/latex] Considering the errors that may occur due to construction of supports on site.",
+    "options": {
+      "A": "1.0 and 1.0",
+      "B": "1.2 and 1.0",
+      "C": "1.2 and 1.2",
+      "D": "1.0 and 1.2"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 A 16 mm thick gusset plate is connected to the 12 mm thick flange plate of an I-section using fillet welds on both sides as shown in the figure. The gusset plate is subjected to a point load of 350 kN acting at a distance of 100 mm from the flange plate. Size of fillet weld is 10 mm. The maximum resultant stress (in MPa, round off to 1 decimalplace) on the fillet weld along the vertical plane would be ____",
+    "solution": "Direct concentrated load (P) = 350 kN Eccentricity (e) = 100 mm Depth of weld ([latex]d_w[/latex]) at each face = 500 mm Size of weld (S) = 10 mm Throat thickness of weld ([latex]t_t[/latex]) = 0.7S = 7 mm It is a case of combined shear (P) and Bending moment (M = P.e) Shear stress acting on weld due to direct shear force P, [latex]\\begin{aligned} (q)&=\\frac{P}{A_w} \\\\ &= \\frac{P}{2d_wt_t}\\\\ &=\\frac{350 \\times 10^3}{2 \\times 500 \\times 7}=50MPa \\end{aligned}[/latex] Bending normal stress acting at [latex]i^{th}[/latex] point from Neutral axis [latex][f_i]=\\frac{M}{I}y_i[/latex] Maximum bending stress at extreme point in weld [latex]\\begin{aligned} [f]&=\\frac{M}{I}y_{max} \\\\ &= \\frac{Pe}{2t_t \\frac{d_w^3}{12}} \\times y_{max}\\\\ &= \\frac{350 \\times 10^3 \\times 100}{2 \\times 7 \\times \\frac{(500)^3}{12}} \\times 250\\\\ &= 60MPa \\end{aligned}[/latex] As per IS800:2007. Maximum resultant stress an equivalent stress in fllet weld due to combined shear and bending stress [latex]\\begin{aligned} (f_{eq})&=\\sqrt{f^2+3q^2} \\\\ &= \\sqrt{60^2+3 \\times 50^2}\\\\ &=105.3MPa \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page4_q4.webp",
+    "min": 105.3,
+    "max": 105.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 If the section shown in the figure turns from fully-elastic to fully-plastic, the depth of neutral axis (N.A.), [latex]\\bar{y}[/latex], decreases by",
+    "solution": "[latex]\\bar{y}=\\frac{A_1y_1+A_2y_2}{A_1+A_2}=\\frac{300\\times 2.5+300 \\times 35}{300+300}=18.75m[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page4_q5.webp",
+    "options": {
+      "A": "10.75 mm",
+      "B": "12.25 mm",
+      "C": "13.75 mm",
+      "D": "15.25 mm"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 Assuming that there is no possibility of shear buckling in the web, the maximum reduction permitted by IS 800-2007 in the (low-shear) design bending strength of a semi-compact steel section due to high shear is",
+    "solution": "As per IS 800 : 2007 For semi compact section (i) In low shear case ([latex]V \\leq 0.6 V_d[/latex]) [latex]M_d = Z_ef_y/\\gamma _{mo}[/latex] (ii) In high shear case ([latex]V \\gt 0.6 V_d[/latex]) [latex]M_d = Z_ef_y/\\gamma _{mo}[/latex] So reduction is zero.",
+    "options": {
+      "A": "Zero",
+      "B": "25%",
+      "C": "50%",
+      "D": "governed by the area of the flange"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 A prismatic propped cantilever beam of span L and plastic moment capacity [latex]M_{p}[/latex] is subjected to a concentrated load at its mid-span. If the collapse load of the beam is [latex]\\alpha \\frac{M_{p}}{L}[/latex], the value of [latex]\\alpha[/latex] is ______",
+    "solution": "[latex]P_{u}=\\frac{6M_{P}}{l}[/latex] So, [latex]\\alpha =6[/latex]",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 Four bolts P, Q, R and S of equal diameter are used for a bracket subjected to a load of 130 kN as shown in the figure. The force in bolt P is",
+    "solution": "[latex]\\begin{aligned} F_{1} &= \\frac{P}{n}=\\frac{130}{4}=32.5 kN \\\\ F_{2} &= \\frac{Pe}{\\sum r^{2}_{i}}\\times r_{p} \\\\ r_{P} &= r_{Q} = r_{R} = r_{S} \\\\  &= \\sqrt{50^{2}+120^{2}} \\\\&=130 mm \\\\ F_{2} &=\\frac{\\left ( 130\\times 200 \\right )\\times 130}{4\\times 130^{2}} \\\\  &= \\frac{200}{4} =50 kN \\\\ \\cos \\theta &= \\frac{50}{130} \\\\ \\Rightarrow \\; \\; F_{R} &= \\sqrt{\\left [ \\left ( 32.5^{2} \\right )+\\left ( 50^{2} \\right )+\\left ( 2\\times 32.5\\times 50 \\right )\\times \\left ( \\frac{50}{130} \\right ) \\right ]} \\\\  &= 69.33 kN \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page5_q3.webp",
+    "options": {
+      "A": "32.50 kN",
+      "B": "69.33 kN",
+      "C": "82.50 kN",
+      "D": "119.32 kN"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 A fillet weld is simultaneously subjected to factored normal and shear stresses of 120 MPa and 50 MPa, respectively. As per IS 800 : 2007, the equivalent stress (in MPa, up to two decimal places) is ______",
+    "solution": "Factrored normal stress, [latex]f_{a}= 120 Mpa[/latex] factrored shear stress, [latex]q= 50 Mpa[/latex] According to IS-800:2007, clause 10.5.10.1.1 The equivalent stress, [latex]\\begin{aligned} f_{e}&=\\sqrt{f_{a}^{2}+3q^{2}}\\leq \\frac{F_{u}}{\\sqrt{3}y_{mW}} \\\\  f_{e}&=\\sqrt{120^{2}+3\\times 50^{2}} \\\\ &=147.99 \\\\ \\Rightarrow \\;\\; f_{e}& \\leq \\frac{f_{u}}{\\sqrt{3}y_{mW}}=\\frac{400}{\\sqrt{3}\\times 1.25} \\\\  &=\\left ( 184.75 MPa \\right )\\end{aligned}[/latex] Note: The above check for combination of stresses need not be done for fillet welds where the sum of normal and shear stresses does not exceed [latex]f_{wd}[/latex] [clause 10.5.10.1.2(b)]. Hence, sum of normal and shear stresses [latex]=120+50=170 MPa \\leq f_{wd} (= 184.75 MPa)[/latex] So, the above check need not be done. So, weld is designed for a resultant shear stress of [latex]\\left ( f_{r} \\right )[/latex] [latex]\\begin{aligned}   f_{r}&=\\sqrt{f_{a}^{2}+q^{2}} \\\\    &=\\sqrt{120^{2}=50^{2}} \\\\  &=130 N/mm^{2} \\end{aligned}[/latex] So, the design stress is [latex]130 N/mm^{2}[/latex]; however equivalent stress 147.99 MPa.",
+    "min": 147.5,
+    "max": 148.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 The dimensions of a symmetrical welded I-section are shown in the figure. The plastic section modulus about the weaker axis (in [latex]cm^{3}[/latex], up to one decimal place) is ______",
+    "solution": "[latex]\\begin{aligned} Z_p&= \\frac{A}{2}(\\bar{x_1}+\\bar{x_2})\\\\ &=\\left [ \\frac{140\\times 9}{2}\\left ( 35+35 \\right ) \\right ] \\\\ & \\times 2+\\left [ \\frac{\\left ( 200-18 \\right )\\times 6.1}{2} \\right ] \\\\ &\\times \\left ( \\frac{3.05}{2}+\\frac{3.05}{2} \\right ) \\\\  &=88200+1693.055 \\\\  &=89893.055\\, mm^{3} \\\\ & \\simeq 89.9\\, cm^{3} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page5_q5.webp",
+    "min": 88.0,
+    "max": 92.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 In a fillet weld, the direct shear stress and bending tensile stress are 50 MPa and 150 MPa, respectively. As per IS 800: 2007, the equivalent stress (in MPa, up to two decimal places) will be ______",
+    "solution": "Direct bending tensile stress, [latex] f_{a}=150 Mpa[/latex] Direct shear stress, [latex] q=50 Mpa[/latex] According to IS 800:2007, clause 10.5.10.1.1 The equivalent stress, [latex]\\begin{aligned} f_{e}&=\\sqrt{f^{2}_{a}+3q^{2}}\\leq \\frac{f_{u}}{\\sqrt{3}\\gamma _{mW}} \\\\  f_{e}&=\\sqrt{150^{2}+3\\times 50^{2}} \\\\&=173.21 MPa\\\\ \\Rightarrow \\;\\; f_{e} & \\leq \\frac{f_{u}}{\\sqrt{3}\\gamma _{mW}} \\\\&=\\frac{400}{\\sqrt{3}\\times 1.25} \\\\ &=184.75 MPa \\end{aligned}[/latex] (Hence OK) Note: The above check for combination of stressed need not be done for fillet welds where the sum of normal and shear stresses does not exceed [latex]f_{wd}[/latex] [Clause 10.5.10.1.2(b)]. Thus, [latex]f_{a}+q=150+50=200[/latex] MPa [latex] f_{a}+q \\gt f_{wd}[/latex] (= 184.75 MPa) [latex]\\Rightarrow  \\;\\;f_{e}= 173.21[/latex] MPa Thus, the weld is designed for an equivelent stress of 173.21 MPa"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 A steel column of ISHB 350 @72.4 kg/m is subjected to a factored axial compressive load of 2000 kN. The load is transferred to a concrete pedestal of grade M20 through a square base plate. Consider bearing strength of concrete as 0.45[latex]f_{ck}[/latex], where [latex]f_{ck}[/latex]  is the characteristic strength of concrete. Using limit state method and neglecting the self weight of base plate and steel column, the length of a side of the base plate to be provided is",
+    "solution": "[latex]\\begin{aligned}\r\n&\\text{Area required for base plate}\\\\ &=\\frac{\\text{Factored load}}{\\text{Bearing capacity of concrete}}\\\\ &=\\frac{2000\\times 10^{3}}{0.45\\times 20}=222222.222mm^{2}\r\n\\end{aligned}[/latex] So, side of base plate [latex]=\\sqrt{\\text{Area}}=471.4 mm= 47.14 cm[/latex] Since, provided area must be more than required So, answer should be 48 cm.",
+    "options": {
+      "A": "39 cm",
+      "B": "42 cm",
+      "C": "45 cm",
+      "D": "48 cm"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 28 Two plates of 8 mm thickness each are connected by a fillet weld of 6 mm thickness as shown in the figure. The permissible stresses in the plate and the weld are 150 MPa and 110 MPa, respectively. Assuming the length of the weld shown in the figure to be the effective length, the permissible load P (in KN) is",
+    "solution": "[latex]\\begin{aligned}P_{W}&=f_{b}\\times l_{eff}\\times t_{t} \\\\  &=110\\left ( 100+100+50 \\right )\\times 0.7\\times 6 \\\\  &=115.5\\, kN \\\\ P_{plate}&=\\sigma _{at}\\times A_{net} \\\\ &=150\\times \\left ( 50\\times 8 \\right ) \\\\ &=60\\, kN\\end{aligned}[/latex] So permissible load = 60 kN",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page6_q3.webp",
+    "min": 59.0,
+    "max": 61.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 A column is subjected to a load through a bracket as shown in the figure. The resultant force (in kN, up to one decimal place)\nin the bolt 1 is_____",
+    "solution": "[latex]\\begin{aligned} F_{1}&=\\frac{P}{n}=\\frac{10}{4}=2.5kN \\\\ F_{2}&=\\frac{Pe}{\\sum r^{2}_{i}}\\times r_{1} \\\\&=\\frac{10\\times 15}{4\\times 5^{2}}\\times 5=7.5 kN \\\\ F_{R}&=\\sqrt{F^{2}_{1}+F_{2}^{2}+2F_{1}F_{2}\\cos \\theta } \\\\  &=\\sqrt{2.5^{2}+7.5^{2}+2\\times 2.5\\times 7.5\\times \\cos 135^{\\circ}} \\\\  &=6kN \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page6_q4.webp",
+    "min": 5.9,
+    "max": 6.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 A fixed-end beam is subjected to a concentrated load (P) as shown in the figure. The beam has two different segments having different plastic moment capacities [latex](M_{p},2M_{p})[/latex] as shown. The minimum value of load (P) at which the beam would collapse (ultimate load) is",
+    "solution": "[latex] D_{S}=2 [/latex] [latex] \\therefore[/latex] Number of plastic hinge required for complete collapse [latex]=D_{S}+1=2+1=3[/latex] Mechanism 1: [latex]\\begin{aligned} \\Delta &=\\frac{2L}{3\\theta }=\\frac{4L}{3} \\\\ \\Rightarrow \\;\\; \\theta &=2\\theta \\end{aligned}[/latex] For Principal of virtual work done, [latex]\\begin{aligned} -2M_{P}\\theta -2M_{P}\\theta -2M_{P}\\theta -M_{P}\\theta +P\\left ( \\frac{2L}{3}\\theta \\right )&=0 \\\\ 4M_{P}\\theta +3M_{P}\\phi &=\\frac{2PL}{3}\\theta \\\\  8M_{P}\\phi +3M_{P}\\phi &=\\frac{4PL}{3}\\phi \\\\  11M_{P}&=\\frac{4P_{u}L}{3}\\phi \\\\  P_{u}&=\\frac{33}{4}\\frac{M_{P}}{L} \\\\ \\therefore \\;\\; P_{u}&=8.25\\frac{M_{P}}{L} \\end{aligned}[/latex] Mechanism 2: [latex]\\begin{aligned} 2M_{P}\\theta +M_{P}\\theta +M_{P}\\theta +M_{P}\\theta &=P\\left ( \\frac{2L}{3} \\right ) \\\\  5M_{P}&=\\frac{2PL}{3} \\\\   P_{u}&=\\frac{15M_{P}}{2L} \\\\ \\therefore  \\;\\; P_{u}&=7.5\\frac{M_{P}}{L} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page6_q5.webp",
+    "options": {
+      "A": "[latex]7.5M_{p}/L[/latex]",
+      "B": "[latex]5.0M_{p}/L[/latex]",
+      "C": "[latex]4.5M_{p}/L[/latex]",
+      "D": "[latex]2.5M_{p}/L[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 Two bolted plates under tension with alternative arrangement of bolt holes are shown in figures 1 and 2. The hole diameter, pitch, and gauge length are d, p and g, respectively. Which one of the following conditions must be ensured to have higher net tensile capacity of configuration shown in Figure 2 than that shown in Figure 1 ?",
+    "solution": "Tensile strength of plate in arrangement (2) will be greater than in arrangement (1), *As per IS code 800:2007 clause 6.3 [latex]\\begin{aligned} \\left ( 0.9A_{net}\\frac{f_{up}}{\\gamma _{m1}} \\right )_{2} & \\gt \\left ( 0.9A_{net}\\frac{f_{up}}{\\gamma _{m1}} \\right )_{1} \\\\  \\left ( A_{net} \\right )_{2} & \\gt \\left ( A_{net} \\right )_{1} \\\\ \\left [ \\left ( B-2d+\\frac{p^{2}}{4g} \\right )t \\right ]_{2}& \\gt \\left [ \\left ( B-d \\right )t \\right ]_{1} \\\\ B-2d+\\frac{p^{2}}{4g} & \\gt B-d \\\\ \\frac{p^{2}}{4g} & \\gt d \\\\ p^{2}& \\gt 4gd\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page7_q1.webp",
+    "options": {
+      "A": "[latex]p^{2} \\gt 2gd[/latex]",
+      "B": "[latex]p^{2}\\lt \\sqrt{4gd}[/latex]",
+      "C": "[latex]p^{2} \\gt 4gd[/latex]",
+      "D": "[latex]p \\gt 4gd[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 Two plates are connected by fillet welds of size 10 mm and subjected to tension, as shown in the figure. The thickness of each plate is 12 mm. The yield stress and the ultimate tensile stress of steel are 250 MPa and 410 MPa, respectively. The welding is done in the workshop [latex]\\left ( \\gamma _{mw}=1.25 \\right )[/latex]. As per the Limit State Method of IS800:2007, the minimum length (rounded off to the nearest higher multiple of 5 mm) of each weld to transmit a force P equal to 270 kN (factored) is",
+    "solution": "Maximum force carried by plates, [latex]P= \\frac{A_{g}f_{y}}{\\gamma _{m0}}=\\frac{\\left ( 100\\times 12 \\right )\\times 250}{1.1}=272.73\\, kN[/latex] Load carried by each weld [latex] =\\frac{P}{2}=136.36\\, kN[/latex] For minimum length of weld, Strength of weld = Load carried by weld [latex]l_{W}t_{t}\\frac{f_{u}}{\\sqrt{3}\\gamma _{mW}}= 136.36\\times 10^{3}[/latex] or, [latex] l_{W}\\times \\left ( 10\\times 0.7 \\right )\\times \\frac{410}{\\sqrt{3}\\times 1.2}= 136.36\\times 10^{3} [/latex] [latex] \\Rightarrow l_{W}=102.9\\, mm =105\\, mm[/latex] (rounded off to nearest higher multiple of 5 mm)",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page7_q2.webp",
+    "options": {
+      "A": "90 mm",
+      "B": "105 mm",
+      "C": "110 mm",
+      "D": "115 mm"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 A propped cantilever of span L carries a vertical concentrated load at the mid-span. If the plastic moment capacity of the section is [latex]M_{p}[/latex], the magnitude of the collapse load is",
+    "solution": "[latex]D_{s}\\, =\\, 1[/latex] [latex]\\therefore[/latex] No. of plastic hinge required for complete collapse [latex]=1+1 =2[/latex] [latex]\\begin{aligned}\n    -M_{P}\\theta -M_{P}\\theta -M_{P}\\theta +\\frac{PL}{2}\\theta &=0 \\\\ 3M_{P}&=\\frac{PL}{2} \\\\   P&=\\frac{6M_{P}}{L}\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{8M_{p}}{L}[/latex]",
+      "B": "[latex]\\frac{6M_{p}}{L}[/latex]",
+      "C": "[latex]\\frac{4M_{p}}{L}[/latex]",
+      "D": "[latex]\\frac{2M_{p}}{L}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 The semi-compact section of a laterally unsupported steel beam has an elastic section modulus, plastic section modulus and design bending compressive stress of [latex]500 \\; cm^3, 650 \\; cm^3[/latex] and 200MPa, respectively. The design flexural capacity (expressed in kNm) of the section is ____.",
+    "solution": "Design flexural capacity, [latex]M_{d}= \\beta _{b}Z_{p}\\frac{f_{y}}{\\gamma _{m0}}[/latex] [latex]\\beta _{b}= 1.0[/latex] (for plastic and compact sections) [latex]\\; \\; \\; \\; = \\frac{Z_{e}}{Z_{p}}[/latex] (for semi-compact sections) [latex]Z_{p}=\\,[/latex] Plastic section modulus [latex]Z_{e}=\\,[/latex] elastic section modulus [latex]f_{y}=\\,[/latex] yeild stress of steel provided [latex]\\gamma_{m0}=\\,[/latex] material factor of safety of steel against yeilding As, design bending stress is directly given, [latex]\\begin{aligned} M_{d}&= \\beta _{b}Z_{p}f_{d} \\\\   &= \\frac{Z_{e}}{Z_{p}}\\times Z_{p}\\times f_{d} \\\\ &= Z_{e}\\times f_{d} \\\\   &= 500\\times 10^{3}\\times 200\\times 10^{-6} \\\\  &= 100 kN-m \\end{aligned}[/latex]",
+    "min": 99.9,
+    "max": 100.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 A fixed end beam is subjected to a load, W at 1/3rd span from the left support as shown in the figure. The collapse load of the beam is:",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page7_q5.webp",
+    "options": {
+      "A": "16.5 [latex]M_{p}/L[/latex]",
+      "B": "15.5 [latex]M_{p}/L[/latex]",
+      "C": "15.0 [latex]M_{p}/L[/latex]",
+      "D": "16.0 [latex]M_{p}/L[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 A steel member 'M' has reversal of stress due to live loads, whereas another member 'N' has reversal of stress due to wind load. As per IS 800:2007, the maximum slenderness ratio permitted is:",
+    "solution": "As per IS 800:2007",
+    "options": {
+      "A": "less for member 'M' than that of member 'N'",
+      "B": "more for member 'M' than for member 'N'",
+      "C": "same for both the members",
+      "D": "not specified in the Code"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 Prying forces are:",
+    "solution": "",
+    "options": {
+      "A": "shearing forces on the bolts because of the joints",
+      "B": "tensile forces due to the flexibility of connected parts",
+      "C": "bending forces on the bolts because of the joints",
+      "D": "forces due the friction between connected parts"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 For formation of collapse mechanism in the following figure, the minimum value of [latex]P_{u}[/latex] is [latex]cM_{p}/L[/latex]. [latex]M_{p}[/latex] and [latex]3M_{p}[/latex] denote the plastic moment capacities of beam sections as shown in this figure. The value of c is _____.",
+    "solution": "[latex]\\begin{aligned}\r\n    L\\phi&=3L\\theta \\\\ \\phi&=3\\theta \\\\4M_{P}\\theta +2M_{P}\\phi &=PL\\phi \\\\ \\frac{4M_{P}\\phi }{3}+2M_{P}\\phi &=PL\\phi \\\\ \\frac{10M_{P}\\phi }{3}&=PL\\phi \\\\   P=\\frac{10M_{P}}{3L} \\; \\Rightarrow \\; C&=\\frac{10}{3}=3.33\r\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page8_q3.webp",
+    "min": 3.3,
+    "max": 3.4
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 A bracket plate connected to a column flange transmits a load of 100 kN as shown in the following figure. The maximum force for which the bolts should be designed is ___________ kN.",
+    "solution": "[latex]\\begin{aligned} F_{1}&=\\frac{100}{5}=20kN \\\\ F_{2}&=\\frac{Per}{\\sum r^{2}} \\\\ &=\\frac{\\left ( 100\\times 0.6 \\right )\\times \\left ( 75\\sqrt{2}\\times 10^{-3} \\right )}{\\left ( 75\\sqrt{2} \\right )^2\\times 4\\times 10^{-6}} \\\\  &=\\frac{\\sqrt{2}}{10}\\times 1000=141.42kN \\\\ \\theta &=45^{\\circ} \\\\ \\Rightarrow \\; \\; F_{R}&=\\sqrt{\\left ( 20 \\right )^{2}+\\left ( 141.42 \\right )^{2}+2\\times 20\\times 141.42\\cos 45^{\\circ}} \\\\ &=156.2 kN\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page8_q4.webp",
+    "min": 155.0,
+    "max": 156.3
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 A prismatic beam (as shown below) has plastic moment capacity of [latex]M_{p}[/latex], then the collapse load P of the beam is",
+    "solution": "Here degree of static indeterminacy =0 [latex]\\therefore[/latex] Number of plastic hinges required for mechanical equlibrium [latex]=D_{s}+1=0+1=1[/latex] From principal of virtual work [latex]\\begin{aligned}\n    -M_{P}\\theta -M_{P}\\theta +P\\frac{L}{2}\\theta -\\frac{P}{2}\\times \\frac{L}{3}\\theta &=0 \\\\ -2M_{P}\\theta +\\frac{PL}{2}\\theta -\\frac{PL}{6}\\theta &=0 \\\\ 2M_{P}=\\frac{PL}{2}-{PL}{6}=\\frac{\\left ( 3-1 \\right )PL}{6}&=\\frac{1}{3}PL \\\\  P&=\\frac{6M_{p}}{L}\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page8_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{2M_{p}}{L}[/latex]",
+      "B": "[latex]\\frac{4M_{p}}{L}[/latex]",
+      "C": "[latex]\\frac{6M_{p}}{L}[/latex]",
+      "D": "[latex]\\frac{8M_{p}}{L}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 The tension and shear force (both in kN) in each bolt of the joint, as shown below, respectively are",
+    "solution": "[latex]\\tan \\theta =\\frac{3}{4}, \\; \\cos \\theta =\\frac{4}{5}, \\; \\sin \\theta =\\frac{3}{5}[/latex] Tension in each bolt[latex]=\\frac{4P_{u}}{5\\times 6} = \\frac{4\\times 250}{5\\times 6}=33.33 \\; kN[/latex] Shear in each bolt [latex]=\\frac{3P_{u}}{5\\times 6}=\\frac{3\\times 250}{5\\times 6}=25kN[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page9_q1.webp",
+    "options": {
+      "A": "30.33 and 20.00",
+      "B": "30.33 and 25.00",
+      "C": "33.33 and 20.00",
+      "D": "33.33 and 25.00"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 A steel section is subjected to a combination of shear and bending actions. The applied shear force is V and the shear capacity of the section is [latex]V_{s}[/latex]. For such a section, high shear force (as per IS:800-2007) is defined as",
+    "solution": "Clause 9.2.1 IS 800:2007",
+    "options": {
+      "A": "[latex]V \\gt  0.6V_{s}[/latex]",
+      "B": "[latex]V \\gt  0.7V_{s}[/latex]",
+      "C": "[latex]V \\gt  0.8V_{s}[/latex]",
+      "D": "[latex]V \\gt  0.9V_{s}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 The ultimate collapse load (P) in terms of plastic moment [latex]M_{p}[/latex] by kinematic approach for a propped cantilever of length L with P acting at its mid-span as shown in the figure, would be",
+    "solution": "From principal of virtual work [latex]-M_{P}\\theta -M_{P}\\theta -M_{P}\\theta +W_{u}\\frac{L}{2}\\theta =0[/latex] [latex]\\Rightarrow \\; \\; \\; W_{u}=\\frac{6M_{P}}{L}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page9_q3.webp",
+    "options": {
+      "A": "[latex]P=\\frac{2M_{p}}{L}[/latex]",
+      "B": "[latex]P=\\frac{4M_{p}}{L}[/latex]",
+      "C": "[latex]P=\\frac{6M_{p}}{L}[/latex]",
+      "D": "[latex]P=\\frac{8M_{p}}{L}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 A propped cantilever made of a prismatic steel beam is subjected to a concentrated load P at mid span as\r\nshown. If the magnitude of load P is increased till collapse and the plastic moment carrying capacity of steel\r\nbeam section is 90 kNm, determine reaction R (in kN) (correct to 1-decimal place) using plastic\r\nanalysis. __________",
+    "solution": "[latex]\\begin{aligned}\n   -3M_{P}\\theta +P\\frac{l}{2}\\theta &=0 \\\\ \\therefore \\; P_{u}=\\frac{6M_{P}}{l}=\\frac{6\\times 90}{3}&=180\\, kN\\\\ \\text{At collapse condition }\\sum M_{A}&=0\\\\ R\\times 3+M_{P}-P\\times 1.5-M_{P}+M_{P}&=0 \\\\ \\Rightarrow  \\; R&=60 kN\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page9_q4.webp",
+    "options": {
+      "A": "30",
+      "B": "60",
+      "C": "90",
+      "D": "120"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 A propped cantilever made of a prismatic steel beam is subjected to a concentrated load P at mid span as\r\nshown. If load P= 80 kN, find the reaction R (in kN) (correct to 1-decimal place) using elastic analysis.\r\n__________",
+    "solution": "Equating deflection at end B, Let,  [latex] l=3m[/latex] [latex]\\begin{aligned}\n   \\therefore \\; \\frac{R\\left ( l \\right )^{3}}{3EI} &= \\frac{P\\left ( 1.5 \\right )^{3}}{3EI}+\\frac{P\\left ( 1.5 \\right )^{2}}{2EI}\\times 1.5 \\\\ \\Rightarrow \\; \\frac{R\\left ( 3 \\right )^{3}}{3EI} &= \\frac{1.125P}{EI}+\\frac{1.6875P}{EI} \\\\  \\frac{9R}{EI} &= \\frac{1.125P}{EI}+\\frac{1.6875P}{EI} \\\\ \\Rightarrow \\; R&=\\frac{5}{16}P \\\\  R&=\\frac{5}{16}\\times 80=25 kN\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page9_q5.webp",
+    "options": {
+      "A": "15",
+      "B": "25",
+      "C": "50",
+      "D": "75"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 As per IS 800:2007, the cross-section in which the extreme fiber can reach the yield stress, but\ncannot develop the plastic moment of resistance due to failure by local buckling is classified as",
+    "solution": "As per clause 3.7.2 of IS 800:2007",
+    "options": {
+      "A": "plastic section",
+      "B": "compact section",
+      "C": "semi-compact section",
+      "D": "slender section"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 Two plates are connected by fillet welds of size 10 mm and subjected to tension, as shown in the sketch. The thickness of each plate is 12 mm. The yield stress and the ultimate tensile stress of steel are 250 MPa and 410 MPa, respectively. The welding is done in the workshop ([latex]\\gamma _{mw}[/latex]=1.25). As per the Limit State Method of IS 800:2007, the minimum length (rounded off to the nearest higher multiple of 5 mm) of each weld to transmit a force P equal to 270 kN is",
+    "solution": "Maximum force transmitted by plate [latex]=P[/latex] [latex]P=A_{g}\\times \\frac{f_{y}}{1.1}= \\left ( 12\\times 100 \\right )\\times \\frac{250}{1.1} =272.72 kN [/latex] Force resisted by weld, [latex]P=272.72 kN \\;\\;\\;...(i)[/latex] Let length of weld on either side [latex]=l[/latex] Size of weld (S)=10 mm Force resisted by weld [latex]=\\frac{0.7\\times S}{1.25}\\times \\left ( \\frac{f_{u}}{\\sqrt{3}}\\right )\\times l[/latex] Size = 10 mm Throat thickness [latex]=0.7\\times 10= 7 mm[/latex] [latex]  =\\frac{7\\times 410}{1.25\\times \\sqrt{3}}\\times l \\;\\;\\;...(ii)[/latex] From equations(i) and (ii), [latex]272.72\\times 10^{3}=\\frac{7\\times 410}{1.25\\times \\sqrt{3}\\times l} [/latex] [latex]   l=205.8[/latex] mm Length eq. of each side[latex]=\\frac{l}{2}= 103 mm\\simeq 105 mm[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page10_q2.webp",
+    "options": {
+      "A": "100mm",
+      "B": "105mm",
+      "C": "110mm",
+      "D": "115mm"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 In a steel plate with bolted connections, the rupture of the net section is a mode of failure under",
+    "solution": "",
+    "options": {
+      "A": "tension",
+      "B": "compression",
+      "C": "flexure",
+      "D": "shear"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 The figure shows a schematic representation of a steel plate girder to\r\nbe used as a simply supported beam with a concentrated load. For stiffeners, PQ (running along the beam axis) and RS \r\n(running between the top and bottom flanges), which of the following pairs of\r\nstatements will be TRUE?",
+    "solution": "PQ is a horizontal stiffener in the given plate girder. Horizontal stiffeners are also called longitudinal stiffeners. The horizontal stiffener are provided in the compression zone of the web. The first horizontal stiffener is provided at one-fifth of the distance from the compression flange to the tension flange. If required another stiffener is provided at the neutral axis. Horizontal stiffeners are not continuous and are provided between vertical stiffeners. RS is a vertical stiffener in the given plate girder. Vertical stiffeners are also called transverse stiffeners. It is assumed that the vertical stiffener is not subjected to any load and is selected to provide necessary lateral stiffness only and can therefore, br crimped or joggled for tight fittings. Such stiffeners increase the buckling resistance of the web caused by shear.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page10_q4.webp",
+    "options": {
+      "A": "(i) RS should be provided under the concentrated load only. (ii) PQ should be placed in the tension side of the flange.",
+      "B": "(i) RS helps to prevent local buckling of the web. (ii) PQ should be placed in the compression side of the flange.",
+      "C": "(i) RS should be provided at supports. (ii) PQ should be placed along the neutral axis.",
+      "D": "(i) RS should be provided away from points of action of concentrated loads. (ii) PQ should be provided on the compression side of the flange."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 The value of W that results in the collapse of the beam shown in the adjoining\nfigure and having a plastic moment capacity of [latex]M_{P}[/latex] is",
+    "solution": "Number os possible hinges, [latex]n=2[/latex] Statical Indeterminacy, [latex]r=1[/latex] Number of independent mechanisms, [latex]i=n-r=2-1=1[/latex] [latex]\\begin{aligned}\r\n    \\Delta &=7\\theta =3\\phi\\\\ \\text{By principle of virtual work,}&\\text{ we get,}\\\\ W\\times \\Delta -M_{P}\\theta -M_{P}\\left ( \\theta +\\phi \\right )&=0 \\\\ W\\times 7\\theta &=2M_{P}\\theta +M_{P}\\phi \\\\ W\\times 7\\theta &=2M_{P}\\theta +M_{P}\\times \\frac{7\\theta }{3} \\\\  7W&=\\frac{6M_{P}+7M_{P}}{3} \\\\ W&=\\frac{13M_{P}}{21}\r\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page10_q5.webp",
+    "options": {
+      "A": "(4/21)[latex]M_{P}[/latex]",
+      "B": "(3/10)[latex]M_{P}[/latex]",
+      "C": "(7/21)[latex]M_{P}[/latex]",
+      "D": "(13/21)[latex]M_{P}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 For the fillet weld of size 's' shown in the  figure the effective throat\r\nthickness is",
+    "solution": "Effective throat thickness is the shortest distance from the root of fillet weld to the face of the line joining the toes. The effective throat thickness should not be less than 3 mm. Effective throat thickness =Ks where s is the size of weld in mm and K is a constant. The value of K depends upon the angle between the fusion faces.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page11_q1.webp",
+    "options": {
+      "A": "0.61s",
+      "B": "0.65s",
+      "C": "0.7s",
+      "D": "0.75s"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 Two plates, subjected to direct ension, each of 10 mm thickness and having widths\nof 100 mm and 175mm, respectively are to be fillet welded with an overlap of\n200 mm. Given that the permissible weld stress is 110MPa and the permissible\nstress in steel is 150MPa, the length of the weld required using the maximum\npermissible weld size as per IS : 800-1984 is",
+    "solution": "The maximum size of a fillet weld is obtained by subtracting 1.5 mm from the thickness of the thinner member to be jointed. [latex]\\therefore \\;\\;  S=10-1.5=8.5 mm[/latex] Strength of the thinner plate [latex]   =100\\times 10\\times 150\\times 10^{-3}=150kN[/latex] Strength of the weld [latex]\\begin{aligned}   &=L\\times S\\times 0.7\\times \\sigma _{WS} \\\\ \\Rightarrow \\;\\; 150\\times 10^{3}&=L\\times 8.5\\times 0.7\\times 110 \\\\ \\Rightarrow \\;\\; L&=229.18 mm\\simeq 229.2 mm\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page11_q2.webp",
+    "options": {
+      "A": "245.3mm",
+      "B": "229.2mm",
+      "C": "205.5mm",
+      "D": "194.8mm"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 A double cover butt riveted joint is used to connect two flat of 200 mm width\nand 14 mm thickness as shown in the figure. There are twelve power driven rivets\nof 20 mm diameter at a pitch of 50 mm in both directions on either side of the\nplate. Two cover plates of 10 mm thickness are used. The capacity of the joint in\ntension considering bearing and shear ONLY, with permissible bearing and shear\nstresses as 300MPa and 100MPa respectively is",
+    "solution": "Strength of one rivet in double shear [latex]=2\\times \\frac{\\pi \\left ( {d}' \\right )^{2}}{4}\\times \\sigma _{s}=2\\times \\frac{\\left ( 20+1.5 \\right )^{2}\\pi }{4}\\times 100\\times 10^{-3}=72.61 kN[/latex] Strength of the riveted joint in double shear [latex]=12\\times 72.61=871.32 kN[/latex] Strength of one rivet in bearing [latex] ={d}'t\\times \\sigma _{b} =\\left ( 20+1.5 \\right )\\times 14\\times 300\\times 10^{-3}=90.3 kN[/latex] Strength of the riveted joint in bearing [latex]=12\\times 90.3=1083.6 kN[/latex] Thus the strength of joint will be governed by shearing and it will be equal to 871.32 kN",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page11_q3.webp",
+    "options": {
+      "A": "1083.6 kN",
+      "B": "871.32 kN",
+      "C": "541.8 kN",
+      "D": "433.7 kN"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 Consider the following statements for a compression member: I. The elastic critical stress in compression increases with decrease in slenderness ratio II. The effective length depends on the boundary conditions at its ends. III. The elastic critical stress in compression is independent of the slenderness ratio. IV. The ratio of the effective length to its radius of gyration is called as slenderness ratio The TRUE statements are",
+    "solution": "The elastic critical stress in compression depends on the slenderness ratio, [latex] \\sigma _{ac}=\\frac{\\pi ^{2}E}{\\lambda ^{2}}[/latex] where [latex]\\lambda[/latex] is slenderness ratio of the compression member.",
+    "options": {
+      "A": "II and III",
+      "B": "III and IV",
+      "C": "II, III and IV",
+      "D": "I, II and IV"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 A 12 mm thick plate is connected to two 8 mm thick plates, on either side through a 16 mm diameter power driven field rivet as shown in the figure below. Assuming\npermissible shear stress as 90 MPa and permissible bearing stress as 270 MPa in\nthe rivet, the rivet value of the joint is",
+    "solution": "Rivet value is the lesser of shearing strength or bearing strength of rivet. Shearing strength of rivet [latex]=2\\times \\frac{\\pi }{4}\\times \\left ( 16+1.5 \\right )^{2}\\times 90=43.29kN[/latex] Bearing strength of rivet [latex]=\\left ( 16+1.5 \\right )\\times 12\\times 270=56.7kN[/latex] [latex]\\therefore[/latex] Rivet value of the joint = 43.29 kN",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page11_q5.webp",
+    "options": {
+      "A": "56.7kN",
+      "B": "43.29kN",
+      "C": "36.19kN",
+      "D": "21.65kN"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 The square root of the ratio of moment of inertia of the cross-section to its cross-sectional\narea is called",
+    "solution": "Radius of gyration, [latex]  r=\\sqrt{\\frac{\\text{Moment of inertia}}{\\text{Cross-sectional area}}}[/latex]",
+    "options": {
+      "A": "second moment of area",
+      "B": "slenderness ratio",
+      "C": "section modulus",
+      "D": "radius of gyration"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 In the theory of plastic bending of beams, the ratio of plastic moment to yield\nmoment is called",
+    "solution": "",
+    "options": {
+      "A": "shape factor",
+      "B": "plastic section modulus",
+      "C": "modulus of resilience",
+      "D": "rigidity modulus"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 A continuous beam is loaded as shown in the figure below. Assuming a plastic\nmoment capacity equal to [latex]M_P[/latex], the minimum load at which the beam would\ncollapse is",
+    "solution": "For collapse in IJ [latex]\\begin{aligned} M_{P}+\\frac{M_{P}}{2}&=\\frac{PL}{4} \\\\ \\Rightarrow \\;\\; \\frac{3M_{P}}{2}&=\\frac{PL}{4} \\\\ \\Rightarrow \\;\\; P&=\\frac{6M_{P}}{L} \\end{aligned}[/latex] Foe collapse in HI [latex] \\begin{aligned} M_{P}+M_{P}&=\\frac{PL}{4} \\\\ \\Rightarrow\\;\\; P&=\\frac{8M_{P}}{L} \\end{aligned}[/latex] [latex]\\therefore[/latex] Minimum load for collapse [latex]=\\frac{6M_{P}}{L}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page12_q3.webp",
+    "options": {
+      "A": "[latex]\\frac{4Mp}{L}[/latex]",
+      "B": "[latex]\\frac{6Mp}{L}[/latex]",
+      "C": "[latex]\\frac{8Mp}{L}[/latex]",
+      "D": "[latex]\\frac{10Mp}{L}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 Rivets and bolts subjected to both shear stress ([latex]\\tau _{vf,cal}[/latex]) and axial tensile stress ([latex]\\sigma_{tf,cal}[/latex]) shall be so proportioned that the stresses do not exceed the respective allowable stresses [latex]\\tau _{vf}[/latex] and [latex]\\sigma_{tf}[/latex] and the value of [latex](\\frac{\\tau _{vf,cal}}{\\tau _{vf}}+\\frac{\\sigma _{tf,cal}}{\\sigma _{tf}})[/latex] does not exceed",
+    "solution": "As per clause 8.9.4.5 of IS 800:1984 rivets and bolts subjected to both shear and axial tension shall be so proportioned that the shear and axial stresses calculated do not exceed the respective allowable stresses [latex]\\tau _{vf}[/latex] and [latex]\\sigma _{tf}[/latex] and the expression [latex]\\left ( \\frac{\\tau _{vf,cal}}{\\tau _{vf}}+\\frac{\\sigma _{tf,cal}}{\\sigma _{tf}} \\right )[/latex] does not exceed 1.4.",
+    "options": {
+      "A": "1",
+      "B": "1.2",
+      "C": "1.4",
+      "D": "1.8"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 The shape of the cross-section, which has the largest shape factor, is",
+    "solution": "Shape factors of some cross-section are as follows: (i) Rectangle - 1.5 (ii) I-Section - 1.14 (iii) Diamond - 2 (iv) triangle - 2.34 (v) Circle - 1.7",
+    "options": {
+      "A": "rectangular",
+      "B": "I-section",
+      "C": "Diamond",
+      "D": "Solid circular"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 The plastic collapse load [latex]W_{p}[/latex]\n for the propped cantilever supporting two point\nloads as shown in fig. in terms of plastic moment capacity, [latex]M_{p}[/latex]\n is given by",
+    "solution": "[latex]D_{s}=\\left ( 3+1 \\right )-3 =1[/latex] No. of plastic hinges formed [latex] =D_{s}+1=2[/latex] [latex]1^{st}[/latex] case: Plastic hinge formed at A and B [latex]\\begin{aligned}\n \\frac{L}{3}\\theta&=\\frac{2L}{3}\\alpha \\\\   \\theta&=2\\alpha \\\\ \\text{By virtual work method}&\\\\ \\text{External work}&=\\text{Internal work}\\\\ W\\left ( \\frac{L}{3}\\theta \\right )+W\\left ( \\frac{L}{3}\\alpha \\right ) &=M_{P}\\theta +M_{P}\\left ( \\theta +\\alpha \\right )\\\\ \\text{Put } \\;  \\theta &=2\\alpha \\\\   W_{u}&=\\frac{5M_{P}}{L}\n\\end{aligned}[/latex] [latex]2^{nd}[/latex] case: Plastic hinge at (A) and (C) [latex]\\begin{aligned}\n   \\frac{2L}{3}\\theta &=\\frac{L}{3}\\alpha \\\\   \\alpha &=2\\theta\\\\ \\text{External work} &=\\text{Internal work} \\\\ \\frac{WL}{3}\\theta +\\frac{2WL}{3}\\theta &=M_{P}\\theta+M_{P}\\left ( \\theta +\\alpha \\right ) \\\\ \\text{Put }\\; \\alpha &=2\\theta \\\\  W_{u} &=\\frac{4M_{P}}{L}\n\\end{aligned}[/latex] Hence, collapse load [latex]\\; \\; \\; W_{u} =\\frac{4M_{P}}{L}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page13_q1.webp",
+    "options": {
+      "A": "[latex]\\frac{3Mp}{L}[/latex]",
+      "B": "[latex]\\frac{4Mp}{L}[/latex]",
+      "C": "[latex]\\frac{5Mp}{L}[/latex]",
+      "D": "[latex]\\frac{6Mp}{L}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 A bracket connection is made with four bolts of 10 mm diameter and supports\na load of 10 kN at an eccentricity of 100 mm. The maximum force to be resisted\nby any bolt will be",
+    "solution": "Bolt will be subjected to direct shear and shear force due to twisting moment. [latex]F_{1} =[/latex] Force on bolt due to direct shear [latex]F_{2}= [/latex] Force on bolt due to twisting moment [latex]\\begin{aligned} F_{1}&=\\frac{P}{4}=\\frac{10}{4}=2.5\\, kN \\\\ F_{2}&= \\text{stress due to moment } \\\\ F_{2}&=\\frac{\\left ( Pe \\right )\\times r_{1}}{\\sum r^{2}_{i}} \\\\ r_{1} &= r_{2} =r_{4} \\\\  &= \\sqrt{30^{2}+40^{2}}=50 mm \\\\ F_{2}&=\\frac{10\\times 100\\times 50}{2500\\times 4}=5 kN \\\\ \\tan \\theta &=\\frac{30}{40} \\\\ \\theta &=37^{\\circ} \\\\ &\\text{Resultant force} \\\\ &=\\sqrt{F_{1}^{2}+F^{2}_{2}+2F_{1}F_{2}\\cos \\theta } \\\\  &=\\sqrt{\\left ( 2.5 \\right )^{2}+\\left ( 5 \\right )^{2}+2\\times 2.5\\times 5\\times \\cos 37^{\\circ}} \\\\  &=7.16\\, kN \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page13_q2.webp",
+    "options": {
+      "A": "5kN",
+      "B": "6.5kN",
+      "C": "6.8kN",
+      "D": "7.16kN"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 A steel flat of rectangular section of size [latex]70\\times 6[/latex] mm is connected to a gusset plate\nby three bolt each having a shear capacity of 15 kN in holes having diameter 11.5\nmm. If the allowable tensile stress in the flat is 150 MPa, the maximum tension\nthat can be applied to the flat is",
+    "solution": "Along (1)-(1) [latex] \\begin{aligned} A_{net}&=\\left ( 70-11.5 \\right )\\times 6 \\\\ &=351\\, mm^{2} \\\\  P&=\\left ( A_{net} \\right )\\times \\left ( f_{y} \\right ) \\\\ &=351\\times 150 =52.65\\, kN \\end{aligned}[/latex] Along (2)-(2) [latex]\\begin{aligned} A_{net}&=\\left ( 70-2\\times 11.5 \\right )\\times 6 \\\\ &=282\\, mm^{2} \\\\  P&=\\left ( A_{net} \\right )\\times f_{y} \\\\   &=282\\times 150 N=42.3 kN\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page13_q3.webp",
+    "options": {
+      "A": "42.3kN",
+      "B": "52.65kN",
+      "C": "59.5kN",
+      "D": "63kN"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 When the triangular section of a beam as shown below becomes a plastic hinge,\nthe compressive force acting on the section (with [latex]\\sigma _{y}[/latex] denoting the yield stress)\nbecomes",
+    "solution": "We kno that the nuetral axis of the plastified section is the equal area axis. [latex]\\therefore[/latex]Compressive force, [latex]\\begin{aligned}\n&=\\sigma _{y}\\times \\frac{\\text{Area of triangular section}}{2}\\\\ &= \\sigma _{y}\\times \\frac{bh}{2\\times 2} = \\frac{bh\\sigma _{y}}{4}\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page13_q4.webp",
+    "options": {
+      "A": "[latex]\\frac{bh\\sigma _{y}}{4}[/latex]",
+      "B": "[latex]\\frac{2bh\\sigma _{y}}{9}[/latex]",
+      "C": "[latex]\\frac{bh\\sigma _{y}}{2}[/latex]",
+      "D": "[latex]\\frac{bh\\sigma _{y}}{3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 Consider the following statements : I. Effective length of a battened column in usually increased to account for the additional load on battens due to the lateral expansion of columns. II. As per IS:800-1984, permissible stress in bending compression depends on both Euler buckling stress and the yield stress of steel. III. As per IS:800-1984, the effective length of a column effectively held in position at both ends but not restrained against rotation, is taken to be greater than that in the ideal end conditions. The TRUE statements are",
+    "solution": "The ideal condition is that column is effectively held in position at both ends but not restrained against rotation. IS 800 : 1984 prescribes the same value of effective length as taken for ideal end condition. Hence 3 is false.",
+    "options": {
+      "A": "Only I and II",
+      "B": "Only II and III",
+      "C": "Only I and III",
+      "D": "I, II and III"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 In the design of welded tension members, consider the following statements : I. The entire cross-sectional are of the connected leg is assumed to contribute\r\nto the effective area in case of angles. II. Two angles back-to-back and tack-welded as per the codal requirements\r\nmay be assumed to behave as a tee section. III. A check on slenderness ratio may be necessary in some cases. The TRUE statements are",
+    "solution": "",
+    "options": {
+      "A": "Only I and II",
+      "B": "Only II and III",
+      "C": "Only I and III",
+      "D": "I, II and III"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 A cantilever beam of length 1, width b and depth d is loaded with a concentrated\nvertical load at the tip. If yielding starts at a load P, the collapse load shall be",
+    "solution": "Yielding starts at P, therefore yielding moment at the fixed end is given by, [latex] M_{y}=PL[/latex] Now, if [latex]W_{u}[/latex] is the collapse load, then collapse moment at the fixed end is given by, [latex] M_{p}=W_{u}L[/latex] But, for rectangular beam, [latex] \\begin{aligned} \\frac{M_{p}}{M_{y}}& =1.5 \\\\ \\Rightarrow \\; \\; \\frac{W_{u}L}{PL}&=1.5 \\\\ \\Rightarrow \\;\\;W_{u}&=1.5P \\end{aligned}[/latex]",
+    "options": {
+      "A": "2P",
+      "B": "1.5P",
+      "C": "1.2P",
+      "D": "P"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 A fillet-welded joint of 6mm size is shown in the figure. The welded surfaces meet\nat 60-90 degree and permissible stress in the filled weld is 108 MPa. The safe load\nthat can be transmitted by the joint is",
+    "solution": "Total weld length [latex]=\\left ( 100\\times 2 \\right )+50=250 mm[/latex] Strength of weld per mm length [latex]=0.70\\times 6\\times 108=453.6N [/latex] Maximum load taken by joint [latex] =\\frac{453.6\\times 250}{1000}=113.4kN[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page14_q3.webp",
+    "options": {
+      "A": "162.7kN",
+      "B": "151.6kN",
+      "C": "113.4kN",
+      "D": "109.5kN"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 An unstiffened web I-section is fabricated from a 10 mm thick plate by fillet\nwelding as shown in the figure. If yield stress of steel is 250 MPa, the maximum\nshear load that section can take is",
+    "solution": "The web depth to thickness ratio [latex] \\begin{aligned} &=\\frac{300-20}{10}=28 \\lt 85 \\\\ \\therefore \\;\\; V&=f_{s}t_{w}d \\\\  d&=300 mm, \\;f_{s}=0.4f_{y} \\\\  f_{y}&=0.4 \\times 250=100 N/mm^{2} \\\\  t_{W}&=10mm\\\\ \\Rightarrow \\;\\; V&=100\\times 10\\times 300=300 kN \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page14_q4.webp",
+    "options": {
+      "A": "750kN",
+      "B": "350kN",
+      "C": "337.5kN",
+      "D": "300kN"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 Which one of the following is NOT correct for steel sections as per IS:800-1984 ?",
+    "solution": "",
+    "options": {
+      "A": "The maximum bending stress in tension or in compression in extreme fibre\ncalculated on the effective section of a beam shall not exceed 0.66 [latex]f_y[/latex].",
+      "B": "The bearing stress in any part of a beam when calculated on the net area\nshall not exceed 0.75 [latex]f_y[/latex].",
+      "C": "The direct stress in compression on the gross sectional area of axially\nloaded compression member shall not exceed 0.6 [latex]f_y[/latex].",
+      "D": "None of the above"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 The permissible stress in axial tension [latex]\\sigma _{st}[/latex]\n in steel member on the net effective\narea of the section shall not exceed the following value ([latex]f_{y}[/latex] is the yield stress)",
+    "solution": "",
+    "options": {
+      "A": "0.80 [latex]f_{y}[/latex]",
+      "B": "0.75 [latex]f_{y}[/latex]",
+      "C": "0.60 [latex]f_{y}[/latex]",
+      "D": "0.50 [latex]f_{y}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 72 A propped cantilever of span L is carrying a vertical concentrated load acting at\nmidspan. The plastic moment of the section is [latex]M_{p}[/latex]. The magnitude of the collapse\nload is",
+    "solution": "[latex]\\begin{aligned}\n&\\text{External work done} \\\\ &=\\text{load} \\times \\text{deflection} \\\\ &=W_{u}\\times \\Delta =W_{u}\\times \\frac{L}{2}\\times \\theta\\\\ &=\\frac{W_{u}L\\theta }{2}\n\\end{aligned}[/latex] [latex]\\begin{aligned}\n&\\text{Internal work done}\\\\ & =\\text{moment} \\times \\text{rotation} \\\\ &=M_{P}\\theta +M_{P}\\left ( \\theta +\\theta \\right )\\\\ &=3M_{P}\\theta\n\\end{aligned}[/latex] By principle of virtual work, External work done = Internal work done [latex]\\; \\frac{W_{u}L\\theta }{2}=3M_{P}\\theta[/latex] [latex]\\; W_{u}= \\frac{6M_{P}}{L}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{8M_{p}}{L}[/latex]",
+      "B": "[latex]\\frac{6M_{p}}{L}[/latex]",
+      "C": "[latex]\\frac{4M_{p}}{L}[/latex]",
+      "D": "[latex]\\frac{2M_{p}}{L}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 A square steel slab base of area 1 [latex]m^{2}[/latex] is provided for a column made of two rolled channel sections. The [latex]300mm\\times 300mm[/latex]\n column carries an axial compressive load of 2000 kN. The line of action of the load passes through the centroid of the column section as well as of the slab base. The permissible bending stress in slab base is 185 MPa. The required minimum thickness of the slab base is",
+    "solution": "[latex]300mm\\times 300mm[/latex] column leaves projections as, [latex]\\; a\\, =\\, b\\, =\\frac{1000-300}{2}\\, =350mm[/latex] Pressure on the underside of base slab [latex]\\; W=\\frac{2000}{1}=2000\\, kN/m^{2}=2\\, N/mm^{2}[/latex] Thickness of slab base, [latex]\\; t=\\sqrt{\\frac{3W}{F_{b}}\\left ( a^{2}-\\frac{b^{2}}{4} \\right )}=\\sqrt{\\frac{3\\times 2}{185}\\left ( 350^{2}-\\frac{350^{2}}{4} \\right )}[/latex] [latex]\\; t\\simeq 55[/latex]mm",
+    "options": {
+      "A": "110mm",
+      "B": "89mm",
+      "C": "63mm",
+      "D": "55mm"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 74 A strut in a steel truss is composed of two equal angle ISA [latex]150mm\\times 150mm[/latex] of thickness 100 mm connected back-to-back to the same side of a gusset plate. The cross sectional area of each angle is 2921 m[latex]m^{2}[/latex] and moment of inertia ([latex]I_{xx}=I_{yy}[/latex]) is 6335000 m[latex]m^{4}[/latex]. The distance of the centroid of the angle from its surface ([latex]C_{x}=C_{y}[/latex]) is 40.8 mm. The minimum radius of gyration of the strut is",
+    "solution": "Total cross sectional area [latex]= 2A =2\\times 2921 = 5842 mm^{2}[/latex] The maximum moment of inertia will be about Y-Y axis, [latex]I_{YY}= 2I_{yi}= 2\\times 6335000=12670000 \\;mm^{4}[/latex] Minimum radius of gyration, [latex]r_{min}= \\sqrt{\\frac{I_{yy}}{2A}}= \\sqrt{\\frac{12670000}{5842}}= 46.6 mm[/latex]",
+    "options": {
+      "A": "93.2mm",
+      "B": "62.7mm",
+      "C": "46.6mm",
+      "D": "29.8mm"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 75 Two equal angles ISA [latex]100mm\\times 100mm[/latex]\n of thickness 10 mm are placed back to back and connected to the either side of a gusset plate through a single row of 16 mm diameter rivets in double shear. The effective areas of the connected and unconnected legs of each of these angles are 775 m[latex]m^{2}[/latex] and 950 m[latex]m^{2}[/latex], respectively. If the angles are NOT tack riveted, the net effective area of this pair of angles is",
+    "solution": "When angles are not tack riveted, they will be considered as single angles connected on one side of gusset plate, [latex] \\begin{aligned} A_{e}&=\\left ( A_{1}+kA_{2} \\right )\\times 2 \\\\  k&=\\frac{3A_{2}}{3A_{1}+A_{2}} \\\\ &=\\frac{3\\times 775}{3\\times 775+950} \\\\ &=0.71 \\\\  A_{e}&=\\left ( 775+0.71\\times 950 \\right )\\times 2 \\\\   &=2899\\, mm^{2}\\end{aligned}[/latex]",
+    "options": {
+      "A": "3650[latex]mm^{2}[/latex]",
+      "B": "3450[latex]mm^{2}[/latex]",
+      "C": "3076[latex]mm^{2}[/latex]",
+      "D": "2899[latex]mm^{2}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 76 A moment M of magnitude 50 kN-m is transmitted to a column flange through a\nbracket by using four 20 mm diameter rivets as shown in the figure. The shear force induced in the rivet A is",
+    "solution": "The centroid of rivets will be on the symmetric lines and each rivet will be at, [latex] r= \\sqrt{\\left ( 50 \\right )^{2}+\\left ( 50 \\right )^{2}}=50\\sqrt{2} mm[/latex] Shear force in rivet A is given by, [latex] F_{s}=\\frac{Mr}{\\sum r^{2}} =\\frac{50\\times 10^{3}\\times 50\\sqrt{2}}{4\\times \\left ( 50\\sqrt{2} \\right )^{2}}=176.8\\, kN[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page16_q1.webp",
+    "options": {
+      "A": "250kN",
+      "B": "175kN",
+      "C": "125kN",
+      "D": "88.4kN"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 In a plate girder, the web plate is connected to the flange plates by fillet welding.\nThe size of the fillet welds is designed to safely resist",
+    "solution": "",
+    "options": {
+      "A": "the bending stresses in the flanges",
+      "B": "the vertical shear force at the section",
+      "C": "the horizontal shear force between the flanges and the web plate",
+      "D": "the forces causing buckling in the web"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 78 Rivet value is defined as",
+    "solution": "",
+    "options": {
+      "A": "lesser of the bearing strength of rivet and the shearing strength of the rivet",
+      "B": "lesser of the bearing strength of rivet and the tearing strength of thinner plate",
+      "C": "greater of the bearing strength of rivet and the shearing of the rivet",
+      "D": "lesser of the shearing strength of the rivet and the tearing strength of thinner plate"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 79 A truss tie consisting of 2 ISA 75x75x8 mm carries a pull of 150 kN. At ends\nthe two angels are connected, one each on either side of a 10 mm thick gusset\nplate, by 18 mm diameter rivets arranged in one row. The allowable stresses in\nrivet are [latex]f_s=90.0N/mm^2[/latex] and [latex]f_{br}=250N/mm^2[/latex] Minimum number of rivets required at each end is",
+    "solution": "Strength of rivets in shearing, [latex]=\\frac{2\\times \\pi \\left ( 18+1.5 \\right )^{2}\\times 90}{4}=53.76 kN[/latex] Strength of rivets in bearing, [latex]=\\left ( 18+1.5 \\right )\\times 10\\times 250 =48.75 kN [/latex] [latex]\\therefore[/latex] Rivet value [latex]=48.75 kN[/latex] Number of rivets [latex]=\\frac{150}{48.75}=3.08 \\approx 4[/latex]",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 A truss tie consisting of 2 ISA 75x75x8 mm carries a pull of 150 kN. At ends\nthe two angels are connected, one each on either side of a 10 mm thick gusset\nplate, by 18 mm diameter rivets arranged in one row. The allowable stresses in\nrivet are [latex]f_s=90.0N/mm^2[/latex] and [latex]f_{br}=250N/mm^2[/latex] Maximum tensile stress in the tie in N/[latex]mm^{2}[/latex] is",
+    "solution": "(i) Assuming both thr angles as tack riveted, Gross area, [latex] A_{g}=\\left ( 75-4 \\right )\\times 8\\times 2=1136 mm^{2}[/latex] For angles, connected on both sides of gussets plate, Effective area, [latex]\\begin{aligned} A_{e}&=A_{1}+kA_{2} \\\\  A_{1}&= \\text{ Net area of connected leg} \\\\  &=\\frac{1136}{2}-\\left ( 18+1.5 \\right )\\times 8 \\\\ &=412 mm^{2} \\\\  A_{2}&=\\text{ Area of outstanding leg} \\\\  &=\\frac{1136}{2}=568 mm^{2} \\\\  k&=1.0 \\\\  A_{e}&=412+\\left ( 1.0\\times 568 \\right ) \\\\ &=980 mm^{2} \\end{aligned}[/latex] [latex]\\therefore\\;\\; [/latex] Total area for both angles [latex]=2\\times 980=1960\\, mm^{2}[/latex] [latex]\\therefore[/latex] Maximum tensile stress [latex]=\\frac{150\\times 10^{2}}{1960}=76.5 N/mm^{2}[/latex] (ii) Also assuming both the angle sections are not tack riveted, [latex]\\begin{aligned} \\therefore \\;\\; k_{1}&=\\frac{3A_{1}}{3A_{1}+A_{2}} \\\\ &=\\frac{3\\times 412}{3\\times 412+568} \\\\ &=0.685 \\\\  \\therefore \\;\\; A_{e}&=\\left ( A_{1}+k_{1}A_{2} \\right )\\times 2 \\\\   &=\\left ( 412+0.685\\times 568 \\right )\\times 2 \\\\ &=1602.2 mm^{2} \\end{aligned}[/latex] [latex] \\therefore[/latex] Maximum tensile stress [latex] =\\frac{150\\times 10^{3}}{1602.3}=93.6 N/mm^{2}[/latex]",
+    "options": {
+      "A": "93.6",
+      "B": "87.5",
+      "C": "77.2",
+      "D": "66"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 81 Group-I contains some elements in design of a simply supported plate girder and\nGroup-II give some qualitative locations on the girder. Match the items of two lists\nas per good design practice and relevant codal provisions",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page17_q1.webp",
+    "options": {
+      "A": "P-2 Q-3 R-1 S-5",
+      "B": "P-4 Q-2 R-1  S-3",
+      "C": "P-3 Q-4 R-2 S-1",
+      "D": "P-1 Q-5 R-2 S-3"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 82 A steel portal frame has dimensions, plastic moment capacities and applied loads \nas shown in the figure. The vertical load is always twice of the horizontal load.\nThe collapse load P required for the development of a beam mechanism is",
+    "solution": "The possible locations of the plastic hinges are at A, B, C, D and E. Number of plastic hinges, [latex]N= 5[/latex] Degree of redundancy, [latex]r=6-3=3[/latex] Number of possible independent mechanisms, [latex]n=N-r=5-3=2[/latex] Thus the two independent mechanisms are 1. Beam mechanisms 2. Sway mechanism Beam mechanism: The ends B and D of the frame ABCD are fixed joints. Therefore, the beam BD acts as a fixed end beam. [latex]\\begin{aligned}\r\n&\\text{External work done}\\\\ &=\\text{load} \\times \\text{deflection} \\\\  &=2P\\times \\Delta =2P\\times L\\times \\theta \\\\  &=2PL\\theta\\\\ & \\text{Internal work done} \\\\  &=\\text{moment} \\times \\text{rotation} \\\\  &=M_{P}\\theta +2M_{P}\\left ( \\theta +\\theta \\right )+M_{P}\\theta \\\\  &=6M_{P}\\theta\r\n\\end{aligned}[/latex] By principal of virtual work, External work done = Internal work done [latex]\\; \\; 2PL\\theta =6M_{P}\\theta[/latex] [latex]\\Rightarrow \\; P=\\, \\frac{3M_{P}}{L}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page17_q2.webp",
+    "options": {
+      "A": "[latex]\\frac{3M_{p}}{L}[/latex]",
+      "B": "[latex]\\frac{4M_{p}}{L}[/latex]",
+      "C": "[latex]\\frac{6M_{p}}{L}[/latex]",
+      "D": "[latex]\\frac{8M_{p}}{L}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 Which of the following elements of a pitched roof industrial steel building primarily\nresists lateral load parallel to the ridge ?",
+    "solution": "",
+    "options": {
+      "A": "bracings",
+      "B": "purlins",
+      "C": "truss",
+      "D": "columns"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 In the design of lacing system for a built-up steel column, the maximum allowable\nslenderness ratio of a lacing bar is",
+    "solution": "",
+    "options": {
+      "A": "120",
+      "B": "145",
+      "C": "180",
+      "D": "250"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 ISA 100x100x10 mm (Cross sectional area = 1908 m[latex]m^{2}[/latex]) is welded along A\nand B (as shown in figure), such that the lengths of the weld along,\nA and B are l1 and l2, respectively. Which of the following is a possibly acceptable\ncombination of l1 and l2",
+    "solution": "CG of angle from A will be, [latex]\\begin{aligned} \\bar{h}&=\\frac{\\left ( 100\\times 10 \\right )50+90\\times 10\\times \\left ( 90+5 \\right )}{100\\times 10+90\\times 100} \\\\ &= 71.31 \\text{ mm joint A} \\end{aligned}[/latex] Let [latex]P_{1}[/latex] and [latex]P_{2}[/latex] force is resisted by weld at A and B respectively then by taking moment about CG [latex] \\begin{aligned} P_{1}\\times 71.33&=P_{2}\\times \\left ( 100-71.33 \\right ) \\\\   P_{1}&=0.4P_{2} \\end{aligned}[/latex] As [latex]P_{2} \\gt P_{1}[/latex] (about 2.5 times) weld required on 'B' side will be more than A by 2.5 times. If [latex]I_{1}= [/latex] length of weld at [latex]A =60 mm[/latex] [latex]I_{2} = [/latex] length of weld at [latex]B=60\\times 2.5 =150 mm[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page17_q5.webp",
+    "options": {
+      "A": "l1 = 60 mm and l2 = 150 mm",
+      "B": "l1 = 150 mm and l2 = 60 mm",
+      "C": "l1 = 150 mm and l2 = 150 mm",
+      "D": "Any of the above, depending on the size of the weld"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 ISA 100x100x10 mm (Cross sectional area = 1908 [latex]mm^{2}[/latex]) serves as tensile\r\nmember. This angle is welded to a gusset plate along A and B appropriately\r\nas shown. Assuming the yield strength of the steel to be 260 [latex]N/mm^{2}[/latex]. The tensile strength of this member can be taken to be approximately,",
+    "solution": "[latex]\\begin{aligned}  A_{1} &= 1000 \\\\  A_{2} &= 1000 \\\\ \\therefore \\; \\;  k&=\\frac{3A_{1}}{3A_{1}+A_{2}}=0.75 \\\\  A&=A_{1}+kA_{2} \\\\   &=1750 mm^{2} \\end{aligned}[/latex] Tensile strength of member [latex] =0.6\\times f_{y}\\times A   =0.6\\times 280\\times 1750=273 kN[/latex] So, tensile strength can be taken as 225 kN.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page18_q1.webp",
+    "options": {
+      "A": "500kN",
+      "B": "300kN",
+      "C": "225kN",
+      "D": "375kN"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 A steel beam (with a constant El , and span L) is fixed at both ends and carries a\nuniformly distributed load (w kN/m), which is gradually increased till the beam\nreaches the stage of plastic collapse (refer to the following figure). Assuming 'B'\nto be at mid-span, which of he following is true,",
+    "solution": "Initially when load is increased maximum -ve BM occurs at end [latex]\\frac{Wl^{2}}{12}[/latex] and plastic hinges are formed at ends and when load is further increased it behaves like simply supported bean and third hinge is formed at mid span when load increases to [latex] W_{u}=\\frac{16M_{p}}{l^{2}}[/latex] 1st two hinges are formed at (A) and (c) togather at load, [latex]W_{u}=\\frac{12M_{p}}{l^{2}}[/latex] and then third hinge is formed at load, [latex]W_{u}=\\frac{16M_{p}}{l^{2}}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page18_q2.webp",
+    "options": {
+      "A": "Hinges are formed at A, B and C together",
+      "B": "Hinges are formed at B and then at A and C together",
+      "C": "Hinges are formed at A and C together and then at B",
+      "D": "Hinges are formed at A and C only"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 An ISMB 500 is used as a beam in a multi-storey construction. From the viewpoint\nof structural design, it can be considered to be 'laterally restrained' when,",
+    "solution": "",
+    "options": {
+      "A": "The tension flange is 'laterally restrained'",
+      "B": "the compression flange is 'laterally restrained'",
+      "C": "the web is adequately stiffened",
+      "D": "the conditions in (A) and (C) are met"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 89 When designing steel structures, one must ensure that local buckling in webs\ndoes not take place. This check may not be very critical when using rolled steel\nsections because.",
+    "solution": "",
+    "options": {
+      "A": "Quality control at the time of manufacture of rolled sections is very good",
+      "B": "Web depths available are small",
+      "C": "Web stiffeners are in-built in rolled sections",
+      "D": "Depth to thickness ratios (of the web) are appropriately adjusted"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 Consider the following two statements related to structural steel design, and\nidentify whether they are TRUE or FALSE: I. The Euler buckling load of a slender steel column depends on the yield\nstrength of steel. II. In the design of laced column, the maximum spacing of the lacing does not\ndepend on the slenderness of column as a whole.",
+    "solution": "1. Euler's buckling load [latex]=\\frac{\\pi ^{2}EI}{l^{2}}[/latex] [latex]\\; \\therefore\\,[/latex] Euler's buckling load is independent of yield strength of steel. 2. Maximum spacing of lacing bars shall be such that the maximum slenderness of the main member between adjacent lacing connection should not be greater than 50 or [latex]0.7 \\times \\lambda _{whole}[/latex].",
+    "options": {
+      "A": "Both statements I and II are TRUE",
+      "B": "Statement I is TRUE, and statement II is FALSE",
+      "C": "Statement I is FALSE, and statement II is TRUE",
+      "D": "Both Statements I and II are FALSE"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 Identify the most efficient but joint (with double cover plates) for a plate in tension from the patterns (plan views) shown below, each comprising 6 identical bolts with the same pitch and gauge.",
+    "solution": "The most common type of rivet patterns are chain riveting and diamond riveting. Staggered pattern in option (A) yields more net area of the section and because of this reaon this pattern is most suitable for tension members. Staggered and diamond pattern are better as compared to the chain pattern.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/dss/page19_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  }
+]

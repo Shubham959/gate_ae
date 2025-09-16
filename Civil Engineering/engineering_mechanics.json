@@ -1,0 +1,169 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 Consider the rigid bar ABC supported by the pin-jointed links BD and CE and subjected to a load [latex]P[/latex] at the end [latex]A[/latex], as shown in the figure. The axial rigidities of [latex]B D[/latex] and [latex]C E[/latex] are 22500 kN and 15000 kN , respectively. If CE elongates by 5 mm due to the load P , the magnitude of the downward deflection (in mm ) of the end [latex]A[/latex] would be _________ (rounded off to the nearest integer).",
+    "solution": "Given: Rigid bar ABC is supported by pin-jointed links BD and CE. CE elongates by [latex]5 , \\text{mm}[/latex]. Axial rigidity of BD = [latex]22500 , \\text{kN}[/latex], CE = [latex]15000 , \\text{kN}[/latex]. Geometry: AB = BC = [latex]200 , \\text{mm}[/latex] BD = [latex]200 , \\text{mm}[/latex], CE = [latex]300 , \\text{mm}[/latex] Step 1: Use geometry to compute rotation Let the bar rotate clockwise by angle [latex]\\theta[/latex]. Then, vertical displacement at point C = [latex]\\theta \\times 300[/latex] This equals elongation in CE: [latex]\\Rightarrow \\theta = \\frac{5}{300} = \\frac{1}{60} , \\text{rad}[/latex] Step 2: Vertical displacement at point A From geometry, A is at horizontal distance [latex]200 , \\text{mm}[/latex] from B So vertical deflection at A: [latex]\\Delta_A = \\theta \\times 200 = \\frac{1}{60} \\times 200 = \\frac{200}{60} \\approx 3.33 , \\text{mm}[/latex] This is if only CE is active. But both BD and CE are axial links with given stiffness. Let: [latex]\\Delta_D =[/latex] elongation in BD [latex]\\Delta_E = 5 , \\text{mm}[/latex] (given) From similar triangles formed by rotation about point B: [latex]\\frac{\\Delta_D}{200} = \\frac{5}{300} \\Rightarrow \\Delta_D = \\frac{200}{300} \\times 5 = \\frac{10}{3} \\approx 3.33 , \\text{mm}[/latex] Step 3: Use force balance using stiffness Force in BD = [latex]k_1 \\Delta_D = 22500 \\times \\frac{10}{3} = 75000 , \\text{N}[/latex] Force in CE = [latex]k_2 \\Delta_E = 15000 \\times 5 = 75000 , \\text{N}[/latex] So both members carry same force, balance is maintained. Step 4: Displacement of point A [latex]\\theta = \\frac{\\Delta_D}{200} = \\frac{10}{3 \\times 200} = \\frac{1}{60} , \\text{rad}[/latex] Distance from rotation center (B) to point A = [latex]200 + 200 + 200 + 250 = 850 , \\text{mm}[/latex] Displacement of A = [latex]\\theta \\times 850 = \\frac{1}{60} \\times 850 = 14.17 \\approx 14 , \\text{mm}[/latex] Final Answer: [latex]\\boxed{14 , \\text{mm}}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/mechanics/page1_q1.webp",
+    "min": 14.0,
+    "max": 14.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 A linearly elalstic beam of length [latex] 2 \\mid [/latex] with flexural rigidity [latex] \\mathrm{El} [/latex] has negligible mass. A massless spring with a spring constant [latex] \\mathrm{k} [/latex] and a rigid block of mass [latex] \\mathrm{m} [/latex] are attached to the beam as shown in the figure. The natural frequency of this system is",
+    "solution": "Let us consider sfittness of beam as [latex] \\mathrm{k}_{\\mathrm{b}} [/latex]. Here both the stiffness elements are in parallel. [latex]\n\\begin{aligned}\n\\Rightarrow \\quad \\mathrm{k}_{\\text {eq }} & =\\mathrm{k}_{1}+\\mathrm{k}_{2} \\\\\n& =\\mathrm{k}+\\frac{48 \\mathrm{EI}}{(2 \\ell)^{3}}=\\mathrm{k}+\\frac{6 \\mathrm{EI}}{\\ell^{3}}\n\\end{aligned}\n [/latex] Natural frequency [latex] \\omega_{n}=\\sqrt{\\frac{k_{\\text {eq }}}{m}} [/latex] [latex]\n\\omega_{n}=\\sqrt{\\frac{\\left(\\mathrm{k}+\\frac{6 \\mathrm{EI}}{\\ell^{3}}\\right)}{m}}=\\sqrt{\\frac{\\mathrm{k} \\ell^{3}+6 \\mathrm{El}}{\\mathrm{m} \\ell^{3}}}\n [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/mechanics/page1_q2.webp",
+    "options": {
+      "A": "[latex] \\sqrt{\\frac{k l^{3}+6 E l}{m l^{3}}} [/latex]",
+      "B": "[latex] \\sqrt{\\frac{k l^{3}+48 E l}{m^{3}}} [/latex]",
+      "C": "[latex] \\sqrt{\\frac{6 E l k}{\\left(\\left.k\\right|^{3}+6 E I\\right) m}} [/latex]",
+      "D": "[latex] \\sqrt{\\frac{48 E I k}{\\left(k l^{3}+48 E I\\right) m}} [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 3 The cross-section of a girder is shown in the figure (not to scale). The section is symmetric about a vertical axis [latex](Y-Y)[/latex]. The moment of inertia of the section about the horizontal axis [latex](X-X)[/latex] passing through the centroid is _____ [latex]\\mathrm{cm}^{4}[/latex] (round off to nearest integer).",
+    "solution": "As section is symmetric about given [latex]y-y [/latex]axis, hence centroid will lie on this axis. To calculate location of C.G. from reference axis (bottom horizontal line); [latex]\\bar{y}[/latex] [latex]\\bar{y}=\\frac{A_{1} \\bar{y}_{1}+A_{2} \\bar{y}_{2}}{A_{1}+A_{2}}[/latex] [latex]\\bar{y}=\\frac{(40 \\times 10) \\times 55+(20 \\times 50) \\times(25)}{40 \\times 10+20 \\times 50}[/latex] [latex]\\bar{y}=33.5714 \\mathrm{~cm}[/latex] (from bottom) MOI of section about [latex]x x[/latex] (centroidal horizontal axis) [latex]I=I_{I, x x}+I_{I I, x x}[/latex] [latex]I_{1, x x}=\\frac{b_{1} d_{1}^{3}}{12}+\\left(b_{1} d_{1}\\right) \\times d^{2}[/latex] [latex]\\begin{aligned}\r\n& \\mathrm{I}_{1, x x}=\\frac{40 \\times 10^{3}}{12}+(40 \\times 10)(55-33.57)^{2} \\\\\r\n& \\mathrm{I}_{1, x x}=187031.29 \\mathrm{~cm}^{4}\r\n\\end{aligned}[/latex] [latex]\\mathrm{d}^{\\prime}=\\overline{\\mathrm{y}}-25[/latex] [latex]\\mathrm{d}^{\\prime}=8.5714 \\mathrm{~cm}[/latex] [latex]\\mathrm{I}_{\\mathrm{II}, x x}=\\frac{\\mathrm{b}_{2} \\mathrm{~d}_{2}^{3}}{12}+\\left(\\mathrm{b}_{2} \\times \\mathrm{d}_{2}\\right) \\times \\mathrm{d}^{\\prime 2}[/latex] [latex]I_{I I, x x}=\\frac{20 \\times 50^{3}}{12}+(20 \\times 50) \\times(8.57)^{2}[/latex] [latex]\\mathrm{I}_{\\mathrm{II}, \\mathrm{xx}}=281778.23 \\mathrm{~cm}^{4}[/latex] Hence, MOI of whole section [latex]\\mathrm{I}_{x \\mathrm{x}}=\\mathrm{I}_{\\mathrm{I}, x \\mathrm{x}}+\\mathrm{I}_{\\mathrm{Il}, \\mathrm{xx}}[/latex] [latex]\\mathrm{I}_{x x}=468809.52 \\mathrm{~cm}^{4}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/mechanics/page1_q3.webp",
+    "min": 464000.0,
+    "max": 472000.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 An undamped spring-mass system with mass [latex]m[/latex] and spring stiffness [latex]k[/latex] is shown\nin the figure. The natural frequency and natural period of this system are [latex]\\omega [/latex] rad/s and [latex]T \\;s[/latex], respectively. If the stiffness of the spring is doubled and the mass is halved, then the natural frequency and the natural period of the modified system, respectively, are",
+    "solution": "This is question of undamped free vibration of\nsinle degree of freedom system.\nFor the above figure it is given that natural\nfrequency and natural period are w rad/s and T s,\nrespectively.\nThe equation for soof system is [latex] \\omega =\\sqrt{\\frac{k}{m}}, T=\\frac{2\\pi}{\\omega }[/latex] For the modified system, stiffness of the spring is\ndoubled and the mass is halved. Let us assume k'=2k and m'=m/2, here k' and\nm' represent the stiffness and mass of the\nmodified system respectively. [latex] \\omega '=\\sqrt{\\frac{k'}{m}}=\\sqrt{\\frac{2k}{\\left ( \\frac{m}{2} \\right )}}=\\sqrt{\\frac{4k}{m}}=2\\sqrt{\\frac{k}{m}}=2\\omega  \\;\\;\\; \\left ( \\because \\omega = \\sqrt{\\frac{k}{m}}\\right )[/latex] [latex] T'=\\frac{2\\pi}{\\omega '}=\\frac{2 \\pi}{2\\omega }=\\frac{1}{2}\\left ( \\frac{2 \\pi}{\\omega } \\right )=\\frac{T}{2}  \\;\\;\\left ( T=\\frac{2 \\pi}{\\omega } \\right )[/latex] [latex] \\omega '[/latex] and [latex]T' [/latex] are natural frequency and natural period of the modified system. hence, the natural frequency of the modified system is doubled and natural period is halved\ncompared to the original given system. Hence\noption (A) is correct.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/mechanics/page1_q4.webp",
+    "options": {
+      "A": "[latex]2\\omega [/latex]  rad/s and T/2 s",
+      "B": "[latex]\\omega /2[/latex]  rad/s and 2T s",
+      "C": "[latex]4\\omega [/latex]  rad/s and T/4 s",
+      "D": "[latex]\\omega [/latex]  rad/s and T s"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 A wedge M and a block N are subjected to forces P and Q as shown in the figure. If force P is sufficiently large, then the block N can be raised. The weights of the wedge and the block are negligible compared to the forces P and Q. The coefficient of friction [latex](\\mu)[/latex] along the inclined surface between the wedge and the block is 0.2. All other surfaces are frictionless. The wedge angle is [latex]30^{\\circ}[/latex]. The limiting force P, in terms of Q, required for impending motion of block N to just move it in the upward direction is given as [latex]P=\\alpha Q[/latex]. The value of the coefficient '?' (rounded off to one decimal place) is",
+    "solution": "[latex]\\begin{aligned} \\Sigma Y&=0 \\Rightarrow \\\\ N_{2} \\sin 60^{\\circ}-0.2 N_{2} \\sin &30^{\\circ}-Q=0 \\\\ Q&=0.766 \\mathrm{~N}_{2} \\end{aligned}[/latex] [latex]\\begin{aligned} \\Sigma X &=0 \\\\ \\Rightarrow \\qquad 0.2 N_{2} \\cos 30^{\\circ}+N_{2} \\cos 60^{\\circ}-P &=0\\\\ P &=0.67 N_{2} \\\\ \\Rightarrow \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad P &=0.67 \\times \\frac{Q}{0.766}\\\\ \\Rightarrow \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad P&=0.875 \\mathrm{Q} \\simeq 0.9 Q \\\\ P&=\\alpha Q \\\\ \\Rightarrow \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\alpha&=0.9 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/mechanics/page1_q5.webp",
+    "options": {
+      "A": "0.6",
+      "B": "0.5",
+      "C": "[latex]2.0[/latex]",
+      "D": "0.9"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 A simple mass-spring oscillatory system consists of a mass m, suspended from a spring of stiffness k. Considering z as the displacementof the system at any time t, the equation of motion for the free vibration of the system is [latex]m\\ddot{z}+kz=0[/latex]. The natural frequency of the system is",
+    "solution": "[latex]\\begin{aligned} m\\ddot{z}+kz&=0 \\\\ \\ddot{z}+\\frac{k}{m}z&=0 \\\\ \\text{Comparing with} \\\\ \\ddot{z}+\\omega _n^2 z&=0 \\\\ \\text{We get}\\;\\; \\omega _n&=\\sqrt{\\frac{k}{m}} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{k}{m}[/latex]",
+      "B": "[latex]\\sqrt{\\frac{k}{m}}[/latex]",
+      "C": "[latex]\\frac{m}{k}[/latex]",
+      "D": "[latex]\\sqrt{\\frac{m}{k}}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 A cable PQ of length 25 m is supported at two ends at the same level as shown in the figure. The horizontal distance between the supports is 20 m. A point load of 150 kN is applied at point R which divides it into two equal parts. Neglecting the self-weight of the cable, the tension (in kN, in integer value) in the cable due to the applied load will be _____",
+    "solution": "[latex]\\begin{aligned} 12.5^{2} &=x^{2}+10^{2} \\\\ \\Rightarrow \\; \\; x &=7.5\\; \\text{m} \\end{aligned}[/latex] Bending moment at S=0 {consider the left part} [latex]\\begin{aligned} H_{P}\\times 7.5 &=75\\times 10 \\\\ H_{P} &=100\\; \\text{kN} \\end{aligned}[/latex] Tension in cable [latex]\\begin{aligned} &=\\sqrt{H_{P}^{2}+V_{P}^{2}}=\\sqrt{75^{2}+100^{2}} \\\\ &=125\\; \\text{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/mechanics/page2_q2.webp",
+    "min": 125.0,
+    "max": 125.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 Two rigid bodies of mass 5 kg and 4 kg are at rest on a frictionless surface until acted upon by a force of 36 N as shown in the figure. The contact force generated between the two bodies is",
+    "solution": "As after action of 36 N, both blocks will move with same acceleration so considering 5 kg and 4 kg togather in a system and applying Newton's 2nd law. [latex]a=\\frac{36}{9}=4\\; m/s^{2}[/latex] [latex]\\begin{aligned} N &=ma\\; \\; \\; \\; \\; \\text{(Newton's 2nd law)} \\\\ N&=4\\times 4=16\\; \\text{N} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/mechanics/page2_q3.webp",
+    "options": {
+      "A": "4.0 N",
+      "B": "7.2 N",
+      "C": "9.0 N",
+      "D": "16.0 N"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 An aircraft approaches the threshold of a runway strip at a speed of 200 km/h. The pilot decelerates the aircraft at a rate of 1.697 m/[latex]s^{2}[/latex]and takes 18 s to exit the runway strip. If the deceleration after exiting the runway is 1 m/[latex]s^{2}[/latex], then the distance (in m, up to one decimal place) of the gate position from the location of exit on the runway is ______",
+    "solution": "Speed of aircraft, [latex]\\begin{aligned} u_{i} &=200\\; \\text{km/hr} \\\\ &=\\frac{200\\times 1000}{3600}=55.56\\; \\text{m/s} \\end{aligned}[/latex] Deceleration of aircraft on the runway [latex]=1.697 m/s^{2}[/latex] Aircraft takes 18 sec to exit the runway strip. Speed of the aircraft at the exit of the runway [latex]\\begin{aligned} u_{f} &=u_{i}+at \\\\ &=55.56-1.697\\times 18 \\\\ &=25.014\\; \\text{m/s} \\end{aligned}[/latex] After runway aircraft decelerate with [latex]1 m/s^{2}[/latex] Total distance travelled by the aircraft from the location of exit on the runway [latex]\\begin{aligned} U^{2} &=u^{2}+2aS \\\\ 0 &=25.014^{2}-2\\times 1\\times S \\\\ S &=312.8\\; \\text{m} \\end{aligned}[/latex]",
+    "min": 311.0,
+    "max": 319.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 A cylinder of radius 250 mm and weight, W = 10 kN is rolled up an obstacle of height 50 mm by applying a horizontal force P at its centre as shown in the figure. All interfaces are assumed frictionless. The minimum value of P is",
+    "solution": "Given: r=250 mm, W=10 kN Note: 1. When the cylinder will be about to move out of the cylinder, it will loose its contact at point A, only contact will be at point B. 2. Considering equation of cylinder of that instant under P, W and [latex]R_{B}[/latex] (contact force at B). [latex]\\begin{aligned} \\sum \\vec{M}_{B} &=0 \\\\ P\\times OC-W\\times BC &=0 \\end{aligned}[/latex] In [latex]\\Delta OCB[/latex] [latex]\\begin{aligned} OC^{2}+CB^{2} &=OB^{2} \\\\ CB &=\\sqrt{250^{2}-200^{2}}=150 \\\\ P &=\\frac{10\\times 10^{3}\\times 150}{200} \\\\ &=2.5\\times 3\\: \\text{kN}=7.5\\: \\text{kN} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/mechanics/page2_q5.webp",
+    "options": {
+      "A": "4.5 kN",
+      "B": "5.0 kN",
+      "C": "6.0 kN",
+      "D": "7.5 kN"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 An assembly made of a rigid arm A-B-C hinged at end A and supported by an elastic rope C-D at end C is shown in the figure. The members may be assumed to be weightless and the lengths of the respective members are as shown in the figure. Under the action of a concentrated load P at C as shown, the magnitude of tension developed in the rope is",
+    "solution": "[latex]\\begin{aligned}\n    \\sum M_{A}&=0\\\\ \\Rightarrow \\; R_{D}\\times 2 L-P\\times L&=0\\\\ \\Rightarrow   R_{D}&=\\frac{P}{2}\n\\end{aligned}[/latex] At joint D: [latex]\\begin{aligned}\n    \\sum F_{y}&=0\\\\ \\Rightarrow \\; T \\cos 45^{\\circ}&=\\frac{P}{2}\\\\ \\therefore \\; T&=\\frac{P}{\\sqrt{2}}\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/mechanics/page3_q1.webp",
+    "options": {
+      "A": "[latex]\\frac{3P}{\\sqrt{2}}[/latex]",
+      "B": "[latex]\\frac{P}{\\sqrt{2}}[/latex]",
+      "C": "[latex]\\frac{3P}{8}[/latex]",
+      "D": "[latex]\\sqrt{2}P[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 The magnitudes of vectors P, Q and R are 100 kN, 250 kN and 150 kN, respectively as shown in the figure The respective values of Magnitude(in KN) and the Direction (with the respect to the x-axis) of the resultant vector are",
+    "solution": "Resultant force in x-direction, [latex]\\begin{aligned}\n    R_{x}&=P\\cos 60^{\\circ}-Q\\sin 15^{\\circ}-R\\sin 15^{\\circ} \\\\  &=100\\cos 60^{\\circ}-250\\sin 15^{\\circ}-150\\sin 15^{\\circ} \\\\  &=-159.59\\, kN\\left ( \\rightarrow \\right ) \\\\  &=-159.59\\, kN\\left ( \\rightarrow \\right ) \\\\  &=159.59\\, kN\\left ( \\leftarrow \\right )\n\\end{aligned}[/latex] Resultant force in y-direction, [latex]\\begin{aligned}\n    R_{y}&=P\\sin 60^{\\circ}+Q\\cos 15^{\\circ}-R\\sin 15^{\\circ} \\\\  &=100\\sin 60^{\\circ}+250\\cos 15^{\\circ}-150\\sin 15^{\\circ} \\\\  &=289.26\\, kN \\left ( \\uparrow \\right )\n\\end{aligned}[/latex] Final resultant force, [latex]\\begin{aligned}\n    R&=\\sqrt{R^{2}_{x}+R^{2}_{y}}=330.4\\, kN \\\\ \\theta &=\\tan ^{-1}\\left ( \\frac{159.59}{289.56} \\right ) \\\\ \\theta &=28.9^{\\circ}\n\\end{aligned}[/latex] Direction with respect to x-axis [latex]\\begin{aligned}\n    &=\\theta+90^{\\circ} \\\\  &=28.9^{\\circ}+90^{\\circ} \\\\  &=118.9^{\\circ}\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/mechanics/page3_q2.webp",
+    "options": {
+      "A": "290.9 and 96.0[latex]^{\\circ}[/latex]",
+      "B": "368.1 and 94.7[latex]^{\\circ}[/latex]",
+      "C": "330.4 and 118.9[latex]^{\\circ}[/latex]",
+      "D": "400.1 and 113.5[latex]^{\\circ}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 Polar moment of inertia ([latex]I_{p}[/latex]), in [latex]cm^{4}[/latex], of a rectangular section having width, b=2 and depth, d=6 cm is _____",
+    "solution": "Polar moment of inertia, [latex]\\begin{aligned} I_p&= I_x+I_y\\\\ &=\\frac{bd^3}{12}+\\frac{db^3}{12}\\\\ &=\\frac{bd}{12}(b^2+d^2) \\\\ &= \\frac{2 \\times 6}{12}(2^2+6^2)\\\\ &=40\\; cm^4 \\end{aligned}[/latex]",
+    "min": 40.0,
+    "max": 40.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 A disc of radius r has a hole of radius r/2 cut-out as shown. The centroid of the\nremaining disc (shaded portion) at a radial distance from the centre \"O\" is",
+    "solution": "The centroid of the shaped portion of the disc is given by, [latex]\\; \\; \\; x=\\frac{A_{1}x_{1}+A_{2}x_{2}}{A_{1}+A_{2}}[/latex] where x is the radial distance from O. [latex]\\begin{aligned}\n  A_{1}&=\\, \\pi r^{2};\\; x_{1}=0;\\\\  A_{2}&=-\\pi \\times \\left ( \\frac{r}{2} \\right )^{2}=-\\frac{\\pi r^{2}}{4}\\\\  x_{2}&=\\frac{r}{2}\\\\ \\therefore \\;   x&=\\frac{\\pi r^{2}\\times 0-\\frac{\\pi r^{2}}{4}\\times \\frac{r}{2}}{\\pi r^{2}-\\frac{\\pi r^{2}}{4}}\\\\  x&=\\frac{\\pi r^{2}\\times 0-\\frac{\\pi r^{2}}{4}\\times \\frac{r}{2}}{\\pi r^{2}-\\frac{\\pi r^{2}}{4}}\\\\ \\Rightarrow \\; x&=-\\frac{r}{6}\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/mechanics/page3_q4.webp",
+    "options": {
+      "A": "r/2",
+      "B": "r/3",
+      "C": "r/6",
+      "D": "r/8"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 For the section shown below, second moment of the area about an axis d/4\ndistance above the bottom of the area is",
+    "solution": "Using parallel axis theorem, we get the second moment of inertia as, [latex]I=\\frac{bd^3}{12}+bd\\left ( \\frac{d}{2}-\\frac{d}{4} \\right )=\\frac{bd^3}{12}+\\frac{bd^3}{16}=\\frac{7bd^3}{48}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Civil Engineering/screenshots/mechanics/page3_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{bd^{3}}{48}[/latex]",
+      "B": "[latex]\\frac{bd^{3}}{12}[/latex]",
+      "C": "[latex]\\frac{7bd^{3}}{48}[/latex]",
+      "D": "[latex]\\frac{bd^{3}}{3}[/latex]"
+    },
+    "correct_answer": "C"
+  }
+]
