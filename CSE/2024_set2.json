@@ -1,0 +1,766 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Consider  a  computer  with  a  4  MHz  processor.  Its  DMA  controller  can  transfer 8 bytes in 1 cycle from a device to main memory through cycle stealing at regular intervals. Which one of the following is the data transfer rate (in bits per second) of the DMA controller if 1% of the processor cycles are used for DMA?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2,56,000",
+      "B": "3,200",
+      "C": "25,60,000",
+      "D": "32,000"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 Let [latex] p [/latex] and [latex] q [/latex] be the following propositions: [latex] p [/latex] : Fail grade can be given. [latex] q [/latex] : Student scores more than [latex] 50 \\% [/latex] marks. Consider the statement: \"Fail grade cannot be given when student scores more than [latex] 50 \\% [/latex] marks.\" Which one of the following is the CORRECT representation of the above statement in propositional logic?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]  q \\rightarrow \\neg p [/latex]",
+      "B": "[latex]  q \\rightarrow p [/latex]",
+      "C": "[latex]  p \\rightarrow q [/latex]",
+      "D": "[latex] \\neg p \\rightarrow q [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Consider the following C program. Assume parameters to a function are evaluated\nfrom right to left. #include < stdio.h >\nint g(int p) { printf(\"%d\", p); return p; }\nint h(int q) { printf(\"%d\", q); return q; }\nvoid f(int x, int y) {\ng(x);\nh(y);\n}\nint main() {\nf(g(10),h(20));\n} Which one of the following options is the CORRECT output of the above\nC program?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "20101020",
+      "B": "10202010",
+      "C": "20102010",
+      "D": "10201020"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 The format of a single-precision floating-point number as per the\nIEEE 754 standard is: Choose the largest floating-point number among the following options.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set2/page1_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Let [latex] T(n) [/latex] be the recurrence relation defined as follows: [latex]\n\\begin{aligned}\n& T(0)=1, \\\\\n& T(1)=2, \\text { and } \\\\\n& T(n)=5 T(n-1)-6 T(n-2) \\text { for } n \\geq 2\n\\end{aligned}\n [/latex] Which one of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex] T(n)=\\Theta\\left(2^n\\right)  [/latex]",
+      "B": "[latex] T(n)=\\Theta\\left(n 2^n\\right)  [/latex]",
+      "C": "[latex] T(n)=\\Theta\\left(3^n\\right)  [/latex]",
+      "D": "[latex] T(n)=\\Theta\\left(n 3^n\\right)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Let [latex] f(x) [/latex] be a continuous function from [latex] \\mathbb{R} [/latex] to [latex] \\mathbb{R} [/latex] such that [latex]\nf(x)=1-f(2-x)\n [/latex] Which one of the following options is the CORRECT value of [latex] \\int_0^2 f(x) d x [/latex] ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex] 0  [/latex]",
+      "B": "[latex] 1  [/latex]",
+      "C": "[latex] 2  [/latex]",
+      "D": "[latex] -1  [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Let [latex] A  [/latex] be the adjacency matrix of a simple undirected graph [latex]G[/latex]. Suppose [latex]A[/latex] is its own inverse. Which one of the following statements is always TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]G[/latex] is a cycle",
+      "B": "[latex]G[/latex] is a perfect matching",
+      "C": "[latex]G[/latex] is a complete graph",
+      "D": "There is no such graph [latex]G[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 When six unbiased dice are rolled simultaneously, the probability of getting all\ndistinct numbers (i.e., 1, 2, 3, 4, 5, and 6) is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\frac{1}{324}[/latex]",
+      "B": "[latex]\\frac{5}{324}[/latex]",
+      "C": "[latex]\\frac{7}{324}[/latex]",
+      "D": "[latex]\\frac{11}{324}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 Once the DBMS informs the user that a transaction has been successfully\ncompleted, its effect should persist even if the system crashes before all its changes\nare reflected on disk. This property is called",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "durability",
+      "B": "atomicity",
+      "C": "consistency",
+      "D": "isolation"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 In the context of owner and weak entity sets in the ER (Entity-Relationship) data model, which one of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The weak entity set MUST have total participation in the identifying relationship",
+      "B": "The owner entity set MUST have total participation in the identifying relationship",
+      "C": "Both weak and owner entity sets MUST have total participation in the identifying relationship",
+      "D": "Neither weak entity set nor owner entity set MUST have total participation in the identifying relationship"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 Consider the following two sets: [latex]\\begin{array}{ll}\n \\textbf{Set X}  &      \\textbf{Set Y} \\\\\n\\text{P. Lexical Analyzer} & \\text{1. Abstract Syntax Tree} \\\\\n\\text{Q. Syntax Analyzer} & \\text{2. Token}\\\\\n\\text{R. Intermediate Code Generator } & \\text{3. Parse Tree} \\\\\n\\text{S. Code Optimizer} & \\text{4. Constant Folding }\n\\end{array}[/latex] Which one of the following options is the CORRECT match from Set X to Set Y ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "P-4; Q-1; R-3; S-2",
+      "B": "P-2; Q-3; R-1; S-4",
+      "C": "P-2; Q-1; R-3; S-4",
+      "D": "P-4; Q-3; R-2; S-1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Which one of the following regular expressions is equivalent to the language\naccepted by the DFA given below?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set2/page3_q2.webp",
+    "options": {
+      "A": "[latex]0^*1(0+10^*1)^*[/latex]",
+      "B": "[latex]0^*(10^*11)^*0^*[/latex]",
+      "C": "[latex]0^*1(010^*1)^*0^*[/latex]",
+      "D": "[latex]0(1+0^*10^*1)^*0^*[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Node X has a TCP connection open to node Y. The packets from X to Y go through\nan intermediate IP router R. Ethernet switch S is the first switch on the network path\nbetween X and R. Consider a packet sent from X to Y over this connection. Which of the following statements is/are TRUE about the destination IP and MAC\naddresses on this packet at the time it leaves X?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The destination IP address is the IP address of R",
+      "B": "The destination IP address is the IP address of Y",
+      "C": "The destination MAC address is the MAC address of S",
+      "D": "The destination MAC address is the MAC address of Y"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 Which of the following tasks is/are the responsibility/responsibilities of the memory\nmanagement unit (MMU) in a system with paging-based memory management?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Allocate a new page table for a newly created process",
+      "B": "Translate a virtual address to a physical address using the page table",
+      "C": "Raise a trap when a virtual address is not found in the page table",
+      "D": "Raise a trap when a process tries to write to a page marked with read-only permission in the page table"
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 Consider a process P running on a CPU. Which one or more of the following events will always trigger a context switch by the OS that results in process P moving to a non-running state (e.g., ready, blocked)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "P makes a blocking system call to read a block of data from the disk",
+      "B": "P tries to access a page that is in the swap space, triggering a page fault",
+      "C": "An interrupt is raised by the disk to deliver data requested by some other process",
+      "D": "A timer interrupt is raised by the hardware"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Which of the following file organizations is/are I/O efficient for the scan operation in DBMS?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Sorted",
+      "B": "Heap",
+      "C": "Unclustered tree index",
+      "D": "Unclustered hash index"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Which of the following statements about the Two Phase Locking (2PL) protocol is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2PL permits only serializable schedules",
+      "B": "With 2PL, a transaction always locks the data item being read or written just before every operation and always releases the lock just after the operation",
+      "C": "With 2PL, once a lock is released on any data item inside a transaction, no more locks on any data item can be obtained inside that transaction",
+      "D": "A deadlock is possible with 2PL"
+    },
+    "correct_answers": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 Which of the following statements about IPv4 fragmentation is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The fragmentation of an IP datagram is performed only at the source of the datagram",
+      "B": "The fragmentation of an IP datagram is performed at any IP router which finds that the size of the datagram to be transmitted exceeds the MTU",
+      "C": "The reassembly of fragments is performed only at the destination of the datagram",
+      "D": "The reassembly of fragments is performed at all intermediate routers along the path from the source to the destination"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 Which of the following statements is/are FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "An attribute grammar is a syntax-directed definition (SDD) in which the functions in the semantic rules have no side effects",
+      "B": "The attributes in a L-attributed definition cannot always be evaluated in a depth- first order",
+      "C": "Synthesized attributes can be evaluated by a bottom-up parser as the input is parsed",
+      "D": "All  L-attributed  definitions  based  on  LR(1)  grammar  can  be  evaluated  using  a bottom-up parsing strategy"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 For a Boolean variable [latex]x[/latex], which of the following statements is/are FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]x.1 = x[/latex]",
+      "B": "[latex]x+1 = x[/latex]",
+      "C": "[latex]x.x= 0[/latex]",
+      "D": "[latex]x+\\bar{x}= 1[/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 An instruction format has the following structure: Instruction Number: [latex]Opcode \\; \\; destination reg, \\;\\; source reg-1, \\;\\;source reg-2[/latex] Consider the following sequence of instructions to be executed in a pipelined\nprocessor: I1: DIV R3, R1, R2 I2: SUB R5, R3, R4 I3: ADD R3, R5, R6 I4: MUL R7, R3, R8 Which of the following statements is/are TRUE",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "There is a RAW dependency on R3 between I1 and I2",
+      "B": "There is a WAR dependency on R3 between I1 and I3",
+      "C": "There is a RAW dependency on R3 between I2 and I3",
+      "D": "There is a WAW dependency on R3 between I3 and I4"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 Which of the following fields of an IP header is/are always modified by any router before it forwards the IP packet?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Source IP Address",
+      "B": "Protocol",
+      "C": "Time to Live (TTL)",
+      "D": "Header Checksum"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 Consider the following C function definition. int fX(char *a){ \nchar *b = a; \nwhile(*b)\nb++;\nreturn b - a;} Which of the following statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The function call fX(\"abcd\") will always return a value",
+      "B": "Assuming a character array c is declared as char c[] = \"abcd\" in main(), the function call fX(c)will always return a value",
+      "C": "The code of the function will not compile",
+      "D": "Assuming a character pointer c is declared as char *c = \"abcd\" in main(), the function call fX(c)will always return a value"
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 Let [latex] P [/latex] be the partial order defined on the set [latex] \\{1,2,3,4\\} [/latex] as follows [latex]\nP=\\{(x, x) \\mid x \\in\\{1,2,3,4\\}\\} \\cup\\{(1,2),(3,2),(3,4)\\}\n [/latex] The number of total orders on [latex] \\{1,2,3,4\\} [/latex] that contain [latex] P [/latex] is ______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 Let [latex] A [/latex] be an array containing integer values. The distance of [latex] A [/latex] is defined as the minimum number of elements in [latex] A [/latex] that must be replaced with another integer so that the resulting array is sorted in non-decreasing order. The distance of the array [latex] [2,5,3,1,4,2,6] [/latex] is _____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 What is the output of the following C program? #include < stdio.h >\nint main() {\ndouble a[2]={20.0, 25.0}, *p, *q;\np = a;\nq = p + 1;\nprintf(\"%d,%d\", (int)(q - p), (int)(*q - *p));\nreturn 0;}",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4,8",
+      "B": "1,5",
+      "C": "8,5",
+      "D": "1,8"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 Consider a single processor system with four processes A, B, C, and D, represented\nas given below, where for each process the first value is its arrival time, and the\nsecond value is its CPU burst time. A (0, 10), B (2, 6), C (4, 3), and D (6, 7). Which one of the following options gives the average waiting times when\npreemptive Shortest Remaining Time First (SRTF) and Non-Preemptive Shortest\nJob First (NP-SJF) CPU scheduling algorithms are applied to the processes?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "SRTF = 6, NP-SJF = 7",
+      "B": "SRTF = 6, NP-SJF = 7.5",
+      "C": "SRTF = 7, NP-SJF = 7.5",
+      "D": "SRTF = 7, NP-SJF = 8.5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Which  one  of  the  following  CIDR  prefixes  exactly  represents  the  range  of IP addresses 10.12.2.0 to 10.12.3.255?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "10.12.2.0/23",
+      "B": "10.12.2.0/24",
+      "C": "10.12.0.0/22",
+      "D": "10.12.2.0/22"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 You are given a set [latex]V[/latex] of distinct integers. A binary search tree [latex]T[/latex] is created by\ninserting all elements of [latex]V[/latex] one by one, starting with an empty tree. The tree [latex]T[/latex]\nfollows the convention that, at each node, all values stored in the left subtree of the\nnode are smaller than the value stored at the node. You are not aware of the sequence\nin which these values were inserted into [latex]T[/latex], and you do not have access to [latex]T[/latex]. Which one of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Inorder traversal of [latex]T[/latex] can be determined from [latex]V[/latex]",
+      "B": "Root node of [latex]T[/latex] can be determined from [latex]V[/latex]",
+      "C": "Preorder traversal of [latex]T[/latex] can be determined from [latex]V[/latex]",
+      "D": "Postorder traversal of [latex]T[/latex] can be determined from [latex]V[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Consider the following context-free grammar where the start symbol is [latex] S [/latex] and the set of terminals is [latex] \\{a, b, c, d\\} [/latex]. [latex]\n\\begin{aligned}\n& S \\rightarrow A a A b \\mid B b B a \\\\\n& A \\rightarrow c S \\mid \\epsilon \\\\\n& B \\rightarrow d S \\mid \\epsilon\n\\end{aligned}\n [/latex] The following is a partially-filled LL(1) parsing table. [latex]\n\\begin{array}{|c|c|c|c|c|c|}\n \\hline  &   a   &   b   &   c   &   d   &   \\$   \\\\\n\\hline  S   &   S \\rightarrow A a A b   &   S \\rightarrow B b B a   &   (1)   &   (2)   & \\\\\n\\hline  A   &   A \\rightarrow \\epsilon   &   (3)   &   A \\rightarrow c S   & & \\\\\n\\hline  B   &   (4)   &   B \\rightarrow \\epsilon   & &   B \\rightarrow d S   & \\\\\n\\hline\n\\end{array}[/latex] Which one of the following options represents the CORRECT combination for the numbered cells in the parsing table? Note: In the options, \"blank\" denotes that the corresponding cell is empty.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(1) [latex] S \\rightarrow A a A b [/latex] (2) [latex] S \\rightarrow B b B a [/latex] (3) [latex] A \\rightarrow \\epsilon [/latex] (4) [latex] B \\rightarrow \\epsilon [/latex]",
+      "B": "(1) [latex] S \\rightarrow B b B a [/latex] (2) [latex] S \\rightarrow A a A b [/latex] (3) [latex] A \\rightarrow \\epsilon [/latex] (4) [latex] B \\rightarrow \\epsilon [/latex]",
+      "C": "(1) [latex] S \\rightarrow A a A b [/latex] (2) [latex] S \\rightarrow B b B a [/latex] (3) blank (4) blank",
+      "D": "(1) [latex] S \\rightarrow B b B a [/latex] (2) [latex] S \\rightarrow A a A b [/latex] (3) blank (4) blank"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 Let M be the 5-state NFA with [latex]\\epsilon[/latex]-transitions shown in the diagram below: Which one of the following regular expressions represents the language accepted\nby M ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set2/page7_q1.webp",
+    "options": {
+      "A": "[latex](00)^*  +  1(11)^*[/latex]",
+      "B": "[latex]0^* + (1 + 0(00)^*)(11)^*[/latex]",
+      "C": "[latex](00)^* + (1 + (00)^*)(11)^*[/latex]",
+      "D": "[latex]0^+ + 1(11)^* + 0(11)^*[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 Consider an array X that contains n positive integers. A subarray of X is defined to\nbe a sequence of array locations with consecutive indices. The C code snippet given below has been written to compute the length of the\nlongest subarray of X that contains at most two distinct integers. The code has two\nmissing expressions labelled (P) and (Q). int first=0, second=0, len1=0, len2=0, maxlen=0;\nfor (int i=0; i < n; i++) {\n\t if (X[i] == first) {\n\t\tlen2++; len1++;\n\t } else if (X[i] == second) {\n\t\tlen2++;\n\t\tlen1 = (P) ;\n\t\tsecond = first;\n\t } else {\n\t\tlen2 = (Q) ;\n\t\tlen1 = 1; second = first;\n\t }\n\t if (len2 > maxlen) {\n\t\tmaxlen = len2;\n\t}\n\t  first = X[i];\n} Which one of the following options gives the CORRECT missing expressions? (Hint: At the end of the i-th iteration, the value of len1 is the length of the longest\nsubarray ending with X[i] that contains all equal values, and len2 is the length\nof the longest subarray ending with X[i] that contains at most two distinct values.)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(P)   len1+1    (Q)     len2+1",
+      "B": "(P)   1         (Q)     len1+1",
+      "C": "(P)   1         (Q)     len2+1",
+      "D": "(P)   len2+1    (Q)     len1+1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 Consider the following expression: [latex] x[i]=(p+r) *-s[i]+u / w [/latex]. The following sequence shows the list of triples representing the given expression, with entries missing for triples (1), (3), and (6). [latex]\n\\begin{array}{|c|c|c|c|}\n\\hline  (0)   & + &   p   &   r   \\\\\n\\hline  (1)   & & & \\\\\n\\hline  (2)   & uminus &   (1)   & \\\\\n\\hline  (3)   & & & \\\\\n\\hline  (4)   &   /   &   u   &   w   \\\\\n\\hline  (5)   & + &   (3)   &   (4)   \\\\\n\\hline  (6)   & & & \\\\\n\\hline  (7)   &   =   &   (6)   &   (5)   \\\\\n\\hline\n\\end{array}[/latex] Which one of the following options fills in the missing entries CORRECTLY?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(1) [latex]=[]  s  i [/latex] ,        (3) * (0) (2) ,        (6) [latex][] =x i [/latex]",
+      "B": "(1) [latex][] =s i [/latex] ,        (3) - (0) (2) ,        (6) [latex] =[] x (5) [/latex]",
+      "C": "(1) [latex] =[] s i [/latex] ,        (3) * (0) (2) ,        (6) [latex][] =x (5) [/latex]",
+      "D": "(1) [latex] []=s i [/latex] ,        (3)-(0)(2) ,        (6) [latex] =[] x i [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 Let [latex] x [/latex] and [latex] y [/latex] be random variables, not necessarily independent, that take real values in the interval [latex] [0,1] [/latex]. Let [latex] z=x y [/latex] and let the mean values of [latex] x, y, z [/latex] be [latex] \\bar{x}, \\bar{y}, \\bar{z} [/latex], respectively. Which one of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex] \\bar{z}=\\bar{x} \\bar{y} [/latex]",
+      "B": "[latex]  \\bar{z} \\leq \\bar{x} \\bar{y} [/latex]",
+      "C": "[latex] \\bar{z} \\geq \\bar{x} \\bar{y} [/latex]",
+      "D": "[latex] \\bar{z} \\leq \\bar{x} [/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 The relation schema, Person(pid,city), describes the city of residence for\nevery person uniquely identified by pid. The following relational algebra operators\nare available: selection, projection, cross product, and rename. To find the list of cities where at least 3 persons reside, using the above operators,\nthe minimum number of cross product operations that must be used is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Consider a multi-threaded program with two threads T1 and T2. The threads share\ntwo semaphores: s1 (initialized to 1) and s2 (initialized to 0). The threads also\nshare a global variable x (initialized to 0). The threads execute the code shown\nbelow. // code of T1\nwait(s1);\nx = x+1;\nprint(x);\nwait(s2);\nsignal(s1);\n\n// code of T2\nwait(s1);\nx = x+1;\nprint(x);\nsignal(s2);\nsignal(s1); Which of the following outcomes is/are possible when threads T1 and T2 execute\nconcurrently?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "T1 runs first and prints 1, T2 runs next and prints 2",
+      "B": "T2 runs first and prints 1, T1 runs next and prints 2",
+      "C": "T1 runs first and prints 1, T2 does not print anything (deadlock)",
+      "D": "T2 runs first and prints 1, T1 does not print anything (deadlock)"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 Let [latex]A[/latex]  be an [latex] n \\times n[/latex]  matrix over the set of all real numbers [latex]R[/latex]. Let [latex]B[/latex]  be a matrix obtained from [latex]A[/latex] by swapping two rows. Which of the following statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The determinant of [latex]B[/latex] is the negative of the determinant of [latex]A[/latex]",
+      "B": "If [latex]A[/latex] is invertible, then [latex]B[/latex] is also invertible",
+      "C": "If [latex]A[/latex] is symmetric, then [latex]B[/latex] is also symmetric",
+      "D": "If the trace of [latex]A[/latex] is zero, then the trace of [latex]B[/latex] is also zero"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 Let S1 and S2 be two stacks. S1 has capacity of 4 elements. S2 has capacity of\n2 elements. S1 already has 4 elements: 100, 200, 300, and 400, whereas S2 is\nempty, as shown below. [latex]\n\\begin{array}{|c|}\n\\hline  400 (Top)  \\\\\n\\hline  300 \\\\\n\\hline  200\\\\\n\\hline  100 \\\\\n\\hline\n\\end{array}[/latex] Stack S1 [latex]\n\\begin{array}{|c|}\n\\hline    \\\\\n\\hline    \\\\\n\\hline\n\\end{array}[/latex] Stack S2 Only the following three operations are available: PushToS2: Pop the top element from S1 and push it on S2. PushToS1: Pop the top element from S2 and push it on S1. GenerateOutput: Pop the top element from S1 and output it to the\nuser. Note that the pop operation is not allowed on an empty stack and the push operation\nis not allowed on a full stack. Which of the following output sequences can be generated by using the above\noperations?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "100, 200, 400, 300",
+      "B": "200, 300, 400, 100",
+      "C": "400, 200, 100, 300",
+      "D": "300, 200, 400, 100"
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 Which of the following is/are EQUAL to 224 in radix-5 (i.e., base-5) notation?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "64 in radix-10",
+      "B": "100 in radix-8",
+      "C": "50 in radix-16",
+      "D": "121 in radix-7"
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 Consider 4-variable functions [latex] f 1, f 2, f 3, f 4 [/latex] expressed in sum-of-minterms form as given below. [latex]\n\\begin{aligned}\n& f 1=\\sum(0,2,3,5,7,8,11,13) \\\\\n& f 2=\\sum(1,3,5,7,11,13,15) \\\\\n& f 3=\\sum(0,1,4,11) \\\\\n& f 4=\\sum(0,2,6,13)\n\\end{aligned}\n [/latex] With respect to the circuit given above, which of the following options is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set2/page8_q5.webp",
+    "options": {
+      "A": "[latex]\\boldsymbol{Y}=\\sum(0,1,2,11,13)[/latex]",
+      "B": "[latex]\\boldsymbol{Y}=\\Pi(3,4,5,6,7,8,9,10,12,14,15)[/latex]",
+      "C": "[latex]\\boldsymbol{Y}=\\sum(0,1,2,3,4,5,6,7)[/latex]",
+      "D": "[latex]\\boldsymbol{Y}=\\Pi(8,9,10,11,12,13,14,15)[/latex]"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 Let [latex]G[/latex] be an undirected connected graph in which every edge has a positive integer weight.  Suppose  that  every  spanning  tree  in  [latex]G[/latex]  has  even  weight.  Which  of  the following statements is/are TRUE for every such graph [latex]G[/latex] ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "All edges in [latex]G[/latex] have even weight",
+      "B": "All edges in [latex]G[/latex] have even weight OR all edges in [latex]G[/latex] have odd weight",
+      "C": "In each cycle [latex]G[/latex] in [latex]G[/latex], all edges in [latex]G[/latex] have even weight",
+      "D": "In each cycle [latex]G[/latex] in [latex]G[/latex], either all edges in [latex]G[/latex] have even weight OR all edges in [latex]G[/latex] have odd weight"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 Consider a context-free grammar [latex] G [/latex] with the following 3 rules. [latex]\nS \\rightarrow a S, S \\rightarrow a S b S, S \\rightarrow c\n [/latex] Let [latex] w \\in L(G) [/latex]. Let [latex] n_a(w), n_b(w), n_c(w) [/latex] denote the number of times [latex] a, b, c [/latex] occur in [latex] w [/latex], respectively. Which of the following statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]n_a(w)>n_b(w)[/latex]",
+      "B": "[latex]n_a(w)>n_c(w)-2 [/latex]",
+      "C": "[latex]n_c(w)=n_b(w)+1 [/latex]",
+      "D": "[latex]n_c(w)=n_b(w) * 2[/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 Consider a disk with the following specifications: rotation speed of 6000 RPM,\naverage seek time of 5 milliseconds, 500 sectors/track, 512-byte sectors.\nA file has content stored in 3000 sectors located randomly on the disk. Assuming\naverage rotational latency, the total time (in seconds, rounded off to 2 decimal\nplaces) to read the entire file from the disk is _______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 29.5,
+    "max": 30.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 Consider a TCP connection operating at a point of time with the congestion window\nof size 12 MSS (Maximum Segment Size), when a timeout occurs due to packet\nloss. Assuming that all the segments transmitted in the next two RTTs (Round Trip\nTime) are acknowledged correctly, the congestion window size (in MSS) during the\nthird RTT will be _________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 Consider an Ethernet segment with a transmission speed of [latex]10^8[/latex] bits/sec and a\nmaximum segment length of 500 meters. If the speed of propagation of the signal\nin the medium is [latex]2 \\times 10^8[/latex] meters/sec, then the minimum frame size (in bits) required\nfor collision detection is _________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 500.0,
+    "max": 500.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 A functional dependency [latex]F:X \\rightarrow Y[/latex] is termed as a useful functional dependency if\nand only if it satisfies all the following three conditions: [latex]X[/latex] is not the empty set.\n[latex]Y[/latex] is not the empty set.\nIntersection of [latex]X[/latex] and [latex]Y[/latex] is the empty set. For a relation [latex]R[/latex] with 4 attributes, the total number of possible useful functional\ndependencies is ______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 50.0,
+    "max": 50.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 A processor with 16 general purpose registers uses a 32-bit instruction format. The\ninstruction format consists of an opcode field, an addressing mode field, two register\noperand fields, and a 16-bit scalar field. If 8 addressing modes are to be supported,\nthe maximum number of unique opcodes possible for every addressing mode\nis _________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 32.0,
+    "max": 32.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 A non-pipelined instruction execution unit operating at 2 GHz takes an average of\n6 cycles to execute an instruction of a program P. The unit is then redesigned to\noperate on a 5-stage pipeline at 2 GHz. Assume that the ideal throughput of the\npipelined unit is 1 instruction per cycle. In the execution of program P,\n20% instructions incur an average of 2 cycles stall due to data hazards and\n20% instructions incur an average of 3 cycles stall due to control hazards. The\nspeedup (rounded off to one decimal place) obtained by the pipelined design over\nthe non-pipelined design is ________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 2.9,
+    "max": 3.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 The number of distinct minimum-weight spanning trees of the following graph\nis _______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set2/page10_q4.webp",
+    "min": 9.0,
+    "max": 9.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 The chromatic number of a graph is the minimum number of colours used in a\nproper colouring of the graph. The chromatic number of the following graph\nis _______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set2/page10_q5.webp",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 A processor uses a 32-bit instruction format and supports byte-addressable memory\naccess. The ISA of the processor has 150 distinct instructions. The instructions are\nequally divided into two types, namely R-type and I-type, whose formats are shown\nbelow. In the OPCODE, 1 bit is used to distinguish between I-type and R-type instructions\nand the remaining bits indicate the operation. The processor has 50 architectural\nregisters, and all register fields in the instructions are of equal size. Let X be the number of bits used to encode the UNUSED field, Y be the number\nof bits used to encode the OPCODE field, and Z be the number of bits used to\nencode the immediate value/address field. The value of X + 2Y + Z is ______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set2/page11_q1.webp",
+    "min": 34.0,
+    "max": 34.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 Let [latex] L_1 [/latex] be the language represented by the regular expression [latex] b^* a b^*\\left(a b^* a b^*\\right)^* [/latex] and [latex] L_2=\\left\\{w \\in(a+b)^*|| w \\mid \\leq 4\\right\\} [/latex], where [latex] |w| [/latex] denotes the length of string [latex] w [/latex]. The number of strings in [latex] L_2 [/latex] which are also in [latex] L_1 [/latex] is ___",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 15.0,
+    "max": 15.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 Let [latex] Z_n [/latex] be the group of integers [latex] \\{0,1,2, \\ldots, n-1\\} [/latex] with addition modulo [latex] n [/latex] as the group operation. The number of elements in the group [latex] Z_2 \\times Z_3 \\times Z_4 [/latex] that are their own inverses is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 Consider a 32-bit system with [latex]4 \\mathrm{~KB} [/latex] page size and page table entries of size 4 bytes each. Assume [latex] 1 \\mathrm{~KB}=2^{10} [/latex] bytes. The OS uses a 2-level page table for memory management, with the page table containing an outer page directory and an inner page table. The OS allocates a page for the outer page directory upon process creation. The OS uses demand paging when allocating memory for the inner page table, i.e., a page of the inner page table is allocated only if it contains at least one valid page table entry. An active process in this system accesses 2000 unique pages during its execution, and none of the pages are swapped out to disk. After it completes the page accesses, let [latex] X [/latex] denote the minimum and [latex] Y [/latex] denote the maximum number of pages across the two levels of the page table of the process. The value of [latex] X+Y [/latex] is _____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1028.0,
+    "max": 1028.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 Consider the following augmented grammar, which is to be parsed with a SLR parser. The set of terminals is [latex] \\{a, b, c, d, \\#, @\\} [/latex] [latex]\n\\begin{aligned}\n& S^{\\prime} \\rightarrow S \\\\\n& S \\rightarrow S S|A a| b A c|B c| b B a \\\\\n& A \\rightarrow d \\# \\\\\n& B \\rightarrow @\n\\end{aligned}\n [/latex] Let [latex] I_0=\\operatorname{CLOSURE}\\left(\\left\\{S^{\\prime} \\rightarrow \\bullet S\\right\\}\\right) [/latex]. The number of items in the set [latex] \\operatorname{GOTO}\\left(I_0, S\\right) [/latex] is ____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 9.0,
+    "max": 9.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 If '[latex] \\rightarrow [/latex]' denotes increasing order of intensity, then the meaning of the words\n[walk [latex] \\rightarrow [/latex] jog [latex] \\rightarrow [/latex] sprint] is analogous to [bothered [latex] \\rightarrow [/latex] ________ [latex] \\rightarrow [/latex] daunted]. Which one of the given options is appropriate to fill the blank?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "phased",
+      "B": "phrased",
+      "C": "fazed",
+      "D": "fused"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Two wizards try to create a spell using all the four elements, water, air, fire, and earth. For this, they decide to mix all these elements in all possible orders. They also  decide  to  work  independently.  After  trying  all  possible  combination  of elements, they conclude that the spell does not work. How  many  attempts  does  each  wizard  make  before  coming  to  this  conclusion, independently?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "24",
+      "B": "48",
+      "C": "16",
+      "D": "12"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 In an engineering college of 10,000 students, 1,500 like neither their core branches\nnor other branches. The number of students who like their core branches is 1/4th of\nthe number of students who like other branches. The number of students who like\nboth their core and other branches is 500. The number of students who like their core branches is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1,800",
+      "B": "3,500",
+      "C": "1,600",
+      "D": "1,500"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 For positive non-zero real variables [latex]x [/latex] and  [latex]y [/latex], if [latex]\n\\ln \\left(\\frac{x+y}{2}\\right)=\\frac{1}{2}[\\ln (x)+\\ln (y)]\n [/latex] then, the value of  [latex]\\frac{x}{y}+\\frac{y}{x} [/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1",
+      "B": "1/2",
+      "C": "2",
+      "D": "4"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 In the sequence 6, 9, 14, x, 30, 41, a possible value of x is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "25",
+      "B": "21",
+      "C": "18",
+      "D": "20"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 Sequence the following sentences in a coherent passage. P:    This fortuitous geological event generated a colossal amount of energy and heat that resulted in the rocks rising to an average height of 4 km across the contact zone. Q:    Thus, the geophysicists tend to think of the Himalayas as an active geological event rather than as a static geological feature. R:    The natural  process  of  the  cooling  of  this massive  edifice  absorbed  large quantities of atmospheric carbon dioxide, altering the earth?s atmosphere and making it better suited for life. S:    Many millennia ago, a breakaway chunk of bedrock from the Antarctic Plate collided with the massive Eurasian Plate.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "QPSR",
+      "B": "QSPR",
+      "C": "SPRQ",
+      "D": "SRPQ"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 A person sold two different items at the same price. He made 10% profit in one\nitem, and 10% loss in the other item. In selling these two items, the person made a\ntotal of",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1% profit",
+      "B": "2% profit",
+      "C": "1% loss",
+      "D": "2% loss"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 The pie charts depict the shares of various power generation technologies in the\ntotal electricity generation of a country for the years 2007 and 2023. The renewable sources of electricity generation consist of Hydro, Solar and Wind.\nAssuming that the total electricity generated remains the same from 2007 to 2023,\nwhat is the percentage increase in the share of the renewable sources of electricity\ngeneration over this period?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set2/page13_q3.webp",
+    "options": {
+      "A": "25%",
+      "B": "50%",
+      "C": "77.50%",
+      "D": "62.50%"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 A cube is to be cut into 8 pieces of equal size and shape. Here, each cut should be\nstraight and it should not stop till it reaches the other end of the cube. The minimum number of such cuts required is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "7",
+      "D": "8"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 In the 4 x 4 array shown below, each cell of the first three rows has either a\ncross (X) or a number. The number in a cell represents the count of the immediate neighboring cells\n(left, right, top, bottom, diagonals) NOT having a cross (X). Given that the last row\nhas no crosses (X), the sum of the four numbers to be filled in the last row is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set2/page13_q5.webp",
+    "options": {
+      "A": "11",
+      "B": "10",
+      "C": "12",
+      "D": "9"
+    },
+    "correct_answer": "A"
+  }
+]

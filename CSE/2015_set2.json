@@ -1,0 +1,678 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Consider the following two statements. S1: If a candidate is known to be corrupt, then he will not be elected S2: If a candidate is kind, he will be elected Which one of the following statements follows from S1 and S2 as per sound inference rules of logic?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "If a person is known to be corrupt, he is kind",
+      "B": "If a person is not known to be corrupt, he is not kind",
+      "C": "If a person is kind, he is not known to be corrupt",
+      "D": "If a person is not kind, he is not known to be corrupt"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 The cardinality of the power set of { 0, 1, 2,..., 10 } is _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 2048.0,
+    "max": 2048.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Let R be the relation on the set of positive integers such that aRb if and only if a and b are distinct and have a common divisor other than 1. Which one of the following statements about R is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "R is symmetric and reflexive but not transitive",
+      "B": "R is reflexive but not symmetric and not transitive",
+      "C": "R is transitive but not reflexive and not symmetric",
+      "D": "R is symmetric but not reflexive and not transitive"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 4 The number of divisors of 2100 is _____ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 36.0,
+    "max": 36.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 The larger of the two eigenvalues of the matrix [latex]\\begin{bmatrix} 4 & 5\\\\ 2&1 \\end{bmatrix}[/latex] is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 An unordered list contains n distinct elements. The number of comparisons to find an element in this list that is neither maximum nor minimum is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n log n)[/latex]",
+      "B": "[latex]\\Theta (n)[/latex]",
+      "C": "[latex]\\Theta (log n)[/latex]",
+      "D": "[latex]\\Theta (1)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 The minimum number of JK flip-flops required to construct a synchronous counter with the count sequence (0,0,1,1,2,2,3,3,0,0,...) is __________ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 8 Assume that for a certain processor, a read request takes 50 nanoseconds on a cache miss and 5 nanoseconds on a cache hit. Suppose while running a program, it was observed that 80% of the processor's read requests result in a cache hit. The average read access time in nanoseconds is __________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 14.0,
+    "max": 14.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 A computer system implements a 40-bit virtual address, page size of 8 kilobytes, and a 128-entry translation look-aside buffer (TLB) organized into 32 sets each having four ways. Assume that the TLB tag does not store any process id. The minimum length of the TLB tag in bits is _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 22.0,
+    "max": 22.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 Consider the following statements. I. The complement of every Turing decidable language is Turing decidable II. There exists some language which is in NP but is not Turing decidable III. If L is a language in NP, L is Turing decidable Which of the above statements is/are true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only II",
+      "B": "Only III",
+      "C": "Only I and II",
+      "D": "Only I and III"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 Consider the following function written in the C programming language. void foo(char *a){\n     if ( *a && *a != '  '){\n          foo(a+1);\n          putchar(*a);\n       }\n} The output of the above function on input [latex]\"ABCD \\;  \\; EFGH\"[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "ABCD EFGH",
+      "B": "ABCD",
+      "C": "HGFE DCBA",
+      "D": "DCBA"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Consider a complete binary tree where the left and the right subtrees of the root are max-heaps. The lower bound for the number of operations to convert the tree to a heap is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Omega (log n)[/latex]",
+      "B": "[latex](n)[/latex]",
+      "C": "[latex]\\Omega (n \\; log n)[/latex]",
+      "D": "[latex]\\Omega (n^{2})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 A binary tree T has 20 leaves. The number of nodes in T having two children is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 19.0,
+    "max": 19.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 Consider the following C function. int fun(int n){\n   int x=1,k;\n   if (n==1) return x;\n   for (k=1; k < n; ++k)\n       x = x + fun(k) * fun(n-k);\n   return x;\n} The return value of fun(5) is ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 51.0,
+    "max": 51.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 A software requirements specification (SRS) document should avoid discussing which one of the following?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "User interface issues",
+      "B": "Non-functional requirements",
+      "C": "Design specification",
+      "D": "Interfaces with third party software"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Consider two decision problems Q1,Q2 such that Q1 reduces in polynomial time to 3-SAT and 3-SAT reduces in polynomial time to Q2. Then which one of the following is consistent with the above statement?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Q1 is in NP, Q2 is NP hard.",
+      "B": "Q2 is in NP, Q1 is NP hard",
+      "C": "Both Q1 and Q2 are in NP .",
+      "D": "Both Q1 and Q2 are NP hard"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Match the following:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2015_Set2/page4_q2.webp",
+    "options": {
+      "A": "P-2, Q-3, R-1, S-4",
+      "B": "P-2, Q-1, R-4, S-3",
+      "C": "P-2, Q-4, R-1, S-3",
+      "D": "P-2, Q-3, R-4, S-1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 In the context of abstract-syntax-tree (AST) and control-flow-graph (CFG), which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "In both AST and CFG, let node N2 be the successor of node N1. In the input program, the code corresponding to N2 is present after the code corresponding to N1",
+      "B": "For any input program, neither AST nor CFG will contain a cycle",
+      "C": "The maximum number of successors of a node in an AST and a CFG depends on the input program",
+      "D": "Each node in AST and CFG corresponds to at most one statement in the input program"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 Consider the basic COCOMO model where E is the effort applied in person-months, D is the development time in chronological months, KLOC is the estimated number of delivered lines of code (in thousands) and [latex]a_{b},b_{b},c_{b},d_{b}[/latex] have their usual meanings. The basic COCOMO equations are of the form",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "E=[latex]a_{b}[/latex](KLOC)exp([latex]b_{b}[/latex]), D=[latex]c_{b}(E)[/latex]exp([latex]d_{b}[/latex])",
+      "B": "D=[latex]a_{b}[/latex](KLOC)exp([latex]b_{b}[/latex]), E=[latex]c_{b}[/latex](D)exp([latex]d_{b}[/latex])",
+      "C": "E=[latex]a_{b}[/latex]exp([latex]b_{b}[/latex]), D=[latex]c_{b}[/latex](KLOC)exp([latex]d_{b}[/latex])",
+      "D": "E=[latex]a_{b}[/latex]exp([latex]d_{b}[/latex]), D=[latex]c_{b}[/latex](KLOC)exp([latex]b_{b}[/latex])"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 A system has 6 identical resources and N processes competing for them. Each process can request atmost 2 resources. Which one of the following values of N could lead to a deadlock?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 Consider the following transaction involving two bank accounts x and y. read(x);    x:=x-50;  write(x);    read(y);    y:=y+50; write(y) The constraint that the sum of the accounts x and y should remain constant is that of",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Atomicity",
+      "B": "Consistency",
+      "C": "Isolation",
+      "D": "Durability"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 With reference to the B+ tree index of order 1 shown below, the minimum number of nodes (including the Root node) that must be fetched in order to satisfy the following query: \"Get all records with a search key greater than or equal to 7 and less than 15\" is ____________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2015_Set2/page5_q2.webp",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 Identify the correct order in which a server process must invoke the function calls accept, bind, listen, and recv according to UNIx socket API.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "listen, accept, bind, recv",
+      "B": "bind, listen, accept, recv",
+      "C": "bind, accept, listen, recv",
+      "D": "accept, listen, bind, recv"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 A link has a transmission speed of [latex]10^{6}[/latex] bits/sec. It uses data packets of size 1000 bytes each. Assume that the acknowledgment has negligible transmission delay, and that its propagation delay is the same as the data propagation delay. Also assume that the processing delays at nodes are negligible. The efficiency of the stop-and-wait protocol in this setup is exactly 25%. The value of the one-way propagation delay (in milliseconds) is ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 12.0,
+    "max": 12.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 Which one of the following statements is NOT correct about HTTP cookies?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A cookie is a piece of code that has the potential to compromise the security of an Internet user",
+      "B": "A cookie gains entry to the user's work area through an HTTP header",
+      "C": "A cookie has an expiry date and time",
+      "D": "Cookies can be used to track the browsing pattern of a user at a particular site"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 Consider the following routing table at an IP router: For each IP address in Group I identify the correct choice of the next hop from Group II using the entries from the routing table above.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2015_Set2/page6_q1.webp",
+    "options": {
+      "A": "i-a, ii-c, iii-e, iv-d",
+      "B": "i-a, ii-d, iii-b, iv-e",
+      "C": "i-b, ii-c, iii-d, iv-e",
+      "D": "i-b, ii-c, iii-e, iv-d"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 Host A sends a UDP datagram containing 8880 bytes of user data to host B over an Ethernet LAN. Ethernet frames may carry data up to 1500 bytes (i.e. MTU=1500 bytes). Size of UDP header is 8 bytes and size of IP header is 20 bytes. There is no option field in IP header. How many total number of IP fragments will be transmitted and what will be the contents of offset field in the last fragment?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "6 and 925",
+      "B": "6 and 7400",
+      "C": "7 and 1110",
+      "D": "7 and 8880"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Assume that the bandwidth for a TCP connection is 1048560 bits/sec. Let [latex]\\alpha[/latex] be the value of RTT in milliseconds (rounded off to the nearest integer) after which the TCP window scale option is needed. Let [latex]\\beta[/latex] be the maximum possible window size with window scale option. Then the values of [latex]\\alpha[/latex] and [latex]\\beta[/latex] are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "63 milliseconds, 65535 x [latex]2^{14}[/latex]",
+      "B": "63 milliseconds, 65535 x [latex]2^{16}[/latex]",
+      "C": "500 milliseconds, 65535 x [latex]2^{14}[/latex]",
+      "D": "500 milliseconds, 65535 x [latex]2^{16}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Consider a simple checkpointing protocol and the following set of operations in the log. (start, T4); (write, T4, y, 2, 3); (start, T1); (commit, T4); (write, T1, z, 5, 7); (checkpoint); (start, T2); (write, T2, x, 1, 9); (commit, T2); (start, T3), (write, T3, z, 7, 2); If a crash happens now and the system tries to recover using both undo and redo operations, what are the contents of the undo list and the redo list?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Undo: T3, T1; Redo: T2",
+      "B": "Undo: T3, T1; Redo: T2, T4",
+      "C": "Undo: none; Redo: T2, T4, T3, T1",
+      "D": "Undo: T3, T1, T4; Redo: T2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Consider two relations R1(A,B) with the tuples (1,5), (3,7) and R2(A,C) = (1,7), (4,9). Assume that R(A,B,C) is the full natural outer join of R1 and R2. Consider the following tuples of the form (A,B,C): a = (1,5,null), b = (1,null,7), c = (3, null, 9), d = (4,7,null), e = (1,5,7), f = (3,7,null), g = (4,null,9). Which one of the following statements is correct?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "R contains a, b, e, f, g but not c, d.",
+      "B": "R contains all of a, b, c, d, e, f, g.",
+      "C": "R contains e, f, g but not a, b.",
+      "D": "R contains e but not f, g."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 Consider six memory partitions of sizes 200 KB, 400 KB, 600 KB, 500 KB, 300 KB and 250 KB, where KB refers to kilobyte. These partitions need to be allotted to four processes of sizes 357 KB, 210 KB, 468 KB and 491 KB in that order. If the best fit algorithm is used, which partitions are NOT allotted to any process?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "200 KB and 300 KB",
+      "B": "200 KB and 250 KB",
+      "C": "250 KB and 300 KB",
+      "D": "300 KB and 400 KB"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 Consider a typical disk that rotates at 15000 rotations per minute (RPM) and has a transfer rate of 50x[latex]10^{6}[/latex]  bytes/sec. If the average seek time of the disk is twice the average rotational delay and the controller's transfer time is 10 times the disk transfer time, the average time (in milliseconds) to read or write a 512-byte sector of the disk is ______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 6.1,
+    "max": 6.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 A computer system implements 8 kilobyte pages and a 32-bit physical address space. Each page table entry contains a valid bit, a dirty bit, three permission bits, and the translation. If the maximum size of the page table of a process is 24 megabytes, the length of the virtual address supported by the system is _____ bits.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 36.0,
+    "max": 36.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 Consider the intermediate code given below. (1) i = 1 (2) j = 1 (3) t1 = 5 * i (4) t2 = t1 + j (5) t3 = 4 * t2 (6) t4 = t3 (7) a[t4] = -1 (8) j = j + 1 (9) if j[latex]\\leq [/latex]5 goto (3) (10) i=i+1 (11) if i[latex]\\lt [/latex]5 goto (2) The number of nodes and edges in the control-flow-graph constructed for the above code, respectively, are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "5 and 7",
+      "B": "6 and 7",
+      "C": "5 and 5",
+      "D": "7 and 8"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 The number of states in the minimal deterministic finite automaton corresponding to the regular expression (0+1)*(10) is __________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Which of the following languages is/are regular? [latex]L_{1}:\\{wxw^{R}|w,x \\in  \\{a,b\\}^{*} \\; and \\; |w|,|x| \\gt 0 \\}, w^{R}[/latex] is the reverse of string w [latex]L_{2}:\\{a^{n}b^{m}|m\\neq n \\; and \\; m,n\\geq 0\\}[/latex] [latex]L_{3}:\\{a^{p}b^{q}c^{r}|p,q,r\\geq 0\\}[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "L1 and L3 only",
+      "B": "L2 only",
+      "C": "L2 and L3 only",
+      "D": "L3 only"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 Given below are some algorithms, and some algorithm design paradigms. Match the above algorithms on the left to the corresponding design paradigm they follow.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2015_Set2/page8_q2.webp",
+    "options": {
+      "A": "1-i, 2-iii, 3-i, 4-v.",
+      "B": "1-iii, 2-iii, 3-i, 4-v",
+      "C": "1-iii, 2-ii, 3-i, 4-iv",
+      "D": "1-iii, 2-ii, 3-i, 4-v."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 A Young tableau is a 2D array of integers increasing from left to right and from top to bottom. Any unfilled entries are marked with [latex]\\infty[/latex], and hence there cannot be any entry to the right of, or below a [latex]\\infty[/latex]. The following Young tableau consists of unique entries. When an element is removed from a Young tableau, other elements should be moved into its place so that the resulting table is still a Young tableau (unfilled entries may be filled in with a [latex]\\infty[/latex]). The minimum number of entries (other than 1) to be shifted, to remove 1 from the given Young tableau is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2015_Set2/page8_q3.webp",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 Suppose you are provided with the following function declaration in the C programming language. int partition(int a[ ], int n); The function treats the first element of a[] as a pivot, and rearranges the array so that all elements less than or equal to the pivot is in the left part of the array, and all elements greater than the pivot is in the right part. In addition, it moves the pivot so that the pivot is the last element of the left part. The return value is the number of elements in the left part. The following partially given function in the C programming language is used to find the [latex] k^{th}[/latex] smallest element in an array a[ ] of size n using the partition function. We assume [latex] k \\leq n[/latex] int kth_smallest(int a[], int n, int k)\r\n{\r\n    int left_end = partition(a,n);\r\n    if ( left_end+1 == k ){\r\n         return a[left_end];\r\n    }\r\n    if ( left_end+1 > k ){\r\n         return kth_smallest( ________ );\r\n    } else {\r\n         return kth_smallest( ________ );\r\n    }\r\n} The missing argument lists are respectively",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(a, left_end, k) and (a+left_end+1, n-left_end-1, k-left_end-1)",
+      "B": "(a, left_end, k) and (a, n-left_end-1, k-left_end-1)",
+      "C": "(a+left_end+1, n-left_end-1, k-left_end-1) and (a, left_end, k)",
+      "D": "(a, n-left_end-1, k-left_end-1) and (a, left_end, k)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 Which one of the following hash functions on integers will distribute keys most uniformly over 10 buckets numbered 0 to 9 for i ranging from 0 to 2020?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "h(i)= [latex]i^{2}[/latex] mod 10",
+      "B": "h(i)= [latex]i^{3}[/latex] mod 10",
+      "C": "h(i)=(11*[latex]i^{2}[/latex]) mod 10",
+      "D": "h(i)=(12*[latex]i^{2}[/latex]) mod 10"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 The secant method is used to find the root of an equation f(x)=0. It is started from two distinct estimates [latex]x_{a}[/latex] and [latex]x_{b}[/latex] for the root. It is an iterative procedure involving linear interpolation to a root. The iteration stops if [latex]f(x_{b})[/latex] is very small and then [latex]x_{b}[/latex] is the solution. The procedure is given below. Observe that there is an expression which is missing and is marked by ?. Which is the suitable expression that is to be put in place of ? so that it follows all steps of the secant method?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2015_Set2/page9_q1.webp",
+    "options": {
+      "A": "[latex]x_{b}-(f_{b}-f(x_{a}))f_{b}/(x_{b}-x_{a})[/latex]",
+      "B": "[latex]x_{a}-(f_{b}-f(x_{a}))f_{a}/(x_{b}-x_{a})[/latex]",
+      "C": "[latex]x_{b}-(x_{b}-x_{a})f_{b}/(f_{b}-f(x_{a}))[/latex]",
+      "D": "[latex]x_{a}-(x_{b}-x_{a})f_{a}/(f_{b}-f(x_{a}))[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 Consider the C program below. #include &lt stdio.h &gt\nint *A, stkTop;\nint stkFunc(int opcode, int val)\n{\n    static int size=0, stkTop=0;\n    switch (opcode) {\n        case -1: size = val; break;\n        case 0: if (stkTop < size) A[stkTop++] = val; break;\n        default: if (stkTop) return A[--stkTop];\n        }\n       return -1;\n}\nint main()\n{\n    int B[20]; A = B; stkTop = -1;\n    stkFunc (-1, 10);\n    stkFunc ( 0, 5);\n    stkFunc ( 0, 10);\n    printf (\"%d\\n\", stkFunc(1, 0) + stkFunc(1, 0));\n} The value printed by the above program is __________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 15.0,
+    "max": 15.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 Consider the sequence of machine instructions given below: MUL R5, R0, R1 DIV R6, R2, R3 ADD R7, R5, R6 SUB R8, R7, R4 In the above sequence, R0 to R8 are general purpose registers. In the instructions shown, the first register stores the result of the operation performed on the second and the third registers. This sequence of instructions is to be executed in a pipelined instruction processor with the following 4 stages: (1) Instruction Fetch and Decode (IF), (2) Operand Fetch (OF), (3) Perform Operation (PO) and (4) Write back the result (WB). The IF, OF and WB stages take 1 clock cycle each for any instruction. The PO stage takes 1 clock cycle for ADD or SUB instruction, 3 clock cycles for MUL instruction and 5 clock cycles for DIV instruction. The pipelined processor uses operand forwarding from the PO stage to the OF stage. The number of clock cycles taken for the execution of the above sequence of instructions is ___________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 13.0,
+    "max": 13.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 Consider a processor with byte-addressable memory. Assume that all registers, including Program Counter (PC) and Program Status Word (PSW), are of size 2 bytes. A stack in the main memory is implemented from memory location [latex](0100)_{16}[/latex] and it grows upward. The stack pointer (SP) points to the top element of the stack. The current value of SP is [latex](016E)_{16}[/latex]. The CALL instruction is of two words, the first word is the op-code and the second word is the starting address of the subroutine (one word = 2 bytes). The CALL instruction is implemented as follows: Store the current value of PC in the stack Store the value of PSW register in the stack Load the starting address of the subroutine in PC The content of PC just before the fetch of a CALL instruction is [latex](5FA0)_{16}[/latex].  After execution of the CALL instruction, the value of the stack pointer is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](016A)_{16}[/latex]",
+      "B": "[latex](016C)_{16}[/latex]",
+      "C": "[latex](0170)_{16}[/latex]",
+      "D": "[latex](0172)_{16}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 The number of min-terms after minimizing the following Boolean Algebra is _________. [latex]{[{D}'+A{B}'+{A}'C+A{C}'D+{A}'{C}'{D}]}'[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 Let [latex]f(x)=x^{-(1/3)}[/latex] and A denote the area of the region bounded by f(x) and the x-axis, when x varies from -1 to 1. Which of the following statements is/are TRUE? I) f is continuous in [-1,1] II) f is not bounded in [-1,1] III) f is nonzero and finite",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "II only",
+      "B": "III only",
+      "C": "II and III only",
+      "D": "I, II and III"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 Perform the following operations on the matrix [latex]\\begin{bmatrix} 3 & 4&45 \\\\ 7& 9& 105\\\\ 13&2 & 195 \\end{bmatrix}[/latex]. (i) Add the third row to the second row (ii) Subtract the third column from the first column. The determinant of the resultant matrix is___________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 The number of onto functions (surjective functions) from set x={1,2,3,4} to set Y={a,b,c} is __________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 36.0,
+    "max": 36.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 Let X and Y denote the sets containing 2 and 20 distinct objects respectively and F denote the set of all possible functions defined from X to Y. Let f be randomly chosen from F. The probability of f being one-to-one is ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.95,
+    "max": 0.95
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 Consider the alphabet [latex]\\Sigma[/latex]={0, 1}, the null/empty string  [latex]\\lambda[/latex] and the sets of strings [latex]X_{0}, X_{1}, \\; and \\; X_{2}[/latex] generated by the corresponding non-terminals of a regular grammar. [latex]X_{0}, X_{1}, \\; and \\; X_{2}[/latex]  are related as follows. [latex]X_{0}=1X_{1}[/latex] [latex]X_{1},=0X_{1}+1 X_{2}[/latex] [latex]X_{2}=0X_{1}+  \\{\\lambda\\}[/latex] Which one of the following choices precisely represents the strings in [latex]X_{0}[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "10(0* + (10)*)1",
+      "B": "10(0* + (10)*)*1",
+      "C": "1(0 + 10)*1",
+      "D": "10(0 + 10)*1 + 110(0 + 10)*1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 A graph is self-complementary if it is isomorphic to its complement. For all self-complementary graphs on n vertices, n is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A multiple of 4",
+      "B": "Even",
+      "C": "Odd",
+      "D": "Congruent to 0 mod 4, or, 1 mod 4"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 In a connected graph, a bridge is an edge whose removal disconnects a graph. Which one of the following statements is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A tree has no bridges",
+      "B": "A bridge cannot be part of a simple cycle",
+      "C": "Every edge of a clique with size [latex]\\geq[/latex] 3 is a bridge (A clique is any complete subgraph of a graph)",
+      "D": "A graph with bridges cannot have a cycle"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 Which one of the following well formed formulae is a tautology?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\forall x \\exists yR(x,y)\\leftrightarrow \\exists y\\forall xR(x,y)[/latex]",
+      "B": "[latex](\\forall x[\\exists yR(x,y)\\rightarrow S(x,y)])\\rightarrow \\forall x\\exists y S(x,y)[/latex]",
+      "C": "[latex][\\forall x\\exists yP(x,y)\\rightarrow R(x,y)]\\leftrightarrow [\\forall x\\exists y(\\neg P(x,y))\\vee R(x,y)][/latex]",
+      "D": "[latex]\\forall x \\forall y P(x,y) \\rightarrow \\forall x\\forall y P(y,x)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 Which one of the following assertions concerning code inspection and code walkthrough is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Code inspection is carried out once the code has been unit tested",
+      "B": "Code inspection and code walkthrough are synonyms",
+      "C": "Adherence to coding standards is checked during code inspection",
+      "D": "Code walkthrough is usually carried out by an independent test team"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 A half adder is implemented with XOR and AND gates. A full Combinational Circuit is implemented with two half Combinational Circuits and one OR gate. The propagation delay of an XOR gate is twice that of an AND/OR gate. The propagation delay of an AND/OR gate is 1.2 microseconds. A 4-bit ripple-carry binary Combinational Circuit is implemented by using four full Combinational Circuits. The total propagation time of this 4-bit binary Combinational Circuit in microseconds is____________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 19.2,
+    "max": 19.2
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 We __________ our friends's birthday and we _________ how to make it up to him.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "completely forgot --- don't just know",
+      "B": "forgot completely ---don't just know",
+      "C": "completely forgot --- just don't know",
+      "D": "forgot completely --- just don't know"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Choose the statement where underlined word is used correctly.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The industrialist had a [latex]\\underline{ \\text{personnel }}[/latex] jet.",
+      "B": "I write my experience in my [latex]\\underline{ \\text{personnel }}[/latex] diary.",
+      "C": "All [latex]\\underline{ \\text{personnel} }[/latex] are being given the day off.",
+      "D": "Being religious is a  [latex]\\underline{ \\text{personnel} }[/latex] aspect."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Consider a function [latex]f(x) = 1- |x| \\text{ on } -1 \\leq x \\leq 1[/latex]. The value of [latex]x[/latex] at which the function attains a maximum, and the maximum value of the function are:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0, -1",
+      "B": "-1, 0",
+      "C": "0, 1",
+      "D": "-1, 2"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 A generic term that includes various items of clothing such as a skirt, a pair of trousers and a shirt is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "fabric",
+      "B": "textile",
+      "C": "fiber",
+      "D": "apparel"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 Based on the given statements, select the most appropriate option to solve the given question. What will be the total weight of 10 poles each of same weight? Statements: I.  One fourth of the weight of the pole is 5 Kg. II. The total weight of these poles is 160 Kg more than the total weight of two poles.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Statement I alone is not sufficient.",
+      "B": "Statement II alone is not sufficient.",
+      "C": "Either I or II alone is sufficient.",
+      "D": "Both statements I and II together are not sufficient."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 If the list of letters [latex]P, R, S, T, U[/latex] is an arithmetic sequence, which of the following are also in arithmetic sequence? I.    [latex]2P,2R,2S,2T,2U[/latex] II.  [latex]P-3,R-3,S-3,T-3,U-3[/latex] III. [latex]P^2, R^2, S^2, T^2, U^2[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I only",
+      "B": "I and II",
+      "C": "II and III",
+      "D": "I and III"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 Four branches of a company are located at M, N, O and P. M is north of N at a distance of 4km; P is south of O at a distance of 2 km; N is southeast of O by 1km. What is the distance between M and P in km?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "5.34",
+      "B": "6.74",
+      "C": "25.5",
+      "D": "45.49"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 In a triangle [latex]PQR,PS[/latex] is the angle bisector of [latex]\\angle QPR \\text{ and } \\angle QPS =60^\\circ[/latex]. What is the length of [latex]PS[/latex] ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\left(\\dfrac{(q+r)} {qr}\\right)[/latex]",
+      "B": "[latex]\\left(\\frac{qr} {q+r}\\right)[/latex]",
+      "C": "[latex]\\sqrt {(q^2 + r^2)}[/latex]",
+      "D": "[latex]\\left(\\frac{(q+r)^2} {qr}\\right)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 64 If p, q, r, s are distinct integers such that:[latex]f(p,q,r,s)= max (p,q,r,s)[/latex] [latex]g(p,q,r,s)= min (p,q,r,s) \n[/latex] [latex]h (p, q, r, s) = \\text {remainder of } \\frac{(p \\times q)} {(r \\times s)} \\text{ if } (p \\times q) \\gt (r \\times s)[/latex] [latex]\\text{ or remainder of } \\frac {(r \\times s)}{(p \\times q)} \\text{ if } (r \\times s) \\gt (p \\times q)[/latex] Also a function [latex]fgh(p,q,r,s)=f(p,q,r,s) \\times g(p,q,r,s) \\times h(p,q,r,s)[/latex] Also the same operations are valid with two variable functions of the form [latex]f(p,q)[/latex] What is the value of [latex]fg(h(2,5,7,3),4,6,8)[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 8.0,
+    "max": 8.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 Out of the following 4 sentences, select the most suitable sentence with respect to grammar and usage:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Since the report lacked needed information, it was of no use to them.",
+      "B": "The report was useless to them because there were no needed information in it.",
+      "C": "Since the report did not contain the needed information, it was not real useful to them.",
+      "D": "Since the report lacked needed information, it would not had been useful to them."
+    },
+    "correct_answer": "A"
+  }
+]

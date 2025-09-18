@@ -1,0 +1,655 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 Consider the following expressions: (i) false (ii) Q (iii) true (iv) [latex]P\\vee Q[/latex] (v) [latex]\\neg Q \\vee P[/latex] The number of expressions given above that are logically implied by [latex]P \\wedge (P \\Rightarrow Q)[/latex] is ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 Let f(x) be a polynomial and g(x) = f'(x) be its derivative. If the degree of (f(x)+ f(-x)) is 10, then the degree of (g(x)-g(-x)) is ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 9.0,
+    "max": 9.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 3 The minimum number of colours that is sufficient to vertex-colour any planar graph is _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 Consider the systems,each consisting of m linear equations in n variables. I. If m [latex]\\lt[/latex] n, then all such systems have a solution II. If m [latex]\\gt[/latex] n, then none of these systems has a solution III. If m = n, then there exists a system which has a solution Which one of the following is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I, II and III are true",
+      "B": "Only II and III are true",
+      "C": "Only III is true",
+      "D": "None of them is true"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 Suppose that a shop has an equal number of LED bulbs of two different types. The probability of an LED bulb lasting more than 100 hours given that it is of Type 1 is 0.7, and given that it is of Type 2 is 0.4. The probability that an LED bulb chosen uniformly at random lasts more than 100 hours is _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.55,
+    "max": 0.55
+  },
+  {
+    "type": "numerical",
+    "question": "Question 6 Suppose that the eigen values of matrix A are 1, 2, 4. The determinant of [latex](A^{-1})^{T}[/latex] is _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.124,
+    "max": 0.126
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 Consider an eight-bit ripple-carry Combinational Circuit for computing the sum of A and B, where A and B are integers represented in 2's complement form. If the decimal value of  A is one, the decimal value of B that leads to the longest latency for the sum to stabilize is ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": -1.0,
+    "max": -1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 Let, [latex]x_{1} \\oplus x_{2} \\oplus\nx_{3} \\oplus x_{4}=0[/latex] where [latex]x_{1},  x_{2} ,\nx_{3} , x_{4}[/latex]  are Boolean variables, and  [latex]\\oplus[/latex] is the XOR operator.\nWhich one of the following must always be TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]x_{1} x_{2} x_{3} x_{4}=0[/latex]",
+      "B": "[latex]x_{1} x_{3}+ x_{2}=0[/latex]",
+      "C": "[latex]\\bar{x}_{1}\\oplus \\bar{x}_{3}=\\bar{x}_{2}\\oplus \\bar{x}_{4}[/latex]",
+      "D": "[latex]x_{1} +x_{2}+ x_{3}+ x_{4}=0[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 Let X be the number of distinct 16-bit integers in 2's complement representation. Let Y be the number of distinct 16 bit integers in sign magnitude representation. Then X-Y is ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 A processor has 40 distinct instructions and 24 general purpose registers. A 32-bit instruction word has an opcode, two register operands and an immediate operand. The number of bits available for the immediate operand field is _______ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 16.0,
+    "max": 16.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 11 Breadth First Search(BFS) is started on a binary tree beginning from the root vertex. There is a vertex t at a distance four from the root. If t is the n-th vertex in this BFS traversal, then the maximum possible value of n is______ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 31.0,
+    "max": 31.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 The value printed by the following program is . void f(int*p, int m){\n     m =m+5;\n     *p =*p+m;\n      return;\n}\nvoid main(){\n     int i=5, j=10;\n     f(&i, j);\n     printf(\"%d\", i+j);\n}",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 30.0,
+    "max": 30.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Assume that the algorithms considered here sort the input sequences in ascending order. If the input is already in ascending order, which of the following are TRUE? I. Quicksort runs in [latex]\\Theta (n^{2})[/latex] time II. Bubblesort runs in [latex]\\Theta (n^{2})[/latex] time III. Merge sort runs in [latex]\\Theta (n)[/latex] time IV. Insertion sort runs in [latex]\\Theta (n)[/latex] time",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I and II only",
+      "B": "I and III only",
+      "C": "II and IV only",
+      "D": "I and IV only"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 The Floyd-Warshall algorithm for all-pair shortest paths computation is based on",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Greedy paradigm",
+      "B": "Divide-and-Conquerparadigm.",
+      "C": "Dynamic Programing paradigm.",
+      "D": "neither Greedy nor Divide-and-Conquer nor Dynamic Programming paradigm."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 N items are stored in a sorted doubly linked list. For a delete operation, a pointer is provided to the record to be deleted. For a decrease-key operation, a pointer is provided to the record on which the operation is to be performed. An algorithm performs the following operations on the list in this order: [latex]\\Theta(N) \\; delete [/latex] , [latex]  O(logN) \\;  insert [/latex], [latex] O(logN) \\; find [/latex],  and [latex] \\Theta(N) \\; decrease-key[/latex]. What is the time complexity of all these operations put together?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(log^{2}N)[/latex]",
+      "B": "O(N)",
+      "C": "[latex]O(N^{2})[/latex]",
+      "D": "[latex]\\Theta (N^{2} logN)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 16 The number of states in the minimum sized DFA that accepts the language defined by the regular expression (0+1)* (0+1)(0+1)* is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Language L1 is defined by the grammar: [latex]S_{1}\\rightarrow aS_{1}b|\\varepsilon [/latex] Language L2 is defined by the grammar: [latex]S_{2}\\rightarrow abS_{2}|\\varepsilon[/latex] Consider the following statements: P: L1 is regular Q: L2 is regular Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Both P and Q are true",
+      "B": "P is true and Q is false",
+      "C": "P is false and Q is true",
+      "D": "Both P and Q are false"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 Consider the following types of languages: [latex]L_{1}[/latex]:Regular, [latex]L_{2}[/latex]:Context-free, [latex]L_{3}[/latex]:Recursive, [latex]L_{4}[/latex]:Recursively enumerable. Which of the following is/are TRUE? I. [latex]\\bar{L}_{3}\\cup L_{4}[/latex] is recursivelyenumerable II. [latex]\\bar{L}_{2}\\cup L_{3}[/latex] is recursive III. [latex]L_{1}^{*}\\cup L_{2}[/latex] is context-free IV. [latex]L_{1}\\cup \\bar{L}_{2}[/latex] is context-free",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I only",
+      "B": "I and III only",
+      "C": "I and IV only",
+      "D": "I, II and III only"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 Match thefollowing:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2016_Set2/page4_q4.webp",
+    "options": {
+      "A": "P[latex]\\leftrightarrow[/latex]i, Q [latex]\\leftrightarrow[/latex] ii, R[latex]\\leftrightarrow[/latex] iv,S[latex]\\leftrightarrow[/latex] iii",
+      "B": "P[latex]\\leftrightarrow[/latex] iii, Q[latex]\\leftrightarrow[/latex]i, R[latex]\\leftrightarrow[/latex] ii, S[latex]\\leftrightarrow[/latex] iv",
+      "C": "P[latex]\\leftrightarrow[/latex] ii, Q[latex]\\leftrightarrow[/latex] iii, R[latex]\\leftrightarrow[/latex] i, S[latex]\\leftrightarrow[/latex] iv",
+      "D": "P[latex]\\leftrightarrow[/latex] iv,Q[latex]\\leftrightarrow[/latex] i, R[latex]\\leftrightarrow[/latex] ii, S[latex]\\leftrightarrow[/latex] iii"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 In which one of the following page replacement algorithms it is possible for the page fault rate to increase even when the number of allocated frames increases?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "LRU(Least Recently Used)",
+      "B": "OPT (Optimal Page Replacement)",
+      "C": "MRU(Most Recently Used)",
+      "D": "FIFO(First In First Out)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 B+ Trees are considered BALANCED because",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "the lengths of the paths from the root to all leaf nodes are all equal.",
+      "B": "the lengths of the paths from the root to all leaf nodes differ from each other by at most 1.",
+      "C": "the number of children of any two non-leaf sibling nodes differ by at most 1",
+      "D": "the number of records in any two leaf nodes differ by at most 1."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 Suppose  a database schedule S involves transactions T1,...,Tn. Construct the precedence graph of S with vertices representing the transactions and edges representing the conflicts. If S is serializable, which one of the following orderings of the vertices of the precedence graph is guaranteed to yield a serial schedule?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Topological order",
+      "B": "Depth-first order",
+      "C": "Breadth-first order",
+      "D": "Ascending orderoftransactionindices"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 Anarkali digitally signs a message and sends it to Salim. Verification of the signature by Salim requires",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Anarkali's public key",
+      "B": "Salim's public key.",
+      "C": "Salim's private key",
+      "D": "Anarkali's private key"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 In an Ethernet local area network,which one of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A station stops to sense the channel once it starts transmitting a frame.",
+      "B": "The purpose of the jamming signal is to pad the frames that are smaller than the minimum framesize.",
+      "C": "A station continues to transmit the packet even after the collision is detected.",
+      "D": "The exponential backoff mechanism reduces the probability of collisionon\nretransmissions."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 Identify the correct sequence in which the following packets are transmitted on the network by a host when a browser requests a webpage from a remote server,assuming that the host has just been restarted.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "HTTP GET request, DNS query, TCP SYN",
+      "B": "DNS query, HTTP GET request, TCP SYN",
+      "C": "DNS query,TCP SYN, HTTP GET request",
+      "D": "TCP SYN, DNS query, HTTP GET request"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 A binary relation R on [latex]\\mathbb{N}\\times \\mathbb{N}[/latex]  is defined as follows: (a,b)R(c,d) if   [latex]a \\leq c[/latex]\nor [latex]b \\leq d[/latex]. Consider the following propositions: P: R is reflexive Q: R is transitive Which one of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Both P and Q are true",
+      "B": "P is true and Q is false.",
+      "C": "P is false and Q is true",
+      "D": "Both P and Q are false"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 Which one of the following well-formed formulae in predicate calculus is NOT valid?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](\\forall x p(x)\\Rightarrow \\forall xq(x))\\Rightarrow (\\exists x\\neg p(x) \\vee \\forall xq(x))[/latex]",
+      "B": "[latex](\\exists xp(x)\\vee \\exists xq(x))\\Rightarrow \\exists x(p(x)\\vee  q(x))[/latex]",
+      "C": "[latex]\\exists x (p(x)\\wedge q(x)) \\Rightarrow (\\exists xp(x)\\wedge \\exists xq(x))[/latex]",
+      "D": "[latex]\\forall x (p(x)\\vee q(x))\\Rightarrow (\\forall x p(x) \\vee \\forall x q(x)) [/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Consider a set U of 23 different compounds in a Chemistry lab. There is a subset S of U of 9 compounds, each of which reacts with exactly 3 compounds of  U. Consider the following statements: I. Each compound in U \\ S reacts with an odd number of compounds. II. At least one compound in U \\ S reacts with an odd number of compounds. III. Each compound in U n S reacts with an even number of compounds. Which one of the above statements is ALWAYS TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only I",
+      "B": "Only II",
+      "C": "Only III",
+      "D": "None"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 The value of the expression [latex]13^{99}[/latex](mod 17), in the range 0 to 16, is _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 30 Suppose the functions F and G can be computed in 5 and 3 nano seconds by functional units [latex]U_{F}[/latex] and [latex]U_{G}[/latex], respectively. Given two instances of [latex]U_{F}[/latex] and two instances of [latex]U_{G}[/latex], it is required to implement the computation [latex]F(G(X_{i}))[/latex] for [latex]1\\leq i\\leq 10[/latex]. Ignoring all other delays, the minimum time required to complete this computation is ________ nanoseconds.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 28.0,
+    "max": 28.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 Consider a processor with 64 registers  and an instruction set of size twelve. Each instruction has five distinct fields, namely, opcode, two source register identifiers, one destination register identifier, and a twelve-bit immediate value. Each instruction must be stored in memory in  byte-aligned fashion. If a program has 100 instructions, the amount of memory(in bytes) consumed by the program text is _____ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 500.0,
+    "max": 500.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 The width of the physical address on a machine is 40 bits. The width of the tag field in a 512KB 8-way set associative cache is ________ bits.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 24.0,
+    "max": 24.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 Consider a 3GHz (gigahertz) processor with a three-stage pipeline and stage latencies [latex]\\tau _{1}[/latex], [latex]\\tau _{2}[/latex], and [latex]\\tau _{3}[/latex] such that [latex]\\tau _{1}=3\\tau _{2}/4=2\\tau _{3}[/latex]. If the longest pipeline stage is split into two pipeline stages of equal latency, the new frequency is _____GHz, ignoring delays in the pipeline registers.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.9,
+    "max": 4.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 A complete binary min-heap is made by including each integer in [1,1023] exactly once. The depth of a node in the heap is the length of the path from the root of the heap to that node. Thus, the root is at depth 0. The maximum depth at which integer 9 can appear is_____.\n.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 8.0,
+    "max": 8.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 The following function computes [latex]X^{Y}[/latex] for positive integers X and Y. int exp(int X,int Y){\n    int res=1, a=X, b=Y;\n    while (b!=0){\n    if(b%2==0){a=a*a;  b=b/2;}\n    else {res=res*a;  b=b-1;}\n   }\n   return res;\n} Which one of the following conditions is TRUE before every iteration of the loop?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]X^{Y}=a^{b}[/latex]",
+      "B": "[latex](res*a)^{Y}=(res*X)^{b}[/latex]",
+      "C": "[latex]X^{Y}=res*a^{b}[/latex]",
+      "D": "[latex]X^{Y}=(res*a)^{b}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Consider the following New-order strategy for traversing a binary tree: Visit the root; Visit the right sub tree using New-order; Visit the left sub tree using New-order; The New-order traversal of the expression tree corresponding to the reverse polish expression 3  4 * 5 - 2 ^ 6 7 * 1 + - is given by:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "+ - 1 6 7 * 2 ^ 5 - 3 4 *",
+      "B": "- + 1 * 7 6 ^ 2 - 5 * 4 3",
+      "C": "- + 1 * 6 7 ^ 2 - 5 * 3 4",
+      "D": "1 7 6 * + 2 5 4 3 * - ^ -"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 Consider thefollowingprogram: int f(int*p, int n)\n{\n   if (n<=1)return0;\n    else returnmax(f(p+1,n-1),p[0]-p[1]);\n}\nint main()\n{\n    int a[]={3,5,2,6,4};\n    printf(\"%d\", f(a,5));\n } Note: max(x,y) returns the maxi mumof x and y.\nThe value printed by this program is____________ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 Let A1,A2,A3, and A4 be four matrices of dimensions 10x5, 5x20, 20x10, and 10x5, respectively. The minimum number of scalar multiplications required to find the product A1A2A3A4 using the basic matrix multiplication method is __________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1500.0,
+    "max": 1500.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 The given diagram shows the flowchart for a recursive function A(n). Assume that all statements, except for the recursive calls,have O(1) Asymptotic Notation. If the worst case Asymptotic Notation of this functionis [latex]O(n^{\\alpha })[/latex], then the least possible value(accurate upto two decimal positions) of [latex]\\alpha[/latex] is .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2016_Set2/page8_q4.webp",
+    "min": 2.2,
+    "max": 2.4
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 The number of ways in which the numbers 1,2,3,4,5,6,7 can be inserted in an empty binary search tree, such that the resulting tree has height 6, is _____. Note: The height of a tree with a single node is 0.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 64.0,
+    "max": 64.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 In an adjacency list representation of an undirected simple graph G = (V,E), each edge (u,v) has two adjacency list entries: [v] in the adjacency list of u, and [u] in the adjacency list of v. These are called twins of each other. A twin pointer is a pointer from an adjacency list entry to its twin. If |E|=m and |V|=n, and the memory size is not a constraint, what is the Asymptotic Notation of the most efficient algorithm to set the twin pointer in each entry in each adjacency list?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n^{2})[/latex]",
+      "B": "[latex]\\Theta (n+m)[/latex]",
+      "C": "[latex]\\Theta (m^{2})[/latex]",
+      "D": "[latex]\\Theta (n^{4})[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 Consider the following two statements: I. If all states of an NFA are accepting states then the language accepted by the NFA is [latex]\\sum ^{*}[/latex] . II. There exists a regular language A such that for all languages B, A[latex]\\cap[/latex]B is regular. Which one of the following is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only I is true",
+      "B": "Only II is true",
+      "C": "Both I and II are true",
+      "D": "Both I and II are false"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 Consider the following languages: [latex]L_{1}=\\{a^{n}b^{m}c^{n+m}:m,n\\geq 1\\}[/latex] [latex]L_{2}=\\{a^{n}b^{n}c^{2n}:n\\geq 1\\}[/latex] Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Both L1 and L2 are context-free.",
+      "B": "L1 is context-free while L2 is not context-free.",
+      "C": "L2 is context-free while L1 is not context-free.",
+      "D": "Neither L1 nor L2 is context-free."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 Consider the following languages. L1 = {[latex]\\lt[/latex]M[latex]\\gt[/latex] |M takes at least 2016 steps on some input}, L2 = {[latex]\\lt[/latex]M[latex]\\gt[/latex]| M takes at least 2016 steps on all inputs} and L3 = {[latex]\\lt[/latex]M|M accepts [latex]\\varepsilon[/latex]}, where for each Turing machine M, [latex]\\lt[/latex]M[latex]\\gt[/latex] denotes a specific encoding of M. Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "L1 is recursive and L2,L3 are notrecursive",
+      "B": "L2 is recursiveand L1,L3 are notrecursive",
+      "C": "L1,L2 are recursiveand L3 is notrecursive",
+      "D": "L1,L2,L3 are recursive"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 Which one of the following grammars is free from left recursion?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]S\\rightarrow AB [/latex] [latex]A\\rightarrow Aa|b[/latex] [latex]B\\rightarrow c[/latex]",
+      "B": "[latex]S\\rightarrow Ab|Bb|c [/latex] [latex] A\\rightarrow Bb|\\varepsilon [/latex] [latex]B\\rightarrow e[/latex]",
+      "C": "[latex]S\\rightarrow Aa|B [/latex] [latex]A\\rightarrow Bb|Sc|\\varepsilon [/latex] [latex]B\\rightarrow d[/latex]",
+      "D": "[latex]S\\rightarrow Aa|Bb|c [/latex] [latex]A\\rightarrow Bd|\\varepsilon [/latex] [latex]B\\rightarrow Ae|\\varepsilon[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 A student wrote two context-free grammars G1 and G2 for generating a single C-like array declaration. The dimension of the array is at least one. For example, int a[10][3]; The grammars use D as the start symbol,and use six terminal symbols int ;id[]num. Which of the grammars correctly generate the declaration mentioned above?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2016_Set2/page10_q1.webp",
+    "options": {
+      "A": "Both G1 and G2",
+      "B": "Only G1",
+      "C": "Only G2",
+      "D": "Neither G1 nor G2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 Consider the following processes, with the arrival time and the length of the CPU burst given in milli seconds.The scheduling algorithm used is preemptive shortest remaining-time first. The average turn around time of these processes is milliseconds.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2016_Set2/page10_q2.webp",
+    "min": 8.2,
+    "max": 8.3
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 Consider the following two-process synchronization solution. The shared variable turn is initialized to zero.Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2016_Set2/page10_q3.webp",
+    "options": {
+      "A": "This is a correct two-process synchronization solution.",
+      "B": "This solution violates mutual exclusion requirement",
+      "C": "This solution violates progress requirement",
+      "D": "This solution violates bounded wait requirement"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 Consider a non-negative counting semaphore S. The operation P(S) decrements S, and V(S) increments S. During an execution, 20 P(S) operations and 12V(S) operations are issued in some order. The largest initial value of S for which at least one P(S) operation will remain blocked is ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 7.0,
+    "max": 7.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 A file system uses an in-memory cache to cache disk blocks.The miss rate of the cache is shown in the figure. The latency to read a block from the cache is 1 ms and to read a block from the disk is 10ms. Assume that the cost of checking whether a block exists in the cache is negligible. Available cache sizes are in multiples of 10MB. The smallest cache size required to ensure an average read latency of less than 6ms is_________\nMB.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2016_Set2/page10_q5.webp",
+    "min": 30.0,
+    "max": 30.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 Consider the following databases chedule with two transactions, T1 and T2. [latex]S=r_{2}(X);r_{1}(X);r_{2}(Y);w_{1}(X);r_{1}(Y);w_{2}(X);a_{1};a_{2}[/latex] where [latex]r_{i}(Z)[/latex] denotes a read operation by transaction [latex]T_{i}[/latex] on avariable Z, [latex]w_{i}(Z)[/latex]\n denotes a write operation by [latex]T_{i}[/latex] on avariable Z and [latex]a_{i}[/latex] denotes an abort by transaction [latex]T_{i}[/latex]. Which one of the following statements about the above schedule is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "S is non-recoverable",
+      "B": "S is recoverable,but has a cascading abort",
+      "C": "S does not have a cascading abort",
+      "D": "S is strict"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 Consider the following database table named water_schemes : The number of tuples returned by the following SQL query is __________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2016_Set2/page11_q2.webp",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 A network has a data transmission bandwidth of [latex]20 \\times 10^{6}[/latex] bits per second. It uses CSMA/CD in the MAClayer. The maximum signal propagation time from one node to another node is 40 microseconds. The minimum size of a frame in the network is  ______ bytes.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 200.0,
+    "max": 200.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 For the IEEE802.11 MAC protocol for wireless communication,which of the following\nstatements is/are TRUE? I. At least three non-overlapping channels are available for transmissions. II. The RTS-CTS mechan is misused for collision detection. III. Unicast frames are ACKed.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "All I,II,andIII",
+      "B": "I andIIIonly",
+      "C": "II andIIIonly",
+      "D": "II only"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 Consider a [latex]128 \\times 10^{3}[/latex] bits/second satellite communication link with one way propagation delay of 150 milliseconds. Selective retransmission(repeat) protocol is used on this link to send data with a frame size of 1 kilobyte. Neglect the transmission time of acknowledgement. The minimum number of bits required for the sequence number field to achieve 100% utilization is ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 The man who is now Municipal Commissioner worked as _____________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "the security guard at a university",
+      "B": "a security guard at the university",
+      "C": "a security guard at university",
+      "D": "the security guard at the university"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Nobody knows how the Indian cricket team is going to cope with the difficult and seamer-friendly wickets in Australia. Choose the option which is closest in meaning to the underlined phrase in the above sentence.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Put up with.",
+      "B": "Put in with.",
+      "C": "Put down to.",
+      "D": "Put up against."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Find the odd one in the following group of words. mock, deride, praise, jeer",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Mock",
+      "B": "Deride",
+      "C": "Praise",
+      "D": "Jeer"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 Pick the odd one from the following options.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "CADBE",
+      "B": "JHKIL",
+      "C": "XVYWZ",
+      "D": "ONPMQ"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 In a quadratic function, the value of the product of the roots [latex](\\\\alpha ,\\\\beta )[/latex] is 4. Find the value of [latex]\\\\frac{\\\\alpha^{n}+\\\\beta^{n}}{\\\\alpha^{-n}+\\\\beta^{-n}}[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]n^4[/latex]",
+      "B": "[latex]4^n[/latex]",
+      "C": "[latex]2^{2n-1}[/latex]",
+      "D": "[latex]4^{n-1}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 Among 150 faculty members in an institute, 55 are connected with each other through Facebook and 85 are connected through Whatsapp. 30 faculty members do not have Facebook or Whatsapp accounts. The numbers of faculty members connected only through Facebook accounts is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "35",
+      "B": "45",
+      "C": "64",
+      "D": "90"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 Computers were invented for performing only high-end useful computations. However, it is no understatement that they have taken over our world today. The internet, for example, is ubiquitous. Many believe that the internet itself is an unintended consequence of the original invention. With the advent of mobile computing on our phones, a whole new dimension is now enabled. One is left wondering if all these developments are good or, more importantly, required. Which of the statement(s) below is/are logically valid and can be inferred from the above paragraph? (i) The author believes that computers are not good for us. (ii) Mobile computers and the internet are both intended inventions.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(i) only",
+      "B": "(ii) only",
+      "C": "Both (i) and (ii)",
+      "D": "Neither (i) nor (ii)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 All hill-stations have a lake. Ooty has two lakes. Which of the statement(s) below is/are logically valid and can be inferred from the above sentences? (i).   Ooty is not a hill-station. (ii).  No hill-station can have more than one lake.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(i) only.",
+      "B": "(ii) only.",
+      "C": "Both (i) and (ii)",
+      "D": "Neither (i) nor (ii)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 In a 2x4 rectangle grid shown below, each cell is rectangle. How many rectangles can be observed in the grid? [latex]\\begin{array}{|c|c|c|c|c|}\\hline{\\;\\;\\;}&{\\;\\;\\;}&{\\;\\;\\;}&{\\;\\;\\;}\\\\\\hline{}&{}&{}&\\\\\\hline\\end{array}[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "21",
+      "B": "27",
+      "C": "30",
+      "D": "36"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2016_Set2/page13_q5.webp",
+    "options": {
+      "A": "[latex]f(x) = 1 - |x - 1|[/latex]",
+      "B": "[latex]f(x) = 1 + |x - 1|[/latex]",
+      "C": "[latex]f(x) = 2 - |x - 1|[/latex]",
+      "D": "[latex]f(x) = 2+ |x - 1|[/latex]"
+    },
+    "correct_answer": "C"
+  }
+]

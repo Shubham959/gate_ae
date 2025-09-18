@@ -1,222 +1,205 @@
 [
   {
     "type": "mcq",
-    "question": "Question 1",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page1_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page1_q1_solution.png",
+    "question": "Question 1 [latex] A = \\begin{pmatrix} 1 & 2 \\\\ 2 & -1 \\end{pmatrix}, [/latex]\nthen which ONE of the following is [latex]A^8 [/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]\\begin{pmatrix} 25 & 0 \\\\ 0 & 25 \\end{pmatrix} [/latex]",
+      "B": "[latex]\\begin{pmatrix} 125 & 0 \\\\ 0 & 125 \\end{pmatrix} [/latex]",
+      "C": "[latex]\\begin{pmatrix} 625 & 0 \\\\ 0 & 625 \\end{pmatrix} [/latex]",
+      "D": "[latex]\\begin{pmatrix} 3125 & 0 \\\\ 0 & 3125 \\end{pmatrix} [/latex]"
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 2",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page1_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page1_q2_solution.png",
+    "question": "Question 2 The value of [latex]x [/latex] such that [latex]x > 1 [/latex], satisfying the equation\n[latex]  \\int_{1}^{x}t \\ln t \\, dt = \\frac{1}{4} [/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]\\sqrt{e} [/latex]",
+      "B": "[latex]e [/latex]",
+      "C": "[latex]e^2 [/latex]",
+      "D": "[latex]e - 1 [/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 3",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page1_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page1_q3_solution.png",
+    "question": "Question 3 Consider a binary tree [latex]T [/latex] in which every node has either zero or two children. Let [latex]n > 0 [/latex] be the number of nodes in [latex]T [/latex]. Which ONE of the following is the number of nodes in [latex]T [/latex] that have exactly two children?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]\\frac{n -2}{2} [/latex]",
+      "B": "[latex]\\frac{n - 1}{2} [/latex]",
+      "C": "[latex]\\frac{n}{2} [/latex]",
+      "D": "[latex]\\frac{n + 1}{2} [/latex]"
     },
     "correct_answer": "B"
   },
   {
     "type": "mcq",
-    "question": "Question 4",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page1_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page1_q4_solution.png",
+    "question": "Question 4 Let [latex]L [/latex], [latex]M [/latex], and [latex]N [/latex] be non-singular matrices of order 3 satisfying the equations [latex] L^2 = L^{-1}, \\quad M = L^8, \\quad N = L^2. [/latex] Which ONE of the following is the value of the determinant of [latex](M - N) [/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 5",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page1_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page1_q5_solution.png",
+    "question": "Question 5 Let [latex]P(x) [/latex] be an arbitrary predicate over the domain of natural numbers. Which ONE of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex](P(0) \\land (\\forall x [P(x) \\Rightarrow P(x+1)])) \\Rightarrow (\\forall x P(x)) [/latex]",
+      "B": "[latex](P(0) \\land (\\forall x [P(x) \\Rightarrow P(x-1)])) \\Rightarrow (\\forall x P(x)) [/latex]",
+      "C": "[latex](P(1000) \\land (\\forall x [P(x) \\Rightarrow P(x-1)])) \\Rightarrow (\\forall x P(x)) [/latex]",
+      "D": "[latex](P(1000) \\land (\\forall x [P(x) \\Rightarrow P(x+1)])) \\Rightarrow (\\forall x P(x)) [/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 6",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page2_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page2_q1_solution.png",
+    "question": "Question 6 Consider the following statements: (i) Address Resolution Protocol (ARP) provides a mapping from an IP address to the corresponding hardware (link-layer) address. (ii) A single TCP segment from a sender S to a receiver R cannot carry both data from S to R and acknowledgement for a segment from R to S. Which ONE of the following is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Both (i) and (ii) are TRUE",
+      "B": "(i) is TRUE and (ii) is FALSE",
+      "C": "(i) is FALSE and (ii) is TRUE",
+      "D": "Both (i) and (ii) are FALSE"
     },
     "correct_answer": "B"
   },
   {
     "type": "mcq",
-    "question": "Question 7",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page2_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page2_q2_solution.png",
+    "question": "Question 7 Consider the routing protocols given in List I and the names given in List II: [latex]\\begin{array}{|c l|c l|}\n    \\hline\n    \\textbf{List I} & & \\textbf{List II} & \\\\ \n    \\hline\n    \\text{(i)} & \\text{Distance vector routing} & \\text{(a)} & \\text{Bellman-Ford} \\\\ \n    \\hline\n    \\text{(ii)} & \\text{Link state routing} & \\text{(b)} & \\text{Dijkstra} \\\\ \n    \\hline\n\\end{array}\n[/latex] For matching of items in List I with those in List II, which ONE of the following options is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "(i) - (a) and (ii) - (b)",
+      "B": "(i) - (a) and (ii) - (a)",
+      "C": "(i) - (b) and (ii) - (a)",
+      "D": "(i) - (b) and (ii) - (b)"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 8",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page2_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page2_q3_solution.png",
+    "question": "Question 8 A machine receives an IPv4 datagram. The protocol field of the IPv4 header has the protocol number of a protocol X. Which ONE of the following is NOT a possible candidate for X?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Internet Control Message Protocol (ICMP)",
+      "B": "Internet Group Management Protocol (IGMP)",
+      "C": "Open Shortest Path First (OSPF)",
+      "D": "Routing Information Protocol (RIP)"
     },
     "correct_answer": "D"
   },
   {
     "type": "mcq",
-    "question": "Question 9",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page2_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page2_q4_solution.png",
+    "question": "Question 9 Consider the following C program: #include < stdio.h >\n\nvoid stringcopy(char *, char *);\n\nint main(){\n    char a[30] = \"@#Hello World!\";\n    stringcopy(a, a + 2);\n    printf(\"%s\\n\", a);\n    return 0;\n}\n\nvoid stringcopy(char *s, char *t) {\n    while(*t)\n        *s++ = *t++;\n} Which ONE of the following will be the output of the program?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "@#Hello World!",
+      "B": "Hello World!",
+      "C": "ello World!",
+      "D": "Hello World!d!"
     },
     "correct_answer": "D"
   },
   {
     "type": "mcq",
-    "question": "Question 10",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page2_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page2_q5_solution.png",
+    "question": "Question 10 Consider an unordered list of [latex]N [/latex] distinct integers. What is the minimum number of element comparisons required to find an integer in the list that is NOT the largest in the list?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "1",
+      "B": "[latex]N - 1 [/latex]",
+      "C": "[latex]N [/latex]",
+      "D": "[latex]2N - 1 [/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 11",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page3_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page3_q1_solution.png",
+    "question": "Question 11 Consider the following statements about the use of backpatching in a compiler for intermediate code generation: (I) Backpatching can be used to generate code for Boolean expression in one pass. (II) Backpatching can be used to generate code for flow-of-control statements in one pass. Which ONE of the following options is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Only (I) is correct.",
+      "B": "Only (II) is correct.",
+      "C": "Both (I) and (II) are correct.",
+      "D": "Neither (I) nor (II) is correct."
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 12",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page3_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page3_q2_solution.png",
+    "question": "Question 12 Given the following syntax-directed translation rules: [latex] \\text{Rule 1: } R \\rightarrow AB \\{ B.i = R.i - 1; A.i = B.i; R.i = A.i + 1; \\} [/latex] [latex] \\text{Rule 2: } P \\rightarrow CD \\{ P.i = C.i + D.i; D.i = C.i + 2; \\} [/latex] [latex] \\text{Rule 3: } Q \\rightarrow EF \\{ Q.i = E.i + F.i; \\} [/latex] Which ONE is the CORRECT option among the following?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Rule 1 is S-attributed and L-attributed;  Rule 2 is S-attributed and not L-attributed;  Rule 3 is neither S-attributed nor L-attributed.",
+      "B": "Rule 1 is neither S-attributed nor L-attributed;  Rule 2 is S-attributed and L-attributed;  Rule 3 is S-attributed and L-attributed.",
+      "C": "Rule 1 is neither S-attributed nor L-attributed;  Rule 2 is not S-attributed and is L-attributed;  Rule 3 is S-attributed and L-attributed.",
+      "D": "Rule 1 is S-attributed and not L-attributed;  Rule 2 is not S-attributed and is L-attributed;  Rule 3 is S-attributed and L-attributed."
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 13",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page3_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page3_q3_solution.png",
+    "question": "Question 13 Consider a network that uses Ethernet and IPv4. Assume that IPv4 headers do not use any options field. Each Ethernet frame can carry a maximum of 1500 bytes in its data field. A UDP segment is transmitted. The payload (data) in the UDP segment is 7488 bytes. Which ONE of the following choices has the CORRECT total number of fragments transmitted and the size of the last fragment including IPv4 header?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "5 fragments, 1488 bytes",
+      "B": "6 fragments, 88 bytes",
+      "C": "6 fragments, 108 bytes",
+      "D": "6 fragments, 116 bytes"
     },
     "correct_answer": "D"
   },
   {
     "type": "mcq",
-    "question": "Question 14",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page3_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page3_q4_solution.png",
+    "question": "Question 14 Which ONE of the following languages is accepted by a deterministic pushdown automaton?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Any regular language.",
+      "B": "Any context-free language.",
+      "C": "Any language accepted by a non-deterministic pushdown automaton.",
+      "D": "Any decidable language."
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 15",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page3_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page3_q5_solution.png",
+    "question": "Question 15 Let [latex]G_1, G_2 [/latex] be Context-Free Grammars (CFGs) and [latex]R [/latex] be a regular expression. For a grammar [latex]G [/latex], let [latex]L(G) [/latex] denote the language generated by [latex]G [/latex]. Which ONE among the following questions is decidable?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Is [latex]L(G_1) = L(G_2) [/latex]?",
+      "B": "Is [latex]L(G_1) \\cap L(G_2) = \\emptyset [/latex]?",
+      "C": "Is [latex]L(G_1) = L(R) [/latex]?",
+      "D": "Is [latex]L(G_1) = \\emptyset [/latex]?"
     },
     "correct_answer": "D"
   },
   {
     "type": "mcq",
-    "question": "Question 16",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page4_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page4_q1_solution.png",
+    "question": "Question 16 Processes [latex]P_1, P_2, P_3, P_4 [/latex] arrive in that order at times 0, 1, 2, and 8 milliseconds respectively, and have execution times of 10, 13, 6, and 9 milliseconds respectively. Shortest Remaining Time First (SRTF) algorithm is used as the CPU scheduling policy. Ignore context switching times. Which ONE of the following correctly gives the average turnaround time of the four processes in milliseconds?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "22",
+      "B": "15",
+      "C": "37",
+      "D": "19"
     },
     "correct_answer": "D"
   },
   {
     "type": "mcq",
-    "question": "Question 17",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page4_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page4_q2_solution.png",
+    "question": "Question 17 An audit of a banking transactions system has found that on an earlier occasion, two joint holders of account [latex]A [/latex] attempted simultaneous transfers of Rs. 10000 each from account [latex]A [/latex] to account [latex]B [/latex]. Both transactions read the same value, Rs. 11000, as the initial balance in [latex]A [/latex] and were allowed to go through. [latex]B [/latex] was credited Rs. 10000 twice. [latex]A [/latex] was debited only once and ended up with a balance of Rs. 1000. Which of the following properties is/are certain to have been violated by the system?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Atomicity",
+      "B": "Consistency",
+      "C": "Isolation",
+      "D": "Durability"
     },
     "correct_answers": [
       "B",
@@ -225,27 +208,25 @@
   },
   {
     "type": "mcq",
-    "question": "Question 18",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page4_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page4_q3_solution.png",
+    "question": "Question 18 Which of the following is/are part of an Instruction Set Architecture of a processor?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "The size of the cache memory",
+      "B": "The clock frequency of the processor",
+      "C": "The number of cache memory levels",
+      "D": "The total number of registers"
     },
     "correct_answer": "D"
   },
   {
     "type": "mcq",
-    "question": "Question 19",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page4_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page4_q4_solution.png",
+    "question": "Question 19 Which of the following statements regarding Breadth First Search (BFS) and Depth First Search (DFS) on an undirected simple graph [latex]G [/latex] is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "A DFS tree of [latex]G [/latex] is a Shortest Path tree of [latex]G [/latex].",
+      "B": "Every non-tree edge of [latex]G [/latex] with respect to a DFS tree is a forward/back edge.",
+      "C": "If [latex](u, v) [/latex] is a non-tree edge of [latex]G [/latex] with respect to a BFS tree, then the distances from the source vertex [latex]s [/latex] to [latex]u [/latex] and [latex]v [/latex] in the BFS tree are within [latex]\\pm 1 [/latex] of each other.",
+      "D": "Both BFS and DFS can be used to find the connected components of [latex]G [/latex]."
     },
     "correct_answers": [
       "B",
@@ -255,14 +236,13 @@
   },
   {
     "type": "mcq",
-    "question": "Question 20",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page4_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page4_q5_solution.png",
+    "question": "Question 20 Consider the two lists List I and List II given below: [latex]\n\\begin{array}{|c l|c l|}\n    \\hline\n    \\textbf{List I} & & \\textbf{List II} & \\\\ \n    \\hline\n    \\text{(i)} & \\text{Context free languages} & \\text{(a)} & \\text{Closed under union} \\\\ \n    \\hline\n    \\text{(ii)} & \\text{Recursive languages} & \\text{(b)} & \\text{Not closed under complementation} \\\\ \n    \\hline\n    \\text{(iii)} & \\text{Regular languages} & \\text{(c)} & \\text{Closed under intersection} \\\\ \n    \\hline\n\\end{array}[/latex] For matching of items in List I with those in List II, which of the following option(s) is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "(i) - (a), (ii) - (b), and (iii) - (c)",
+      "B": "(i) - (b), (ii) - (a), and (iii) - (c)",
+      "C": "(i) - (b), (ii) - (c), and (iii) - (a)",
+      "D": "(i) - (a), (ii) - (c), and (iii) - (b)"
     },
     "correct_answers": [
       "B",
@@ -271,14 +251,14 @@
   },
   {
     "type": "mcq",
-    "question": "Question 21",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page5_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page5_q1_solution.png",
+    "question": "Question 21 Consider the following logic circuit diagram. Which is/are the CORRECT option(s) for the output function [latex]F [/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set2/page5_q1.webp",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]\\overline{XY} [/latex]",
+      "B": "[latex]\\overline{X} + \\overline{Y} + X \\overline{Y} [/latex]",
+      "C": "[latex]\\overline{XY} + \\overline{X} + X \\overline{Y} [/latex]",
+      "D": "[latex]X + \\overline{Y} [/latex]"
     },
     "correct_answers": [
       "A",
@@ -288,124 +268,113 @@
   },
   {
     "type": "numerical",
-    "question": "Question 22",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page5_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page5_q2_solution.png",
+    "question": "Question 22 The following two signed 2's complement numbers (multiplicand [latex]M [/latex] and multiplier [latex]Q [/latex]) are being multiplied using Booth's algorithm: [latex]\nM: 1100 \\, 1101 \\, 1110 \\, 1101 \\quad \\text{and} \\quad Q: 1010 \\, 0100 \\, 1010 \\, 1010\n[/latex] The total number of addition and subtraction operations to be performed is ________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 13.0,
     "max": 13.0
   },
   {
     "type": "numerical",
-    "question": "Question 23",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page5_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page5_q3_solution.png",
+    "question": "Question 23 int x=126,y=105;\n do {\n\t if(x>y) x=x-y; \n\telse y=y-x; \n      } while(x!=y); \n\nprintf(\"%d\",x); The output of the given C code segment is ________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 21.0,
     "max": 21.0
   },
   {
     "type": "numerical",
-    "question": "Question 24",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page5_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page5_q4_solution.png",
+    "question": "Question 24 In a 4-bit ripple counter, if the period of the waveform at the last flip-flop is 64 microseconds, then the frequency of the ripple counter in kHz is ________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 250.0,
     "max": 250.0
   },
   {
     "type": "numerical",
-    "question": "Question 25",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page5_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page5_q5_solution.png",
+    "question": "Question 25 Suppose the values 10, -4, 15, 30, 20, 5, 60, 19 are inserted in that order into an initially empty binary search tree. Let [latex]T [/latex] be the resulting binary search tree.  \nThe number of edges in the path from the node containing 19 to the root node of [latex]T [/latex] is ___________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 4.0,
     "max": 4.0
   },
   {
     "type": "mcq",
-    "question": "Question 26",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page6_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page6_q1_solution.png",
+    "question": "Question 26 Suppose we are transmitting frames between two nodes using the Stop-and-Wait protocol. The frame size is 3000 bits. The transmission rate of the channel is 2000 bps (bits/second) and the propagation delay between the two nodes is 100 milliseconds. Assume that the processing times at the source and destination are negligible. Also, assume that the size of the acknowledgment packet is negligible.  \nWhich ONE of the following most accurately gives the channel utilization for the above scenario in percentage?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "88.23",
+      "B": "93.75",
+      "C": "85.44",
+      "D": "66.67"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 27",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page6_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page6_q2_solution.png",
+    "question": "Question 27 Let [latex]G [/latex] be an edge-weighted undirected graph with positive edge weights. Suppose a positive constant [latex]\\alpha [/latex] is added to the weight of every edge. Which ONE of the following statements is TRUE about the minimum spanning trees (MSTs) and shortest paths (SPs) in [latex]G [/latex] before and after the edge weight update?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Every MST remains an MST, and every SP remains an SP.",
+      "B": "MSTs need not remain MSTs, and every SP remains an SP.",
+      "C": "Every MST remains an MST, and SPs need not remain SPs.",
+      "D": "MSTs need not remain MSTs, and SPs need not remain SPs."
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 28",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page6_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page6_q3_solution.png",
+    "question": "Question 28 A meld operation on two instances of a data structure combines them into one single instance of the same data structure. Consider the following data structures: P: Unsorted doubly linked list with pointers to the head node and tail node of the list. Q: Min-heap implemented using an array. R: Binary Search Tree. Which ONE of the following options gives the worst-case time complexities for meld operation on instances of size [latex]n [/latex] of these data structures?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "P: [latex]\\Theta(1) [/latex],  Q: [latex]\\Theta(n) [/latex],  R: [latex]\\Theta(n) [/latex]",
+      "B": "P: [latex]\\Theta(1) [/latex],  Q: [latex]\\Theta(n \\log n) [/latex],  R: [latex]\\Theta(n) [/latex]",
+      "C": "P: [latex]\\Theta(n) [/latex],  Q: [latex]\\Theta(n \\log n) [/latex],  R: [latex]\\Theta(n^2) [/latex]",
+      "D": "P: [latex]\\Theta(1) [/latex],  Q: [latex]\\Theta(n) [/latex],  R: [latex]\\Theta(n \\log n) [/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 29",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page6_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page6_q4_solution.png",
+    "question": "Question 29 For a direct-mapped cache, 4 bits are used for the tag field and 12 bits are used to index into a cache block. The size of each cache block is one byte. Assume that there is no other information stored for each cache block. Which ONE of the following is the CORRECT option for the sizes of the main memory and the cache memory in this system (byte addressable), respectively?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "64 KB and 4 KB",
+      "B": "128 KB and 16 KB",
+      "C": "64 KB and 8 KB",
+      "D": "128 KB and 6 KB"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 30",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page6_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page6_q5_solution.png",
+    "question": "Question 30 Given a Context-Free Grammar [latex]G [/latex] as follows: [latex]\nS \\to A a \\mid b A c \\mid d c \\mid b d a\n[/latex] [latex]\nA \\to d\n[/latex] Which ONE of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]G [/latex] is neither LALR(1) nor SLR(1)",
+      "B": "[latex]G [/latex] is CLR(1), not LALR(1)",
+      "C": "[latex]G [/latex] is LALR(1), not SLR(1)",
+      "D": "[latex]G [/latex] is LALR(1), also SLR(1)"
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 31",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page7_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page7_q1_solution.png",
+    "question": "Question 31 An array [latex]A [/latex] of length [latex]n [/latex] with distinct elements is said to be bitonic if there is an index [latex]1 \\leq i \\leq n [/latex] such that [latex]A[1..i] [/latex] is sorted in the non-decreasing order and [latex]A[i+1..n] [/latex] is sorted in the non-increasing order. Which ONE of the following represents the best possible asymptotic bound for the worst-case number of comparisons by an algorithm that searches for an element in a bitonic array [latex]A [/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]\\Theta(n) [/latex]",
+      "B": "[latex]\\Theta(1) [/latex]",
+      "C": "[latex]\\Theta(\\log ^2 n) [/latex]",
+      "D": "[latex]\\Theta(\\log n) [/latex]"
     },
     "correct_answer": "D"
   },
   {
     "type": "mcq",
-    "question": "Question 32",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page7_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page7_q2_solution.png",
+    "question": "Question 32 Let [latex]\\mathcal{F} [/latex] be the set of all functions from [latex]\\{1, \\dots, n\\} [/latex] to [latex]\\{0,1\\} [/latex]. Define the binary relation [latex]\\preceq [/latex] on [latex]\\mathcal{F} [/latex] as follows: [latex]\n\\forall f, g \\in \\mathcal{F}, \\, f \\preceq g \\quad \\text{if and only if} \\quad \\forall x \\in \\{1, \\dots, n\\}, f(x) \\leq g(x), \\text{ where } 0 \\leq 1.\n[/latex] Which of the following statement(s) is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]\\preceq [/latex] is a symmetric relation",
+      "B": "[latex](\\mathcal{F}, \\preceq) [/latex] is a partial order",
+      "C": "[latex](\\mathcal{F}, \\preceq) [/latex] is a lattice",
+      "D": "[latex]\\preceq [/latex] is an equivalence relation"
     },
     "correct_answers": [
       "B",
@@ -414,14 +383,14 @@
   },
   {
     "type": "mcq",
-    "question": "Question 33",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page7_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page7_q3_solution.png",
+    "question": "Question 33 Given the following Karnaugh Map for a Boolean function [latex]F(w, x, y, z) [/latex]: Which one or more of the following Boolean expression(s) represent(s) [latex]F [/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set2/page7_q3.webp",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]\\bar{w} \\bar{x} \\bar{y} \\bar{z} + w \\bar{x} \\bar{y} \\bar{z} + \\bar{w} \\bar{x} y\\bar{z} + w \\bar{x} y \\bar{z}  + xz [/latex]",
+      "B": "[latex]\\bar{w} \\bar{x} \\bar{y} \\bar{z} + \\bar{w} \\bar{x} y \\bar{z} + w \\bar{x} yz + xz [/latex]",
+      "C": "[latex]\\bar{w} \\bar{x} \\bar{y} \\bar{z} + w \\bar{x}\\bar{y} \\bar{z} + w \\bar{x} \\bar{y}z +xz [/latex]",
+      "D": "[latex]\\bar{x}\\bar{z} + xz [/latex]"
     },
     "correct_answers": [
       "A",
@@ -430,14 +399,13 @@
   },
   {
     "type": "mcq",
-    "question": "Question 34",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page7_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page7_q4_solution.png",
+    "question": "Question 34 Consider a system of linear equations [latex]P X = Q [/latex] where [latex]P \\in \\mathbb{R}^{3 \\times 3} [/latex] and [latex]Q \\in \\mathbb{R}^{3 \\times 1} [/latex].  \nSuppose [latex]P [/latex] has an [latex]LU [/latex] decomposition, [latex]P = LU [/latex], where [latex] L = \\begin{bmatrix} 1 & 0 & 0 \\\\ l_{21} & 1 & 0 \\\\ l_{31} & l_{32} & 1 \\end{bmatrix} \\quad \\text{and} \\quad U = \\begin{bmatrix} u_{11} & u_{12} & u_{13} \\\\ 0 & u_{22} & u_{23} \\\\ 0 & 0 & u_{33} \\end{bmatrix} [/latex] Which of the following statement(s) is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "The system [latex]P X = Q [/latex] can be solved by first solving [latex]L Y = Q [/latex] and then [latex]U X = Y [/latex].",
+      "B": "If [latex]P [/latex] is invertible, then both [latex]L [/latex] and [latex]U [/latex] are invertible.",
+      "C": "If [latex]P [/latex] is singular, then at least one of the diagonal elements of [latex]U [/latex] is zero.",
+      "D": "If [latex]P [/latex] is symmetric, then both [latex]L [/latex] and [latex]U [/latex] are symmetric."
     },
     "correct_answers": [
       "A",
@@ -447,27 +415,25 @@
   },
   {
     "type": "mcq",
-    "question": "Question 35",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page7_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page7_q5_solution.png",
+    "question": "Question 35 Consider a stack data structure into which we can PUSH and POP records. Assume that each record pushed in the stack has a positive integer key and that all keys are distinct. We wish to augment the stack data structure with an [latex]O(1) [/latex] time MIN operation that returns a pointer to the record with the smallest key present in the stack 1) without deleting the corresponding record, and 2) without increasing the complexities of the standard stack operations. Which one or more of the following approach(es) can achieve it?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Keep with every record in the stack, a pointer to the record with the smallest key below it.",
+      "B": "Keep a pointer to the record with the smallest key in the stack.",
+      "C": "Keep an auxiliary array in which the key values of the records in the stack are maintained in sorted order.",
+      "D": "Keep a Min-Heap in which the key values of the records in the stack are maintained."
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 36",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page8_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page8_q1_solution.png",
+    "question": "Question 36 Consider the following relational schema along with all the functional dependencies that hold on them. [latex]\nR1(A, B, C, D, E): \\{ D \\to E, EA \\to B, EB \\to C \\}\n[/latex] [latex]\nR2(A, B, C, D): \\{ A \\to D, A \\to B, C \\to A \\}\n[/latex] Which of the following statement(s) is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]R1 [/latex] is in 3NF",
+      "B": "[latex]R2 [/latex] is in 3NF",
+      "C": "[latex]R1 [/latex] is NOT in 3NF",
+      "D": "[latex]R2 [/latex] is NOT in 3NF"
     },
     "correct_answers": [
       "C",
@@ -476,27 +442,26 @@
   },
   {
     "type": "mcq",
-    "question": "Question 37",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page8_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page8_q2_solution.png",
+    "question": "Question 37 Consider a demand paging system with three frames, and the following page reference string:  \n1 2 3 4 5 4 1 6 4 5 1 3 2. The contents of the frames are as follows initially and after each reference (from left to right): The *-marked references cause page replacements. Which one or more of the following could be the page replacement policy/policies in use?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set2/page8_q2.webp",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Least Recently Used page replacement policy",
+      "B": "Least Frequently Used page replacement policy",
+      "C": "Most Frequently Used page replacement policy",
+      "D": "Optimal page replacement policy"
     },
     "correct_answer": "D"
   },
   {
     "type": "mcq",
-    "question": "Question 38",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page8_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page8_q3_solution.png",
+    "question": "Question 38 [latex]P = \\{P_1, P_2, P_3, P_4\\} [/latex] consists of all active processes in an operating system.  \n[latex]R = \\{R_1, R_2, R_3, R_4\\} [/latex] consists of single instances of distinct types of resources in the system. The resource allocation graph has the following assignment and claim edges. [latex]\n\\text{Assignment edges: } R_1 \\to P_1,  R_2 \\to P_2,  R_3 \\to P_3,  R_4 \\to P_4 \n[/latex] (the assignment edge [latex]R_1 \\to P_1[/latex] means resource [latex]R_1[/latex] is assigned to process [latex]P_1[/latex], and so on for others) [latex]\n\\text{Claim edges: } P_1 \\to R_2, P_2 \\to R_3, P_3 \\to R_1, P_2 \\to R_4, P_4 \\to R_2\n[/latex] (the claim edge [latex]P_1 \\to R_2[/latex] means process [latex]P_1[/latex] is waiting for resource [latex]R_2[/latex], and so on for others) Which of the following statement(s) is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Aborting [latex]P_1 [/latex] makes the system deadlock free.",
+      "B": "Aborting [latex]P_3 [/latex] makes the system deadlock free.",
+      "C": "Aborting [latex]P_2 [/latex] makes the system deadlock free.",
+      "D": "Aborting [latex]P_1 [/latex] and [latex]P_4 [/latex] makes the system deadlock free."
     },
     "correct_answers": [
       "C",
@@ -505,14 +470,13 @@
   },
   {
     "type": "mcq",
-    "question": "Question 39",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page8_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page8_q4_solution.png",
+    "question": "Question 39 Three floating point numbers [latex]X, Y, Z [/latex] are stored in three registers [latex]RX, RY, RZ [/latex], respectively in IEEE 754 single precision format as given below in hexadecimal: [latex] RX = 0\\times C1100000, \\quad RY = 0\\times 40C00000, \\quad RZ = 0 \\times 41400000 [/latex] Which of the following option(s) is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]4(X + Y) + Z = 0 [/latex]",
+      "B": "[latex]2Y - Z = 0 [/latex]",
+      "C": "[latex]4X + 3Z = 0 [/latex]",
+      "D": "[latex]X + Y + Z = 0 [/latex]"
     },
     "correct_answers": [
       "A",
@@ -522,14 +486,13 @@
   },
   {
     "type": "mcq",
-    "question": "Question 40",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page8_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page8_q5_solution.png",
+    "question": "Question 40 Which of the following Boolean algebraic equation(s) is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]\\bar{A} B C + A \\bar{B} \\bar{C} + \\bar{A} \\bar{B} \\bar{C} + A \\bar{B} C + ABC = B C + \\bar{B} \\bar{C} + \\bar{A} \\bar{B} [/latex]",
+      "B": "[latex]A B + \\bar{A} C + B C = A B + \\bar{A} C [/latex]",
+      "C": "[latex](A + C)(\\bar{A} + B) = A B + \\bar{A} C [/latex]",
+      "D": "[latex] \\overline{(A + \\bar{B} + \\bar{D})(C + D)(\\bar{A} + C + D)(A + B + \\bar{D})} = \\bar{A} D + \\bar{C} \\bar{D} [/latex]"
     },
     "correct_answers": [
       "B",
@@ -539,14 +502,13 @@
   },
   {
     "type": "mcq",
-    "question": "Question 41",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page9_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page9_q1_solution.png",
+    "question": "Question 41 Consider two grammars [latex]G1 [/latex] and [latex]G2 [/latex] with the production rules given below: [latex]\nG1: S \\to \\text{if} E \\text{ then } S \\mid \\text{if} E \\text{ then } S \\text{ else } S \\mid a\n[/latex] [latex]\nE \\to b\n[/latex] [latex]\nG2: S \\to \\text{if} E \\text{ then } S \\mid M\n[/latex] [latex]\nM \\to \\text{if} E \\text{ then } M \\text{ else } S \\mid c\n[/latex] [latex]\nE \\to b\n[/latex] where [latex] if,then,else,a,b,c[/latex] are the terminals. Which of the following option(s) is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]G1 [/latex] is not LL(1) and [latex]G2 [/latex] is LL(1).",
+      "B": "[latex]G1 [/latex] is LL(1) and [latex]G2 [/latex] is not LL(1).",
+      "C": "[latex]G1 [/latex] and [latex]G2 [/latex] are not LL(1).",
+      "D": "[latex]G1 [/latex] and [latex]G2 [/latex] are ambiguous."
     },
     "correct_answers": [
       "C",
@@ -555,14 +517,13 @@
   },
   {
     "type": "mcq",
-    "question": "Question 42",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page9_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page9_q2_solution.png",
+    "question": "Question 42 Let [latex]\\Sigma = \\{a, b, c\\} [/latex]. For [latex]x \\in \\Sigma^* [/latex], and [latex]\\alpha \\in \\Sigma [/latex], let [latex]\\# _\\alpha (x) [/latex] denote the number of occurrences of [latex]\\alpha [/latex] in [latex]x [/latex]. Which one or more of the following option(s) define(s) regular language(s)?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]\\{ a^m b^n \\mid m, n \\geq 0 \\} [/latex]",
+      "B": "[latex]\\{ a, b \\}^* \\cap \\{ a^m b^n c^{m-n} \\mid m \\geq n \\geq 0 \\} [/latex]",
+      "C": "[latex]\\{ w \\mid w \\in \\{ a, b \\}^*, \\#_a(w) \\equiv 2 \\ (\\text{mod}\\ 7), \\#_b(w) \\equiv 3 \\ (\\text{mod}\\ 9) \\} [/latex]",
+      "D": "[latex]\\{ w \\mid w \\in \\{ a, b \\}^*, \\#_a(w) \\equiv 2 \\ (\\text{mod}\\ 7), \\#_a(w) = \\#_b(w) \\} [/latex]"
     },
     "correct_answers": [
       "A",
@@ -571,27 +532,25 @@
   },
   {
     "type": "mcq",
-    "question": "Question 43",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page9_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page9_q3_solution.png",
+    "question": "Question 43 Consider the database transactions [latex]T1 [/latex] and [latex]T2 [/latex], and data items [latex]X [/latex] and [latex]Y [/latex]. Which of the schedule(s) is/are conflict serializable? [latex] \\begin{array}{|l|}\n    \\hline\n    \\textbf{Transaction T1} \\\\ \\hline\n    R1(X) \\\\ \\hline\n    W1(Y) \\\\ \\hline\n    R1(X) \\\\ \\hline\n    W1(X) \\\\ \\hline\n    \\text{COMMIT(T1)} \\\\ \\hline\n\\end{array}\n[/latex] [latex] \\begin{array}{|l|}\n    \\hline\n    \\textbf{Transaction T2} \\\\ \\hline\n    W2(X) \\\\ \\hline\n    W2(Y) \\\\ \\hline\n    \\text{COMMIT(T2)} \\\\ \\hline\n\\end{array}\n[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]R1(X), W2(X), W1(Y), W2(Y), R1(X), W1(X), \\text{COMMIT}(T2), \\text{COMMIT}(T1) [/latex]",
+      "B": "[latex]W2(X), R1(X), W2(Y), W1(Y), R1(X), \\text{COMMIT}(T2), W1(X), \\text{COMMIT}(T1) [/latex]",
+      "C": "[latex]R1(X), W1(Y), W2(X), W2(Y), R1(X), W1(X), \\text{COMMIT}(T1), \\text{COMMIT}(T2) [/latex]",
+      "D": "[latex]W2(X), R1(X), W1(Y), W2(Y), R1(X), \\text{COMMIT}(T2), W1(X), \\text{COMMIT}(T1) [/latex]"
     },
     "correct_answer": "B"
   },
   {
     "type": "mcq",
-    "question": "Question 44",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page9_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page9_q4_solution.png",
+    "question": "Question 44 Consider the following relational schema: [latex]\n\\text{Students} (\\text{\\underline{rollno: integer,} name: string, age: integer, cgpa: real})\n[/latex] [latex]\n\\text{Courses} (\\text{\\underline{courseno: integer,} cname: string, credits: integer})\n[/latex] [latex]\n\\text{Enrolled} (\\text{ \\underline{rollno: integer,} \\underline{courseno: integer,} grade: string})\n[/latex] Which of the following options is/are correct SQL query/queries to retrieve the names of the students enrolled in course number (i.e. courseno) 1470?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "SELECT S.name FROM Students S WHERE EXISTS (SELECT * FROM Enrolled E WHERE E.courseno = 1470 AND E.rollno = S.rollno)",
+      "B": "SELECT S.name FROM Students S WHERE SIZEOF (SELECT * FROM Enrolled E WHERE E.courseno = 1470 AND E.rollno = S.rollno) > 0",
+      "C": "SELECT S.name FROM Students S WHERE 0 < (SELECT COUNT(*) FROM Enrolled E WHERE E.courseno = 1470 AND E.rollno = S.rollno)",
+      "D": "SELECT S.name FROM Students S NATURAL JOIN Enrolled E WHERE E.courseno = 1470"
     },
     "correct_answers": [
       "A",
@@ -601,219 +560,202 @@
   },
   {
     "type": "numerical",
-    "question": "Question 45",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page9_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page9_q5_solution.png",
+    "question": "Question 45 Given a computing system with two levels of cache (L1 and L2) and a main memory. The first level (L1) cache access time is 1 nanosecond (ns) and the \"hit rate\" for L1 cache is 90% while the processor is accessing the data from L1 cache. Whereas, for the second level (L2) cache, the \"hit rate\" is 80% and the \"miss penalty\" for transferring data from L2 cache to L1 cache is 10 ns. The \"miss penalty\" for the data to be transferred from main memory to L2 cache is 100 ns. Then the average memory access time in this system in nanoseconds is ___________ . (rounded off to one decimal place)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 4.0,
     "max": 4.0
   },
   {
     "type": "numerical",
-    "question": "Question 46",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page10_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page10_q1_solution.png",
+    "question": "Question 46 A 5-stage instruction pipeline has stage delays of 180, 250, 150, 170, and 250, respectively, in nanoseconds. The delay of an inter-stage latch is 10 nanoseconds. Assume that there are no pipeline stalls due to branches and other hazards. The time taken to process 1000 instructions in microseconds is __________ . (rounded off to two decimal places)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 260.2,
     "max": 261.2
   },
   {
     "type": "numerical",
-    "question": "Question 47",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page10_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page10_q2_solution.png",
+    "question": "Question 47 In a [latex]B^+[/latex] -tree where each node can hold at most four key values, a root to leaf path consists of the following nodes: [latex] A = (49, 77, 83, -), \\, B = (7, 19, 33, 44), \\, C = (20*, 22*, 25*, 26*) [/latex] The *-marked keys signify that these are data entries in a leaf. Assume that a pointer between keys [latex]k_1[/latex] and [latex]k_2[/latex] points to a subtree containing keys in [latex][k_1, k_2)[/latex], and that when a leaf is created, the smallest key in it is copied up into its parent. A record with key value 23 is inserted into the [latex]B^+[/latex] -tree. The smallest key value in the parent of the leaf that contains 25* is __________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 33.0,
     "max": 33.0
   },
   {
     "type": "numerical",
-    "question": "Question 48",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page10_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page10_q3_solution.png",
+    "question": "Question 48 A computer system supports a logical address space of [latex]2^{32}[/latex] bytes. It uses two-level hierarchical paging with a page size of 4096 bytes. A logical address is divided into a [latex]b[/latex]-bit index to the outer page table, an offset within the page of the inner page table, and an offset within the desired page. Each entry of the inner page table uses eight bytes. All the pages in the system have the same size. The value of [latex]b[/latex] is ___________ . (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 11.0,
     "max": 11.0
   },
   {
     "type": "numerical",
-    "question": "Question 49",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page10_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page10_q4_solution.png",
+    "question": "Question 49 Consider the following algorithm someAlgo that takes an undirected graph [latex]G[/latex] as input. [latex]\\texttt{someAlgo(G)}:[/latex] 1. Let [latex]v[/latex] be any vertex in [latex]G[/latex]. Run BFS on [latex]G[/latex] starting at [latex]v[/latex]. Let [latex]u[/latex] be a vertex in [latex]G[/latex] at maximum distance from [latex]v[/latex] as given by the BFS. 2. Run BFS on [latex]G[/latex] again with [latex]u[/latex] as the starting vertex. Let [latex]z[/latex] be the vertex at maximum distance from [latex]u[/latex] as given by the BFS. 3. Output the distance between [latex]u[/latex] and [latex]z[/latex] in [latex]G[/latex]. The output of [latex]\\texttt{someAlgo(T)}[/latex] for the tree shown in the given figure is __________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set2/page10_q4.webp",
     "min": 6.0,
     "max": 6.0
   },
   {
     "type": "numerical",
-    "question": "Question 50",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page10_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page10_q5_solution.png",
+    "question": "Question 50 Let [latex]\\Sigma = \\{1, 2, 3, 4\\}[/latex]. For [latex]x \\in \\Sigma^*[/latex], let [latex]\\text{prod}(x)[/latex] be the product of symbols in [latex]x[/latex] modulo 7. We take [latex]\\text{prod}(\\epsilon) = 1[/latex], where [latex]\\epsilon[/latex] is the null string. For example, [latex]\\text{prod}(124) = (1 \\times 2 \\times 4) \\mod 7 = 1[/latex]. Define \n[latex] L = \\{x \\in \\Sigma^* \\mid \\text{prod}(x) = 2\\}. [/latex] The number of states in a minimum state DFA for [latex]L[/latex] is ___________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 6.0,
     "max": 6.0
   },
   {
     "type": "numerical",
-    "question": "Question 51",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page11_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page11_q1_solution.png",
+    "question": "Question 51 An application executes [latex]6.4 \\times 10^8[/latex] number of instructions in 6.3 seconds. There are four types of instructions, the details of which are given in the table. The duration of a clock cycle in nanoseconds is _________. (rounded off to one decimal place)\n\n[latex] \\begin{array}{|c|c|c|}\n\\hline\n\\text{Instruction type} & \\text{Clock cycles required per instruction (CPI)} & \\text{Number of instructions executed} \\\\\n\\hline\n\\text{Branch} & 2 & 2.25 \\times 10^8 \\\\\n\\text{Load} & 5 & 1.20 \\times 10^8 \\\\\n\\text{Store} & 4 & 1.65 \\times 10^8 \\\\\n\\text{Arithmetic} & 3 & 1.30 \\times 10^8 \\\\\n\\hline\n\\end{array} [/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 3.0,
     "max": 3.0
   },
   {
     "type": "numerical",
-    "question": "Question 52",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page11_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page11_q2_solution.png",
+    "question": "Question 52 Consider the following C program: #include < stdio.h >\n\nint main(){\n    int a;\n    int arr[5] = {30,50,10};\n    int *ptr;\n    ptr = &arr[0] + 1;\n    a = *ptr;\n    (*ptr)++;\n    ptr++;\n    printf(\"%d\", a + (*ptr) + arr[1]);\n    return 0;\n} The output of the above program is ___________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 111.0,
     "max": 111.0
   },
   {
     "type": "numerical",
-    "question": "Question 53",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page11_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page11_q3_solution.png",
+    "question": "Question 53 Consider the following C program: #include < stdio.h >\n\nint g(int n) {\n    return (n+10);\n}\n\nint f(int n) {\n    return g(n*2);\n}\n\nint main() {\n    int sum, n;\n    sum=0;\n    for (n=1; n<3; n++)\n        sum += g(f(n));\n    printf (\"%d\", sum);\n    return 0;\n} The output of the given C program is ________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 46.0,
     "max": 46.0
   },
   {
     "type": "numerical",
-    "question": "Question 54",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page11_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page11_q4_solution.png",
+    "question": "Question 54 A quadratic polynomial [latex](x - \\alpha)(x - \\beta)[/latex] over complex numbers is said to be square invariant if [latex](x - \\alpha)(x - \\beta) = (x - \\alpha^2)(x - \\beta^2)[/latex]. Suppose from the set of all square invariant quadratic polynomials we choose one at random. The probability that the roots of the chosen polynomial are equal is ______. (rounded off to one decimal place)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 0.5,
     "max": 0.5
   },
   {
     "type": "numerical",
-    "question": "Question 55",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page11_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page11_q5_solution.png",
+    "question": "Question 55 The unit interval [latex](0, 1)[/latex] is divided at a point chosen uniformly distributed over [latex](0,1)[/latex] in [latex]\\mathbb{R}[/latex] into two disjoint subintervals. The expected length of the subinterval that contains 0.4 is ___________. (rounded off to two decimal places)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 0.7,
     "max": 0.8
   },
   {
     "type": "mcq",
-    "question": "Question 56",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page12_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page12_q1_solution.png",
+    "question": "Question 56 Despite his initial hesitation, Rehman's __________ to contribute to the success of the project never wavered. Select the most appropriate option to complete the above sentence.",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "ambivalence",
+      "B": "satisfaction",
+      "C": "resolve",
+      "D": "revolve"
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 57",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page12_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page12_q2_solution.png",
+    "question": "Question 57 Bird : Nest :: Bee : __________ Select the correct option to complete the analogy.",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Kennel",
+      "B": "Hammock",
+      "C": "Hive",
+      "D": "Lair"
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 58",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page12_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page12_q3_solution.png",
+    "question": "Question 58 If [latex]Pe^{x} = Q e^{-x} [/latex] for all real values of [latex]x [/latex], which one of the following statements is true?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]P = Q = 0 [/latex]",
+      "B": "[latex]P = Q = 1 [/latex]",
+      "C": "[latex]P = 1 [/latex];  [latex]Q = -1 [/latex]",
+      "D": "[latex]\\frac{P}{Q} = 0 [/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 59",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page12_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page12_q4_solution.png",
+    "question": "Question 59 The paper as shown in the figure is folded to make a cube where each square corresponds to a particular face of the cube. Which one of the following options correctly represents the cube? Note: The figures shown are representative.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set2/page12_q4.webp",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 60",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page12_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page12_q5_solution.png",
+    "question": "Question 60 Let [latex]p_1 [/latex] and [latex]p_2 [/latex] denote two arbitrary prime numbers. Which one of the following statements is correct for all values of [latex]p_1 [/latex] and [latex]p_2 [/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]p_1 + p_2 [/latex] is not a prime number.",
+      "B": "[latex]p_1 p_2 [/latex] is not a prime number.",
+      "C": "[latex]p_1 + p_2 + 1 [/latex] is a prime number.",
+      "D": "[latex]p_1 p_2 + 1 [/latex] is a prime number."
     },
     "correct_answer": "B"
   },
   {
     "type": "mcq",
-    "question": "Question 61",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page13_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page13_q1_solution.png",
+    "question": "Question 61 Based only on the conversation below, identify the logically correct inference: \"Even if I had known that you were in the hospital, I would not have gone there to see you\", Ramya told Josephine.",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Ramya knew that Josephine was in the hospital.",
+      "B": "Ramya did not know that Josephine was in the hospital.",
+      "C": "Ramya and Josephine were once close friends; but now, they are not.",
+      "D": "Josephine was in the hospital due to an injury to her leg."
     },
     "correct_answer": "B"
   },
   {
     "type": "mcq",
-    "question": "Question 62",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page13_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page13_q2_solution.png",
+    "question": "Question 62 If IMAGE and FIELD are coded as FHBNJ and EMFJG respectively then, which one among the given options is the most appropriate code for BEACH?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "CEADP",
+      "B": "IDBFC",
+      "C": "JGIBC",
+      "D": "IBCEC"
     },
     "correct_answer": "B"
   },
   {
     "type": "mcq",
-    "question": "Question 63",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page13_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page13_q3_solution.png",
+    "question": "Question 63 Which one of the following options is correct for the given data in the table? [latex] \\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{Iteration} (i) & 0 & 1 & 2 & 3 \\\\\n\\hline\n\\text{Input} (I) & 20 & -4 & 10 & 15 \\\\\n\\hline\n\\text{Output} (X) & 20 & 16 & 26 & 41 \\\\\n\\hline\n\\text{Output} (Y) & 20 & -80 & -800 & -12000 \\\\\n\\hline\n\\end{array} [/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]X(i) = X(i - 1) + I(i);  \\quad Y(i) = Y(i - 1) I(i);   \\quad i > 0 [/latex]",
+      "B": "[latex]X(i) = X(i - 1) I(i); \\quad Y(i) = Y(i - 1) + I(i); \\quad i > 0 [/latex]",
+      "C": "[latex]X(i) = X(i - 1) I(i); \\quad Y(i) = Y(i - 1) I(i); \\quad i > 0 [/latex]",
+      "D": "[latex]X(i) = X(i - 1) + I(i); \\quad Y(i) = Y(i - 1) I(i ? 1); \\quad i > 0 [/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 64",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page13_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page13_q4_solution.png",
+    "question": "Question 64 In the given figure, PQRS is a square of side 2 cm and PLMN is a rectangle. The corner L of the rectangle is on the side QR. Side MN of the rectangle passes through the corner S of the square. What is the area (in [latex]cm^{2} [/latex]) of the rectangle PLMN? Note: The figure shown is representative.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set2/page13_q4.webp",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]2 \\sqrt{2} [/latex]",
+      "B": "2",
+      "C": "8",
+      "D": "4"
     },
     "correct_answer": "D"
   },
   {
     "type": "mcq",
-    "question": "Question 65",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set2/page13_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set2/page13_q5_solution.png",
+    "question": "Question 65 The diagram below shows a river system consisting of 7 segments, marked P, Q, R, S, T, U, and V. It splits the land into 5 zones, marked Z1, Z2, Z3, Z4, and Z5. We need to connect these zones using the least number of bridges. Out of the following options, which one is correct? Note: The figure shown is representative.",
+    "solution": "Click here for detail solution by gateoverflow - Thus, this statement is correct. ✅",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set2/page13_q5.webp",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Bridges on P, Q, and T",
+      "B": "Bridges on P, Q, S, and T",
+      "C": "Bridges on Q, R, T, and V",
+      "D": "Bridges on P, Q, S, U, and V"
     },
     "correct_answer": "C"
   }

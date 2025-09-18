@@ -1,0 +1,676 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 The security system at an IT office is composed of 10 computers of which exactly four are\nworking. To check whether the system is functional, the officials inspect four of the\ncomputers picked at random (without replacement). The system is deemed functional if at\nleast three of the four computers inspected are working. Let the probability that the system is deemed functional be denoted by p.  Then 100p= _____________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 11.85,
+    "max": 11.95
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 Each of the nine words in the sentence \"The quick brown fox jumps over the lazy og\" is\nwritten on a separate piece of paper. These nine pieces of paper are kept in a box. One of the pieces is drawn at random from the box. The expected length of the word drawn is\n_____________. (The answer should be rounded to one decimal place)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.8,
+    "max": 3.9
+  },
+  {
+    "type": "numerical",
+    "question": "Question 3 The maximum number of edges in a bipartite graph on 12 vertices is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 36.0,
+    "max": 36.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 4 If the matrix A is such that [latex]\\begin{bmatrix} 2\\\\ -4\\\\ 7 \\end{bmatrix}\\begin{bmatrix} 1 &9 &5 \\end{bmatrix}[/latex] Then the determinant of A is equal to ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 A non-zero polynomial f(x) of degree 3 has roots at x = 1,x = 2 and x = 3. Which one of the following must be TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]f(0)f(4) \\lt 0[/latex]",
+      "B": "[latex]f(0)f(4) \\gt 0[/latex]",
+      "C": "[latex]f(0)+f(4) \\gt 0[/latex]",
+      "D": "[latex]f(0)+f(4) \\lt 0[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 The dual of a Boolean function [latex]F(x_{1},x_{2},...,x_{n}, +, \\cdot , ' ) [/latex] , written as [latex]F^{D}[/latex], is the same expression as that of F with + and  [latex]\\cdot[/latex]  swapped. F is said to be self-dual if [latex]F=F^{D}[/latex].  The number of self-dual functions with n Boolean variables is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]2^{n}[/latex]",
+      "B": "[latex]2^{n-1}[/latex]",
+      "C": "[latex]2^{2^{n}}[/latex]",
+      "D": "[latex]2^{2^{n-1}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Let  [latex]k = 2^{n}[/latex] . A circuit is built by giving the output of an n-bit binary counter as input to an n-to-[latex]2^{n}[/latex] bit decoder. This circuit is equivalent to a",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "k-bit binary up counter",
+      "B": "k-bit binary down counter.",
+      "C": "k-bit ring counter.",
+      "D": "k-bit Johnson counter"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 8 Consider the equation [latex](123)_{5}=(x8)_{y}[/latex]  with x and y as unknown. The number of possible\nsolutions is _____ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 A 4-way set-associative cache memory unit with a capacity of 16 KB is built using a block\nsize of 8 words. The word length is 32 bits. The size of the physical address space is 4 GB.\nThe number of bits for the TAG field is _____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 20.0,
+    "max": 20.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 Consider the function func shown below: int func(int num) {\nint count = 0;\nwhile (num) {\n    count++;\n    num >> = 1;\n}\nreturn (count);\n} The value returned by func(435)is __________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 9.0,
+    "max": 9.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 Suppose n and p are unsigned int variables in a C program. We wish to set p to [latex]^nC_3[/latex]. If n is large, which one of the following statements is most likely to set p correctly?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "p = n * (n - 1) * (n-2) / 6;",
+      "B": "p = n * (n - 1) / 2 * (n-2) / 3;",
+      "C": "p = n * (n - 1) / 3 * (n-2) / 2;",
+      "D": "p = n * (n - 1) / 2 * (n-2) / 6.0;"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 A priority queue is implemented as a Max-Heap. Initially, it has 5 elements. The level-order\ntraversal of the heap is: 10, 8, 5, 3, 2. Two new elements 1 and 7 are inserted into the heap in\nthat order. The level-order traversal of the heap after the insertion of the elements is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "10, 8, 7, 3, 2, 1, 5",
+      "B": "10, 8, 7, 2, 3, 1, 5",
+      "C": "10, 8, 7, 2, 3, 1, 5",
+      "D": "10, 8, 7, 5, 3, 2, 1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Which one of the following correctly determines the solution of the recurrence relation with\nT(1) = 1? [latex]T(n)=2T(\\frac{n}{2})+logn[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\theta (n)[/latex]",
+      "B": "[latex]\\theta (n logn)[/latex]",
+      "C": "[latex]\\theta (n^{2})[/latex]",
+      "D": "[latex]\\theta (log n)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 Consider the tree arcs of a BFS traversal from a source node W in an unweighted, connected,\nundirected graph. The tree T formed by the tree arcs is a data structure for computing",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "the shortest path between every pair of vertices",
+      "B": "the shortest path from W to every vertex in the graph.",
+      "C": "the shortest paths from W to only those nodes that are leaves of T.",
+      "D": "the longest path in the graph."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 If [latex]L_{1}=\\{a^{n}|n\\geq 0\\}[/latex] and [latex]L_{2}=\\{b^{n}|n\\geq 0 \\}[/latex], Consider (I) [latex]  L_{1}\\cdot L_{2}[/latex]  is a regular language (II) [latex] L_{1} \\cdot L_{2}= \\{a^{n}b^{n}|n \\geq 0\\}[/latex] Which one of the following is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only (I)",
+      "B": "Only (II)",
+      "C": "Both (I) and (II)",
+      "D": "Neither (I) nor (II)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Let [latex]A \\leq _{m}B[/latex] denotes that language A is mapping reducible (also known as many-to-one reducible) to language B. Which one of the following is FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "If [latex]A\\leq _{m}B[/latex] and B is recursive then A is recursive",
+      "B": "If [latex]A\\leq _{m}B[/latex] and A is undecidable then B is undecidable",
+      "C": "If [latex]A\\leq _{m}B[/latex] and B is recursively enumerable then A is recursively enumerable.",
+      "D": "If [latex]A\\leq _{m}B[/latex] and B is not recursively enumerable then A is not recursively enumerable"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Consider the grammar defined by the following production rules, with two operators * and + S [latex]\\rightarrow[/latex]T *P T [latex]\\rightarrow[/latex]U| T*U P [latex]\\rightarrow[/latex] Q +P |Q Q [latex]\\rightarrow[/latex] Id U [latex]\\rightarrow[/latex] Id Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]+[/latex] is left associative, while * is right associative",
+      "B": "[latex]+[/latex] is right associative, while * is left associative",
+      "C": "Both + and * are right associative",
+      "D": "Both + and * are left associative"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 Which one of the following is NOT performed during compilation?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Dynamic memory allocation",
+      "B": "Type checking",
+      "C": "Symbol table management",
+      "D": "Inline expansion"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The requirements document also describes how the requirements that are listed in the document are implemented efficiently.",
+      "B": "Consistency and completeness of functional requirements are always achieved in\npractice.",
+      "C": "Prototyping is a method of requirements validation",
+      "D": "Requirements review is carried out to find the errors in system design"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 A FAT (file allocation table) based file system is being used and the total overhead of each\nentry in the FAT is 4 bytes in size. Given a 100x[latex]10^{6}[/latex] bytes disk on which the file system is\nstored and data block size is [latex]10^{3}[/latex] bytes, the maximum size of a file that can be stored on this\ndisk in units of [latex]10^{6}[/latex] bytes is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 99.55,
+    "max": 99.65
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 The maximum number of super keys for the relation schema R (E, F, G, H) with E as the key\nis __________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 8.0,
+    "max": 8.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 Given an instance of the STUDENTS relation as shown below For (StudentName, StudentAge) to be a key for this instance, the value x should NOT be\nequal to_______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set2/page5_q2.webp",
+    "min": 19.0,
+    "max": 19.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 Which one of the following is TRUE about the interior gateway routing protocols - Routing\nInformation Protocol (RIP) and Open Shortest Path First (OSPF)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "RIP uses distance vector routing and OSPF uses link state routing",
+      "B": "OSPF uses distance vector routing and RIP uses link state routing",
+      "C": "Both RIP and OSPF use link state routing",
+      "D": "Both RIP and OSPF use distance vector routing"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 Which one of the following socket API functions converts an unconnected active TCP socket\ninto a passive socket?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "connect",
+      "B": "bind",
+      "C": "listen",
+      "D": "accept"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 In the diagram shown below, L1 is an Ethernet LAN and L2 is a Token-Ring LAN. An IP\npacket originates from sender S and traverses to R, as shown. The links within each ISP and\nacross the two ISPs, are all point-to-point' optical links. The initial value of the TTL field is\n32. The maximum possible value of the TTL field when R receives the datagram is\n____________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set2/page5_q5.webp",
+    "min": 26.0,
+    "max": 26.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 Consider the store and forward packet switched network given below. Assume that the\nbandwidth of each link is [latex]10^{6}[/latex] bytes / sec. A user on host A sends a file of size [latex]10^{3}[/latex] bytes to\nhost B through routers R1 and R2 in three different ways. In the first case a single packet\ncontaining the complete file is transmitted from A to B. In the second case, the file is split\ninto 10 equal parts, and these packets are transmitted from A to B. In the third case, the file is split into 20 equal parts and these packets are sent from A to B. Each packet contains 100\nbytes of header information along with the user data. Consider only transmission time and\nignore processing, queuing and propagation delays. Also assume that there are no errors\nduring transmission. Let T1, T2 and T3 be the times taken to transmit the file in the first,\nsecond and third case respectively. Which one of the following is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set2/page6_q1.webp",
+    "options": {
+      "A": "[latex]T1 \\lt T2 \\lt T3[/latex]",
+      "B": "[latex]T1 \\gt T2 \\gt T3[/latex]",
+      "C": "[latex]T2=T3, T3 \\lt T1[/latex]",
+      "D": "[latex]T1=T3, T3 \\gt T2[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 An IP machine Q has a path to another IP machine H via three IP routers R1, R2, and R3. Q---R1---R2---R3---H H acts as an HTTP server, and Q connects to H via HTTP and downloads a file. Session layer\nencryption is used, with DES as the shared key encryption protocol. Consider the following\nfour pieces of information: [I1] The URL of the file downloaded by Q [I2] The TCP port numbers at Q and H [I3] The IP addresses of Q and H [I4] The link layer addresses of Q and H Which of I1, I2, I3, and I4 can an intruder learn through sniffing at R2 alone?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only I1 and I2",
+      "B": "Only I1",
+      "C": "Only I2 and I3",
+      "D": "Only I3 and I4"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 A graphical HTML browser resident at a network client machine Q accesses a static HTML\nwebpage from a HTTP server S. The static HTML page has exactly one static embedded\nimage which is also at S. Assuming no caching, which one of the following is correct about\nthe HTML webpage loading (including the embedded image)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Q needs to send at least 2 HTTP requests to S, each necessarily in a separate TCP\nconnection to server S",
+      "B": "Q needs to send at least 2 HTTP requests to S, but a single TCP connection to server S is sufficient",
+      "C": "A single HTTP request from Q to S is sufficient, and a single TCP connection between Q and S is necessary for this",
+      "D": "A single HTTP request from Q to S is sufficient, and this is possible without any TCP connection between Q and S"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Consider the following schedule S of transactions T1, T2, T3, T4: Which one of the following statements is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set2/page6_q4.webp",
+    "options": {
+      "A": "S is conflict-serializable but not recoverable",
+      "B": "S is not conflict-serializable but is recoverable",
+      "C": "S is both conflict-serializable and recoverable",
+      "D": "S is neither conflict-serializable nor is it recoverable"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Consider a join (relation algebra) between relations r(R)and s(S) using the nested loop\nmethod. There are 3 buffers each of size equal to disk block size, out of which one buffer is\nreserved for intermediate results. Assuming size(r(R))[latex]\\lt[/latex]size(s(S)), the join will have fewer\nnumber of disk block accesses if",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "relation r(R) is in the outer loop.",
+      "B": "relation s(S) is in the outer loop",
+      "C": "join selection factor between r(R) and s(S) is more than 0.5.",
+      "D": "join selection factor between r(R) and s(S) is less than 0.5"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 Consider the procedure below for the Producer-Consumer problem which uses semaphores: Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set2/page7_q1.webp",
+    "options": {
+      "A": "The producer will be able to add an item to the buffer, but the consumer can never consume it.",
+      "B": "The consumer will remove no more than one item from the buffer.",
+      "C": "Deadlock occurs if the consumer succeeds in acquiring semaphore s when the buffer is empty",
+      "D": "The starting value for the semaphore n must be 1 and not 0 for deadlock-free operation."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 Three processes A, B and C each execute a loop of 100 iterations. In each iteration of the\nloop, a process performs a single computation that requires [latex]t_{c}[/latex] CPU milliseconds and then\ninitiates a single I/O operation that lasts for [latex]t_{io}[/latex] milliseconds. It is assumed that the computer\nwhere the processes execute has sufficient number of I/O devices and the OS of the computer assigns different I/O devices to each process. Also, the scheduling overhead of the OS is negligible. The processes have the following characteristics: The processes A, B, and C are started at times 0, 5 and 10 milliseconds respectively, in a pure\ntime sharing system (round robin scheduling) that uses a time slice of 50 milliseconds. The\ntime in milliseconds at which process C would complete its first I/O operation is\n___________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set2/page7_q2.webp",
+    "min": 1000.0,
+    "max": 1000.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 A computer has twenty physical page frames which contain pages numbered 101 through\n120. Now a program accesses the pages numbered 1, 2, ..., 100 in that order, and repeats the\naccess sequence THRICE. Which one of the following page replacement policies experiences\nthe same number of page faults as the optimal page replacement policy for this program?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Least-recently-used",
+      "B": "First-in-first-out",
+      "C": "Last-in-first-out",
+      "D": "Most-recently-used"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 For a C program accessing x[i][j][k], the following intermediate code is generated by a\ncompiler. Assume that the size of an integer is 32 bits and the size of a character is 8 bits. t0 = i * 1024 t1 = j * 32 t2 = k * 4 t3 = t1 + t0 t4 = t3 + t2 t5 = x[t4] Which one of the following statements about the source code for the C program is\nCORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "x is declared as \"int x[32] [32] [8]\".",
+      "B": "x is declared as \"int x[4] [1024] [32]\".",
+      "C": "x is declared as \"char x[4] [32] [8]\".",
+      "D": "x is declared as \"char x[32] [16] [2]\"."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Let [latex]\\lt M \\gt[/latex] be the encoding of a Turing machine as a string over [latex]\\Sigma[/latex]={0,1}. Let L = { [latex]\\lt M \\gt[/latex] |M is a Turning machine that accepts a string of length 2014}. Then, L is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "decidable and recursively enumerable",
+      "B": "undecidable but recursively enumerable",
+      "C": "undecidable and not recursively enumerable",
+      "D": "decidable but not recursively enumerable"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Let [latex]L_{1}=\\{w \\in \\{0,1\\}*|w[/latex] has at least as many occurrences of (110)'s as (011)'s}. Let [latex]L_{2}=\\{w \\in \\{0,1\\}*|w[/latex] has at least as many occurrence of (000)'s as (111)'s}. Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "L1 is regular but not L2",
+      "B": "L2 is regular but not L1",
+      "C": "Both L1 and L2 are regular",
+      "D": "Neither L1 nor L2 are regular"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 Consider two strings A=\"qpqrr\" and B=\"pqprqrp\". Let x be the length of the longest\ncommon subsequence (not necessarily contiguous) between A and B and let y be the number\nof such longest common subsequences between A and B. Then x + 10y = ___.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 34.0,
+    "max": 34.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 Suppose P, Q, R, S, T are sorted sequences having lengths 20, 24, 30, 35, 50 respectively.\nThey are to be merged into a single sequence by merging together two sequences at a time.\nThe number of comparisons that will be needed in the worst case by the optimal algorithm for doing this is ____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 358.0,
+    "max": 358.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 Consider the expression tree shown. Each leaf represents a numerical value, which can either\nbe 0 or 1. Over all possible choices of the values at the leaves, the maximum possible value\nof the expression represented by the tree is ___.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set2/page8_q4.webp",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 Consider the following function double f (double x) {\nif ( abs (x*x - 3) < 0. 01) return x;\nelse return f (x / 2 + 1.5/x);\n} Give a value q (to 2 decimals) such that f(q) will return q:______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1.72,
+    "max": 1.74
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 Suppose a stack implementation supports an instruction REVERSE, which reverses the order\nof elements on the stack, in addition to the PUSH and POP instructions. Which one of the\nfollowing statements is TRUE with respect to this modified stack?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A queue cannot be implemented using this stack.",
+      "B": "A queue can be implemented where ENQUEUE takes a single instruction and\nDEQUEUE takes a sequence of two instructions.",
+      "C": "A queue can be implemented where ENQUEUE takes a sequence of three instructions\nand DEQUEUE takes a single instruction",
+      "D": "A queue can be implemented where both ENQUEUE and DEQUEUE take a single\ninstruction each."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 Consider the C function given below int f(int j)\n{\nstatic int i = 50;\nint k;\nif (i == j)\n{\nprintf(\"something\");\nk = f(i);\nreturn 0;\n}\nelse return 0;\n} Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The function returns 0 for all values of j.",
+      "B": "The function prints the string something for all values of j.",
+      "C": "The function returns 0 when j = 50.",
+      "D": "The function will exhaust the runtime stack or run into an infinite loop when j = 50"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 In designing a computer's cache system, the cache block (or cache line) size is an important\nParameter. Which one of the following statements is correct in this context?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A smaller block size implies better spatial locality",
+      "B": "A smaller block size implies a smaller cache tag and hence lower cache tag overhead",
+      "C": "A smaller block size implies a larger cache tag and hence lower cache hit time",
+      "D": "A smaller block size incurs a lower cache miss penalty"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 If the associativity of a processor cache is doubled while keeping the capacity and block size\nunchanged, which one of the following is guaranteed to be NOT affected?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Width of tag comparator",
+      "B": "Width of set index decoder",
+      "C": "Width of way selection multiplexor",
+      "D": "Width of processor to main memory data bus"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 The value of a float type variable is represented using the single-precision 32-bit floating\npoint format of IEEE-754 standard that uses 1 bit for sign, 8 bits for biased exponent and 23\nbits for mantissa. A float type variable x is assigned the decimal value of -14.25. The\nrepresentation of x in hexadecimal notation is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "C1640000H",
+      "B": "416C0000H",
+      "C": "41640000H",
+      "D": "C16C0000H"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 In the Newton-Raphson method, an initial guess of [latex]x_{0}=2[/latex] is made and the sequence\n[latex]x_{0},x_{1},x_{2}...[/latex] is obtained for the function [latex]0.75x^{3}-2x^{2}-2x+4=0[/latex] Consider the statements (I) [latex]x_{3}[/latex]=0. (II) The method converges to a solution in a finite number of iterations. Which of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only I",
+      "B": "Only II",
+      "C": "Both I and II",
+      "D": "Neither I nor II"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 The product of the non-zero eigenvalues of the matrix [latex]\\begin{bmatrix} 1 & 0&0 & 0&1 \\\\ 0& 1& 1 & 1 & 0\\\\ 0& 1& 1& 1&0 \\\\ 0 & 1 & 1 & 1 & 0\\\\ 1&0 & 0&0 & 1 \\end{bmatrix}[/latex] is_______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 The probability that a given positive integer lying between 1 and 100 (both inclusive) is NOT\ndivisible by 2, 3 or 5 is ______ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.259,
+    "max": 0.261
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 The number of distinct positive integral factors of 2014 is ____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 8.0,
+    "max": 8.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 Consider the following relation on subsets of the set S of integers between 1 and 2014. For\ntwo distinct subsets U and V of S we say U[latex]\\lt[/latex]V if the minimum element in the symmetric\ndifference of the two sets is in U. Consider the following two statements: S1: There is a subset of S that is larger than every other subset. S2: There is a subset of S that is smaller than every other subset. Which one of the following is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Both S1 and S2 are true",
+      "B": "S1 is true and S2 is false",
+      "C": "S2 is true and S1 is false",
+      "D": "Neither S1 nor S2 is true"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 A cycle on n vertices is isomorphic to its complement. The value of n is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 The number of distinct minimum spanning trees for the weighted graph below is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set2/page11_q2.webp",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 Which one of the following Boolean expressions is NOT a tautology?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]((a\\rightarrow b)\\wedge (b\\rightarrow c))\\rightarrow (a\\rightarrow c)[/latex]",
+      "B": "[latex](a\\rightarrow c)\\rightarrow (\\sim b\\rightarrow (a\\wedge c))[/latex]",
+      "C": "[latex](a\\wedge b\\wedge c)\\rightarrow (c\\wedge a)[/latex]",
+      "D": "[latex]a\\rightarrow (b\\rightarrow a)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 SQL allows duplicate tuples in relations, and correspondingly defines the multiplicity of\ntuples in the result of joins. Which one of the following queries always gives the same answer\nas the nested query shown below: Select * from R where a in (select S. a from S)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Select R. * from R, S where R. a=S. a",
+      "B": "Select distinct R. * from R,S where R. a=S. a",
+      "C": "Select R. * from R, (select distinct a from S) as S1 where R. a=S1.a",
+      "D": "Select R. * from R, S where R.a = S. a and is unique R"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 Consider a main memory system that consists of 8 memory modules attached to the system\nbus, which is one word wide. When a write request is made, the bus is occupied for 100\nnanoseconds (ns) by the data, address, and control signals. During the same 100 ns, and for\n500 ns thereafter, the addressed memory module executes one cycle accepting and storing the data. The (internal) operation of different memory modules may overlap in time, but only one request can be on the bus at any time. The maximum number of stores (of one word each) that can be initiated in 1 millisecond is ____________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 10000.0,
+    "max": 10000.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 Choose the most appropriate phrase from the options given below to complete the following sentence. India is a post-colonial country because",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "it was a former British colony",
+      "B": "Indian Information Technology professionals have colonized the world",
+      "C": "India does not follow any colonial practices",
+      "D": "India has helped other countries gain freedom"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Who ___________ was coming to see us this evening?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "you said",
+      "B": "did you say",
+      "C": "did you say that",
+      "D": "had you said"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Match the columns. [latex]\\begin{array}{ll|ll}\\hline &\\textbf{Column 1} & & \\textbf{Column 2 } \\\\\\hline 1.& \\text{eradicate} &P. &\\text{misrepresent}\\\\\\hline 2.&\\text{distort} &Q.& \\text{soak completely}\\\\\\hline 3.&\\text{saturate} &R.& \\text{use}\\\\\\hline 4.&\\text{utilize} &S.& \\text{destroy utterly}\\\\\\hline \\end{array}[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1:S, 2:P, 3:Q, 4:R",
+      "B": "1:P, 2:Q, 3:R, 4:S",
+      "C": "1:Q, 2:R, 3:S, 4:P",
+      "D": "1:S, 2:P, 3:R, 4:Q"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 What is the average of all multiples of 10 from 2 to 198?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "90",
+      "B": "100",
+      "C": "110",
+      "D": "120"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 The value of [latex]\\sqrt{12+\\sqrt{12+\\sqrt{12+\\dots}}}[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "3.464",
+      "B": "3.932",
+      "C": "4",
+      "D": "4.444"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 The old city of Koenigsberg, which had a German majority population before World War 2, is now called Kaliningrad. After the events of the war, Kaliningrad is now a Russian territory and has a predominantly Russian population. It is bordered by the Baltic Sea on the north and the countries of Poland to the south and west and Lithuania to the east respectively. Which of the statements below can be inferred from this passage?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Kaliningrad was historically Russian in its ethnic make up",
+      "B": "Kaliningrad is a part of Russia despite it not being contiguous with the rest of Russia",
+      "C": "Koenigsberg was renamed Kaliningrad, as that was its original Russian name",
+      "D": "Poland and Lithuania are on the route from Kaliningrad to the rest of Russia"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 Number of people diagnosed with dengue fever (contracted from the bite of a mosquito) in North India is twice the number diagnosed last year. Municipal authorities have concluded that measures to control the mosquito population have failed in this region. Which one of the following statements, if true, does not contradict this conclusion?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A high proportion of the affected population has returned from neighbouring countries where dengue is prevalent",
+      "B": "More cases of dengue are now reported because of an increase in the Municipal Office's administrative efficiency",
+      "C": "Many more cases of dengue are being diagnosed this year since the introduction of a new and effective diagnostic test",
+      "D": "The number of people with malarial fever (also contracted from mosquito bites) has increased this year"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 If [latex]x[/latex] is real and [latex]|x^2-2x+3|=11[/latex], then possible values of [latex]|-x^3+x^2-x|[/latex] include",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2, 4",
+      "B": "2, 14",
+      "C": "4, 52",
+      "D": "14, 52"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 64 The ratio of male to female students in a college for five years is plotted in the following line graph. If the number of female students doubled in 2009, by what percent did the number of male students increase in 2009?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set2/page13_q4.webp",
+    "min": 140.0,
+    "max": 140.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 At what time between 6 a. m. and 7 a. m. will the minute hand and hour hand of a clock make an angle closest to [latex]60^{\\circ}[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "6: 22 a.m.",
+      "B": "6: 27 a.m.",
+      "C": "6: 38 a.m.",
+      "D": "6: 45 a.m."
+    },
+    "correct_answer": "A"
+  }
+]

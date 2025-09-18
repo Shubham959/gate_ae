@@ -1,0 +1,660 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Consider the statement \"Not all that glitters is gold\" Predicate glitters(x)  is true if x glitters  and predicate gold(x) is true if x is gold. Which one of the following logical formulae represents the above statement?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\forall x:glitters(x)\\Rightarrow \\neg gold(x)[/latex]",
+      "B": "[latex]\\forall x:gold(x)\\Rightarrow glitters(x)[/latex]",
+      "C": "[latex]\\exists x:gold(x)\\wedge \\neg glitters(x)[/latex]",
+      "D": "[latex]\\exists x:glitters(x)\\wedge \\neg gold(x)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 Suppose you break a stick of unit length at a point chosen uniformly at random. Then the expected length of the shorter stick is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.24,
+    "max": 0.27
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Let G=(V,E) be a directed graph where V is the set of vertices and E the set of edges. Then which one of the following graphs has the same strongly connected components as G ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]G_{1}=(V,E_{1})[/latex] where [latex]E_{1}\\equiv \\{(u,v)|(u,v)\\notin E\\}[/latex]",
+      "B": "[latex]G_{2}=(V,E_{2})[/latex] where [latex]E_{2}\\equiv \\{(u,v)|(v,u)\\in E\\}[/latex]",
+      "C": "[latex]G_{3}=(V,E_{3})[/latex] where [latex]E_{3}\\equiv \\{(u,v)|[/latex] there is a path of lenth [latex]\\leq[/latex] 2 from u to v in E}",
+      "D": "[latex]G_{4}=(V_{4},E)[/latex] where [latex]V_{4}[/latex]  is the set of vertices in G which are not isolated"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 4 Consider the following system of equations: 3x + 2y = 1 4x + 7z = 1 x + y + z = 3 x - 2y + 7z = 0 The number of solutions for this system is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 The value of the dot product of the eigenvectors corresponding to any pair of different eigenvalues of a 4-by-4 symmetric positive definite matrix is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Let the function [latex]f(\\theta)=\\begin{vmatrix} sin\\theta & cos\\theta & tan\\theta \\\\ sin(\\frac{\\pi}{6}) & cos(\\frac{\\pi}{6}) & tan(\\frac{\\pi}{6})\\\\ sin(\\frac{\\pi}{3})& cos(\\frac{\\pi}{3}) & tan(\\frac{\\pi}{3}) \\end{vmatrix}[/latex] where [latex]\\theta \\in [\\frac{\\pi}{6},\\frac{\\pi}{3}][/latex] and [latex]f'(\\theta )[/latex] denote the derivative of  f with respect to [latex]\\theta[/latex] . Which of the following\nstatements is/are TRUE? (I) There existrs [latex]\\theta \\in (\\frac{\\pi}{6},\\frac{\\pi}{3})[/latex] such that [latex]f'(\\theta )=0[/latex] (I) There existrs [latex]\\theta \\in (\\frac{\\pi}{6},\\frac{\\pi}{3})[/latex] such that [latex]f'(\\theta )\\neq 0[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I only",
+      "B": "II only",
+      "C": "Both I and II",
+      "D": "Neither I nor II"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Consider the following Boolean Algebra for F: [latex]F(P,Q,R,S)=PQ+\\bar{P}QR+\\bar{P}Q\\bar{R}S[/latex] The minimal sum-of products form of F is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "PQ+QR+QS",
+      "B": "P+Q+R+S",
+      "C": "[latex]\\bar{P}+\\bar{Q}+\\bar{R}+\\bar{S}[/latex]",
+      "D": "[latex]\\bar{P}R+\\bar{PRS}+P[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 8 The base (or radix) of the number system such that the following equation holds is_______. [latex]\\frac{312}{20}=13.1[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 A machine has a 32-bit architecture, with 1-word long instructions. It has 64 registers, each of  which is 32 bits long. It needs to support 45 instructions, which have an immediate operand in addition to two register operands. Assuming that the immediate operand is an unsigned integer, the maximum value of the immediate operand is ____________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 16383.0,
+    "max": 16383.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 Consider the following program in C language: # include &lt stdio.h &gt\r\nmain()\r\n{\r\n  int i;\r\n  int * pi = &i;\r\n  scanf( \"%d\", pi) ;\r\n  printf (\"%d \\ n\", i+5) ;\r\n} Which one of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Compilation fails.",
+      "B": "Execution results in a run-time error.",
+      "C": "On execution, the value printed is 5 more than the address of variable i.",
+      "D": "On execution, the value printed is 5 more than the integer value entered"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 Let G be a graph with n vertices and m edges. What is the tightest upper bound on the\nrunning time of Depth First Search on G, when G is represented as an adjacency matrix?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n)[/latex]",
+      "B": "[latex]\\Theta (n+m)[/latex]",
+      "C": "[latex]\\Theta (n^{2})[/latex]",
+      "D": "[latex]\\Theta (m^{2})[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 Consider rooted n node binary tree represented using pointers. The best upper bound on the\ntime required to determine the number of sub trees having exactly 4 nodes is [latex]O(n^{a}lob^{b}n)[/latex] .\nThen the value of a+10b is_______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Consider the directed graph given below. Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set1/page3_q3.webp",
+    "options": {
+      "A": "The graph does not have any topological ordering",
+      "B": "Both PQRS and SRQP are topological orderings",
+      "C": "Both PSRQ and SPRQ are topological orderings.",
+      "D": "PSRQ is the only topological ordering"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 Let P be a quick sort program to sort numbers in ascending order using the first element as\nthe pivot. Let t1 and t2 be the number of comparisons made by P for the inputs [1 2 3 4\n5] and [4 1 5 3 2] respectively. Which one of the following holds?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]t_{1}=5[/latex]",
+      "B": "[latex]t_{1} \\lt t_{2}[/latex]",
+      "C": "[latex]t_{1} \\gt t_{2}[/latex]",
+      "D": "[latex]t_{1}=t_{2}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The language L = {[latex]a^{n}b^{n}\\geq 0[/latex]} is regular",
+      "B": "The language L = {[latex]a^{n}[/latex]| n is prime} is regular",
+      "C": "The language L={ w | w has 3k +1    b's for some k [latex]\\in[/latex] N with [latex]\\Sigma[/latex] = {a,b} } is regular.",
+      "D": "The language L = { ww| w[latex]\\in \\Sigma^{*}[/latex] with [latex]\\Sigma[/latex]={0,1}} is regular."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Consider the finite automaton in the following figure. What is the set of reachable states for the input string 0011?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set1/page4_q1.webp",
+    "options": {
+      "A": "[latex]\\{q_{0},q_{1},q_{2}\\}[/latex]",
+      "B": "[latex]\\{q_{0},q_{1}\\}[/latex]",
+      "C": "[latex]\\{q_{0},q_{1},q_{2},q_{3}\\}[/latex]",
+      "D": "[latex]\\{q_{3}\\}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Which one of the following is FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A basic block is a sequence of instructions where control enters the sequence at the\nbeginning and exits at the end.",
+      "B": "Available expression analysis can be used for common subexpression elimination.",
+      "C": "Live variable analysis can be used for dead code elimination",
+      "D": "x=4*5 [latex]\\Rightarrow[/latex]x=20 is an example of common subexpression elimination"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 Match the following",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set1/page4_q3.webp",
+    "options": {
+      "A": "1-a, 2-b, 3-c, 4-d",
+      "B": "1-d, 2-a, 3-b, 4-c",
+      "C": "1-d, 2-b, 3-a, 4-c",
+      "D": "1-c, 2-a, 3-b, 4-d"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 Suppose a disk has 201 cylinders, numbered from 0 to 200. At some time the disk arm is at\ncylinder 100, and there is a queue of disk access requests for cylinders 30, 85, 90, 100, 105,\n110, 135 and 145. If Shortest-Seek Time First (SSTF) is being used for scheduling the disk\naccess, the request for cylinder 90 is serviced after servicing ____________ number of\nrequests.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 Which one of the following is FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "User level threads are not scheduled by the kernel",
+      "B": "When a user level thread is blocked, all other threads of its process are blocked.",
+      "C": "Context switching between user level threads is faster than context switching between\nkernel level threads.",
+      "D": "Kernel level threads cannot share the code segment"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 Consider the relation scheme R = (E, F, G, H, I, J, K, L, M, N) and the set of functional\r\ndependencies {{E,F}[latex]\\rightarrow[/latex]{G}, {F}[latex]\\rightarrow[/latex]{I,J}, {E,H}[latex]\\rightarrow[/latex]{K,L},  {K}[latex]\\rightarrow[/latex]{M}, \r\n{L}[latex]\\rightarrow[/latex]{N} }  on R. What is the key for R?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "{E, F}",
+      "B": "{E, F, H}",
+      "C": "{E, F, H, K, L}",
+      "D": "{E}"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 Given the following statements: S1: A foreign key declaration can always be replaced by an equivalent check\nassertion in SQL S2: Given the table R(a,b,c) where a and b together form the primary key, the following is a\nvalid table definition. CREATE TABLE S ( a INTEGER, d INTEGER, e INTEGER, PRIMARY KEY (d), FOREIGN KEY (a) references R) Which one of the following statements is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "S1 is TRUE and S2 is a FALSE",
+      "B": "Both S1 and S2 are TRUE",
+      "C": "S1 is FALSE and S2 is a TRUE",
+      "D": "Both S1 and S2 are FALSE"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 Consider the following three statements about link state and distance vector routing protocols,\nfor a large network with 500 network nodes and 4000 links [S1] The computational overhead in link state protocols is higher than in distance vector\nprotocols. [S2] A distance vector protocol (with split horizon) avoids persistent routing loops, but not\na link state protocol. [S3] After a topology change, a link state protocol will converge faster than a distance\nvector protocol. Which one of the following is correct about S1, S2, and S3?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "S1, S2, and S3 are all true",
+      "B": "S1, S2, and S3 are all false.",
+      "C": "S1 and S2 are true, but S3 is false",
+      "D": "S1 and S3 are true, but S2 is false."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 Which one of the following are used to generate a message digest by the network security\nprotocols? (P) RSA (Q) SHA-1 (R) DES (S) MD5",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "P and R only",
+      "B": "Q and R only",
+      "C": "Q and S only",
+      "D": "R and S only"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 Identify the correct order in which the following actions take place in an interaction between\na web browser and a web server. 1. The web browser requests a webpage using HTTP. 2. The web browser establishes a TCP connection with the web server. 3. The web server sends the requested webpage using HTTP. 4. The web browser resolves the domain name using DNS.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4,2,1,3",
+      "B": "1,2,3,4",
+      "C": "4,1,2,3",
+      "D": "2,4,1,3"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 Consider a token ring network with a length of 2km having 10 stations including a monitoring station. The propagation speed of the signal is 2x[latex]10^{8}[/latex] m/s and the token transmission time is ignored. If each station is allowed to hold the token for 2 [latex]\\mu[/latex]sec, the minimum time for which the monitoring station should wait (in [latex]\\mu[/latex]sec) before assuming that the token is lost is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 28.0,
+    "max": 30.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 Let the size of congestion window of a TCP connection be 32 KB when a timeout occurs. The round trip time of the connection is 100 msec and the maximum segment size used is 2kB. The time taken (in msec) by the TCP connection to get back to 32KB congestion window is ______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1100.0,
+    "max": 1300.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 28 Consider a selective repeat sliding window protocol that uses a frame size of 1 KB to send\ndata on a 1.5 Mbps link with a one-way latency of 50 msec. To achieve a link utilization of\n60%, the minimum number of bits required to represent the sequence number field is ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Consider the following four schedules due to three transactions (indicted by the subscript)\nusing read and write on a data item x, denoted by  r(x) and w(x) respectively. Which one of\nthem is conflict serializable?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "r1(x); r2(x); w1(x); r3(x);  w2(x)",
+      "B": "r2(x);  r1(x);  w2(x);  r3(x);  w1(x)",
+      "C": "r3(x); r2(x); r1(x); w2(x);  w1(x)",
+      "D": "r2(x); w2(x); r3(x); r1(x); w1(x)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Given the following two statements: S1: Every table with two single-valued attributes is in 1NF, 2NF, 3NF and BCNF S2 : AB[latex]\\rightarrow[/latex]C, D[latex]\\rightarrow[/latex] E, E[latex]\\rightarrow[/latex]C is a minimal cover for the set of functional dependencies AB[latex]\\rightarrow[/latex]C, D[latex]\\rightarrow[/latex]E, AB[latex]\\rightarrow[/latex] E,E[latex]\\rightarrow[/latex]C. Which one of the following is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "S1 is TRUE and S2 is FALSE",
+      "B": "Both S1 and S2 are TRUE.",
+      "C": "S1 is FALSE and S2 is TRUE.",
+      "D": "Both S1 and S2 are FALSE."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 An operating system uses the Banker's algorithm for deadlock avoidance when managing the\nallocation of three resource types X, Y, and Z to three processes P0, P1, and P2. The table\ngiven below presents the current system state. Here, the Allocation matrix shows the current\nnumber of resources of each type allocated to each process and the Max matrix shows the\nmaximum number of resources of each type required by each process during its execution. There are 3 units of type X, 2 units of type Y and 2 units of type Z still available. The system\nis currently in a safe state. Consider the following independent requests for additional\nresources in the current state: REQ1: P0 requests 0 units of X, 0 units of Y and 2 units of Z REQ2: P1 requests 2 units of x, 0 units of Y and 0 units of Z Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set1/page7_q1.webp",
+    "options": {
+      "A": "Only REQ1 can be permitted.",
+      "B": "Only REQ2 can be permitted",
+      "C": "Both REQ1 and REQ2 can be permitted",
+      "D": "Neither REQ1 nor REQ2 can be permitted"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 Consider the following set of processes that need to be scheduled on a single CPU. All the\ntimes are given in milliseconds Using the shortest remaining time first scheduling algorithm, the average process turnaround time (in msec) is ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set1/page7_q2.webp",
+    "min": 7.2,
+    "max": 7.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 Assume that there are 3 page frames which are initially empty. If the page reference string 1,\n2, 3, 4, 2, 1, 5, 3, 2, 4, 6, the number of page faults using the optimal replacement policy is\n______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 7.0,
+    "max": 7.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 A canonical set of items is given below S[latex]\\rightarrow L.  \\gt R[/latex] Q[latex]\\rightarrow[/latex]R. On input symbol [latex]\\lt [/latex] the set has",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "a shift-reduce conflict and a reduce-reduce conflict.",
+      "B": "a shift-reduce conflict but not a reduce-reduce conflict",
+      "C": "a reduce-reduce conflict but not a shift-reduce conflict.",
+      "D": "neither a shift-reduce nor a reduce-reduce conflict"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Let L be a language and [latex]\\bar{L}[/latex] be its complement. Which of the following is NOT a viable possibility?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Neither L nor [latex]\\bar{L}[/latex] is recursively enumerable (r.e.).",
+      "B": "One of L and [latex]\\bar{L}[/latex] is r.e. but not recursive; the other is not r.e.",
+      "C": "Both L and [latex]\\bar{L}[/latex] are r.e. but not recursive",
+      "D": "Both L and [latex]\\bar{L}[/latex] are recursive."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Which of the regular expressions given below represent the following DFA? I) 0*1(1+00*1)* II) 0*1*1+11*0*1 III) (0+1)*1",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set1/page8_q1.webp",
+    "options": {
+      "A": "I and II only",
+      "B": "I and III only",
+      "C": "II and III only",
+      "D": "I, II, and III"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 There are 5 bags labelled 1 to 5. All the coins in a given bag have the same weight. Some\nbags have coins of weight 10 gm, others have coins of weight 11 gm. I pick 1, 2, 4, 8, 16\ncoins respectively from bags 1 to 5. Their total weight comes out to 323 gm. Then the product\nof the labels of the bags having 11 gm coins is ___.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 12.0,
+    "max": 12.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 Suppose a polynomial time algorithm is discovered that correctly computes the largest clique\r\nin a given graph. In this scenario, which one of the following represents the correct Venn\r\ndiagram of the complexity classes P, NP and NP Complete (NPC)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set1/page8_q3.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 The minimum number of comparisons required to find the minimum and the maximum of\n100 numbers is _________________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 147.1,
+    "max": 148.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 Consider a hash table with 9 slots. The hash function is h(k)=k mod 9.  The collisions are\nresolved by chaining. The following 9 keys are inserted in the order: 5, 28, 19, 15, 20, 33, 12,\n17, 10. The maximum, minimum, and average chain lengths in the hash table, respectively, are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "3, 0, and 1",
+      "B": "3, 3, and 3",
+      "C": "4, 0, and 1",
+      "D": "3, 0, and 2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 Consider the following C function in which size is the number of elements in the array E: int MyX(int *E, unsigned int size)\n{\n  int Y = 0;\n  int Z;\n  int i, j, k; \n    for(i = 0; i < size; i++)\n    Y = Y + E[i];\n  for(i = 0; i < size; i++)\n    for(j = i; j < size; j++)\n    {\n       Z = 0;\n       for(k = i; k <= j; k++)\n           Z= Z + E[k];\n       if (Z > Y)\n            Y = Z;\n   }\nreturn Y;\n} The value returned by the function MyX is the",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "maximum possible sum of elements in any sub-array of array E.",
+      "B": "maximum element in any sub-array of array E.",
+      "C": "sum of the maximum elements in all possible sub-arrays of array E.",
+      "D": "the sum of all the elements in the array E."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 Consider the following pseudo code. What is the total number of multiplications to be performed? D= 2\nfor i = 1 to n do\n   for j = i to n do\n      for k = j + 1 to n do\n           D = D * 3",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Half of the product of the 3 consecutive integers",
+      "B": "One-third of the product of the 3 consecutive integers.",
+      "C": "One-sixth of the product of the 3 consecutive integers",
+      "D": "None of the above."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 Consider a 6-stage instruction pipeline, where all stages are perfectly balanced. Assume that\nthere is no cycle-time overhead of pipelining. When an application is executing on this 6-stage pipeline, the speedup achieved with respect to non-pipelined execution if 25% of the instructions incur 2 pipeline stall cycles is _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 An access sequence of cache block addresses is of length N and contains n unique block\naddresses. The number of unique block addresses between two consecutive accesses to the\nsame block address is bounded above K. What is the miss ratio if the access sequence is\npassed through a cache of associativity A[latex]\\geq[/latex]k exercising least-recently-used replacement policy?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "n/N",
+      "B": "1/N",
+      "C": "1/A",
+      "D": "k/n"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 Consider the 4-to-1 multiplexer with two lines S1 and S0 given below. The minimal sum of-products form of the Boolean expression for the output F of the multiplexer is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set1/page9_q5.webp",
+    "options": {
+      "A": "[latex]\\bar{P}Q+Q\\bar{R}+P\\bar{Q}R[/latex]",
+      "B": "[latex]\\bar{P}Q+\\bar{P}Q\\bar{R}+PQ\\bar{R}+P\\bar{Q}R[/latex]",
+      "C": "[latex]\\bar{P}QR+\\bar{P}Q\\bar{R}+Q\\bar{R}+P\\bar{Q}R[/latex]",
+      "D": "[latex]PQ\\bar{R}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 The function [latex]f(x)=x sin x[/latex] satisfies the following equation: [latex]f''(x)+f(x)+tcos x=0[/latex]. The value of t is______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": -2.0,
+    "max": -2.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 A function f(x) is continuous in the interval [0,2]. It is known that f(0)=f(2)=-1 and f(1)=1.\nWhich one of the following statements must be true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "There exists a y in the interval (0,1) such that f(y)=f(y+1)",
+      "B": "For every y in the interval (0,1), f(y)=f(2-y)",
+      "C": "The maximum value of the function in the interval (0.2) is 1",
+      "D": "There exists a y in the interval (0,1) such that f(y)=-f(2-y)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 Four fair six-sided dice are rolled. The probability that the sum of the results being 22 is [latex]\\frac{X}{1296}[/latex]. The value of X is _________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 A pennant is a sequence of numbers, each number being 1 or 2. An n-pennant is a sequence of numbers with sum equal to n. For example, (1,1,2) is a 4-pennant. The set of all possible 1- pennants is {(1)}, the set of all possible 2-pennants is {(2), (1,1)}and the set of all 3-pennants is {(2,1), (1,1,1), (1,2)}. Note that the pennant (1,2) is not the same as the pennant (2,1). The number of 10- pennants is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 88.9,
+    "max": 89.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 Let S denote the set of all functions f:[latex]{\\{0,1\\}}^{4} \\rightarrow \\{0,1\\}[/latex]. Denote by N the number of functions from S to the set {0,1}. The value of  [latex]log_{2} log_{2}N[/latex] is______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 16.0,
+    "max": 16.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 Consider an undirected graph G where self-loops are not allowed. The vertex set of G is {(i,f):1[latex]\\leq[/latex]i[latex]\\leq[/latex]12, 1[latex]\\leq[/latex]j[latex]\\leq[/latex]12}. There is an edge between (a,b) and (c,d) if |a-c|[latex]\\leq[/latex]1 and |b-d| [latex]\\leq[/latex]1. The number of edges in the graph is ____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 506.0,
+    "max": 506.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 An ordered n-tuple ([latex]d_{1}, d_{2} ,... , d_{n}[/latex]) with [latex]d_{1}\\geq d_{2} \\geq ... \\geq d_{n}[/latex] is called graphic if there exists a simple undirected graph with n vertices having degrees [latex]d_{1}, d_{2} ,... , d_{n}[/latex] respectively. Which of the following 6-tuples is NOT graphic?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 Which one of the following propositional logic formulas is TRUE when exactly two of p, q,\nand r are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]((p\\leftrightarrow q)\\wedge r) \\vee (p\\wedge q\\wedge \\sim r)[/latex]",
+      "B": "[latex](\\sim (p\\leftrightarrow q)\\wedge r)\\vee (p\\wedge q\\wedge \\sim r)[/latex]",
+      "C": "[latex]((p\\rightarrow q)\\wedge r) \\vee (p\\wedge q\\wedge \\sim r)[/latex]",
+      "D": "[latex](\\sim (p\\leftrightarrow q)\\wedge r)\\wedge (p\\wedge q\\wedge \\sim r)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 Given the following schema: employees(emp-id, first-name, last-name, hire-date, dept-id, salary) departments(dept-id, dept-name, manager-id, location-id) You want to display the last names and hire dates of all latest hires in their respective\ndepartments in the location ID 1700. You issue the following query: SQL>SELECT last-name, hire-date\nFROM employees\nWHERE (dept-id, hire-date) IN\n(SELECT dept-id, MAx(hire-date)\nFROM employees JOIN departments USING(dept-id)\nWHERE location-id = 1700\nGROUP BY dept-id); What is the outcome?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "It executes but does not give the correct result",
+      "B": "It executes and gives the correct result.",
+      "C": "It generates an error because of pairwise comparison.",
+      "D": "It generates an error because the GROUP BY clause cannot be used with table joins in a sub-query"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 Consider two processors P1 and P2 executing the same instruction set. Assume that under\nidentical conditions, for the same input, a program running on P2 takes 25% less time but\nincurs 20% more CPI (clock cycles per instruction) as compared to the program running on\nP1. If the clock frequency of P1 is 1GHz, then the clock frequency of P2 (in GHz) is _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1.6,
+    "max": 1.6
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 Which of the following options is the closest in meaning to the phrase in bold in the\nsentence below? It is fascinating to see life forms **cope with** varied environmental conditions.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Adopt to",
+      "B": "Adapt to",
+      "C": "Adept in",
+      "D": "Accept with"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Choose the most appropriate word from the options given below to complete the following sentence. He could not understand the judges awarding her the first prize, because he thought that her performance was quite _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "superb",
+      "B": "medium",
+      "C": "mediocre",
+      "D": "exhilarating"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 In a press meet on the recent scam, the minister said, \"The buck stops here\". What did the minister convey by the statement?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "He wants all the money",
+      "B": "He will return the money",
+      "C": "He will assume final responsibility",
+      "D": "He will resist all enquiries"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 59 If [latex]\\left(z + \\dfrac{1}{z}\\right)^{2}= 98[/latex], compute [latex]\\left(z^2 + \\dfrac{1}{z^2}\\right)[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 96.0,
+    "max": 96.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 The roots of [latex]ax^2+bx+c=0[/latex] are real and positive.  [latex]a,b \\text{ and } c[/latex] are real. Then [latex]ax^2+b|x|+c=0[/latex] has",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "no roots",
+      "B": "2 real roots",
+      "C": "3 real roots",
+      "D": "4 real roots"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 The Palghat Gap (or Palakkad Gap) , a region about 30 km wide in the southern part of the Western Ghats in India, is lower than the hilly terrain to its north and south. The exact reasons for the formation of this gap are not clear. It results in the neighbouring regions of Tamil Nadu getting more rainfall from the South West monsoon and the neighbouring regions of Kerala having higher summer temperatures. What can be inferred from this passage? Select one:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The Palghat gap is caused by high rainfall and high temperatures in southern Tamil Nadu and Kerala",
+      "B": "The regions in Tamil Nadu and Kerala that are near the Palghat Gap are low-lying",
+      "C": "The low terrain of the Palghat Gap has a significant impact on weather patterns in neighbouring parts of Tamil Nadu and Kerala",
+      "D": "Higher summer temperatures result in higher rainfall near the Palghat Gap area"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 Geneticists say that they are very close to confirming the genetic roots of psychiatric illnesses such as depression and schizophrenia, and consequently, that doctors will be able to eradicate these diseases through early identification and gene therapy. On which of the following assumptions does the statement above rely? Select one:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Strategies are now available for eliminating psychiatric illnesses",
+      "B": "Certain psychiatric illnesses have a genetic basis",
+      "C": "All human diseases can be traced back to genes and how they are expressed",
+      "D": "In the future, genetics will become the only relevant field for identifying psychiatric illnesses"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 63 Round-trip tickets to a tourist destination are eligible for a discount of 10% on the total fare. In addition, groups of 4 or more get a discount of 5% on the total fare. If the one way single person fare is Rs 100, a group of 5 tourists purchasing round-trip tickets will be charged Rs __________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 850.0,
+    "max": 850.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 64 In a survey, 300 respondents were asked whether they own a vehicle or not. If yes, they were further asked to mention whether they own a car or scooter or both. Their responses are tabulated below. What percent of respondents do not own a scooter? [latex]\\begin{array}{|l|l|l|l|} \\hline & & \\text{Men} & \\text{Women} \\\\\\hline \\text{Own vehicle} & \\text{Car} & 40 & 34 \\\\\\hline \\text{Own vehicle} & \\text{Scooter} & 30 & 20 \\\\\\hline \\text{Own vehicle} & \\text{Both} & 60 & 46 \\\\\\hline \\text{Do not own vehicle} & & 20 & 50 \\\\\\hline \\end{array}[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 48.0,
+    "max": 48.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 65 When a point inside of a tetrahedron (a solid with four triangular surfaces) is connected by straight lines to its corners, how many (new) internal planes are created with these lines?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 6.0,
+    "max": 6.0
+  }
+]

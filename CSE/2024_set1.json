@@ -1,0 +1,762 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Let [latex]f: \\mathbb{R} \\rightarrow \\mathbb{R} [/latex] be a function such that [latex]f(x)=\\max \\left\\{x, x^3\\right\\}, x \\in \\mathbb{R} [/latex], where [latex]\\mathbb{R} [/latex] is the set of all real numbers. The set of all points where [latex]f(x) [/latex] is NOT differentiable is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]-1,1,2 [/latex]",
+      "B": "[latex]-2,-1,1 [/latex]",
+      "C": "[latex]0,1 [/latex]",
+      "D": "[latex]-1,0,1[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 The product of all eigenvalues of the matrix [latex]\\begin{bmatrix}\n1 & 2 & 3\\\\ \n4 & 5 &6 \\\\ \n7 &8  & 9\n\\end{bmatrix}[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]-1[/latex]",
+      "B": "[latex]0[/latex]",
+      "C": "[latex]1[/latex]",
+      "D": "[latex]2[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Consider a system that uses 5 bits for representing signed integers in 2's complement format. In this system, two integers [latex]A [/latex] and [latex]B [/latex] are represented as [latex]A=01010 [/latex] and [latex]B=11010 [/latex]. Which one of the following operations will result in either an arithmetic overflow or an arithmetic underflow?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]A+B [/latex]",
+      "B": "[latex]A-B [/latex]",
+      "C": "[latex]B-A [/latex]",
+      "D": "[latex]2 * B [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 Consider a permutation sampled uniformly at random from the set of all permutations of [latex]\\{1,2,3, \\cdots, n\\} [/latex] for some [latex]n \\geq 4 [/latex]. Let [latex]X [/latex] be the event that 1 occurs before 2 in the permutation, and [latex]Y [/latex] the event that 3 occurs before 4 . Which one of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The events [latex]X [/latex] and [latex]Y [/latex] are mutually exclusive",
+      "B": "The events [latex]X [/latex] and [latex]Y [/latex] are independent",
+      "C": "Either event [latex]X [/latex] or [latex]Y [/latex] must occur",
+      "D": "Event [latex]X [/latex] is more likely than event [latex]Y [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Which one of the following statements is FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "In the cycle stealing mode of DMA, one word of data is transferred between an I/O\ndevice and main memory in a stolen cycle",
+      "B": "For bulk data transfer, the burst mode of DMA has a higher throughput than the\ncycle stealing mode",
+      "C": "Programmed I/O mechanism has a better CPU utilization than the interrupt driven\nI/O mechanism",
+      "D": "The CPU can start executing an interrupt service routine faster with vectored\ninterrupts than with non-vectored interrupts"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 A user starts browsing a webpage hosted at a remote server. The browser opens a\nsingle TCP connection to fetch the entire webpage from the server. The webpage\nconsists of a top-level index page with multiple embedded image objects. Assume\nthat all caches (e.g., DNS cache, browser cache) are all initially empty. The\nfollowing packets leave the user's computer in some order. (i) HTTP GET request for the index page (ii) DNS request to resolve the web server's name to its IP address (iii) HTTP GET request for an image object (iv) TCP SYN to open a connection to the web server Which one of the following is the CORRECT chronological order (earliest in time\nto latest) of the packets leaving the computer ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(iv), (ii), (iii), (i)",
+      "B": "(ii), (iv), (iii), (i)",
+      "C": "(ii), (iv), (i), (iii)",
+      "D": "(iv), (ii), (i), (iii)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Given an integer array of size [latex]N[/latex], we want to check if the array is sorted (in either\nascending or descending order). An algorithm solves this problem by making a\nsingle pass through the array and comparing each element of the array only with its\nadjacent elements. The worst-case time complexity of this algorithm is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "both [latex]\\mathrm{O}(N) [/latex] and [latex]\\Omega(N) [/latex]",
+      "B": "[latex]\\mathrm{O}(N) [/latex] but not [latex]\\Omega(N) [/latex]",
+      "C": "[latex]\\Omega(N) [/latex] but not [latex]\\mathrm{O}(N) [/latex]",
+      "D": "neither [latex]\\mathrm{O}(N) [/latex] nor [latex]\\Omega(N) [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 Consider the following C program: #include < stdio.h >\nint main(){\nint a = 6;\nint b = 0;\nwhile(a < 10) {\na = a / 12 + 1;\na += b;}\nprintf(\"%d\", a);\nreturn 0;} Which one of the following statements is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The program prints 9 as output",
+      "B": "The program prints 10 as output",
+      "C": "The program gets stuck in an infinite loop",
+      "D": "The program prints 6 as output"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 Consider the following C program: #include < stdio.h >\nvoid fX();\nint main(){\nfX();\nreturn 0;}\n\nvoid fX(){\nchar a;\nif((a=getchar()) != '\\n')\nfX();\nif(a != '\\n')\nputchar(a);} Assume that the input to the program from the command line is 1234 followed by\na newline character. Which one of the following statements is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The program will not terminate",
+      "B": "The program will terminate with no outpu",
+      "C": "The program will terminate with 4321 as output",
+      "D": "The program will terminate with 1234 as output"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 Let S be the specification: \"Instructors teach courses. Students register for courses.\nCourses are allocated classrooms. Instructors guide students.\" Which one of the\nfollowing ER diagrams CORRECTLY represents S?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set1/page2_q5.webp",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(iii)",
+      "D": "(iv)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 In a B+ tree, the requirement of at least half-full (50%) node occupancy is relaxed\nfor which one of the following cases?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only the root node",
+      "B": "All leaf nodes",
+      "C": "All internal nodes",
+      "D": "Only the leftmost leaf node"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Which of the following statements about a relation R in first normal form (1NF)\nis/are TRUE ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "R can have a multi-attribute key",
+      "B": "R cannot have a foreign key",
+      "C": "R cannot have a composite attribute",
+      "D": "R cannot have more than one candidate key"
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Let [latex]L_1, L_2 [/latex] be two regular languages and [latex]L_3 [/latex] a language which is not regular. Which of the following statements is/are always TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]L_1=L_2 [/latex] if and only if [latex]L_1 \\cap \\overline{L_2}=\\phi [/latex]",
+      "B": "[latex]L_1 \\cup L_3 [/latex] is not regular",
+      "C": "[latex]\\overline{L_3} [/latex] is not regular",
+      "D": "[latex]\\overline{L_1} \\cup \\overline{L_2} [/latex] is regular"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 Which of the following statements about threads is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Threads can only be implemented in kernel space",
+      "B": "Each thread has its own file descriptor table for open files",
+      "C": "All the threads belonging to a process share a common stack",
+      "D": "Threads belonging to a process are by default not protected from each other"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 Which of the following process state transitions is/are NOT possible?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Running to Ready",
+      "B": "Waiting to Running",
+      "C": "Ready to Waiting",
+      "D": "Running to Terminated"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Which of the following is/are Bottom-Up Parser(s)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Shift-reduce Parser",
+      "B": "Predictive Parser",
+      "C": "LL(1) Parser",
+      "D": "LR Parser"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Let [latex]A [/latex] and [latex]B [/latex] be two events in a probability space with [latex]P(A)=0.3, P(B)=0.5 [/latex], and [latex]P(A \\cap B)=0.1 [/latex]. Which of the following statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The two events [latex]A [/latex] and [latex]B [/latex] are independent",
+      "B": "[latex]P(A \\cup B)=0.7[/latex]",
+      "C": "[latex]P\\left(A \\cap B^c\\right)=0.2 [/latex], where [latex]B^c [/latex] is the complement of the event [latex]B [/latex]",
+      "D": "[latex]P\\left(A^c \\cap B^c\\right)=0.4 [/latex], where [latex]A^c [/latex] and [latex]B^c [/latex] are the complements of the events [latex]A [/latex] and [latex]B [/latex], respectively"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 Consider the circuit shown below where the gates may have propagation delays.\nAssume that all signal transitions occur instantaneously and that wires have no\ndelays. Which of the following statements about the circuit is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set1/page4_q3.webp",
+    "options": {
+      "A": "With no propagation delays, the output Y is always logic Zero",
+      "B": "With no propagation delays, the output Y is always logic One",
+      "C": "With propagation delays, the output Y can have a transient logic One after X\ntransitions from logic Zero to logic One",
+      "D": "With propagation delays, the output Y can have a transient logic Zero after X\ntransitions from logic One to logic Zero"
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 TCP client P successfully establishes a connection to TCP server [latex]\\mathrm{Q} [/latex]. Let [latex]N_P [/latex] denote the sequence number in the SYN sent from [latex]\\mathrm{P} [/latex] to [latex]\\mathrm{Q} [/latex]. Let [latex]N_Q [/latex] denote the acknowledgement number in the SYN ACK from Q to P. Which of the following statements is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The sequence number [latex]N_P [/latex] is chosen randomly by [latex]\\mathrm{P} [/latex]",
+      "B": "The sequence number [latex]N_P [/latex] is always 0 for a new connection",
+      "C": "The acknowledgement number [latex]N_Q [/latex] is equal to [latex]N_P [/latex]",
+      "D": "The acknowledgement number [latex]N_Q [/latex] is equal to [latex]N_P+1 [/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 Consider a 5-stage pipelined processor with Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Register Writeback (WB) stages. Which of the following statements about forwarding is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "In a pipelined execution, forwarding means the result from a source stage of an\nearlier instruction is passed on to the destination stage of a later instruction",
+      "B": "In forwarding, data from the output of the MEM stage can be passed on to the\ninput of the EX stage of the next instruction",
+      "C": "Forwarding cannot prevent all pipeline stalls",
+      "D": "Forwarding does not require any extra hardware to retrieve the data from the\npipeline stages"
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 Which of the following fields is/are modified in the IP header of a packet going out\nof a network address translation (NAT) device from an internal network to an\nexternal network?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Source IP",
+      "B": "Destination IP",
+      "C": "Header Checksum",
+      "D": "Total Length"
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 Let [latex]A [/latex] and [latex]B [/latex] be non-empty finite sets such that there exist one-to-one and onto functions (i) from [latex]A [/latex] to [latex]B [/latex] and (ii) from [latex]A \\times A [/latex] to [latex]A \\cup B [/latex]. The number of possible values of [latex]|A| [/latex] is ___",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 Consider the operator precedence and associativity rules for the integer arithmetic operators given in the table below. [latex]\\begin{array}{|c|l|l|}\n\\hline Operator & Precedence & Associativity \\\\\n\\hline+ & Highest & Left \\\\\n\\hline- & High & Right \\\\\n\\hline* & Medium & Right \\\\\n\\hline  /  & Low & Right \\\\\n\\hline\n\\end{array}\n[/latex] The value of the expression [latex]3+1+5 * 2 / 7+2-4-7-6 / 2 [/latex] as per the above rules is _____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 The number of spanning trees in a complete graph of 4 vertices labelled A, B, C,\nand D is _________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 16.0,
+    "max": 16.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 Consider the following two relations, [latex]R(A, B) [/latex] and [latex]S(A, C) [/latex] : [latex]\\boldsymbol{R} \n\\begin{array}{|c|c|}\n\\hline \\boldsymbol{A}  & \\boldsymbol{B}  \\\\\n\\hline 10 & 20 \\\\\n\\hline 20 & 30 \\\\\n\\hline 30 & 40 \\\\\n\\hline 30 & 50 \\\\\n\\hline 50 & 95 \\\\\n\\hline\n\\end{array}[/latex] [latex]\\boldsymbol{S}\n\\begin{array}{|c|c|}\n\\hline \\boldsymbol{A}  & \\boldsymbol{C}  \\\\\n\\hline 10 & 90 \\\\\n\\hline 30 & 45 \\\\\n\\hline 40 & 80 \\\\\n\\hline\n\\end{array}\n[/latex] The total number of tuples obtained by evaluating the following expression [latex] \\sigma_{B \\lt C}\\left(R \\bowtie_{R . A=S . A} S\\right) [/latex]\nis ____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 Consider a network path [latex]\\mathrm{P}-\\mathrm{Q}-\\mathrm{R} [/latex] between nodes [latex]\\mathrm{P} [/latex] and [latex]\\mathrm{R} [/latex] via router [latex]\\mathrm{Q} [/latex]. Node [latex]\\mathrm{P} [/latex] sends a file of size [latex]10^6 [/latex] bytes to [latex]R [/latex] via this path by splitting the file into chunks of [latex]10^3 [/latex] bytes each. Node [latex]P [/latex] sends these chunks one after the other without any wait time between the successive chunk transmissions. Assume that the size of extra headers added to these chunks is negligible, and that the chunk size is less than the MTU. Each of the links [latex]\\mathrm{P}-\\mathrm{Q} [/latex] and [latex]\\mathrm{Q}-\\mathrm{R} [/latex] has a bandwidth of [latex]10^6 \\mathrm{bits} / \\mathrm{sec} [/latex], and negligible propagation latency. Router [latex]Q [/latex] immediately transmits every packet it receives from [latex]P [/latex] to [latex]R [/latex], with negligible processing and queueing delays. Router [latex]Q [/latex] can simultaneously receive on link [latex]P-Q [/latex] and transmit on [latex]\\operatorname{link} Q-R [/latex]. Assume P starts transmitting the chunks at time [latex]t=0 [/latex].\nWhich one of the following options gives the time (in seconds, rounded off to 3 decimal places) at which [latex]\\mathrm{R} [/latex] receives all the chunks of the file?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "8",
+      "B": "8.008",
+      "C": "15.992",
+      "D": "16"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 Consider the following syntax-directed definition (SDD). [latex]\n\\begin{array}{|l|l|}\n\\hline S \\rightarrow  DHTU & \\{ S.val = D.val + H.val + T.val + U.val; \\} \\\\\n\\hline D \\rightarrow \"M\"D_1 &  \\{ D.val =5+D_1 . val; \\} \\\\\n\\hline D \\rightarrow \\epsilon  & \\{ D.val =-5 ;\\} \\\\\n\\hline H \\rightarrow \"L\" H_1 & \\{ H.val =5 * 10+H_1 . val; \\} \\\\\n\\hline H \\rightarrow \\epsilon  &  \\{ H.val =-10 ;\\} \\\\\n\\hline T \\rightarrow  \"C\"  T_1  &  \\{T . v a l=5 * 100+T_1 . val; \\} \\\\\n\\hline T \\rightarrow \\epsilon  &  \\{T . v a l=-5 ;\\}  \\\\\n\\hline U \\rightarrow  \"K\" &  \\{  U.val =5 ;\\}  \\\\\n\\hline\n\\end{array}\n[/latex] Given \"MMLK\" as the input, which one of the following options is the CORRECT value computed by the SDD (in the attribute S.val)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "45",
+      "B": "50",
+      "C": "55",
+      "D": "65"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Consider the following grammar [latex]G [/latex], with [latex]S [/latex] as the start symbol. The grammar [latex]G [/latex] has three incomplete productions denoted by (1), (2), and (3). [latex]\n\\begin{aligned}\n& S \\rightarrow d a T \\mid \\quad(1) \\\\\n& T \\rightarrow a S|b T|(2) \\\\\n& R \\rightarrow \\text { (3) } \\mid \\epsilon\n\\end{aligned}\n [/latex] The set of terminals is [latex]\\{a, b, c, d, f\\} [/latex]. The FIRST and FOLLOW sets of the different non-terminals are as follows. [latex]\n\\begin{aligned}\n& \\operatorname{FIRST}(S)=\\{c, d, f\\}, \\operatorname{FIRST}(T)=\\{a, b, \\epsilon\\}, \\operatorname{FIRST}(R)=\\{c, \\epsilon\\} \\\\\n& \\operatorname{FOLLOW}(S)=\\operatorname{FOLLOW}(T)=\\{c, f, \\$\\}, \\operatorname{FOLLOW}(R)=\\{f\\}\n\\end{aligned}\n [/latex] Which one of the following options CORRECTLY fills in the incomplete productions?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(1) [latex]S \\rightarrow R f [/latex]\n(2) [latex]T \\rightarrow \\epsilon [/latex]\n(3) [latex]R \\rightarrow c T R [/latex]",
+      "B": "(1) [latex]S \\rightarrow f R [/latex]\n(2) [latex]T \\rightarrow \\epsilon [/latex]\n(3) [latex]R \\rightarrow c T R [/latex]",
+      "C": "(1) [latex]S \\rightarrow f R [/latex]\n(2) [latex]T \\rightarrow c T [/latex]\n(3) [latex]R \\rightarrow c R [/latex]",
+      "D": "(1) [latex]S \\rightarrow R f [/latex]\n(2) [latex]T \\rightarrow c T [/latex]\n(3) [latex]R \\rightarrow c R [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Consider the following pseudo-code. [latex]\n\\begin{array}{ll}\nL 1: & t 1=-1 \\\\\nL 2: & t 2=0 \\\\\nL 3: & t 3=0 \\\\\nL 4: & t 4=4 * t 3 \\\\\nL 5: & t 5=4 * t 2 \\\\\nL 6: & t 6=t 5 * M \\\\\nL 7: & t 7=t 4+t 6 \\\\\nL 8: & t 8=a[t 7] \\\\\nL 9: & if \\; t 8 \\lt = max  \\; goto  \\; L 11 \\\\\nL 10: & t 1=t 8 \\\\\nL 11: & t 3=t 3+1 \\\\\nL 12: & if  \\; t 3 \\lt M  \\;  goto L 4 \\\\\nL 13: & t 2=t 2+1 \\\\\nL 14: & if  \\; t 2 \\lt N  \\; goto  \\; L 3 \\\\\nL 15: & max =t 1\n\\end{array}\n[/latex] Which of of the following options CORRECTLY specifies the number of basic blocks and the number of instructions in the largest basic block, respectively?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "6 and 6",
+      "B": "6 and 7",
+      "C": "7 and 7",
+      "D": "7 and 6"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Consider the following two threads [latex]\\mathrm{T} 1 [/latex] and [latex]\\mathrm{T} 2 [/latex] that update two shared variables [latex]\\mathrm{a} [/latex] and [latex]\\mathrm{b} [/latex]. Assume that initially [latex]\\mathrm{a}=\\mathrm{b}=1 [/latex]. Though context switching between threads can happen at any time, each statement of [latex]\\mathrm{T} 1 [/latex] or [latex]\\mathrm{T} 2 [/latex] is executed atomically without interruption. [latex]\n\\begin{array}{cc}\n\\mathrm{T} 1 & \\mathrm{~T} 2 \\\\\n\\mathrm{a}=\\mathrm{a}+1 ; & \\mathrm{b}=2*\\mathrm{b} ; \\\\\n\\mathrm{b}=\\mathrm{b}+1 ; & \\mathrm{a}=2*\\mathrm{a} ;\n\\end{array}\n [/latex] Which one of the following options lists all the possible combinations of values of [latex]\\mathrm{a} [/latex] and [latex]\\mathrm{b} [/latex] after both [latex]\\mathrm{T} 1 [/latex] and [latex]\\mathrm{T} 2 [/latex] finish execution?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(a=4, b=4) ;(a=3, b=3) ;(a=4, b=3)",
+      "B": "(a=3, b=4) ;(a=4, b=3) ;(a=3, b=3)",
+      "C": "(a=4, b=4) ;(a=4, b=3) ;(a=3, b=4)",
+      "D": "(a=2, b=2) ;(a=2, b=3) ;(a=3, b=4)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 An array [latex][82,101,90,11,111,75,33,131,44,93] [/latex] is heapified. Which one of the following options represents the first three elements in the heapified array?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]82,90,101 [/latex]",
+      "B": "[latex]82,11,93 [/latex]",
+      "C": "[latex]131,11,93 [/latex]",
+      "D": "[latex]131,111,90 [/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 Consider the following recurrence relation: [latex]\nT(n)=\\left\\{\\begin{array}{c}\n\\sqrt{n} T(\\sqrt{n})+n \\text { for } n \\geq 1, \\\\\n1 \\quad \\text { for } n=1 .\n\\end{array}\\right.\n [/latex] Which one of the following options is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "T(n)=\\Theta(n \\log \\log n)",
+      "B": "T(n)=\\Theta(n \\log n)",
+      "C": "T(n)=\\Theta\\left(n^2 \\log n\\right)",
+      "D": "T(n)=\\Theta\\left(n^2 \\log \\log n\\right)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 Consider a binary min-heap containing 105 distinct elements. Let [latex]k[/latex]  be the index (in the underlying array) of the maximum element stored in the heap. The number of possible values of [latex]k[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "53",
+      "B": "52",
+      "C": "27",
+      "D": "1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 The symbol [latex] \\rightarrow [/latex] indicates functional dependency in the context of a relational database. Which of the following options is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex] (X, Y) \\rightarrow(Z, W) \\text { implies } X \\rightarrow(Z, W)  [/latex]",
+      "B": "[latex] (X, Y) \\rightarrow(Z, W) \\text { implies }(X, Y) \\rightarrow Z  [/latex]",
+      "C": "[latex] ((X, Y) \\rightarrow Z \\text { and } W \\rightarrow Y) \\text { implies }(X, W) \\rightarrow Z  [/latex]",
+      "D": "[latex] (X \\rightarrow Y \\text { and } Y \\rightarrow Z) \\text { implies } X \\rightarrow Z [/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Let [latex] G [/latex] be a directed graph and [latex] T [/latex] a depth first search (DFS) spanning tree in [latex] G [/latex] that is rooted at a vertex [latex] v [/latex]. Suppose [latex] T [/latex] is also a breadth first search (BFS) tree in [latex] G [/latex], rooted at [latex] v [/latex]. Which of the following statements is/are TRUE for every such graph [latex] G [/latex] and tree [latex] T [/latex] ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "There are no back-edges in [latex] G [/latex] with respect to the tree [latex] T [/latex]",
+      "B": "There are no cross-edges in [latex] G [/latex] with respect to the tree [latex] T [/latex]",
+      "C": "There are no forward-edges in [latex] G [/latex] with respect to the tree [latex] T [/latex]",
+      "D": "The only edges in [latex] G [/latex] are the edges in [latex] T [/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Consider the following read-write schedule [latex] S [/latex] over three transactions [latex] T_1, T_2 [/latex], and [latex] T_3 [/latex], where the subscripts in the schedule indicate transaction IDs: [latex]\nS: r_1(z) ; w_1(z) ; r_2(x) ; r_3(y) ; w_3(y) ; r_2(y) ; w_2(x) ; w_2(y) ;\n [/latex] Which of the following transaction schedules is/are conflict equivalent to [latex] S [/latex] ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex] T_1 T_2 T_3 [/latex]",
+      "B": "[latex] T_1 T_3 T_2 [/latex]",
+      "C": "[latex] T_3 T_2 T_1 [/latex]",
+      "D": "[latex] T_3 T_1 T_2 [/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 Consider a Boolean expression given by [latex] F(X, Y, Z)=\\Sigma(3,5,6,7) [/latex]. Which of the following statements is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]F(X, Y, Z)=\\Pi(0,1,2,4)[/latex]",
+      "B": "[latex]F(X, Y, Z)=X Y+Y Z+X Z[/latex]",
+      "C": "[latex] F(X, Y, Z) [/latex] is independent of input [latex] Y [/latex]",
+      "D": "[latex] F(X, Y, Z) [/latex] is independent of input [latex] X [/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 Consider the following C function definition. int f(int x, int y) {\nfor (int i=0; i < y; i++) {\nx=x+x+y;\n}\nreturn x;\n} Which of the following statements is/are TRUE about the above function?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "If the inputs are [latex] x=20, y=10 [/latex], then the return value is greater than [latex] 2^{20} [/latex]",
+      "B": "If the inputs are [latex] x=20, y=20 [/latex], then the return value is greater than [latex] 2^{20} [/latex]",
+      "C": "If the inputs are [latex] x=20, y=10 [/latex], then the return value is less than [latex] 2^{10} [/latex]",
+      "D": "If the inputs are [latex] x=10, y=20 [/latex], then the return value is greater than [latex] 2^{20} [/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 Let [latex] A [/latex] be any [latex] n \\times m [/latex] matrix, where [latex] m > n [/latex]. Which of the following statements is/are TRUE about the system of linear equations [latex] A x=0 [/latex] ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "There exist at least [latex] m-n [/latex] linearly independent solutions to this system",
+      "B": "There exist [latex] m-n [/latex] linearly independent vectors such that every solution is a linear combination of these vectors",
+      "C": "There exists a non-zero solution in which at least [latex] m-n [/latex] variables are 0",
+      "D": "There exists a solution in which at least [latex] n [/latex] variables are non-zero"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 Consider the 5 -state DFA [latex] M [/latex] accepting the language [latex] L(M) \\subset(0+1)^* [/latex] shown below. For any string [latex] w \\in(0+1)^* [/latex] let [latex] n_0(w) [/latex] be the number of [latex] 0^{\\prime} s [/latex] in [latex] w [/latex] and [latex] n_1(w) [/latex] be the number of 1 's in [latex] w [/latex]. Which of the following statements is/are FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set1/page8_q5.webp",
+    "options": {
+      "A": "States 2 and 4 are distinguishable in [latex] M [/latex]",
+      "B": "States 3 and 4 are distinguishable in [latex] M [/latex]",
+      "C": "States 2 and 5 are distinguishable in [latex] M [/latex]",
+      "D": "Any string [latex] w [/latex] with [latex] n_0(w)=n_1(w) [/latex] is in [latex] L(M) [/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 The chromatic number of a graph is the minimum number of colours used in a proper colouring of the graph. Let [latex] G [/latex] be any graph with [latex] n [/latex] vertices and chromatic number [latex] k [/latex]. Which of the following statements is/are always TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]G[/latex] contains a complete subgraph with [latex]k[/latex] vertices",
+      "B": "[latex]G[/latex] contains an independent set of size at least [latex]n/k[/latex]",
+      "C": "[latex]G[/latex] contains at least [latex]k(k - 1)/2[/latex] edges",
+      "D": "[latex]G[/latex] contains a vertex of degree at least [latex]k[/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 Consider the operators [latex] \\diamond [/latex] and [latex] \\square [/latex] defined by [latex] a \\diamond b=a+2 b, a \\square b=a b [/latex], for positive integers. Which of the following statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Operator [latex] \\diamond [/latex] obeys the associative law",
+      "B": "Operator [latex] \\square [/latex] obeys the associative law",
+      "C": "Operator [latex] \\diamond [/latex] over the operator [latex] \\square [/latex] obeys the distributive law",
+      "D": "Operator [latex] \\square [/latex] over the operator [latex] \\diamond [/latex] obeys the distributive law"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 Consider two set-associative cache memory architectures: WBC, which uses the\nwrite back policy, and WTC, which uses the write through policy. Both of them use\nthe LRU (Least Recently Used) block replacement policy. The cache memory is\nconnected to the main memory. Which of the following statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A read miss in WBC never evicts a dirty block",
+      "B": "A read miss in WTC never triggers a write back operation of a cache block to\nmain memory",
+      "C": "A write hit in WBC can modify the value of the dirty bit of a cache block",
+      "D": "A write miss in WTC always writes the victim cache block to main memory\nbefore loading the missed block to the cache"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 Consider a 512 GB hard disk with 32 storage surfaces. There are 4096 sectors per\ntrack and each sector holds 1024 bytes of data. The number of cylinders in the hard\ndisk is ____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4096.0,
+    "max": 4096.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 The baseline execution time of a program on a 2 GHz single core machine is\n100 nanoseconds (ns). The code corresponding to 90% of the execution time can be\nfully parallelized. The overhead for using an additional core is 10 ns when running\non a multicore system. Assume that all cores in the multicore system run their share\nof the parallelized code for an equal amount of time. The number of cores that minimize the execution time of the program is _______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 A given program has 25% load/store instructions. Suppose the ideal CPI (cycles per\ninstruction) without any memory stalls is 2. The program exhibits 2% miss rate on\ninstruction cache and 8% miss rate on data cache. The miss penalty is 100 cycles.\nThe speedup (rounded off to two decimal places) achieved with a perfect cache (i.e.,\nwith NO data or instruction cache misses) is _________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 Consider the following code snippet using the fork() and wait() system calls.\nAssume that the code compiles and runs correctly, and that the system calls run\nsuccessfully without any errors. int x = 3;\nwhile(x > 0) {\nfork();\nprintf(\"hello\");\nwait(NULL);\nx--;\n} The total number of times the printf statement is executed is ___",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 14.0,
+    "max": 14.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 Consider the entries shown below in the forwarding table of an [latex] \\mathbb{P} [/latex] router. Each entry consists of an IP prefix and the corresponding next hop router for packets whose destination IP address matches the prefix. The notation \"[latex] \\mathrm{/N} [/latex]\" in a prefix indicates a subnet mask with the most significant [latex] \\mathrm{N} [/latex] bits set to 1. [latex]\n\\begin{array}{|l|c|}\n\\hline Prefix & Next\\;  hop \\; router \\\\\n\\hline  10.1 .1 .0 / 24  & R1 \\\\\n\\hline 10.1 .1 .128 / 25  & R2 \\\\\n\\hline  10.1 .1 .64 / 26 & R3 \\\\\n\\hline 10.1 .1 .192 / 26  & R4 \\\\\n\\hline\n\\end{array}[/latex] This router forwards 20 packets each to 5 hosts. The IP addresses of the hosts are 10.1.1.16, 10.1.1.72, 10.1.1.132, 10.1.1.191, and 10.1.1.205. The number of packets forwarded via the next hop router [latex] R 2 [/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 40.0,
+    "max": 40.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 Let [latex] G=(V, \\Sigma, S, P) [/latex] be a context-free grammar in Chomsky Normal Form with [latex] \\Sigma=\\{a, b, c\\} [/latex] and [latex] V [/latex] containing 10 variable symbols including the start symbol [latex] S [/latex]. The string [latex] w=a^{30} b^{30} c^{30} [/latex] is derivable from [latex] S [/latex]. The number of steps (application of rules) in the derivation [latex] S \\rightarrow^* w [/latex] is _____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 179.0,
+    "max": 179.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 The number of edges present in the forest generated by the DFS traversal of an undirected graph [latex] G [/latex] with 100 vertices is 40 . The number of connected components in [latex] G [/latex] is ____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 60.0,
+    "max": 60.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 Consider the following two regular expressions over the alphabet [latex] \\{0,1\\} [/latex] : [latex]\n\\begin{aligned}\n& r=0^*+1^* \\\\\n& s=01^*+10^*\n\\end{aligned}\n[/latex] The total number of strings of length less than or equal to 5 , which are neither in [latex] r [/latex] nor in [latex] s [/latex], is ____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 44.0,
+    "max": 44.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 Consider a memory management system that uses a page size of [latex] 2 \\mathrm{~KB} [/latex]. Assume that both the physical and virtual addresses start from 0. Assume that the pages [latex] 0,1,2 [/latex], and [latex]3[/latex] are stored in the page frames [latex] 1,3,2 [/latex], and [latex]0[/latex], respectively. The physical address (in decimal format) corresponding to the virtual address [latex]2500[/latex] (in decimal format) is ____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 6596.0,
+    "max": 6596.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 A bag contains 10 red balls and 15 blue balls. Two balls are drawn randomly without replacement. Given that the first ball drawn is red, the probability (rounded off to 3 decimal places) that both balls drawn are red is ____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.37,
+    "max": 0.38
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 Consider a digital logic circuit consisting of three 2-to-1 multiplexers M1, M2, and M3 as shown below. [latex] X 1 [/latex] and [latex] X 2 [/latex] are inputs of [latex] M 1 [/latex]. [latex] X 3 [/latex] and [latex] X 4 [/latex] are inputs of [latex] M 2 [/latex]. [latex] A, B [/latex], and [latex] C [/latex] are select lines of [latex] M 1, M 2 [/latex], and [latex] M 3 [/latex], respectively. For an instance of inputs [latex] X \\mathbf{X l}=\\mathbf{X} \\mathbf{2}=\\mathbf{1}, \\mathrm{X} 3=\\mathbf{0} [/latex], and [latex] \\mathrm{X} 4=\\mathbf{0} [/latex], the number of combinations of [latex] A, B, C [/latex] that give the output [latex] Y=1 [/latex] is _____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set1/page11_q4.webp",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 Consider sending an IP datagram of size 1420 bytes (including 20 bytes of IP header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an MTU (Maximum Transmission Unit) size of 542 bytes, while the second link (router to receiver) has an MTU size of 360 bytes. The number of fragments that would be delivered at the receiver is _____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 If '[latex] \\rightarrow [/latex]' denotes increasing order of intensity, then the meaning of the words\n[dry [latex] \\rightarrow [/latex] arid [latex] \\rightarrow [/latex] parched] is analogous to [diet [latex] \\rightarrow [/latex] fast [latex] \\rightarrow [/latex] _____]. Which one of the given options is appropriate to fill the blank?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "starve",
+      "B": "reject",
+      "C": "feast",
+      "D": "deny"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 If two distinct non-zero real variables [latex] x [/latex] and [latex] y [/latex] are such that [latex] (x+y) [/latex] is proportional to [latex] (x-y) [/latex] then the value of [latex] \\frac{x}{y} [/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "depends on [latex] x y [/latex]",
+      "B": "depends only on [latex] x [/latex] and not on [latex] y [/latex]",
+      "C": "depends only on [latex] y [/latex] and not on [latex] x [/latex]",
+      "D": "is a constant"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Consider the following sample of numbers: 9, 18, 11, 14, 15, 17, 10, 69, 11, 13 The median of the sample is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "13.5",
+      "B": "14",
+      "C": "11",
+      "D": "18.7"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 The number of coins of Rs. 1, Rs. 5, and Rs. 10 denominations that a person has are in the\nratio 5:3:13. Of the total amount, the percentage of money in Rs. 5 coins is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex] 21\\%[/latex]",
+      "B": "[latex]14 \\frac{2}{7} \\% [/latex]",
+      "C": "[latex] 10\\%[/latex]",
+      "D": "[latex] 30\\%[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 For positive non-zero real variables [latex] p [/latex] and [latex] q [/latex], if [latex]\n\\log \\left(p^2+q^2\\right)=\\log p+\\log q+2 \\log 3 \\text {, }\n [/latex] then, the value of [latex] \\frac{p^4+q^4}{p^2 q^2} [/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "79",
+      "B": "81",
+      "C": "9",
+      "D": "83"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 In the given text, the blanks are numbered (i)-(iv). Select the best match for all the\nblanks. Steve was advised to keep his head ___(i)___ before heading __(ii)__ to bat;\nfor, while he had a head __(iii)__ batting, he could only do so with a cool head\ns __(iv)__ his shoulders",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(i) down (ii) down (iii) on (iv) for",
+      "B": "(i) on (ii) down (iii) for (iv) on",
+      "C": "(i) down (ii) out (iii) for (iv) on",
+      "D": "(i) on (ii) out (iii) on (iv) for"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 A rectangular paper sheet of dimensions 54cm x 4cm is taken. The two longer\nedges of the sheet are joined together to create a cylindrical tube. A cube whose\nsurface area is equal to the area of the sheet is also taken. Then, the ratio of the volume of the cylindrical tube to the volume of the cube is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]1/\\pi[/latex]",
+      "B": "[latex]2/\\pi[/latex]",
+      "C": "[latex]3/\\pi[/latex]",
+      "D": "[latex]4/\\pi[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 The pie chart presents the percentage contribution of different macronutrients to a\ntypical 2,000 kcal diet of a person. The typical energy density (kcal/g) of these macronutrients is given in the table. [latex]\n\\begin{array}{|l|c|}\n\\hline Macronutrient & Energy density (kcal/g) \\\\\n\\hline Carbohydrates &4\\\\\n\\hline Proteins &4 \\\\\n\\hline Unsaturated fat &9 \\\\\n\\hline Saturated fat &9 \\\\\n\\hline Trans fat &9 \\\\\n\\hline\n\\end{array}[/latex] The total fat (all three types), in grams, this person consumes is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set1/page13_q3.webp",
+    "options": {
+      "A": "44.4",
+      "B": "77.8",
+      "C": "100",
+      "D": "3600"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 A rectangular paper of 20cm x 8cm is folded 3 times. Each fold is made along the\nline of symmetry, which is perpendicular to its long edge. The perimeter of the final\nfolded sheet (in cm) is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "18",
+      "B": "24",
+      "C": "20",
+      "D": "21"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 The least number of squares to be added in the figure to make AB a line of\nsymmetry is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2024_Set1/page13_q5.webp",
+    "options": {
+      "A": "6",
+      "B": "4",
+      "C": "5",
+      "D": "7"
+    },
+    "correct_answer": "A"
+  }
+]

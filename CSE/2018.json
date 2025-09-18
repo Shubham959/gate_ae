@@ -1,0 +1,674 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Which one of the following is a closed form expression for the generating function of the sequence [latex]\\left \\{ a_{n} \\right \\}[/latex], where [latex]a_{n}=2n+3[/latex] for all n = 0, 1, 2,...?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\frac{3}{(1-x)^{2}}[/latex]",
+      "B": "[latex]\\frac{3x}{(1-x)^{2}}[/latex]",
+      "C": "[latex]\\frac{2-x}{(1-x)^{2}}[/latex]",
+      "D": "[latex]\\frac{3-x}{(1-x)^{2}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 Consider the following C program. #include &lt stdio.h &gt\nstruct Ournode{\nchar x,y,z;\n};\nint main(){\nstruct Ournode p = {'1', '0','a'+2};  \nstruct Ournode *q = &p;\nprintf(\"%c,%c\",*((char*)q+1),*((char*)q+2));\nreturn 0;\n} The output of this program is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0, c",
+      "B": "0, a+2",
+      "C": "'0', 'a+2'",
+      "D": "'0', 'c'"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 A queue is implemented using a non-circular singly linked list. The queue has a head pointer and a tail pointer, as shown in the figure. Let n denote the number of nodes in the queue. Let enqueue be implemented by inserting a new node at the head, and dequeue be implemented by deletion of a node from the tail. Which one of the following is the time complexity of the most time-efficient implementation of enqueue and dequeue, respectively, for this data structure?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2018/page1_q3.webp",
+    "options": {
+      "A": "[latex]\\Theta (1), \\Theta (1)[/latex]",
+      "B": "[latex]\\Theta (1), \\Theta (n)[/latex]",
+      "C": "[latex]\\Theta (n), \\Theta (1)[/latex]",
+      "D": "[latex]\\Theta (n), \\Theta (n)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 Let [latex]\\bigoplus[/latex] and [latex]\\bigodot[/latex] denote the Exclusive OR and Exclusive NOR operations, respectively. Which one of the following is NOT CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\overline{P \\bigoplus Q}=P\\bigodot Q[/latex]",
+      "B": "[latex]\\overline{P} \\bigoplus Q=P\\bigodot Q[/latex]",
+      "C": "[latex]\\overline{P} \\bigoplus \\overline{Q}=P\\bigoplus Q[/latex]",
+      "D": "[latex](P \\bigoplus \\overline{P})\\bigoplus  Q=(P\\bigodot\\overline{P})\\bigodot  \\overline{Q}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Consider the following processor design characteristics. I. Register-to-register arithmetic operations only II. Fixed-length instruction format III. Hardwired control unit Which of the characteristics above are used in the design of a RISC processor?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I and II only",
+      "B": "II and III only",
+      "C": "I and III only",
+      "D": "I, II and III"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Let N be an NFA with n states. Let k be the number of states of a minimal DFA which is equivalent to N. Which one of the following is necessarily true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]k\\geqslant 2^{n}[/latex]",
+      "B": "[latex]k\\geqslant n[/latex]",
+      "C": "[latex]k\\leqslant n^{2}[/latex]",
+      "D": "[latex]k\\leqslant 2^{n}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 The set of all recursively enumerable languages is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "closed under complementation",
+      "B": "closed under intersection.",
+      "C": "a subset of the set of all recursive languages.",
+      "D": "an uncountable set"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 Which one of the following statements is FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Context-free grammar can be used to specify both lexical and syntax rules.",
+      "B": "Type checking is done before parsing.",
+      "C": "High-level language programs can be translated to different Intermediate Representations.",
+      "D": "Arguments to a function can be passed using the program stack."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 The following are some events that occur after a device controller issues an interrupt while process L is under execution. (P) The processor pushes the process status of L onto the control stack. (Q) The processor finishes the execution of the current instruction. (R) The processor executes the interrupt service routine. (S) The processor pops the process status of L from the control stack. (T) The processor loads the new PC value based on the interrupt. Which one of the following is the correct order in which the events above occur?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "QPTRS",
+      "B": "PTRSQ",
+      "C": "TRPQS",
+      "D": "QTPRS"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 Consider a process executing on an operating system that uses demand paging. The average time for a memory access in the system is M units if the corresponding memory page is available in memory, and D units if the memory access causes a page fault. It has been experimentally measured that the average time taken for a memory access in the process is X units. Which one of the following is the correct expression for the page fault rate experienced by the process?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(D - M) / (X - M)",
+      "B": "(X - M) / (D - M)",
+      "C": "(D - X) / (D - M)",
+      "D": "(X - M) / (D - X)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 In an Entity-Relationship (ER) model, suppose R is a many-to-one relationship from entity set E1 to entity set E2. Assume that E1 and E2 participate totally in R and that the cardinality of E1 is greater than the cardinality of E2. Which one of the following is true about R?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Every entity in E1 is associated with exactly one entity in E2.",
+      "B": "Some entity in E1 is associated with more than one entity in E2.",
+      "C": "Every entity in E2 is associated with exactly one entity in E1.",
+      "D": "Every entity in E2 is associated with at most one entity in E1."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Consider the following two tables and four queries in SQL. Which one of the queries above is certain to have an output that is a superset of the outputs of the other three queries?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2018/page3_q2.webp",
+    "options": {
+      "A": "Query 1",
+      "B": "Query 2",
+      "C": "Query 3",
+      "D": "Query 4"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Match the following:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2018/page3_q3.webp",
+    "options": {
+      "A": "P-III, Q-IV, R-II, S-I",
+      "B": "P-II, Q-I, R-IV, S-III",
+      "C": "P-IV, Q-I, R-II, S-III",
+      "D": "P-IV, Q-I, R-III, S-II"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 Consider the following statements regarding the slow start phase of the TCP congestion control algorithm. Note that [latex]cwnd[/latex] stands for the TCP congestion window and MSS denotes the Maximum Segment Size. (i) The cwnd increases by 2 MSS on every successful acknowledgment. (ii) The cwnd approximately doubles on every successful acknowledgement. (iii) The cwnd increases by 1 MSS every round trip time. (iv) The cwnd approximately doubles every round trip time. Which one of the following is correct?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only (ii) and (iii) are true",
+      "B": "Only (i) and (iii) are true",
+      "C": "Only (iv) is true",
+      "D": "Only (i) and (iv) are true"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 Two people, P and Q, decide to independently roll two identical dice, each with 6 faces, numbered 1 to 6. The person with the lower number wins. In case of a tie, they roll the dice repeatedly until there is no tie. Define a trial as a throw of the dice by P and Q. Assume that all 6 numbers on each dice are equi-probable and that all trials are independent. The probability (rounded to 3 decimal places) that one of them wins on the third trial is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.021,
+    "max": 0.024
+  },
+  {
+    "type": "numerical",
+    "question": "Question 16 The value of [latex]\\int_{0}^{\\frac{\\pi }{4}}x\\cos (x^{2})dx[/latex] correct to three decimal places\n(assuming that [latex]\\pi[/latex]  = 3.14 ) is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.27,
+    "max": 0.3
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 Consider a matrix [latex]A=uv^{T}\\; where \\; u=\\begin{bmatrix} 1\\\\ 2 \\end{bmatrix},v=\\begin{bmatrix} 1\\\\ 1 \\end{bmatrix}[/latex]  Note that [latex]v^{T}[/latex]  denotes the transpose of v. The largest eigenvalue of A is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18 The chromatic number of the following graph is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2018/page4_q3.webp",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 Let G be a finite group on 84 elements. The size of a largest possible proper subgroup of G is ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 42.0,
+    "max": 42.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 The postorder traversal of a binary tree is 8,9,6,7,4,5,2,3,1. The inorder traversal of the same tree is 8,6,9,4,7,2,5,1,3. The height of a tree is the length of the longest path from the root to any leaf. The height of the binary tree above is ______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 Consider the following C program: #include &lt stdio.h &gt\nint counter = 0;\nint calc (int a, int b) {\n    int c;\n    counter++;\n    if (b==3) return (a*a*a);\n    else {\n       c = calc(a, b/3);\n       return (c*c*c);\n           }\n}\nint main (){\ncalc(4, 81);\nprintf (\"%d\", counter);\n} The output of this program is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 Consider the sequential circuit shown in the figure, where both flip-flops used are positive edge-triggered D flip-flops. The number of states in the state transition diagram of this circuit that have a transition back to the same state on some value of \"in\" is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2018/page5_q2.webp",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 A 32-bit wide main memory unit with a capacity of 1 GB is built using 256M x 4-bit DRAM chips. The number of rows of memory cells in the DRAM chip is [latex]2^{14}[/latex]. The time taken to perform one refresh operation is 50 nanoseconds. The refresh period is 2 milliseconds. The percentage (rounded to the closest integer) of the time available for performing the memory read/write operations in the main memory unit is __________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 59.0,
+    "max": 60.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 Consider a system with 3 processes that share 4 instances of the same resource type. Each process can request a maximum of K instances. Resource instances can be requested and released only one at a time. The largest value of K that will always avoid deadlock is ____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 Consider a long-lived TCP session with an end-to-end bandwidth of 1 Gbps (= [latex]10^{9} [/latex] bits-per-second). The session starts with a sequence number of 1234. The minimum time (in seconds, rounded to the closest integer) before this sequence number can be used again is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 34.0,
+    "max": 35.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 Consider a matrix P whose only eigenvectors are the multiples of [latex]\\begin{bmatrix} 1\\\\ 4 \\end{bmatrix}[/latex]. Consider the following statements. (I) P does not have an inverse (II) P has a repeated eigenvalue (III) P cannot be diagonalized Which one of the following options is correct?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only I and III are necessarily true",
+      "B": "Only II is necessarily true",
+      "C": "Only I and II are necessarily true",
+      "D": "Only II and III are necessarily true"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 Let N be the set of natural numbers. Consider the following sets. P: Set of Rational numbers (positive and negative) Q: Set of functions from {0, 1} to N R: Set of functions from N to {0, 1} S: Set of finite subsets of N. Which of the sets above are countable?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Q and S only",
+      "B": "P and S only",
+      "C": "P and R only",
+      "D": "P, Q and S only"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Consider the first-order logic sentence [latex]\\varphi \\equiv \\exists s\\exists t\\exists u\\forall v\\forall w\\forall x\\forall y\\varphi (s,t,u,v,w,x,y)[/latex] where [latex]\\varphi (s,t,u,v,w,x,y)[/latex] is a quantifier-free first-order logic formula using only predicate\nsymbols, and possibly equality, but no function symbols. Suppose [latex]\\varphi [/latex] has a model with a universe containing 7 elements.\nWhich one of the following statements is necessarily true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "There exists at least one model of [latex]\\varphi[/latex] with universe of size less than or equal to 3.",
+      "B": "There exists no model of [latex]\\varphi[/latex] with universe of size less than or equal to 3.",
+      "C": "There exists no model of [latex]\\varphi[/latex] with universe of size greater than 7.",
+      "D": "Every model of [latex]\\varphi[/latex] has a universe of size equal to 7."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Consider the following C program: #include &lt stdio.h &gt\nvoid fun1(char *s1, char *s2){\nchar *tmp;\ntmp = s1;\ns1 = s2;\ns2 = tmp;\n}\nvoid fun2(char **s1, char **s2){\nchar *tmp;\ntmp = *s1;\n*s1 = *s2;\n*s2 = tmp;\n}\nint main(){\nchar *str1 = \"Hi\", *str2 = \"Bye\";\nfun1(str1, str2); \nprintf(\"%s %s \", str1, str2); \nfun2(&str1, &str2); \nprintf(\"%s %s\", str1, str2);\nreturn 0;\n} The output of the program above is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Hi Bye Bye Hi",
+      "B": "Hi Bye Hi Bye",
+      "C": "Bye Hi Hi Bye",
+      "D": "Bye Hi Bye Hi"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Let G be a simple undirected graph. Let TD be a depth first search tree of G. Let TB be a breadth first search tree of G. Consider the following statements. (I) No edge of G is a cross edge with respect to TD. (A cross edge in G is between two\r\nnodes neither of which is an ancestor of the other in TD.) (II) For every edge (u,v) of G, if u is at depth i and v is at depth j in TB, then |i-j|=1. Which of the statements above must necessarily be true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I only",
+      "B": "II only",
+      "C": "Both I and II",
+      "D": "Neither I nor II"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 Assume that multiplying a matrix G1 of dimension pxq with another matrix G2 of\ndimension pxq requires pqr scalar multiplications. Computing the product of n  matrices G1G2G3...Gn can be done by parenthesizing in different ways. Define Gi Gi+1 as an explicitly computed pair for a given paranthesization if they are directly multiplied. For example, in the matrix multiplication chain G1G2G3G4G5G6 using parenthesization (G1(G2G3))(G4(G5G6)), G2G3 and G5G6 are the only explicitly computed pairs. Consider a matrix multiplication chain F1F2F3F4F5, where matrices F1, F2, F3, F4 and F5 are of dimensions 2x25, 25x3, 3x16, 16x1 and 1x1000, respectively. In the parenthesization of F1F2F3F4F5 that minimizes the total number of scalar multiplications, the explicitly computed pairs is/are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "F1F2 and F3F4 only",
+      "B": "F2F3 only",
+      "C": "F3F4 only",
+      "D": "F1F2 and F4F5 only"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 Consider the following C code. Assume that unsigned long int type length is 64\nbits. unsigned long int fun(unsigned long int n){\nunsigned long int i, j = 0, sum = 0;\nfor (i = n; i > 1; i = i/2) j++;\nfor ( ; j > 1; j = j/2) sum++;\nreturn(sum);\n} The value returned when we call fun with the input [latex]2^{40}[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "40"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 Consider the unsigned 8-bit fixed point binary Number System below, [latex]b_7  b_6  b_5  b_4  b_3 .  b_2  b_1  b_0[/latex] where the position of the binary point is between [latex]b_3 \\; and \\; b_2[/latex]. Assume [latex]b_7[/latex] is the most significant bit. Some of the decimal numbers listed below cannot be represented exactly in the above representation: (i) 31.500 (ii) 0.875 (iii) 12.100 (iv) 3.001 Which one of the following statements is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "None of (i), (ii), (iii), (iv) can be exactly represented",
+      "B": "Only (ii) cannot be exactly represented",
+      "C": "Only (iii) and (iv) cannot be exactly represented",
+      "D": "Only (i) and (ii) cannot be exactly represented"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 The size of the physical address space of a processor is [latex]2^{P}[/latex] bytes. The word length is [latex]2^{W}[/latex] bytes. The capacity of cache memory is [latex]2^{N}[/latex] Bytes. The size of each cache block is [latex]2^{M}[/latex] words. For a K-way set-associative cache memory, the length (in number of bits) of the\ntag field is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]P-N-log_{2}K[/latex]",
+      "B": "[latex]P-N+log_{2}K[/latex]",
+      "C": "[latex]P-N-M-W-log_{2}K[/latex]",
+      "D": "[latex]P-N-M-W+log_{2}K[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Consider the following languages: I. [latex] \\{a^{m}b^{n}c^{p}d^{q}|m+p=n+q, \\; where \\;  m,n,p,q \\geq 0 \\}[/latex] II. [latex]\\{a^{m}b^{n}c^{p}d^{q}|m=n \\; and \\; p=q, \\; where \\;  m,n,p,q\\geq 0 \\}  [/latex] III. [latex] \\{a^{m}b^{n}c^{p}d^{q}|m=n=p \\; and \\; p\\neq q, \\; where \\; m,n,p,q\\geq 0 \\} [/latex] IV. [latex]\\{a^{m}b^{n}c^{p}d^{q}|mn=p+q, \\; where\\;  m,n,p,q\\geq 0\\}[/latex] Which of the languages above are context-free?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I and IV only",
+      "B": "I and II only",
+      "C": "II and III only",
+      "D": "II and IV only"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Consider the following problems. L(G) denotes the language generated by a grammar G. L(M) denotes the language accepted by a machine M. (I) For an unrestricted grammar G and a string w, whether w[latex]\\in [/latex]L(G) (II) Given a Turing machine M, whether L(M) is regular (III) Given two grammars G1 and G2, whether L(G1) = L(G2) (IV) Given an NFA N, whether there is a deterministic PDA P such that N and P\r\naccept the same language. Which one of the following statements is correct?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only I and II are undecidable",
+      "B": "Only III is undecidable",
+      "C": "Only II and IV are undecidable",
+      "D": "Only I, II and III are undecidable"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 A lexical analyzer uses the following patterns to recognize three tokens  [latex]T_{1}, T_{2}, \\; and \\; T_{3} [/latex] over the alphabet {a,b,c}. [latex]T_{1}:a?(b|c)^* a [/latex] [latex]T_{2}:b?(a|c)^* b [/latex] [latex] T_{3}:c?(b|a)^* c[/latex] Note that 'x?' means 0 or 1 occurrence of the symbol x. Note also that the analyzer outputs the token that matches the longest possible prefix. If the string bbaacabc is processed by the analyzer, which one of the following is the\r\nsequence of tokens it outputs?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]T_{1}T_{2}T_{3}[/latex]",
+      "B": "[latex]T_{1}T_{1}T_{3}[/latex]",
+      "C": "[latex]T_{2}T_{1}T_{3}[/latex]",
+      "D": "[latex]T_{3}T_{3}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 C onsider the following parse tree for the expression a#b$c$d#e#f, involving two binary operators $ and #. Which one of the following is correct for the given parse tree?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2018/page8_q3.webp",
+    "options": {
+      "A": "[latex]\\$[/latex] has higher precedence and is left associative; # is right associative",
+      "B": "# has higher precedence and is left associative; [latex]\\$[/latex] is right associative",
+      "C": "[latex]\\$[/latex] has higher precedence and is left associative; # is left associative",
+      "D": "# has higher precedence and is right associative; [latex]\\$[/latex] is left associative"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 In a system, there are three types of resources: E, F and G. Four processes [latex]P_0,P_1,P_2 \\; and \\; P_3[/latex] execute concurrently. At the outset, the processes have declared their maximum resource requirements using a matrix named Max as given below. For example, Max[[latex]P_2[/latex],F] is the maximum number of instances of F that [latex]P_2[/latex] would require. The number of instances of the resources allocated to the various processes at any given state is given by a matrix named Allocation. Consider a state of the system with the Allocation matrix as shown below, and in which 3 instances of E and 3 instances of F are the only resources available. From the perspective of deadlock avoidance, which one of the following is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2018/page8_q4.webp",
+    "options": {
+      "A": "The system is in safe state.",
+      "B": "The system is not in safe state, but would be safe if one more instance of E were available",
+      "C": "The system is not in safe state, but would be safe if one more instance of F were available",
+      "D": "The system is not in safe state, but would be safe if one more instance of G were available"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 Consider the following solution to the producer-consumer synchronization problem. The shared buffer size is N. Three semaphores empty, full and mutex are defined with respective initial values of 0, N and 1. Semaphore empty denotes the number of available slots in the buffer, for the consumer to read from. Semaphore full denotes the number of available slots in the buffer, for the producer to write to. The placeholder variables, denoted by P, Q, R, and S, in the code below can be assigned either empty or full . The valid semaphore operations are: wait() and signal() . Which one of the following assignments to P, Q, R and S will yield the correct solution?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2018/page8_q5.webp",
+    "options": {
+      "A": "P: full, Q: full, R: empty, S: empty",
+      "B": "P: empty, Q: empty, R: full, S: full",
+      "C": "P: full, Q: empty, R: empty, S: full",
+      "D": "P: empty, Q: full, R: full, S: empty"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 Consider the relations r(A, B) and s(B, C), where s.B is a primary key and r.B is a foreign key referencing s.B. Consider the query [latex]Q:r \\Join (\\sigma _{B\\lt 5}(s))[/latex] Let LOJ denote the natural left outer-join operation. Assume that r and s contain no null values. Which one of the following queries is NOT equivalent to Q?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\sigma _{B \\lt 5}(r\\Join s)[/latex]",
+      "B": "[latex]\\sigma _{B\\lt 5}(r LOJ s)[/latex]",
+      "C": "[latex]r LOJ(\\sigma _{B\\lt 5}(s))[/latex]",
+      "D": "[latex]\\sigma _{B\\lt 5}(r) LOJ s[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 Consider the following four relational schemas. For each schema, all non-trivial functional\ndependencies are listed. The underlined attributes are the respective primary keys. Which one of the relational schemas above is in 3NF but not in BCNF?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2018/page9_q2.webp",
+    "options": {
+      "A": "Schema I",
+      "B": "Schema II",
+      "C": "Schema III",
+      "D": "Schema IV"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 Let G be a graph with 100! vertices, with each vertex labelled by a distinct permutation of the numbers 1,2,...,100. There is an edge between vertices u and v if and only if the label of u can be obtained by swapping two adjacent numbers in the label of v. Let y denote the degree of a vertex in G, and z denote the number of connected components in G. Then, y+ 10z = _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 109.0,
+    "max": 109.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 Consider Guwahati (G) and Delhi (D) whose temperatures can be classified as high (G), medium (M) and low (L). Let P([latex]H_{G}[/latex]) denote the probability that Guwahati has high temperature. Similarly, P([latex]M_{G}[/latex]) and P([latex]L_{G}[/latex]\n) denotes the probability of Guwahati having medium and low temperatures respectively. Similarly, we use P([latex]H_{D}[/latex]),P([latex]M_{D}[/latex]) and P([latex]L_{D}[/latex]) for Delhi. The following table gives the conditional probabilities for Delhi's temperature given Guwahati's temperature. Consider the first row in the table above. The first entry denotes that if Guwahati has high\ntemperature ([latex]H_{G}[/latex]) then the probability of Delhi also having a high temperature ([latex]H_{D}[/latex]) is 0.40;\ni.e., ([latex]H_{D}[/latex]|[latex]H_{G}[/latex]) = 0.40. Similarly, the next two entries are P([latex]M_{D}[/latex]| [latex]H_{G}[/latex])= 0.48 and\nP([latex]L_{D}[/latex]|[latex]H_{G}[/latex]) = 0.12. Similarly for the other rows.\nIf it is known that P([latex]H_{G}[/latex])= 0.2, P([latex]M_{G}[/latex])= 0.5, andP([latex]L_{G}[/latex])= 0.3, then the probability\n(correct to two decimal places) that Guwahati has high temperature given that Delhi has high\ntemperature is _______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2018/page9_q4.webp",
+    "min": 0.6,
+    "max": 0.62
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 Consider the following program written in pseudo-code. Assume that x and y are integers. Count(x,y) {\n     if (y != 1){\n        if (x != 1) {\n                  print(\"*\");\n                  Count(x/2, y);\n                  }\n            else {\n                     y = y-1;\n                    Count(1024, y);\n                  }\n      }\n} The number of times that the print statement is executed by the call\nCount(1024,1024) is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 10230.0,
+    "max": 10230.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 The number of possible min-heaps containing each value from {1, 2, 3, 4, 5, 6, 7} exactly once is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 80.0,
+    "max": 80.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 Consider the following undirected graph G: Choose a value for x that will maximize the number of minimum weight spanning trees (MWSTs) of G. The number of MWSTs of G for this value of x is ______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 Consider the weights and values of items listed below. Note that there is only one unit of each item. The task is to pick a subset of these items such that their total weight is no more than 11 Kgs\nand their total value is maximized. Moreover, no item may be split. The total value of items picked by an optimal algorithm is denoted by  [latex]V_{opt}[/latex]. A greedy algorithm sorts the items by their value-to-weight ratios in descending order and packs them greedily, starting from the first item in the ordered list. The total value of items picked by the greedy algorithm is denoted by [latex]V_{greedy}[/latex]. The value of [latex]V_{opt}[/latex]-[latex]V_{greedy}[/latex] is ____________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2018/page10_q3.webp",
+    "min": 16.0,
+    "max": 16.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 Consider the minterm list form of a Boolean function F given below. [latex]F(P,Q,R,S)=\\sum m(0,2,5,7,9,11)+d(3,8,10,12,14)[/latex] Here, m denotes a minterm and d denotes a don't care term. The number of essential prime\nimplicants of the function F  is ______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 The instruction pipeline of a RISC processor has the following stages: Instruction Fetch (IF), Instruction Decode (ID), Operand Fetch (OF), Perform Operation (PO) and Writeback (WB). The IF, ID, OF and WB stages take 1 clock cycle each for every instruction. Consider a sequence of 100 instructions. In the PO stage, 40 instructions take 3 clock cycles each, 35 instructions take 2 clock cycles each, and the remaining 25 instructions take 1 clock cycle each. Assume that there are no data hazards and no control hazards. The number of clock cycles required for completion of execution of the sequence of instructions is ______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 219.0,
+    "max": 219.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 A processor has 16 integer registers (R0, R1,...,R15) and 64 floating point registers (F0, F1,...,F63). It uses a 2-byte instruction format. There are four categories of instructions: Type-1, Type-2, Type-3, and Type-4. Type-1 category consists of four instructions, each with 3 integer register operands (3Rs). Type-2 category consists of eight instructions, each with 2 floating point register operands (2Fs). Type-3 category consists of fourteen instructions, each with one integer register operand and one floating point register operand (1R+1F). Type-4 category consists of N instructions, each with a floating point register operand (1F). The maximum value of N is __________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 32.0,
+    "max": 32.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 Given a language L, define [latex]L^{i}[/latex] as follows: [latex]L^{0}=\\{\\varepsilon \\} [/latex] [latex]L^{i}=L^{i-1} \\cdot L [/latex] for all [latex] i \\gt 0[/latex] The order of a language L is defined as the smallest k such that [latex]L^{k}=L^{k+1}[/latex].\nConsider the language L1 (over alphabet 0) accepted by the following automaton. The order of  L1 is ______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2018/page11_q2.webp",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 Consider a storage disk with 4 platters (numbered as 0, 1, 2 and 3), 200 cylinders (numbered as 0, 1, ... , 199), and 256 sectors per track (numbered as 0, 1, ... , 255). The following 6 disk requests of the form [sector number, cylinder number, platter number] are received by the disk controller at the same time: [120, 72, 2] , [180, 134, 1] , [60, 20, 0] , [212, 86, 3] , [56, 116, 2] , [118, 16, 1] Currently the head is positioned at sector number 100 of cylinder 80, and is moving towards higher cylinder numbers. The average power dissipation in moving the head over 100 cylinders is 20 milliwatts and for reversing the direction of the head movement once is 15 milliwatts. Power dissipation associated with rotational latency and switching of head between different platters is negligible. The total power consumption in milliwatts to satisfy all of the above disk requests using the Shortest Seek Time First disk scheduling algorithm is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 85.0,
+    "max": 85.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 Consider an IP packet with a length of 4,500 bytes that includes a 20-byte IPv4 header and a 40-byte TCP header. The packet is forwarded to an IPv4 router that supports a Maximum Transmission Unit (MTU) of 600 bytes. Assume that the length of the IP header in all the outgoing fragments of this packet is 20 bytes. Assume that the fragmentation offset value stored in the first fragment is 0. The fragmentation offset value stored in the third fragment is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 144.0,
+    "max": 144.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 Consider a simple communication system where multiple nodes are connected by a shared broadcast medium (like Ethernet or wireless). The nodes in the system use the following carrier-sense based medium access protocol. A node that receives a packet to transmit will carrier-sense the medium for 5 units of time. If the node does not detect any other transmission in this duration, it starts transmitting its packet in the next time unit. If the node detects another transmission, it waits until this other transmission finishes, and then begins to carrier-sense for 5 time units again. Once they start to transmit, nodes do not perform any collision detection and continue transmission even if a collision occurs. All transmissions last for 20 units of time. Assume that the transmission signal travels at the speed of 10 meters per unit time in the medium. Assume that the system has two nodes P and Q, located at a distance d meters from each other. P starts transmitting a packet at time t=0 after successfully completing its carrier-sense phase. Node Q has a packet to transmit at time t=0 and begins to carrier-sense the medium. The maximum distance d (in meters, rounded to the closest integer) that allows Q to\nsuccessfully avoid a collision between its proposed transmission and P's ongoing\ntransmission is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 50.0,
+    "max": 50.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 \"From where are they bringing their books? _______ bringing _______ books from ________\" The words that best fill the blanks in the above sentence are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Their, they're, there",
+      "B": "They're, their, there",
+      "C": "There, their, they're",
+      "D": "They're, there,there"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 A ________ investigation can sometimes yield new facts, but typically organized ones are more successful. The word that best fills the blank in the above sentence is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "meandering",
+      "B": "timely",
+      "C": "consistent",
+      "D": "systematic"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 The area of a square is [latex]d[/latex]. What is the area of the circle which has the diagonal of the square as its diameter?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\pi d[/latex]",
+      "B": "[latex]\\pi d^2[/latex]",
+      "C": "[latex]\\frac{1}{4} \\pi d^2[/latex]",
+      "D": "[latex]\\frac{1}{2} \\pi d[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 What would be the smallest natural number which when divided either by 20 or by 42\nor by 76 leaves a remainder of 7 in each case?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "3047",
+      "B": "6047",
+      "C": "7987",
+      "D": "63847"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 What is the missing number in the following sequence? 2, 12, 60, 240, 720, 1440,  _____ ,0",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2880",
+      "B": "1440",
+      "C": "720",
+      "D": "0"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 In appreciation of the social improvements completed in a town, a wealthy philanthropist \ndecided to gift Rs. 750 to each male senior citizen in the town and Rs. 1000 to each\nfemale senior citizen.  Altogether, there were 300 senior citizens eligible for this gift. However,\nonly [latex]{\\frac{8}{9}}^{th}[/latex] of the eligible men and [latex]{\\frac{2}{3}}^{rd}[/latex] of the eligible women claimed the gift. How much\nmoney (in Rupees) did the philanthropist give away in total?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1,50,000",
+      "B": "2,00,000",
+      "C": "1,75,000",
+      "D": "1,51,000"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 If [latex]pqr\\neq 0[/latex] and [latex]p^{-x}=\\dfrac{1}{q},q^{-y}=\\dfrac{1}{r},r^{-z}=\\dfrac{1}{p},[/latex]  what is the value\n of the product [latex]xyz[/latex] ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "-1",
+      "B": "[latex]\\frac{1}{pqr}[/latex]",
+      "C": "1",
+      "D": "[latex]pqr[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 In a party, 60% of the invited guests are male and 40% are female. If 80% of the invited guests attended the party and if all the invited female guests attended, what would be the ratio of males to females among the attendees in the party?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "02:03",
+      "B": "01:01",
+      "C": "03:02",
+      "D": "02:01"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 In the figure below,  [latex]\\angle DEC + \\angle BFC[/latex]  is equal to _____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\angle BCD - \\angle BAD[/latex]",
+      "B": "[latex]\\angle BAD + \\angle BCF[/latex]",
+      "C": "[latex]\\angle BAD + \\angle BCD[/latex]",
+      "D": "[latex]\\angle CBA + \\angle ADC[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 A six sided unbiased die with four green faces and two red faces is rolled seven times. Which of the following combinations is the most likely outcome of the experiment?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Three green faces and four red faces.",
+      "B": "Four green faces and three red faces.",
+      "C": "Five green faces and two red faces.",
+      "D": "Six green faces and one red face"
+    },
+    "correct_answer": "C"
+  }
+]

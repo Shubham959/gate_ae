@@ -1,0 +1,766 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Consider the following statements regarding the front-end and back-end of a compiler. S1: The front-end includes phases that are independent of the target hardware. S2: The back-end includes phases that are specific to the target hardware. S3: The back-end includes phases that are specific to the programming language used in the source code. Identify the CORRECT option.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only S1 is TRUE.",
+      "B": "Only S1 and S2 are TRUE.",
+      "C": "S1, S2, and S3 are all TRUE.",
+      "D": "Only S1 and S3 are TRUE."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 Which one of the following sequences when stored in an array at locations\nA[1], . . . , A[10] forms a max-heap?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "23, 17, 10, 6, 13, 14, 1, 5, 7, 12",
+      "B": "23, 17, 14, 7, 13, 10, 1, 5, 6, 12",
+      "C": "23, 17, 14, 6, 13, 10, 1, 5, 7, 15",
+      "D": "23, 14, 17, 1, 10, 13, 16, 12, 7, 5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Let SLLdel be a function that deletes a node in a singly-linked list given a pointer\nto the node and a pointer to the head of the list. Similarly, let DLLdel be another\nfunction that deletes a node in a doubly-linked list given a pointer to the node and\na pointer to the head of the list. Let n denote the number of nodes in each of the linked lists. Which one of the\nfollowing choices is TRUE about the worst-case time complexity of SLLdel and\nDLLdel?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "SLLdel is O(1) and DLLdel is O(n)",
+      "B": "Both SLLdel and DLLdel are O(log(n))",
+      "C": "Both SLLdel and DLLdel are O(1)",
+      "D": "SLLdel is O(n) and DLLdel is O(1)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 Consider the Deterministic Finite-state Automaton (DFA) [latex]A[/latex] shown below. The\nDFA runs on the alphabet {0, 1}, and has the set of states {s, p, q, r}, with s being\nthe start state and p being the only final state. Which one of the following regular expressions correctly describes the language\naccepted by [latex]A[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page1_q4.webp",
+    "options": {
+      "A": "[latex]1(0^*11)^*[/latex]",
+      "B": "[latex]0(0 + 1)^*[/latex]",
+      "C": "[latex]1(0 + 11)^*[/latex]",
+      "D": "[latex]1(110^*)^*[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 The Lucas sequence [latex] L_n [/latex] is defined by the recurrence relation: [latex] L_n=L_{n-1}+L_{n-2}, \\; for \\; n\\geq 3, [/latex] with [latex] L_1=1 \\; and \\; L_2=3 [/latex] Which one of the options given is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex] L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n+\\left ( \\frac{1-\\sqrt{5}}{2} \\right )^n [/latex]",
+      "B": "[latex] L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n - \\left ( \\frac{1-\\sqrt{5}}{3} \\right )^n [/latex]",
+      "C": "[latex] L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n+\\left ( \\frac{1-\\sqrt{5}}{3} \\right )^n [/latex]",
+      "D": "[latex] L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n- \\left ( \\frac{1-\\sqrt{5}}{2} \\right )^n [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Which one of the options given below refers to the degree (or arity) of a relation in\nrelational database systems?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Number of attributes of its relation schema.",
+      "B": "Number of tuples stored in the relation.",
+      "C": "Number of entries in the relation.",
+      "D": "Number of distinct domains of its relation schema."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Suppose two hosts are connected by a point-to-point link and they are configured\nto use Stop-and-Wait protocol for reliable data transfer. Identify in which one of\nthe following scenarios, the utilization of the link is the lowest.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Longer link length and lower transmission rate",
+      "B": "Longer link length and higher transmission rate",
+      "C": "Shorter link length and lower transmission rate",
+      "D": "Shorter link length and higher transmission rate"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 Let [latex] A=\\begin{bmatrix}\n1 & 2 & 3 &4 \\\\ \n 4&  1& 2 &3 \\\\ \n 3& 4 & 1 &2 \\\\ \n2 &3  &4  &1 \n\\end{bmatrix}[/latex] and [latex] B=\\begin{bmatrix}\n 3& 4 & 1 &2 \\\\\n 4&  1& 2 &3 \\\\ \n 1 & 2 & 3 &4 \\\\ \n2 &3  &4  &1 \n\\end{bmatrix}[/latex] Let det(A) and det(B) denote the determinants of the matrices A and B,\nrespectively. Which one of the options given below is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "det(A) = det(B)",
+      "B": "det(B) = - det(A)",
+      "C": "det(A)=0",
+      "D": "det(AB) = det(A) + det(B)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 Consider the following definition of a lexical token [latex]id[/latex] for an identifier in a programming language, using extended regular expressions: [latex] letter \\rightarrow  [A-Za-z][/latex] [latex] digit \\rightarrow  [0-9][/latex] [latex] id \\rightarrow letter (letter\\;| \\;digit)^*[/latex] Which one of the following Non-deterministic Finite-state Automata with -\ntransitions accepts the set of valid identifiers? (A double-circle denotes a final\nstate)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page2_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 An algorithm has to store several keys generated by an adversary in a hash\ntable. The adversary is malicious who tries to maximize the number of collisions.\nLet [latex] k[/latex] be the number of keys, [latex] m[/latex] be the number of slots in the hash table, and [latex] k \\gt m[/latex]. Which one of the following is the best hashing strategy to counteract the adversary?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Division method, i.e., use the hash function [latex]h(k) = k\\;  mod \\; m[/latex]",
+      "B": "Multiplication method, i.e., use the hash function [latex] h(k) =  \\left \\lfloor m(kA -\\left \\lfloor kA \\right \\rfloor ) \\right \\rfloor[/latex], where\n[latex]A[/latex] is a carefully chosen constant.",
+      "C": "Universal hashing method.",
+      "D": "If [latex]k[/latex] is a prime number, use Division method. Otherwise, use Multiplication method"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 The output of a 2-input multiplexer is connected back to one of its inputs as shown\nin the figure. Match the functional equivalence of this circuit to one of the following options.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page3_q1.webp",
+    "options": {
+      "A": "D Flip-flop",
+      "B": "D Latch",
+      "C": "Half-adder",
+      "D": "Demultiplexer"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Which one or more of the following need to be saved on a context switch from one\nthread (T1) of a process to another thread (T2) of the same process?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Page table base register",
+      "B": "Stack pointer",
+      "C": "Program counter",
+      "D": "General purpose registers"
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Which one or more of the following options guarantee that a computer system will\ntransition from user mode to kernel mode?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Function Call",
+      "B": "malloc Call",
+      "C": "Page Fault",
+      "D": "System Call"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 Which of the following statements is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The intersection of two regular languages is regular.",
+      "B": "The intersection of two context-free languages is context-free.",
+      "C": "The intersection of two recursive languages is recursive.",
+      "D": "The intersection of two recursively enumerable languages is recursively enumerable."
+    },
+    "correct_answers": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 Which of the following statements is/are INCORRECT about\nthe OSPF (Open Shortest Path First) routing protocol used in the Internet?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "OSPF implements Bellman-Ford algorithm to find shortest paths.",
+      "B": "OSPF uses Dijkstra's shortest path algorithm to implement least-cost path routing",
+      "C": "OSPF is used as an inter-domain routing protocol",
+      "D": "OSPF implements hierarchical routing."
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Geetha has a conjecture about integers, which is of the form [latex]\\forall x\\left [P(x)\\Rightarrow \\exists yQ(x,y)  \\right ]  [/latex] where [latex]P[/latex] is a statement about integers, and [latex]Q[/latex] is a statement about pairs of integers.\nWhich of the following (one or more) option(s) would imply Geetha's conjecture?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\exists  x\\left [P(x)\\wedge  \\forall yQ(x,y)  \\right ]  [/latex]",
+      "B": "[latex]\\forall x  \\forall y  Q(x,y)    [/latex]",
+      "C": "[latex]\\exists  y \\forall x \\left [P(x) \\Rightarrow   Q(x,y)  \\right ]  [/latex]",
+      "D": "[latex]\\exists   x \\left [P(x) \\wedge  \\exists y  Q(x,y)  \\right ]  [/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Which one or more of the following CPU scheduling algorithms can potentially\ncause starvation?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "First-in First-Out",
+      "B": "Round Robin",
+      "C": "Priority Scheduling",
+      "D": "Shortest Job First"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 Let [latex]f(x)=x^3+15x^2-33x-36 [/latex] be a real-valued function. Which of the following statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]f(x)[/latex] does not have a local maximum.",
+      "B": "[latex]f(x)[/latex]  has a local maximum.",
+      "C": "[latex]f(x)[/latex] does not have a local minimum.",
+      "D": "[latex]f(x)[/latex]  has a local minimum."
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 Let [latex]f[/latex] and [latex]g[/latex] be functions of natural numbers given by [latex]f(n)=n[/latex] and [latex]g(n)=n^2[/latex]. Which of the following statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]f \\in O(g)[/latex]",
+      "B": "[latex]f \\in \\Omega (g)[/latex]",
+      "C": "[latex]f \\in o(g)[/latex]",
+      "D": "[latex]f \\in \\Theta  (g)[/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 Let A be the adjacency matrix of the graph with vertices {1, 2, 3, 4, 5}. Let [latex]\\lambda _1,\\lambda _2,\\lambda _3,\\lambda _4,\\; and \\; \\lambda _5[/latex] be the five eigenvalues of A. Note that these eigenvalues\r\nneed not be distinct. The value of [latex]\\lambda _1+\\lambda _2+\\lambda _3+ \\lambda _4+  \\lambda _5 \r\n =[/latex] _____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page4_q5.webp",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 The value of the definite integral [latex] \\int_{-3}^{3}  \\int_{-2}^{2}  \\int_{-1}^{1} (4x^2y-z^3)dzdydx[/latex] is _____. (Rounded off to the nearest integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 A particular number is written as 132 in radix-4 representation. The same number\nin radix-5 representation is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 110.0,
+    "max": 110.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 Consider a 3-stage pipelined processor having a delay of 10 ns (nanoseconds),\n20 ns, and 14 ns, for the first, second, and the third stages, respectively. Assume\nthat there is no other delay and the processor does not suffer from any pipeline\nhazards. Also assume that one instruction is fetched every cycle. The total execution time for executing 100 instructions on this processor is _______\nns",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 2040.0,
+    "max": 2040.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 A keyboard connected to a computer is used at a rate of 1 keystroke per second.\nThe computer system polls the keyboard every 10 ms (milli seconds) to check for\na keystroke and consumes 100 [latex] \\mu s[/latex] (micro seconds) for each poll. If it is determined\nafter polling that a key has been pressed, the system consumes an additional 200\n[latex] \\mu s[/latex] to process the keystroke. Let [latex] T_1[/latex] denote the fraction of a second spent in polling\nand processing a keystroke. In an alternative implementation, the system uses interrupts instead of polling.\nAn interrupt is raised for every keystroke. It takes a total of 1 ms for servicing an\ninterrupt and processing a keystroke. Let  [latex] T_2[/latex] denote the fraction of a second spent\nin servicing the interrupt and processing a keystroke.\nThe ratio [latex] \\frac{T_1}{T_2}[/latex]\nis ______ . (Rounded off to one decimal place)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 10.2,
+    "max": 10.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 The integer value printed by the ANSI-C program given below is ______. #include &lt stdio.h &gt\r\nint funcp(){\r\n   static int x = 1;\r\n   x++;\r\n   return x;\r\n}\r\nint main(){\r\n   int x,y;\r\n   x = funcp();\r\n   y = funcp()+x;\r\n   printf(\"%d\\n\", (x+y));\r\n   return 0;\r\n}",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 7.0,
+    "max": 7.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 Consider the following program: int main()\r\n{\r\n  f1();\r\n  f2(2);\r\n  f3();\r\n  return(0);\r\n}\r\n\r\nint f1()\r\n{\r\n  return(1);\r\n}\r\n\r\nint f2(int X)\r\n{\r\n  f3();\r\n  if (X==1)\r\n     return f1();\r\n  else\r\n     return (X*f2(X-1));\r\n}\r\n\r\nint f3()\r\n{\r\n  return(5);\r\n} Which one of the following options represents the activation tree corresponding to\r\nthe main function?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page6_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 Consider the control flow graph shown. Which one of the following choices correctly lists the set of live variables at the exit\npoint of each basic block?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page6_q2.webp",
+    "options": {
+      "A": "B1: {}, B2: {a}, B3: {a}, B4: {a}",
+      "B": "B1: {i, j}, B2: {a}, B3: {a}, B4: {i}",
+      "C": "B1: {a, i, j}, B2: {a, i, j}, B3: {a, i}, B4: {a}",
+      "D": "B1: {a, i, j}, B2: {a, j}, B3: {a, j}, B4: {a, i, j}"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Consider the two functions incr and decr shown below. incr(){\r\n  wait(s);\r\n  X = X+1;\r\n  signal(s);\r\n}\r\n\r\ndecr(){\r\n  wait(s);\r\n  X = X-1;\r\n  signal(s);\r\n} There are 5 threads each invoking incr once, and 3 threads each invoking decr\r\nonce, on the same shared variable X. The initial value of X is 10. Suppose there are two implementations of the semaphore [latex]s[/latex], as follows: I-1: s is a binary semaphore initialized to 1. I-2: s is a counting semaphore initialized to 2. Let V1, V2 be the values of X at the end of execution of all the threads with\r\nimplementations I-1, I-2, respectively. Which one of the following choices corresponds to the minimum possible values of\r\nV1, V2, respectively?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "15, 7",
+      "B": "7, 7",
+      "C": "12, 7",
+      "D": "12, 8"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Consider the context-free grammar [latex]G[/latex] below [latex] S\\rightarrow aSb \\;| \\;X[/latex] [latex] X\\rightarrow aX \\;| \\;Xb \\;|\\; a\\;|\\; b[/latex] where [latex]S[/latex] and [latex]X[/latex] are non-terminals, and [latex]a[/latex] and [latex]b[/latex] are terminal symbols. The starting\nnon-terminal is [latex]S[/latex]. Which one of the following statements is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The language generated by [latex] G \\text{ is }(a + b)^*[/latex]",
+      "B": "The language generated by [latex] G \\text{ is } a^*(a + b)b^*[/latex]",
+      "C": "The language generated by [latex] G \\text{ is }a^*b^*(a + b)[/latex]",
+      "D": "The language generated by [latex] G[/latex] is not a regular language"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Consider the pushdown automaton (PDA) [latex]P[/latex] below, which runs on the input alphabet [latex]\\{a,b\\}[/latex], has stack alphabet [latex] \\{ \\perp ,A\\}[/latex], and has three states [latex] \\{s,p,q\\}[/latex], with [latex]s[/latex]  being\nthe start state. A transition from state [latex]u[/latex]  to state [latex]v[/latex] , labelled [latex]c/X/\\gamma [/latex] , where [latex]c[/latex] is\nan input symbol or , [latex]X[/latex] is a stack symbol, and [latex]\\gamma [/latex] is a string of stack symbols,\nrepresents the fact that in state  [latex]u[/latex], the PDA can read  [latex]c[/latex] from the input, with  [latex]X[/latex] on\nthe top of its stack, pop  [latex]X[/latex] from the stack, push in the string  [latex]\\gamma [/latex] on the stack, and\ngo to state [latex]v[/latex]. In the initial configuration, the stack has only the symbol  [latex]\\perp [/latex] in it.\nThe PDA accepts by empty stack. Which one of the following options correctly describes the language accepted by [latex]P[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page6_q5.webp",
+    "options": {
+      "A": "[latex] \\{ a^mb^n |1\\leq m\\text{ and }n \\lt m \\}[/latex]",
+      "B": "[latex] \\{ a^mb^n |0 \\leq n \\leq m \\}[/latex]",
+      "C": "[latex] \\{ a^mb^n |0\\leq m\\text{ and } 0 \\lt n \\}[/latex]",
+      "D": "[latex] \\{ a^m |0\\leq m \\} \\cup \\{b^n|0 \\leq n \\}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 Consider the given C-code and its corresponding assembly code, with a few\noperands U1-U4 being unknown. Some useful information as well as the semantics\nof each unique assembly instruction is annotated as inline comments in the code.\nThe memory is byte-addressable. Which one of the following options is a CORRECT replacement for operands in\nthe position (U1, U2, U3, U4) in the above assembly code?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page7_q1.webp",
+    "options": {
+      "A": "(8, 4, 1, Lo2)",
+      "B": "(3, 4, 4, Lo1)",
+      "C": "(8, 1, 1, Lo2)",
+      "D": "(3, 1, 1, Lo1)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 A 4 kilobyte (KB) byte-addressable memory is realized using four 1 KB memory\nblocks. Two input address lines (IA4 and IA3) are connected to the chip select\n(CS) port of these memory blocks through a decoder as shown in the figure. The\nremaining ten input address lines from IA11-IA0 are connected to the address\nport of these blocks. The chip select (CS) is active high. The input memory addresses (IA11-IA0), in decimal, for the starting locations\n(Addr=0) of each block (indicated as X1, X2, X3, X4 in the figure) are among the\noptions given below. Which one of the following options is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page7_q2.webp",
+    "options": {
+      "A": "(0, 1, 2, 3)",
+      "B": "(0, 1024, 2048, 3072)",
+      "C": "(0, 8, 16, 24)",
+      "D": "(0, 0, 0, 0)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 Consider a sequential digital circuit consisting of T flip-flops and D flip-flops as\nshown in the figure. CLKIN is the clock input to the circuit. At the beginning,\nQ1, Q2 and Q3 have values 0, 1 and 1, respectively. Which one of the given values of (Q1, Q2, Q3) can NEVER be obtained with this\ndigital circuit?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page7_q3.webp",
+    "options": {
+      "A": "(0, 0, 1)",
+      "B": "(1, 0, 0)",
+      "C": "(1, 0, 1)",
+      "D": "(1, 1, 1)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 A Boolean digital circuit is composed using two 4-input multiplexers (M1 and M2)\nand one 2-input multiplexer (M3) as shown in the figure. X0-X7 are the inputs of\nthe multiplexers M1 and M2 and could be connected to either 0 or 1. The select\nlines of the multiplexers are connected to Boolean variables A, B and C as shown. Which one of the following set of values of (X0, X1, X2, X3, X4, X5, X6, X7) will\nrealise the Boolean function [latex] \\bar{A}+\\bar{A}\\cdot \\bar{C}+A\\cdot \\bar{B}\\cdot C[/latex] ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page7_q4.webp",
+    "options": {
+      "A": "(1, 1, 0, 0, 1, 1, 1, 0)",
+      "B": "(1, 1, 0, 0, 1, 1, 0, 1)",
+      "C": "(1, 1, 0, 1, 1, 1, 0, 0)",
+      "D": "(0, 0, 1, 1, 0, 1, 1, 1)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Consider the IEEE-754 single precision floating point numbers\nP=0xC1800000 and Q=0x3F5C2EF4. Which one of the following corresponds to the product of these numbers\n(i.e., P x Q), represented in the IEEE-754 single precision format?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0x404C2EF4",
+      "B": "0x405C2EF4",
+      "C": "0xC15C2EF4",
+      "D": "0xC14C2EF4"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Let A be a priority queue for maintaining a set of elements. Suppose A is\nimplemented using a max-heap data structure. The operation Extract-Max(A)\nextracts and deletes the maximum element from A. The operation Insert(A,key)\ninserts a new element key in A. The properties of a max-heap are preserved at the\nend of each of these operations. When A contains n elements, which one of the following statements about the worst\ncase running time of these two operations is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Both Extract-Max(A) and Insert(A,key) run in O(1).",
+      "B": "Both Extract-Max(A) and Insert(A,key) run in O(log(n)).",
+      "C": "Extract-Max(A) runs in O(1) whereas Insert(A,key) runs in O(n).",
+      "D": "Extract-Max(A) runs in O(1) whereas Insert(A,key) runs in O(log(n))."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 Consider the C function foo and the binary tree shown. typedef struct node {\n   int val;\n   struct node *left, *right;\n} node;\n\nint foo(node *p) {\n   int retval;\n   if (p == NULL)\n       return 0;\nelse {\n     retval = p->val + foo(p->left) + foo(p->right);\n     printf(\"%d \", retval);\n     return retval;\n     }\n} When foo is called with a pointer to the root node of the given binary tree, what\nwill it print?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page8_q2.webp",
+    "options": {
+      "A": "3 8 5 13 11 10",
+      "B": "3 5 8 10 11 13",
+      "C": "3 8 16 13 24 50",
+      "D": "3 16 8 50 24 13"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 Let U = {1, 2,...,n}, where n is a large positive integer greater than 1000. Let\nk be a positive integer less than n. Let A, B be subsets of U with |A| = |B| = k\nand [latex] A\\cap B=\\phi [/latex]. We say that a permutation of U separates A from B if one of the\nfollowing is true. - All members of A appear in the permutation before any of the members of B. - All members of B appear in the permutation before any of the members of A. How many permutations of U separate A from B?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex] n![/latex]",
+      "B": "[latex]\\binom{n}{2k} (n-2k)![/latex]",
+      "C": "[latex]\\binom{n}{2k} (n-2k)!  (k!)^2[/latex]",
+      "D": "[latex]2 \\binom{n}{2k} (n-2k)!  (k!)^2[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 Let [latex] f:A\\rightarrow B[/latex] be an onto (or surjective) function, where [latex]A[/latex]  and [latex]B[/latex] are nonempty\nsets. Define an equivalence relation [latex] \\sim [/latex]  on the set [latex]A[/latex] as [latex] a_1\\sim a_2 \\text{ if } f(a_1)=f(a_2),[/latex] where [latex] a_1, a_2  \\in A[/latex] . Let [latex] \\varepsilon =\\{[x]:x \\in A\\}[/latex]  be the set of all the equivalence classes\nunder [latex] \\sim [/latex]. Define a new mapping [latex] F: \\varepsilon \\rightarrow B[/latex]  as [latex]F([x]) = f(x),[/latex] for all the equivalence classes [latex][x][/latex] in [latex]  \\varepsilon[/latex] Which of the following statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "F is NOT well-defined.",
+      "B": "F is an onto (or surjective) function.",
+      "C": "F is a one-to-one (or injective) function.",
+      "D": "F is a bijective function."
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 Suppose you are asked to design a new reliable byte-stream transport protocol\nlike TCP. This protocol, named myTCP, runs over a 100 Mbps network with Round\nTrip Time of 150 milliseconds and the maximum segment lifetime of 2 minutes. Which of the following is/are valid lengths of the Sequence Number field in the\nmyTCP header?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "30 bits",
+      "B": "32 bits",
+      "C": "34 bits",
+      "D": "36 bits"
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 Let [latex]X[/latex] be a set and [latex]2^X[/latex] denote the powerset of [latex]X[/latex]. Define a binary operation [latex] \\Delta [/latex] on [latex]2^X[/latex] as follows: [latex]A  \\Delta B=(A-B) \\cup (B-A)[/latex] Let [latex] H=(2^X,\\Delta ) [/latex]. Which of the following statements about [latex]H[/latex] is/are correct?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]H[/latex] is a group.",
+      "B": "Every element in [latex]H[/latex] has an inverse, but [latex]H[/latex] is NOT a group.",
+      "C": "For every [latex]A \\in 2^X[/latex], the inverse of [latex]A[/latex] is the complement of [latex]A[/latex].",
+      "D": "For every [latex]A \\in 2^X[/latex], the inverse of [latex]A[/latex] is [latex]A[/latex]."
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 Suppose in a web browser, you click on the www.gate-2023.in URL. The browser\ncache is empty. The IP address for this URL is not cached in your local host, so\na DNS lookup is triggered (by the local DNS server deployed on your local host)\nover the 3-tier DNS hierarchy in an iterative mode. No resource records are cached\nanywhere across all DNS servers. Let RTT denote the round trip time between your local host and DNS servers\nin the DNS hierarchy. The round trip time between the local host and the web\nserver hosting www.gate-2023.in is also equal to RTT. The HTML file associated\nwith the URL is small enough to have negligible transmission time and negligible\nrendering time by your web browser, which references 10 equally small objects on\nthe same web server. Which of the following statements is/are CORRECT about the minimum elapsed\ntime between clicking on the URL and your browser fully rendering it?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "7 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.",
+      "B": "5 RTTs, in case of persistent HTTP with pipelining.",
+      "C": "9 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.",
+      "D": "6 RTTs, in case of persistent HTTP with pipelining."
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 Consider a random experiment where two fair coins are tossed. Let A be the event\nthat denotes HEAD on both the throws, B be the event that denotes HEAD on\nthe first throw, and C be the event that denotes HEAD on the second throw.\nWhich of the following statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A and B are independent.",
+      "B": "A and C are independent.",
+      "C": "B and C are independent.",
+      "D": "Prob(B|C) = Prob(B)"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 Consider functions Function 1 and Function 2 expressed in pseudocode as\nfollows: Let [latex]f_1(n)[/latex] and [latex]f_2(n)[/latex] denote the number of times the statement [latex]\"x = x + 1\"[/latex] is\nexecuted in Function 1 and Function 2, respectively. Which of the following statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page9_q4.webp",
+    "options": {
+      "A": "[latex] f_1(n)\\in \\Theta (f_2(n)) [/latex]",
+      "B": "[latex] f_1(n)\\in o (f_2(n)) [/latex]",
+      "C": "[latex] f_1(n)\\in \\omega  (f_2(n)) [/latex]",
+      "D": "[latex] f_1(n)\\in O  (n) [/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 Let [latex]G[/latex] be a simple, finite, undirected graph with vertex set [latex] \\{v_1,...,v_n\\}[/latex]. Let [latex] \\Delta (G)[/latex]  \ndenote the maximum degree of  [latex]G[/latex] and let [latex] N=\\{1,2,...\\} [/latex]  denote the set of all possible\ncolors. Color the vertices of  [latex]G[/latex] using the following greedy strategy:\nfor [latex]i = 1,...,n[/latex] [latex]color(v_i)\\leftarrow min\\{ j \\in N: \\text{  no neighbour of } v_i \\text{ is colored } j\\}[/latex] Which of the following statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "This procedure results in a proper vertex coloring of [latex]G[/latex].",
+      "B": "The number of colors used is at most [latex] \\Delta (G)+1[/latex].",
+      "C": "The number of colors used is at most[latex] \\Delta (G)[/latex].",
+      "D": "The number of colors used is equal to the chromatic number of [latex]G[/latex]."
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 Let [latex]U = \\{1, 2, 3\\}[/latex]. Let [latex]2^U[/latex] denote the powerset of  [latex]U[/latex]. Consider an undirected graph\n [latex]G[/latex] whose vertex set is  [latex]2^U[/latex]. For any  [latex]A,B \\in 2^U, (A,B)[/latex] is an edge in  [latex]G[/latex] if and only\nif (i)  [latex]A \\neq B[/latex], and (ii) either [latex]A \\subseteq B[/latex]   or [latex]B \\subseteq A[/latex]. For any vertex [latex]A[/latex] in [latex]G[/latex], the set of\nall possible orderings in which the vertices of [latex]G[/latex] can be visited in a Breadth First\nSearch (BFS) starting from [latex]A[/latex] is denoted by [latex]B(A)[/latex]. If [latex]\\phi [/latex]  denotes the empty set, then the cardinality of [latex]B(\\phi ) [/latex]  is ____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 5040.0,
+    "max": 5040.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 Consider the following two-dimensional array D in the C programming language,\nwhich is stored in row-major order: int D[128][128]; Demand paging is used for allocating memory and each physical page frame holds\n512 elements of the array D. The Least Recently Used (LRU) page-replacement\npolicy is used by the operating system. A total of 30 physical page frames are\nallocated to a process which executes the following code snippet: for (int i = 0; i < 128; i++)\n       for (int j = 0; j < 128; j++) \n                   D[j][i] *= 10; The number of page faults generated during the execution of this code snippet is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4096.0,
+    "max": 4096.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 Consider a computer system with 57-bit virtual addressing using multi-level\ntree-structured page tables with L levels for virtual to physical address translation.\nThe page size is 4 KB (1 KB = 1024 B) and a page table entry at any of the levels\noccupies 8 bytes. The value of L is ______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 Consider a sequence [latex]a[/latex] of elements [latex]a_0 = 1, a_1 = 5, a_2 = 7, a_3 = 8, a_4 = 9, \\; and \\; \na_5 = 2[/latex]. The following operations are performed on a stack [latex]S[/latex] and a queue [latex]Q[/latex], both\nof which are initially empty. I: push the elements of a from [latex]a_0[/latex] to [latex]a_5[/latex] in that order into [latex]S[/latex]. II: enqueue the elements of a from [latex]a_0[/latex] to [latex]a_5[/latex] in that order into [latex]Q[/latex]. III: pop an element from [latex]S[/latex]. IV: dequeue an element from [latex]Q[/latex]. V: pop an element from [latex]S[/latex]. VI: dequeue an element from [latex]Q[/latex]. VII: dequeue an element from [latex]Q[/latex] and push the same element into [latex]S[/latex]. VIII: Repeat operation VII three times. IX: pop an element from [latex]S[/latex]. X: pop an element from [latex]S[/latex]. The top element of [latex]S[/latex] after executing the above operations is ___.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 8.0,
+    "max": 8.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 Consider the syntax directed translation given by the following grammar and semantic rules. Here [latex]N, I, F \\; and \\; B[/latex] are non-terminals. [latex]N[/latex] is the starting non-terminal,\r\nand [latex]\\#,0 \\; and \\; 1[/latex] are lexical tokens corresponding to input letters [latex]\"\\#\",\"0\" \\; and \\; \"1\"[/latex],\r\nrespectively. [latex]X.val[/latex] denotes the synthesized attribute (a numeric value) associated\r\nwith a non-terminal [latex]X[/latex]. [latex]I_1[/latex] and [latex]F_1[/latex] denote occurrences of [latex]I[/latex] and [latex]F[/latex] on the right hand\r\nside of a production, respectively. For the tokens [latex]0[/latex] and [latex]1[/latex], [latex]0.val=0[/latex] and [latex]1.val=1[/latex]. The value computed by the translation scheme for the input string [latex]\\begin{aligned}\r\nN & \\rightarrow I \\# F & N.val=I.val+F.val \\\\ \r\nI &\\rightarrow I_1B & I.val = (2 I1.val) + B.val\\\\ \r\nI &\\rightarrow B&I.val = B.val\\\\ \r\nF &\\rightarrow BF_1& F.val = \\frac{1}{2}(B.val + F1.val)\\\\ \r\nF &\\rightarrow B&  F.val = \\frac{1}{2} B.val\\\\ \r\n B&\\rightarrow 0& B.val = 0.val\\\\ \r\nB &\\rightarrow 1&B.val = 1.val\r\n\\end{aligned} [/latex] [latex]10\\# 011[/latex] is ____ (Rounded off to three decimal places)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 2.374,
+    "max": 2.376
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 Consider the following table named Student in a relational database. The primary\nkey of this table is rollNum. [latex]\\begin{array}{|c|c|c|c|}\n\\hline \\\\\nrollNum&name&gender&marks \\\\ \\hline\n1&Naman&M&62\\\\ \\hline\n2&Aliya&F&70 \\\\ \\hline\n3&Aliya &F&80 \\\\ \\hline\n4&James&M&82\\\\ \\hline\n5&Swati&F&65\\\\ \\hline\n\\end{array} [/latex] The SQL query below is executed on this database. SELECT *\nFROM Student\nWHERE gender = 'F' AND\n marks > 65; The number of rows returned by the query is ______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 Consider a database of fixed-length records, stored as an ordered file. The database\nhas 25,000 records, with each record being 100 bytes, of which the primary key\noccupies 15 bytes. The data file is block-aligned in that each data record is fully\ncontained within a block. The database is indexed by a primary index file, which\nis also stored as a block-aligned ordered file. The figure below depicts this indexing\nscheme. Suppose the block size of the file system is 1024 bytes, and a pointer to a block\noccupies 5 bytes. The system uses binary search on the index file to search for a\nrecord with a given key. You may assume that a binary search on an index file of\n[latex]b[/latex] blocks takes  [latex]\\left \\lceil \\log_2 b \\right \\rceil [/latex]  block accesses in the worst case. Given a key, the number of block accesses required to identify the block in the data\nfile that may contain a record with the key, in the worst case, is _____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page11_q2.webp",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 Consider the language L over the alphabet {0, 1}, given below: [latex]L = \\{w \\in \\{0, 1\\}^* | w \\text{ does not contain three or more consecutive 1's} \\}.[/latex] The minimum number of states in a Deterministic Finite-State Automaton (DFA)\nfor L is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 An 8-way set associative cache of size 64 KB (1 KB = 1024 bytes) is used in a\nsystem with 32-bit address. The address is sub-divided into TAG, INDEX, and\nBLOCK OFFSET. The number of bits in the TAG is ____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 19.0,
+    "max": 19.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 The forwarding table of a router is shown below. [latex]\\begin{array}{|c|c|c|c|}\n\\hline \\\\\nSubnet \\; Number&Subnet \\;Mask&Interface ID \\\\ \\hline\n200.150.0.0 &255.255.0.0& 1\\\\ \\hline\n200.150.64.0 &255.255.224.0 &2\\\\ \\hline\n200.150.68.0 &255.255.255.0 &3\\\\ \\hline\n200.150.68.64 &255.255.255.224 &4 \\\\ \\hline\nDefault & &0\\\\ \\hline\n\\end{array} [/latex] A packet addressed to a destination address 200.150.68.118 arrives at the router.\nIt will be forwarded to the interface with ID _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 We reached the station late, and _______ missed the train.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "near",
+      "B": "nearly",
+      "C": "utterly",
+      "D": "mostly"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Kind : _______ : : Often : Frequently (By word meaning)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Mean",
+      "B": "Type",
+      "C": "Cruel",
+      "D": "Kindly"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 A series of natural numbers [latex]F_1,F_2,F_3,F_4,F_5,F_6,F_7,... [/latex]  obeys [latex]F_{n+1}=F_n+F_{n-1} [/latex]  for all integers [latex]n \\geq 2[/latex]. If [latex]F_6=37[/latex], and [latex]F_7=60[/latex], then what is [latex]F_1[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "8",
+      "D": "9"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 A survey for a certain year found that 90% of pregnant women received medical\ncare at least once before giving birth. Of these women, 60% received medical care\nfrom doctors, while 40% received medical care from other healthcare providers. Given this information, which one of the following statements can be inferred with\ncertainty?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "More than half of the pregnant women received medical care at least once from a\ndoctor.",
+      "B": "Less than half of the pregnant women received medical care at least once from a\ndoctor.",
+      "C": "More than half of the pregnant women received medical care at most once from a\ndoctor.",
+      "D": "Less than half of the pregnant women received medical care at most once from a\ndoctor."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 Looking at the surface of a smooth 3-dimensional object from the outside, which\none of the following options is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The surface of the object must be concave everywhere.",
+      "B": "The surface of the object must be convex everywhere.",
+      "C": "The surface of the object may be concave in some places and convex in other places.",
+      "D": "The object can have edges, but no corners."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 The country of Zombieland is in distress since more than 75% of its working\npopulation is suffering from serious health issues. Studies conducted by competent\nhealth experts concluded that a complete lack of physical exercise among its\nworking population was one of the leading causes of their health issues. As one of\nthe measures to address the problem, the Government of Zombieland has decided\nto provide monetary incentives to those who ride bicycles to work. Based only on the information provided above, which one of the following\nstatements can be logically inferred with certainty?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "All the working population of Zombieland will henceforth ride bicycles to work.",
+      "B": "Riding bicycles will ensure that all of the working population of Zombieland is free\nof health issues.",
+      "C": "The health experts suggested to the Government of Zombieland to declare riding\nbicycles as mandatory.",
+      "D": "The Government of Zombieland believes that riding bicycles is a form of physical\nexercise."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 Consider two functions of time [latex](t)[/latex], [latex]f(t)=0.01t^2[/latex] [latex]g(t)=4t[/latex] where [latex]0 \\lt t \\lt \\infty[/latex] Now consider the following two statements: (i) For some [latex] t \\gt 0, g(t) \\gt f(t)[/latex]. (ii) There exists a [latex]T[/latex], such that   [latex]f(t) \\gt g(t)[/latex] for all [latex]t \\gt T[/latex] . Which one of the following options is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "only (i) is correct",
+      "B": "only (ii) is correct",
+      "C": "both (i) and (ii) are correct",
+      "D": "neither (i) nor (ii) is correct"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 Which one of the following sentence sequences creates a coherent narrative? (i) Once on the terrace, on her way to her small room in the corner, she\nnotices the man right away. (ii) She begins to pant by the time she has climbed all the stairs. (iii) Mina has bought vegetables and rice at the market, so her bags are\nheavy. (iv) He was leaning against the parapet, watching the traffic below.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(i), (ii), (iv), (iii)",
+      "B": "(ii), (iii), (i), (iv)",
+      "C": "(iv), (ii), (i), (iii)",
+      "D": "(iii), (ii), (i), (iv)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 [latex]f(x)[/latex] and [latex]g(y)[/latex] are functions of [latex]x[/latex] and [latex]y[/latex], respectively, and\n [latex]f(x)=g(y)[/latex] for all real\nvalues of [latex]x[/latex] and [latex]y[/latex]. Which one of the following options is necessarily TRUE for all\n [latex]x[/latex] and [latex]y[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex] f(x)=0 \\; and \\; g(y)=0[/latex]",
+      "B": "[latex] f(x)= g(y)= constant[/latex]",
+      "C": "[latex] f(x)\\neq constant \\; and \\; g(y)\\neq constant[/latex]",
+      "D": "[latex] f(x)+ g(y)=f(x)- g(y)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 Which one of the options best describes the transformation of the 2-dimensional\nfigure P to Q, and then to R, as shown?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2023/page13_q5.webp",
+    "options": {
+      "A": "Operation 1: A clockwise rotation by [latex]90^{\\circ} [/latex] about an axis perpendicular to the plane\nof the figure Operation 2: A reflection along a horizontal line",
+      "B": "Operation 1: A counter clockwise rotation by [latex]90^{\\circ} [/latex] about an axis perpendicular to\nthe plane of the figure Operation 2: A reflection along a horizontal line",
+      "C": "Operation 1: A clockwise rotation by [latex]90^{\\circ} [/latex] about an axis perpendicular to the plane\nof the figure Operation 2: A reflection along a vertical line",
+      "D": "Operation 1: A counter clockwise rotation by [latex]180^{\\circ} [/latex] about an axis perpendicular to\nthe plane of the figure Operation 2: A reflection along a vertical line"
+    },
+    "correct_answer": "A"
+  }
+]

@@ -1,144 +1,134 @@
 [
   {
     "type": "mcq",
-    "question": "Question 1",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page1_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page1_q1_solution.png",
+    "question": "Question 1 Suppose a program is running on a non-pipelined single processor computer system. The computer is connected to an external device that can interrupt the processor asynchronously. The processor needs to execute the interrupt service routine (ISR) to serve this interrupt. The following steps (not necessarily in order) are taken by the processor when the interrupt arrives: (i) The processor saves the content of the program counter. (ii) The program counter is loaded with the start address of the ISR. (iii) The processor finishes the present instruction. Which ONE of the following is the CORRECT sequence of steps?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "(iii), (i), (ii)",
+      "B": "(i), (iii), (ii)",
+      "C": "(i), (ii), (iii)",
+      "D": "(iii), (ii), (i)"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 2",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page1_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page1_q2_solution.png",
+    "question": "Question 2 Which ONE of the following statements is FALSE regarding the symbol table?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Symbol table is responsible for keeping track of the scope of variables.",
+      "B": "Symbol table can be implemented using a binary search tree.",
+      "C": "Symbol table is not required after the parsing phase.",
+      "D": "Symbol table is created during the lexical analysis phase."
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 3",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page1_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page1_q3_solution.png",
+    "question": "Question 3 Which ONE of the following techniques used in compiler code optimization uses live variable analysis?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Run-time function call management",
+      "B": "Register assignment to variables",
+      "C": "Strength reduction",
+      "D": "Constant folding"
     },
     "correct_answer": "B"
   },
   {
     "type": "mcq",
-    "question": "Question 4",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page1_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page1_q4_solution.png",
+    "question": "Question 4 Consider a demand paging memory management system with 32-bit logical address, 20-bit physical address, and page size of 2048 bytes. Assuming that the memory is byte addressable, what is the maximum number of entries in the page table?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]2^{21}[/latex]",
+      "B": "[latex]2^{20}[/latex]",
+      "C": "[latex]2^{22}[/latex]",
+      "D": "[latex]2^{24}[/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 5",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page1_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page1_q5_solution.png",
+    "question": "Question 5 A schedule of three database transactions [latex]T_1[/latex], [latex]T_2[/latex], and [latex]T_3[/latex] is shown. [latex]R_i(A)[/latex] and [latex]W_i(A)[/latex] denote read and write of data item [latex]A[/latex] by transaction [latex]T_i[/latex], [latex]i = 1, 2, 3[/latex]. The transaction [latex]T_1[/latex] aborts at the end. Which other transaction(s) will be required to be rolled back? [latex] R_1(X) \\quad W_1(Y) \\quad R_2(X) \\quad R_2(Y) \\quad R_3(Y) \\quad ABORT(T_1)[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Only [latex]T_2[/latex]",
+      "B": "Only [latex]T_3[/latex]",
+      "C": "Both [latex]T_2[/latex] and [latex]T_3[/latex]",
+      "D": "Neither [latex]T_2[/latex] nor [latex]T_3[/latex]"
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 6",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page2_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page2_q1_solution.png",
+    "question": "Question 6 Identify the ONE CORRECT matching between the OSI layers and their corresponding functionalities as shown. [latex]\\begin{array}{|l|l|}\n    \\hline\n    \\textbf{OSI Layers} & \\textbf{Functionalities} \\\\ \n    \\hline\n    \\text{(a) Network layer} & \\text{(I) Packet routing} \\\\ \n    \\hline\n    \\text{(b) Transport layer} & \\text{(II) Framing and error handling} \\\\ \n    \\hline\n    \\text{(c) Datalink layer} & \\text{(III) Host to host communication} \\\\ \n    \\hline\n\\end{array}[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "(a)-(I), (b)-(II), (c)-(III)",
+      "B": "(a)-(I), (b)-(III), (c)-(II)",
+      "C": "(a)-(II), (b)-(I), (c)-(III)",
+      "D": "(a)-(III), (b)-(II), (c)-(I)"
     },
     "correct_answer": "B"
   },
   {
     "type": "mcq",
-    "question": "Question 7",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page2_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page2_q2_solution.png",
+    "question": "Question 7 [latex]g(. )[/latex] is a function from [latex]A[/latex] to [latex]B[/latex], [latex]f(. )[/latex] is a function from [latex]B[/latex] to [latex]C[/latex], and their composition defined as [latex]f(g(. ))[/latex] is a mapping from [latex]A[/latex] to [latex]C[/latex]. If [latex]f(. )[/latex] and [latex]f(g(. ))[/latex] are onto (surjective) functions, which ONE of the following is TRUE about the function [latex]g(. )[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]g(. )[/latex] must be an onto (surjective) function.",
+      "B": "[latex]g(. )[/latex] must be a one-to-one (injective) function.",
+      "C": "[latex]g(. )[/latex] must be a bijective function, that is, both one-to-one and onto.",
+      "D": "[latex]g(. )[/latex] is not required to be a one-to-one or onto function."
     },
     "correct_answer": "D"
   },
   {
     "type": "mcq",
-    "question": "Question 8",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page2_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page2_q3_solution.png",
+    "question": "Question 8 Let [latex]G[/latex] be any undirected graph with positive edge weights, and [latex]T[/latex] be a minimum spanning tree of [latex]G[/latex]. For any two vertices, [latex]u[/latex] and [latex]v[/latex], let [latex]d_1(u, v)[/latex] and [latex]d_2(u, v)[/latex] be the shortest distances between [latex]u[/latex] and [latex]v[/latex] in [latex]G[/latex] and [latex]T[/latex], respectively. Which ONE of the options is CORRECT for all possible [latex]G[/latex], [latex]T[/latex], [latex]u[/latex], and [latex]v[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]d_1(u, v) = d_2(u, v)[/latex]",
+      "B": "[latex]d_1(u, v) \\leq d_2(u, v)[/latex]",
+      "C": "[latex]d_1(u, v) \\geq d_2(u, v)[/latex]",
+      "D": "[latex]d_1(u, v) \\neq d_2(u, v)[/latex]"
     },
     "correct_answer": "B"
   },
   {
     "type": "mcq",
-    "question": "Question 9",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page2_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page2_q4_solution.png",
+    "question": "Question 9 Consider the following context-free grammar [latex]G[/latex], where [latex]S[/latex], [latex]A[/latex], and [latex]B[/latex] are the variables (non-terminals), [latex]a[/latex] and [latex]b[/latex] are the terminal symbols, [latex]S[/latex] is the start variable, and the rules of [latex]G[/latex] are described as: [latex]S \\to aaB \\mid Abb[/latex] [latex]A \\to a \\mid aA[/latex] [latex]B \\to b \\mid bB[/latex] Which ONE of the languages [latex]L(G)[/latex] is accepted by [latex]G[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]L(G) = \\{ a^2b^n \\mid n \\geq 1 \\} \\cup \\{ a^n b^2 \\mid n \\geq 1 \\}[/latex]",
+      "B": "[latex]L(G) = \\{ a^n b^{2n} \\mid n \\geq 1 \\} \\cup \\{ a^{2n} b^n \\mid n \\geq 1 \\}[/latex]",
+      "C": "[latex]L(G) = \\{ a^n b^n \\mid n \\geq 1 \\}[/latex]",
+      "D": "[latex]L(G) = \\{ a^{2n} b^{2n} \\mid n \\geq 1 \\}[/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 10",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page2_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page2_q5_solution.png",
+    "question": "Question 10 Consider the following recurrence relation: [latex]T(n) = 2T(n-1) + n2^n \\quad \\text{for} \\quad n > 0, \\quad T(0) = 1[/latex] Which ONE of the following options is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]T(n) = \\Theta(n^2 2^n)[/latex]",
+      "B": "[latex]T(n) = \\Theta(n 2^n)[/latex]",
+      "C": "[latex]T(n) = \\Theta((\\log n)^2 2^n)[/latex]",
+      "D": "[latex]T(n) = \\Theta(4^n)[/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 11",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page3_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page3_q1_solution.png",
+    "question": "Question 11 Consider the following [latex]B^+[/latex] tree with 5 nodes, in which a node can store at most 3 key values. The value 23 is now inserted in the [latex]B^+[/latex] tree. Which of the following options(s) is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set1/page3_q1.webp",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "None of the nodes will split.",
+      "B": "At least one node will split and redistribute.",
+      "C": "The total number of nodes will remain same.",
+      "D": "The height of the tree will increase."
     },
     "correct_answers": [
       "B",
@@ -147,14 +137,13 @@
   },
   {
     "type": "mcq",
-    "question": "Question 12",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page3_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page3_q2_solution.png",
+    "question": "Question 12 Consider the 3-way handshaking protocol for TCP connection establishment. Let the three packets exchanged during the connection establishment be denoted as P1, P2, and P3, in order. Which of the following option(s) is/are TRUE with respect to TCP header flags that are set in the packets?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "P3: SYN = 1, ACK = 1",
+      "B": "P2: SYN = 1, ACK = 1",
+      "C": "P2: SYN = 0, ACK = 1",
+      "D": "P1: SYN = 1"
     },
     "correct_answers": [
       "B",
@@ -163,14 +152,13 @@
   },
   {
     "type": "mcq",
-    "question": "Question 13",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page3_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page3_q3_solution.png",
+    "question": "Question 13 Consider the given system of linear equations for variables [latex]x[/latex] and [latex]y[/latex], where [latex]k[/latex] is a real-valued constant. Which of the following option(s) is/are CORRECT? [latex]x + k y = 1[/latex] [latex]k x + y = -1[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "There is exactly one value of [latex]k[/latex] for which the above system of equations has no solution.",
+      "B": "There exist an infinite number of values of [latex]k[/latex] for which the system of equations has no solution.",
+      "C": "There exists exactly one value of [latex]k[/latex] for which the system of equations has exactly one solution.",
+      "D": "There exists exactly one value of [latex]k[/latex] for which the system of equations has an infinite number of solutions."
     },
     "correct_answers": [
       "A",
@@ -179,14 +167,13 @@
   },
   {
     "type": "mcq",
-    "question": "Question 14",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page3_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page3_q4_solution.png",
+    "question": "Question 14 Let [latex]X[/latex] be a 3-variable Boolean function that produces output as '1' when at least two of the input variables are '1'. Which of the following statement(s) is/are CORRECT, where [latex]a, b, c, d, e[/latex] are Boolean variables?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]X(a, b, X(c, d, e)) = X(X(a, b, c), d, e)[/latex]",
+      "B": "[latex]X(a, b, X(a, b, c)) = X(a, b, c)[/latex]",
+      "C": "[latex]X(a, b, X(a, c, d)) = (X(a, b, a) \\text{ AND } X(c, d, c))[/latex]",
+      "D": "[latex]X(a, b, c) = X(a, X(a, b, c), X(a, c, c))[/latex]"
     },
     "correct_answers": [
       "B",
@@ -195,14 +182,13 @@
   },
   {
     "type": "mcq",
-    "question": "Question 15",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page3_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page3_q5_solution.png",
+    "question": "Question 15 The number [latex]-6[/latex] can be represented as 1010 in 4-bit 2's complement representation. Which of the following is/are CORRECT 2's complement representation(s) of [latex]-6[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "1000 1010 in 8-bits",
+      "B": "1111 1010 in 8-bits",
+      "C": "1000 0000 0000 1010 in 16-bits",
+      "D": "1111 1111 1111 1010 in 16-bits"
     },
     "correct_answers": [
       "B",
@@ -211,14 +197,13 @@
   },
   {
     "type": "mcq",
-    "question": "Question 16",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page4_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page4_q1_solution.png",
+    "question": "Question 16 Which of the following statement(s) is/are TRUE for any binary search tree (BST) having [latex]n[/latex] distinct integers?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "The maximum length of a path from the root node to any other node is [latex](n - 1)[/latex].",
+      "B": "An inorder traversal will always produce a sorted sequence of elements.",
+      "C": "Finding an element takes [latex]O(\\log_2 n)[/latex] time in the worst case.",
+      "D": "Every BST is also a Min-Heap."
     },
     "correct_answers": [
       "A",
@@ -227,14 +212,14 @@
   },
   {
     "type": "mcq",
-    "question": "Question 17",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page4_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page4_q2_solution.png",
+    "question": "Question 17 A partial data path of a processor is given in the figure, where [latex]RA[/latex], [latex]RB[/latex], and [latex]RZ[/latex] are 32-bit registers. Which option(s) is/are CORRECT related to arithmetic operations using the data path as shown?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set1/page4_q2.webp",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "The data path can implement arithmetic operations involving two registers.",
+      "B": "The data path can implement arithmetic operations involving one register and one immediate value.",
+      "C": "The data path can implement arithmetic operations involving two immediate values.",
+      "D": "The data path can only implement arithmetic operations involving one register and one immediate value."
     },
     "correct_answers": [
       "A",
@@ -244,213 +229,194 @@
   },
   {
     "type": "mcq",
-    "question": "Question 18",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page4_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page4_q3_solution.png",
+    "question": "Question 18 A regular language [latex]L[/latex] is accepted by a non-deterministic finite automaton (NFA) with [latex]n[/latex] states. Which of the following statement(s) is/are FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]L[/latex] may have an accepting NFA with < [latex]n[/latex] states.",
+      "B": "[latex]L[/latex] may have an accepting DFA with < [latex]n[/latex] states.",
+      "C": "There exists a DFA with [latex]\\leq 2^n[/latex] states that accepts [latex]L[/latex].",
+      "D": "Every DFA that accepts [latex]L[/latex] has [latex]> 2^n[/latex] states."
     },
     "correct_answer": "D"
   },
   {
     "type": "numerical",
-    "question": "Question 19",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page4_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page4_q4_solution.png",
+    "question": "Question 19 Suppose in a multiprogramming environment, the following C program segment is executed. A process goes into I/O queue whenever an I/O related operation is performed. Assume that there will always be a context switch whenever a process requests for an I/O, and also whenever the process returns from an I/O. The number of times the process will enter the ready queue during its lifetime (not counting the time the process enters the ready queue when it is run initially) is _______. (Answer in integer) int main()\n{\n\tint x=0,i=0;\n\tscanf(\"%d\",&x);\n\tfor(i=0; i<20; i++)\n\t{\n\t\t x = x + 20;\n\t\t printf(\"%d\\n\",x);\n\t}\n\treturn 0;\n}",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 21.0,
     "max": 21.0
   },
   {
     "type": "numerical",
-    "question": "Question 20",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page4_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page4_q5_solution.png",
+    "question": "Question 20 Let [latex]S[/latex] be the set of all ternary strings defined over the alphabet [latex]\\{a, b, c\\}[/latex]. Consider all strings in [latex]S[/latex] that contain at least one occurrence of two consecutive symbols, that is, \"aa\", \"bb\" or \"cc\". The number of such strings of length 5 that are possible is _______. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 195.0,
     "max": 195.0
   },
   {
     "type": "numerical",
-    "question": "Question 21",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page5_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page5_q1_solution.png",
+    "question": "Question 21 Consider the given function [latex]f(x)[/latex]. [latex]f(x) =\n\\begin{cases}\nax + b & \\text{for } x < 1 \\\\\nx^3 + x^2 + 1 & \\text{for } x \\geq 1\n\\end{cases}[/latex] If the function is differentiable everywhere, the value of [latex]b[/latex] must be ________. (rounded off to one decimal place)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": -2.1,
     "max": -1.9
   },
   {
     "type": "numerical",
-    "question": "Question 22",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page5_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page5_q2_solution.png",
+    "question": "Question 22 A box contains 5 coins: 4 regular coins and 1 fake coin. When a regular coin is tossed, the probability [latex]P(\\text{head}) = 0.5[/latex] and for a fake coin, [latex]P(\\text{head}) = 1[/latex]. You pick a coin at random and toss it twice, and get two heads. The probability that the coin you have chosen is the fake coin is _______. (rounded off to two decimal places)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 0.49,
     "max": 0.51
   },
   {
     "type": "numerical",
-    "question": "Question 23",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page5_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page5_q3_solution.png",
+    "question": "Question 23 The pseudocode of a function fun() is given below: fun(int A[0,...,n-1])\n{\n    for i=0 to n-2\n\tfor j=0 to n-i-2\n\t    if (A[j] > A[j+1])\n\t\tthen swap A[j] and A[j+1]}\n} Let [latex]A[0, \\dots, 29][/latex] be an array storing 30 distinct integers in descending order. The number of swap operations that will be performed, if the function fun() is called with [latex]A[0, \\dots, 29][/latex] as argument, is __________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 435.0,
     "max": 435.0
   },
   {
     "type": "numerical",
-    "question": "Question 24",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page5_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page5_q4_solution.png",
+    "question": "Question 24 #include < stdio.h >\nvoid foo(int *p, int x) {\n    *p = x;\n}\n\nint main() {\n    int *z;\n    int a = 20, b = 25;\n    z = &a;\n    foo(z, b);\n    printf(\"%d\", a);\n    return 0;\n} The output of the given C program is __________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 25.0,
     "max": 25.0
   },
   {
     "type": "numerical",
-    "question": "Question 25",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page5_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page5_q5_solution.png",
+    "question": "Question 25 The height of any rooted tree is defined as the maximum number of edges in the path from the root node to any leaf node. Suppose a Min-Heap [latex]T[/latex] stores 32 keys. The height of [latex]T[/latex] is _____________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 5.0,
     "max": 5.0
   },
   {
     "type": "mcq",
-    "question": "Question 26",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page6_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page6_q1_solution.png",
+    "question": "Question 26 Consider a memory system with 1M bytes of main memory and 16K bytes of cache memory. Assume that the processor generates 20-bit memory address, and the cache block size is 16 bytes. If the cache uses direct mapping, how many bits will be required to store all the tag values? [Assume memory is byte addressable, 1K = [latex]2^{10}[/latex], 1M = [latex]2^{20}[/latex].]",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]6 \\times 2^{10}[/latex]",
+      "B": "[latex]8 \\times 2^{10}[/latex]",
+      "C": "[latex]2^{12}[/latex]",
+      "D": "[latex]2^{14}[/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 27",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page6_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page6_q2_solution.png",
+    "question": "Question 27 A processor has 64 general-purpose registers and 50 distinct instruction types. An instruction is encoded in 32-bits. What is the maximum number of bits that can be used to store the immediate operand for the given instruction? ADD  R1, #25       // R1 = R1 + 25",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "16",
+      "B": "20",
+      "C": "22",
+      "D": "24"
     },
     "correct_answer": "B"
   },
   {
     "type": "mcq",
-    "question": "Question 28",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page6_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page6_q3_solution.png",
+    "question": "Question 28 A computer has two processors, [latex]M_1[/latex] and [latex]M_2[/latex]. Four processes [latex]P_1, P_2, P_3, P_4[/latex] with CPU bursts of 20, 16, 25, and 10 milliseconds, respectively, arrive at the same time and these are the only processes in the system. The scheduler uses non-preemptive priority scheduling, with priorities decided as follows: [latex]M_1[/latex] uses priority of execution for the processes as, [latex]P_1 > P_3 > P_2 > P_4[/latex], i.e., [latex]P_1[/latex] and [latex]P_4[/latex] have highest and lowest priorities, respectively. [latex]M_2[/latex] uses priority of execution for the processes as, [latex]P_2 > P_3 > P_4 > P_1[/latex], i.e., [latex]P_2[/latex] and [latex]P_1[/latex] have highest and lowest priorities, respectively. A process [latex]P_i[/latex] is scheduled to a processor [latex]M_k[/latex], if the processor is free and no other process [latex]P_j[/latex] is waiting with higher priority. At any given point of time, a process can be allocated to any one of the free processors without violating the execution priority rules. Ignore the context switch time. What will be the average waiting time of the processes in milliseconds?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "9",
+      "B": "8.75",
+      "C": "6.5",
+      "D": "7.5"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 29",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page6_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page6_q4_solution.png",
+    "question": "Question 29 Consider two relations describing teams and players in a sports league: [latex]teams(tid, tname):tid, tname [/latex] are team-id and team-name, respectively [latex]players(pid, pname, tid):pid,pname,tid[/latex] denote player-id, player-name and the team-id of the player, respectively Which ONE of the following tuple relational calculus queries returns the name of the players who play for the team having name as 'MI'?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex] \\{ p.pname \\mid p \\in players \\wedge \\exists t ( t \\in teams \\wedge p.tid = t.tid \\wedge t.tname = 'MI' ) \\} [/latex]",
+      "B": "[latex] \\{ p.pname \\mid p \\in teams \\wedge \\exists t ( t \\in players \\wedge p.tid = t.tid \\wedge t.tname = 'MI' ) \\} [/latex]",
+      "C": "[latex] \\{ p.pname \\mid p \\in players \\wedge \\exists t ( t \\in teams \\wedge t.tname = 'MI' ) \\} [/latex]",
+      "D": "[latex] \\{ p.pname \\mid p \\in teams \\wedge \\exists t ( t \\in players \\wedge t.tname = 'MI' ) \\} [/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 30",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page6_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page6_q5_solution.png",
+    "question": "Question 30 A packet with the destination IP address 145.36.109.70 arrives at a router whose routing table is shown. Which interface will the packet be forwarded to? [latex]\\begin{array}{|c|c|c|}\n    \\hline\n    \\textbf{Subnet Address} & \\textbf{Subnet Mask (in CIDR notation)} & \\textbf{Interface} \\\\ \n    \\hline\n    145.36.0.0 & /16 & E1 \\\\ \n    \\hline\n    145.36.128.0 & /17 & E2 \\\\ \n    \\hline\n    145.36.64.0 & /18 & E3 \\\\ \n    \\hline\n    145.36.255.0 & /24 & E4 \\\\ \n    \\hline\n    \\text{Default} & -- & E5 \\\\ \n    \\hline\n\\end{array}[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]E3[/latex]",
+      "B": "[latex]E1[/latex]",
+      "C": "[latex]E2[/latex]",
+      "D": "[latex]E5[/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 31",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page7_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page7_q1_solution.png",
+    "question": "Question 31 Let [latex]A[/latex] be a 2x2 matrix as given: [latex]A = \\left[\\begin{array}{cc} 1 & 1 \\\\ 1 & -1 \\end{array}\\right][/latex] What are the eigenvalues of the matrix [latex]A^{13}[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]1,-1[/latex]",
+      "B": "[latex]2\\sqrt{2}, -2\\sqrt{2}[/latex]",
+      "C": "[latex]4\\sqrt{2}, -4\\sqrt{2}[/latex]",
+      "D": "[latex]64\\sqrt{2}, -64\\sqrt{2}[/latex]"
     },
     "correct_answer": "D"
   },
   {
     "type": "mcq",
-    "question": "Question 32",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page7_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page7_q2_solution.png",
+    "question": "Question 32 Consider the following four-variable Boolean function in sum-of-product form [latex]F(b_3, b_2, b_1, b_0) = \\sum(0, 2, 4, 8, 10, 11, 12)[/latex]. Where the value of the function is computed by considering [latex]b_3b_2b_1b_0[/latex] as a 4-bit binary number, where [latex]b_3[/latex] denotes the most significant bit and [latex]b_0[/latex] denotes the least significant bit. Note that there are no don't care terms. Which ONE of the following options is the CORRECT minimized Boolean expression for [latex]F[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex] \\bar{b_1} \\bar{b_0} + \\bar{b_2} \\bar{b_0} + b_1 \\bar{b_2} b_3 [/latex]",
+      "B": "[latex] \\bar{b_1} \\bar{b_0} + \\bar{b_2} \\bar{b_0} [/latex]",
+      "C": "[latex] \\bar{b_2} \\bar{b_0} + b_1 b_2 b_3 [/latex]",
+      "D": "[latex] \\bar{b_0} \\bar{b_2} + \\bar{b_3} [/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 33",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page7_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page7_q3_solution.png",
+    "question": "Question 33 Let [latex]G(V, E)[/latex] be an undirected and unweighted graph with 100 vertices. Let [latex]d(u, v)[/latex] denote the number of edges in a shortest path between vertices [latex]u[/latex] and [latex]v[/latex] in [latex]V[/latex]. Let the maximum value of [latex]d(u, v)[/latex], [latex]u, v \\in V[/latex] such that [latex]u \\neq v[/latex], be 30. Let [latex]T[/latex] be any breadth-first-search tree of [latex]G[/latex]. Which ONE of the given options is CORRECT for every such graph [latex]G[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "The height of [latex]T[/latex] is exactly 15.",
+      "B": "The height of [latex]T[/latex] is exactly 30.",
+      "C": "The height of [latex]T[/latex] is at least 15.",
+      "D": "The height of [latex]T[/latex] is at least 30."
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 34",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page7_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page7_q4_solution.png",
+    "question": "Question 34 Consider the following two languages over the alphabet [latex]\\{a, b\\}[/latex]: [latex]L_1 = \\{ \\alpha \\beta \\alpha \\mid \\alpha \\in \\{a, b\\}^+ \\text{ and } \\beta \\in \\{a, b\\}^+ \\}[/latex] [latex]L_2 = \\{ \\alpha \\beta \\alpha \\mid \\alpha \\in \\{a\\}^+ \\text{ and } \\beta \\in \\{a, b\\}^+ \\}[/latex] Which ONE of the following statements is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Both [latex]L_1[/latex] and [latex]L_2[/latex] are regular languages.",
+      "B": "[latex]L_1[/latex] is a regular language but [latex]L_2[/latex] is not a regular language.",
+      "C": "[latex]L_1[/latex] is not a regular language but [latex]L_2[/latex] is a regular language.",
+      "D": "Neither [latex]L_1[/latex] nor [latex]L_2[/latex] is a regular language."
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 35",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page7_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page7_q5_solution.png",
+    "question": "Question 35 Consider the following two languages over the alphabet [latex]\\{a, b, c\\}[/latex], where [latex]m[/latex] and [latex]n[/latex] are natural numbers: [latex]L_1 = \\{ a^m b^m c^{m+n} \\mid m, n \\geq 1 \\}[/latex] [latex]L_2 = \\{ a^m b^n c^{m+n} \\mid m, n \\geq 1 \\}[/latex] Which ONE of the following statements is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Both [latex]L_1[/latex] and [latex]L_2[/latex] are context-free languages.",
+      "B": "[latex]L_1[/latex] is a context-free language but [latex]L_2[/latex] is not a context-free language.",
+      "C": "[latex]L_1[/latex] is not a context-free language but [latex]L_2[/latex] is a context-free language.",
+      "D": "Neither [latex]L_1[/latex] nor [latex]L_2[/latex] are context-free languages."
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 36",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page8_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page8_q1_solution.png",
+    "question": "Question 36 Which of the following statement(s) is/are TRUE while computing [latex]First[/latex] and [latex]Follow[/latex] during top-down parsing by a compiler?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "For a production [latex]A \\to \\epsilon ,  \\epsilon [/latex] will be added to [latex]First(A) [/latex].",
+      "B": "If there is any input right end marker, it will be added to[latex] First(S) [/latex], where [latex] S [/latex] is the start symbol.",
+      "C": "For a production [latex] A \\to \\epsilon,  \\epsilon [/latex] will be added to [latex] Follow(A) [/latex].",
+      "D": "If there is any input right end marker, it will be added to [latex] Follow(S) [/latex], where [latex] S [/latex] is the start symbol."
     },
     "correct_answers": [
       "A",
@@ -459,14 +425,13 @@
   },
   {
     "type": "mcq",
-    "question": "Question 37",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page8_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page8_q2_solution.png",
+    "question": "Question 37 Consider a relational schema [latex] team(name, city, owner) [/latex], with functional dependencies  [latex]\\{ name \\to city [/latex], [latex] name \\to owner \\} [/latex] . The relation [latex] team [/latex] is decomposed into two relations, [latex] t_1(name, city) [/latex] and [latex] t_2(name, owner) [/latex]. Which of the following statement(s) is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "The relation [latex] team [/latex] is NOT in BCNF.",
+      "B": "The relations [latex] t_1 [/latex] and [latex] t_2 [/latex] are in BCNF.",
+      "C": "The decomposition constitutes a lossless join.",
+      "D": "The relation [latex]team [/latex]is NOT in 3NF."
     },
     "correct_answers": [
       "B",
@@ -475,14 +440,13 @@
   },
   {
     "type": "mcq",
-    "question": "Question 38",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page8_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page8_q3_solution.png",
+    "question": "Question 38 Which of the following predicate logic formulae/formula is/are CORRECT representation(s) of the statement: \"Everyone has exactly one mother\"? The meanings of the predicates used are: [latex]mother(y,x): y[/latex] is the mother of [latex] x [/latex] [latex]noteq(x,y): x[/latex] and  [latex] y [/latex] are not equal",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex] \\forall x \\exists y \\exists z (mother(y, x) \\land \\neg mother(z, x)) [/latex]",
+      "B": "[latex] \\forall x \\exists y [mother(y, x) \\land \\forall z (noteq(z, y) \\to \\neg mother(z, x))] [/latex]",
+      "C": "[latex] \\forall x \\forall y [mother(y, x) \\to \\exists z (mother(z, x) \\land \\neg noteq(z, y))] [/latex]",
+      "D": "[latex] \\forall x \\exists y [mother(y, x) \\land \\neg \\exists z (noteq(z, y) \\land mother(z, x))] [/latex]"
     },
     "correct_answers": [
       "B",
@@ -491,277 +455,261 @@
   },
   {
     "type": "mcq",
-    "question": "Question 39",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page8_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page8_q4_solution.png",
+    "question": "Question 39 [latex] A = \\{ 0,1,2,3,\\dots \\} [/latex] is the set of non-negative integers. Let [latex] {F} [/latex] be the set of functions from [latex] A [/latex] to itself. For any two functions, [latex] f_1, f_2 \\in {F} [/latex], we define [latex] (f_1 \\odot f_2)(n) = f_1(n) + f_2(n)[/latex] for every number [latex] n [/latex] in [latex] A [/latex]. Which of the following is/are CORRECT about the mathematical structure [latex] ({F}, \\odot ) [/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex] ({F}, \\odot ) [/latex] is an Abelian group.",
+      "B": "[latex] ({F}, \\odot ) [/latex] is an Abelian monoid.",
+      "C": "[latex] ({F}, \\odot ) [/latex] is a non-Abelian group.",
+      "D": "[latex] ({F}, \\odot ) [/latex] is a non-Abelian monoid."
     },
     "correct_answer": "B"
   },
   {
     "type": "mcq",
-    "question": "Question 40",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page8_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page8_q5_solution.png",
+    "question": "Question 40 Consider the following deterministic finite automaton (DFA) defined over the alphabet, [latex] \\Sigma = \\{ a, b \\} [/latex]. Identify which of the following language(s) is/are accepted by the given DFA.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set1/page8_q5.webp",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "The set of all strings containing an even number of [latex] b [/latex]'s.",
+      "B": "The set of all strings containing the pattern [latex] bab [/latex].",
+      "C": "The set of all strings ending with the pattern [latex] bab [/latex].",
+      "D": "The set of all strings not containing the pattern [latex] aba [/latex]."
     },
     "correct_answer": "C"
   },
   {
     "type": "numerical",
-    "question": "Question 41",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page9_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page9_q1_solution.png",
+    "question": "Question 41 A disk of size [latex] 512M [/latex] bytes is divided into blocks of [latex] 64K [/latex] bytes. A file is stored in the disk using linked allocation. Each data block reserves 4 bytes to store the pointer to the next data block. The link part of the last data block contains a NULL pointer (also of 4 bytes). Suppose a file of [latex] 1M [/latex] bytes needs to be stored in the disk. Assume, [latex] 1K=2^{10}, 1M=2^{20} [/latex]. The amount of space in bytes that will be wasted due to internal fragmentation is _________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 65468.0,
     "max": 65468.0
   },
   {
     "type": "numerical",
-    "question": "Question 42",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page9_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page9_q2_solution.png",
+    "question": "Question 42 Refer to the given 3-address code sequence. This code sequence is split into basic blocks. The number of basic blocks is _________. (Answer in integer) 1001: i = 1 1002: j = 1 1003: t1 = 10*i 1004: t2 = t1+j 1005: t3 = 8*t2 1006: t4 = t3-88 1007: a[t4] = 0.0 1008: j = j+1 1009: if j <= 10 goto 1003 1010: i = i+1 1011: if i <= 10 goto 1002 1012: i = 1 1013: t5 = i-1 1014: t6 = 88*t5 1015: a[t6] = 1.0 1016: i = i+1 1017: if i <= 10 goto 1013",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 6.0,
     "max": 6.0
   },
   {
     "type": "numerical",
-    "question": "Question 43",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page9_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page9_q3_solution.png",
+    "question": "Question 43 A computer has a memory hierarchy consisting of two-level cache (L1 and L2) and a main memory. If the processor needs to access data from memory, it first looks into L1 cache. If the data is not found in L1 cache, it goes to L2 cache. If it fails to get the data from L2 cache, it goes to main memory, where the data is definitely available. Hit rates and access times of various memory units are shown in the figure. The average memory access time in nanoseconds (ns) is _________. (rounded off to two decimal places)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set1/page9_q3.webp",
     "min": 11.83,
     "max": 11.87
   },
   {
     "type": "numerical",
-    "question": "Question 44",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page9_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page9_q4_solution.png",
+    "question": "Question 44 In optimal page replacement algorithm, information about all future page references is available to the operating system (OS). A modification of the optimal page replacement algorithm is as follows: The OS correctly predicts only up to next 4 page references (including the current page) at the time of allocating a frame to a page. A process accesses the pages in the following order of page numbers: 1, 3, 2, 4, 2, 3, 1, 2, 4, 3, 1, 4. If the system has three memory frames that are initially empty, the number of page faults that will occur during execution of the process is _________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 6.0,
     "max": 6.0
   },
   {
     "type": "numerical",
-    "question": "Question 45",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page9_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page9_q5_solution.png",
+    "question": "Question 45 Consider the following database tables of a sports league. player(pid,pname,age) coach(cid,cname) team(tid,tname,city,cid) members(pid,tid) An instance of the table and an SQL query are given. The value returned by the given SQL query is _________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set1/page9_q5.webp",
     "min": 26.0,
     "max": 26.0
   },
   {
     "type": "numerical",
-    "question": "Question 46",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page10_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page10_q1_solution.png",
+    "question": "Question 46 Suppose a 5-bit message is transmitted from a source to a destination through a noisy channel. The probability that a bit of the message gets flipped during transmission is 0.01. Flipping of each bit is independent of one another. The probability that the message is delivered error-free to the destination is _________. (rounded off to three decimal places)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 0.949,
     "max": 0.952
   },
   {
     "type": "numerical",
-    "question": "Question 47",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page10_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page10_q2_solution.png",
+    "question": "Question 47 Suppose a message of size 15000 bytes is transmitted from a source to a destination using IPv4 protocol via two routers as shown in the figure. Each router has a defined maximum transmission unit (MTU) as shown in the figure, including IP header. The number of fragments that will be delivered to the destination is _________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set1/page10_q2.webp",
     "min": 7.0,
     "max": 7.0
   },
   {
     "type": "numerical",
-    "question": "Question 48",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page10_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page10_q3_solution.png",
+    "question": "Question 48 Consider a probability distribution given by the density function [latex] P(x) [/latex]. [latex] P(x) = \n\\begin{cases} \nCx^2, &\\text{for   } 1 \\leq x \\leq 4 \\\\\n0, &   \\text{for   }x < 1 \\text{ or } x > 4\n\\end{cases}[/latex] The probability that [latex] x [/latex] lies between 2 and 3, i.e., [latex] P(2 \\leq x \\leq 3) [/latex] is _________. (rounded off to three decimal places)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 0.3,
     "max": 0.302
   },
   {
     "type": "numerical",
-    "question": "Question 49",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page10_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page10_q4_solution.png",
+    "question": "Question 49 Consider a finite state machine (FSM) with one input [latex] X [/latex] and one output [latex] f [/latex], represented by the given state transition table. The minimum number of states required to realize this FSM is _________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set1/page10_q4.webp",
     "min": 5.0,
     "max": 5.0
   },
   {
     "type": "numerical",
-    "question": "Question 50",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page10_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page10_q5_solution.png",
+    "question": "Question 50 Consider the given sequential circuit designed using D-Flip-flops. The circuit is initialized with some value (initial state). The number of distinct states the circuit will go through before returning back to the initial state is _________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set1/page10_q5.webp",
     "min": 7.0,
     "max": 8.0
   },
   {
     "type": "numerical",
-    "question": "Question 51",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page11_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page11_q1_solution.png",
+    "question": "Question 51 #include < stdio.h >  \nint foo(int S[],int size){  \n    if(size == 0) return 0;  \n    if(size == 1) return 1;  \n    if(S[0] != S[1]) return 1+foo(S+1,size-1);  \n    return foo(S+1,size-1);  \n}  \nint main(){  \n    int A[]={0,1,2,2,2,0,0,1,1};  \n    printf(\"%d\",foo(A,9));  \n    return 0;  \n} The value printed by the given C program is _________. (Answer in integer).",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 5.0,
     "max": 5.0
   },
   {
     "type": "numerical",
-    "question": "Question 52",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page11_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page11_q2_solution.png",
+    "question": "Question 52 Let LIST be a datatype for an implementation of linked list defined as follows: typedef struct list {  \n    int data;  \n    struct list *next;  \n} LIST; Suppose the program has created two linked lists, L1 and L2,  whose contents are given \nin the figure below (code for creating L1 and L2 is not provided here). L1 contains 9 \nnodes, and L2 contains 7 nodes. Consider the following C program segment that modifies the list L1. The number of nodes in L1 after the execution of the code segment is _________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set1/page11_q2.webp",
     "min": 5.0,
     "max": 5.0
   },
   {
     "type": "numerical",
-    "question": "Question 53",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page11_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page11_q3_solution.png",
+    "question": "Question 53 Consider the following C program: #include < stdio.h >  \nint gate(int n) {  \n    int d, t, newnum, turn;  \n    newnum = turn = 0; t=1;  \n    while(n >= t) t *= 10;  \n    t /= 10;  \n    while(t > 0) {  \n        d = n / t;  \n        n = n % t;  \n        t /= 10;  \n        if(turn) newnum = 10 * newnum + d;  \n        turn = (turn + 1) % 2;  \n    }  \n    return newnum;  \n}  \nint main () {  \n    printf(\"%d\", gate(14362));  \n    return 0;  \n} The value printed by the given C program is _________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 46.0,
     "max": 46.0
   },
   {
     "type": "numerical",
-    "question": "Question 54",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page11_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page11_q4_solution.png",
+    "question": "Question 54 The maximum value of [latex] x [/latex] such that the edge between the nodes B and C is included in every minimum spanning tree of the given graph is _________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set1/page11_q4.webp",
     "min": 5.0,
     "max": 5.0
   },
   {
     "type": "numerical",
-    "question": "Question 55",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page11_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page11_q5_solution.png",
+    "question": "Question 55 In a double hashing scheme, [latex] h_1(k) = k \\mod 11 [/latex] and [latex] h_2(k) = 1 + (k \\mod 7) [/latex] are the auxiliary hash functions. The size [latex] m [/latex] of the hash table is 11. The hash function for the [latex] i [/latex]-th probe in the open address table is  [latex]\n[h_1(k) + i h_2(k)] \\mod m [/latex]\nThe following keys are inserted in the given order: 63, 50, 25, 79, 67, 24. The slot at which key 24 gets stored is _________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
     "min": 10.0,
     "max": 10.0
   },
   {
     "type": "mcq",
-    "question": "Question 56",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page12_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page12_q1_solution.png",
+    "question": "Question 56 Ravi had _____________ younger brother who taught at _____________ university. He was widely regarded as _____________ honorable man. Select the option with the correct sequence of articles to fill in the blanks.",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "a; a; an",
+      "B": "the; an; a",
+      "C": "a; an; a",
+      "D": "an; an; a"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 57",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page12_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page12_q2_solution.png",
+    "question": "Question 57 The CEO's decision to downsize the workforce was considered myopic because it sacrificed long-term stability to accommodate short-term gains. Select the most appropriate option that can replace the word \"myopic\" without changing the meaning of the sentence.",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "visionary",
+      "B": "shortsighted",
+      "C": "progressive",
+      "D": "innovative"
     },
     "correct_answer": "B"
   },
   {
     "type": "mcq",
-    "question": "Question 58",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page12_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page12_q3_solution.png",
+    "question": "Question 58 The average marks obtained by a class in an examination were calculated as 30.8. However, while checking the marks entered, the teacher found that the marks of one student were entered incorrectly as 24 instead of 42. After correcting the marks, the average becomes 31.4. How many students does the class have?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "25",
+      "B": "28",
+      "C": "30",
+      "D": "32"
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 59",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page12_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page12_q4_solution.png",
+    "question": "Question 59 Consider the relationships among P, Q, R, S, and T: P is the brother of Q. S is the daughter of Q. T is the sister of S. R is the mother of Q. The following statements are made based on the relationships given above. R is the grandmother of S. P is the uncle of S and T. R has only one son. Q has only one daughter. Which one of the following options is correct?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Both (1) and (2) are true.",
+      "B": "Both (1) and (3) are true.",
+      "C": "Only (3) is true.",
+      "D": "Only (4) is true."
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 60",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page12_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page12_q5_solution.png",
+    "question": "Question 60 According to the map shown in the figure, which one of the following statements is correct? Note: The figure shown is representative.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set1/page12_q5.webp",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "The library is located to the northwest of the canteen.",
+      "B": "The hospital is located to the east of the chemistry lab.",
+      "C": "The chemistry lab is to the southeast of the physics lab.",
+      "D": "The classrooms and canteen are next to each other."
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 61",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page13_q1.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page13_q1_solution.png",
+    "question": "Question 61 \"I put the brown paper in my pocket along with the chalks, and possibly other things. I suppose everyone must have reflected how primeval and how poetical are the things that one carries in one's pocket: the pocket-knife, for instance the type of all human tools, the infant of the sword. Once I planned to write a book of poems entirely about the things in my pocket. But I found it would be too long: and the age of the great epics is past.\" (From G.K. Chesterton's \"A Piece of Chalk\") Based only on the information provided in the above passage, which one of the following statements is true?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "The author of the passage carries a mirror in his pocket to reflect upon things.",
+      "B": "The author of the passage had decided to write a poem on epics.",
+      "C": "The pocket-knife is described as the infant of the sword.",
+      "D": "Epics are described as too inconvenient to write."
     },
     "correct_answer": "C"
   },
   {
     "type": "mcq",
-    "question": "Question 62",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page13_q2.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page13_q2_solution.png",
+    "question": "Question 62 In the diagram, the lines QR and ST are parallel to each other. The shortest distance between these two lines is half the shortest distance between the point P and line QR. What is the ratio of the area of the triangle PST to the area of the trapezium SQRT? Note: The figure shown is representative.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set1/page13_q2.webp",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]\\frac{1}{3}[/latex]",
+      "B": "[latex]\\frac{1}{4}[/latex]",
+      "C": "[latex]\\frac{2}{5}[/latex]",
+      "D": "[latex]\\frac{1}{2}[/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 63",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page13_q3.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page13_q3_solution.png",
+    "question": "Question 63 A fair six-faced dice, with the faces labelled '1', '2', '3', '4', '5', and '6', is rolled thrice. What is the probability of rolling '6' exactly once?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "[latex]\\frac{75}{216}[/latex]",
+      "B": "[latex]\\frac{1}{6}[/latex]",
+      "C": "[latex]\\frac{1}{18}[/latex]",
+      "D": "[latex]\\frac{25}{216}[/latex]"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 64",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page13_q4.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page13_q4_solution.png",
+    "question": "Question 64 A square paper, shown in figure (I), is folded along the dotted lines as shown in the figures (II) and (III). Then a few cuts are made as shown in figure (IV). Which one of the following patterns will be obtained when the paper is unfolded? Note: The figures shown are representative.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2025_Set1/page13_q4.webp",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
     },
     "correct_answer": "A"
   },
   {
     "type": "mcq",
-    "question": "Question 65",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/screenshots/2025_Set1/page13_q5.png",
-    "solution": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Computer Science/solution_screenshots/2025_Set1/page13_q5_solution.png",
+    "question": "Question 65 A shop has 4 distinct flavors of ice-cream. One can purchase any number of scoops of any flavor. The order in which the scoops are purchased is inconsequential.  \nIf one wants to purchase 3 scoops of ice-cream, in how many ways can one make that purchase?",
+    "solution": "Click here for detail solution by gateoverflow",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "4",
+      "B": "20",
+      "C": "24",
+      "D": "48"
     },
     "correct_answer": "B"
   }

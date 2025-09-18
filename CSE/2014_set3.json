@@ -1,0 +1,699 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Consider the following statements: P: Good mobile phones are not cheap Q: Cheap mobile phones are not good L: P implies Q M: Q implies P N: P is equivalent to Q Which one of the following about L, M, and N is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only L is TRUE.",
+      "B": "Only M is TRUE.",
+      "C": "Only N is TRUE.",
+      "D": "L, M and N are TRUE."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 Let x and Y be finite sets and f:x[latex]\\rightarrow[/latex]Y be a function. Which one of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "For any subsets A and B of x, |f(A[latex]\\cup[/latex]B)|=|f(A)|+|f(B)|",
+      "B": "For any subsets A and B of x, f(A[latex]\\cap[/latex]B) =f(A)[latex]\\cap[/latex]f(B)",
+      "C": "For any subsets A and B of x, |f(A[latex]\\cap[/latex]B)| = min{|f (A)| ,|f(B)|}",
+      "D": "For any subsets S and T of Y, [latex]f^{-1}(S\\cap T)=f^{-1}(S)\\cap f^{-1}(T)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 3 Let G be a group with 15 elements. Let L be a subgroup of G. It is known that L[latex]\\neq[/latex]G and that the size of L is at least 4. The size of L is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 Which one of the following statements is TRUE about every n x n matrix with only real\neigenvalues?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "If the trace of the matrix is positive and the determinant of the matrix is negative, at least one of its eigenvalues is negative.",
+      "B": "If the trace of the matrix is positive, all its eigenvalues are positive.",
+      "C": "If the determinant of the matrix is positive, all its eigenvalues are positive.",
+      "D": "If the product of the trace and determinant of the matrix is positive, all its eigenvalues are positive."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 If V1 and V2 are 4-dimensional subspaces of a 6-dimensional vector space V, then the smallest possible dimension of  V1[latex]\\cap[/latex]V2 is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 6 If [latex]\\int_{0}^{2\\pi}|x sinx| dx=k \\pi[/latex], then the value of k is equal to _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Consider the following minterm expression for F. F(P,Q,R,S) = [latex]\\Sigma[/latex] 0, 2, 5, 7, 8, 10, 13, 15 The minterms 2, 7, 8 and 13 are 'do not care terms. The minimal sum of-products form for F is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]Q\\bar{S}+\\bar{Q}S[/latex]",
+      "B": "[latex]\\bar{Q}\\bar{S}+QS[/latex]",
+      "C": "[latex]\\bar{Q}\\bar{R}\\bar{S}+\\bar{Q}R\\bar{S}+Q\\bar{R}S+QRS[/latex]",
+      "D": "[latex]\\bar{P}\\bar{Q}\\bar{S}+\\bar{P}QS+PQS+P\\bar{Q}\\bar{S}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 Consider the following combinational function block involving four Boolean variables x, y, a, b where x, a, b are inputs and y is the output. f (x, y, a, b)\n{\n    if (x is 1) y = a; \n    else y = b;\n} Which one of the following digital logic blocks is the most suitable for implementing this function?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Full adder",
+      "B": "Priority encoder",
+      "C": "Multiplexor",
+      "D": "Flip-flop"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 Consider the following processors (ns stands for nanoseconds).\nAssume that the pipeline registers have zero latency. P1:  Four-stage pipeline with stage latencies 1 ns, 2 ns, 2 ns, 1 ns. P2:  Four-stage pipeline with stage latencies 1 ns, 1.5 ns, 1.5 ns, 1.5 ns. P3:  Five-stage pipeline with stage latencies 0.5 ns, 1 ns, 1 ns, 0.6 ns, 1 ns. P4:  Five-stage pipeline with stage latencies 0.5 ns, 0.5 ns, 1 ns, 1 ns, 1.1 ns. Which processor has the highest peak clock frequency?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "P1",
+      "B": "P2",
+      "C": "P3",
+      "D": "P4"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 Let A be a square matrix size n x n. Consider the following pseudocode. What is the\nexpected output? C = 100;\nfor i = 1 to n do\n   for j = 1 to n do\n   {\n      Temp = A[ i ] [ j ] + C ;\n      A [ i ] [ j ] = A [ j ] [ i ] ;\n      A [ j ] [ i ] = Temp - C ;\n   }\nfor i = 1 to n do\n    for j = 1 to n do\n         output (A[ i ] [ j ]);",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The matrix A itself",
+      "B": "Transpose of the matrix A",
+      "C": "Adding 100 to the upper diagonal elements and subtracting 100 from lower diagonal elements of A",
+      "D": "None of these"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 11 The minimum number of arithmetic operations required to evaluate the polynomial\n[latex]P(x)=x^{5}+4x^{3}+6x+5[/latex] for a given value of x, using only one temporary variable is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 7.0,
+    "max": 7.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Consider the following rooted tree with the vertex labelled P as the root The order in which the nodes are visited during an in-order traversal of the tree is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set3/page3_q2.webp",
+    "options": {
+      "A": "SQPTRWUV",
+      "B": "SQPTUWRV",
+      "C": "SQPTWUVR",
+      "D": "SQPTRUWV"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 Suppose depth first search is executed on the graph below starting at some unknown vertex. Assume that a recursive call to visit a vertex is made only after first checking that the vertex has not been visited earlier. Then the maximum possible recursion depth (including the initial call) is _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set3/page3_q3.webp",
+    "min": 19.0,
+    "max": 19.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 You have an array of n elements. Suppose you implement quick sort by always choosing the central element of the array as the pivot. Then the tightest upper bound for the worst case performance is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(n^{2})[/latex]",
+      "B": "[latex]O(n logn)[/latex]",
+      "C": "[latex]\\theta (n logn)[/latex]",
+      "D": "[latex]O(n^{3})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 The length of the shortest string NOT in the language (over  [latex]\\Sigma[/latex]={a,b}) of the following regular expression is _________. a*b* (ba)* a*",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Let [latex]\\Sigma[/latex] be a finite non-empty alphabet and let [latex]2^{\\Sigma^{*}}[/latex] be the power set of [latex]\\Sigma^{*}[/latex] . Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Both [latex]2^{\\Sigma^{*}}[/latex] and [latex]\\Sigma^{*}[/latex] are countable",
+      "B": "[latex]2^{\\Sigma^{*}}[/latex] is countable [latex]\\Sigma^{*}[/latex] is uncountable",
+      "C": "[latex]2^{\\Sigma^{*}}[/latex]  is uncountable and [latex]\\Sigma^{*}[/latex] is countable",
+      "D": "Both [latex]2^{\\Sigma^{*}}[/latex]  and [latex]\\Sigma^{*}[/latex] are uncountable"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 One of the purposes of using intermediate code in compilers is to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "make parsing and semantic analysis simpler",
+      "B": "improve error recovery and error reporting",
+      "C": "increase the chances of reusing the machine-independent code optimizer in other compliers.",
+      "D": "improve the register allocation"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 Which of the following statements are CORRECT? 1) Static allocation of all data areas by a compiler makes it impossible to implement recursion. 2) Automatic garbage collection is essential to implement recursion. 3) Dynamic allocation of activation records is essential to implement recursion. 4) Both heap and stack are essential to implement recursion.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1 and 2 only",
+      "B": "2 and 3 only",
+      "C": "3 and 4 only",
+      "D": "1 and 3 only"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 In the context of modular software design, which one of the following combinations is desirable?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "High cohesion and high coupling",
+      "B": "High cohesion and low coupling",
+      "C": "Low cohesion and high coupling",
+      "D": "Low cohesion and low coupling"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 A system uses 3 page frames for storing process pages in main memory. It uses the Least Recently Used (LRU) page replacement policy. Assume that all the page frames are initially empty. What is the total number of page faults that will occur while processing the page reference string given below?\n4, 7, 6, 1, 7, 6, 1, 2, 7, 2",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 What is the optimized version of the relation algebra expression  [latex]\\pi _{A1}(\\pi _{A2}(\\sigma _{F1}(\\sigma_{F2}(r))))[/latex] , where A1, A2 are sets of attributes in r with [latex]A_{1}\\subset A_{2}[/latex] and F1, F2 are Boolean expressions based on the attributes in r?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\pi _{A1}(\\sigma_{(F1 \\wedge F2)}(r))[/latex]",
+      "B": "[latex]\\pi _{A1}(\\sigma_{(F1\\vee F2)}(r))[/latex]",
+      "C": "[latex]\\pi _{A2}(\\sigma_{(F1\\wedge F2)}(r))[/latex]",
+      "D": "[latex]\\pi _{A2}(\\sigma_{(F1 \\vee F2)}(r))[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 A prime attribute of a relation scheme R is an attribute that appears",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "in all candidate keys of R.",
+      "B": "in some candidate key of R.",
+      "C": "in a foreign keys of R",
+      "D": "only in the primary key of R."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 In the following pairs of OSI protocol layer/sub-layer and its functionality, the\nINCORRECT pair is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Network layer and Routing",
+      "B": "Data Link Layer and Bit synchronization",
+      "C": "Transport layer and End-to-end process communication",
+      "D": "Medium Access Control sub-layer and Channel sharing"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 A bit-stuffing based framing protocol uses an 8-bit delimiter pattern of 01111110. If the output bit-string after stuffing is 01111100101, then the input bit-string is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "111110100",
+      "B": "111110101",
+      "C": "111111101",
+      "D": "111111111"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 Host A (on TCP/IP v4 network A) sends an IP datagram D to host B (also on TCP/IP V4\nnetwork B). Assume that no error occurred during the transmission of D. When D reaches B, which of the following IP header field(s) may be different from that of the original datagram D? (i) TTL (ii) Checksum (iii) Fragment Offset",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(i) only",
+      "B": "(i) and (ii) only",
+      "C": "(ii) and (iii) only",
+      "D": "(i), (ii) and (iii)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 An IP router implementing Classless Inter-domain routing (CIDR) receives a packet with address 131.23.151.76. The router's routing table has the following entries: The identifier of the output interface on which this packet will be forwarded is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set3/page6_q1.webp",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 Every host in an IPv4 network has a 1-second resolution real-time clock with battery backup. Each host needs to generate up to 1000 unique identifiers per second. Assume that each host has a globally unique IPv4 address. Design a 50-bit globally unique ID for this purpose. After what period (in seconds) will the identifiers generated by a host wrap around?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 256.0,
+    "max": 256.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 An IP router with a Maximum Transmission Unit (MTU) of 1500 bytes has received an IP packet of size 4404 bytes with an IP header of length 20 bytes. The values of the relevant fields in the header of the third IP fragment generated by the router for this packet are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "MF bit: 0, Datagram Length: 1444; Offset: 370",
+      "B": "MF bit: 1, Datagram Length: 1424; Offset: 185",
+      "C": "MF bit: 1, Datagram Length: 1500; Offset: 370",
+      "D": "MF bit: 0, Datagram Length: 1424; Offset: 2960"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Consider the transactions T1, T2, and T3 and the schedules S1 and S2 given below. T1 : r1(x); r1(Z) ; w1(x); w1(Z) T2 : r2(x); r2(Z); w2(Z) T3 : r3(x); r3(x); w3(Y) S1: r1(x); r3(Y); r3(x); r2(Y); r2(Z); w3(Y); w2(Z); r1(Z); w1(x); w1(Z) S2: r1(x); r3(Y); r2(Y); r3(x); r1(Z); r2(Z); w3(Y); w1(x); w2(Z); w1(Z) Which one of the following statements about the schedules is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only S1 is conflict-serializable",
+      "B": "Only S2 is conflict-serializable.",
+      "C": "Both S1 and S2 are conflict-serializable",
+      "D": "Neither S1 nor S2 is conflict-serializable"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Consider the relational schema given below, where eId of the relation dependentis a foreign key referring to empId of the relation employee. Assume that every employee has at least one associated dependent in the dependent relation. The above query evaluates to the set of empIds of employees whose age is greater than that of",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set3/page6_q5.webp",
+    "options": {
+      "A": "some dependent",
+      "B": "all dependents",
+      "C": "some of his/her dependents",
+      "D": "all of his/her dependents"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 A system contains three programs and each requires three tape units for its operation. The minimum number of tape units which the system must have such that deadlocks never arise is _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 7.0,
+    "max": 7.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 An operating system uses shortest remaining time first scheduling algorithm for pre-emptive\nscheduling of processes. Consider the following set of processes with their arrival times and\nCPU burst times (in milliseconds): The average waiting time (in milliseconds) of the processes is _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set3/page7_q2.webp",
+    "min": 5.5,
+    "max": 5.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 Consider a paging hardware with a TLB. Assume that the entire page table and all the pages are in the physical memory. It takes 10 milliseconds to search the TLB and 80 milliseconds to access the physical memory. If the TLB hit ratio is 0.6, the effective memory access time (in milliseconds) is _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 122.0,
+    "max": 122.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 Consider the basic block given below. a= b + c c =a + d d =b + c e =d - b a =e + b The minimum number of nodes and edges present in the DAG representation of the above basic block respectively are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "6 and 6",
+      "B": "8 and 10",
+      "C": "9 and 12",
+      "D": "4 and 4"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Which one of the following problems is undecidable?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Deciding if a given context-free grammar is ambiguous",
+      "B": "Deciding if a given string is generated by a given context-free grammar",
+      "C": "Deciding if the language generated by a given context-free grammar is empty",
+      "D": "Deciding if the language generated by a given context-free grammar is finite."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Consider the following languages over the alphabet [latex]\\sum =\\{0,1,c\\}:  [/latex] [latex]L_{1}=\\{0^{n}|1^{n}|n\\geq 0\\}[/latex] [latex]L_{2}=\\{wcw^{r}|w\\in \\{0,1\\}^{*}\\}[/latex] [latex]  L_{3}=\\{ww^{r}|w\\in \\{0,1\\}^{*}\\}[/latex] Here [latex]w^{r}[/latex] is the reverse of the string w. Which of these languages are deterministic Contextfree languages?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "None of the languages",
+      "B": "Only L1",
+      "C": "Only L1 and L2",
+      "D": "All the three languages"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 Suppose you want to move from 0 to 100 on the number line. In each step, you either move right by a unit distance or you take a shortcut. A shortcut is simply a pre-specified pair of integers i,j with [latex]i \\lt j[/latex]. Given a shortcut i, j if you are at position i on the number line, you may directly move to j. Suppose T(k) denotes the smallest number of steps needed to move from k to 100. suppose further that there is at most 1 shortcut involving any number, and in particular from 9 there is a shortcut to 15. Let y and z be such that T(9) = 1 + min(T(y), T(z)). Then the value of the product yz is_______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 150.0,
+    "max": 150.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 Consider the decision problem 2CNFSAT defined as follows: { [latex]\\phi[/latex] | [latex]\\phi[/latex]  is a satisfiable propositional formula in CNF with at most two literal per clause} For example, [latex]\\phi =(x_{1} \\vee x_{2}) \\wedge (x_{1}  \\vee \\bar{x_{3}}) \\wedge (x_{2}  \\vee x_{4})[/latex] is a Boolean formula and it is in 2CNFSAT. The decision problem 2CNFSAT is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "NP-Complete",
+      "B": "solvable in polynomial time by reduction to directed graph reachability.",
+      "C": "solvable in constant time since any input instance is satisfiable",
+      "D": "NP-hard, but not NP-complete"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 Suppose we have a balanced binary search tree T holding n numbers. We are given two numbers L and H and wish to sum up all the numbers in T that lie between L and H. Suppose there are m such numbers in T. If the tightest upper bound on the time to compute the sum is [latex]O(n^{a}log^{b}n+m^{c}log^{d}n)[/latex], the value of a + 10b + 100c + 1000d is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 110.0,
+    "max": 110.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 Consider a hash table with 100 slots. Collisions are resolved using chaining. Assuming\nsimple uniform hashing, what is the probability that the first 3 slots are unfilled after the first 3 insertions?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(97 x 97 x 97)/[latex]100^{3}[/latex]",
+      "B": "(99 x 98 x 97)/[latex]100^{3}[/latex]",
+      "C": "(97 x 96 x 95)/[latex]100^{3}[/latex]",
+      "D": "(97 x 96 x 95)/(3! x [latex]100^{3}[/latex])"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 Consider the pseudocode given below. The function Dosomething () takes as argument a pointer to the root of an arbitrary tree represented by the leftMostChild-rightSibling representation. Each node of the tree is of type treeNode. typedef struct treeNode*  treeptr;\nstruct treeNode\n{\n        treeptr leftMostChild, rightSibling;\n};\nint DoSomething (treeptr tree)\n{\n     int value=0;\n     if (tree != NULL) {\n          if (tree->leftMostChild == NULL)\n               value = 1;\n          else\n               value = DoSomething(tree->leftMostChild);\n         value = value + DoSomething(tree->rightSibling);\n     }\n     return(value);\n} When the pointer to the root of a tree is passed as the argument to DoSomething, the value returned by the function corresponds to the",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "number of internal nodes in the tree",
+      "B": "height of the tree",
+      "C": "number of nodes without a right sibling in the tree.",
+      "D": "number of leaf nodes in the tree."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 Consider the C function given below. Assume that the array listA contains n (> 0) elements,\nsorted in ascending order. int ProcessArray(int *listA, int x, int n)\n{\n   int i, j, k;\n   i = 0;\n   j = n-1;\n   do {\n          k = (i+j)/2;\n          if (x <= listA[k])\n               j = k-1;\n          if (listA[k] <= x)\n              i = k+1;\n       }while (i <= j);\nif (listA[k] == x)\n     return(k);\nelse\n    return -1;\n} Which one of the following statements about the function ProcessArray is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "It will run into an infinite loop when x is not in listA",
+      "B": "It is an implementation of binary search",
+      "C": "It will always find the maximum element in listA.",
+      "D": "It will return ? 1 even when x is present in listA."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 An instruction pipeline has five stages, namely, instruction fetch (IF), instruction decode and register fetch (ID/RF), instruction execution (Ex), memory access (MEM), and register write back (WB) with stage latencies 1 ns, 2.2 ns, 2 ns, 1 ns, and 0.75 ns, respectively (ns stands for nanoseconds). To gain in terms of frequency, the designers have decided to split the ID/RF stage into three stages (ID, RF1, RF2) each of latency 2.2/3 ns. Also, the Ex stage is split into two stages (Ex1, Ex2) each of latency 1 ns. The new design has a total of eight pipeline stages. A program has 20% branch instructions which execute in the Ex stage and produce the next instruction pointer at the end of the Ex stage in the old design and at the end of the Ex2 stage in the new design. The IF stage stalls after fetching a branch instruction until the next instruction pointer is computed. All instructions other than the branch instruction have an average CPI of one in both the designs. The execution times of this program on the old and the new design are P and Q nanoseconds, respectively. The value of P/Q is __________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1.5,
+    "max": 1.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 The memory access time is 1 nanosecond for a read operation with a hit in cache, 5\nnanoseconds for a read operation with a miss in cache, 2 nanoseconds for a write operation\nwith a hit in cache and 10 nanoseconds for a write operation with a miss in cache. Execution\nof a sequence of instructions involves 100 instruction fetch operations, 60 memory operand\nread operations and 40 memory operand write operations. The cache hit-ratio is 0.9. The\naverage memory access time (in nanoseconds) in executing the sequence of instructions is\n__________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1.68,
+    "max": 1.68
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 The above synchronous sequential circuit built using JK flip-flops is initialized with\n[latex]Q_{2}Q_{1}Q_{0}[/latex] = 000. The state sequence for this circuit for the next 3 clock cycles is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set3/page9_q5.webp",
+    "options": {
+      "A": "001, 010, 011",
+      "B": "111, 110, 101",
+      "C": "100, 110, 111",
+      "D": "100, 011, 001"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 With respect to the numerical evaluation of the definite integral,[latex]K=\\int_{a}^{b}x^{2}dx[/latex] , where a and b are given, which of the following statements is/are TRUE? (I) The value of K obtained using the trapezoidal rule is always greater than or equal to the\nexact value of the definite integral. (II) The value of K obtained using the Simpson's rule is always equal to the exact value of\nthe definite integral.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I only",
+      "B": "II only",
+      "C": "Both I and II",
+      "D": "Neither I nor II"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 The value of the integral given below is [latex]\\int_{0}^{\\pi }x^{2}cosxdx[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]-2\\pi[/latex]",
+      "B": "[latex]\\pi[/latex]",
+      "C": "[latex]-\\pi[/latex]",
+      "D": "[latex]2\\pi[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 Let S be a sample space and two mutually exclusive events A and B be such that A[latex]\\cup[/latex]B = S. If P(.) denotes the probability of the event, the maximum value of P(A)P(B) is ______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.25,
+    "max": 0.25
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 Consider the set of all functions f:{0,1,...,2014}[latex]\\rightarrow[/latex]{0,1...,2014} such that f(f(i))=i, for 0[latex]\\leq[/latex]i[latex]\\leq[/latex]2014 . Consider the following statements. P. For each such function it must be the case that for every i, f(i) = i, Q. For each such function it must be the case that for some i,f(i) = i, R. Each such function must be onto. Which one of the following is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "P, Q and R are true",
+      "B": "Only Q and R are true",
+      "C": "Only P and Q are true",
+      "D": "Only R is true"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 There are two elements x,y in a group (G,*) such that every element in the group can be\nwritten as a product of some number of x's and y's in some order. It is known that x * x = y * y = x * y *x * y = y* x * y *x = e where e is the identity element. The maximum number of elements in such a group is\n_______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 If G is a forest with n vertices and k connected components, how many edges does G have?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\left \\lfloor n/k \\right \\rfloor[/latex]",
+      "B": "[latex]\\left \\lceil n/k \\right \\rceil[/latex]",
+      "C": "n - k",
+      "D": "n - k +1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 Let [latex]\\delta[/latex] denote the minimum degree of a vertex in a graph. For all planar graphs on n vertices with [latex]\\delta \\geq 3[/latex], which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "In any planar embedding, the number of faces is at least [latex]\\frac{n}{2}+2[/latex]",
+      "B": "In any planar embedding, the number of faces is less than [latex]\\frac{n}{2}+2[/latex]",
+      "C": "There is a planar embedding in which the number of faces is less than [latex]\\frac{n}{2}+2[/latex]",
+      "D": "There is a planar embedding in which the number of faces is at most [latex]\\frac{n}{\\delta +1}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 The CORECT formula for the sentence, \"not all rainy days are cold\" is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\forall d(Rainy(d)\\wedge \\sim Cold(d))[/latex]",
+      "B": "[latex]\\forall d(\\sim Rainy(d)\\rightarrow  Cold(d))[/latex]",
+      "C": "[latex]\\exists d(\\sim Rainy(d) \\rightarrow  Cold(d))[/latex]",
+      "D": "[latex]\\exists d(Rainy(d)\\wedge \\sim Cold(d))[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 Consider the following relational schema: Employee (empId, empName, empDept ) Customer (custId,custName, salesRepId, rating) SalesRepId is a foreign key referring to empId of the employee relation. Assume that each\nemployee makes a sale to at least one customer. What does the following query return? SELECT empName \nFROM employee E \n WHERE NOT EXISTS (SELECT custId\nFROM customer C\nWHERE C. salesRepId = E. empId\nAND C. rating < > 'GOOD')",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Names of all the employees with at least one of their customers having a 'GOOD' rating",
+      "B": "Names of all the employees with at most one of their customers having a 'GOOD' rating.",
+      "C": "Names of all the employees with none of their customers having a 'GOOD' rating.",
+      "D": "Names of all the employees with all their customers having a 'GOOD' rating."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 Let [latex]\\oplus[/latex] denote the Exclusive OR (XOR) operation. Let '1' and '0' denote the binary constants. Consider the following Boolean Algebra for F over two variables P and Q. [latex]F(P,Q)=((1\\oplus P)\\oplus (P\\oplus Q)) \\oplus ((P\\oplus Q) \\oplus (Q\\oplus 0))[/latex] The equivalent expression for F is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]P+Q[/latex]",
+      "B": "[latex]\\overline{P+Q}[/latex]",
+      "C": "[latex]P\\oplus Q[/latex]",
+      "D": "[latex]\\overline{P\\oplus Q}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 [latex]\\underset{\\text{I}}{\\underline{\\text{While trying to collect}}}[/latex] an envelope [latex]\\underset{\\text{II}}{\\underline{\\text{from under the table}}}[/latex], [latex]\\underset{\\text{III}}{\\underline{\\text{Mr. X fell down}}}[/latex] and [latex]\\underset{\\text{IV}}{\\underline{\\text{was losing consciousness}}}[/latex]. Which one of the above underlined parts of the sentence is NOT appropriate?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 If she _______ how to calibrate the instrument, she ________ done the experiment.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "knows, will have",
+      "B": "knew, had",
+      "C": "had known, could have",
+      "D": "should have known, would have"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Choose the word that is opposite in meaning to the word \"coherent\".",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "sticky",
+      "B": "well-connected",
+      "C": "rambling",
+      "D": "friendly"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 Which number does not belong in the series below? 2, 5, 10, 17, 26, 37, 50, 64",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "17",
+      "B": "37",
+      "C": "64",
+      "D": "26"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 The table below has question-wise data on the performance of students in an examination. The marks for each question are also listed. There is no negative or partial marking in the examination. [latex]\\begin{array}{|c|c|c|c|c|} \\hline \\textbf{Q No.} & \\textbf{Marks} &\\textbf{Answered}&\\textbf{Answered}&\\textbf{Not}\\\\&&\\textbf{ Correctly} &\\textbf{Wrongly} & \\textbf{Attempted} \\\\\\hline \\text{1} & \\text{2} &\\text{21} &\\text{17} &\\text{6}\\\\\\hline \\text{2} & \\text{3} &\\text{15} & \\text{27}& \\text{2}\\\\\\hline \\text{3} & \\text{2} &\\text{23} & \\text{18} & \\text{3}\\\\\\hline \\end{array}[/latex] What is the average of the marks obtained by the class in the examination?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1.34",
+      "B": "1.74",
+      "C": "3.02",
+      "D": "3.91"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 A dance programme is scheduled for 10.00 a.m. Some students are participating in the programme and they need to come an hour earlier than the start of the event. These students should be accompanied by a parent. Other students and parents should come in time for the programme. The instruction you think that is appropriate for this is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Students should come at 9.00 a.m. and parents should come at 10.00 a.m.",
+      "B": "Participating students should come at 9.00 a.m. accompanied by a parent, and other parents and students should come by 10.00 a.m.",
+      "C": "Students who are not participating should come by 10.00 a.m. and they should not bring their parents. Participating students should come at 9.00 a.m.",
+      "D": "Participating students should come before 9.00 a.m. Parents who accompany them should come at 9.00 a.m. All others should come at 10.00 a.m."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 By the beginning of the 20th century, several hypotheses were being proposed, suggesting a paradigm shift in our understanding of the universe. However, the clinching evidence was provided by experimental measurements of the position of a star which was directly behind our sun. Which of the following inference(s) may be drawn from the above passage? i.   Our understanding of the universe changes based on the positions of stars ii.  Paradigm shifts usually occur at the beginning of centuries iii. Stars are important objects in the universe iv.  Experimental evidence was important in confirming this paradigm shift",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "i, ii and iv",
+      "B": "iii only",
+      "C": "i and iv",
+      "D": "iv only"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 The Gross Domestic Product (GDP) in Rupees grew at 7% during 2012-2013. For international comparison, the GDP is compared in US Dollars (USD) after conversion based on the market exchange rate. During the period 2012-2013 the exchange rate for the USD increased from Rs. 50/USD to Rs.60/ USD. India's GDP in USD during the period 2012-2013",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "increased by 5%",
+      "B": "decreased by 13%",
+      "C": "decreased by 20%",
+      "D": "decreased by 11%"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 The ratio of male to female students in a college for five years is plotted in the following line graph. If the number of female students in 2011 and 2012 is equal, what is the ratio of male students in 2012 to male students in 2011?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2014_Set3/page13_q4.webp",
+    "options": {
+      "A": "01:01",
+      "B": "02:01",
+      "C": "1.5:1",
+      "D": "2.5:1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 Consider the equation: [latex](7526)_8 - (Y)_8=(4364)_8[/latex], where [latex](X)_N[/latex] stands for [latex]X[/latex] to the base [latex]N[/latex]. Find [latex]Y[/latex].",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1634",
+      "B": "1737",
+      "C": "3142",
+      "D": "3162"
+    },
+    "correct_answer": "C"
+  }
+]
