@@ -15,7 +15,7 @@
     "type": "mcq",
     "question": "Question 2 Match the following:",
     "solution": "Click here for detail solution by gateoverflow",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/20224_Set2/page1_q2.webp",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2017_Set2/page1_q2.webp",
     "options": {
       "A": "P-(ii), Q-(iv), R-(i), S-(iii)",
       "B": "P-(ii), Q-(i), R-(iv), S-(iii)",
@@ -28,7 +28,7 @@
     "type": "mcq",
     "question": "Question 3 Match the algorithms with their time complexities:",
     "solution": "Click here for detail solution by gateoverflow",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/20224_Set2/page1_q3.webp",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2017_Set2/page1_q3.webp",
     "options": {
       "A": "P-(iii),Q-(iv), R-(i), S-(ii)",
       "B": "P-(iv),Q-(iii), R-(i), S-(ii)",
@@ -53,7 +53,7 @@
     "type": "mcq",
     "question": "Question 5 Match the following according to input (from the left column) to the complier phase (in the\nright column) that processes it.",
     "solution": "Click here for detail solution by gateoverflow",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/20224_Set2/page1_q5.webp",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2017_Set2/page1_q5.webp",
     "options": {
       "A": "P-(ii),Q-(iii), R-(iv), S-(i)",
       "B": "P-(ii),Q-(i), R-(iii), S-(iv)",
@@ -174,7 +174,7 @@
     "type": "mcq",
     "question": "Question 15 The Breadth First Search (BFS) algorithm has been implemented using the queue data\nstructure. Which one of the following is a possible order of visiting the nodes in the graph\nbelow?",
     "solution": "Click here for detail solution by gateoverflow",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/20224_Set2/page3_q5.webp",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2017_Set2/page3_q5.webp",
     "options": {
       "A": "MNOPQR",
       "B": "NQMPOR",
@@ -223,7 +223,7 @@
     "type": "numerical",
     "question": "Question 19 Consider the following tables T1 and T2. In table T1, P is the primary key and Q is the foreign key referencing R in table T2 with ondelete\ncascade and on-update cascade. In table T2, R is the primary key and S is the foreign\nkey referencing P in table T1 on-delete set NULL and on-update cascade. In order to delete\nrecord (3,8) from table T1, the number of additional records that need to be deleted from\ntable T1 is _____.",
     "solution": "Click here for detail solution by gateoverflow",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/20224_Set2/page4_q4.webp",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2017_Set2/page4_q4.webp",
     "min": 0.0,
     "max": 0.0
   },
@@ -238,7 +238,7 @@
     "type": "numerical",
     "question": "Question 21 Consider the set X={a, b,c,d,e} under the partial ordering\nR={(a,a),(a,b),(a,c),(a,d),(a,e),(b,b),(b,c),(b,e),(c,c),(c,e),(d,d),(d,e),(e,e)}. The Hasse diagram of the partial order (X, R) is shown below. The minimum number of ordered pairs that need to be added to R to make (X, R) a lattice is\n_____.",
     "solution": "Click here for detail solution by gateoverflow",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/20224_Set2/page5_q1.webp",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2017_Set2/page5_q1.webp",
     "min": -0.01,
     "max": 0.01
   },
@@ -358,7 +358,7 @@
     "type": "mcq",
     "question": "Question 33 A system shares 9 tape drives. The current allocation and maximum requirement of tape\ndrives for three processes are shown below: Which of the following best describes current state of the system ?",
     "solution": "Click here for detail solution by gateoverflow",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/20224_Set2/page7_q3.webp",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2017_Set2/page7_q3.webp",
     "options": {
       "A": "Safe, Deadlocked",
       "B": "Safe, Not Deadlocked",
@@ -431,7 +431,7 @@
     "type": "mcq",
     "question": "Question 39 Let [latex]\\delta[/latex] denote that transition function and [latex]\\hat{\\delta}[/latex] denote the extended transition function of the [latex]\\epsilon[/latex]- NFA whose transition table is given below: Then [latex]\\hat{\\delta}(q_{2},aba)[/latex] is ____",
     "solution": "Click here for detail solution by gateoverflow",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/20224_Set2/page8_q4.webp",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2017_Set2/page8_q4.webp",
     "options": {
       "A": "[latex]\\varnothing[/latex]",
       "B": "[latex]\\{q_{0},q_{1},q_{3}\\}[/latex]",
@@ -494,7 +494,7 @@
     "type": "numerical",
     "question": "Question 45 The read access times and the hit ratios for different caches in a memory hierarchy are as\ngiven below. The read access time of main memory is 90 nanoseconds. Assume that the caches use the referred word-first read policy and the write back policy. Assume that all the caches are direct mapped caches. Assume that the dirty bit is always 0 for all the blocks in the caches. In execution of a program, 60% of memory reads are for instruction fetch and 40% are for memory operand fetch. The average read access time in nanoseconds (up to 2 decimal places) is______.",
     "solution": "Click here for detail solution by gateoverflow",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/20224_Set2/page9_q5.webp",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2017_Set2/page9_q5.webp",
     "min": 4.72,
     "max": 4.72
   },
@@ -502,7 +502,7 @@
     "type": "numerical",
     "question": "Question 46 Consider the following database table named top_scorer. Consider the following SQL query: The number of tuples returned by the above SQL query is ___________.",
     "solution": "Click here for detail solution by gateoverflow",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/20224_Set2/page10_q1.webp",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2017_Set2/page10_q1.webp",
     "min": 7.0,
     "max": 7.0
   },
@@ -531,7 +531,7 @@
     "type": "numerical",
     "question": "Question 50 A message is made up entirely of characters from the set X= {P,Q,R,S,T}. The table of\nprobabilities for each of the characters is shown below: If a message of 100 characters over X is encoded using Huffman coding, then the expected\nlength of the encoded message in bits is_____",
     "solution": "Click here for detail solution by gateoverflow",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/20224_Set2/page10_q5.webp",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2017_Set2/page10_q5.webp",
     "min": 225.0,
     "max": 225.0
   },
@@ -539,7 +539,7 @@
     "type": "numerical",
     "question": "Question 51 Consider the set of processes with arrival time (in milliseconds). CPU burst time (in\nmilliseconds), and priority (0 is the highest priority) shown below. None of the processes have\nI/O burst time. The average waiting time (in milliseconds) of all the processes using preemptive priority scheduling algorithm is __________",
     "solution": "Click here for detail solution by gateoverflow",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/20224_Set2/page11_q1.webp",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2017_Set2/page11_q1.webp",
     "min": 29.0,
     "max": 29.0
   },
@@ -683,7 +683,7 @@
     "type": "mcq",
     "question": "Question 65 An air pressure contour line joins locations in a region having the same atmospheric pressure. The following is an air pressure contour plot of a geographical region. Contour lines are shown at 0.05 bar intervals in this plot. If the possibility of a thunderstorm is given by how fast air pressure rises or drops over a region, which of the following regions is most likely to have a thunderstorm?",
     "solution": "Click here for detail solution by gateoverflow",
-    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/20224_Set2/page13_q5.webp",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/2017_Set2/page13_q5.webp",
     "options": {
       "A": "P",
       "B": "Q",
@@ -692,4 +692,5 @@
     },
     "correct_answer": "C"
   }
+
 ]
