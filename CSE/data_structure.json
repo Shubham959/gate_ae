@@ -1,0 +1,3369 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 In a [latex]B^+[/latex] -tree where each node can hold at most four key values, a root to leaf path consists of the following nodes: [latex] A = (49, 77, 83, -), \\, B = (7, 19, 33, 44), \\, C = (20*, 22*, 25*, 26*) [/latex] The *-marked keys signify that these are data entries in a leaf. Assume that a pointer between keys [latex]k_1[/latex] and [latex]k_2[/latex] points to a subtree containing keys in [latex][k_1, k_2)[/latex], and that when a leaf is created, the smallest key in it is copied up into its parent. A record with key value 23 is inserted into the [latex]B^+[/latex] -tree. The smallest key value in the parent of the leaf that contains 25* is __________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 33.0,
+    "max": 33.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 Consider a stack data structure into which we can PUSH and POP records. Assume that each record pushed in the stack has a positive integer key and that all keys are distinct. We wish to augment the stack data structure with an [latex]O(1) [/latex] time MIN operation that returns a pointer to the record with the smallest key present in the stack 1) without deleting the corresponding record, and 2) without increasing the complexities of the standard stack operations. Which one or more of the following approach(es) can achieve it?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Keep with every record in the stack, a pointer to the record with the smallest key below it.",
+      "B": "Keep a pointer to the record with the smallest key in the stack.",
+      "C": "Keep an auxiliary array in which the key values of the records in the stack are maintained in sorted order.",
+      "D": "Keep a Min-Heap in which the key values of the records in the stack are maintained."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 An array [latex]A [/latex] of length [latex]n [/latex] with distinct elements is said to be bitonic if there is an index [latex]1 \\leq i \\leq n [/latex] such that [latex]A[1..i] [/latex] is sorted in the non-decreasing order and [latex]A[i+1..n] [/latex] is sorted in the non-increasing order. Which ONE of the following represents the best possible asymptotic bound for the worst-case number of comparisons by an algorithm that searches for an element in a bitonic array [latex]A [/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta(n) [/latex]",
+      "B": "[latex]\\Theta(1) [/latex]",
+      "C": "[latex]\\Theta(\\log ^2 n) [/latex]",
+      "D": "[latex]\\Theta(\\log n) [/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 A meld operation on two instances of a data structure combines them into one single instance of the same data structure. Consider the following data structures: P: Unsorted doubly linked list with pointers to the head node and tail node of the list. Q: Min-heap implemented using an array. R: Binary Search Tree. Which ONE of the following options gives the worst-case time complexities for meld operation on instances of size [latex]n [/latex] of these data structures?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "P: [latex]\\Theta(1) [/latex],  Q: [latex]\\Theta(n) [/latex],  R: [latex]\\Theta(n) [/latex]",
+      "B": "P: [latex]\\Theta(1) [/latex],  Q: [latex]\\Theta(n \\log n) [/latex],  R: [latex]\\Theta(n) [/latex]",
+      "C": "P: [latex]\\Theta(n) [/latex],  Q: [latex]\\Theta(n \\log n) [/latex],  R: [latex]\\Theta(n^2) [/latex]",
+      "D": "P: [latex]\\Theta(1) [/latex],  Q: [latex]\\Theta(n) [/latex],  R: [latex]\\Theta(n \\log n) [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 Suppose the values 10, -4, 15, 30, 20, 5, 60, 19 are inserted in that order into an initially empty binary search tree. Let [latex]T [/latex] be the resulting binary search tree.  \nThe number of edges in the path from the node containing 19 to the root node of [latex]T [/latex] is ___________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Consider an unordered list of [latex]N [/latex] distinct integers. What is the minimum number of element comparisons required to find an integer in the list that is NOT the largest in the list?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1",
+      "B": "[latex]N - 1 [/latex]",
+      "C": "[latex]N [/latex]",
+      "D": "[latex]2N - 1 [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Consider a binary tree [latex]T [/latex] in which every node has either zero or two children. Let [latex]n > 0 [/latex] be the number of nodes in [latex]T [/latex]. Which ONE of the following is the number of nodes in [latex]T [/latex] that have exactly two children?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\frac{n -2}{2} [/latex]",
+      "B": "[latex]\\frac{n - 1}{2} [/latex]",
+      "C": "[latex]\\frac{n}{2} [/latex]",
+      "D": "[latex]\\frac{n + 1}{2} [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 8 In a double hashing scheme, [latex] h_1(k) = k \\mod 11 [/latex] and [latex] h_2(k) = 1 + (k \\mod 7) [/latex] are the auxiliary hash functions. The size [latex] m [/latex] of the hash table is 11. The hash function for the [latex] i [/latex]-th probe in the open address table is  [latex]\n[h_1(k) + i h_2(k)] \\mod m [/latex]\nThe following keys are inserted in the given order: 63, 50, 25, 79, 67, 24. The slot at which key 24 gets stored is _________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 Let LIST be a datatype for an implementation of linked list defined as follows: typedef struct list {  \n    int data;  \n    struct list *next;  \n} LIST; Suppose the program has created two linked lists, L1 and L2,  whose contents are given \nin the figure below (code for creating L1 and L2 is not provided here). L1 contains 9 \nnodes, and L2 contains 7 nodes. Consider the following C program segment that modifies the list L1. The number of nodes in L1 after the execution of the code segment is _________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page2_q4.webp",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 The height of any rooted tree is defined as the maximum number of edges in the path from the root node to any leaf node. Suppose a Min-Heap [latex]T[/latex] stores 32 keys. The height of [latex]T[/latex] is _____________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 Which of the following statement(s) is/are TRUE for any binary search tree (BST) having [latex]n[/latex] distinct integers?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The maximum length of a path from the root node to any other node is [latex](n - 1)[/latex].",
+      "B": "An inorder traversal will always produce a sorted sequence of elements.",
+      "C": "Finding an element takes [latex]O(\\log_2 n)[/latex] time in the worst case.",
+      "D": "Every BST is also a Min-Heap."
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Consider the following [latex]B^+[/latex] tree with 5 nodes, in which a node can store at most 3 key values. The value 23 is now inserted in the [latex]B^+[/latex] tree. Which of the following options(s) is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page3_q2.webp",
+    "options": {
+      "A": "None of the nodes will split.",
+      "B": "At least one node will split and redistribute.",
+      "C": "The total number of nodes will remain same.",
+      "D": "The height of the tree will increase."
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Let S1 and S2 be two stacks. S1 has capacity of 4 elements. S2 has capacity of\n2 elements. S1 already has 4 elements: 100, 200, 300, and 400, whereas S2 is\nempty, as shown below. [latex]\n\\begin{array}{|c|}\n\\hline  400 (Top)  \\\\\n\\hline  300 \\\\\n\\hline  200\\\\\n\\hline  100 \\\\\n\\hline\n\\end{array}[/latex] Stack S1 [latex]\n\\begin{array}{|c|}\n\\hline    \\\\\n\\hline    \\\\\n\\hline\n\\end{array}[/latex] Stack S2 Only the following three operations are available: PushToS2: Pop the top element from S1 and push it on S2. PushToS1: Pop the top element from S2 and push it on S1. GenerateOutput: Pop the top element from S1 and output it to the\nuser. Note that the pop operation is not allowed on an empty stack and the push operation\nis not allowed on a full stack. Which of the following output sequences can be generated by using the above\noperations?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "100, 200, 400, 300",
+      "B": "200, 300, 400, 100",
+      "C": "400, 200, 100, 300",
+      "D": "300, 200, 400, 100"
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 You are given a set [latex]V[/latex] of distinct integers. A binary search tree [latex]T[/latex] is created by\ninserting all elements of [latex]V[/latex] one by one, starting with an empty tree. The tree [latex]T[/latex]\nfollows the convention that, at each node, all values stored in the left subtree of the\nnode are smaller than the value stored at the node. You are not aware of the sequence\nin which these values were inserted into [latex]T[/latex], and you do not have access to [latex]T[/latex]. Which one of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Inorder traversal of [latex]T[/latex] can be determined from [latex]V[/latex]",
+      "B": "Root node of [latex]T[/latex] can be determined from [latex]V[/latex]",
+      "C": "Preorder traversal of [latex]T[/latex] can be determined from [latex]V[/latex]",
+      "D": "Postorder traversal of [latex]T[/latex] can be determined from [latex]V[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 Let [latex] A [/latex] be an array containing integer values. The distance of [latex] A [/latex] is defined as the minimum number of elements in [latex] A [/latex] that must be replaced with another integer so that the resulting array is sorted in non-decreasing order. The distance of the array [latex] [2,5,3,1,4,2,6] [/latex] is _____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Consider a binary min-heap containing 105 distinct elements. Let [latex]k[/latex]  be the index (in the underlying array) of the maximum element stored in the heap. The number of possible values of [latex]k[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "53",
+      "B": "52",
+      "C": "27",
+      "D": "1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 An array [latex][82,101,90,11,111,75,33,131,44,93] [/latex] is heapified. Which one of the following options represents the first three elements in the heapified array?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]82,90,101 [/latex]",
+      "B": "[latex]82,11,93 [/latex]",
+      "C": "[latex]131,11,93 [/latex]",
+      "D": "[latex]131,111,90 [/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18 Consider the operator precedence and associativity rules for the integer arithmetic operators given in the table below. [latex]\\begin{array}{|c|l|l|}\n\\hline Operator & Precedence & Associativity \\\\\n\\hline+ & Highest & Left \\\\\n\\hline- & High & Right \\\\\n\\hline* & Medium & Right \\\\\n\\hline  /  & Low & Right \\\\\n\\hline\n\\end{array}\n[/latex] The value of the expression [latex]3+1+5 * 2 / 7+2-4-7-6 / 2 [/latex] as per the above rules is _____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 In a B+ tree, the requirement of at least half-full (50%) node occupancy is relaxed\nfor which one of the following cases?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only the root node",
+      "B": "All leaf nodes",
+      "C": "All internal nodes",
+      "D": "Only the leftmost leaf node"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 Consider a sequence [latex]a[/latex] of elements [latex]a_0 = 1, a_1 = 5, a_2 = 7, a_3 = 8, a_4 = 9, \\; and \\; \na_5 = 2[/latex]. The following operations are performed on a stack [latex]S[/latex] and a queue [latex]Q[/latex], both\nof which are initially empty. I: push the elements of a from [latex]a_0[/latex] to [latex]a_5[/latex] in that order into [latex]S[/latex]. II: enqueue the elements of a from [latex]a_0[/latex] to [latex]a_5[/latex] in that order into [latex]Q[/latex]. III: pop an element from [latex]S[/latex]. IV: dequeue an element from [latex]Q[/latex]. V: pop an element from [latex]S[/latex]. VI: dequeue an element from [latex]Q[/latex]. VII: dequeue an element from [latex]Q[/latex] and push the same element into [latex]S[/latex]. VIII: Repeat operation VII three times. IX: pop an element from [latex]S[/latex]. X: pop an element from [latex]S[/latex]. The top element of [latex]S[/latex] after executing the above operations is ___.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 8.0,
+    "max": 8.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 Consider the C function foo and the binary tree shown. typedef struct node {\n   int val;\n   struct node *left, *right;\n} node;\n\nint foo(node *p) {\n   int retval;\n   if (p == NULL)\n       return 0;\nelse {\n     retval = p->val + foo(p->left) + foo(p->right);\n     printf(\"%d \", retval);\n     return retval;\n     }\n} When foo is called with a pointer to the root node of the given binary tree, what\nwill it print?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page5_q1.webp",
+    "options": {
+      "A": "3 8 5 13 11 10",
+      "B": "3 5 8 10 11 13",
+      "C": "3 8 16 13 24 50",
+      "D": "3 16 8 50 24 13"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 Let A be a priority queue for maintaining a set of elements. Suppose A is\nimplemented using a max-heap data structure. The operation Extract-Max(A)\nextracts and deletes the maximum element from A. The operation Insert(A,key)\ninserts a new element key in A. The properties of a max-heap are preserved at the\nend of each of these operations. When A contains n elements, which one of the following statements about the worst\ncase running time of these two operations is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Both Extract-Max(A) and Insert(A,key) run in O(1).",
+      "B": "Both Extract-Max(A) and Insert(A,key) run in O(log(n)).",
+      "C": "Extract-Max(A) runs in O(1) whereas Insert(A,key) runs in O(n).",
+      "D": "Extract-Max(A) runs in O(1) whereas Insert(A,key) runs in O(log(n))."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 An algorithm has to store several keys generated by an adversary in a hash\ntable. The adversary is malicious who tries to maximize the number of collisions.\nLet [latex] k[/latex] be the number of keys, [latex] m[/latex] be the number of slots in the hash table, and [latex] k \\gt m[/latex]. Which one of the following is the best hashing strategy to counteract the adversary?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Division method, i.e., use the hash function [latex]h(k) = k\\;  mod \\; m[/latex]",
+      "B": "Multiplication method, i.e., use the hash function [latex] h(k) =  \\left \\lfloor m(kA -\\left \\lfloor kA \\right \\rfloor ) \\right \\rfloor[/latex], where\n[latex]A[/latex] is a carefully chosen constant.",
+      "C": "Universal hashing method.",
+      "D": "If [latex]k[/latex] is a prime number, use Division method. Otherwise, use Multiplication method"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 Let SLLdel be a function that deletes a node in a singly-linked list given a pointer\nto the node and a pointer to the head of the list. Similarly, let DLLdel be another\nfunction that deletes a node in a doubly-linked list given a pointer to the node and\na pointer to the head of the list. Let n denote the number of nodes in each of the linked lists. Which one of the\nfollowing choices is TRUE about the worst-case time complexity of SLLdel and\nDLLdel?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "SLLdel is O(1) and DLLdel is O(n)",
+      "B": "Both SLLdel and DLLdel are O(log(n))",
+      "C": "Both SLLdel and DLLdel are O(1)",
+      "D": "SLLdel is O(n) and DLLdel is O(1)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 Which one of the following sequences when stored in an array at locations\nA[1], . . . , A[10] forms a max-heap?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "23, 17, 10, 6, 13, 14, 1, 5, 7, 12",
+      "B": "23, 17, 14, 7, 13, 10, 1, 5, 6, 12",
+      "C": "23, 17, 14, 6, 13, 10, 1, 5, 7, 15",
+      "D": "23, 14, 17, 1, 10, 13, 16, 12, 7, 5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 Consider the queues Q1 containing four elements and Q2 containing none (shown\nas the Initial State in the figure). The only operations allowed on these two queues are  [latex]Enqueue(Q,element)[/latex]   and  [latex]Dequeue(Q)[/latex].   The  minimum  number  of [latex]Enqueue [/latex] operations on Q1 required to place the elements of Q1 in Q2 in reverse\norder (shown as the Final State in the figure) without using any additional storage is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page6_q1.webp",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 Suppose a binary search tree with 1000 distinct elements is also a complete binary tree. The tree is stored using the array representation of binary heap trees. Assuming that the array indices start with 0, the 3rd largest element of the tree is stored at index _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 509.0,
+    "max": 509.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Suppose we are given [latex]n[/latex] keys, [latex]m[/latex] hash table slots, and two simple uniform hash functions [latex]h_1[/latex] and [latex]h_2[/latex]. Further suppose our hashing scheme uses [latex]h_1[/latex] for the odd keys\nand [latex]h_2[/latex] for the even keys. What is the expected number of keys in a slot?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\frac{m}{n}[/latex]",
+      "B": "[latex]\\frac{n}{m}[/latex]",
+      "C": "[latex]\\frac{2n}{m}[/latex]",
+      "D": "[latex]\\frac{n}{2m}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Consider the problem of reversing a singly linked list. To take an example, given the linked list below, the reversed linked list should look like Which one of the following statements is TRUE about the time complexity of algorithms that solve the above problem in O(1) space?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page6_q4.webp",
+    "options": {
+      "A": "The best algorithm for the problem takes [latex]\\theta(n)[/latex] time in the worst case.",
+      "B": "The best algorithm for the problem takes [latex]\\theta(n \\log n)[/latex] time in the worst case.",
+      "C": "The best algorithm for the problem takes [latex]\\theta(n^2)[/latex] time in the worst case.",
+      "D": "It is not possible to reverse a singly linked list in O(1) space."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Consider the following ANSI C program: #include &lt stdio.h &gt\r\n\r\n#include &lt stdlib.h &gt\r\n\r\nstruct Node{\r\n        int value;\r\n        struct Node *next;};\r\nint main( ) {\r\n    struct Node *boxE, *head, *boxN; int index=0;\r\n    boxE=head= (struct Node *) malloc(sizeof(struct Node));\r\n    head -> value = index;\r\n    for (index =1; index < = 3; index++){\r\n        boxN = (struct Node *) malloc (sizeof(struct Node));\r\n        boxE -> next = boxN;\r\n        boxN -> value = index;\r\n        boxE = boxN; }\r\nfor (index=0; index < = 3; index++) {\r\n    printf(\"Value at index %d is %d\\n\", index, head -> value);\r\n    head = head -> next;\r\n    printf(\"Value at index %d is %d\\n\", index+1, head -> value); } } Which one of the following statements below is correct about the program?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Upon execution, the program creates a linked-list of five nodes",
+      "B": "Upon execution, the program goes into an infinite loop",
+      "C": "It has a missing returnreturn which will be reported as an error by the compiler",
+      "D": "It dereferences an uninitialized pointer that may result in a run-time error"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 Consider a complete binary tree with 7 nodes. Let A denote the set of first 3 elements obtained by performing Breadth-First Search (BFS) starting from the root. Let B denote the set of first 3 elements obtained by performing Depth-First Search (DFS) starting from the root. The value of |A-B| is _____________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 What is the worst-case number of arithmetic operations performed by recursive binary search on a sorted array of size n?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (\\sqrt{n})[/latex]",
+      "B": "[latex]\\Theta ( \\log _2 (n))[/latex]",
+      "C": "[latex]\\Theta ( n^2)[/latex]",
+      "D": "[latex]\\Theta ( n)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 Let H be a binary min-heap consisting of n elements implemented as an array. What is the worst case time complexity of an optimal algorithm to find the maximum element in H?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (1)[/latex]",
+      "B": "[latex]\\Theta (\\log n)[/latex]",
+      "C": "[latex]\\Theta ( n)[/latex]",
+      "D": "[latex]\\Theta (n \\log n)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 Consider a dynamic hashing approach for 4-bit integer keys: 1. There is a main hash table of size 4. 2. The 2 least significant bits of a key is used to index into the main hash table. 3. Initially, the main hash table entries are empty. 4. Thereafter, when more keys are hashed into it, to resolve collisions, the set of all keys corresponding to a main hash table. entry is organized as a binary tree that grows on demand. 5. First, the 3rd least significant bit is used to divide the keys into left and right subtrees. 6. To resolve more collisions, each node of the binary tree is further sub-divided into left and right subtrees based on the 4th least significant bit. 7. A split is done only if it is needed, i.e., only when there is a collision. Consider the following state of the hash table. Which of the following sequences of key insertions can cause the above state of the hash table (assume the keys are in decimal notation)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page7_q4.webp",
+    "options": {
+      "A": "5,9,4,13,10,7",
+      "B": "9,5,10,6,7,1",
+      "C": "10,9,6,7,5,13",
+      "D": "9,5,13,6,10,14"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 Consider the following sequence of operations on an empty stack. push(54); push(52); pop(); push(55); push(62); s=pop(); Consider the following sequence of operations on an empty queue. enqueue(21); enqueue(24); dequeue(); enqueue(28); enqueue(32); q=dequeue(); The value of s+q is ___________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 86.0,
+    "max": 86.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 A binary search tree T contains n distinct elements. What is the time complexity of picking an element in T that is smaller than the maximum element in T?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta(n\\log n)[/latex]",
+      "B": "[latex]\\Theta(n)[/latex]",
+      "C": "[latex]\\Theta(\\log n)[/latex]",
+      "D": "[latex]\\Theta(1)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 Let P be an array containing n integers. Let t be the lowest upper bound on the number of comparisons of the array elements, required to find the minimum and maximum values in an arbitrary array of n elements. Which one of the following choices is correct?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]t \\gt 2n-2[/latex]",
+      "B": "[latex]t \\gt 3\\lceil \\frac{n}{2}\\rceil \\text{ and } t\\leq 2n-2[/latex]",
+      "C": "[latex]t \\gt n \\text{ and } t\\leq 3\\lceil \\frac{n}{2}\\rceil[/latex]",
+      "D": "[latex]t \\gt \\lceil \\log_2(n)\\rceil \\text{ and } t\\leq n[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 A stack is implemented with an array of [latex]{ }^{\\prime} A[0 \\ldots N-1]^{\\prime}[/latex] and a variable [latex]\\text { 'pos'. }[/latex] The push and pop operations are defined by the following code. push (x)\r\n    A[pos] <- x\r\n    pos <- pos -1\r\nend push\r\npop()\r\n    pos <- pos+1\r\n    return A[pos]\r\nend pop Which of the following will initialize an empty stack with capacity N for the above implementation?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\text { pos } \\leftarrow-1[/latex]",
+      "B": "[latex]\\text { pos } \\leftarrow 0[/latex]",
+      "C": "[latex]\\text { pos } \\leftarrow 1[/latex]",
+      "D": "[latex]\\text { pos } \\leftarrow N-1[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 Of the following, which best approximates the ratio of the number of nonterminal nodes in the total number of nodes in a complete K-ary tree of depth N ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1/N",
+      "B": "N-1/N",
+      "C": "1/K",
+      "D": "K-1/K"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 If an array A contains the items 10, 4, 7, 23, 67, 12 and 5 in that order, what will be the resultant array A after third pass of insertion sort?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "67,12,10,5,4,7,23",
+      "B": "4,7,10,23,67,12,5",
+      "C": "4,5,7,67,10,12,23",
+      "D": "10,7,4,67,23,12,5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 In linear hashing, if blocking factor bfr, loading factor i and file buckets N are known, the number of records will be",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "r=i+bfr+N",
+      "B": "r=i-bfr-N",
+      "C": "r=i+bfr-N",
+      "D": "r=i*bfr*N"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 The post-order traversal of binary tree is ACEDBHIGF. The pre-order traversal is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A B C D E F G H I",
+      "B": "F B A D C E G I H",
+      "C": "F A B C D E G H I",
+      "D": "A B D C E F G I H"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 The minimum height of an AVL tree with n nodes is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\text{Ceil } (\\log_2(n+1))[/latex]",
+      "B": "[latex]1.44\\ \\log_2n[/latex]",
+      "C": "[latex]\\text{Floor } (\\log_2(n+1))[/latex]",
+      "D": "[latex]1.64\\ \\log_2n[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 What is the in-order successor of 15 in the given binary search tree?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page9_q4.webp",
+    "options": {
+      "A": "18",
+      "B": "6",
+      "C": "17",
+      "D": "20"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 Consider a 2-dimensional array x with 10 rows and 4 columns, with each element storing a value equivalent to the product of row number and column number. The array is stored in row-major format. If the first element x[0][0] occupies the memory location with address 1000 and each element occupies only one memory location, which all locations (in decimal) will be holding a value of 10?",
+    "solution": "Originally all Options are wrong. We have modified one option. Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]1018,1019[/latex]",
+      "B": "[latex]1022,1041[/latex]",
+      "C": "[latex]1017,1036[/latex]",
+      "D": "[latex]1000,1399[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 Convert the pre-fix expression to in-fix [latex]-^{*}+A B C^{*}-D E+F G[/latex]",
+    "solution": "Originally all Options are wrong. We have modified one option. Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](A-B)^{*} C+\\left(D^{*} E\\right)-(F+G)[/latex]",
+      "B": "[latex](A+B)^{*} C-(D-E)^{*}(F-G)[/latex]",
+      "C": "[latex](A+B-C)^{*}(D-E)^{*}(F+G)[/latex]",
+      "D": "[latex](((A+B)*C)-((D-E)*(F+G)))[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 Consider the array representation of a binary min-heap containing 1023 elements. The minimum number of comparisons required to find the maximum in the heap is ___________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 511.0,
+    "max": 511.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 In a balanced binary search tree with n elements, what is the worst case time complexity of reporting all elements in range [a,b]? Assume that the number of reported elements is k.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (\\log n )[/latex]",
+      "B": "[latex]\\Theta (\\log n +k)[/latex]",
+      "C": "[latex]\\Theta (k \\log n )[/latex]",
+      "D": "[latex]\\Theta (n \\log k )[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 Consider a double hashing scheme in which the primary hash function is [latex]h_1(k)=k\\; mod \\; 23[/latex], and the secondary hash function is [latex]h_2(k)=1+(k\\; mod \\; 19)[/latex]. Assume that the table size is 23. Then the address returned by probe 1 in the probe sequence (assume that the probe sequence begins at probe 0) for key value k=90 is_____________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 13.0,
+    "max": 13.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 What is the worst case time complexity of inserting n elements into an empty linked list, if the linked list needs to be maintained in sorted order?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n)[/latex]",
+      "B": "[latex]\\Theta (n \\log n)[/latex]",
+      "C": "[latex]\\Theta (n^2)[/latex]",
+      "D": "[latex]\\Theta (1)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 What is the worst case time complexity of inserting [latex]n^2[/latex] elements into an AVL-tree with n elements initially?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n^4)[/latex]",
+      "B": "[latex]\\Theta (n^2)[/latex]",
+      "C": "[latex]\\Theta (n^2 \\log n)[/latex]",
+      "D": "[latex]\\Theta (n^3)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 The preorder traversal of a binary search tree is 15,10,12,11,20,18,16,19. Which one of the following is the postorder traversal of the tree?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "10,11,12,15,16,18,19,20",
+      "B": "11,12,10,16,19,18,20,15",
+      "C": "20,19,18,16,15,12,11,10",
+      "D": "19,16,18,20,11,12,10,15"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 Let T be a full binary tree with 8 leaves. (A full binary tree has every level full.) Suppose two leaves a and b of T are chosen uniformly and independently at random. The expected value of the distance between a and b in T (i.e., the number of edges in the unique path between a and b) is (rounded off to 2 decimal places) ___________ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.25,
+    "max": 4.25
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 Consider the following statements: I. The smallest element in a max-heap is always at a leaf node. II. The second largest element in a max-heap is always a child of the root node. III. A max-heap can be constructed from a binary search tree in [latex]\\Theta (n)[/latex] time. IV. A binary search tree can be constructed from a max-heap in [latex]\\Theta (n)[/latex] time. Which of the above statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I, II and III",
+      "B": "I, II and IV",
+      "C": "I, III and IV",
+      "D": "II, III and IV"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 Which traversals of Tree-1 and Tree-2, respectively, will produce the same sequence?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page11_q5.webp",
+    "options": {
+      "A": "Preorder, postorder",
+      "B": "Postorder, inorder",
+      "C": "Postorder, preorder",
+      "D": "None of these"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 A doubly linked list is declared as: struct Node {\n    int Value;\n    struct Node *Fwd;\n    struct Node *Bwd;\n}; Where Fwd and Bwd represent forward and backward link to the adjacent elements of the list. Which of the following segment of code deletes the node pointed to by X from the doubly linked list, if it is assumed that X points to neither the first nor the last node of the list?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]X \\rightarrow \\text { Bwd } \\rightarrow \\text { Fwd }=X \\rightarrow \\text { Fwd; } X \\rightarrow F w d \\rightarrow { Bwd }=X \\rightarrow { Bwd; }[/latex]",
+      "B": "[latex]X \\rightarrow \\text { Bwd.Fwd }=X \\rightarrow \\text { Fwd; } X . \\text { Fwd } \\rightarrow \\text { Bwd }=X \\rightarrow \\text { Bwd; }[/latex]",
+      "C": "[latex]X . \\text { Bwd } \\rightarrow \\text { Fwd }=X . \\text { Bwd; } x \\rightarrow { Fwd.Bwd }=X . B w d[/latex]",
+      "D": "[latex]X \\rightarrow \\text { Bwd } \\rightarrow \\text { Fwd }=X \\rightarrow \\text { Bwd; } X \\rightarrow \\text{ Fwd } \\rightarrow \\text { Bwd }=X \\rightarrow \\text { Fwd; }[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Consider a singly linked list of the form where F is a pointer to the first element in the linked list and L is the pointer to the last element in the list. The time of which of the following operations depends on the length of the list?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page12_q2.webp",
+    "options": {
+      "A": "Delete the last element of the list",
+      "B": "Delete the first element of the list",
+      "C": "Add an element after the last element of the list",
+      "D": "Interchange the first two elements of the list"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Given a binary-max heap. The elements are stored in an arrays as 25,14,16,13,10,8,12. What is the content of the array after two delete operations?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "14,13,8,12,10",
+      "B": "14,12,13,10,8",
+      "C": "14,13,12,8,10",
+      "D": "14,13,12,10,8"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 A hash table with 10 buckets with one slot pet per bucket is depicted here. The symbols, S1 to S7 are initially entered using a hashing function with linear probing. The maximum number of comparisons needed in searching an item that is not present is: [latex]\\begin{array}{|c|c|} \\hline 0 & S 7 \\\\ \\hline 1 & S 1 \\\\ \\hline 2 & \\\\ \\hline 3 & S 4 \\\\ \\hline 4 & S 2 \\\\ \\hline 5 & \\\\ \\hline 6 & S 5 \\\\ \\hline 7 & \\\\ \\hline 8 & S 6 \\\\ \\hline 9 & S 3 \\\\ \\hline \\end{array}[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "3"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 An array A consists of n integers in locations A[0],A[1],...A[n-1]. It is required to shift the elements of the array cyclically to the left by k places, where [latex]1 \\leq k \\leq (n-1)[/latex]. An incomplete algorithm for doing this in linear time, without using another array is given bellow. Complete the algorithm by filling in the blanks. min=n; i=0;\r\nwhile(_________) {\r\n    temp= A[i]; j=i;\r\n    while(_________) {\r\n        A[j]= _______;\r\n        j=(j+k) mod n;\r\n        if(j < min) then\r\n        min = j;\r\n    }\r\n    A[(n+i-k) mod n]=_______;\r\n    i=________;\r\n    \r\n}",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]i  \\gt \\min ; \\quad j !=(n+1) \\bmod n ; \\quad A[j+k] \\quad \\text { temp; } \\quad i+1 ;[/latex]",
+      "B": "[latex]i \\lt \\min ; \\quad j !=(n+i) \\bmod n ; \\quad A[j+k] \\quad \\text { temp; } \\quad i+1 ;[/latex]",
+      "C": "[latex]i \\gt \\min ; \\quad j !=(n+i+k) \\bmod n ; \\quad A[j+k] \\quad \\text { temp; } \\quad i+1 ;[/latex]",
+      "D": "[latex]i \\lt \\min ; \\quad j !=(n+i-k) \\bmod n ; \\quad A[(j+k) \\bmod n] \\quad \\text { temp; } \\quad i+1 ;[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 61 The number of possible min-heaps containing each value from {1, 2, 3, 4, 5, 6, 7} exactly once is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 80.0,
+    "max": 80.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 62 The postorder traversal of a binary tree is 8,9,6,7,4,5,2,3,1. The inorder traversal of the same tree is 8,6,9,4,7,2,5,1,3. The height of a tree is the length of the longest path from the root to any leaf. The height of the binary tree above is ______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 A queue is implemented using a non-circular singly linked list. The queue has a head pointer and a tail pointer, as shown in the figure. Let n denote the number of nodes in the queue. Let enqueue be implemented by inserting a new node at the head, and dequeue be implemented by deletion of a node from the tail. Which one of the following is the time complexity of the most time-efficient implementation of enqueue and dequeue, respectively, for this data structure?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page13_q3.webp",
+    "options": {
+      "A": "[latex]\\Theta (1), \\Theta (1)[/latex]",
+      "B": "[latex]\\Theta (1), \\Theta (n)[/latex]",
+      "C": "[latex]\\Theta (n), \\Theta (1)[/latex]",
+      "D": "[latex]\\Theta (n), \\Theta (n)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 Choose the equivalent prefix form of the following expression [latex](a+(b-c))^{\\star}((d-e) /(f+g-h))[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]{ }^{\\star}+a-b c /-d e-+f g h[/latex]",
+      "B": "[latex]{ }^{\\star}+a-b c -/d e-+f g h[/latex]",
+      "C": "[latex]{ }^{\\star}+a-b c /-ed-+f g h[/latex]",
+      "D": "[latex]{ }^{*}+\\mathrm{ab}-\\mathrm{c} /-\\mathrm{de}-+\\mathrm{fgh}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 The best data structure to check whether an arithmetic expression has  balanced parenthesis is  a:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "Tree",
+      "D": "List"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 In a doubly linked list the number of pointers affected for an insertion operation will be",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4",
+      "B": "0",
+      "C": "1",
+      "D": "Depends on the nodes of doubly linked list"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 If the post order traversal gives ab -cd * + then the label of the nodes 1,2,3.. will be",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page14_q2.webp",
+    "options": {
+      "A": "+ , -, *, a,b,c,d",
+      "B": "a, -,b,+,c,*,d",
+      "C": "a,b,c,d,-,*,+",
+      "D": "-,a,b,+,*,c,d"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 Which of the following data structure is useful in traversing a given graph by breadth first search?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Stack",
+      "B": "Queue",
+      "C": "List",
+      "D": "None of the above"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 Given two statements Insertion of an element should be done at the last node of the circular list Deletion of an element should be done at the last node of the circular list",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Both are true",
+      "B": "Both are false",
+      "C": "First is false and second is true",
+      "D": "None of the above"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 The pre-order transversal of a binary search tree is given by 12, 8, 6, 2, 7, 9, 10, 16, 15, 19,\n17, 20. Then the post-order traversal of this tree is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2,6,7,8,9,10,12,15,16,17,19,20",
+      "B": "2,7,6,10,9,8,15,17,20,19,16,12",
+      "C": "7,2,6,8,9,10,20,17,19,15,16,12",
+      "D": "7,6,2,10,9,8,15,16,17,20,19,12"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 A circular queue has been implemented using a single linked list where each node consists of\r\na value and a single pointer pointing to the next node. We maintain exactly two external\r\npointers FRONT and REAR pointing to the front node and the rear node of the queue,\r\nrespectively. Which of the following statements is/are CORRECT for such a circular queue,\r\nso that insertion and deletion operation can be performed in O (1) time ? I. Next pointer of front node points to the rear node. II. Next pointer of rear node points to the front node.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I only",
+      "B": "II only",
+      "C": "Both I and II",
+      "D": "Neither I nor II"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 72 Let A be an array of 31 numbers consisting of sequence of 0's followed by a sequence of 1's.\nThe problem is to find the smallest index i that A[i] is 1 by probing the minimum numbers of\nlocations in A. The worst case number of probes performed by an optimal algorithm is\n_____________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 Consider the C code fragment given below. typedef struct node {\nint data;\nnode* next ;\n} node;\nvoid join (node* m, node* n) {\nnode* p=n ;\nwhile (p->next ! =NULL){\np = p -> next ;\n}\np-> next = m;\n} Assuming that m and n point to valid NULL- terminated linked lists, invocation of join will",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "append list m to the end of list n for all inputs.",
+      "B": "either cause a null pointer dereference or append list m to the end of list n.",
+      "C": "cause a null pointer dereference for all inputs.",
+      "D": "append list n to the end of list m for all inputs."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 74 Let T be a binary search tree with 15 nodes. The minimum and maximum possible heights of T are : Note: The height of a tree with a single node is 0.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4 and 15 respectively",
+      "B": "3 and 14 respectively",
+      "C": "4 and 14 respectively",
+      "D": "3 and 15 respectively"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 75 Access time of the symbolic table will be logarithmic if it is implemented by",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Linear list",
+      "B": "Search tree",
+      "C": "Hash table",
+      "D": "Self organization list"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 76 A complete binary tree with n non-leaf nodes contains",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\log_{2}n[/latex] nodes",
+      "B": "n+1  nodes",
+      "C": "2n nodes",
+      "D": "2n+1 nodes"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 A Hash Function f defined as f(key)=keymod7. With linear probing while inserting the keys 37,38,72,48,98,11,56 into a table indexed from 0, in which location key 11 will be stored (Count table index 0 as [latex]0^{th}[/latex] location)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 78 The average number of key comparisons required for a successful search for sequential search on n items is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\frac{n}{2}[/latex]",
+      "B": "[latex]\\frac{n-1}{2}[/latex]",
+      "C": "[latex]\\frac{n+1}{2}[/latex]",
+      "D": "None of the above"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 79 The following postfix expression with single digit operands is evaluated using a stack: [latex]8 \\ 2 \\ 3 \\ \\;\\hat{}\\; / \\ 2 \\ 3 * + 5 \\ 1 * -[/latex] Note that [latex]\\hat{}\\;[/latex] is the exponentiation operator. The top two elements of the stack after the first * is evaluated are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "6,1",
+      "B": "5,7",
+      "C": "3,2",
+      "D": "1,5"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 80 The number of ways in which the numbers 1,2,3,4,5,6,7 can be inserted in an empty binary search tree, such that the resulting tree has height 6, is _____. Note: The height of a tree with a single node is 0.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 64.0,
+    "max": 64.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 81 Consider the following New-order strategy for traversing a binary tree: Visit the root; Visit the right sub tree using New-order; Visit the left sub tree using New-order; The New-order traversal of the expression tree corresponding to the reverse polish expression 3  4 * 5 - 2 ^ 6 7 * 1 + - is given by:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "+ - 1 6 7 * 2 ^ 5 - 3 4 *",
+      "B": "- + 1 * 7 6 ^ 2 - 5 * 4 3",
+      "C": "- + 1 * 6 7 ^ 2 - 5 * 3 4",
+      "D": "1 7 6 * + 2 5 4 3 * - ^ -"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 82 A complete binary min-heap is made by including each integer in [1,1023] exactly once. The depth of a node in the heap is the length of the path from the root of the heap to that node. Thus, the root is at depth 0. The maximum depth at which integer 9 can appear is_____.\n.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 8.0,
+    "max": 8.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 B+ Trees are considered BALANCED because",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "the lengths of the paths from the root to all leaf nodes are all equal.",
+      "B": "the lengths of the paths from the root to all leaf nodes differ from each other by at most 1.",
+      "C": "the number of children of any two non-leaf sibling nodes differ by at most 1",
+      "D": "the number of records in any two leaf nodes differ by at most 1."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 N items are stored in a sorted doubly linked list. For a delete operation, a pointer is provided to the record to be deleted. For a decrease-key operation, a pointer is provided to the record on which the operation is to be performed. An algorithm performs the following operations on the list in this order: [latex]\\Theta(N) \\; delete [/latex] , [latex]  O(logN) \\;  insert [/latex], [latex] O(logN) \\; find [/latex],  and [latex] \\Theta(N) \\; decrease-key[/latex]. What is the time complexity of all these operations put together?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(log^{2}N)[/latex]",
+      "B": "O(N)",
+      "C": "[latex]O(N^{2})[/latex]",
+      "D": "[latex]\\Theta (N^{2} logN)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 85 Let Q denote a queue containing sixteen numbers and S be an empty stack. Head(Q) returns the element at the head of the queue Q without removing it from Q. Similarly Top(S) returns the element at the top of S without removing it from S. Consider the algorithm given below. The maximum possible number of iterations of the while loop in the algorithm is_________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page17_q5.webp",
+    "min": 256.0,
+    "max": 256.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 An operator delete(i) for a binary heap data structure is to be designed to delete the item in the i-th node.Assume that the heap is implemented in an array and i refers to the i-th index of thearray.If the heap tree has depth d (number of edges on the path from the root to the farthest leaf),the n what is the time complexity to re-fix the heap efficiently after the removal of the element?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O(1)",
+      "B": "O(d) but not O(1)",
+      "C": "O([latex]2^{d}[/latex]) but not O(d)",
+      "D": "O(d [latex]2^{d}[/latex]) but not O([latex]2^{d}[/latex])"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 A queue is implemented using an array such that ENQUEUE and DEQUEUE operations are performed efficiently. Which one of the following statements is CORRECT (n refers to the number of items in the queue)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Both operations can be performed in O(1) time",
+      "B": "At most one operation can be performed in O(1) time but the worst case time for\nthe other operation will be [latex]\\Omega[/latex](n)",
+      "C": "The worst case time complexity for both operations will be [latex]\\Omega[/latex](n)",
+      "D": "Worst case time complexity for both operations will be [latex]\\Omega[/latex](logn)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 If a node has [latex]K[/latex] children in B tree, then the node contains exactly _____ keys.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]K^{2}[/latex]",
+      "B": "[latex]K-1[/latex]",
+      "C": "[latex]K+1[/latex]",
+      "D": "[latex]\\sqrt{K}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 89 The queue data structure is to be realized by using stack. The number of stacks needed would be",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "It cannot be implemented",
+      "B": "2 stacks",
+      "C": "4 stacks",
+      "D": "1 stack"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 A hash table with ten buckets with one slot per bucket is shown in the following figure. The symbols S1 to S7 initially entered using a hashing function with linear probing. The maximum number of comparisons needed in searching an item that is not present is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page18_q5.webp",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "3"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 If the sequence of operations - push (1), push (2), pop, push (1), push (2), pop, pop, pop, push (2), pop are performed on a stack, the sequence of popped out values",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2,2,1,1,2",
+      "B": "2,2,1,2,2",
+      "C": "2,1,2,2,1",
+      "D": "2,1,2,2,2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 Consider the following two C code segments. Y and X are one and two dimensional arrays of size n and nxn respectively, where [latex]2\\leq n\\leq 10[/latex]. Assume that in both code segments, elements of Y are initialized to 0 and each element X[i][j] of array X is initialized to i+j. Further assume that when stored in main memory all elements of X are in same main memory page frame. Code segment 1: //initialize elements of Y to 0\n//initialize elements X[i][j] of X to i+j\nfor(i = 0; i < n; i++)\nY[i] += X[0][i]; Code Segment 2: //initialize elements of Y to 0\n//initialize elements X[i][j] of X to i+j\nfor(i = 0; i < n; i++)\nY[i] += X[i][0]; Which of the following statements is/are correct? S1: Final contents of array Y will be same in both code segments S2: Elements of array X accessed inside the for loop shown in code segment 1 are contiguous in main memory S3: Elements of array X accessed inside the for loop shown in code segment 2 are contiguous in main memory",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only S2 is correct",
+      "B": "Only S3 is correct",
+      "C": "Only S1 and S2 are correct",
+      "D": "Only S1 and S3 are correct"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 Consider the following array of elements. (89,19,50,17,12,15,2,5,7,11,6,9,100) The minimum number of interchanges needed to convert it into a max-heap is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "2",
+      "D": "3"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 94 The result evaluating the postfix expression 10    5  +  60     6   /  *  8 -   is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "284",
+      "B": "213",
+      "C": "142",
+      "D": "71"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 While inserting the elements 71, 65, 84, 69, 67, 83 in an empty binary search tree (BST) in the sequence shown, the element in the lowest level is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "65",
+      "B": "67",
+      "C": "69",
+      "D": "83"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 96 Given a hash table T with 25 slots that stores 2000 elements, the load factor [latex]\\alpha[/latex] for T is ____________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 80.0,
+    "max": 80.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 97 Consider a binary tree T that has 200 leaf nodes. Then, the number of nodes in T that have exactly two children are ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 199.0,
+    "max": 199.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 Which one of the following hash functions on integers will distribute keys most uniformly over 10 buckets numbered 0 to 9 for i ranging from 0 to 2020?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "h(i)= [latex]i^{2}[/latex] mod 10",
+      "B": "h(i)= [latex]i^{3}[/latex] mod 10",
+      "C": "h(i)=(11*[latex]i^{2}[/latex]) mod 10",
+      "D": "h(i)=(12*[latex]i^{2}[/latex]) mod 10"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 99 With reference to the B+ tree index of order 1 shown below, the minimum number of nodes (including the Root node) that must be fetched in order to satisfy the following query: \"Get all records with a search key greater than or equal to 7 and less than 15\" is ____________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page20_q4.webp",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 100 A binary tree T has 20 leaves. The number of nodes in T having two children is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 19.0,
+    "max": 19.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 Consider a complete binary tree where the left and the right subtrees of the root are max-heaps. The lower bound for the number of operations to convert the tree to a heap is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Omega (log n)[/latex]",
+      "B": "[latex](n)[/latex]",
+      "C": "[latex]\\Omega (n \\; log n)[/latex]",
+      "D": "[latex]\\Omega (n^{2})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 102 An unordered list contains n distinct elements. The number of comparisons to find an element in this list that is neither maximum nor minimum is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n log n)[/latex]",
+      "B": "[latex]\\Theta (n)[/latex]",
+      "C": "[latex]\\Theta (log n)[/latex]",
+      "D": "[latex]\\Theta (1)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 103 An algorithm performs [latex](log N)^{1/2}[/latex] find operations, [latex]N[/latex]  insert operations, [latex](log N)^{1/2}[/latex] delete operations, and [latex](log N)^{1/2}[/latex] decrease-key operations on a set of data items with keys drawn from a linearly ordered set. For a delete operation, a pointer is provided to the record that must be deleted. For the decrease-key operation, a pointer is provided to the record that has its key decreased. Which one of the following data structures is the most suited for the algorithm to use, if the goal is to achieve the best total asymptotic complexity considering all the operations?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Unsorted array",
+      "B": "Min-heap",
+      "C": "Sorted array",
+      "D": "Sorted doubly linked list"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 104 Consider a max heap, represented by the array: 40, 30, 20, 10, 15, 16, 17, 8, 4. Now consider that a value 35 is inserted into this heap. After insertion, the new heap is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page21_q4.webp",
+    "options": {
+      "A": "40, 30, 20, 10, 15, 16, 17, 8, 4, 35",
+      "B": "40, 35, 20, 10, 30, 16, 17, 8, 4, 15",
+      "C": "40, 30, 20, 10, 35, 16, 17, 8, 4, 15",
+      "D": "40, 35, 20, 10, 15, 16, 17, 8, 4, 30"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 105 What are the worst-case complexities of insertion and deletion of a key in a binary search tree?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (logn)[/latex] for both insertion and deletion",
+      "B": "[latex]\\Theta (n)[/latex] for both insertion and deletion",
+      "C": "[latex]\\Theta (n)[/latex]for insertion and [latex]\\Theta (logn)[/latex] for deletion",
+      "D": "[latex]\\Theta (logn)[/latex] for insertion and [latex]\\Theta (n)[/latex] for deletion"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 106 Which of the following is/are correct inorder traversal sequence(s) of binary search tree(s)? I. 3, 5, 7, 8, 15, 19, 25 II. 5, 8, 9, 12, 10, 15, 25 III. 2, 7, 10, 8, 14, 16, 20 IV. 4, 6, 7, 9 18, 20, 25",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I and IV only",
+      "B": "II and III only",
+      "C": "II and IV only",
+      "D": "II only"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 107 The height of a tree is the length of the longest root-to-leaf path in it. The maximum and minimum number of nodes in a binary tree of height 5 are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "63 and 6, respectively",
+      "B": "64 and 5, respectively",
+      "C": "32 and 6, respectively",
+      "D": "31 and 5, respectively"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 108 How many different trees are there with four nodes A,B,C and D?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "30",
+      "B": "60",
+      "C": "90",
+      "D": "120"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 109 Consider a 13 element hash table for which f(key)=key mod 13 is used with integer keys. Assuming linear probing is used for collision resolution, at which location would the key 103 be inserted, if the keys 661, 182, 24 and 103 are inserted in that order?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "11",
+      "D": "12"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 110 Consider a single linked list where F and L are pointers to the first and last elements respectively of the linked list. The time for performing which of the given operations depends on the length of the linked list?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page22_q5.webp",
+    "options": {
+      "A": "Delete the first element of the list",
+      "B": "Interchange the first two elements of the list",
+      "C": "Delete the last element of the list",
+      "D": "Add an element at the end of the list"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 111 A frame buffer array is addressed in row major order for a monitor with pixel locations starting from (0,0) and ending with (100,100). What is address of the pixel(6,10)? Assume one bit storage per pixel and starting pixel location is at 0.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1016",
+      "B": "1006",
+      "C": "610",
+      "D": "616"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 112 The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 113 Consider the following binary search tree T given below: Which node contains the fourth smallest element in T?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page23_q3.webp",
+    "options": {
+      "A": "Q",
+      "B": "V",
+      "C": "W",
+      "D": "X"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 114 Consider a standard Circular Queue implementation (which has the same condition for Queue Full and Queue Empty) whose size is 11 and the elements of the queue are q[0],q[1],... q[10]. The front and rear pointers are initialized to point at q[2]. In which position will the ninth element be added?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "q[0]",
+      "B": "q[1]",
+      "C": "q[9]",
+      "D": "q[10]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 115 Suppose there are 11 items in sorted order in an array. How many searches are required on the average, if binary search is employed and all searches are successful in finding the item?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]3.00[/latex]",
+      "B": "3.46",
+      "C": "2.81",
+      "D": "3.33"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 116 Consider the pseudocode given below. The function Dosomething () takes as argument a pointer to the root of an arbitrary tree represented by the leftMostChild-rightSibling representation. Each node of the tree is of type treeNode. typedef struct treeNode*  treeptr;\nstruct treeNode\n{\n        treeptr leftMostChild, rightSibling;\n};\nint DoSomething (treeptr tree)\n{\n     int value=0;\n     if (tree != NULL) {\n          if (tree->leftMostChild == NULL)\n               value = 1;\n          else\n               value = DoSomething(tree->leftMostChild);\n         value = value + DoSomething(tree->rightSibling);\n     }\n     return(value);\n} When the pointer to the root of a tree is passed as the argument to DoSomething, the value returned by the function corresponds to the",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "number of internal nodes in the tree",
+      "B": "height of the tree",
+      "C": "number of nodes without a right sibling in the tree.",
+      "D": "number of leaf nodes in the tree."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 117 Consider a hash table with 100 slots. Collisions are resolved using chaining. Assuming\nsimple uniform hashing, what is the probability that the first 3 slots are unfilled after the first 3 insertions?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(97 x 97 x 97)/[latex]100^{3}[/latex]",
+      "B": "(99 x 98 x 97)/[latex]100^{3}[/latex]",
+      "C": "(97 x 96 x 95)/[latex]100^{3}[/latex]",
+      "D": "(97 x 96 x 95)/(3! x [latex]100^{3}[/latex])"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 118 Suppose we have a balanced binary search tree T holding n numbers. We are given two numbers L and H and wish to sum up all the numbers in T that lie between L and H. Suppose there are m such numbers in T. If the tightest upper bound on the time to compute the sum is [latex]O(n^{a}log^{b}n+m^{c}log^{d}n)[/latex], the value of a + 10b + 100c + 1000d is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 110.0,
+    "max": 110.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 119 Consider the following rooted tree with the vertex labelled P as the root The order in which the nodes are visited during an in-order traversal of the tree is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page24_q4.webp",
+    "options": {
+      "A": "SQPTRWUV",
+      "B": "SQPTUWRV",
+      "C": "SQPTWUVR",
+      "D": "SQPTRUWV"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 120 Suppose a stack implementation supports an instruction REVERSE, which reverses the order\nof elements on the stack, in addition to the PUSH and POP instructions. Which one of the\nfollowing statements is TRUE with respect to this modified stack?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A queue cannot be implemented using this stack.",
+      "B": "A queue can be implemented where ENQUEUE takes a single instruction and\nDEQUEUE takes a sequence of two instructions.",
+      "C": "A queue can be implemented where ENQUEUE takes a sequence of three instructions\nand DEQUEUE takes a single instruction",
+      "D": "A queue can be implemented where both ENQUEUE and DEQUEUE take a single\ninstruction each."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 121 Consider the expression tree shown. Each leaf represents a numerical value, which can either\nbe 0 or 1. Over all possible choices of the values at the leaves, the maximum possible value\nof the expression represented by the tree is ___.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page25_q1.webp",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 122 A priority queue is implemented as a Max-Heap. Initially, it has 5 elements. The level-order\ntraversal of the heap is: 10, 8, 5, 3, 2. Two new elements 1 and 7 are inserted into the heap in\nthat order. The level-order traversal of the heap after the insertion of the elements is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "10, 8, 7, 3, 2, 1, 5",
+      "B": "10, 8, 7, 2, 3, 1, 5",
+      "C": "10, 8, 7, 2, 3, 1, 5",
+      "D": "10, 8, 7, 5, 3, 2, 1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 123 Consider a hash table with 9 slots. The hash function is h(k)=k mod 9.  The collisions are\nresolved by chaining. The following 9 keys are inserted in the order: 5, 28, 19, 15, 20, 33, 12,\n17, 10. The maximum, minimum, and average chain lengths in the hash table, respectively, are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "3, 0, and 1",
+      "B": "3, 3, and 3",
+      "C": "4, 0, and 1",
+      "D": "3, 0, and 2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 124 Consider rooted n node binary tree represented using pointers. The best upper bound on the\ntime required to determine the number of sub trees having exactly 4 nodes is [latex]O(n^{a}lob^{b}n)[/latex] .\nThen the value of a+10b is_______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 125 Which of the following number of nodes can form a full binary tree?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "8",
+      "B": "15",
+      "C": "14",
+      "D": "13"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 126 In an array of 2N elements that is both 2-ordered and 3-ordered, what is the maximum number of positions that an element can be from its position if the array were 1-ordered?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "N/2",
+      "D": "2N-1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 127 The following steps in a linked list p = getnode() \r\ninfo(p) = 10 \r\nnext (p) = list \r\nlist = p result in which type of operation?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Pop operation in stack",
+      "B": "Removal of a node",
+      "C": "Inserting a node",
+      "D": "Modifying an existing node"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 128 The number of rotations required to insert a sequence of elements 9, 6, 5, 8, 7, 10 into an empty AVL tree is?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 129 Let A(1:8, -5:5, -10:5) be a three dimensional array. How many elements are there in the array A?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1200",
+      "B": "1408",
+      "C": "33",
+      "D": "1050"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 130 Consider the following operation along with Enqueue and Dequeue operations on queues, where\nk is a global parameter. MultiDequeue(Q){\nm = k\nwhile (Q is not empty) and (m > 0) {\n   Dequeue(Q)\n   m = m - 1\n   }\n} What is the worst case time complexity of a sequence of n queue operations on an initially empty\nqueue?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n)[/latex]",
+      "B": "[latex]\\Theta (n+k)[/latex]",
+      "C": "[latex]\\Theta (nk)[/latex]",
+      "D": "[latex]\\Theta (n^{2})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 131 The preorder traversal sequence of a binary search tree is 30, 20, 10, 15, 25, 23, 39, 35, 42. Which\none of the following is the postorder traversal sequence of the same tree?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "10, 20, 15, 23, 25, 35, 42, 39, 30",
+      "B": "15, 10, 25, 23, 20, 42, 35, 39, 30",
+      "C": "15, 20, 10, 23, 25, 42, 35, 39, 30",
+      "D": "15, 10, 23, 25, 20, 35, 42, 39, 30"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 132 Which one of the following is the tightest upper bound that represents the time complexity of inserting an object into a binary search tree of n nodes?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O(1)",
+      "B": "O( log n)",
+      "C": "O(n)",
+      "D": "O(n log n)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 133 The height of a tree is defined as the number of edges on the longest path in the tree. The function\nshown in the pseudocode below is invoked as height(root) to compute the height of a binary\ntree rooted at the tree pointer root. int height (treeptr n)\n{ if (n == NULL) return -1;\n   if (n [latex]\\rightarrow[/latex] left == NULL)\n            if (n [latex]\\rightarrow[/latex] right == NULL) return 0;\n            else return B1 ;\n   else { h1 = height (n [latex]\\rightarrow[/latex] left);\n   if (n [latex]\\rightarrow[/latex] right == NULL) return (1+h1);\n   else { h2 = height (n [latex]\\rightarrow[/latex] right);\n   return B2 ; \n    }\n  }   \n} The appropriate expressions for the two boxes B1 and B2 are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "B1: (1+height(n [latex]\\rightarrow[/latex] right)) B2: (1+max(h1, h2))",
+      "B": "B1: (height(n [latex]\\rightarrow[/latex] right)) B2: (1+max(h1,h2))",
+      "C": "B1: height(n [latex]\\rightarrow[/latex] right) B2: max(h1, h2)",
+      "D": "B1: (1+ height(n [latex]\\rightarrow[/latex] right)) B2: max(h1, h2)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 134 Suppose a circular queue of capacity (n-1) elements is implemented with an array of n elements.\nAssume that the insertion and deletion operations are carried out using REAR and FRONT as array\nindex variables, respectively. Initially, REAR = FRONT = 0. The conditions to detect queue full\nand queue empty are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "full: (REAR+1) mod n == FRONT empty: REAR == FRONT",
+      "B": "full: (REAR+1) mod n == FRONT empty: (FRONT+1) mod n == REAR",
+      "C": "full: REAR == FRONT empty: (REAR+1) mod n == FRONT",
+      "D": "full: (FRONT+1) mod n == REAR empty: REAR == FRONT"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 135 The worst case running time to search for an element in a balanced binary search tree with [latex]n2^{n}[/latex] elements is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n log n)[/latex]",
+      "B": "[latex]\\Theta n2^{n}[/latex]",
+      "C": "[latex]\\Theta (n)[/latex]",
+      "D": "[latex]\\Theta (log n)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 136 The average depth of a binary search tree is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(n^{0.5})[/latex]",
+      "B": "[latex]O(n)[/latex]",
+      "C": "[latex]O(\\log n)[/latex]",
+      "D": "[latex]O(n \\log n)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 137 The in-order traversal of a tree resulted in FBGADCE. Then the pre-order traversal of that tree would result in",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "FGBDECA",
+      "B": "ABFGCDE",
+      "C": "BFGCDEA",
+      "D": "AFGBDEC"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 138 How many distinct binary search trees can be created out of 4 distinct keys?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "5",
+      "B": "14",
+      "C": "24",
+      "D": "35"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 139 We are given a set of n distinct elements and an unlabeled binary tree with n\nnodes. In how many ways can we populate the tree with the given set so that it\nbecomes a binary search tree?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "n!",
+      "D": "[latex] \\frac{1} {n+1} .^{2n}C_n[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 140 A max-heap is a heap where the value of each parent is greater than or equal to\nthe value of its children. Which of the following is a max-heap?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page28_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 141 A hash table of length 10 uses open addressing with hash function h(k)=k mod 10, and linear probing. After inserting 6 values into an empty hash table,\nthe table is as shown below How many different insertion sequences of the key values using the same hash\nfunction and linear probing will result in the hash table shown above?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page29_q1.webp",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "30",
+      "D": "40"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 142 A hash table of length 10 uses open addressing with hash function h(k)=k mod 10, and linear probing. After inserting 6 values into an empty hash table,\nthe table is as shown below Which one of the following choices gives a possible order in which the key values\ncould have been inserted in the table?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page29_q2.webp",
+    "options": {
+      "A": "46, 42, 34, 52, 23, 33",
+      "B": "34, 42, 23, 52, 33, 46",
+      "C": "46, 34, 42, 23, 52, 33",
+      "D": "42, 46, 33, 23, 34, 52"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 143 The following C function takes a simply-linked list as input argument. It modifies\nthe list by moving the last element to the front of the list and returns the\nmodified list. Some part of the code is left blank. typedef struct node {\n     int value;\n     struct node *next;\n} Node;\nNode *move_to_front(Node *head) { \n       Node *p, *q;\n       if ((head = = NULL: || (head->next = = NULL)) return head;\n       q = NULL; p = head;\n       while (p-> next !=NULL) {\n                         q=P; \n                         p=p->next;\n}\n_______________________________\nreturn head;\n} Choose the correct alternative to replace the blank line.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "q = NULL; p[latex]\\rightarrow[/latex]next = head; head = p;",
+      "B": "q[latex]\\rightarrow[/latex]next = NULL; head = p; p[latex]\\rightarrow[/latex]next = head;",
+      "C": "head = p; p[latex]\\rightarrow[/latex]next = q; q[latex]\\rightarrow[/latex]next = NULL;",
+      "D": "q[latex]\\rightarrow[/latex]next = NULL; p[latex]\\rightarrow[/latex]next = head; head = p;"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 144 Consider a B+-tree in which the maximum number of keys in a node is 5. What is\nthe minimum number of keys in any non-root node?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 145 In a binary tree with n nodes, every node has an odd number of descendants.\nEvery node is considered to be its own descendant. What is the number of nodes\nin the tree that have exactly one child?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "(n-1)/2",
+      "D": "n-1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 146 The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 147 The expression [latex]1 * 2 \\wedge 3 * 4 \\wedge 5 * 6[/latex] will be evaluated as",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]32^{30}[/latex]",
+      "B": "[latex]162^{30}[/latex]",
+      "C": "49152",
+      "D": "173458"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 148 A full binary tree with n leaves contains",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "n nodes",
+      "B": "[latex]\\log_2[/latex] n nodes",
+      "C": "2n-1",
+      "D": "[latex]2^n[/latex] nodes"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 149 The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 150 A one dimensional array A has indices 1....75. Each element is a string and takes up three memory words. The array is stored at location 1120 decimal. The starting address of A[49] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1267",
+      "B": "1164",
+      "C": "1264",
+      "D": "1169"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 151 The infix expression [latex]A+(B-C)^*D[/latex] is correctly represented in prefix notation as",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]A+B-C*D[/latex]",
+      "B": "[latex]+A*-BCD[/latex]",
+      "C": "[latex]ABC-D*+[/latex]",
+      "D": "[latex]A+BC-D*[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 152 Assume that the operators [latex]+, -, \\times[/latex] are left associative and [latex]\\hat{}[/latex] is right associative. The order of precedence (from highest to lowest) is [latex]\\hat{}, \\times, +, -[/latex]. The postfix expression corresponding to the infix expression [latex]a+ b \\times c-d \\;\\;  \\hat{} e \\; \\; \\hat{} \\; \\; f[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]abc\\times+def\\;\\hat{}\\;\\;\\hat{}-[/latex]",
+      "B": "[latex]abc\\times + de \\;\\; \\hat{} f \\;\\; \\hat{}[/latex]",
+      "C": "[latex] ab+c\\times d-e\\;\\; \\hat{} f \\;\\; \\hat{}[/latex]",
+      "D": "[latex]-+a\\times bc\\;\\;\\hat{}\\;\\;\\hat{}def[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 153 The following numbers are inserted into an empty binary search tree in the given order: 10, 1, 3, 5, 15, 12, 16. What is the height of the binary search tree (the height is the maximum distance of a leaf node from the root)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "6"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 154 A data structure is required for storing a set of integers such that each of the following operations can be done in [latex]O(\\log n)[/latex] time, where n is the number of elements in the set. 1. Deletion of the smallest element 2. Insertion of an element if it is not already present in the set Which of the following data structures can be used for this purpose?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A heap can be used but not a balanced binary search tree",
+      "B": "A balanced binary search tree can be used but not a heap",
+      "C": "Both balanced binary search tree and heap can be used",
+      "D": "Neither balanced search tree nor heap can be used"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 155 Suppose the numbers 7,5,1,8,3,6,0,9,4,2 are inserted in that order into an initially empty binary search tree. The binary search tree uses the usual ordering on natural numbers. What is the in-order traversal sequence of the resultant tree?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "7 5 1 0 3 2 4 6 8 9",
+      "B": "0 2 4 3 1 6 5 9 8 7",
+      "C": "0 1 2 3 4 5 6 7 8 9",
+      "D": "9 8 6 4 2 3 0 1 5 7"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 156 Consider a binary max-heap implemented using an array. What is the content of the array after two delete operations on {25,14,16,13,10,8,12}",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "{14,13,12,10,8}",
+      "B": "{14,12,13,8,10}",
+      "C": "{14,13,8,12,10}",
+      "D": "{14,13,12,8,10}"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 157 Consider a binary max-heap implemented using an array. Which one of the following array represents a binary max-heap?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "{25,12,16,13,10,8,14}",
+      "B": "{25,14,13,16,10,8,12}",
+      "C": "{25,14,16,13,10,8,12}",
+      "D": "{25,14,12,13,10,8,16}"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 158 The following key values are inserted into a B+  tree in which order of the internal nodes is 3, and that of the leaf nodes is 2, in the sequence given below. The order of internal nodes is the maximum number of tree pointers in each node, and the order of leaf nodes is the maximum number of data items that can be stored in it. The B+ - tree is initially empty. 10, 3, 6, 8, 4, 2, 1 The maximum number of times leaf nodes would get split up as a result of these insertions is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 159 What is the maximum height of any AVL-tree with 7 nodes? Assume that the height of a tree with a single node is 0.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 160 The keys 12, 18, 13, 2, 3, 23, 5 and 15 are inserted into an initially empty hash table of length 10 using open addressing with hash function h(k) = k mod 10 and linear probing. What is the resultant hash table?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page32_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 161 The minimum number of fields with each node of doubly linked list is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 162 A complete binary tree with the property that the value at each node is at least as large as the values at its children is known as",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "binary search tree",
+      "B": "AVL tree",
+      "C": "completely balanced tree",
+      "D": "Heap"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 163 Which of the following operations is performed more efficiently by doubly linked list than by linear linked list?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Deleting a node whose location is given",
+      "B": "Searching an unsorted list for a given item",
+      "C": "Inserting a node after the node with a given location",
+      "D": "Traversing the list to process each node"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 164 The time required to search an element in a linked list of length n is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(\\log_2 n)[/latex]",
+      "B": "O(n)",
+      "C": "O(1)",
+      "D": "[latex]O(n^2)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 165 Stack A has the entries a, b, c (with a on top). Stack B is empty. An entry popped out of stack A can be printed immediately or pushed to stack B. An entry popped out of the stack B can be only be printed. In this arrangement, which of the following permutations of a, b, c are not possible?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "b a c",
+      "B": "b c a",
+      "C": "c a b",
+      "D": "a b c"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 166 A binary tree with n>1 nodes has [latex]n_{1}[/latex], [latex]n_{2}[/latex] and [latex]n_{3}[/latex] nodes of degree one, two and three respectively. The degree of a node is defined as the number of its neighbors. Starting with the above tree, while there remains a node v of degree two in the tree, add an edge between the two neighbors of v and then remove v from the tree. How many edges will remain at the end of the process?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]2 * n_{1}-3[/latex]",
+      "B": "[latex]n_{2}+2 * n_{1}-2[/latex]",
+      "C": "[latex]n_{3}-n_{2}[/latex]",
+      "D": "[latex]n_{2}+n_{1}-2[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 167 A binary tree with n>1 nodes has [latex]n_{1}[/latex], [latex]n_{2}[/latex] and [latex]n_{3}[/latex] nodes of degree one, two and three respectively. The degree of a node is defined as the number of its neighbors. [latex]n_{3}[/latex] can be expressed as",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]n_{1}+n_{2}-1[/latex]",
+      "B": "[latex]n_{1}-2[/latex]",
+      "C": "[latex]{\\left[\\left(\\left(n_{1}+n_{2}\\right) / 2\\right)\\right]}[/latex]",
+      "D": "[latex]n_{2}-1[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 168 How many distinct BSTs can be constructed with 3 distinct keys?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "9"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 169 A Binary Search Tree (BST) stores values in the range 37 to 573. Consider the following sequence of keys. I.   81,537,102,439,285,376,305 II.  52,97,121,195,242,381,472 III. 142,248,520,386,345,270,307 IV.  550,149,507,395,463,402,270 Which of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I, II and IV are inorder sequences of three different BSTs",
+      "B": "I is a preorder sequence of some BST with 439 as the root",
+      "C": "II is an inorder sequence of some BST where 121 is the root and 52 is a leaf",
+      "D": "IV is a postorder sequence of some BST with 149 as the root"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 170 A Binary Search Tree (BST) stores values in the range 37 to 573. Consider the following sequence of keys. I.   81,537,102,439,285,376,305 II.  52,97,121,195,242,381,472 III. 142,248,520,386,345,270,307 IV.  550,149,507,395,463,402,270 Suppose the BST has been unsuccessfully searched for key 273. Which all of the above sequences list nodes in the order in which we could have encountered them in the search?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "II and III only",
+      "B": "I and III only",
+      "C": "III and IV only",
+      "D": "III only"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 171 Consider a hash table of size 11 that uses open addressing with linear probing. Let h(k)=kmod 11 be the hash function used. A sequence of records with keys 43 36 92 87 11 4 71 13 14 is inserted into an initially empty hash table, the bins of which are indexed from zero to ten. What is the index of the bin into which the last record is inserted?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "6",
+      "D": "7"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 172 The following three are known to be the preorder, inorder and postorder sequences of a binary tree. But it is not known which is which. I.MBCAFHPYK II.KAMCBYPFH III.MABCKYFPH Pick the true statement from the following.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I and II are preorder and inorder sequences, respectively",
+      "B": "I and III are preorder and postorder sequences, respectively",
+      "C": "II is the inorder sequence, but nothing more can be said about the other two sequences",
+      "D": "II and III are the preorder and inorder sequences, respectively"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 173 Which of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The cost of searching an AVL tree is [latex]\\Theta (\\log n)[/latex] but that of a binary search tree is [latex]O(n)[/latex]",
+      "B": "The cost of searching an AVL tree is [latex]\\Theta (\\log n)[/latex] but that of a complete binary tree is [latex]\\Theta (n \\log n)[/latex]",
+      "C": "The cost of searching a binary search tree is [latex]O (\\log n )[/latex] but that of an AVL tree is [latex]\\Theta(n)[/latex]",
+      "D": "The cost of searching an AVL tree is [latex]\\Theta (n \\log n)[/latex] but that of a binary search tree is [latex]O(n)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 174 The following C function takes a single-linked list of integers as a parameter and\nrearranges the elements of the list. The function is called with the list containing\nthe integers 1,2,3,4,5,6,7 in the given order. What will be the contents of the list\nafter the function completes execution? struct node {\n   int value;\n   struct node *next;\n};\nVoid rearrange(struct node *list) {\n   struct node *p, * q;\n   int temp;\n   if(!list|| !list-> next) return;\n   p=list; q=list->next;\n   while(q)\n  {\n     temp = p->value;\n     p->value = q->value;\n     q->value = temp;\n     p = q->next;\n     q = p?p->next:0;\n  }\n}",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1,2,3,4,5,6,7",
+      "B": "2,1,4,3,6,5,7",
+      "C": "1,3,2,5,4,7,6",
+      "D": "2,3,4,5,6,7,1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 175 We have a binary heap on n elements and wish to insert n more elements (not\nnecessarily one after another) into this heap. The total time required for this is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta[/latex] (logn)",
+      "B": "[latex]\\Theta[/latex] (n)",
+      "C": "[latex]\\Theta[/latex] (nlogn)",
+      "D": "[latex]\\Theta (n^{2})[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 176 You are given the postorder traversal, P, of a binary search tree on the n\nelements 1, 2,...,n. You have to determine the unique binary search tree that has\nP as its postorder traversal. What is the time complexity of the most efficient\nalgorithm for doing this?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta[/latex] (logn)",
+      "B": "[latex]\\Theta[/latex] (n)",
+      "C": "[latex]\\Theta[/latex] (nlogn)",
+      "D": "None of the above, as the tree cannot be uniquely determined"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 177 A B-tree of order 4 is built from scratch by 10 successive insertions. What is the\nmaximum number of node splitting operations that may take place?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 178 The minimum number of comparisons required to determine if an integer appears\nmore than n/2 times in a sorted array of n integers is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta[/latex](n)",
+      "B": "[latex]\\Theta[/latex](logn)",
+      "C": "[latex]\\Theta[/latex](log*n)",
+      "D": "[latex]\\Theta[/latex](1)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 179 The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 180 Consider the [latex]B^{+}[/latex] tree in the adjoining figure, where each node has at most two keys and three links. Keys K15 and then K25 are inserted into this tree in that order. Now the key K50 is deleted from the [latex]B^{+}[/latex] tree resulting after the two insertions made earlier. Consider the following statements about the [latex]B^{+}[/latex] tree resulting after this deletion. i.The height of the tree remains the same. ii.The node (disregarding the links) is present in the tree. iii.The root node remains unchanged (disregarding the links)1 Which one of the following options is true ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page36_q5.webp",
+    "options": {
+      "A": "Statements (i) and (ii) are true",
+      "B": "Statements (ii) and (iii) are true",
+      "C": "Statements (iii) and (i) are true",
+      "D": "All the statements are false"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 181 Consider the [latex]B^+[/latex] tree in the adjoining figure, where each node has at most two keys and three links. Keys K15 and then K25 are inserted into this tree in that order. Exactly how many of the following nodes (disregarding the links) will be present in the tree after the two insertions?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page37_q1.webp",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 182 Consider the following C program: #include &lt stdio.h &gt\r\n\r\n           #define EOF -1\r\n           void push (int); /* push the argument on the stack */\r\n           int pop  (void); /* pop the top of the stack */\r\n           void flagError ();\r\n           int main ()\r\n          {         int c, m, n, r;\r\n                     while ((c = getchar ()) != EOF)\r\n                    { if  (isdigit (c) )\r\n                               push (c);\r\n                     else if ((c == '+') || (c == '*'))\r\n                    {          m = pop ();\r\n                                n = pop ();\r\n                                r = (c == '+') ? n + m : n*m;\r\n                                push (r);\r\n                      }\r\n                      else if (c != ' ')\r\n                               flagError ();\r\n             }\r\n              printf(\"% c\", pop ());\r\n} What is the output of the program for the following input? 5 2 * 3 3 2 + * +",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "15",
+      "B": "25",
+      "C": "30",
+      "D": "150"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 183 Suppose you are given an implementation of a queue of integers. The operations that can be performed on the queue are: i. isEmpty(Q) returns true if the queue is empty, false otherwise. ii. delete(Q) deletes the element at the front of the queue and returns its value. iii. insert(Q,i) inserts the integer i at the rear of the queue. Consider the following function void f (queue Q) {\r\nint i ;\r\nif (!isEmpty(Q)) {\r\n   i = delete(Q);\r\n   f(Q);\r\n   insert(Q, i);\r\n  }\r\n} What operation is performed by the above function f ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Leaves the queue Q unchanged",
+      "B": "Reverses the order of the elements in the queue Q",
+      "C": "Deletes the element at the front of the queue Q and inserts it at the rear keeping the other elements in the same order",
+      "D": "Empties the queue Q"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 184 When searching for the key value 60 in a binary search tree, nodes containing the key values 10, 20, 40, 50, 70, 80, 90 are traversed, not necessarily in the order given. How many different orders are possible in which these key values can occur on the search path from the root to the node containing the value 60?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "35",
+      "B": "64",
+      "C": "128",
+      "D": "5040"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 185 Consider a hash function that distributes keys uniformly. The hash table size is 20. After hashing of how many keys will the probability that any new key hashed collides with an existing one exceed 0.5.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "10"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 186 An array of n numbers is given, where n is an even number. The maximum as well as the minimum of these n numbers needs to be determined. Which of the following is TRUE about the number of comparisons needed?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "At least 2n - c comparisons, for some constant c, are needed.",
+      "B": "At most 1.5n - 2 comparisons are needed.",
+      "C": "At least 2 nlog n comparisons are needed.",
+      "D": "None of the above."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 187 Consider the process of inserting an element into a Max Heap, where the Max\nHeap is represented by an array. Suppose we perform a binary search on the\npath from the new leaf to the root to find the position for the newly inserted\nelement, the number of comparisons performed is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (log n)[/latex]",
+      "B": "[latex]\\Theta (loglogn)[/latex]",
+      "C": "[latex]\\Theta (n)[/latex]",
+      "D": "[latex]\\Theta (n log_{2}n)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 188 Consider the following C program segment where CellNode represents a node in a\nbinary tree: struct CellNode \n{\n  struct CellNOde *leftChild;\n  int element;\n  struct CellNode *rightChild;\n};\n \nint GetValue(struct CellNode *ptr) \n{\n  int value = 0;\n  if (ptr != NULL) \n  {\n   if ((ptr->leftChild == NULL) &&\n        (ptr->rightChild == NULL))\n      value = 1;\n   else\n      value = value + GetValue(ptr->leftChild)\n                   + GetValue(ptr->rightChild);\n  }\n  return(value);\n} The value returned by GetValue when a pointer to the root of a binary tree is\npassed as its argument is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "the number of nodes in the tree",
+      "B": "the number of internal nodes in the tree",
+      "C": "the number of leaf nodes in the tree",
+      "D": "the height of the tree"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 189 A complete n-ary tree is a tree in which each node has n children or no children.\nLet I be the number of internal nodes and L be the number of leaves in a\ncomplete n-ary tree. If L = 41, and I = 10, what is the value of n?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 190 Consider a hash table of size seven, with starting index zero, and a hash function\n(3x + 4)mod7. Assuming the hash table is initially empty, which of the following\nis the contents of the table when the sequence 1, 3, 8, 10 is inserted into the\ntable using closed hashing? Note that '-' denotes an empty location in the table.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "8, -, -, -, -, -, 10",
+      "B": "1, 8, 10, -, -, -, 3",
+      "C": "1, -, -, -, -, -, 3",
+      "D": "1, 10, 8, -, -, -, 3"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 191 The inorder and preorder traversal of a binary tree are\nd b e a f c g and a b d e c f g, respectively\nThe postorder traversal of the binary tree is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "d e b f g c a",
+      "B": "e d b g f c a",
+      "C": "e d b f g c a",
+      "D": "d e f g b c a"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 192 The following postfix expression with single digit operands is evaluated using a\nstack: 8 2 3 ^ / 2 3 * + 5 1 * - Note that ^ is the exponentiation operator. The top two elements of the stack\nafter the first * is evaluated are:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "6,1",
+      "B": "5, 7",
+      "C": "3, 2",
+      "D": "1, 5"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 193 The maximum number of binary trees that can be formed with three unlabeled nodes is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1",
+      "B": "5",
+      "C": "4",
+      "D": "3"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 194 The height of a binary tree is the maximum number of edges in any root to leaf\npath. The maximum number of nodes in a binary tree of height h is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]2^{h}-1[/latex]",
+      "B": "[latex]2^{h-1}-1[/latex]",
+      "C": "[latex]2^{h+1}-1[/latex]",
+      "D": "[latex]2^{h+1}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 195 An array X of n distinct integers is interpreted as a complete binary tree. The index of the first element of the array is 0. If the root node is at level 0, the level of element [latex]X[i], i \\neq 0[/latex], is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\left \\lfloor \\log _2 i \\right \\rfloor[/latex]",
+      "B": "[latex]\\left \\lceil \\log _2 (i+1)\\right \\rceil[/latex]",
+      "C": "[latex]\\left \\lfloor \\log _2 (i+1) \\right \\rfloor[/latex]",
+      "D": "[latex]\\left \\lceil \\log _2 i \\right \\rceil[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 196 An array X of n distinct integers is interpreted as a complete binary tree. The index of the first element of the array is 0. If only the root node does not satisfy the heap property, the algorithm to convert the complete binary tree into a heap has the best asymptotic time complexity of",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O (n)[/latex]",
+      "B": "[latex]O (\\log n)[/latex]",
+      "C": "[latex]O (n \\log n)[/latex]",
+      "D": "[latex]O (n \\log \\log n)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 197 An array X of n distinct integers is interpreted as a complete binary tree. The index of the first element of the array is 0. The index of the parent of element[latex]X[i], i \\neq 0[/latex], is?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\left \\lfloor \\dfrac i 2 \\right \\rfloor[/latex]",
+      "B": "[latex]\\left \\lceil \\dfrac{i-1}{2} \\right \\rceil[/latex]",
+      "C": "[latex]\\left \\lceil \\dfrac i 2 \\right \\rceil[/latex]",
+      "D": "[latex]\\left \\lceil \\dfrac i 2 \\right \\rceil - 1[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 198 Suppose that we have numbers between 1 and 100 in a binary search tree and want to search for the number 55. Which of the following sequences CANNOT be the sequence of nodes examined?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "{10,75,64,43,60,57,55}",
+      "B": "{90,12,68,34,62,45,55}",
+      "C": "{9,85,47,68,43,57,55}",
+      "D": "{79,14,72,56,16,53,55}"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 199 Which of the following sequences of array elements forms a heap?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "{23,17,14,6,13,10,1,12,7,5}",
+      "B": "{23,17,14,6,13,10,1,5,7,12}",
+      "C": "{23,17,14,7,13,10,1,5,6,12}",
+      "D": "{23,17,14,7,13,10,1,12,5,7}"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 200 In a binary tree, the number of internal nodes of degree 1 is 5, and the number of internal nodes of degree 2 is 10. The number of leaf nodes in the binary tree is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "15"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 201 A 3-ary max heap is like a binary max heap, but instead of 2 children, nodes have 3 children. A 3-ary heap can be represented by an array as follows: The root is stored in the first location, a[0], nodes in the next level, from left to right, is stored from a[1] to a[3]. The nodes from the second level of the tree from left to right are stored from a[4] location onward. An item x can be inserted into a 3-ary heap containing n items by placing x in the location a[n] and pushing it up the tree to satisfy the heap property. Suppose the elements 7, 2, 10 and 4 are inserted, in that order, into the valid 3-ary max heap found in the above question, Which one of the following is the sequence of items in the array representing the resultant heap?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "10, 7, 9, 8, 3, 1, 5, 2, 6, 4",
+      "B": "10, 9, 8, 7, 6, 5, 4, 3, 2, 1",
+      "C": "10, 9, 4, 5, 7, 6, 8, 2, 1, 3",
+      "D": "10, 8, 6, 9, 7, 2, 3, 4, 1, 5"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 202 A 3-ary max heap is like a binary max heap, but instead of 2 children, nodes have 3 children. A 3-ary heap can be represented by an array as follows: The root is stored in the first location, a[0], nodes in the next level, from left to right, is stored from a[1] to a[3]. The nodes from the second level of the tree from left to right are stored from a[4] location onward. An item x can be inserted into a 3-ary heap containing n items by placing x in the location a[n] and pushing it up the tree to satisfy the heap property. Which one of the following is a valid sequence of elements in an array representing 3-ary max heap?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1, 3, 5, 6, 8, 9",
+      "B": "9, 6, 3, 1, 8, 5",
+      "C": "9, 3, 6, 8, 5, 1",
+      "D": "9, 5, 6, 8, 3, 1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 203 Given two arrays of numbers [latex]a_{1},...,a_{n}[/latex] and [latex]b_{1},...,b_{n}[/latex] where each number is 0 or 1,\nthe fastest algorithm to find the largest span(i,j) such that [latex]a_{i}+a_{i+1}+...+a_{j}=b_{i}+b_{i+1}+.....+b_{j}[/latex] , or report that there is no such span,",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Takes [latex]O(3^{n})[/latex] and [latex]\\Omega (2^{n})[/latex] time if hashing is permitted",
+      "B": "Takes [latex]O(n^{3})[/latex] and [latex]\\Omega (n^{2.5})[/latex] time in the key comparison model",
+      "C": "Takes [latex]\\Theta (n)[/latex] time and space",
+      "D": "Takes [latex]O(\\sqrt{n})[/latex] time only if the sum of the 2n elements is an even number"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 204 An implementation of a queue Q, using two stacks S1 and S2, is given below: void insert(Q,x){\r\n    push (S1,x);\r\n}\r\nvoid delete(Q, x){\r\n   if (stack-empty (S2))then\r\n         if (stack-empty (S1))then{\r\n               print(\"Q is empty\");\r\n               return;\r\n           }\r\n         else while (! (stack-empty)(S1)){\r\n                x=pop(S1);\r\n                push(S2,x);\r\n            }\r\n       x=pop(S2);\r\n} Let n insert and m([latex]\\leq[/latex]n) delete operations be performed in an arbitrary on an\r\nempty queue Q, Let x and y be the number of push and pop operations performed\r\nrespectively in the processes. Which one of the following is true for all m and n ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]m+n \\leq x\\leq 2n[/latex] and [latex]2m \\leq y \\leq n+m[/latex]",
+      "B": "[latex]m+n \\leq x\\leq 2n[/latex] and [latex]2m \\leq y \\leq 2n[/latex]",
+      "C": "[latex]2m\\leq x\\leq 2n[/latex] and [latex]2m \\leq y \\leq n+m[/latex]",
+      "D": "[latex]2m \\leq x\\leq 2n[/latex] and [latex]2m \\leq y \\leq 2n[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 205 An element in an array X is called a leader if it is grater than all elements to the\nright of it in X. The best algorithm to find all leaders in an array.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Solves it in linear time using a left to right pass of the array",
+      "B": "Solves in linear time using a right to left pass of the array",
+      "C": "Solves it is using divide and conquer in time [latex]\\Theta[/latex](nlogn)",
+      "D": "Solves it in time [latex]\\Theta (n^{2})[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 206 A scheme for storing binary trees in an array X is as follows. Indexing of X starts\nat 1 instead of 0. The roots is stored at X[1]. For a node stored at X[i], the left\nchild, if any, is stored in X[2i] and the right child, if any, in X[2i + 1]. To be able\nto store any binary tree on n vertices, the minimum size of X should be",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "log n",
+      "B": "n",
+      "C": "2n+1",
+      "D": "[latex]2^{n}-1[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 207 In a binary max heap containing n numbers, the smallest element can be found in time",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n)[/latex]",
+      "B": "[latex]\\Theta (logn)[/latex]",
+      "C": "[latex]\\Theta (log logn)[/latex]",
+      "D": "[latex]\\Theta (1)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 208 Let a and b be two sorted arrays containing n integers each, in non-decreasing order. Let c be a sorted array containing 2n integers obtained by merging the two arrays a and b. Assuming the arrays are indexed starting from 0, consider the following four statements I. [latex]a[i] \\geq b [i] \\Rightarrow c[2i] \\geq a [i][/latex] II. [latex]a[i] \\geq b [i] \\Rightarrow c[2i] \\geq b [i][/latex] III. [latex]a[i] \\geq b [i] \\Rightarrow c[2i] \\leq a [i][/latex] IV. [latex]a[i] \\geq b [i] \\Rightarrow c[2i] \\leq b [i][/latex] Which of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "only I and II",
+      "B": "only I and IV",
+      "C": "only II and III",
+      "D": "only III and IV"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 209 A binary search tree contains the numbers 1,2,3,4,5,6,7,8. When the tree is traversed in pre-order and the values in each node printed out, the sequence of values obtained is 5,3,1,2,4,6,8,7. If the tree is traversed in post-order, the sequence obtained would be",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "8,7,6,5,4,3,2,1",
+      "B": "1,2,3,4,8,7,6,5",
+      "C": "2,1,4,3,6,7,8,5",
+      "D": "2,1,4,3,7,8,6,5"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 210 The following C function takes a singly-linked list of integers as a parameter and rearranges the elements of the list. The list is represented as pointer to a structure. The function is called with the list containing the integers 1,2,3,4,5,6,7 in the given order. What will be the contents of the list after the function completes execution? struct node {int value; struct node *next;);\nvoid rearrange (struct node *list) {\n    struct node *p, *q;\n    int temp;\n    if (!list || !list -> next) return;\n    p = list; q = list -> next;\n    while (q) {\n        temp = p -> value;\n        p -> value = q -> value;\n        q -> value = temp;\n        p = q -> next;\n        q = p ? p -> next : 0;\n      }\n}",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1,2,3,4,5,6,7",
+      "B": "2,1,4,3,6,5,7",
+      "C": "1,3,2,5,4,7,6",
+      "D": "2,3,4,5,6,7,1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 211 In a binary tree, for every node the difference between the number of nodes in the left and right subtrees is at most 2. If the height of the tree is h > 0, then the minimum number of nodes in the tree is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]2^{h-1}[/latex]",
+      "B": "[latex]2^{h-1} + 1[/latex]",
+      "C": "[latex]2^h - 1[/latex]",
+      "D": "[latex]2^h[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 212 A hash table contains 10 buckets and uses linear probing to resolve collisions. The key values are integers and the hash function used is key % 10. If the values 43, 165, 62, 123, 142 are inserted in the table, in what location would the key value 142 be inserted?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "6"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 213 A function [latex]f[/latex] defined on stacks of integers satisfies the following properties. [latex]f(\\emptyset) = 0[/latex] and [latex]f (push (S, i)) = max (f(S), 0) + i[/latex] for all stacks [latex]S[/latex] and integers [latex]i[/latex]. \r\n\r\nIf a stack [latex]S[/latex] contains the integers 2, -3, 2, -1, 2 in order from bottom to top, what is [latex]f(S)[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "6",
+      "B": "4",
+      "C": "3",
+      "D": "2"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 214 The numbers [latex]1, 2, .\\dots n[/latex] are inserted in a binary search tree in some order. In the resulting tree, the right subtree of the root contains p nodes. The first number to be inserted in the tree must be",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "p",
+      "B": "p + 1",
+      "C": "n - p",
+      "D": "n - p + 1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 215 Suppose there are [latex]\\left \\lceil log n \\right \\rceil[/latex] sorted lists of [latex]\\left \\lfloor n/log n \\right \\rfloor[/latex] elements each. The time complexity of producing a\nsorted list of all these elements is: (Hint: Use a heap data structure)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O(n log log n)",
+      "B": "[latex]\\theta[/latex] (n log n)",
+      "C": "[latex]\\Omega[/latex] (n log n)",
+      "D": "[latex]\\Omega (n^{\\frac{3}{2}})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 216 In a complete k-ary tree, every internal node has exactly k children. The number of leaves in such a tree with n internal nodes is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "nk",
+      "B": "(n-1)k+1",
+      "C": "n(k-1)+1",
+      "D": "n(k-1)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 217 How many distinct binary search trees can be created out of 4 distinct keys?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "5",
+      "B": "14",
+      "C": "24",
+      "D": "42"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 218 A Priority-Queue is implemented as a Max-Heap. Initially, it has 5 elements. The level-order traversal of the heap is given below: 10, 8, 5, 3, 2 Two new elements '1' and '7' are inserted in the heap in that order. The level-order traversal of the heap after the insertion of the elements is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "10, 8, 7, 5, 3, 2, 1",
+      "B": "10, 8, 7, 2, 3, 1, 5",
+      "C": "10, 8, 7, 1, 2, 3, 5",
+      "D": "10, 8, 7, 3, 2, 1, 5"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 219 Postorder traversal of a given binary search tree, T produces the following sequence of keys 10, 9, 23, 22, 27, 25, 15, 50, 95, 60, 40, 29 Which one of the following sequences of keys can be the result of an in-order traversal of the tree T?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "9, 10, 15, 22, 23, 25, 27, 29, 40, 50, 60, 95",
+      "B": "9, 10, 15, 22, 40, 50, 60, 95, 23, 25, 27, 29",
+      "C": "29, 15, 9, 10, 25, 22, 23, 27, 40, 60, 50, 95",
+      "D": "95, 50, 60, 40, 27, 23, 22, 25, 10, 9, 15, 29"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 220 A program P reads in 500 integers in the range [0,100] representing the scores of 500 students. It then prints the frequency of each score above 50. What would be the best way for P to store the frequencies?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "An array of 50 numbers",
+      "B": "An array of 100 numbers",
+      "C": "An array of 500 numbers",
+      "D": "A dynamically allocated array of 550 numbers"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 221 An Abstract Data Type (ADT) is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "same as an abstract class",
+      "B": "a data type that cannot be instantiated",
+      "C": "a data type for which only the operations defined on it can be used, but none else",
+      "D": "all of the above"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 222 Which one of the following binary trees has its inorder and preorder traversals as BCAD  and ABCD, respectively?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page45_q2.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 223 An array of integers of size n can be converted into a heap by adjusting the heaps rooted at each internal node of the complete binary tree starting at the node [latex]\\left \\lfloor (n - 1) /2 \\right \\rfloor[/latex], and doing this adjustment up to the root node (root node is at index 0) in the order [latex]\\left \\lfloor (n - 1) /2 \\right \\rfloor[/latex],[latex]\\left \\lfloor (n - 3) /2 \\right \\rfloor[/latex], ....., 0. The time required to construct a heap in this manner is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(\\log n)[/latex]",
+      "B": "O(n)",
+      "C": "[latex]O (n \\log \\log n)[/latex]",
+      "D": "[latex]O(n \\log n)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 224 A program attempts to generate as many permutations as possible of the string, 'abcd' by pushing the characters a,b,c,d in the same order onto a stack, but it may pop off the top character at any time. Which one of the following strings CANNOT be generated using this program?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "abcd",
+      "B": "dcba",
+      "C": "cbad",
+      "D": "cabd"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 225 Let P be a singly linked list. Let Q be the pointer to an intermediate node x in the list. What is the worst-case time complexity of the best-known algorithm to delete the node x from the list ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(n)[/latex]",
+      "B": "[latex]O(\\log^2 n)[/latex]",
+      "C": "[latex]O(\\log n)[/latex]",
+      "D": "[latex]O(1)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 226 A program takes as input a balanced binary search tree with n leaf nodes and computes the value of a function g(x) for each node x. If the cost of computing g(x) is min{no. of leaf-nodes in left-subtree of x, no. of leaf-nodes in right-subtree of x} then the worst-case time complexity of the program is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n)[/latex]",
+      "B": "[latex]\\Theta (nlog n)[/latex]",
+      "C": "[latex]\\Theta (n^{2})[/latex]",
+      "D": "[latex]\\Theta (n^{2}log n)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 227 Consider the following C program segment struct CellNode\n{\n  struct CelINode *leftchild;\n  int element;\n  struct CelINode *rightChild;\n}\n \nint Dosomething(struct CelINode *ptr)\n{\n    int value = 0;\n    if (ptr != NULL)\n    {\n      if (ptr->leftChild != NULL)\n        value = 1 + DoSomething(ptr->leftChild);\n      if (ptr->rightChild != NULL)\n        value = max(value, 1 + DoSomething(ptr->rightChild));\n    }\n    return (value);\n} The value returned by the function DoSomething when a pointer to the root of a non-empty tree is\npassed as argument is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The number of leaf nodes in the tree",
+      "B": "The number of nodes in the tree",
+      "C": "The number of internal nodes in the tree",
+      "D": "The height of the tree"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 228 Suppose each set is represented as a linked list with elements in arbitray order. Which of the\noperations among union, intersection, membership, cardinality will be the slowest?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "union only",
+      "B": "intersection, membership",
+      "C": "membership, cardinality",
+      "D": "union, intersection"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 229 Two matrices M1 and M2 are to be stored in arrays A and B respectively. Each array can be stored\neither in row-major or column-major order in contiguous memory locations. The time complexity of\nan algorithm to compute M1 x M2 will be",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "best if A is in row-major, and B is in column major order",
+      "B": "best if both are in row-major order",
+      "C": "best if both are in column-major order",
+      "D": "independent of the storage scheme"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 230 Assume that the operators +, -, x , are left associative and ^ is right associative. the order of\nprecedence (from highest to lowest) is ^, x , +, -. The postfix expression corresponding to the infix\nexpression a + b x c-d^e^f is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "abcx+def^^-",
+      "B": "abcx+de^f^-",
+      "C": "ab+cxd-e^f^",
+      "D": "axbc^^def"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 231 The elements 32, 15, 20, 30, 12, 25, 16, are inserted one by one in the given order into a MaxHeap.\nThe resultant MaxHeap is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page47_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 232 A circularly linked list is used to represent a Queue. A single variable p is used to access the Queue.\nTo which node should p point such that both the operations enQueue and deQueue can be performed\nin constant time?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page47_q2.webp",
+    "options": {
+      "A": "rear node",
+      "B": "not possible with a single pointer",
+      "C": "front node",
+      "D": "node next to front"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 233 Consider the label sequences obtained by the following pairs of traversals on a labeled binary tree.\nWhich of these pairs identify a tree uniquely? (i) preorder and postorder (ii) inorder and postorder (iii) preorder and inorder (iv) level order and postorder",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(i) only",
+      "B": "(iii) only",
+      "C": "(iv) only",
+      "D": "(ii), (iii)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 234 Given the following input (4322, 1334, 1471, 9679, 1989, 6171, 6173, 4199) and the hash function x\nmod 10, which of the following statements are true? i)   9679, 1989, 4199 hash to the same value ii)  1471, 6171 has to the same value iii) All elements hash to the same value iv) Each element hashes to a different value",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "i only",
+      "B": "ii only",
+      "C": "i and ii only",
+      "D": "iii or iv"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 235 Level order traversal of a rooted tree can be done by starting from the root and performing",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "preorder traversal",
+      "B": "in-order traversal",
+      "C": "depth first search",
+      "D": "breadth first search"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 236 The best data structure to check whether an arithmetic expression has balanced parentheses is a",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "queue",
+      "B": "stack",
+      "C": "tree",
+      "D": "list"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 237 The following numbers are inserted into an empty binary search tree in the given order: 10, 1, 3, 5,\n15, 12, 16. What is the height of the binary search tree (the height is the maximum distance of a leaf\nnode from the root)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "6"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 238 A single array A[1...MAXSIZE] is used to implement two stacks. The two stacks grow from opposite\nends of the array. Variables top1 and top 2 (top1 [latex]\\lt[/latex] top 2) point to the location of the topmost\nelement in each of the stacks. If the space is to be used efficiently, the condition for \"stack full\" is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(top1 = MAXSIZE/2) and (top2 = MAXSIZE/2+1)",
+      "B": "(top1 + top2 = MAXSIZE",
+      "C": "(top1 = MAXSIZE/2) or (top2 = MAXSIZE)",
+      "D": "top1 = top2 -1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 239 Consider the function f defined below. struct item\n{\n    int data;\n    struct item * next;\n};\nint f(struct item *p)\n{\n    return ((p == NULL) || (p->next == NULL) ||\n            ((P->data <= p->next->data) &&\n            f(p->next)));\n} For a given linked list p, the function f returns 1 if and only if",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "the list is empty or has exactly one element",
+      "B": "the elements in the list are sorted in non-decreasing order of data value",
+      "C": "the elements in the list are sorted in non-increasing order of data value",
+      "D": "not all elements in the list have the same data value"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 240 Consider the following 2-3-4 tree (i.e., B-tree with a minimum degree of two) in\nwhich each data item is a letter. The usual alphabetical ordering of letters is used\nin constructing the tree What is the result of inserting G in the above tree ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page48_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "None of the above"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 241 Let S be a stack of size n [latex]\\geq[/latex] 1. Starting with the empty stack, suppose we push the first n natural numbers in sequence, and then perform n pop operations. Assume\nthat Push and Pop operation take X seconds each , and Y seconds elapse between\nthe end of the one such stack operation and the start of the next operation. For\nm [latex]\\geq[/latex] 1, define the stack-life of m as the time elapsed from the end or Push (m) to the start of the pop operation that removes m from S . The average stack-life of\nan element of this stack is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "n(X+Y)",
+      "B": "3Y+2X",
+      "C": "n(X+Y)-X",
+      "D": "Y+2X"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 242 A data structure is required for storing a set of integers such that each of the following operations can be done in O(logn) time, where n is the number of elements\r\nin the set. 1. Delection of the smallest element. 2. Insertion of an element if it is not already present in the set. Which of the following data structures can be used for this purpose ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A heap can be used but not a balanced binary search tree",
+      "B": "A balanced binary search tree can be used but not a heap",
+      "C": "Both balanced binary search tree and heap can be used",
+      "D": "Neither balanced binary search tree nor heap can be used"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 243 In a heap with n elements with the smallest element at the root, the [latex]7^{th}[/latex] smallest\nelement ban be found in time",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (nlogn)[/latex]",
+      "B": "[latex]\\Theta (n)[/latex]",
+      "C": "[latex]\\Theta (logn)[/latex]",
+      "D": "[latex]\\Theta (1)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 244 Suppose the numbers 7, 5, 1, 8, 3, 6, 0, 9, 4, 2 are inserted in that order into an\ninitially empty binary search tree. The binary search tree uses the usual ordering\non natural numbers. What is the inorder transversal sequence of the resultant tree ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "7 5 1 0 3 2 4 6 8 9",
+      "B": "0 2 4 3 1 6 5 9 8 7",
+      "C": "0 1 2 3 4 5 6 7 8 9",
+      "D": "9 8 6 4 2 3 0 1 5 7"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 245 Let T(n) be the number of different binary search trees on n distinct elements. Then [latex]T(n)=\\sum_{k=1}^{n}T(k-1)T(x)[/latex], where [latex]x[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "n-k+1",
+      "B": "n-k",
+      "C": "n-k-1",
+      "D": "n-k-2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 246 To evaluate an expression without any embedded function calls",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "One stack is enough",
+      "B": "Two stack are needed",
+      "C": "As many stacks as the height of the expression tree are needed",
+      "D": "A Turning machine is needed in the general case"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 247 A weight-balanced tree is a binary tree in which for each node, the number of\nnodes in the let sub tree is at least half and at most twice the number of nodes in\nthe right sub tree. The maximum possible height (number of nodes on the path\nfrom the root to the furthest leaf) of such a tree on n nodes is best described by\nwhich of the following ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]log_{2}n[/latex]",
+      "B": "[latex]log_{4/3}n[/latex]",
+      "C": "[latex]log_{3}n[/latex]",
+      "D": "[latex]log_{3/2}n[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 248 Consider the following algorithm for searching for a given number x in an unsorted\r\narray A[1.....n] having n distinct values : (1) Choose an i uniformly at random from [1....n] (2) If A[i] = x then stop else Goto 1; Assuming that x is present A, What is the expected number of comparisons made\r\nby the algorithm before it terminates?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "n",
+      "B": "n-1",
+      "C": "2n",
+      "D": "n/2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 249 The number of leaf nodes in a rooted tree of n nodes, with each node having 0\nor 3 children is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "n/2",
+      "B": "[latex]\\frac{(n-1)}{3}[/latex]",
+      "C": "[latex]\\frac{(n-1)}{2}[/latex]",
+      "D": "[latex]\\frac{(2n+1)}{3}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 250 Consider the following declaration of a two-dimensional array in C : Char a[100][100] Assuming that the main memory is byte-addressable and that array is stored\nstarting form memory address 0, the address of a [40] [50] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4040",
+      "B": "4050",
+      "C": "5040",
+      "D": "5040"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 251 In the worst case, the number of comparisons needed to search a single linked list\nof length n for a given element is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "log n",
+      "B": "n/2",
+      "C": "[latex]log_{2}^{n}-1[/latex]",
+      "D": "n"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 252 Let LASTPOST, LASTIN and LASTPRE denote the last vertex visited `in a postorder, inorder and preorder traversal respectively, of a complete binary tree. Which of the following is always true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "LASTIN = LASTPOST",
+      "B": "LASTIN = LASTPRE",
+      "C": "LASTPRE = LASTPOST",
+      "D": "None of the above"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 253 Suppose you are given an array s[1....n] and a procedure reverse (s, i, j) which reverses the order of elements in s between positions i and j (both inclusive). What does the following sequence do, where 1 [latex]\\leqslant k \\leqslant[/latex] n: reverse (s, 1, k);\r\n reverse (s, k+1, n);\r\n reverse (s, 1, n);",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Rotates s left by k positions",
+      "B": "Leaves s unchanged",
+      "C": "Reverses all elements of s",
+      "D": "None of the above"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 254 Consider the following nested representation of binary trees: (X Y Z) indicates Y and Z are the left and right subtrees, respectively, of node X. Note that Y and Z may be NULL, or further nested. Which of the following represents a valid binary tree?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(1 2 (4 5 6 7))",
+      "B": "(1 (2 3 4) 5 6) 7)",
+      "C": "(1 (2 3 4) (5 6 7))",
+      "D": "(1 (2 3 NULL) (4 5))"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 255 An [latex]n \\times n[/latex] array [latex]v[/latex] is defined as follows: [latex]v\\left[i,j\\right] = i - j[/latex] for all [latex]i, j, i \\leq n, 1 \\leq j \\leq n[/latex] The sum of the elements of the array [latex]v[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0",
+      "B": "n-1",
+      "C": "[latex]n^2 - 3n +2[/latex]",
+      "D": "[latex]n^2 \\frac{\\left(n+1\\right)}{2}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 256 Which of the following is correct?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "B-trees are for storing data on disk and [latex]B^+[/latex] trees are for main memory.",
+      "B": "Range queries are faster on [latex]B^+[/latex] trees.",
+      "C": "B-trees are for primary indexes and [latex]B^+[/latex] trees are for secondary indexes.",
+      "D": "The height of a [latex]B^+[/latex] tree is independent of the number of records."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 257 Suppose we want to arrange the n numbers stored in any array such that all negative values occur before all positive ones. Minimum number of exchanges required in the worst case is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "n-1",
+      "B": "n",
+      "C": "n+1",
+      "D": "None of the above"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 258 Let A be a two dimensional array declared as follows: A: array [1 ... 10] [1 ... 15] of integer; Assuming that each integer takes one memory location, the array is stored in row-major order and the first element of the array is stored at location 100, what is the address of the element A[i][j]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "15i+j+84",
+      "B": "15j+i+84",
+      "C": "10i+j+89",
+      "D": "10j+i+89"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 259 A complete n-ary tree is one in which every node has 0 or n sons. If x is the number of internal nodes of a complete n-ary tree, the number of leaves in it is given by",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "x(n-1)+1",
+      "B": "xn-1",
+      "C": "xn+1",
+      "D": "x(n+1)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 260 Which of the following statements is false?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A tree with a n nodes has (n- 1) edges",
+      "B": "A labeled rooted binary tree can be uniquely constructed given its postorder and preorder traversal results.",
+      "C": "A complete binary tree with n internal nodes has (n + 1) leaves.",
+      "D": "The maximum number of nodes in a binary tree of height h is [latex]2^{h+1} - 1[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 261 A priority queue Q is used to implement a stack that stores characters. PUSH (C) is implemented as INSERT \n(Q,C,K) where K is an appropriate integer key chosen by the implementation. POP is implemented as DELETEMIN (Q). For a sequence of operations, the keys chosen are in",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "non-increasing order",
+      "B": "non-decreasing order",
+      "C": "strictly increasing order",
+      "D": "strictly decreasing order"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 262 A binary search tree contains the value 1,2,3,4,5,6,7,8. The tree is traversed in pre-order and the values are printed out. Which of the following sequences is a valid output?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "5 3 1 2 4 7 8 6",
+      "B": "5 3 1 2 6 4 8 7",
+      "C": "5 3 2 4 1 6 7 8",
+      "D": "5 3 1 2 4 7 6 8"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 263 Which of the following is essential for converting an infix expression to the postfix form efficiently?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "An operator stack",
+      "B": "An operand stack",
+      "C": "An operand stack and an operator stack",
+      "D": "A parse tree"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 264 The concatenation of two lists is to be performed on O(1) time. Which of the following implementations of a list should be used?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Singly linked list",
+      "B": "Doubly linked list",
+      "C": "Circular doubly linked list",
+      "D": "Array implementation of list"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 265 A binary search tree is generated by inserting in order the following integers: 50,15,62,5,20,58,91,3,8,37,60,24 The number of nodes in the left subtree and right subtree of the root respectively is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(4,7)",
+      "B": "(7,4)",
+      "C": "(8,3)",
+      "D": "(3,8)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 266 The average number of key comparisons required for a successful search for sequential search on n items is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\frac{n}{2}[/latex]",
+      "B": "[latex]\\frac{n-1}{2}[/latex]",
+      "C": "[latex]\\frac{n+1}{2}[/latex]",
+      "D": "None of the above"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 267 The minimum number of interchanges needed to convert the array into a max-heap is 89, 19, 40, 17, 12, 10, 2, 5, 7, 11, 6, 9, 70",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 268 Which of the following sequences denotes the post order traversal sequence of the below tree?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page54_q3.webp",
+    "options": {
+      "A": "fegcdba",
+      "B": "gcbdafe",
+      "C": "gcdbfea",
+      "D": "fedgcba"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 269 In the balanced binary tree in the below figure, how many nodes will become unbalanced when a node is inserted as a child of the node g?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/ds/page54_q4.webp",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "7",
+      "D": "8"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 270 An advantage of chained hash table (external hashing) over the open addressing scheme is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Worst case complexity of search operations is less",
+      "B": "Space used is less",
+      "C": "Deletion is easier",
+      "D": "None of the above"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 271 Consider the following statements: (i). First-in-first out types of computations are efficiently supported by STACKS. (ii). Implementing LISTS on linked lists is more efficient than implementing LISTS on an array for almost all the basic LIST operations. (iii). Implementing QUEUES on a circular array is more efficient than implementing QUEUES on a linear array with two indices. (iv). Last-in-first-out type of computations are efficiently supported by QUEUES.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(ii) and (iii) are true",
+      "B": "(i) and (ii) are true",
+      "C": "(iii) and (iv) are true",
+      "D": "(ii) and (iv) are true"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 272 Which of the following statements is true? I. As the number of entries in a hash table increases, the number of collisions increases. II. Recursive programs are efficient III. The worst case complexity for Quicksort is [latex]O(n^2)[/latex] IV. Binary search using a linear linked list is efficient",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I and II",
+      "B": "II and III",
+      "C": "I and IV",
+      "D": "I and III"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 273 The postfix expression for the infix expression A+B*(C+D)/F+D*E is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "AB + CD + *F/D +E*",
+      "B": "ABCD + *F/DE* ++",
+      "C": "A * B + CD/F *DE ++",
+      "D": "A + *BCD/F* DE ++"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 274 A binary tree T has n leaf nodes. The number of nodes of degree 2 in T is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\log_2 n[/latex]",
+      "B": "n-1",
+      "C": "n",
+      "D": "[latex]2^n[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 275 For merging two sorted lists of sizes [latex]m[/latex] and [latex]n[/latex] into a sorted list of size [latex]m+n[/latex], we require comparisons of",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(m)[/latex]",
+      "B": "[latex]O(n)[/latex]",
+      "C": "[latex]O(m+n)[/latex]",
+      "D": "[latex]O(\\log m + \\log n)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 276 Which of the following statements is false?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Optimal binary search tree construction can be performed efficiently using dynamic programming",
+      "B": "Breadth-first search cannot be used to find connected components of a graph",
+      "C": "Given the prefix and postfix walks over a binary tree, the binary tree cannot be uniquely constructed.",
+      "D": "Depth-first search can be used to find connected components of a graph"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 277 Linked lists are not suitable data structures for which one of the following problems?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Insertion sort",
+      "B": "Binary search",
+      "C": "Radix sort",
+      "D": "Polynomial manipulation"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 278 Which of the following permutations can be obtained in the output (in the same order) using a stack assuming that the input is the sequence 1, 2, 3, 4, 5 in that order?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "3, 4, 5, 1, 2",
+      "B": "3, 4, 5, 2, 1",
+      "C": "1, 5, 2, 3, 4",
+      "D": "5, 4, 3, 1, 2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 279 In a compact single dimensional array representation for lower triangular matrices (i.e all the elements above the diagonal are zero) of size [latex]n \\times n[/latex], non-zero elements, (i.e elements of lower triangle) of each row are stored one after another, starting from the first row, the index of the [latex](i, j)^{th}[/latex] element of the lower triangular matrix in this new representation is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]i+j[/latex]",
+      "B": "[latex]i+j-1[/latex]",
+      "C": "[latex](j-1)+\\frac{i(i-1)}{2}[/latex]",
+      "D": "[latex]i+\\frac{j(j-1)}{2}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 280 What is the minimum number of stacks of size n required to implement a queue\nto size n ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "One",
+      "B": "two",
+      "C": "three",
+      "D": "four"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 281 Consider any array representation of an n element binary heap where the elements\nare stored from index 1 to index n of the array. For the element stored at index\ni of the array ([latex]i\\leq n[/latex] ) , the index of the parent is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "i-1",
+      "B": "[latex]\\left \\lfloor \\frac{i}{2} \\right \\rfloor[/latex]",
+      "C": "[latex]\\frac{i}{2}[/latex]",
+      "D": "[latex]\\frac{(i+1)}{2}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 282 Choose the correct alternatives (more than one may be correct) and write the corresponding letters only: A 2-3 tree is such that a. All internal nodes have either 2 or 3 children b. All paths from root to the leaves have the same length. The number of internal nodes of a 2-3 tree having 9 leaves could be",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 283 Choose the correct alternatives (more than one may be correct) and write the corresponding letters only: The following sequence of operations is performed on a stack: PUSH  (10), PUSH (20), POP, PUSH (10), PUSH (20), POP, POP, POP, PUSH (20), POP The sequence of values popped out is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "20,10,20,10,20",
+      "B": "20,20,10,10,20",
+      "C": "10,20,20,10,20",
+      "D": "20,20,10,20,10"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 284 Choose the correct alternatives (More than one may be correct). The total external path length, EPL, of a binary tree with n external nodes is, [latex]\\Sigma _w=Iw[/latex], where [latex]I_{w}[/latex] is the path length of external node w),",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\leq n^{2}[/latex] always.",
+      "B": "[latex]\\geq n \\log_{2}[/latex] n always.",
+      "C": "Equal to [latex]n^{2}[/latex] always.",
+      "D": "O(n) for some special trees."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 285 Choose the correct alternatives (More than one may be correct). The number of rooted binary trees with n nodes is,",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Equal to the number of ways of multiplying (n+1) matrices.",
+      "B": "Equal to the number of ways of arranging n out of 2 n distinct elements.",
+      "C": "Equal to [latex]\\frac{1}{(n+1)}\\binom{2n}{n}[/latex].",
+      "D": "Equal to n!."
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 286 Answer the following: Which one of the following statements (s) is/are FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Overlaying is used to run a program, which is longer than the address space of the computer.",
+      "B": "Optimal binary search tree construction can be performed efficiently by using dynamic programming.",
+      "C": "Depth first search cannot be used to find connected components of a graph.",
+      "D": "Given the prefix and postfix walls over a binary tree, the binary tree can be uniquely constructed."
+    },
+    "correct_answers": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 287 A hash table with ten buckets with one slot per bucket is shown in the following figure. The symbols S1 to S7 initially entered using a hashing function with linear probing. The maximum number of comparisons needed in searching an item that is not present is [latex]\\begin{array}{|l|l|} \\hline 0 & \\text { S7 } \\\\ \\hline 1 & \\text { S1 } \\\\ \\hline 2 & \\\\ \\hline 3 & \\text { S4 } \\\\ \\hline 4 & \\text { S2 } \\\\ \\hline 5 & \\text { } \\\\ \\hline 6 & \\text { S5 } \\\\ \\hline 7 & \\\\ \\hline 8 & \\text { S6 } \\\\ \\hline 9 & \\text { S3 } \\\\ \\hline \\end{array}[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "3"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 288 In a circular linked list oraganisation, insertion of a record involves modification of",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "One pointer.",
+      "B": "Two pointers.",
+      "C": "Multiple pointers.",
+      "D": "No pointer."
+    },
+    "correct_answer": "B"
+  }
+]

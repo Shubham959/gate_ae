@@ -1,0 +1,3050 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 Consider the following algorithm someAlgo that takes an undirected graph [latex]G[/latex] as input. [latex]\\texttt{someAlgo(G)}:[/latex] 1. Let [latex]v[/latex] be any vertex in [latex]G[/latex]. Run BFS on [latex]G[/latex] starting at [latex]v[/latex]. Let [latex]u[/latex] be a vertex in [latex]G[/latex] at maximum distance from [latex]v[/latex] as given by the BFS. 2. Run BFS on [latex]G[/latex] again with [latex]u[/latex] as the starting vertex. Let [latex]z[/latex] be the vertex at maximum distance from [latex]u[/latex] as given by the BFS. 3. Output the distance between [latex]u[/latex] and [latex]z[/latex] in [latex]G[/latex]. The output of [latex]\\texttt{someAlgo(T)}[/latex] for the tree shown in the given figure is __________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page1_q1.webp",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 Let [latex]G [/latex] be an edge-weighted undirected graph with positive edge weights. Suppose a positive constant [latex]\\alpha [/latex] is added to the weight of every edge. Which ONE of the following statements is TRUE about the minimum spanning trees (MSTs) and shortest paths (SPs) in [latex]G [/latex] before and after the edge weight update?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Every MST remains an MST, and every SP remains an SP.",
+      "B": "MSTs need not remain MSTs, and every SP remains an SP.",
+      "C": "Every MST remains an MST, and SPs need not remain SPs.",
+      "D": "MSTs need not remain MSTs, and SPs need not remain SPs."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Which of the following statements regarding Breadth First Search (BFS) and Depth First Search (DFS) on an undirected simple graph [latex]G [/latex] is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A DFS tree of [latex]G [/latex] is a Shortest Path tree of [latex]G [/latex].",
+      "B": "Every non-tree edge of [latex]G [/latex] with respect to a DFS tree is a forward/back edge.",
+      "C": "If [latex](u, v) [/latex] is a non-tree edge of [latex]G [/latex] with respect to a BFS tree, then the distances from the source vertex [latex]s [/latex] to [latex]u [/latex] and [latex]v [/latex] in the BFS tree are within [latex]\\pm 1 [/latex] of each other.",
+      "D": "Both BFS and DFS can be used to find the connected components of [latex]G [/latex]."
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 4 The maximum value of [latex] x [/latex] such that the edge between the nodes B and C is included in every minimum spanning tree of the given graph is _________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page1_q4.webp",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Let [latex]G(V, E)[/latex] be an undirected and unweighted graph with 100 vertices. Let [latex]d(u, v)[/latex] denote the number of edges in a shortest path between vertices [latex]u[/latex] and [latex]v[/latex] in [latex]V[/latex]. Let the maximum value of [latex]d(u, v)[/latex], [latex]u, v \\in V[/latex] such that [latex]u \\neq v[/latex], be 30. Let [latex]T[/latex] be any breadth-first-search tree of [latex]G[/latex]. Which ONE of the given options is CORRECT for every such graph [latex]G[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The height of [latex]T[/latex] is exactly 15.",
+      "B": "The height of [latex]T[/latex] is exactly 30.",
+      "C": "The height of [latex]T[/latex] is at least 15.",
+      "D": "The height of [latex]T[/latex] is at least 30."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Consider the following recurrence relation: [latex]T(n) = 2T(n-1) + n2^n \\quad \\text{for} \\quad n > 0, \\quad T(0) = 1[/latex] Which ONE of the following options is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]T(n) = \\Theta(n^2 2^n)[/latex]",
+      "B": "[latex]T(n) = \\Theta(n 2^n)[/latex]",
+      "C": "[latex]T(n) = \\Theta((\\log n)^2 2^n)[/latex]",
+      "D": "[latex]T(n) = \\Theta(4^n)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Let [latex]G[/latex] be any undirected graph with positive edge weights, and [latex]T[/latex] be a minimum spanning tree of [latex]G[/latex]. For any two vertices, [latex]u[/latex] and [latex]v[/latex], let [latex]d_1(u, v)[/latex] and [latex]d_2(u, v)[/latex] be the shortest distances between [latex]u[/latex] and [latex]v[/latex] in [latex]G[/latex] and [latex]T[/latex], respectively. Which ONE of the options is CORRECT for all possible [latex]G[/latex], [latex]T[/latex], [latex]u[/latex], and [latex]v[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]d_1(u, v) = d_2(u, v)[/latex]",
+      "B": "[latex]d_1(u, v) \\leq d_2(u, v)[/latex]",
+      "C": "[latex]d_1(u, v) \\geq d_2(u, v)[/latex]",
+      "D": "[latex]d_1(u, v) \\neq d_2(u, v)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 8 The number of distinct minimum-weight spanning trees of the following graph\nis _______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page2_q3.webp",
+    "min": 9.0,
+    "max": 9.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 Let [latex]G[/latex] be an undirected connected graph in which every edge has a positive integer weight.  Suppose  that  every  spanning  tree  in  [latex]G[/latex]  has  even  weight.  Which  of  the following statements is/are TRUE for every such graph [latex]G[/latex] ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "All edges in [latex]G[/latex] have even weight",
+      "B": "All edges in [latex]G[/latex] have even weight OR all edges in [latex]G[/latex] have odd weight",
+      "C": "In each cycle [latex]G[/latex] in [latex]G[/latex], all edges in [latex]G[/latex] have even weight",
+      "D": "In each cycle [latex]G[/latex] in [latex]G[/latex], either all edges in [latex]G[/latex] have even weight OR all edges in [latex]G[/latex] have odd weight"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 Let [latex] T(n) [/latex] be the recurrence relation defined as follows: [latex]\n\\begin{aligned}\n& T(0)=1, \\\\\n& T(1)=2, \\text { and } \\\\\n& T(n)=5 T(n-1)-6 T(n-2) \\text { for } n \\geq 2\n\\end{aligned}\n [/latex] Which one of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex] T(n)=\\Theta\\left(2^n\\right)  [/latex]",
+      "B": "[latex] T(n)=\\Theta\\left(n 2^n\\right)  [/latex]",
+      "C": "[latex] T(n)=\\Theta\\left(3^n\\right)  [/latex]",
+      "D": "[latex] T(n)=\\Theta\\left(n 3^n\\right)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 Consider the following recurrence relation: [latex]\nT(n)=\\left\\{\\begin{array}{c}\n\\sqrt{n} T(\\sqrt{n})+n \\text { for } n \\geq 1, \\\\\n1 \\quad \\text { for } n=1 .\n\\end{array}\\right.\n [/latex] Which one of the following options is CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "T(n)=\\Theta(n \\log \\log n)",
+      "B": "T(n)=\\Theta(n \\log n)",
+      "C": "T(n)=\\Theta\\left(n^2 \\log n\\right)",
+      "D": "T(n)=\\Theta\\left(n^2 \\log \\log n\\right)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 The number of spanning trees in a complete graph of 4 vertices labelled A, B, C,\nand D is _________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 16.0,
+    "max": 16.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Given an integer array of size [latex]N[/latex], we want to check if the array is sorted (in either\nascending or descending order). An algorithm solves this problem by making a\nsingle pass through the array and comparing each element of the array only with its\nadjacent elements. The worst-case time complexity of this algorithm is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "both [latex]\\mathrm{O}(N) [/latex] and [latex]\\Omega(N) [/latex]",
+      "B": "[latex]\\mathrm{O}(N) [/latex] but not [latex]\\Omega(N) [/latex]",
+      "C": "[latex]\\Omega(N) [/latex] but not [latex]\\mathrm{O}(N) [/latex]",
+      "D": "neither [latex]\\mathrm{O}(N) [/latex] nor [latex]\\Omega(N) [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 Let [latex]U = \\{1, 2, 3\\}[/latex]. Let [latex]2^U[/latex] denote the powerset of  [latex]U[/latex]. Consider an undirected graph\n [latex]G[/latex] whose vertex set is  [latex]2^U[/latex]. For any  [latex]A,B \\in 2^U, (A,B)[/latex] is an edge in  [latex]G[/latex] if and only\nif (i)  [latex]A \\neq B[/latex], and (ii) either [latex]A \\subseteq B[/latex]   or [latex]B \\subseteq A[/latex]. For any vertex [latex]A[/latex] in [latex]G[/latex], the set of\nall possible orderings in which the vertices of [latex]G[/latex] can be visited in a Breadth First\nSearch (BFS) starting from [latex]A[/latex] is denoted by [latex]B(A)[/latex]. If [latex]\\phi [/latex]  denotes the empty set, then the cardinality of [latex]B(\\phi ) [/latex]  is ____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 5040.0,
+    "max": 5040.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 Consider functions Function 1 and Function 2 expressed in pseudocode as\nfollows: Let [latex]f_1(n)[/latex] and [latex]f_2(n)[/latex] denote the number of times the statement [latex]\"x = x + 1\"[/latex] is\nexecuted in Function 1 and Function 2, respectively. Which of the following statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page3_q5.webp",
+    "options": {
+      "A": "[latex] f_1(n)\\in \\Theta (f_2(n)) [/latex]",
+      "B": "[latex] f_1(n)\\in o (f_2(n)) [/latex]",
+      "C": "[latex] f_1(n)\\in \\omega  (f_2(n)) [/latex]",
+      "D": "[latex] f_1(n)\\in O  (n) [/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Let [latex]f[/latex] and [latex]g[/latex] be functions of natural numbers given by [latex]f(n)=n[/latex] and [latex]g(n)=n^2[/latex]. Which of the following statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]f \\in O(g)[/latex]",
+      "B": "[latex]f \\in \\Omega (g)[/latex]",
+      "C": "[latex]f \\in o(g)[/latex]",
+      "D": "[latex]f \\in \\Theta  (g)[/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 Let [latex]G(V, E)[/latex] be a directed graph, where [latex]V =  \\{1, 2, 3, 4, 5 \\}[/latex] is the set of vertices and\r\n[latex]E[/latex] is the set of directed edges, as defined by the following adjacency matrix [latex]A[/latex]. [latex]A[i][j]= \\left \\{ \\begin{matrix}\r\n1 &1 \\leq j \\leq i \\leq 5  \\\\ \r\n 0& otherwise\r\n \\end{matrix} \\right.[/latex] [latex]A[i][j]=1 [/latex]indicates a directed edge from node [latex]i [/latex] to node [latex]j [/latex]. A directed spanning tree of [latex]G [/latex], rooted at [latex] r  \\in V[/latex] , is defined as a subgraph [latex]T [/latex] of [latex]G [/latex] such that the undirected\r\nversion of [latex]T [/latex] is a tree, and [latex]T [/latex] contains a directed path from [latex]r [/latex] to every other vertex in [latex]V [/latex]. The   number   of   such   directed   spanning   trees   rooted   at   vertex  5 is ____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 24.0,
+    "max": 24.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 Consider a simple undirected weighted graph G, all of whose edge weights are distinct. Which of the following statements about the minimum spanning trees of G is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The edge with the second smallest weight is always part of any minimum spanning tree of G .",
+      "B": "One or both of the edges with the third smallest and the fourth smallest weights are part of any minimum spanning tree of G .",
+      "C": "Suppose [latex]S\\subseteq V[/latex] be such that [latex]S\\neq  \\phi [/latex] and [latex]S\\neq  V[/latex] . Consider the edge with the minimum weight such that one of its vertices is in S and the other in V \\ S . Such an edge will always be part of any minimum spanning tree of G .",
+      "D": "G can have multiple minimum spanning trees."
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 Which one of the following statements is TRUE for all positive functions [latex]f(n)[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]f(n^2)=\\theta (f(n)^2)[/latex], where [latex]f(n)[/latex] is a polynomial",
+      "B": "[latex]f(n^2)=o (f(n)^2)[/latex]",
+      "C": "[latex]f(n^2)=O (f(n)^2)[/latex], where [latex]f(n)[/latex] is an exponential function",
+      "D": "[latex]f(n^2)=\\Omega  (f(n)^2)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 For constants [latex]a\\geq 1[/latex] and [latex]b \\gt 1[/latex], consider the following recurrence defined on the non-negative integers: [latex]T(n) = a \\cdot T \\left(\\dfrac{n}{b} \\right) + f(n)[/latex] Which one of the following options is correct about the recurrence [latex]T(n)[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "if [latex]f(n)[/latex] is [latex]n \\log_2(n)[/latex], then [latex]T(n)[/latex] is [latex]\\Theta(n \\log_2(n))[/latex].",
+      "B": "if [latex]f(n)[/latex] is [latex]\\dfrac{n}{\\log_2(n)}[/latex], then [latex]T(n)[/latex] is [latex]\\Theta(\\log_2(n))[/latex].",
+      "C": "if [latex]f(n)[/latex] is [latex]O(n^{\\log_b(a)-\\epsilon})[/latex] for some [latex]\\epsilon \\gt 0[/latex], then [latex]T(n)[/latex] is [latex]\\Theta(n ^{\\log_b(a)})[/latex].",
+      "D": "if [latex]f(n)[/latex] is [latex]\\Theta(n ^{\\log_b(a)})[/latex], then [latex]T(n)[/latex] is [latex]\\Theta(n ^{\\log_b(a)})[/latex]."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 Consider the string abbccddeee. Each letter in the string must be assigned a binary code satisfying the following properties: For any two letters, the code assigned to one letter must not be a prefix of the code assigned to the other letter. For any two letters of the same frequency, the letter which occurs earlier in the dictionary order is assigned a code whose length is at most the length of the code assigned to the other letter. Among the set of all binary code assignments which satisfy the above two properties, what is the minimum length of the encoded string?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "21",
+      "B": "23",
+      "C": "25",
+      "D": "30"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 Let G be a connected undirected weighted graph. Consider the following two statements. S1: There exists a minimum weight edge in G which is present in every minimum spanning tree of G. S2: If every edge in G has distinct weight, then G has a unique minimum spanning tree. Which one of the following options is correct?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Both S1 and S2 are true",
+      "B": "S1 is true and S2 is false",
+      "C": "S1 is false and S2 is true",
+      "D": "Both S1 and S2 are false"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 An articulation point in a connected graph is a vertex such that removing the vertex and its incident edges disconnects the graph into two or more connected components. Let T be a DFS tree obtained by doing DFS in a connected undirected graph G. Which of the following options is/are correct?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Root of T can never be an articulation point in G.",
+      "B": "Root of T is an articulation point in G if and only if it has 2 or more children.",
+      "C": "A leaf of T can be an articulation point in G.",
+      "D": "If u is an articulation point in G such that x is an ancestor of u in T and y is a descendent of u in T, then all paths from x to y in G must pass through u."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 Define [latex]R_n[/latex] to be the maximum amount earned by cutting a rod of length n meters into one or more pieces of integer length and selling them. For [latex]i > 0[/latex], let [latex]p[i][/latex] denote the selling price of a rod whose length is [latex]i[/latex] meters. Consider the array of prices: [latex]\\text{p}[1]=1,\\text{p}[2]=5,\\text{p}[3]=8,\\text{p}[4]=9,\\text{p}[5]=10,\\text{p}[6]=17,\\text{p}[7]=18[/latex] which of the following statements is/are correct about [latex]R_7[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]R_7=18[/latex]",
+      "B": "[latex]R_7=19[/latex]",
+      "C": "[latex]R_7[/latex] is achieved by three different solutions.",
+      "D": "[latex]R_7[/latex] cannot be achieved by a solution consisting of three pieces."
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 Let [latex]G=(V,E)[/latex] be an undirected unweighted connected graph. The diameter of [latex]G[/latex] is defined as: [latex]diam(G)=\\displaystyle \\max_{u,v \\in V} \\{ \\text{the length of shortest path between }u \\text{ and }v \\}[/latex] Let [latex]M[/latex] be the adjacency matrix of [latex]G[/latex]. Define graph [latex]G_2[/latex] on the same set of vertices with adjacency matrix [latex]N[/latex], where [latex]N_{ij}=\\left\\{\\begin{array} {lcl} 1 &\\text{if}\\; M_{ij}>0 \\text{ or } P_{ij}>0, \\text{ where }P=M^2\\\\0 &\\text{otherwise} \\end{array}\\right.[/latex] Which one of the following statements is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]diam(G_2)\\leq \\left \\lceil diam(G)/2 \\right \\rceil[/latex]",
+      "B": "[latex]\\left \\lceil diam(G)/2 \\right \\rceil \\lt diam(G_2) \\lt diam(G)[/latex]",
+      "C": "[latex]diam(G_2) =diam(G)[/latex]",
+      "D": "[latex]diam(G) \\lt diam(G_2) \\leq 2 \\; diam(G)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 Consider the following recurrence relation. [latex]T\\left ( n \\right )=\\left\\{\\begin{array} {lcl} T(n/2)+T(2n/5)+7n & \\text{if} \\; n > 0\\\\1 & \\text{if}\\; n=0 \\end{array}\\right.[/latex] Which one of the following options is correct?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]T(n)=\\Theta (n^{5/2})[/latex]",
+      "B": "[latex]T(n)=\\Theta (n \\log n)[/latex]",
+      "C": "[latex]T(n)=\\Theta (n)[/latex]",
+      "D": "[latex]T(n)=\\Theta ((\\log n)^{5/2})[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 Consider the following undirected graph with edge weights as shown: The number of minimum-weight spanning trees of the graph is __________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page6_q2.webp",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Consider the following array. [latex]\\begin{array}{|l|l|l|l|l|l|l|l|}  \\hline 23&32&45&69&72&73&89&97 \\\\ \\hline\\end{array}[/latex] Which algorithm out of the following options uses the least number of comparisons (among the array elements) to sort the above array in ascending order?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Selection sort",
+      "B": "Mergesort",
+      "C": "Insertion sort",
+      "D": "Quicksort using the last element as pivot"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Consider the following three functions. [latex]f_1=10^n\\; f_2=n^{\\log n}\\;f_3=n^{\\sqrt {n}}[/latex] Which one of the following options arranges the functions in the increasing order of asymptotic growth rate?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]f_3, f_2, f_1[/latex]",
+      "B": "[latex]f_2, f_1, f_3[/latex]",
+      "C": "[latex]f_1, f_2, f_3[/latex]",
+      "D": "[latex]f_2, f_3, f_1[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Consider product of three matrices [latex]M_{1}[/latex],[latex]M_{2}[/latex] and [latex]M_{3}[/latex] having w rows and x columns, x rows and y columns, and y rows and z columns. Under what condition will it take less time to compute the product as [latex]\\left(M_{1} M_{2}\\right) M_{3}[/latex] than to compute [latex]M_{1}\\left(M_{2} M_{3}\\right)[/latex] ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Always take the same time",
+      "B": "[latex](1 / x+1 / z) \\lt (1 / w+1 / y)[/latex]",
+      "C": "[latex]x \\gt y[/latex]",
+      "D": "[latex](w+x) \\gt (y+z)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 Of the following sort algorithms, which has execution time that is least dependant on initial ordering of the input?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Insertion sort",
+      "B": "Quick sort",
+      "C": "Merge sort",
+      "D": "Selection sort"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 What is the complexity of the following code? sum=0;\r\n    for(i=1;i<=n;i*=2)\r\n         for(j=1;j<=n;j++)\r\n            sum++; Which of the following is not a valid string?",
+    "solution": "NOTE: Question is excluded from the evaluation due to ambiguity. Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O\\left(n^{2}\\right)[/latex]",
+      "B": "[latex]O(n \\log n)[/latex]",
+      "C": "[latex]O(n)[/latex]",
+      "D": "[latex]O(n \\log n \\log n)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 Huffman tree is constructed for the following data :{A,B,C,D,E} with frequency {0.17, 0.11, 0.24, 0.33 and 0.15} respectively. 100 00 01101 is decoded as",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "BACE",
+      "B": "CADE",
+      "C": "BAD",
+      "D": "CADD"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 G  is an undirected graph with vertex set {v1, v2, v3, v4, v5, v6, v7} and edge set {v1v2, v1v3, v1v4 ,v2v4, v2v5, v3v4, v4v5, v4v6, v5v6, v6v7 }. A breadth first search of the graph is performed with v1 as the root node. Which of the following is a tree edge?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "v2v4",
+      "B": "v1v4",
+      "C": "v4v5",
+      "D": "v3v4"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 The master theorem",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "assumes the subproblems are unequal sizes",
+      "B": "can be used if the subproblems are of equal size",
+      "C": "cannot be used for divide and conquer algorithms",
+      "D": "cannot be used for asymptotic complexity analysis"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 Consider a graph [latex]G=(V,E)[/latex], where [latex]V=\\{v_1,v_2,...,v_{100}\\}[/latex], [latex]E=\\{(v_i,v_j)|1\\leq i \\lt j\\leq 100\\}[/latex], and weight of the edge [latex](v_i,v_j)\\; is \\; |i-j|[/latex]. The weight of minimum spanning tree of G is _________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 99.0,
+    "max": 99.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 Let [latex]G=(V,E)[/latex] be a directed, weighed graph with weight function [latex]w:E\\rightarrow \\mathbb{R}[/latex]. For some function [latex]f:V\\rightarrow \\mathbb{R}[/latex], for each edge [latex](u,v) \\in E[/latex], define [latex]w'(u,v)[/latex] as [latex]w(u,v)+f(u)-f(v)[/latex]. Which one of the options completes the following sentence so that it is TRUE? \"The shortest paths in G under [latex]w[/latex] are shortest paths under [latex]w'[/latex] too,_________\".",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "for every [latex]f:V\\rightarrow \\mathbb{R}[/latex]",
+      "B": "if and only if [latex]\\forall u \\in V,f(u)[/latex] is positive",
+      "C": "if and only if [latex]\\forall u \\in V,f(u)[/latex] is negative",
+      "D": "if and only if f(u) is the distance from s to u in the graph obtained by adding a new vertex s to G and edges of zero weight from s to every verex of G"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 Let  [latex]G=(V,E)[/latex] be a weighted undirected graph and let T be a Minimum Spanning Tree (MST) of G maintained using adjacency lists. Suppose a new weighed edge [latex](u,v)\\in V \\times V[/latex] is added to G. The worst case time complexity of determining if T is still an MST of the resultant graph is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (|E|+|V|)[/latex]",
+      "B": "[latex]\\Theta (|E||V|)[/latex]",
+      "C": "[latex]\\Theta (|E|\\log |V|)[/latex]",
+      "D": "[latex]\\Theta (|V|)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 For parameters a and b, both of which are [latex]\\omega(1) , T(n)=T(n^{1/a})+1[/latex], and [latex]T(b)=1[/latex]. Then [latex]T(n)[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (\\log _a \\log_b n)[/latex]",
+      "B": "[latex]\\Theta (\\log _{ab} n)[/latex]",
+      "C": "[latex]\\Theta (\\log _b \\log_a n)[/latex]",
+      "D": "[latex]\\Theta (\\log _2 \\log_2 n)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 Let G be any connection, weighted, undirected graph: I. G has a unique minimum spanning tree if no two edges of G have the same weight. II. G has a unique minimum spanning tree if, for every cut of G, there is a unique minimum weight edge crossing the cut. Which of the above two statements is/are TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I only",
+      "B": "II only",
+      "C": "Both I and II",
+      "D": "Neither I nor II"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 There are n unsorted arrays: [latex]A_1,A_2,...,A_n[/latex]. Assume that n is odd. Each of [latex]A_1,A_2,...,A_n[/latex] contains n distinct elements. There are no common elements between any two arrays. The worst-case Asymptotic Notation of computing the median of the medians of [latex]A_1,A_2,...,A_n[/latex] is ________ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(n)[/latex]",
+      "B": "[latex]O(n \\log n)[/latex]",
+      "C": "[latex]O(n^2)[/latex]",
+      "D": "[latex]\\Omega(n^2 \\log n)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 Consider a sequence of 14 elements: A = [-5, -10, 6, 3, -1, -2, 13, 4, -9, -1, 4, 12, -3, 0]. The sequence sum [latex]S(i,j)=\\sum_{k=i}^{j}A[k][/latex]. Determine the maximum of S(i,j), where [latex]0 \\leq i \\leq j \\lt 14[/latex]. (Divide and conquer approach may be used). Answer:______",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 29.0,
+    "max": 29.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 An array of 25 distinct elements is to be sorted using quicksort. Assume that the pivot element is chosen uniformly at random. The probability that the pivot element gets placed in the worst possible location in the first round of partitioning (rounded off to 2 decimal places) is _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 0.08,
+    "max": 0.08
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 Of the following sorting algorithms, which has a running time that is least dependent on the initial ordering of the input?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Mege Sort",
+      "B": "Insertion Sort",
+      "C": "Selection Sort",
+      "D": "Quick Sort"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 The running time of an algorithm is given by: [latex]T(n)=\\left\\{\\begin{matrix} T(n-1)+T(n-2)-T(n-3), &\\text {  if } n>3\\\\  n, &\\text{  otherwise}\\end{matrix}\\right.[/latex] Then what should be the relation between [latex]T(1),T(2),T(3)[/latex], so that the order of the algorithm is constant?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "T(1) = T(2) = T(3)",
+      "B": "T(1) + T(3) = 2T(2)",
+      "C": "T(1) - T(3) = T(2)",
+      "D": "T(1) + T(2) = T(3)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 Given two sorted list of size m and n respectively. The number of comparisons needed the worst case by the merge sort algorithm will be:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "m-n",
+      "B": "maximum of m and n",
+      "C": "minimum of m and n",
+      "D": "m+n-1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 Which of the following is application of Breath First Search on the graph?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Finding diameter of the graph",
+      "B": "Finding bipartite graph",
+      "C": "Both (A) and (B)",
+      "D": "None of the above"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 Consider the weights and values of items listed below. Note that there is only one unit of each item. The task is to pick a subset of these items such that their total weight is no more than 11 Kgs\nand their total value is maximized. Moreover, no item may be split. The total value of items picked by an optimal algorithm is denoted by  [latex]V_{opt}[/latex]. A greedy algorithm sorts the items by their value-to-weight ratios in descending order and packs them greedily, starting from the first item in the ordered list. The total value of items picked by the greedy algorithm is denoted by [latex]V_{greedy}[/latex]. The value of [latex]V_{opt}[/latex]-[latex]V_{greedy}[/latex] is ____________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page10_q3.webp",
+    "min": 16.0,
+    "max": 16.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 Consider the following undirected graph G: Choose a value for x that will maximize the number of minimum weight spanning trees (MWSTs) of G. The number of MWSTs of G for this value of x is ______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page10_q4.webp",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 Assume that multiplying a matrix G1 of dimension pxq with another matrix G2 of\ndimension pxq requires pqr scalar multiplications. Computing the product of n  matrices G1G2G3...Gn can be done by parenthesizing in different ways. Define Gi Gi+1 as an explicitly computed pair for a given paranthesization if they are directly multiplied. For example, in the matrix multiplication chain G1G2G3G4G5G6 using parenthesization (G1(G2G3))(G4(G5G6)), G2G3 and G5G6 are the only explicitly computed pairs. Consider a matrix multiplication chain F1F2F3F4F5, where matrices F1, F2, F3, F4 and F5 are of dimensions 2x25, 25x3, 3x16, 16x1 and 1x1000, respectively. In the parenthesization of F1F2F3F4F5 that minimizes the total number of scalar multiplications, the explicitly computed pairs is/are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "F1F2 and F3F4 only",
+      "B": "F2F3 only",
+      "C": "F3F4 only",
+      "D": "F1F2 and F4F5 only"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 Let G be a simple undirected graph. Let TD be a depth first search tree of G. Let TB be a breadth first search tree of G. Consider the following statements. (I) No edge of G is a cross edge with respect to TD. (A cross edge in G is between two\r\nnodes neither of which is an ancestor of the other in TD.) (II) For every edge (u,v) of G, if u is at depth i and v is at depth j in TB, then |i-j|=1. Which of the statements above must necessarily be true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I only",
+      "B": "II only",
+      "C": "Both I and II",
+      "D": "Neither I nor II"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 Which of the following algorithms solves the all pair shortest path problem?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Prim's algorithm",
+      "B": "Dijkstra's algorithm",
+      "C": "Bellman ford algorithm",
+      "D": "Floyd warshalls algorithm"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 The number of swappings needed to sort the numbers 8 , 22, 7, 9, 31, 5, 13 in ascending order using bubble sort is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "10"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 Which one of the following in-place sorting algorithms needs the minimum number of swaps?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Insertion Sort",
+      "B": "Quick Sort",
+      "C": "Heap Sort",
+      "D": "Selection Sort"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 The recurrence relation that arises in relation with the complexity of binary search is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]T(n)=2 T\\left(\\frac{n}{2}\\right)+k, \\mathrm{k} \\text { is a constant }[/latex]",
+      "B": "[latex]T(n)=T\\left(\\frac{n}{2}\\right)+k, \\mathrm{k} \\text { is a constant }[/latex]",
+      "C": "[latex]T(n)=T\\left(\\frac{n}{2}\\right)+\\log n[/latex]",
+      "D": "[latex]T(n)=T\\left(\\frac{n}{2}\\right)+n[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 The problem 3-SAT and 2-SAT are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "both in P",
+      "B": "both NP complete",
+      "C": "NP -complete and in P respectively",
+      "D": "undecidable and NP complete respectively"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 57 A message is made up entirely of characters from the set X= {P,Q,R,S,T}. The table of\nprobabilities for each of the characters is shown below: If a message of 100 characters over X is encoded using Huffman coding, then the expected\nlength of the encoded message in bits is_____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page12_q2.webp",
+    "min": 225.0,
+    "max": 225.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Consider the following C function int fun (int n) {\n  int i, j;\n  for (i = 1; i < = n; i++) {\n      for (j = 1 ; j < n ; j+=i) {\n          printf (\"%d %d , i, j ) ;\n          }\n     }\n} Asymptotic Notation of fun in terms of [latex]\\theta[/latex] notation is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\theta (n\\sqrt{n})[/latex]",
+      "B": "[latex]\\theta (n^{2})[/latex]",
+      "C": "[latex]\\theta (n logn)[/latex]",
+      "D": "[latex]\\theta (n^{2} logn)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 Consider the recurrence function [latex]T(n)=\\left\\{\\begin{matrix} 2T(\\sqrt{n})+1, & n \\gt 2\\\\ 2,& 0 \\lt n\\leq 2 \\end{matrix}\\right.[/latex] Then T(n) in terms of   [latex]\\theta[/latex]   notation is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\theta (log log n)[/latex]",
+      "B": "[latex]\\theta  (logn)[/latex]",
+      "C": "[latex]\\theta (\\sqrt{n})[/latex]",
+      "D": "[latex]\\theta  (n)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 The Breadth First Search (BFS) algorithm has been implemented using the queue data\nstructure. Which one of the following is a possible order of visiting the nodes in the graph\nbelow?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page12_q5.webp",
+    "options": {
+      "A": "MNOPQR",
+      "B": "NQMPOR",
+      "C": "QMNROP",
+      "D": "POQNMR"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 Match the algorithms with their time complexities:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page13_q1.webp",
+    "options": {
+      "A": "P-(iii),Q-(iv), R-(i), S-(ii)",
+      "B": "P-(iv),Q-(iii), R-(i), S-(ii)",
+      "C": "P-(iii),Q-(iv), R-(ii), S-(i)",
+      "D": "P-(iv),Q-(iii), R-(ii), S-(i)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 Let G = (V, E) be any connected undirected edge-weighted graph. The weights of the edges in\r\nE are positive and distinct. Consider the following statements: (I) Minimum spanning tree of G is always unique. (II) Shortest path between any two vertices of G is always unique. Which of the above statements is/are necessarily true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(I) only",
+      "B": "(II) only",
+      "C": "Both (I) and (II)",
+      "D": "Neither (I) nor (II)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 Consider the following table: Match the algorithms to the design paradigms they are based on.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page13_q3.webp",
+    "options": {
+      "A": "P-(ii), Q-(iii),R-(i)",
+      "B": "P-(iii), Q-(i), R-(ii)",
+      "C": "P-(ii), Q-(i), R-(iii)",
+      "D": "P-(i), Q-(ii), R-(iii)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 Consider the following functions from positive integers to real numbers: [latex]10,\\sqrt{n},n, log_{2}n,\\frac{100}{n}[/latex]. The CORRECT arrangement of the above functions in increasing order of asymptotic complexity is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]log_{2}n,\\frac{100}{n}, 10,\\sqrt{n},n [/latex]",
+      "B": "[latex]\\frac{100}{n}, 10,log_{2}n, \\sqrt{n}, n [/latex]",
+      "C": "[latex]10, \\frac{100}{n},  \\sqrt{n}, log_{2}n, n [/latex]",
+      "D": "[latex]\\frac{100}{n}, log_{2}n, 10,  \\sqrt{n}, n [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 Consider the following recurrence: [latex]T(n)=2T\\left ( \\sqrt{n}\\right )+1, T(1)=1[/latex] Which one of the following is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]T(n)=\\Theta (\\log\\log n)[/latex]",
+      "B": "[latex]T(n)=\\Theta (\\log n)[/latex]",
+      "C": "[latex]T(n)=\\Theta (\\sqrt{n})[/latex]",
+      "D": "[latex]T(n)=\\Theta (n)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 Algorithm design technique used in quicksort algorithm is?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Dynamic programming",
+      "B": "Backtracking",
+      "C": "Divide and conquer",
+      "D": "Greedy method"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 In an adjacency list representation of an undirected simple graph G = (V,E), each edge (u,v) has two adjacency list entries: [v] in the adjacency list of u, and [u] in the adjacency list of v. These are called twins of each other. A twin pointer is a pointer from an adjacency list entry to its twin. If |E|=m and |V|=n, and the memory size is not a constraint, what is the Asymptotic Notation of the most efficient algorithm to set the twin pointer in each entry in each adjacency list?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n^{2})[/latex]",
+      "B": "[latex]\\Theta (n+m)[/latex]",
+      "C": "[latex]\\Theta (m^{2})[/latex]",
+      "D": "[latex]\\Theta (n^{4})[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 68 The given diagram shows the flowchart for a recursive function A(n). Assume that all statements, except for the recursive calls,have O(1) Asymptotic Notation. If the worst case Asymptotic Notation of this functionis [latex]O(n^{\\alpha })[/latex], then the least possible value(accurate upto two decimal positions) of [latex]\\alpha[/latex] is .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page14_q3.webp",
+    "min": 2.2,
+    "max": 2.4
+  },
+  {
+    "type": "numerical",
+    "question": "Question 69 Let A1,A2,A3, and A4 be four matrices of dimensions 10x5, 5x20, 20x10, and 10x5, respectively. The minimum number of scalar multiplications required to find the product A1A2A3A4 using the basic matrix multiplication method is __________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1500.0,
+    "max": 1500.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 The Floyd-Warshall algorithm for all-pair shortest paths computation is based on",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Greedy paradigm",
+      "B": "Divide-and-Conquerparadigm.",
+      "C": "Dynamic Programing paradigm.",
+      "D": "neither Greedy nor Divide-and-Conquer nor Dynamic Programming paradigm."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 Assume that the algorithms considered here sort the input sequences in ascending order. If the input is already in ascending order, which of the following are TRUE? I. Quicksort runs in [latex]\\Theta (n^{2})[/latex] time II. Bubblesort runs in [latex]\\Theta (n^{2})[/latex] time III. Merge sort runs in [latex]\\Theta (n)[/latex] time IV. Insertion sort runs in [latex]\\Theta (n)[/latex] time",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I and II only",
+      "B": "I and III only",
+      "C": "II and IV only",
+      "D": "I and IV only"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 72 Breadth First Search(BFS) is started on a binary tree beginning from the root vertex. There is a vertex t at a distance four from the root. If t is the n-th vertex in this BFS traversal, then the maximum possible value of n is______ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 31.0,
+    "max": 31.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 G = (V,E) is an undirected simple graph in which each edge has a distinct weight,and e is a particular edgeof G. Which of the following statements about the minimum spanning trees (MSTs) of G is/are TRUE? I. If e is the lightest edge of some cycle in G, then every MST of G includes e II. If e is the heaviest edge of some cycle in G, then every MST of G excludes e",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I only",
+      "B": "II only",
+      "C": "both I and II",
+      "D": "neither I nor II"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 74 Let G be a complete undirected graph on 4 vertices, having 6 edges  with weights being 1,2,3,4,5, and 6. The maximum possible weight that a minimum weight spanning tree of G can haveis .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 7.0,
+    "max": 7.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 75 Consider the weighted undirected graph with 4 vertices,where the weigh to edge {i, j} is given by the entry Wij in the matrix W. [latex]W=\\begin{bmatrix} 0 & 2&8 & 5\\\\ 2& 0& 5 &8 \\\\ 8 & 5 & 0& x\\\\ 5&8 & x&0 \\end{bmatrix}[/latex] The largest possible integer value of x, for which at least one shortest path between some pair\nof vertices will contain the edge with weight x is ____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 12.0,
+    "max": 12.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 76 Consider a carry lookahead adder for adding two n-bit integers,built using gates of fan-in at most two. The time to perform addition using this adder is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (1)[/latex]",
+      "B": "[latex]\\Theta (log(n))[/latex]",
+      "C": "[latex]\\Theta \\sqrt{n}[/latex]",
+      "D": "[latex]\\Theta (n)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 Let G be a weighted connected undirected graph with distinct positive edge weights. If every edge weight is increasedby the same value ,then which of the following statements is/are TRUE? P: Minimum spanning tree of G does not change Q: Shortest path between any pair of vertices does not change",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "P only",
+      "B": "Q only",
+      "C": "Neither P nor Q",
+      "D": "Both P and Q"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 78 The worst case running times of Insertion sort, Mergesort and Quicksort, respectively, are:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta[/latex](n logn), [latex]\\Theta[/latex](n logn), and [latex]\\Theta(n^{2})[/latex]",
+      "B": "[latex]\\Theta (n^{2}),\\Theta(n^{2}), and \\Theta (n logn)[/latex]",
+      "C": "[latex]\\Theta (n^{2}),\\Theta(n logn), and \\Theta (n logn)[/latex]",
+      "D": "[latex]\\Theta (n^{2}),\\Theta(n logn), and \\Theta (n^{2})[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 79 Consider the following directed graph: The number of different topological orderings of the vertices of the graph is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page16_q4.webp",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 If one uses straight two-way merge sort algorithm to sort the following elements in ascending order: 20, 47, 15, 8, 9, 4, 40, 30, 12, 17 then the order of these elements after second pass of the algorithm is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "8, 9, 15, 20, 47, 4, 12, 17, 30, 40",
+      "B": "8, 15, 20, 47, 4, 9, 30, 40, 12, 17",
+      "C": "15, 20, 47, 4, 8, 9, 12, 30, 40, 17",
+      "D": "4, 8, 9, 15, 20, 47, 12, 17, 30, 40"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 81 The number of spanning trees for a complete graph with seven vertices is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]2^{5}[/latex]",
+      "B": "[latex]7^{5}[/latex]",
+      "C": "[latex]3^{5}[/latex]",
+      "D": "[latex]2^{2 \\times 5}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 82 The time complexity of the following C function is (assume n>0) int recursive (int n) {\r\n    if(n == 1)\r\n        return (1);\r\n    else\r\n        return (recursive (n-1) + recursive (n-1));\r\n}",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O(n)",
+      "B": "[latex]O(n \\log n)[/latex]",
+      "C": "[latex]O\\left(n^{2}\\right)[/latex]",
+      "D": "[latex]O\\left(2^{n}\\right)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 A machine needs a minimum of 100 sec to sort 1000 names by quick sort. The minimum time needed to sort 100 names will be approximately",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "50.2 sec",
+      "B": "6.7 sec",
+      "C": "72.7 sec",
+      "D": "11.2 sec"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 Let [latex]f(n)=n[/latex] and [latex]g(n)=n^{1+sin \\; n}[/latex] where n is a positive integer. Which of the following statements is/are correct? I.   [latex]f(n)=O(g(n)) [/latex] II.   [latex]f(n)= \\Omega (g(n))[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only I",
+      "B": "Only II",
+      "C": "Both I and II",
+      "D": "Neither I nor II"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 85 Let G be a connected undirected graph of 100 vertices and 300 edges. The weight of a minimum spanning tree of G is 500. When the weight of each edge of G is increased by five, the weight of a minimum spanning tree becomes ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 995.0,
+    "max": 995.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 Language [latex]L_{1}[/latex] is polynomial time reducible to language [latex]L_{2}[/latex]. Language [latex]L_{3}[/latex] is polynomial time reducible to [latex]L_{2}[/latex], which in turn is polynomial time reducible to language [latex]L_{4}[/latex]. Which of the following is/are true? I. if [latex]L_{4} \\in P[/latex], then [latex]L_{2} \\in P[/latex] II. if [latex]L_{1} \\in P[/latex] or [latex]L_{3} \\in P[/latex], then [latex]L_{2} \\in P[/latex] III. [latex]L_{1} \\in P[/latex], if and only if [latex]L_{3} \\in P[/latex] IV. if [latex]L_{4} \\in P[/latex], then [latex]L_{1} \\in P[/latex] and [latex]L_{3} \\in P[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "II only",
+      "B": "III only",
+      "C": "I and IV only",
+      "D": "I only"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 Assume that a mergesort algorithm in the worst case takes 30 seconds for an input of size 64. Which of the following most closely approximates the maximum input size of a problem that can be solved in 6 minutes?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "256",
+      "B": "512",
+      "C": "1024",
+      "D": "2048"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 Consider the equality [latex]\\sum_{i=0}^{n}i^{3}=X[/latex] and the following choices for X I.[latex] \\Theta (n^{4}) [/latex] II. [latex] \\Theta (n^{5})  [/latex] III. [latex]O (n^{5})  [/latex] IV. [latex] \\Omega (n^{3})[/latex] The equality above remains correct if X is replaced by",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only I",
+      "B": "Only II",
+      "C": "I or III or IV but not II",
+      "D": "II or III or IV but not I"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 89 Suppose you are provided with the following function declaration in the C programming language. int partition(int a[ ], int n); The function treats the first element of a[] as a pivot, and rearranges the array so that all elements less than or equal to the pivot is in the left part of the array, and all elements greater than the pivot is in the right part. In addition, it moves the pivot so that the pivot is the last element of the left part. The return value is the number of elements in the left part. The following partially given function in the C programming language is used to find the [latex] k^{th}[/latex] smallest element in an array a[ ] of size n using the partition function. We assume [latex] k \\leq n[/latex] int kth_smallest(int a[], int n, int k)\r\n{\r\n    int left_end = partition(a,n);\r\n    if ( left_end+1 == k ){\r\n         return a[left_end];\r\n    }\r\n    if ( left_end+1 > k ){\r\n         return kth_smallest( ________ );\r\n    } else {\r\n         return kth_smallest( ________ );\r\n    }\r\n} The missing argument lists are respectively",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(a, left_end, k) and (a+left_end+1, n-left_end-1, k-left_end-1)",
+      "B": "(a, left_end, k) and (a, n-left_end-1, k-left_end-1)",
+      "C": "(a+left_end+1, n-left_end-1, k-left_end-1) and (a, left_end, k)",
+      "D": "(a, n-left_end-1, k-left_end-1) and (a, left_end, k)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 90 A Young tableau is a 2D array of integers increasing from left to right and from top to bottom. Any unfilled entries are marked with [latex]\\infty[/latex], and hence there cannot be any entry to the right of, or below a [latex]\\infty[/latex]. The following Young tableau consists of unique entries. When an element is removed from a Young tableau, other elements should be moved into its place so that the resulting table is still a Young tableau (unfilled entries may be filled in with a [latex]\\infty[/latex]). The minimum number of entries (other than 1) to be shifted, to remove 1 from the given Young tableau is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page18_q5.webp",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 Given below are some algorithms, and some algorithm design paradigms. Match the above algorithms on the left to the corresponding design paradigm they follow.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page19_q1.webp",
+    "options": {
+      "A": "1-i, 2-iii, 3-i, 4-v.",
+      "B": "1-iii, 2-iii, 3-i, 4-v",
+      "C": "1-iii, 2-ii, 3-i, 4-iv",
+      "D": "1-iii, 2-ii, 3-i, 4-v."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 Consider two decision problems Q1,Q2 such that Q1 reduces in polynomial time to 3-SAT and 3-SAT reduces in polynomial time to Q2. Then which one of the following is consistent with the above statement?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Q1 is in NP, Q2 is NP hard.",
+      "B": "Q2 is in NP, Q1 is NP hard",
+      "C": "Both Q1 and Q2 are in NP .",
+      "D": "Both Q1 and Q2 are NP hard"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 Consider the following C function. int fun1(int n){\n    int i,j,k,p,q=0;\n    for (i=1; i < n; ++i) {\n        p=0;\n        for (j=n; j > 1; j=j/2)\n              ++p;\n        for (k=1; k < p; k=k*2) \n             ++q;\n        }\n    return q;\n} Which one of the following most closely approximates the return value of the function fun1?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]n^{3}[/latex]",
+      "B": "[latex]n(log n)^{2}[/latex]",
+      "C": "[latex]n log n[/latex]",
+      "D": "[latex]n log(log n)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 94 The graph shown below has 8 edges with distinct integer edge weights. The minimum spanning tree (MST) is of weight 36 and contains the edges: {(A, C), (B, C), (B, E), (E, F), (D, F)}. The edge weights of only those edges which are in the MST are given in the figure shown below. The minimum possible sum of weights of all 8 edges of this graph is ___________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page19_q4.webp",
+    "min": 69.0,
+    "max": 69.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 Let G = (V, E) be a simple undirected graph, and s be a particular vertex in it called the source. For [latex]x \\in V[/latex], let d(x) denote the shortest distance in G from s to x. A breadth first search (BFS) is performed starting at s. Let T be the resultant BFS tree. If (u,v) is an edge of G that is not in T, then which one of the following CANNOT be the value of d(u)-d(v)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "-1",
+      "B": "0",
+      "C": "1",
+      "D": "2"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 96 Which one of the following is the recurrence equation for the worst case time complexity of the Quicksort algorithm for sorting n ( [latex]\\geq[/latex]2) numbers? In the recurrence equations given in the options below, c is a constant.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "T(n)=2T(n/2)+cn",
+      "B": "T(n)=T(n-1)+T(1)+cn",
+      "C": "T(n)=2T(n-1)+cn",
+      "D": "T(n)=T(n/2)+cn"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 97 Match the following:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page20_q2.webp",
+    "options": {
+      "A": "P-iii, Q-ii, R-iv, S-i",
+      "B": "P-i, Q-ii, R-iv, S-iii",
+      "C": "P-ii, Q-iii, R-iv, S-i",
+      "D": "P-ii, Q-i, R-iii, S-iv"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 Consider the following sorting algorithms. I. \r\n  Quicksort II.  Heapsort III> Mergesort Which of them perform in least time in the worst case?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "I and II only",
+      "B": "II and III only",
+      "C": "III only",
+      "D": "I, II and III"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 99 Consider the decision problem 2CNFSAT defined as follows: { [latex]\\phi[/latex] | [latex]\\phi[/latex]  is a satisfiable propositional formula in CNF with at most two literal per clause} For example, [latex]\\phi =(x_{1} \\vee x_{2}) \\wedge (x_{1}  \\vee \\bar{x_{3}}) \\wedge (x_{2}  \\vee x_{4})[/latex] is a Boolean formula and it is in 2CNFSAT. The decision problem 2CNFSAT is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "NP-Complete",
+      "B": "solvable in polynomial time by reduction to directed graph reachability.",
+      "C": "solvable in constant time since any input instance is satisfiable",
+      "D": "NP-hard, but not NP-complete"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 100 Suppose you want to move from 0 to 100 on the number line. In each step, you either move right by a unit distance or you take a shortcut. A shortcut is simply a pre-specified pair of integers i,j with [latex]i \\lt j[/latex]. Given a shortcut i, j if you are at position i on the number line, you may directly move to j. Suppose T(k) denotes the smallest number of steps needed to move from k to 100. suppose further that there is at most 1 shortcut involving any number, and in particular from 9 there is a shortcut to 15. Let y and z be such that T(9) = 1 + min(T(y), T(z)). Then the value of the product yz is_______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 150.0,
+    "max": 150.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 You have an array of n elements. Suppose you implement quick sort by always choosing the central element of the array as the pivot. Then the tightest upper bound for the worst case performance is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(n^{2})[/latex]",
+      "B": "[latex]O(n logn)[/latex]",
+      "C": "[latex]\\theta (n logn)[/latex]",
+      "D": "[latex]O(n^{3})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 102 Suppose depth first search is executed on the graph below starting at some unknown vertex. Assume that a recursive call to visit a vertex is made only after first checking that the vertex has not been visited earlier. Then the maximum possible recursion depth (including the initial call) is _________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page21_q2.webp",
+    "min": 19.0,
+    "max": 19.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 103 The number of distinct minimum spanning trees for the weighted graph below is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page21_q3.webp",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 104 Suppose P, Q, R, S, T are sorted sequences having lengths 20, 24, 30, 35, 50 respectively.\nThey are to be merged into a single sequence by merging together two sequences at a time.\nThe number of comparisons that will be needed in the worst case by the optimal algorithm for doing this is ____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 358.0,
+    "max": 358.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 105 Consider two strings A=\"qpqrr\" and B=\"pqprqrp\". Let x be the length of the longest\ncommon subsequence (not necessarily contiguous) between A and B and let y be the number\nof such longest common subsequences between A and B. Then x + 10y = ___.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 34.0,
+    "max": 34.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 106 Consider the tree arcs of a BFS traversal from a source node W in an unweighted, connected,\nundirected graph. The tree T formed by the tree arcs is a data structure for computing",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "the shortest path between every pair of vertices",
+      "B": "the shortest path from W to every vertex in the graph.",
+      "C": "the shortest paths from W to only those nodes that are leaves of T.",
+      "D": "the longest path in the graph."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 107 Which one of the following correctly determines the solution of the recurrence relation with\nT(1) = 1? [latex]T(n)=2T(\\frac{n}{2})+logn[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\theta (n)[/latex]",
+      "B": "[latex]\\theta (n logn)[/latex]",
+      "C": "[latex]\\theta (n^{2})[/latex]",
+      "D": "[latex]\\theta (log n)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 108 The minimum number of comparisons required to find the minimum and the maximum of\n100 numbers is _________________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 147.1,
+    "max": 148.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 109 Suppose a polynomial time algorithm is discovered that correctly computes the largest clique\r\nin a given graph. In this scenario, which one of the following represents the correct Venn\r\ndiagram of the complexity classes P, NP and NP Complete (NPC)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page22_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 110 Let P be a quick sort program to sort numbers in ascending order using the first element as\nthe pivot. Let t1 and t2 be the number of comparisons made by P for the inputs [1 2 3 4\n5] and [4 1 5 3 2] respectively. Which one of the following holds?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]t_{1}=5[/latex]",
+      "B": "[latex]t_{1} \\lt t_{2}[/latex]",
+      "C": "[latex]t_{1} \\gt t_{2}[/latex]",
+      "D": "[latex]t_{1}=t_{2}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 111 Let G be a graph with n vertices and m edges. What is the tightest upper bound on the\nrunning time of Depth First Search on G, when G is represented as an adjacency matrix?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n)[/latex]",
+      "B": "[latex]\\Theta (n+m)[/latex]",
+      "C": "[latex]\\Theta (n^{2})[/latex]",
+      "D": "[latex]\\Theta (m^{2})[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 112 Which of the following sorting algorithms has the minimum running time complexity in the best and average case?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Insertion sort, Quick sort",
+      "B": "Quick sort, Quick sort",
+      "C": "Quick sort, Insertion sort",
+      "D": "Insertion sort, Insertion sort"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 113 Consider the following function: int unknown(int n){\n   int i, j, k=0;\n   for (i=n/2; i<=n; i++)\n        for (j=2; j<=n; j=j*2)\n             k = k + n/2;\n    return (k);\n} The return value of the function is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n^{2})[/latex]",
+      "B": "[latex]\\Theta (n^{2}logn)[/latex]",
+      "C": "[latex]\\Theta (n^{3})[/latex]",
+      "D": "[latex]\\Theta (n^{3}logn)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 114 The number of elements that can be sorted in [latex]\\Theta (log n)[/latex] time using heap sort is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (1)[/latex]",
+      "B": "[latex]\\Theta (\\sqrt{logn})[/latex]",
+      "C": "[latex]\\Theta (\\frac{log n}{log log n})[/latex]",
+      "D": "[latex]\\Theta (log n)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 115 What is the time complexity of Bellman-Ford single-source shortest path algorithm on a complete\ngraph of n vertices?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n^{2})[/latex]",
+      "B": "[latex]\\Theta (n^{2} log n)[/latex]",
+      "C": "[latex]\\Theta (n^{3})[/latex]",
+      "D": "[latex]\\Theta (n^{3} log n)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 116 Which of the following statements are TRUE? 1. The problem of determining whether there exists a cycle in an undirected graph is in P. 2. The problem of determining whether there exists a cycle in an undirected graph is in NP. 3. If a problem A is NP-Complete, there exists a non-deterministic polynomial time algorithm\nto solve A.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1, 2 and 3",
+      "B": "1 and 2 only",
+      "C": "2 and 3 only",
+      "D": "1 and 3 only"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 117 Which one of the following is the tightest upper bound that represents the number of swaps\nrequired to sort n numbers using selection sort?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O(log n)",
+      "B": "O(n)",
+      "C": "O(n log n)",
+      "D": "[latex]O(n^{2})[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 118 Consider the directed graph shown in the figure below. There are multiple shortest paths between\nvertices S and T. Which one will be reported by Dijkstra's shortest path algorithm? Assume that, in\nany iteration, the shortest path to a vertex v is updated only when a strictly shorter path to v is\ndiscovered",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page24_q3.webp",
+    "options": {
+      "A": "SDT",
+      "B": "SBDT",
+      "C": "SACDT",
+      "D": "SACET"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 119 A list of n strings, each of length n, is sorted into lexicographic order using the merge-sort\nalgorithm. The worst case running time of this computation is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O (n log n)",
+      "B": "O ([latex]n^{2} log n[/latex])",
+      "C": "O ([latex]n^{2}+ log n[/latex])",
+      "D": "O ([latex]n^{2}[/latex])"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 120 Let G be a weighted graph with edge weights greater than one and G' be the graph constructed by\nsquaring the weights of edges in G. Let T and T' be the minimum spanning trees of G and G',\nrespectively, with total weights t and t'. Which of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "T' = T with total weight  [latex]t' = t^{2}[/latex]",
+      "B": "T' = T with total weight  [latex]t' \\lt  t^{2}[/latex]",
+      "C": "T' [latex]\\neq[/latex] T but total weight  [latex]t' = t^{2}[/latex]",
+      "D": "None of the above"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 121 Let W(n) and A(n) denote respectively, the worst case and average case running time of an\nalgorithm executed on an input of size n. Which of the following is ALWAYS TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A(n)=[latex]\\Omega[/latex](W(n))",
+      "B": "A(n) =[latex]\\Theta[/latex](W(n))",
+      "C": "A(n) =O(W(n))",
+      "D": "A(n) = o(W(n))"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 122 The recurrence relation capturing the optimal execution time of the Towers of Hanoi problem with n discs is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "T(n) = 2T(n - 2) + 2",
+      "B": "T(n) = 2T(n - 1) + n",
+      "C": "T(n) = 2T(n/2) + 1",
+      "D": "T(n) = 2T(n - 1) + 1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 123 Assuming P [latex]\\neq[/latex] NP, which of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "NP-complete = NP",
+      "B": "NP-complete [latex]\\cap[/latex] P = [latex]\\phi[/latex]",
+      "C": "NP-hard = NP",
+      "D": "P = NP-complete"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 124 Which of the following algorithm design technique is used in merge sort?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Greedy method",
+      "B": "Backtracking",
+      "C": "Dynamic programming",
+      "D": "Divide and Conquer"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 125 Let [latex]T(n)[/latex] be defined by [latex]T(1)=10[/latex] and [latex]T(n+1)=2n+T(n)[/latex] for all integers [latex]n \\geq 1[/latex]. Which of the following  represents the order of growth of [latex]T(n)[/latex] as a function of n?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(n)[/latex]",
+      "B": "[latex]O(n \\log n)[/latex]",
+      "C": "[latex]O(n^2)[/latex]",
+      "D": "[latex]O(n^3)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 126 Which one of the following in place sorting algorithms needs the minimum number of swaps?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Quick sort",
+      "B": "Insertion sort",
+      "C": "Selection sort",
+      "D": "Heap sort"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 127 An undirected graph G(V, E) contains n (n[latex]>[/latex]2) nodes named v1 , v2 ,...,vn. Two nodes vi , vj are connected if and only if 0[latex]\\lt [/latex]|i-j|[latex]\\leq[/latex]2.  Each edge (vi,vj ) is assigned a weight i+j. A sample graph with n=4 is shown below. The length of the path from v5 to v6 in the MST of previous question with n = 10 is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page26_q2.webp",
+    "options": {
+      "A": "11",
+      "B": "25",
+      "C": "31",
+      "D": "41"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 128 An undirected graph G(V, E) contains n (n[latex]>[/latex]2) nodes named v1 , v2 ,...,vn. Two nodes vi , vj are connected if and only if 0[latex]\\lt [/latex]|i-j|[latex]\\leq[/latex]2.  Each edge (vi,vj ) is assigned a weight i+j. A sample graph with n=4 is shown below. What will be the cost of the minimum spanning tree (MST) of such a graph with n nodes?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page26_q3.webp",
+    "options": {
+      "A": "[latex]\\frac{1}{12}(11n^{2}-5n)[/latex]",
+      "B": "[latex]n^{2}-n+1[/latex]",
+      "C": "6n-11",
+      "D": "2n+1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 129 Four matrices M1, M2, M3 and M4 are dimensions p x q, q x r, r x s and s x t\nrespectively can be multiplied in several ways with different number of total\nscalar multiplications. For example When multiplied as [latex]((M_{1} \\times  M_{2})\\times (M_{3}\\times M_{4})[/latex] the total number of scalar multiplications is pqr+rst+prt. When multiplied as [latex](((M_{1}\\times M_{2})\\times M_{3})\\times M_{4})[/latex] , the total number of scalar multiplications is pqr+prs+pst.\nIf p=10, q=100, r=20, s=5 and t=80, then the minimum number of scalar\nmultiplications needed is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "248000",
+      "B": "44000",
+      "C": "19000",
+      "D": "25000"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 130 Which of the given options provides the increasing order of asymptotic\r\ncomplexityoffunctions f1, f2, f3 and f4? [latex]f_{1}(n)=2^{n};[/latex] [latex]f_{2}(n)=n^{3/2}; [/latex] [latex] f_{3}(n)=nlog_{2}n; [/latex] [latex] f_{4}(n)=n^{log_{2}n}[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]f_3, f_2, f_4, f_1[/latex]",
+      "B": "[latex]f_3, f_2, f_1, f_4[/latex]",
+      "C": "[latex]f_2, f_3, f_1, f_4[/latex]",
+      "D": "[latex]f_2, f_3, f_4, f_1[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 131 An algorithm to find the length of the longest monotonically increasing sequence of numbers in an array A[0 :n-1] is given below. Let Li denote the length of the longest monotonically increasing sequence starting at index i in the array Which of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page27_q1.webp",
+    "options": {
+      "A": "The algorithm uses dynamic programming paradigm",
+      "B": "The algorithm has a linear complexity and uses branch and bound paradigm",
+      "C": "The algorithm has a non-linear polynomial complexity and uses branch and\nbound paradigm",
+      "D": "The algorithm uses divide and conquer paradigm."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 132 Consider a complete undirected graph with vertex set {0, 1, 2, 3, 4}. Entry [latex]W_{ij}[/latex] in\r\nthe matrix W below is the weight of the edge {i, j}. [latex]\\begin{pmatrix} 0&1 & 8 & 1 &4 \\\\ 1& 0 & 12 & 4 & 9\\\\ 8 & 12 & 0 & 7 & 3\\\\ 1& 4& 7 & 0 &2 \\\\ 4& 9 & 3& 2 &0 \\end{pmatrix}[/latex] What is the minimum possible weight of a path P from vertex 1 to vertex 2 in this\r\ngraph such that P contains at most 3 edges?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 133 Consider a complete undirected graph with vertex set {0, 1, 2, 3, 4}. Entry [latex]W_{ij}[/latex] in\r\nthe matrix W below is the weight of the edge {i, j}. [latex]\\begin{pmatrix} 0&1 & 8 & 1 &4 \\\\ 1& 0 & 12 & 4 & 9\\\\ 8 & 12 & 0 & 7 & 3\\\\ 1& 4& 7 & 0 &2 \\\\ 4& 9 & 3& 2 &0 \\end{pmatrix}[/latex] What is the minimum possible weight of a spanning tree T in this graph such that\r\nvertex 0 is a leaf node in the tree T?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 134 Two alternative packages A and B are available for processing a database having\r\n[latex]10^{k}[/latex] records. Package A requires 0.0001[latex]n^{2}[/latex] time units and package B requires\r\n[latex]10n \\log _{{10}} n[/latex] time units to process n records. What is the smallest value of k for\r\nwhich package B will be preferred over A?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "12",
+      "B": "10",
+      "C": "6",
+      "D": "5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 135 A sub-sequence of a given sequence is just the given sequence with some\nelements (possibly none or all) left out. We are given two sequences X[m] and\nY[n] of lengths m and n, respectively, with indexes of X and Y starting from 0. We wish to find the length of the longest common sub-sequence (LCS) of x[m] and Y[n] as l(m,n), where an incomplete recursive definition for the function l(i,j) to compute the length of the LCS of x[m] and Y[n] is given below: l(i, j) = 0, if either i=0 or j=0\nl(i, j) = expr1, if i,j>0 and x [i-1] = Y [j -1]\nl(i, j) = expr2, if i,j>0 and x [i-1] != Y [j -1] The values of l(i,j) could be obtained by dynamic programming based on the\ncorrect recursive definition of l(i,j) of the form given above, using an array\nL[M,N], where M = m+1 and N=n+1, such that L[i,j] = l(i,j). Which one of the following statements would be TRUE regarding the dynamic\nprogramming solution for the recursive definition of l(i,j)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "All elements L should be initialized to 0 for the values of l(i,j) to be properly computed.",
+      "B": "The values of l(i,j) may be computed in a row major order or column major order of L(M,N).",
+      "C": "The values of l(i,j) cannot be computed in either row major order or column\nmajor order of L(M,N).",
+      "D": "L[p,q] needs to be computed before L[r,s] if either p"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 136 A sub-sequence of a given sequence is just the given sequence with some\nelements (possibly none or all) left out. We are given two sequences X[m] and\nY[n] of lengths m and n, respectively, with indexes of X and Y starting from 0. We wish to find the length of the longest common sub-sequence (LCS) of x[m] and Y[n] as l(m,n), where an incomplete recursive definition for the function l(i,j) to compute the length of the LCS of x[m] and Y[n] is given below: l(i, j) 0, if either i=0 or j=0\n= expr1, if i,j>0 and x [i-1] Y [j -1]\n= expr2, if i,j>0 and x [i-1] Y [j -1] Which one of the following options is correct?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "expr1 = l(i-1, j) + 1",
+      "B": "expr1 = l(i, j-1)",
+      "C": "expr2 = max (l(i-1, j), l(i,j-1))",
+      "D": "expr2 = max(l(i-1, j-1), l(i,j))"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 137 In quick sort, for sorting n elements, the (n/4)th smallest element is selected as\npivot using an O(n) time algorithm. What is the worst case time complexity of the quick sort?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\theta (n)[/latex]",
+      "B": "[latex]\\theta (n logn)[/latex]",
+      "C": "[latex]\\theta (n^{2})[/latex]",
+      "D": "[latex]\\theta (n^{2} logn)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 138 Consider the following graph: Which one of the following is NOT the sequence of edges added to the minimum spanning tree using Kruskal's algorithm?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page28_q3.webp",
+    "options": {
+      "A": "(b,e) (e,f) (a,c) (b,c) (f,g) (c,d)",
+      "B": "(b,e) (e,f) (a,c) (f,g) (b,c) (c,d)",
+      "C": "(b,e) (a,c) (e,f) (b,c) (f,g) (c,d)",
+      "D": "(b,e) (e,f) (b,c) (a,c) (f,g) (c,d)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 139 The running time of an algorithm is represented by the following recurrence relation: [latex]T(n)=\\left\\{\\begin{matrix} n & n\\leq 3\\\\ T(\\frac{n}{3})+cn& otherwise \\end{matrix}\\right.[/latex] Which one of the following represents the time complexity of the algorithm?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\theta[/latex](n)",
+      "B": "[latex]\\theta[/latex](n log n)",
+      "C": "[latex]\\theta (n^{2})[/latex]",
+      "D": "[latex]\\theta (n^{2} logn)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 140 Let [latex]\\pi _{A}[/latex] be a problem that belongs to the class NP. Then which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "There is no polynomial time algorithm for [latex]\\pi _{A}[/latex].",
+      "B": "If [latex]\\pi _{A}[/latex] can be solved deterministically in polynomial time, then P = NP.",
+      "C": "If [latex]\\pi _{A}[/latex] is NP-hard, then it is NP-complete.",
+      "D": "[latex]\\pi _{A}[/latex] may be undecidable"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 141 Which of the following statement(s) is/are correct regarding Bellman-Ford\r\nshortest path algorithm? P. Always finds a negative weighted cycle, if one exists. Q. Finds whether any negative weighted cycle is reachable from the source.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "P only",
+      "B": "Q only",
+      "C": "both P and Q",
+      "D": "Neither P nor Q"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 142 What is the number of swaps required to sort n elements using selection sort, in the worst case?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\theta (n)[/latex]",
+      "B": "[latex]\\theta (n logn)[/latex]",
+      "C": "[latex]\\theta (n^{2})[/latex]",
+      "D": "[latex]\\theta (n^{2} logn)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 143 How many comparisons are needed to sort an array of length 5 if a straight selection sort is used  and array is already in the opposite order?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1",
+      "B": "10",
+      "C": "15",
+      "D": "20"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 144 Which one of the following algorithm design techniques is used in finding all pairs of shortest distances in a graph?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Dynamic programming",
+      "B": "Backtracking",
+      "C": "Greedy",
+      "D": "Divide and Conquer"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 145 Consider the following sequence of nodes for the undirected graph given below: 1.a b e f d g c 2.a b e f c g d 3.a d g e b c f 4.a d b c g e f A Depth First Search (DFS) is started at node a. The nodes are listed in the order they are first visited. Which of the above is/are possible output(s)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page29_q5.webp",
+    "options": {
+      "A": "1 and 3 only",
+      "B": "2 and 3 only",
+      "C": "2, 3 and 4 only",
+      "D": "1, 2 and 3 only"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 146 For the undirected, weighted graph given below, which of the following sequences of edges represents a correct execution of Prim's algorithm to construct a Minimum Span?ning Tree?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page30_q1.webp",
+    "options": {
+      "A": "(a, b), (d, f), (f, c), (g, i), (d, a), (g, h), (c, e), (f, h)",
+      "B": "(c, e), (c, f), (f, d), (d, a), (a, b), (g, h), (h, f), (g, i)",
+      "C": "(d, f), (f, c), (d, a), (a, b), (c, e), (f, h), (g, h), (g, i)",
+      "D": "(h, g), (g, i), (h, f), (f, c), (f, d), (d, a), (a, b), (c, e)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 147 When [latex]n=2^{2 k}[/latex] for some [latex]k \\geqslant 0[/latex], the recurrence relation [latex]T(n)=\\sqrt{(} 2) T(n / 2)+\\sqrt{n}, T(1)=1[/latex] evaluates to :",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\sqrt{(} n)(\\log n+1)[/latex]",
+      "B": "[latex]\\sqrt{(} n) \\log n[/latex]",
+      "C": "[latex]\\sqrt{(} n) \\log \\sqrt{(} n)[/latex]",
+      "D": "[latex]n \\log \\sqrt{n}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 148 If we use Radix Sort to sort n integers in the range [latex]\\left (n^{k/2}, n^k \\right )[/latex], for some k>0 which is independent of n, the time taken would be?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta(n)[/latex]",
+      "B": "[latex]\\Theta(kn)[/latex]",
+      "C": "[latex]\\Theta(n \\log n)[/latex]",
+      "D": "[latex]\\Theta(n^2)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 149 For problems X and Y, Y is NP-complete and X reduces to Y in polynomial time. Which of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "If X can be solved in polynomial time, then so can Y",
+      "B": "X is NP-complete",
+      "C": "X is NP-hard",
+      "D": "X is in NP, but not necessarily NP-complete"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 150 Arrange the following functions in increasing asymptotic order: a. [latex]n^{1/3}[/latex] b. [latex]e^n[/latex] c. [latex]n^{7/4}[/latex] d. [latex]n \\log^9n[/latex] e. [latex]1.0000001^n[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "a, d, c, e, b",
+      "B": "d, a, c, e, b",
+      "C": "a, c, d, e, b",
+      "D": "a, c, d, b, e"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 151 The subset-sum problem is defined as follows. Given a set of n positive integers,\nS={[latex]a_{1},a_{2},...,a_{n}[/latex]} and positive integer W, is there a subset of S whose\nelements sum to W? A dynamic program for solving this problem uses a\n2-dimensional Boolean array, X, with n rows and W+1 columns.  X[i,j], [latex]1\\leq i\\leq n[/latex], [latex]0\\leq j \\leq W[/latex], is TRUE if and only if there is a subset of {[latex]a_{1},a_{2},...,a_{i} [/latex]}whose elements sum to j. Which entry of the array X, if TRUE, implies that there is a subset whose\nelements sum to W?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "X[1,W]",
+      "B": "X[n,0]",
+      "C": "X[n,W]",
+      "D": "X[n-1,n]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 152 The subset-sum problem is defined as follows. Given a set of n positive integers,\nS={[latex]a_{1},a_{2},...,a_{n}[/latex]} and positive integer W, is there a subset of S whose\nelements sum to W? A dynamic program for solving this problem uses a\n2-dimensional Boolean array, X, with n rows and W+1 columns.  X[i,j], [latex]1\\leq i\\leq n[/latex], [latex]0\\leq j \\leq W[/latex], is TRUE if and only if there is a subset of {[latex]a_{1},a_{2},...,a_{i} [/latex]}whose elements sum to j. Which of the following is valid for [latex]2\\leq i\\leq n[/latex] and [latex]a_{i} \\leq j \\leq W[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]X[i,j]=X[i-1,j]\\vee X[i,j-a_{i}][/latex]",
+      "B": "[latex]X[i,j]=X[i-1,j]\\vee X[i-1,j-a_{i}][/latex]",
+      "C": "[latex]X[i,j]=X[i-1,j]\\wedge X[i,j-a_{i}][/latex]",
+      "D": "[latex]X[i,j]=X[i-1,j]\\wedge X[i-1,j-a_{i}][/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 153 Let [latex]x_{n}[/latex] denote the number of binary strings of length n that contain no consecutive 0s. The value of [latex]x_{5}[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "8",
+      "D": "16"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 154 Let [latex]x_{n}[/latex] denote the number of binary strings of length n that contain no consecutive 0s. Which of the following recurrences does [latex]x_{n}[/latex] satisfy?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]x_{n}=2x_{n-1}[/latex]",
+      "B": "[latex]x_{n}=x_{\\left \\lfloor n/2 \\right \\rfloor}+1[/latex]",
+      "C": "[latex]x_{n}=x_{\\left \\lfloor n/2 \\right \\rfloor}+n[/latex]",
+      "D": "[latex]x_{n}=x_{n-1}+x_{n-2}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 155 Consider the following C functions: int f1(int n)\n{\n  if(n == 0 || n == 1)\n    return n;\n  else\n    return (2*f1(n-1) + 3*f1(n-2));\n}\n \nint f2(int n)\n{\n  int i;\n  int X[N], Y[N], Z[N] ;\n  X[0] = Y[0] = Z[0] = 0;\n  X[1] = 1; Y[1] = 2; Z[1] = 3;\n  for(i = 2; i <= n; i++)\n  {\n    X[i] = Y[i-1] + Z[i-2];\n    Y[i] = 2*X[i];\n    Z[i] = 3*X[i];\n  }\n  return X[n] ;\n} The running time of f1(n) and f2(n) are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n) \\; and \\; \\Theta (n)[/latex]",
+      "B": "[latex]\\Theta (2^{n}) \\; and \\; \\Theta (n)[/latex]",
+      "C": "[latex]\\Theta (n) \\; and \\;  \\Theta (2^{n})[/latex]",
+      "D": "[latex]\\Theta (2^{n}) \\; and \\; \\Theta (2^{n})[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 156 Dijkstra's single source shortest path algorithm when run from vertex a in the\nabove graph, computes the correct shortest path distance to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page32_q1.webp",
+    "options": {
+      "A": "only vertex a",
+      "B": "only vertices a, e, f, g, h",
+      "C": "only vertices a, b, c, d",
+      "D": "all the vertices"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 157 The subset-sum problem is defined as follows: Given a set S of n positive\nintegers and a positive integer W, determine whether there is a subset of S\nWhose elements sum to W. An algorithm Q solves this problem in O(nW) time. Which of the following\nstatements is false?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Q solves the subset-sum problem in polynomial time when the input is\nencoded in unary",
+      "B": "Q solves the subset-sum problem in polynomial time when the input is\nencoded in binary",
+      "C": "The subset sum problem belongs to the class NP",
+      "D": "The subset sum problem is NP-hard"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 158 Consider the Quicksort algorithm. Suppose there is a procedure for finding a pivot element which splits the list into two sub-lists each of which contains at least one-fifth of the elements. Let T(n) be the number of comparisons required to sort n elements. Then",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]T(n)\\leq 2T (n/5)+n[/latex]",
+      "B": "[latex]T(n)\\leq T (n/5)+T(4n/5)+n[/latex]",
+      "C": "[latex]T(n)\\leq 2T (4n/5)+n[/latex]",
+      "D": "[latex]T(n)\\leq 2T (n/2)+n[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 159 G is a graph on n vertices and 2n-2 edges. The edges of G can be partitioned into\ntwo edge-disjoint spanning trees. Which of the following is NOT true for G?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "For every subset of k vertices, the induced subgraph has at most 2k-2 edges",
+      "B": "The minimum cut in G has at least two edges",
+      "C": "There are two edge-disjoint paths between every pair of vertices",
+      "D": "There are two vertex-disjoint paths between every pair of vertices"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 160 Consider the following functions: [latex]f(n)=2^{n} [/latex] [latex] g(n)=n!  [/latex] [latex] h(n)=n^{log n}[/latex] Which of the following statements about the asymptotic behaviour of f(n), g(n),\r\nand h(n) is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "f (n) = O(g(n)); g(n) = O(h(n))",
+      "B": "f (n) = [latex]\\Omega[/latex](g(n)); g(n) = O(h(n))",
+      "C": "g(n) = O(f (n)); h(n) = O(f (n))",
+      "D": "h(n) = O(f (n)); g(n) = [latex]\\Omega[/latex](f (n))"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 161 The Breadth First Search algorithm has been implemented using the queue data\nstructure. One possible order of visiting the nodes of the following graph is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page33_q1.webp",
+    "options": {
+      "A": "MNOPQR",
+      "B": "NQMPOR",
+      "C": "QMNPRO",
+      "D": "QMNPOR"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 162 The most efficient algorithm for finding the number of connected components in\nan undirected graph on n vertices and m edges has time complexity",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n)[/latex]",
+      "B": "[latex]\\Theta (m)[/latex]",
+      "C": "[latex]\\Theta (m+n)[/latex]",
+      "D": "[latex]\\Theta (mn)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 163 Djikstra's algorithm is used to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Create LSAs",
+      "B": "Flood an internet with information",
+      "C": "Calculate the routing tables",
+      "D": "Create a link state database"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 164 The time taken by binary search algorithm to search a key in a sorted array of n elements is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O (\\log_2 \\: n)[/latex]",
+      "B": "[latex]O  (n)[/latex]",
+      "C": "[latex]O  (n \\log_2 \\: n)[/latex]",
+      "D": "[latex]O  (n^2)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 165 The average case and worst case complexities for Merge sort algorithm are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O (n^2), O  (n^2)[/latex]",
+      "B": "[latex]O  (n^2), O (n \\log_2 n)[/latex]",
+      "C": "[latex]O (n \\log_2 n), O  (n^2)[/latex]",
+      "D": "[latex]O(n \\log_2 n), O (n \\log_2 n)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 166 Selection sort algorithm design technique is an example of",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Greedy method",
+      "B": "Divide-and-conquer",
+      "C": "Dynamic Programming",
+      "D": "Backtracking"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 167 Consider a job scheduling problem with 4 jobs [latex]J_1, J_2, J_3[/latex] and [latex]J_4[/latex] with corresponding deadlines: [latex](d_1, d_2, d_3, d_4) = (4, 2, 4, 2)[/latex]. Which of the following is not a feasible schedule without violating any job schedule?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]J_2, J_4, J_1, J_3[/latex]",
+      "B": "[latex]J_4, J_1, J_2, J_3[/latex]",
+      "C": "[latex]J_4, J_2, J_1, J_3[/latex]",
+      "D": "[latex]J_4, J_2, J_3, J_1[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 168 Consider n jobs [latex]J_1, J_2 \\dots J_n[/latex] such that job [latex]J_i[/latex] has execution time [latex]t_i[/latex] and a non-negative integer weight [latex]w_i[/latex]. The weighted mean completion time of the jobs is defined to be [latex]\\frac{\\sum_{i=1}^{n}w_iT_i}{\\sum_{i=1}^{n}w_i}[/latex], where [latex]T_i[/latex] is the completion time of job [latex]J_i[/latex]. Assuming that there is only one processor available, in what order must the jobs be executed in order to minimize the weighted mean completion time of the jobs?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Non-decreasing order of [latex]t_i[/latex]",
+      "B": "Non-increasing order of [latex]w_i[/latex]",
+      "C": "Non-increasing order of [latex]w_it_i[/latex]",
+      "D": "Non-increasing order of [latex]w_i/t_i[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 169 What is the largest integer m such that every simple connected graph with n vertices and n edges contains at least m different spanning trees ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "n"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 170 A depth-first search is performed on a directed acyclic graph. Let d[u] denote the time at which vertex u is visited for the first time and f[u] the time at which the DFS call to the vertex u terminates. Which of the following statements is always TRUE for all edges (u, v) in the graph ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "d[u] < d[v]",
+      "B": "d[u] < f[v]",
+      "C": "f[u] < f[v]",
+      "D": "f[u] > f[v]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 171 Exponentiation is a heavily used operation in public key cryptography. Which of the following options is the tightest upper bound on the number of multiplications required to compute [latex]b^n \\bmod{m}, 0 \\leq b, n \\leq m[/latex] ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(\\log n)[/latex]",
+      "B": "[latex]O(\\sqrt n)[/latex]",
+      "C": "[latex]O\\Biggl (\\frac{n}{\\log n} \\Biggr )[/latex]",
+      "D": "[latex]O(n)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 172 Consider a weighted, undirected graph with positive edge weights and let [latex]uv[/latex] be an edge in the graph. It is known that the shortest path from the source vertex [latex]s[/latex] to [latex]u[/latex] has weight 53 and the shortest path from [latex]s[/latex] to [latex]v[/latex] has weight 65. Which one of the following statements is always TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Weight [latex](u,v) \\leq 12[/latex]",
+      "B": "Weight (u,v) = 12",
+      "C": "Weight [latex](u,v) \\geq 12[/latex]",
+      "D": "Weight (u,v) > 12"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 173 Suppose that a robot is placed on the Cartesian plane. At each step it is allowed to move either one unit up or one unit right, i.e., if it is at (i,j) then it can move to either (i+1,j) or (i,j+1). Suppose that the robot is not allowed to traverse the line segment from (4,4) to\n(5,4). With this constraint, how many distinct paths are there for the robot to\nreach (10,10) starting from (0,0)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]2^{9}[/latex]",
+      "B": "[latex]2^{19}[/latex]",
+      "C": "[latex]\\begin{pmatrix} 8\\\\ 4 \\end{pmatrix}*\\begin{pmatrix} 11\\\\ 5 \\end{pmatrix}[/latex]",
+      "D": "[latex]\\begin{pmatrix} 20\\\\ 10 \\end{pmatrix}-\\begin{pmatrix} 8\\\\ 4 \\end{pmatrix}*\\begin{pmatrix} 11\\\\ 5 \\end{pmatrix}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 174 Suppose that a robot is placed on the Cartesian plane. At each step it is allowed to move either one unit up or one unit right, i.e., if it is at (i,j) then it can move to either (i+1,j) or (i,j+1). How many distinct paths are there for the robot to reach the point (10,10)\nstarting from the initial position (0,0)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\begin{pmatrix} 20\\\\ 10 \\end{pmatrix}[/latex]",
+      "B": "[latex]2^{20}[/latex]",
+      "C": "[latex]2^{10}[/latex]",
+      "D": "None of the above"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 175 Suppose the letters a, b, c, d, e, f have probabilities 1/2, 1/4, 1/8, 1/16, 1/32, 1/32 respectively. What is the average length of  the Huffman code for the letters a,b,c,d,e,f?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "3",
+      "B": "2.1875",
+      "C": "2.25",
+      "D": "1.9375"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 176 Suppose the letters a, b, c, d, e, f have probabilities 1/2, 1/4, 1/8, 1/16, 1/32, 1/32 respectively. Which of the following is the Huffman code for the letter a, b, c, d, e, f?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0, 10, 110, 1110, 11110, 11111",
+      "B": "11, 10, 011, 010, 001, 000",
+      "C": "11, 10, 01, 001, 0001, 0000",
+      "D": "110, 100, 010, 000, 001, 111"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 177 Consider the following C code segment: int IsPrime(n)\r\n{\r\n  int i,n;\r\n  for(i=2;i<=sqrt(n);i++)\r\n     if(n%i == 0)\r\n      {printf(\"Not Primen\"); return 0;}\r\n  return 1;\r\n} Let T(n)denote the number of times the for loop is executed by the program on\r\ninput n. Which of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]T(n)=O(\\sqrt{n}) \\; and \\; T(n)=\\Omega (\\sqrt{n})[/latex]",
+      "B": "[latex]T(n)=O(n)  \\; and \\;  T(n)=\\Omega (\\sqrt{n})[/latex]",
+      "C": "[latex]T(n)=O(\\sqrt{n})  \\; and \\;  T(n)=\\Omega (1)[/latex]",
+      "D": "None of the above"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 178 Let w be the minimum weight among all edge weights in an undirected connected\ngraph. Let e be a specific edge of weight w . Which of the following is FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "There is a minimum spanning tree containing e.",
+      "B": "If e is not in a minimum spanning tree T, then in the cycle formed by adding\ne to T, all edges have the same weight.",
+      "C": "Every minimum spanning tree has an edge of weight w .",
+      "D": "e is present in every minimum spanning tree."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 179 What is the Asymptotic Notation of the following recursive function: int DoSomething (int n) \n{\n  if (n <= 2)\n    return 1;\n  else \n    return (DoSomething (floor(sqrt(n))) + n);\n}",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n^{2})[/latex]",
+      "B": "[latex]\\Theta (n log_{2} n)[/latex]",
+      "C": "[latex]\\Theta (log_{2} n)[/latex]",
+      "D": "[latex]\\Theta (log_{2} log_{2}n)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 180 In the following C function, let n[latex]\\geq[/latex]m. int gcd(n,m)\n{\n  if (n%m ==0) return m;  \n  n = n%m;\n  return gcd(m,n);\n} How many recursive calls are made by this function?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (logn)[/latex]",
+      "B": "[latex]\\Omega (n)[/latex]",
+      "C": "[latex]\\Theta (log logn)[/latex]",
+      "D": "[latex]\\Theta (\\sqrt{n})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 181 In an unweighted, undirected connected graph, the shortest path from a node S\nto every other node is computed most efficiently, in terms of time complexity, by",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Dijkstra's algorithm starting from S.",
+      "B": "Warshall's algorithm",
+      "C": "Performing a DFS starting from S.",
+      "D": "Performing a BFS starting from S."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 182 Which of the following sorting algorithms has the lowest worst-case complexity?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Merge sort",
+      "B": "Bubble sort",
+      "C": "Quick sort",
+      "D": "Selection sort"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 183 Consider the DAG with V = {1,2,3,4,5,6}, shown below. Which of the following is NOT a topological ordering?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page37_q3.webp",
+    "options": {
+      "A": "1 2 3 4 5 6",
+      "B": "1 3 2 4 5 6",
+      "C": "1 3 2 4 6 5",
+      "D": "3 2 4 1 6 5"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 184 The characters a to h have the set of frequencies based on the first 8 Fibonacci numbers as follows a:1, b:1, c:2, d:3, e:5, f:8, g:13, h:21 A Huffman code is used to represent the characters. What is the sequence of characters corresponding to the following code? 110111100111010",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "fdheg",
+      "B": "ecgdf",
+      "C": "dchfg",
+      "D": "fehdg"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 185 Consider the depth-first-search of an undirected graph with 3 vertices P, Q, and R. Let discovery time d(u) represent the time instant when the vertex u is first visited, and finish time f(u) represent the time instant when the vertex u is last visited. Given that [latex]\\begin{array}{l|l}\\hline \\text{$d(P) = 5$ units } & \\text{ $f(P) = 12$ units } \\\\\\hline \\text{$d(Q) = 6$ units} & \\text{ $f(Q) = 10$ units} \\\\\\hline \\text{$d(R) = 14$ unit} & \\text{$f(R) = 18$ units} \\\\\\hline \\end{array}[/latex] Which one of the following statements is TRUE about the graph?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "There is only one connected component",
+      "B": "There are two connected components, and P and R are connected",
+      "C": "There are two connected components, and Q and R are connected",
+      "D": "There are two connected components, and P and Q are connected"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 186 A problem in NP is NP-complete if",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "it can be reduced to the 3-SAT problem in polynomial time",
+      "B": "the 3-SAT problem can be reduced to it in polynomial time",
+      "C": "it can be reduced to any other problem in NP in polynomial time",
+      "D": "some problem in NP can be reduced to it in polynomial time"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 187 The median of n elements can be found in O(n) time. Which one of the following\r\nis correct about the complexity of quick sort, in which median is selected as pivot?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\theta[/latex](n)",
+      "B": "[latex]\\theta[/latex](nlogn)",
+      "C": "[latex]\\theta (n^{2})[/latex]",
+      "D": "[latex]\\theta (n^{3})[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 188 Consider the following recurrence: T(n)=2T([latex]\\left \\lceil \\sqrt{n} \\right \\rceil[/latex])+ 1,  T(1) = 1 Which one of the following is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "T(n)=[latex]\\Theta[/latex](loglogn)",
+      "B": "T(n)=[latex]\\Theta[/latex](logn)",
+      "C": "T(n)=[latex]\\Theta (\\sqrt{n})[/latex]",
+      "D": "T(n)=[latex]\\Theta[/latex](n)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 189 Let T be a depth first search tree in a undirected graph G Vertices u and v are\nleaves of this tree T. The degrees of both u and v in G are at least 2. Which one\nof the following statements is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "There must exist a vertex w adjacent to both u and v in G",
+      "B": "There must exist a vertex w whose removal disconnects u and v in G",
+      "C": "There must be exist a cycle in G containing u and v",
+      "D": "There must exist a cycle in G containing u and all its neighbours in G"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 190 Consider the following graph: Which one of the following cannot be the sequence of edges added, in that order, to a minimum spanning tree using Kruskal's algorithm?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page38_q5.webp",
+    "options": {
+      "A": "(a - b),(d - f),(b - f).( d - c),(d - e)",
+      "B": "(a - b),(d - f),(d - c),(b - f),(d - e)",
+      "C": "(d - f),(a - b),(d - c),(b - f),(d - e)",
+      "D": "(d - f),(a - b),(b - f),(d - e),(d - c)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 191 Let S be an NP-complete problem Q and R be two other problems not known to\nbe in NP. Q is polynomial-time reducible to S and S is polynomial-time reducible\nto R. Which one of the following statements is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "R is NP-complete",
+      "B": "R is NP-hard",
+      "C": "Q is NP-complete",
+      "D": "Q is NP-hard"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 192 Consider the following C-program fragment in which i, j,and n are integer variables. for (i = n, j = 0; i > 0; i/=2, j += i); Let Val(j) denote the value stored in the variable j after termination of the for\r\nloop. Which one of the following is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "val(j)=[latex]\\Theta[/latex](logn)",
+      "B": "val(j)=[latex]\\Theta[/latex](sqrt(n))",
+      "C": "val(j)=[latex]\\Theta[/latex](n)",
+      "D": "val(j)=[latex]\\Theta[/latex](nlogn)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 193 Which one the following in place sorting algorithms needs the minimum number\nof swaps?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Quick-sort",
+      "B": "Insertion sort",
+      "C": "Selection sort",
+      "D": "Heap sort"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 194 To implement Dijkstra's shortest path algorithm on unweighted graphs so that it\nruns in linear time, then data structure to be used is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "Heap",
+      "D": "B-Tree"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 195 Consider a weighted complete graph G on the vertex set {[latex]v_{1},v_{2},...,v_{n}[/latex]} such that the weight of the edge ([latex]v_{i},v_{j}[/latex]) is 2|i-j|. The weight of a minimum spanning tree",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "n-1",
+      "B": "2n-2",
+      "C": "[latex]\\binom{n}{2}[/latex]",
+      "D": "[latex]n^{2}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 196 Let [latex]G[/latex] be a directed graph whose vertex set is the set of numbers from 1 to 100. There is an edge from a vertex [latex]i[/latex] to a vertex [latex]j[/latex] iff either [latex]j = i + 1[/latex] or [latex]j = 3i[/latex]. The minimum number of edges in a path in G from vertex 1 to vertex 100 is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4",
+      "B": "7",
+      "C": "23",
+      "D": "99"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 197 Let G be a weighted undirected graph and e be an edge with maximum weight in G. Suppose there is a minimum weight spanning tree in G containing the edge e. Which of the following statements is always TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "There exists a cutset in G having all edges of maximum weight.",
+      "B": "There exists a cycle in G having all edges of maximum weight.",
+      "C": "Edge e cannot be contained in a cycle.",
+      "D": "All edges in G have the same weight"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 198 Let T(n) be a function defined by the recurrence [latex]T(n) = 2T(n/2) + \\sqrt n \\text{   for }n \\geq 2[/latex] and [latex]T(1) = 1[/latex] Which of the following statements is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]T(n) = \\Theta(\\log n)[/latex]",
+      "B": "[latex]T(n) = \\Theta(\\sqrt n)[/latex]",
+      "C": "[latex]T(n) = \\Theta(n)[/latex]",
+      "D": "[latex]T(n) = \\Theta(n \\log n)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 199 In the following table, the left column contains the names of standard graph algorithms and the right column contains the time complexities of the algorithms. Match each algorithm with its time complexity. [latex]\\begin{array}{|ll|ll|}\\hline \\text{1.} & \\text{Bellman-Ford algorithm} & \\text{A:} & \\text{$O(m\\log n)$} \\\\\\hline \\text{2.} & \\text{Kruskal's algorithm} & \\text{B:}& \\text{$O(n^3)$} \\\\\\hline \\text{3.}& \\text{Floyd-Warshall algorithm} & \\text{C:} & \\text{$O(nm)$} \\\\\\hline \\text{4.} & \\text{Topological sorting} &\\text{D:} & \\text{$O(n+m)$} \\\\\\hline \\end{array}[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1[latex]\\rightarrow[/latex] C, 2 [latex]\\rightarrow[/latex] A, 3 [latex]\\rightarrow[/latex] B, 4 [latex]\\rightarrow[/latex] D",
+      "B": "1[latex]\\rightarrow[/latex] B, 2 [latex]\\rightarrow[/latex] D, 3 [latex]\\rightarrow[/latex] C, 4 [latex]\\rightarrow[/latex] A",
+      "C": "1[latex]\\rightarrow[/latex] C, 2 [latex]\\rightarrow[/latex] D, 3 [latex]\\rightarrow[/latex] A, 4 [latex]\\rightarrow[/latex] B",
+      "D": "1[latex]\\rightarrow[/latex] B, 2 [latex]\\rightarrow[/latex] A, 3 [latex]\\rightarrow[/latex] C, 4 [latex]\\rightarrow[/latex] D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 200 In a depth-first traversal of a graph G with n vertices, k edges are marked as tree edges. The number of connected components in G is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "k",
+      "B": "k+1",
+      "C": "n-k-1",
+      "D": "n-k"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 201 We are given 9 tasks T1, T2... T9. The execution of each task requires one unit of time. We can execute one task at a time. Each task Ti has a profit Pi and a deadline di Profit Pi is earned if the task is completed before the end of the dith unit of time. What is the maximum profit earned?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page41_q1.webp",
+    "options": {
+      "A": "147",
+      "B": "165",
+      "C": "167",
+      "D": "175"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 202 We are given 9 tasks T1, T2... T9. The execution of each task requires one unit of time. We can execute one task at a time. Each task Ti has a profit Pi and a deadline di Profit Pi is earned if the task is completed before the end of the dith unit of time. Are all tasks completed in the schedule that gives maximum profit?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page41_q2.webp",
+    "options": {
+      "A": "All tasks are completed",
+      "B": "T1 and T6 are left out",
+      "C": "T1 and T8 are left out",
+      "D": "T4 and T6 are left out"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 203 Let s and t be two vertices in a undirected graph G=(V, E) having distinct positive edge weights. Let [X, Y] be a partition of V such that s[latex]\\in[/latex]X and t[latex]\\in[/latex]Y. Consider the edge e having the minimum weight amongst all those edges that have one vertex in X and one vertex in Y. Let the weight of an edge e denote the congestion on that edge. The congestion on a path is defined to be the maximum of the congestions on the edges of the path. We wish to find the path from s to t having minimum congestion. Which one of the following paths is always such a path of minimum congestion?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "a path from s to t in the minimum weighted spanning tree",
+      "B": "a weighted shortest path from s to t",
+      "C": "an Euler walk from s to t",
+      "D": "a Hamiltonian path from s to t"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 204 Let s and t be two vertices in a undirected graph G=(V, E) having distinct positive edge weights. Let [X, Y] be a partition of V such that s[latex]\\in[/latex]X and t[latex]\\in[/latex]Y. Consider the edge e having the minimum weight amongst all those edges that have one vertex in X and one vertex in Y. The edge e must definitely belong to:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "the minimum weighted spanning tree of G",
+      "B": "the weighted shortest path from s to t",
+      "C": "each path from s to t",
+      "D": "the weighted longest path from s to t"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 205 Consider the following C-function: double foo (int n)\n{\n    int i;\n    double sum;\n    if (n = = 0) return 1.0;\n    else\n    {\n        sum = 0.0;\n        for (i = 0; i < n; i++)\n            sum += foo (i);\n        return sum;\n    }\n} Suppose we modify the above function foo() and store the values of foo (i), [latex]0\\leq i \\lt n[/latex], as and when they are computed. With this modification, the time complexity for function foo() is significantly reduced.  The space complexity of the modified function would be:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O(1)",
+      "B": "O(n)",
+      "C": "O(n!)",
+      "D": "O([latex]n^{n}[/latex])"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 206 Consider the following C-function: double foo (int n)\r\n{\r\n    int i;\r\n    double sum;\r\n    if (n = = 0) return 1.0;\r\n    else\r\n    {\r\n        sum = 0.0;\r\n        for (i = 0; i < n; i++)\r\n            sum += foo (i);\r\n        return sum;\r\n    }\r\n} The Asymptotic Notation of space complexity of the above function is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O(1)",
+      "B": "O(n)",
+      "C": "O(n!)",
+      "D": "O([latex]n^{n}[/latex])"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 207 Consider the following two problems on undirected graphs: [latex]\\alpha[/latex] : Given G(V,E), does G have an independent set of size |V|-4? [latex]\\beta[/latex] : Given G(V,E), does G have an independent set of size 5? Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\alpha[/latex] is in P and [latex]\\beta[/latex] is NP-complete",
+      "B": "[latex]\\alpha[/latex] is NP-complete and [latex]\\beta[/latex] is in P",
+      "C": "Both [latex]\\alpha[/latex] and [latex]\\beta[/latex] are NP-complete",
+      "D": "Both [latex]\\alpha[/latex] and [latex]\\beta[/latex] are in P"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 208 Let G(V,E) be an undirected graph with positive edge weights. Dijkstra's single source shortest path algorithm can be implemented using the binary heap data structure with time complexity:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O([latex]|V|^{2}[/latex])",
+      "B": "O(|E| + |V|log|V|)",
+      "C": "O(|V|log|V|)",
+      "D": "O((|E| + |V|) log |V|)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 209 Suppose [latex]T (n) = 2T(n/2) + n, [/latex] T(0)=T(1)=1 Which one of the following is FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "T(n)=O([latex]n^{2}[/latex])",
+      "B": "T(n)=[latex]\\Theta[/latex](n log n)",
+      "C": "T(n)=[latex]\\Omega (n^{2}[/latex])",
+      "D": "T(n)=O(n log n)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 210 The Asymptotic Notation of computing the transitive closure of a binary relation on a set of n elements is known to be:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O(n)",
+      "B": "O(n log n)",
+      "C": "O([latex]n^{3/2}[/latex])",
+      "D": "O([latex]n^{3}[/latex])"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 211 An undirected graph G has n nodes. Its adjacency matrix is given by an nxn square matrix whose (i) diagonal elements are 0's and (ii) non-diagonal elements are 1's. which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Graph G has no minimum spanning tree (MST)",
+      "B": "Graph G has a unique MST of cost n-1",
+      "C": "Graph G has multiple distinct MSTs, each of cost n-1",
+      "D": "Graph G has multiple spanning trees of different costs"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 212 Consider a list of recursive algorithms and a list of recurrence relations as shown below. Each recurrence relation corresponds to exactly one algorithm and is used to derive the time complexity of the algorithm. [latex]\\begin{array}{|l|l|l|l|}\\hline \\text{} & \\textbf{Recursive Algorithm } & \\text{} & \\textbf{Recurrence Relation} \\\\\\hline \\text{P} & \\text{Binary search} & \\text{l.} & \\text{$T(n) = T(n-k) +T(k) +cn$} \\\\\\hline \\text{Q.} & \\text{Merge sort} &\\text{ll.} & \\text{$T(n) = 2T(n-1) + 1$ }\\\\\\hline\\text{R.} & \\text{Quick sort}& \\text{lll.} & \\text{$T(n) = 2T(n/2) + cn$}\\\\\\hline \\text{S.} & \\text{Tower of Hanoi} & \\text{lV.} & \\text{$T(n) = T(n/2) + 1$} \\\\\\hline \\end{array}[/latex] Which of the following is the correct match between the algorithms and their recurrence relations?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "P-II, Q-III, R-IV, S-I",
+      "B": "P-IV, Q-III, R-I, S-II",
+      "C": "P-III, Q-II, R-IV, S-I",
+      "D": "P-IV, Q-II, R-I, S-III"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 213 Consider the undirected graph below: Using Prim's algorithm to construct a minimum spanning tree starting with node A, which one of the following sequences of edges represents a possible order in which the edges would be added to construct the minimum spanning tree?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page43_q3.webp",
+    "options": {
+      "A": "(E, G), (C, F), (F, G), (A, D), (A, B), (A, C)",
+      "B": "(A, D), (A, B), (A, C), (C, F), (G, E), (F, G)",
+      "C": "(A, B), (A, D), (D, F), (F, G), (G, E), (F, C)",
+      "D": "(A, D), (A, B), (D, F), (F, C), (F, G), (G, E)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 214 Let f(n), g(n) and h(n) be functions defined for positive integers such that [latex]f(n) = O(g(n)), \\; g(n) \\neq O(f(n)), \\; g(n) = O(h(n)), \\text{ and  } h(n) = O(g(n)).[/latex] Which one of the following statements is FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]f(n) + g(n) = O(h(n) + h(n))[/latex]",
+      "B": "[latex]f(n) = O(h(n))[/latex]",
+      "C": "[latex]h(n) \\neq O(f(n))[/latex]",
+      "D": "[latex]f(n)h(n) \\neq O(g(n)h(n))[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 215 The recurrence equation T(1) = 1 T(n) = 2T(n - 1) + n, n [latex]\\geq[/latex] 2 evaluates to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]2^{n+1}-n-2[/latex]",
+      "B": "[latex]2^{n}-n[/latex]",
+      "C": "[latex]2^{n+1}-2n-2[/latex]",
+      "D": "[latex]2^{n}+n[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 216 The Asymptotic Notation of the following C function is (assume n [latex]\\gt[/latex] 0) int recursive (int n) {\n   if (n == 1)\n      return (1);\n   else\n      return (recursive (n - 1) + recursive (n - 1));\n}",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O([latex](n^{2})[/latex])",
+      "B": "O(nlog n)",
+      "C": "O(n)",
+      "D": "O([latex](2^{n})[/latex])"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 217 Let A[1,..., n] be an array storing a bit (1 or 0) at each location, and f(m) is a function whose Asymptotic Notation is [latex]\\theta[/latex](m). Consider the following program fragment written in a C like language: counter = 0;\nfor (i = 1; i < = n; i++)\n{ \n      if (A[i] == 1) \n         counter++;\n      else {\n         f(counter); \n         counter = 0;\n      }\n} The complexity of this program fragment is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Omega (n^{2})[/latex]",
+      "B": "[latex]\\Omega (n log n)[/latex] and [latex]O (n^{2})[/latex]",
+      "C": "[latex]\\theta[/latex](n)",
+      "D": "o(n)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 218 Suppose we run Dijkstra's single source shortest-path algorithm on the following edge-weighted\ndirected graph with vertex P as the source. In what order do the nodes get included into the set of vertices for which the shortest path distances are finalized?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page44_q3.webp",
+    "options": {
+      "A": "P,Q,R,S,T,U",
+      "B": "P,Q,R,U,S,T",
+      "C": "P,Q,R,U,T,S",
+      "D": "P,Q,T,R,U,S"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 219 The problem 3-SAT and 2-SAT are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "both in P",
+      "B": "both NP complete",
+      "C": "NP-complete and in P respectively",
+      "D": "undecidable and NP-complete respectively"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 220 The tightest lower bound on the number of comparisons, in the worst case, for comparison-based\nsorting is of the order of",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "n",
+      "B": "[latex]n^{2}[/latex]",
+      "C": "nlogn",
+      "D": "[latex]nlog^{2}n[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 221 What is the weight of a minimum spanning tree of the following graph?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page45_q1.webp",
+    "options": {
+      "A": "29",
+      "B": "31",
+      "C": "38",
+      "D": "41"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 222 Let G = (V,E) be an undirected graph with a sub-graph G1 = (V1,E1), Weight are\nassigned to edges of G as follows [latex]w(e)=\\left\\{\\begin{matrix} 0 &if \\;  e \\in E1, \\\\ 1&  otherwise \\end{matrix}\\right.[/latex] A single-source shortest path algorithm is executed on the weighted graph (V,E,w) with an arbitrary vertex v1 of V1 as the source. Which of the following can always be inferred from the path costs computed?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The number of edges in the shortest paths from v1 to all vertices of G",
+      "B": "G1 is connected",
+      "C": "V1 forms a clique in G",
+      "D": "G1 is a tree"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 223 The cube root of a natural number n is defined as the largest natural number m\nsuch that [latex]m^{3}\\leq n[/latex]. The complexity of computing the cube root of n(n is represented in binary notation) is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O(n) but not O([latex]n^{0.5}[/latex])",
+      "B": "O([latex]n^{0.5}[/latex]) but not O([latex](log \\;n)^{k}[/latex]) for any constant k [latex]>[/latex] 0",
+      "C": "O([latex](log \\;n)^{k}[/latex]) for some constant k [latex]>[/latex] 0, but not O([latex](log \\;log \\; n)^{m}[/latex]) for any constant\nm [latex]>[/latex] 0",
+      "D": "O([latex](log \\;log \\; n)^{k}[/latex]) for some constant k [latex]>[/latex] 0.5, but not O([latex](log \\;log \\; n)^{0.5}[/latex])"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 224 In a permutation [latex]a_1.....a_n[/latex] of n distinct integers, an inversion is a pair  [latex](a_i, a_j) [/latex] such that [latex]i \\lt j[/latex] and [latex]a_i \\gt a_j[/latex]. What would be the worst case time complexity of the insertion Sort algorithm, if\nthe inputs are restricted to permutations of 1....n with at most n inversions?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n^{2})[/latex]",
+      "B": "[latex]\\Theta (nlogn)[/latex]",
+      "C": "[latex]\\Theta (n^{1.5})[/latex]",
+      "D": "[latex]\\Theta (n)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 225 Consider the following recurrence relation T(1)=1 T(n+1)=T(n)+[latex]\\left \\lfloor \\sqrt{n+1} \\right \\rfloor[/latex]\n for all n [latex]\\geq[/latex] 1 The value of T([latex]m^{2}[/latex]\n) for m [latex]\\geq[/latex] 1 is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(m/6) (21m - 39) + 4",
+      "B": "(m/6) (4[latex]m^{2}[/latex] - 3m + 5)",
+      "C": "(m/2) ([latex]m^{2.5}[/latex] - 11m + 20) - 5",
+      "D": "(m/6) (5[latex]m^{3}[/latex] - 34[latex]m^{2}[/latex] + 137m - 104) + (5/6)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 226 The usual [latex]\\Theta (n^{2})[/latex]  implementation of Insertion Sort to sort ab array uses linear\nsearch to identify the position where an element is to be inserted into the already\nsorted part of the array. If, instead, we use binary search to identify the position,\nthe worst case running time will",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "remain [latex]\\Theta (n^{2})[/latex]",
+      "B": "become [latex]\\Theta (n(logn)^{2})[/latex]",
+      "C": "become[latex]\\Theta[/latex](nogn)",
+      "D": "become[latex]\\Theta[/latex](n)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 227 Consider the following graph Among the following sequences (I) a b e g h f (II) a b f e h g (III) a b f h g e (IV) a f g h b e Which are depth first traversals of the above graph?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/al/page46_q2.webp",
+    "options": {
+      "A": "I, II and IV only",
+      "B": "I and IV only",
+      "C": "II, III and IV only",
+      "D": "I, III and IV only"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 228 Consider the following three claims 1. [latex](n+k)^{m}=\\ominus (n^{m})[/latex] , where k and m are constants 2. [latex] 2^{n+1}=O(2^{n})[/latex] 3. [latex] 2^{2^{n}}+1=O(2^{n})[/latex] Which of these claims are correct?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1 and 2",
+      "B": "1 and 3",
+      "C": "2 and 3",
+      "D": "1, 2 and 3"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 229 Ram and Shyam have been asked to show that a certain problem P is NPcomplete.\nRam shows a polynomial time reduction from the 3-SAT problem to P\n, and Shyam shows a polynomial time reduction from P to 3-SAT. Which of the\nfollowing can be inferred from these reduction?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "P is NP-hard but not NP-complete",
+      "B": "P is in NP, but is not NP-complete",
+      "C": "P is NP-complete",
+      "D": "P is neither Np-hard, nor in NP"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 230 The running time of the following algorithm Procedure A(n) If n [latex]\\leq[/latex] 2 return (1) else return (A([latex]\\sqrt{n}[/latex])); is best discribed by",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O(n)",
+      "B": "O(log n)",
+      "C": "O(loglogn)",
+      "D": "O(1)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 231 The solution to the recurrence equation [latex]T(2^{k})=3T(2^{k-1})+1,T(1)=1[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]2^{k}[/latex]",
+      "B": "[latex]\\frac{3^{k+1}-1}{2}[/latex]",
+      "C": "[latex]3^{log_{2}^{k}}[/latex]",
+      "D": "[latex]2^{log_{3}^{k}}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 232 Let G be an undirected graph. Consider a depth-first traversal of G, and let T be the resulting depth-first search tree. Let u be a vertex in G and let v be the first new (unvisited) vertex visited after visiting u in the traversal. Which of the following statement is always true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "u, v must be an edge in G, and u is a descendant of v in T",
+      "B": "u, v must be an edge in G, and v is a descendant of u in T",
+      "C": "If u, v is not an edge in G then u is a leaf in T",
+      "D": "If u, v is not an edge in G then u and v must have the same parent in T"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 233 Let G be an undirected connected graph with distinct edge weights. Let [latex]e_{max}[/latex] be the edge with maximum weight and [latex]e_{min}[/latex] the edge with minimum weight. Which of the following statements is false?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Every minimum spanning tree of G must contain [latex]e_{min}[/latex]",
+      "B": "If [latex]e_{max}[/latex] is in a minimum spanning tree, then its removal must disconnect G",
+      "C": "No minimum spanning tree contains [latex]e_{max}[/latex]",
+      "D": "G has a unique minimum spanning tree"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 234 Consider the following functions [latex]f(n) = 3n^{\\sqrt{n}}[/latex] [latex]g(n) = 2^{\\sqrt{n}{\\log_{2}n}}[/latex] [latex]h(n) = n![/latex] Which of the following is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "h(n) is O(f(n))",
+      "B": "h(n) is O(g(n))",
+      "C": "g(n) is not O(f(n))",
+      "D": "f(n) is O(g(n))"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 235 Let S be a sorted array of n integers. Let T(n) denote the time taken for the most efficient algorithm to determined if there are two elements with sum less than 1000 in S. Which of the following statement is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]T (n) \\text{ is }O(1)[/latex]",
+      "B": "[latex]n \\leq T(n) \\leq n \\log_2 n[/latex]",
+      "C": "[latex]n \\log_2 n \\leq T(n) \\lt \\frac{n}{2}[/latex]",
+      "D": "[latex]T(n) = \\left (\\frac{n}{2} \\right)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 236 If [latex]T_1 = O(1)[/latex], give the correct matching for the following pairs: [latex]\\begin{array}{l|l}\\hline \\text{(M) $T_n = T_{n-1} + n$} & \\text{(U) $T_n = O(n)$} \\\\\\hline \\text{(N) $T_n = T_{n/2} + n$} & \\text{(V) $T_n = O(n \\log n)$} \\\\\\hline \\text{(O) $T_n = T_{n/2} + n \\log n$} & \\text{(W) $T_n = O(n^2)$} \\\\\\hline \\text{(P) $T_n = T_{n-1} + \\log n$} & \\text{(X) $T_n = O(\\log^2 n)$} \\\\\\hline \\end{array}[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\text{M-W, N-V, O-U, P-X}[/latex]",
+      "B": "[latex]\\text{M-W, N-U, O-X, P-V}[/latex]",
+      "C": "[latex]\\text{M-V, N-W, O-X, P-U}[/latex]",
+      "D": "[latex]\\text{M-W, N-U, O-V, P-X}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 237 The minimum number of record movements required to merge five files A (with 10 records), B (with 20 records), C (with 15 records), D (with 5 records) and E (with 25 records) is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "165",
+      "B": "90",
+      "C": "75",
+      "D": "65"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 238 If n is a power of 2, then the minimum number of multiplications needed to compute [latex]a^n[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\log_2 n[/latex]",
+      "B": "[latex]\\sqrt n[/latex]",
+      "C": "n-1",
+      "D": "n"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 239 If one uses straight two-way merge sort algorithm to sort the following elements in ascending order: 20, 47, 15, 8, 9, 4, 40, 30, 12, 17 then the order of these elements after second pass of the algorithm is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "8, 9, 15, 20, 47, 4, 12, 17, 30, 40",
+      "B": "8, 15, 20, 47, 4, 9, 30, 40, 12, 17",
+      "C": "15, 20, 47, 4, 8, 9, 12, 30, 40, 17",
+      "D": "4, 8, 9, 15, 20, 47, 12, 17, 30, 40"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 240 A sorting technique is called stable if",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "it takes [latex]O (n \\log n)[/latex] time",
+      "B": "it maintains the relative order of occurrence of non-distinct elements",
+      "C": "it uses divide and conquer paradigm",
+      "D": "it takes O(n) space"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 241 Give the correct matching for the following pairs: [latex]\\begin{array}{ll|ll}\\hline \\text{(A)} & \\text{$O (\\log n)$} & \\text{(P)} & \\text{Selection sort} \\\\\\hline \\text{(B)} & \\text{$O (n)$} & \\text{(Q)}& \\text{Insertion sort} \\\\\\hline \\text{(C)}& \\text{$O (n \\log n)$} & \\text{(R)} & \\text{Binary search} \\\\\\hline \\text{(D)} & \\text{$O (n^2)$} &\\text{(S)} & \\text{Merge sort} \\\\\\hline \\end{array}[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A-R  B-P  C-Q  D-S",
+      "B": "A-R  B-P  C-S  D-Q",
+      "C": "A-P  B-R  C-S  D-Q",
+      "D": "A-P  B-S  C-R  D-Q"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 242 Which one of the following algorithm design techniques is used in finding all pairs of shortest distances in a graph?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Dynamic programming",
+      "B": "Backtracking",
+      "C": "Greedy",
+      "D": "Divide and Conquer"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 243 Let T(n) be the function defined by [latex]T(1) =1, \\: T(n) = 2T (\\lfloor \\frac{n}{2} \\rfloor ) + \\sqrt{n} \\text{ for } n \\geq 2[/latex]. Which of the following statements is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]T(n) = O \\sqrt{n}[/latex]",
+      "B": "T(n)=O(n)",
+      "C": "[latex]T(n) = O (\\log n)[/latex]",
+      "D": "None of the above"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 244 The correct matching for the following pairs is [latex]\\begin{array}{ll|ll}\\hline \\text{A.} & \\text{All pairs shortest path} & \\text{1.} & \\text{Greedy} \\\\\\hline \\text{B.} & \\text{Quick Sort} & \\text{2.}& \\text{Depth-First Search} \\\\\\hline \\text{C.}& \\text{Minimum weight spanning tree} & \\text{3.} & \\text{Dynamic Programming} \\\\\\hline \\text{D.} & \\text{Connected Components} &\\text{4.} & \\text{Divide and Conquer} \\\\\\hline \\end{array}[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A-2 B-4 C-1 D-3",
+      "B": "A-3 B-4 C-1 D-2",
+      "C": "A-3 B-4 C-2 D-1",
+      "D": "A-4 B-1 C-2 D-3"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 245 Quick-sort is run on two inputs shown below to sort in ascending order taking first element as pivot (i).  [latex]1, 2, 3, \\dots n[/latex] (ii). [latex]n, n-1, n-2, \\dots, 2, 1[/latex] Let [latex]C_1[/latex] and [latex]C_2[/latex] be the number of comparisons made for the inputs (i) and (ii) respectively. Then,",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]C_1 \\lt C_2[/latex]",
+      "B": "[latex]C_1 = C_2[/latex]",
+      "C": "[latex]C_1 \\gt C_2[/latex]",
+      "D": "we cannot say anything for arbitrary n"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 246 The recurrence relation [latex]T(1) = 2[/latex] [latex]T(n) = 3T (\\frac{n}{4}) +n[/latex] has the solution [latex]T(n)[/latex] equal to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(n)[/latex]",
+      "B": "[latex]O (\\log n)[/latex]",
+      "C": "[latex]O\\left(n^\\frac{3}{4}\\right)[/latex]",
+      "D": "None of the above"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 247 Which of the following is false?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]100n \\log n=O(\\frac{n\\log n}{100})[/latex]",
+      "B": "[latex]\\sqrt{\\log n} = O(\\log\\log n)[/latex]",
+      "C": "[latex]\\text{If  } \\; 0 \\lt x \\lt y \\text{ then } n^x = O\\left(n^y\\right)[/latex]",
+      "D": "[latex]2^n \\neq O\\left(nk\\right)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 248 Merge sort uses:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Divide and conquer strategy",
+      "B": "Backtracking approach",
+      "C": "Heuristic search",
+      "D": "Greedy approach"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 249 Consider the following two functions: [latex]g_1(n) = \\begin{cases} n^3 \\text{ for } 0 \\leq n \\leq 10,000 \\\\ n^2 \\text{ for } n \\geq 10,000 \\end{cases}[/latex] [latex]g_2(n) = \\begin{cases} n \\text{ for } 0 \\leq n \\leq 100 \\\\ n^3 \\text{ for } n > 100 \\end{cases}[/latex] Which of the following is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]g_1(n) \\text{ is } O(g_2(n))[/latex]",
+      "B": "[latex]g_1(n) \\text{ is } O(n^3)[/latex]",
+      "C": "[latex]g_2(n) \\text{ is } O(g_1(n))[/latex]",
+      "D": "[latex]g_2(n) \\text{ is } O(n)[/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 250 Algorithm design technique used in quicksort algorithm is?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Dynamic programming",
+      "B": "Backtracking",
+      "C": "Divide and conquer",
+      "D": "Greedy method"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 251 The recurrence relation that arises in relation with the complexity of binary search is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]T(n) = 2T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant }[/latex]",
+      "B": "[latex]T(n) = T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant }[/latex]",
+      "C": "[latex]T(n) = T\\left(\\frac{n}{2}\\right)+\\log n[/latex]",
+      "D": "[latex]T(n) = T\\left(\\frac{n}{2}\\right)+n[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 252 [latex] \\sum_{1\\leq k\\leq n} O(n)[/latex],  where [latex]O(n)[/latex] stands for order [latex]n[/latex] is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O(n)",
+      "B": "[latex]O(n^2)[/latex]",
+      "C": "[latex]O(n^3)[/latex]",
+      "D": "[latex]O(3n^2)[/latex]",
+      "E": "[latex]O(1.5n^2)[/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 253 Consider the undirected unweighted graph G. Let a breadth-first traversal of\nG be done starting from a node r . Let d(r,u) and d(r,v) be the lengths of the\nshortest paths form r to u and v respectively in G. If u is visited before v during\nthe breadth-first traversal, which of the following statements is correct ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "d(r,u) [latex]\\lt[/latex] d(r,v)",
+      "B": "d(r,u) [latex]\\leq[/latex] d(r,v)",
+      "C": "d(r,u) [latex]\\gt[/latex]d(r,v)",
+      "D": "None of the above"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 254 Let  [latex]f (n) =n^{2} logn[/latex]  and [latex]g(n) = n(logn)^{10}[/latex] be two positive functions of n. Which of the following statements is correct ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "f (n) = O(g(n))and g(n) [latex]\\neq[/latex] O(f (n))",
+      "B": "g(n) = O(f (n)) and f (n) [latex]\\neq[/latex] O(g(n))",
+      "C": "f (n) [latex]\\neq[/latex] O(g(n)) and g(n) [latex]\\neq[/latex] O(f (n))",
+      "D": "f (n) = O(g(n))and g(n) = O(f (n))"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 255 Randomized quicksort is an extension of quicksort where the pivot is chosen\nrandomly. What is the worst case complexity of sorting n numbers using\nrandomized quicksort ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "O(n)",
+      "B": "O(nlogn)",
+      "C": "O([latex]n^{2}[/latex]\n)",
+      "D": "O(n!)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 256 Choose the correct alternatives (more than one may be correct) and write the corresponding letters only: Which of the following problems is not NP-hard?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Hamiltonian circuit problem",
+      "B": "The 0/1 Knapsack problem",
+      "C": "Finding bi-connected components of a graph",
+      "D": "The graph coloring problem"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 257 Choose the correct alternatives (more than one may be correct) and write the corresponding letters only: Following algorithm(s) can be used to sort n in the range [latex][1\\ldots n^3][/latex] in O(n) time",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Heap sort",
+      "B": "Quick sort",
+      "C": "Merge sort",
+      "D": "Radix sort"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 258 Choose the correct alternatives (more than one may be correct) and write the corresponding letters only: Kruskal's algorithm for finding a minimum spanning tree of a weighted graph G with n vertices and m edges has the time complexity of:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(n^{2})[/latex]",
+      "B": "O(mn)",
+      "C": "O(m+n)",
+      "D": "[latex]O(m \\log n)[/latex]",
+      "E": "[latex]O(m^2)[/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 259 Choose the correct alternatives (More than one may be correct). The complexity of comparision based sorting algorithms is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (n \\log n)[/latex]",
+      "B": "[latex]\\Theta (n)[/latex]",
+      "C": "[latex]\\Theta \\left(n^2\\right)[/latex]",
+      "D": "[latex]\\Theta (n\\sqrt n)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 260 Let P be a quicksort program to sort numbers in ascending order. Let [latex]t_{1}[/latex] and [latex]t_{2}[/latex] be the time taken by the program for the inputs [latex]\\left[1 \\ 2 \\ 3 \\ 4\\right][/latex] and [latex]\\left[5 \\ 4 \\ 3 \\ 2 \\ 1\\right][/latex], respectively. Which of the following holds?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]t_{1} = t_{2}[/latex]",
+      "B": "[latex]t_{1} \\gt t_{2}[/latex]",
+      "C": "[latex]t_{1} \\lt t_{2}[/latex]",
+      "D": "[latex]t_{1}=t_{2}+5 \\log 5[/latex]"
+    },
+    "correct_answer": "C"
+  }
+]

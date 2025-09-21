@@ -1,0 +1,3982 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Which of the following Boolean algebraic equation(s) is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\bar{A} B C + A \\bar{B} \\bar{C} + \\bar{A} \\bar{B} \\bar{C} + A \\bar{B} C + ABC = B C + \\bar{B} \\bar{C} + \\bar{A} \\bar{B} [/latex]",
+      "B": "[latex]A B + \\bar{A} C + B C = A B + \\bar{A} C [/latex]",
+      "C": "[latex](A + C)(\\bar{A} + B) = A B + \\bar{A} C [/latex]",
+      "D": "[latex] \\overline{(A + \\bar{B} + \\bar{D})(C + D)(\\bar{A} + C + D)(A + B + \\bar{D})} = \\bar{A} D + \\bar{C} \\bar{D} [/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 Three floating point numbers [latex]X, Y, Z [/latex] are stored in three registers [latex]RX, RY, RZ [/latex], respectively in IEEE 754 single precision format as given below in hexadecimal: [latex] RX = 0\\times C1100000, \\quad RY = 0\\times 40C00000, \\quad RZ = 0 \\times 41400000 [/latex] Which of the following option(s) is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]4(X + Y) + Z = 0 [/latex]",
+      "B": "[latex]2Y - Z = 0 [/latex]",
+      "C": "[latex]4X + 3Z = 0 [/latex]",
+      "D": "[latex]X + Y + Z = 0 [/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Given the following Karnaugh Map for a Boolean function [latex]F(w, x, y, z) [/latex]: Which one or more of the following Boolean expression(s) represent(s) [latex]F [/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page1_q3.webp",
+    "options": {
+      "A": "[latex]\\bar{w} \\bar{x} \\bar{y} \\bar{z} + w \\bar{x} \\bar{y} \\bar{z} + \\bar{w} \\bar{x} y\\bar{z} + w \\bar{x} y \\bar{z}  + xz [/latex]",
+      "B": "[latex]\\bar{w} \\bar{x} \\bar{y} \\bar{z} + \\bar{w} \\bar{x} y \\bar{z} + w \\bar{x} yz + xz [/latex]",
+      "C": "[latex]\\bar{w} \\bar{x} \\bar{y} \\bar{z} + w \\bar{x}\\bar{y} \\bar{z} + w \\bar{x} \\bar{y}z +xz [/latex]",
+      "D": "[latex]\\bar{x}\\bar{z} + xz [/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 4 In a 4-bit ripple counter, if the period of the waveform at the last flip-flop is 64 microseconds, then the frequency of the ripple counter in kHz is ________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 250.0,
+    "max": 250.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 The following two signed 2's complement numbers (multiplicand [latex]M [/latex] and multiplier [latex]Q [/latex]) are being multiplied using Booth's algorithm: [latex]\nM: 1100 \\, 1101 \\, 1110 \\, 1101 \\quad \\text{and} \\quad Q: 1010 \\, 0100 \\, 1010 \\, 1010\n[/latex] The total number of addition and subtraction operations to be performed is ________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 13.0,
+    "max": 13.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Consider the following logic circuit diagram. Which is/are the CORRECT option(s) for the output function [latex]F [/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page2_q1.webp",
+    "options": {
+      "A": "[latex]\\overline{XY} [/latex]",
+      "B": "[latex]\\overline{X} + \\overline{Y} + X \\overline{Y} [/latex]",
+      "C": "[latex]\\overline{XY} + \\overline{X} + X \\overline{Y} [/latex]",
+      "D": "[latex]X + \\overline{Y} [/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 Consider the given sequential circuit designed using D-Flip-flops. The circuit is initialized with some value (initial state). The number of distinct states the circuit will go through before returning back to the initial state is _________. (Answer in integer)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page2_q2.webp",
+    "min": 7.0,
+    "max": 8.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 Consider the following four-variable Boolean function in sum-of-product form [latex]F(b_3, b_2, b_1, b_0) = \\sum(0, 2, 4, 8, 10, 11, 12)[/latex]. Where the value of the function is computed by considering [latex]b_3b_2b_1b_0[/latex] as a 4-bit binary number, where [latex]b_3[/latex] denotes the most significant bit and [latex]b_0[/latex] denotes the least significant bit. Note that there are no don't care terms. Which ONE of the following options is the CORRECT minimized Boolean expression for [latex]F[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex] \\bar{b_1} \\bar{b_0} + \\bar{b_2} \\bar{b_0} + b_1 \\bar{b_2} b_3 [/latex]",
+      "B": "[latex] \\bar{b_1} \\bar{b_0} + \\bar{b_2} \\bar{b_0} [/latex]",
+      "C": "[latex] \\bar{b_2} \\bar{b_0} + b_1 b_2 b_3 [/latex]",
+      "D": "[latex] \\bar{b_0} \\bar{b_2} + \\bar{b_3} [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 The number [latex]-6[/latex] can be represented as 1010 in 4-bit 2's complement representation. Which of the following is/are CORRECT 2's complement representation(s) of [latex]-6[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1000 1010 in 8-bits",
+      "B": "1111 1010 in 8-bits",
+      "C": "1000 0000 0000 1010 in 16-bits",
+      "D": "1111 1111 1111 1010 in 16-bits"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 Let [latex]X[/latex] be a 3-variable Boolean function that produces output as '1' when at least two of the input variables are '1'. Which of the following statement(s) is/are CORRECT, where [latex]a, b, c, d, e[/latex] are Boolean variables?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]X(a, b, X(c, d, e)) = X(X(a, b, c), d, e)[/latex]",
+      "B": "[latex]X(a, b, X(a, b, c)) = X(a, b, c)[/latex]",
+      "C": "[latex]X(a, b, X(a, c, d)) = (X(a, b, a) \\text{ AND } X(c, d, c))[/latex]",
+      "D": "[latex]X(a, b, c) = X(a, X(a, b, c), X(a, c, c))[/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 Consider 4-variable functions [latex] f 1, f 2, f 3, f 4 [/latex] expressed in sum-of-minterms form as given below. [latex]\n\\begin{aligned}\n& f 1=\\sum(0,2,3,5,7,8,11,13) \\\\\n& f 2=\\sum(1,3,5,7,11,13,15) \\\\\n& f 3=\\sum(0,1,4,11) \\\\\n& f 4=\\sum(0,2,6,13)\n\\end{aligned}\n [/latex] With respect to the circuit given above, which of the following options is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page3_q1.webp",
+    "options": {
+      "A": "[latex]\\boldsymbol{Y}=\\sum(0,1,2,11,13)[/latex]",
+      "B": "[latex]\\boldsymbol{Y}=\\Pi(3,4,5,6,7,8,9,10,12,14,15)[/latex]",
+      "C": "[latex]\\boldsymbol{Y}=\\sum(0,1,2,3,4,5,6,7)[/latex]",
+      "D": "[latex]\\boldsymbol{Y}=\\Pi(8,9,10,11,12,13,14,15)[/latex]"
+    },
+    "correct_answers": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Which of the following is/are EQUAL to 224 in radix-5 (i.e., base-5) notation?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "64 in radix-10",
+      "B": "100 in radix-8",
+      "C": "50 in radix-16",
+      "D": "121 in radix-7"
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 For a Boolean variable [latex]x[/latex], which of the following statements is/are FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]x.1 = x[/latex]",
+      "B": "[latex]x+1 = x[/latex]",
+      "C": "[latex]x.x= 0[/latex]",
+      "D": "[latex]x+\\bar{x}= 1[/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 The format of a single-precision floating-point number as per the\nIEEE 754 standard is: Choose the largest floating-point number among the following options.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page3_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 Consider a digital logic circuit consisting of three 2-to-1 multiplexers M1, M2, and M3 as shown below. [latex] X 1 [/latex] and [latex] X 2 [/latex] are inputs of [latex] M 1 [/latex]. [latex] X 3 [/latex] and [latex] X 4 [/latex] are inputs of [latex] M 2 [/latex]. [latex] A, B [/latex], and [latex] C [/latex] are select lines of [latex] M 1, M 2 [/latex], and [latex] M 3 [/latex], respectively. For an instance of inputs [latex] X \\mathbf{X l}=\\mathbf{X} \\mathbf{2}=\\mathbf{1}, \\mathrm{X} 3=\\mathbf{0} [/latex], and [latex] \\mathrm{X} 4=\\mathbf{0} [/latex], the number of combinations of [latex] A, B, C [/latex] that give the output [latex] Y=1 [/latex] is _____",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page3_q5.webp",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Consider a Boolean expression given by [latex] F(X, Y, Z)=\\Sigma(3,5,6,7) [/latex]. Which of the following statements is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]F(X, Y, Z)=\\Pi(0,1,2,4)[/latex]",
+      "B": "[latex]F(X, Y, Z)=X Y+Y Z+X Z[/latex]",
+      "C": "[latex] F(X, Y, Z) [/latex] is independent of input [latex] Y [/latex]",
+      "D": "[latex] F(X, Y, Z) [/latex] is independent of input [latex] X [/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Consider the circuit shown below where the gates may have propagation delays.\nAssume that all signal transitions occur instantaneously and that wires have no\ndelays. Which of the following statements about the circuit is/are CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page4_q2.webp",
+    "options": {
+      "A": "With no propagation delays, the output Y is always logic Zero",
+      "B": "With no propagation delays, the output Y is always logic One",
+      "C": "With propagation delays, the output Y can have a transient logic One after X\ntransitions from logic Zero to logic One",
+      "D": "With propagation delays, the output Y can have a transient logic Zero after X\ntransitions from logic One to logic Zero"
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 Consider a system that uses 5 bits for representing signed integers in 2's complement format. In this system, two integers [latex]A [/latex] and [latex]B [/latex] are represented as [latex]A=01010 [/latex] and [latex]B=11010 [/latex]. Which one of the following operations will result in either an arithmetic overflow or an arithmetic underflow?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]A+B [/latex]",
+      "B": "[latex]A-B [/latex]",
+      "C": "[latex]B-A [/latex]",
+      "D": "[latex]2 * B [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 Consider the IEEE-754 single precision floating point numbers\nP=0xC1800000 and Q=0x3F5C2EF4. Which one of the following corresponds to the product of these numbers\n(i.e., P x Q), represented in the IEEE-754 single precision format?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0x404C2EF4",
+      "B": "0x405C2EF4",
+      "C": "0xC15C2EF4",
+      "D": "0xC14C2EF4"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 A Boolean digital circuit is composed using two 4-input multiplexers (M1 and M2)\nand one 2-input multiplexer (M3) as shown in the figure. X0-X7 are the inputs of\nthe multiplexers M1 and M2 and could be connected to either 0 or 1. The select\nlines of the multiplexers are connected to Boolean variables A, B and C as shown. Which one of the following set of values of (X0, X1, X2, X3, X4, X5, X6, X7) will\nrealise the Boolean function [latex] \\bar{A}+\\bar{A}\\cdot \\bar{C}+A\\cdot \\bar{B}\\cdot C[/latex] ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page4_q5.webp",
+    "options": {
+      "A": "(1, 1, 0, 0, 1, 1, 1, 0)",
+      "B": "(1, 1, 0, 0, 1, 1, 0, 1)",
+      "C": "(1, 1, 0, 1, 1, 1, 0, 0)",
+      "D": "(0, 0, 1, 1, 0, 1, 1, 1)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 Consider a sequential digital circuit consisting of T flip-flops and D flip-flops as\nshown in the figure. CLKIN is the clock input to the circuit. At the beginning,\nQ1, Q2 and Q3 have values 0, 1 and 1, respectively. Which one of the given values of (Q1, Q2, Q3) can NEVER be obtained with this\ndigital circuit?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page5_q1.webp",
+    "options": {
+      "A": "(0, 0, 1)",
+      "B": "(1, 0, 0)",
+      "C": "(1, 0, 1)",
+      "D": "(1, 1, 1)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 A particular number is written as 132 in radix-4 representation. The same number\nin radix-5 representation is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 110.0,
+    "max": 110.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 The output of a 2-input multiplexer is connected back to one of its inputs as shown\nin the figure. Match the functional equivalence of this circuit to one of the following options.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page5_q3.webp",
+    "options": {
+      "A": "D Flip-flop",
+      "B": "D Latch",
+      "C": "Half-adder",
+      "D": "Demultiplexer"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 Consider three floating point numbers A, B and C stored in registers  [latex]R_A[/latex],  [latex]R_B[/latex] and  [latex]R_C[/latex], respectively as per IEEE-754 single precision floating point format. The 32-bit content stored in these registers (in hexadecimal form) are as follows. [latex]R_A=0xC1400000[/latex] [latex]R_B=0x42100000[/latex] [latex]R_C=0x41400000[/latex] Which one of the following is FALSE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]A+C=0[/latex]",
+      "B": "[latex]C=A+B[/latex]",
+      "C": "[latex]B=3C[/latex]",
+      "D": "[latex](B-C) \\gt 0[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 Let R1 and R2 be two 4-bit registers that store numbers in 2's complement form. For the operation R1+R2, which one of the following values of R1 and R2 gives an arithmetic overflow?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "R1 = 1011 and R2 = 1110",
+      "B": "R1 = 1100 and R2 = 1010",
+      "C": "R1 = 0011 and R2 = 0100",
+      "D": "R1 = 1001 and R2 = 1111"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 Consider a Boolean function [latex]f(w,x,y,z) [/latex] such that [latex]\\begin{array}{lll} f(w,0,0,z) & = & 1 \\\\ f(1,x,1,z) & =& x+z \\\\ f(w,1,y,z) & = & wz +y \\end{array}[/latex] The number of literals in the minimal sum-of-products expression of  [latex]f [/latex] is ________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 If the numerical value of a 2-byte unsigned integer on a little endian computer is 255 more than that on a big endian computer, which of the following choices represent(s) the unsigned integer on a little endian computer?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0x6665",
+      "B": "0x0001",
+      "C": "0x4243",
+      "D": "0x0100"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 28 If [latex]x[/latex] and [latex]y[/latex] are two decimal digits and [latex](0.1101)_2 = (0.8xy5)_{10}[/latex], the decimal value of [latex]x+y[/latex] is ___________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Which one of the following circuits implements the Boolean function given below? [latex]f(x,y,z) = m_0+m_1+m_3+m_4+m_5+m_6[/latex] where [latex]m_i[/latex] is the [latex]i^{th}[/latex] minterm.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page6_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 The format of the single-precision floating point representation of a real number as per the IEEE 754 standard is as follows: [latex]\\begin{array}{|c|c|c|} \\hline \\text{sign} & \\text{exponent} & \\text{mantissa} \\\\ \\hline \\end{array}[/latex] Which one of the following choices is correct with respect to the smallest normalized positive number represented using the standard?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "exponent = 00000000 and mantissa = 0000000000000000000000000",
+      "B": "exponent = 00000000 and mantissa = 0000000000000000000000001",
+      "C": "exponent = 00000001 and mantissa = 0000000000000000000000000",
+      "D": "exponent = 00000001 and mantissa = 0000000000000000000000001"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 Consider the following Boolean expression. [latex]F=(X+Y+Z)(\\overline X +Y)(\\overline Y +Z)[/latex] Which of the following Boolean expressions is/are equivalent to [latex]\\overline F[/latex] (complement of [latex]F[/latex])?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](\\overline X +\\overline Y +\\overline Z)(X+\\overline Y)(Y+\\overline Z)[/latex]",
+      "B": "[latex]X\\overline Y + \\overline Z[/latex]",
+      "C": "[latex](X+\\overline Z)(\\overline Y +\\overline Z)[/latex]",
+      "D": "[latex]X\\overline Y +Y\\overline Z + \\bar  X \\bar Y \\bar Z[/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 Consider a 3-bit counter, designed using T flip-flops, as shown below: Assuming the initial state of the counter given by PQR as 000, what are the next three states?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page7_q2.webp",
+    "options": {
+      "A": "011, 101, 000",
+      "B": "001, 010, 111",
+      "C": "011, 101, 111",
+      "D": "001, 010, 000"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 Consider the following representation of a number in IEEE 754 single-precision floating point format with a bias of 127. S:1 E:10000001 F:11110000000000000000000 Here, S,E and F denote the sign, exponent, and fraction components of the floating point representation. The decimal value corresponding to the above representation (rounded to 2 decimal places) is ____________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": -7.75,
+    "max": -7.75
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 Let the representation of a number in base 3 be 210. What is the hexadecimal representation of the number?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "15",
+      "B": "21",
+      "C": "D2",
+      "D": "528"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 A new flipflop with inputs X and Y, has the following property [latex]\\begin{array}{|c|c|c|c|} \\hline \\mathbf{X} & \\mathbf{Y} & \\text { Current state } & \\text { Next state } \\\\ \\hline 0 & 0 & Q & 1 \\\\ 0 & 1 & Q & \\bar{Q} \\\\ 1 & 1 & Q & 0 \\\\ 1 & 0 & Q & Q \\\\ \\hline \\end{array}[/latex] Which of the following expresses the next state in terms of X,Y, current state?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](\\bar{X} \\wedge \\bar{Q}) \\vee(\\bar{Y} \\wedge Q)[/latex]",
+      "B": "[latex](\\bar{X} \\wedge {Q}) \\vee(\\bar{Y} \\wedge \\bar{Q})[/latex]",
+      "C": "[latex]({X} \\wedge \\bar{Q}) \\vee({Y} \\wedge {Q})[/latex]",
+      "D": "[latex]({X} \\wedge \\bar{Q}) \\vee(\\bar{Y} \\wedge {Q})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Consider the following circuit The function by the network above is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page8_q1.webp",
+    "options": {
+      "A": "[latex]\\overline{A B} E+E F+\\overline{C D} F[/latex]",
+      "B": "[latex](\\bar{E}+A B \\bar{F})(C+D+\\bar{F})[/latex]",
+      "C": "[latex](\\overline{A B}+E)(\\bar{E}+\\bar{F})(C+D+\\bar{F})[/latex]",
+      "D": "[latex](A+B) \\bar{E}+\\overline{E F}+C D \\bar{F}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 The following circuit compares two 2-bit binary numbers, X and Y represented by [latex]X_{1}X_{0}[/latex] and [latex]Y_{1}Y_{0}[/latex] respectively. ([latex]X_{0}[/latex] and [latex]Y_{0}[/latex] represent Least Significant Bits) Under what conditions Z will be 1?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page8_q2.webp",
+    "options": {
+      "A": "X > Y",
+      "B": "X < Y",
+      "C": "X=Y",
+      "D": "X!=Y"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 If ABCD is a 4-bit binary number, then what is the code generated by the following circuit?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page8_q3.webp",
+    "options": {
+      "A": "BCD code",
+      "B": "Gray code",
+      "C": "8421 code",
+      "D": "Excess-3 code"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 Minimum number of NAND gates required to implement the following binary equation[latex]Y=(\\bar{A}+\\bar{B})(C+D)[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "3",
+      "D": "6"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 Following Multiplexer circuit is equivalent to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page8_q5.webp",
+    "options": {
+      "A": "Sum equation of full adder",
+      "B": "Carry equation of full adder",
+      "C": "Borrow equation for full subtractor",
+      "D": "Difference equation of a full subtractor"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 In a 8-bit ripple carry adder using identical full adders, each full adder takes 34 ns for computing sum. If the time taken for 8-bit addition is 90 ns, find time taken by each full adder to find carry.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "6  ns",
+      "B": "7 ns",
+      "C": "10 ns",
+      "D": "8 ns"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 Consider three registers R1, R2, and R3 that store numbers in IEEE-754 single precision floating point format. Assume that R1 and R2 contain the values (in hexadecimal notation) 0x42200000 and 0xC1200000, respectively. If [latex]R3=\\frac{R1}{R2}[/latex], what is the value stored in R3?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0x40800000",
+      "B": "0xC0800000",
+      "C": "0x83400000",
+      "D": "0xC8500000"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 Consider the Boolean function [latex]z(a,b,c)[/latex]. Which one of the following minterm lists represents the circuit given above?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page9_q3.webp",
+    "options": {
+      "A": "[latex]z=\\Sigma (0,1,3,7)[/latex]",
+      "B": "[latex]z=\\Sigma (1,4,5,6,7)[/latex]",
+      "C": "[latex]z=\\Sigma (2,4,5,6,7)[/latex]",
+      "D": "[latex]z=\\Sigma (2,3,5)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 If there are m input lines and n output lines for a decoder that is used to uniquely address a byte addressable 1 KB RAM, then the minimum value of m+n is ________ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1034.0,
+    "max": 1034.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 A multiplexer is placed between a group of 32 registers and an accumulator to regulate data movement such that at any given point in time the content of only one register will move to the accumulator. The number of select lines needed for the multiplexer is ______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 What is the minimum number of 2-input NOR gates required to implement 4-variable function expressed in sum-of-minterms from as [latex]f = \\Sigma (0, 2, 5, 7, 8, 10, 13, 15)[/latex]? Assume that all the inputs and their complements are available. Answer ________ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 Consider three 4-variable functions [latex]f_1,f_2 \\; and \\; f_3[/latex], which are expressed in sum-of-minterms [latex]f_1=\\Sigma (0,2,5,8,14)[/latex] [latex]f_2=\\Sigma (2,3,6,8,14,15)[/latex] [latex]f_3=\\Sigma (2,7,11,14)[/latex] For the following circuit with one AND gate and one XOR gate, the output function f can be expressed as:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page10_q2.webp",
+    "options": {
+      "A": "[latex]\\Sigma (7,8,11)[/latex]",
+      "B": "[latex]\\Sigma (2,7,8,11,14)[/latex]",
+      "C": "[latex]\\Sigma (2,14)[/latex]",
+      "D": "[latex]\\Sigma (0,2,3,5,6,7,8,11,14,15)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 Consider Z = X - Y where X, Y and Z are all in sign-magnitude form. X and Y are each represented in n bits. To avoid overflow, the representation of Z would require a minimum of:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "n bits",
+      "B": "n-1 bits",
+      "C": "n+1 bits",
+      "D": "n+2 bits"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 Which one of the following is NOT a valid identity?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](x\\oplus y)\\oplus z=x\\oplus (y\\oplus z)[/latex]",
+      "B": "[latex](x+ y)\\oplus z=x\\oplus (y+z)[/latex]",
+      "C": "[latex]x\\oplus y=x+y, \\; if \\; xy=0[/latex]",
+      "D": "[latex]x\\oplus y=(xy+x'y')'[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 In 16-bit 2's complement representation, the decimal number -28 is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1111 1111 0001 1100",
+      "B": "0000 0000 1110 0100",
+      "C": "1111 1111 1110 0100",
+      "D": "1000 0000 1110 0100"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 Any set of Boolean operation that is sufficient to represent all Boolean expression is said to be complete. Which of the following is not complete ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "{AND, OR}",
+      "B": "{AND, NOT}",
+      "C": "{NOT, OR}",
+      "D": "{NOR}"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 A computer uses ternary system instead of the traditional systen, An n bit string in the binary system will occupy",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "3+n ternary digits",
+      "B": "2n/3 ternary digits",
+      "C": "[latex]n \\log _{2} 3[/latex] ternary digits",
+      "D": "[latex]n \\log _{3} 2[/latex] ternary digits"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 Given [latex]\\sqrt{224_{r}}=13_{r}[/latex] the value of radix r is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "10",
+      "B": "8",
+      "C": "6",
+      "D": "5"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 In the diagram above, the inverter (NOT gate) and the AND-gates labeled 1 and 2 have delays of 9, 10 and 12 nanoseconds (ns), respectively. Wire delays are negligible. For certain values a and c, together with certain transition of b, a glitch (spurious output) is generated for a short time, after which the output assumes its correct value. The duration of glitch is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page11_q4.webp",
+    "options": {
+      "A": "7 ns",
+      "B": "9 ns",
+      "C": "11 ns",
+      "D": "13 ns"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 If a variable can take only integral values from 0 to n, where n is an integer, then the variable can be represented as a bit-field whose width is (the log in the answer are to the base 2, and [latex]\\lceil\\log n\\rceil[/latex] means the floor of [latex]\\log_{}{n}[/latex] )",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\left \\lceil \\log (n) \\right \\rceil + 1 \\text{ bits}[/latex]",
+      "B": "[latex]\\left \\lceil \\log (n-1) \\right \\rceil + 1 \\text{ bits}[/latex]",
+      "C": "[latex]\\left \\lceil \\log (n+1) \\right \\rceil + 1\\text{ bits}[/latex]",
+      "D": "None of the above"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 56 Consider the minterm list form of a Boolean function F given below. [latex]F(P,Q,R,S)=\\sum m(0,2,5,7,9,11)+d(3,8,10,12,14)[/latex] Here, m denotes a minterm and d denotes a don't care term. The number of essential prime\nimplicants of the function F  is ______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Consider the unsigned 8-bit fixed point binary Number System below, [latex]b_7  b_6  b_5  b_4  b_3 .  b_2  b_1  b_0[/latex] where the position of the binary point is between [latex]b_3 \\; and \\; b_2[/latex]. Assume [latex]b_7[/latex] is the most significant bit. Some of the decimal numbers listed below cannot be represented exactly in the above representation: (i) 31.500 (ii) 0.875 (iii) 12.100 (iv) 3.001 Which one of the following statements is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "None of (i), (ii), (iii), (iv) can be exactly represented",
+      "B": "Only (ii) cannot be exactly represented",
+      "C": "Only (iii) and (iv) cannot be exactly represented",
+      "D": "Only (i) and (ii) cannot be exactly represented"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 58 Consider the sequential circuit shown in the figure, where both flip-flops used are positive edge-triggered D flip-flops. The number of states in the state transition diagram of this circuit that have a transition back to the same state on some value of \"in\" is _____.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page12_q3.webp",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 Let [latex]\\bigoplus[/latex] and [latex]\\bigodot[/latex] denote the Exclusive OR and Exclusive NOR operations, respectively. Which one of the following is NOT CORRECT?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\overline{P \\bigoplus Q}=P\\bigodot Q[/latex]",
+      "B": "[latex]\\overline{P} \\bigoplus Q=P\\bigodot Q[/latex]",
+      "C": "[latex]\\overline{P} \\bigoplus \\overline{Q}=P\\bigoplus Q[/latex]",
+      "D": "[latex](P \\bigoplus \\overline{P})\\bigoplus  Q=(P\\bigodot\\overline{P})\\bigodot  \\overline{Q}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 [latex](1217)_{8}[/latex] is equivalent to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](1217)_{16}[/latex]",
+      "B": "[latex](028F)_{16}[/latex]",
+      "C": "[latex](2297)_{10}[/latex]",
+      "D": "[latex](0B17)_{16}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 Advantage of synchronous sequential circuits over asynchronous one is :",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Lower hardware requirement",
+      "B": "Better noise immunity",
+      "C": "Faster operation",
+      "D": "All of the above"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 The 2-input XOR has a high output only when the input values are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "low",
+      "B": "high",
+      "C": "same",
+      "D": "different"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 When two n-bit binary numbers are added the sum will contain at the most",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "n  bits",
+      "B": "n+2 bits",
+      "C": "n+3 bits",
+      "D": "n+1 bits"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 What is the minimum number of two-input NAND gates used to perform the function of two-input OR gate?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "One",
+      "B": "Two",
+      "C": "Three",
+      "D": "Four"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 The next state table of a 2-bit saturating up-counter is given below. [latex]\\begin{matrix} Q_{1} & Q_{0} & Q_{1}^{+} &Q_{0}^{+} \\\\ 0 & 0 & 0 & 1 \\\\ 0 & 1 & 1 & 0\\\\ 1 & 0 & 1 & 1\\\\ 1 & 1 & 1 & 1 \\end{matrix}[/latex] The counter is built as a synchronous sequential circuit using T flip-flops. The expression for [latex]T_1 \\; and \\; T_0[/latex] are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]T_{1}=Q_{1} Q_{0} , \\; \\; T_{0}=\\bar{Q_{1}}\\bar{Q_{0}}[/latex]",
+      "B": "[latex]T_{1}=\\bar{Q_{1}} Q_{0} , \\; \\; T_{0}=\\bar{Q_{1}}+\\bar{Q_{0}}[/latex]",
+      "C": "[latex]T_{1}=Q_{1} + Q_{0} , \\; \\; T_{0}=\\bar{Q_{1}}+\\bar{Q_{0}}[/latex]",
+      "D": "[latex]T_{1}=Q_{1} Q_{0} , \\; \\; T_{0}=\\bar{Q_{1}}+\\bar{Q_{0}}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 Given f(w,x,y,z) = [latex]\\sum_{m}[/latex]\r\n  (0,1,2,3,7,8,10) + [latex]\\sum_{d}[/latex]\r\n  (5,6,11,15), where d represents the don't care\r\ncondition in Karnaugh maps. Which of the following is a minimum product-of-sums (POS)\r\nform of f(w,x,y,z) ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "f=[latex](\\bar{w}+\\bar{z})(\\bar{x}+z)[/latex]",
+      "B": "f=[latex](\\bar{w}+z)(x+z)[/latex]",
+      "C": "f=[latex](w+z)(\\bar{x}+z)[/latex]",
+      "D": "f=[latex](w+\\bar{z})(\\bar{x}+z)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 If w, x, y, z are Boolean variables, then which one of the following is INCORRECT ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "wx +w(x + y) + x(x + y)=x + wy",
+      "B": "[latex]\\overline{w\\bar{x}(y+\\bar{z})}+\\bar{w}x=\\bar{w}+x+\\bar{y}z[/latex]",
+      "C": "[latex](w\\bar{x}(y+x\\bar{z})+\\bar{w}\\bar{x})y=x\\bar{y}[/latex]",
+      "D": "(w+y)(wxy + wyz) = wxy + wyz"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 Given the following binary number in 32-bit (single precision) IEEE-754 format: 00111110011011010000000000000000 The decimal value closest to this floating- point number is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1.45 * [latex]10^{1}[/latex]",
+      "B": "1.45 * [latex]10^{-1}[/latex]",
+      "C": "2.27 * [latex]10^{-1}[/latex]",
+      "D": "2.27 * [latex]10^{1}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 The representation of the value of a 16-bit unsigned integer X in hexadecimal number system\nis BCA9. The representation of the value of X in octal number system is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "571244",
+      "B": "736251",
+      "C": "571247",
+      "D": "136251"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 Consider a combination of T and D flip-flops connected as shown below. The output of the D flip-flop is connected to the input of the T flip-flop and the output of the T flip-flop is connected to the input of the D flip-flop Initailly, both [latex]Q_{0}[/latex] and [latex]Q_{1}[/latex]  are set to 1 (before the 1st clock cycle). The outputs",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page14_q5.webp",
+    "options": {
+      "A": "[latex]Q_{1}Q_{0}[/latex]  after 3rd cycle are 11 and after the 4th cycle are 00 respectively",
+      "B": "[latex]Q_{1}Q_{0}[/latex]  after 3rd cycle are 11 and after the 4th cycle are 01 respectively",
+      "C": "[latex]Q_{1}Q_{0}[/latex]  after 3rd cycle are 00 and after the 4th cycle are 11 respectively",
+      "D": "[latex]Q_{1}Q_{0}[/latex]  after 3rd cycle are 01 and after the 4th cycle are 01 respectively"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 71 Consider the Karnaugh map given below, where x represents \"don't care\" and blank\nrepresents 0. Assume for all inputs (a, b, c, d) the respective complements [latex](\\bar{a},\\bar{b},\\bar{c},\\bar{d})[/latex] are also available. The\nabove logic is implemented 2-input NOR gates only. The minimum number of gates required\nis ____________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page15_q1.webp",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 72 When two 8-bit numbers [latex]A_{7}....A_{0}[/latex] and [latex]B_{7}....B_{0}[/latex] in 2's complement representation (with [latex]A_{0}[/latex]\r\nand [latex]B_{0}[/latex] as the least significant bits ) are added using a ripple-carry Combinational Circuit, the sum bits\r\nobtained are  [latex]S_{7}....S_{0}[/latex] and the carry bits are  [latex]C_{7}....C_{0}[/latex]. An overflow is said to have occurred if",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "the carry bit [latex]C_{7}[/latex] is 1",
+      "B": "all the carry bits ([latex]C_{7}....C_{0}[/latex]) are 1",
+      "C": "[latex](A_{7}B_{7}\\bar{S_{7}}+\\bar{A_{7}}\\bar{B_{7}}S_{7})[/latex]  is 1",
+      "D": "[latex](A_{0}B_{0}\\bar{S_{0}}+\\bar{A_{0}}\\bar{B_{0}}S_{0})[/latex]\n is 1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 The n-bit fixed-point representation of an unsigned real number real X uses f bits for the\nfraction part. Let i=n-f. The range of decimal values for X in this representation is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]2^{-f} \\; to \\;  2^{i}[/latex]",
+      "B": "[latex]2^{-f} \\; to \\; (2^{i}-2^{-f})[/latex]",
+      "C": "[latex]0 \\; to \\;  2^{i}[/latex]",
+      "D": "[latex]0 \\; to \\;  (2^{i}-2^{-f})[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 74 The functional difference between SR flip-flop and J-K flip-flop is that :",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "J -K flip-flop is faster than SR flip-flop",
+      "B": "J-K flip-flop has a feedback path",
+      "C": "J-K flip-flop accepts both inputs 1",
+      "D": "None of them"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 75 Which of the following binary number is the same as its 2's complement ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1010",
+      "B": "[latex]0101[/latex]",
+      "C": "1000",
+      "D": "1001"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 76 The simplified SOP (Sum of Product) from the Boolean expression [latex](P + \\bar{Q} + \\bar{R}) . (P + {Q} + R) . (P + Q +\\bar{R})[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](\\bar{P}.Q+\\bar{R})[/latex]",
+      "B": "[latex](P+{Q}.\\bar{R})[/latex]",
+      "C": "[latex]({P}.\\bar{Q}+R)[/latex]",
+      "D": "[latex](P.Q+R)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 The Excess-3 code is also called",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Cyclic Redundancy Code",
+      "B": "Weighted Code",
+      "C": "Self-Complementing Code",
+      "D": "Algebraic Code"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 78 If [latex](12A7C)_{16} = (X)_8[/latex] then the value of X is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "224174",
+      "B": "425174",
+      "C": "6173",
+      "D": "225174"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 79 The circuit given in the figure below is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page16_q4.webp",
+    "options": {
+      "A": "An oscillating circuit and its output is square wave",
+      "B": "The one whose output remains stable in '1' state",
+      "C": "The one having output remains stable in '0' state",
+      "D": "has a single pulse of three times propagation delay"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 The logic circuit given below converts a binary code y1, y2, y3 into",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page16_q5.webp",
+    "options": {
+      "A": "Excess-3 code",
+      "B": "Gray code",
+      "C": "BCD code",
+      "D": "Hamming code"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 81 Consider the following gate network Which one of the following gates is redundant?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page17_q1.webp",
+    "options": {
+      "A": "Gate No. 1",
+      "B": "Gate No. 2",
+      "C": "Gate No. 3",
+      "D": "Gate No. 4"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 82 For a binary half-subtractor having two inputs A and B, the correct set of logical outputs D(=A minus B) and X(=borrow) are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]D=AB+\\bar{A}B, X=\\bar{A}B[/latex]",
+      "B": "[latex]D=\\bar{A}B+A\\bar{B}, X=A\\bar{B}[/latex]",
+      "C": "[latex]D=\\bar{A}B+A\\bar{B}, X=\\bar{A} B[/latex]",
+      "D": "[latex]D=AB+\\bar{A}B, X=A\\bar{B}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 The minimum Boolean expression for the following circuit is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page17_q3.webp",
+    "options": {
+      "A": "AB+AC+BC",
+      "B": "A+BC",
+      "C": "A+B",
+      "D": "A+B+C"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 The minimum number of [latex]\\text{NAND}[/latex] gates required to implement the Boolean function [latex]A + A\\bar{B} + A\\bar{B}C[/latex] is equal to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0 (Zero)",
+      "B": "1",
+      "C": "4",
+      "D": "7"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 85 Let X be the number of distinct 16-bit integers in 2's complement representation. Let Y be the number of distinct 16 bit integers in sign magnitude representation. Then X-Y is ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 Let, [latex]x_{1} \\oplus x_{2} \\oplus\nx_{3} \\oplus x_{4}=0[/latex] where [latex]x_{1},  x_{2} ,\nx_{3} , x_{4}[/latex]  are Boolean variables, and  [latex]\\oplus[/latex] is the XOR operator.\nWhich one of the following must always be TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]x_{1} x_{2} x_{3} x_{4}=0[/latex]",
+      "B": "[latex]x_{1} x_{3}+ x_{2}=0[/latex]",
+      "C": "[latex]\\bar{x}_{1}\\oplus \\bar{x}_{3}=\\bar{x}_{2}\\oplus \\bar{x}_{4}[/latex]",
+      "D": "[latex]x_{1} +x_{2}+ x_{3}+ x_{4}=0[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 87 Consider an eight-bit ripple-carry Combinational Circuit for computing the sum of A and B, where A and B are integers represented in 2's complement form. If the decimal value of  A is one, the decimal value of B that leads to the longest latency for the sum to stabilize is ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": -1.0,
+    "max": -1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 Consider the two cascaded 2-to-1 multiplexers as shown in the figure. The minimal sum of products form of the output X is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page18_q3.webp",
+    "options": {
+      "A": "[latex]\\bar{P}\\bar{Q}+PQR[/latex]",
+      "B": "[latex]\\bar{P}Q+QR[/latex]",
+      "C": "[latex]PQ+\\bar{P}\\bar{Q}R[/latex]",
+      "D": "[latex]\\bar{Q}\\bar{R}+PQR[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 89 We want to design a synchronous counter that counts these quence 0-1-0-2-0-3 and then repeats. The minimum number of J-K flip flop srequired to implement this counteris ________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 4.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 90 The 16 bit 2's complement representation of an integer is 1111 1111 1111 0101;   its decimal representation is__________ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": -11.0,
+    "max": -11.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 Consider the Boolean operator with the following properties: [latex]x \\# 0=x, x \\# 1=\\bar{x}[/latex], [latex]x \\# x=0[/latex] and [latex]x \\# \\bar{x}=1[/latex]. Then [latex]x \\# y[/latex] is equivalent to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]x\\bar{y}+\\bar{x}y[/latex]",
+      "B": "[latex]x\\bar{y}+\\bar{x}\\bar{y}[/latex]",
+      "C": "[latex]\\bar{x}y+xy[/latex]",
+      "D": "[latex]xy+\\bar{x}\\bar{y}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 The decimal number has 64 digits. The number of bits needed for its equivalent binary representation is?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "200",
+      "B": "213",
+      "C": "246",
+      "D": "277"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 The boolean expression [latex]A B+A B^{\\prime}+A^{\\prime} C+A C[/latex] is independent of the boolean variable",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "None of these"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 94 The number of 1's in the binary representation of [latex](3*4096 + 15*256 + 5*16 + 3)[/latex] are:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "12"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 Minimum number of 2x1 multiplexers required to realize the following function, [latex]f=\\bar{A} \\bar{B} C+\\bar{A} \\bar{B} \\bar{C}[/latex] Assume that inputs are available only in true form and Boolean a constant 1 and 0 are available.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "7"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 96 If half adders and full adders are implements using gates, then for the addition of two 17 bit numbers (using minimum gates) the number of half adders and full adders required will be",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0,17",
+      "B": "16,1",
+      "C": "1,16",
+      "D": "8,8"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 97 The code which uses 7 bits to represent a character is :",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "ASCII",
+      "B": "BCD",
+      "C": "EBCDIC",
+      "D": "Gray"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 The complement of the Boolean expression [latex]A B(\\bar{B} C+A C)[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](\\bar{A}+\\bar{B})+(B+\\bar{C}) \\cdot(\\bar{A}+\\bar{C})[/latex]",
+      "B": "[latex](\\bar{A} \\cdot \\bar{B})+(B \\bar{C}+\\bar{A} \\bar{C})[/latex]",
+      "C": "[latex](\\bar{A}+\\bar{B}) \\cdot(B+\\bar{C})+(A+\\bar{C})[/latex]",
+      "D": "[latex](A+B) \\cdot(\\bar{B}+C)(A+C)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 99 A modulus -12 ring counter requires a minimum of",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "10  flip-flops",
+      "B": "12 flip-flops",
+      "C": "8 flip-flops",
+      "D": "6 flip-flops"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 100 The range of integers that can be represented by an n bit 2's complement number system is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]-2^{n-1} \\text { to }\\left(2^{n-1}-1\\right)[/latex]",
+      "B": "[latex]-\\left(2^{n-1}-1\\right) \\text { to }\\left(2^{n-1}-1\\right)[/latex]",
+      "C": "[latex]-2^{n-1} \\text { to } 2^{n-1}[/latex]",
+      "D": "[latex]-\\left(2^{n-1}+1\\right) \\text { to }\\left(2^{n-1}-1\\right)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 Which of the given number has its IEEE-754 32-bit floating point representation as (0 10000000 110 0000 0000 0000 0000 0000)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2.5",
+      "B": "3",
+      "C": "3.5",
+      "D": "4.5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 102 The total number of prime implicants of the function f(w,x,y,z)=[latex]\\Sigma[/latex](0,2,4,5,6,10) is _______.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 103 Consider the equation [latex](43)_{x}=(y3)_{8}[/latex] where x and y are unknown. The number of possible solutions is ______________",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 104 Given the function F=P'+QR , where F is a function in three Boolean variables P,Q and R and P'=!P, consider the following statements. (S1)  F=[latex]\\Sigma[/latex](4,5,6) (S2)  F=[latex]\\Sigma[/latex](0,1,2,3,7) (S3)  F=[latex]\\Pi[/latex](4,5,6) (S4)  F=[latex]\\Pi[/latex](0,1,2,3,7) Which of the following is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "(S1)- False, (S2)- True, (S3)- True, (S4)- False",
+      "B": "(S1)- True, (S2)- False, (S3)- False, (S4)- True",
+      "C": "(S1)- False, (S2)- False, (S3)- True, (S4)- True",
+      "D": "(S1)- True, (S2)- True, (S3)- False, (S4)- False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 105 Let # be a binary operator defined as X#Y=X'+Y' where X and Y are Boolean variables. Consider the following two statements. (S1) (P # Q) # R  =  P # (Q # R) (S2) Q # R  =  R # Q Which of the following is/are true for the Boolean variables P,  Q and R?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only S1 is true",
+      "B": "Only S2 is true",
+      "C": "Both S1 and S2 are true",
+      "D": "Neither S1 nor S2 are true"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 106 A half adder is implemented with XOR and AND gates. A full Combinational Circuit is implemented with two half Combinational Circuits and one OR gate. The propagation delay of an XOR gate is twice that of an AND/OR gate. The propagation delay of an AND/OR gate is 1.2 microseconds. A 4-bit ripple-carry binary Combinational Circuit is implemented by using four full Combinational Circuits. The total propagation time of this 4-bit binary Combinational Circuit in microseconds is____________.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 19.2,
+    "max": 19.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 107 The number of min-terms after minimizing the following Boolean Algebra is _________. [latex]{[{D}'+A{B}'+{A}'C+A{C}'D+{A}'{C}'{D}]}'[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 108 The minimum number of JK flip-flops required to construct a synchronous counter with the count sequence (0,0,1,1,2,2,3,3,0,0,...) is __________ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 109 A positive edge-triggered D flip-flop is connected to a positive edge-triggered JK flip-flop as follows. The Q output of the D flip-flop is connected to both the J and K inputs of the JK flip-flop, while the Q output of the JK flip-flop is connected to the input of the D flip-flop. Initially, the output of the D flip-flop is set to logic one and the output of the JK flip-flop is cleared. Which one of the following is the bit sequence (including the initial state) generated at the Q output of the JK flip-flop when the flip-flops are connected to a free-running common clock? Assume that J=K=1 is the toggle mode and J=K=0 is the state-holding mode of the JK flip-flop. Both the flip-flops have non-zero propagation delays.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0110110...",
+      "B": "0100100...",
+      "C": "0100100...",
+      "D": "011001100..."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 110 Consider the operations [latex]f(X,Y,Z)=X'YZ+XY'+Y'Z'[/latex] and [latex] g(X,Y,Z)=X'YZ+X'YZ'+XY[/latex]. Which one of the following is correct?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Both {f} and {g} are functionally complete",
+      "B": "Only {f} is functionally complete",
+      "C": "Only {g} is functionally complete",
+      "D": "Neither {f} nor {g} is functionally complete"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 111 Consider a 4-bit Johnson counter with an initial value of 0000. The counting sequence of this counter is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0, 1, 3, 7, 15, 14, 12, 8, 0",
+      "B": "0, 1, 3, 5, 7, 9, 11, 13, 15, 0",
+      "C": "0, 2, 4, 6, 8, 10, 12, 14, 0",
+      "D": "0, 8, 12, 14, 15, 7, 3, 1, 0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 112 Which of the following is not valid Boolean algebra rule ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]X . X=X[/latex]",
+      "B": "[latex](X+Y) . X=X[/latex]",
+      "C": "[latex]\\bar{X}+X Y=Y[/latex]",
+      "D": "[latex](X+Y) \\cdot(X+Z)=X+Y Z[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 113 Consider the logic circuit given below. The inverter, AND and OR gates have delays of 6, 10 and 11 nanoseconds respectively. Assuming that wire delays are negligible, what is the duration of glitch for Q before it becomes stable?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page23_q3.webp",
+    "options": {
+      "A": "5",
+      "B": "11",
+      "C": "16",
+      "D": "27"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 114 How many different BCD numbers can be stored in 12 switches ? (Assume two position or on-off switches).",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]2^{12}[/latex]",
+      "B": "[latex]2^{12}-1[/latex]",
+      "C": "[latex]10^{12}[/latex]",
+      "D": "[latex]10^{3}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 115 The output of a tristate buffer when the enable input in 0 is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Always 0",
+      "B": "Always 1",
+      "C": "Retains the last value when enable input was high",
+      "D": "Disconnected state"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 116 What are the final values of Q1 and Q0 after 4 clock cycles, if initial values are 00 in the sequential circuit shown below:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page24_q1.webp",
+    "options": {
+      "A": "11",
+      "B": "1",
+      "C": "10",
+      "D": "0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 117 Consider the logic circuit given below: Q=__________?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page24_q2.webp",
+    "options": {
+      "A": "[latex]\\bar{A} C+B \\bar{C}+C D[/latex]",
+      "B": "[latex]A B C+\\bar{C} D[/latex]",
+      "C": "[latex]A B+B \\bar{C}+B \\bar{D}[/latex]",
+      "D": "[latex]A \\bar{B}+A \\bar{C}+\\bar{C} D[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 118 In the standard IEEE 754 single precision floating point representation, there is 1 bit for sign, 23 bits for fraction and 8 bits for exponent. What is the precision in terms of the number of decimal digits?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 119 Let [latex]\\oplus[/latex] denote the Exclusive OR (XOR) operation. Let '1' and '0' denote the binary constants. Consider the following Boolean Algebra for F over two variables P and Q. [latex]F(P,Q)=((1\\oplus P)\\oplus (P\\oplus Q)) \\oplus ((P\\oplus Q) \\oplus (Q\\oplus 0))[/latex] The equivalent expression for F is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]P+Q[/latex]",
+      "B": "[latex]\\overline{P+Q}[/latex]",
+      "C": "[latex]P\\oplus Q[/latex]",
+      "D": "[latex]\\overline{P\\oplus Q}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 120 The above synchronous sequential circuit built using JK flip-flops is initialized with\n[latex]Q_{2}Q_{1}Q_{0}[/latex] = 000. The state sequence for this circuit for the next 3 clock cycles is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page24_q5.webp",
+    "options": {
+      "A": "001, 010, 011",
+      "B": "111, 110, 101",
+      "C": "100, 110, 111",
+      "D": "100, 011, 001"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 121 Consider the following combinational function block involving four Boolean variables x, y, a, b where x, a, b are inputs and y is the output. f (x, y, a, b)\n{\n    if (x is 1) y = a; \n    else y = b;\n} Which one of the following digital logic blocks is the most suitable for implementing this function?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Full adder",
+      "B": "Priority encoder",
+      "C": "Multiplexor",
+      "D": "Flip-flop"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 122 Consider the following minterm expression for F. F(P,Q,R,S) = [latex]\\Sigma[/latex] 0, 2, 5, 7, 8, 10, 13, 15 The minterms 2, 7, 8 and 13 are 'do not care terms. The minimal sum of-products form for F is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]Q\\bar{S}+\\bar{Q}S[/latex]",
+      "B": "[latex]\\bar{Q}\\bar{S}+QS[/latex]",
+      "C": "[latex]\\bar{Q}\\bar{R}\\bar{S}+\\bar{Q}R\\bar{S}+Q\\bar{R}S+QRS[/latex]",
+      "D": "[latex]\\bar{P}\\bar{Q}\\bar{S}+\\bar{P}QS+PQS+P\\bar{Q}\\bar{S}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 123 The value of a float type variable is represented using the single-precision 32-bit floating\npoint format of IEEE-754 standard that uses 1 bit for sign, 8 bits for biased exponent and 23\nbits for mantissa. A float type variable x is assigned the decimal value of -14.25. The\nrepresentation of x in hexadecimal notation is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "C1640000H",
+      "B": "416C0000H",
+      "C": "41640000H",
+      "D": "C16C0000H"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 124 Consider the equation [latex](123)_{5}=(x8)_{y}[/latex]  with x and y as unknown. The number of possible\nsolutions is _____ .",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 125 Let  [latex]k = 2^{n}[/latex] . A circuit is built by giving the output of an n-bit binary counter as input to an n-to-[latex]2^{n}[/latex] bit decoder. This circuit is equivalent to a",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "k-bit binary up counter",
+      "B": "k-bit binary down counter.",
+      "C": "k-bit ring counter.",
+      "D": "k-bit Johnson counter"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 126 The dual of a Boolean function [latex]F(x_{1},x_{2},...,x_{n}, +, \\cdot , ' ) [/latex] , written as [latex]F^{D}[/latex], is the same expression as that of F with + and  [latex]\\cdot[/latex]  swapped. F is said to be self-dual if [latex]F=F^{D}[/latex].  The number of self-dual functions with n Boolean variables is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]2^{n}[/latex]",
+      "B": "[latex]2^{n-1}[/latex]",
+      "C": "[latex]2^{2^{n}}[/latex]",
+      "D": "[latex]2^{2^{n-1}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 127 Consider the 4-to-1 multiplexer with two lines S1 and S0 given below. The minimal sum of-products form of the Boolean expression for the output F of the multiplexer is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page26_q2.webp",
+    "options": {
+      "A": "[latex]\\bar{P}Q+Q\\bar{R}+P\\bar{Q}R[/latex]",
+      "B": "[latex]\\bar{P}Q+\\bar{P}Q\\bar{R}+PQ\\bar{R}+P\\bar{Q}R[/latex]",
+      "C": "[latex]\\bar{P}QR+\\bar{P}Q\\bar{R}+Q\\bar{R}+P\\bar{Q}R[/latex]",
+      "D": "[latex]PQ\\bar{R}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 128 The base (or radix) of the number system such that the following equation holds is_______. [latex]\\frac{312}{20}=13.1[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 129 Consider the following Boolean Algebra for F: [latex]F(P,Q,R,S)=PQ+\\bar{P}QR+\\bar{P}Q\\bar{R}S[/latex] The minimal sum-of products form of F is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "PQ+QR+QS",
+      "B": "P+Q+R+S",
+      "C": "[latex]\\bar{P}+\\bar{Q}+\\bar{R}+\\bar{S}[/latex]",
+      "D": "[latex]\\bar{P}R+\\bar{PRS}+P[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 130 The binary equivalent of the decimal number 42.75 is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "101010 . 110",
+      "B": "100110 . 101",
+      "C": "101010 . 101",
+      "D": "100110 . 110"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 131 In a three stage counter, using RS flip flops what will be the value of the counter after giving 9 pulses to its input ? Assume that the value of counter before giving any pulses is 1 :",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "9",
+      "D": "10"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 132 How many programmable fuses are required in a PLA which takes 16 inputs and gives 8 outputs? It has to use 8 OR gates and 32 AND gates.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1032",
+      "B": "776",
+      "C": "1284",
+      "D": "1536"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 133 The most simplified form of the Boolean function [latex]x (A, B, C, D) = \\sum (7, 8, 9, 10, 11, 12, 13, 14, 15)[/latex] (expressed in sum of minterms) is?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A + A'BCD",
+      "B": "AB + CD",
+      "C": "A + BCD",
+      "D": "ABC + D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 134 Any set of Boolean operators that is sufficient to represent all Boolean expressions is said to be complete. Which of the following is not complete ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "{NOT, OR}",
+      "B": "{NOR}",
+      "C": "{AND, OR}",
+      "D": "{AND, NOT}"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 135 Two eight bit bytes 11000011 and 01001100 are added. What are the values of the overflow, carry and zero flags respectively, if the arithmetic unit of the CPU uses 2's complement form?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0,1,1",
+      "B": "1,1,0",
+      "C": "1,0,1",
+      "D": "0,1,0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 136 The number 1102 in base 3 is equivalent to 123 in which base system?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "8"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 137 When two BCD numbers [latex]0\\times14[/latex] and [latex]0\\times08[/latex] are added what is the binary representation of the resultant number ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]0\\times22[/latex]",
+      "B": "[latex]0\\times1c[/latex]",
+      "C": "[latex]0\\times16[/latex]",
+      "D": "results in overflow"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 138 Which logic gate is used to detect overflow in 2's compliment arithmetic?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "OR gate",
+      "B": "AND gate",
+      "C": "NAND gate",
+      "D": "XOR gate"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 139 Which one of the following expressions does NOT represent exclusive NOR of x and y?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "xy + x' y'",
+      "B": "x [latex]\\bigoplus[/latex] y'",
+      "C": "x' [latex]\\bigoplus[/latex] y",
+      "D": "x' [latex]\\bigoplus[/latex] y'"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 140 In the following truth table, V = 1 if and only if the input is valid. What function does the truth table represent?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page28_q5.webp",
+    "options": {
+      "A": "Priority encoder",
+      "B": "Decoder",
+      "C": "Multiplexer",
+      "D": "Demultiplexer"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 141 The smallest integer that can be represented by an 8-bit number in 2's complement form is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "-256",
+      "B": "-128",
+      "C": "-127",
+      "D": "0"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 142 What is the minimal form of the Karnaugh map shown below? Assume that X denotes a don't care\nterm.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page29_q2.webp",
+    "options": {
+      "A": "[latex]\\bar{b}\\bar{d}[/latex]",
+      "B": "[latex]\\bar{b}\\bar{d}+\\bar{b}\\bar{c}[/latex]",
+      "C": "[latex]\\bar{b}\\bar{d}+a\\bar{b}\\bar{c}d[/latex]",
+      "D": "[latex]\\bar{b}\\bar{d}+\\bar{b}\\bar{c}+\\bar{c}\\bar{d}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 143 The decimal value 0.5 in IEEE single precision floating point representation has",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "fraction bits of 000...000 and exponent value of 0",
+      "B": "fraction bits of 000...000 and exponent value of -1",
+      "C": "fraction bits of 100...000 and exponent value of 0",
+      "D": "no exact representation"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 144 The truth table represents the Boolean function",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page29_q4.webp",
+    "options": {
+      "A": "X",
+      "B": "X + Y",
+      "C": "X [latex]\\bigoplus[/latex] Y",
+      "D": "Y"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 145 In an RS flip-flop, if the S line (Set line) is set high (1) and the R line (Reset line) is set low (0), then the state of the flip-flop is :",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Set to 1",
+      "B": "Set to 0",
+      "C": "No change in state",
+      "D": "Forbidden"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 146 The output expression of the following gate network is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page30_q1.webp",
+    "options": {
+      "A": "[latex]X.Y + \\bar{X} . \\bar{Y}[/latex]",
+      "B": "X.Y + X.Y",
+      "C": "X.Y",
+      "D": "X+Y"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 147 How many 3-to-8 line decoders with an enable input are needed to construct a 6-to-64 line decoder without using any other logic gates?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 148 In Boolean algebra, rule [latex]\\left ( X+Y \\right )\\left ( X+Z \\right ) =[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Y+XZ",
+      "B": "X+YZ",
+      "C": "XY+Z",
+      "D": "XZ+Y"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 149 What is the decimal value of the floating-point number C1D00000 (hexadecimal notation)? (Assume 32-bit, single precision floating point IEEE representation)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "28",
+      "B": "-15",
+      "C": "-26",
+      "D": "-28"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 150 Evaluate (X xor Y) xor Y?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "All 1's",
+      "B": "All 0's",
+      "C": "X",
+      "D": "Y"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 151 Consider the following circuit involving three D-type flip-flops used in a certain type of counter configuration. If all the flip-flops were reset to 0 at power on, what is the total number of\ndistinct outputs (states) represented by PQR generated by the counter?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 152 Consider the following circuit involving three D-type flip-flops used in a certain type of counter configuration. If at some instance prior to the occurrence of the clock edge, P. Q and R have a\nvalue 0, 1 and 0 respectively, what shall be the value of PQR after the clock\nedge?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]000[/latex]",
+      "B": "[latex]001[/latex]",
+      "C": "[latex]010[/latex]",
+      "D": "[latex]011[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 153 The minimum number of D flip-flops needed to design a mod-258 counter is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "9",
+      "B": "8",
+      "C": "512",
+      "D": "258"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 154 The simplified SOP (Sum of Product) form of the Boolean Algebra [latex](P+\\bar{Q}+\\bar{R})\\cdot (P+\\bar{Q}+R)\\cdot (P+Q+\\bar{R})[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](\\bar{P}Q+\\bar{R})[/latex]",
+      "B": "[latex](P+\\bar{Q}\\bar{R})[/latex]",
+      "C": "[latex](\\bar{P}Q+R)[/latex]",
+      "D": "(PQ+R)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 155 Which one of the following circuits is NOT equivalent to a 2-input XNOR \n(exclusive NOR) gate?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page31_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 156 In the sequential circuit shown below, if the initial value of the output [latex]Q_{1}Q_{0}[/latex] is 00,\nwhat are the next four values of  [latex]Q_{1}Q_{0}[/latex] ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page32_q1.webp",
+    "options": {
+      "A": "11,10,01,00",
+      "B": "10,11,01,00",
+      "C": "10,00,01,11",
+      "D": "11,10,00,01"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 157 What is the Boolean Algebra for the output f of the combinational logic circuit\nof NOR gates given below?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page32_q2.webp",
+    "options": {
+      "A": "[latex]\\overline{Q+R}[/latex]",
+      "B": "[latex]\\overline{P+Q}[/latex]",
+      "C": "[latex]\\overline{P+R}[/latex]",
+      "D": "[latex]\\overline{P+Q+R}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 158 The Boolean expression for the output f of the multiplexer shown below is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page32_q3.webp",
+    "options": {
+      "A": "[latex]\\overline{P\\bigoplus Q\\bigoplus R}[/latex]",
+      "B": "[latex]P\\bigoplus Q\\bigoplus R[/latex]",
+      "C": "P+Q+R",
+      "D": "[latex]\\overline{P+Q+R}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 159 P is a 16-bit signed integer. The 2's complement representation of P is [latex](F87B)_{16}[/latex]. \nThe 2's complement representation of 8*P is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](C3D8)_{16}[/latex]",
+      "B": "[latex](187B)_{16}[/latex]",
+      "C": "[latex](F878)_{16}[/latex]",
+      "D": "[latex](987B)_{16}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 160 The minterm expansion of f(P,Q,R)=PQ+QR'+PR' is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]m_{2}+m_{4}+m_{6}+m_{7}[/latex]",
+      "B": "[latex]m_{0}+m_{1}+m_{3}+m_{5}[/latex]",
+      "C": "[latex]m_{0}+m_{1}+m_{6}+m_{7}[/latex]",
+      "D": "[latex]m_{2}+m_{3}+m_{4}+m_{5}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 161 The addition of 4-bit, two's complement, binary numbers 1101 and 0100 results in",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0001 and an overflow",
+      "B": "1001 and no overflow",
+      "C": "0001 and no overflow",
+      "D": "1001 and an overflow"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 162 The two numbers given below are multiplied using the Booth's algorithm Multiplicand: 0101 1010 1110 1110 Multiplier: 0111 0111 1011 1101 How many additions/subtractions are required for the multiplication of the above two numbers?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "12"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 163 Consider the following boolean function of four variables [latex]f(w,x,y,z) = \\Sigma(1,3,4,6,9,11,12,14)[/latex], the function is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Independent of one variable",
+      "B": "Independent of two variables",
+      "C": "Independent of three variables",
+      "D": "Dependent on all variables"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 164 The switching expression corresponding to [latex]f(A, B, C, D) = \\Sigma(1, 4, 5, 9, 11, 12)[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "BC'D' + A'C'D + AB'D",
+      "B": "ABC' + ACD + B'C'D",
+      "C": "ACD' + A'BC' + AC'D'",
+      "D": "A'BD + ACD' + BCD'"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 165 The range of integers that can be represented by an n bit 2's complement number system is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]-2^{n-1} \\text{ to } (2^{n-1} -1)[/latex]",
+      "B": "[latex]-(2^{n-1} -1) \\text{ to } (2^{n-1} -1)[/latex]",
+      "C": "[latex]-2^{n-1} \\text{ to } 2^{n-1}[/latex]",
+      "D": "[latex]-(2^{n-1} +1) \\text{ to } (2^{n-1} -1)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 166 The binary operation [latex]\\square[/latex] is defined as follows Which one of the following is equivalent to [latex]P\\vee Q[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page34_q1.webp",
+    "options": {
+      "A": "[latex]\\neg Q\\square \\neg P[/latex]",
+      "B": "[latex]P  \\square \\neg Q[/latex]",
+      "C": "[latex]\\neg P\\square Q[/latex]",
+      "D": "[latex]\\neg P\\square \\neg Q[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 167 What is the minimum number of gates required to implement the Boolean\nfunction (AB+C) if we have to use only 2-input NOR gates?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 168 [latex](1217)_{8}[/latex] is equivalent to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](1217)_{16}[/latex]",
+      "B": "[latex](028F)_{16}[/latex]",
+      "C": "[latex](2297)_{10}[/latex]",
+      "D": "[latex](0B17)_{16}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 169 Repeated execution of simple computation may cause compounding of",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "round-off errors",
+      "B": "syntax errors",
+      "C": "run-time errors",
+      "D": "logic errors"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 170 Which of the following is termed as minimum error code ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Binary code",
+      "B": "Gray code",
+      "C": "Excess-3 code",
+      "D": "Octal code"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 171 Which of the following is not a valid rule of XOR?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0 XOR 0=0",
+      "B": "1 XOR 1=1",
+      "C": "1 XOR 0=1",
+      "D": "B XOR B=0"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 172 The output Y of the given circuit",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page35_q2.webp",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "X",
+      "D": "X'"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 173 The logic operations of two combinational circuits in Figure-I and Figure -II are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page35_q3.webp",
+    "options": {
+      "A": "entirely different",
+      "B": "identical",
+      "C": "complementary",
+      "D": "dual"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 174 In the expression [latex]\\bar{A}(\\bar{A}+\\bar{B})[/latex]by writing the first term A as A+0, the expression is best simplified as",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A+AB",
+      "B": "AB",
+      "C": "A",
+      "D": "A+B"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 175 The Boolean expression [latex](A+\\bar{C})(\\bar{B} + \\bar{C})[/latex] simplifies to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\bar{C} + A \\bar{B}[/latex]",
+      "B": "[latex]\\bar{C} (\\bar{A} +B)[/latex]",
+      "C": "[latex]\\bar{B}\\bar{C} + A\\bar{B}[/latex]",
+      "D": "None of these"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 176 A computer uses 8 digit mantissa and 2 digit exponent. If a=0.052 and b=28E+11 then b+a-b will :",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "result in an overflow error",
+      "B": "result in an underflow error",
+      "C": "be 0",
+      "D": "be 5.28E+11"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 177 How many 2-input multiplexers are required to construct a [latex]2^{10}[/latex]-input multiplexer?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1023",
+      "B": "31",
+      "C": "10",
+      "D": "127"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 178 If [latex](12x)_3 = (123)_x[/latex], then the value of x is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "3",
+      "B": "3 or 4",
+      "C": "2",
+      "D": "None of these"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 179 If [latex]N^2 = (7601)_8[/latex] where N is a positive integer, then the value of N is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](241)_5[/latex]",
+      "B": "[latex](143)_6[/latex]",
+      "C": "[latex](165)_7[/latex]",
+      "D": "[latex](39)_{16}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 180 In the given network of AND and OR gates f can be written as",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page36_q5.webp",
+    "options": {
+      "A": "[latex]X_0X_1X_2 \\dots X_n + X_1X_2 \\dots X_n + X_2X_3 \\dots X_n + \\dots + X_n[/latex]",
+      "B": "[latex]X_0X_1 + X_2X_3+ \\dots X_{n-1}X_n[/latex]",
+      "C": "[latex]X_0+X_1 + X_2+ \\dots +X_n[/latex]",
+      "D": "[latex]X_0X_1 + X_3 \\dots X_{n-1}+ X_2X_3 + X_5 \\dots X_{n-1} + \\dots +X_{n-2} X_{n-1} +X_n[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 181 The Boolean theorem [latex]AB+\\bar{A}C +BC = AB + \\bar{A}C[/latex] corresponds to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](A+B) \\bullet (\\bar{A} +C) \\bullet (B+C) = (A+B) \\bullet (\\bar{A} +C)[/latex]",
+      "B": "[latex]AB+\\bar{A}C +BC =AB+BC[/latex]",
+      "C": "[latex]AB+\\bar{A}C +BC =(A+B) \\bullet (\\bar{A} +C) \\bullet (B+C)[/latex]",
+      "D": "[latex](A+B) \\bullet (\\bar{A} +C) \\bullet (B+C) = AB + \\bar{A}C[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 182 The two numbers given below are multiplied using the Booth's algorithm. Multiplicand :                            0101 1010 1110 1110 Multiplier:                                  0111 0111 1011 1101 How many additions/Subtractions are required for the multiplication of the above two numbers?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "12"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 183 Consider the following state diagram and its realization by a JK flip flop The combinational circuit generates J and K in terms of x, y and Q. The Boolean expressions for J and K are :",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page37_q3.webp",
+    "options": {
+      "A": "[latex]\\overline {x \\oplus y} \\text{ and }\\overline {x \\oplus y}[/latex]",
+      "B": "[latex]\\overline {x \\oplus y} \\text{ and }{x \\oplus y}[/latex]",
+      "C": "[latex]{x \\oplus y} \\text{ and }\\overline {x \\oplus y}[/latex]",
+      "D": "[latex]{x \\oplus y} \\text{ and } {x \\oplus y}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 184 What Boolean function does the circuit below realize?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page37_q4.webp",
+    "options": {
+      "A": "[latex]xz + \\bar{x}\\bar{z}[/latex]",
+      "B": "[latex]x\\bar{z} + \\bar{x}{z}[/latex]",
+      "C": "[latex]\\bar{x}\\bar{y} + {y}{z}[/latex]",
+      "D": "[latex]xy + \\bar{y}\\bar{z}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 185 Consider the following Boolean function of four variables [latex]f(A, B, C, D) = \\sum(2, 3, 6, 7, 8, 9, 10, 11, 12, 13)[/latex] The function is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "independent of one variable",
+      "B": "independent of two variables",
+      "C": "independent of three variable",
+      "D": "dependent on all the variables"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 186 The following bit pattern represents a floating point number in IEEE 754 single precision format 1 10000011 101000000000000000000000 The value of the number in decimal form is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "-10",
+      "B": "-13",
+      "C": "-26",
+      "D": "None of the above"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 187 A set of Boolean connectives is functionally complete if all Boolean functions can be synthesized using those. Which of the following sets of connectives is NOT functionally complete?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "EX-NOR",
+      "B": "implication, negation",
+      "C": "OR, negation",
+      "D": "NAND"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 188 If P, Q, R are Boolean variables, then [latex](P+\\bar{Q})(P.\\bar{Q}+P.R)(\\bar{P}.\\bar{R}+\\bar{Q})[/latex] simplifies to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]P.\\bar{Q}[/latex]",
+      "B": "[latex]P.\\bar{R}[/latex]",
+      "C": "[latex]P.\\bar{Q}+R[/latex]",
+      "D": "[latex]P.\\bar{R}+Q[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 189 Given f1, f3 and f in canonical sum of products form (in decimal) for the circuit [latex]f_{1}=\\sum m(4,5,6,7,8) [/latex] [latex] f_{3}=\\sum m(1,6,15) [/latex] [latex] f=\\sum m(1,6,8,15)[/latex] then [latex]f_{2}[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page38_q4.webp",
+    "options": {
+      "A": "[latex]\\sum[/latex]m(4,6)",
+      "B": "[latex]\\sum[/latex]m(4,8)",
+      "C": "[latex]\\sum[/latex]m(6,8)",
+      "D": "[latex]\\sum[/latex]m(4,6,8)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 190 Let r denote number system radix. The only value(s) of r that satisfy the\nequation [latex]\\sqrt{121_{r}}=11_{r}[/latex] is / are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "decimal 10",
+      "B": "decimal 11",
+      "C": "decimal 10 and 11",
+      "D": "any value [latex]\\gt[/latex] 2"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 191 In the Karnaugh map shown below, x denotes a don't care term. What is the\nminimal form of the function represented by the Karnaugh map?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page39_q1.webp",
+    "options": {
+      "A": "[latex]\\bar{b}\\cdot \\bar{d}+\\bar{a}\\cdot \\bar{d}[/latex]",
+      "B": "[latex]\\bar{a}\\bar{b}+\\bar{b}\\cdot \\bar{d}+\\bar{a}b\\cdot \\bar{d}[/latex]",
+      "C": "[latex]\\bar{b}\\cdot \\bar{d}+\\bar{a}b\\cdot \\bar{d}[/latex]",
+      "D": "[latex]\\bar{a}\\bar{b}+\\bar{b}\\cdot \\bar{d}+\\bar{a}\\cdot \\bar{d}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 192 In the IEEE floating point representation the hexadecimal value 0x00000000\ncorresponds to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The normalized value [latex]2^{-127}[/latex]",
+      "B": "The normalized value [latex]2^{-126}[/latex]",
+      "C": "The normalized value +0",
+      "D": "The special value +0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 193 One approach to handling fuzzy logic data might be to design a computer using ternary (base-3) logic so that data could be stored as \"true,\" \"false,\" and \"unknown.\" If each ternary logic element is called a flit, how many flits are required to represent at least 256 different values?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 194 The Hexadecimal equivalent of 01111100110111100011 is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "CD73E",
+      "B": "ABD3F",
+      "C": "7CDE3",
+      "D": "FA4CD"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 195 Consider a computer system that stores a floating-point numbers with 16-bit mantissa and an 8-bit exponent, each in two's complement. The smallest and largest positive values which can be stored are :",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]1 \\times 10^{-128} \\text{ and } 2^{15} \\times 10^{128}[/latex]",
+      "B": "[latex]1 \\times 10^{-256} \\text{ and } 2^{15} \\times 10^{255}[/latex]",
+      "C": "[latex]1 \\times 10^{-128} \\text{ and } 2^{15} \\times 10^{127}[/latex]",
+      "D": "[latex]1 \\times 10^{-128} \\text{ and } (2^{15}-1) \\times 10^{127}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 196 The output 0 and 1 level for TTL Logic family is approximately",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0.1 and 5V",
+      "B": "0.6 and 3.5 V",
+      "C": "0.9 and 1.75 V",
+      "D": "-1.75 and 0.9 V"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 197 Ring counter is analogous to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Toggle Switch",
+      "B": "Latch",
+      "C": "Stepping Switch",
+      "D": "S-R flip flop"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 198 In an SR latch made by cross-coupling two NAND gates, if both S and R inputs are set to 0, then it will result in",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Q = 0, Q' = 1",
+      "B": "Q = 1, Q' = 0",
+      "C": "Q = 1, Q' = 1",
+      "D": "Indeterminate states"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 199 0.75 decimal system is equivalent to ____ in octal system",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0.6",
+      "B": "0.52",
+      "C": "0.54",
+      "D": "0.5"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 200 The number of digit 1 present in the binary representation of [latex]3 \\times 512 + 7 \\times 64 + 5 \\times 8 + 3[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "12"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 201 The characteristic equation of an SR flip-flop is given by :",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]Q_{n+1}=S+RQ_n[/latex]",
+      "B": "[latex]Q_{n+1}=R\\bar{Q}_n + \\bar{S}Q_n[/latex]",
+      "C": "[latex]Q_{n+1}=\\bar{S}+RQ_n[/latex]",
+      "D": "[latex]Q_{n+1}=S+\\bar{R}Q_n[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 202 When two numbers are added in excess-3 code and the sum is less than 9, then in order to get the correct answer it is necessary to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "subtract 0011 from the sum",
+      "B": "add 0011 to the sum",
+      "C": "subtract 0110 from the sum",
+      "D": "add 0110 to the sum"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 203 The circuit shown in the given figure is a",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page41_q3.webp",
+    "options": {
+      "A": "full adder",
+      "B": "full subtracter",
+      "C": "shift register",
+      "D": "decade counter"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 204 The circuit shown in the following figure realizes the function.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page41_q4.webp",
+    "options": {
+      "A": "[latex](\\overline{A+B}+C)(\\bar{D}\\bar{E})[/latex]",
+      "B": "[latex](\\overline{A+B}+C)(D\\bar{E})[/latex]",
+      "C": "[latex](A+ \\overline{B+C})(\\bar{D}E)[/latex]",
+      "D": "[latex](A+ B+\\bar{C})(\\bar{D} \\bar{E})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 205 The Boolean expression [latex]Y=(A+\\bar{B}+\\bar{A}B)\\bar{C}[/latex] is given by",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]A\\bar{C}[/latex]",
+      "B": "[latex]B\\bar{C}[/latex]",
+      "C": "[latex]\\bar{C}[/latex]",
+      "D": "AB"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 206 Consider the following expression [latex]a\\bar{ d} + \\bar {a }\\bar {c} + b\\bar {c} d[/latex] Which of the following expressions does not correspond to the Karnaugh Map obtained for the given expression?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\bar c \\bar d+ a\\bar d + ab\\bar c + \\bar a \\bar cd[/latex]",
+      "B": "[latex]\\bar a\\bar c + \\bar c\\bar d + a\\bar d + ab\\bar cd[/latex]",
+      "C": "[latex]\\bar a\\bar c + a\\bar d + ab\\bar c + \\bar cd[/latex]",
+      "D": "[latex]\\bar b\\bar c \\bar d + ac\\bar d + \\bar a \\bar c + ab\\bar c[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 207 Consider the following expression [latex]a\\bar d + \\bar a\\bar c + b\\bar cd[/latex] Which of the following Karnaugh Maps correctly represents the expression?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page42_q2.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 208 The line T in the following figure is permanently connected to the ground. Which of the following inputs [latex](X_1 X_2 X_3 X_4)[/latex] will detect the fault ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page42_q3.webp",
+    "options": {
+      "A": "0",
+      "B": "111",
+      "C": "1111",
+      "D": "None of these"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 209 [latex](C012.25)_H - (10111001110.101)_B =[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](135103.412)_o[/latex]",
+      "B": "[latex](564411.412)_o[/latex]",
+      "C": "[latex](564411.205)_o[/latex]",
+      "D": "[latex](135103.205)_o[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 210 What is the final value stored in the linear feedback shift register if the input is 101101?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page42_q5.webp",
+    "options": {
+      "A": "0110",
+      "B": "1011",
+      "C": "1101",
+      "D": "1111"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 211 The following expression was to be realized using 2-input AND and OR gates. However, during the fabrication all 2-input AND gates were mistakenly substituted by 2-input NAND gates. [latex](a.b).c + (a'.c).d + (b.c).d + a. d[/latex] What is the function finally realized ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1",
+      "B": "[latex]a' + b' + c' + d'[/latex]",
+      "C": "[latex]a' + b + c' + d'[/latex]",
+      "D": "[latex]a' + b' + c + d'[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 212 The following circuit implements a two-input AND gate using two 2-1 multiplexers. What are the values of [latex]X_1, X_2, X_3[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page43_q2.webp",
+    "options": {
+      "A": "[latex]X_1 = b, X_2 = 0, X_3 = a[/latex]",
+      "B": "[latex]X_1 = b, X_2 = 1, X_3 = b[/latex]",
+      "C": "[latex]X_1 = a, X_2 = b, X_3 = 1[/latex]",
+      "D": "[latex]X_1 = a, X_2 = 0, X_3 = b[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 213 Which of the following input sequences for a cross-coupled R-S flip-flop realized with two NAND gates may lead to an oscillation?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "11, 00",
+      "B": "01, 10",
+      "C": "10, 01",
+      "D": "00, 11"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 214 The control signal functions of a 4-bit binary counter are given below (where X is \"don't care\"): Assume that the counter and gate delays are negligible. If the counter starts at 0, then it cycles through the following sequence:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page43_q4.webp",
+    "options": {
+      "A": "0, 3, 4",
+      "B": "0, 3, 4, 5",
+      "C": "0, 1, 2, 3, 4",
+      "D": "0, 1, 2, 3, 4, 5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 215 In a look-ahead carry generator, the carry generate function i G and the carry\r\npropagate function [latex]P_{i}[/latex] for inputs [latex]A_{i}[/latex] and [latex]B_{i}[/latex] are given by: [latex]P_{i}=A_{i}\\bigoplus B_{i} \\; and \\; G_{i}=A_{i}B_{i}[/latex] The expressions for the sum bit [latex]S_{i}[/latex] and the carry bit [latex]C_{i+1}[/latex] of the look-ahead carry\r\nCombinational Circuit are given by: [latex]S_{i}=P_{i}\\bigoplus C_{i} \\; and \\; C_{i+1}=G_{i}+P_{i}C_{i}[/latex] Consider a two-level logic implementation of the look-ahead carry generator. Assume that all [latex]P_{i}[/latex] and [latex]G_{i}[/latex] are available for the carry generator circuit and that\r\nthe AND and OR gates can have any number of inputs. The number of AND gates\r\nand OR gates needed to implement the look-ahead carry generator for a 4-bit\r\nCombinational Circuit with and [latex]S_{3},S_{2},S_{1},S_{0}[/latex] as [latex]C_{4}[/latex]  its outputs are respectively:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "6, 3",
+      "B": "10, 4",
+      "C": "6, 4",
+      "D": "10, 5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 216 Suppose only one multiplexer and one inverter are allowed to be used to implement any Boolean function of n variables. What is the minimum size of the multiplexer needed?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]2^{n}[/latex] line to 1 line",
+      "B": "[latex]2^{n+1}[/latex] line to 1 line",
+      "C": "[latex]2^{n-1}[/latex] line to 1 line",
+      "D": "[latex]2^{n-2}[/latex] line to 1 line"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 217 Define the connective * for the Boolean variables X and Y as: X * Y = XY + X'Y'.  Let Z= X *Y. Consider the following expressions P, Q and R. P : X = Y * Z Q :Y = X * Z R : X *Y * Z = 1 Which of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Only P and Q are valid.",
+      "B": "Only Q and R are valid.",
+      "C": "Only P and R are valid.",
+      "D": "All P, Q, R are valid."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 218 Let f(w,x,y,z)=[latex]\\Sigma[/latex](0,4,5,7,8,9,13,15). Which of the following expressions are\r\nNOT equivalent to f ? (P) x'y'z' + w'xy' + wy'z + xz (Q) w'y'z' + wx'y' + xz (R) w'y'z' + wx'y' + xyz + xy'z (S) x'y'z' + wx'y' + w'y",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "P only",
+      "B": "Q and S",
+      "C": "R and S",
+      "D": "S only"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 219 Consider the following Boolean function of four variables: f (w, x, y, z)=[latex]\\Sigma[/latex](1,3,4,6,9,11,12,14) The function is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "independent of one variables",
+      "B": "independent of two variables.",
+      "C": "independent of three variables.",
+      "D": "dependent on all the variables"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 220 How many 3-to-8 line decoders with an enable input are needed to construct a 6-\nto-64 line decoder without using any other logic gates?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 221 What is the maximum number of different Boolean functions involving n Boolean\nvariables?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]n^{2}[/latex]",
+      "B": "[latex]2^{n}[/latex]",
+      "C": "[latex]2^{2^{n}}[/latex]",
+      "D": "[latex]2^{n^{2}}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 222 When multiplicand Y is multiplied by multiplier [latex]X = x_{n - 1}x_{n-2} \\dots x_0[/latex] using bit-pair recoding in Booth's algorithm, partial products are generated according to the following table. [latex]\\begin{array}{c|ccc|c}\\hline \\textbf{Row}& \\bf{ x_{i+1}}&\\bf { x_i}&\\bf{ x_{i-1}}& \\textbf{Partial Product} \\\\\\hline 1&0&0&0&0 \\\\ 2&0&0&1& \\text{Y} \\\\ 3&0&1&0& \\text{Y} \\\\ 4&0&1&1& \\text{2Y} \\\\ 5&1&0&0& \\text{?} \\\\ 6&1&0&1& \\text{-Y} \\\\ 7&1&1&0& \\text{-Y} \\\\ 8&1&1&1& \\text{?} \\\\ \\hline \\end{array}[/latex] The partial products for rows 5 and 8 are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2Y and Y",
+      "B": "-2Y and 2Y",
+      "C": "-2Y and 0",
+      "D": "0 and Y"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 223 The majority function is a Boolean function f(x,y,z) that takes the value 1 whenever a majority of the variables x,y,z are 1. In the circuit diagram for the majority function shown below, the logic gates for the boxes labeled P and Q are, respectively,",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page45_q3.webp",
+    "options": {
+      "A": "XOR, AND",
+      "B": "XOR, XOR",
+      "C": "OR, OR",
+      "D": "OR, AND"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 224 The boolean function for a combinational circuit with four inputs is represented by the following Karnaugh map. Which of the product terms given below is an essential prime implicant of the function?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page45_q4.webp",
+    "options": {
+      "A": "QRS",
+      "B": "PQS",
+      "C": "PQ'S'",
+      "D": "Q'S'"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 225 The addition of 4-bit, two's complement, binary numbers 1101 and 0100 results in",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0001 and an overflow",
+      "B": "1001 and no overflow",
+      "C": "0001 and no overflow",
+      "D": "1001 and an overflow"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 226 Given a boolean function f [latex](x_1, x_2, \\ldots, x_n)[/latex], which of the following equations is NOT true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]f (x_1, x_2, \\ldots, x_n) = x_1'f(x_1, x_2, \\ldots, x_n) + x_1f(x_1, x_2, \\ldots, x_n)[/latex]",
+      "B": "[latex]f (x_1, x_2, \\ldots, x_n) = x_2f(x_1, x_2, \\ldots , x_n) + x_2'f(x_1, x_2, \\ldots ,x_n)[/latex]",
+      "C": "[latex]f (x_1, x_2, \\ldots, x_n) = x_n'f(x_1, x_2, \\ldots, 0) + x_nf(x_1, x_2, \\ldots,1)[/latex]",
+      "D": "[latex]f (x_1, x_2, \\ldots , x_n) = f(0, x_2,  \\ldots , x_n) + f(1, x_2, \\ldots, x_n)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 227 Consider number represented in 4-bit gray code. Let [latex]h_3h_2h_1h_0[/latex] be the gray code\r\nrepresentation of a number n and let [latex]g_3g_2g_1g_0[/latex]  be the gray code of (n+1) (modulo 16) value of the number. Which one of the following functions is correct?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]g_0(h_3h_2h_1h_0)[/latex] = [latex]\\sum[/latex] (1,2,3,6,10,13,14,15)",
+      "B": "[latex]g_1(h_3h_2h_1h_0)[/latex] = [latex]\\sum[/latex] (4,9,10,11,12,,13,14,15)",
+      "C": "[latex]g_2(h_3h_2h_1h_0)[/latex] = [latex]\\sum[/latex] (2,4, 5,6,7,12,,13,15)",
+      "D": "[latex]g_3(h_3h_2h_1h_0)[/latex] = [latex]\\sum[/latex] (0,1,6,7, 10,11,12,,13,)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 228 We consider addition of two 2's complement numbers [latex]b_{n-1}b_{n-2}...b_{0}[/latex] and\n[latex]a_{n-1}a_{n-2}...a_{0}[/latex]. A binary Combinational Circuit for adding unsigned binary numbers is used to add\nthe two numbers. The sum is denoted by [latex]c_{n-1}c_{n-2}...c_{0}[/latex] and the carryout by [latex]c_{out}[/latex] .\nWhich one of the following options correctly identifies the overflow condition?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page46_q3.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 229 Consider a boolean function f (w,x,y,z). Suppose that exactly one of its inputs is allowed to change at a time. If the function happens to be true for two input vectors i1=(w1,x1,y1,z1) and i2=(w2,x2,y2,z2), we would like the function to remain true as the input changes from i1 to i2(i1 and i2 differ in exactly one bit position), without becoming false momentarily. Let f(w,x,y,z)=[latex]\\Sigma[/latex](5,7,11,12,13,15).  Which of the following cube covers of f will ensure that the required property\r\nis satisfied?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\bar{w}xz,wx\\bar{y},x\\bar{y}z,xyz,wyz[/latex]",
+      "B": "[latex]wxy,\\bar{w}xz,wyz[/latex]",
+      "C": "[latex]wx\\bar{yz},xz,w\\bar{x}yz[/latex]",
+      "D": "[latex]wx\\bar{y},wyz,wxz,\\bar{w}xz,x\\bar{y}z,xyz[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 230 Consider the circuit in the diagram. The [latex]\\oplus[/latex] operator represents Ex-OR. The D flip-flops are initialized to zeroes (cleared). The following data : 100110000 is supplied to the \"data\" terminal in nine clock cycles. After that the values of [latex]q_{2}q_{1}q_{0}[/latex] are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page46_q5.webp",
+    "options": {
+      "A": "[latex]000[/latex]",
+      "B": "[latex]001[/latex]",
+      "C": "[latex]010[/latex]",
+      "D": "[latex]101[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 231 Given two three bit numbers [latex]a_{2}a_{1}a_{0}[/latex] and [latex]b_{2}b_{1}b_{0}[/latex] and c, the carry in, the function\nthat represents the carry generate function when these two numbers are added is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page47_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 232 Consider the circuit below. Which one of the following options correctly represents\r\nf (x,y,z)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page47_q2.webp",
+    "options": {
+      "A": "[latex]x\\bar{z}+xy+\\bar{y}z[/latex]",
+      "B": "[latex]x\\bar{z}+xy+\\overline{yz}[/latex]",
+      "C": "[latex]xz+xy+\\overline{yz}[/latex]",
+      "D": "[latex]xz+x\\bar{y}+\\bar{y}z[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 233 A logical binary relation [latex]\\square[/latex] , is defined as follows Let [latex]\\neg[/latex] be the unary negation (NOT) operator, with higher precedence, than [latex]\\square[/latex].\nWhich one of the following is equivalent to A[latex]\\wedge[/latex]B?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page47_q3.webp",
+    "options": {
+      "A": "[latex](\\neg A\\square B)[/latex]",
+      "B": "[latex]\\neg (A\\square \\neg B)[/latex]",
+      "C": "[latex]\\neg (\\neg A\\square \\neg B)[/latex]",
+      "D": "[latex]\\neg (\\neg A\\square B)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 234 You are given a free running clock with a duty cycle of 50% and a digital waveform\nf which changes only at the negative edge of the clock. Which one of the following\ncircuits (using clocked D flip flops) will delay the phase of f by [latex]180^{\\circ}[/latex] ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page47_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 235 The circuit shown below implements a 2-input NOR gate using two 2-4 MUX (control signal 1 selects the upper input). What are the values of signals x, y and z?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page47_q5.webp",
+    "options": {
+      "A": "1,0,B",
+      "B": "1,0,A",
+      "C": "0,1,B",
+      "D": "0,1,A"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 236 [latex](34.4)_{8} \\times \\left ( 23.4 \\right )_{8}[/latex] evaluates to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](1053.6)_{8}[/latex]",
+      "B": "[latex](1053.2)_{8}[/latex]",
+      "C": "[latex](1024.2)_{8}[/latex]",
+      "D": "None of these"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 237 Which of the following input sequences will always generate a 1 at the output z at the end of the third cycle?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page48_q2.webp",
+    "options": {
+      "A": "[latex]\\begin{array}{|l|l|l|}\\hline \\textbf{A} & \\textbf{B} & \\textbf{C} \\\\ \\hline \\text{0} & \\text{0} & \\text{0} \\\\ \\hline \\text{1} & \\text{0} & \\text{1} \\\\ \\hline \\text{1} & \\text{1} & \\text{1} \\\\ \\hline \\end{array}[/latex]",
+      "B": "[latex]\\begin{array}{|l|l|l|}\\hline \\textbf{A} & \\textbf{B} & \\textbf{C} \\\\\\hline \\text{1} & \\text{0} & \\text{1} \\\\\\hline \\text{1} & \\text{1} & \\text{0} \\\\\\hline \\text{1} & \\text{1} & \\text{1} \\\\\\hline \\end{array}[/latex]",
+      "C": "[latex]\\begin{array}{|l|l|l|}\\hline \\textbf{A} & \\textbf{B} & \\textbf{C} \\\\\\hline \\text{0} & \\text{1} & \\text{1} \\\\\\hline \\text{1} & \\text{0} & \\text{1} \\\\\\hline \\text{1} & \\text{1} & \\text{1} \\\\\\hline \\end{array}[/latex]",
+      "D": "[latex]\\begin{array}{|l|l|l|}\\hline \\textbf{A} & \\textbf{B} & \\textbf{C} \\\\\\hline \\text{0} & \\text{0} & \\text{1} \\\\\\hline \\text{1} & \\text{1} & \\text{0} \\\\\\hline \\text{1} & \\text{1} & \\text{1} \\\\\\hline \\end{array}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 238 How many pulses are needed to change the contents of a 8-bit up counter from 10101100 to 00100111 (rightmost bit is the LSB)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "134",
+      "B": "133",
+      "C": "124",
+      "D": "123"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 239 A two-way switch has three terminals a, b and c. In ON position (logic value 1), a is connected to b, and in OFF position, a is connected to c. Two of these two-way switches S1 and S2 are connected to a bulb as shown below .Which of the following expressions, if true, will always result in the lighting of the bulb ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page48_q4.webp",
+    "options": {
+      "A": "[latex]S1.\\overline{S2}[/latex]",
+      "B": "S1 + S2",
+      "C": "[latex]\\overline {S1\\oplus S2}[/latex]",
+      "D": "[latex]S1 \\oplus S2[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 240 Using Booth's Algorithm for multiplication, the multiplier -57 will be recoded as",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0 -1 00 1 0 0 -1",
+      "B": "1 1 0 0 0 1 1 1",
+      "C": "0 -1 0 0 10 0 0",
+      "D": "0 1 0 0 -1 0 0 1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 241 Which of the following expressions is equivalent to [latex](A \\oplus B) \\oplus C[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](A + B + C) (\\bar A +\\bar B +\\bar C)[/latex]",
+      "B": "[latex](A + B + C) (\\bar A +\\bar B + C)[/latex]",
+      "C": "[latex]ABC + \\bar A (B \\oplus C) + \\bar B(A \\oplus C)[/latex]",
+      "D": "None of these"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 242 Consider the following floating point format Mantissa is a pure fraction in sign-magnitude form. The normalized representation for the above format is specified as follows. The mantissa has an implicit 1 preceding the binary (radix) point. Assume that only 0's are padded in while shifting a field. The normalized representation of the above number ([latex]0.239 \\times 2^{13}[/latex]) is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page49_q2.webp",
+    "options": {
+      "A": "0A 20",
+      "B": "11 34",
+      "C": "4D D0",
+      "D": "4A E8"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 243 Consider the following floating point format Mantissa is a pure fraction in sign-magnitude form. The decimal number [latex]0.239 \\times 2^{13} [/latex] has the following hexadecimal representation (without normalization and rounding off :",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page49_q3.webp",
+    "options": {
+      "A": "0D 24",
+      "B": "0D 4D",
+      "C": "4D 0D",
+      "D": "4D 3D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 244 Consider the following circuit. The flip-flops are positive edge triggered D FFs. Each state is designated as a two-bit string Q0Q1 .\nLet the initial state be 00. the state transition sequence is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page49_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 245 Consider the following circuit involving a positive edge triggered D FF. Consider the following timing diagram. Let Ai represent the logic level on the line A in the i-th clock period. Let A' represent the complement of A. The correct output sequence on Y over the clock periods 1 through 5 is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page49_q5.webp",
+    "options": {
+      "A": "[latex]A_{0}A_{1}A'_{1}A_{3}A_{4}[/latex]",
+      "B": "[latex]A_{0}A_{1}A'_{2}A_{3}A_{4}[/latex]",
+      "C": "[latex]A_{1}A_{2}A'_{2}A_{3}A_{4}[/latex]",
+      "D": "[latex]A_{1}A'_{2}A_{3}A_{4}A'_{5}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 246 The switching expression corresponding to f(A,B,C,D)= [latex]\\Sigma[/latex] (1,4,5,9,11,12) is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "BC'D' + A'C'D + AB'D",
+      "B": "ABC' + ACD + B'C'D",
+      "C": "ACD' + A'BC' + AC'D'",
+      "D": "A'BD + ACD' + BCD'"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 247 The hexadecimal representation of [latex](657)_{8}[/latex] is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1AF",
+      "B": "D78",
+      "C": "D71",
+      "D": "32F"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 248 The range of integers that can be represented by an n bit 2's complement number system is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]-2^{n-1}[/latex] to [latex](2^{n-1}-1)[/latex]",
+      "B": "[latex]-(2^{n-1}-1)[/latex] to [latex](2^{n-1}-1)[/latex]",
+      "C": "[latex]-2^{n-1}[/latex] to [latex]2^{n-1}[/latex]",
+      "D": "[latex]-(2^{n-1}+1)[/latex] to [latex](2^{n-1}-1)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 249 Consider the following circuit. Which one of the following is TRUE?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page50_q4.webp",
+    "options": {
+      "A": "f is independent of X",
+      "B": "f is independent of Y",
+      "C": "f is independent of Z",
+      "D": "None of X, Y, Z is redundant"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 250 The function [latex]A \\bar B C + \\bar A B C + AB \\bar C+ \\bar A \\bar B C+ A \\bar B \\bar C[/latex] is equivalent to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]A \\bar C + AB+ \\bar A C[/latex]",
+      "B": "[latex]A \\bar B+ A \\bar C+ \\bar A C[/latex]",
+      "C": "[latex]\\bar A B+ A \\bar C+ A \\bar B[/latex]",
+      "D": "[latex]\\bar AB+ AC+ A \\bar B[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 251 The number [latex](123456)_8[/latex] is equivalent to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex](A72E)_{16}[/latex] and [latex](22130232)_4[/latex]",
+      "B": "[latex](A72E)_{16}[/latex] and [latex](22131122)_4[/latex]",
+      "C": "[latex](A73E)_{16}[/latex] and [latex](22130232)_4[/latex]",
+      "D": "[latex](A62E)_{16}[/latex] and [latex](22120232)_4[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 252 Using a 4-bit 2's complement arithmetic, which of the following additions will result in an overflow? I.   1100 + 1100 II.  0011 + 0111 III. 1111 + 0111",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "i only",
+      "B": "ii only",
+      "C": "iii only",
+      "D": "i and iii only"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 253 What is the minimum number of NAND gates required to implement a 2-input EXCLUSIVE-OR function without using any other logic gate?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 254 Let A = 1111 1010 and B = 0000 1010 be two 8-bit 2's complement numbers.\nTheir product in 2's complement is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1100 0100",
+      "B": "1001 1100",
+      "C": "1000 0101",
+      "D": "1101 0101"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 255 A 4-bit carry look ahead Combinational Circuit, which adds two 4-bit numbers, is designed using AND, OR, NOT, NAND, NOR gates only. Assuming that all the inputs are available in both complemented and uncomplemented  forms and the delay of each gate is one time unit, what is the overall propagation delay of the Combinational Circuit? Assume that the carry network has been implemented using two-level AND-OR logic.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4 time units",
+      "B": "6 time units",
+      "C": "10 time units",
+      "D": "12 time units"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 256 Consider the partial implementation of a 2-bit counter using T flip-flops following the sequence 0-2-3-\n1-0, as shown below. To complete the circuit, the input X should be",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page52_q1.webp",
+    "options": {
+      "A": "Q2'",
+      "B": "Q2 + Q1",
+      "C": "[latex](Q1\\oplus Q2)'[/latex]",
+      "D": "[latex]Q1\\oplus Q2[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 257 Consider a multiplexer with X and Y as data inputs and Z as control input. Z = 0 selects input X, and\nZ = 1 selects input Y. What are the connections required to realize the 2-variable Boolean function f=T+R, without using any additional hardware?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "R to X, 1 to Y, T to Z",
+      "B": "T to X, R to Y, T to Z",
+      "C": "T to X, R to Y, 0 to Z",
+      "D": "R to X, 0 to Y, T to Z"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 258 Which are the essential prime implicants of the following Boolean function? f(a, b, c) = a'c + ac' + b'c",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "a'c and ac'",
+      "B": "a'c and b'c",
+      "C": "a'c only",
+      "D": "ac' and bc'"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 259 A circuit outputs a digit in the form of 4 bits. 0 is represented by 0000, 1 by 0001,..., 9 by 1001. A\ncombinational circuit is to be designed which takes these 4 bits as input and outputs 1 if the digit [latex]\\geq[/latex]5, and 0 otherwise. If only AND, OR and NOT gates may be used, what is the minimum number of gates required?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 260 What is the result of evaluating the following two expressions using three-digit floating point\narithmetic with rounding? (113. + - 111.) + 7.51 113. + (- 111. + 7.51)",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "9.51 and 10.0 respectively",
+      "B": "10.0 and 9.51 respectively",
+      "C": "9.51 and 9.51 respectively",
+      "D": "10.0 and 10.0 respectively"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 261 If [latex]73_{x}[/latex] (in base-x number system) is equal to [latex]54_{y}[/latex] (in base y-number system), the possible values of x\nand y are",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "8,16",
+      "B": "10,12",
+      "C": "9,13",
+      "D": "8,11"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 262 In an SR latch made by cross-coupling two NAND gates, if both S and R inputs are set to 0, then it\nwill result in",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Q = 0, Q' = 1",
+      "B": "Q = 1, Q' = 0",
+      "C": "Q = 1, Q' = 1",
+      "D": "Indeterminate states"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 263 A Boolean function x'y' + xy + x'y is equivalent",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "x'+y'",
+      "B": "x+y",
+      "C": "x+y'",
+      "D": "x'+y"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 264 Consider the following circuit composed of XOR gates and non-inverting buffers The non-inverting buffers have delays [latex]\\delta _{1}[/latex]= 2ns and [latex]\\delta _{2}[/latex]= 4ns as shown in the\nfigure. Both XOR gates and al wires have zero delay. Assume that all gate inputs,\noutputs and wires are stable at logic level 0. If the following waveform is applied\nat input. A, how many transition (s) (change of logic levels) occur (s) at B during\nthe interval from 0 to 10 ns?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page53_q4.webp",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 265 Consider the ALU shown below If the operands are in 2's complement representation, which of the following\noperations can be performed by suitably setting the control lines K and C0 only\n(+ and - denote addition and subtraction respectively)?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page53_q5.webp",
+    "options": {
+      "A": "A + B, and A - B,but not A + 1",
+      "B": "A + B,and A + 1,but not A - B",
+      "C": "A + B,but not A - B,or A + 1",
+      "D": "A + B,and A - B,and A + 1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 266 The literal count of a Boolean Algebra is the sum of the number of times each\nliteral appears in the expression. For example, the literal count of (xy + xz) is 4. What are the minimum possible literal counts of the product-of-sum and sum-of product\nrepresentations respectively of the function given by the following\nkarnaugh map?\nHere, X denotes \"don't care\"",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page54_q1.webp",
+    "options": {
+      "A": "(11,9)",
+      "B": "(9,13)",
+      "C": "(9,10)",
+      "D": "(11,11)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 267 A 1-input, 2-output synchronous sequential circuit behaves as follows. Let [latex]z_{k},n_{k}[/latex] denote the number of 0's and 1's respectively in initial k bits of the\r\ninput ( [latex]z_{k}+n_{k}=k[/latex] ). The circuit outputs 00 until one of the following conditions holds. 1. [latex]z_{k}-n_{k}=2[/latex]. In this case, the output at the k -th and all subsequency clock ticks is 10. 2.  [latex]n_{k}-z_{k}=2[/latex]. In this case, the output at the k -th and all subsequent clock ticks is 01. What in the minimum number of states required in the state transition graph of the above circuit?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 268 The following is a scheme for floating point Number System using 16 bits. Let s,c and m be the number represented in binary in the sign, exponent, and\nmantissa fields respectively. Then the flouting point number represented id [latex]\\left\\{\\begin{matrix} (-1)^{s}(1+m*2^{-9})2^{e-31}, & if \\; the \\; exponent \\neq 111111 \\\\ 0& otherwise \\end{matrix}\\right.[/latex] What is the maximum difference between two successive real numbers representable in this system?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page54_q3.webp",
+    "options": {
+      "A": "[latex]2^{-40}[/latex]",
+      "B": "[latex]2^{-9}[/latex]",
+      "C": "[latex]2^{22}[/latex]",
+      "D": "[latex]2^{31}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 269 Consider the set {a, b, c} with binary operators + and x defined as follows : For example, a + c = c, c + a = a, c x b = c and b x c = a. Given the following set of equations : (a x x) + (a x y) = c\n(b x x) + (c x y) = c The number of solution(s) (i.e., pair(s) (x, y)) that satisfy the equations is :",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page54_q4.webp",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 270 Consider an array multiplier for multiplying two n bit numbers. If each gate in\nthe circuit has a unit delay, the total delay of the multiplier is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\Theta (1)[/latex]",
+      "B": "[latex]\\Theta (log n)[/latex]",
+      "C": "[latex]\\Theta (n)[/latex]",
+      "D": "[latex]\\Theta (n^{2})[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 271 Assuming all numbers are in 2's complement representation, which of the following\nnumber is divisible by 11111011?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "11100111",
+      "B": "11100100",
+      "C": "11010111",
+      "D": "11011011"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 272 Let f(A,B) = A' + B. Simplified expression for function f(f(x+y,y),z) is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "x' + z",
+      "B": "xyz",
+      "C": "xy' + z",
+      "D": "None of the above"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 273 Consider the following multiplexor where I0,I1,I2,I3 are four data input lines\r\nselected by two address line combinations A1A0 = 00,01,10,11 respectively and\r\nf is the output of the multiplexor. EN is the Enable input. The function f (x,y,z) implemented by the above circuit is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page55_q3.webp",
+    "options": {
+      "A": "xyz'",
+      "B": "xy + z",
+      "C": "x + y",
+      "D": "None of the above"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 274 Consider the following logic circuit whose inputs are functions f1, f2, f3 and output\nis f Given that f1(x, y, z) = [latex]\\Sigma[/latex](0, 1, 3, 5), f2(x, y, z) = [latex]\\Sigma[/latex](6, 7) and f(x, y, z) = [latex]\\Sigma[/latex](1, 4, 5), f3 is :",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page55_q4.webp",
+    "options": {
+      "A": "[latex]\\Sigma[/latex] (1,4,5)",
+      "B": "[latex]\\Sigma[/latex] (6,7)",
+      "C": "[latex]\\Sigma[/latex] (0,1,3,5)",
+      "D": "None of the above"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 275 In 2's complement addition, overflow",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "is flagged whenever there is carry from sign bit addition",
+      "B": "cannot occur when a positive value is added to a negative value",
+      "C": "is flagged when the carries from sign bit and previous bit match",
+      "D": "None of the above."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 276 Sign extension is a step in",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "floating point multiplication",
+      "B": "signed 16 bit integer addition",
+      "C": "arithmetic left shift",
+      "D": "converting a signed integer from one size to another."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 277 The 2's complement represent representation of the decimal value -15 is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "1111",
+      "B": "11111",
+      "C": "111111",
+      "D": "10001"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 278 The decimal value of 0.25",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "is equivalent to the binary value 0.1",
+      "B": "is equivalent to the binary value 0.01",
+      "C": "is equivalent to the binary value 0.00111.....",
+      "D": "cannot be represented precisely in binary."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 279 Minimum sum of product expression for f (w,x,y,z) shown in Karnaugh-map\nbelow is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page56_q4.webp",
+    "options": {
+      "A": "xz + y'z",
+      "B": "xz'+zx'",
+      "C": "x'y+zx'",
+      "D": "None of the above"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 280 Consider the values of [latex]A = 2.0 \\times 10^{30}, B = -2.0 \\times 10^{30}, C = 1.0[/latex], and the sequence X:= A + B          Y:= A + C   \r\n X:= X + C          Y:= Y + B executed on a computer where floating point numbers are represented with 32 bits. The values for X and Y will be",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "X = 1.0, Y = 1.0",
+      "B": "X = 1.0, Y = 0.0",
+      "C": "X = 0.0, Y = 1.0",
+      "D": "X = 0.0, Y = 0.0"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 281 The following arrangement of master-slave flip flops has the initial state of P, Q as 0, 1 (respectively). After three clock cycles the output state P, Q is (respectively),",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page57_q1.webp",
+    "options": {
+      "A": "1, 0",
+      "B": "1, 1",
+      "C": "0, 0",
+      "D": "0, 1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 282 Which functions does NOT implement the Karnaugh map given below?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page57_q2.webp",
+    "options": {
+      "A": "(w + x) y",
+      "B": "xy + yw",
+      "C": "[latex](w + x) (\\bar{w} + y) (\\bar{x} + y)[/latex]",
+      "D": "None of the above"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 283 The simultaneous equations on the Boolean variables x, y, z and w, x + y + z = 1 xy = 0 xz + w = 1 [latex]xy + \\bar{z}\\bar{w} = 0[/latex] have the following solution for x, y, z and w, respectively:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0 1 0 0",
+      "B": "1 1 0 1",
+      "C": "1 0 1 1",
+      "D": "1 0 0 0"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 284 The number 43 in 2's complement representation is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]01010101[/latex]",
+      "B": "11010101",
+      "C": "[latex]00101011[/latex]",
+      "D": "10101011"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 285 Zero has two representations in:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Sign-magnitude",
+      "B": "2's  complement",
+      "C": "1's  complement",
+      "D": "None of the above"
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 286 The number of full and half-adders required to add 16-bit numbers is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "8 half-adders, 8 full-adders",
+      "B": "1 half-adder, 15 full-adders",
+      "C": "16 half-adders, 0 full-adders",
+      "D": "4 half-adders, 12 full-adders"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 287 Which of the following sets of component(s) is/are sufficient to implement any arbitrary Boolean function?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "XOR gates, NOT gates",
+      "B": "2 to 1 multiplexers",
+      "C": "AND gates, XOR gates",
+      "D": "Three-input gates that output (A.B)+C for the inputs A,B and C."
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 288 Consider the circuit shown below. In a certain steady state, the line Y is at '1'. What are the possible values of A, B and C in this state?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page58_q3.webp",
+    "options": {
+      "A": "A=0,B=0,C=1",
+      "B": "A=0,B=1,C=1",
+      "C": "A=1,B=0,C=1",
+      "D": "A=1,B=1,C=1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 289 The maximum gate delay for any output to appear in an array multiplier for multiplying two n bit numbers is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]O(n^2)[/latex]",
+      "B": "O(n)",
+      "C": "[latex]O(\\log n)[/latex]",
+      "D": "O(1)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 290 Booth's coding in 8 bits for the decimal number -57 is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0-100+1000",
+      "B": "0-100+100-1",
+      "C": "0-1+100-10+1",
+      "D": "00-10+100-1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 291 Which of the following functions implements the Karnaugh map shown below?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page59_q1.webp",
+    "options": {
+      "A": "[latex]\\bar{A}B + CD[/latex]",
+      "B": "[latex]D(C+A)[/latex]",
+      "C": "[latex]AD+\\bar{A}B[/latex]",
+      "D": "[latex](C+D) (\\bar{C}+D) + (A+B)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 292 Which of the following expressions is not equivalent to [latex]\\bar{x}[/latex]?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "x NAND x",
+      "B": "x NOR x",
+      "C": "x NAND 1",
+      "D": "x NOR 1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 293 Suppose the domain set of an attribute consists of signed four digit numbers. What is the percentage of reduction in storage space of this attribute if it is stored as an integer rather than in character form?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "80%",
+      "B": "20%",
+      "C": "60%",
+      "D": "40%"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 294 Which of the following operations is commutative but not associative?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "AND",
+      "B": "OR",
+      "C": "NAND",
+      "D": "EXOR"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 295 The function represented by the Karnaugh map given below is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page59_q5.webp",
+    "options": {
+      "A": "[latex]A \\cdot B[/latex]",
+      "B": "[latex]AB+BC+CA[/latex]",
+      "C": "[latex]\\overline{B \\oplus C}[/latex]",
+      "D": "[latex]A \\cdot BC[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 296 The octal representation of an integer is [latex](342)_8[/latex]. If this were to be treated as an eight-bit integer in an 8085 based computer, its decimal equivalent is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "226",
+      "B": "-98",
+      "C": "76",
+      "D": "-30"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 297 The threshold level for logic 1 in the TTL family is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "any voltage above 2.5 V",
+      "B": "any voltage between 0.8 V and 5.0 V",
+      "C": "any voltage below 5.0 V",
+      "D": "any voltage below [latex]V_{cc}[/latex] but above 2.8 V"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 298 A multiplexer with a 4-bit data select input is a",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4:1 multiplexer",
+      "B": "2:1 multiplexer",
+      "C": "16:1 multiplexer",
+      "D": "8:1 multiplexer"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 299 What happens when a bit-string is XORed with itself n-times as shown: [latex]\\left[B \\oplus (B \\oplus ( B \\oplus (B \\dots n \\text{ times}\\right][/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "complements when n is even",
+      "B": "complements when n is odd",
+      "C": "divides by [latex]2^n[/latex] always",
+      "D": "remains unchanged when n is even"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 300 Consider a logic circuit shown in figure below. The functions [latex]f_1, f_2 \\text{ and }f[/latex]  (in canonical sum of products form in decimal notation) are : [latex]f_1 (w, x, y, z) = \\sum 8, 9, 10[/latex] [latex]f_2 (w, x, y, z) = \\sum 7, 8, 12, 13, 14, 15[/latex] [latex]f (w, x, y, z) = \\sum 8, 9[/latex] The function [latex]f_3[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page60_q5.webp",
+    "options": {
+      "A": "[latex]\\sum 9, 10[/latex]",
+      "B": "[latex]\\sum 9[/latex]",
+      "C": "[latex]\\sum 1, 8, 9[/latex]",
+      "D": "[latex]\\sum 8, 10, 15[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 301 Given [latex]\\sqrt{(224)_r} =(13)_r[/latex]. The value of the radix r is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "10",
+      "B": "8",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 302 Let [latex]f(x, y, z)=\\bar{x} + \\bar{y}x + xz[/latex] be a switching function. Which one of the following is valid?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\bar{y}x[/latex] is a prime implicant of [latex]f[/latex]",
+      "B": "[latex]xz[/latex] is a minterm of [latex]f[/latex]",
+      "C": "[latex]xz[/latex] is an implicant of [latex]f[/latex]",
+      "D": "[latex]y[/latex] is a prime implicant of [latex]f[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 303 An N-bit carry lookahead adder, where N is a multiple of 4, employs ICs 74181 (4 bit ALU) and 74182 ( 4 bit carry lookahead generator). The minimum addition time using the best architecture for this adder is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "proportional to N",
+      "B": "proportional to [latex]\\log[/latex] N",
+      "C": "a constant",
+      "D": "None of the above"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 304 Let * be defined as [latex]x * y = \\bar{x} + y[/latex]. Let [latex]z = x * y[/latex]. Value of [latex]z * x[/latex] is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]\\bar{x} + y[/latex]",
+      "B": "x",
+      "C": "0",
+      "D": "1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 305 What is the equivalent Boolean expression in product-of-sums form for the Karnaugh map given in Fig",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page61_q5.webp",
+    "options": {
+      "A": "[latex]B\\overline{D} + \\overline{B}D[/latex]",
+      "B": "[latex](B + \\overline{C} +D) (\\overline{B} + C + \\overline{D})[/latex]",
+      "C": "[latex](B + {D})(\\overline{B} +\\overline{ D})[/latex]",
+      "D": "[latex](B + \\overline{D})(\\overline{B} + {D})[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 306 Consider the circuit in figure. f implements",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page62_q1.webp",
+    "options": {
+      "A": "[latex]\\overline{A} \\overline{B}C + \\overline{A}B \\overline{C} + ABC[/latex]",
+      "B": "[latex]A + B + C[/latex]",
+      "C": "[latex]A \\oplus B \\oplus C[/latex]",
+      "D": "[latex]AB + BC + CA[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 307 Consider the circuit in below figure which has a four bit binary number [latex]b_3b_2b_1b_0[/latex] as input and a five bit binary number, [latex]d_4d_3d_2d_1d_0[/latex] as output.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page62_q2.webp",
+    "options": {
+      "A": "Binary to Hex conversion",
+      "B": "Binary to BCD conversion",
+      "C": "Binary to Gray code conversion",
+      "D": "Binary to radix-12 conversion"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 308 Consider the following floating-point number representation. [latex]\\begin{array}{c|c} \\begin{array}{cc}31\\;\\;\\hspace{15pt}&\\hspace{15pt}24\\end{array} & \\begin{array}{cc}23\\hspace{15pt}&\\hspace{15pt}0\\end{array} \\\\\\hline \\text{Exponent}&\\text{Mantissa}\\\\ \\hline \\end{array}[/latex] The exponent is in 2's complement representation and the mantissa is in the sign-magnitude representation. The range of the magnitude of the normalized numbers in this representation is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "0 to 1",
+      "B": "0.5 to 1",
+      "C": "[latex]2^{-23}[/latex] to 0.5",
+      "D": "[latex]0.5 \\text{to }\\left(1-2^{-23}\\right)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 309 Booth's algorithm for integer multiplication gives worst performance when the multiplier pattern is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "101010 ... 1010",
+      "B": "100000 ... 0001",
+      "C": "111111 ... 1111",
+      "D": "011111 ... 1110"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 310 The number of 1's in the binary representation of (3*4096+15*256+5*16+3) are:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "12"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 311 What values of A, B, C and D satisfy the following simultaneous Boolean equations? [latex]\\overline{A} + AB =0, AB=AC, AB+A\\overline{C}+CD=\\overline{C}D[/latex]",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "A=1, B=0, C=0, D=1",
+      "B": "A=1, B=1, C=0, D=0",
+      "C": "A=1, B=0, C=1, D=1",
+      "D": "A=1, B=0, C=0, D=0"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 312 The logic expression for the output of the circuit shown in figure below is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page63_q2.webp",
+    "options": {
+      "A": "[latex]\\overline{AC} + \\overline{BC} +CD[/latex]",
+      "B": "[latex]\\overline{A}C + \\overline{B}C + CD[/latex]",
+      "C": "[latex]ABC +\\overline {C}\\; \\overline{D}[/latex]",
+      "D": "[latex]\\overline{A}\\; \\overline{B} + \\overline{B}\\; \\overline{C} +CD[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 313 Consider the circuit given below the initial state [latex]Q_{0}=1, Q_{1}=Q_{2}=0[/latex]. The state\nof the circuit is given by the value [latex]4Q_{2}+2Q_{1}+Q_{0}[/latex] Which one of the following is the correct state sequence of the circuit ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page63_q3.webp",
+    "options": {
+      "A": "1, 3, 4, 6, 7, 5, 2",
+      "B": "1, 2, 5, 3, 7, 6, 4",
+      "C": "1, 2, 7, 3, 5, 6, 4",
+      "D": "1, 6, 5, 7, 2, 3, 5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 314 Consider the circuit shown below. The output of a 2:1 Mux is given by the\nfunction (ac' + bc). Which of the following is true?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page63_q4.webp",
+    "options": {
+      "A": "f= x1'x2 + x1x2'",
+      "B": "f = x1 + x2'",
+      "C": "f = x1x2 + x1'x2'",
+      "D": "f= x1' + x2"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 315 The 2's complement representation of [latex](-539)_{10}[/latex] is hexadecimal is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "ABE",
+      "B": "DBC",
+      "C": "DE5",
+      "D": "9E7"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 316 Consider the following circuit with initial state Q0 = Q1 = 0. The D flip-flops are\npositive edged triggered and have set up times 20 nanosecond and hold times 0.",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page64_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 317 Given the following Karnaugh map, which one of the following represents the\nminimal sum-of-Products of the map ?",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page64_q2.webp",
+    "options": {
+      "A": "xy+y'z",
+      "B": "wx'y'+xy+xz",
+      "C": "w'x+y'z+xy",
+      "D": "xz+y"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 318 Choose the correct alternatives (more than one may be correct) and write the corresponding letters only: All digital circuits can be realized using only",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "Ex-OR gates",
+      "B": "Multiplexers",
+      "C": "Half adders",
+      "D": "OR gates"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 319 Choose the correct alternatives (more than one may be correct) and write the corresponding letters only: The operation which is commutative but not associative is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "AND",
+      "B": "OR",
+      "C": "EX-OR",
+      "D": "NAND"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 320 Choose the correct alternatives (more than one may be correct) and write the corresponding letters only: Advantage of synchronous sequential circuits over asynchronous ones is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "faster operation",
+      "B": "ease of avoiding problems due to hazards",
+      "C": "lower hardware requirement",
+      "D": "better noise immunity",
+      "E": "none of the above"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 321 Choose the correct alternatives (More than one may be correct). Two NAND gates having open collector outputs are tied together as shown in below figure. The logic function Y, implemented by the circuit is,",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page65_q1.webp",
+    "options": {
+      "A": "Y=ABC + DE",
+      "B": "[latex]Y=\\overline{ABC + DE}[/latex]",
+      "C": "Y=ABC.DE",
+      "D": "[latex]Y=\\overline{ABC.DE}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 322 The exponent of a floating-point number is represented in excess-N code so that:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "The dynamic range is large.",
+      "B": "The precision is high.",
+      "C": "The smallest number is represented by all zeros.",
+      "D": "Overflow is avoided."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 323 The output F of the below multiplexer circuit can be represented by",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page65_q3.webp",
+    "options": {
+      "A": "[latex]AB+B\\bar{C}+\\bar{C}A+\\bar{B}\\bar{C}[/latex]",
+      "B": "[latex]A\\oplus B\\oplus C[/latex]",
+      "C": "[latex]A \\oplus B[/latex]",
+      "D": "[latex]\\bar{A} \\bar{B} C+ \\bar{A} B \\bar{C}+A \\bar{B} \\bar{C}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 324 The above circuit produces the output sequence:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page65_q4.webp",
+    "options": {
+      "A": "1111       1111       0000       0000",
+      "B": "1111       0000      1111        000",
+      "C": "1111       0001      0011       010",
+      "D": "1010      1010      1010       1010"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 325 The total number of Boolean functions which can be realised with four variables is:",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "4",
+      "B": "17",
+      "C": "256",
+      "D": "65, 536"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 326 A Boolean function f is to be realized only by NOR gates. Its K-map is given below: The realization is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page66_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 327 Fig. below shows the circuit diagram of a wien bridge oscillator using an op-amp. The frequency of oscillation is given by [latex]f= 1/2 \\pi[/latex] CR. To have the system oscillate the ratio [latex]R_{2}/R_{1}[/latex] should be",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page66_q2.webp",
+    "options": {
+      "A": "0.5",
+      "B": "29",
+      "C": "2",
+      "D": "Any value"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 328 The below figure shows four D-type flip-flops connected as a shift register using a XOR gate. The initial state and three subsequent states for three clock pulses are also given. [latex]\\begin{array}{|c|c|c|c|c|} \\hline \\text{State} & Q_{A} & Q_{B} & Q_{C} & Q_{D} \\\\\\hline \\text{Initial} & 1 & 1 & 1 & 1 \\\\\\hline \\text{After the first clock} & 0 & 1 & 1 & 1 \\\\\\hline \\text{After the second clock} & 0 & 0 & 1 & 1 \\\\\\hline \\text{After the third clock} & 0 & 0 & 0 & 1 \\\\\\hline \\end{array}[/latex] The state [latex]Q_{A} Q_{B} Q_{C} Q_{D}[/latex] after the fourth clock pulse is",
+    "solution": "Click here for detail solution by gateoverflow",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/CSE/screenshots/dl/page66_q3.webp",
+    "options": {
+      "A": "0000",
+      "B": "1111",
+      "C": "1001",
+      "D": "1000"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 329 The Boolean expression [latex]A \\oplus B \\oplus A[/latex] is equivalent to",
+    "solution": "Click here for detail solution by gateoverflow",
+    "options": {
+      "A": "[latex]AB + \\bar {A}\\bar B[/latex]",
+      "B": "[latex]\\bar{A}B+A\\bar{B}[/latex]",
+      "C": "B",
+      "D": "[latex]\\bar{A}[/latex]"
+    },
+    "correct_answer": "C"
+  }
+]
