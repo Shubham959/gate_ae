@@ -1,0 +1,572 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 [latex]ax^3+bx^2+cx+d[/latex] is a polynomial on real [latex]x[/latex] over real coefficients [latex]a, b, c, d[/latex] wherein\n[latex]a \\neq 0[/latex]. Which of the following statements is true?",
+    "solution": "Given Polynomial [latex]ax^{3}+bx^{2}+cx+d=0;\\; \\; \\; a\\neq 0[/latex] Option (A): If d=0, then the polynomial equation becomes [latex]\\begin{aligned} ax^3+bx^2+cx&=0\\\\ x(ax^2+bx+c)&=0 \\\\ x=0 \\text{ or } ax^2+bx+c&=0 \\end{aligned}[/latex] d can be choosen to ensure x=0 is a root of given polynomial. Hence, Option (A) is correct. Option B: A third degree polynomial equation with all root equal is given by [latex](x+\\alpha )^3=0[/latex] Thus, by selecting suitable values of a, b, c and d we can have all roots identical. Hence, option (B) is incorrect. Option (C): Complex roots always occurs in pairs, So, the given polynomial will have maximum of 2 complex roots and 1 real root. Hence, option (C) is incorrect. Option (D): Nature or roots depends on other coefficients also apart from coefficient 'c'. Hence, option (D) is correct. Hence, the correct options are (A) and (D).",
+    "options": {
+      "A": "d can be chosen to ensure that x = 0 is a root for any given set a, b, c.",
+      "B": "No choice of coefficients can make all roots identical.",
+      "C": "a, b, c, d can be chosen to ensure that all roots are complex.",
+      "D": "c alone cannot ensure that all roots are real."
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 Which of the following is true for all possible non-zero choices of integers [latex]m, n; m \\neq n[/latex],\nor all possible non-zero choices of real numbers [latex]p, q ; p\\neq q[/latex], as applicable?",
+    "solution": "[latex]\\begin{aligned} \\because \\; p& \\neq q\\\\ &\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi} \\sin p\\theta \\cos q\\theta d\\theta \\\\ &=\\frac{1}{2\\pi}\\cdot \\frac{1}{2}\\int_{-\\pi}^{\\pi} [\\sin (p+q)\\theta + \\sin (p-q)\\theta] d\\theta \\\\ &=\\frac{1}{4\\pi}\\left [ \\frac{-1}{(p+q)}\\cos (p+q)\\theta -\\frac{1}{(p-q)}\\cos (p-q)\\theta \\right ]_{-\\pi}^{\\pi}\\\\ &=\\frac{-1}{4\\pi} \\left \\{ \\frac{1}{(p+q)}(\\cos (p+q) \\pi -\\cos (p+q)(-\\pi)) \\right.\\\\ &+\\left. \\frac{1}{(p-q)}(\\cos (p-q) \\pi -\\cos (p-q)(-\\pi)) \\right \\}\\\\ &=0 \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{\\pi}\\int_{0}^{\\pi}\\sin m\\theta \\sin n\\theta \\; d\\theta =0[/latex]",
+      "B": "[latex]\\frac{1}{2\\pi}\\int_{-\\pi/2}^{\\pi/2}\\sin p\\theta \\sin q\\theta \\; d\\theta =0[/latex]",
+      "C": "[latex]\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi}\\sin p\\theta \\cos q\\theta \\; d\\theta =0[/latex]",
+      "D": "[latex]\\lim_{\\alpha \\to \\infty }\\frac{1}{2\\alpha }\\int_{-\\alpha }^{\\alpha }\\sin p\\theta \\sin q\\theta \\; d\\theta =0[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Which of the following statements is true about the two sided Laplace transform?",
+    "solution": "It has no poles for any bounded signal that is nonzero in a finite time interval. This is true as we know for finite amplitude finite width signal ROC is entire s plane and ROC never includes any pole. It implies for such signals there is no poles. Hence the correct answer is option (B).",
+    "options": {
+      "A": "It exists for every signal that may or may not have a Fourier transform.",
+      "B": "It has no poles for any bounded signal that is non-zero only inside a finite time\ninterval.",
+      "C": "The number of finite poles and finite zeroes must be equal.",
+      "D": "If a signal can be expressed as a weighted sum of shifted one sided exponentials,\nthen its Laplace Transform will have no poles."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 Consider a signal  [latex]x[n]=\\left ( \\frac{1}{2} \\right )^n \\; 1[n][/latex], where 1[n]=0 if [latex]n \\lt 0[/latex], and 1[n]=1 if [latex]n \\geq 0.[/latex] The\r\nz-transform of [latex]x[n-k], k \\gt 0[/latex] is [latex]\\frac{z^{-k}}{1-\\frac{1}{2}z^{-1}}[/latex]\r\nwith region of convergence being",
+    "solution": "[latex]\\begin{aligned}x(n)&=\\left (\\frac{1}{2} \\right )^{n} u(n)\r\n, \\; \\; \\;  \\text{ROC of }x(n):\\left | z \\right | \\gt  \\frac{1}{2} \\\\ x(n-k)\\rightleftharpoons X(z)&=\\frac{z^{-k}}{1-\\frac{1}{2}z^{-1}}\r\n, \\; \\; \\; \\text{ROC of }x(n-k): \\left | z \\right | \\gt \\frac{1}{2}\\\\ \\text{For } x(n-k) \\; \\; \\;  &\\text{ROC will be } \\left | z \\right |\\gt \\frac{1}{2}\\end{aligned}[/latex].",
+    "options": {
+      "A": "[latex]|z| \\lt 2[/latex]",
+      "B": "[latex]|z| \\gt 2[/latex]",
+      "C": "[latex]|z| \\lt 1/2[/latex]",
+      "D": "[latex]|z| \\gt 1/2[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 The value of the following complex integral, with C representing the unit circle centered\nat origin in the counterclockwise sense, is: [latex]\\int_{c}\\frac{z^2+1}{z^2-2z}dz[/latex]",
+    "solution": "[latex]\\begin{aligned} I&=\\int _C \\frac{z^2+1}{z^2-2z}dz\\;\\;\\;|z|=1 \\\\ \\text{Using } & \\text{Cauchy's integral theorem}\\\\ \\int _C\\frac{F(z)}{z-a}dz&=2 \\pi i (Re_{(z=a)})\\;\\;\\;...(i)\\\\ I&=\\int _C \\frac{z^2+1}{z(z-2)}dz \\end{aligned}[/latex] Poles are at z=0 and 2 but only z=0 lies inside the unit circle. Residue at [latex](z=0)=\\lim_{z \\to 0}\\frac{z^2+1}{z(z-2)}[/latex] [latex]Re_{(z=0)}=-\\frac{1}{2}[/latex] Using equation (i) [latex]\\int _C \\frac{z^2+1}{z^2-2z}dz=2 \\pi i \\times \\left ( \\frac{-1}{2} \\right )=-\\pi i[/latex]",
+    "options": {
+      "A": "[latex]8 \\pi i[/latex]",
+      "B": "[latex]-8 \\pi i[/latex]",
+      "C": "[latex]- \\pi i[/latex]",
+      "D": "[latex] \\pi i[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 [latex]x_R\\; and \\; x_A[/latex] are, respectively, the rms and average values of [latex]x(t) = x(t - T)[/latex], and similarly,\n[latex]y_R\\; and \\; y_A[/latex] are, respectively, the rms and average values of [latex]y(t) = kx(t). k, \\;T[/latex] are\nindependent of t. Which of the following is true?",
+    "solution": "Given that, [latex]\\begin{aligned} x(t)&=x(t-T) \\; \\text{  i.e. periodic signal}\\\\ \\text{Average of } x(t)&=x_{A}\\\\ \\text{Rms of  }x(t)&=x_{R} \\\\ \\text{Average of }y(t)&=y_{A}\\\\ \\text{Rms of } y(t)&=y_{R} \\\\ y(t)&=k_{x}(t_{0}) \\; \\; ....(i) \\\\ &\\text{Using equation(i),}\\\\ \\text{Average of }y(t)&=k \r\n \\times \\text{ Average of }x(t) \\\\ y_{A}&=kx_{A}\\\\ \\text{Power of }y(t)&=|k|^{2}\\text{ Power of }x(t) \\\\ Rms^{2} \\text{ of } y(t)&=|k|^{2}\\; Rms^{2}\\text{ of }x(t) \\\\ y_{R}^{2}=|k|^{2}\\cdot x_{R}^{2} \\\\ y_{R}=|k|x_{R}\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]y_A=kx_A;\\; y_R=kx_R[/latex]",
+      "B": "[latex]y_A=kx_A;\\; y_R\\neq kx_R[/latex]",
+      "C": "[latex]y_A \\neq kx_A;\\; y_R= kx_R[/latex]",
+      "D": "[latex]y_A \\neq kx_A;\\; y_R\\neq kx_R[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 A three-phase cylindrical rotor synchronous generator has a synchronous reactance [latex]X_s[/latex]\nand a negligible armature resistance. The magnitude of per phase terminal voltage is\n[latex]V_A[/latex] and the magnitude of per phase induced emf is [latex]E_A[/latex]. Considering the following two\nstatements, P and Q. P : For any three-phase balanced leading load connected across the terminals of this\nsynchronous generator, [latex]V_A[/latex] is always more than [latex]E_A[/latex]. Q : For any three-phase balanced lagging load connected across the terminals of this\nsynchronous generator, [latex]V_A[/latex] is always less than [latex]E_A[/latex]. Which of the following options is correct?",
+    "solution": "For lagging p.f. load : For all lagging power factor loads: [latex]E_A \\gt V_A[/latex] For unity p.f. load: Still we can see : [latex]E_A \\gt V_A[/latex] For 'slighlty' load, phasor diagram will be quite similar to that of unity p.f. load, thus [latex]E_A [/latex] will be greater than [latex]V_A[/latex]. Thus P is false.",
+    "options": {
+      "A": "P is false and Q is true.",
+      "B": "P is true and Q is false.",
+      "C": "P is false and Q is false.",
+      "D": "P is true and Q is true."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 A lossless transmission line with 0.2 pu reactance per phase uniformly distributed along\nthe length of the line, connecting a generator bus to a load bus, is protected up to 80%\nof its length by a distance relay placed at the generator bus. The generator terminal\nvoltage is 1 pu. There is no generation at the load bus. The threshold pu current for\noperation of the distance relay for a solid three phase-to-ground fault on the transmission\nline is closest to:",
+    "solution": "[latex]I_{f}=\\frac{1}{Z_{Th}}=\\frac{1}{0.2}[/latex] =5 pu for 100% of line Relay is operated for 80% [latex]Z_{f}=0.8\\, Z_{t}\\Rightarrow 0.8\\times 0.2=0.16\\, p.u.[/latex] For 80% of line, [latex]I_{f}=\\frac{1}{0.16}=6.25\\: p.u.[/latex]",
+    "options": {
+      "A": "1",
+      "B": "3.61",
+      "C": "5",
+      "D": "6.25"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 Out of the following options, the most relevant information needed to specify the real\npower (P) at the PV buses in a load flow analysis is",
+    "solution": "Most relevant information needed to specify P at PV buses is solution of economic load dispatch.",
+    "options": {
+      "A": "solution of economic load dispatch",
+      "B": "rated power output of the generator",
+      "C": "rated voltage of the generator",
+      "D": "base power of the generator"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 Consider a linear time-invariant system whose input r(t) and output y(t) are related by\nthe following differential equation. [latex]\\frac{d^2y(t)}{dt^2}+4y(t)=6r(t)[/latex] The poles of this system are at",
+    "solution": "[latex]\\begin{aligned}\\frac{d^2 y(t)}{dt^{2}}+4y(t) &=6 r(t)\\\\ [s^{2}+4]Y(s)&=6 R(s) \\\\ \\frac{Y(s)}{R(s)}&=\\frac{6}{s^{2}+4} \\\\ \\text{Poles: } s^{2}+4&=0 \\\\ s&=\\pm j2 \\end{aligned}[/latex]",
+    "options": {
+      "A": "+2j, -2j",
+      "B": "+2, -2",
+      "C": "+4, -4",
+      "D": "+4j, -4j"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 A single-phase, full-bridge diode rectifier fed from a 230 V, 50 Hz sinusoidal source\nsupplies a series combination of finite resistance. R, and a very large inductance, L,\nThe two most dominant frequency components in the source current are:",
+    "solution": "For full bridge rectifier, High inductive load [latex]\\begin{aligned} I_{source}&=\\sum_{n=1,3,5}^{\\infty }\\frac{4I_0}{n \\pi} \\sin nd \\sin \\frac{n \\pi}{2} \\sin (n\\omega t+\\phi _n) \\\\ 2d &=\\pi , \\;\\; d=\\frac{\\pi}{2}\\\\ I_{source}&= \\frac{4I_0}{n \\pi} \\sum_{n=1,3,5}^{\\infty } \\sin ^2 n\\left ( \\frac{\\pi}{2} \\right ) \\sin (n\\omega t+\\phi _n)\\\\ I_{source}&\\neq 0 \\end{aligned}[/latex] For [latex] n=1,3,5,...[/latex] Since the most dominant frequency component will be [latex]f, 3f, f = 50[/latex] So dominant frequency [latex]= 50 Hz, 150 Hz.[/latex]",
+    "options": {
+      "A": "50 Hz, 0 Hz",
+      "B": "50 Hz, 100 Hz",
+      "C": "50 Hz, 150 Hz",
+      "D": "50 Hz, 250 Hz"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Thyristor [latex]T_1[/latex] is triggered at an angle [latex]\\alpha[/latex] (in degree), and [latex]T_2[/latex] at angle [latex]180^{\\circ} + \\alpha[/latex], in each\ncycle of the sinusoidal input voltage. Assume both thyristors to be ideal. To control the\nload power over the range 0 to 2 kW, the minimum range of variation in [latex]\\alpha[/latex] is:",
+    "solution": "As per GATE official answer key, MTA (Marks to All) As load is capacitive, for any [latex]\\alpha[/latex] : [latex]\\begin{aligned} V_{or}&=\\frac{V_m}{\\sqrt{2\\pi}}\\left [ \\pi - \\alpha +\\frac{1}{2} \\sin 2\\alpha \\right ]^{1/2}\\\\ P_0&=\\left ( \\frac{V_{or}}{z} \\right )^2 \\times R\\\\ &=\\frac{V_{or}^2}{100} \\times 5=\\frac{V_{or}^2}{20}\\\\ \\text{For }\\alpha &=0^{\\circ}\\\\ V_{or}&=\\frac{V_m}{\\sqrt{2}}=200\\\\ P_0&=\\frac{200}{20}=2KW \\end{aligned}[/latex] For [latex]\\alpha =120^{\\circ}[/latex], as current distinguishes, so [latex]P=0.[/latex] So, [latex]\\alpha[/latex] should be [latex]0^{\\circ} \\text{ to } 120^{\\circ}.[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page3_q2.webp",
+    "options": {
+      "A": "[latex]0^{\\circ} \\; to \\; 60^{\\circ}[/latex]",
+      "B": "[latex]0^{\\circ} \\; to \\; 120^{\\circ}[/latex]",
+      "C": "[latex]60^{\\circ} \\; to \\; 120^{\\circ}[/latex]",
+      "D": "[latex]60^{\\circ} \\; to \\; 180^{\\circ}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Which of the options is an equivalent representation of the signal flow graph shown here?",
+    "solution": "Simplifying given signal flow graph",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page3_q3.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 A common-source amplifier with a drain resistance, [latex]R_D = 4.7 k\\Omega[/latex], is powered using a\n10 V power supply. Assuming that the transconductance, [latex]g_m, \\;is\\; 520 \\mu A/V[/latex], the voltage\ngain of the amplifier is closest to:",
+    "solution": "Given data: [latex]R_{D}=4.7  K\\Omega ,\\; g_{m}=520 \\mu A/V[/latex] Voltage gain of CS amplifier [latex]=-g_{m}R_{D}=-520\\, \\mu A/V\\, \\times \\, 4.7\\, k\\Omega =-2.44[/latex]",
+    "options": {
+      "A": "-2.44",
+      "B": "-1.22",
+      "C": "1.22",
+      "D": "2.44"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 A sequence detector is designed to detect precisely 3 digital inputs, with overlapping\r\nsequences detectable. For the sequence (1,0,1) and input data (1,1,0,1,0,0,1,1,0,1,0,1,1,0): what is the output of this detector?",
+    "solution": "Given overlapping sequence input data [latex]= 11010011010110[/latex] It will give output [latex]1[/latex] when [latex]101[/latex] is detected. [latex]\\begin{aligned} 110 - 0\\\\ 101 - 1\\\\ 010 - 0\\\\ 100 - 0\\\\ 001 - 0\\\\ 011 - 0\\\\ 110 - 0\\\\ 101 - 1\\\\ 010 - 0\\\\ 101 - 1\\\\ 011 - 0\\\\ 110 - 0\\\\ \\end{aligned}[/latex] So, output [latex]= 010000010100[/latex]",
+    "options": {
+      "A": "1,1,0,0,0,0,1,1,0,1,0,0",
+      "B": "0,1,0,0,0,0,0,1,0,1,0,0",
+      "C": "0,1,0,0,0,0,0,1,0,1,1,0",
+      "D": "0,1,0,0,0,0,0,0,1,0,0,0"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 16 Consider the initial value problem below. The value of y at [latex]x = ln \\;2[/latex]. (rounded off to 3\ndecimal places) is ________ . [latex]\\frac{dy}{dx}=2x-y,\\; y(0)=1[/latex]",
+    "solution": "[latex]\\begin{aligned} \\frac{\\mathrm{d} y}{\\mathrm{d} x}&=2x-y \\\\  y(0)&=1, \\; y \\text{ at } x=\\ln  2\\\\ \\frac{\\mathrm{d} y}{\\mathrm{d} x}+y&=2x \\\\ P&=1, \\;\\;     Q=2x \\\\ I.F.&=e^{\\int Pdx}=e^{\\int 1dx}=e^{x}\\\\ \\text{Solution, }   Y(I.F)&=\\int Q(I.F.)dx\\\\ye^{x}&=\\int 2x\\cdot e^{x}dx \\\\&=2(xe^{x}-e^{x})+C \\\\ y&=2x-2+ce^{-x} \\\\ y(0)&=1 \\\\ 1&=0-2+C \\\\ C&=3 \\\\ \\therefore \\; \\; y&=2x-2+3e^{-x} \\\\ \\text{At }x&= \\ln 2 \\\\ y&=2(\\ln 2)-2+3e^{-\\ln 2} \\\\ &=1.386-2+\\frac{3}{2}\\\\\r\n&=0.886\\end{aligned} [/latex]",
+    "min": 0.8774,
+    "max": 0.8952
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 A three-phase, 50 Hz, 4-pole induction motor runs at no-load with a slip of 1%. With\r\nfull load, the slip increases to 5 %. The % speed regulation of the motor (rounded off\r\nto 2 decimal places) is _________ .",
+    "solution": "[latex]\\begin{aligned} \\text{Synchronous speed, }\\\\ N_s&=\\frac{120f}{P}\\\\ N_s&=\\frac{120 \\times 50}{4}rpm\\\\ N_s&=1500 \\; rpm\\\\ \\text{Speed at no-load,}\\\\ &=N_s(1-S_{nL})\\\\ &=1500(1-0.01)\\\\ &=1485 \\; rpm\\\\ \\text{Speed at full-load,}\\\\ &=N_s(1-S_{fL})\\\\ &=1500(1-0.05)\\\\ &=1425 \\; rpm\\\\ \\% \\text{ speed regulation}&=\\frac{N_{NL}-N_{FL}}{N_{FL}} \\times 100\\\\ &=\\frac{1485-1425}{1425} \\times 100\\\\ &=4.21\\% \\end{aligned}[/latex]",
+    "min": 4.1,
+    "max": 4.4
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18 Currents through ammeters A2 and A3 in the figure are [latex]1\\angle 10^{\\circ} \\; and \\; 1\\angle 70^{\\circ}[/latex] respectively.\nThe reading of the ammeter A1 (rounded off to 3 decimal places) is ________ A.",
+    "solution": "[latex]I=1\\angle 10^{\\circ}+1\\angle 70^{\\circ}[/latex] [latex] I=1.732\\angle 40^{\\circ}[/latex] The ready of ammeter is 1.732 A.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page4_q3.webp",
+    "min": 1.7,
+    "max": 1.75
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 The Thevenin equivalent voltage, [latex]V_{TH}[/latex], in V (rounded off to 2 decimal places) of the network\nshown below, is _______ .",
+    "solution": "Only voltage source 4V is there and current source 5A is open circuited From the above circuit, [latex]V_{TH1}=4V[/latex] Case-II: Only current source 5A is there and voltage source 4V is short circuited. From the above circuit, [latex]V_{TH2}=2 \\times 5=10V[/latex] By applying superposition theorem, [latex]V_{TH}=V_{TH1}+V_{TH2}=10+4=14V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page4_q4.webp",
+    "min": 13.8,
+    "max": 14.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 A double pulse measurement for an inductively loaded circuit controlled by the IGBT\nswitch is carried out to evaluate the reverse recovery characteristics of the diode. D,\nrepresented approximately as a piecewise linear plot of current vs time at diode turn-off.\n[latex]L_{par}[/latex] is a parasitic inductance due to the wiring of the circuit, and is in series with the\ndiode. The point on the plot (indicate your choice by entering 1. 2, 3 or 4) at which the\nIGBT experiences the highest current stress is ______.",
+    "solution": "Using KCL, [latex]I_s=I_L-I_D[/latex] For inductively loaded circuits, load can be assumed to be constant. [latex]\\therefore \\; I_s[/latex] is maximum  when, [latex]I_D[/latex] is minimum, i.e. at point 3. Therefore, IGBT experiences highest current stress at point 3.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page4_q5.webp",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 A single-phase, 4 kVA, 200 V/100 V, 50 Hz transformer with laminated CRGO steel core\nhas rated no-load loss of 450 W. When the high-voltage winding is excited with 160 V,\n40 Hz sinusoidal ac supply, the no-load losses are found to be 320 W. When the highvoltage winding of the same transformer is supplied from a 100 V, 25 Hz sinusoidal ac\nsource, the no-load losses will be _________W (rounded off to 2 decimal places).",
+    "solution": "[latex]\\begin{aligned}200 V,50 Hz, P_{c}&=450 Watt\\\\ 160 V,40 Hz,\r\n P_{c}&=320 Watt \\\\ 100 V,25 Hz,]P_{c}&=?   Watt \\\\ \\frac{v}{f}=\\text{constant}&=\\frac{200}{50}=\\frac{160}{40}=\\frac{100}{25}\\\\ \\text{So, }    P_{c}&=Af+Bf^{2} \\\\ 450&=A\\times (50)+B\\times (50)^{2} \\;\\; ...(i)\\\\ 320&=A\\times (40)+B\\times (40)^{2} \\;\\; ...(ii)\\\\ \\text{From (i) and (ii),}\\\\ \\frac{450}{50}&=A+B(50) \\;\\;...(iii)\r\n\\\\ \\frac{320}{40}&=A+B(40) \\;\\;...(iv)\r\n\\\\ \\text{Equation (iii)-(iv),} \\\\ (9-8)&=B(10)\\\\ B&=\\frac{1}{10} \\\\   A&=9-\\frac{1}{10}\\times 50=4 \\\\ \\text{Now at 100V,25 Hz,} \\\\P_{c}&=4\\times 25+\\frac{1}{10}\\times (25)^{2}\\\\\r\n&=100+62.5=162.50 Watt\r\n\\end{aligned}\r\n[/latex]",
+    "min": 162.41,
+    "max": 162.59
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 A single-phase inverter is fed from a 100 V dc source and is controlled using a quasisquare wave modulation scheme to produce an output waveform, [latex]v(t)[/latex]. as shown. The\nangle [latex]\\sigma[/latex] is adjusted to entirely eliminate the [latex]3^{rd}[/latex] harmonic component from the output\nvoltage. Under this condition, for [latex]v(t)[/latex], the magnitude of the [latex]5^{th}[/latex] harmonic component as\na percentage of the magnitude of the fundamental component is _______(rounded off\nto 2 decimal places).",
+    "solution": "Using result, [latex]\\begin{aligned}     V_{n}&=\\frac{4V_{s}}{n\\pi }\\cos n\\sigma\\\\ \\text{For,  }       V_{3}=0\\\\   \\cos 3\\sigma &=0 \\\\   3\\sigma &=\\frac{\\pi }{2} \\\\   \\sigma &=\\frac{\\pi }{6}\\\\ \\text{Now, }   \\frac{V_{5}}{V_{1}}&=\\frac{\\cos 5\\sigma }{5\\cos\\sigma }\\\\&=\\frac{\\cos 5\\pi /6}{5\\cos \\pi /6}=-\\frac{1}{5} \\\\ \\% \\left | \\frac{V_{5}}{V_{1}} \\right |&=\\frac{1}{5}\\times 100=20\\% \\end{aligned}  [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page5_q2.webp",
+    "min": 19.9,
+    "max": 20.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 A single 50 Hz synchronous generator on droop control was delivering 100 MW power\nto a system. Due to increase in load, generator power had to be increased by 10 MW.\nas a result of which, system frequency dropped to 49.75 Hz. Further increase in load\nin the system resulted in a frequency of 49.25 Hz. At this condition, the power in MW\nsupplied by the generator is ________ (rounded off to 2 decimal places)",
+    "solution": "Assumed full load frequency is 50 Hz [latex]\\begin{aligned}\\tan \\theta &=\\frac{50-49.75}{110-100} \\\\ &=\\frac{49.75-49.25}{(x-(110))} \\\\ \\frac{0.25}{10}&=\\frac{0.5}{(x-150)} \\\\ x-110&=\\frac{0.5\\times 10}{0.25} \\\\ x&=110+20=130\\, MW\\end{aligned}[/latex]",
+    "min": 123.0,
+    "max": 135.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 Consider a negative unity feedback system with forward path transfer function\n[latex]G(s)=\\frac{K}{(s+a)(s-b)(s+c)}[/latex], where K, a, b, c are positive real numbers. For a Nyquist\npath enclosing the entire imaginary axis and right half of the s-plane in the clockwise\ndirection, the Nyquist plot of [latex](1 + G(s))[/latex], encircles the origin of [latex](1 + G(s))[/latex]-plane once\nin the clockwise direction and never passes through this origin for a certain value of\nK. Then, the number of poles of [latex]\\frac{G(s)}{1+G(s)}[/latex] lying in the open right half of the s-plane is\n_________ .",
+    "solution": "[latex]\\begin{aligned}O.L.T.F = G(s) &=\\frac{K}{(s+a)(s-b)(s+c)} \\\\ N &= P - Z ;   \\; \\;P = 1 \\\\\r\n-1 &= 1 - Z ; \\; \\;   N = -1 \\\\\r\nZ &= 2\\end{aligned}[/latex]",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 The cross-section of a metal-oxide-semiconductor structure is shown schematically.\nStarting from an uncharged condition, a bias of +3V is applied to the gate contact with\nrespect to the body contact. The charge inside the silicon dioxide layer is then measured\nto be +Q. The total charge contained within the dashed box shown, upon application\nof bias, expressed as a multiple of Q (absolute value in Coulombs, rounded off to the\nnearest integer) is __________ .",
+    "solution": "Overall charge in side the box [latex]q + q - q - q = 0[/latex] charge",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page5_q5.webp",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 The real numbers, x and y with [latex]y = 3x^2 + 3x + 1[/latex], the maximum and minimum value\nof y for [latex]x \\in [-2, 0][/latex] are respectively ________",
+    "solution": "[latex]\\begin{aligned}\r\ny&=3x^{2}+3x+1 \\; \\;    in \\; [-2,0] \\\\ \\frac{\\partial y}{\\partial x}&=6x+3,\\; \\; \\frac{\\partial^2 y}{\\partial x^2}=6  \\\\ \\frac{\\mathrm{d} y}{\\mathrm{d} x}&=0\\\\ 6x+3&=0 \\\\ x&=\\frac{-1}{2} \\\\ \\frac{d^{2} y}{dx^{2}}&=6 \\gt 0\\text{ minimum} \\end{aligned}[/latex] Maximum value of y in [-2, 0] is maximum {f(-2), f(0)} max{7, 1} = 7 Minimum value of y in [-2, 0] [latex]min\\begin{Bmatrix} f(-2) & f(0) &f(-\\frac{1}{2}) \\\\ \\downarrow, &\\downarrow, &\\downarrow \\\\ 7& 1 & \\frac{1}{4} \\end{Bmatrix}+=\\frac{1}{4}[/latex] Maximum value 7, minimum value [latex]\\frac{1}{4}[/latex]",
+    "options": {
+      "A": "7 and 1/4",
+      "B": "7 and 1",
+      "C": "-2 and -1/2",
+      "D": "1 and 1/4"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 The vector function expressed by [latex]F = a_x(5y - k_1z) + a_y(3z + k_2x) + a_z(k_3y - 4x)[/latex] represents\na conservative field, where [latex]a_x, a_y, a_z[/latex] are unit vectors along x, y and z directions,\nrespectively. The values of constants [latex]k_1, k_2, k_3[/latex] are given by:",
+    "solution": "[latex]\\bar{F}=(5y-k_{1}Z)\\hat{i}+(3z+k_{2}x)\\hat{j}+(k_{3}y-4x)\\hat{k}[/latex]\r\n  is conservative field [latex]\\bar{F}[/latex] is irrotational, [latex]\\begin{aligned}\r\n\\triangledown \\times \\bar{F}&=0\\\\ \\begin{vmatrix} \\hat{i} &\\hat{j} &\\hat{k} \\\\ \\frac{\\partial }{\\partial x}&\\frac{\\partial }{\\partial y} &\\frac{\\partial }{\\partial z} \\\\ 5y-k_{1}z &3z-k_{2}x &k_{3}y -4x \\end{vmatrix}&=0\\\\ \\hat{i}(k_{3}-3)-\\hat{j}(-4+k_{1})+\\hat{k}(k_{2}-5)&=0\\\\ k_{3}-3&=0\\\\  4-k_{1}&=0\\\\ k_{2}-5&=0\\\\ k_{1}&=4\\\\ k_{2}&=5\\\\ k_{3}&=3\r\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]k_1=3, k_2=3, k_3=7[/latex]",
+      "B": "[latex]k_1=3, k_2=8, k_3=5[/latex]",
+      "C": "[latex]k_1=4, k_2=5, k_3=3[/latex]",
+      "D": "[latex]k_1=0, k_2=0, k_3=0[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 A 250 V dc shunt motor has an armature resistance of 0.2[latex]\\Omega[/latex] and a field resistance of\r\n100[latex]\\Omega[/latex]. When the motor is operated on no-load at rated voltage. It draws an armature\r\ncurrent of 5 A and runs at 1200 rpm. When a load is coupled to the motor, it draws\r\ntotal line current of 50 A at rated voltage, with a 5% reduction in the air-gap flux due\r\nto armature reaction. Voltage drop across the brushes can be taken as 1 V per brush\r\nunder all operating conditions. The speed of the motor, in rpm, under this loaded\r\ncondition, is closest to:",
+    "solution": "no load current 5 A [latex]\\begin{aligned}\r\nB.R.D&=\\text{1 V per brush}\\\\ \\text{loaded, }I_{L}&=50 A \\\\R_{sh}&=100 \\Omega\\\\ I_{sh}&=\\frac{250}{100}=2.5\\: A \\\\I_{a0}&=2.5\\: A\\\\I_{aL}&=47.5\\: A \\\\V&=E_{b}+I_{a}R_{a}+B.R.D\\\\ E_{b\\, no\\, load}&=V-I_{a0}R_{a}-B.R.D \\\\&=250-2.5(0.2)-1\\times 2 \\\\&=247.5\\, Volts \\\\E_{b\\, load}&=250-47.5(0.2)-1\\times 2 \\\\&=238.5\\, volts\\\\ \\frac{N_{2}}{N_{1}}&=\\frac{E_{b_{2}}}{E_{b_{1}}}\\times \\frac{\\phi_{1} }{\\phi _{2}} \\\\ \\frac{N_{2}}{1200}&=\\frac{238.5}{247.5}\\times \\frac{\\phi _{1}}{0.95\\phi_{1}}\\\\ N_{2}&=1217.22\\, rpm\r\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "1200",
+      "B": "1000",
+      "C": "1220",
+      "D": "900"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Two buses, i and j, are connected with a transmission line of admittance Y, at the two\nends of which there are ideal transformers with turns ratios as shown. Bus admittance\nmatrix for the system is:",
+    "solution": "[latex]\\begin{aligned}\r\nI&=Y(t_{i}V_{i}-V_{j}t_{j})  \\\\ I_{i}&=t_{i}I \\\\   &=t_{i}^{2}YV_{i}-t_{i}t_{j}YV_{j} \\\\ I_{j}&=-t_{j}I \\\\   &=-I_{i}t_{j}YV_{i}+t_{i}^{2}YV_{j} \\\\ \\begin{bmatrix} I_{i}\\\\ I_{j} \\end{bmatrix}&=\\begin{bmatrix} t_{i}^{2}Y &-t_{i}t_{j}Y \\\\ -t_{i}t_{j}Y &t_{j}^{2}Y \\end{bmatrix}\\begin{bmatrix} V_{i}\\\\ v_{j} \\end{bmatrix}\r\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page6_q4.webp",
+    "options": {
+      "A": "[latex]\\begin{bmatrix} -t_it_jY & t_j^2 Y\\\\ t_i^2 Y & -t_it_jY \\end{bmatrix}[/latex]",
+      "B": "[latex]\\begin{bmatrix} t_it_jY & -t_j^2 Y\\\\ -t_i^2 Y & t_it_jY \\end{bmatrix}[/latex]",
+      "C": "[latex]\\begin{bmatrix} t_i^2 Y & -t_it_jY\\\\ -t_it_jY & t_j^2 Y \\end{bmatrix}[/latex]",
+      "D": "[latex]\\begin{bmatrix} t_it_jY & -(t_i-t_j)^2Y\\\\ -(t_i-t_j)^2Y & t_it_jY \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Consider the diode circuit shown below. The diode, D, obeys the current-voltage\ncharacteristic [latex]I_D=I_S\\left ( exp\\left ( \\frac{V_D}{nV_T} \\right )-1 \\right )[/latex], where [latex]n \\gt 1, V_T \\gt 0, V_D[/latex] is the voltage across\nthe diode and [latex]I_D[/latex] is the current through it. The circuit is biased so that voltage, [latex]V \\gt 0[/latex] and current, [latex]I \\lt 0[/latex]. If you had to design this circuit to transfer maximum power from\nthe current source ([latex]I_1[/latex]) to a resistive load (not shown) at the output, what values [latex]R_1 \\; and \\; R_2[/latex] would you choose?",
+    "solution": "[latex]R_{1}[/latex]-low, [latex]R_{2}[/latex]- high [latex]V_{D}=V\\times \\frac{R_{2}}{R_{1}+R_{2}}[/latex] If [latex]R_{2}[/latex] is large [latex]V_{D}[/latex] becomes high If [latex]R_{1}[/latex] is less [latex]V_{D}=V[/latex] So for maximum power,  [latex]R_{1}[/latex] is small and [latex]R_{2}[/latex] is large.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page6_q5.webp",
+    "options": {
+      "A": "Large [latex]R_1[/latex] and large [latex]R_2[/latex].",
+      "B": "Small [latex]R_1[/latex] and small [latex]R_2[/latex].",
+      "C": "Large [latex]R_1[/latex] and small [latex]R_2[/latex].",
+      "D": "Small [latex]R_1[/latex] and large [latex]R_2[/latex]."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 A non-ideal diode is biased with a voltage of -0.03 V, and a diode current of [latex]I_1[/latex] is\nmeasured. The thermal voltage is 26 mV and the ideality factor for the diode is 15/13.\nThe voltage, in V, at which the measured current increases to 1.5[latex]I_1[/latex] is closest to:",
+    "solution": "[latex]\\begin{aligned}\r\nI_{1}&=i_{0}\\left [ e^{\\frac{0.03}{15/13\\times 26mV}}-1 \\right ] \\\\ V_{D}&=\\text{ -ve '1' can not be neglected}\\\\&\\text{in diode current equation} \\\\ I_{1}&=I_{0}[e^{-30mV/30mV}-1] \\\\   &=I_{0}[e^{-1}-1]  \\\\  &=-0.64\\: I_{0}  \\\\ 1.5I_{1}&=I_{0}[e^{V_{D}/30mV}-1] \\\\ -1.5\\times 0.64 I_{0}&=I_{0}[e^{V_{D}/30mV}-1]\\\\-0.96&=e^{V_{D2}/30mV}-1\\\\1-0.96&=e^{V_{D2}/30mV}\\\\0.04&=e^{V_{D2}/30mV}\\\\ 30 mV \\ln (0.04)&=V_{D}\\\\ V_{D}&=-0.09 V\r\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "-0.02",
+      "B": "-0.09",
+      "C": "-1.5",
+      "D": "-4.5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 A benchtop dc power supply acts as an ideal 4 A current source as long as its terminal\nvoltage is below 10 V. Beyond this point, it begins to behave as an ideal 10 V voltage\nsource for all load currents going down to 0 A. When connected to an ideal rheostat,\nfind the load resistance value at which maximum power is transferred, and the corresponding\nload voltage and current.",
+    "solution": "Maximum power transistor of VI product is maximum. If draw the the curve, it intersect\n(10, 4) that will give maximum power.\nThe terminal voltage is 10 V (Load voltage) and current is 4 A (Load current).\nLoad resistance is [latex]\\frac{10}{4}=2.5\\Omega[/latex]\n\n.",
+    "options": {
+      "A": "Short, [latex]\\infty[/latex] A, 10 V",
+      "B": "Open, 4 A, 0 V",
+      "C": "2.5 [latex]\\Omega[/latex], 4 A, 10 V",
+      "D": "2.5 [latex]\\Omega[/latex], 4 A, 5 V"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 The static electric field inside a dielectric medium with relative permittivity, [latex]\\varepsilon _r = 2.25[/latex],\nexpressed in cylindrical coordinate system is given by the following expression [latex]E=a_r 2r+a_\\varphi \\left ( \\frac{3}{r} \\right )+a_z6[/latex] where [latex]a_r,a_\\varphi ,a_z[/latex] are unit vectors along [latex]r, \\varphi \\; and \\;z[/latex] directions, respectively. If the above\nexpression represents a valid electrostatic field inside the medium, then the volume\ncharge density associated with this field in terms of free space permittivity, [latex]\\varepsilon _0[/latex], in SI\nunits is given by:",
+    "solution": "[latex]\\vec{D}=\\epsilon \\vec{E}=\\epsilon _{o}\\epsilon _{r}\\vec{E}[/latex] [latex]\\vec{D}=\\epsilon _{o}2.25\\left ( 2r\\hat{a_{r}}+\\frac{3}{r}\\hat{a_{\\phi}+6\\hat{a_{z}}} \\right )[/latex] [latex]\\vec{D}=4.5\\epsilon _{o}r\\hat{a_{r}}+\\frac{6.75\\epsilon _{o}}{r}\\hat{a_{\\phi }}+13.5\\epsilon _{o}\\hat{a_{z}}[/latex] volume charge density [latex]\\rho _{v}=\\vec{\\bigtriangledown }\\cdot \\vec{D}[/latex] [latex]\\rho _{v}=\\frac{1}{r}\\frac{\\partial }{\\partial r}(rD_{r})+\\frac{1}{r}\\frac{\\partial D_{\\phi }}{\\partial \\phi }+\\frac{\\partial D_{z}}{\\partial z}[/latex] [latex]\\rho _{v}=\\frac{1}{r}\\frac{\\partial }{\\partial r}(r4.5\\epsilon _{o}r)+\\frac{1}{r}\\frac{\\partial }{\\partial \\phi }\\left ( \\frac{6.75\\epsilon _{o}}{r} \\right )+\\frac{\\partial }{\\partial z}(13.5\\epsilon _{o})[/latex] [latex]\\, \\, \\, =\\frac{1}{r}\\frac{\\partial }{\\partial r}(4.5\\epsilon _{o}r^{2})+0+0[/latex] [latex]\\, \\, \\, =\\frac{1}{r}(4.5\\epsilon _{o})(2r)=9\\epsilon _{o}[/latex]",
+    "options": {
+      "A": "[latex]3\\varepsilon _0[/latex]",
+      "B": "[latex]4\\varepsilon _0[/latex]",
+      "C": "[latex]5\\varepsilon _0[/latex]",
+      "D": "[latex]9\\varepsilon _0[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 Consider a permanent magnet dc (PMDC) motor which is initially at rest. At t=0, a\ndc voltage of 5 V is applied to the motor. Its speed monotonically increases from 0 rad/s\nto 6.32 rad/s in 0.5 s and finally settles to 10 rad/s. Assuming that the armature\ninductance of the motor is negligible, the transfer function for the motor is",
+    "solution": "[latex]\\begin{aligned}\r\n\\text{Input} &= 5 V \\\\ \\Rightarrow \\; R(s)&=\\frac{5}{s}  \\\\ \\frac{C(s)}{R(s)}&=T.F.=\\frac{K}{1+Ts}  \\\\ C(s)&=\\frac{5K}{s(1+Ts)} \\\\ \\lim_{s\\rightarrow 0}&=5K=10\\\\ \\Rightarrow \\;  K&=2\\\\ \\text{Steady state speed}&=10 \\text{ rad/sec.(Given)} \\\\ C(s)&=\\frac{2}{1+0.5s}\\times \\frac{5}{s}  \\\\ \\Rightarrow \\;  \\lim_{s\\rightarrow 0}sC(s)&=10\r\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{10}{0.5s+1}[/latex]",
+      "B": "[latex]\\frac{2}{0.5s+1}[/latex]",
+      "C": "[latex]\\frac{2}{s+0.5}[/latex]",
+      "D": "[latex]\\frac{10}{s+0.5}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Which of the following option is correct for the system shown below?",
+    "solution": "[latex]\\begin{aligned}\r\n1+\\frac{20}{s^{2}(s+1)(s+20)}&=0\\\\ (s^{3}+s^{2})(s+20)+20&=0\\\\ s^{4}+20s^{3}+s^{3}+20s^{2}+20&=0\\\\ s^{4}+21s^{3}+20s^{2}+20&=0 \r\n\\end{aligned}[/latex] Given system is fourth order system and unstable. stablity status: since it has one missing term\r\nof 's' thus undoubtedly given transfer function is unstable.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page7_q5.webp",
+    "options": {
+      "A": "[latex]4^{th}[/latex] order and stable",
+      "B": "[latex]3^{rd}[/latex] order and stable",
+      "C": "[latex]4^{th}[/latex] order and unstable",
+      "D": "[latex]3^{rd}[/latex] order and unstable"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Consider a negative unity feedback system with the forward path transfer function [latex]\\frac{s^2+s+1}{s^3+2s^2+2s+K}[/latex], where K is a positive real number. The value of K for which the system\nwill have some of its poles on the imaginary axis is ________ .",
+    "solution": "CE is [latex]1+G(s)H(s)=0[/latex] [latex] \\Rightarrow \\, 1+\\frac{s^{2}+s+1}{s^{3}+2s^{2}+2s+k}=0 [/latex] [latex]\\Rightarrow \\, s^{3}+3s^{2}+3s+(1+K)=0[/latex] R.H. criteria: [latex]9 - (1 + K) = 0[/latex] [latex]\\Rightarrow \\, \\, K=8[/latex]",
+    "options": {
+      "A": "9",
+      "B": "8",
+      "C": "7",
+      "D": "6"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 Suppose for input [latex]x(t)[/latex] a linear time-invariant system with impulse response [latex]h(t)[/latex] produces\noutput [latex]y(t)[/latex], so that [latex]x(t)*h(t)=y(t)[/latex]. Further, if [latex]|x(t)|*|h(t)|=z(t)[/latex], which of the following\nstatements is true?",
+    "solution": "[latex]\\begin{aligned}\r\n\\text{Since, } y(t) &= x(t) + h(t)\\\\ \\text{and  }z(t)&=\\left | x(t) \\right |\\times \\left | h(t) \\right |\r\n\\end{aligned}[/latex] Case-1: case 2: [latex]\\text{then,  }y(t)=z(t)[/latex] [latex]\\text{Thus,  } z(t)\\geq y(t),   \\text{ \r\n for all 't'}[/latex]",
+    "options": {
+      "A": "For all [latex]t \\in (-\\infty ,\\infty ), z(t)\\leq y(t)[/latex]",
+      "B": "For some but not all [latex]t \\in (-\\infty ,\\infty ), z(t)\\leq y(t)[/latex]",
+      "C": "For all [latex]t \\in (-\\infty ,\\infty ), z(t)\\geq y(t)[/latex]",
+      "D": "For some but not all [latex]t \\in (-\\infty ,\\infty ), z(t)\\geq y(t)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 The causal realization of a system transfer function H(s) having poles at (2,-1), (-2,1)\nand zeroes at (2,1), (-2,-1) will be",
+    "solution": "Since pole zero plot of given transfer function Since, given pole zero is symmetrical\r\nabout origin hence it is a all pass system. Since, one pole on the RHS thus unstable. Since, pole doesnot have complex conjugate poles and zeros present thus system is not real means system is complex.",
+    "options": {
+      "A": "stable, real, allpass",
+      "B": "unstable, complex, allpass",
+      "C": "unstable, real, highpass",
+      "D": "stable, complex, lowpass"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 Which of the following options is true for a linear time-invariant discrete time system that\nobeys the difference equation: [latex]y[n]-ay[n-1]=b_0x[n]-b_1x[n-1][/latex]",
+    "solution": "[latex]\\begin{aligned}\r\ny(n)-ay(n-1)&=b_{0}x(n)-b_{1}x(n-2) \\\\ &\\text{By applying ZT,} \\\\ Y(z)-az^{-1}Y(z)&=b_{0}X(z)-b_{1}z^{-1}X(z)\\\\ \\Rightarrow \\, \\, H(z)&=\\frac{Y(z)}{X(z)}=\\frac{b_{0}-b_{1}z^{-1}}{1-az^{-1}}\r\n\\end{aligned}[/latex] By taking right-sided inverse ZT, [latex]h(n)=b_{0}a^{n}u(n)-b_{1}a^{n-1}u(n-1)[/latex] By taking left-sided inverse ZT, [latex]h(n)=-b_{0}a^{n}u(-n-1)+b_{1}a^{n-1}u(-n)[/latex] Thus system is not necessarily causal. The impulse response is non-zero at infinitely many instants.",
+    "options": {
+      "A": "y[n] is unaffected by the values of [latex]x[n - k]; k \\gt 2[/latex]",
+      "B": "The system is necessarily causal.",
+      "C": "The system impulse response is non-zero at infinitely many instants.",
+      "D": "When [latex]x[n] = 0, n \\lt 0[/latex], the function [latex]y[n]; n \\gt 0[/latex] is solely determined by the function x[n]."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 Let [latex]a_r, a_\\phi \\; and \\; a_z[/latex] be unit vectors along [latex]r, \\phi \\; and \\; z[/latex] directions, respectively in the cylindrical\ncoordinate system. For the electric flux density given by [latex]D = (a_r15 + a_\\phi 2r - a_z3rz)[/latex] Coulomb/[latex]m^2[/latex], the total electric flux, in Coulomb, emanating from the volume enclosed\nby a solid cylinder of radius 3 m and height 5 m oriented along the z-axis with its base\nat the origin is:",
+    "solution": "[latex]\\begin{aligned}\r\n& \\psi / \\text{Crossing closed surface} \\\\ \\oint \\oint  \\vec{D}.\\vec{ds}&=\\int \\int \\int (\\vec{\\triangledown }\\cdot \\vec{D}) dv \\\\ (\\vec{V}.\\vec{D}) &=\\frac{1}{\\rho }\\frac{\\partial }{\\partial p}(\\rho D_{\\rho })+\\frac{1}{\\rho }\\frac{\\partial D_{\\phi }}{\\partial \\phi }+\\frac{\\partial D_{z}}{\\partial z} \\\\ &=\\frac{1}{\\rho }\\frac{\\partial }{\\partial p}(\\rho 15)+\\frac{1}{\\rho }\\frac{\\partial }{\\partial \\phi }(2\\rho )+\\frac{\\partial }{\\partial z}(-3\\rho z) \\\\ &=\\frac{1}{\\rho }15-3\\rho \\\\ \\int \\int \\int (\\vec{\\triangledown }\\cdot \\vec{D})dv&=\\int \\int \\int \\left ( \\frac{15}{\\rho}-3\\rho \\right )\\rho d\\rho d\\phi dz \\\\ &=\\int \\int \\int 15d\\rho d\\phi dz-3\\int \\int \\int \\rho ^{2}d\\rho d\\phi dz \\\\ &=15\\int_{\\rho =0}^{3}d\\rho \\int_{\\phi =0}^{2\\pi }d\\phi \\int_{z=0}^{5}-3\\int_{\\rho =0}^{3}\\rho^{2}d\\rho \\int_{\\phi =0}^{2\\pi }d\\phi \\int_{z=0}^{5}dz \\\\  &= 15(3-0)(2\\pi )(5)-3\\left ( \\frac{3^{3}}{3} \\right )\\times (2\\pi )(5) \\\\ &=45(10\\pi )-27(10\\pi )=180\\pi C\r\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]108 \\pi[/latex]",
+      "B": "[latex]54 \\pi[/latex]",
+      "C": "[latex]90 \\pi[/latex]",
+      "D": "[latex]180 \\pi[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 A stable real linear time-invariant system with single pole at p, has a transfer function [latex]H(s)=\\frac{s^2+100}{s-p}[/latex]\nwith a dc gain of 5. The smallest positive frequency, in rad/s at unity\ngain is closed to:",
+    "solution": "[latex]\\begin{aligned}\r\nH(s)&=T.F.=[latex]\\frac{s^{2}+100}{s-p} \\\\ \\text{D.C. gain }&= 5 \\\\ \\Rightarrow \\; \\; \\frac{100}{-P}&=5=P=-20 \\\\ H(j\\omega )&=\\frac{-\\omega ^{2}+100}{j\\omega +20} \\\\ \\left |H(j\\omega ) \\right |&=\\frac{-\\omega ^{2}+100}{\\sqrt{\\omega ^{2}+400}} \\\\ \\frac{-\\omega ^{2}+100}{\\sqrt{\\omega ^{2}+400}}&=1 \\\\ \\Rightarrow \\; \\; \\omega &=8.84 \\text{rad/sec.}\r\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "8.84",
+      "B": "11.08",
+      "C": "78.13",
+      "D": "122.87"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 The number of purely real elements in a lower triangular representation of the given 3x3\nmatrix, obtained through the given decomposition is [latex]\\begin{bmatrix} 2 &3 &3 \\\\ 3& 2 & 1\\\\ 3& 1 & 7 \\end{bmatrix}=[/latex] [latex]\\begin{bmatrix} a_{11} &0 &0 \\\\ a_{12}& a_{22} & 0\\\\ a_{13}& a_{23} & a_{33} \\end{bmatrix}\\begin{bmatrix} a_{11} &0 &0 \\\\ a_{12}& a_{22} & 0\\\\ a_{13}& a_{23} & a_{33} \\end{bmatrix}^T[/latex]",
+    "solution": "As per GATE official answer key MTA (Marks to ALL) [latex]\\begin{aligned}\r\n\\begin{bmatrix} 2 &3 &3 \\\\ 3 &2 &1 \\\\ 3 &1 &7 \\end{bmatrix}&=\\begin{bmatrix} I_{11} & 0 &0 \\\\ I_{21}&l_{22} & 0\\\\ l_{31} &l_{32} &l_{33} \\end{bmatrix}\\begin{bmatrix} u_{11} &u_{12} &u_{13} \\\\ 0 &u_{22} &u_{23} \\\\ 0 & 0 &u_{33} \\end{bmatrix} \\\\ \\text{consider, }u_{11}&=u_{22}=u_{33}=1 \\\\ \\begin{bmatrix} 2 &3 &3 \\\\ 3 &2 &1 \\\\ 3 &1 &7 \\end{bmatrix}&=\\begin{bmatrix} l_{11} & 0 &0 \\\\ l_{21}&l_{22} & 0\\\\ l_{31} &l_{32} &l_{33} \\end{bmatrix}\\begin{bmatrix} 1 &u_{12} &u_{13} \\\\ 0 &1 &u_{23} \\\\ 0 & 0 &1 \\end{bmatrix}\r\n\\\\ \\begin{bmatrix} 2 &3 &3 \\\\ 3 &2 &1 \\\\ 3 &1 &7 \\end{bmatrix}&=\\begin{bmatrix} l_{11} & l_{11}u_{12} &l_{11}u_{13} \\\\ l_{21}& l_{21}u_{12}+l_{22} & l_{21}u_{13}+ l_{22}u_{23}\\\\ l_{31} &l_{31}u_{12}+l_{32} & l_{31}u_{13}+ l_{32}u_{23}+l_{33}\\end{bmatrix}\r\n\\\\ \r\nl_{11}&=2 \\; \\; l_{11}u_{12}=3 \\; \\; l_{11}u_{13}=3 \\; \\;  \\\\ l_{21}&=3 \\; \\; 2u_{12}=3 \\; \\; 2u_{13}=3 \\\\ l_{31}&=3\\; \\; u_{12}=\\frac{3}{2} \\; \\; u_{13}=\\frac{3}{2} \\\\ l_{21}u_{12}+l_{22}&=2\\; \\; l_{21}u_{13}+l_{22}u_{23}=1 \\\\ (3)\\left ( \\frac{3}{2} \\right )+l_{22}&=2 \\; \\; (3)\\left ( \\frac{3}{2} \\right )+\\left ( -\\frac{5}{2} \\right )u_{23}=1 \\\\ l_{22}&=-\\frac{5}{2} \\; \\; u_{23}=-\\frac{7}{5} \\\\ l_{31}u_{12}+l_{32}&=1 \\; \\; l_{31}u_{13}+l_{32}u_{23}+l_{33}=7\\\\\r\n\r\n(3)(\\frac{3}{2})+l_{32}&=1 \\; \\; (3)\\left ( \\frac{3}{2} \\right )+\\left ( -\\frac{7}{2} \\right )\\left ( \\frac{7}{5} \\right )+l_{33}=7 \\\\ l_{32}&=-\\frac{7}{2} \\; \\; l_{33}=-\\frac{74}{10}\\\\ L&=\\begin{bmatrix} 2 &0 &0 \\\\ 3 &-5/2 &0 \\\\ 3 &-7/2 & 74/10 \\end{bmatrix}\r\n\\end{aligned}[/latex] The number of purely real elements of lower triangular matrix are 9.",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "8",
+      "D": "9"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 The figure below shows the per-phase Open Circuit Characteristics (measured in V) and\nShort Circuit Characteristics (measured in A) of a 14 kVA, 400 V, 50 Hz, 4-pole, 3-phase,\ndelta connected alternator, driven at 1500 rpm. The field current, [latex]I_f[/latex] is measured in A.\nReadings taken are marked as respective (x,y) coordinates in the figure. Ratio of the\nunsaturated and saturated synchronous impedances ([latex]Z_{s(unsat)}/Z_{s(sat)}[/latex]) of the alternator is\nclosest to",
+    "solution": "For unsaturated synchronous impedance\r\n[latex]\\begin{aligned}\r\n\\text{At } I_f&=2A, \\; V_{OC}=210V \\\\\r\n\\text{From SCC}\\\\\r\n\\text{at } I_f&=4A, \\; I_{SC}=20A \\\\\r\n\\therefore \\;  I_f&=2A, \\; I_{SC}=10A \\\\\r\nZ_s, \\text{unsaturated }&=\\left.\\begin{matrix}\r\n\\frac{V_{OC}}{I_{SC}}\r\n\\end{matrix}\\right|_{I_f=const.} \\\\\r\n&= \\frac{210}{10}=21 \\Omega \\\\\r\n\\text{For } Z_s, \\text{ saurated}:\\\\\r\n\\text{when, } V_{OC}&=V_{rated}=400V\\\\\r\nI_f&=8A \\\\\r\n\\text{From SCC, }\r\n I_f&=8A, \\; I_{SC}=40A \\\\\r\n Z_s, \\text{saturated }&=\\frac{400}{40}=10\\Omega \\\\\r\n \\text{Hence,}\\\\\r\n \\frac{Z_s, \\text{unsaturated }}{Z_s, \\text{ saturated }}&=\\frac{21}{10}=2.1\\Omega \r\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page9_q3.webp",
+    "options": {
+      "A": "2.1",
+      "B": "2.025",
+      "C": "2",
+      "D": "1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 Let [latex]a_x \\; and \\; a_y[/latex] be unit vectors along x and y directions, respectively. A vector function is given by [latex]F = a_xy - a_yx[/latex] The line integral of the above function [latex]\\int _c F\\cdot dl[/latex] along the curve C, which follows the parabola [latex]y = x^2[/latex] as shown below is _______ (rounded\noff to 2 decimal places).",
+    "solution": "[latex]\\begin{aligned}\r\n\\vec{F}&=y\\hat{a}_{x}-x\\hat{a}_{y} \\\\  \\vec{r}&=x\\hat{i}+y\\hat{j}  \\\\ \\vec{F}&=y\\hat{i}-x\\hat{j}  \\\\ d\\vec{r}&=dx\\hat{i}+dy\\hat{j} \\\\ &=\\int _{c}F.d\\vec{r}\\\\ &=\\int_{c}F_{1}dx+F_{2}dy \\\\ &=\\int _{c}ydx-xdy \\\\ &\\text{Where C is,}\\\\ y&=x^{2} \\\\ dy&=2x dx \\\\ x &\\text{ varies from -1 to 2,}\\\\ \\int _{c}\\vec{F}dl&=\\int_{-1}^{2}x^{2}dx-x\\cdot 2xdx \\\\ &=\\int_{-1}^{2}(x^{2}-2x)dx \\\\ &=\\int_{-1}^{2}-x^{2}dx=\\left.\\begin{matrix} -\\frac{x^{3}}{3} \\end{matrix}\\right|_{-1}^{2} \\\\ &=-\\frac{8}{3}-\\frac{1}{3}=-\\frac{9}{3}\\\\ &=-3\r\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page9_q4.webp",
+    "min": -3.05,
+    "max": -2.95
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 A resistor and a capacitor are connected in series to a 10 V dc supply through a switch.\nThe switch is closed at [latex]t=0[/latex], and the capacitor voltage is found to cross 0 V at [latex]t=0.4 \\tau[/latex],\nwhere [latex]\\tau[/latex] is the circuit time constant. The absolute value of percentage change required\nin the initial capacitor voltage if the zero crossing has to happen at [latex]t=0.2 \\tau[/latex] is _______\n(rounded off to 2 decimal places).",
+    "solution": "If initial charge polarities on the capacitor is opposite to the supply voltage then only \r\nthe capacitor voltage crosses the zero line. [latex]\\begin{aligned}\r\nV_{c}(t) \\; \\Rightarrow  \\;& \\text{Final value} \\\\ &+ (\\text{Initial value - Final value}) e^{-t/\\tau }\\\\ 0&=10+(-V_{0}-10)e^{-0.4}  \\\\ 10&=(V_{0}+10)e^{-0.4}  \\\\ V_{0}&=4.918 V \\\\ \\text{Now, } t&=0.2\\tau \\\\  0&=10+(-{V_{0}}'-10)e^{-0.2}  \\\\ {V_{0}}'&=2.214 \\\\ \\%\\text{change in voltage}  &= \\frac{4.918-2.214}{4.918}\\times 100 \\%\\\\ &=54.99\\%\r\n\\end{aligned}[/latex]",
+    "min": 54.0,
+    "max": 56.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 A cylindrical rotor synchronous generator with constant real power output and constant\nterminal voltage is supplying 100 A current to a 0.9 lagging power factor load. An ideal\nreactor is now connected in parallel with the load, as a result of which the total lagging\nreactive power requirement of the load is twice the previous value while the real power\nremains unchanged. The armature current is now _______ A (rounded off to 2 decimal\nplaces).",
+    "solution": "At [latex]P_{constant},[/latex] [latex] I_{a1}\\cos \\phi _{1}=I_{a2}\\cos \\phi _{2}[/latex] [latex] \\cos \\phi _{1}=0.9 [/latex] [latex]\\tan \\phi _{1}=0.484=\\frac{Q}{P} [/latex] [latex]\\Rightarrow \\, \\, \\frac{2Q}{P}=0.9686=\\tan \\phi _{2} [/latex] [latex]\\cos \\phi _{2}=0.7182 [/latex] [latex]\\therefore \\, 100\\times 0.9=I_{a2}\\times 0.7182 [/latex] [latex]\\Rightarrow \\, \\, I_{a2}=125.29\\: A[/latex]",
+    "min": 123.0,
+    "max": 127.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 Bus 1 with voltage magnitude [latex]V_1 = 1.1 p.u.[/latex] is sending reactive power [latex]Q_{12}[/latex] towards bus\n2 with voltage magnitude [latex]V_2 = 1 p.u.[/latex] through a lossless transmission line of reactance\nX. Keeping the voltage at bus 2 fixed at 1 p.u., magnitude of voltage at bus 1 is changed,\nso that the reactive power [latex]Q_{12}[/latex] sent from bus 1 is increased by 20%. Real power flow\nthrough the line under both the conditions is zero. The new value of the voltage\nmagnitude, [latex]V_1[/latex], in p.u. (rounded off to 2 decimal places) at bus 1 is _______ .",
+    "solution": "With real power zero, load angle [latex]\\delta =0[/latex] with initial values,  [latex]V_{1}=1.1, \\; \\; \\; V_{2}=1[/latex] [latex]Q_{12}=\\frac{V_{1}^{2}}{X}-\\frac{V_{1}V_{2}}{X}\\sin \\delta [/latex] [latex]\\, \\, =\\frac{(1.1)^{2}}{X}-\\frac{1.1\\times 1}{X}\\sin 0=\\frac{0.11}{x}[/latex] With increased value of voltage, new value of [latex]\\; Q_{12}=1.2Q_{12},\\; \\;  V_{2}=1[/latex] [latex] 1.2\\, Q_{12}=\\frac{V_{1}^{2}}{X}-\\frac{V_{1}\\times 1}{X}=1.2\\times \\frac{0.11}{X}[/latex] [latex] V_{1}^{2}-V_{1}-0.132=0 [/latex] [latex]V_{1}=1.12,\\; \\;  -0.118[/latex] Hence the practical value in per unit,[latex]V_{1}=1.12[/latex] p.u.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page10_q2.webp",
+    "min": 1.11,
+    "max": 1.13
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 Windings 'A', 'B' and 'C' have 20 turns each and are wound on the same iron core as\nshown, along with winding 'X' which has 2 turns. The figure shows the sense (clockwise/\nanti-clockwise) of each of the windings only and does not reflect the exact number of\nturns, If windings 'A', 'B' and 'C' are supplied with balanced 3-phase voltages at 50 Hz\nand there is no core saturation, the no-load RMS voltage (in V, rounded off to 2 decimal\nplaces) across winding 'X' is _________ .",
+    "solution": "As per GATE official answer key MTA (Marks to ALL) [latex]V_{X}=\\frac{2}{20}(230\\angle 0^{\\circ}-230\\angle 120^{\\circ}-230\\angle -120^{\\circ})=46\\angle 0^{\\circ}\\: V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page10_q3.webp",
+    "min": 46.0,
+    "max": 46.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 A cylindrical rotor synchronous generator has steady state synchronous reactance of\n0.7 pu and subtransient reactance of 0.2 pu. It is operating at (1+j0) pu terminal voltage\nwith an internal emf of (1+j0.7) pu. Following a three-phase solid short circuit fault at\nthe terminal of the generator, the magnitude of the subtransient internal emf (rounded\noff to 2 decimal places) is ________ pu.",
+    "solution": "[latex]\\begin{aligned}\r\n&\\text{Prefault current,}\\\\ I_{0}&=\\frac{E_{f}-V_{t}}{jX_{d}} \\\\ &=\\frac{1+j0.7-1}{j0.7}=1 \\\\ &\\text{Subtransient induced emf,} \\\\ {E_{f}}''&=V_{0}+j{X_{d}}''I_{0}  \\\\ &=1+j0.2\\times 1=1+j0.2  \\\\ | {E_{f}''}|&=\\sqrt{1^{2}+0.2^{2}}=1.02\r\n\\end{aligned}[/latex]",
+    "min": 1.01,
+    "max": 1.03
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 In the dc-dc converter circuit shown, switch Q is switched at a frequency of 10 kHz\nwith a duty ratio of 0.6. All components of the circuit are ideal, and the initial current\nin the inductor is zero. Energy stored in the inductor in mJ (rounded off to 2 decimal\nplaces) at the end of 10 complete switching cycles is ________.",
+    "solution": "Buck boost converter, [latex]D=0.6\\rightarrow \\text{store energy}[/latex] [latex]D=\\frac{T_{ON}}{T}=0.6[/latex] [latex] T_{ON}=0.6\\: T\\rightarrow \\text{store energy}[/latex] [latex] T_{OFF}=0.4\\: T\\rightarrow \\text{releasing  energy}[/latex] For one cycle: Rise in current for [latex]0.2T[/latex] For 10 cycles: Find rise in current [latex](0.2T) \\times  10 = 2T[/latex] [latex]i=\\frac{50}{L}t[/latex] [latex] i=\\frac{50}{L}(2T)=\\frac{50\\times 2}{LP}=\\frac{100}{10\\cdot 10^{-3}\\times 10\\cdot 10^{3}}=1\\, A[/latex] [latex]\\therefore \\, \\text{Energy stored}=\\frac{1}{2}Li^{2}=\\frac{1}{2}\\times (10\\cdot 10^{-3})(1)^{2}=5\\: mJ[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page10_q5.webp",
+    "min": 4.95,
+    "max": 5.05
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 A single-phase, full-bridge, fully controlled thyristor rectifier feeds a load comprising a\n10[latex]\\Omega[/latex] resistance in series with a very large inductance. The rectifier is fed from an ideal 230 V, 50 Hz sinusoidal source through cables which have negligible internal resistance\nand a total inductance of 2.28 mH. If the thyristors are triggered at an angle [latex]\\alpha = 45^{\\circ}[/latex],\nthe commutation overlap angle in degree (rounded off to 2 decimal places) is_____.",
+    "solution": "[latex]\\begin{aligned}&1-\\phi\\text{ SCR bridge rectifier} \\\\ \\alpha &=45^{\\circ},\\; \\;  R=10\\, \\Omega\\\\ &\\text{supply 230 V, 50 Hz}\\\\ L_{s}&=2.28\\, mH \\\\ \\mu &=? \\\\ \\Delta V_{d}&=\\frac{V_{m}}{\\pi }[\\cos \\alpha -\\cos (\\alpha +\\mu )]\\\\ &= 4fL_{s}I_{0} \\\\ V_{0}&=\\frac{2V_{m}}{\\pi }\\cos \\alpha -4fL_{s}I_{0} \\\\ I_{0}R&=\\frac{2V_{m}}{\\pi}\\cos \\alpha -4fL_{s}I_{0} \\\\ &\\text{Find }I_{0} \\\\ I_{0}\\times 10&=\\frac{2\\times 230\\sqrt{2}}{\\pi } \\cos 45 \\\\&-4\\times 50\\times 2.28\\times 10^{-3}I_{0} \\\\ I_{0}(10+0.456)&=146.42 \\\\  I_{0}&=\\frac{146.49}{10.456}=14.0036\\: A \\\\  \\Delta V_{d0 }&=\\frac{230\\sqrt{2}}{\\pi }[\\cos 45-\\cos (45+\\mu)]  \\\\  &=4\\times 50\\times 2.28\\times 10^{-3}\\times 14 \\\\ &=6.384 \\\\  \\cos 45^{\\circ}-\\cos (45^{\\circ}+\\mu )&=0.061659  \\\\ 45+\\mu &=49.80  \\\\ \\therefore \\, \\,   \\mu =4.80^{\\circ}\\end{aligned}[/latex]",
+    "min": 4.51,
+    "max": 5.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 A non-ideal Si-based pn junction diode is tested by sweeping the bias applied across\r\nits terminals from -5 V to +5 V. The effective thermal voltage, [latex]V_T[/latex], for the diode is\r\nmeasured to be (29[latex]\\pm[/latex]2) mV. The resolution of the voltage source in the measurement\r\nrange is 1 mV. The percentage uncertainty (rounded off to 2 decimal plates) in the\r\nmeasured current at a bias voltage of 0.02 V is _______.",
+    "solution": "",
+    "min": 11.5,
+    "max": 12.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 The temperature of the coolant oil bath for a transformer is monitored using the circuit\nshown. It contains a thermistor with a temperature-dependent resistance,\n[latex]R_{thermistor} = 2(1 + \\alpha T) k\\Omega[/latex]. Where T is the temperature in [latex]^{\\circ}C[/latex]. The temperature coefficient\n[latex]\\alpha[/latex], is [latex]-(4 \\pm 0.25) \\%/^{\\circ}C[/latex]. Circuit parameters: [latex]R_1 = 1 k\\Omega , R_2 = 1.3 k\\Omega , R_3 = 2.6 k\\Omega[/latex]. The\nerror in the output signal (in V. rounded off lo 2 decimal places) at 150[latex]^{\\circ}C[/latex] is ________.",
+    "solution": "As per GATE official answer key MTA (Marks to ALL) [latex]\\begin{aligned}\r\n\\text{Given data,}\\\\ R_{thermistor}&=R_{th}=2(1+\\alpha T)K\\Omega \\\\  \\alpha &=-(4+0.25)\\%/^{\\circ}C=-(0.04\\pm 0.0025)^{\\circ}C \\\\  \\alpha _{max}&=-0.0424/^{\\circ}C, \\; \\; \\alpha _{min}=-0.375/^{\\circ}C\\\\ \\text{Temperature, } T&=150^{\\circ}C \\\\ R_{1}&=1 K\\Omega ,\\; R_{2}=1.3 K\\Omega , \\; R_{3}=2.6 K\\Omega\\\\ \\text{Considering, }\\alpha &=-0.04 \\\\  R_{th}&=2[1-0.04\\times 150]=-10 K\\Omega  \\\\ V_{0}&=V_{1}\\times \\frac{R_{1}}{R_{1}+R_{th}}\\left [ 1+\\frac{R_{2}}{R_{3}} \\right ]\\\\ &=3\\times \\frac{1k}{1k+10k}\\left [ 1+\\frac{1.3k}{2.6k} \\right ] \\\\  &=-0.5 V\r\n\\\\\r\n \\text{Case-1:} \\\\ \\text{Considering, }\\alpha _{max}&=-0.0425/^{\\circ}C \\\\\r\n R_{thmax}&=2[1+(-0.0425)\\times 150] =-10.75\\, k\\Omega \\\\\r\nV_{0}&=V_{1}\\times \\frac{R_{1}}{R_{1}+R_{th}}\\left [ 1+\\frac{R_{2}}{R_{3}} \\right ]\\\\ &=3\\times \\frac{1k}{1k-10.75k}\\left [ 1+\\frac{1.3k}{2.6k} \\right ] \\\\  &=-0.46 V\r\n\\\\\r\n \\text{Case-2:} \\\\ \\text{Considering, }\\alpha _{min}&=-0.0375/^{\\circ}C \\\\\r\n R_{thmin}&=2[1+(-0.0375)\\times 150] =-9.25\\, k\\Omega \\\\\r\nV_{0} &=3\\times \\frac{1k}{1k-9.25k}\\left [ 1+\\frac{1.3k}{2.6k} \\right ] \\\\  &=-0.54 V\r\n \\\\\r\n \\text{Output voltage, }\\\\\r\n V_0&=0.5\\pm0.04 \\; \\Rightarrow \\; \\text{Error}=0.04\r\n \r\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page11_q3.webp",
+    "min": 0.04,
+    "max": 0.04
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 An 8085 microprocessor accesses two memory locations (2001 H) and (2002H), that\ncontain 8-bit numbers 98H and B1H respectively. The following program is executed: LXI H, 2001 H MVIA, 21H INX H ADD M INX H MOV M, A HLT At the end of this program, the memory location 2003H contains the number in decimal\n(base 10) form ________",
+    "solution": "[latex]\\begin{aligned} LXI H, 2001 H & \\rightarrow  [HL]  \\rightarrow 2001 H \\\\MVI A, 21 H & \\rightarrow [A]  \\leftarrow 21 H \\\\INX H & \\rightarrow [HL]  \\rightarrow 2002 H \\\\ ADD M & \\rightarrow [A] + [2002]  \\rightarrow [A] \\\\ &= (21H + B1 H)  \\rightarrow [A] \\\\ &= D2 H  \\rightarrow [A] \\\\ INX H & \\rightarrow [HL]  \\rightarrow 2003 H \\\\  MOV M, A & \\rightarrow [2003] \\leftarrow [A] \\\\ [2003] &= D2 H = (1101\\; 0010)_2 \\\\ &= 1 \\times 2^7+1\\times 2^6+1\\times 2^4 +1\\times 2^1 \\\\&= 128 + 64 + 16 + 2 \\\\&= 210 \\end{aligned}[/latex]",
+    "min": 210.0,
+    "max": 210.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 A conducting square loop of side length 1 m is placed at a distance of 1 m from a\nlong straight wire carrying a current l=2 A as shown below. The mutual inductance,\nin nH (rounded off to 2 decimal places), between the conducting loop and the long wire\nis __________.",
+    "solution": "[latex]\\begin{aligned}\r\n\\phi &\\propto I  \\\\  \\phi &=MI  \\\\ \\vec{B}&=\\frac{\\mu _{o}I}{2\\pi \\rho }\\hat{a_{\\phi }} \\;\\; (\\vec{B} \\text{ due to infinite long line}) \\\\ \\text{Magnetic flux}& \\text{  crossing square loop is}\\\\ \\phi &=\\int \\int \\vec{B}\\cdot \\vec{ds} \\\\ &=\\int \\int \\frac{\\mu _{o}I}{2\\pi \\rho }\\hat{a_{\\phi }}\\cdot (d\\rho dz)\\hat{a_{\\phi }}\\\\ &=\\frac{\\mu _{0}I}{2\\pi }\\int_{\\rho =1}^{2}\\frac{d\\rho }{\\rho }\\int_{z=0}^{1}dz \\\\ \\phi &=\\frac{\\mu _{o} I}{2\\pi }(\\ln \\rho )_{\\rho =1}^{2}(z)_{z=0}^{1} \\\\ \\phi &=\\frac{\\mu _{o} I}{2\\pi }(\\ln 2)\\\\ M&=\\frac{\\phi }{I} \\\\ M&=\\frac{\\phi_{o}(\\ln2)}{2\\pi }=\\frac{4\\pi \\times 10^{-7}(\\ln _{2})}{2\\pi } \\\\  M&=1.386\\times 10^{-7}\\, Henry \\simeq 138.63\\, nH\r\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2020/page11_q5.webp",
+    "min": 198.0,
+    "max": 139.2
+  }
+]

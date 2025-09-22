@@ -1,0 +1,552 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 The maximum value attained by the function [latex]f(x) = x(x- 1)(x - 2)[/latex] in the interval [1, 2] is _____.",
+    "solution": "[latex]\\begin{aligned} f(x) &=x^3-3x^2+2x \\\\ f'(x)&=3x^2-6x+2\\\\ f'(x)&=0 \\;\\text{for stationary point} \\end{aligned}[/latex] stationary points are [latex]1+\\frac{1}{\\sqrt{3}}[/latex] only [latex]1+\\frac{1}{\\sqrt{3}}[/latex] lies in [1,2] [latex]\\begin{aligned} f(1) &=0 \\\\ f(2)&=0 \\\\ f\\left ( 1+\\frac{1}{\\sqrt{3}} \\right )&=-\\frac{2}{3\\sqrt{3}} \\end{aligned}[/latex] Maximum value is 0.",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 Consider a 3 x 3 matrix with every element being equal to 1. Its only non-zero eigenvalue is ____.",
+    "solution": "[latex]A=\\begin{bmatrix} 1 & 1 &1 \\\\ 1 & 1 &1 \\\\ 1& 1 & 1 \\end{bmatrix}[/latex] Eigen value are 0,0,3",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 The Laplace Transform of [latex]f(t)=e^{2t}sin(5t)u(t)[/latex] is",
+    "solution": "Laplace transform of [latex]\\sin 5t u(t)\\rightarrow \\frac{5}{s^2+25}[/latex] [latex]e^{2t}\\sin 5t u(t)\\rightarrow \\frac{5}{(s-2)^2+25}=\\frac{5}{s^2-4s+29}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{5}{s^{2}-4s+29}[/latex]",
+      "B": "[latex]\\frac{5}{s^{2}+5}[/latex]",
+      "C": "[latex]\\frac{s-2}{s^{2}-4s+29}[/latex]",
+      "D": "[latex]\\frac{5}{s+5}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 A function y(t), such that y(0)=1 and y(1)=3[latex]e^{-1}[/latex], is a solution of the differential equation [latex]\\frac{d^{2}y}{dt^{2}}+2\\frac{dy}{dt}+y=0[/latex]. Then y(2) is",
+    "solution": "Auxiliary equation, [latex]\\begin{aligned} m^2+2m+1&=0 \\\\ m&= -1,-1\\\\ y&=(c_1+c_2t)e^{-t} \\\\ y(0) &=1 \\\\ c_1&=1 \\\\ y&= (1+c_2t)e^{-t}\\\\ y(1)&=3e^{-1} \\\\ \\Rightarrow \\; (1+c_2)e^{-3} &=3e^{-3} \\\\ c_2&=2 \\\\ y&=(1+2t)e^{-t} \\\\ y(2)&=5e^{-2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]5e^{-1}[/latex]",
+      "B": "[latex]5e^{-2}[/latex]",
+      "C": "[latex]7e^{-1}[/latex]",
+      "D": "[latex]7e^{-2}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 The value of the integral [latex]\\oint_{c}\\frac{2z+5}{(z-\\frac{1}{2})(z^{2}-4z+5)}dz[/latex] over the contour |z|=1, taken in the anti-clockwise direction, would be",
+    "solution": "Singlarilies,  [latex]Z=\\frac{1}{2}, 2\\pm i[/latex] Only, [latex]Z=\\frac{1}{2}[/latex] lies inside C By residue theorem, [latex]\\oint _C=2 \\pi i(R)=\\frac{48 \\pi i}{13}[/latex] Residue at [latex]\\frac{1}{2}[/latex] [latex]=R_{1/2}=\\lim_{Z \\to 1/2}\\left [ \\left ( Z-\\frac{1}{2} \\right )\\cdot \\frac{2Z+5}{\\left ( Z-\\frac{1}{2} \\right )(Z^2+4Z+5)} \\right ]=\\frac{24}{13}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{24 \\pi i}{13}[/latex]",
+      "B": "[latex]\\frac{48 \\pi i}{13}[/latex]",
+      "C": "[latex]\\frac{24}{13}[/latex]",
+      "D": "[latex]\\frac{12}{13}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 The transfer function of a system is [latex]\\frac{Y(s)}{R(s)}=\\frac{s}{s+2}[/latex]. The steady state output y(t) is [latex] A \\cos (2t+\\varphi)[/latex] for the input cos(2t). The values of A and [latex]\\varphi[/latex], respectively are",
+    "solution": "[latex]\\begin{aligned}\n \\frac{Y(s)}{R(s)}&=\\frac{s}{s+2} \\\\ \n y(t)&=A \\cos (2t+\\phi ),  \\\\ \n r(t)&=\\cos 2t \\\\ \n\\because \\;H(s) &=\\frac{s}{(s+2)} \\\\ \n H(j\\omega )&=\\frac{j\\omega }{j\\omega +2} \\\\ \n|H(j\\omega )| &=\\frac{\\omega }{\\sqrt{\\omega ^2+4 }} \\\\ \n\\angle H(j\\omega ) &=90^{\\circ} -\\tan ^{-1}\\left ( \\frac{\\omega }{2} \\right ) \\\\ \n\\because \\; \\omega &= 2 \\text{  (as given)}\\\\ \n|H(j\\omega )| &=\\frac{2}{\\sqrt{4+4}}=\\frac{1}{\\sqrt{2}} \\\\ \n|H(j\\omega )| &=90^{\\circ} -\\tan ^{-1}(1)=45^{\\circ} \\\\ \n\\because \\; \\text{hence, }A &=1 \\times |H(j\\omega )|_{\\omega =2}\\\\\n&=1 \\times \\frac{1}{\\sqrt{2}}=0.707\\\\\n\\phi &= 45^{\\circ}\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{\\sqrt{2}},-45^{\\circ}[/latex]",
+      "B": "[latex]\\frac{1}{\\sqrt{2}},+45^{\\circ}[/latex]",
+      "C": "[latex]\\sqrt{2},-45^{\\circ}[/latex]",
+      "D": "[latex]\\sqrt{2},+45^{\\circ}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 The phase cross-over frequency of the transfer function [latex]G(s)=\\frac{100}{(s+3)^{3}}[/latex] in rad/s is",
+    "solution": "[latex]G(s)=\\frac{100}{(s+1)^3} [/latex] [latex]G(j\\omega )=\\frac{100}{(1+j\\omega )^3} [/latex] [latex]\\;\\;=\\frac{100}{1+(j\\omega )^3+3(j\\omega )^2+3j\\omega } [/latex] [latex]\\;\\;=\\frac{100}{(1-3\\omega^2 )+j(3\\omega-\\omega^3)} [/latex] [latex]\\;\\;=\\frac{100[(1-3\\omega^2 )+j\\omega(3-\\omega^2)^2]}{[ (1-3\\omega^2 )+\\omega^2(3-\\omega^2)^2]} [/latex] For phase corssover frequency [latex]\\omega_{ph} Img[G(j \\omega )]=0;[/latex] Hence, [latex]\\omega (3-\\omega ^2)=0[/latex] [latex] \\omega =0; \\pm \\sqrt{3}[/latex] Therefore, [latex]\\omega _{ph}=\\sqrt{3} [/latex] rad/sec",
+    "options": {
+      "A": "[latex]\\sqrt{3}[/latex]",
+      "B": "[latex]1/\\sqrt{3}[/latex]",
+      "C": "3",
+      "D": "[latex]3\\sqrt{3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 Consider a continuous-time system with input x(t) and output y(t) given by y(t) = x(t) cos(t) This system is",
+    "solution": "[latex]\\begin{aligned} y(t)&=x(t)\\cos (t)\\\\ &\\text{To check linearity,}\\\\ y_1(t)&=x_1(t)\\cos (t)\\\\ &[y_1(t) \\text{ is output for }x_1(t)]\\\\ y_2(t)&=x_2(t) \\cos (t)\\\\ &[y_2(t) \\text{ is output for }x_2(t)]\\\\ \\text{so, the}& \\text{ output for }(x_1(t)+ x_2(t)) \\text{ will be}\\\\ y(t)&=[x_1(t)+ x_2(t)]\\cos (t)\\\\ &=y_1(t)+y_2(t) \\end{aligned}[/latex] So, the system is linear, to check time invariance. The delayed output, [latex]y(t-t_0)=x(t-t_0)\\cos (t-t_0)[/latex] The output for delayed input, [latex]y(t, t_0)=x(t-t_0)\\cos (t)[/latex] Since,  [latex]y(t-t_0)\\neq y(t,t_0)[/latex] System is time varying.",
+    "options": {
+      "A": "linear and time-invariant",
+      "B": "non-linear and time-invariant",
+      "C": "linear and time-varying",
+      "D": "non-linear and time-varying"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 The value of [latex]\\int_{-\\infty }^{+\\infty }e^{-t}\\delta (2t-2)dt, \\; where \\; \\delta (t)[/latex] is the Dirac delta function, is",
+    "solution": "To find the value of [latex]\\int_{-\\infty }^{\\infty }e^{-t}\\delta (2t-2)dt[/latex] Since, [latex]\\delta (2t-2)=\\frac{1}{2}\\delta (1t-1)[/latex]  above integral can be written as [latex]\\int_{-\\infty }^{\\infty }e^{-t}\\frac{1}{2}\\delta (t-1)dt=\\frac{1}{2}e^{-1}=\\frac{1}{2e}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{2e}[/latex]",
+      "B": "[latex]\\frac{2}{e}[/latex]",
+      "C": "[latex]\\frac{1}{e^{2}}[/latex]",
+      "D": "[latex]\\frac{1}{2e^{2}}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 A temperature in the range of -40[latex]^{\\circ}[/latex]C to 55[latex]^{\\circ}[/latex]C is to be measured with a resolution of 0.1[latex]^{\\circ}[/latex]C. The minimum number of ADC bits required to get a matching dynamic range of the temperature sensor is",
+    "solution": "Temperature range of [latex]-40^{\\circ}C \\; to \\; 55^{\\circ}C[/latex] So. Total range in [latex]95^{\\circ}C[/latex] Since, resolution is [latex]0.1^{\\circ}C[/latex] So, number of steps will be 950 To have 950 steps, we need at least 10 bits.",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "14"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 Consider the following circuit which uses a 2-to-1 multiplexer as shown in the figure below. The Boolean expression for output F in terms of A and B is",
+    "solution": "In the given multiplexer, [latex]I=0=\\bar{A}, I_1=A [/latex] [latex]Select =B [/latex] [latex]F=\\bar{B}I_0+BI_1 [/latex] [latex]F=\\bar{B}\\bar{A}+AB=\\overline{A\\oplus B}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page3_q1.webp",
+    "options": {
+      "A": "[latex]A\\oplus B[/latex]",
+      "B": "[latex]\\overline{A+B}[/latex]",
+      "C": "[latex]A+B[/latex]",
+      "D": "[latex]\\overline{A\\oplus B}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 A transistor circuit is given below. The Zener diode breakdown voltage is 5.3 V as shown. Take base to emitter voltage drop to be 0.6 V. The value of the current gain [latex]\\beta[/latex] is _________.",
+    "solution": "[latex]V_B=5.3 V [/latex] [latex]V_E=V_B-0.6=4.7V [/latex] [latex]I_E=\\frac{V_E}{470\\Omega }=10mA [/latex] [latex]I_1=\\frac{10-5.3}{4.7k}=1mA [/latex] [latex]I_B=I_1-I_2=0.5mA [/latex] [latex]\\frac{I_E}{I_B}=\\beta +1=20 [/latex] [latex]\\beta =19[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page3_q2.webp",
+    "min": 18.0,
+    "max": 20.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 In cylindrical coordinate system, the potential produced by a uniform ring charge is given by [latex]\\psi = f(r, z)[/latex] , where f is a continuous function of r and z. Let [latex]\\vec{E}[/latex] be the resulting electric field. Then the magnitude of [latex]\\bigtriangledown \\times  \\vec{E}[/latex]",
+    "solution": "V is given as static field in time invariant. Hence,  [latex]\\triangledown \\times E=0[/latex]",
+    "options": {
+      "A": "increases with r.",
+      "B": "is 0.",
+      "C": "is 3.",
+      "D": "decreases with z."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 A soft-iron toroid is concentric with a long straight conductor carrying a direct current I. If the relative permeability [latex]\\mu _r[/latex] of soft-iron is 100, the ratio of the magnetic flux densities at two adjacent points located just inside and just outside the toroid, is _______.",
+    "solution": "Toroid has field, [latex]\\begin{aligned} B &\\propto \\mu \\\\ As\\;\\; \\mu &=100 \\;(\\text{inside field}) \\end{aligned}[/latex] Magnetic field density B at any point at a distance at r is [latex]\\begin{aligned} B &=\\frac{\\mu I}{2 \\pi r} \\\\ Now\\;\\;B_{at\\; r^-}&=\\frac{\\mu_0 \\mu_r I}{2 \\pi r^-}\\;(\\text{just inside toroid})\\\\ Now\\;\\;B_{at\\; r^+}&=\\frac{\\mu_0 I}{2 \\pi r^+}\\;(\\text{just outside toroid})\\\\ \\frac{B_{at\\; r^-}}{B_{at\\; r^+}}&=\\mu _r=100 \\end{aligned}[/latex]",
+    "min": 99.0,
+    "max": 101.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 [latex]R_{A} \\; and \\; R_{B}[/latex] are the input resistances of circuits as shown below. The circuits extend infinitely in the direction shown. Which one of the following statements is TRUE?",
+    "solution": "If the equavalent resistance of first figure is [latex]R_A[/latex] then from the second figure, we can see that [latex]R_B=R_A||1\\Omega[/latex]. [latex]R_B=\\frac{R_A}{R_A+1}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page3_q5.webp",
+    "options": {
+      "A": "[latex]R_{A} = R_{B}[/latex]",
+      "B": "[latex]R_{A} = R_{B} =0 [/latex]",
+      "C": "[latex]R_{A} \\lt R_{B}[/latex]",
+      "D": "[latex]R_{B} = R_{A}/(1+R_{A})[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 In a constant V/f induction motor drive, the slip at the maximum torque",
+    "solution": "[latex]\\begin{aligned} f_0 &=\\text{nominal frequency} \\\\ \\omega _s &=\\left ( \\frac{f}{f_0} \\right )\\omega _{s0}\\;\\;...(i) \\\\ S_{max,T}&=\\left ( \\frac{f}{f_0} \\right ) \\left ( \\frac{R_2}{X_{20}^1} \\right )\\;\\;...(ii) \\\\ &\\text{From (i) and (ii)} \\\\ S_{max,T} &= \\left ( \\frac{\\omega _{s0}}{\\omega _s} \\right )\\left ( \\frac{R_2}{X_{20}^1} \\right )\\\\ S_{max,T} &\\propto \\frac{1}{\\omega _s} \\end{aligned}[/latex]",
+    "options": {
+      "A": "is directly proportional to the synchronous speed.",
+      "B": "remains constant with respect to the synchronous speed.",
+      "C": "has an inverse relation with the synchronous speed.",
+      "D": "has no relation with the synchronous speed."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 In the portion of a circuit shown, if the heat generated in 5 [latex]\\Omega[/latex] resistance is 10 calories per second, then heat generated by the 4 [latex]\\Omega[/latex] resistance, in calories per second, is _______.",
+    "solution": "[latex](2I)^2 \\times 5 =10 [/latex] [latex]\\Rightarrow \\; I^2=\\frac{10}{5 \\times 5}=0.5 [/latex] So, [latex] I^2 \\times 4 =2 cal/sec.[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page4_q2.webp",
+    "min": 1.9,
+    "max": 2.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18 In the given circuit, the current supplied by the battery, in ampere, is _______.",
+    "solution": "Applying KCL at node A, [latex]-I_1+I_2+I_2=0 [/latex] [latex]2I_2=I_1\\;\\;...(i)[/latex] and applying KVL in loop ABCD, [latex]1-I_1-I_2-I_2=0 [/latex] [latex]I_1+2I_2=1\\;\\;...(ii) [/latex] From equation (i) and (ii), [latex] \\Rightarrow \\; 2I_2+2I_2=1 [/latex] [latex]\\Rightarrow \\; 4I_2=1 [/latex] [latex]\\Rightarrow \\; I_2=\\frac{1}{4}A [/latex] [latex]\\Rightarrow \\; I_1=2 \\times \\frac{1}{4}=\\frac{1}{2}A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page4_q3.webp",
+    "min": 0.5,
+    "max": 0.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 In a 100 bus power system, there are 10 generators. In a particular iteration of Newton Raphson\nload flow technique (in polar coordinates), two of the PV buses are converted to PQ type. In this iteration,",
+    "solution": "The voltage angle is the commom variable for both PV and PQ buses si it remains unchanged. Where as voltage magnitude is specified in PV bus and not specified in PQ bus, so it increases by two.",
+    "options": {
+      "A": "the number of unknown voltage angles increases by two and the number of unknown voltage magnitudes increases by two.",
+      "B": "the number of unknown voltage angles remains unchanged and the number of unknown voltage magnitudes increases by two",
+      "C": "the number of unknown voltage angles increases by two and the number of unknown voltage magnitudes decreases by two.",
+      "D": "the number of unknown voltage angles remains unchanged and the number of unknown voltage magnitudes decreases by two."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 The magnitude of three-phase fault currents at buses A and B of a power system are 10 pu and 8 pu,\nrespectively. Neglect all resistances in the system and consider the pre-fault system to be unloaded.\nThe pre-fault voltage at all buses in the system is 1.0 pu. The voltage magnitude at bus B during a three-phase fault at bus A is 0.8 pu. The voltage magnitude at bus A during a three-phase fault at bus B, in pu, is ________.",
+    "solution": "Voltage at bus B after 3-phase fault at A=0.8 p.u. [latex]\\begin{aligned} V_B &=V_{(prefault)}-Z_{12} \\times I_{f(A)} \\\\ 0.8&= 1.0-Z_{12} \\times 10 \\\\ Z_{12} &=0.02 p.u. \\\\ V_A &=V_{(prefault)}-Z_{12}I_{f(B)} \\\\ V_A&=1.0-(0.02 \\times 8) \\\\ &= 0.84p.u. \\end{aligned}[/latex]",
+    "min": 0.83,
+    "max": 0.85
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 Consider a system consisting of a synchronous generator working at a lagging power factor, a synchronous motor working at an overexcited condition and a directly grid-connected induction generator. Consider capacitive VAr to be a source and inductive VAr to be a sink of reactive power. Which one of the following statements is TRUE?",
+    "solution": "Synchronous generator working at a lagging power factor, will supply active power and lagging reactive power, so this is source. Synchronous motor working at an overexcited condition i.e. leading p.f. operation so it will take active power and leading reactve power in other words taking active power and supplying lagging reactive power. Induction generates active power but as there is no dc excitation in rotor so it takes lagging reactive power.",
+    "options": {
+      "A": "Synchronous motor and synchronous generator are sources and induction generator is a sink of reactive power",
+      "B": "Synchronous motor and induction generator are sources and synchronous generator is a sink of reactive power",
+      "C": "Synchronous motor is a source and induction generator and synchronous generator are sinks of reactive power.",
+      "D": "All are sources of reactive power."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 A buck converter, as shown in Figure (a) below, is working in steady state. The output voltage and the inductor current can be assumed to be ripple free. Figure (b) shows the inductor voltage [latex]V_L[/latex] during a complete switching interval. Assuming all devices are ideal, the duty cycle of the buck converter is ________.",
+    "solution": "Average voltage across inductor is zero. [latex]\\begin{aligned} V_{L(avg)} &=0 \\\\ 30(T_{on})-20(T_{off})&=0 \\\\ 30(\\alpha T)&=20(1-a)T \\\\ 30a+2\\alpha &= 20\\\\ 50\\alpha &=20 \\\\ \\alpha &=\\frac{2}{5}=0.4 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page5_q2.webp",
+    "min": 0.39,
+    "max": 0.41
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 A steady dc current of 100 A is flowing through a power module (S,D) as shown in Figure (a). The V-I characteristics of the IGBT (S) and the diode (D) are shown in Figures (b) and (c), respectively.\r\nThe conduction power loss in the power module (S,D), in watts, is ________.",
+    "solution": "No current flows through IGBT. So current flows only in diode. Equivalent circuit of diode is as shown below, [latex]\\begin{aligned} V&=IR+0.7\\\\ &=(100 \\times 0.01)+0.7\\\\ V&=1.7V \\end{aligned}[/latex] Power loss during conduction, [latex]\\begin{aligned} P&=V \\times I\\\\ &= 1.7 \\times 100=170W \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page5_q3.webp",
+    "min": 169.0,
+    "max": 171.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 A 4-pole, lap-connected, separately excited dc motor is drawing a steady current of 40 A while running at 600 rpm. A good approximation for the waveshape of the current in an armature\nconductor of the motor is given by",
+    "solution": "4 pole, lap-connected, separatelt excited dc motor, N= 600 rpm [latex]I_{total=40A}[/latex] Parallel path= 4 = no. of poles Current in each parallel path [latex]=\\frac{40}{4}=10A[/latex] Current in armature conductor =10A [latex]\\begin{aligned} \\text{Speed} &=600 \\;\\text{rpm} \\\\ N &= \\frac{120\\times f}{4}=600\\\\ f&= \\frac{600 \\times 4}{120}=20Hz\\\\ & \\text{Time period,}\\\\ T&=\\frac{1}{f}=\\frac{1}{20}=50msec \\end{aligned}[/latex] So,",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page5_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 If an ideal transformer has an inductive load element at port 2 as shown in the figure below, the equivalent inductance at port 1 is",
+    "solution": "At port 1 i.e. high voltage side impedance will be high and current will be low. So, [latex]n^2L[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page5_q5.webp",
+    "options": {
+      "A": "nL",
+      "B": "[latex]n^{2}L[/latex]",
+      "C": "[latex]\\frac{n}{L}[/latex]",
+      "D": "[latex]\\frac{n^{2}}{L}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 Candidates were asked to come to an interview with 3 pens each. Black, blue, green and red were the permitted pen colours that the candidate could bring. The probability that a candidate comes with all 3 pens having the same colour is _____.",
+    "solution": "",
+    "min": 0.2,
+    "max": 0.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 Let [latex]S=\\sum_{n=0}^{\\infty }n\\alpha ^{n} \\; where \\;  |\\alpha | \\lt 1[/latex]. The value of [latex]\\alpha[/latex] in the range [latex]0 \\lt \\alpha \\lt 1[/latex], such that [latex]S= 2\\alpha[/latex]  is _______.",
+    "solution": "The Z-transform of [latex]\\begin{aligned} \\alpha ^n u(n)&\\rightarrow \\frac{1}{(1-\\alpha Z^{-1})}\\\\ n\\alpha ^n u(n)&\\rightarrow \\frac{\\alpha Z^{-1}}{(1-\\alpha Z^{-1})^2}\\\\ \\frac{\\alpha Z^{-1}}{(1-\\alpha Z^{-1})^2}&=\\sum_{n=0}^{\\infty }n\\alpha ^nZ^{-n} \\end{aligned}[/latex] If we put Z=1 in above equation, we get, [latex]\\begin{aligned} \\frac{\\alpha }{(1-\\alpha )^2}&=\\sum_{n=0}^{\\infty }n\\alpha ^n\\\\ \\text{Since, }\\sum_{n=0}^{\\infty }n\\alpha ^n&=2\\alpha =\\frac{\\alpha }{(1-\\alpha )^2}\\\\ \\text{So,}2&=\\frac{1}{(1-\\alpha )^2}\\\\ \\Rightarrow \\;\\;\\alpha &=0.29 \\end{aligned}[/latex]",
+    "min": 0.28,
+    "max": 0.31
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Let the eigenvalues of a 2 x 2 matrix A be 1, -2 with eigenvectors [latex]x_1 \\; and \\; x_2[/latex] respectively. Then the eigenvalues and eigenvectors of the matrix [latex]A^{2}-3A+4l[/latex] would, respectively, be",
+    "solution": "Eigen value of [latex]A^2-3A+4I[/latex] are [latex](1)^2-3(1)+4[/latex] and [latex](-2)^2-3(-2)+4[/latex] =2, 14 Note:  [latex]A^2X=l^2X[/latex] [latex]\\Rightarrow \\;X[/latex]is eigen vector for [latex]A^2[/latex] corresponding to eigen value [latex]l^2[/latex] [latex]X_1[/latex] and [latex]X_2[/latex] are eigen vector of A corresponding to 1, -2 Then [latex]X_1[/latex] and [latex]X_2[/latex] are eigen vector of [latex]A^2-3+4I[/latex] corresponding to 2, 14.",
+    "options": {
+      "A": "2, 14; [latex]x_{1},x_{2}[/latex]",
+      "B": "2, 14; [latex]x_{1}+x_{2},x_{1}-x_{2}[/latex]",
+      "C": "2, 0; [latex]x_{1},x_{2}[/latex]",
+      "D": "2, 0; [latex]x_{1}+x_{2},x_{1}-x_{2}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Let A be a 4 x 3 real matrix with rank 2. Which one of the following statement is TRUE?",
+    "solution": "Result, [latex]Rank(A^TA)=Rank(A)[/latex]",
+    "options": {
+      "A": "Rank of [latex]A^{T} A[/latex] is less than 2.",
+      "B": "Rank of [latex]A^{T} A[/latex] is equal to 2.",
+      "C": "Rank of [latex]A^{T} A[/latex] is greater than 2.",
+      "D": "Rank of [latex]A^{T} A[/latex] can be any number between 1 and 3."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Consider the following asymptotic Bode magnitude plot ([latex]\\omega[/latex] is in rad/s). Which one of the following transfer functions is best represented by the above Bode magnitude plot?",
+    "solution": "From the given Bode plot, it is evident that there are 3(three) poles in the transfer function, out of which there are double poles at corner frequency near but less than [latex]\\omega=8[/latex] rad/sec and one pole is near but greater than [latex]\\omega=0.5[/latex] rad/sec. The initial slope is +20 dB/dec. Therefore one zero exist at s=0. So from all the given options, option (A) satisfies all the conditions. Therefore Option (A) is correct.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page6_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{2s}{(1+0.5s)(1+0.25s)^{2}}[/latex]",
+      "B": "[latex]\\frac{4(1+0.5s)}{s(1+0.25s)}[/latex]",
+      "C": "[latex]\\frac{2s}{(1+2s)(1+4s)}[/latex]",
+      "D": "[latex]\\frac{4s}{(1+2s)(1+4s)^{2}}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 Consider the following state-space representation of a linear time-invariant system. [latex]\\dot{x}(t)=\\begin{bmatrix} 1 & 0\\\\ 0&2 \\end{bmatrix}x(t), [/latex]  [latex]y(t)=c^{T}x(t),  [/latex]  [latex]c=\\begin{bmatrix} 1\\\\ 1 \\end{bmatrix} [/latex]   and [latex]x(0)=\\begin{bmatrix} 1\\\\ 1 \\end{bmatrix}[/latex] The value of y(t) for [latex]t= log_{e}2[/latex]  is______.",
+    "solution": "",
+    "min": 5.9,
+    "max": 6.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 Loop transfer function of a feedback system is [latex]G(s)H(s)=\\frac{s+3}{s^{2}(s-3)}[/latex]. Take the Nyquist contour in the clockwise direction. Then, the Nyquist plot of G(s)H(s) encircles -1+ j0",
+    "solution": "Nyquist plot of [latex]G(s)H(s)=\\frac{s+3}{s^2(s-3)}[/latex] is as shown below From the Nyquist plot G(s)H(s) encircle -1+j0 once in clockwise direction. Alternate Solution: Characteristic equation, [latex]1+G(s)H(s)=0[/latex] [latex] s^2(s-3)+(s+3)=0 [/latex] [latex]s^3-3s^2+s+3=0 [/latex] using Routh's array [latex]\\left.\\begin{matrix} s^3\\\\ s^2\\\\ s^1\\\\ s \\end{matrix}\\right|\\begin{matrix} 1 &1 \\\\ -3& 3\\\\ 2& 0\\\\ 3& \\end{matrix} [/latex] There are two sign changes, hence two poles in right side of s-plane exist. [latex]Z=2, \\; P=1 [/latex] [latex]N=P-Z=-1 [/latex] One encirclement in clockwise direction.",
+    "options": {
+      "A": "once in clockwise direction",
+      "B": "twice in clockwise direction",
+      "C": "once in anticlockwise direction",
+      "D": "twice in anticlockwise direction"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 Given the following polynomial equation [latex]s^{3}+5.5s^{2}+8.5s+3=0[/latex], the number of roots of the polynomial, which have real parts strictly less than -1, is ________ .",
+    "solution": "[latex]s^3+5.5s^2+8.5s+3=0 [/latex] Putting,  [latex] s=s_1-1 [/latex] [latex](s_1-1)^3+5.5(s_1-1)^2+(8.5)(s_1-1)+3=0 [/latex] [latex]s_1^3+2.5s_1^2+0.5s_1-1=1[/latex] As there is one sign change, hence, two roots of given polynomial will lie to the left of [latex]s=-1[/latex].",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 Suppose [latex]x_{1}(t) \\; and \\;  x_{2}(t)[/latex] have the Fourier transforms as shown below. Which one of the following statements is TRUE?",
+    "solution": "By observing [latex]X_1(j \\omega )[/latex] and [latex]X_2(j \\omega )[/latex], we can say that they are not conjugate symmetric. Since, the fourier transform is not conjugate symmetric the signal will not be real. So, [latex]x_1(t), x_2(t)[/latex] are not real. Now the fourier transform of [latex]x_1(t) \\cdot x_2(t)[/latex] will be [latex]\\frac{1}{2\\pi}X_1(j \\omega )*X_2(j \\omega )[/latex] and by looking at [latex]X_1(j \\omega )[/latex] and [latex]X_2(j \\omega )[/latex], we can say that [latex]X_1(j \\omega ) *X_2(j \\omega )[/latex] will be conjugate symmetric and thus [latex]x_1(t) \\cdot x_2(t)[/latex] will be real. By observing [latex]X_1(j \\omega )[/latex] and [latex]X_2(j \\omega )[/latex], we can say, [latex]X_2( \\omega )=X_1(- \\omega )\\overset{IFT}{\\rightarrow}x_2(t)=x_1(-t)\\;\\;...(i)[/latex] Now, [latex]X_1(j \\omega )[/latex] is real. Therefore, [latex]x_1(t)[/latex] will be conjugate symmetric. [latex]\\begin{aligned} \\text{i.e., } x_1(t)&=x_1^*(-t) \\\\ \\downarrow t&= -t\\\\ x_1(-t)&= x_1^*(t)\\\\ \\text{Now, }x_1(t)\\cdot x_2(t) &= x_1(t)\\cdot x_1(-t) \\;\\;(from \\;(i))\\\\ &= x_1(t)\\cdot x_1^*(t)\\\\ &= |x_1(t)|^2=\\text{real function} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page7_q4.webp",
+    "options": {
+      "A": "[latex]x_{1}(t) \\; and \\; x_{2}(t)[/latex] are complex and [latex]x_{1}(t) x_{2}(t)[/latex] is also complex with nonzero imaginary part",
+      "B": "[latex]x_{1}(t) \\; and \\; x_{2}(t)[/latex] are real and [latex]x_{1}(t) x_{2}(t)[/latex] is also real",
+      "C": "[latex]x_{1}(t) \\; and \\; x_{2}(t)[/latex] are complex but [latex]x_{1}(t) x_{2}(t)[/latex] is real",
+      "D": "[latex]x_{1}(t) \\; and \\; x_{2}(t)[/latex] are imaginary but [latex]x_{1}(t) x_{2}(t)[/latex] is real"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 The output of a continuous-time, linear time-invariant system is denoted by T{x(t)} where x(t) is the input signal. A signal z(t) is called eigen-signal of the system T, when [latex]T\\{z(t)\\} =  \\gamma z(t)[/latex],\r\nwhere [latex]\\gamma[/latex] is a complex number, in general, and is called an eigenvalue of T. Suppose the impulse response of the system T is real and even. Which of the following statements is TRUE?",
+    "solution": "Given that impulse response is real and even, Thus [latex]H(j\\omega )[/latex] will also be real and even. Since, [latex]H(j\\omega )[/latex] is real and even thus, [latex]H(j\\omega )=H(-j\\omega )[/latex] Now, [latex]\\cos (t)[/latex] is input i.e. [latex]\\frac{e^{jt}+e^{-jt}}{2}[/latex] is input Output will be [latex]\\frac{H(j1)e^{jt}+H(-j1)e^{-jt}}{2}=H(j1)\\left ( \\frac{e^{jt}+e^{-jt}}{2} \\right )= H(j1) \\cos (t)[/latex] If, [latex]\\sin (t)[/latex] is input i.e. [latex]\\frac{e^{jt}+e^{-jt}}{2}[/latex] is input Output will be [latex]\\frac{H(j1)e^{jt}+H(-j1)e^{-jt}}{2}=H(j1)\\left ( \\frac{e^{jt}-e^{-jt}}{2j} \\right )= H(j1) \\sin (t)[/latex] So, [latex]\\sin (t)[/latex] and [latex]\\cos (t)[/latex] are eigen signal with same eigen values.",
+    "options": {
+      "A": "cos(t) is an eigen-signal but sin(t) is not",
+      "B": "cos(t) and sin(t) are both eigen-signals but with different eigenvalues",
+      "C": "sin(t) is an eigen-signal but cos(t) is not",
+      "D": "cos(t) and sin(t) are both eigen-signals with identical eigenvalues"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 The current state [latex]Q_{A}Q_{B}[/latex] of a two JK flip-flop system is 00. Assume that the clock rise-time is much smaller than the delay of the JK flip-flop. The next state of the system is",
+    "solution": "From the figure we get [latex]J_A=K_A=1 [/latex] [latex]J_B=K_B=\\bar{Q_A}[/latex] So, next state will be 11.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page8_q1.webp",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "11",
+      "D": "10"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 A 2-bit flash Analog to Digital Converter (ADC) is given below. The input is [latex]0 \\leq V_{IN} \\leq 3[/latex] Volts. The expression for the LSB of the output [latex]B_0[/latex] as a Boolean function of [latex]X_{2},X_{1} \\; and \\;  X_{0}[/latex] is",
+    "solution": "The input to digital circuuit is [latex]X_2,X_1,X_0[/latex] and output is [latex]B_1,B_0[/latex] [latex]B_0=\\bar{X_2}\\bar{X_1}X_0+X_2X_1X_0 [/latex] [latex]\\;\\;=X_0(\\bar{X_2}\\bar{X_1}+X_2X_1)[/latex] [latex] \\;\\;=X_0(\\overline{X_2\\oplus X_1})[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page8_q2.webp",
+    "options": {
+      "A": "[latex]X_{0}[\\overline{X_{2}\\oplus X_{1}}][/latex]",
+      "B": "[latex]\\bar{X_{0}}[\\overline{X_{2}\\oplus X_{1}}][/latex]",
+      "C": "[latex]X_{0}[{X_{2}\\oplus X_{1}}][/latex]",
+      "D": "[latex]\\bar{X_{0}}[X_{2}\\oplus X_{1}][/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 Two electric charges q and -2q are placed at (0,0) and (6,0) on the x-y plane. The equation of the zero equipotential curve in the x-y plane is",
+    "solution": "Charge, Q is located at (0,0) and [latex]-2\\theta[/latex] is located at (6,0). To find V at any point [latex](x,y)[/latex] [latex]\\begin{aligned} V_Q &= \\frac{Q}{4 \\pi \\in \\sqrt{x^2+y^2}}\\\\ V_{-2Q}&=\\frac{-2Q}{4 \\pi \\in (\\sqrt{(x-6)^2 +y^2})} \\\\ V_{total}&=0 \\\\ &= \\frac{Q}{4 \\pi \\in \\sqrt{x^2+y^2}} \\\\ & +\\frac{-2Q}{4 \\pi \\in (\\sqrt{(x-6)^2 +y^2})} \\\\ \\sqrt{(x-6)^2 +y^2}&=2(\\sqrt{x^2+y^2}) \\\\ x^2+36-12x+y^2&=4x^2+4y^2 \\\\ 3x^2+3y^2+12x&=36 \\\\ x^2+y^2+4x&=12 \\\\ (x+2)^2+y^2&=16 \\end{aligned}[/latex]",
+    "options": {
+      "A": "x = -2",
+      "B": "y = 2",
+      "C": "[latex]x^{2}+y^{2}=2[/latex]",
+      "D": "[latex](x+2)^{2}+y^{2}=16[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 In the circuit shown, switch [latex]S_2[/latex] has been closed for a long time. At time t=0  switch [latex]S_1[/latex] is closed. At  [latex]t = 0^{+}[/latex], the rate of change of current through the inductor, in amperes per second, is _____.",
+    "solution": "KCL at node A, [latex]\\frac{V_A-3}{1}+\\frac{3}{2}+\\frac{V_A-3}{2}=0 [/latex] [latex]2(V_A-3)+3+(V_A-3)=0 [/latex] [latex]3V_A=6 [/latex] [latex]V_A=2 [/latex] [latex]V_A=L\\frac{di(0^+)}{dt}=2[/latex] [latex] \\frac{di(0^+)}{dt}=\\frac{2}{L}=\\frac{2}{1}=2A/sec[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page8_q4.webp",
+    "min": 1.9,
+    "max": 2.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 A three-phase cable is supplying 800 kW and 600 kVAr to an inductive load. It is intended to supply an additional resistive load of 100 kW through the same cable without increasing the heat\ndissipation in the cable, by providing a three-phase bank of capacitors connected in star across the load. Given the line voltage is 3.3 kV, 50 Hz, the capacitance per phase of the bank, expressed in microfarads, is ________.",
+    "solution": "[latex]\\text{KVA}_1=\\sqrt{800^2+600^2}=100 \\text{ KVA}[/latex] Without excessive heat dissipation means current should be constant (i.e.) KVA erating must be constatn. In second case active power, P=800+100=900 KW Reactive power in second case, [latex]Q_2=\\sqrt{1000^2-900^2}=435.889 \\text{ KVAR}[/latex] Reactive power supplied by the three phase bank = 600-435.889 =164.44 KVAR [latex]\\begin{aligned} Q_{bank}/ph&=\\frac{164.11}{3}=54.7 \\text{ KVAR} \\\\ V/ph&= \\frac{3.3}{\\sqrt{3}}=1.9051 \\text{ KV}\\\\ Q_c/ph&=\\frac{(V/ph)^2}{X_C} \\\\ X_C&=\\frac{(1.9052 \\times 10^3)^2}{54.7 \\times 10^3} \\\\ &= 66.36\\; W\\\\ C&= \\frac{1}{2 \\pi f X_C}\\\\ &=\\frac{1}{2 \\pi \\times 50 \\times 66.36}\\\\ &=47.96 \\mu F \\end{aligned}[/latex]",
+    "min": 47.0,
+    "max": 49.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 A 30 MVA, 3-phase, 50 Hz, 13.8 kV, star-connected synchronous generator has positive, negative and zero sequence reactances, 15%, 15% and 5% respectively. A reactance ([latex]X_n[/latex]) is connected between the neutral of the generator and ground. A double line to ground fault takes place involving phases 'b' and 'c', with a fault impedance of j0.1 p.u. The value of [latex]X_n[/latex] (in p.u.) that will\nlimit the positive sequence generator current to 4270 A is _________.",
+    "solution": "Base current, [latex]\\begin{aligned} I_B&=\\frac{30 \\times 10^3}{\\sqrt{3} \\times 13.8}=1255.109A\\\\ I_f&=4270A\\\\ I_{p.u.}&=\\frac{4270}{1255.109}=3.402p.u.\\\\ I_{g1}&=\\frac{E_a}{X_1+(X_2||X_0)}\\\\ &\\text{where, }\\\\ X_0&=X_0+3(Z_n+Z_f)\\\\ X_0&=3Z_n+0.35\\\\ 3.402&=\\frac{1.0}{0.15+\\frac{0.15 \\times (3Z_n+0.35)}{0.15+3Z_n+0.35}}\\\\ &\\text{Solving the equation,}\\\\ Z_n&=1.07 \\;p.u. \\end{aligned}[/latex]",
+    "min": 1.05,
+    "max": 1.15
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 If the star side of the star-delta transformer shown in the figure is excited by a negative sequence voltage, then",
+    "solution": "According to negative sequence phasors.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page9_q2.webp",
+    "options": {
+      "A": "[latex]V_{AB} \\; leads \\; V_{ab} \\; by \\; 60^{\\circ}[/latex]",
+      "B": "[latex]V_{AB} \\; lags \\; V_{ab} \\; by \\; 60^{\\circ}[/latex]",
+      "C": "[latex]V_{AB} \\; leads \\; V_{ab} \\; by \\; 30^{\\circ}[/latex]",
+      "D": "[latex]V_{AB} \\; lags \\; V_{ab} \\; by \\; 30^{\\circ}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 A single-phase thyristor-bridge rectifier is fed from a 230 V, 50 Hz, single-phase AC mains. If it is delivering a constant DC current of 10 A, at firing angle of 30[latex]^{\\circ}[/latex], then value of the power factor at AC mains is",
+    "solution": "Input  power factor = power factor at ac mains =[latex]C.D.F. \\times D.F.[/latex] [latex]=\\frac{2\\sqrt{2}}{\\pi}\\cos \\alpha =\\frac{2\\sqrt{2}}{\\pi}\\cos 30^{\\circ}=0.78[/latex]",
+    "options": {
+      "A": "0.87",
+      "B": "0.9",
+      "C": "0.78",
+      "D": "0.45"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 The switches T1 and T2 in Figure (a) are switched in a complementary fashion with sinusoidal\r\npulse width modulation technique. The modulating voltage [latex]v_{m}(t) = 0.8 \\sin (200 \\pi t) V[/latex] and the triangular carrier voltage ([latex]v_{c}[/latex]) are as shown in Figure (b). The carrier frequency is 5 kHz. The peak value of the 100 Hz component of the load current ([latex]i_{L}[/latex]), in ampere, is ________ .",
+    "solution": "[latex]\\begin{aligned} m_a&=0.8\\\\ (V_{01})_{peak}&=m_a\\frac{V_d}{2}\\;\\;[m_a\\leq 1]\\\\ &=0.8 \\times 250=200V\\\\ (I_{01})_{peak}&=\\frac{(V_{01})_{peak}}{Z_1}\\\\ &=\\frac{200}{\\sqrt{R^2}+(\\omega L)^2}\\\\ &=\\frac{200}{\\sqrt{12^2+16^2}}=10A \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page9_q4.webp",
+    "min": 9.9,
+    "max": 10.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 The voltage ([latex]v_{s}[/latex]) across and the current ([latex]i_{s}[/latex]) through a semiconductor switch during a turn-ON transition are shown in figure. The energy dissipated during the turn-ON transition, in mJ, is _______.",
+    "solution": "[latex]\\begin{aligned} \\text{Energy}&=\\int_{0}^{T_1}V\\cdot i dt+\\int_{0}^{T_2}V\\cdot i dt\\\\ &=V\\left [ \\frac{1}{2}IT_1 \\right ]+I\\left [ \\frac{1}{2}VT_2 \\right ]\\\\ &=600\\left [ \\frac{150}{2}\\times 1 \\times 10^{-6} \\right ]\\\\ &+100\\left [ \\frac{1}{2} \\times 600 \\times 1 \\times 10^{-6} \\right ]\\\\ \\text{ Energy}&=75mJ \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page9_q5.webp",
+    "min": 74.0,
+    "max": 76.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 A single-phase 400 V, 50 Hz transformer has an iron loss of 5000 W at the rated condition. When operated at 200 V, 25 Hz, the iron loss is 2000 W. When operated at 416 V, 52 Hz, the value of the hysteresis loss divided by the eddy current loss is ______.",
+    "solution": "400V, 50Hz transformer, [latex]P_i=5000Watt[/latex] When, 200V, 25Hz, [latex]P_i=2000 Watt[/latex] 416V, 52Hz,  [latex]\\frac{P_h}{P_e}=? [/latex] [latex]\\begin{aligned} P_i &=P_h+P_e \\\\ P_h & \\propto f B_m^x \\\\ P_e& \\propto f^2B_m^2 \\end{aligned}[/latex] as in the problem [latex]\\begin{aligned} \\frac{V}{f}&=\\frac{400}{50}=\\frac{416}{52}=8 \\\\ P_h&=Af \\\\ P_e&=Bf^2 \\end{aligned}[/latex] From given data, [latex]\\begin{aligned} 2000 &=(P_{25hZ})){i} \\\\ &= A(25)+B(25)^2\\;\\;...(i)\\\\ 5000 &=(P_{50Hz})_i \\\\ &= A(50)+B(50)^2\\;\\;...(ii) \\end{aligned}[/latex] Solving equation (i) and (ii), [latex]\\begin{aligned} A &=60,\\;\\; B=0.8 \\\\ (P_h)_{52Hz}&=Af=60 \\times 52 \\\\ &= 3120 Watt\\\\ (P_e)_{52Hz}&=Bf^2=0.8 \\times (52)^2 \\\\ &= 2163.2 Watt\\\\ \\frac{(P_h)_{52Hz}}{(P_e)_{52Hz}}&=\\frac{3120}{2163.2}=1.4423 \\end{aligned}[/latex]",
+    "min": 1.4,
+    "max": 1.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 A DC shunt generator delivers 45 A at a terminal voltage of 220 V. The armature and the shunt\nfield resistances are 0.01 [latex]\\Omega[/latex] and 44 [latex]\\Omega[/latex] respectively. The stray losses are 375 W. The percentage efficiency of the DC generator is ____________.",
+    "solution": "[latex]\\begin{aligned} \\text{Stay losses} &= 375 \\; \\text{Watt}\\\\ & \\text{Total copper losses}\\\\ &= I_a^2R_a+I_{sh}^2R_{sh}\\\\ &= 50^2 \\times (0.01)+(5^2)\\times 44\\\\ &= 1125\\; \\text{Watt}\\\\ h &=\\frac{\\text{Output}}{\\text{Output}+\\text{losses}} \\\\ &= \\frac{220 \\times 45}{220 \\times 45+(1125)+375}\\\\ &= 0.86842 \\;\\text{or} \\; 86.84\\% \\end{aligned}[/latex]",
+    "min": 86.0,
+    "max": 88.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 A three-phase, 50 Hz salient-pole synchronous motor has a per-phase direct-axis reactance ([latex]X_{d}[/latex]) of 0.8 pu and a per-phase quadrature-axis reactance ([latex]X_{q}[/latex]) of 0.6 pu. Resistance of the machine is negligible. It is drawing full-load current at 0.8 pf (leading). When the terminal voltage is 1 pu, per-phase induced voltage, in pu, is _________.",
+    "solution": "Synchronous motor at leading p.f. [latex]\\begin{aligned} X_d &=0.8 \\\\ \\phi &= 36.86\\\\ X_q&= 0.6\\\\ R_q&= 0\\\\ \\tan \\psi &=\\frac{V \\sin \\phi +I_aX_a}{V \\cos \\phi }\\\\ \\psi &=56.30 \\end{aligned} [/latex] For synchronous motor at leading p.f. [latex]\\begin{aligned} \\psi &=\\phi +\\delta \\\\ \\delta &=19.70^{\\circ} \\\\ E&=V \\cos \\delta +I_dX_d \\\\ I_d&=I_a \\sin f=0.831 \\\\ E&=(1)\\cos (19.7)+(0.831)(0.8) \\\\ &=1.606 \\end{aligned}[/latex]",
+    "min": 1.58,
+    "max": 1.62
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 A single-phase, 22 kVA, 2200 V/ 220 V, 50 Hz, distribution transformer is to be connected as an auto-transformer to get an output voltage of 2420 V. Its maximum kVA rating as an autotransformer is",
+    "solution": "22 KVA, 2200 V/220 V, 50Hz Distribution transformer is to be connected as on auto transformer to get an output voltage of 2420V. [latex](kVA)_{maximum}[/latex] as an auto transformer=? as voltage rating is 2420 i.e. (2200+220)V additive polarity, [latex]\\begin{aligned} (kVA)_{auto} &= (a_{2winding}+1) \\times (kVA)_{2 winding}\\\\ \\text{where, } \\;\\; a_{2winding}&=\\frac{2200}{220}=10 \\\\ (kVA)_{auto} &= (10+1) \\times 22 =242 \\end{aligned}[/latex]",
+    "options": {
+      "A": "22",
+      "B": "24.2",
+      "C": "242",
+      "D": "2420"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 A single-phase full-bridge voltage source inverter (VSI) is fed from a 300 V battery. A pulse of 120[latex]^{\\circ}[/latex] duration is used to trigger the appropriate devices in each half-cycle. The rms value of the fundamental component of the output voltage, in volts, is",
+    "solution": "[latex]\\begin{aligned} V_{01(rms)}&=\\frac{2\\sqrt{2}}{\\pi}V_s \\cdot \\sin d\\\\ \\text{Pulse width} & \\text{ where } 2d=120^{\\circ}\\\\ d=60^{\\circ}\\\\ V_{01(rms)}&=\\frac{2\\sqrt{2}}{\\pi}V_s \\sin 60^{\\circ}\\\\ &=\\frac{2\\sqrt{2}}{\\pi}V_s \\frac{\\sqrt{3}}{2}=234V \\end{aligned}[/latex]",
+    "options": {
+      "A": "234",
+      "B": "245",
+      "C": "300",
+      "D": "331"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 A single-phase transmission line has two conductors each of 10 mm radius. These are fixed at a center-to-center distance of 1 m in a horizontal plane. This is now converted to a three-phase transmission line by introducing a third conductor of the same radius. This conductor is fixed at an equal distance D from the two single-phase conductors. The three-phase line is fully transposed. The positive sequence inductance per phase of the three-phase system is to be 5% more than that of the inductance per conductor of the single-phase system. The distance D, in meters, is _______.",
+    "solution": "In first case, [latex]\\begin{aligned} L_1&=2 \\times 10^{-7} \\ln \\frac{D}{r}\\\\ &=2 \\times 10^{-7} \\ln \\left ( \\frac{100}{0.7788} \\right )\\\\ &=0.97\\mu H/m\\\\ L_2&=1.05 \\times 0.97=1.0185 \\mu H/m\\\\ L_2&=2 \\times 10^{-7} \\ln \\left ( \\frac{\\sqrt[3]{D^2 \\times 100}}{0.7788} \\right ) \\end{aligned}[/latex] [latex]\\begin{aligned} \\ln \\left ( \\frac{\\sqrt[3]{D^2 \\times 100}}{0.7788} \\right )&=\\frac{1.0185 \\times 10^{-6}}{2 \\times 10^{-7}}\\\\ &=5.0925\\\\ e^{5.0925}&= \\frac{\\sqrt[3]{D^2 \\times 100}}{0.7788} \\\\ D&=142.7cm=1.427m \\end{aligned}[/latex]",
+    "min": 1.41,
+    "max": 1.47
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 In the circuit shown below, the supply voltage is [latex]10sin(1000t)[/latex] volts. The peak value of the steady state current through the 1[latex]\\Omega[/latex] resistor, in amperes, is ______.",
+    "solution": "If we observe the parallel LC combination, we get that at [latex]\\omega[/latex]=1000 rad/sec the parallel LC is at resonance, thus it is open circuited. The circuit given in question can be redrawn as So, [latex]I=\\frac{10 \\sin 1000t}{10}=\\sin 100t[/latex] So, peak value is 1 Amp.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page11_q2.webp",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 A dc voltage with ripple is given by [latex]v(t)=[100+10\\sin(\\omega t)-5\\sin (3\\omega t)][/latex] volts. Measurements of this voltage [latex]v(t)[/latex], made by moving-coil and moving-iron voltmeters, show readings of [latex]V_1 \\; and \\; V_2[/latex] respectively. The value of [latex]V_2 - V_1[/latex], in volts, is _________.",
+    "solution": "[latex]V(t)=100+10 \\sin (\\omega t)-5 \\sin (3\\omega t) \\;\\;\\text{volt} [/latex] moving coil, [latex]V_1=V_{avg.}=100V [/latex] moving iron, [latex]V_2=v_{rms}=\\sqrt{100^2+\\frac{1}{2}(10^2+5^2)} [/latex] [latex]\\;\\;=100.312 [/latex] [latex]V_2-V_1=0.312[/latex]",
+    "min": 0.3,
+    "max": 0.33
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 The circuit below is excited by a sinusoidal source. The value of R, in [latex]\\Omega[/latex], for which the admittance of the circuit becomes a pure conductance at all frequencies is _____________.",
+    "solution": "The resonant frequency for the circuit is [latex]\\omega _0=\\frac{1}{\\sqrt{LC}}\\sqrt{\\frac{R_L^2-L/C}{R_C^2-L/C}}[/latex] Since, [latex]  (R_L=R_C=R) [/latex] So the circuit will have zero real part of admittance when, [latex]R=\\sqrt{\\frac{L}{C}}=\\sqrt{\\frac{0.02}{100\\mu F}}=14.14\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page11_q4.webp",
+    "min": 14.0,
+    "max": 14.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 In the circuit shown below, the node voltage In the circuit shown below, the node voltage [latex]V_{A}[/latex] is ___________ V.",
+    "solution": "Applying KCL at node A, we get [latex]\\frac{V_A}{5}+\\frac{V_A-10}{10}+\\frac{V_A+10I_1}{5}=5 [/latex] So, [latex]2V_A+V_A-10+2V_A+20I_1=5 [/latex] [latex]5V_A+20I_1=60 [/latex] Since,  [latex]I_1=\\frac{V_A-10}{10}[/latex] So, [latex] 5V_A+2V_A-20=60 [/latex] [latex]7V_A=80 [/latex] [latex]V_A=11.42 volt[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2016_Set1/page11_q5.webp",
+    "min": 11.25,
+    "max": 11.5
+  }
+]

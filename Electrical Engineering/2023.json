@@ -1,0 +1,687 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 For a given vector [latex]w=\\left[\\begin{array}{lll}1 & 2 & 3\\end{array}\\right]^{\\top}[/latex], the vector normal to the plane defined by [latex]\\mathbf{w}^{\\top} x=1[/latex] is",
+    "solution": "Given, [latex]W^{T}=1[/latex] [latex]\\left[\\begin{array}{lll}1 & 2 & 3\\end{array}\\right]\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right]=1[/latex] We have, vector normal to the plane [latex]=\\nabla F[/latex] [latex]\n\\begin{aligned}\n& =i \\frac{\\partial F}{\\partial x}+\\hat{j} \\frac{\\partial F}{\\partial y}+\\hat{k} \\frac{\\partial F}{\\partial z} \\\\\n& =\\hat{i}+2 \\hat{j}+3 \\hat{k}\n\\end{aligned}\n[/latex] [latex]\\therefore[/latex] Normal vector [latex]=\\left[\\begin{array}{lll}1 & 2 & 3\\end{array}\\right]^{T}[/latex]",
+    "options": {
+      "A": "[latex]\\left[\\begin{array}{lll}-2 & -2 & 2\\end{array}\\right]^{T}[/latex]",
+      "B": "[latex]\\left[\\begin{array}{lll}3 & 0 & -1\\end{array}\\right]^{T}[/latex]",
+      "C": "[latex]\\left[\\begin{array}{lll}3 & 2 & 1\\end{array}\\right]^{T}[/latex]",
+      "D": "[latex]\\left[\\begin{array}{llll}1 & 2 & 3\\end{array}\\right]^{T}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 For the block diagrm shown in the figure, the transfer function [latex]\\frac{Y(s)}{R(s)}[/latex] is",
+    "solution": "Signal flow graph: Forward paths, [latex]\n\\begin{aligned}\n& \\mathrm{P}_{1}=3, \\quad \\Delta_{1}=1 \\\\\n& \\mathrm{P}_{2}=\\frac{2}{\\mathrm{~S}}, \\Delta_{2}=1\n\\end{aligned}\n[/latex] Loops: [latex]L_1=\\frac{1}{S}[/latex] Using Masson's graph formula, [latex]\n\\begin{aligned}\n\\frac{Y(s)}{R(s)} & =\\frac{P_{1} \\Delta_{1}+P_{1} \\Delta_{2}}{1-L_{1}} \\\\\n& =\\frac{3+\\frac{2}{S}}{1-\\frac{1}{S}} \\\\\n& =\\frac{3 S+2}{S-1}\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page1_q2.webp",
+    "options": {
+      "A": "[latex]\\frac{2 s+3}{s+1}[/latex]",
+      "B": "[latex]\\frac{3 s+2}{s-1}[/latex]",
+      "C": "[latex]\\frac{s+1}{3 \\mathrm{~s}+2}[/latex]",
+      "D": "[latex]\\frac{3 s+2}{s+1}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 In the Nyquist plot of the open-loop transfer function [latex]\n\\mathrm{G}(\\mathrm{s}) \\mathrm{H}(\\mathrm{s})=\\frac{3 \\mathrm{~s}+5}{\\mathrm{~s}-1}\n[/latex] corresponding to the feedback loop shown in the figure, the infinite semi-circular arc of the Nyquist contour in s-plane is mapped into a point at",
+    "solution": "Nyquist Contour : Given: [latex]\n\\begin{aligned}\n\\mathrm{G}(\\mathrm{s}) \\mathrm{H}(\\mathrm{s}) & =\\frac{3 \\mathrm{~s}+5}{\\mathrm{~s}-1} \\\\\n\\text { Put } \\quad \\mathrm{s} & =R e^{j \\theta} \\\\\n\\mathrm{G}(\\mathrm{s}) \\mathrm{H}(\\mathrm{s}) & =\\operatorname{Lim}_{R \\rightarrow \\infty} \\frac{3 R e^{j \\theta}+5}{\\operatorname{Re}^{j \\theta}-1} \\\\\n\\mathrm{G}(\\mathrm{s}) \\mathrm{H}(\\mathrm{s}) & =3\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page1_q3.webp",
+    "options": {
+      "A": "[latex]\\mathrm{G}(\\mathrm{s}) \\mathrm{H}(\\mathrm{s})=\\infty[/latex]",
+      "B": "[latex]\\mathrm{G}(\\mathrm{s}) \\mathrm{H}(\\mathrm{s})=0[/latex]",
+      "C": "[latex]\\mathrm{G}(\\mathrm{s}) \\mathrm{H}(\\mathrm{s})=3[/latex]",
+      "D": "[latex]\\mathrm{G}(\\mathrm{s}) \\mathrm{H}(\\mathrm{s})=-5[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 Consider a unity-gain negative feedback system consisting of the plant [latex]G(s)[/latex] (given below) and a proportional-integral controller. Let the proportional gain and integral gain be 3 and 1, respectively. For a unit step reference input, the final values of the controller output and the plant output, respectively, are [latex]\r\nG(s)=\\frac{1}{s-1}\r\n[/latex]",
+    "solution": "Given plant: So, [latex]\\quad[/latex] OLTF [latex]=\\frac{(3 s+1)}{s(s-1)}[/latex] Closed loop transfer function, [latex]\n\\begin{aligned}\n\\frac{Y(s)}{R(s)} & =\\frac{3 s+1}{s^{2}+2 s+1} \\\\\nY(s) & =\\frac{3 s+1}{s\\left(s^{2}+2 s+1\\right)} \\quad\\left[\\because R(s)=\\frac{1}{s}\\right]\n\\end{aligned}\n[/latex] Final value of plant, [latex]\nY(\\infty)=\\operatorname{Lims}_{s \\rightarrow 0} Y(s)=1\n[/latex] From plant, [latex]\n\\begin{aligned}\nX(\\mathrm{~s}) & =\\left[\\mathrm{R}(\\mathrm{s})-\\frac{\\mathrm{X}(\\mathrm{s})}{\\mathrm{s}-1}\\right]\\left(3+\\frac{1}{\\mathrm{~s}}\\right) \\\\\nX(\\mathrm{~s})\\left[1+\\frac{3 \\mathrm{~s}+1}{\\mathrm{~s}(\\mathrm{~s}-1)}\\right] & =\\left(\\frac{3 \\mathrm{~s}+1}{\\mathrm{~s}^{2}}\\right)\\left[\\because \\mathrm{R}(\\mathrm{s})=\\frac{1}{\\mathrm{~s}}\\right] \\\\\nX(\\mathrm{~s})\\left[\\frac{\\mathrm{s}^{2}+2 s+1}{\\mathrm{~s}(\\mathrm{~s}-1)}\\right] & =\\left(\\frac{3 \\mathrm{~s}+1}{\\mathrm{~s}^{2}}\\right) \\\\\n\\Rightarrow \\quad X(\\mathrm{~s}) & =\\frac{(3 \\mathrm{~s}+1)(\\mathrm{s}-1)}{\\mathrm{s}\\left(\\mathrm{s}^{2}+2 \\mathrm{~s}+1\\right)}\n\\end{aligned}\n[/latex] [latex]\\therefore[/latex] Final value of controller, [latex]\nx(\\infty)=\\operatorname{LimsX}_{s \\rightarrow 0} \\mathrm{~s}(\\mathrm{~s})=-1\n[/latex]",
+    "options": {
+      "A": "[latex]\\infty, \\infty[/latex]",
+      "B": "[latex]1,0[/latex]",
+      "C": "[latex]1,-1[/latex]",
+      "D": "[latex]-1,1[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 The following columns present various modes of induction machine operation and the ranges of slip [latex]\\begin{array}{ll}\r\n\\textbf{A (Mode of operation)}& \\textbf{B (Range of slip)}\\\\\\\\ \r\n\r\n\\text{a. Running in generator mode}&\\text{p) From 0.0 to 1.0}\\\\\\\\ \r\n\r\n\r\n\\text{b. Running in motor mode} & \\text{q) From 1.0 to 2.0}\\\\\\\\ \r\n\r\n\r\n\\text{c. Plugging in motor mode} & \\text{r) From - 1.0 to 0.0}\r\n\\end{array}[/latex] The correct matching between the elements in column A with those of column B is",
+    "solution": "Torque speed characteristic of [latex]3-\\phi[/latex] IM : [latex]\\mathrm{S} \\gt 1 \\Rightarrow[/latex] Plugging mode [latex]0 \\lt \\mathrm{S} \\lt 1 \\Rightarrow[/latex] Motoring mode [latex]\\mathrm{S} \\lt 0 \\Rightarrow[/latex] Generating Mode",
+    "options": {
+      "A": "a-r, b-p, and c-q",
+      "B": "a-r, b-q, and c-p",
+      "C": "a-p, b-r, and c-q",
+      "D": "a-q, b-p, and c-r"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 A 10-pole, [latex]50 \\mathrm{~Hz}, 240 \\mathrm{~V}[/latex], single phase induction motor runs at 540 RPM while driving rated load. The frequency of induced rotor currents due to backward field is",
+    "solution": "Synchronous speed, [latex]\n\\begin{aligned}\nN_{s} & =\\frac{120 f}{P} \\\\\n& =\\frac{120 \\times 50}{10}=600 \\mathrm{rpm}\n\\end{aligned}\n[/latex] Now, forward slip, [latex]\n\\begin{aligned}\nS & =\\frac{N_{\\mathrm{s}}-N}{N_{\\mathrm{s}}} \\\\\n& =\\frac{600-540}{600}=0.1\n\\end{aligned}\n[/latex] [latex]\\therefore[/latex] Backward slip [latex]=2-\\mathrm{S}=1.9[/latex] Thus, required frequency [latex]=1.9 \\times 50=95 \\mathrm{~Hz}[/latex]",
+    "options": {
+      "A": "[latex]100 \\mathrm{~Hz}[/latex]",
+      "B": "[latex]95 \\mathrm{~Hz}[/latex]",
+      "C": "[latex]10 \\mathrm{~Hz}[/latex]",
+      "D": "[latex]5 \\mathrm{~Hz}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 A continuous-time system that is initially at rest is described by [latex]\n\\frac{d y(t)}{d t}+3 y(t)=2 x(t)\n[/latex] where [latex]x(t)[/latex] is the input voltage and [latex]y(t)[/latex] is the output voltage. The impulse response of the system is",
+    "solution": "Given : [latex]\n\\frac{\\mathrm{dy}(\\mathrm{t})}{\\mathrm{dt}}+3 \\mathrm{y}(\\mathrm{t})=x(\\mathrm{t})\n[/latex] Taking Laplace transform, [latex]\n\\begin{aligned}\nY(\\mathrm{~s})[\\mathrm{s}+3] & =2 X(\\mathrm{~s}) \\\\\n\\frac{Y(s)}{X(\\mathrm{~s})} & =\\frac{2}{s+3}\n\\end{aligned}\n[/latex] We have impulse response [latex]\n=\\mathrm{L}^{-1} \\text { (Transfer function) }\n[/latex] So, taking inverse Laplace transform, [latex]\ny(t)=2 e^{-3 t} u(t)\n[/latex]",
+    "options": {
+      "A": "[latex]3 e^{-2 t}[/latex]",
+      "B": "[latex]\\frac{1}{3} e^{-2 t} u(t)[/latex]",
+      "C": "[latex]2 \\mathrm{e}^{-3 \\mathrm{t}} \\mathrm{u}(\\mathrm{t})[/latex]",
+      "D": "[latex]2 \\mathrm{e}^{-3 \\mathrm{t}}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 The Fourier transform [latex]X(\\omega)[/latex] of the signal [latex]x(t)[/latex] is given by [latex]\n\\begin{aligned}\nX(\\omega) & =1, \\text { for }|\\omega| \\lt W_{0} \\\\\n& =0, \\text { for }|\\omega| \\gt W_{0}\n\\end{aligned}\n[/latex] Which one of the following statements is true?",
+    "solution": "Given, [latex]\\quad X(\\omega)=\\left\\{\\begin{array}{l}1, \\text { for }|\\omega| W_{0}\\end{array}\\right.[/latex] [latex]\nX(\\omega)=\\operatorname{rect}\\left(\\frac{\\omega}{2 W_{0}}\\right)\n[/latex] We know, [latex]\n\\operatorname{Arect}\\left(\\frac{\\mathrm{t}}{\\tau}\\right)=\\operatorname{A\\tau S}\\left(\\frac{\\omega \\tau}{2}\\right)\n[/latex] By duality, [latex]\n\\operatorname{A} \\tau \\mathrm{Sa}\\left(\\frac{\\mathrm{t} \\tau}{2}\\right) \\leftrightarrow 2 \\pi \\operatorname{Arect}\\left(\\frac{\\omega}{\\tau}\\right)\n[/latex] Given, [latex]2 \\pi \\mathrm{A}=1[/latex] [latex]\\Rightarrow \\quad A=\\frac{1}{2 \\pi}[/latex] [latex]\\therefore \\quad \\mathrm{x}(\\mathrm{t})=\\frac{\\tau}{2 \\pi} \\mathrm{Sa}\\left(\\frac{\\mathrm{t} \\tau}{2}\\right)[/latex], where [latex]\\tau=2 \\mathrm{~W}_{0}[/latex] Thus, [latex]  \n\\begin{aligned}\nx(t)&=\\frac{W_0}{\\pi} \\mathrm{Sa}(W_0 t)\\\\\n&=\\frac{1}{\\pi}\\frac{\\sin W_0 t}{t}\\\\\n\\therefore \\quad \\text{At } t&=\\frac{\\pi}{2W_0}, x(t)=\\frac{1}{\\pi t}\n\\end{aligned}\n[/latex] From rectangular function, At [latex] W \\Rightarrow \\infty ,X(w)=1[/latex] Taking inverse fourier transform\n[latex]x(t)=\\delta (t) [/latex] Option (A) will be correct.",
+    "options": {
+      "A": "[latex]x(t)[/latex] tends to be an impulse as [latex]\\mathrm{W}_{0} \\rightarrow \\infty[/latex]",
+      "B": "[latex]x(0)[/latex] decreases as [latex]W_{0}[/latex] increases",
+      "C": "At [latex]\\mathrm{t}=\\frac{\\pi}{2 \\mathrm{~W}_{0}}, \\mathrm{x}(\\mathrm{t})=-\\frac{1}{\\pi}[/latex]",
+      "D": "At [latex]\\mathrm{t}=\\frac{\\pi}{2 \\mathrm{~W}_{0}}, \\mathrm{x}(\\mathrm{t})=\\frac{1}{\\pi}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 The Z-transform of a discrete signal [latex]x[n][/latex] is [latex]X(z)=\\frac{4z}{\\left ( z-\\frac{1}{5} \\right ) \\left ( z-\\frac{2}{3} \\right ) (z-3)}[/latex] with ROC = R Which one of the following statements is\ntrue?",
+    "solution": "[latex]Z = 1[/latex], unit circle include by ROC : [latex]\\frac{2}{3} \\lt |z| \\lt 3[/latex]. Therefore DIFT of [latex]x[n][/latex] conveys for this ROC.",
+    "options": {
+      "A": "Discrete-time Fourier transform of [latex]x[n][/latex] converges if [latex]R[/latex] is [latex]|z| \\gt 3[/latex]",
+      "B": "Discrete-time Fourier transform of [latex]x[n][/latex] converges if [latex]R[/latex] is [latex]\\frac{2}{3} \\lt |z| \\lt 3[/latex]",
+      "C": "Discrete-time Fourier transform of [latex]x[n][/latex] converges if [latex]R[/latex] is such that [latex]x[n][/latex] is a leftsided sequence",
+      "D": "Discrete-time Fourier transform of [latex]x[n][/latex] converges if [latex]R[/latex] is such that [latex]x[n][/latex] is a rightsided sequence"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 For the three-bus power system shown in the\nfigure, the trip signals to the circuit breakers  [latex]B_1[/latex] to [latex]B_9[/latex] are provided by overcurrent relays [latex]R_1[/latex] to [latex]R_9[/latex], respectively, some of which have directional\nproperties also. The necessary condition for the\nsystem to be protected for short circuit fault at\nany part of the system between bus [latex]1[/latex] and the\n[latex]R-L[/latex] loads with isolation of minimum portion of\nthe network using minimum number of\ndirectional relays is",
+    "solution": "[latex] B_3,B_4[/latex] and [latex] B_5,B_7[/latex] are directional over current relays. All remaining are [latex]( B_1,B_2,B_6,B_8,B_9)[/latex] Now directional over current relays.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page2_q5.webp",
+    "options": {
+      "A": "[latex]\\mathrm{R}_{3}[/latex] and [latex]\\mathrm{R}_{4}[/latex] are directional overcurrent relays blocking faults towards bus 2",
+      "B": "[latex]R_{3}[/latex] and [latex]R_{4}[/latex] are directional overcurrent relays blocking faults towards bus 2 and [latex]R_{7}[/latex] is directional overcurrent relay blocking faults towards bus 3",
+      "C": "[latex]R_{3}[/latex] and [latex]\\mathrm{R}_{4}[/latex] are directional overcurrent relays blocking faults towards Line 1 and Line 2, respectively, [latex]R_{7}[/latex] is directional overcurrent relay blocking faults towards Line 3 and R5 is directional overcurrent relay blocking faults towards bus 2",
+      "D": "[latex]\\mathrm{R}_{3}[/latex] and [latex]\\mathrm{R}_{4}[/latex] are directional overcurrent relays blocking faults towards Line 1 and Line 2, respectively."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 The expressions of fuel cost of two thermal generating units as a function of the respective power generation [latex]\\mathrm{P}_{\\mathrm{G} 1}[/latex] and [latex]\\mathrm{P}_{\\mathrm{G} 2}[/latex] are given as [latex]\\mathrm{F}_{1}\\left(\\mathrm{P}_{\\mathrm{G} 1}\\right)=0.1 \\mathrm{aP}_{\\mathrm{G} 1}^{2}+40 \\mathrm{P}_{\\mathrm{G} 1}+120 \\mathrm{Rs} /hour[/latex] [latex]0 \\mathrm{MW} \\leq \\mathrm{P}_{\\mathrm{G} 1} \\leq 350 \\mathrm{MW}[/latex] [latex]\\mathrm{F}_{2}\\left(\\mathrm{P}_{\\mathrm{G} 2}\\right)=0.2 \\mathrm{P}_{\\mathrm{G} 2}^{2}+30 \\mathrm{P}_{\\mathrm{G} 2}+100 \\mathrm{Rs} /hour[/latex] [latex]0 \\mathrm{MW} \\leq \\mathrm{P}_{\\mathrm{G} 2} \\leq 300 \\mathrm{MW}[/latex] where [latex]a[/latex] is a constant. For a given value of a, optimal dispatch requires the total load of [latex]290 \\mathrm{MW}[/latex] to be shared as [latex]\\mathrm{P}_{\\mathrm{G} 1}=175 \\mathrm{MW}[/latex] and [latex]\\mathrm{P}_{\\mathrm{G} 2}[/latex] [latex]=115 \\mathrm{MW}[/latex]. With the load remaining unchanged, the value of [latex]a[/latex] is increased by [latex]10 \\%[/latex] and optimal dispatch is carried out. The changes in [latex]\\mathrm{P}_{\\mathrm{G} 1}[/latex] and the total cost of generation, [latex]F\\left(=F_{1}+F_{2}\\right)[/latex] in Rs/hour will be as follows.",
+    "solution": "[latex]\n\\begin{aligned}\n& \\mathrm{IC}_{1}=0.2 \\mathrm{aP}_{\\mathrm{a}_{1}}+40 \\\\\n& \\mathrm{IC}_{2}=0.4 \\mathrm{P}_{\\mathrm{a}_{2}}+30\n\\end{aligned}\n[/latex] For optimal dispatch, [latex]\\mathrm{IC}_{1}=\\mathrm{IC}_{2}[/latex] [latex]0.2 \\mathrm{aP}_{\\mathrm{G}_{1}}+40=0.4 \\mathrm{P}_{\\mathrm{G}_{2}}+30[/latex] Given : [latex]\n\\begin{aligned}\n\\mathrm{P}_{\\mathrm{G}_{1}} & =175 \\mathrm{MW} \\text { and } \\mathrm{P}_{\\mathrm{G}_{2}}=115 \\mathrm{MW} \\\\\n\\therefore 0.2 \\mathrm{a} \\times 175+40 & =0.4 \\times 115+30 \\\\\n\\Rightarrow \\quad \\mathrm{a} & =1.0286\n\\end{aligned}\n[/latex] Economic scheduling, [latex]\n\\mathrm{P}_{\\mathrm{G}_{1}}+\\mathrm{P}_{\\mathrm{G}_{2}}=290 \\mathrm{MW}\n[/latex] Now, if a increases by [latex]10 \\%, \\mathrm{P}_{\\mathrm{G}_{1}}[/latex] should be decreases and total cost of generation increases.",
+    "options": {
+      "A": "[latex]\\mathrm{P}_{\\mathrm{G} 1}[/latex] will decrease and [latex]\\mathrm{F}[/latex] will increase",
+      "B": "Both [latex]\\mathrm{P}_{\\mathrm{G} 1}[/latex] and [latex]\\mathrm{F}[/latex] will increase",
+      "C": "[latex]P_{\\mathrm{G1}}[/latex] will increase and [latex]F[/latex] will decrease",
+      "D": "Both [latex]\\mathrm{P}_{\\mathrm{G} 1}[/latex] and [latex]F[/latex] will decrease"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 The four stator conductor [latex]\\left(A, A^{\\prime}, B\\right.[/latex] and [latex]\\left.B^{\\prime}\\right)[/latex] of a rotating machine are carrying DC currents of the same value, the directions of which are shown in figure (i). The rotor coils [latex]a-a^{\\prime}[/latex] and [latex]b-b^{\\prime}[/latex] are formed by connecting the back ends of conductor '[latex]a[/latex]' and '[latex]a^{\\prime}[/latex]' and '[latex]b[/latex]' and '[latex]b^{\\prime}[/latex]', respectively, as shown in figure (ii). The e.m.f. induced in coil [latex]a-a^{\\prime}[/latex] and coil  [latex]b-b^{\\prime}[/latex] are denoted by [latex]E_{a-a^{\\prime}}[/latex] and [latex]E_{b-b^{\\prime}}[/latex]; respectively. If the rotor is rotated at uniform angular speed [latex]\\omega \\mathrm{rad} / \\mathrm{s}[/latex] in the clockwise direction then which of the following correctly describes the [latex]\\mathrm{E}_{\\mathrm{a}-\\mathrm{a}^{\\prime}}[/latex] and [latex]\\mathrm{E}_{\\mathrm{b}-\\mathrm{b}^{\\prime}}[/latex] ?",
+    "solution": "Since, a-a' and b-b' are placed at GNA (Geometric Neutral Axis) therefore, [latex]\n\\mathrm{E}_{\\mathrm{a}-\\mathrm{a}^{\\prime}}=\\mathrm{E}_{\\mathrm{b}-\\mathrm{b}^{\\prime}}=0\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page3_q2.webp",
+    "options": {
+      "A": "[latex]E_{a-a^{\\prime}}[/latex] and [latex]E_{b-b^{\\prime}}[/latex] have finite magnitudes and are in the same phase",
+      "B": "[latex]E_{a-a^{\\prime}}[/latex] and [latex]E_{b-b^{\\prime}}[/latex] have finite magnitudes with [latex]\\mathrm{E}_{\\mathrm{b}-b^{\\prime}}[/latex] leading [latex]\\mathrm{E}_{\\mathrm{a-a}}[/latex]",
+      "C": "[latex]\\mathrm{E}_{\\mathrm{a}-\\mathrm{a}^{\\prime}}[/latex] and [latex]\\mathrm{E}_{\\mathrm{b}-\\mathrm{b}^{\\prime}}[/latex] have finite magnitudes with [latex]E_{a-a^{\\prime}}[/latex] leading [latex]E_{b-b^{\\prime}}[/latex]",
+      "D": "[latex]\\mathrm{E}_{\\mathrm{a}-\\mathrm{a}^{\\prime}}=\\mathrm{E}_{\\mathrm{b}-\\mathrm{b}^{\\prime}}=0[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 The chopper circuit shown in figure (i) feeds power to a 5 A DC constant current source. The switching frequency of the chopper is [latex]100 \\mathrm{kHz}[/latex]. All the components can be assumed to be ideal. The gate signals of switches [latex]S_{1}[/latex] and [latex]S_{2}[/latex] are shown in figure (ii). Average voltage across the [latex]5 \\mathrm{~A}[/latex] current source is",
+    "solution": "Output Voltage Waveform : [latex]\\therefore[/latex] Average voltage, [latex]\\mathrm{V}_{0}=\\frac{1}{10}[20 \\times 3]=6 \\mathrm{~V}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page3_q3.webp",
+    "options": {
+      "A": "[latex]10 \\mathrm{~V}[/latex]",
+      "B": "[latex]6 \\mathrm{~V}[/latex]",
+      "C": "[latex]12 \\mathrm{~V}[/latex]",
+      "D": "[latex]20 \\mathrm{~V}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 In the figure, the vectors [latex]u[/latex] and [latex]v[/latex] are related as: [latex]A u=v[/latex] by a transformation matrix [latex]A[/latex]. The correct choice of [latex]A[/latex] is",
+    "solution": "Given : [latex]\n\\begin{aligned}\n& |u|=\\sqrt{4^{2}+3^{2}}=5 \\\\\n& |V|=5\n\\end{aligned}\n[/latex] and [latex]\\quad \\theta=\\tan ^{-1} \\frac{3}{4} \\Rightarrow \\tan \\theta=\\frac{3}{4}[/latex] [latex]\\therefore \\quad \\sin \\theta=\\frac{3}{5}[/latex] and [latex]\\cos \\theta=\\frac{4}{5}[/latex] For clockwise relation by [latex]\\theta[/latex], transformation matrix, [latex]\n\\begin{aligned}\nA & =\\left[\\begin{array}{cc}\n\\cos \\theta & -\\sin \\theta \\\\\n\\sin \\theta & \\cos \\theta\n\\end{array}\\right] \\\\\n& =\\left[\\begin{array}{cc}\n\\frac{4}{5} & \\frac{3}{5} \\\\\n-\\frac{3}{5} & \\frac{4}{5}\n\\end{array}\\right]\n\\end{aligned}\n[/latex] [latex][\\because[/latex] F or clockwise [latex]\\theta \\rightarrow[/latex] N egative [latex]][/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page3_q4.webp",
+    "options": {
+      "A": "[latex]\\left[\\begin{array}{cc}\\frac{4}{5} & \\frac{3}{5} \\\\ -\\frac{3}{5} & \\frac{4}{5}\\end{array}\\right][/latex]",
+      "B": "[latex]\\left[\\begin{array}{cc}\\frac{4}{5} & -\\frac{3}{5} \\\\ \\frac{3}{5} & \\frac{4}{5}\\end{array}\\right][/latex]",
+      "C": "[latex]\\left[\\begin{array}{ll}\\frac{4}{5} & \\frac{3}{5} \\\\ \\frac{3}{5} & \\frac{4}{5}\\end{array}\\right][/latex]",
+      "D": "[latex]\\left[\\begin{array}{rr}\\frac{4}{5} & -\\frac{3}{5} \\\\ \\frac{3}{5} & -\\frac{4}{5}\\end{array}\\right][/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 One million random numbers are generated from a statistically stationary process with a Gaussian distribution with mean zero and standard deviation [latex]\\sigma_{0}[/latex]. The [latex]\\sigma_{0}[/latex] is estimated by randomly drawing out 10,000 numbers of samples [latex]\\left(x_{n}\\right)[/latex]. The estimates [latex]\\hat{\\sigma}_{1}, \\hat{\\sigma}_{2}[/latex] are computed in the following two ways. [latex]\\hat{\\sigma}_{1}^{2}=\\frac{1}{10000} \\sum_{n=1}^{10000} x_{n}^{2} \\quad \\hat{\\sigma}_{2}^{2}=\\frac{1}{9999} \\sum_{n=1}^{10000} x_{n}^{2}[/latex] Which of the following statements is true?",
+    "solution": "We know, [latex]\n\\mathrm{E}\\left[(\\mathrm{X}-\\overline{\\mathrm{X}})^{2}\\right]=\\operatorname{Var}\n[/latex] Given, [latex]\\quad \\bar{X}=0[/latex] [latex]\\therefore \\quad E[X]=\\operatorname{Var}[/latex]. We have, Standard deviation, [latex]\\sigma^{2}[/latex]\n\n[latex]\n=\\frac{1}{N-1} \\sum_{n=1}^{n} x_{n}^{2} \\Rightarrow \\text { for sample }\n[/latex] and [latex]\\quad \\sigma^{2}=\\frac{1}{N} \\sum_{n=1}^{n} x_{n}^{2} \\Rightarrow[/latex] For population Here, we take samples from [latex]10^{6}[/latex] numbers. [latex]\\therefore \\quad \\mathrm{E}\\left(\\sigma_{2}^{2}\\right)=\\sigma_{0}^{2}[/latex] will be correct.",
+    "options": {
+      "A": "[latex]E\\left(\\hat{\\sigma}_{2}^{2}\\right)=\\sigma_{0}^{2}[/latex]",
+      "B": "[latex]\\mathrm{E}\\left(\\hat{\\sigma}_{2}\\right)=\\sigma_{0}[/latex]",
+      "C": "[latex]E\\left(\\hat{\\sigma}_{1}^{2}\\right)=\\sigma_{0}^{2}[/latex]",
+      "D": "[latex]\\mathrm{E}\\left(\\hat{\\sigma}_{1}\\right)=\\mathrm{E}\\left(\\hat{\\sigma}_{2}\\right)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 A semiconductor switch needs to block voltage [latex]V[/latex] of only one polarity [latex](V \\gt 0)[/latex] during OFF state as shown in figure (i) and carry current in both directions during ON state as shown in figure (ii). Which of the following switch combination(s) will realize the same?",
+    "solution": "I-V characteristic of given switch : this characteristic shows by options (A) and (D) switch.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page4_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Which of the following statement(s) is/are true?",
+    "solution": "For causal system, impuse response [latex]\nh(n)=0 ; \\quad n \\lt 0\n[/latex] Therefore, for step input also [latex]\nh(n)=0 ; n \\lt 0\n[/latex]",
+    "options": {
+      "A": "If an LTI system is causal, it is stable",
+      "B": "A discrete time LTI system is causal if and only if its response to a step input [latex]u[n][/latex] is 0 for [latex]\\mathrm{n} \\lt 0[/latex]",
+      "C": "If a discrete time LTI system has an impulse response [latex]h[n][/latex] of finite duration the system is stable",
+      "D": "If the impulse response [latex]0 \\lt |h[n]| \\lt 1[/latex] for all [latex]n[/latex], then the [latex]L T I[/latex] system is stable."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 The bus admittance [latex]\\left(Y_{\\text {bus }}\\right)[/latex] matrix of a 3-bus power system is given below. [latex]\n\\begin{bmatrix}\n-j15 &j10  &j5 \\\\ \n j10& -j13.5 &j4 \\\\ \n j5& j4 & -j8\n\\end{bmatrix}\n[/latex] Considering that there is no shunt inductor connected to any of the buses, which of the following can NOT be true?",
+    "solution": "From [latex]Y_{\\text {Bus }}[/latex] matrix [latex]\n\\begin{aligned}\n& y_{10}=-j 15+j 10+j 5=0 \\\\\n& y_{20}=j 10-j 13.5+j 4=j 0.5 \\\\\n& y_{30}=j 5+j 4-j 8=j 1\n\\end{aligned}\n[/latex] Power system network : Hence, option (A) and (C) will not be correct.",
+    "options": {
+      "A": "Line charging capacitor of finite value is present in all three lines",
+      "B": "Line charging capacitor of finite value is present in line 2-3 only",
+      "C": "Line charging capacitor of finite value is present in line 2-3 only and shunt capacitor of finite value is present in bus 1 only",
+      "D": "Line charging capacitor of finite value is present in line 2-3 only and shunt capacitor of finite value is present in bus 3 only"
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 The value of parameters of the circuit shown in the figure are [latex]\n\\mathrm{R}_{1}=2 \\Omega, \\mathrm{R}_{2}=2 \\Omega, \\mathrm{R}_{3}=3 \\Omega, \\mathrm{L}=10 \\mathrm{mH}, \\mathrm{C}=100 \\mu \\mathrm{F}\n[/latex] For time [latex]t \\lt 0[/latex], the circuit is at steady state with the switch '[latex]K[/latex]' in closed condition. If the switch is opened at [latex]t=0[/latex], the value of the voltage across the inductor [latex]\\left(\\mathrm{V}_{\\mathrm{L}}\\right)[/latex] at [latex]t=0^{+}[/latex]in  Volts is _____ (Round off to 1 decimal place).",
+    "solution": "Case (i) [latex]\\mathbf{t} \\lt 1[/latex] At steady state, capacitor behaves as open circuit and inductor behaves as short circuit. Redraw the circuit: Using current division, [latex]\n\\begin{aligned}\n\\mathrm{i}_{\\mathrm{L}}\\left(0^{-}\\right) & =\\frac{3}{3+2} \\times 10=6 \\mathrm{~A} \\\\\n\\therefore \\quad \\mathrm{V}_{\\mathrm{C}}\\left(0^{-}\\right) & =5 \\times 2=12 \\mathrm{~V}\n\\end{aligned}\n[/latex] Case (ii) [latex]\\mathbf{t} \\gt 0[/latex] : Switch is opened. [latex]\\because \\quad \\mathrm{V}_{\\mathrm{C}}\\left(0^{-}\\right)=\\mathrm{V}_{\\mathrm{C}}\\left(0^{+}\\right)=12 \\mathrm{~V}[/latex] and [latex]\\quad \\mathrm{i}_{\\mathrm{L}}\\left(0^{-}\\right)=\\mathrm{i}_{\\mathrm{L}}\\left(0^{+}\\right)=6 \\mathrm{~A}[/latex] Redraw the circuit [latex]\\mathrm{t}=0^{+}[/latex]: Apply KVL in loop, [latex]\n\\begin{array}{rlrl}\n12+8-12-\\mathrm{V}_{\\mathrm{L}} & =0 \\\\\n\\Rightarrow & \\mathrm{V}_{\\mathrm{L}} & =8 \\mathrm{~V}\n\\end{array}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page4_q4.webp",
+    "min": 7.9,
+    "max": 8.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 A separately excited DC motor rated [latex]400 \\mathrm{~V}, 15A, 1500 RPM[/latex]  drives a constant torque load at rated speed operating from [latex]400 \\mathrm{~V}[/latex] DC supply drawing rated current. The armature resistance is [latex]1.2 \\Omega[/latex]. If the supply voltage drops by [latex]10 \\%[/latex] with field current unaltered then the resultant speed of the motor in RPM is ___ (Round off to the nearest integer).",
+    "solution": "Seperately excited motor : Back emf, [latex]\\mathrm{E}_{\\mathrm{b}_{1}}=400-15 \\times 1.2=382 \\mathrm{~V}[/latex] Given: [latex]\\quad \\tau=[/latex] constant [latex]\\because \\quad \\tau \\propto \\phi I_{a}[/latex] where [latex]\\phi \\rightarrow[/latex] constant [latex]\\therefore \\mathrm{I}_{\\mathrm{a}} \\rightarrow[/latex] consant If supply voltage is drops by [latex]10 \\%[/latex], then new value of supply voltage [latex]=0.9 \\times 400=360 \\mathrm{~V}[/latex] Now, back emf, [latex]\\mathrm{E}_{\\mathrm{b}_{2}}=360-15 \\times 1.2=342 \\mathrm{~V}[/latex] We have, [latex]\n\\begin{aligned}\n\\mathrm{E}_{\\mathrm{b}} & =\\phi \\omega_{\\mathrm{m}} \\\\\n\\therefore \\quad \\frac{\\mathrm{E}_{\\mathrm{b}_{2}}}{\\mathrm{E}_{\\mathrm{b}_{1}}} & =\\frac{\\mathrm{N}_{2}}{\\mathrm{~N}_{1}} \\\\\n\\Rightarrow \\quad \\frac{342}{382} & =\\frac{\\mathrm{N}_{2}}{1500} \\\\\n\\Rightarrow \\quad \\mathrm{N}_{2} & =342.93 \\mathrm{rpm} \\\\ &\\approx 1343 \\mathrm{rpm}\n\\end{aligned}\n[/latex]",
+    "min": 1340.0,
+    "max": 1345.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 For the signals [latex]x(t)[/latex] and [latex]y(t)[/latex] shown in the figure, [latex]z(t)=x(t) * y(t)[/latex] is maximum at [latex]t=T_{1}[/latex]. Then [latex]T_{1}[/latex] in seconds is (Round off to the nearest integer).",
+    "solution": "Using convotution property [latex]\r\n\\begin{aligned}\r\nz(t) & =x(t) * y(t) \\\\\r\n& =\\int_{-\\infty}^{\\infty} \\mathrm{y}(\\tau) \\mathrm{x}(\\mathrm{t}-\\tau) \\mathrm{d} \\tau\r\n\\end{aligned}\r\n[/latex] For max. overlap [latex]\\begin{aligned}\r\n\\therefore  \\quad -1+t&=3\\\\\r\n\\Rightarrow \\quad t&=4 sec \\\\\r\nor, \\quad \\quad T_1&=4 sec\r\n\\end{aligned}\r\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page5_q1.webp",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 For the circuit shown in the figure, [latex]\\mathrm{V}_{1}=8 \\mathrm{~V},[/latex]  DC and [latex]I_{1}=8 A[/latex], DC. The voltage [latex]V_{a b}[/latex] in  Volts is ___ (Round off to 1 decimal place).",
+    "solution": "Reraw the circuit: Now, using voltage division, [latex]\n\\mathrm{V}_{\\mathrm{ab}}=\\frac{1.5 \\times 8}{1.5+0.5}=6 \\mathrm{~V}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page5_q2.webp",
+    "min": 5.9,
+    "max": 6.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 A [latex]50 \\mathrm{~Hz}, 275 \\mathrm{kV}[/latex] line of length [latex]400 \\mathrm{~km}[/latex] has the following parameters: Resistance, [latex]R=0.035 \\Omega / \\mathrm{km}[/latex]; Inductance, [latex]\\mathrm{L}=1 \\mathrm{mH} / \\mathrm{km}[/latex]; Capacitance, [latex]\\mathrm{C}=0.01 \\mu \\mathrm{F} / \\mathrm{km}[/latex]; The line is represented by the nominal [latex]-\\pi[/latex] model. With the magnitudes of the sending end and the receiving end voltages of the line (denoted by [latex]V_{S}[/latex] and [latex]V_{R}[/latex], respectively) maintained at 275 [latex]\\mathrm{kV}[/latex], the phase angle difference [latex](\\theta)[/latex] between [latex]V_{S}[/latex] and [latex]V_{R}[/latex] required for maximum possible active power to be delivered to the receiving end, in degree is ____ (Round off to 2 decimal places).",
+    "solution": "We have, [latex]\\mathrm{P}_{\\mathrm{R}}=\\frac{\\mathrm{V}_{\\mathrm{S}} \\mathrm{V}_{\\mathrm{R}}}{\\mathrm{B}} \\cos (\\beta-\\delta)-\\frac{\\mathrm{AV}_{\\mathrm{R}}^{2}}{\\mathrm{~B}} \\cos (\\beta-\\alpha)[/latex] At max. power, [latex]\n\\delta=\\beta\n[/latex] where, [latex]\\beta=[/latex] angle of T-parameter of [latex]B[/latex]. [latex]\\pi[/latex]-Model : [latex][T]=\\begin{bmatrix}\n1+\\frac{yz}{2} &z  \\\\ \n y\\left ( 1+ \\frac{yz}{4}\\right )& 1+ \\frac{yz}{2}\\\\ \n\\end{bmatrix}=\\begin{bmatrix}\nA & B\\\\ \n C&D \n\\end{bmatrix} [/latex] [latex]\\therefore  \\quad B=z [/latex] [latex]=(0.035 \\times 400)+j(2 \\pi \\times 50 \\times 10^{-3} \\times 400) = 126.44\\angle 83.643^{\\circ}\\Omega  [/latex]",
+    "min": 83.0,
+    "max": 84.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 In the following differential equation, the numerically obtained value of [latex]y(t)[/latex], at [latex]t=1[/latex], is ___ (Round off to 2 decimal places). [latex]\r\n\\frac{d y}{d t}=\\frac{e^{-\\alpha t}}{2+\\alpha \\mathrm{t}}, \\alpha=0.01 \\text { and } y(0)=0\r\n[/latex]",
+    "solution": "Given : [latex]\n\\frac{d y}{d t}=\\frac{e^{-\\alpha t}}{2+\\alpha t}\n[/latex] [latex]\\alpha=0.01[/latex] and [latex]y(0)=0[/latex] [latex]\n\\begin{aligned}\n\\left.\\frac{d^{2} y}{d t^{2}}\\right|_{\\mathrm{t}=0} & =y^{\\prime \\prime}(0) \\\\\n& =-\\frac{\\alpha e^{-\\alpha t}}{2+\\alpha \\mathrm{T}}-\\left.\\frac{\\alpha e^{-\\alpha t}}{(2+\\alpha \\mathrm{t})^{2}}\\right|_{\\mathrm{t}=0} \\\\\n& =-\\frac{\\alpha}{2}-\\frac{\\alpha}{4}=-\\frac{3 \\alpha}{4}\n\\end{aligned}\n[/latex] We know, Taylor's series [latex]\n\\begin{aligned}\ny(t) & =y(0)+y^{\\prime}(0)+\\frac{t^{2} y^{\\prime \\prime}(0)}{2 !}+\\ldots \\\\\n& =0+t\\left(\\frac{1}{2}\\right)+\\frac{t^{2}}{2}\\left(-\\frac{3 \\alpha}{4}\\right) \\\\\n& =\\frac{t}{2}-\\frac{3}{8} \\alpha t^{2}\n\\end{aligned}\n[/latex] At [latex]\\mathrm{t}=1[/latex] [latex]\n\\begin{aligned}\ny(1) & =\\frac{1}{2}-\\frac{3}{8}(0.01) \\times 1^{2} \\\\\n& =0.5-\\frac{3}{8} \\times 0.01 \\\\ \n& =0.496 \\approx 0.5\n\\end{aligned}\n[/latex]",
+    "min": 0.48,
+    "max": 0.52
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 Three points in the [latex]x-y[/latex] plane are [latex](-1,0.8)[/latex] [latex](0,2.2)[/latex] and [latex](1,2.8)[/latex]. The value of the slope of the best fit straight line in the least square sense is ___  (Round off to 2 decimal places).",
+    "solution": "Straight line equation, [latex]y=a x+b[/latex] [Let] where, [latex]a=[/latex] slope By lest approximation, [latex]\n\\sum \\mathrm{y}_{i}=a \\sum \\mathrm{x}_{\\mathrm{i}}+\\mathrm{bn}\n[/latex] and [latex]\\quad \\sum x_{i} y_{i}=a \\sum x_{1}^{2}+b \\sum x_{i}[/latex] [latex]\n\\begin{array}{|c|c|c|c|}\n\\hline\nx & y & x^{2} & xy \\\\\n\\hline\n-1 & 0.8 & 1 & -0.8 \\\\\n0 & 2.2 & 0 & 0 \\\\\n1 & 2.8 & 1 & 2.8 \\\\\n\\hline\n\\sum x=0 & \\sum y=5.8 &\\sum x^{2}=2 & \\sum x y=2 \\\\\n\\hline\n\\end{array}\n[/latex] From eqn. (1), we get [latex]\n\\begin{aligned}\n5.8 & =a(0)+3 b \\Rightarrow 5.8=3 b \\\\\n2 & =a(2)+b(0) \\\\\n\\Rightarrow \\quad a & =1\n\\end{aligned}\n[/latex]",
+    "min": 0.9,
+    "max": 1.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 The magnitude and phase plots of an LTI system are shown in the figure. The transfer function of the system is",
+    "solution": "Transfer function of transportation lag system, [latex]\r\n\\mathrm{T}(\\mathrm{s})=\\mathrm{Ke}^{-\\mathrm{ST} T_{\\mathrm{d}}}\r\n[/latex] From magnitude plot, [latex]\r\n\\begin{aligned}\r\n& 20 \\log \\mathrm{K}=8 \\\\\r\n& \\Rightarrow \\quad \\mathrm{K}=2.51\r\n\\end{aligned}\r\n[/latex] From angle plot, at [latex]\\omega=1 \\mathrm{rad} / \\mathrm{sec} ., \\theta=-60^{\\circ}[/latex] We have, [latex]\r\n\\begin{aligned}\r\n\\theta & =-\\omega \\mathrm{T}_{\\mathrm{d}} \\times \\frac{180^{\\circ}}{\\pi} \\\\\r\n-60^{\\circ} & =-1 \\times \\mathrm{T}_{\\mathrm{d}} \\times \\frac{180^{\\circ}}{\\pi} \\\\\r\n\\Rightarrow \\quad \\mathrm{T}_{\\mathrm{d}} & =\\frac{\\pi}{3}=1.047 \\\\\r\n\\therefore \\quad \\mathrm{T}(\\mathrm{s}) & =2.51 \\mathrm{e}^{-1.047\\mathrm{~s}}\r\n\\end{aligned}\r\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page6_q1.webp",
+    "options": {
+      "A": "[latex]2.51 \\mathrm{e}^{-0.032 \\mathrm{~s}}[/latex]",
+      "B": "[latex]\\frac{\\mathrm{e}^{-2.514 \\mathrm{~s}}}{\\mathrm{~s}+1}[/latex]",
+      "C": "[latex]1.04 \\mathrm{e}^{-2.514 \\mathrm{~s}}[/latex]",
+      "D": "[latex]2.51 e^{-1.047\\mathrm{~s}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 Consider the OP AMP based circuit shown in the figure. Ignore the conduction drops of diodes [latex]D_{1}[/latex] and [latex]D_{2}[/latex]. All the components are ideal and the breakdown voltage of the Zener is [latex]5 \\mathrm{~V}[/latex]. Which of the following statements is true?",
+    "solution": "During positive hall cycle: [latex]\\therefore \\mathrm{D}_{1} \\rightarrow \\mathrm{ON}[/latex] and [latex]\\mathrm{D}_{2} \\rightarrow \\mathrm{OFF}[/latex] Redraw the circuit : [latex]\\therefore V_0=-V_i[/latex] [latex]\\quad (V_0)_{min}=-10V[/latex] During negative half cycle : [latex]\n\\mathrm{V}^{+} \\gt \\mathrm{V}^{-}\n[/latex] Zener diode [latex]\\rightarrow[/latex] ON, [latex]\\mathrm{D}_{1} \\rightarrow[/latex] OFF and [latex]\\mathrm{D}_{2} \\rightarrow \\mathrm{ON}[/latex] Redraw the circuit: [latex]\\therefore \\quad (V_0)_{max}=5V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page6_q2.webp",
+    "options": {
+      "A": "The maximum and minimum values of the output voltage [latex]\\mathrm{V}_{0}[/latex] are [latex]+15 \\mathrm{~V}[/latex] and [latex]-10 \\mathrm{~V}[/latex], respectively.",
+      "B": "The maximum and minimum values of the output voltage [latex]\\mathrm{V}_{0}[/latex] are [latex]+5 \\mathrm{~V}[/latex] and [latex]-15 \\mathrm{~V}[/latex], respectively.",
+      "C": "The maximum and minimum values of the output voltage [latex]\\mathrm{V}_{0}[/latex] are [latex]+10 \\mathrm{~V}[/latex] and [latex]-5 \\mathrm{~V}[/latex], respectively.",
+      "D": "The maximum and minimum values of the output voltage [latex]\\mathrm{V}_{0}[/latex] are [latex]+5 \\mathrm{~V}[/latex] and -10V, respectively"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Consider a lead compensator of the form [latex]\nK(s)=\\frac{1+\\frac{s}{a}}{1+\\frac{s}{\\beta a}}, \\quad \\beta \\gt 1, a \\gt 0\n[/latex] The frequency at which this compensator produces maximum phase lead is [latex]4 \\mathrm{rad} / \\mathrm{s}[/latex]. At this frequency, the gain amplification provided by the controller, assuming asymptotic Bodemagnitude plot of [latex]K(\\mathrm{~s})[/latex], is [latex]6 \\mathrm{~dB}[/latex]. The values of [latex]\\alpha, \\beta[/latex], respectively, are",
+    "solution": "[latex]\nK(s)=\\frac{1+\\frac{s}{a}}{1+\\frac{s}{\\beta}}\n[/latex] Max. phase lead occur at, [latex]\\omega_{m}=\\sqrt{a(a \\beta)}[/latex]\n\n[latex]\n=\\sqrt{\\beta}\n[/latex] Given : [latex]\\quad \\omega_{\\mathrm{m}}=4 \\mathrm{rad} / \\mathrm{sec}[/latex] [latex] \na \\sqrt{\\beta}=4   \\quad ...(1)\n[/latex] Now, [latex]\\quad K(s)=\\frac{1+\\frac{s}{a}}{1+\\frac{s}{\\beta a}}[/latex] Put, [latex]s=j \\omega[/latex] [latex]\n\\mathrm{K}\\left(\\mathrm{j} \\omega_{\\mathrm{n}}\\right)=\\frac{1+\\frac{\\mathrm{j} \\omega_{m}}{a}}{1+\\frac{j \\omega_{m}}{\\beta a}}=\\frac{j w_{m}}{a}\n[/latex] Given : [latex]M=6[/latex] [latex]\n\\begin{aligned}\n20 \\log \\left(\\frac{4}{a}\\right) & =6 \\\\\n\\Rightarrow \\quad a & =2\n\\end{aligned}\n[/latex] From eqn. (1), we get [latex]\n\\begin{aligned}\n2 \\sqrt{\\beta} & =4 \\\\\n\\beta & =4\n\\end{aligned}\n[/latex]",
+    "options": {
+      "A": "1, 16",
+      "B": "2, 4",
+      "C": "3, 5",
+      "D": "2.66, 2.25"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 A 3-phase, star-connected, balanced load is supplied from a 3-phase, 400V (rms), balanced voltage source with phase sequence [latex]R-Y-B[/latex], as shown in the figure. If the wattmeter reading is [latex]-400 \\mathrm{~W}[/latex] and the line current is [latex]\\mathrm{I}_{\\mathrm{R}}=2 \\mathrm{~A}(\\mathrm{rms})[/latex], then the power factor of the load per phase is",
+    "solution": "By observation of wattmeter connection, the wattmeter read reactive power [latex]\\because[/latex] Wattmeter reading, [latex]W=Y_{Y B} I_{R}[/latex] (Angle between [latex]V_{Y B}[/latex] and [latex]I_{R}[/latex]. Phasor diagram : [latex]\\therefore \\quad W=V_{\\mathrm{L}} \\mathrm{I}_{\\mathrm{L}} \\cos \\left(90^{\\circ}-\\beta\\right)[/latex] [latex]=V_{L} I_{L} \\sin \\phi[/latex] Given: [latex]\\quad W=-400 \\mathrm{~W}[/latex] [latex]\\therefore \\quad-400=400 \\times 2 \\times \\sin \\phi[/latex] [latex]\\Rightarrow \\quad \\phi=-30^{\\circ}[/latex] Thus, P.F. [latex]=\\cos \\phi=0.866[/latex] leading",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page6_q4.webp",
+    "options": {
+      "A": "Unity",
+      "B": "0.5 leading",
+      "C": "0.866 leading",
+      "D": "0.707 lagging"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 An 8-bit ADC converts analog voltage in the range of 0 to [latex]+5 \\mathrm{~V}[/latex] to the corresponding digital code as per the conversion characteristics shown in figure. For [latex]\\mathrm{V}_{\\text {in }}=1,9922 \\mathrm{~V}[/latex], which of the following digital output, given in hex is true?",
+    "solution": "Resolution [latex]=\\frac{V_{F S}}{2^{n}-1}=\\frac{5}{2^{8}-1}=0.0196 \\mathrm{~V}[/latex] Now, No. of step [latex]=\\frac{\\mathrm{V}_{\\text {in }}}{\\text { Resolution }}[/latex]\n\n[latex]\n=\\frac{1.9922}{0.0196}=(101.64)_{10}\n[/latex] For [latex](101)_{10}[/latex] the analog input is less than [latex]1.9922 \\mathrm{~V}[/latex]. So, here we take [latex](102)_{10}[/latex]. [latex]\\therefore \\quad(102)_{10}=66 \\mathrm{H}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page6_q5.webp",
+    "options": {
+      "A": "[latex]64 \\mathrm{H}[/latex]",
+      "B": "[latex]65 \\mathrm{H}[/latex]",
+      "C": "[latex]66 \\mathrm{H}[/latex]",
+      "D": "[latex]67 \\mathrm{H}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 The three-bus power system shown in the figure has one alternator connected to bus 2 which supplies [latex]200 \\mathrm{MW}[/latex] and [latex]40 MVAR[/latex] power. Bus 3 is infinite bus having a voltage of magnitude [latex]\\left|\\mathrm{V}_{3}\\right|=1.0[/latex] p.u. and angle of [latex]-15^{\\circ}[/latex]. A variable current source, [latex]|1| \\angle \\phi[/latex] is connected at bus 1 and controlled such that the magnitude of the bus 1 voltage is maintained at 1.05 p.u. and the phase angle of the source current, [latex]\\phi=\\theta_{1} \\pm \\frac{\\pi}{2}[/latex], where [latex]\\theta_{1}[/latex] is the phase angle of the bus 1 voltage. The three buses can be categorized for load flow analysis as",
+    "solution": "Concept : Classification of Bus system : [latex]\n\\begin{array}{|c|c|c|}\n\\hline \\\\\n\\textbf{Bus Type} & \\textbf{Specified} & \\textbf{Unspecified} \\\\\n&\\textbf{Value}  &\\textbf{Value} \\\\ \n\\hline\n\\text{Slack Bus} & |\\mathrm{V}|, \\delta &\\mathrm{P}, \\mathrm{Q} \\\\\n\\text{PV Bus} &\\mathrm{P},|\\mathrm{V}| & \\mathrm{Q}, \\delta \\\\\n\\text{PQ (load) Bus} & \\mathrm{P}, \\mathrm{Q} & |\\mathrm{V}|, \\delta \\\\\n\\hline\n\\end{array}\n[/latex] Now, from given power system network. Bus-1 [latex]\\Rightarrow[/latex] PV bus Bus-2 [latex]\\Rightarrow \\mathrm{PQ}[/latex] (load) bus Bus-3 [latex]\\Rightarrow[/latex] Slack bus",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page7_q1.webp",
+    "options": {
+      "A": "Bus 1  Slack bus Bus 2  [latex]P-|V|[/latex] bus Bus 3  [latex] P-Q[/latex] bus",
+      "B": "Bus 1  [latex]P-|V|[/latex] bus Bus 2  [latex]P-|V|[/latex] bus Bus 3 Slack bus",
+      "C": "Bus 1 [latex]P-Q[/latex] bus Bus 2 [latex]P-Q[/latex] bus Bus 3 Slack bus",
+      "D": "Bus 1 [latex]P-|V|[/latex] bus Bus 2 [latex]P-Q[/latex] bus Bus 3 Slack bus"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 Consider the following equation in a 2-D realspace. [latex]\\left|x_{1}\\right|^{p}+\\left|x_{2}\\right|^{p}=1[/latex] for [latex]p \\gt 0[/latex] Which of the following statement(s) is/are true.",
+    "solution": "Check option (A), put [latex]P=2[/latex] [latex]\nx_{1}^{2}+x_{2}^{2}=1\n[/latex] Which is equation of circle whose radius is 1 . [latex]\\therefore \\quad[/latex] Area [latex]=\\pi r^{2}=\\pi[/latex] Check option (B), If [latex]x_{2} \\lt 1[/latex] Then, [latex]P \\rightarrow \\infty,\\left|x_{2}\\right|^{P} \\rightarrow 0[/latex] [latex]\\therefore[/latex] For equation [latex]\\left|x_{1}\\right|^{\\mathrm{P}}+\\left|\\mathrm{x}_{2}\\right|^{\\mathrm{P}}=1[/latex] satisfaction, [latex]\n\\mathrm{x}_{1} \\rightarrow 1 \\text { or } \\dot{Y}\n[/latex] Curve : [latex]\\therefore[/latex] Area tends to 4 . Check option (D), Put [latex]P=1[/latex], [latex]\n\\left|x_{1}\\right|+\\left|\\mathrm{x}_{2}\\right|=1\n[/latex] Curve: [latex]\\therefore[/latex] Area of curve (square) [latex]=(\\sqrt{2})^{2}=2[/latex]",
+    "options": {
+      "A": "When [latex]\\mathrm{p}=2[/latex], the area enclosed by the curve is [latex]\\pi[/latex].",
+      "B": "When [latex]p[/latex] tends to [latex]\\infty[/latex], the area enclosed by the curve tends to 4.",
+      "C": "When [latex]p[/latex] tends to 0 , the area enclosed by the curve is 1.",
+      "D": "When [latex]p=1[/latex], the area enclosed by the curve is 2."
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 In the figure, the electric field [latex]E[/latex] and the magnetic field [latex]B[/latex] point to [latex]\\mathrm{x}[/latex] and [latex]\\mathrm{z}[/latex] directions, respectively, and have constant magnitudes. [latex]A[/latex] positive charge '[latex]q[/latex]' is released from rest at the origin. Which of the following statement(s) is/ are true.",
+    "solution": "As per Answer key of IIT Official : MTA (Marks to All) Given :",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page7_q3.webp",
+    "options": {
+      "A": "The charge will move in the direction of [latex]z[/latex] with constant velocity.",
+      "B": "The charge will al ways move on the [latex]y[/latex]-z plane only.",
+      "C": "The trajectory of the charge will be a cycle.",
+      "D": "The charge will progress in the direction of [latex]y[/latex]."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 All the elements in the circuit shown in the following figure are ideal. Which of the following statements is/are true?",
+    "solution": "Case (i): Switch [latex]\\mathrm{S}[/latex] is ON Assume [latex]\\mathrm{D}_{3} \\rightarrow[/latex] OFF, [latex]D_{2} \\rightarrow[/latex] OFF and [latex]\\mathrm{D}_{1} \\rightarrow \\mathrm{ON}[/latex] Redraw the circuit : [latex]\\therefore[/latex] Our assumption is correct. Case (ii) : Switch [latex]\\mathrm{S}[/latex] is OFF. Then, [latex]\\mathrm{D}_{3} \\rightarrow \\mathrm{ON}, \\mathrm{D}_{2} \\rightarrow \\mathrm{ON}[/latex] and [latex]\\mathrm{D}_{1} \\rightarrow \\mathrm{OFF}[/latex] Redraw the circuit : [latex]\\therefore[/latex] Circuit satisfy this condition also. Hence, option (B) and (C) will be correct.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page7_q4.webp",
+    "options": {
+      "A": "When switch [latex]S[/latex] is [latex]O N[/latex], both [latex]D_{1}[/latex] and [latex]D_{2}[/latex] conducts and [latex]D_{3}[/latex] is reverse biased",
+      "B": "When switch [latex]\\mathrm{S}[/latex] is ON, [latex]\\mathrm{D}_{1}[/latex] conducts and both [latex]D_{2}[/latex] and [latex]D_{3}[/latex] are reverse biased",
+      "C": "When switch [latex]S[/latex] is OF [latex]F, D_{1}[/latex] is reverse biased and both [latex]D_{2}[/latex] and [latex]D_{3}[/latex] conduct",
+      "D": "When switch [latex]S[/latex] is OFF, [latex]D_{1}[/latex] conducts, [latex]D_{2}[/latex] is reverse biased and [latex]D_{3}[/latex] conducts"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 The expected number of trials for first occurrence of a \"head\" in a biased coin is known to be 4. The probability of first occurrence of a \"head\" in the second trial is  ___ (Round off to 3 decimal places).",
+    "solution": "Let probability of head [latex]=\\mathrm{P}[/latex] Let probability of Tail [latex]=q=P-1[/latex] [latex]\n\\begin{array}{|c|c|c|c|c|}\n\\hline\nTrial & 1 & 2 & 3 & ... \\\\\n\\hline\nProbability & [\\mathrm{P} & \\mathrm{qP} & [latex]\\mathrm{q}^{2} \\mathrm{P} & .... \\\\\n\\hline\n\\end{array}\n[/latex] [latex]\\therefore[/latex] Expected No. of trail [latex]\n\\begin{aligned}\n& =\\sum_{n=1}^{\\infty} p+2 P q+3 q^{2} P+\\ldots \\\\\n& =P\\left(1+2 q+3 q^{2}+\\ldots\\right) \\\\\n& =P(1-q)^{-2} \\\\\n& =\\frac{P}{P^{2}}=\\frac{1}{P}\n\\end{aligned}\n[/latex] Given : Trial [latex]=4[/latex] [latex]\n\\frac{1}{P}=4 \\Rightarrow P=\\frac{1}{4}\n[/latex] [latex]\\therefore \\quad \\mathrm{q}=\\frac{3}{4}[/latex] Now, probability of head for second trail.\n\n[latex]\n\\begin{aligned}\n& =\\mathrm{qP} \\\\\n& =\\frac{3}{4} \\times \\frac{1}{4}=\\frac{3}{16}=0.1875\n\\end{aligned}\n[/latex]",
+    "min": 0.187,
+    "max": 0.188
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 Consider the state-space description of an LTI system with matrices [latex]A=\\left[\\begin{array}{cc}0 & 1 \\\\ -1 & -2\\end{array}\\right], B=\\left[\\begin{array}{l}0 \\\\ 1\\end{array}\\right], C=[3-2], D=1[/latex] For the input, [latex]\\sin (\\omega t), \\omega \\gt 0[/latex], the value of [latex]\\omega[/latex] for which the steady-state output of the system will be zero, is ___ (Round off to the nearest integer).",
+    "solution": "We have, transfer function [latex]\n\\mathrm{T}(\\mathrm{s})=\\mathrm{C}[\\mathrm{SI}-\\mathrm{A}]^{-1} \\mathrm{~B}+\\mathrm{D} \\quad (1)\n[/latex] where, [latex][S I-A]=\\left[\\begin{array}{ll}S & 0 \\\\ 0 & S\\end{array}\\right]-\\left[\\begin{array}{cc}0 & 1 \\\\ -1 & -2\\end{array}\\right][/latex] [latex]\n\\begin{aligned}\n& =\\left[\\begin{array}{cc}\n\\mathrm{s} & -1 \\\\\n1 & \\mathrm{~s}+2\n\\end{array}\\right] \\\\\n\\therefore \\quad[\\mathrm{sl}-\\mathrm{A}]^{-1} & =\\frac{1}{\\mathrm{~s}^{2}+2 \\mathrm{~s}+1}\\left[\\begin{array}{cc}\n\\mathrm{s}+2 & 1 \\\\\n-1 & \\mathrm{~s}\n\\end{array}\\right]\n\\end{aligned}\n[/latex] From eqn. (1), we get [latex]\n\\begin{aligned}\n\\mathrm{T}(\\mathrm{s})&=\\left[\\begin{array}{ll}\n3 & -2\n\\end{array}\\right]\\left[\\begin{array}{cc}\n\\frac{\\mathrm{s}+2}{(\\mathrm{~s}+1)^{2}} & \\frac{1}{(s+1)^{2}} \\\\\n-\\frac{1}{(s+1)^{2}} & \\frac{s}{(s+1)^{2}}\n\\end{array}\\right]\\left[\\begin{array}{l}\n0 \\\\\n1\n\\end{array}\\right]+1 \\\\ \n&=\\left[\\begin{array}{ll}\n3 & -2\n\\end{array}\\right]\\left[\\begin{array}{c}\n\\frac{1}{(s+1)^{2}} \\\\\n\\frac{s}{(s+1)^{2}}\n\\end{array}\\right]+1 \\\\\n&=\\frac{3}{(s+1)^{2}}-\\frac{2 s}{(s+1)}+1 \\\\\n&=\\frac{3-2 s+s^{2}+2 s+1}{s^{2}+2 s+1} \\\\\n&=\\frac{s^{2}+4}{s^{2}+2 s+1}\n\\end{aligned}\n[/latex] Put, [latex]s=j \\omega[/latex], [latex]\nT(j \\omega)=\\frac{-\\omega^{2}+4}{-\\omega^{2}+\\mathrm{j} 2 \\omega+1}\n[/latex] Now, condition for output is zero, [latex]\n\\begin{aligned}\n-\\omega^{2}+4 & =0 \\\\\n\\Rightarrow \\quad \\omega & =2 \\mathrm{rad} / \\mathrm{sec} .\n\\end{aligned}\n[/latex]",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 A three-phase synchronous motor with synchronous impedance of [latex]0.1+j0.3 [/latex]  per unit per phase has a static stability limit of 2.5 per unit. The corresponding excitation voltage in per unit is ____ (Round off to 2 decimal places).",
+    "solution": "Developed power for motor, [latex]\nP_{d e v}=\\frac{V_{f}}{Z_{s}} \\cos \\left(\\theta_{s}-\\delta\\right)-\\frac{E_{F}^{2}}{2} \\cos \\theta_{s}\n[/latex] At max. power developed, [latex]\n\\delta=\\theta_{\\mathrm{S}}\n[/latex] and this is decide steady state stability of motor. [latex]\\therefore \\mathrm{SSSL}, \\mathrm{P}_{\\text {dev }(max)}=\\frac{V E_{F}}{\\mathrm{Z}_{\\mathrm{S}}}-\\frac{\\mathrm{E}_{\\mathrm{F}}^{2}}{\\mathrm{Z}_{\\mathrm{S}}} \\cos \\theta_{\\mathrm{s}}[/latex] where, [latex]V=1.0 \\mathrm{pu}[/latex] [latex]\n\\mathrm{Z}_{\\mathrm{S}}=0.1+\\mathrm{j} 0.3=0.316 \\angle 71.6^{\\circ} \\mathrm{pu}\n[/latex] and [latex]\\mathrm{SSSL}=2.5[/latex] [latex]\\therefore \\quad 2.5=\\frac{1 \\times E_{F}}{0.316}-\\frac{E_{F}^{2}}{0.316} \\cos 71.56^{\\circ}[/latex] [latex]1.001 \\mathrm{E}_{F}^{2}-3.16 \\mathrm{E}_{F}+2.5=0[/latex] [latex]\\Rightarrow \\quad \\mathrm{E}_{\\mathrm{F}}=1.595 \\mathrm{pu}[/latex]",
+    "min": 1.58,
+    "max": 1.59
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 A three phase [latex]415 \\mathrm{~V}, 50 \\mathrm{~Hz}, 6-pole, 960 RPM, 4 HP[/latex] squirrel cage induction motor drives a constant torque load at rated speed operating from rated supply and delivering rated output. If the supply voltage and frequency are reduced by [latex]20 \\%[/latex] the resultant speed of the motor in RPM (neglecting the stator leakage impednace and rotational losses) is ____ (Round off to the nearest integer)",
+    "solution": "Given : Torque is constant. We have, [latex]\\quad \\tau \\propto \\frac{s V^{2}}{f}  \\quad ...(1)[/latex] Synchronous speed, [latex]N_{S}=\\frac{120 f}{P}[/latex] [latex]\n=\\frac{120 \\times 50}{6}=1000 \\mathrm{rpm}\n[/latex] [latex]\n\\text { Slip, } S=\\frac{1000-960}{1000}=0.04\n[/latex] Now, from eqn. (1), we get [latex]\n\\begin{aligned}\n\\frac{0.04 \\times \\mathrm{V}^{2}}{\\mathrm{~F}} & =\\frac{\\mathrm{S}_{\\text {new }} \\times(0.8)^{2} \\mathrm{~V}}{0.8 \\mathrm{~F}} \\\\\n\\Rightarrow \\quad \\mathrm{S}_{\\text {new }} & =0.05\n\\end{aligned}\n[/latex] Synchronous speed at reduced frequency i.e. [latex]50 \\times 0.8=40 \\mathrm{~Hz}[/latex]. [latex]\n\\mathrm{N}_{\\mathrm{s}(\\mathrm{new})}=\\frac{120 \\times 40}{6}=800 \\mathrm{rpm}\n[/latex] [latex]\\therefore[/latex] Motor speed, [latex]\n\\begin{aligned}\n\\mathrm{N}&=\\left(1-\\mathrm{S}_{\\text {new }}\\right) \\mathrm{N}_{\\mathrm{s} \\text { (new) }}\n& =(1-0.05) \\times 800 \\\\\n& =760 \\mathrm{rpm}\n\\end{aligned}\n[/latex]",
+    "min": 760.0,
+    "max": 760.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 The period of the discrete-time signal [latex]x[n][/latex] described by the equation below is [latex]N=[/latex] ___ (Round off to the nearest integer). [latex]\nx[n]=1+3 \\sin \\left(\\frac{15 \\pi}{8} n+\\frac{3 \\pi}{4}\\right)-5 \\sin \\left(\\frac{\\pi}{3} n-\\frac{\\pi}{4}\\right)\n[/latex]",
+    "solution": "Given : [latex]\r\nx[n]=1+3 \\sin \\left(\\frac{15 \\pi}{8} n+\\frac{3 \\pi}{4}\\right)-5 \\sin \\left(\\frac{\\pi}{3} n-\\frac{\\pi}{4}\\right)\r\n[/latex] [latex]\r\n\\begin{aligned}\r\n \\omega_{1}&=\\frac{15 \\pi}{8} \\\\\r\n \\therefore \\quad \\mathrm{N}_{1}&=\\frac{2 \\pi}{\\omega_{1}} \\mathrm{~K}-=\\frac{2 \\pi}{15 \\pi} \\times 8 \\times \\mathrm{K}=16 \\\\\r\n \\text { and } \\quad \\mathrm{N}_{2}&=\\frac{2 \\pi}{\\omega_{2}} \\mathrm{~K}=\\frac{2 \\pi}{\\pi} \\times 3 \\times \\mathrm{K}=6 \\\\\r\n \\therefore \\quad \\text { Period }&=\\operatorname{LCM}\\left(\\mathrm{N}_{1}, \\mathrm{~N}_{2}\\right) \\\\\r\n &=\\operatorname{LCM}(16,6) \\\\\r\n &=48\r\n\\end{aligned}\r\n[/latex]",
+    "min": 48.0,
+    "max": 48.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 The discrete-time Fourier transform of a signal [latex]x[n][/latex] is [latex]X(\\Omega)=1(1+\\cos \\Omega) e^{-j \\Omega}[/latex]. Consider that [latex]x_{p}[n][/latex] is a periodic signal of period [latex]N=5[/latex] such that [latex]\n\\begin{aligned}\nx_{p}[n] & =x[n], \\text { for } n=0,1,2 \\\\\n& =0, \\text { for } n=3,4\n\\end{aligned}\n[/latex] Note that [latex]x_{p}[n]=\\sum_{k=0}^{N-1} a_{k} e^{j \\frac{2 \\pi}{N} k m}[/latex]. The magnitude of the Fourier series coefficient [latex]a_{3}[/latex] is ____ (Round off to 3 decimal places).",
+    "solution": "Given : [latex]x_{p}(n)[/latex] is a period signal of period [latex]N=5[/latex]. [latex]\nx_{p}(n)=\\left\\{\\begin{array}{cc}\nx(n), & \\text { for } n=0,1,2 \\\\\n0, & \\text { for } n=3,4\n\\end{array}\\right.\n[/latex] and [latex]\\mathrm{x}(\\mathrm{n}) \\stackrel{\\text { DTFT }}{\\longrightarrow} \\mathrm{X}(\\Omega)=(1+\\cos \\Omega) \\mathrm{e}^{-\\mathrm{j} \\Omega}[/latex] We have, [latex]\n\\begin{aligned}\na_{K} & =\\frac{X\\left(\\frac{2 \\pi}{N} K\\right)}{N} \\\\\n& =\\frac{\\left[1+\\cos \\left(\\frac{2 \\pi}{N} K\\right)\\right] \\mathrm{e}^{-\\mathrm{j} \\frac{2 \\pi}{N} R}}{N}\n\\end{aligned}\n[/latex] For, [latex]\\mathrm{N}=5[/latex] and [latex]\\mathrm{K}=3[/latex] [latex]\n\\begin{aligned}\na_{3} & =\\frac{\\left[1+\\cos \\left(\\frac{2 \\pi \\times 3}{5}\\right)\\right] \\mathrm{e}^{-\\mathrm{j} \\frac{2 \\pi}{5} \\times 3}}{5} \\\\\n\\left|a_{3}\\right| & =\\frac{1}{5}\\left[1+\\cos \\frac{6 \\pi}{5}\\right] \\\\\n& =0.0382\n\\end{aligned}\n[/latex]",
+    "min": 0.037,
+    "max": 0.039
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 For the circuit shown, if [latex]\\mathrm{i}=\\sin 1000 t[/latex], the instantaneous value of the Thevenin's equivalent voltage (in Volts) across the terminals a-b at time [latex]\\mathrm{t}=5 \\mathrm{~ms}[/latex] is ___ (Round off to 2 decimal places).",
+    "solution": "By source transformation, the circuit become Apply KVL in loop, [latex]\n\\begin{aligned}\n& (10+j 1)+4 i_{x}-(10+j 10+10-j 10) i_{x}=0 \\\\\n& 10+\\mathrm{j} 10+4 \\mathrm{i}_{x}-20 \\mathrm{i}_{x}=0 \\\\\n& \\Rightarrow \\quad \\mathrm{i}_{\\mathrm{x}}=0.884 \\angle 45^{\\circ} \\mathrm{A} \\\\\n& \\text { Now, } \\quad \\mathrm{V}_{\\text {Th }}=\\mathrm{i}_{x}(10-\\mathrm{j10}) \\\\\n& =0.884 \\angle 45^{\\circ} \\times 14.142 \\angle-45^{\\circ} \\\\\n& =12.5 \\angle 0^{\\circ} \\mathrm{V} \\\\\n& \\therefore \\quad \\mathrm{V}_{\\text {Th }}=12.5 \\sin 1000 \\mathrm{t} \\\\\n& \\text { At } \\quad \\mathrm{t}=5 \\mathrm{msec} \\\\\n& \\mathrm{V}_{\\text {Th }}=12.5 \\times \\sin \\left(\\frac{5 \\times 180^{\\circ}}{\\pi}\\right) \\\\\n& =-11.986 \\mathrm{~V}\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page9_q1.webp",
+    "min": -12.1,
+    "max": -11.9
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 The admittance parameters of the passive resistive two-port network shown in the figure are [latex]\\mathrm{y}_{11}=5 \\mathrm{~S}, \\mathrm{y}_{22}=1 \\mathrm{~S}, \\mathrm{y}_{12}=\\mathrm{y}_{21}=-2.5 \\mathrm{~S}[/latex] The power delivered to the load resistor [latex]R_{L}[/latex] in Watt is ____ (Round off to 2 decimal places).",
+    "solution": "[latex]Y =[Y]_{A}+[Y]_{B} [/latex] [latex]\n\\begin{aligned}\nY_{A} & =\\left[\\begin{array}{cc}\n\\frac{1}{3} & -\\frac{1}{3} \\\\\n-\\frac{1}{3} & \\frac{1}{3}\n\\end{array}\\right] \\\\\nY_{B} & =\\left[\\begin{array}{cc}\n5 & -2.5 \\\\\n-2.5 & 1\n\\end{array}\\right] s \\\\\nY & =\\left[\\begin{array}{cc}\n\\frac{1}{3} & -\\frac{1}{3} \\\\\n-\\frac{1}{3} & \\frac{1}{3}\n\\end{array}\\right]+\\left[\\begin{array}{cc}\n5 \\\\\n-2.5 & 1\n\\end{array}\\right] \\\\\n& =\\left[\\begin{array}{cc}\n\\frac{16}{3} & -\\frac{8.5}{3} \\\\\n-\\frac{8.5}{3} & \\frac{4}{3}\n\\end{array}\\right] \\\\\nI_{1} & =\\frac{16}{3} V_{1}-\\frac{8.5}{3} V_{2} \\\\\nI_{2} & =-\\frac{8.5}{3} V_{1}+\\frac{4}{3} V_{2}\n\\end{aligned}\n[/latex] Put [latex]I_{2}=0[/latex] and [latex]V_{1}=20 \\mathrm{~V}[/latex] [latex]\n0=-\\frac{8.5}{3} \\times 20+\\frac{4}{3} V_{2}\n[/latex]\n\n[latex]\n\\begin{aligned}\nV_{\\text {th }} & =V_{2}=\\frac{8.5 \\times 20}{4}=42.5 \\mathrm{~V} \\\\\nR_{\\mathrm{th}} & =\\frac{V_{2}}{I_{2}} \\\\\nI_{2} & =\\frac{4}{3} V_{2} \\\\\n\\frac{V_{2}}{I_{2}} & =\\frac{3}{4} \\Omega\n\\end{aligned}\n[/latex] Equivalent circuit [latex]\nI=\\frac{42.5}{\\frac{3}{4}+6}=6.296 \\mathrm{~A}\n[/latex] [latex]\n\\begin{aligned}\nP & =I^{2} R_{L}=(6.296)^{2} \\times 6 \\\\\n& =238 \\mathrm{~W}\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page9_q2.webp",
+    "min": 237.0,
+    "max": 239.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 When the winding [latex]c-d[/latex] of the singlephase, 50 [latex]\\mathrm{Hz}[/latex], two winding transformer is supplied from an AC current source of frequency [latex]50 \\mathrm{~Hz}[/latex], the rated voltage of [latex]200 \\mathrm{~V}[/latex] (rms), [latex]50 \\mathrm{~Hz}[/latex]. is obtained at the open-circuited terminals a-b. The cross sectional area of the core [latex]5000 \\mathrm{~mm}^{2}[/latex] and the average core length traversed by the mutual flux is [latex]500 \\mathrm{~mm}[/latex]. The maximum allowable flux density in the core is [latex]B_{\\max }=1 \\mathrm{~Wb} / \\mathrm{m}^{2}[/latex] and the relative permeability of the core material is [latex]5000[/latex]. The leakage impedance of the winding [latex]a-b[/latex] and winding c-d at [latex]50 \\mathrm{~Hz}[/latex] are [latex](5+j 100 \\pi \\times 0.16) \\Omega[/latex] and [latex](11.5+j 100 \\pi \\times 0.36) \\Omega[/latex], respectively. Considering the magnetizing characteristics to be linear and neglecting core loss, the self-inductance of the winding [latex]a-b[/latex] in millihenry is ____  (Round off to 1 decimal place).",
+    "solution": "[latex]\r\n\\begin{aligned}\r\n\\mathrm{A} & =5000 \\mathrm{~mm}^{2} \\\\\r\n\\mathrm{I} & =500 \\mathrm{~mm} \\\\\r\n\\mathrm{~B}_{\\max } & =1 \\mathrm{~Wb} / \\mathrm{m}^{2} \\\\\r\n\\mathrm{~V}_{\\mathrm{ab}} & =200 \\mathrm{~V} \\\\\r\n\\sqrt{2} \\pi \\mathrm{fN}_{1} \\phi_{\\max } & =200 \\\\\r\n\\sqrt{2 \\pi} \\times 50 \\times \\mathrm{N}_{1} \\times 1 & \\times 5000 \\times 10^{-6}=200 \\quad[\\because \\phi=\\beta \\mathrm{A}] \\\\\r\n\\Rightarrow \\quad \\mathrm{N}_{1} & =181\r\n\\end{aligned}\r\n[/latex] Now, mutual inductance, [latex]\r\n\\begin{aligned}\r\n M&=\\frac{N^{2}}{I / \\mu A} \\\\\r\n& =\\frac{4 \\pi \\times 10^{-7} \\times 5000 \\times 5000 \\times 10^{-6} \\times(181)^{2}}{0.5} \\\\\r\n& =2.05843 \\mathrm{H}\r\n\\end{aligned}\r\n[/latex] Therefore, self inductance of winding. [latex]\r\n\\begin{aligned}\r\nL & =\\text { Mutual + leakage } \\\\\r\n& =2.05843+0.16 \\\\\r\n& =2.21843 \\mathrm{H} \\text { or } 2218.43 \\mathrm{mH}\r\n\\end{aligned}\r\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page9_q3.webp",
+    "min": 2150.0,
+    "max": 2250.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 The circuit shown in the figure is initially in the steady state with the switch [latex]\\mathrm{K}[/latex] in open condition and [latex]\\bar{K}[/latex] in closed condition. The switch [latex]\\mathrm{K}[/latex] is closed and [latex]\\overline{\\mathrm{K}}[/latex] is opened simultaneously at the instant [latex]t=t_{1}[/latex], where [latex]t_{1} \\gt 0[/latex]. The minimum value of [latex]t_{1}[/latex] in milliseconds, such that there is no transient in the voltage across the [latex]100 \\mu \\mathrm{F}[/latex] capacitor, is ___ (Round off to 2 decimal places).",
+    "solution": "Case (i): Switch [latex]K[/latex] is open and [latex]\\bar{K}[/latex] is closed. Redraw the circuit : From circuit, using current division, [latex]\n\\begin{aligned}\n\\mathrm{i}_{\\mathrm{C}} & =\\frac{10}{10-\\mathrm{j} 10} \\times 1 \\angle 0^{\\circ} \\\\\n\\therefore \\quad \\mathrm{V}_{\\mathrm{C}} & =\\frac{10}{10-\\mathrm{j} 10} \\times(-\\mathrm{j} 10)=7.07 \\angle-45^{\\circ} \\mathrm{V} \\\\\n\\therefore \\quad \\mathrm{V}_{\\mathrm{C}}\\left(\\mathrm{t}_{1}\\right) & =7.07 \\sin \\left(1000 \\mathrm{t}-45^{\\circ}\\right) \\mathrm{V}\n\\end{aligned}\n[/latex] Case (ii) : Switch [latex]K[/latex] is closed and [latex]\\bar{K}[/latex] is open. Current source and [latex]10 \\Omega[/latex] resistor becomes short circuited. Redraw the circuit : From circuit, [latex]\n\\begin{aligned}\n\\mathrm{V}_{\\mathrm{C}}(\\infty) & =5 \\mathrm{~V} \\\\\n\\tau & =\\mathrm{RC}=10 \\times 100 \\times 10^{-6}=1 \\mathrm{msec}\n\\end{aligned}\n[/latex] We have, [latex]\n\\mathrm{V}_{\\mathrm{C}}(\\mathrm{t})=\\mathrm{V}_{\\mathrm{C}}(\\infty)+\\left[\\mathrm{V}_{\\mathrm{C}}(0)-\\mathrm{V}_{\\mathrm{C}}(\\infty)\\right] \\mathrm{e}^{-\\mathrm{t} / \\tau}\n[/latex] [latex]=5+\\left(7.07 \\sin \\left(1000 t_{1}-45^{\\circ}\\right)-5\\right) e^{-t / \\tau}[/latex] For transient free voltage, [latex]\n\\begin{aligned}\n 7.07 \\sin \\left(1000 \\mathrm{t}_{1}-45^{\\circ}\\right)&=5 \\\\\n 1000 \\mathrm{t}_{1}-\\frac{\\pi}{4}&=\\frac{\\pi}{4} \\\\\n\\Rightarrow \\quad t_{1}&=1.57 \\mathrm{msec} .\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page9_q4.webp",
+    "min": 1.56,
+    "max": 1.58
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 The circuit shown in the figure has reached steady state with thyristor '[latex]T[/latex]' in OFF condition. Assume that the latching and holding currents of the thyristor are zero. The thyristor is turned ON at [latex]t=0[/latex] sec. The duration in microseconds for which the thyristor would conduct, before it turns off, is  ___ (Round off to 2 decimal places).",
+    "solution": "Case (i) [latex]t\\lt 0[/latex] sec : Steady state circuit : Case (ii) [latex]\\mathrm{t} \\gt 0[/latex] sec: Thyristor is ON Redraw the circuit : [latex]\\mathrm{I}_{4 \\Omega}=\\frac{100}{4}=25 \\mathrm{~A}[/latex] and [latex]\n\\begin{aligned}\n\\mathrm{i}_{\\mathrm{C}} & =\\mathrm{I}_{\\mathrm{P}} \\sin \\omega_{0} \\mathrm{t} \\\\\n& =\\mathrm{V}_{\\mathrm{S}} \\sqrt{\\frac{C}{L}} \\sin \\omega_{0} \\mathrm{t} \\\\\n& =100 \\sqrt{\\frac{1}{4}} \\sin \\omega_{0} \\mathrm{t}=50 \\sin \\omega_{0} \\mathrm{t}\n\\end{aligned}\n[/latex] [latex]\\therefore[/latex] Current through thyristor : [latex]\n\\mathrm{I}_{\\mathrm{T}}=25+50 \\sin \\omega_{0} \\mathrm{t}\n[/latex] When [latex]\\mathrm{I}_{\\mathrm{T}}=0 \\Rightarrow[/latex] Thyristor is turn off. [latex]\n0=25+50 \\sin \\omega_{0} t\n[/latex] [latex]\\Rightarrow \\quad \\omega_{0} \\mathrm{t}=210^{\\circ} \\times \\frac{\\pi}{180^{\\circ}}[/latex] [latex]\\Rightarrow \\quad \\mathrm{t}=\\sqrt{\\mathrm{LC}} \\times \\frac{7 \\pi}{6}[/latex] [latex]\n=\\sqrt{10^{-6} \\times 4 \\times 10^{-6}} \\times \\frac{7 \\pi}{6}\n[/latex] [latex]=7.33 \\mu \\mathrm{sec}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page9_q5.webp",
+    "min": 7.1,
+    "max": 7.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 Neglecting the delays due to the logic gates in the circuit shown in figure, the decimal equivalent of the binary sequence [ABCD] of initial logic states, which will not change with clock, is",
+    "solution": "Redraw the circuit : From circuit : [latex]\r\n\\begin{array}{c|ccc|cccc}\r\n&  &  &  &\\overline{\\mathrm{Q}_{2}} & \\mathrm{Q}_{2} & \\overline{\\mathrm{Q}}_{1} & \\mathrm{Q}_{1} \\oplus \\mathrm{Q}_{2}   \\\\\r\n\\mathrm{CLK} & \\mathrm{D} & \\mathrm{Q}_{1} & \\mathrm{Q}_{0} & \\mathrm{~A} & \\mathrm{~B} & \\mathrm{C} & \\mathrm{D} \\\\\r\n\\hline\r\n1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\\\\r\n2 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\\\\r\n\\hline\r\n\\end{array}\r\n[/latex] [latex]\\therefore \\quad A B C D=(1000)_{2}=(8)_{10}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page10_q1.webp",
+    "min": 8.0,
+    "max": 8.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 In a given 8-bit general purpose micro-controller there are following flags. C-Carry, A-Auxiliary Carry, O-Overflow flag, PParity ( 0 for even, 1 for odd) R0 and R 1 are the two general purpose registers of the microcontroller. After execution of the following instructions, the decimal equivalent of the binary sequence of the flag pattern [CAOP] will be MOV R0, +0x60 MOV R1, +0x46 ADD R0, R 1",
+    "solution": "MOV [latex]R_{0},+0 \\times 60 \\Rightarrow R_{0} \\leftarrow 60 \\mathrm{H}[/latex] MOV [latex]R_{1},+0 \\times 46 \\Rightarrow \\mathrm{R}_{1} \\leftarrow 46 \\mathrm{H}[/latex] ADD [latex]R_{0}, R_{1}[/latex] : [latex]\r\n\\begin{array}{lllllllll}\r\n0 & 1 & 0 & 0 & 0 & 1 & 1 & 0 & \\rightarrow 46 \\mathrm{H} \\\\\r\n\\hline\r\n1 & 0 & 1 & 0 & 0 & 1 & 1 & 0 & \\rightarrow \\mathrm{A} 6 \\mathrm{H} \\\\\r\n\\hline\r\n\\end{array}\r\n[/latex] Now, carry flag [latex](C Y)=0[/latex] Auxiliary carry [latex](\\mathrm{AC})=0[/latex] [latex]\\left[\\because\\right.[/latex] No carry fro [latex]D_{3}[/latex] to [latex]\\left.D_{4}\\right][/latex] [latex]\\because \\mathrm{MSB}=1[/latex], overflow flag [latex]=1[/latex] [latex]P=0[\\because[/latex] Four 1's i.e. even numb er [latex]][/latex]\r\n\r\n[latex]\\therefore[/latex] Required Flag patter [latex]=[[/latex] CAOP [latex]][/latex] [latex]\r\n=[0010]_{2}=2\r\n[/latex]",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 The single phase rectifier consisting of three thyristors [latex]T_{1}, T_{2}, T_{3}[/latex] and a diode [latex]D_{1}[/latex] feed power to a [latex]10 \\mathrm{~A}[/latex] constant current load. [latex]T_{1}[/latex] and [latex]T_{3}[/latex] are fired at [latex]\\alpha=60^{\\circ}[/latex] and [latex]T_{2}[/latex] is fired at [latex]\\alpha=240^{\\circ}[/latex]. The reference for [latex]\\alpha[/latex] is the positive zero crossing of [latex]\\mathrm{V}_{\\text {in }}[/latex]. The average voltage [latex]\\mathrm{V}_{o}[/latex] across the load in volts is _____ (Round off to 2 decimal places).",
+    "solution": "[latex]\\therefore[/latex] Average output voltage, [latex]\r\n\\begin{gathered}\r\n\\mathrm{V}_{o}=\\frac{1}{2 \\pi}\\left[\\int_{\\alpha}^{\\pi} \\mathrm{V}_{\\mathrm{m}} \\sin \\omega t d \\omega t+\\int_{\\pi+\\alpha}^{2 \\pi+\\alpha}-\\mathrm{V}_{\\mathrm{m}} \\sin \\omega \\mathrm{t} d \\omega t\\right] \\\\\r\n=\\frac{V_{m}}{2 \\pi}[1+3 \\cos \\alpha]\r\n\\end{gathered}\r\n[/latex] Put the values, [latex]\r\n\\begin{aligned}\r\nV_{o} & =\\frac{100}{2 \\pi}\\left[1+3 \\cos 60^{\\circ}\\right] \\\\\r\n& =39.79 \\mathrm{~V}\r\n\\end{aligned}\r\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page10_q3.webp",
+    "min": 39.0,
+    "max": 40.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 The Zener diode in circuit has a breakdown voltage of [latex]5 \\mathrm{~V}[/latex]. The current gain [latex]\\beta[/latex] of the transistor in the active region in [latex]99[/latex]. Ignore baseemitter voltage drop [latex]\\mathrm{V}_{\\mathrm{BE}}[/latex]. The current through the [latex]20 \\Omega[/latex] resistance in milliamperes is ____ (Round off to 2 decimal places).",
+    "solution": "Redraw the circuit : We know, [latex]\n\\begin{aligned}\n\\mathrm{I}_{\\mathrm{E}} & =(1+\\beta) \\mathrm{I}_{\\mathrm{B}} \\\\\n& =100 \\mathrm{I}_{\\mathrm{B}} \\\\\n\\Rightarrow \\quad \\mathrm{I}_{\\mathrm{B}} & =\\frac{\\mathrm{I}_{\\mathrm{E}}}{100}\n\\end{aligned}\n[/latex] Apply KVL in loop, [latex]\n\\begin{aligned}\n& 25-\\frac{\\mathrm{I}_{E}}{100} \\times 7000-I_{E} \\times 10-I_{E} \\times 20=0 \\\\\n& \\Rightarrow \\quad \\mathrm{I}_{\\mathrm{E}}=0.25 \\mathrm{~A} \\text { or } 250 \\mathrm{~mA}\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page10_q4.webp",
+    "min": 245.0,
+    "max": 255.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 The two-bus power system shown in figure (i) has one alternator supplying a synchronous motor load through a [latex]Y-\\Delta[/latex] transformer. The positive, negative and zero-sequence diagrams of the system are shown in figures (ii), (iii) and (iv), respectively. All reactances in the sequence diagrams are in p.u. For a bolted line-to-line fault (fault impedance [latex]=[/latex] zero) between phases '[latex]b[/latex]' and '[latex]c[/latex]' at bus 1, neglecting all pre-fault currents, the magnitude of the fault current (from phase '[latex]b[/latex]' to '[latex]c[/latex]') in p.u. is _____ (Round off to 2 decimal places).",
+    "solution": "From positive sequence network : [latex]\n\\begin{aligned}\nX_{1} & =\\mathrm{j}(0.3 \\| 0.2) \\\\\n& =\\mathrm{j} 0.12 \\mathrm{pu}\n\\end{aligned}\n[/latex] From negative sequence network : [latex]\n\\begin{aligned}\n\\mathrm{X}_{2} & =\\mathrm{j}(0.3 \\| 0.2) \\\\\n& =\\mathrm{j} 0.12 \\mathrm{pu}\n\\end{aligned}\n[/latex] For [latex]\\mathrm{L}-\\mathrm{L}[/latex] fault, Fault current, [latex]I_{f}=\\frac{\\sqrt{3} E}{\\left(X_{1}+X_{2}\\right)}[/latex]\n\n[latex]\n=\\frac{\\sqrt{3} \\times 1}{0.12+0.12} =7.217 \\mathrm{pu}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page10_q5.webp",
+    "min": 7.1,
+    "max": 7.3
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 An infinite surface of linear current density [latex]K=5 \\hat{a}_{x} A / m[/latex] exists on the [latex]x-y[/latex] plane, as shown in the figure. The magnitude of the magnetic field intensity [latex](H)[/latex] at a point [latex](1,1,1)[/latex] due to the surface current in Ampere/meter is ___ (Round off to 2 decimal places).",
+    "solution": "[latex]\n\\begin{aligned}\n\\overrightarrow{\\mathrm{a}}_{\\mathrm{N}}&=\\overrightarrow{\\mathrm{a}}_{\\mathrm{Z}}\\\\\n\\text{Now, }\\quad \\overrightarrow{\\mathrm{H}}&=\\frac{1}{2}\\left(\\overrightarrow{\\mathrm{K}} \\times \\overrightarrow{\\mathrm{a}}_{\\mathrm{N}}\\right) \\\\\n& =\\frac{1}{2}\\left(5 \\hat{a}_{x} \\times \\hat{a}_{z}\\right) \\\\\n& =-2.5 \\hat{a}_{y} A / m\n\\end{aligned}\n[/latex] [latex]\\therefore[/latex] Magnitude, [latex]|\\overrightarrow{\\mathrm{H}}|=2.5 \\mathrm{~A} / \\mathrm{m}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page11_q1.webp",
+    "min": 2.49,
+    "max": 2.51
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 The closed curve shown in the figure is described by [latex]r=1+\\cos \\theta[/latex], where [latex]r=\\sqrt{x^{2}+y^{2}}[/latex]\r\n [latex]x=r \\cos \\theta, y=r \\sin \\theta[/latex] The magnitude of the line integral of the vector field [latex]F=-y \\hat{i}+x \\hat{j}[/latex] around the closed curve is ___(Round off to 2 decimal places).",
+    "solution": "[latex]\n\\begin{aligned}\nI & =\\int_{0}^{2 \\pi} \\vec{F} \\cdot \\overrightarrow{d l} \\\\\n& =\\int_{0}^{2 \\pi}(-y \\hat{i}+x)(d x \\hat{i}+d y) \\\\\n& =\\int_{0}^{2 \\pi}(-y d x+x d y)\n\\end{aligned}\n[/latex] Given : [latex]\\quad x=r \\cos \\theta[/latex] and [latex]y=r \\sin \\theta[/latex] [latex]\n\\begin{aligned}\n\\therefore I&=\\int_{0}^{2 \\pi}[(-r \\sin \\theta)(-r \\sin \\theta) d \\theta+(r \\cos \\theta)(r \\cos \\theta) d \\theta] \\\\\n&=\\int_{0}^{2 \\pi} r^{2} d \\theta \\\\\n&=\\int_{0}^{2 \\pi}(1+\\cos \\theta)^{2} d \\theta \\\\\n&=\\int_{0}^{2 \\pi}\\left(1+\\cos ^{2} \\theta+2 \\cos \\theta\\right) d \\theta \\\\\n&=\\int_{0}^{2 \\pi}\\left(1+\\frac{1+\\cos 2 \\theta}{2}+2 \\cos \\theta\\right) \\mathrm{d} \\theta \\\\\n&=3 \\pi=9.425\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page11_q2.webp",
+    "min": 9.0,
+    "max": 10.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 A signal [latex]x(t)=2 \\cos (180 \\pi t) \\cos (60 \\pi t)[/latex] is sampled at [latex]200 \\mathrm{~Hz}[/latex] and then passed through an ideal low pass filter having cut-off frequency of [latex]100 \\mathrm{~Hz}[/latex]. The maximum frequency present in the filtered signal in [latex]\\mathrm{Hz}[/latex] is ____ (Round off to the nearest integer)",
+    "solution": "Given : [latex]\n\\begin{aligned}\n x(\\mathrm{t})&=2 \\cos (180 \\pi \\mathrm{t}) \\cos (60 \\pi \\mathrm{t}) \\\\\n&=\\cos 240 \\pi \\mathrm{t}+\\cos 120 \\pi \\mathrm{t}\n\\end{aligned}\n[/latex] [latex]\\mathrm{F}_{1}=120 \\mathrm{~Hz}[/latex] and [latex]\\mathrm{F}_{2}=60 \\mathrm{~Hz}[/latex] Now, present frequency component, [latex]\n\\begin{aligned}\n& =\\mathrm{nf}_{\\mathrm{s}} \\pm \\mathrm{f}_{1} \\\\\n& =\\mathrm{f}_{1}, \\mathrm{f}_{\\mathrm{s}} \\pm \\mathrm{f}_{1}, 2 \\mathrm{f}_{\\mathrm{s}} \\pm \\mathrm{f}_{1} \\\\\n& =120 \\mathrm{~Hz}, 200 \\pm 120, \\ldots . \\\\\n& =120 \\mathrm{~Hz}, 80 \\mathrm{~Hz}, 320 \\mathrm{~Hz}, \\ldots .\n\\end{aligned}\n[/latex] and other frequency component. [latex]\n\\begin{aligned}\n& =n f_{s} \\pm f_{2} \\\\\n& =f_{2}, f_{s} \\pm f_{2}, 2 f_{s} \\pm f_{2}, \\ldots \\\\\n& =60,200 \\pm 60, \\ldots \\\\\n& =60 \\mathrm{~Hz}, 140,260 \\mathrm{~Hz}, \\ldots\n\\end{aligned}\n[/latex] Given cut-off frequency of LPF [latex]=100 \\mathrm{~Hz}[/latex] [latex]\\therefore[/latex] It is pas only [latex]60 \\mathrm{~Hz}[/latex] and [latex]80 \\mathrm{~Hz}[/latex] frequency component. [latex]\\therefore[/latex] Max. frequency [latex]=80 \\mathrm{~Hz}[/latex].",
+    "min": 80.0,
+    "max": 80.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 A balanced delta connected load consisting of the series connection of one resistor [latex](R=15 \\Omega)[/latex] and a capacitor [latex](C=212.21 \\mu \\mathrm{F})[/latex] in each phase is connected to three-phase, [latex]50 \\mathrm{~Hz}, 415 \\mathrm{~V}[/latex] supply terminals through a line having an inductance of [latex]\\mathrm{L}=31.83 \\mathrm{mH}[/latex] per phase, as shown in the figure. Considering the change in the supply terminal voltage with loading to be negligible, the magnitude of the voltage across the terminals [latex]V_{AB}[/latex] in Volts is ____ (Round off to the nearest integer).",
+    "solution": "Given circuit : where, [latex]\n\\begin{aligned}\nX_{L} & =2 \\pi \\times 50 \\times 31.83 \\times 10^{-3}=10 \\Omega \\\\\nR & =15 \\Omega \\\\\nX_{C} & =\\frac{1}{2 \\pi \\times 50 \\times 212.21 \\times 10^{-6}}=15 \\Omega\n\\end{aligned}\n[/latex] Convert [latex]\\Delta[/latex] to star : [latex]\n\\begin{aligned}\nZ_{Y} & =\\frac{Z_{\\Delta}}{3} \\\\\n& =\\frac{15-j 15}{3}=5-j 5\n\\end{aligned}\n[/latex] Now, per phase equivalent circuit : Using voltage division, [latex]\n\\begin{aligned}\n\\mathrm{V}_{\\mathrm{AN}} & =\\frac{5-\\mathrm{j} 5}{5-\\mathrm{j} 5+10 \\mathrm{j}} \\times \\frac{415 \\angle 0^{\\circ}}{\\sqrt{3}} \\\\\n& =\\frac{415}{\\sqrt{3}} \\angle-90^{\\circ} \\mathrm{V} \\\\\n\\therefore \\quad \\quad\\left|\\mathrm{V}_{\\mathrm{AB}}\\right| & =\\sqrt{3} \\times \\frac{415}{\\sqrt{3}}=415 \\mathrm{~V}\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page11_q4.webp",
+    "min": 414.0,
+    "max": 416.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 A quadratic function of two variables is given as [latex]f\\left(x_{1}, x_{2}\\right)=x_{1}^{2}+2 x_{2}^{2}+3 x_{1}+3 x_{2}+x_{1} x_{2}+1[/latex] The magnitude of the maximum rate of change of the function at the point [latex](1,1)[/latex] is ____(Round off to the nearest integer).",
+    "solution": "Given : [latex]\\mathrm{F}\\left(\\mathrm{x}, \\mathrm{x}_{2}\\right)=\\mathrm{x}_{1}^{2}+2 \\mathrm{x}_{2}^{2}+\\mathrm{x}_{1}+\\mathrm{x}_{1} \\mathrm{x}_{2}+1[/latex] [latex]\\nabla \\cdot F=\\left(2 x_{1}+3+x_{2}\\right) \\hat{a}_{x_{1}}+\\left(4 x_{2}+3+x_{1}\\right) \\hat{a}_{x_{z}}[/latex] At [latex](1,1)[/latex] [latex]\n\\begin{aligned}\n\\nabla \\cdot F & =6 \\hat{a}_{x_{1}}+7 \\hat{a}_{x_{2}} \\\\\n|\\nabla \\cdot F| & =\\sqrt{6^{2}+8^{2}}=10\n\\end{aligned}\n[/latex]",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 Rafi told Mary, \"I am thinking of watching a film this weekend.\" The following reports the above statement in indirect speech: Rafi told Mary that he of watching a film that weekend.",
+    "solution": "Rafi told Mary that he was thinking of watching a film that weekend.",
+    "options": {
+      "A": "thought",
+      "B": "is thinking",
+      "C": "am thinking",
+      "D": "was thinking"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 Permit: : : Enforce : Relax (By word meaning)",
+    "solution": "Enforce [latex]\\stackrel{\\text { Antonym }}{\\longrightarrow}[/latex] Relax Similarly, Pemit [latex]\\stackrel{\\text { Antonym }}{\\longrightarrow}[/latex] Forbid",
+    "options": {
+      "A": "Allow",
+      "B": "Forbid",
+      "C": "License",
+      "D": "Reinforce"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Given a fair six-faced dice where the faces are labelled ' 1 ', ' 2 ', '3', ' 4 ', '5', and ' 6 ', what is the probability of getting a ' 1 ' on the first roll of the dice and a '4' on the second roll?",
+    "solution": "Probability of getting ' [latex]t[/latex] ' on the first roll, [latex]\nP(1)=\\frac{1}{6}\n[/latex] Probability of getting ' 4 ' on the second roll, [latex]\nP(4)=\\frac{1}{6}\n[/latex] [latex]\\therefore[/latex] Required probability [latex]=\\frac{1}{6} \\times \\frac{1}{6}=\\frac{1}{36}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{36}[/latex]",
+      "B": "[latex]\\frac{1}{6}[/latex]",
+      "C": "[latex]\\frac{5}{6}[/latex]",
+      "D": "[latex]\\frac{1}{3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 A recent survey shows that [latex]65 \\%[/latex] of tobacco users were advised to stop consuming tobacco. The survey also shows that 3 out of 10 tobacco users attempted to stop using tobacco. Based only on the information in the above passage, which one of the following options can be logically inferred with certainty?",
+    "solution": "",
+    "options": {
+      "A": "A majority of tobacco users who were advised to stop consuming tobacco made an attempt to do so.",
+      "B": "A majority of tobacco users who were advised to stop consuming tobacco did not attempt to do so.",
+      "C": "Approximately [latex]30 \\%[/latex] of tobacco users successfully stopped consuming tobacco.",
+      "D": "Approximately [latex]65 \\%[/latex] of tobacco users successfully stopped consuming tobacco."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 How many triangles are present in the given figure?",
+    "solution": "No. of triangles [latex]=\\triangle \\mathrm{ABC}, \\triangle \\mathrm{ACD}, \\triangle \\mathrm{BDC}[/latex], [latex]\\triangle \\mathrm{ABD}, \\triangle \\mathrm{CDK}, \\triangle \\mathrm{BCK}, \\triangle \\mathrm{ADK}, \\triangle \\mathrm{ABK}, \\triangle \\mathrm{AHJ}[/latex], [latex]\\triangle \\mathrm{AEH}, \\triangle \\mathrm{AEJ}, \\triangle \\mathrm{BEM}, \\triangle \\mathrm{BFM}, \\triangle \\mathrm{CFL}, \\triangle \\mathrm{CGL}[/latex], [latex]\\triangle \\mathrm{CGF}, \\triangle \\mathrm{DGI}, \\triangle \\mathrm{DHI} \\Delta \\mathrm{DGH}[/latex]. [latex]\\therefore[/latex] Total no. of triangles [latex]=20[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page12_q5.webp",
+    "options": {
+      "A": "12",
+      "B": "16",
+      "C": "20",
+      "D": "24"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 Students of all the departments of a college who have successfully completed the registration process are eligible to vote in the upcoming college elections. However, by the time the due date for registration was over, it was found that suprisingly none of the students from the Department of Human Sciences had completed the registration process. Based only on the information provided above, which one of the following sets of statement(s) can be logically inferred with certainty?",
+    "solution": "",
+    "options": {
+      "A": "(i) and (ii)",
+      "B": "(i) and (iii)",
+      "C": "only (i)",
+      "D": "only (iii)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 Which one of the following options represents the given graph?",
+    "solution": "The given function is odd function. Property of odd function. [latex]\nF(-x)=-f(x)\n[/latex] Therefore, option (B) is an odd function.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page13_q2.webp",
+    "options": {
+      "A": "[latex]f(x)=x^{2} 2^{-|x|}[/latex]",
+      "B": "[latex]f(x)=x 2^{-|x|}[/latex]",
+      "C": "[latex]f(x)=|x| 2^{-x}[/latex]",
+      "D": "[latex]f(x)=x 2^{-x}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 Which one of the options does NOT describe the passage below or follow from it? We tend to think of cancer as a 'modern' illness because its metaphors are so modern. It is a disease of overproduction, of sudden growth, a growth that is unstoppable, tipped into the abyss of no control. Modern cell biology encourages us to imagine the cell as a molecular machine. Cancer is that machine unable to quench its intial command (to grow) and thus transform into an indestructible, self-propelled automaton. [Adapted from The Emperor of All Maladies by Siddhartha Mukherjee] (a) It is a reflection of why cancer seems so modern to most of us.",
+    "solution": "",
+    "options": {
+      "A": "It is a reflection of why cancer seems so modern to most of us.",
+      "B": "It tells us that modern cell biology uses and promotes metaphors of machinery.",
+      "C": "Modern cell biology encourages metaphors of machinery, and cancer is often imagined as a machine.",
+      "D": "Modern cell biology never uses figurative language, such as metaphors, to describe or explain anything."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 The digit in the unit's place of the product [latex]3^{999} \\times 7^{1000}[/latex] is ___",
+    "solution": "We know, 2, 3, 7 and 8 are repeat unit digit after 4th power. So, [latex]3^{999} \\times 7^{1000}=7 \\times 1=7[/latex]",
+    "options": {
+      "A": "7",
+      "B": "1",
+      "C": "3",
+      "D": "9"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 A square with sides of length [latex]6 \\mathrm{~cm}[/latex] is given. The boundary of the shaded region is defined by two semi-circles whose diameters are the sides of the square, as shown. The area of the shaded region is ___ [latex]\\mathrm{cm}^{2}[/latex]",
+    "solution": "Area of shaded region [latex]\n\\begin{aligned}\n& =\\frac{\\pi r^{2}}{2}+\\frac{\\pi r^{2}}{2}-2 A \\\\\n& =8 \\pi-2 A[\\because r=3 \\mathrm{~cm}]\n\\end{aligned}\n[/latex] To find ' [latex]A[/latex] ' : Area, [latex]B=\\frac{\\pi r^{2}}{4}-\\frac{1}{2} \\times 3 \\times 3[/latex]\n\n[latex]\n=\\frac{9 \\pi}{4}-\\frac{9}{2}\n[/latex] [latex]\\therefore[/latex] Area of [latex]A=2 B=\\frac{9 \\pi}{2}-9[/latex] Now, area of shaded region [latex]\n\\begin{aligned}\n& =9 \\pi-2\\left(\\frac{9 \\pi}{2}-9\\right) \\\\\n& =18 \\mathrm{~cm}^{2}\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2023/page13_q5.webp",
+    "options": {
+      "A": "[latex]6 \\pi[/latex]",
+      "B": "18",
+      "C": "20",
+      "D": "[latex]9 \\pi[/latex]"
+    },
+    "correct_answer": "B"
+  }
+]

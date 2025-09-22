@@ -1,0 +1,568 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 Consider [latex]g(t)=\\left\\{\\begin{matrix} t-\\left \\lceil t \\right \\rceil, & t\\geq 0 \\\\ t-\\left \\lceil t \\right \\rceil , & otherwise \\end{matrix}\\right. , \\; \\; where\\; t \\in \\mathbb{R}[/latex] Here, [latex]\\left \\lfloor t \\right \\rfloor[/latex] represents the largest integer less than or equal to t and [latex]\\left \\lceil t \\right \\rceil [/latex] denotes the smallest integer greater than or equal to t. The coefficient of the second harmonic component of the Fourier series representing g(t) is _________.",
+    "solution": "Given that, [latex]g(t)=\\left\\{\\begin{matrix} t-\\left \\lfloor t \\right \\rfloor, & t \\geq 0\\\\ t-\\left \\lceil t \\right \\rceil & \\text{otherwise} \\end{matrix}\\right.[/latex] where, [latex]\\left \\lfloor t \\right \\rfloor=[/latex] greatest integer less than or equal to 't'. [latex]\\left \\lceil t \\right \\rceil=[/latex] smallest integer greater than or equal to 't'. Now, Since,  g(t) is nonperiodic. So, there is no Fourier series expansion of this signal and hence no need to calculate harmonic here.",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 A source is supplying a load through a 2-phase, 3-wire transmission system as shown in figure\r\nbelow. The instantaneous voltage and current in phase-a are [latex]V_{an}=220sin(100\\pi t)[/latex]V and [latex]i_{a}=10sin (100\\pi t)[/latex]A, respectively. Similarly for phase-b the instantaneous voltage and current are [latex]V_{bn}=220cos (100\\pi t)[/latex]V and [latex]i_{b}=10cos( 100\\pi t[/latex]A, respectively The total instantaneous power flowing form the source to the load is",
+    "solution": "[latex]\\begin{aligned} V_{an}&=220 \\sin (100 \\pi t)V\\\\ i_a&=10 \\sin (100 \\pi t)A\\\\ V_{bn}&=220 \\cos (100 \\pi t)V\\\\ i_b&=10 \\cos (100 \\pi t)A\\\\ p&=V_{an}i_a+V_{bn}i_b\\\\ &=2200 W \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page1_q2.webp",
+    "options": {
+      "A": "2200W",
+      "B": "[latex]2200 sin^{2}(100\\pi t)W[/latex]",
+      "C": "440W",
+      "D": "[latex]2200 sin(100\\pi t) cos(100 \\pi t) W[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 3 A three-phase, 50Hz, star-connected cylindrical-rotor synchronous machine is running as a\nmotor. The machine is operated from a 6.6 kV grid and draws current at unity power factor\n(UPF). The synchronous reactance of the motor is 30 [latex]\\Omega[/latex] per phase. The load angle is [latex]30^{\\circ}[/latex]. The power delivered to the motor in kW is _______.",
+    "solution": "For synchronous motor, [latex]\\bar{V_t}=\\bar{E_f}+j\\bar{I_a}X_s [/latex] As currrent is drawn at unity power factors. Therefore, [latex] \\begin{aligned} E_f \\cos \\delta &=V_t \\\\ E_f&= \\frac{V_t}{\\cos \\delta }=\\frac{6.6kV}{\\sqrt{3}} \\times \\frac{1}{\\cos 30^{\\circ}}\\\\ E_f&= \\frac{6.6 \\times 10^3}{\\sqrt{3} \\times \\sqrt{3}} \\times 2V\\\\ V_t &=\\frac{6.6 \\times 10^3}{\\sqrt{3}} \\\\ \\therefore \\;\\;P_e &=\\frac{3V_{ph}E_{ph}}{X_s} \\sin \\delta \\\\ &= \\frac{3 \\times \\frac{6.6 \\times 10^3}{\\sqrt{3}} \\times \\frac{6.6 \\times 10^3}{\\sqrt{3} \\times \\sqrt{3}} \\times 2 }{30} \\times \\sin 30^{\\circ}\\\\ &=838.3kW \\end{aligned}[/latex]",
+    "min": 835.0,
+    "max": 842.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 For a complex number z, [latex]\\lim_{z\\rightarrow i}\\frac{z^{2}+1}{z^{3}+2z-i(z^{2}+2)}[/latex] is",
+    "solution": "[latex]\\begin{aligned} \\lim_{z \\to i}&=\\frac{z^2+1}{z^3+2z-i(z^2+2)}\\\\ \\lim_{z \\to i}&=\\frac{2z}{3z^2+2-i(2z)}\\\\ &=\\frac{2i}{3i^2+2-i(2i)}\\\\ &=\\frac{2i}{-3+2+2}\\\\ &=\\frac{2i}{-3+4}=2i \\end{aligned}[/latex]",
+    "options": {
+      "A": "-2i",
+      "B": "-i",
+      "C": "i",
+      "D": "2i"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Consider an electron, a neutron and a proton initially at rest and placed along a straight line such\nthat the neutron is exactly at the center of the line joining the electron and proton. At t=0, the\nparticles are released but are constrained to move along the same straight line. Which of these\nwill collide first?",
+    "solution": "Given that electron, neutron and proton are in straight line. The electron will move towards proton and proton will move towards electron and force will be same [latex]F=\\frac{q_1q_2}{4 \\pi \\in _0 R^2}[/latex]. But acceleration of electron will be more than proton as mass of electron [latex]\\lt[/latex] mass of proton. Since neutron are neutral they will not move. Thus electron will hit neutron first.",
+    "options": {
+      "A": "The particles will never collide",
+      "B": "All will collide together",
+      "C": "Proton and Neutron",
+      "D": "Electron and Neutron"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Let z(t)=x(t) * y(t) , where \"*\" denotes convolution. Let c be a positive real-valued\r\nconstant. Choose the correct expression for z(ct).",
+    "solution": "Time scaling property of convolution. If, [latex]x(t)*y(t)=z(t)[/latex] Then, [latex]x(ct)*y(ct)=\\frac{1}{c} z(ct)[/latex] [latex]z(ct)=c \\times x(ct) * y(ct)[/latex]",
+    "options": {
+      "A": "c x(ct)*y(ct)",
+      "B": "x(ct)*y(ct)",
+      "C": "c x(t)*y(ct)",
+      "D": "c x(ct)*y(t)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 A 3-bus power system is shown in the figure below, where the diagonal elements of Y-bus\nmatrix are [latex]Y_{11}=-j12pu[/latex], [latex]\\; Y_{22}=-j15pu[/latex]  and [latex]Y_{33}=-j7pu[/latex] The per unit values of the line reactances p, q and r shown in the figure are",
+    "solution": "Given, [latex] \\begin{aligned}\nY_{11} &=-j12 \\; p.u. \\\\\nY_{22} &=-j15 \\; p.u.\\\\\nY_{33} &=-j7 \\; p.u. \\\\\n &\\text{We know that,} \\\\ \nY_{11} &=y_{12}+y_{13}=-j12 \\; p.u. \\;\\;...(i) \\\\ \nY_{22} &=y_{12}+y_{23}=-j15 \\; p.u. \\;\\;...(ii) \\\\\nY_{33} &=y_{13}+y_{23}=-j7 \\; p.u. \\;\\;...(iii) \\\\\n &\\text{From eq. (i) and (ii)} \\\\ \ny_{13}-y_{23} &=j3\\; p.u. \\\\ \ny_{13}+y_{23} &=-j7 \\; p.u. \\\\ \n y_{13}&= -j2\\; p.u.\\\\\ny_{23}&= -j5\\; p.u.\\\\\ny_{12}&= -j10\\; p.u.\n\\end{aligned}[/latex] The p.u. values of line reactances p, q and r are [latex]\\begin{aligned} jr&=\\frac{1}{-j2}=j0.5\\; p.u.\\\\ jp&=\\frac{1}{-j5}=j0.2\\; p.u.\\\\ jq&=\\frac{1}{-j10}=j0.1\\; p.u.\\\\ \\therefore \\; p&=0.2, q=0.1, r=0.5 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page2_q2.webp",
+    "options": {
+      "A": "p=-0.2, q=-0.1, r=-0.5",
+      "B": "p=0.2, q=0.1, r=0.5",
+      "C": "p=-5, q=-10, r=-2",
+      "D": "p=5, q=10, r=2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 8 The equivalent resistance between the terminals A and B is ______ [latex]\\Omega[/latex].",
+    "solution": "Consider the following circuit diagram, After rearrangement we get Now, [latex]R_{AB}=1+\\frac{6}{5}+0.8=3\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page2_q3.webp",
+    "min": 2.9,
+    "max": 3.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 The Boolean expression [latex]AB + A\\bar{C} + BC[/latex] simplifies to",
+    "solution": "[latex]BC+A\\bar{C}[/latex]",
+    "options": {
+      "A": "[latex]BC+A\\bar{C}[/latex]",
+      "B": "[latex]AB+A\\bar{C}+B[/latex]",
+      "C": "[latex]AB+A\\bar{C}[/latex]",
+      "D": "[latex]AB+BC[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 The following measurements are obtained on a single phase load: V = 220V[latex]\\pm[/latex]1%, I = 5.0A[latex]\\pm[/latex]1% and W=555W[latex]\\pm[/latex] 2%. If the power factor is calculated using these measurements, the worst case error in the calculated power factor in percent is ________.",
+    "solution": "[latex]\\begin{aligned} V &= 220 \\pm 1\\% \\\\ I&= 5 \\pm 1 \\%\\\\ W &=555 \\pm 2 \\% \\\\ W&= VI \\cos (\\phi )\\\\ p.f. &=\\cos (\\phi )=\\frac{W}{VI} \\\\ &= \\frac{555 \\pm 2 \\%}{(220 \\pm 1\\%)(5 \\pm 1 \\%)}\\\\ &= \\frac{555}{220 \\times 5} \\pm 4\\%\\\\ p.f.&= 0.5 \\pm 4\\% \\end{aligned}[/latex]",
+    "min": 4.0,
+    "max": 4.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 The transfer function of a system is given by [latex]\\frac{V_{o}(s)}{V_{i}(s)}=\\frac{1-s}{1+s}[/latex] Let the output of the system be [latex]v_{o}(t)=V_{m} sin(\\omega t + \\varphi )[/latex] for the input [latex]v_{i}(t)=V_{m} sin(\\omega t )[/latex]. Then the minimum and maximum values of [latex]\\varphi[/latex] (in radians) are respectively",
+    "solution": "[latex]\\frac{V_o(s)}{V_i(s)}=\\frac{1-s}{1+s}=H(s) [/latex] For the minimum and maximum values of [latex]'\\phi '[/latex] [latex] H(j\\omega )=\\frac{1-j\\omega }{1+j\\omega }[/latex] [latex] \\angle H(j\\omega )=-2 tan^{-1}\\omega [/latex] At [latex] \\omega =0;  \\;\\; \\; \\angle H(j\\omega )=0^{\\circ} [/latex] At  [latex] \\omega =\\infty ; \\;\\;\\; \\angle H(j\\omega )=-\\pi[/latex]",
+    "options": {
+      "A": "[latex]\\frac{-\\pi }{2} \\; and \\;  \\frac{\\pi }{2}[/latex]",
+      "B": "[latex]\\frac{-\\pi }{2} \\; and \\;  0[/latex]",
+      "C": "[latex]0  \\; and \\;  \\frac{\\pi }{2}[/latex]",
+      "D": "[latex]-\\pi[/latex] and 0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 The matrix [latex]A=\\begin{bmatrix} \\frac{3}{2} & 0 & \\frac{1}{2}\\\\ 0 & -1 & 0\\\\ \\frac{1}{2}& 0 & \\frac{3}{2} \\end{bmatrix}[/latex] has three distinct eigenvalues and one of its eigenvectors is [latex]\\begin{bmatrix} 1\\\\ 0\\\\ 1 \\end{bmatrix}[/latex] Which one of the following can be another eigenvector of A?",
+    "solution": "The given matrix is symmetric and all its eigen values are distinct. Hence all its eigen vectors are orthogonal one of the eigen vector is [latex]x_1=\\begin{bmatrix} 1\\\\ 0\\\\ 1 \\end{bmatrix}[/latex] The corresponding orthogonal vector in the given option is C i.e. [latex]x_2=\\begin{bmatrix} 1\\\\ 0\\\\ -1 \\end{bmatrix}[/latex] [latex]{x_1}^T\\cdot x_2=\\begin{bmatrix} 1 & 0 & 1 \\end{bmatrix}\\begin{bmatrix} 1\\\\ 0\\\\ -1 \\end{bmatrix}=1+0-1=0[/latex]",
+    "options": {
+      "A": "[latex]\\begin{bmatrix} 0\\\\ 0\\\\ -1 \\end{bmatrix}[/latex]",
+      "B": "[latex]\\begin{bmatrix} -1\\\\ 0\\\\ 0 \\end{bmatrix}[/latex]",
+      "C": "[latex]\\begin{bmatrix} 1\\\\ 0\\\\ -1 \\end{bmatrix}[/latex]",
+      "D": "[latex]\\begin{bmatrix} 1\\\\ -1\\\\ 1 \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 For the power semiconductor devices IGBT, MOSFET, Diode and Thyristor, which one of the\nfollowing statements is TRUE?",
+    "solution": "",
+    "options": {
+      "A": "All of the four are majority carrier devices.",
+      "B": "All the four are minority carrier devices",
+      "C": "IGBT and MOSFET are majority carrier devices, whereas Diode and Thyristor are minority\ncarrier devices.",
+      "D": "MOSFET is majority carrier device, whereas IGBT, Diode, Thyristor are minority carrier\ndevices."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 Consider the unity feedback control system shown. The value of K that results in a phase margin of the system to be [latex]30^{\\circ}[/latex] is _______.",
+    "solution": "Forward path transfer function,[latex]G(s)=\\frac{Ke^{-s}}{s} [/latex] Given, Phase margin [latex]=30^{\\circ} [/latex] Phase margin [latex]=180^{\\circ}+\\phi[/latex] [latex] 30^{\\circ}=180^{\\circ}+\\phi [/latex] [latex]\\phi =-150^{\\circ} [/latex] [latex]\\phi =\\angle G(j\\omega )_{\\omega =\\omega _{gc}} [/latex] [where [latex]\\omega _{gc}[/latex] is gain crossover frequency ] [latex] \\angle G(j\\omega )=-90^{\\circ}-57.3\\omega ^{\\circ}[/latex] At [latex] \\omega =\\omega _{gc}[/latex] [latex] |G(j\\omega )|=1 [/latex] [latex]\\frac{k \\times 1}{\\omega }=1 [/latex] [latex]\\Rightarrow \\omega =\\omega _{gc}=K \\; rad/sec.[/latex] [latex]\\therefore \\;\\;  \\angle G(j\\omega )_{\\omega =\\omega _{gc}}=-90^{\\circ}-57.3K^{\\circ} [/latex] [latex]-90^{\\circ}-57.3K^{\\circ}=-150^{\\circ} [/latex] [latex]-57.3K^{\\circ}=60^{\\circ} [/latex] [latex]K=\\frac{60}{57.3}=1.047[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page3_q4.webp",
+    "min": 1.01,
+    "max": 1.06
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 A solid iron cylinder is placed in a region containing a uniform magnetic field such that the cylinder axis is parallel to the magnetic field direction. The magnetic field lines inside the cylinder will",
+    "solution": "Iron being a ferromagnetic material, magnetic lines of force bend closer to cylindrical axis.",
+    "options": {
+      "A": "bend closer to the cylinder axis",
+      "B": "bend farther away from the axis",
+      "C": "remain uniform as before",
+      "D": "cease to exist inside the cylinder"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 16 Let [latex]I=c\\int \\int_{R}xy^{2}dxdy[/latex], where R is the region shown in the figure and [latex]c=6 \\times 10^{-4}[/latex]. The value of I equals________",
+    "solution": "[latex]\\begin{aligned}\nI&=C\\int \\int xy^2\\; dx \\; dy\\\\\n&=C\\int_{x=1}^{5}\\int_{y=0}^{2x}xy^2\\; dx \\; dy\\\\\n&=C\\int_{1}^{5}x\\left.\\begin{matrix}\n\\left ( \\frac{y^3}{3} \\right )\n\\end{matrix}\\right|_{0}^{2x}\\; dx\\\\\n&=C\\int_{1}^{5}x\\frac{8x^3}{3}dx\\\\\n&=C\\int_{1}^{5}8\\frac{x^4}{3}dx\\\\\n&=C\\frac{8}{3}\\left.\\begin{matrix}\n\\left ( \\frac{x^5}{5} \\right )\n\\end{matrix}\\right|_{1}^5\\\\\n&=\\frac{8C}{3}\\left ( 5^4-\\frac{1}{5} \\right )\\\\\n&=\\frac{8C}{3}(625-0.2)\\\\\n&=\\frac{8}{3}(6 \\times 10^{-4})(625-0.2)\\\\\n&=0.99968\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page4_q1.webp",
+    "min": 0.99,
+    "max": 1.01
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Consider the system with following input-output relation y[n]=[latex](1+(-1)^{n})x[n][/latex] where, x[n] is the input and y[n] is the output. The system is",
+    "solution": "Given relationship, [latex]y(n)=[1+(-1)^n]x(n)[/latex] Time invariance test: Since, [latex]y(n-1)\\neq y'(n)[/latex] So, the system is time invariant. Invertibility test: Thus, we are getting many to one mapping between input and output. So, the system is non-invertible.",
+    "options": {
+      "A": "invertible and time invariant",
+      "B": "invertible and time varying",
+      "C": "non-invertible and time invariant",
+      "D": "non-invertible and time varying"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 The slope and level detector circuit in a CRO has a delay of 100 ns. The start-stop sweep\ngenerator has a response time of 50 ns. In order to display correctly, a delay line of",
+    "solution": "A delay line of 150ns has to be inserted  into the y-channel to get synchronous  between sweep signal applied to x-plate  and test signal applied to y-plate.",
+    "options": {
+      "A": "150 ns has to be inserted into the y-channel",
+      "B": "150 ns has to be inserted into the x-channel",
+      "C": "150 ns has to be inserted into both x and y channels",
+      "D": "100 ns has to be inserted into both x and y channels"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 A 3-phase voltage source inverter is supplied from a 600V DC source as shown in the figure\nbelow. For a star connected resistive load of 20 [latex]\\Omega[/latex] per phase, the load power for 120[latex]^{\\circ}[/latex] device conduction, in kW is __________.",
+    "solution": "[latex]\\begin{aligned} V_{rms}&=\\sqrt{\\frac{1}{\\pi}(300)^2\\frac{2 \\pi}{3}}\\\\ &=300\\sqrt{\\frac{2}{3}}=244.94V\\\\ 3\\frac{V^2}{R}&=\\frac{3 \\times (244.94)^2}{20}=9kW \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page4_q4.webp",
+    "min": 8.5,
+    "max": 9.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 A closed loop system has the characteristic equation given by [latex]s^{3}+Ks^{2}+(K+2)s+3=0[/latex]. For this system to be stable, which one of the following conditions should be satisfied?",
+    "solution": "Characteristic equation is, [latex]s^3+Ks^2+(K+2)s+3=0[/latex] For this system to be stable, using Routh's criterion, we can write, [latex]3 \\lt K(K+2) [/latex] or,   [latex]K^2+2K-3 \\gt 0 [/latex] or, [latex](K+3)(K-1) \\gt 0[/latex] Here, the valid answer will be out of all the options given. [latex] i.e K \\gt 1.[/latex]",
+    "options": {
+      "A": "[latex]0 \\lt K \\lt 0.5[/latex]",
+      "B": "[latex]0\\lt K \\lt 1[/latex]",
+      "C": "[latex]0 \\lt K \\lt 1[/latex]",
+      "D": "[latex] K \\gt 1[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 A 4 pole induction machine is working as an induction generator. The generator supply\nfrequency is 60 Hz. The rotor current frequency is 5 Hz. The mechanical speed of the rotor in\nRPM is",
+    "solution": "Induction Generator Mode: [latex]\\begin{aligned} N & \\gt N_s \\;\\;\\text{i.e.(s is negative)} \\\\ \\because \\;\\; P &=4,\\; f=60Hz \\\\ N_s&=1800 \\; \\text{rpm} \\end{aligned} [/latex] Rotor frequency given [latex]= 5Hz \\Rightarrow (s \\times f) [/latex] [latex]\\begin{aligned} \\because \\;\\; f &=60Hz \\\\ \\therefore \\;\\; s &=\\frac{5}{60}=0.0833 \\end{aligned} [/latex] [latex]\\because[/latex]   It is induction generator slip will be -0.0833. [latex]\\begin{aligned} s &=\\frac{1800-N}{1800}=-0.0833 \\\\ N &=1950 \\; \\text{rpm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "1350",
+      "B": "1650",
+      "C": "1950",
+      "D": "2250"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 For the circuit shown in the figure below, assume that diodes [latex]D_1,D_2 [/latex] and [latex] D_3[/latex] are ideal. The DC components of voltages [latex]v_1 \\; and \\; v_2[/latex], respectively are",
+    "solution": "[latex]\\begin{aligned} V_{2\\; avg}&=\\frac{V_m}{\\pi}=\\frac{\\pi/2}{\\pi}=\\frac{1}{2}=0.5V \\\\ V_{1\\; avg} &=\\frac{1}{2 \\pi}[ \\int_{0}^{\\pi}\\frac{\\pi}{2}\\sin 100 \\pi t\\cdot d(\\omega t)\\\\ &+\\int_{\\pi}^{2\\pi} \\pi \\sin 100 \\pi t\\cdot d(\\omega t) ]\\\\ &= -0.5V \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page5_q2.webp",
+    "options": {
+      "A": "0 V and 1 V",
+      "B": "-0.5 V and 0.5 V",
+      "C": "1 V and 0.5 V",
+      "D": "1 V and 1 V"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 A 10-bus power system consists of four generator buses indexed as G1, G2, G3, G4 and six load\nbuses indexed as L1, L2, L3, L4, L5, L6. The generator bus G1 is considered as slack bus, and\nthe load buses L3 and L4 are voltage controlled buses. The generator at bus G2 cannot supply\nthe required reactive power demand, and hence it is operating at its maximum reactive power\nlimit. The number of non-linear equations required for solving the load flow problem using\nNewton-Raphson method in polar form is _______.",
+    "solution": "Total number of buses [latex]\\equiv 10[/latex] [latex]G_1 \\equiv[/latex] slack bus [latex]G_2 \\equiv[/latex] PQ bus (reactive power limit is reached) Minimum number of non linear equation to be sloved = Number of unknown bus voltage variables [latex]=(2 \\times 10 -4-2)=14[/latex]",
+    "min": 14.0,
+    "max": 14.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 The power supplied by the 25 V source in the figure shown below is ________W.",
+    "solution": "Using KCL at node , we get [latex]I+0.4I=14[/latex] [latex] I=10A [/latex] Now, power supplied, [latex]P=25 \\times 10=250W[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page5_q4.webp",
+    "min": 248.0,
+    "max": 252.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 In the converter circuit shown below, the switches are controlled such that the load voltage [latex]v_o(t)[/latex] \nis a 400 Hz square wave.\nThe RMS value of the fundamental component of [latex]v_o(t)[/latex] in volts is _______.",
+    "solution": "[latex]V_{01}=\\frac{4V_s}{\\sqrt{2} \\pi}=\\frac{4 \\times 220}{\\sqrt{2} \\pi}=198.06V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page5_q5.webp",
+    "min": 196.0,
+    "max": 200.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 The output expression for the Karnaugh map shown below is",
+    "solution": "[latex]ABC+B\\bar{D}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page6_q1.webp",
+    "options": {
+      "A": "[latex]B\\bar{D}+BCD[/latex]",
+      "B": "[latex]B\\bar{D}+AB[/latex]",
+      "C": "[latex]B\\bar{D}+ABC[/latex]",
+      "D": "[latex]B\\bar{D}+ABC[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 A 220 V DC series motor runs drawing a current of 30 A from the supply. Armature and field\ncircuit resistances are 0.4 [latex]\\Omega[/latex] and 0.1 [latex]\\Omega[/latex] respectively. The load torque varies as the square of the speed. The flux in the motor may be taken as being proportional to the armature current. To reduce the speed of the motor by 50% the resistance in ohms that should be added in series with the armature is _________.",
+    "solution": "[latex]\\begin{aligned}\nT &\\propto N^2 \\\\ \n \\phi &\\propto I_a \\\\ \nT &\\propto I_a^2\\\\ \n\\therefore \\; N^2 &\\propto I_a^2 \\\\ \n \\therefore \\; \\frac{N_2}{N_1}&= \\frac{I_{a2}}{I_{a1}}\\\\ \n \\therefore \\; 0.5&= \\frac{I_{a2}}{30}\\\\ \n \\Rightarrow \\; I_{a2}&=15A \\\\ \n&\\text{For series motor,}\\\\\n\\frac{N_2}{N_1} &= \\frac{E_{b2}}{E_{b1}}\\times \\frac{I_{a1}}{I_{a2}}\\\\ \n \\therefore \\; 0.5 &= \\frac{E_{b2}}{E_{b1}} \\times \\frac{30}{15}\\\\ \n \\therefore \\; \\frac{E_{b2}}{E_{b1}}&= 0.25\\\\ \nE_{b1} &=220-30(0.4+0.1) \\\\ \nE_{b1} &=205V \\\\ \n\\therefore \\; E_{b2}&=51.25V \\\\ \n\\therefore \\; E_{b2} &= V-I_{a2}(R_a+R_{se}+R_{ext})\\\\ \n51.25 &= 220-15(0.4+0.1+R_{ext})\\\\\n\\therefore \\;R_{ext}&=10.75\\Omega \n\\end{aligned}\n[/latex]",
+    "min": 9.5,
+    "max": 12.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 The transfer function of the system Y(s)/U(s) whose state-space equations are given below is: [latex]\\begin{bmatrix} \\dot{x_{1}}(t)\\\\ \\dot{x_{2}}(t) \\end{bmatrix} =\\begin{bmatrix} 1 & 2\\\\ 2&0 \\end{bmatrix} \\begin{bmatrix} {x_{1}}(t)\\\\ {x_{2}}(t) \\end{bmatrix}+\\begin{bmatrix} 1\\\\ 2 \\end{bmatrix} u(t)[/latex] [latex]y(t)=[10] \\begin{bmatrix} {x_{1}}(t)\\\\ {x_{2}}(t) \\end{bmatrix}[/latex]",
+    "solution": "[latex]\\begin{aligned} \r\n\\text{Given:  } \\dot{X}&=\\begin{bmatrix} 1 & 2\\\\ 2 & 0 \\end{bmatrix}X+\\begin{bmatrix} 1\\\\ 2 \\end{bmatrix}u \\\\ \\text{and  } Y&=\\begin{bmatrix} 1 & 0 \\end{bmatrix}X \\\\ \\text{Transfer function} &=C[sI-A]^{-1}B+D \\\\ [sI-A]^{-1}&=\\begin{bmatrix} \\frac{s}{s^2-s-4} & \\frac{2}{s^2-s-4}\\\\ \\frac{2}{s^2-s-4} & \\frac{s-1}{s^2-s-4} \\end{bmatrix} \\\\ [sI-A]^{-1} \\times B&=\\begin{bmatrix} \\frac{s+4}{s^2-s-4}\\\\ \\frac{s-1}{s^2-s-4} \\end{bmatrix} \\\\ \r\n\\frac{Y(s)}{U(s)}&=C[sI-A]^{-1} \\times B \\\\ &=\\frac{s+4}{s^2-s-4}\r\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{(s+2)}{(s^{2}-2s-2)}[/latex]",
+      "B": "[latex]\\frac{(s-2)}{(s^{2}+s-4)}[/latex]",
+      "C": "[latex]\\frac{(s-4)}{(s^{2}+s-4)}[/latex]",
+      "D": "[latex]\\frac{(s+4)}{(s^{2}-s-4)}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 The load shown in the figure is supplied by a 400 V (line to line) 3-phase source (RYB\nsequence). The load is balanced and inductive, drawing 3464 VA. When the switch S is in\nposition N, the three watt-meters [latex]W_1,W_2 \\; and \\; W_3[/latex] read 577.35W each. If the switch is moved to\nposition Y, the readings of the watt-meters in watts will be:",
+    "solution": "When switch is on Neutral side [latex]\\begin{aligned} W &= W_1+W_2+W_3\\\\ &=577.35+577.35+577.35 \\\\ &=1732 \\; Watts \\\\ \\text{VA load} &= 3464 =3 V_{ph}I_{ph}\\\\ \\Rightarrow \\; V_{ph}I_{ph} &=1154.66 \\end{aligned}[/latex] Each [latex]\\Omega[/latex] meter reading [latex]\\begin{aligned} &= V_{RN}I_{R} \\cos (\\angle V_{RN} \\; \\text{and}\\; I_R)\\\\ 577.35&= V_{ph}I_{ph} \\cos (\\phi )\\\\ \\cos (\\phi ) &=\\frac{577.35}{1154.66}=05 \\\\ \\phi &= \\cos ^{-1} (0.5)=60^{\\circ} \\end{aligned} [/latex] When switch is on Y-phase side, [latex]\\begin{aligned} W_1&= V_{RY}I_R \\cos (\\angle V_{RY} \\; \\text{and}\\; I_R)\\\\ &= \\sqrt{3} V_{ph}I_{ph} \\cos (30^{\\circ}+\\phi ) \\\\ &= \\sqrt{3} \\times 1154.66 \\times \\cos (30^{\\circ}+ 60^{\\circ})\\\\ &= 0 \\text{Watt}\\\\ W_3 &= V_{BY}I_R \\cos (\\angle V_{BY} \\; \\text{and}\\; I_R)\\\\ &=\\sqrt{3} V_{ph}I_{ph} \\cos (30^{\\circ}-\\phi )\\\\ &=\\sqrt{3} \\times 1154.66 \\times \\cos (30^{\\circ}- 60^{\\circ}) \\\\ &= 1732 \\text{Watt}\\\\ W_1&=0\\\\ W_2&=0\\\\ W_3&=1732 \\text{Watt} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page6_q4.webp",
+    "options": {
+      "A": "[latex]W_1=1732 \\; and \\; W_2 =W_3=0[/latex]",
+      "B": "[latex]W_1=0 , W_2 =1732 \\; and \\; W_3=0[/latex]",
+      "C": "[latex]W_1=866, W_2 =0 , W_3=866[/latex]",
+      "D": "[latex]W_1=W_2 =0 \\; and \\; W_3=1732[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Two passive two-port networks are connected in cascade as shown in figure. A voltage source is\r\nconnected at port 1. Given [latex]V_{1}=A_{1}V_{2}+B_{1}I_{2}[/latex] [latex] I_{1}=C_{1}V_{2}+D_{1}I_{2}[/latex] [latex] V_{2}=A_{2}V_{3}+B_{2}I_{3}[/latex] [latex] I_{2}=C_{2}V_{3}+D_{2}I_{3} [/latex] [latex]A_{1},B_{1},C_{1},D_{1},A_{2},B_{2},C_{2} \\; and \\; D_{2}[/latex] are the generalized circuit constants. If the Thevenin equivalent circuit at port 3 consists of a voltage source [latex]V_T[/latex] and impedance [latex]Z_T[/latex] connected in series, then",
+    "solution": "For two port network, we can write, [latex]\\begin{bmatrix} A &B \\\\ C & D \\end{bmatrix}=\\begin{bmatrix} A_1 & B_1\\\\ C_1 & D_1 \\end{bmatrix}\\begin{bmatrix} A_2 & B_2\\\\ C_2 & D_2 \\end{bmatrix}[/latex] [latex] A=A_1A_2+B_1C_2\\;\\;...(i) [/latex] [latex]B=A_1B_2+B_1D_2\\;\\;...(ii) [/latex] [latex]V_1=AV_2-BI_2\\;\\;...(iii) [/latex] To get, [latex]V_T(I_2=0)[/latex]; from equation (iii) [latex]V_2=V_T=\\frac{V_1}{A}=\\frac{V_1}{A_1A_2+B_1C_2} [/latex] To get [latex]Z_T(V_1=0)[/latex]; from equation (iii) [latex]V_1=AV_2-BI_2 [/latex] [latex]0=AV_2-BI_2[/latex] [latex] Z_T=\\frac{V_2}{I_2}=\\frac{B}{A}=\\frac{A_1B_2+B_1D_2}{A_1A_2+B_1C_2}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page6_q5.webp",
+    "options": {
+      "A": "[latex]V_{T}=\\frac{V_{1}}{A_{1}A_{2}}[/latex], [latex]Z_{T}=\\frac{A_{1}B_{2}+B_{1}D_{2}}{A_{1}A_{2}+B_{1}C_{2}}[/latex]",
+      "B": "[latex]V_{T}=\\frac{V_{1}}{A_{1}A_{2}+B_{1}C_{2}}[/latex], [latex]Z_{T}=\\frac{A_{1}B_{2}+B_{1}D_{2}}{A_{1}A_{2}}[/latex]",
+      "C": "[latex]V_{T}=\\frac{V_{1}}{A_{1}+A_{2}}[/latex], [latex]Z_{T}=\\frac{A_{1}B_{2}+B_{1}D_{2}}{A_{1}A_{2}+B_{1}C_{2}}[/latex]",
+      "D": "[latex]V_{T}=\\frac{V_{1}}{A_{1}A_{2}+B_{1}C_{2}}[/latex], [latex]Z_{T}=\\frac{A_{1}B_{2}+B_{1}D_{2}}{A_{1}A_{2}+B_{1}C_{2}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 The circuit shown in the figure uses matched transistors with a thermal voltage [latex]V_T[/latex]=25mV.\n The base currents of the transistors are negligible. The value of the resistance R in k[latex]\\Omega[/latex] that is required to provide 1[latex]\\mu[/latex]A bias current for the differential amplifier block shown is ______.",
+    "solution": "[latex]V_{BE1}=V_{BE2}+I_0R [/latex] [latex]I_0R=V_{BE1}-V_{BE2} =V_I ln\\left ( \\frac{I_R}{I_3} \\right )-V_T ln \\left ( \\frac{I_0}{I_3} \\right )[/latex] where,   [latex]I_s\\rightarrow[/latex] Reverse saturation current [latex]R=\\frac{V_T ln\\left ( \\frac{I_R}{I_0} \\right )}{I_0}=\\frac{0.025 ln\\left ( \\frac{1mA}{1\\mu A} \\right )}{1\\mu A} \r\n =\\frac{0.025 ln (10^3)}{1\\mu A}=172.7 k\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page7_q1.webp",
+    "min": 170.0,
+    "max": 174.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 The figure below shows an uncontrolled diode bridge rectifier supplied form a 220\r\nV, 50 Hz 1-phase ac source. The load draws a constant current  [latex]I_o=14A[/latex]. The\r\nconduction angle of the diode [latex]D_1[/latex] in degrees is___________.",
+    "solution": "Average reduction in output voltage due to source inductance [latex]=\\Delta V_{d0}[/latex] [latex]\\begin{aligned} \\Delta V_{d0}&=4fL_s I_0\\\\ &=4 \\times 50 \\times (10.10^{-3})\\times 14\\\\ &=28V\\\\ \\Delta V_{d0}&=\\frac{V_m}{\\pi}[( \\cos \\alpha - \\cos (\\alpha +\\mu ))]\\\\ \\alpha =0,\\\\ 28&=\\frac{V_m}{\\pi}[1-\\cos \\alpha ]\\\\ 0.282&=1- \\cos \\alpha \\\\ \\cos \\alpha &=0.717\\\\ \\mu &=44.17^{\\circ}\\\\ \\therefore \\; & \\text{Conduction angle of diode}\\\\ &=180^{\\circ}+44.17^{\\circ}\\\\ &=224.17^{\\circ} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page7_q2.webp",
+    "min": 220.0,
+    "max": 230.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 Consider the differential equation [latex](t^{2}-81)\\frac{dy}{dt}+5ty=sin(t)[/latex] with [latex] y(1)=2\\pi[/latex]. There exists a unique solution for this differential equation when t belongs to the interval",
+    "solution": "The differentail equation, [latex]\\begin{aligned}\r\n(t^2-81)\\frac{dy}{dt}+5+y&= \\sin t\\\\\r\n\\frac{dy}{dt}+\\frac{5t}{t^2-81}y&=\\frac{\\sin t }{t^2-81}\\\\\r\nP&=\\frac{5t}{t^2-81}\\\\\r\nQ&=\\frac{\\sin t}{t^2-81}\\\\\r\nI.F&=e^{\\int \\rho dt}=e^{\\int \\frac{5t}{t^2-81}dt}\\\\\r\n&=e^{\\frac{5}{2}\\int \\frac{2t}{t^2-81}dt}=e^{\\frac{5}{2}\\ln ({t^2-81})}\\\\\r\n&=e^{\\ln {(t^2-81)^{5/2}}}=(t^2-81)^{5/2}\\\\\r\n\\text{Solution is }&\\\\\r\ny(t^2-81)^{5/2}&=\\int \\frac{\\sin t}{t^2-81}(t^2-81)^{5/2}dt\\\\\r\ny&=\\frac{\\int (\\sin t)(t^2-81)^{3/2}dt}{(t^2-81)^{5/2}}+\\frac{C}{(t^2-81)^{5/2}}\\\\\r\n&\\text{The solution exist for  } t\\neq -9, t\\neq +9\r\n\\end{aligned}[/latex] Only option (A) not cover 9 and -9. Hence it is correct.",
+    "options": {
+      "A": "(-2,2)",
+      "B": "(-10,10)",
+      "C": "(-10,2)",
+      "D": "(0,10)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 A separately excited DC generator supplies 150 A to a 145 V DC grid. The generator is running\r\nat 800 RPM. The armature resistance of the generator is 0.1 [latex]\\Omega[/latex]. If the speed of the generator is increased to 1000 RPM, the current in amperes supplied by the generator to the DC grid is _______.",
+    "solution": "Given, [latex]R_a=0.1\\Omega[/latex] As, DC generator is connected with DC grid, the output voltage will be constant. When generator is running at 800 rpm, Generator emf, [latex]\\begin{aligned} E_{a1} &=V+I_{a1}R-a \\\\ &= 145+150 \\times 0.1\\\\ &= 160V \\end{aligned}[/latex] When generator is running at 1000 rpm, Generator emf, [latex]\\begin{aligned} E_{a2} &=E_{a1} \\times \\frac{N_2}{N_1}\\\\ &= 160 \\times \\frac{1000}{800}\\\\ &= 200V \\end{aligned}[/latex] So, new armature currrent will be, [latex]\\begin{aligned} I_{a2} &=\\frac{E_{a2}-V}{R_a}\\\\ &= \\frac{200-145}{0.1}\\\\ &= 550A \\end{aligned}[/latex]",
+    "min": 548.0,
+    "max": 552.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 In the circuit shown below, the maximum power transferred to the resistor R is _______ W.",
+    "solution": "To get [latex]R_{th}[/latex] and [latex]V_{th}[/latex], consider the following steps. Case-1: For [latex]R_{th}[/latex] For [latex]V_{th}[/latex] Applying KCL at node, [latex]\\frac{V_{th}-5}{5}+\\frac{V_{th}+16}{5}=0 [/latex] [latex]2V_{th}=-11 [/latex] [latex]V_{th}=-5.5 V [/latex] Maximum power transferred, [latex]P_{max}=\\frac{V_{th}^2}{4R_{th}}= \\frac{5.5^2}{4 \\times 2.5}=3.025W[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page7_q5.webp",
+    "min": 3.0,
+    "max": 3.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Let a causal LTI system be characterized by the following differential equation, with initial rest\ncondition [latex]\\frac{d^{2}y}{dt^{2}}+7\\frac{dy}{dt}+10y(t)=4x(t)+5\\frac{dx(t)}{dt}[/latex] Where x(t) and y(t) are the input and output respectively. The impulse response of the system is\n(u(t) is the unit step function)",
+    "solution": "[latex]\\begin{aligned} \r\n\\frac{d^2y}{dt^2}+7\\frac{dy}{dt}+10y&=4x+5\\frac{dx}{dt} \\\\  (s^2+7s+10)Y(s)&=(4+5s)X(s)  \\\\ \\frac{Y(s)}{X(s)}&=\\frac{5s+4}{s^2+7s+10} \\\\  \\text{Impulse response}&=L^{-1}(\\text{Transfer function}) \\\\ &=L^{-1}\\frac{5s+4}{(s+2)(s+5)} \\\\ &=L^{-1}\\left [ -\\frac{2}{s+2} +\\frac{7}{s+5}\\right ] \\\\ &=-2e^{-2t}u(t)+7e^{-5t}u(t)\r\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]2e^{-2t}u(t)-7e^{-5t}u(t)[/latex]",
+      "B": "[latex]-2e^{-2t}u(t)+7e^{-5t}u(t)[/latex]",
+      "C": "[latex]7e^{-2t}u(t)-2e^{-5t}u(t)[/latex]",
+      "D": "[latex]-7e^{-2t}u(t)+2e^{-5t}u(t)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 The approximate transfer characteristic for the circuit shown below with an ideal operational\namplifier and diode will be",
+    "solution": "[latex]V_{in} \\gt 0\\;\\; V_A=+V_{55},[/latex] D on, [latex]V_o=V_{in} [/latex] [latex]V_{in} \\lt 0\\;\\; V_A=-V_{55},[/latex] D off, [latex]V_o=0[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page8_q2.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 The switch in the figure below was closed for a long time. It is opened at t=0. The current in\nthe inductor of 2 H for  [latex]t \\geq 0[/latex], is",
+    "solution": "From the given circuit, consider the following circuit diagram, After rearrangement For [latex]t \\geq 0 [/latex] [latex]I_0=i(0^-)=2.5A [/latex] We can write, [latex]i(t)=I_0e^{-\\frac{Rt}{L}} [/latex] [latex]i(t)=2.5e^{-4t}A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page8_q3.webp",
+    "options": {
+      "A": "[latex]2.5e^{-4t}[/latex]",
+      "B": "[latex]5e^{-4t}[/latex]",
+      "C": "[latex]2.5e^{-0.25t}[/latex]",
+      "D": "[latex]5e^{-0.25t}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 The bus admittance matrix for a power system network is [latex]\\begin{bmatrix} -j39.9 & j20 & j20\\\\ j20 & -j39.9 & j20\\\\ j20 & j20 & -j39.9 \\end{bmatrix}[/latex]pu There is a transmission line, connected between buses 1 and 3, which is represented by the circuit shown in figure. If this transmission line is removed from service, What is the modified bus admittance matrix?",
+    "solution": "[latex]Y_{bus}=\\begin{bmatrix} -j39.9 & j20 & j20\\\\ j20 & -j39.9 &j20 \\\\ j20 & j20 & -j39.9 \\end{bmatrix}[/latex] Reactance is eliminated in between Bus 1 and 3. [latex]\\begin{aligned} Y_{11(new)} &=-j39.9-\\frac{1}{j0.05}-j0.05 \\\\ &=-j19.95 \\\\ Y_{33(new)} &=-j39.9-\\frac{1}{j0.05}-j0.05 \\\\ &=-j19.95 \\\\ Y_{13(new)} &=Y_{31}=-y_{13}-\\frac{1}{j0.05} \\\\ Y_{31(new)} &=-j20-\\frac{1}{j0.05}=0 \\end{aligned}[/latex] So, modified admittance matrix is, [latex]=\\begin{bmatrix} -j19.95 & j20 &0 \\\\ j20 & -j39.9 & j20\\\\ 0 & j20 & -j19.95 \\end{bmatrix}\\;pu[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page8_q4.webp",
+    "options": {
+      "A": "[latex]\\begin{bmatrix} -j19.9 & j20 & 0\\\\ j20 & -j39.9 & j20\\\\ 0 & j20 & -j19.9\\end{bmatrix}[/latex]",
+      "B": "[latex]\\begin{bmatrix} -j39.9 & j20 & 0\\\\ j20 & -j39.9 & j20\\\\ 0 & j20 & -j39.9 \\end{bmatrix}[/latex]",
+      "C": "[latex]\\begin{bmatrix} -j19.9 & j20 & 0\\\\ j20 & -j39.9 & j20\\\\ 0 & j20 & -j19.95 \\end{bmatrix}[/latex]",
+      "D": "[latex]\\begin{bmatrix} -j19.95 & j20 & 0\\\\ j20 & -j39.9 & j20\\\\ 0 & j20 & -j19.95 \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 In the system whose signal flow graph is shown in the figure, [latex]U_1(s)[/latex] and [latex]U_2(s)[/latex] are inputs. The\ntransfer function [latex]\\frac{Y(s)}{U_{1}(s)}[/latex] is",
+    "solution": "Transfer function, [latex]\\frac{Y(s)}{U_1(s)}=\\frac{\\frac{k_1}{LJs^2}[1]}{1-\\left [ -\\frac{R}{Ls} -\\frac{k_1k_2}{LJs^2}\\right ]} [/latex] [latex]\\frac{Y(s)}{U_1(s)}=\\frac{k_1}{JLs^2+JRs+k_1k_2}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page8_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{k_1}{JLs^2+JRs+k_1k_2}[/latex]",
+      "B": "[latex]\\frac{k_1}{JLs^2-JRs-k_1k_2}[/latex]",
+      "C": "[latex]\\frac{k_1-U_2(R+sL)}{JLs^2+(JR-U_2L)s+k_1k_2-U_2R}[/latex]",
+      "D": "[latex]\\frac{k_1-U_2(sL-R)}{JLs^2-(JR+U_2L)s-k_1k_2+U_2R}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 For a system having transfer function [latex]G(s)=\\frac{-s+1}{s+1}[/latex], a unit step input is applied at time t=0. The value of the response of the system at t=1.5 sec is __________.",
+    "solution": "[latex]\\begin{aligned} \r\nG(s)&=\\frac{-s+1}{s+1} \\\\\r\n&\\text{System output,} \\\\  Y(s)&=G(s)\\cdot \\frac{1}{s} \\\\ &=\\frac{-s+1}{s+1}\\cdot \\frac{1}{s} \\\\ &=\\frac{1}{s}-\\frac{2}{s+1} \\\\ y(t)&=u(t)-2e^{-t}u(t)\\\\ y(1.5)&=1-2e^{-1.5} \\\\ &=1-0.466=0.554\r\n\\end{aligned}[/latex]",
+    "min": 0.55,
+    "max": 0.556
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 The magnitude of magnetic flux density (B) in micro Teslas ([latex]\\mu[/latex]T) at the center of a loop of wire wound as a regular hexagon of side length 1m carrying a current (I=1A), and placed in vacuum as shown in the figure is __________.",
+    "solution": "i= 1 A Here, B at point P is [latex]B=\\frac{\\mu _0I}{4 \\pi d}(\\sin \\theta _1 +\\sin \\theta _2)[/latex] We know for each segment of hexagon magnetic field intensity due to element length dx, [latex]dH=\\frac{Idx}{4 \\pi r^2}i \\times u_r[/latex] where, [latex]i \\times u_r=(\\sin \\theta)\\hat{k}[/latex]....perpendicular to plane of paper [latex]\\begin{aligned} H &=\\int dH=\\int \\frac{I \\sin \\theta}{4 \\pi r^2}(dx)\\hat{k} \\\\ B&=\\mu _0 H \\\\ B_p&=\\frac{\\mu _0I}{4 \\pi d}(\\cos \\alpha _1+\\cos \\alpha _2)\\hat{k} \\\\ d&=\\frac{\\sqrt{3}}{2} l\\;\\;\\;...\\text{where}\\; l=1m\\\\ \\alpha _1&=\\alpha _2 =60^{\\circ}\\\\ |B_p| &=\\frac{\\mu _0 I}{4 \\pi \\frac{\\sqrt{3}}{2} }(\\cos 60^{\\circ} +\\cos 60^{\\circ}) \\\\ &\\text{for all six segment} \\\\ 6 \\times |B_p| &=\\frac{4 \\pi \\times 10^{-7} \\times 6 \\times 1}{4 \\pi \\times \\frac{\\sqrt{3}}{2} }(1) \\\\ &=\\frac{12}{\\sqrt{3}}\\times 10^{-7}=\\frac{1.20}{\\sqrt{3}}\\times 10^{-6}T \\\\ B&=0.69 \\mu T \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page9_q2.webp",
+    "min": 0.65,
+    "max": 0.75
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 The figure shows the single line diagram of a power system with a double circuit transmission\nline. The expression for electrical power is  [latex]1.5 sin\\delta[/latex], where [latex]\\delta[/latex] is the rotor angle. The system is operating at the stable equilibrium point with mechanical power equal to 1 pu. If one of the transmission line circuits is removed, the maximum value of [latex]\\delta[/latex] as the rotor swings, is 1.221 radian. If the expression for electrical power with one transmission line circuit removed is [latex] P_{max}  sin\\delta[/latex], the valueof  [latex] P_{max} [/latex], in pu is _________.",
+    "solution": "Using equal area criteria: [latex]A_1=A_2[/latex] [latex]\\int_{\\delta _0}^{\\delta _c}(P_{m0}-P_{max1} \\sin \\delta )d\\delta =\\int_{\\delta _c}^{\\delta _2}(P_{max1} \\sin \\delta -P_{m0})d\\delta[/latex] By solving above integration, [latex]P_{max1}=\\frac{P_{m0}(\\delta _2-\\delta _0)}{\\cos \\delta _0- \\cos \\delta _2}[/latex] Given data: [latex]\\begin{aligned} P_{m0} &=1pu \\\\ P_e&= 1.5 \\sin (\\delta _0)=P_{m0}=1pu\\\\ \\delta _0&41.8^{\\circ}=0.7295\\; rad \\\\ \\delta _2 &=1.221\\; rad =96.95^{\\circ} \\end{aligned}[/latex] Substitute above values in above equation, [latex]P_{max1}=\\frac{1(1.221-0.7295)}{\\cos 41.8- \\cos 69.95}=1.220 p.u.[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page9_q3.webp",
+    "min": 1.2,
+    "max": 1.24
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 A 375W, 230 V, 50 Hz capacitor start single-phase induction motor has the following constants\nfor the main and auxiliary windings (at starting): [latex]Z_{m}=(24.50+j12.75)\\Omega[/latex] (main winding), [latex]Z_{n}=(24.50+j12.75)\\Omega[/latex] (auxiliary winding).  Neglecting the magnetizing branch the value of the capacitance (in [latex]\\mu[/latex]F ) to be added in series with the auxiliary winding to obtain maximum torque at starting is _______.",
+    "solution": "Auxiliary winding impedance [latex]=(24.5+j12.75)\\Omega[/latex] Let [latex]X_c[/latex] be the reactance of the capacitor connected in auxiliary winding [latex]\r\n\\begin{aligned}\r\nZ_a &= (24.5+j12.75-jX_c)\\Omega \\\\ \r\nX_a &=(X_c-12.75),\\; R_a=24.5\\Omega  \\\\ \r\n\\therefore \\;\\; \\phi _a &=\\tan^{-1}\\frac{X_c-12.75}{24.5}\\;...(i) \\\\ \r\n Z_m&= 12.5+j15.75\\\\ \r\n &= 20.10\\angle 51.56^{\\circ}\\Omega \\\\ \r\n \\phi _m&= 51.56^{\\circ}\r\n\\end{aligned}[/latex] For maximum torque at starting, condition on [latex] \\phi _a[/latex] and [latex]\\phi _m[/latex] is given by [latex]\\left [ \\phi _a=\\frac{90^{\\circ}-\\phi _m}{2} \\right ][/latex] [latex]\r\n\\phi _a=\\frac{90-51.56}{2}=19.22^{\\circ}}\\;...(ii)\r\n[/latex] Comparing equation (i) and (ii), [latex]\r\n\\begin{aligned}\r\n\\tan(19.22^{\\circ}) &=\\frac{X_c-12.75}{24.5} \\\\ \r\n0.3486 &= \\frac{X_c-12.75}{24.5}\\\\ \r\nX_c &=8.541+12.75 \\\\ \r\n \\text{Capacitive reactance,}& \\\\ \r\nX_c &= 21.291\\Omega \\\\ \r\n \\frac{1}{2 \\pi fc}&= 21.291\\\\ \r\n \\Rightarrow \\;C&= \\frac{1}{2\\pi \\times 50 \\times 21.291}\\\\ \r\n &= 149.51\\mu F\r\n\\end{aligned}[/latex]",
+    "min": 145.0,
+    "max": 155.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 A function f(x) is defined as [latex]f(x)=\\left\\{\\begin{matrix} e^{x}, & x \\lt 1\\\\ lnx+ax^{2}+bx & x\\geq 1 \\end{matrix}\\right. \\; where\\;  x\\in \\mathbb{R}[/latex]. Which one of the following statements is TRUE?",
+    "solution": "[latex]f(x)=\\left\\{\\begin{matrix} e^x & x \\lt 1\\\\ \\ln x+ax^2+bx & x \\gt 1 \\end{matrix}\\right.[/latex] At x=1, L.H.S=R.H.S e=a+b    ...(i) At x=1, f'(x) exists [latex]f'(x)=\\left\\{\\begin{matrix} e^x & x \\lt 1\\\\ \\frac{1}{x}+20x+b & x \\gt 1 \\end{matrix}\\right.[/latex] At x=1, L.H.S=R.H.S e=1+2a+b 2a+b=e-1   ...(ii) From equation (i) and (ii), a=-1 b=e+1 f(x) is differentiable at x=1 for unique value of a and b.",
+    "options": {
+      "A": "f(x) is NOT differentiable at x=1 for any values of a and b.",
+      "B": "f(x) is differentiable at x = 1 for the unique values of a and b",
+      "C": "f(x) is differentiable at x = 1 for all values of a and b such that a + b = e",
+      "D": "f(x) is differentiable at x = 1 for all values of a and b."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 Consider a causal and stable LTI system with rational transfer function H(z). Whose\ncorresponding impulse response begins at n = 0. Furthermore, [latex]H(1)=\\frac{5}{4}[/latex]. The poles of H(z) are [latex]P_{k}=\\frac{1}{\\sqrt{2}}exp(j\\frac{(2k-1)\\pi }{4})[/latex] for k = 1,2,3,4. The zeros of H(z) are all at z = 0. Let [latex]g[n]=j^nh[n][/latex]. The value of g[8] equals ___________.",
+    "solution": "Pole locationof H(z) are given as, [latex]\\begin{aligned} z&=\\frac{1}{\\sqrt{2}}e^{j(2K-1)\\frac{\\pi}{4}};\\;\\;K=1,2,3,4\\\\ z_1&=\\frac{1}{\\sqrt{2}}e^{j\\frac{\\pi}{4}} =\\frac{1}{2}(1+j)\\\\ z_2&=\\frac{1}{\\sqrt{2}}e^{j\\frac{3\\pi}{4}} =\\frac{1}{2}(-1+j)\\\\ z_3&=\\frac{1}{\\sqrt{2}}e^{j\\frac{5\\pi}{4}} =\\frac{1}{2}(-1-j)\\\\ z_4&=\\frac{1}{\\sqrt{2}}e^{j\\frac{7\\pi}{4}} =\\frac{1}{2}(1-j)\\\\ \\text{Now,}\\\\ H(z)&=\\frac{K\\cdot z^4}{(z-z_1)(z-z_2)(z-z_3)(z-z_4)}...(i) \\end{aligned}[/latex] [As h(n) is causal and it starts from n=0, so numerator will have same order as denominator is having]. by solving equation (i) [latex]\\begin{aligned}\nH(z)&=\\frac{K\\cdot z^4}{z^4+\\frac{1}{4}}\\;\\;...(ii)\\\\\n&\\text{Given that,}\\\\\nH(1)&=\\frac{5}{4}\\\\\n&\\text{From equation (ii),}\\\\\nH(1)&=\\frac{K}{1+\\frac{1}{4}}\\Rightarrow \\frac{5}{4}=\\frac{K}{\\frac{5}{4}}\\\\\n\\Rightarrow \\; K&=\\frac{25}{16}\\\\\nH(z)&=\\frac{\\frac{25}{16}z^4}{z^4+\\frac{1}{4}}\\\\\n&\\text{By using division rule,}\\\\\nH(z)&=\\frac{25}{16}\\left [ 1+\\frac{1}{4}z^{-4}+\\frac{1}{16}z^{-8}+... \\right ]\\\\\n\\text{Thus, }h(8)&=\\frac{1}{16} \\times \\frac{25}{16}=0.097\\\\\n&\\text{it is given that,}\\\\\ng(n)&=j^nh(n)\\\\\ng(8)&=j^8h(8)=h(8)\\\\\n\\Rightarrow \\; g(8)&=h(8)=0.097\n\\end{aligned}[/latex]",
+    "min": 0.09,
+    "max": 0.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 Only one of the real roots of [latex]f(x)=x^{6}-x-1[/latex] lies in the interval [latex]1\\leq x\\leq 2[/latex] and bisection method is used to find its value. For achieving an accuracy of 0.001, the required minimum number of iterations is ________.",
+    "solution": "[latex]\\begin{aligned} f(x)&=x^6-x-1\\\\ a&=1, b=2, \\in =0.01=10^{-3} \\end{aligned}[/latex] The minimum number of iterations by Bisection method is given by [latex]\\begin{aligned} \\frac{|b-a|}{2^n} &\\lt \\in\\\\ \\frac{2-1}{2^n} &\\lt 10^{-3}\\\\ \\frac{1}{2^n} &\\lt \\frac{1}{10^{-3}}\\\\ 2^n &\\gt 10^3\\\\ n &\\gt \\frac{\\ln 1000}{\\ln 2}\\\\ n &\\gt 9.96\\\\ n&=10 \\end{aligned}[/latex]",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 Two parallel connected, three-phase, 50Hz, 11kV, star-connected synchronous machines A and\nB, are operating as synchronous condensers. They together supply 50 MVAR to a 11 kV grid.\nCurrent supplied by both the machines are equal. Synchronous reactances of machine A and\nmachine B are 1[latex]\\Omega[/latex] and 3[latex]\\Omega[/latex] respectively. Assuming the magnetic circuit to be linear, the ratio of excitation current of machine A to that of machine B is ________.",
+    "solution": "Synchronous machine A: 11 kV, 50 Hz, Y connected, [latex]X_s=1\\Omega[/latex] Synchronous machine B: 11 kV, 50 Hz, Y connected, [latex]X_s=3\\Omega[/latex] Given both supplying only reactive power 50MVAR tp 11 kV grid equally [latex]\\begin{aligned} \\therefore \\; Q_A &=\\sqrt{3}VI_A \\sin \\phi =25mVAR \\\\ Q_B &= \\sqrt{3}VI_B \\sin \\phi =25mVAR\\\\ \\therefore \\;\\;I_A &=\\frac{25 \\times 10^6}{\\sqrt{3} \\times 11 \\times 10^3}=1312.2A \\\\ \\therefore \\;\\; I_B&= 1312.2A\\\\ E_A &= V-jI_AX_s\\\\ &=\\frac{11 \\times 10^3}{\\sqrt{3}}-j1312.2\\angle 90 \\times 1 \\\\ E_B &=V_jI_BX_s \\\\ &= =\\frac{11 \\times 10^3}{\\sqrt{3}}-j1312.2\\angle 90 \\times 3 \\end{aligned} [/latex] Given magnetic circuit to be linear, [latex]\\begin{aligned} \\therefore \\;\\; E &\\propto I_f \\\\ \\therefore \\;\\; \\frac{I_{f_A}}{I_{f_B}}&=\\frac{E_A}{E_B} \\\\ E_A&=7663.05V \\\\ E_B &= 10287.45V \\end{aligned}[/latex] Therefore, ratio of excitation current of machine A to machine B [latex] \\frac{E_A}{E_B}=0.745[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page10_q3.webp",
+    "min": 0.7,
+    "max": 0.79
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 The positive, negative and zero sequence reactances of a wye-connected synchronous generator\nare 0.2 pu, 0.2 pu, and 0.1 pu, respectively. The generator is on open circuit with a terminal\nvoltage of 1 pu. The minimum value of the inductive reactance, in pu, required to be connected\nbetween neutral and ground so that the fault current does not exceed 3.75 pu if a single line to\nground fault occurs at the terminals is _______ (assume fault impedance to be zero).",
+    "solution": "[latex]\\begin{aligned} Z_1&=0.2\\\\ Z_2&=0.2\\\\ Z_0&=0.1\\\\ V_{Th}&=1\\\\ I_f&=3.75\\\\ &\\text{For LG fault,}\\\\ I_f&=\\frac{3V_{Th}}{Z_1+Z_2+Z_0+3Z_n}\\\\ 3.75&=\\frac{3 \\times 1}{0.2+0.2+0.1+3Z_n}\\\\ Z_n&=0.1\\;p.u. \\end{aligned}[/latex]",
+    "min": 0.1,
+    "max": 0.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 Let the signal [latex]x(t)=\\sum_{k=-\\infty }^{+\\infty }(-1)^{k}\\delta (t-\\frac{k}{2000})[/latex] be passed through an LTI system with frequency response [latex]H(\\omega)[/latex] , as given in the figure below The Fourier series representation of the output is given as",
+    "solution": "[latex]\\begin{aligned} x(t)&=\\sum_{k=-\\infty }^{\\infty } (-1)^K \\delta \\left ( t-\\frac{K}{2000} \\right )\\\\ &= \\sum_{k=-\\infty }^{\\infty } (-1)^K \\delta (t-KT)\\\\ \\text{where, } &=T=\\frac{1}{2000} \\end{aligned}[/latex] Time period: [latex]\\begin{aligned} T_0&=2T=\\frac{1}{1000}\\\\ \\omega _0&=\\frac{2\\pi}{T_0}=2000 \\pi \\; rad \\end{aligned}[/latex] Since, x(t) is even-halt wave symmetric. So, its expansion will contain only odd harmonics of cos. Therefore, coefficient of fundamental harmonic is [latex]\\begin{aligned} a_1&=\\frac{2}{T}\\int_{-T_0/2}^{T_0/2}x(t) \\cos \\omega _0 t \\; dt\\\\ &=\\frac{4}{T_0}\\int_{0}^{T_0/2}\\delta (t) \\cos \\omega _0 t \\; dt\\\\ &=\\frac{4}{T_0}\\int_{0}^{T_0/2}\\delta (t) \\cos 0 \\; dt\\\\ &=\\frac{4}{T_0}\\left [\\int_{0}^{T_0/2}\\delta (t) \\; dt \\right ]\\\\ &=\\frac{4}{T_0}=4000 \\end{aligned}[/latex] Now, frequency components available in expansion are [latex]\\begin{aligned} \\omega _0,3\\omega _0,...\\\\ 2000\\pi, 6000 \\pi,... \\end{aligned}[/latex] As, LTI system given in the question will pass upto [latex]5000\\pi[/latex] rad/sec frequency component of input.So, output will have only one component of sfrequency [latex]2000\\pi[/latex] rad/sec Thus, y(t)= expansion of output [latex]=a_1 \\cos \\omega _0 t=4000 \\cos 2000 \\pi t[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page10_q5.webp",
+    "options": {
+      "A": "[latex]4000+4000cos(2000\\pi t)[/latex] [latex]+4000cos(4000\\pi t)[/latex]",
+      "B": "[latex]2000+2000cos(2000\\pi t)[/latex] [latex]+2000cos(4000\\pi t)[/latex]",
+      "C": "[latex]4000cos(2000\\pi t)[/latex]",
+      "D": "[latex]2000cos(2000\\pi t)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 The logical gate implemented using the circuit shown below where, [latex]V_1 \\; and \\; V_2[/latex] are inputs (with\r\n0 V as digital 0 and 5 V as digital 1) and [latex]V_{OUT}[/latex] is the output is",
+    "solution": "When [latex]V_1=[/latex] high 5 V, [latex]Q_1[/latex] on, [latex]V_{out}=0[/latex] [latex]V_2=[/latex] high 5 V, [latex]Q_2[/latex] on, [latex]V_{out}=0[/latex] Thus when any [latex]V_1[/latex] or [latex]V_2[/latex] is high then, [latex]V_{out}=0[/latex] Thus, it is a NOR gate.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page11_q1.webp",
+    "options": {
+      "A": "NOT",
+      "B": "NOR",
+      "C": "NAND",
+      "D": "XOR"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 A load is supplied by a 230 V, 50 Hz source. The active power P and the reactive power Q\r\nconsumed by the load are such that  [latex]1 kW \\leq P \\leq 2kW [/latex] and [latex]1{kVAR}  \\leq Q \\leq {kVAR}[/latex]. A capacitor connected across the load for power factor correction generates 1 kVAR reactive power. The worst case power factor after power factor correction is",
+    "solution": "Load p.f. [latex]\\begin{aligned} \\cos \\phi &=\\cos \\left [ \\tan ^{-1}\\frac{Q}{P} \\right ]\\\\ &=\\cos \\left [ \\tan^{-1}\\frac{1}{1} \\right ]\\\\ &=0.707 \\text{ lag}\\\\ Q_c&=P[\\tan \\phi _1 -\\tan \\phi _2]\\\\ 1&=(\\tan \\cos ^{-1} 0.707- \\tan \\phi _2)\\\\ \\phi _2&=45^{\\circ}\\\\ \\Rightarrow \\; \\cos \\phi _2&=0.707 \\text{ lag} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.447 lag",
+      "B": "0.707 lag",
+      "C": "0.894 lag",
+      "D": "1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 The input voltage [latex]V_{DC}[/latex] of the buck-boost converter shown below varies from 32 V to 72 V. Assume that all components are ideal, inductor current is continuous, and output voltage is ripple free. The\nrange of duty ratio D of the converter for which the magnitude of the steady state output voltage remains constant at 48 V is",
+    "solution": "[latex]\\begin{aligned} V_0&=\\frac{\\alpha V_s}{1-\\alpha }\\\\ \\text{when, } V_s&=32V \\text{ and }V_0=48V\\\\ \\alpha &=\\frac{3}{5}\\\\ \\text{when, }V_s&=72V \\text{ and }V_0=48V\\\\ \\alpha &=\\frac{2}{5}\\\\ \\frac{2}{5}\\leq &\\alpha \\leq \\frac{3}{5}\\\\ \\therefore \\; \\text{This answer is }& \\frac{2}{5}\\leq D \\leq \\frac{3}{5} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page11_q3.webp",
+    "options": {
+      "A": "[latex]\\frac{2}{5}\\leq D \\leq \\frac{3}{5}[/latex]",
+      "B": "[latex]\\frac{2}{3}\\leq D \\leq \\frac{3}{4}[/latex]",
+      "C": "[latex]0 \\leq D \\leq 1[/latex]",
+      "D": "[latex]\\frac{1}{3}\\leq D \\leq \\frac{2}{3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 A three-phase, three winding [latex]\\Delta / \\Delta / Y[/latex]  (1.1kV/6.6kV/400 V) transformer is energized from AC mains at the 1.1 kV side. It supplies 900 kVA load at 0.8 power factor lag from the 6.6 kV winding and 300 kVA load at 0.6 power factor lag from the 400 V winding. The RMS line current in ampere drawn by the 1.1 kV winding from the mains is _______.",
+    "solution": "Load on 6.6 kV winding = 900 kVA @0.8 pf lag [latex]\\therefore \\;\\; I_2=\\frac{900 \\times 10^3}{\\sqrt{3} \\times 6.6 \\times 10^3}[/latex] [latex]\\;\\;\\;\\;=78.73\\angle -36.86^{\\circ} A [/latex] Transforamtion Ratio [latex]\\begin{aligned} k &=\\frac{1.1}{6.6}=\\frac{1}{6} \\\\ \\therefore \\;\\; I'_2&=\\frac{I_2}{k}=472.4\\angle -36.86^{\\circ} A \\end{aligned}[/latex] Load on 400 V winding = 300 kVA at 0.6 p.f. [latex]\\therefore \\;\\; I_3=\\frac{300 \\times 10^3}{\\sqrt{3} \\times 400}[/latex]  [latex]=433.025\\angle -53.13^{\\circ}A [/latex] Transformation ratio [latex]= \\frac{1.1 \\times 1000}{\\frac{400}{\\sqrt{3}}}=4.76 [/latex] [latex]\\begin{aligned} I'_3 &=\\frac{I_3}{k}=\\frac{4333.025}{4.76} \\\\ &= 90.97\\angle -53.13^{\\circ}A \\end{aligned}[/latex] So, line value of current [latex]\\begin{aligned} &=\\sqrt{3} \\times 90.97\\angle -53.13^{\\circ} \\\\ &= 157.56 \\angle -53.13^{\\circ} \\end{aligned} [/latex] Current drawn by 1.1 kV winding will be [latex]\\begin{aligned} I_1&=I'_2+I'_3 \\\\ &=472.4\\angle -36.86 +157.56\\angle -53.13^{\\circ} \\\\ &=377.96 -j283.37 +94.53 -126.04 \\\\ &= 472.49 -j409.41\\\\ &= 625.19\\angle -40.9^{\\circ}A \\end{aligned}[/latex]",
+    "min": 620.0,
+    "max": 630.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 Consider the line integral [latex]I=\\int_{c}(x^{2}+iy^{2})dz[/latex] where [latex]z = x + iy[/latex]. The line C is shown in the figure below. The value of I is",
+    "solution": "From the diagram C is [latex]y=x[/latex] [latex]\\begin{aligned} I &=\\int _C (x^2+iy^2)dz\\\\ &= \\int _C (x^2+iy^2)(dx+idy)\\\\ &= \\int _C(x^2++ix^2)(dx+idy)\\\\ &= \\int _Cx^2 \\; dx+ix^2\\; dx+ix^2 \\; dx-x^2 \\; dx\\\\ &= 2i\\int_{0}^{1}x^2 \\; dx=\\left.\\begin{matrix} 2i\\left ( \\frac{x^3}{3} \\right ) \\end{matrix}\\right|_0^1=\\frac{2i}{3} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/2017_Set1/page11_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{1}{2}i[/latex]",
+      "B": "[latex]\\frac{2}{3}i[/latex]",
+      "C": "[latex]\\frac{3}{4}i[/latex]",
+      "D": "[latex]\\frac{4}{5}i[/latex]"
+    },
+    "correct_answer": "B"
+  }
+]
