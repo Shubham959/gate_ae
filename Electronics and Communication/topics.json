@@ -1,16 +1,14 @@
 {
   "topics": [
     "Engineering Mathematics",
-    "Analog Electronics",
-    "Control Systems",
-    "Digital Electronics",
-    "Electric Circuits",
-    "Electrical and Electronic Measurements",
-    "Electrical Machines",
-    "Electromagnetic Theory",
-    "Power Electronics",
-    "Power Systems",
+    "Electromagnetics",
+    "Network Theory",
     "Signal and Systems",
+    "Electronic Devices",
+    "Analog Circuits",
+    "Digital Circuits",
+    "Contorl Systems",
+    "Communication System",
     "General Aptitude"
   ]
 }
