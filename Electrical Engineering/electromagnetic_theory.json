@@ -1,0 +1,832 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Consider two coupled circuits, having selfinductances [latex]L_{1}[/latex] and [latex]L_{2}[/latex], that carry non-zero currents [latex]\\mathrm{I}_{1}[/latex] and [latex]\\mathrm{I}_{2}[/latex], respectively. The mutual inductance between the circuits is M with unity coupling coefficient. The stored magnetic energy of the coupled circuits is minimum at which of the following value(s) of [latex]\\frac{\\mathrm{I}_{1}}{\\mathrm{I}_{2}}[/latex] ?",
+    "solution": "[latex]\\mathrm{E}_{\\mathrm{s}}=\\frac{1}{2} \\mathrm{~L}_{1} \\mathrm{I}_{1}^{2}+\\frac{1}{2} \\mathrm{~L}_{2} \\mathrm{I}_{2}^{2}+\\mathrm{MI}_{1} \\mathrm{I}_{2}[/latex] [Based on given options it has to be mutally adding only] [latex]\n\\begin{aligned}\n\\frac{\\partial \\mathrm{E}_{\\mathrm{s}}}{\\partial \\mathrm{I}_{1}}=0 & \\Rightarrow \\mathrm{~L}_{1} \\mathrm{I}_{1}+\\mathrm{MI}_{2}=0 \\Rightarrow \\frac{\\mathrm{I}_{1}}{\\mathrm{I}_{2}}=-\\frac{\\mathrm{M}}{\\mathrm{~L}_{1}} \\\\\n& \\Rightarrow \\mathrm{~L}_{1} \\mathrm{I}_{1}=-\\mathrm{MI}_{2} \\\\\n\\frac{\\partial \\mathrm{E}_{\\mathrm{s}}}{\\partial \\mathrm{I}_{2}}= & \\Rightarrow \\mathrm{L}_{2} \\mathrm{I}_{2}+\\mathrm{MI}_{1}=0 \\Rightarrow \\frac{\\mathrm{I}_{1}}{\\mathrm{I}_{2}}=-\\frac{\\mathrm{L}_{2}}{\\mathrm{M}} \\\\\n& \\Rightarrow \\mathrm{~L}_{2} \\mathrm{I}_{2}=-M I_{1}\n\\end{aligned}\n[/latex] Now put both condition's together only [latex]\\mathrm{E}_{\\mathrm{s}}[/latex] is minimum, [latex]\n\\begin{aligned}\n\\mathrm{E}_{\\mathrm{s}} & =\\frac{1}{2} \\mathrm{~L}_{1} \\mathrm{I}_{1}^{2}+\\frac{1}{2} \\mathrm{~L}_{2} \\mathrm{I}_{2}^{2}+\\mathrm{MI}_{1} \\mathrm{I}_{2} \\\\\n& =\\frac{1}{2}\\left[-\\mathrm{MI}_{2}\\right]_{1}+\\frac{1}{2}\\left[-\\mathrm{MI}_{1}\\right] \\mathrm{I}_{2}+\\mathrm{MI}_{1} \\mathrm{I}_{2} \\\\\n& =0 \\mathrm{~J}\n\\end{aligned}\n[/latex]",
+    "options": {
+      "A": "[latex]-\\frac{\\mathrm{M}}{\\mathrm{L}_{1}}[/latex]",
+      "B": "[latex]-\\frac{\\mathrm{M}}{\\mathrm{L}_{2}}[/latex]",
+      "C": "[latex]-\\frac{\\mathrm{L}_{1}}{\\mathrm{M}}[/latex]",
+      "D": "[latex]-\\frac{L_{2}}{\\mathrm{M}}[/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 Let [latex]{a}_{{R}}[/latex] be the unit radial vector in the spherical co-ordinate system. For which of the following value(s) of [latex]n[/latex], the divergence of the radial vector field [latex]f(R)=a_{R} \\frac{1}{R^{n}}[/latex] is independent of [latex]R[/latex] ?",
+    "solution": "We use the divergence formula for a purely radial vector field in spherical coordinates: [latex]\n\\nabla \\cdot \\left( \\frac{1}{R^n} \\mathbf{a}_R \\right)\n= \\frac{1}{R^2} \\frac{d}{dR} \\left( R^2 \\cdot \\frac{1}{R^n} \\right)\n= \\frac{1}{R^2} \\frac{d}{dR} \\left( R^{2-n} \\right)\n= \\frac{1}{R^2} \\cdot (2 - n) R^{1 - n}\n= (2 - n) R^{-1 - n}\n[/latex] We want this expression to be independent of [latex] R [/latex], so the power of [latex] R [/latex] must be zero: [latex]\n-1 - n = 0 \\quad \\Rightarrow \\quad n = -1\n[/latex] So clearly [latex] n = -1 [/latex] is one valid value. Now check another special case: Case: [latex] n = 2 [/latex] Try plugging [latex] n = 2 [/latex] directly into the divergence expression: [latex]\n\\nabla \\cdot \\left( \\frac{1}{R^2} \\mathbf{a}_R \\right)\n= \\frac{1}{R^2} \\frac{d}{dR} \\left( R^2 \\cdot \\frac{1}{R^2} \\right)\n= \\frac{1}{R^2} \\frac{d}{dR} (1) = 0\n[/latex] So the divergence is zero, which is also independent of [latex] R [/latex].",
+    "options": {
+      "A": "-2",
+      "B": "-1",
+      "C": "1",
+      "D": "2"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 An air filled cylindrical capacitor (capacitance [latex]\\mathrm{C}_{0}[/latex] ) of length [latex]L[/latex], with [latex]a[/latex] and [latex]b[/latex] as its inner and outer radii, respectively, consists of two coaxial conducting surfaces. Its cross-sectional view is shown in Fig. (i). In order to increase the capacitance, a dielectric material of relative permittivity [latex]\\varepsilon_{\\mathrm{r}}[/latex] is inserted inside [latex]50 \\%[/latex] of the annular region as shown in Fig. (ii). The value of [latex]\\varepsilon_{\\mathrm{r}}[/latex] for which the capacitance of the capacitor in Fig. (ii), becomes [latex]5 \\mathrm{C}_{0}[/latex] is",
+    "solution": "Step 1: Capacitance of a cylindrical capacitor The capacitance of a coaxial cylindrical capacitor filled with dielectric of permittivity [latex] \\varepsilon [/latex] is given by: [latex] C = \\frac{2\\pi \\varepsilon L}{\\ln(b/a)} [/latex] So, for Fig. (i) with air throughout (i.e., permittivity [latex] \\varepsilon_0 [/latex]): [latex] C_0 = \\frac{2\\pi \\varepsilon_0 L}{\\ln(b/a)} [/latex] Step 2: For Fig. (ii) The cross-section is split into two equal parts (in parallel): One half is filled with air [latex] \\varepsilon_0 [/latex] The other half is filled with dielectric [latex] \\varepsilon_r \\varepsilon_0 [/latex] Since they are in parallel, total capacitance is: [latex] C = \\frac{1}{2} C_0 + \\frac{1}{2} \\varepsilon_r C_0 = \\frac{C_0}{2}(1 + \\varepsilon_r) [/latex] We are given that [latex] C = 5C_0 [/latex]. So: [latex] \\frac{C_0}{2}(1 + \\varepsilon_r) = 5C_0 [/latex] Divide both sides by [latex] C_0 [/latex]: [latex] \\frac{1 + \\varepsilon_r}{2} = 5 [/latex] [latex] 1 + \\varepsilon_r = 10 \\Rightarrow \\varepsilon_r = 9 [/latex] Final Answer: (C) 9",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page1_q3.webp",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "9",
+      "D": "10"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 Which one of the following figures represents the radial electric field distribution [latex]{E}_{{R}}[/latex] caused by a spherical cloud of electrons with a volume charge density, [latex]\\rho=-3 \\rho_{0}[/latex] for [latex]0 \\leq R \\leq  a[/latex]  (both [latex]\\rho_{0}[/latex], a are positive and [latex]R[/latex] is the radial distance) and [latex]\\rho=0[/latex] for [latex]{R} > {a}[/latex] ?",
+    "solution": "[latex]0 < \\mathrm{R}  < \\mathrm{a}:[/latex] [latex]\\oiint \\overline{\\mathrm{E}} \\cdot \\overline{\\mathrm{dA}}=\\frac{\\mathrm{Q}_{\\mathrm{ENC}}}{\\varepsilon_{0}}=\\frac{1}{\\varepsilon_{0}} \\iiint\\left(-3 \\rho_{0}\\right) \\mathrm{dv}[/latex] [latex]\\mathrm{E}_{\\mathrm{r}} 4 \\pi \\mathrm{R}^{2}=\\frac{1}{\\varepsilon_{0}}\\left(-3 \\rho_{0}\\right) \\frac{4}{3} \\pi \\mathrm{R}^{3}[/latex] [latex]\\mathrm{E}_{\\mathrm{r}}=\\frac{-3 \\rho_{0}}{\\varepsilon_{0}} \\frac{\\mathrm{R}}{3}=\\frac{-\\rho_{0} \\mathrm{R}}{\\varepsilon_{0}}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page1_q4.webp",
+    "options": {
+      "A": "Fig. (i)",
+      "B": "Fig. (ii)",
+      "C": "Fig. (iii)",
+      "D": "Fig. (iv)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 The given equation represents a magnetic field strength [latex] \\bar{H}(r, \\theta, \\phi) [/latex] in the spherical coordinate system, in free space. Here, [latex] \\hat{r} [/latex] and [latex] \\hat{\\theta} [/latex] represent the unit vectors along [latex] r [/latex] and [latex] \\theta [/latex], respectively. The value of [latex] P [/latex] in the equation should be _____ (rounded off to the nearest integer). [latex]\n\\bar{H}(r, \\theta, \\phi)=\\frac{1}{r^{3}}(\\hat{r} P \\cos \\theta+\\hat{\\theta} \\sin \\theta)\n [/latex]",
+    "solution": "[latex]\n\\begin{aligned}\n& \\nabla \\cdot \\bar{B}=0 \\\\\n& \\nabla \\cdot \\bar{H}=0\n\\end{aligned}\n [/latex] Spherical coordinate system, On substituting [latex] P=2 [/latex].",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 6 In the [latex] (x, y, z) [/latex] coordinate system, three point-charges [latex] Q, Q [/latex] and [latex] \\alpha Q [/latex] are located in free space at [latex] (-1,0,0),(1,0,0) [/latex] and [latex] (0,-1,0) [/latex] respectively. The value of [latex] \\alpha [/latex] for the electric field to be zero at [latex] (0,0.5,0) [/latex] is _____ (rounded off to 1 decimal places).",
+    "solution": "From the figure, [latex]\n\\left.\\bar{E}_{n e t}=\\bar{E}_{1 y}+\\bar{E}_{2 y}+\\bar{E}_{\\alpha Q}=0 \\text { [as per question }\\right]\n [/latex] Here, [latex]\n\\bar{E}_{1 y}=\\bar{E}_{2 y}=\\bar{E}_{Q} \\text { (say) }\n [/latex] [latex] \\therefore \\quad \\bar{E}_{n e t}=\\left.2 E\\right|_{Q}+\\left.2 E\\right|_{\\alpha Q}=0 [/latex] Now, [latex]\n\\left.\\bar{E}\\right|_{Q}=\\frac{k Q}{\\left[\\sqrt{1+0.5^{2}}\\right]^{2}} \\sin \\theta \\hat{a}_{y} ; \\quad k=\\frac{1}{4 \\pi \\epsilon_{o}}\n [/latex] [latex] \\left.\\Rightarrow \\quad \\bar{E}\\right|_{Q}=\\frac{k Q}{1.25} \\times \\frac{0.5}{\\sqrt{1+0.5^{2}}} \\hat{a}_{y}=0.357 k Q \\hat{a}_{y} [/latex] Also, [latex] \\left.\\quad \\bar{E}\\right|_{\\alpha Q}=\\frac{k(\\alpha Q)}{(1.5)^{2}} \\hat{a}_{y}=0.444 k(\\alpha Q) \\hat{a}_{y} [/latex] Hence, [latex] \\quad \\bar{E}_{n e t}=2 \\times 0.357 k Q \\hat{a}_{y}+0.444 k(\\alpha Q) \\hat{a}_{y}=0 [/latex] [latex] \\Rightarrow \\quad 0.715 \\mathrm{kQ}=-0.444 \\mathrm{k}(\\alpha Q) [/latex] [latex] \\Rightarrow \\quad \\alpha=\\frac{-0.715}{0.444}=-1.61 [/latex] [latex] \\therefore \\quad \\alpha=-1.61 [/latex]",
+    "min": -1.7,
+    "max": -1.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 An infinite surface of linear current density [latex]K=5 \\hat{a}_{x} A / m[/latex] exists on the [latex]x-y[/latex] plane, as shown in the figure. The magnitude of the magnetic field intensity [latex](H)[/latex] at a point [latex](1,1,1)[/latex] due to the surface current in Ampere/meter is ___ (Round off to 2 decimal places).",
+    "solution": "[latex]\n\\begin{aligned}\n\\overrightarrow{\\mathrm{a}}_{\\mathrm{N}}&=\\overrightarrow{\\mathrm{a}}_{\\mathrm{Z}}\\\\\n\\text{Now, }\\quad \\overrightarrow{\\mathrm{H}}&=\\frac{1}{2}\\left(\\overrightarrow{\\mathrm{K}} \\times \\overrightarrow{\\mathrm{a}}_{\\mathrm{N}}\\right) \\\\\n& =\\frac{1}{2}\\left(5 \\hat{a}_{x} \\times \\hat{a}_{z}\\right) \\\\\n& =-2.5 \\hat{a}_{y} A / m\n\\end{aligned}\n[/latex] [latex]\\therefore[/latex] Magnitude, [latex]|\\overrightarrow{\\mathrm{H}}|=2.5 \\mathrm{~A} / \\mathrm{m}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page2_q2.webp",
+    "min": 2.49,
+    "max": 2.51
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 In the figure, the electric field [latex]E[/latex] and the magnetic field [latex]B[/latex] point to [latex]\\mathrm{x}[/latex] and [latex]\\mathrm{z}[/latex] directions, respectively, and have constant magnitudes. [latex]A[/latex] positive charge '[latex]q[/latex]' is released from rest at the origin. Which of the following statement(s) is/ are true.",
+    "solution": "As per Answer key of IIT Official : MTA (Marks to All) Given :",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page2_q3.webp",
+    "options": {
+      "A": "The charge will move in the direction of [latex]z[/latex] with constant velocity.",
+      "B": "The charge will al ways move on the [latex]y[/latex]-z plane only.",
+      "C": "The trajectory of the charge will be a cycle.",
+      "D": "The charge will progress in the direction of [latex]y[/latex]."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 As shown in the figure below, two concentric conducting spherical shells, centered\nat [latex]r=0 [/latex] and having radii [latex]r=c [/latex]and [latex]r=d [/latex] are maintained at potentials such that\nthe potential [latex]V(r) [/latex] at [latex]r=c [/latex] is [latex]V_1[/latex] and [latex]V(r) [/latex] at [latex]r=d [/latex] is [latex]V_2[/latex]. Assume that [latex]V(r) [/latex] depends\nonly on [latex]r [/latex], where [latex]r [/latex] is the radial distance. The expression for [latex]V(r) [/latex] in the region\nbetween [latex]r=c [/latex]and [latex]r=d [/latex] is",
+    "solution": "We have, Laplace equation [latex] \\triangledown ^2V=0[/latex]    ...(1) where, \n[latex] \\triangledown ^2V=\\frac{1}{r^2}\\frac{\\partial }{\\partial r}\\left ( r^2\\frac{\\partial V}{\\partial r} \\right )+\\frac{1}{r^2 \\sin \\theta }\\frac{\\partial }{\\partial \\theta }\\left ( \\sin \\theta  \\frac{\\partial V}{\\partial \\theta } \\right )+\n\\frac{1}{r^2 \\sin ^2\\theta } \\frac{\\partial^2 V}{\\partial \\phi ^2}[/latex] V will have only radial component. From equation (1) [latex]\\frac{1}{r^2}\\frac{\\partial }{\\partial r}\\left ( r^2\\frac{\\partial V}{\\partial r} \\right )=0 [/latex] Integrate both side \n[latex] r^2\\frac{\\partial V}{\\partial r} =P[/latex] Again integrate, \n[latex]V=-\\frac{P}{r}+Q [/latex] Here, P and  Q are constant. Given: at \n[latex] r=c, V=V_1[/latex] [latex]V_1=-\\frac{P}{r}+Q [/latex]    ...(2) at \n[latex] r=d, V=V_2[/latex] [latex]V_2=-\\frac{P}{d}+Q [/latex]  ...(3) From eq. (2) & (3) [latex]P=\\frac{(V_2-V_1)cd}{d-c} [/latex] [latex] Q=V_1+\\frac{d(V_2-V_1)}{d-c}[/latex] From eq. (1), [latex]V=-\\frac{(V_2-V_1)cd}{r(d-c)}+V_1+\\frac{(V_2-V_1)cd}{(d-c)} [/latex] [latex] V=\\frac{(V_1-V_2)cd}{r(d-c)}+\\frac{(V_2d-V_1c)}{(d-c)}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page2_q4.webp",
+    "options": {
+      "A": "[latex]V(r)=\\frac{cd(V_2-V_1)}{(d-c)r}-\\frac{V_1c+V_2d-2V_1d}{d-c} [/latex]",
+      "B": "[latex]V(r)=\\frac{cd(V_1-V_2)}{(d-c)r}-\\frac{V_2d-V_1c}{d-c} [/latex]",
+      "C": "[latex]V(r)=\\frac{cd(V_1-V_2)}{(d-c)r}-\\frac{V_1c-V_2c}{d-c} [/latex]",
+      "D": "[latex]V(r)=\\frac{cd(V_2-V_1)}{(d-c)r}-\\frac{V_2c-V_1c}{d-c} [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 If the magnetic field intensity [latex](H) [/latex] in a conducting region is given by the expression, [latex]H=x^2\\hat{i}+x^2y^2\\hat{j}+x^2y^2z^2\\hat{k}\\;A/m[/latex]. The magnitude of the current density, in [latex]A/m^2[/latex]\n, at [latex]x=1m, y=2m [/latex] and [latex]z=1m [/latex], is",
+    "solution": "We have, [latex] \\begin{aligned}\n \\vec{J}&=\\triangledown  \\times \\vec{H}\\\\\n\\vec{J}&=\\begin{vmatrix}\n\\hat{a}_x &\\hat{a}_y  & \\hat{a}_z\\\\ \n \\frac{\\partial }{\\partial x}& \\frac{\\partial }{\\partial y} &\\frac{\\partial }{\\partial z} \\\\ \n x^2& x^2y^2 & x^2y^2z^2\n\\end{vmatrix} \\\\\n&=\\hat{a}_x(2x^2yz^2-0)-\\hat{a}_y(2xy^2z^2-0)+\\hat{a}_z(2xy^2-0)\\\\\n&=2x^2yz^2\\hat{a}_x-2xy^2z^2\\hat{a}_y+2xy^2\\hat{a}_z\\\\\n&\\text{At point (1,2,1)}\\\\\n\\vec{J}&=4\\hat{a}_x-8\\hat{a}_y+8\\hat{a}_z\\\\\n|\\vec{J}|&=\\sqrt{4^2+8^2+8^2}=12A/m^2\n\\end{aligned} [/latex]",
+    "options": {
+      "A": "8",
+      "B": "12",
+      "C": "16",
+      "D": "20"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 A long conducting cylinder having a radius 'b' is placed along the z axis. The current\ndensity is [latex]J=J_ar^3\\hat{z}[/latex] for the region [latex]r \\lt b[/latex] where [latex]r[/latex] is the distance in the radial direction.\nThe magnetic field intensity ([latex]H[/latex]) for the region inside the conductor (i.e. for [latex]r \\lt b[/latex]) is",
+    "solution": "Using Ampere?s law, [latex] \\begin{aligned}\n \\oint \\vec{H}\\cdot d\\vec{l}&=I_{enc}\\\\\n\\text{where, }I_{enc}&=\\int \\int \\vec{J}\\cdot d\\vec{s}\\\\\nd\\vec{s}&=rdrd\\phi \\hat{a}_z\\\\\n\\therefore \\oint \\vec{H}\\cdot d\\vec{l}&=\\int \\int \\vec{J}\\cdot r^3\\hat{a}_z\\cdot rdrd\\phi \\hat{a}_z\\\\\n\\vec{H}\\cdot 2 \\pi r&=\\frac{J_ar^5}{5}(2 \\pi)\\\\\n\\Rightarrow \\vec{H}&=\\frac{J_ar^4}{5}A/m\n\\end{aligned} [/latex]",
+    "options": {
+      "A": "[latex]\\frac{J_a}{4}r^4  [/latex]",
+      "B": "[latex]\\frac{J_a}{3}r^3  [/latex]",
+      "C": "[latex]\\frac{J_a}{5}r^4  [/latex]",
+      "D": "[latex]J_a r^3  [/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 Consider a large parallel plate capacitor. The gap 'd' between the two plates is filled entirely with a dielectric slab of relative permittivity 5. The plates are initially charged to a potential difference of V volts and then disconnected from the source. If the dielectric slab is pulled out completely, then the ratio of the new electric field [latex]E_{2}[/latex] in the gap to the original electric field [latex]E_{1}[/latex] is ________.",
+    "solution": "If voltage source is removed then in both cases charge O is constant. [latex] \\begin{aligned} \\text { Case-1: }\\left(Q_{1},=Q ; V_{1}=\\right.&V) \\\\ Q_{1} &=C_{1} V_{1} \\\\ Q &=\\frac{\\epsilon_{0}(5) A}{d} V_{1} \\\\ Q &=5\\left(\\frac{\\epsilon_{0} A}{d}\\right) V_{1} \\\\ \\text { Case-2: }\\left(Q_{2}=Q ; V_{2}\\right) & \\\\ Q_{2} &=C_{2} V_{2} \\\\ Q &=\\frac{\\epsilon_{0}(1) A}{d} V_{2} \\\\ Q &=\\left(\\frac{\\epsilon_{0} A}{d}\\right) V_{2} \\end{aligned}[/latex] Equation (i) is equal to equation (ii) [latex] \\begin{aligned} \\Rightarrow 5\\left(\\frac{\\epsilon_{0} A}{d}\\right) V_{1} &=\\left(\\frac{\\epsilon_{0} A}{d}\\right) V_{2} \\\\ \\Rightarrow \\qquad \\qquad 5 V_{1} &=V_{2} \\\\ \\frac{V_{2}}{V_{1}} &=5 \\\\ E_{1} &=\\frac{V_{1}}{d} ; E_{2}=\\frac{V_{2}}{d} \\\\ \\frac{E_{2}}{E_{1}} &=\\frac{V_{2} / d}{V_{1} / d} \\\\ \\Rightarrow \\qquad \\qquad \\frac{E_{2}}{E_{1}} &=\\frac{V_{2}}{V_{1}} \\end{aligned}[/latex] Put equation (iii) in equation (iv), [latex] \\Rightarrow \\Rightarrow \\qquad \\qquad \\frac{E_{2}}{E_{1}}=5[/latex]",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 One coulomb of point charge moving with a uniform velocity [latex]10\\:\\hat{X} \\text{m/s}[/latex] enters the region [latex]x\\geq 0[/latex] having a magnetic flux density [latex]\\overrightarrow{B}=\\left ( 10y\\:\\hat{X} + 10x\\:\\hat{Y}+10\\:\\hat{Z}\\right )T[/latex]. The magnitude of force on the charge at [latex]x=0^{+}[/latex] is _____________ N. ([latex]\\hat{X}[/latex], [latex]\\hat{Y}[/latex], and [latex]\\hat{Z}[/latex] are unit vectors along x-axis, y-axis and z-axis, respectively.)",
+    "solution": "Force on a charge moving with [latex]\\vec{v}[/latex] velocity due to magnetic field is [latex] \\begin{aligned} \\vec{F} &=Q(\\vec{v} \\times \\vec{B}) \\\\ &=1[10 \\hat{x} \\times(10 y \\hat{x}+10 x \\hat{y}+10 \\hat{z}]\\\\ &=10(10 x) \\hat{z}+10(10)(-\\hat{y}) \\\\ &=100 x \\hat{z}-100 \\hat{y} \\\\ \\left.\\vec{F}\\right|_{x=0^{+}} &=-100 \\hat{y} \\\\ |\\vec{F}| &=\\sqrt{(-100)^{2}}=100 \\text { Newton } \\end{aligned}[/latex]",
+    "min": 100.0,
+    "max": 100.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 A [latex]1\\;\\mu C[/latex] point charge is held at the origin of a cartesian coordinate system. If a second point charge of [latex]10\\;\\mu C[/latex] is moved from [latex]\\left ( 0,10,0 \\right )[/latex] to [latex]\\left ( 5,5,5\\right )[/latex] and subsequently to [latex]\\left ( 5,0,0\\right )[/latex], then the total work done is ___________[latex]\\text{mJ}[/latex]. (Round off to 2 decimal places). Take [latex]\\dfrac{1}{4\\pi \\varepsilon _{0}}=9\\times 10^{9}[/latex] in SI units. All coordinates are in meters.",
+    "solution": "In this case work done is independent of type of path but depends an intial and final point. [latex]\n\\begin{array}{ccccccccc}\nx & y & z & & r & \\theta & \\phi \\\\\n(0, & 10, & 0) & \\rightarrow & (10, & 90^{\\circ}, & \\left.90^{\\circ}\\right) & \\text { Initial point }\\\\\nx & y & z & & r & \\theta & \\phi & \\\\\n(5, & 5, & 5) & \\rightarrow & (5 \\sqrt{3}, & 54.73^{\\circ}, & \\left.45^{\\circ}\\right) &  \\text { Intermediate point } \\\\\nx & y & z & & r & \\theta & \\phi & \\\\\n(5, & 0, & 0) & \\rightarrow & (5, & 90^{\\circ}, & \\left.0^{\\circ}\\right) &  \\text { Final point }\n\\end{array}[/latex] Work done (by external source) in moving Q-charge ([latex]10 \\mu C[/latex]) in the presence of electric field [latex]\\vec{E}[/latex] is [latex]\\begin{aligned} W&=-Q \\int_{\\text {initial point }}^{\\text {final point }} \\vec{E} \\cdot d \\vec{l}=-\\left(10 \\times 10^{-6}\\right) \\int_{r=10}^{r=5} \\frac{9 \\times 10^{3}}{r^{2}} \\hat{a}_{r} \\cdot d r \\hat{a}_{r} \\\\ W&=-10 \\times 10^{-6}\\left(9 \\times 10^{3}\\right)\\left(-\\frac{1}{r}\\right)_{r=10}^{5} \\\\ &=9 \\times 10^{-2}\\left[\\frac{1}{5}-\\frac{1}{10}\\right]=9 \\times 10^{-2}\\left[\\frac{10-5}{50}\\right]=9 \\times 10^{-2}\\left(10^{-1}\\right) \\\\ W&=9 \\mathrm{~mJ} \\end{aligned}[/latex]",
+    "min": 8.9,
+    "max": 9.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 Which one of the following vector functions represents a magnetic field [latex]\\overrightarrow{B}[/latex]? ([latex]\\hat{X}[/latex], [latex]\\hat{Y}[/latex]\n and [latex]\\hat{Z}[/latex]\n are unit vectors along x-axis, y-axis, and z-axis, respectively)",
+    "solution": "If [latex]\\vec{B}[/latex] is magnetic flux density then [latex]\\vec{\\nabla} \\cdot \\vec{B}=0[/latex] [latex] \\begin{aligned} &\\vec{\\nabla} \\cdot \\vec{B}=\\frac{\\partial B x}{\\partial x}+\\frac{\\partial B y}{\\partial y}+\\frac{\\partial B z}{\\partial z}\\\\ &\\frac{\\partial}{\\partial x}(10 x)+\\frac{\\partial}{\\partial y}(20 y)+\\frac{\\partial}{\\partial z}(-30 z)=\\vec{\\nabla} \\cdot \\vec{B}\\\\ &\\qquad \\qquad \\vec{\\nabla} \\cdot \\vec{B}=10+20-30=0 \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]10x\\hat{X}+20y\\hat{Y}-30z\\hat{Z}[/latex]",
+      "B": "[latex]10y\\hat{X}+20x\\hat{Y}-10z\\hat{Z}[/latex]",
+      "C": "[latex]10z\\hat{X}+20y\\hat{Y}-30x\\hat{Z}[/latex]",
+      "D": "[latex]10x\\hat{X}-30z\\hat{Y}+20y\\hat{Z}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Let [latex]a_r, a_\\phi \\; and \\; a_z[/latex] be unit vectors along [latex]r, \\phi \\; and \\; z[/latex] directions, respectively in the cylindrical\ncoordinate system. For the electric flux density given by [latex]D = (a_r15 + a_\\phi 2r - a_z3rz)[/latex] Coulomb/[latex]m^2[/latex], the total electric flux, in Coulomb, emanating from the volume enclosed\nby a solid cylinder of radius 3 m and height 5 m oriented along the z-axis with its base\nat the origin is:",
+    "solution": "[latex]\\begin{aligned}\r\n& \\psi / \\text{Crossing closed surface} \\\\ \\oint \\oint  \\vec{D}.\\vec{ds}&=\\int \\int \\int (\\vec{\\triangledown }\\cdot \\vec{D}) dv \\\\ (\\vec{V}.\\vec{D}) &=\\frac{1}{\\rho }\\frac{\\partial }{\\partial p}(\\rho D_{\\rho })+\\frac{1}{\\rho }\\frac{\\partial D_{\\phi }}{\\partial \\phi }+\\frac{\\partial D_{z}}{\\partial z} \\\\ &=\\frac{1}{\\rho }\\frac{\\partial }{\\partial p}(\\rho 15)+\\frac{1}{\\rho }\\frac{\\partial }{\\partial \\phi }(2\\rho )+\\frac{\\partial }{\\partial z}(-3\\rho z) \\\\ &=\\frac{1}{\\rho }15-3\\rho \\\\ \\int \\int \\int (\\vec{\\triangledown }\\cdot \\vec{D})dv&=\\int \\int \\int \\left ( \\frac{15}{\\rho}-3\\rho \\right )\\rho d\\rho d\\phi dz \\\\ &=\\int \\int \\int 15d\\rho d\\phi dz-3\\int \\int \\int \\rho ^{2}d\\rho d\\phi dz \\\\ &=15\\int_{\\rho =0}^{3}d\\rho \\int_{\\phi =0}^{2\\pi }d\\phi \\int_{z=0}^{5}-3\\int_{\\rho =0}^{3}\\rho^{2}d\\rho \\int_{\\phi =0}^{2\\pi }d\\phi \\int_{z=0}^{5}dz \\\\  &= 15(3-0)(2\\pi )(5)-3\\left ( \\frac{3^{3}}{3} \\right )\\times (2\\pi )(5) \\\\ &=45(10\\pi )-27(10\\pi )=180\\pi C\r\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]108 \\pi[/latex]",
+      "B": "[latex]54 \\pi[/latex]",
+      "C": "[latex]90 \\pi[/latex]",
+      "D": "[latex]180 \\pi[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 The static electric field inside a dielectric medium with relative permittivity, [latex]\\varepsilon _r = 2.25[/latex],\nexpressed in cylindrical coordinate system is given by the following expression [latex]E=a_r 2r+a_\\varphi \\left ( \\frac{3}{r} \\right )+a_z6[/latex] where [latex]a_r,a_\\varphi ,a_z[/latex] are unit vectors along [latex]r, \\varphi \\; and \\;z[/latex] directions, respectively. If the above\nexpression represents a valid electrostatic field inside the medium, then the volume\ncharge density associated with this field in terms of free space permittivity, [latex]\\varepsilon _0[/latex], in SI\nunits is given by:",
+    "solution": "[latex]\\vec{D}=\\epsilon \\vec{E}=\\epsilon _{o}\\epsilon _{r}\\vec{E}[/latex] [latex]\\vec{D}=\\epsilon _{o}2.25\\left ( 2r\\hat{a_{r}}+\\frac{3}{r}\\hat{a_{\\phi}+6\\hat{a_{z}}} \\right )[/latex] [latex]\\vec{D}=4.5\\epsilon _{o}r\\hat{a_{r}}+\\frac{6.75\\epsilon _{o}}{r}\\hat{a_{\\phi }}+13.5\\epsilon _{o}\\hat{a_{z}}[/latex] volume charge density [latex]\\rho _{v}=\\vec{\\bigtriangledown }\\cdot \\vec{D}[/latex] [latex]\\rho _{v}=\\frac{1}{r}\\frac{\\partial }{\\partial r}(rD_{r})+\\frac{1}{r}\\frac{\\partial D_{\\phi }}{\\partial \\phi }+\\frac{\\partial D_{z}}{\\partial z}[/latex] [latex]\\rho _{v}=\\frac{1}{r}\\frac{\\partial }{\\partial r}(r4.5\\epsilon _{o}r)+\\frac{1}{r}\\frac{\\partial }{\\partial \\phi }\\left ( \\frac{6.75\\epsilon _{o}}{r} \\right )+\\frac{\\partial }{\\partial z}(13.5\\epsilon _{o})[/latex] [latex]\\, \\, \\, =\\frac{1}{r}\\frac{\\partial }{\\partial r}(4.5\\epsilon _{o}r^{2})+0+0[/latex] [latex]\\, \\, \\, =\\frac{1}{r}(4.5\\epsilon _{o})(2r)=9\\epsilon _{o}[/latex]",
+    "options": {
+      "A": "[latex]3\\varepsilon _0[/latex]",
+      "B": "[latex]4\\varepsilon _0[/latex]",
+      "C": "[latex]5\\varepsilon _0[/latex]",
+      "D": "[latex]9\\varepsilon _0[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 The vector function expressed by [latex]F = a_x(5y - k_1z) + a_y(3z + k_2x) + a_z(k_3y - 4x)[/latex] represents\na conservative field, where [latex]a_x, a_y, a_z[/latex] are unit vectors along x, y and z directions,\nrespectively. The values of constants [latex]k_1, k_2, k_3[/latex] are given by:",
+    "solution": "[latex]\\bar{F}=(5y-k_{1}Z)\\hat{i}+(3z+k_{2}x)\\hat{j}+(k_{3}y-4x)\\hat{k}[/latex]\r\n  is conservative field [latex]\\bar{F}[/latex] is irrotational, [latex]\\begin{aligned}\r\n\\triangledown \\times \\bar{F}&=0\\\\ \\begin{vmatrix} \\hat{i} &\\hat{j} &\\hat{k} \\\\ \\frac{\\partial }{\\partial x}&\\frac{\\partial }{\\partial y} &\\frac{\\partial }{\\partial z} \\\\ 5y-k_{1}z &3z-k_{2}x &k_{3}y -4x \\end{vmatrix}&=0\\\\ \\hat{i}(k_{3}-3)-\\hat{j}(-4+k_{1})+\\hat{k}(k_{2}-5)&=0\\\\ k_{3}-3&=0\\\\  4-k_{1}&=0\\\\ k_{2}-5&=0\\\\ k_{1}&=4\\\\ k_{2}&=5\\\\ k_{3}&=3\r\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]k_1=3, k_2=3, k_3=7[/latex]",
+      "B": "[latex]k_1=3, k_2=8, k_3=5[/latex]",
+      "C": "[latex]k_1=4, k_2=5, k_3=3[/latex]",
+      "D": "[latex]k_1=0, k_2=0, k_3=0[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 A co-axial cylindrical capacitor shown in Figure (i) has dielectric with relative permittivity [latex]\\varepsilon _{r1}=2[/latex]. When one-fourth portion of the dielectric is replaced with another dielectric ofrelative permittivity [latex]\\varepsilon _{r2}[/latex], as shown in Figure (ii), the capacitance is doubled. The value of [latex]\\varepsilon _{r12}[/latex] is ____.",
+    "solution": "Co-axial cylindrical capacitor-1 [latex]\\begin{aligned} C_1 &=\\frac{2 \\pi \\in _h}{\\ln\\left ( \\frac{b}{a} \\right )}=\\frac{2 \\pi \\in _0 (2)h}{\\ln \\left ( \\frac{R}{r} \\right )}\\\\ C_1&=\\frac{2 \\pi \\in _0 h}{\\ln \\left ( \\frac{R}{r} \\right )}\\;\\;...(i) \\end{aligned}[/latex] Co-axial cylindrical capacitor-2 [latex]\\begin{aligned} C_2 &=\\frac{\\left (\\frac{3 \\pi}{2} \\right ) \\in _0 (2)h}{\\ln \\left ( \\frac{R}{r} \\right )}+\\frac{\\frac{\\pi}{2} \\in _0 \\in _{r_2}h}{\\ln \\left ( \\frac{R}{r} \\right )}\\\\ C_2&=\\frac{ \\pi \\in _0 h}{\\ln \\left ( \\frac{R}{r} \\right )}\\left [ 3+\\frac{\\in _{r_2}}{2} \\right ]\\;\\;...(ii) \\end{aligned}[/latex] Given, [latex]C_2=2C_1[/latex]     ....(iii) Put equation (i), (ii)  in equation (iii), [latex]\\begin{aligned} &\\frac{ \\pi \\in _0 h}{\\ln \\left ( \\frac{R}{r} \\right )}\\left [ 3+\\frac{\\in _{r_2}}{2} \\right ]=2\\left [ \\frac{4 \\pi \\in _0 h}{\\ln \\left ( \\frac{R}{r} \\right )} \\right ]\\\\ &3+\\frac{\\in {r_2}}{2}=8\\\\ &\\Rightarrow \\; \\frac{\\in {r_2}}{2}=5\\; \\Rightarrow \\; \\in {r_2}=10 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page4_q4.webp",
+    "min": 9.0,
+    "max": 11.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 The capacitance of an air-filled parallel-plate capacitor is 60 pF. When a dielectric slab\r\nwhose thickness is half the distance between the plates, is placed on one of the plates\r\ncovering it entirely, the capacitance becomes 86 pF.Neglecting the fringing effects, the\r\nrelative permittivity of the dielectric is _____________ (up to 2 decimal places).",
+    "solution": "Given, [latex]C=\\frac{\\varepsilon _0A}{d}=60pF[/latex] In second case: Capacitance, [latex]\\begin{aligned} C_1 &=\\frac{\\varepsilon _0A}{d/2} =\\frac{2\\varepsilon _0A}{d}\\\\ &= 2 \\times (60 pF)=120pF\\\\ C_2&=\\frac{2\\varepsilon _0\\varepsilon _rA}{d} \\\\ &=(2 \\times 60)\\varepsilon _r \\;pF =120\\varepsilon _r \\; pF\\\\ C_{eq}&=\\frac{C_1C_2}{C_1+C_2}=\\frac{120 \\times 120\\varepsilon _r}{(120+120\\varepsilon _r)}pF \\\\ &= 86\\;pF \\;\\;(given)\\\\ 86&=\\frac{120 \\times 120\\varepsilon _r}{120(1+\\varepsilon _r)} \\\\ \\frac{86}{120}&= \\frac{\\varepsilon _r}{1+\\varepsilon _r}\\\\ \\varepsilon _r &=\\frac{86}{34}=2.53 \\end{aligned}[/latex]",
+    "min": 2.5,
+    "max": 2.55
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 A positive charge of 1 nC is placed at (0,0,0.2) where all dimensions are in metres.\nConsider the x-y plane to be a conducting ground plane. Take [latex]\\epsilon _{0}=8.85 \\times 10^{-12}[/latex] F/m. The z component of the E field at (0,0,0.1) is closest to",
+    "solution": "Net electric field at point P due to charge Q is, [latex]\\begin{aligned} \\vec{E_{12}}&=\\frac{Q\\vec{R_{12}}}{4 \\pi \\varepsilon _0|\\vec{R_{12}}|^3} \\\\ &= \\frac{1 \\times 10^{-9}(-0.1\\hat{a_z})}{4 \\pi (8.854 \\times 10^{-12})(0.1)^3}\\\\ &+ \\frac{-1 \\times 10^{-9}(-0.3\\hat{a_z})}{4 \\pi (8.854 \\times 10^{-12})(0.3)^3}\\\\ &= \\left [ \\frac{-10^5}{4 \\pi (8.854)}- \\frac{10^5}{4 \\pi (8.854)9} \\right ]\\hat{a_z}\\\\ &=(-898.774-99.863) \\hat{a_z}\\\\ &= -999.09\\hat{a_z}\\; V/m \\end{aligned}[/latex]",
+    "options": {
+      "A": "899.18 V/m",
+      "B": "[latex]-899.18 V/m[/latex]",
+      "C": "999.09 V/m",
+      "D": "[latex]-999.09 V/m[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 A thin soap bubble of radius R = 1 cm, and thickness [latex]a=3.3\\mu m(a\\lt \\lt R)[/latex], is at a potential of 1 V with respect to a reference point at infinity. The bubble bursts and becomes a single spherical\r\ndrop of soap (assuming all the soap is contained in the drop) of radius r. The volume of the soap\r\nin the thin bubble is [latex]4\\pi R^{2}a[/latex] and that of the drop is [latex]\\frac{4}{3} \\pi r^{3}[/latex]. The potential in volts, of the resulting single spherical drop with respect to the same reference point at infinity is __________. (Give the answer up to two decimal places.)",
+    "solution": "After burst, [latex]4 \\pi R^2 a=\\frac{4}{3}\\pi r^3[/latex] Radius of soap drop [latex]=(3 R^2a)^{1/3}=0.099665cm[/latex] Initial voltage was 1 V and [latex]C=4 \\pi \\varepsilon _0R[/latex] and initial charge, [latex]Q=(4 \\pi \\varepsilon _0R \\times 1)[/latex] Since after bursting Q remainsame and [latex]C=4 \\pi \\varepsilon _0r[/latex] New potential on soap drop, [latex]V=\\frac{Q}{C}=\\frac{4 \\pi \\varepsilon _0R}{4 \\pi \\varepsilon _0r}=\\frac{1}{0.099665}=10.03V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page5_q2.webp",
+    "min": 9.5,
+    "max": 10.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 Consider a solid sphere of radius 5 cm made of a perfect electric conductor. If one million\nelectrons are added to this sphere, these electrons will be distributed.",
+    "solution": "Added charge (one million electrons) to be solid spherical conductor is uniformly distributed over the outer surface of the sphere.",
+    "options": {
+      "A": "uniformly over the entire volume of the sphere",
+      "B": "uniformly over the outer surface of the sphere",
+      "C": "concentrated around the centre of the sphere",
+      "D": "along a straight line passing through the centre of the sphere"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 The figures show diagrammatic representations of vector fields [latex]\\vec{X},\\vec{Y}[/latex] and [latex]\\vec{Z}[/latex] respectively.\r\nWhich one of the following choices is true?",
+    "solution": "[latex]\\vec{X}[/latex] is going away so [latex]\\vec{\\triangledown } \\cdot \\vec{X}\\neq 0 [/latex] [latex]\\vec{Y}[/latex] is moving circulator direction so [latex]\\vec{\\triangledown } \\cdot \\vec{Y}\\neq 0[/latex] [latex] \\vec{Z}[/latex] has circular rotation so [latex]\\vec{\\triangledown } \\cdot \\vec{Z}\\neq 0[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page5_q4.webp",
+    "options": {
+      "A": "[latex]\\bigtriangledown \\cdot \\vec{X}=0[/latex],  [latex]\\bigtriangledown \\times \\vec{Y}\\neq 0,\\bigtriangledown \\times \\vec{Z}=0[/latex]",
+      "B": "[latex]\\bigtriangledown \\cdot \\vec{X} \\neq 0[/latex],  [latex]\\bigtriangledown \\times \\vec{Y}=0[/latex],  [latex]\\bigtriangledown \\times \\vec{Z} \\neq 0[/latex]",
+      "C": "[latex]\\bigtriangledown \\cdot \\vec{X}\\neq 0[/latex],  [latex] \\bigtriangledown \\times \\vec{Y}\\neq 0[/latex],  [latex]\\bigtriangledown \\times \\vec{Z}\\neq 0[/latex]",
+      "D": "[latex]\\bigtriangledown \\cdot \\vec{X}=0[/latex],  [latex] \\bigtriangledown \\times \\vec{Y}= 0[/latex],  [latex]\\bigtriangledown \\times \\vec{Z}=0[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 The magnitude of magnetic flux density (B) in micro Teslas ([latex]\\mu[/latex]T) at the center of a loop of wire wound as a regular hexagon of side length 1m carrying a current (I=1A), and placed in vacuum as shown in the figure is __________.",
+    "solution": "i= 1 A Here, B at point P is [latex]B=\\frac{\\mu _0I}{4 \\pi d}(\\sin \\theta _1 +\\sin \\theta _2)[/latex] We know for each segment of hexagon magnetic field intensity due to element length dx, [latex]dH=\\frac{Idx}{4 \\pi r^2}i \\times u_r[/latex] where, [latex]i \\times u_r=(\\sin \\theta)\\hat{k}[/latex]....perpendicular to plane of paper [latex]\\begin{aligned} H &=\\int dH=\\int \\frac{I \\sin \\theta}{4 \\pi r^2}(dx)\\hat{k} \\\\ B&=\\mu _0 H \\\\ B_p&=\\frac{\\mu _0I}{4 \\pi d}(\\cos \\alpha _1+\\cos \\alpha _2)\\hat{k} \\\\ d&=\\frac{\\sqrt{3}}{2} l\\;\\;\\;...\\text{where}\\; l=1m\\\\ \\alpha _1&=\\alpha _2 =60^{\\circ}\\\\ |B_p| &=\\frac{\\mu _0 I}{4 \\pi \\frac{\\sqrt{3}}{2} }(\\cos 60^{\\circ} +\\cos 60^{\\circ}) \\\\ &\\text{for all six segment} \\\\ 6 \\times |B_p| &=\\frac{4 \\pi \\times 10^{-7} \\times 6 \\times 1}{4 \\pi \\times \\frac{\\sqrt{3}}{2} }(1) \\\\ &=\\frac{12}{\\sqrt{3}}\\times 10^{-7}=\\frac{1.20}{\\sqrt{3}}\\times 10^{-6}T \\\\ B&=0.69 \\mu T \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page5_q5.webp",
+    "min": 0.65,
+    "max": 0.75
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 A solid iron cylinder is placed in a region containing a uniform magnetic field such that the cylinder axis is parallel to the magnetic field direction. The magnetic field lines inside the cylinder will",
+    "solution": "Iron being a ferromagnetic material, magnetic lines of force bend closer to cylindrical axis.",
+    "options": {
+      "A": "bend closer to the cylinder axis",
+      "B": "bend farther away from the axis",
+      "C": "remain uniform as before",
+      "D": "cease to exist inside the cylinder"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 Consider an electron, a neutron and a proton initially at rest and placed along a straight line such\nthat the neutron is exactly at the center of the line joining the electron and proton. At t=0, the\nparticles are released but are constrained to move along the same straight line. Which of these\nwill collide first?",
+    "solution": "Given that electron, neutron and proton are in straight line. The electron will move towards proton and proton will move towards electron and force will be same [latex]F=\\frac{q_1q_2}{4 \\pi \\in _0 R^2}[/latex]. But acceleration of electron will be more than proton as mass of electron [latex]\\lt[/latex] mass of proton. Since neutron are neutral they will not move. Thus electron will hit neutron first.",
+    "options": {
+      "A": "The particles will never collide",
+      "B": "All will collide together",
+      "C": "Proton and Neutron",
+      "D": "Electron and Neutron"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 28 A rotating conductor of 1 m length is placed in a radially outward (about the z-axis) magnetic flux\ndensity (B) of 1 Tesla as shown in figure below. Conductor is parallel to and at 1 m distance from the z-axis. The speed of the conductor in r.p.m. required to induce a voltage of 1 V across it, should\nbe __________.",
+    "solution": "Voltage insuced [latex]=\\int_{0}^{1}E_m \\cdot dt[/latex] (where [latex]E_m[/latex] is induced electric field) Since, Volatage induced =1 V So,  [latex]E_m[/latex] = 1 V/m As we know, [latex]E_m=\\bar{V} \\times \\bar{B}[/latex] where, V= (radius of path) x (angular velocity) [latex]\\begin{aligned} \\frac{1V}{m} &=(V \\times 1 \\; \\text{Tesla}) \\\\ V&=1 \\; m/sec \\\\ V&= r \\times \\omega =1 \\; m/sec\\\\ \\text{Since, } r&=1m, \\; \\text{So }\\omega =1 \\; \\text{rad/sec} \\end{aligned}[/latex] Now from this we get [latex]\\begin{aligned} \\omega &=2 \\times \\pi \\times \\frac{N}{60}=1 \\; \\text{rad/sec}\\\\ N&=\\frac{30}{\\pi}=9.55 \\; \\text{revolutions per minute} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page6_q3.webp",
+    "min": 9.4,
+    "max": 9.7
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 The line integral of the vector field [latex]F = 5xz \\hat{i}+ (3x^{2} + 2y) \\hat{j} + x^{2}z\\hat{k}[/latex] along a path from (0,0,0) to (1,1,1) parametrized by (t, [latex]t^{2}[/latex], t) is _____.",
+    "solution": "[latex]\\begin{aligned} E &=5xZ\\bar{i}+(3x^2 +2y)\\bar{j}+x^2z\\bar{k} \\\\ &=\\int _C \\bar{F}\\bar{d}r \\\\ &= \\int _C 5xzdx +(3x^2+2y)dy +x^2zdz\\\\ x&=t, \\; y=t^2,\\; z=t,\\; t=0 \\; to \\; 1 \\\\ dx&=dt \\\\ dy &=2tdt,\\; dz =dt\\\\ &=\\int_{0}^{1} 5t^2dt+(3t^2+2t^2)2tdt+t^3dt\\\\ &= \\int_{0}^{1} (5t^2+11t^3)dt\\\\ &=\\left [ \\frac{5t^3}{3}+\\frac{11t^4}{4} \\right ]_0^1=\\frac{5}{3}+\\frac{11}{4}=4.41 \\end{aligned}[/latex]",
+    "min": 4.4,
+    "max": 4.45
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Two electrodes, whose cross-sectional view is shown in the figure below, are at the same potential.\nThe maximum electric field will be at the point",
+    "solution": "At the point C, [latex]\\bar{E}[/latex] (electric field intensity) is maximum being closest to the other plate.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page6_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 A parallel plate capacitor filled with two dielectrics is shown in the figure below. If the electric field in the region A is 4 kV/cm, the electric field in the region B, in kV/cm, is",
+    "solution": "As voltage is same across both the regions and distance between two plates is also same, then electric field remains same throughout the both region. As we know, [latex]E=\\frac{V}{d}=[/latex] constant for both regions.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page7_q1.webp",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "16"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 Two electric charges q and -2q are placed at (0,0) and (6,0) on the x-y plane. The equation of the zero equipotential curve in the x-y plane is",
+    "solution": "Charge, Q is located at (0,0) and [latex]-2\\theta[/latex] is located at (6,0). To find V at any point [latex](x,y)[/latex] [latex]\\begin{aligned} V_Q &= \\frac{Q}{4 \\pi \\in \\sqrt{x^2+y^2}}\\\\ V_{-2Q}&=\\frac{-2Q}{4 \\pi \\in (\\sqrt{(x-6)^2 +y^2})} \\\\ V_{total}&=0 \\\\ &= \\frac{Q}{4 \\pi \\in \\sqrt{x^2+y^2}} \\\\ & +\\frac{-2Q}{4 \\pi \\in (\\sqrt{(x-6)^2 +y^2})} \\\\ \\sqrt{(x-6)^2 +y^2}&=2(\\sqrt{x^2+y^2}) \\\\ x^2+36-12x+y^2&=4x^2+4y^2 \\\\ 3x^2+3y^2+12x&=36 \\\\ x^2+y^2+4x&=12 \\\\ (x+2)^2+y^2&=16 \\end{aligned}[/latex]",
+    "options": {
+      "A": "x = -2",
+      "B": "y = 2",
+      "C": "[latex]x^{2}+y^{2}=2[/latex]",
+      "D": "[latex](x+2)^{2}+y^{2}=16[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 A soft-iron toroid is concentric with a long straight conductor carrying a direct current I. If the relative permeability [latex]\\mu _r[/latex] of soft-iron is 100, the ratio of the magnetic flux densities at two adjacent points located just inside and just outside the toroid, is _______.",
+    "solution": "Toroid has field, [latex]\\begin{aligned} B &\\propto \\mu \\\\ As\\;\\; \\mu &=100 \\;(\\text{inside field}) \\end{aligned}[/latex] Magnetic field density B at any point at a distance at r is [latex]\\begin{aligned} B &=\\frac{\\mu I}{2 \\pi r} \\\\ Now\\;\\;B_{at\\; r^-}&=\\frac{\\mu_0 \\mu_r I}{2 \\pi r^-}\\;(\\text{just inside toroid})\\\\ Now\\;\\;B_{at\\; r^+}&=\\frac{\\mu_0 I}{2 \\pi r^+}\\;(\\text{just outside toroid})\\\\ \\frac{B_{at\\; r^-}}{B_{at\\; r^+}}&=\\mu _r=100 \\end{aligned}[/latex]",
+    "min": 99.0,
+    "max": 101.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 In cylindrical coordinate system, the potential produced by a uniform ring charge is given by [latex]\\psi = f(r, z)[/latex] , where f is a continuous function of r and z. Let [latex]\\vec{E}[/latex] be the resulting electric field. Then the magnitude of [latex]\\bigtriangledown \\times  \\vec{E}[/latex]",
+    "solution": "V is given as static field in time invariant. Hence,  [latex]\\triangledown \\times E=0[/latex]",
+    "options": {
+      "A": "increases with r.",
+      "B": "is 0.",
+      "C": "is 3.",
+      "D": "decreases with z."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Two semi-infinite conducting sheets are placed at right angles to each other as shown in the figure. A point charge of +Q is placed at a distance of d from both sheets. The net force on the charge is [latex]\\frac{Q^{2}}{4\\pi \\epsilon _{0}}\\frac{K}{d^{2}}[/latex], where K is given by",
+    "solution": "Due to image of the charge, three new charges will be created as shown in figure Total force (4) due to (1), (2), (3) will be [latex]\\begin{aligned} F_{total}&=F_{41}+F_{42}+F_{43}\\\\ F_{41}&=\\text{Force as (4) due to (1)}\\\\ &=-\\frac{Q^2}{4 \\pi \\varepsilon _0}\\frac{1}{(4d^2)}\\hat{j}\\\\ F_{42}&=\\text{Force as (4) due to (2)}\\\\ &=+\\frac{Q^2}{4 \\pi \\varepsilon _0}\\frac{1}{(8d^2)}\\left ( \\frac{\\hat{j}}{\\sqrt{2}} + \\frac{\\hat{i}}{\\sqrt{2}} \\right )\\\\ F_{43}&=\\text{Force as (4) due to (3)}\\\\ &=-\\frac{Q^2}{4 \\pi \\varepsilon _0}\\frac{1}{(4d^2)}\\hat{i}\\\\ F_{total}&=\\frac{Q^2}{4 \\pi \\varepsilon _0}\\left ( \\frac{1-2\\sqrt{2}}{8\\sqrt{2}}\\hat{i}+ \\frac{1-2\\sqrt{2}}{8\\sqrt{2}}\\hat{j} \\right ) \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page7_q5.webp",
+    "options": {
+      "A": "0",
+      "B": "[latex]-\\frac{1}{4}\\hat{i}-\\frac{1}{4}\\hat{j}[/latex]",
+      "C": "[latex]-\\frac{1}{8}\\hat{i}-\\frac{1}{8}\\hat{j}[/latex]",
+      "D": "[latex]\\frac{1-2\\sqrt{2}}{8\\sqrt{2}}\\hat{i}+\\frac{1-2\\sqrt{2}}{8\\sqrt{2}}\\hat{j}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 A circular turn of radius 1 m revolves at 60 rpm about its diameter aligned with the x-axis as shown in the figure. The value of [latex]\\mu _{0} [/latex] is [latex]  4\\pi  \\times 10^{-7}[/latex] in SI unit. If a uniform magnetic field intensity [latex]\\vec{H}=10^{7}\\hat{z} A/m[/latex] is applied, then the peak value of the induced voltage, [latex]V_{turn}[/latex] ( in Volts), is _________.",
+    "solution": "The circular turn rotate with 60 rpm, let the angle made by ring w.r.t. x-axis [latex]\\theta[/latex] and    [latex]\\;\\;\\; \\theta =\\omega _0 t[/latex] the turn rotate at 60 rpm, so, [latex]\\;\\;\\; \\omega _0=2 \\pi [/latex] So, the flux flowing through the circular turn wil be [latex]\\begin{aligned} \\Psi &=(\\mu _0 H_z \\times \\text{Area of turn} \\times \\cos \\omega _0 t) \\\\ \\Psi &= 4 \\pi \\times 10^{-7} \\times 10^7\\; A/m \\times \\pi \\times 1^2 \\times \\cos \\omega _0 t\\\\ &\\text{Maximum voltage induced is }  \\\\  \\\\ \\left. \\begin{matrix} \\frac{d\\Psi}{dt} \\end{matrix}\\right|_{max}&=(\\omega _0 \\times 4 \\pi \\times \\pi \\sin \\omega _0 t)_{max}\\\\ V_{max}&=(4 \\pi^2 \\times 2 \\pi)=248.05 volts \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page8_q1.webp",
+    "min": 246.0,
+    "max": 250.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 Two semi-infinite dielectric regions are separated by a plane boundary at y = 0. The dielectric constants of region 1 (y[latex]\\lt[/latex]0) and region 2 (y[latex]\\gt[/latex]0) are 2 and 5, respectively. Region 1 has uniform electric field [latex]\\vec{E}=3\\hat{a}_{x}+4\\hat{a}_{y}+2\\hat{a}_{z}[/latex], where [latex]\\hat{a}_{x},\\hat{a}_{y}[/latex] and [latex]\\hat{a}_{z}[/latex] are unit vectors along the x, y and z axes, respectively. The electric field in region 2 is",
+    "solution": "Given that, at the interface (y=0) there is no surface charge. Region 1 ([latex]y \\lt 0[/latex]) has [latex]\\varepsilon _r=2[/latex] Region 2 ([latex]y \\gt 0[/latex]) has [latex]\\varepsilon _r=5[/latex] Electric field in region 1 is [latex]3a_x+4a_y+2a_z[/latex] Normal component of electric field is [latex]4a_y[/latex] tangential component of electric field is [latex]3a_x+2a_y[/latex] Now, [latex]E_1=E_{1t}+E_{1n}[/latex] The tangentail component of [latex]E_1=[/latex] tangentail component of  [latex]E_2[/latex] [latex]E_{1t}=E_{2t}=3a_x+2a_z[/latex] [latex]\\begin{aligned} \\varepsilon _1 E_{1n}&=\\varepsilon _2 E_{2n}\\\\ E_{2n}&=\\frac{\\varepsilon _1 \\times 4a_y}{\\varepsilon _2} \\\\ &= \\frac{2 \\times 4a_y}{5}=1.6a_y\\\\ E_2&=E_{2t}+E_{2n}\\\\ &=3a_x+1.6a_y+2a_z \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]3\\hat{a}_{x} + 1.6\\hat{a}_{y} + 2\\hat{a}_{z}[/latex]",
+      "B": "[latex]1.2\\hat{a}_{x} + 4\\hat{a}_{y} + 2\\hat{a}_{z}[/latex]",
+      "C": "[latex]1.2 \\hat{a}_{x} + 4\\hat{a}_{y} + 0.8\\hat{a}_{z}[/latex]",
+      "D": "[latex]3\\hat{a}_{x} + 10\\hat{a}_{y} + 0.8\\hat{a}_{z}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 Match the following.",
+    "solution": "Stokes theorem [latex]\\oint \\vec{A}\\cdot dl=\\int \\int (\\triangledown \\times A)\\cdot \\hat{n}ds [/latex] Gauss theorem [latex]\\int \\int D\\cdot ds=Q[/latex] Divergence theorem [latex]\\oint \\oint A\\cdot \\hat{n}ds=\\int \\int \\int \\triangledown \\cdot \\bar{A}dV [/latex] Cauchy integral theorem [latex]\\oint _cf(z)dz=0[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page8_q3.webp",
+    "options": {
+      "A": "P-2 Q-1 R-4 S-3",
+      "B": "P-4 Q-1 R-3 S-2",
+      "C": "P-4 Q-3 R-1 S-2",
+      "D": "P-3 Q-4 R-2 S-1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 A parallel plate capacitor is partially filled with glass of dielectric constant 4.0 as shown below. The dielectric strengths of air and glass are 30 kV/cm and 300 kV/cm, respectively. The maximum voltage (in kilovolts), which can be applied across the capacitor without any breakdown, is ______.",
+    "solution": "A capacitor is made as shown in figure Breakdown of dielectric air is 30 kV/cm and breakdown of dielectric glass is 300 kV/cm. We need to find maximum value of [latex]V_{AB}[/latex] so that no [latex]C_1[/latex] or [latex]C_2[/latex] breaks down. Since, area and width of  [latex]C_1[/latex] and [latex]C_2[/latex] is same but [latex]\\varepsilon _{r_1}=1[/latex] and [latex]\\varepsilon _{r_2}=4[/latex] So,  [latex]C_2=4C_1[/latex] So, if [latex]V_{AB}[/latex] is applied, [latex]V_{C_1}=\\frac{4}{5}V_{AB}[/latex] and [latex]V_{C_2}=\\frac{1}{5}V_{AB}[/latex] For [latex]C_1[/latex] not breakdown, we need [latex]\\begin{aligned} \\frac{4}{5}\\frac{V_{AB}}{5mm}&\\lt 30kV/cm \\\\ V_{AB}& \\lt \\frac{30 \\times 25 \\times 1000}{4}V \\\\ V_{A}& \\lt 18.75kV \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page8_q4.webp",
+    "min": 17.0,
+    "max": 20.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 A steady current I is flowing in the -x direction through each of two infinitely long wires at [latex]y=\\pm \\frac{L}{2}[/latex] as shown in the figure. The permeability of the medium is [latex]\\mu _{0}[/latex]. The [latex]\\vec{B}[/latex]-field at (0,L,0) is",
+    "solution": "[latex]\\begin{aligned} \\vec{B}&=\\frac{\\mu _0 I}{2\\pi \\left ( \\frac{L}{2} \\right )}(-\\hat{z})+\\frac{\\mu _0 I}{2\\pi \\left ( \\frac{3L}{2} \\right )}(-\\hat{z}) \\\\ &=\\frac{\\mu _0 I(-\\hat{z})}{2\\pi L}\\left ( 2+\\frac{2}{3} \\right )\\\\ &=-\\frac{4}{3}\\frac{\\mu _0 I}{\\pi L}\\hat{z} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page8_q5.webp",
+    "options": {
+      "A": "[latex]-\\frac{4\\mu _0I}{3 \\pi L}\\hat{Z}[/latex]",
+      "B": "[latex]+\\frac{4\\mu _0I}{3 \\pi L}\\hat{Z}[/latex]",
+      "C": "0",
+      "D": "[latex]-\\frac{3\\mu _0I}{4 \\pi L}\\hat{Z}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 Consider a one-turn rectangular loop of wire placed in a uniform magnetic field as shown in the figure. The plane of the loop is perpendicular to the field lines. The resistance of the loop is 0.4 [latex]\\Omega[/latex], and its inductance is negligible. The magnetic flux density (in Tesla) is a function of time, and is given by [latex]B(t)=0.25 \\sin \\omega t, [/latex] where [latex]  \\omega =2\\pi \\times 50[/latex] radian/second. The power absorbed (in Watt) by the loop from the magnetic field is ________.",
+    "solution": "[latex]\\begin{aligned} A&=10cm \\times 5 cm\\\\ B(t)&=0.25 \\sin \\omega t,\\; R=0.4\\Omega \\\\ P&=i^2 R\\\\ \\because \\; e&=-\\frac{d\\phi }{dt}=-\\frac{d}{dt}(B \\times A)\\\\ &=-\\frac{d}{dt}[0.25 \\times 50 \\times 10^{-4} \\sin \\omega t]\\\\ e&=-0.25 \\times 50 \\times 10^4 \\omega \\cos \\omega t\\\\ &=-1.25 \\times 10^{-3}\\omega \\cos \\omega t\\\\ P_{evg}&=\\frac{e^2_{rms}}{R}\\\\ P&=\\int_{0}^{T}\\frac{(12.5 \\times 100 \\pi \\times 10^{-4})^2}{0.4} \\times \\cos ^2 \\omega t d(\\omega t)\\\\ &=(12.5 \\times \\pi \\times 10^{-2})^2 \\times \\frac{1}{2 \\times 0.4}\\\\ &=0.193\\; \\text{Watt} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page9_q1.webp",
+    "min": 0.17,
+    "max": 0.2
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 Consider a function [latex]\\vec{f}=\\frac{1}{r^{2}}\\hat{r}[/latex], where r is the distance from the origin and [latex]\\hat{r}[/latex] is the unit vector in the radial direction. The divergence of this function over a sphere of radius R, which includes the origin, is",
+    "solution": "[latex]\\bar{f}=\\frac{1}{r^2}\\hat{r} [/latex] From divergence theorem as we know, [latex]\\begin{aligned} \\int _{vol.} (\\triangledown \\cdot \\bar{f})dV &=\\oint \\oint _S \\bar{f}\\cdot d\\bar{S}\\\\ \\oint \\oint _S \\bar{f}\\cdot d\\bar{S} &= \\oint \\oint _S \\left ( \\frac{1}{r^2} \\cdot \\hat{r}\\right ) \\times r^2 \\sin \\theta \\cdot d\\theta \\cdot d\\phi \\cdot \\hat{r} \\\\ &= \\oint \\oint _S \\sin \\theta \\cdot d\\theta \\cdot d\\phi=4\\pi \\end{aligned}[/latex]",
+    "options": {
+      "A": "0",
+      "B": "2[latex]\\pi[/latex]",
+      "C": "4[latex]\\pi[/latex]",
+      "D": "R[latex]\\pi[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 A perfectly conducting metal plate is placed in x-y plane in a right handed\r\ncoordinate system. A charge of [latex]+32\\pi \\varepsilon _{0}\\sqrt{2}[/latex] coulombs is placed at coordinate (0,0,2). [latex]\\varepsilon _0[/latex] is the permittivity of free space. Assume [latex]\\hat{i},\\hat{j},\\hat{k}[/latex] to be unit vectors along x, y and z axes respectively. At the coordinate [latex](\\sqrt{2},\\sqrt{2},0)[/latex], the electric\r\nfield vector [latex]\\vec{E}[/latex] (Newtons/Coulomb) will be",
+    "solution": "Due to change at (0,0,2) and conductor plane there is an image at (0,0,-2). Total filed is [latex]\\vec{E_1}+\\vec{E_2}[/latex] [latex]\\begin{aligned} \\vec{E_1}&=\\frac{32 \\pi \\in _0 \\sqrt{2}}{4 \\pi \\in _0(2+2+4)^{3/2}} (\\sqrt{2}\\hat{a_x}+\\sqrt{2}\\hat{a_y}-2\\hat{a_z})\\\\ \\vec{E_2}&=\\frac{-32 \\pi \\in _0 \\sqrt{2}}{4 \\pi \\in _0(2+2+4)^{3/2}} (\\sqrt{2}\\hat{a_x}+\\sqrt{2}\\hat{a_y}+2\\hat{a_z})\\\\ \\vec{E} &=-2\\hat{a_z}=-2\\hat{k} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page9_q3.webp",
+    "options": {
+      "A": "[latex]2 \\sqrt{2}\\hat{k}[/latex]",
+      "B": "[latex]-2 \\hat{k}[/latex]",
+      "C": "[latex]2 \\hat{k}[/latex]",
+      "D": "[latex]-2 \\sqrt{2} \\hat{k}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 A hollow metallic sphere of radius r is kept at potential of 1 Volt. The total\nelectric flux coming out of the concentric spherical surface of radius R([latex]\\gt[/latex] r) is",
+    "solution": "",
+    "options": {
+      "A": "[latex]4\\pi \\varepsilon _{0}r[/latex]",
+      "B": "[latex]4\\pi \\varepsilon _{0}r^{2}[/latex]",
+      "C": "[latex]4\\pi \\varepsilon _{0}R[/latex]",
+      "D": "[latex]4\\pi \\varepsilon _{0}R^{2}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 The magnitude of magnetic flux density [latex]\\vec{B}[/latex] at a point having normal distance d meters from an infinitely extended wire carrying current of [latex]I[/latex] A is [latex]\\frac{\\mu _{0}I}{2\\pi d}[/latex] (in SI units). An infinitely extended wire is laid along the x -axis and is carrying current of 4 A in the +ve x direction. Another infinitely extended wire is laid along the y axis and is carrying 2 A current in the +ve y direction. [latex]\\mu _0[/latex] is permeability of free space. Assume [latex]\\hat{i},\\hat{j},\\hat{k}[/latex] to be unit vectors along x,y and z axes respectively. Assuming right handed coordinate system, magnetic field intensity, [latex]\\hat{H}[/latex] at coordinate (2,1,0) will be",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page9_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{3}{2\\pi }\\hat{k} A/m^{2}[/latex]",
+      "B": "[latex]\\frac{4}{3\\pi }\\hat{i} [/latex]  A/m",
+      "C": "[latex]\\frac{3}{2\\pi }\\hat{k} [/latex]  A/m",
+      "D": "0 A/m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 A parallel plate capacitor consisting two dielectric materials is shown in the figure.\nThe middle dielectric slab is placed symmetrically with respect to the plates. If the potential difference between one of the plates and the nearest surface of dielectric interface is 2 Volts, then the ratio [latex]\\varepsilon _1:\\varepsilon _2[/latex] is",
+    "solution": "Let, A = Area of plates Let [latex]C_1= C_3[/latex] be the capacitance formed with dielectric having dielectric constant [latex]\\varepsilon _1[/latex]. [latex]C_{eqv}[/latex] be the equivalent capacitance. [latex]C_2[/latex] be the capacitance formed with dielectic having dielectric constant [latex]\\varepsilon _{r_2}[/latex]. Then,  [latex]C_1=C_3=\\frac{\\varepsilon _0\\varepsilon _1A}{\\frac{d}{4}}=\\frac{4\\varepsilon _0\\varepsilon _1A}{d}[/latex] and [latex]C_2=\\frac{\\varepsilon _0\\varepsilon _2A}{\\frac{d}{2}}=\\frac{2\\varepsilon _0\\varepsilon _2A}{d}[/latex] Also, equivalent capacitance [latex]= C_{eqv}[/latex] [latex]\\begin{aligned} \\therefore \\;\\;\\frac{1}{C_{eqv}}&=\\frac{1}{C_1}+\\frac{1}{C_2}+\\frac{1}{C_3}=\\frac{2}{C_1}+\\frac{1}{C_2} \\\\ &(\\because \\;\\;C_1=C_3)(C_1,C_2,C_3 \\;\\text{all in series}) \\\\ \\frac{1}{C_{eqv}} &= \\frac{2d}{4\\varepsilon _0\\varepsilon _1d}+\\frac{d}{2\\varepsilon _0\\varepsilon _2d}\\\\ C_{eqv}&=\\frac{2\\varepsilon _1\\varepsilon _2\\varepsilon _0A}{d(\\varepsilon _1+\\varepsilon _2)} \\end{aligned}[/latex] Given, [latex]V_{eqv}=[/latex] Total Voltage = 10 VOlt, [latex]V_1=V_3=2 [/latex] Volt We know that : [latex]C\\propto \\frac{1}{V}[/latex] [latex]\\begin{aligned} &\\therefore \\; \\frac{C_{eqv}}{C_1}=\\frac{V_1}{V_{eqv}}=\\frac{1}{5} \\\\ &\\frac{2\\varepsilon _0\\varepsilon _1\\varepsilon _2 A}{d(\\varepsilon _1+\\varepsilon _2)}\\times \\frac{d}{4\\varepsilon _0\\varepsilon _1A}=\\frac{1}{5} \\\\ &\\frac{\\varepsilon _2}{2(\\varepsilon _1+\\varepsilon _2)}=\\frac{1}{5} \\\\ &5\\varepsilon _2=2\\varepsilon _1+2\\varepsilon _2 \\\\ &2\\varepsilon _1 =3\\varepsilon _2\\\\ &\\varepsilon _1:\\varepsilon _2=3:2 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page10_q1.webp",
+    "options": {
+      "A": "01:04",
+      "B": "02:03",
+      "C": "03:02",
+      "D": "04:01"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 The following four vector fields are given in Cartesian co-ordinate system. The\nvector field which does not satisfy the property of magnetic flux density is",
+    "solution": "The property of a solid magnetic field is [latex]\\bigtriangledown \\cdot B=0[/latex] (i.e. solenoidal property) when, [latex]\\begin{aligned} B&=x^2\\hat{a_x}+y^2\\hat{a_y}+z^2\\hat{a_z} \\\\ \\bigtriangledown \\cdot B&=2x+2y+2z\\neq 0 \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]y^{2}a_{x}+z^{2}a_{y}+x^{2}a_{z}[/latex]",
+      "B": "[latex]z^{2}a_{x}+x^{2}a_{y}+y^{2}a_{z}[/latex]",
+      "C": "[latex]x^{2}a_{x}+y^{2}a_{y}+z^{2}a_{z}[/latex]",
+      "D": "[latex]y^{2}z^{2}a_{x}+x^{2}z^{2}a_{y}+x^{2}y^{2}a_{z}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 [latex]C_0[/latex] is the capacitance of a parallel plate capacitor with air as dielectric (as in figure (a)). If, half of the entire gap as shown in figure (b) is filled with a dielectric of permittivity [latex]\\epsilon _r[/latex] , the expression for the modified capacitance is",
+    "solution": "Let A be the area of the parallel plate capacitor and d be the distance between the plates. Let [latex]C_1[/latex] be the capacitance of half portion with air as dielectic medium and [latex]C_2[/latex] be capacitance with a dielectic of permitivity, [latex]\\varepsilon _r[/latex]. Then, [latex]C_1=\\frac{\\varepsilon _0 \\left ( \\frac{A}{2} \\right )}{d}[/latex] (As area become half) and [latex]C_2=\\frac{\\varepsilon _0 \\varepsilon _r \\left ( \\frac{A}{2} \\right )}{d}[/latex] (As area becomes half) Now, these two capacitance will be in parallel if a voltage is applied between the plates as same potential difference will be there between both the capacitance. Equivalent capacitance is [latex]\\begin{aligned} C_{eqv} &= C_1+C_2\\\\ &=\\frac{\\varepsilon _0 A}{2d}+ \\frac{\\varepsilon _0 \\varepsilon _r A}{2d}\\\\ &= \\frac{\\varepsilon _0 A}{2d}(1+ \\varepsilon _r)=\\frac{C_0}{2}(1+\\varepsilon _r) \\end{aligned}[/latex] Therefore, modified capacitance, [latex]C_{eqv}=\\frac{C_0}{2}(1+\\varepsilon _r)[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page10_q3.webp",
+    "options": {
+      "A": "[latex]\\frac{C_{0}}{2}(1+\\epsilon _{r})[/latex]",
+      "B": "[latex](C_{0}+\\epsilon _{r})[/latex]",
+      "C": "[latex]\\frac{C_{0}}{2}(\\epsilon _{r})[/latex]",
+      "D": "[latex]C_{0}(1+\\epsilon _{r})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 A dielectric slab with 500 mm x 500 mm cross-section is 0.4 m long. The slab is subjected to a uniform electric field of [latex]E=6a_{x}+8a_{y}[/latex] kV/mm. The relative permittivity of the dielectric material is equal to 2. The value of constant [latex]\\varepsilon _{0} \\; is\\;  8.85\\times 10^{-12}[/latex] F/m. The energy stored in the dielectric in Joules is",
+    "solution": "Energy density [latex]=\\frac{1}{2}\\in |\\vec{E}|^2[/latex] Energy = Energy density x Volume Energy [latex]=\\frac{1}{2} \\times \\in _0 \\times \\in _r(6^2+8^2)\\times 10^{12} [/latex]  [latex]\\times 0.5 \\times 0.5 \\times 0.5 [/latex] [latex]=\\frac{1}{2} \\times 8.85 \\times 10^{-12} \\times 2 \\times 100 \\times 10^{12} \\times 0.1[/latex] [latex] =88.5 J[/latex]",
+    "options": {
+      "A": "[latex]8.85 \\times 10^{-11}[/latex]",
+      "B": "[latex]8.85 \\times 10^{-5}[/latex]",
+      "C": "88.5",
+      "D": "885"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 The flux density at a point in space is given by [latex]B=4xa_{x}+2kya_{y}+8a_{z} Wb/m^{2}[/latex]. The value of constant k must be equal to",
+    "solution": "[latex]\\begin{aligned} \\bigtriangledown \\cdot B &=0 \\\\ \\left ( \\frac{\\partial }{\\partial x}a_x +\\frac{\\partial }{\\partial y}a_y + \\frac{\\partial }{\\partial z}a_z\\right )&(4xa_x+2kya_y+8a_z)=0 \\\\ 4+2k&=0\\\\ k&=-2 \\end{aligned}[/latex]",
+    "options": {
+      "A": "-2",
+      "B": "-0.5",
+      "C": "0.5",
+      "D": "2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 The direction of vector A is radially outward from the origin, with [latex]|A|=kr^{n}[/latex], where [latex]r^{2}=x^{2}+y^{2}+z^{2}[/latex] and k is a constant. The value of n for which [latex]\\bigtriangledown \\cdot A= 0[/latex] is",
+    "solution": "[latex]\\begin{aligned} \\vec{A} &=kr^n\\hat{i}_r \\\\ \\triangledown \\cdot \\vec{A} &= \\frac{1}{r^2}\\frac{\\partial }{\\partial r}(r^2 k r^n)\\\\ &=\\frac{1}{r^2}\\frac{\\partial }{\\partial r}( k r^{n+2}) \\\\ &= (n+2)k\\frac{r^{n+1}}{r^2}\\\\ &= (n+2)kr^{n-1}\\\\ \\text{For}\\;\\; \\triangledown \\cdot \\vec{A} &= 0\\\\ n+2 &=0\\\\ \\Rightarrow \\;\\; n=-2 \\end{aligned}[/latex]",
+    "options": {
+      "A": "-2",
+      "B": "2",
+      "C": "1",
+      "D": "0"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 A capacitor is made with a polymeric dielectric having an [latex]\\varepsilon _r[/latex] of 2.26 and a\ndielectric breakdown strength of 50 kV/cm. The permittivity of free space is 8.85\npF/m. If the rectangular plates of the capacitor have a width of 20 cm and a\nlength of 40 cm, then the maximum electric charge in the capacitor is",
+    "solution": "[latex]\\begin{aligned} Q &=CV = \\frac{\\in _0 \\in _r A}{d} \\times V\\\\ &= \\in _0 \\in _r A \\times \\frac{V}{d}= \\in _0 \\in _r A \\times E\\\\ &=8.85 \\times 10^{-12} \\times 2.26 \\times 20 \\times 10^{-2} \\\\ &\\times 40 \\times 10^{-2} \\times 5000 \\times 10^3 \\\\ &=8\\mu C \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]2 \\mu C[/latex]",
+      "B": "[latex]4 \\mu C[/latex]",
+      "C": "[latex]8 \\mu C[/latex]",
+      "D": "[latex]10 \\mu C[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 Two point charges [latex]Q1 = 10\\mu[/latex]C and [latex]Q2 = 20 \\mu[/latex]C are placed at coordinates (1,1,0) and (-1,-1,0) respectively. The total electric flux passing through a plane z = 20 will be",
+    "solution": "Net electrical flux passing thriugh plane Z=20 [latex]Q=\\frac{Q_1+Q_2}{2}=\\frac{10+20}{2}=15\\mu C[/latex]",
+    "options": {
+      "A": "7.5 [latex]\\mu[/latex]C",
+      "B": "13.5 [latex]\\mu[/latex]C",
+      "C": "15.0 [latex]\\mu[/latex]C",
+      "D": "22.5 [latex]\\mu[/latex]C"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 A coil of 300 turns is wound on a non-magnetic core having a mean circumference\nof 300 mm and a cross-sectional area of 300  [latex]mm^{2}[/latex] . The inductance of the coil\ncorresponding to a magnetizing current of 3 A will be (Given that [latex]\\mu _{0}=4\\pi \\times 10^{-7} H/m[/latex])",
+    "solution": "[latex]\\begin{aligned} n &=300 \\\\ (I)\\; \\text{circumference}&=2 \\pi r=300\\; mm \\\\ A &=30\\; mm^2=300 \\times 10^{-6} \\; m^2 \\\\ &\\therefore \\; \\text{Inductance of coil} \\\\ L &=\\frac{\\mu _0 N^2 A}{I} \\\\ &=\\frac{4 \\pi \\times 10^{-7} \\times 300 ^3 \\times 10^{-6}}{300 \\times 10^{-3}} \\\\ &=113.04\\; \\mu H \\end{aligned}[/latex]",
+    "options": {
+      "A": "37.68 [latex]\\mu[/latex]H",
+      "B": "113.04 [latex]\\mu[/latex]H",
+      "C": "37.68 [latex]\\mu[/latex]H",
+      "D": "113.04 [latex]\\mu[/latex]H"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 A capacitor consists of two metal plates each 500x500 [latex]mm^{2}[/latex] and spaced 6 mm apart. The space between the metal plates is filled with a glass plate of 4 mm thickness and a layer of paper of 2 mm thickness. The relative primitivities of the glass and paper are 8 and 2 respectively. Neglecting the fringing effect, the\ncapacitance will be (Given that [latex]\\varepsilon _{0}=8.85 \\times 10^{-12}[/latex] F/m )",
+    "solution": "[latex]A_1=A_2=500 \\times 500 \\; mm^2 =25 \\times 10^{-2} m^2[/latex] [latex] \\varepsilon _{r1}=8, \\varepsilon _{r2}=2, d_1=4mm, d_2=2mm[/latex] [latex]\\begin{aligned} C_{eq} &=\\frac{C_1 \\times C_2}{C_1 +C_2}=\\frac{\\frac{A\\varepsilon _{r1}\\varepsilon _0}{d_1} \\times \\frac{A\\varepsilon _{r2}\\varepsilon _0}{d_2}}{\\frac{A\\varepsilon _{r1}\\varepsilon _0}{d_1}+\\frac{A\\varepsilon _{r2}\\varepsilon _0}{d_2}} \\\\ C_{eq}&=\\frac{A\\varepsilon _0 \\varepsilon _{r1} \\varepsilon _{r2}}{\\varepsilon _{r1} d_2 +\\varepsilon _{r2} d_1} \\\\ &=\\frac{500 \\times 500 \\times 10^{-6} \\times 8.85 \\times 10^{-12} \\times 8 \\times 2}{(8 \\times 2+2 \\times 4) \\times 10^{-3}} \\\\ &= 1475 \\; \\text{pF} \\end{aligned}[/latex]",
+    "options": {
+      "A": "983.3 pF",
+      "B": "1475 pF",
+      "C": "6637.5 pF",
+      "D": "9956.25 pF"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 An inductor designed with 400 turns coil wound on an iron core of 16 [latex]cm^2[/latex] cross\nsectional area and with a cut of an air gap length of 1 mm. The coil is connected\nto a 230 V, 50 Hz ac supply. Neglect coil resistance, core loss, iron reluctance and\nleakage inductance, [latex]\\mu _0=4 \\pi \\times 10^{-7}[/latex] H/M The average force on the core to reduce the air gap will be",
+    "solution": "[latex]\\begin{aligned} \\text{Energy stored}&=\\frac{1}{2} \\times L \\times I^2 \\\\ &= \\frac{1}{2} \\times 0.3215 \\times 2.28^2\\\\ &=0.8356 \\; J \\end{aligned}[/latex] Force to reduce 1 mm air gap [latex]=\\frac{E}{d}=\\frac{0.8356}{1 \\times 10^{-3}}=835.6\\; N[/latex]",
+    "options": {
+      "A": "832.29N",
+      "B": "1666.22N",
+      "C": "3332.47N",
+      "D": "6664.84N"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 An inductor designed with 400 turns coil wound on an iron core of 16 [latex]cm^2[/latex] cross\nsectional area and with a cut of an air gap length of 1 mm. The coil is connected\nto a 230 V, 50 Hz ac supply. Neglect coil resistance, core loss, iron reluctance and\nleakage inductance, [latex]\\mu _0=4 \\pi \\times 10^{-7}[/latex] H/M The current in the inductor is",
+    "solution": "[latex]\\begin{aligned} L&=\\frac{\\mu _0 N^2 A}{l} \\\\ &= \\frac{4 \\pi \\times 10^{-7} \\times (400)^2 \\times 16 \\times 10^{-4}}{1 \\times 10^{-3}}\\\\ &= 0.3215\\\\ X_L&= 2 \\pi fL\\\\ \\therefore \\;\\; I&=\\frac{V}{X_L}=\\frac{V}{2 \\pi f L} \\\\ &= \\frac{230}{2 \\pi \\times 50 \\times 0.3215}=2.28\\;A \\end{aligned}[/latex]",
+    "options": {
+      "A": "18.08A",
+      "B": "9.04A",
+      "C": "4.56A",
+      "D": "2.28A"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 A solid sphere made of insulating material has a radius R and has a total charge\r\nQ distributed uniformly in its volume. What is the magnitude of the electric field\r\nintensity, E, at a distance [latex]r\\; (0 \\lt r \\lt R)[/latex] inside the sphere ?",
+    "solution": "By Gauss's theorem [latex]\\int _s \\vec{\\in } \\times \\vec{ds}=\\frac{Q_{enclosed}}{\\in _0} [/latex] where, [latex]Q_{enclosed}[/latex] in radius [latex]r [/latex] [latex]\\begin{aligned} \\int _s \\vec{E} \\cdot \\vec{dS}&= \\frac{Q}{\\frac{4}{3} \\pi R^3} \\times \\frac{4}{3} \\pi r^3 \\times \\frac{1}{\\in _0}\\\\ E(4 \\pi r^2)&=\\frac{Qr^3}{R^3} \\times \\frac{1}{\\in _0}\\\\ \\therefore \\;\\; E &=\\frac{Qr}{4 \\pi \\in _0 R^3} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{4 \\pi \\varepsilon _{0}}\\frac{Qr}{R^{3}}[/latex]",
+      "B": "[latex]\\frac{3}{4 \\pi \\varepsilon _{0}}\\frac{Qr}{R^{3}}[/latex]",
+      "C": "[latex]\\frac{1}{4 \\pi \\varepsilon _{0}}\\frac{Q}{r^{2}}[/latex]",
+      "D": "[latex]\\frac{1}{4 \\pi \\varepsilon _{0}}\\frac{QR}{r^{3}}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 Divergence of the vector field [latex]V(x,y,z)=-(x \\cos xy+y)\\hat{i}+(y \\cos xy)\\hat{j}[/latex] [latex]+(\\sin z^{2}+x^{2}+y^{2})\\hat{k}[/latex] is",
+    "solution": "[latex]\\begin{aligned} V(x,y,z) &=-(x \\cos xy+y)i +(y \\cos xy)j \\\\ & \\times[\\sin (z^2)+(x^2)+(y^2)]k \\\\ \\text{Divergence}&=\\triangledown \\cdot V \\\\ &=\\frac{\\partial V_x}{\\partial x} +\\frac{\\partial V_y}{\\partial y}+\\frac{\\partial V_z}{\\partial z}\\\\ &=-\\cos xy+x(\\sin xy)y +\\cos xy \\\\ &-y \\sin (xy)x+2z \\cos z^2 \\\\ &= 2z \\cos z^2 \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]2z \\cos z^{2}[/latex]",
+      "B": "[latex]\\sin xy+2z \\cos z^{2}[/latex]",
+      "C": "[latex]x sinxy - cos z[/latex]",
+      "D": "None of these"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 Consider the following statements with reference to the equation [latex]\\frac{\\delta p}{\\delta t}[/latex] (1) This is a point form of the continuity equation. (2) Divergence of current density is equal to the decrease of charge per unit\r\nvolume per unit at every point. (3) This is Max well's divergence equation (4) This represents the conservation of charge Select the correct answer.",
+    "solution": "",
+    "options": {
+      "A": "Only 2 and 4 are true",
+      "B": "1, 2 and 3 are true",
+      "C": "2, 3 and 4 are true",
+      "D": "1, 2 and 4 are true"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 Which of the following statement holds for the divergence of electric and magnetic flux densities ?",
+    "solution": "The divergence of magnetic field is always zzero because magnetic flux makes always a closed path. So,  [latex]\\bigtriangledown \\cdot B=0[/latex]  (Maxweel's equation) while divergence of electric field, [latex]\\bigtriangledown \\cdot \\vec{E}=\\frac{\\rho _v}{\\in}[/latex]",
+    "options": {
+      "A": "Both are zero",
+      "B": "These are zero for static densities but non zero for time varying densities.",
+      "C": "It is zero for the electric flux density",
+      "D": "It is zero for the magnetic flux density"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 The charge distribution in a metal-dielectric-semiconductor specimen is\nshown in the figure. The negative charge density decreases linearly in the\nsemiconductor as shown. The electric field distribution is as shown in",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page13_q2.webp",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 If [latex]\\vec{E}[/latex] is the electric intensity, [latex]\\triangledown \\cdot (\\triangledown \\times \\vec{E})[/latex] is equal to",
+    "solution": "Divergence of a curl field is always zero. i.e. [latex]\\triangledown \\cdot (\\triangledown \\times \\vec{E})=0[/latex]",
+    "options": {
+      "A": "[latex]\\vec{E}[/latex]",
+      "B": "|[latex]\\vec{E}[/latex]|",
+      "C": "null vector",
+      "D": "Zero"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 The inductance of a long solenoid of length 1000 mm wound uniformly with\n3000 turns on a cylindrical paper tube of 60 mm diameter is",
+    "solution": "Let,  [latex]B=\\mu _0nI[/latex] Then, [latex]\\phi =B.S=\\mu _0nSI[/latex] Where 'S' is the cross sectional area of solenoid flux linkage, [latex]a'=n\\phi =\\mu _0n^2SI[/latex] Hence, Inductance length [latex] =\\mu _0n^2S[/latex] For, [latex]l=1000mm=1m [/latex] [latex]\\therefore \\;\\;L=4 \\pi \\times 10^{-7} \\times 3000^2 \\times \\pi \\times (30 \\times 10^{-3})^2 [/latex] [latex]\\;\\;\\;=32mH[/latex]",
+    "options": {
+      "A": "3.2 [latex]\\mu H[/latex]",
+      "B": "3.2 mH",
+      "C": "32.0 mH",
+      "D": "3.2 H"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 A parallel plate capacitor is shown in figure. It is made two square metal plates\r\nof 400 mm side. The 14 mm space between the plates is filled with two layers of\r\ndielectrics of [latex]\\varepsilon _r[/latex]= 4, 6 mm thick and [latex]\\varepsilon _r[/latex]= 2, 8 mm thick. Neglecting fringing of\r\nfields at the edge the capacitance is",
+    "solution": "When two capacitor formed by two layer of dielectics are connected in series, then equivalent capacitance [latex]\\begin{aligned} C_{eq} &= \\frac{C_1 \\times C_2}{C_1+C_2}\\\\ &=\\frac{\\frac{\\varepsilon _{r1} \\varepsilon _0 A}{d_1} \\times \\frac{\\varepsilon _{r2} \\varepsilon _0 A}{d_2}}{\\frac{\\varepsilon _{r1} \\varepsilon _0 A}{d_1} + \\frac{\\varepsilon _{r2} \\varepsilon _0 A}{d_2}} \\\\ &= \\frac{(8.85 \\times 10^{-12})(400 \\times 10^{-3})^2 \\times 4 \\times 2}{4 \\times 8 \\times 10^{-3}+6 \\times 2 \\times 10^{-3}} \\\\ & =257 \\; \\text{pF} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page13_q5.webp",
+    "options": {
+      "A": "1298 pF",
+      "B": "944 pF",
+      "C": "354 pF",
+      "D": "257pF"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 A composite parallel plate capacitor is made up of two different dielectric\nmaterial with different thickness ([latex]t_{1}[/latex] and [latex]t_{2}[/latex]) as shown in figure. The two different\ndielectric materials are separated by a conducting foil F. The voltage of the\nconducting foil is",
+    "solution": "[latex]\\begin{aligned} C_1 &=\\frac{\\varepsilon _{r1} \\varepsilon _0 A}{t_1} \\\\ C_2 &=\\frac{\\varepsilon _{r2} \\varepsilon _0 A}{t_2} \\end{aligned} [/latex] Let voltage on the conductor coil is V, then [latex]C_1(100-V)=C_2V [/latex] [Charges on both capacitor are equal] [latex] \\frac{\\varepsilon _{r1}}{t_1}(100-V)=\\frac{\\varepsilon _{r2}}{t_2}V [/latex] [latex]6(100-V)=4V[/latex] [latex] \\therefore \\;\\; V=\\frac{600}{10}=60 \\; \\text{Volts}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page14_q1.webp",
+    "options": {
+      "A": "52 V",
+      "B": "60 V",
+      "C": "67 V",
+      "D": "33 V"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 A parallel plate capacitor has an electrode area of 100 [latex]mm^{2}[/latex], with spacing of\r\n0.1 mm between the electrodes. The dielectric between the plates is air with\r\na permittivity of [latex]8.85\\times 10^{-12}[/latex] F/m. The charge on the capacitor is 100 V. The stored energy in the capacitor is",
+    "solution": "[latex]\\begin{aligned} E &=\\frac{1}{2} QV= \\frac{1}{2}CV^2\\\\ &=\\frac{1}{2} \\times \\frac{\\varepsilon _0 A}{d} \\times V^2\\\\ &=\\frac{1}{2} \\times \\frac{8.85 \\times 10^{-12} \\times 100 \\times 10^{-6} \\times 10^4}{10^{-4}} \\\\ &= 44.3 \\; \\text{nJ} \\end{aligned}[/latex]",
+    "options": {
+      "A": "8.85 pJ",
+      "B": "440 pJ",
+      "C": "22.1 pJ",
+      "D": "44.3 pJ"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 A point charge of +1 nC is placed in a space with permittivity of [latex]8.85\\times 10^{-12}[/latex] F/m as shown in figure. The potential difference [latex]V_{PQ}[/latex] between two points P and Q at distance of 40 mm and 20 mm respectively from the point charge is",
+    "solution": "[latex]\\begin{aligned} V_P-V_Q &=\\frac{q}{4 \\pi \\varepsilon _0 (OP)} -\\frac{q}{4 \\pi \\varepsilon _0 (OQ)} \\\\ &= 9 \\times 10^9\\left [ \\frac{10^{-9}}{40 \\times 10^{-3}} -\\frac{10^{-9}}{20 \\times 10^{-3}}\\right ]\\\\ &=-225 \\; \\text{volts} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page14_q3.webp",
+    "options": {
+      "A": "0.22 kV",
+      "B": "-225 V",
+      "C": "-2.24 kV",
+      "D": "15 V"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 Two infinite strips of width w m in x -direction as shown in figure, are carrying\nforward and return currents of +I and -I in the z - direction. The strips\nare separated by distance of x m. The inductance per unit length of the\nconfiguration is measured to be L H/m. If the distance of separation between\nthe strips in snow reduced to x/2 m, the inductance per unit length of the\nconfiguration is",
+    "solution": "Inductance is proportional to separation between the strips so when separation is reduced to x/2 then inductance will become L/2 H/m.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page14_q4.webp",
+    "options": {
+      "A": "2L H/m",
+      "B": "L/4 H/m",
+      "C": "L/2 H/m",
+      "D": "4L H/m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 Two conductors are carrying forward and return current of +I and -I as\nshown in figure. The magnetic field intensity H at point P is",
+    "solution": "[latex]\\bar{H}=\\bar{H_1}+\\bar{H_2}=\\frac{I}{2 \\pi d}\\vec{y}+\\frac{I}{2 \\pi d}\\vec{y}=\\frac{I}{ \\pi d}\\vec{y}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/et/page14_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{I}{\\pi d}\\vec{Y}[/latex]",
+      "B": "[latex]\\frac{I}{\\pi d}\\vec{X}[/latex]",
+      "C": "[latex]\\frac{I}{2 \\pi d}\\vec{Y}[/latex]",
+      "D": "[latex]\\frac{I}{2 \\pi d}\\vec{X}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 Given a vector field [latex]\\vec{F}[/latex], the divergence theorem states that",
+    "solution": "",
+    "options": {
+      "A": "[latex]\\int _S\\vec{F}\\cdot d\\vec{S}=\\int _V\\vec{\\triangledown }\\cdot \\vec{F}dV[/latex]",
+      "B": "[latex]\\int _S\\vec{F}\\cdot d\\vec{S}=\\int _V\\vec{\\triangledown }\\times \\vec{F}dV[/latex]",
+      "C": "[latex]\\int _S\\vec{F}\\times d\\vec{S}=\\int _V\\vec{\\triangledown }\\cdot \\vec{F}dV[/latex]",
+      "D": "[latex]\\int _S\\vec{F}\\times d\\vec{S}=\\int _V\\vec{\\triangledown }\\times \\vec{F}dV[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 72 Given the potential function in free space to be [latex]V(x) = (50x^{2}+50y^{2}+50z^{2})[/latex] volts, the magnitude (in volts/metre) and the direction of the electric field at a point (1,-1,1), where the dimensions are in metres, are",
+    "solution": "[latex]\\begin{aligned} V_{(x,y,z)} &= 50x^2+50y^2+50z^2\\\\ \\vec{E}&=-\\triangledown V \\\\ &=-[100x\\hat{i}+100y\\hat{j}+100z\\hat{k}]V/m \\\\ \\vec{E}(1,-1,1) &=-[100\\hat{i}-100\\hat{j}+100\\hat{k}]V/m \\\\ |E|&= \\sqrt{100^2+100^2+100^2}=100\\sqrt{3}\\\\ \\hat{a}_E &=\\frac{\\vec{E}}{|E|}=-\\frac{1}{\\sqrt{3}}(i-j+k) \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]100;\\left ( \\hat{i}+\\hat{j}+\\hat{k} \\right )[/latex]",
+      "B": "[latex]\\frac{100}{\\sqrt{3}};\\left ( \\hat{i}-\\hat{j}+\\hat{k} \\right )[/latex]",
+      "C": "[latex]100\\sqrt{3};\\left [ \\left ( -\\hat{i}-\\hat{j}-\\hat{k} \\right )/\\sqrt{3} \\right ][/latex]",
+      "D": "[latex]100\\sqrt{3};\\left [ \\left (\\hat{i}-\\hat{j}-\\hat{k} \\right )/\\sqrt{3} \\right ][/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 The electric field [latex]\\vec{E}[/latex] (in volts/metre) at the point (1,1,0) due to a point charge of [latex]+1\\mu C[/latex] located at (-1,1,1) (coordinates in metres)is",
+    "solution": "[latex]\\begin{aligned} \\vec{r} &= [1-(-1)]\\hat{i}+(1-1)\\hat{j}+(0-1)\\hat{k}\\\\ &= 2\\hat{i}-\\hat{k} \\end{aligned}[/latex] Distance between (1,1,0) and (-1,1,1)=r [latex]\\begin{aligned} &=\\sqrt{(1-(-1))^2+(1-1)^2+(0-1)^2}=\\sqrt{5} \\\\ \\vec{E}&= \\frac{Q}{4 \\pi \\varepsilon _0 r^3}(\\vec{r})\\\\ &= \\frac{10^{-6}}{4 \\pi \\varepsilon _0 \\times (\\sqrt{5})^3}(2\\hat{i}-\\hat{k})\\\\ &= \\frac{10^{-6}}{20 \\sqrt{5} \\pi \\varepsilon _0}(2\\hat{i}-\\hat{k}) \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{10^{-6}}{20\\sqrt{5}\\pi \\varepsilon _{0}}\\left ( 2i-k \\right )[/latex]",
+      "B": "[latex]\\frac{10^{-6}}{20\\pi \\varepsilon _{0}}\\left ( 2i-k \\right )[/latex]",
+      "C": "[latex]\\frac{-10^{-6}}{20\\sqrt{5}\\pi \\varepsilon _{0}}\\left ( 2i-k \\right )[/latex]",
+      "D": "[latex]\\frac{-10^{-6}}{20\\pi \\varepsilon _{0}}\\left ( 2i-k \\right )[/latex]"
+    },
+    "correct_answer": "A"
+  }
+]

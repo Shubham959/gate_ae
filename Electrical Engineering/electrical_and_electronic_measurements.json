@@ -1,0 +1,1253 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 In the Wheatstone bridge shown below, the sensitivity of the bridge in terms of change in balancing voltage E for unit change in the resistance R , in [latex]\\mathrm{mV} / \\Omega[/latex], is ___________ (round off to two decimal places).",
+    "solution": "[latex]E=V_{C}-V_{D}=\\left(10 \\times \\frac{5000}{5000+51}-10 \\times \\frac{1000}{1010}\\right)[/latex]\n\n[latex]\n=10\\left[\\frac{5000}{5051}-\\frac{1000}{1010}\\right]=1.96 \\mathrm{mV} / \\Omega\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page1_q1.webp",
+    "min": 1.94,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 In an experiment to measure the active power drawn by a single-phase RL Load connected to an AC source through a [latex]2 \\Omega[/latex] resistor, three voltmeters are connected as shown in the figure below. The voltmeter readings are as follows: \n[latex]\\mathrm{V}_{\\text {source }}=200 \\mathrm{~V}, \\mathrm{~V}_{\\mathrm{R}}=9 \\mathrm{~V}, \\mathrm{~V}_{\\text {Load }}=199 \\mathrm{~V}[/latex]. Assuming perfect resistors and ideal voltmeters, the Loadactive power measured in this experiment, in W, is\n___________ (round off to one decimal place).",
+    "solution": "Here [latex]|\\mathrm{I}|=\\frac{\\left|\\mathrm{V}_{\\mathrm{R}}\\right|}{2}=\\frac{9}{2}=4.5 \\mathrm{~A}[\\mathrm{RMS}][/latex] From resultant of vectors's formulae\n\n[latex]\n\\begin{aligned}\n\\mathrm{V}_{\\text {source }} & =\\sqrt{\\mathrm{V}_{\\mathrm{R}}^{2}+\\mathrm{V}_{\\mathrm{Load}}^{2}+2 \\mathrm{~V}_{\\mathrm{R}} \\cdot \\mathrm{~V}_{\\mathrm{Load}} \\cos \\phi_{\\mathrm{L}}} \\\\\n200 & =\\sqrt{9^{2}+199^{2}+2(9)(199) \\cos \\phi_{\\mathrm{L}}} \\\\\n\\cos \\phi_{\\mathrm{L}} & =\\frac{(200)^{2}-9^{2}-199^{2}}{2(9)(199)}=\\frac{318}{3582}=0.08877(\\mathrm{lag}) \\\\\n\\mathrm{P} & =\\left|\\mathrm{V}_{\\mathrm{Load}}\\right| \\mathrm{I} \\mid \\cos \\phi_{\\mathrm{L}} \\\\\n& =|199|\\left|\\frac{9}{2}\\right|(0.08877) \\\\\n\\mathrm{P} & =79.5 \\mathrm{~W}\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page1_q2.webp",
+    "min": 78.0,
+    "max": 81.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 3 The switch (S) closes at [latex]\\mathrm{t}=0 \\mathrm{sec}[/latex]. The time, in sec, the capacitor takes to charge to 50 V is ___________ (round off to one decimal place).",
+    "solution": "[latex]\\quad v(t)=v(\\alpha)+[V(0)-V(\\alpha)] e^{-t \\tau}[/latex] [latex]\\rightarrow \\mathrm{V}(0)[/latex] KVL [latex]-100+\\mathrm{V}(0)+75=0 \\Rightarrow \\mathrm{~V}(0)=25 \\mathrm{~V}[/latex] [latex]\\rightarrow \\mathrm{V}(\\propto)[/latex] KVL [latex]-100+\\mathrm{V}(\\propto)=0 \\Rightarrow \\mathrm{~V}(\\propto)=100 \\mathrm{~V}[/latex] [latex]\\rightarrow \\tau, \\mathrm{t} \\geq 0 \\Rightarrow \\tau=\\mathrm{R}_{\\text {eq }} \\cdot \\mathrm{C}=2(5)=10 \\mathrm{sec}[/latex] So, [latex]v(t)=100+[25-100] \\mathrm{e}^{-t / 10}[/latex] [latex]\n\\mathrm{v}(\\mathrm{t})=100-75 \\mathrm{e}^{-\\mathrm{t} 10} \\mathrm{~V}\n[/latex] Now [latex]V(t)=500 \\mathrm{~V}[/latex], then [latex]\\mathrm{t}=[/latex] ___________ [latex]50=100-75 \\mathrm{e}^{-\\mathrm{t} / 10}[/latex] [latex]75 \\mathrm{e}^{-t / 10}=50[/latex] [latex]\\mathrm{e}^{-t / 10}=\\frac{2}{3}[/latex] [latex]-\\frac{\\mathrm{t}}{10}=\\ln \\left[\\frac{2}{3}\\right][/latex] [latex]-\\frac{\\mathrm{t}}{10}=-0.40546[/latex] [latex]\\mathrm{t}=4.05 \\mathrm{sec}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page1_q3.webp",
+    "min": 4.0,
+    "max": 4.2
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 In the circuit, shown below, if the values of R and C are very large, the form of the output voltage for a very high frequency square wave input, is best represented by",
+    "solution": "As R and C are very large. The time-constant also very large but input supply square-wave frequency is high, so time-period of supply square is very small, so with large T in circuit but with small timeperiod of supply, output can never reach steadystate value of +1 (or) -1 V . So, this originally is step (or) pulse response to1 [latex]{ }^{\\text {st }}[/latex] order circuit where original shape of ' [latex]\\mathrm{V}_{0}[/latex] ' is exponential but almost linearized as ' [latex]T[/latex] ' is very large.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page1_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 The maximum percentage error in the equivalent resistance of two parallel-connected resistors of [latex]100 \\Omega[/latex] and [latex]900 \\Omega[/latex] with each having a maximum [latex]5 \\%[/latex] error is __________  % (round off to nearest integer value).",
+    "solution": "[latex]\\mathrm{R}_{1}=100 \\Omega \\pm 5 \\%=100 \\pm 5[/latex] [latex]\n\\begin{aligned}\n& \\quad=95 \\text { to } 105 \\\\\n& \\mathrm{R}_{2}=900 \\Omega \\pm 5 \\%=900 \\pm 45 \\\\\n& =855 \\text { to } 945 \\\\\n& \\mathrm{R}_{\\text {totaltrue }}=\\frac{100 \\times 900}{100+900}=\\frac{90000}{1000}=90 \\Omega \\\\\n& \\mathrm{R}_{\\text {total mas }}=\\frac{105 \\times 945}{105+945}=94.5 \\Omega\\\\\n& \\% \\text { Error }=\\frac{94.5-90}{90} \\times 100=5 \\%\n\\end{aligned}\n[/latex]",
+    "min": 5.0,
+    "max": 5.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 6 In the circuit shown, [latex] Z_{1}=50 \\angle-90^{\\circ} [/latex] and [latex] Z_{2}=200 \\angle-30^{\\circ} \\Omega [/latex]. It is supplied by a three phase [latex] 400 \\mathrm{~V} [/latex] source with the phase sequence being R-Y-B. Assume the watt meters [latex] W_{1} [/latex] and [latex] W_{2} [/latex] to be ideal. The magnitude of the difference between the readings of [latex] W_{1} [/latex] and [latex] W_{2} [/latex] in watts is ______ (rounded off to 2 decimal places).",
+    "solution": "[latex]\n\\begin{aligned}\nV_{R Y} & =400 \\angle 0^{\\circ} \\\\\nV_{Y B} & =400 \\angle-120^{\\circ} \\\\\nV_{B R} & =400 \\angle-240^{\\circ} \\\\\nV_{P C} & =V_{R B}=400 \\angle-60^{\\circ} \\\\\nI_{1} & =\\frac{V_{R B}}{Z_{1}}=\\frac{400 \\angle-60^{\\circ}}{50 \\angle-90^{\\circ}}=8 \\angle 30^{\\circ} \\\\\nI_{2} & =\\frac{V_{R Y}}{Z_{2}}=\\frac{400 \\angle 0^{\\circ}}{200 \\angle-30^{\\circ}}=2 \\angle 30^{\\circ} \\Rightarrow I_{C C(2)} \\\\\nI_{L 1} & =I_{C C(1)}=I_{1}+I_{2}=8 \\angle 30^{\\circ}+2 \\angle 30^{\\circ} \\\\\n& =10 \\angle 30^{\\circ} \\Rightarrow I_{C C(1)} \\\\\nW & =V_{R B} \\times I_{2 \\theta} \\cos \\left(\\angle V_{R B} \\text { and } I_{L O}\\right) \\\\\nW_{1} & =400 \\times 10 \\times \\cos \\left(-60^{\\circ}-30^{\\circ}\\right)=0 \\text { Watt } \\\\\nW_{2} & =V_{Y B} \\times I_{2} \\cos \\left(\\angle V_{Y B} \\text { and } I_{2}\\right) \\\\\n& =400 \\times 2 \\times \\cos \\left(-120^{\\circ}-30^{\\circ}\\right)=-692.8 \\text { Watt } \\\\\nW_{2} & =0-(-692.8)=692.8 \\text { Watt }\n\\end{aligned}\n [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page2_q1.webp",
+    "min": 692.0,
+    "max": 693.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 The table lists two instrument transformers and their features: [latex]\n\\begin{array}{|l|l|}\n\\hline\n\\text{Instrument Transformers} & \\text{Features} \\\\\n\\hline\n & \\text{(P) Primary is connected in parallel to the grid} \\\\\n\\hline\n\\text{(X) Current Transformer} (CT)  & \\text{(Q) Open circuited secondary is not desirable} \\\\\n\\hline\n\\text{(Y) Potential Transformer} (PT)  & \\text{(R) Primary current is the line current} \\\\\n\\hline\n & \\text{(S) Secondary burden affects the primary current}   \\\\\n\\hline\n \\end{array}\n[/latex] The correct matching of the two column is",
+    "solution": "",
+    "options": {
+      "A": "[latex] X [/latex] matches with [latex] P [/latex] and [latex] Q ; Y [/latex] matches with [latex] R [/latex] and [latex] S [/latex].",
+      "B": "[latex] X [/latex] matches with [latex] P [/latex] and [latex] R ; Y [/latex] matches with [latex] Q [/latex] and [latex] S [/latex].",
+      "C": "[latex] X [/latex] matches with [latex] Q [/latex] and [latex] R ; Y [/latex] matches with [latex] P [/latex] and [latex] S [/latex].",
+      "D": "[latex] X [/latex] matches with [latex] Q [/latex] and [latex] S ; Y [/latex] matches with [latex] P [/latex] and [latex] R [/latex]."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 A 3-phase, star-connected, balanced load is supplied from a 3-phase, 400V (rms), balanced voltage source with phase sequence [latex]R-Y-B[/latex], as shown in the figure. If the wattmeter reading is [latex]-400 \\mathrm{~W}[/latex] and the line current is [latex]\\mathrm{I}_{\\mathrm{R}}=2 \\mathrm{~A}(\\mathrm{rms})[/latex], then the power factor of the load per phase is",
+    "solution": "By observation of wattmeter connection, the wattmeter read reactive power [latex]\\because[/latex] Wattmeter reading, [latex]W=Y_{Y B} I_{R}[/latex] (Angle between [latex]V_{Y B}[/latex] and [latex]I_{R}[/latex]. Phasor diagram : [latex]\\therefore \\quad W=V_{\\mathrm{L}} \\mathrm{I}_{\\mathrm{L}} \\cos \\left(90^{\\circ}-\\beta\\right)[/latex] [latex]=V_{L} I_{L} \\sin \\phi[/latex] Given: [latex]\\quad W=-400 \\mathrm{~W}[/latex] [latex]\\therefore \\quad-400=400 \\times 2 \\times \\sin \\phi[/latex] [latex]\\Rightarrow \\quad \\phi=-30^{\\circ}[/latex] Thus, P.F. [latex]=\\cos \\phi=0.866[/latex] leading",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page2_q3.webp",
+    "options": {
+      "A": "Unity",
+      "B": "0.5 leading",
+      "C": "0.866 leading",
+      "D": "0.707 lagging"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 Two balanced three-phase loads, as shown in the figure, are connected to a [latex]100\\sqrt{3}V [/latex],\nthree-phase, 50 Hz main supply. Given [latex] Z_1=(18+j24)\\Omega [/latex] and [latex] Z_2=(6+j8)\\Omega [/latex]. The\nammeter reading, in amperes, is _______. (round off to nearest integer)",
+    "solution": "First perform delta to star conversion\nwe know, for balanced load [latex]Z_{star}=\\frac{Z_{delta}}{3}=\\frac{18+j24}{3}=6+j8\\Omega [/latex] Draw the per phase diagram: [latex]Z_{eq}=(6+j8)||(6+j8)=(3+j8)\\Omega =5\\angle 53.13^{\\circ} \\Omega [/latex] Therefore, Meter reading, [latex]I=\\frac{100}{5}=20A [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page2_q4.webp",
+    "min": 20.0,
+    "max": 20.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 A balanced Wheatstone bridge [latex]ABCD[/latex] has the following arm resistances: [latex]R_{AB}=1k\\Omega \\pm 2.1%; R_{BC}=100\\Omega \\pm 0.5%, R_{CD}[/latex] is an unknown resistance; [latex]R_{DA}=300\\Omega \\pm 0.4%; [/latex]. The value of [latex]R_{CD}[/latex] and its accuracy is",
+    "solution": "The condition for balanced bridge [latex] \\begin{aligned}\n R_{AB}R_{CD}&=R_{DA}R_{BC} \\\\ \nR_{CD} &=\\frac{300 \\times 100}{1000}=30\\Omega  \\\\ \n %Error &=\\pm (2.1+0.5+0.4)=\\pm 3% \\\\ \n \\therefore \\; R_{CD}&=30\\pm 30 \\times \\frac{3}{100}=30\\pm 0.9\\Omega  \n\\end{aligned} [/latex]",
+    "options": {
+      "A": "[latex]30\\Omega \\pm 3\\Omega  [/latex]",
+      "B": "[latex]30\\Omega \\pm 0.9\\Omega  [/latex]",
+      "C": "[latex]3000\\Omega \\pm 90\\Omega  [/latex]",
+      "D": "[latex]3000\\Omega \\pm 3\\Omega  [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 Inductance is measured by",
+    "solution": "Maxwell's bridge is used for measurement of inductance. Wein's bridge is used for measurement of frequency Kelvin's bridge is used for measurement of low value of resistance. Schering bridge is used for measurement of capacitance, dilectric loss and permittivity etc.",
+    "options": {
+      "A": "Schering bridge",
+      "B": "Maxwell bridge",
+      "C": "Kelvin bridge",
+      "D": "Wien bridge"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 A non-ideal Si-based pn junction diode is tested by sweeping the bias applied across\r\nits terminals from -5 V to +5 V. The effective thermal voltage, [latex]V_T[/latex], for the diode is\r\nmeasured to be (29[latex]\\pm[/latex]2) mV. The resolution of the voltage source in the measurement\r\nrange is 1 mV. The percentage uncertainty (rounded off to 2 decimal plates) in the\r\nmeasured current at a bias voltage of 0.02 V is _______.",
+    "solution": "",
+    "min": 11.5,
+    "max": 12.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 Currents through ammeters A2 and A3 in the figure are [latex]1\\angle 10^{\\circ} \\; and \\; 1\\angle 70^{\\circ}[/latex] respectively.\nThe reading of the ammeter A1 (rounded off to 3 decimal places) is ________ A.",
+    "solution": "[latex]I=1\\angle 10^{\\circ}+1\\angle 70^{\\circ}[/latex] [latex] I=1.732\\angle 40^{\\circ}[/latex] The ready of ammeter is 1.732 A.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page3_q3.webp",
+    "min": 1.7,
+    "max": 1.75
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 The voltage across and the current through a load are expressed as follows [latex]v(t)=-170sin(377t-\\frac{\\pi}{6})V[/latex] [latex]i(t)=8 cos(377t+\\frac{\\pi}{6})A[/latex] The average power in watts (round off to one decimal place) consumed by the load is _______.",
+    "solution": "[latex]\\begin{aligned} v(t) &=-170 \\sin \\left ( 377t-\\frac{\\pi}{6} \\right )V=V_{pc}\\\\ i(t) &= 8 \\cos \\left ( 377t+\\frac{\\pi}{6} \\right )A=I_{cc}\\\\ i(t) &= 8 \\sin \\left ( 377t+\\frac{2\\pi}{3} \\right )A=I_{cc} \\\\ P_{avg}&=\\frac{1}{2} \\times (-170)(8) \\times \\cos\\left ( -\\frac{\\pi}{6}-\\frac{2 \\pi}{3} \\right ) \\\\ &= \\frac{1}{2} \\times (-170)(8) \\times \\cos(150^{\\circ}) \\\\ &=588.9W \\end{aligned}[/latex]",
+    "min": 585.0,
+    "max": 590.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 A moving coil instrument having a resistance of 10 [latex]\\Omega[/latex], gives a full-scale deflection when the current is 10 mA. What should be the value of the series resistance, so that it can be used as a voltmeter for measuring potential difference up to 100 V?",
+    "solution": "[latex]\\begin{aligned} V_m&=I_mR_m \\\\ &= 10 mA \\times 10\\Omega \\\\ &= 100mV\\\\ (0-100mV)\\Rightarrow & (0-100V)\\\\ m &= \\frac{V_{ext}}{V_m}=\\frac{100V}{100mV}=1000\\\\ R_{se}&=R_m[m-1] \\\\ R_{se} &= 10(1000-1)\\\\ &= 9990\\Omega \\end{aligned}[/latex]",
+    "options": {
+      "A": "9[latex]\\Omega[/latex]",
+      "B": "99[latex]\\Omega[/latex]",
+      "C": "990[latex]\\Omega[/latex]",
+      "D": "9990[latex]\\Omega[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 A 0-1 Ampere moving iron ammeter has an internal resistance of 50 m[latex]\\Omega[/latex] and inductance of\n0.1 mH. A shunt coil is connected to extend its range to 0-10 Ampere for all operating\nfrequencies. The time constant in milliseconds and resistance in m[latex]\\Omega[/latex] of the shunt coil\nrespectively are",
+    "solution": "Given, [latex]I_m=1A, [/latex] [latex]R_m=50m\\Omega [/latex] [latex]L_m=0.1 mH, [/latex] [latex]I=10A [/latex] We know, [latex]R_{sh}=\\frac{R_m}{(m-1)}; [/latex] [latex]m=\\frac{I}{I_m}=\\frac{10}{1}=10 [/latex] [latex]R_{sh}=\\frac{50 \\times 10^{-3}}{10-1}[/latex] [latex] \\;\\;=5.55m\\Omega [/latex] For all frequencies time constant of shunt and meter arm should be equal. [latex]\\begin{aligned} i.e. \\;\\; \\frac{\\omega L_m}{R_m} &=\\frac{\\omega L_{sh}}{R_{sh}} \\\\ \\frac{L_m}{R_m} &= \\frac{L_{sh}}{R_{sh}}\\\\ \\frac{L_m}{R_m} &= \\frac{0.1 \\times 10^{-3}}{50 \\times 10^{-3}}\\\\ &=0.002=2ms \\end{aligned}[/latex]",
+    "options": {
+      "A": "2, 5.55",
+      "B": "2, 1",
+      "C": "2.18, 0.55",
+      "D": "11.1, 2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Two wattmeter method is used for measurement of power in a balanced three-phase load\nsupplied from a balanced three-phase system. If one of the wattmeters reads half of the\nother (both positive), then the power factor of the load is",
+    "solution": "In two wattmeter method, [latex]\\tan \\phi =\\frac{\\sqrt{3}(W_1-W_2)}{W_1+W_2} [/latex] [latex]\\begin{aligned} \\text{Given}, \\; W_2 &=\\frac{W_1}{2} \\\\ \\tan \\phi &=\\frac{\\sqrt{3}\\left (W_1-\\frac{W_1}{2} \\right ) }{\\left (W_1+\\frac{W_1}{2} \\right )} \\\\ \\phi &= 30^{\\circ}\\\\ \\cos \\phi &=\\cos 30^{\\circ}=0.866 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.532",
+      "B": "0.632",
+      "C": "0.707",
+      "D": "0.866"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18 A [latex]10\\frac{1}{2}[/latex] digit timer counter possesses a base clock of frequency 100 MHz. When measuring a\nparticular input, the reading obtained is the same in: (i) Frequency mode of operation with a\ngating time of one second and (ii) Period mode of operation (in the x 10 ns scale). The\nfrequency of the unknown input (reading obtained) in Hz is _______.",
+    "solution": "[latex]1.\\;\\;10\\frac{1}{2}[/latex] digital time counter: Frequency mode of operation: [latex]f=\\frac{n}{t}[/latex] Let f = frequency of input signal n = number of cycles of repetitive signal [latex]\\Rightarrow \\;\\;100 \\times 10^6 [/latex] Let [latex] t \\Rightarrow[/latex] Gate time [latex]\\Rightarrow \\;t=1 sec. [/latex] [latex]f=\\frac{100 \\times 10^6}{1 sec}=10^8 Hz [/latex] [latex]\\;\\;=10^8 cycles/sec[/latex] On [latex]10\\frac{1}{2}[/latex] digit display [latex]100000000.00Hz[/latex] [latex] 2.\\;\\; \\text{Period mode of operation:}[/latex] [latex]P=\\frac{1}{f}=\\frac{t}{n}=\\frac{1sec}{100 \\times 10^6}[/latex] Let P=Period of input signal [latex]P=0.01 \\times 10^{-6}[/latex] [latex]\\;\\;=10 \\times 10^{-9}[/latex] [latex]\\;\\;=1 \\times 10n-sec[/latex] [latex]\\;\\;=10.000000000 n-sec[/latex]",
+    "min": 10000.0,
+    "max": 10000.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 A stationary closed Lissajous pattern on an oscilloscope has 3 horizontal tangencies and 2\nvertical tangencies for a horizontal input with frequency 3 kHZ. The frequency of the vertical\ninput is",
+    "solution": "[latex]\\begin{aligned} \\frac{f_y}{f_x} &= \\frac{\\text{Horizontal Tangencies}}{\\text{VerticalTangencies}}\\\\ \\Rightarrow \\; \\frac{f_y}{3} &=\\frac{3 }{2}\\\\ \\Rightarrow \\; f_y&= 4.5kHz \\end{aligned}[/latex]",
+    "options": {
+      "A": "1.5kHz",
+      "B": "2kHz",
+      "C": "3kHz",
+      "D": "4.5kHz"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 Two resistors with nominal resistance values [latex]R_1 \\; and\\; R_2[/latex] have additive uncertainties\n [latex]\\Delta R_1[/latex] and [latex]\\Delta R_2[/latex], respectively. When these resistances are connected in parallel, the standard deviation of the error in the equivalent resistance R is",
+    "solution": "[latex]\\begin{aligned} \\sigma _{res} &= \\sqrt{\\left ( \\frac{\\partial R}{\\partial R_1} \\right )^2 \\sigma _1^2+\\left ( \\frac{\\partial R}{\\partial R_2} \\right )^2 \\sigma _2^2} \\\\ &= \\sqrt{\\left ( \\frac{\\partial R}{\\partial R_1} \\right )^2 \\Delta R_1^2+\\left ( \\frac{\\partial R}{\\partial R_2} \\right )^2 \\Delta R_2^2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\pm \\sqrt{\\left \\{ \\frac{\\partial R}{\\partial R_1}\\Delta R_1 \\right \\}^2+\\left \\{ \\frac{\\partial R}{\\partial R_2}\\Delta R_2 \\right \\}^2}[/latex]",
+      "B": "[latex]\\pm \\sqrt{\\left \\{ \\frac{\\partial R}{\\partial R_2}\\Delta R_1 \\right \\}^2+\\left \\{ \\frac{\\partial R}{\\partial R_1}\\Delta R_2 \\right \\}^2}[/latex]",
+      "C": "[latex]\\pm \\sqrt{\\left \\{ \\frac{\\partial R}{\\partial R_1}\\right \\}^2 \\Delta R_2 +\\left \\{ \\frac{\\partial R}{\\partial R_2} \\right \\}^2 \\Delta R_1}[/latex]",
+      "D": "[latex]\\pm \\sqrt{\\left \\{ \\frac{\\partial R}{\\partial R_1}\\right \\}^2 \\Delta R_1 +\\left \\{ \\frac{\\partial R}{\\partial R_2} \\right \\}^2 \\Delta R_2}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 The load shown in the figure is supplied by a 400 V (line to line) 3-phase source (RYB\nsequence). The load is balanced and inductive, drawing 3464 VA. When the switch S is in\nposition N, the three watt-meters [latex]W_1,W_2 \\; and \\; W_3[/latex] read 577.35W each. If the switch is moved to\nposition Y, the readings of the watt-meters in watts will be:",
+    "solution": "When switch is on Neutral side [latex]\\begin{aligned} W &= W_1+W_2+W_3\\\\ &=577.35+577.35+577.35 \\\\ &=1732 \\; Watts \\\\ \\text{VA load} &= 3464 =3 V_{ph}I_{ph}\\\\ \\Rightarrow \\; V_{ph}I_{ph} &=1154.66 \\end{aligned}[/latex] Each [latex]\\Omega[/latex] meter reading [latex]\\begin{aligned} &= V_{RN}I_{R} \\cos (\\angle V_{RN} \\; \\text{and}\\; I_R)\\\\ 577.35&= V_{ph}I_{ph} \\cos (\\phi )\\\\ \\cos (\\phi ) &=\\frac{577.35}{1154.66}=05 \\\\ \\phi &= \\cos ^{-1} (0.5)=60^{\\circ} \\end{aligned} [/latex] When switch is on Y-phase side, [latex]\\begin{aligned} W_1&= V_{RY}I_R \\cos (\\angle V_{RY} \\; \\text{and}\\; I_R)\\\\ &= \\sqrt{3} V_{ph}I_{ph} \\cos (30^{\\circ}+\\phi ) \\\\ &= \\sqrt{3} \\times 1154.66 \\times \\cos (30^{\\circ}+ 60^{\\circ})\\\\ &= 0 \\text{Watt}\\\\ W_3 &= V_{BY}I_R \\cos (\\angle V_{BY} \\; \\text{and}\\; I_R)\\\\ &=\\sqrt{3} V_{ph}I_{ph} \\cos (30^{\\circ}-\\phi )\\\\ &=\\sqrt{3} \\times 1154.66 \\times \\cos (30^{\\circ}- 60^{\\circ}) \\\\ &= 1732 \\text{Watt}\\\\ W_1&=0\\\\ W_2&=0\\\\ W_3&=1732 \\text{Watt} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page5_q1.webp",
+    "options": {
+      "A": "[latex]W_1=1732 \\; and \\; W_2 =W_3=0[/latex]",
+      "B": "[latex]W_1=0 , W_2 =1732 \\; and \\; W_3=0[/latex]",
+      "C": "[latex]W_1=866, W_2 =0 , W_3=866[/latex]",
+      "D": "[latex]W_1=W_2 =0 \\; and \\; W_3=1732[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 The slope and level detector circuit in a CRO has a delay of 100 ns. The start-stop sweep\ngenerator has a response time of 50 ns. In order to display correctly, a delay line of",
+    "solution": "A delay line of 150ns has to be inserted  into the y-channel to get synchronous  between sweep signal applied to x-plate  and test signal applied to y-plate.",
+    "options": {
+      "A": "150 ns has to be inserted into the y-channel",
+      "B": "150 ns has to be inserted into the x-channel",
+      "C": "150 ns has to be inserted into both x and y channels",
+      "D": "100 ns has to be inserted into both x and y channels"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 The following measurements are obtained on a single phase load: V = 220V[latex]\\pm[/latex]1%, I = 5.0A[latex]\\pm[/latex]1% and W=555W[latex]\\pm[/latex] 2%. If the power factor is calculated using these measurements, the worst case error in the calculated power factor in percent is ________.",
+    "solution": "[latex]\\begin{aligned} V &= 220 \\pm 1\\% \\\\ I&= 5 \\pm 1 \\%\\\\ W &=555 \\pm 2 \\% \\\\ W&= VI \\cos (\\phi )\\\\ p.f. &=\\cos (\\phi )=\\frac{W}{VI} \\\\ &= \\frac{555 \\pm 2 \\%}{(220 \\pm 1\\%)(5 \\pm 1 \\%)}\\\\ &= \\frac{555}{220 \\times 5} \\pm 4\\%\\\\ p.f.&= 0.5 \\pm 4\\% \\end{aligned}[/latex]",
+    "min": 4.0,
+    "max": 4.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 An energy meter, having meter constant of 1200 revolutions/kWh, makes 20 revolutions in 30 seconds for a constant load. The load, in kW, is _____________.",
+    "solution": "[latex]P_{loss}=\\frac{20 \\times 3600}{1200 \\times 30}=2kW[/latex]",
+    "min": 1.9,
+    "max": 2.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 A dc voltage with ripple is given by [latex]v(t)=[100+10\\sin(\\omega t)-5\\sin (3\\omega t)][/latex] volts. Measurements of this voltage [latex]v(t)[/latex], made by moving-coil and moving-iron voltmeters, show readings of [latex]V_1 \\; and \\; V_2[/latex] respectively. The value of [latex]V_2 - V_1[/latex], in volts, is _________.",
+    "solution": "[latex]V(t)=100+10 \\sin (\\omega t)-5 \\sin (3\\omega t) \\;\\;\\text{volt} [/latex] moving coil, [latex]V_1=V_{avg.}=100V [/latex] moving iron, [latex]V_2=v_{rms}=\\sqrt{100^2+\\frac{1}{2}(10^2+5^2)} [/latex] [latex]\\;\\;=100.312 [/latex] [latex]V_2-V_1=0.312[/latex]",
+    "min": 0.3,
+    "max": 0.33
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 The coils of a wattmeter have resistances 0.01[latex]\\Omega[/latex] and 1000[latex]\\Omega[/latex]; their inductances may be neglected. The wattmeter is connected as shown in the figure, to measure the power consumed by a load, which draws 25A at power factor 0.8. The voltage across the load terminals is 30V. The percentage error on the wattmeter reading is _________.",
+    "solution": "True value of power [latex]=VI \\cos \\phi [/latex] [latex]=30 \\times 25 \\times 0.8 =600W [/latex] In the give diagram, Measured power=Power loss in pressure coil +Power in loead [latex]=\\frac{V^2}{R_P} +VI \\cos \\phi [/latex] [latex]=\\frac{30^2}{1000}+600W=600.9W [/latex] Therefore, percentage error in wattmeter reading [/latex] [latex]=\\frac{\\text{Measured value}-\\text{True value}}{\\text{True value}} [/latex] [latex]=\\frac{600.9-600}{600}\\times 100=0.15\\%[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page6_q1.webp",
+    "options": {
+      "A": "0.14"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 A capacitive voltage divider is used to measure the bus voltage [latex]V_{bus}[/latex] in a high-voltage 50 Hz AC system as shown in the figure. The measurement capacitors [latex]C_1 \\; and \\; C_2[/latex] have tolerances of [latex]\\pm[/latex]10% on their nominal capacitance values. If the bus voltage [latex]V_{bus}[/latex] is 100 kV rms, the maximum rms output voltage [latex]V_{out}[/latex] (in kV), considering the capacitor tolerances, is __________.",
+    "solution": "[latex]V_{BUS} \\text{is} 100 kV_{rms} [/latex] [latex]C_1=1\\mu F \\pm 10\\% [/latex] [latex]C_2=9\\mu F \\pm 10\\% [/latex] To get maximum output voltage we need minimum [latex]C_2[/latex] and maximum [latex]C_1[/latex], So, [latex]C_2=8.1\\mu F [/latex] and  [latex] C_1=1.1\\mu F [/latex] So, [latex]V_{out\\;rms}=\\left ( \\frac{C_1}{C_1+C_2} \\right )V_{BUS_{rms}} [/latex] [latex]\\;\\;\\;=11.95kV[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page6_q2.webp",
+    "min": 11.75,
+    "max": 12.25
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 A 3-phase balanced load which has a power factor of 0.707 is connected to a balanced supply. The power consumed by the load is 5 kW. The power is measured by the two-wattmeter method. The readings of the two wattmeters are",
+    "solution": "[latex]\\begin{aligned} p.f. &= 0.707\\\\ \\phi &= cos^{-1}(0.707)=45^{\\circ}\\\\ P&= 5kW\\\\ W_1 +W_2&= 5\\;\\;...(i)\\\\ \\tan \\phi &=\\frac{\\sqrt{3(W_1-W_2)}}{(W-1+W_2)} \\\\ (W-1+W_2) \\times 1 &= \\sqrt{3}(W_1-W_2) \\\\ W_1-W_2 &= \\frac{5}{\\sqrt{3}} \\;\\;...(ii)\\\\ \\text{From equation} & \\text{ (i) and (ii),} \\\\ W-1&= 3.94kW\\\\ W_2&= 1.06kW \\end{aligned}[/latex]",
+    "options": {
+      "A": "3.94 kW and 1.06 kW",
+      "B": "2.50 kW and 2.50 kW",
+      "C": "5.00 kW and 0.00 kW",
+      "D": "2.96 kW and 2.04 kW"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Match the following.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page6_q4.webp",
+    "options": {
+      "A": "P-1 Q-2 R-1 S-3",
+      "B": "P-1 Q-2 R-1 S-3",
+      "C": "P-1 Q-2 R-3 S-3",
+      "D": "P-3 Q-1 R-2 S-1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 An unbalanced DC Wheatstone bridge is shown in the figure. At what value of p will the magnitude of [latex]V_o[/latex] be maximum?",
+    "solution": "[latex]\\begin{aligned} V_0 &= \\left [ \\frac{R(1+x)}{PR+R(1+x)}-\\frac{R}{R+PR} \\right ]E\\\\ V_0 &=\\left [ \\frac{R(1+x)}{R+(1+x+P)}-\\frac{R}{R+(1+P)} \\right ]E \\\\ V_0&= \\left [ \\frac{1+x}{1+x+P}-\\frac{1}{1+P} \\right ]E\\\\ V_0&=\\left [ \\frac{(1+x)(1+P)-(1+x+P)}{(1+x+P)(1+P)} \\right ]E \\\\ V_0&=\\left [ \\frac{1+x+Px+P-1-x-P}{1+P+x+xP+P+P^2} \\right ]E \\\\ V_0&=\\left [ \\frac{Px}{1+2P+P^2+x+xP} \\right ]E \\end{aligned}[/latex] For maximum [latex]V_0,[/latex] [latex] \\frac{dV_0}{dP}=0[/latex] [latex] \\Rightarrow \\;\\frac{x}{1+x+P(P+2+x)}-\\frac{xP(2P+x+2)}{1+x+P(2+P+x)^2}=0 [/latex] [latex]\\Rightarrow \\; [1+x+P(2+P+x)]=P(2P+x+2) [/latex] [latex]\\Rightarrow \\; 1+x+2P+P^2+Px=2p^2+Px+2P [/latex] [latex]\\Rightarrow \\; 1+x=P^2[/latex] [latex] \\Rightarrow \\; P=\\sqrt{1+x}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page6_q5.webp",
+    "options": {
+      "A": "[latex]\\sqrt{(1+x)}[/latex]",
+      "B": "(1+x)",
+      "C": "[latex]1/\\sqrt{(1+x)}[/latex]",
+      "D": "[latex]\\sqrt{(1-x)}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 A (0-50 A) moving coil ammeter has a voltage drop of 0.1 V across its terminals at full scale deflection. The external shunt resistance (in milliohms) needed to extend its range to (0-500 A) is _______.",
+    "solution": "[latex]I_{fs}=50A, [/latex] [latex]V_m=0.1V, [/latex] [latex]R_m=\\frac{0.1}{50}=2 \\times 10^{-3}\\Omega [/latex] [latex]\\because \\; m=10 [/latex] [latex]R_{sh}=\\frac{R_m}{(m-1)}[/latex] [latex]\\;\\;\\;=\\frac{2 \\times 10^{-3}}{9}=0.22\\Omega[/latex]",
+    "min": 0.22,
+    "max": 0.23
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 When the Wheatstone bridge shown in the figure is used to find the value of resistor [latex]R_X[/latex], the galvanometer G indicates zero current when [latex]R_1=50\\Omega ,R_2=65\\Omega[/latex] and [latex]R_3=100\\Omega[/latex]. If [latex]R_3[/latex] is known with [latex]\\pm 5[/latex]% tolerance on its nominal value of 100 [latex]\\Omega[/latex] , what is the range of [latex]R_X[/latex] in Ohms?",
+    "solution": "[latex]R_1=50\\Omega [/latex] [latex]R_2=60\\Omega [/latex] [latex] R_3=100\\pm 5%\\Omega [/latex] The value of [latex]R_3 \\text{with} \\pm 5[/latex]%  of tollerance, [latex]\\begin{aligned} R_3&= 100\\pm 5\\% \\\\ &= 100+100 \\times \\frac{5}{100}=105 \\Omega \\\\ &= 100-100 \\times \\frac{5}{100}=95 \\Omega \\end{aligned} [/latex] In both condition, the bridge is balance, so under balance condition, [latex]\\begin{aligned} \\frac{R_1}{R_3}&=\\frac{R_2}{R_x} \\\\ R_x&=\\frac{R_2R_3}{R_1} \\\\ (i) \\; \\text{when}, \\; R_3&=105\\Omega \\\\ \\therefore \\;\\;R_x &= \\frac{105 \\times 65}{50}=136.50\\Omega \\\\ (ii)\\; \\text{when}, \\; R_3&=95 \\Omega \\\\ \\therefore \\;\\;R_x &= \\frac{95 \\times 65}{50}=123.50\\Omega \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page7_q2.webp",
+    "options": {
+      "A": "[123.50, 136.50]",
+      "B": "[125.89, 134.12]",
+      "C": "[117.00, 143.00]",
+      "D": "[120.25, 139.75]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 In the bridge circuit shown, the capacitors are loss free. At balance, the value of\r\ncapacitance [latex]C_1[/latex] in microfarad is ______.",
+    "solution": "Redrawing the given bridge circuit, we have: [latex]\\begin{aligned} Z_1&= \\frac{1}{j\\omega C_1}\\Omega \\\\ Z_2&=35 k\\Omega Z_3 &= \\frac{10^6}{j0.1\\omega } \\Omega \\\\ Z_4&=105 k\\Omega \\end{aligned} [/latex] At balance, current through galavanometer: [latex]I_g=0 [/latex] and [latex] |Z_1||Z_4|=|Z_2||Z_3|[/latex] [latex] \\therefore \\left ( \\frac{1}{\\omega C_1} \\right ) \\times (105K)=(35K)\\left ( \\frac{10^6}{0.1\\omega } \\right ) [/latex] [latex]C_1=\\frac{105 \\times 0.1}{35 }\\mu F [/latex] [latex]\\;\\;=0.3\\mu F[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page7_q3.webp",
+    "min": 0.3,
+    "max": 0.3
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 A periodic waveform observed across a load is represented by [latex]V(t)=\\left\\{\\begin{matrix} 1+sin \\omega t & 0\\leq \\omega t \\lt 6 \\pi\\\\ -1+sin \\omega t & 6 \\pi \\leq \\omega t \\leq 12 \\pi \\end{matrix}\\right.[/latex] The measured value, using moving iron voltmeter connected across the load, is",
+    "solution": "",
+    "options": {
+      "A": "[latex]\\sqrt{\\frac{3}{2}}[/latex]",
+      "B": "[latex]\\sqrt{\\frac{2}{3}}[/latex]",
+      "C": "[latex]\\frac{3}{2}[/latex]",
+      "D": "[latex]\\frac{2}{3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 The two signals S1 and S2, shown in figure, are applied to Y and X deflection\nplates of an oscilloscope. The waveform displayed on the screen is",
+    "solution": "The waveform pattern appearing on the screen of CRO is shown below. Here, [latex]S_1[/latex] is applied to vertical deflecting plate and [latex]S_2[/latex] to horizontal deflecting plate.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page7_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 An LPF wattmeter of power factor 0.2 is having three voltage settings 300 V, 150\nV and 75 V, and two current settings 5 A and 10 A. The full scale reading is 150.\nIf the wattmeter is used with 150 V voltage setting and 10 A current setting, the\nmultiplying factor of the wattmeter is _______.",
+    "solution": "Given, [latex]\\cos \\phi =0.2[/latex] (LPF wattmeter) Given ,, full scale reading of wattmeter, [latex]W_m=150[/latex] Watt Also for [latex]V=150 \\; \\text{volt}[/latex], [latex]I=10 A[/latex] settings, wattmeter reading, [latex]W=VI \\cos \\phi =150 \\times 10 \\times 0.2=300[/latex] Therefore, multiplying factor of wattmeter, [latex]m=\\frac{W}{W_m}=\\frac{300}{150}=2[/latex]",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 Two ammeters X and Y have resistances of 1.2 [latex]\\Omega[/latex] and 1.5 [latex]\\Omega[/latex] respectively and they give full-scale deflection with 150 mA and 250 mA respectively. The ranges have been extended by connecting shunts so as to give full scale deflection with 15 A. The ammeters along with shunts are connected in parallel and then placed\nin a circuit in which the total current flowing is 15 A. The current in amperes indicated in ammeter X is_____.",
+    "solution": "Given, [latex]R_{m_X}=1.2\\Omega , [/latex] [latex]R_{m_Y}=1.5\\Omega[/latex] [latex] I_{m_X}=0.15A, [/latex] [latex]I_{m_Y}=0.25A [/latex] and  [latex] I= [/latex] full scale deflection current=15A [latex]\\therefore[/latex] Shunt multiplying factor for ammeter X is [latex]m_X=\\frac{I}{I_{m_X}}=\\frac{15}{0.15}=100[/latex] and shunt multiplier resistance, [latex]R_{{sh}_X}=\\frac{R_{m_X}}{(m_X-1)}=\\frac{12}{99}=0.012\\Omega[/latex] Also, shunt multiplying factor for ammeteer Y is [latex]m_Y=\\frac{I}{I_{m_Y}}=\\frac{15}{0.25}=60 [/latex] and shunt multiplier resistance, [latex]R_{{sh}_Y}=\\frac{R_{m_Y}}{(m_Y-1)}=\\frac{1.5}{59}=0.025\\Omega[/latex] when these ammeters are connected in parrelel as shown in the figure below, Let current in ammeter X be [latex]I_X[/latex] then, [latex]\\begin{aligned}\r\nR_X&=\\left ( \\frac{ R_{{sh}_X} \\cdot R_{m_X}} { R_{{sh}_X}+R_{m_X}} \\right )\\\\\r\n &= \\left ( \\frac{0.012 \\times 1.2}{1.212} \\right )\\\\ \r\n &= 0.011 \\Omega \\\\ \r\nR_Y &=\\left ( \\frac{R_{{sh}_Y}\\cdot R_{m_Y}}{R_{{sh}_Y}+R_{m_Y}} \\right )\\\\ \r\n &= \\left ( \\frac{0.025 \\times 1.5}{1.525} \\right )\\\\ \r\n &=0.024\\Omega  \\\\ \r\n\\therefore \\; I_X &=\\left (\\frac{R_Y}{R_X+R_Y}   \\right )\\times 15 \\\\ \r\n &=\\left ( \\frac{0.024}{0.035} \\right ) \\times 15 \\\\ \r\n &= 10.28A\r\n\\end{aligned}[/latex] [latex]\r\n\\therefore[/latex]  Current in ammeter X=10.28A",
+    "min": 9.9,
+    "max": 10.3
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 Suppose that resistors [latex]R_1 \\; and \\; R_2[/latex] are connected in parallel to give an equivalent resistor R. If resistors [latex]R_1 \\; and \\; R_2[/latex] have tolerance of 1% each, the equivalent resistor R for resistors [latex]R_1 = 300 \\Omega[/latex]\r\n and [latex]R_2 = 200 \\Omega[/latex] will have tolerance of",
+    "solution": "Given,[latex]R_1=300\\Omega ,[/latex]  [latex] R_2=200\\Omega [/latex] Equivalent resistance of parallel combination of [latex]R_1[/latex] and [latex]R_2[/latex] [latex]\\begin{aligned} R &=\\frac{R_1R_2}{R_1+R_2} =\\frac{300 \\times 200}{500}\\\\ &= 120\\Omega =R_T\\\\ \\text{Given tolerance of} \\; R_1&=1\\% \\\\ \\therefore \\; R_1 &= 300 \\pm 3\\\\ R_1 &= 303 \\Omega \\; \\text{or} 297\\Omega \\\\ \\text{Tolerance of} \\; R_2&=1\\% \\\\ \\therefore \\; R_2 &= 200 \\pm 2\\\\ R_2 &= 202 \\Omega \\; \\text{or} 198\\Omega \\end{aligned} [/latex] Equivalent resistance of the parallel combination of [latex]R_1[/latex] and [latex]R_2[/latex] in high range is: [latex] R_H=\\frac{303 \\times 202}{303+202}=121.2\\Omega [/latex] [latex]\\therefore[/latex]  Tolerance for equivalent resistance R in high range of [latex]R_1[/latex] and [latex]R_2[/latex] is [latex]\\begin{aligned} \\varepsilon _R &=\\left ( \\frac{R_H-R}{R} \\right ) \\times 100\\% \\\\ &= \\left ( \\frac{121.2-120}{120} \\right ) \\times 100\\% \\\\ &= \\frac{1.2}{120} \\times 100\\%=1\\% \\end{aligned} [/latex] Note: In low range of [latex]R_1[/latex] and [latex]R_2[/latex], [latex]R_L=\\left ( \\frac{297 \\times 198}{495} \\right )=118.8\\Omega [/latex] [latex]\\therefore[/latex]  Tolerance of equivalent resistance, R in low range is, [latex]\\begin{aligned} \\varepsilon _L &=\\left ( \\frac{R_L-R}{R} \\right ) \\times 100\\% \\\\ &= \\left ( \\frac{118.8-120}{120} \\right ) \\times 100\\% \\\\ &= -1\\% \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.50%",
+      "B": "1%",
+      "C": "1.20%",
+      "D": "2%"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 While measuring power of a three-phase balanced load by the two-wattmeter method, the readings are 100 W and 250 W. The power factor of the load is ______.",
+    "solution": "Given, [latex]W_1=250W[/latex], [latex]W_2=100W[/latex] Power factor angle is given by [latex]\\begin{aligned} \\phi &= \\tan^{-1}\\left [ \\frac{\\sqrt{3}(W_1-W_2)}{W_1+W_2} \\right ]\\\\ &=\\tan^{-1}\\left [ \\frac{\\sqrt{3}(250-100)}{250+100} \\right ] \\\\ &= \\tan^{-1}\\left [ \\frac{\\sqrt{3}\\times 150}{350} \\right ]\\\\ &= \\tan^{-1}\\left [ \\frac{3\\sqrt{3}}{7} \\right ]=36.58^{\\circ} \\end{aligned}[/latex] Therefore, power factor of load [latex]= \\cos \\phi =\\cos 36.58^{\\circ} =0.802=0.80[/latex]",
+    "min": 0.78,
+    "max": 0.82
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 The saw-tooth voltage waveform shown in the figure is fed to a moving iron\r\nvoltmeter. Its reading would be close to __________",
+    "solution": "Moving iron voltmeter reads rms value of voltage and current. From the given waveform of voltage, [latex]\\begin{aligned} V(t) &= \\left\\{\\begin{matrix} 50000t, & 0 \\lt t \\lt 0.02s\\\\ 50000(t-0.02). & 0.02 \\lt t \\lt 0.04s \\end{matrix}\\right.\\\\ \\therefore \\; V_{rms} &= \\sqrt{\\frac{1}{T}\\int_{0}^{T}(V(T)^2 \\; dt}\\\\ &= \\sqrt{\\frac{1}{0.04} \\int_{0}^{0.02} (50000t)^2 \\; dt +\\int_{0.02}^{0.04}(50000(t-0.02))^2 \\; dt}\\\\ &= 25000\\sqrt{\\left [ \\frac{t^3}{3} \\right ]_0^{0.02}+\\left [ \\frac{(t-0.02)^3}{3} \\right ]_{0.02}^{0.04}}\\\\ &= 25000\\sqrt{\\frac{1}{3}\\left [ (0.02)^3+(0.02)^3 \\right ]}\\\\ &= 57.73 \\text{Volt} \\end{aligned} [/latex] [latex]\\therefore [/latex]  Voltage reading by moving iron voltmeter =57.73 Volts",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page8_q5.webp",
+    "min": 56.0,
+    "max": 59.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 The dc current flowing in a circuit is measured by two ammeters, one PMMC\nand another electrodynamometer type, connected in series. The PMMC meter\ncontains 100 turns in the coil, the flux density in the air gap is 0.2Wb/[latex]m^2[/latex], and\nthe area of the coil is 80 [latex]mm^2[/latex]. The electrodynamometer ammeter has a change in\nmutual inductance with respect to deflection of 0.5 mH/deg. The spring constants\nof both the meters are equal. The value of current, at which the deflections of the\ntwo meters are same, is ______",
+    "solution": "For a PMMC ammeter, at equilibrim, we have : controlling torque ([latex]T_c[/latex])=Deflecting torque([latex]T_d[/latex]) [latex]\\begin{aligned} K\\theta _1 &=GI \\; \\text{or}\\; \\theta _1=\\frac{GI}{K}\\\\ where, \\;\\; G &= nBA\\\\ \\therefore \\; \\theta _1 &= \\frac{nBAI}{K} \\end{aligned}[/latex] For an electrodynometer ammeter, at equilibrium, Controlling torque=Deflecting torque [latex]\\begin{aligned} i.e. \\;\\; T_c &=T_d \\; \\text{or}\\; K \\theta _2=I^2 \\frac{dM}{d\\theta }\\\\ or, \\;\\; \\theta _2 &= \\frac{I^2}{K}\\cdot \\frac{dM}{d\\theta }\\;\\;...(ii)\\\\ \\end{aligned}[/latex] For the deflection in the two meter to be same, [latex]\\begin{aligned} \\theta _1 &=\\theta _2\\\\ or, \\;\\; \\frac{nBAI}{K} &= \\frac{I^2}{K}\\cdot \\frac{dM}{d\\theta }\\\\ or, \\;\\; nBA&=I\\frac{dM}{d\\theta }\\\\ or, \\;\\; I &=\\frac{nBA}{\\left ( \\frac{dM}{d\\theta } \\right )} \\end{aligned}[/latex] [latex]\\begin{aligned} Given, \\;\\; n&= \\text{number of turns}=100\\\\ B&= 0.2 Wb/m^2\\\\ A&=80mm^2=80 \\times 10^{-6}m^2\\\\ \\text{and}\\;\\; \\frac{dM}{d\\theta }&=0.5 mH/rad\\\\ &=0.5 \\times 10^{-3}H/rad \\\\ \\end{aligned}[/latex] Putting the values in I, we get [latex]\\begin{aligned} I &=\\left ( \\frac{100 \\times 0.2 \\times 80 \\times 10^{-6}}{0.5 \\times 10^{-3}} \\right ) A\\\\ &= \\frac{1.6}{0.5}=3.2A \\end{aligned} [/latex] [latex]\\therefore[/latex]  Required value of current, [latex]I=3.2Amp.[/latex]",
+    "min": 3.0,
+    "max": 3.4
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 The reading of the voltmeter (rms) in volts, for the circuit shown in the figure is\n_________",
+    "solution": "Given bridge is shown in figure From the given bridge circuit, we see that product of opposite arm impedance are equal [latex]\\begin{aligned} i.e. \\;\\;& (-j) \\times (-j)=(j)(j)\\\\ or\\;\\;\\; & -1= -1 \\\\ \\end{aligned}[/latex] Hence, the bridge is balanced, i.e. no current flows through the voltage source V. Now, [latex]\\begin{aligned} v_i(t)&= 100 \\sin \\omega t\\\\ &= \\frac{100}{\\sqrt{2}} \\text{Volt(rms value)}\\\\ \\end{aligned} [/latex] [latex]\\therefore[/latex] Net current supplied by the source is [latex]I=\\frac{100\\sqrt{2}}{(0.5+Z_{eq})}A [/latex] [latex]Z_{eq}=0 [/latex](i.e. net impedance of whole bridge=0) [latex]\\therefore \\;\\; I=\\frac{100\\sqrt{2}}{0.5}=141.42A [/latex] [latex]\\therefore \\;\\;\\frac{I_2}{2}=70.71A [/latex] Current flow through each parallel path of the bridge circuit, therefore [latex]V=V_a-V_b [/latex] [latex]\\;\\;=\\left ( \\frac{I}{2} \\times -j \\right )-\\left ( \\frac{I}{2} \\times j \\right ) [/latex] [latex]\\;\\;=-jI=-j141.42[/latex] volt (rms value) [latex]\\therefore[/latex] Reading of the voltmeter in volt (rms) [latex]=V=V_{ab}=141.42[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page9_q2.webp",
+    "min": 140.0,
+    "max": 142.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 In an oscilloscope screen, linear sweep is applied at the",
+    "solution": "A CRO uses a horizontal input voltage which is an internally generated ramp voltage (i.e. linear sweep voltage) called \"Time base of CRO\". An oscilloscope is used to disply waveform which varies as a function of time. To reproduce the waveform accurately, the beam must have a constant horizontal velocity i.e. the deflecting voltage must increase linearly with time. This voltage is called a ramp voltage. Thus , a sawtooth waveform also called linear sweep voltage is applied to the horizontal deflection system ( or horizontal axis) which provides a time base to CRO.",
+    "options": {
+      "A": "vertical axis",
+      "B": "horizontal axis",
+      "C": "origin",
+      "D": "both horizontal and vertical axis"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 Power consumed by a balanced 3-phase, 3-wire load is measured by the two wattmeter method. The first wattmeter reads twice that of the second. Then, the load impedance angle in radians is",
+    "solution": "For two wattmeter method, wattmeter readings are [latex]\\begin{aligned} W_1 &=V_LI_L \\cos (30+\\phi ) \\\\ W_2 &=V_LI_L \\cos (30-\\phi ) \\\\ For \\; \\phi =30^{\\circ}, (or \\;\\pi/6) \\\\ W_1 &=V_LI_L \\cos 60^{\\circ} =\\frac{V_LI_L}{2} \\\\ W_2 &=V_LI_L \\cos 0^{\\circ} =V_LI_L \\\\ \\text {Therefore}\\;\\;W_2&=2W_1 \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\pi /12[/latex]",
+      "B": "[latex]\\pi /8[/latex]",
+      "C": "[latex]\\pi /6[/latex]",
+      "D": "[latex]\\pi /3[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 A strain gauge forms one arm of the bridge shown in the figure below and has\na nominal resistance without any load as [latex]R_s=300\\Omega[/latex]. Other bridge resistances\nare [latex]R_1=R_2=R_3=300\\Omega[/latex]. The maximum permissible current through the strain\ngauge is 20 mA. During certain measurement when the bridge is excited by\nmaximum permissible voltage and the strain gauge resistance is increased by 1%\nover the nominal value, the output voltage [latex]V_0[/latex] in mV is",
+    "solution": "[latex]V_{ab}=V_a-V_b [/latex] Using voltage division rule, [latex]V_{ab}=\\left ( \\frac{300}{300+300}-\\frac{300}{300+303} \\right ) \\times 12 [/latex] [latex]\\;\\;\\;=29.85 mV[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page9_q5.webp",
+    "options": {
+      "A": "56.02",
+      "B": "40.83",
+      "C": "29.85",
+      "D": "10.02"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 Three moving iron type voltmeters are connected as shown below. Voltmeter\r\nreadings are [latex]V, V_1 \\; and \\;V_2[/latex] as indicated. The correct relation among the voltmeter\r\nreadings is",
+    "solution": "[latex]\\begin{aligned} V_1&= -|j1\\Omega | \\times I \\\\ V_2 &= |j2\\Omega | \\times I \\\\ V&= -j1\\Omega | \\times I +j2\\Omega | \\times I \\\\ &=V_2-V_1 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page10_q1.webp",
+    "options": {
+      "A": "[latex]V=\\frac{V_{1}}{\\sqrt{2}}+\\frac{V_{2}}{\\sqrt{2}}[/latex]",
+      "B": "[latex]V=V_{1}+V_{2}[/latex]",
+      "C": "[latex]V=V_{1}V_{2}[/latex]",
+      "D": "[latex]V=V_{2}-V_{1}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 The input impedance of the permanent magnet moving coil (PMMC) voltmeter is\ninfinite. Assuming that the diode shown in the figure below is ideal, the reading\nof the voltmeter in Volts is",
+    "solution": "In the half cycle, D is ON [latex]\\Rightarrow \\;\\;V_0=0V[/latex] In negative half cycle, D id OFF, PMMC voltmeter measures average value of [latex]V_0[/latex]. In case of half wave rectification, [latex]\\begin{aligned} V_{0 \\; avg.}&=\\frac{14.14}{\\pi}\\times \\frac{100}{101} \\\\ &= 4.456V \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page10_q2.webp",
+    "options": {
+      "A": "4.46",
+      "B": "3.15",
+      "C": "2.23",
+      "D": "0"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 An analog voltmeter uses external multiplier settings. With a multiplier setting of\n20 k[latex]\\Omega[/latex], it reads 440 V and with a multiplier setting of 80 k[latex]\\Omega[/latex], it reads 352 V. For a multiplier setting of 40 k[latex]\\Omega[/latex], the voltmeter reads",
+    "solution": "[latex]\\begin{aligned} when, \\;\\; R_{s_1}&=20k\\Omega ,\\;\\; v=440V\\\\ V&=\\frac{440}{R_m}\\times 20+440\\;\\;...(i)\\\\ when, \\;\\; R_{s_2}&=80k\\Omega ,\\;\\; v=352V \\\\ V&=\\frac{352}{R_m}\\times 80+352\\;\\;...(ii) \\\\ \\Rightarrow \\; R_m &= \\frac{352 \\times 80- 440 \\times 20}{88}\\\\ R_m &= 220 k\\Omega ,\\;V=480V\\\\ when, \\;\\;R_{s_3} &=40k\\Omega \\text{and} V=480V \\\\ 480 &=\\frac{v}{R_m} \\times 40+v \\\\ 480 &= \\frac{13}{11}v \\\\ \\Rightarrow \\; v &= 406.15 V \\end{aligned}[/latex]",
+    "options": {
+      "A": "371V",
+      "B": "383V",
+      "C": "394V",
+      "D": "406V"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 For the circuit shown in the figure, the voltage and current expressions are [latex]v(t)=E_{1}sin(\\omega t)+E_{3}sin(3\\omega t)[/latex] and [latex]i(t)=I_{1}sin(\\omega t- \\phi _{1})+I_{3}sin(3\\omega t-\\phi _{3})+I_{5} sin(5\\omega t)[/latex] The average power measured by the wattmeter is",
+    "solution": "[latex]\\begin{aligned} V(t) &= E_1 \\sin \\omega t +E_3 \\sin 3\\omega t\\\\ i(t)&= I_1 \\sin (\\omega t-\\phi _1)+I_3 \\sin (3\\phi t-\\phi _3)\\\\ & +I_5  \\sin 5\\omega t \\end{aligned}[/latex] Average power, [latex]P_{avg}=\\frac{1}{2 \\pi}\\int_{0}^{2 \\pi}vi \\; d(\\omega t) [/latex] The product of different frequency terms have zero average value. [latex]\\therefore \\;\\; P_{avg}=\\frac{1}{2}E_1I_1 \\cos \\phi _1 +\\frac{1}{2}E_3I_3 \\cos \\phi _3[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page10_q4.webp",
+    "options": {
+      "A": "[latex]\\frac{1}{2}E_{1}I_{1}cos \\phi _{1}[/latex]",
+      "B": "[latex]\\frac{1}{2}[E_{1}I_{1}cos \\phi _{1}+E_{1}I_{3}cos \\phi _{3}+E_{1}I_{5}][/latex]",
+      "C": "[latex]\\frac{1}{2}[E_{1}I_{1}cos \\phi _{1}+E_{3}I_{3}cos \\phi _{3}][/latex]",
+      "D": "[latex]\\frac{1}{2}[E_{1}I_{1}cos \\phi _{1}+E_{3}I_{1}cos \\phi _{3}][/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 The bridge method commonly used for finding mutual inductance is",
+    "solution": "Heaciside Campbell bridge method is commonly used for finding mutual inductance.",
+    "options": {
+      "A": "Heaviside Campbell bridge",
+      "B": "Schering bridge",
+      "C": "De Sauty bridge",
+      "D": "Wien bridge"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 A periodic voltage waveform observed on an oscilloscope across a load is shown. \nA permanent magnet moving coil (PMMC) meter connected across the same load reads",
+    "solution": "As PMMC meter reads only DC voltage or average value and average value is equal to [latex]V_{avg}=\\frac{\\text{Area under the curve}}{\\text{Total time}} [/latex] [latex]V_{avg}=\\frac{\\left ( \\frac{1}{2}\\times 10 \\times 10 \\right )+(-5 \\times 2)+(5 \\times 8)}{20} [/latex] [latex]V_{avg}=\\frac{80}{20}=4V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page11_q1.webp",
+    "options": {
+      "A": "4V",
+      "B": "5V",
+      "C": "8V",
+      "D": "10V"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 A [latex]4\\frac{1}{2}[/latex] digit DMM has the error specification as: 0.2% of reading + 10 counts. If a dc voltage of 100 V is read on its 200 V full scale, the maximum error that can be expected in the reading is",
+    "solution": "[latex]4\\frac{1}{2}[/latex] digit No. of full digits in case of [latex]4\\frac{1}{2}[/latex] digit display=4 So, maximum count with [latex]4\\frac{1}{2}[/latex] digits display=20,000 Full scale reading =200V 1 count [latex]=\\frac{200V}{20,000}[/latex] [latex]E_1=[/latex] Error corrsponding to 10 counts [latex]=10\\times \\frac{200}{20,000}=0.1V[/latex] Reading = 100V Error corresponding to 0.2% of reading [latex]E_2=0.2 \\times \\frac{100}{100}=0.2V [/latex] [latex]\\text{Total error}=E_1+E_2[/latex] [latex]\\;\\;=0.1+0.2=0.3V i.e. 0.3[/latex]%",
+    "options": {
+      "A": "[latex]\\pm 0.1[/latex]%",
+      "B": "[latex]\\pm 0.2[/latex]%",
+      "C": "[latex]\\pm 0.3[/latex]%",
+      "D": "[latex]\\pm 0.4[/latex]%"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 A lossy capacitor [latex]C_x[/latex], rated for operation at 5 kV, 50 Hz is represented by an\r\nequivalent circuit with an ideal capacitor [latex]C_p[/latex] in parallel with a resistor [latex]R_p[/latex]. The\r\nvalue [latex]C_p[/latex] is found to be 0.102 [latex]\\mu[/latex]F and value of Rp = 1.25M[latex]\\Omega[/latex]. Then the power loss\r\nand [latex]\\tan \\delta[/latex]\r\n of the lossy capacitor operating at the rated voltage, respectively, are",
+    "solution": "[latex]\\begin{aligned} C_P &=0.102\\mu F \\\\ R_P &= 1.25M\\Omega \\\\ \\end{aligned}[/latex] [latex] \\begin{aligned} \\text{Power loss}&=\\frac{V^2}{R_P} =\\frac{(5 \\times 10^3)^2}{1.25 \\times 10^6}=\\frac{25}{1.25}\\\\ &=20W \\\\ \\tan\\delta &=RIX=\\frac{1}{\\omega C_PR_P} \\\\ &=\\frac{1}{2 \\times \\pi \\times 50 \\times 0.102 \\times 10^{-6}\\times 1.25 \\times 10^6} \\\\ &= 0.025 \\end{aligned}[/latex]",
+    "options": {
+      "A": "10 W and 0.0002",
+      "B": "10 W and 0.0025",
+      "C": "20 W and 0.025",
+      "D": "20 W and 0.04"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 A dual trace oscilloscope is set to operate in the ALTernate mode. The control\r\ninput of the multiplexer used in the y-circuit is fed with a signal having a frequency equal to",
+    "solution": "",
+    "options": {
+      "A": "the highest frequency that the multiplexer can operate properly",
+      "B": "twice the frequency of the time base (sweep) oscillator",
+      "C": "the frequency of the time base (sweep) oscillator",
+      "D": "half the frequency of the time base (sweep) oscillator"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 The bridge circuit shown in the figure below is used for the measurement of an\r\nunknown element [latex]Z_X[/latex]. The bridge circuit is best suited when [latex]Z_X[/latex] is a",
+    "solution": "The bridge is Maxwell bridge. Element is an inductor. Inductance [latex]=L_x[/latex] effective resistance of the inductor [latex]=R_x[/latex] [latex]Q=\\frac{\\omega L_x}{R_x}=\\omega C_1R_1 \\;\\;...(i)[/latex] The bridge is limited to measurement of low Q inductor ([latex]1 \\lt Q \\lt 10[/latex]). It is clear from equation (i) that the measurement of high Q coils demands a large value of resistance [latex]R_1[/latex], perhaps [latex]10^5[/latex] or [latex]10^6 \\Omega [/latex]. The resistance boxes of such high value are very expensive. Thus for value of [latex]Q \\gt 10[/latex], the bridge is unsuitable. The bridge is also unsuited for coils with a very low value of Q(i.e. [latex]Q \\lt 1[/latex]).",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page11_q5.webp",
+    "options": {
+      "A": "low resistance",
+      "B": "high resistance",
+      "C": "low Q inductor",
+      "D": "lossy capacitor"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 Consider the following statement (1) The compensating coil of a low power factor wattmeter compensates the\neffect of the impedance of the current coil. (2) The compensating coil of a low power factor wattmeter compensates the\neffect of the impedance of the voltage coil circuit.",
+    "solution": "The current coil carries a current of [latex]I +I_P[/latex] and produces a filed corresponding to this current. The compensating coil is connected in series with the pressure coil circuit and is made as nearly as possible identical and coincident with the current coil. It is so connected that it  opposes the field of the current coil. The compensating coil carries a current [latex]I_P[/latex] and produces a field corresponding to this current.  This field acts as in opposition to the current coil field. Thus the resultant field is due to current [latex]I[/latex] only. Hence the error caused by the pressure coil current flowing in the current coil is neutralized.",
+    "options": {
+      "A": "(1) is true but (2) is false",
+      "B": "(1) is false but (2) is true",
+      "C": "both (1) and (2) are true",
+      "D": "both (1) and (2) are false"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 The Maxwell's bridge shown in the figure is at balance. The parameters of the\ninductive coil are.",
+    "solution": "[latex]Z_1=R+j\\omega L [/latex] [latex]Z_2=R_2 [/latex] [latex]Z_3=R_3[/latex] [latex] Z_4=R_4||\\left ( \\frac{-j}{\\omega C_4} \\right ) [/latex] [latex]\\;\\;=R_4||\\left ( \\frac{1}{\\omega C_4} \\right ) [/latex] [latex]\\;\\;=\\frac{R_4}{1+j\\omega C_4R_4} [/latex] At balance, [latex]Z_1Z_4=Z_2Z_3 [/latex] [latex](R+ j\\omega L)\\left ( \\frac{R_4}{1+j\\omega C_4R_4} \\right )=R_2R_3 [/latex] [latex]R_4(R+ j\\omega L)=R_2R_3(1+j\\omega C_4R_4) [/latex] [latex]RR_4+j\\omega L R_4=R_2R_3+j\\omega R_2R_3R_4C_4 [/latex] Equating real and imaginary terms [latex]RR_4=R_2R_3 [/latex] [latex]R=\\frac{R_2R_3}{R_4} [/latex] [latex]\\omega LR_4=\\omega R_2R_3R_4C_4 [/latex] [latex]L=R_2R_3C_4[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page12_q2.webp",
+    "options": {
+      "A": "[latex]R=R_{2}R_{3}/R_{4},L=C_{4}R_{2}R_{3}[/latex]",
+      "B": "[latex]L=R_{2}R_{3}/R_{4},R=C_{4}R_{2}R_{3}[/latex]",
+      "C": "[latex]R=R_{4}/R_{2}R_{3},L=C_{4}R_{2}R_{3}[/latex]",
+      "D": "[latex]L=R_{4}/R_{2}R_{3},R=1/(C_{4}R_{2}R_{3})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 An ammeter has a current range of 0-5 A, and its internal resistance is 0.2 [latex]\\Omega[/latex]. In\norder to change the range to 0-25 A, we need to add a resistance of",
+    "solution": "To extend the range of ammeter, a resistance [latex]R_{sh}[/latex] is connected across the meter. [latex]I_m=[/latex] full scale deflection current=5A [latex]I=25A[/latex] Multiplying power [latex]=m=\\frac{I}{I_m}=\\frac{25}{5}=5[/latex] [latex]I_m=\\frac{IR_{sh}}{R_{sh}+R_m} [/latex] [latex]\\frac{I}{I_m}=\\frac{R_{sh}+R_m}{R_{sh}} [/latex] [latex]m=1+\\frac{R_m}{R_{sh}} [/latex] [latex]R_{sh}=\\frac{R_m}{m-1}=\\frac{0.2}{5-1}=0.05[/latex]",
+    "options": {
+      "A": "0.8 [latex]\\Omega[/latex] in series with the meter",
+      "B": "1.0 [latex]\\Omega[/latex] in series with the meter",
+      "C": "0.04 [latex]\\Omega[/latex] in parallel with the meter",
+      "D": "0.05 [latex]\\Omega[/latex] in parallel with the meter"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 A wattmeter is connected as shown in figure. The wattmeter reads.",
+    "solution": "Potential coil draws negligible current. So current through [latex]Z_1[/latex] and [latex]Z_2[/latex] is same. current through current coil [latex]=I_{cc}=I[/latex] Voltage across potential coil [latex]=V_{pc}[/latex] Voltage across [latex]Z_1=V_{pc}=V[/latex] Wattmeter reads power consumed by [latex]Z_2[/latex], as voltage across potential coil = Voltage across [latex]Z_2[/latex] Current through current coil = Current through [latex]Z_2[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page12_q4.webp",
+    "options": {
+      "A": "Zero always",
+      "B": "Total power consumed by [latex]Z_1 \\; and \\; Z_2[/latex]",
+      "C": "Power consumed by [latex]Z_1[/latex]",
+      "D": "Power consumed by [latex]Z_2[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 An average-reading digital multi-meter reads 10 V when fed with a triangular\nwave, symmetric about the time-axis. For the same input an rms-reading meter\nwill read",
+    "solution": "For triangular wave, [latex]\\begin{aligned} \\text{Average value} &=\\frac{V_m}{2}\\\\ \\text{RMS value } &= \\frac{V_m}{\\sqrt{3}} \\\\ \\therefore \\;\\; \\frac{V_m}{2}&=10V\\; \\Rightarrow \\; V_m=20\\\\ \\text{RMS value } &= \\frac{V_m}{\\sqrt{3}}=\\frac{20}{\\sqrt{3}}V \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{20}{\\sqrt{3}}[/latex]",
+      "B": "[latex]\\frac{10}{\\sqrt{3}}[/latex]",
+      "C": "[latex]20\\sqrt{3}[/latex]",
+      "D": "[latex]10\\sqrt{3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 The figure shows a three-phase delta connected load supplied from a 400V, 50\nHz, 3-phase balanced source. The pressure coil (PC) and current coil (CC) of a\nwattmeter are connected to the load as shown, with the coil polarities suitably\nselected to ensure a positive deflection. The wattmeter reading will be",
+    "solution": "Assuming phase angle sequence abc Line to line voltage [latex]V_{l-l}=400V[/latex] Taking [latex]V_{ab}[/latex] as the reference [latex]\\begin{aligned} V_{ab} &=V_{l-l}\\angle 0^{\\circ}=400 \\angle 0^{\\circ}V\\\\ V_{bc}&=400\\angle -120^{\\circ}V \\\\ V_{ca} &= 400\\angle -240^{\\circ}V\\\\ \\text{Current}&\\text{ through current coil} \\\\ I{cc}&=\\frac{V_{ca}}{Z_2}=\\frac{400\\angle -240^{\\circ}}{100+j0}\\\\ &=4\\angle -240^{\\circ}A\\\\ \\text{Voltage }&\\text{ across pressure ciol}\\\\ V_{pc}&=V_{bc}=400\\angle -120^{\\circ}V \\\\ \\phi &=\\text{angle between} I_{cc} \\text{and} V_{pc}\\\\ &=-120-(-240^{\\circ})=120^{\\circ}\\\\ \\text{Wattmeter }&\\text{reading,}\\\\ |V_{pc}||I_{cc}| \\cos \\phi &=400 \\times 4 \\times \\cos (120^{\\circ})\\\\ &=-800W \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page13_q1.webp",
+    "options": {
+      "A": "0",
+      "B": "1600 Watt",
+      "C": "800 Watt",
+      "D": "400 Watt"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 The two inputs of a CRO are fed with two stationary periodic signals. In the X-Y\nmode, the screen shows a figure which changes from ellipse to circle and back\nto ellipse with its major axis changing orientation slowly and repeatedly. The\nfollowing inference can be made from this.",
+    "solution": "Because phase difference only patterns changes from ellipse to circle and back to ellipse.",
+    "options": {
+      "A": "The signals are not sinusoidal",
+      "B": "The amplitudes of the signals are very close but not equal",
+      "C": "The signals are sinusoidal with their frequencies very close but not equal",
+      "D": "There is a constant but small phase difference between the signals"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 The measurement system shown in the figure uses three sub-systems in cascade\nwhose gains are specified as [latex]G_1,G_2 \\; and \\; \\frac{1}{G_3}[/latex]. The relative small errors associated with\neach respective subsystem [latex]G_1,G_2 \\; and \\; G_3[/latex] are [latex]\\varepsilon _1,\\varepsilon _2 \\; and \\; \\varepsilon _3[/latex]. The error associated\nwith the output is :",
+    "solution": "[latex]\\frac{dG_1}{G_1}=\\varepsilon  _1, [/latex]  [latex] \\frac{dG_2}{G_2}=\\varepsilon  _2,[/latex]and [latex] \\frac{dG_3}{G_3}=\\varepsilon  _3 [/latex] Output [latex] (y)_0=\\frac{G_1G_3}{G_3}x [/latex] where,  [latex] \\;\\; x=input[/latex] [latex] \\ln y=\\ln G_1+ \\ln G_2- \\ln G_3 +\\ln x [/latex] Differentiating both side, [latex] \\frac{dy}{y}=\\frac{dG_1}{G_1}+\\frac{dG_2}{G_2}-\\frac{dG_3}{G_3}+\\frac{dx}{x}[/latex] No error is specified in input, so [latex]\\frac{dx}{x}=0 [/latex] [latex]\\frac{dy}{y}==\\varepsilon  _1+\\varepsilon  _2-\\varepsilon  _3[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page13_q3.webp",
+    "options": {
+      "A": "[latex]\\varepsilon _{1}+ \\varepsilon _{2} +1/ \\varepsilon _{3}[/latex]",
+      "B": "[latex]\\frac{\\varepsilon _{1}\\varepsilon _{2}} {\\varepsilon _{3}}[/latex]",
+      "C": "[latex]\\varepsilon _{1}+ \\varepsilon _{2} -\\varepsilon _{3}[/latex]",
+      "D": "[latex]\\varepsilon _{1}+ \\varepsilon _{2} +\\varepsilon _{3}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 The pressure coil of a dynamometer type wattmeter is",
+    "solution": "It is difficult to have purely resistive pressure coil. The pressure coil has a small value of inductance, due to which error occurs in wattmeter readings.",
+    "options": {
+      "A": "Highly inductive",
+      "B": "Highly resistive",
+      "C": "Purely resistive",
+      "D": "Purely inductive"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 The ac bridge shown in the figure is used to measure the impedance Z . If the bridge is balanced for oscillator frequency f = 2 kHz, then the impedance Z will be",
+    "solution": "[latex]Z_{AB}=500\\Omega [/latex] [latex]Z_{CD}=Z[/latex] [latex] Z_{BC}=R_{BC}+\\frac{1}{j\\omega C} [/latex] [latex]\\;\\;=300-\\frac{j}{2 \\pi \\times 2 \\times 10^3 \\times 0.398 \\times 10^{-6}} [/latex] [latex]Z_{BC}=300-j200\\Omega [/latex] [latex]Z_{AD}=R_{AD}+j\\omega L[/latex] [latex] Z_{AD}=300+j2\\pi\\times 2 \\times 10^3 \\times 15.91 \\times 10^{-3}[/latex] [latex] \\;\\;=300+j200\\Omega [/latex] At balance, [latex]Z_{AB} \\times Z_{CD}=Z_{BC} \\times Z_{AD} [/latex] [latex]Z_{CD}=Z [/latex] [latex]\\;\\;=\\frac{Z_{BC} \\times Z_{AD}}{Z_{AB}} [/latex] [latex]\\Rightarrow \\;Z=\\frac{(300-j200)\\times (300+j200)}{500}[/latex] [latex] Z=(260+j0)\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page13_q5.webp",
+    "options": {
+      "A": "(260 + j0) [latex]\\omega[/latex]",
+      "B": "(0 + j200) [latex]\\omega[/latex]",
+      "C": "(260 - j200) [latex]\\omega[/latex]",
+      "D": "(260 + j200) [latex]\\omega[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 Two sinusoidal signals [latex]p(\\omega_1  t)=A\\sin \\omega _1t[/latex]\n and [latex]q(\\omega_2 t)[/latex]\n are applied to X and Y\ninputs of a dual channel CRO. The Lissajous figure displayed on the screen shown\nbelow :\nThe signal [latex]q(\\omega_2 t)[/latex] will be represented as",
+    "solution": "Here, [latex]P(\\omega _1 t)=A \\sin \\omega _1 t [/latex] [latex]y_1[/latex]-line cut '4' times the Lissajous pattern [latex]x_1[/latex]-line cut '2' times the Lisaajous pattern [latex]\\frac{\\omega _y}{\\omega _x}=[/latex](maximum number of intersection of a horizontal line with Lissajous pattern)/(maximum number of intersection of a vertical line with Lissajous pattern) [latex]\\begin{aligned} \\therefore \\;\\; \\frac{\\omega _y}{\\omega _x}&= \\frac{2}{4}=\\frac{1}{2} \\\\ \\therefore \\;\\; \\omega _x &= 2 \\omega _y\\\\ \\omega _1 &= 2\\omega _2 \\end{aligned}[/latex] and [latex]q(\\omega _2,t)[/latex] will lead [latex]q(\\omega _1,t)[/latex] by  [latex]90^{\\circ}[/latex] as trace is a circle [latex]\\begin{aligned} q(\\omega _2,t) &=A \\sin (\\omega _2 t +90^{\\circ}) \\\\ q(\\omega _2,t) &= A \\cos \\omega _2 t \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page14_q1.webp",
+    "options": {
+      "A": "[latex]q(\\omega _{2}t)=Asin\\omega _{2}t,\\omega_{2}= 2 \\omega _{1}[/latex]",
+      "B": "[latex]q(\\omega _{2}t)=Asin\\omega _{2}t,\\omega_{2}= \\omega _{1}/2[/latex]",
+      "C": "[latex]q(\\omega _{2}t)=Acos\\omega _{2}t,\\omega_{2}= 2 \\omega _{1}[/latex]",
+      "D": "[latex]q(\\omega _{2}t)=Acos\\omega _{2}t,\\omega_{2}= \\omega _{1}/2[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 Two 8-bit ADCs, one of single slope integrating type and other of successive\napproximate type, take [latex]T_A \\; and \\; T_B[/latex] times to convert 5 V analog input signal to\nequivalent digital output. If the input analog signal is reduced to 2.5 V, the\napproximate time taken by the two ADCs will respectively, be",
+    "solution": "Single slope integrating type ADC utilize digital counter techniques to measure time required for a voltage ramp to rise from zero to the input voltage. If conversion time for input voltage [latex]5V=T_A[/latex] So, conversion time for input voltage [latex]2.5V=T_A/2[/latex] Conversion time in successive type ADC does not depend on input voltage. So, conversion time for input voltage 2.5V is also [latex]T_B[/latex].",
+    "options": {
+      "A": "[latex]T_{A},T_{B}[/latex]",
+      "B": "[latex]T_{A}/2,T_{B}[/latex]",
+      "C": "[latex]T_{A},T_{B}/2[/latex]",
+      "D": "[latex]T_{A}/2,T_{B}/2[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 A bridge circuit is shown in the figure below. Which one  of the sequence given\nbelow is most suitable for balancing the bridge ?",
+    "solution": "[latex]x_1=\\omega L_1 [/latex] and  [latex] x_4=\\frac{1}{\\omega C_4} [/latex] [latex]z_1=R_1+jx_1=R_1+j\\omega L_1 [/latex] [latex]z_2=R_2 [/latex] [latex]z_3=R_3 [/latex] [latex]z_4=R_4-jx_4=R_4-\\frac{j}{\\omega C_4} [/latex] Under balanced condition [latex]z_1z_4=z_2z_3[/latex] [latex] (R_1+j\\omega L_1)(R_4-jx_4)=R_2R_3 [/latex] [latex]\\left ( R_1R_4+\\frac{L_1}{C_4} \\right )+j\\left ( \\omega L_1R_4-\\frac{R_1}{\\omega C_4} \\right )=R_2R_3[/latex] Equating real and imaginary terms, we obtain [latex]R_1R_4+\\frac{L_1}{C_4} =R_2R_3 [/latex] [latex]\\omega L_1R_4-\\frac{R_1}{\\omega C_4}=0[/latex] Solving above equations, we get [latex]L_1=\\frac{R_2R_3C_4}{1+\\omega ^2C_4^2R_4^2} [/latex] and [latex]R_2=\\frac{\\omega ^2R_2R_3R_4C_4^2}{1+\\omega ^2C_4^2R_4^2} [/latex] Q-factor of the coil [latex]Q=\\frac{\\omega L_1}{R_1}=\\frac{1}{\\omega C_4R_4} [/latex] Therefore, [latex]L_1=\\frac{R_2R_3C_4}{1+\\left ( \\frac{1}{Q} \\right )^2}\\;\\;...(i) [/latex] [latex]R_1=\\frac{\\omega ^2R_2R_3R_4C_4^2}{1+\\left ( \\frac{1}{Q} \\right )^2}\\;\\;...(ii)[/latex] For a value of a greater than 10, the term [latex](1/Q)^2[/latex] will be smaller than 1/1000 and can be neglected. Therefore equation (i) and (ii) reduces to [latex]L_1=R_2R_3C_4 \\;\\;...(iii) [/latex] [latex]R_1=\\omega ^2R_2R_3R_4C_4^2\\;\\;...(iv)[/latex] [latex] R_4[/latex] appears only in equation (iv) and [latex]R_2[/latex] appears in both equation (iii) and (iv). So first [latex]R_2[/latex] is adjusted and then [latex]R_4[/latex] is adjusted.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page14_q3.webp",
+    "options": {
+      "A": "First adjust [latex]R_4[/latex], and then adjust [latex]R_1[/latex]",
+      "B": "First adjust [latex]R_2[/latex], and then adjust [latex]R_3[/latex]",
+      "C": "First adjust [latex]R_2[/latex], and then adjust [latex]R_4[/latex]",
+      "D": "First adjust [latex]R_4[/latex], and then adjust [latex]R_2[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 The probes of a non-isolated, two channel oscillocope are clipped to points A,\r\nB and C in the circuit of the adjacent figure. [latex]V_{in}[/latex] is a square wave of a suitable\r\nlow frequency. The display on [latex]Ch_{1} \\; and \\; Ch_1[/latex] are as shown below. Then the\r\n\"Signal\" and \"Ground\" probes [latex]S_1,G_1[/latex] and [latex]S_2,G_2[/latex] of  [latex]Ch_{1} \\; and \\; Ch_1[/latex] respectively are\r\nconnected to points :",
+    "solution": "Square wave is of low frequency. So, it can be assumed that time during which the wave forms are displayed on the screen, the voltage across R and L is [latex]V_{in}[/latex] [latex]\\begin{aligned} I(s) &=\\frac{V_{in}IS}{R+Ls}= \\frac{V_{in}}{Ls\\left ( s+\\frac{R}{L} \\right )}\\\\ &=\\frac{V_{in}}{L}\\left ( \\frac{1}{s}-\\frac{1}{s+\\frac{R}{L}} \\right ) \\times \\frac{L}{R}\\\\ I(s) &= \\frac{V_{in}}{R}\\left ( \\frac{1}{s}-\\frac{1}{s+\\frac{R}{L}} \\right ) \\\\ i(t) &=\\frac{V_{in}}{R}(1-e^{-Rt/L}) \\\\ V_{AB}&= \\text{Voltage across resistance}\\\\ &= Ri(t)=V_{in}[1-e^{-Rt/L}] \\end{aligned}[/latex] So, [latex]S_1[/latex] is connected to point A. and,  [latex]G_1[/latex] is connected to point B. Voltage across inductor [latex]=V_{BC}=L\\frac{di}{dt} [/latex] [latex]\\;\\;\\;=L\\frac{d}{dt}\\left ( \\frac{V_{in}}{R} (1-e^{-Rt/L})\\right ) [/latex] [latex]V_{BC}=V_{in}e^{-Rt/L}[/latex] So, [latex]S_2[/latex] is connected to point C. and [latex]G_2[/latex] is connected to point B.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page14_q4.webp",
+    "options": {
+      "A": "A,B,C,A",
+      "B": "A,B,C,B",
+      "C": "C,B,A,B",
+      "D": "B,A,B,C"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 [latex]R_1 \\; and \\; R_4[/latex] are the opposite arms of a Wheatstone bridge as are [latex]R_3 \\; and \\; R_2[/latex]. The\nsource voltage is applied across [latex]R_1 \\; and \\; R_3[/latex]. Under balanced conditions which one\nof the following is true",
+    "solution": "Adjustment are made in various arms of the bridge so that the voltage across the detector is zero and hence no current slows through it, when no current flows through detector the bridge is said to be balanced. Under condition of balance [latex]=R_1=R_2\\frac{R_3}{R_4}[/latex]",
+    "options": {
+      "A": "[latex]R_1 =R_3R_4/R_2[/latex]",
+      "B": "[latex]R_1 =R_2R_3/R_4[/latex]",
+      "C": "[latex]R_1 =R_2R_4/R_3[/latex]",
+      "D": "[latex]R_1 =R_2+R_3+R_4[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 A 200/1 Current transformer (CT) is wound with 200 turns on the secondary\non a toroidal core. When it carries a current of 160 A on the primary, the ratio\nand phase errors of the CT are found to be -0.5% and 30 minutes respectively.\nIf the number of secondary turns is reduced by 1 new ratio-error(%) and phaseerror(\nmin) will be respectively",
+    "solution": "Nominal ratio [latex]=k_n=\\frac{200}{1}=200 [/latex] Primary current [latex]=I_P=160A [/latex] Actual ratio [latex]= R_1=n_1\\left ( 1+\\frac{I_e}{I_P} \\right )\\;\\;...(i)[/latex] [latex] \\% \\text{Ratio error} [/latex]  [latex]=\\frac{k_n - R_1}{R_1}\\times 100[/latex] [latex] -0.5=\\frac{200-R_1}{R_1} \\times 100 [/latex] Actual ratio [latex]=R_1=201 [/latex] [latex]n_1=\\text{turn ratio}=200 [/latex] [latex]R_1=200\\left ( 1+\\frac{I_e}{I_P} \\right )\\;\\;...(ii)[/latex] when number of secondary is reduced by 1 [latex]\\begin{aligned} N_s &= 199\\\\ n_2&=199 \\\\ R_2&=n_2\\left ( 1+\\frac{I_e}{I_P} \\right ) \\\\ &= 199\\left ( 1+\\frac{I_e}{I_P} \\right )\\;\\;...(iii) \\end{aligned} [/latex] Dividing equation (ii) and (iii), [latex]\\begin{aligned} \\frac{R_1}{R_2} &=\\frac{200}{199} \\\\ \\Rightarrow \\;R_2 &= R_1 \\times \\left ( \\frac{200}{199} \\right )\\\\ &=201 \\times \\frac{200}{199}\\approx 200 \\\\ \\% \\text{Ratio error} &=\\frac{k_n-R_2}{R_2} \\times 100\\\\ &= \\frac{200-200}{200}\\times 100=0 \\end{aligned} [/latex] Phase angle error [latex]=\\theta =\\frac{180}{\\pi}\\left ( \\frac{I_m}{I_P} \\right ) [/latex] Reduction of one or two turns of the secondary winding, no doubt, reduces the ration error, but it has no effect on the phase angle error.",
+    "options": {
+      "A": "0.0, 30",
+      "B": "-0.5, 35",
+      "C": "-1.0, 30",
+      "D": "-1.0, 25"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 72 A variable w is related to three other variables x, y, z as w=xy/z. The variables\r\nare measured with meters of accuracy [latex]\\pm[/latex]0.5% reading, [latex]\\pm[/latex]1% of full scale value and [latex]\\pm[/latex]1.5% reading. The actual readings of the three meters are 80, 20 and 50 with 100 being the full scale value for all three. The maximum uncertainty in the measurement of w will be",
+    "solution": "Full scale reading of all three =100 Reading of x =80 Reading of y =20 Reading of z =50 [latex]\\delta x=\\pm 0.5[/latex]% of reading [latex]=\\pm \\frac{0.5 \\times 80}{100}=\\pm 0.4[/latex] [latex]\\delta y=\\pm 1[/latex]% of reading [latex]=\\pm \\frac{1 \\times 100}{100}=\\pm 1 [/latex] [latex]\\delta z=\\pm 1.5[/latex]% of reading [latex]=\\pm \\frac{1.5 \\times 50}{100}=\\pm 0.75 [/latex] Given  [latex] \\omega =\\frac{xy}{z} [/latex] taking log, we get, [latex]\\log \\omega = \\log x +\\log y - \\log z [/latex] differenting w.r.t. [latex]\\omega[/latex] we get [latex]\\frac{\\delta \\omega }{\\omega }=\\frac{\\delta x}{x}+\\frac{\\delta y}{y}-\\frac{\\delta z}{z} [/latex] For maximum limiting error, [latex]\\frac{\\delta \\omega }{\\omega }=\\pm \\left ( \\frac{0.4}{80}+\\frac{0.1}{20}+\\frac{0.75}{100} \\right ) \\times 100=\\pm 7%[/latex]",
+    "options": {
+      "A": "[latex]\\pm 0.5[/latex]% rdg",
+      "B": "[latex]\\pm 5.5[/latex]% rdg",
+      "C": "[latex]\\pm 6.7[/latex]% rdg",
+      "D": "[latex]\\pm 7.0[/latex]% rdg"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 A current of [latex]-8+6\\sqrt{2} (\\sin \\omega t + 30^{\\circ})[/latex]A is passed through three meters. They are a centre zero PMMC meter, a true rms meter and a moving iron instrument. The respective reading (in A) will be",
+    "solution": "[latex]I=-8+6\\sqrt{2} \\sin (\\omega t+30^{\\circ}) [/latex] [latex]I_1=-8A [/latex] [latex] I_2=6\\sqrt{2} \\sin (\\omega t+30^{\\circ})[/latex] Average value of [latex]I_1=-8A[/latex] Average value of [latex]I_2=0[/latex] So Average value of [latex]I=-8A[/latex] PMMC reads only average value of current Therefore PMMC reads =-8A RMS value of [latex]I=\\sqrt{(-8)^2+\\left ( \\frac{6\\sqrt{2}}{\\sqrt{2}} \\right )^2}=10A[/latex] RMS meter and moving iron meter both reads rms value of the current. So, both [latex]m_2[/latex] and [latex]m_3[/latex] reads 10A.",
+    "options": {
+      "A": "8, 6, 10",
+      "B": "8, 6, 8",
+      "C": "-8, 10, 10",
+      "D": "-8, 2, 2"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 74 A sampling wattmeter (that computes power from simultaneously sampled values of voltage and current) is used to measure the average power of a load. The peak to peak voltage of the square wave is 10 V and the current is a triangular wave of 5 A p-p as shown in the figure. The period is 20 ms. The reading in W will be",
+    "solution": "Positive Power =Negative Power So average power =0 W",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page15_q4.webp",
+    "options": {
+      "A": "0 W",
+      "B": "25 W",
+      "C": "50 W",
+      "D": "100 W"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 75 The time/div and voltage/div axes of an oscilloscope have been erased. A student connects a 1 kHz, 5 V p-p square wave calibration pulse to channel-1 of the scope and observes the screen to be as shown in the upper trace of the figure. An unknown signal is connected to channel-2(lower trace) of the scope. It the time/ div and V/div on both channels are the same, the amplitude (p-p) and period of the unknown signal are respectively",
+    "solution": "Peak-peak (p-p) division of upper trace voltage= 2 and value of (p-p) voltage =5V [latex]\\therefore \\;\\;\\frac{\\text{Voltage}}{Division}=2.5V[/latex] Now it will be same for unknown voltage (p-p) division of unknown voltage=3 Therefore,  p-p voltage [latex]3 \\times 2.5 =7.5 V[/latex] Frequency of upper trace=1 kHz [latex]\\therefore \\;\\; \\text{Time period}=\\frac{1}{10^3}=1ms[/latex] Division of x-axis(upper)=4 Division of x-axis(lower)=8 Therefore, Period of unknown signal=2ms",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page15_q5.webp",
+    "options": {
+      "A": "5 V, 1 ms",
+      "B": "5 V, 2 ms",
+      "C": "7.5 V, 2 ms",
+      "D": "10 V, 1 ms"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 76 Two wattmeters, which are connected to measure the total power on a\nthree-phase system supplying a balanced load, read 10.5 kW and -2.5 kW,\nrespectively. The total power and the power factor, respectively, are",
+    "solution": "[latex]P_1=10.5 kW [/latex] and [latex]P_2=-2.5kW [/latex] Total power [latex]=P_1+P_2[/latex] [latex]\\;\\;\\;\\;\\; =10.5-2.5=8kW [/latex] Power factor, [latex] \\begin{aligned} \\cos \\phi &= \\cos \\left ( \\tan ^{-1}\\sqrt{3}\\frac{P_1-P_2}{P_1+P_2} \\right )\\\\ &= \\cos \\left ( \\tan ^{-1}\\sqrt{3}\\frac{10.5-(-2.5)}{10.5+(-2.5)} \\right ) \\\\ &= 0.334 \\end{aligned}[/latex]",
+    "options": {
+      "A": "13.0 kW, 0.334",
+      "B": "13.0 kW, 0.684",
+      "C": "8.0 kW, 0.52",
+      "D": "8.0 kW, 0.334"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 A 1000 V DC supply has two 1-core cables as its positive and negative leads, their insulation resistances to earth are 4M[latex]\\Omega[/latex] and 6M[latex]\\Omega[/latex], respectively, as shown in the figure. A voltmeter with resistance 50k[latex]\\Omega[/latex] is used to measure the insulation of the cable. When connected between the positive core and earth,\r\nthen voltmeter reads",
+    "solution": "Resistance of voltmeter [latex](R_V)[/latex] appear parallel to [latex]4 M\\Omega[/latex] Effective resistance between A and B, [latex]\\begin{aligned} R_{AB} &= R_V||4 M\\Omega \\\\ R_V&= 50k\\Omega =0.05 M\\Omega \\\\ R_{AB}&= 0.05||4M\\Omega =0.05M\\Omega \\\\ R_{AC}&=R_{AB}+R_{BC} \\\\ &= 0.05+6=6.05M\\Omega \\\\ I &=\\frac{1000}{R_{AC}}=\\frac{1000}{6.05} \\mu A \\end{aligned}[/latex] Voltmeter reads, [latex]IR_{AB} =\\frac{1000}{6.05} \\times 10^{-6} \\times 0.05 \\times 10^6 \\approx 8V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page16_q2.webp",
+    "options": {
+      "A": "8V",
+      "B": "16V",
+      "C": "24V",
+      "D": "40V"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 78 The set-up in the figure is used to measure resistance R. The ammeter and\r\nvoltmeter resistances are 0.01[latex]\\Omega[/latex] and 2000 [latex]\\Omega[/latex], respectively. Their readings are 2A and 180V, respectively, giving a measured resistances of 90 [latex]\\Omega[/latex]. The\r\npercentage error in the measurement is",
+    "solution": "Measured value of resistance [latex]=90\\Omega[/latex] Resistance of voltmeter, [latex]R_v=2000 \\Omega[/latex] Voltage across voltmeter, [latex]V=180[/latex] Current through voltmeter [latex]=\\frac{V}{R_v} =\\frac{180}{2000}=0.09A[/latex] Current through resistance, [latex](R)=I_R=2-I_v=2-0.09 [/latex] [latex]\\Rightarrow \\;\\;I_R=1.91A [/latex] True value of resistance, [latex]\\frac{V}{I_R}=\\frac{180}{1.91}=94.24\\Omega [/latex] [latex]\\% erro=\\frac{\\text{measured value}-\\text{True value}}{\\text{True value}}=\\frac{90-94.24}{94.24}\\times 100=-4.5\\%[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page16_q3.webp",
+    "options": {
+      "A": "2.25%",
+      "B": "2.35%",
+      "C": "4.50%",
+      "D": "4.71%"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 79 A DC ammeter has a resistance of 0.1 [latex]\\Omega[/latex] and its current range is 0-100 A. If the range is to be extended to 0-500 A, then meter required the following shunt resistance",
+    "solution": "[latex]I_m=[/latex] fill scale deflection current =100 A [latex]I=[/latex] current to be measure =500A Multiplying power, [latex]m=\\frac{I}{I_m}=\\frac{500}{100}=5[/latex] [latex] R_m=0.1\\Omega[/latex] [latex] I_m=\\frac{IR_{sh}}{R_{sh}+R_m} [/latex] [latex]\\Rightarrow \\; m=1+\\frac{R_m}{R_{sh}} [/latex] [latex]\\Rightarrow \\; R_{sh}=\\frac{R_m}{m-1}=\\frac{0.1}{5-1}=0.025\\Omega[/latex]",
+    "options": {
+      "A": "0.010[latex]\\Omega[/latex]",
+      "B": "0.011[latex]\\Omega[/latex]",
+      "C": "0.025[latex]\\Omega[/latex]",
+      "D": "1.0[latex]\\Omega[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 The simultaneous application of signals x(t) and y(t) to the horizontal and vertical plates, respectively, of an oscilloscope, produces a vertical figure of 8 display. If P and Q are constants and X(t)=[latex]P\\sin \\left ( 4t +30^{\\circ} \\right )[/latex], then y(t) is equal to",
+    "solution": "[latex]f_y=[/latex] frequency of signal applied to y plates [latex]f_x=[/latex] frequency of signal applied to x plates [latex]x(t)=P \\sin (4t+30) [/latex] So,  [latex]f_x=\\frac{4}{2 \\pi}Hz[/latex] [latex]\\frac{f_y}{f_x}=\\frac{\\text{No. of times tangent touches top or bottom}}{\\text{No. of times tangent touches either side}}=\\frac{1}{2} [/latex] [latex]f_y=\\frac{f_x}{2}=\\left ( \\frac{4}{2\\pi} \\right )\\times \\frac{1}{2}=\\frac{2}{2\\pi} [/latex] [latex]\\omega _y=2 \\pi f_y=2 \\pi\\left ( \\frac{2}{2 \\pi} \\right )=2 rad/sec. [/latex] [latex]Q \\sin (2t+15)[/latex] has angular frequency. [latex]\\omega =2 rad/sec[/latex]",
+    "options": {
+      "A": "[latex]Q\\sin \\left ( 4t -30^{\\circ} \\right )[/latex]",
+      "B": "[latex]Q\\sin \\left ( 2t +15^{\\circ} \\right )[/latex]",
+      "C": "[latex]Q\\sin \\left ( 8t +60^{\\circ} \\right )[/latex]",
+      "D": "[latex]Q\\sin \\left ( 4t +30^{\\circ} \\right )[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 81 A digital-to-analog converter with a full-scale output voltage of 3.5 V has a\nresolution close to 14 mV. Its bit size is",
+    "solution": "Resolution of digital to analog coverter [latex]R=\\frac{V_0}{2^N}=14mV [/latex] Where, [latex]V_0= [/latex] Full scale output voltage=3.5V N = bit-size [latex] \\begin{aligned} \\frac{V_0}{2^N}&=14mV \\\\ \\Rightarrow \\;2^n &=\\frac{3.5}{14 \\times 10^{-3}}=250 \\\\ N&= 8 \\end{aligned}[/latex]",
+    "options": {
+      "A": "4",
+      "B": "8",
+      "C": "16",
+      "D": "32"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 82 A PMMC voltmeter is connected across a series combination of DC voltage\r\nsource [latex]V_1 = 2 V[/latex] and AC voltage source [latex]V_2 (t) = 3 sin(4t) V[/latex]. The meter reads",
+    "solution": "Total voltage across PMMC [latex]=V_T=V_1+V_2 [/latex] [latex]=2+3 \\sin (4t)V[/latex] PMMC reads average value Average value of [latex]V_1=2V[/latex] Average value of [latex]V_2=0[/latex] Average value of [latex]V_T=2V[/latex] So PMMC reads [latex]=2 V[/latex]",
+    "options": {
+      "A": "2V",
+      "B": "5V",
+      "C": "[latex](2+\\sqrt{3}/2)[/latex]V",
+      "D": "[latex](\\sqrt{17}/2)[/latex]V"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 The Q-meter works on the principle of",
+    "solution": "[latex]Q=\\frac{\\omega _0 L}{R}[/latex] where [latex]\\omega _0[/latex] is the resonant angular frequency, L is the inductance and R is the effective resistance of the coil. The priciple of working of Q-meter is based upon series resonance of R, L, C circuit.",
+    "options": {
+      "A": "mutual inductance",
+      "B": "self inductance",
+      "C": "series resonance",
+      "D": "parallel resonance"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 A 50 Hz, bar primary CT has a secondary with 500 turns. The secondary supplies 5 A current into a purely resistive burden of 1[latex]\\Omega[/latex]. The magnetizing ampere-turns is 200. The phase angle between the primary and second current is [latex]175.4^{\\circ}[/latex]. The core flux in the CT under the given operating conditions is",
+    "solution": "[latex]Z_s=\\text{Burden}=1\\Omega [/latex] Voltage induced in the secondary [latex]\\begin{aligned} E_s&=I_S \\times Z_S=5 \\times 1=5V \\\\ E_s&=4.44 f\\phi _mN_s \\\\ \\therefore \\;\\; \\phi _m&=\\frac{E_s}{1.44fN_s} \\\\ &= \\frac{5}{4.44 \\times 50 \\times 500}=45\\mu Wb \\end{aligned}[/latex]",
+    "options": {
+      "A": "0",
+      "B": "45 [latex]\\mu[/latex]Wb",
+      "C": "22.5 m Wb",
+      "D": "100.0 mWb"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 A 50 Hz, bar primary CT has a secondary with 500 turns. The secondary supplies 5 A current into a purely resistive burden of 1[latex]\\Omega[/latex]. The magnetizing ampere-turns is 200. The phase angle between the primary and second current is",
+    "solution": "Phase angle between primary and secondary current [latex]\\theta =\\left ( \\frac{180}{\\pi} \\right )\\left ( \\frac{I_m}{nI_s} \\right )\\;\\text{degree} [/latex] No. of turns in primary [latex]=N_p=1[/latex] No. of turns in secondary [latex]=N_s=500 [/latex] [latex]n=\\text{turn ratio} [/latex]  [latex]=\\frac{N_s}{N_p}=500 [/latex] [latex]I_s= [/latex]secondary winding current=5A Magnetizing ampere turn =200 [latex]I_m=\\frac{\\text{Magnetizing ampere turn}}{N_p} =\\frac{200}{1}=200A [/latex] [latex]\\theta =\\left ( \\frac{180}{\\pi} \\right )\\left ( \\frac{200}{500 \\times 5} \\right )\\approx 4.6^{\\circ}[/latex]",
+    "options": {
+      "A": "[latex]4.6^{\\circ}[/latex]",
+      "B": "[latex]85.4^{\\circ}[/latex]",
+      "C": "[latex]94.6^{\\circ}[/latex]",
+      "D": "[latex]175.4^{\\circ}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 A single-phase load is connected between R and Y terminals of a 415 V,\r\nsymmetrical, 3-phase, 4-wire system with phase sequence RYB. A wattmeter is\r\nconnected in the system as shown in figure. The power factor of the load is 0.8\r\nlagging. The wattmeter will read",
+    "solution": "Line of line voltage [latex]=450V[/latex] Phase to neutral voltage [latex]=\\frac{415}{\\sqrt{3}}V[/latex] Taking [latex]V_R[/latex] as the reference [latex]\\begin{aligned} V_{RN} &=\\frac{415}{\\sqrt{3}} \\angle 0^{\\circ}V\\\\ V_{yN} &=\\frac{415}{\\sqrt{3}} \\angle -120^{\\circ}V\\\\ \\text{and } V_{BN} &=\\frac{415}{\\sqrt{3}} \\angle -240^{\\circ}\\\\ V_{Ry} &=V_{RN}-V_{yN} \\\\ &=\\frac{415}{\\sqrt{3}} \\angle 0^{\\circ}- \\frac{415}{\\sqrt{3}} \\angle -120^{\\circ} \\\\ &=415 \\angle 30^{\\circ}V \\\\ & \\text{Load current,}\\\\ I_L&= \\frac{V_{Ry}}{Z}=\\frac{415 \\angle 30^{\\circ}}{100 \\angle 36.87^{\\circ}}\\\\ &= 4.15 \\angle -6.87^{\\circ} A \\end{aligned}[/latex] Current through current coil, [latex]I_{cc}=I_L=4.15\\angle -6.87^{\\circ}A [/latex] Voltage across pressure coil [latex]V_{BN}=\\frac{415}{\\sqrt{3}}\\angle -240^{\\circ}V [/latex] Phase angle between [latex]V_{BN} \\text{and} I_{cc}[/latex] [latex] \\phi =-240^{\\circ}-(-6.87^{\\circ})=233.13^{\\circ} [/latex] Wattmeter reading [latex]=|V_{BN}||I_L| \\cos \\phi[/latex] [latex]\\;\\;\\; =\\frac{415}{\\sqrt{3}} \\times 4.15 \\times \\cos 233.13[/latex] [latex]\\;\\;\\; \\approx -597W[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page18_q1.webp",
+    "options": {
+      "A": "[latex]-795 W[/latex]",
+      "B": "[latex]-597 W[/latex]",
+      "C": "[latex]+597 W[/latex]",
+      "D": "[latex]+795 W[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 A moving iron ammeter produces a full scale torque of 240 [latex]\\mu[/latex]Nm with a deflection of [latex]120^{\\circ}[/latex] at a current of 10 A . The rate of change of self induction ([latex]\\mu[/latex]H/radian) of the instrument at full scale is",
+    "solution": "Torque produced, [latex]\\begin{aligned} T&= \\frac{1}{2}I^2\\frac{dL}{d\\theta }\\\\ Where\\;\\; I &= 10A\\\\ T &= 240 \\mu N-m\\\\ T&= \\frac{1}{2}I^2\\frac{dL}{d\\theta } \\\\ 240 \\times 10^{-6}&= \\frac{1}{2} \\times 10^2 \\times \\frac{dL}{d\\theta } \\\\ \\frac{dL}{d\\theta } &=  4.8 \\times 10^{-6} \\text{H/radian} \\end{aligned}[/latex] Rate of change of self-inductance [latex]\\Rightarrow \\frac{dL}{d\\theta } = 4.8 \\times 10^{-6} \\text{H/radian}[/latex]",
+    "options": {
+      "A": "2.0 [latex]\\mu[/latex]H/radian",
+      "B": "4.8 [latex]\\mu[/latex]H/radian",
+      "C": "12.0 [latex]\\mu[/latex]H/radian",
+      "D": "114.6 [latex]\\mu[/latex]H/radian"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 A dc A-h meter is rated for 15 A, 250 V. The meter constant is 14.4 A-sec/rev. The meter constant at rated voltage may be expressed as",
+    "solution": "Meter constant , m=14.4 A-sec/rev To express meter constant in the unit rev/kWh Meter constant [latex]=M'=\\frac{1}{M}=\\frac{1}{14.4}\\frac{rev}{A-sec} [/latex] [latex]\\;M'=\\left ( \\frac{1}{14.4}\\frac{rev}{A-sec} \\right )\\times \\left ( \\frac{1}{250V} \\right ) [/latex] [latex]\\;\\;\\;\\;\\; \\times 10^3 \\times \\frac{3600 \\;sec}{1 \\; hr} [/latex] [latex]\\;=\\frac{3600 \\times 10^3}{14.4 \\times 250} [/latex] [latex]\\;=1000 \\;\\text{rev/kWh}[/latex]",
+    "options": {
+      "A": "3750 rev/kWh",
+      "B": "3600 rev/kwh",
+      "C": "1000 rev/kWh",
+      "D": "960 rev/kWh"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 89 A moving coil of a meter has 100 turns, and a length and depth of 10 mm and\n20 mm respectively. It is positioned in a uniform radial flux density of 200 mT.\nThe coil carries a current of 50 mA. The torque on the coil is",
+    "solution": "T=Torque on the coil=NBAI where, [latex]\\begin{aligned} N &= \\text{Number of turns}=100 \\\\ B&= \\text{Flux density}\\\\ &= 200mT =200 \\times 10^{-3}T\\\\ A &= \\text{Area of the coil} \\\\ &= \\text{length} \\times \\text{depth}\\\\ &= (10 \\times 10^{-3}) \\times (20 \\times 10^{-3})\\\\ &= 200 \\times 10^{-6} m^2\\\\ I&= \\text{Current through the coil}\\\\ &= 50mA=50 \\times 10^{-3}\\\\ T&= NBAI \\\\ &=100 \\times (200 \\times10^{-3}) \\times (200 \\times 10^{-6}) \\\\ &= \\times (50 \\times 10^{-3})\\\\ &=2 \\times 10^{-4} N-m=200\\mu N-m \\end{aligned}[/latex]",
+    "options": {
+      "A": "200 [latex]\\mu[/latex]Nm",
+      "B": "100 [latex]\\mu[/latex]Nm",
+      "C": "1000 [latex]\\mu[/latex]Nm",
+      "D": "1 [latex]\\mu[/latex]Nm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 A CRO probe has an impedance of 500[latex]k\\Omega[/latex] in parallel with a capacitance of 10\r\npF. The probe is used to measure the voltage between P and Q as shown in\r\nfigure. The measured voltage will be",
+    "solution": "[latex]\\begin{aligned} X_C &=\\frac{1}{2 \\pi fC} \\\\ &= \\frac{1}{2 \\pi \\times 100\\times 10^3 \\times 10 \\times 10^{-12}}=159.15 \\end{aligned}[/latex] Taking supply voltage as the reference [latex]V_s=10\\angle 0 V [/latex] Using KCL, [latex] \\frac{V_p-10}{100 \\times 10^3}+\\frac{V_p}{100 \\times 10^3}[/latex] +  [latex]\\frac{V_p}{500 \\times 10^3}+\\frac{V_p}{-j159.15 \\times 10^3}=0 [/latex] [latex]V_p=4.37\\angle -15.94V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page18_q5.webp",
+    "options": {
+      "A": "3.53 V",
+      "B": "4.37 V",
+      "C": "4.54 V",
+      "D": "5.00 V"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 A galvanometer with a full scale current of 10 mA has a resistance of 1000 [latex]\\Omega[/latex].\r\nThe multiplying power (the ratio of measured current to galvanometer current)\r\nof 100 [latex]\\Omega[/latex] shunt with this galvanometer is",
+    "solution": "Full scale current of galvanometer [latex]I_m=10mA[/latex] Resistance of meter [latex]R_m=1000\\Omega [/latex] Resistance of shunt [latex]R_{sh}=100\\Omega [/latex] [latex]I_m=\\frac{IR_{sh}}{R_{sh}+R_m} [/latex] Multiplying power [latex]\\begin{aligned} &=\\frac{I}{I_m}=\\frac{R_{sh}+R_m}{R_m} \\\\ &= \\frac{100+1000}{100}=11 \\end{aligned}[/latex]",
+    "options": {
+      "A": "110",
+      "B": "100",
+      "C": "11",
+      "D": "10"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 The circuit in figure is used to measure the power consumed by the load. The\ncurrent coil and the voltage coil of the wattmeter have 0.02 [latex]\\Omega[/latex] and 1000[latex]\\Omega[/latex] resistances respectively. The measured power compared to the load power will be",
+    "solution": "Load Power (true power)[latex]=VI \\cos \\phi [/latex] [latex]=200 \\times 20 \\times 1=4000W[/latex] Resistance of current coil [latex]=R_{cc}=0.02[/latex] Current through CC [latex]=I_{c}=20A[/latex] Power consumed by current coil [latex]=I_c^2 R_{cc}[/latex] [latex]=20^2 \\times 0.02=8W[/latex] Measured power =Power consumed by load + Power consumed by current coil Measured power =4000+8=4008W [latex]\\% \\text{error} =\\frac{\\text{Measured power}-\\text{True power}}{\\text{True power}} \\times 100 =\\frac{4008-4000}{4000} \\times 100 =0.2\\% \\;\\;(\\text{more})[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page19_q2.webp",
+    "options": {
+      "A": "0.4 % less",
+      "B": "0.2% less",
+      "C": "0.2% more",
+      "D": "0.4% more"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 A dc potentiometer is designed to measure up to about 2 V with a slide wire of\r\n300 mm. A standard cell of emf 1.18 V obtains balance at 600 mm. A test cell\r\nis seen to obtain balance at 680 mm. The emf of the test cell is",
+    "solution": "[latex]\\begin{aligned} E_1&= \\text{standerd call of emf 1.18} \\\\ l_1&= 600mm\\\\ E_2&= \\text{emf of the test cell}\\\\ i_2&= 680mm \\end{aligned} [/latex] The voltage of any point along the slide wire is proportional to length of slide wire. [latex]E\\propto l [/latex] [latex]\\frac{E_1}{E_2}=\\frac{l_1}{l_2} [/latex] [latex]E_2=\\frac{l_2}{l_1}E_1[/latex] [latex] \\;\\;\\;=\\frac{680}{600} \\times 1.18=1.34V[/latex]",
+    "options": {
+      "A": "1.00 V",
+      "B": "1.34 V",
+      "C": "1.50 V",
+      "D": "1.70 V"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 94 Group-II represents the figures obtained on a CRO screen when the voltage\r\nsignals [latex]V_x = V_{xm} \\sin \\omega t[/latex] and [latex]V_{y}=V_{ym}\\sin \\left ( \\omega t+\\Phi \\right )[/latex]  are given to its X and Y plates respectively and [latex]\\Phi[/latex] is changed. Choose the correct value of [latex]\\Phi[/latex] from Group-I to match with the corresponding figure of Group-II",
+    "solution": "when two voltages are in phase i.e. [latex][\\phi =0^{\\circ}\\; \\text{or} \\;180^{\\circ}][/latex], the trace is straight line. But for [latex]\\phi =0^{\\circ}[/latex], the trace has positive slope and [latex]\\phi =180^{\\circ}[/latex], the trace has negative slope. When the two voltage has phase displacement of [latex]\\phi =90^{\\circ}[/latex], the trace is a circle. If the direction of the trace is in the clockwise direction then the phase difference is [latex]\\phi =90^{\\circ}[/latex]. If the direction of the trace is anti-clockwise direction the phase difference is [latex](2 \\pi-\\phi )=\\left ( 2\\pi-\\frac{\\pi}{2} \\right )=3\\frac{\\pi}{2}[/latex] When the difference is not equal to [latex]0^{\\circ}[/latex] or [latex]90^{\\circ}[/latex], the trace is an ellipse. For [latex]\\pi \\leq \\phi \\leq \\frac{3\\pi}{2}[/latex], the trace is an ellipse in anti-clockwise direction.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page19_q4.webp",
+    "options": {
+      "A": "P-1, Q-3, R-6, S-5",
+      "B": "P-2, Q-6, R-4, S-5",
+      "C": "P-2, Q-3, R-5, S-4",
+      "D": "P-1, Q-5, R-6, S-4"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 The voltage-flux adjustment of a certain 1-phase 220 V induction watt-hour\nmeter is altered so that the phase angle between the applied voltage and the\nflux due to it is 85[latex]^{\\circ}[/latex] (instead of 90[latex]^{\\circ}[/latex]). The errors introduced in the reading of this meter when the current is 5 A at power factor of unity and 0.5 lagging are respectively",
+    "solution": "Measured value [latex]=VI \\sin (\\Delta -\\phi )[/latex] where, [latex]\\Delta =[/latex] Phase angle between voltage and flux [latex]\\cos \\phi[/latex] = Poer factor True value=[latex]VI \\cos \\phi[/latex] Error=Measured value - True value CASE-I: [latex]\\begin{aligned} \\Delta &= 80^{\\circ}\\\\ pf&= \\cos \\phi =1\\\\ \\phi &= 0^{\\circ}\\\\ V&= 220V\\\\ I&= 5A \\\\ \\text{Error}&=VI \\sin (\\Delta -\\phi )-VI \\cos \\phi \\\\ &=220 \\times 5 \\sin(85-0^{\\circ})-220 \\times 1 \\times 1\\\\ &\\approx -4.2W \\end{aligned}[/latex] CASE-II: [latex]\\begin{aligned} \\Delta &= 85^{\\circ}\\\\ pf&= \\cos \\phi =0.5\\\\ \\phi &= 60^{\\circ}\\\\ V&= 220V\\\\ I&= 5A \\\\ \\text{Error}&=VI \\sin (\\Delta -\\phi )-VI \\cos \\phi \\\\ &=220 \\times 5 \\sin(85-60^{\\circ})-220 \\times 5 \\times 0.5\\\\ &= -85.1W \\end{aligned}[/latex]",
+    "options": {
+      "A": "3.8 mW, 77.4 mW",
+      "B": "-3.8 mW, 77.4 mW",
+      "C": "-4.2 W, -85.1 W",
+      "D": "4.2 W, 85.1 W"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 96 A 500A/5A, 50 Hz transformer has a bar primary. The secondary burden is\na pure resistance of 1 [latex]\\Omega[/latex] and it draws a current of 5 A. If the magnetic core\nrequires 250 AT for magnetization, the percentage ratio error is",
+    "solution": "Nominal ratio [latex]=\\frac{500}{5}=100[/latex] Number of turn in primary N=1 (primary bar) Magnetizing current, [latex]I_m=\\frac{\\text{mmf}}{\\text{No. of turns}}[/latex] [latex]\\;\\;=\\frac{250}{1}=250A [/latex] Secondary current, [latex]I_s=5A n=\\frac{500}{5}=100 [/latex] Primary current, [latex] I_P=\\sqrt{(nI_s)^2+I_m^2}[/latex] [latex] \\;\\;=\\sqrt{(100\\times 5)^2 +(250)^2} [/latex] [latex]\\Rightarrow \\; I_P=559.017A [/latex] Actual ratio [latex] \\;\\;=\\frac{I_P}{5}=\\frac{559.017}{5}=111.803 [/latex] Ratio error [latex]\\;\\;=\\frac{\\text{Nominal Ratio} - \\text{Actual Ratio}}{\\text{Actual Ratio}} \\times 100 [/latex] [latex]\\;\\;=\\frac{100-111.803}{111.803}\\times 100=-10.56\\%[/latex]",
+    "options": {
+      "A": "10.56",
+      "B": "-10.56",
+      "C": "11.8",
+      "D": "-11.8"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 97 The inductance of a certain moving-iron ammeter is expressed as\r\nL = [latex]10+30 -\\frac{\\theta ^{2}}{4} \\; \\mu H[/latex], where  [latex]\\theta[/latex] is the deflection in radians from the zero position. The control spring torque is [latex]25 \\times 10^{-6}[/latex] Nm/radian. The deflection of the pointer in radian when the meter carries a current of 5 A, is",
+    "solution": "Deflection torque in moving-iron ammeter, [latex]T_d=\\frac{1}{2}I^2\\frac{dL}{d\\theta }[/latex] Inductance,   [latex]L=\\left ( 10+3\\theta -\\frac{\\theta ^2}{4} \\right )\\mu H [/latex] Rate of change of inductance with deflection [latex]\\frac{dL}{d\\theta }=\\frac{d}{d\\theta }\\left ( 10+3\\theta -\\frac{\\theta ^2}{4} \\right ) [/latex] [latex]\\;\\;\\;=\\left ( 3- \\frac{\\theta }{2}\\right )\\mu H/rad [/latex] Current , [latex]I=5A [/latex] Deflecting torque, [latex]\\begin{aligned} T_d &=\\frac{1}{2}I^2\\frac{dL}{d\\theta } \\\\ T_d &= \\frac{1}{2} \\times 5^2 \\times \\left ( 3-\\frac{\\theta }{2} \\right ) \\times 10^{-6}\\\\ &= \\frac{25}{2}\\left ( 3-\\frac{\\theta }{2} \\right )\\times 10^{-6} Nm \\end{aligned} [/latex] Controlling torque [latex]T_c=k\\theta =25 \\times 10^{-6}\\theta [/latex] At equilibrium, [latex]\\begin{aligned} T_c &= T_d\\\\ 25 \\times 10^{-6}\\theta &= \\frac{25}{2}\\left ( 3-\\frac{\\theta }{2} \\right )\\times 10^{-6} \\\\ \\frac{5\\theta }{2} &= 3\\\\ \\theta &= 1.2 \\text{rad} \\end{aligned}[/latex]",
+    "options": {
+      "A": "2.4",
+      "B": "2",
+      "C": "1.2",
+      "D": "1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 A wattmeter reads 400 W when its current coil is connected in the R-phase\nand its pressure coil is connected between this phase and the neutral of a\nsymmetrical 3-phase system supplying a balanced star connected 0.8 p.f.\ninductive load. This phase sequence is RYB. What will be the reading of this\nwattmeter if its pressure coil alone is reconnected between the B and Y phases,\nall other connections remaining as before ?",
+    "solution": "Taking [latex]V_R[/latex] as the reference and assuming phase to neutral voltage [latex]=V[/latex] [latex]\\begin{aligned} V_R &=V\\angle 0^{\\circ} \\\\ V_Y &= V\\angle -120^{\\circ}\\\\ and \\;\\; V_B &=V\\angle -240^{\\circ} \\end{aligned}[/latex] [latex]\\begin{aligned} V_RI_R \\cos \\phi &=400 W \\\\ VI_R \\times 0.8&= 400W\\\\ VI_R&=400\\;\\;...(i) \\\\ I_R&=I_R\\angle -36.87^{\\circ} \\end{aligned}[/latex] [p.f. =0.8 lag, inductive load] [latex]\\begin{aligned} V_{YB} &=V_{YB}-V_B \\\\ &= V\\angle -120^{\\circ}- V \\angle -240^{\\circ}\\\\ &=\\sqrt{3}V\\angle -90^{\\circ} V\\\\ I_R&=I_R\\angle -36.87^{\\circ}A \\end{aligned}[/latex] Angle between [latex]V_{YB}[/latex] and [latex]I_{R}[/latex] [latex]\\theta =-90^{\\circ}-(-36.87^{\\circ})=53.13^{\\circ}[/latex] As pressure coil connected between Y and B phase. Reading of wattmeter[latex]=V_{YB}I_R\\cos \\theta[/latex] From equation (i) [latex]=\\sqrt{3}V \\times I_R \\times \\cos (-53.13) =\\sqrt{3}\\times 500 \\times 0.6=519.6W[/latex]",
+    "options": {
+      "A": "400",
+      "B": "519.6",
+      "C": "300",
+      "D": "692.8"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 99 A rectifier type ac voltmeter of a series resistance [latex]R_{s}[/latex], an ideal full-wave rectifier\r\nbridge and a PMMC instrument as shown in figure. The internal. resistance of\r\nthe instrument is 100 [latex]\\Omega[/latex] and a full scale deflection is produced by a dc current of 1 mA. The value of [latex]R_{s}[/latex] required to obtain full scale deflection with an ac voltage of 100 V (rms) applied to the input terminals is",
+    "solution": "[latex]I_{FS}=[/latex] Current required to produce full scale deflection d.c. sensitivity is, [latex]S_{dc}=\\frac{1}{I_{(FS)}} =\\frac{1}{1 mA}=10^3\\Omega /V[/latex] For full wave rectifier a.c. sensitivity [latex]S_{ac}=0.9S_{dc}=900\\Omega /V [/latex] Resistance of multiplier, [latex]R_S=s_{ac}V-R_m-2R_d [/latex] Since, diodes are ideal, [latex]R_d=0 [/latex] then,  [latex]R_S=900 \\times 100-100 =89.9k\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page20_q4.webp",
+    "options": {
+      "A": "63.56[latex]\\Omega[/latex]",
+      "B": "69.93[latex]\\Omega[/latex]",
+      "C": "89.93[latex]\\Omega[/latex]",
+      "D": "141.3k[latex]\\Omega[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 100 The items in Group-I represent the various types of measurements to be made\r\nwith a reasonable accuracy using a suitable bridge. The items in Group-II\r\nrepresent the various bridges available for this purpose. Select the correct\r\nchoice of the item in Group-II for the corresponding item in Group-I from the\r\nfollowing",
+    "solution": "Wheat stone bridge  is used for measurement of medium resistance. Kelvin double bridge is used for meserement of low resistance. Schering  bridge is used for meserement of low value of capacitances. Wein's bridge is used for meserement of the frequency Hay's bridge is used for meserement of inductance of a coil with a large time-constant. Carey-foster bridge is used for comparision of resistances which are nearly equal.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page20_q5.webp",
+    "options": {
+      "A": "P=2, Q=3, R=6, S=5",
+      "B": "P=2, Q=6, R=4, S=5",
+      "C": "P=2, Q=3, R=5, S=4",
+      "D": "P=1, Q=3, R=2, S=6"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 The simplified block diagram of a 10-bit A/D converter of dual slope integrator\ntype is shown in figure. The 10-bit counter at the output is clocked by a 1 MHz\nclock. Assuming negligible timing overhead for the control logic, the maximum\nfrequency of the analog signal that can be converted using this A/D converter is\napproximately",
+    "solution": "The wave form of dual slope integrater is shown. The maximum frequency can be attained when [latex]T_2-T_1=0[/latex] and as [latex]T_1=2^NT_C\\;\\;\\;(T_C=\\text{clock period}) [/latex] [latex]\\therefore \\;\\;f_{max}=\\frac{1}{2^N\\cdot T_C}[/latex] [latex]\\;\\;\\;=\\frac{f_C}{2^N}=\\frac{10^6}{1024}=1kHz[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page21_q1.webp",
+    "options": {
+      "A": "2kHz",
+      "B": "1kHz",
+      "C": "500Hz",
+      "D": "250Hz"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 102 A reading of 120 is obtained when standard inductor was connected in the\ncircuit of a Q-meter and the variable capacitor is adjusted to value of 300 pF.\nA lossless capacitor of unknown value [latex]C_{x}[/latex] is then connected in parallel with the variable capacitor and the same reading was obtained when the variable capacitor is readjusted to a value of 200 pF. The value of [latex]C_{x}[/latex] in pF is",
+    "solution": "[latex]\\begin{aligned} \\text{Q of the coil}&= 120\\\\ Q&= \\frac{\\omega L}{R}=\\frac{1}{\\omega RC} \\end{aligned}[/latex] CASE-I: Q=120 is obtained for C=300pF CASE-II: For the same reading i.e. Q=120 Effective capacitance of the circuit shuold be 300 pF. Effective capacitance of parallel capacitor [latex]\\begin{aligned} C_{eff}&= C+C_x\\\\ C_x&= C_{eff}-C\\\\ &= 300-200\\\\ &= 100pF \\end{aligned}[/latex]",
+    "options": {
+      "A": "100",
+      "B": "200",
+      "C": "300",
+      "D": "500"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 103 The effect of stray magnetic field on the actuating torque of a portable\ninstrument is maximum when the operating field of the instrument and the\nstray fields are",
+    "solution": "Due to stray magnetic field, torque is also produced which can affect the torque produced due to operating field. If bothstray magnetic and operating field are parallel, torque due to both field become additive.",
+    "options": {
+      "A": "perpendicular",
+      "B": "parallel",
+      "C": "inclined at 60%",
+      "D": "inclined at 30%"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 104 A Manganin swap resistance is connected in series with a moving coil ammeter\nconsisting of a milli-ammeter and a suitable shunt in order to",
+    "solution": "Coil is made of copper A swamping resistance ([latex]R_{sw}[/latex]) of manganin (which has a negligible temperature coefficient) having a resistance of 20 to 30 times the coil resistance is connected in series with the coil and a shunt of manganin is connected across this combination. Since copper forms a samll fraction of the series combination, the proportion in which the currents would divide between the meter and the shunt would not change appreciably with the change in temperature.",
+    "options": {
+      "A": "minimise the effect of temperature variation",
+      "B": "obtain large deflecting torque",
+      "C": "reduce the size of the meter",
+      "D": "minimise the effect of stray magnetic fields"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 105 The line-to-line input voltage to the 3 phase, 50 Hz, ac circuit shown in\r\nfigure is 100 V rms. Assuming that the phase sequence is RYB, the\r\nwattmeters would read.",
+    "solution": "[latex]\\begin{aligned}\r\n V_L=&= 100V\\\\ \r\nI_L &=I_p =\\frac{V_p}{Z}\\\\ \r\n &=\\frac{100}{\\sqrt{3} \\times 5\\angle 60^{\\circ}} \\\\ \r\n &= \\frac{20}{\\sqrt{3}} \\angle -60^{\\circ}\\\\ \r\n W_1&= V_LI_L \\cos (30^{\\circ} -\\phi )\\\\ \r\n &=100 \\times  \\frac{20}{\\sqrt{3}} \\cos (30^{\\circ}-(-60^{\\circ}))\\\\ \r\n &= \\frac{2000}{\\sqrt{3}} \\cos (90^{\\circ})\\\\ \r\n W_2&= V_LI_L \\cos (30^{\\circ} +\\phi )\\\\ \r\n &=100 \\times  \\frac{20}{\\sqrt{3}} \\cos (30^{\\circ}-60^{\\circ})\\\\\r\n&=1000W\r\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/eaem/page21_q5.webp",
+    "options": {
+      "A": "[latex]W_{1}[/latex]= 886 W and [latex]W_{2}[/latex] = 886 W",
+      "B": "[latex]W_{1}[/latex] = 500 W and [latex]W_{2}[/latex] = 500 W",
+      "C": "[latex]W_{1}[/latex] = 0 W and [latex]W_{2}[/latex] = 1000 W",
+      "D": "[latex]W_{1}[/latex] = 250 W and [latex]W_{2}[/latex] = 750 W"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 106 Two in-phase, 50 Hz sinusoidal waveform of unit amplitude are fed into channel 1\nand channel 2 respectively of an oscilloscope. Assuming that the voltage scale,\ntime scale and other settings are exactly the same for both the channels, what\nwould be observed if the oscilloscope is operated in X-Y mode?",
+    "solution": "[latex]\\therefore \\;\\; \\text{Phase difference}=0^{\\circ} \\text{also} f_x=f_y.[/latex]",
+    "options": {
+      "A": "A circle of unit radius",
+      "B": "An ellipse",
+      "C": "A parabola",
+      "D": "A straight line inclined at [latex]45^{\\circ}[/latex] with respect to the x-axis"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 107 Resistances [latex]R_{1}[/latex] and [latex]R_{2}[/latex] have, respectively, nominal values of 10[latex]\\Omega[/latex] and 5[latex]\\Omega[/latex], and tolerances of [latex]\\pm 5[/latex] % and [latex]\\pm 10[/latex]%. The range of values for the parallel combination of\r\n[latex]R_{1}[/latex] and [latex]R_{2}[/latex] is",
+    "solution": "Range of [latex]R_1=10\\pm 10 \\times \\frac{5}{100}[/latex] [latex]\\;\\;= 9.5\\Omega \\text{to} 10.5\\Omega [/latex] Range of [latex]R_2=5\\pm 5 \\times \\frac{10}{100}[/latex] [latex]\\;\\;= 4.5\\Omega \\text{to} 5.5\\Omega [/latex] [latex]\\because \\;\\; R_p=\\frac{R_1R_2}{R_1+R_2} [/latex] [latex]\\therefore [/latex]  Range of [latex]R_p=\\frac{9.5 \\times 4.5}{9.5+4.5} \\text{to} \\frac{10.5 \\times 5.5}{10.5+5.5}[/latex] [latex] \\;\\;=3.05\\Omega \\text{to} 3.61 \\Omega[/latex]",
+    "options": {
+      "A": "3.077 [latex]\\Omega[/latex] to 3.636 [latex]\\Omega[/latex]",
+      "B": "2.805 [latex]\\Omega[/latex] to 3.371 [latex]\\Omega[/latex]",
+      "C": "3.237 [latex]\\Omega[/latex] to 3.678 [latex]\\Omega[/latex]",
+      "D": "3.192 [latex]\\Omega[/latex] to 3.435 [latex]\\Omega[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 108 A [latex]100\\mu A[/latex] ammeter has an internal resistance of 100[latex]\\Omega[/latex]. For extending its range to\nmeasure [latex]500\\mu A[/latex], the shunt resistance required is of (in [latex]\\Omega[/latex])",
+    "solution": "[latex]R_{sh}=\\frac{R_a}{m-1}[/latex] [latex]\\;\\;\\;=\\frac{100}{\\frac{500}{100}-1}=25.0\\Omega[/latex]",
+    "options": {
+      "A": "20",
+      "B": "22.22",
+      "C": "25",
+      "D": "50"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 109 The minimum number of wattmeter (s) required to measure 3-phase, 3-wire\nbalanced or unbalanced power is",
+    "solution": "Two wattmeter method can also take care of unbalance.",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 110 If an energy meter disc makes 10 revolutions in 100 seconds when a load of 450\nW is connected to it, the meter constant (in rev/kWh) is",
+    "solution": "",
+    "options": {
+      "A": "1000",
+      "B": "500",
+      "C": "1600",
+      "D": "800"
+    },
+    "correct_answer": "D"
+  }
+]

@@ -1,0 +1,2218 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 The I-V characteristics of the element between the nodes X and Y is best depicted by",
+    "solution": "[latex]\\mathrm{V}_{\\mathrm{xy}}=1000\\left[\\mathrm{I}_{\\mathrm{xy}}-1\\right][/latex] [latex]I_{x y}-1=\\frac{V_{x y}}{1000}[/latex] [latex]\\mathrm{I}_{\\mathrm{xy}}=\\left[\\frac{1}{1000}\\right] \\mathrm{V}_{\\mathrm{xy}}+[1][/latex] This is like straight line equation [latex]\\mathrm{y}=+[\\mathrm{m}] \\mathrm{x}+[\\mathrm{c}][/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page1_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 For the circuit shown in the figure, the source frequency is [latex] 5000 \\mathrm{rad} / \\mathrm{sec} [/latex]. The mutual inductance between the magnetically coupled inductors is [latex] 5 \\mathrm{mH} [/latex] with their self inductances being [latex] 125 \\mathrm{mH} [/latex] and [latex] 1 \\mathrm{mH} [/latex]. The Thevenin's impedance. [latex] Z_{\\mathrm{th}} [/latex], between the terminals [latex] P [/latex] and [latex] Q [/latex] in [latex] \\Omega [/latex] is _____ (rounded off to 2 decimal places).",
+    "solution": "Given: [latex] \\omega=5000 \\mathrm{rad} / \\mathrm{sec} [/latex] [latex]\n\\begin{aligned}\nz_{\\text {in }} & =j X_{L 1}+\\frac{(\\omega m)^{2}}{j X_{L 2}+z_{L}} \\\\\nj X_{L 1} & =125 \\mathrm{mH} \\times 5000=j 625 \\Omega\n\\end{aligned}\n [/latex] [latex]\n\\begin{aligned}\n& \\frac{-j}{\\omega c}=\\frac{-j}{5000 \\times 50 \\times 10^{-6}}=-j 4 \\Omega \\\\\n& j x_{L 2}=1 \\mathrm{mH} \\times 5000=+j 5 \\Omega \\\\\n& z_{\\text {in }}=j 625+\\frac{\\left(5000 \\times 5 \\times 10^{-3}\\right)^{2}}{j 5-j 4}=j 625-j 625=0 \\Omega \\\\\n& z_{m}=\\frac{4 \\times 2}{4+2}+4=\\frac{16}{3} \\Omega=5.33 \\Omega\n\\end{aligned}\n [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page1_q2.webp",
+    "min": 5.32,
+    "max": 5.34
+  },
+  {
+    "type": "numerical",
+    "question": "Question 3 Two passive two-port network [latex] P [/latex] and [latex] Q [/latex] are connected as shown in the figure. The impedance matrix of network [latex] P [/latex] is [latex] Z_{P}=\\left[\\begin{array}{cc}40 \\Omega & 60 \\Omega \\\\ 80 \\Omega & 100 \\Omega\\end{array}\\right] [/latex]. The admittance matrix of network [latex] Q [/latex] is [latex] Y_{Q}=\\left[\\begin{array}{cc}5 S & -2.5 S \\\\ -2.5 S & 1 S\\end{array}\\right] [/latex]. Let the [latex] A B C D [/latex] matrix of the two-port network [latex] R [/latex] in the figure be [latex] \\left[\\begin{array}{ll}\\alpha & \\beta \\\\ \\gamma & \\delta\\end{array}\\right] [/latex]. The value of [latex] \\beta [/latex] in [latex] \\Omega [/latex] is _______ (rounded off to 2 decimal places)",
+    "solution": "[latex]\nZ_{P}=\\left[\\begin{array}{cc}\n40 & 60 \\\\\n80 & 100\n\\end{array}\\right] ; \\quad Y_{Q}=\\left[\\begin{array}{cc}\n5 S & -2.5 S \\\\\n-2.5 S & 1 S\n\\end{array}\\right]\n [/latex] From [latex] Z_{p} [/latex] matrix [latex]\n\\begin{aligned}\n& V_{1}=40 I_{1}+60 I_{2} \\\\\n& V_{2}=80 I_{1}+100 I_{2}\n\\end{aligned}\n [/latex] Convert Z-parameters in to ABCD parameters [latex]\n\\begin{aligned}\nV_{1} & =A V_{2}-B I_{2} \\\\\nI_{1} & =C V_{2}-D I_{2}\n\\end{aligned}\n [/latex] From equation (ii), [latex]\n\\begin{aligned}\n& I_{1}=\\frac{V_{2}}{80}-\\frac{100}{80} I_{2} \\\\\n& I_{1}=\\frac{V_{2}}{80}-\\frac{5}{4} I_{2}\n\\end{aligned}\n [/latex] Sub equation (iii) in equation (i), [latex]\n\\begin{aligned}\n& V_{1}=40\\left(\\frac{V_{2}}{80}-\\frac{5}{4} I_{2}\\right)+60 I_{2} \\\\\n& V_{1}=\\frac{V_{2}}{2}+10 I_{2}\n\\end{aligned}\n [/latex] From equation (iii) and (iv), [latex]\n\\begin{aligned}\n{\\left[\\begin{array}{ll}\nA_{1} & B_{1} \\\\\nC_{1} & D_{1}\n\\end{array}\\right] } & =\\left[\\begin{array}{cc}\n0.5 & -10 \\\\\n\\frac{1}{80} & \\frac{5}{4}\n\\end{array}\\right] \\\\\n{[Y]_{Q} } & =\\left[\\begin{array}{cc}\n5 & -2.5 \\\\\n-2.5 & 1\n\\end{array}\\right]\n\\end{aligned}\n [/latex] [latex]\n\\begin{aligned}\n& I_{1}=5 V_{1}-2.5 V_{2} \\\\\n& I_{2}=-2.5 V_{1}+V_{2}\n\\end{aligned}\n [/latex] Convert [latex] Y [/latex]-parameters to [latex] \\mathrm{ABCD} [/latex] parameters\nFrom equation (vi), [latex]\n\\begin{aligned}\n& V_{1}=\\frac{V_{2}}{2.5}-\\frac{I_{2}}{2.5} \\\\\n& V_{1}=0.4 V_{2}-0.4 I_{2}\n\\end{aligned}\n [/latex] Sub equation (vii) in equation ( [latex] \\mathrm{v} [/latex] ), [latex]\n\\begin{aligned}\nI_{1} & =5\\left(0.4 V_{2}-0.4 I_{2}\\right)-2.5 V_{2} \\\\\n& =2 V_{2}-2 I_{2}-2.5 V_{2} \\\\\nI_{1} & =-0.5 V_{2}-2 I_{2}\n\\end{aligned}\n [/latex] From equation (vii) and equation (viii), [latex]\n\\begin{aligned}\n{\\left[\\begin{array}{ll}\nA_{2} & B_{2} \\\\\nC_{2} & D_{2}\n\\end{array}\\right] } & =\\left[\\begin{array}{cc}\n0.4 & 0.4 \\\\\n-0.5 & 2\n\\end{array}\\right] \\\\\nT & =\\left[\\begin{array}{ll}\nA_{1} & B_{1} \\\\\nC_{1} & D_{1}\n\\end{array}\\right] *\\left[\\begin{array}{ll}\nA_{2} & B_{2} \\\\\nC_{2} & D_{2}\n\\end{array}\\right] \\\\\n& =\\left[\\begin{array}{cc}\n0.5 & -10 \\\\\n\\frac{1}{80} & \\frac{5}{4}\n\\end{array}\\right] *\\left[\\begin{array}{cc}\n0.4 & 0.4 \\\\\n-0.5 & 2\n\\end{array}\\right] \\\\\n\\beta & =0.5 \\times 0.4+(-10) \\times 2 \\\\\n& =-19.8 \\Omega\n\\end{aligned}\n [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page1_q3.webp",
+    "min": -19.9,
+    "max": -19.7
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 For a two-phase network, the phase voltages [latex] V_{p} [/latex] and [latex] V_{q} [/latex] are to be expressed in terms of sequence voltages [latex] V_{\\alpha} [/latex] and [latex] V_{\\beta} [/latex] as [latex] \\left[\\begin{array}{l}V_{p} \\\\ V_{q}\\end{array}\\right]=S\\left[\\begin{array}{l}V_{\\alpha} \\\\ V_{\\beta}\\end{array}\\right] [/latex]. The possible option(s) for matrix [latex] S [/latex] is/are",
+    "solution": "",
+    "options": {
+      "A": "[latex] \\left[\\begin{array}{cc}1 & 1 \\\\ 1 & -1\\end{array}\\right] [/latex]",
+      "B": "[latex] \\left[\\begin{array}{ll}1 & 1 \\\\ 1 & 1\\end{array}\\right] [/latex]",
+      "C": "[latex] \\left[\\begin{array}{ll}1 & 1 \\\\ 1 & 0\\end{array}\\right] [/latex]",
+      "D": "[latex] \\left[\\begin{array}{cc}-1 & 1 \\\\ 1 & 1\\end{array}\\right] [/latex]"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 The circuit shown in the figure with the switch [latex] S [/latex] open, is in steady state. After the switch [latex] S [/latex] is closed, the time constant of the circuit in seconds is",
+    "solution": "[latex]\n\\begin{aligned}\n& L_{e q}=1+1+(1 \\| 1)=2.5 \\mathrm{H} \\\\\n& R_{e q}=2 \\Omega\n\\end{aligned}\n [/latex] Time constant, [latex] \\tau=\\frac{L_{e q}}{R_{e q}}=\\frac{2.5}{2}=1.25 [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page1_q5.webp",
+    "options": {
+      "A": "1.25",
+      "B": "0",
+      "C": "1",
+      "D": "1.5"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 All the elements in the circuit are ideal. The power delivered by the [latex] 10 \\mathrm{~V} [/latex] source in watts is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page2_q1.webp",
+    "options": {
+      "A": "0",
+      "B": "50",
+      "C": "100",
+      "D": "dependent on the value of [latex] \\alpha [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 The number of junctions in the circuit is",
+    "solution": "A point at which more than two elements are joints together is called Junction. [latex] A, B, C, D, E [/latex] and [latex] F [/latex] are junction.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page2_q2.webp",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 8 The circuit shown in the figure is initially in the steady state with the switch [latex]\\mathrm{K}[/latex] in open condition and [latex]\\bar{K}[/latex] in closed condition. The switch [latex]\\mathrm{K}[/latex] is closed and [latex]\\overline{\\mathrm{K}}[/latex] is opened simultaneously at the instant [latex]t=t_{1}[/latex], where [latex]t_{1} \\gt 0[/latex]. The minimum value of [latex]t_{1}[/latex] in milliseconds, such that there is no transient in the voltage across the [latex]100 \\mu \\mathrm{F}[/latex] capacitor, is ___ (Round off to 2 decimal places).",
+    "solution": "Case (i): Switch [latex]K[/latex] is open and [latex]\\bar{K}[/latex] is closed. Redraw the circuit : From circuit, using current division, [latex]\n\\begin{aligned}\n\\mathrm{i}_{\\mathrm{C}} & =\\frac{10}{10-\\mathrm{j} 10} \\times 1 \\angle 0^{\\circ} \\\\\n\\therefore \\quad \\mathrm{V}_{\\mathrm{C}} & =\\frac{10}{10-\\mathrm{j} 10} \\times(-\\mathrm{j} 10)=7.07 \\angle-45^{\\circ} \\mathrm{V} \\\\\n\\therefore \\quad \\mathrm{V}_{\\mathrm{C}}\\left(\\mathrm{t}_{1}\\right) & =7.07 \\sin \\left(1000 \\mathrm{t}-45^{\\circ}\\right) \\mathrm{V}\n\\end{aligned}\n[/latex] Case (ii) : Switch [latex]K[/latex] is closed and [latex]\\bar{K}[/latex] is open. Current source and [latex]10 \\Omega[/latex] resistor becomes short circuited. Redraw the circuit : From circuit, [latex]\n\\begin{aligned}\n\\mathrm{V}_{\\mathrm{C}}(\\infty) & =5 \\mathrm{~V} \\\\\n\\tau & =\\mathrm{RC}=10 \\times 100 \\times 10^{-6}=1 \\mathrm{msec}\n\\end{aligned}\n[/latex] We have, [latex]\n\\mathrm{V}_{\\mathrm{C}}(\\mathrm{t})=\\mathrm{V}_{\\mathrm{C}}(\\infty)+\\left[\\mathrm{V}_{\\mathrm{C}}(0)-\\mathrm{V}_{\\mathrm{C}}(\\infty)\\right] \\mathrm{e}^{-\\mathrm{t} / \\tau}\n[/latex] [latex]=5+\\left(7.07 \\sin \\left(1000 t_{1}-45^{\\circ}\\right)-5\\right) e^{-t / \\tau}[/latex] For transient free voltage, [latex]\n\\begin{aligned}\n 7.07 \\sin \\left(1000 \\mathrm{t}_{1}-45^{\\circ}\\right)&=5 \\\\\n 1000 \\mathrm{t}_{1}-\\frac{\\pi}{4}&=\\frac{\\pi}{4} \\\\\n\\Rightarrow \\quad t_{1}&=1.57 \\mathrm{msec} .\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page2_q3.webp",
+    "min": 1.56,
+    "max": 1.58
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 The admittance parameters of the passive resistive two-port network shown in the figure are [latex]\\mathrm{y}_{11}=5 \\mathrm{~S}, \\mathrm{y}_{22}=1 \\mathrm{~S}, \\mathrm{y}_{12}=\\mathrm{y}_{21}=-2.5 \\mathrm{~S}[/latex] The power delivered to the load resistor [latex]R_{L}[/latex] in Watt is ____ (Round off to 2 decimal places).",
+    "solution": "[latex]Y =[Y]_{A}+[Y]_{B} [/latex] [latex]\n\\begin{aligned}\nY_{A} & =\\left[\\begin{array}{cc}\n\\frac{1}{3} & -\\frac{1}{3} \\\\\n-\\frac{1}{3} & \\frac{1}{3}\n\\end{array}\\right] \\\\\nY_{B} & =\\left[\\begin{array}{cc}\n5 & -2.5 \\\\\n-2.5 & 1\n\\end{array}\\right] s \\\\\nY & =\\left[\\begin{array}{cc}\n\\frac{1}{3} & -\\frac{1}{3} \\\\\n-\\frac{1}{3} & \\frac{1}{3}\n\\end{array}\\right]+\\left[\\begin{array}{cc}\n5 \\\\\n-2.5 & 1\n\\end{array}\\right] \\\\\n& =\\left[\\begin{array}{cc}\n\\frac{16}{3} & -\\frac{8.5}{3} \\\\\n-\\frac{8.5}{3} & \\frac{4}{3}\n\\end{array}\\right] \\\\\nI_{1} & =\\frac{16}{3} V_{1}-\\frac{8.5}{3} V_{2} \\\\\nI_{2} & =-\\frac{8.5}{3} V_{1}+\\frac{4}{3} V_{2}\n\\end{aligned}\n[/latex] Put [latex]I_{2}=0[/latex] and [latex]V_{1}=20 \\mathrm{~V}[/latex] [latex]\n0=-\\frac{8.5}{3} \\times 20+\\frac{4}{3} V_{2}\n[/latex]\n\n[latex]\n\\begin{aligned}\nV_{\\text {th }} & =V_{2}=\\frac{8.5 \\times 20}{4}=42.5 \\mathrm{~V} \\\\\nR_{\\mathrm{th}} & =\\frac{V_{2}}{I_{2}} \\\\\nI_{2} & =\\frac{4}{3} V_{2} \\\\\n\\frac{V_{2}}{I_{2}} & =\\frac{3}{4} \\Omega\n\\end{aligned}\n[/latex] Equivalent circuit [latex]\nI=\\frac{42.5}{\\frac{3}{4}+6}=6.296 \\mathrm{~A}\n[/latex] [latex]\n\\begin{aligned}\nP & =I^{2} R_{L}=(6.296)^{2} \\times 6 \\\\\n& =238 \\mathrm{~W}\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page2_q4.webp",
+    "min": 237.0,
+    "max": 239.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 For the circuit shown, if [latex]\\mathrm{i}=\\sin 1000 t[/latex], the instantaneous value of the Thevenin's equivalent voltage (in Volts) across the terminals a-b at time [latex]\\mathrm{t}=5 \\mathrm{~ms}[/latex] is ___ (Round off to 2 decimal places).",
+    "solution": "By source transformation, the circuit become Apply KVL in loop, [latex]\n\\begin{aligned}\n& (10+j 1)+4 i_{x}-(10+j 10+10-j 10) i_{x}=0 \\\\\n& 10+\\mathrm{j} 10+4 \\mathrm{i}_{x}-20 \\mathrm{i}_{x}=0 \\\\\n& \\Rightarrow \\quad \\mathrm{i}_{\\mathrm{x}}=0.884 \\angle 45^{\\circ} \\mathrm{A} \\\\\n& \\text { Now, } \\quad \\mathrm{V}_{\\text {Th }}=\\mathrm{i}_{x}(10-\\mathrm{j10}) \\\\\n& =0.884 \\angle 45^{\\circ} \\times 14.142 \\angle-45^{\\circ} \\\\\n& =12.5 \\angle 0^{\\circ} \\mathrm{V} \\\\\n& \\therefore \\quad \\mathrm{V}_{\\text {Th }}=12.5 \\sin 1000 \\mathrm{t} \\\\\n& \\text { At } \\quad \\mathrm{t}=5 \\mathrm{msec} \\\\\n& \\mathrm{V}_{\\text {Th }}=12.5 \\times \\sin \\left(\\frac{5 \\times 180^{\\circ}}{\\pi}\\right) \\\\\n& =-11.986 \\mathrm{~V}\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page2_q5.webp",
+    "min": -12.1,
+    "max": -11.9
+  },
+  {
+    "type": "numerical",
+    "question": "Question 11 For the circuit shown in the figure, [latex]\\mathrm{V}_{1}=8 \\mathrm{~V},[/latex]  DC and [latex]I_{1}=8 A[/latex], DC. The voltage [latex]V_{a b}[/latex] in  Volts is ___ (Round off to 1 decimal place).",
+    "solution": "Reraw the circuit: Now, using voltage division, [latex]\n\\mathrm{V}_{\\mathrm{ab}}=\\frac{1.5 \\times 8}{1.5+0.5}=6 \\mathrm{~V}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page3_q1.webp",
+    "min": 5.9,
+    "max": 6.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 The value of parameters of the circuit shown in the figure are [latex]\n\\mathrm{R}_{1}=2 \\Omega, \\mathrm{R}_{2}=2 \\Omega, \\mathrm{R}_{3}=3 \\Omega, \\mathrm{L}=10 \\mathrm{mH}, \\mathrm{C}=100 \\mu \\mathrm{F}\n[/latex] For time [latex]t \\lt 0[/latex], the circuit is at steady state with the switch '[latex]K[/latex]' in closed condition. If the switch is opened at [latex]t=0[/latex], the value of the voltage across the inductor [latex]\\left(\\mathrm{V}_{\\mathrm{L}}\\right)[/latex] at [latex]t=0^{+}[/latex]in  Volts is _____ (Round off to 1 decimal place).",
+    "solution": "Case (i) [latex]\\mathbf{t} \\lt 1[/latex] At steady state, capacitor behaves as open circuit and inductor behaves as short circuit. Redraw the circuit: Using current division, [latex]\n\\begin{aligned}\n\\mathrm{i}_{\\mathrm{L}}\\left(0^{-}\\right) & =\\frac{3}{3+2} \\times 10=6 \\mathrm{~A} \\\\\n\\therefore \\quad \\mathrm{V}_{\\mathrm{C}}\\left(0^{-}\\right) & =5 \\times 2=12 \\mathrm{~V}\n\\end{aligned}\n[/latex] Case (ii) [latex]\\mathbf{t} \\gt 0[/latex] : Switch is opened. [latex]\\because \\quad \\mathrm{V}_{\\mathrm{C}}\\left(0^{-}\\right)=\\mathrm{V}_{\\mathrm{C}}\\left(0^{+}\\right)=12 \\mathrm{~V}[/latex] and [latex]\\quad \\mathrm{i}_{\\mathrm{L}}\\left(0^{-}\\right)=\\mathrm{i}_{\\mathrm{L}}\\left(0^{+}\\right)=6 \\mathrm{~A}[/latex] Redraw the circuit [latex]\\mathrm{t}=0^{+}[/latex]: Apply KVL in loop, [latex]\n\\begin{array}{rlrl}\n12+8-12-\\mathrm{V}_{\\mathrm{L}} & =0 \\\\\n\\Rightarrow & \\mathrm{V}_{\\mathrm{L}} & =8 \\mathrm{~V}\n\\end{array}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page3_q2.webp",
+    "min": 7.9,
+    "max": 8.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 In the circuit shown below, the magnitude of the voltage  [latex] V_1[/latex] in volts, across the  [latex] 8k\\Omega [/latex] resistor is ______________. (round off to nearest integer)",
+    "solution": "Apply kVL : [latex]75-(2k)I-0.5V_1=0 [/latex]   ...(1) From circuit: [latex] V_1=(8k)I[/latex] [latex]I=\\frac{V_1}{8k} [/latex]   ...(2) From equation (1) & (2) [latex] 75-(2k) \\times \\frac{V}{8k}-0.5V_1=0[/latex] [latex] \\Rightarrow V_1=100V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page3_q3.webp",
+    "min": 98.0,
+    "max": 102.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 In the circuit shown below, the switch [latex]S[/latex] is closed at [latex]t=0[/latex]. The magnitude of the steady\nstate voltage, in volts, across the [latex]6 \\Omega [/latex] resistor is _________. (round off to two decimal\nplaces).",
+    "solution": "Concept: At steady state, capacitor behaves as\nopen circuit. Using voltage division, [latex]V=\\frac{2}{2+2} \\times 10=5V [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page3_q4.webp",
+    "min": 4.95,
+    "max": 5.05
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 The network shown below has a resonant frequency of 150 kHz and a bandwidth of\n600 Hz. The Q-factor of the network is __________. (round off to nearest integer)",
+    "solution": "[latex] Q=\\frac{\\omega _o}{BW}=\\frac{f_o}{BW}=\\frac{150 \\times 10^3}{600}=250 [/latex]",
+    "min": 250.0,
+    "max": 250.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 16 An inductor having a Q-factor of 60 is connected in series with a capacitor having a Q-factor of 240. The overall Q-factor of the circuit is ________. (round off to nearest\ninteger)",
+    "solution": "We have, overall Q-factor of given circuit is, [latex] Q=\\frac{Q_LQ_C}{Q_L+Q_C}=\\frac{60 \\times 240}{60+240}=48 [/latex]",
+    "min": 48.0,
+    "max": 48.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 In the circuit shown below, a three-phase star-connected unbalanced load is connected\nto a balanced three-phase supply of [latex]100\\sqrt{3}[/latex] with phase sequence [latex]ABC[/latex]. The star\nconnected load has [latex]Z_A=10\\Omega[/latex] and [latex]Z_B=20\\angle 60^{\\circ}[/latex]. The value of [latex]Z_C[/latex] in [latex]\\Omega[/latex], for which\nthe voltage difference across the nodes [latex]n[/latex]and [latex]n'[/latex] is zero, is",
+    "solution": "Given: n & n' are at same potential, therefore, [latex] I_{nn'}=0[/latex] [latex] I_{A}+I_{B}+I_{C}=0[/latex] [latex] \\frac{E_A}{Z_A}+\\frac{E_B}{Z_B}+\\frac{E_C}{Z_C}=0[/latex] where , [latex] E_A=100\\angle 0^{\\circ}V \\text{ and }Z_A=10\\Omega  [/latex] [latex] E_B=100\\angle -120^{\\circ}V \\text{ and }Z_B=20\\angle 60^{\\circ}  [/latex] [latex] E_C=100\\angle 120^{\\circ}V \\text{ and }Z_C=?  [/latex] [latex] \\therefore \\frac{100\\angle 0^{\\circ}}{10}+\\frac{100\\angle -120^{\\circ}}{20\\angle 60^{\\circ} }+\\frac{100\\angle 120^{\\circ}}{Z_C}=0[/latex] [latex]\\Rightarrow Z_C=20\\angle -60^{\\circ} \\Omega [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page4_q2.webp",
+    "options": {
+      "A": "[latex]20\\angle -30^{\\circ}[/latex]",
+      "B": "[latex]20\\angle 30^{\\circ}[/latex]",
+      "C": "[latex]20\\angle -60^{\\circ}[/latex]",
+      "D": "[latex]20\\angle 60^{\\circ}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 The transfer function of a real system, [latex]H(s)[/latex], is given as: [latex]H(s)=\\frac{As+B}{s^2+Cs+D}[/latex] where A, B, C and D are positive constants. This system cannot operate as",
+    "solution": "Put [latex] s=0, H(0)=\\frac{A \\times 0+B}{0+C \\times 0+D}=\\frac{B}{D}[/latex] So, the system pass low frequency component.\nPut [latex] s=\\infty , H(\\infty )=0[/latex] For high pass filter, high frequency component\nshould be non zero. Hence this system cannot\nbe operated as high pass filter.",
+    "options": {
+      "A": "low pass filter.",
+      "B": "high pass filter",
+      "C": "band pass filter.",
+      "D": "an integrator."
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 A [latex]\\text{100 Hz}[/latex] square wave, switching between [latex]\\text{0 V}[/latex] and [latex]\\text{5 V}[/latex], is applied to a [latex]\\text{CR}[/latex] high-pass filter circuit as shown. The output voltage waveform across the resistor is [latex]\\text{6.2 V}[/latex] peak-to-peak. If the resistance R is [latex]\\text{820 $\\Omega$}[/latex], then the value C is ______________[latex]\\mu F[/latex]. (Round off to 2 decimal places.)",
+    "solution": "[latex]\\begin{aligned} v_{0}&=v_{i}-v_{c}\\\\ \\text{For }1^{\\text {st }}\\text{ half cycle}, \\quad v_{0}&=5-v_{c} \\\\ \\text{For }2^{\\text {nd }}\\text{ half cycle}, \\quad v_{0}&=-v_{c}\\\\ v_{p-p} &=\\left(5-V_{c \\;\\min}\\right)-\\left(-V_{c}\\; \\max \\right) \\\\ 6.2 &=5+V_{c \\;\\max }-V_{c \\;\\min} \\\\ \\Rightarrow \\quad V_{c \\max }-V_{c \\;\\min } &=1.2 \\ldots(\\alpha) \\end{aligned}[/latex] For first half cycle i.e. [latex]0 \\lt t \\lt \\frac{T}{2}[/latex] [latex] \\begin{aligned} v_{c}\\left(0^{+}\\right) &=v_{c}(0)=v_{c}\\left(0^{-}\\right)=v_{c} \\min \\\\ v_{c}(\\infty) &=5 \\mathrm{~V} \\\\ \\therefore \\qquad\\qquad v_{c}(t) &=v_{c}(\\infty)+\\left[v_{c}\\left(0^{+}\\right)-v_{c}(\\infty)\\right] e^{-t / \\tau} \\\\ v_{c}(t) &=5+\\left[V_{c m i n}-5\\right] e^{-t / 2 \\tau}=V_{c m a x} \\\\ \\Rightarrow \\qquad\\qquad V_{c} \\max &=5\\left[1-e^{-T / 2 \\tau}\\right]+V_{c m i n} e^{-T / 2 \\tau} \\end{aligned}[/latex] [latex] For \\frac{T}{2} \\lt t \\lt T[/latex] [latex]\\begin{aligned} v_{c}(t) &=v_{c}\\left(\\frac{T}{2}\\right) e^{-t(t-T / 2) \\tau} \\\\ \\therefore\\qquad v_{c}(t) &=V_{c m a x} e^{-(t-T / 2) \\tau} \\\\ \\text{at } t =T,\\qquad \\qquad v_{c} &=V_{c} \\mathrm{~min} \\\\ \\Rightarrow \\qquad \\qquad V_{C \\mathrm{~min}} &=V_{C \\max } e^{-T / 2 \\tau}\\\\ \\text { As } \\quad V_{c \\text { max }}-V_{c \\text { min }}&=1.2 \\qquad \\qquad [\\text { From }(\\alpha)]\\\\ \\therefore \\quad V_{\\text {cmax }}-V_{c \\max } e^{-T / 2 t} &=1.2 \\\\ V_{c} \\max &=\\frac{1.2}{1-e^{-T / 2 \\tau}} \\\\ \\Rightarrow \\qquad\\qquad V_{c} \\max &=\\frac{1.2}{1-e^{-T / 2 \\tau}}=5\\left[1-e^{-T / 2 \\tau}\\right]+V_{c \\min } e^{-2 \\tau} \\end{aligned}[/latex] From (ii), [latex] \\begin{aligned} V_{c \\max } &=5\\left[1-e^{-T / 2 \\tau}\\right]+\\left(V_{c m a x} e^{-T / 2 \\tau}\\right) e^{-T / 2 \\tau} \\\\ V_{c \\max } &=5\\left[1-e^{-T / 2 \\tau}\\right]+V_{c \\max } e^{-T / \\tau} \\\\ \\Rightarrow \\qquad \\qquad V_{c \\max }\\left[1-e^{-T / \\tau}\\right] &=5\\left[1-e^{-T / 2 \\tau}\\right] \\\\ V_{c} \\max &=\\frac{5\\left[1-e^{-T / 2 \\tau}\\right]}{\\left[1+e^{-T / 2 \\tau}\\right]\\left[1-e^{-T / 2 \\tau}\\right]} \\end{aligned}[/latex] Using equation (iii) [latex] \\begin{aligned} \\frac{1.2}{1-e^{-T / 2 \\tau}} &=\\frac{5}{1+e^{-T / 2 \\tau}} \\\\ \\Rightarrow \\qquad \\qquad 1.2+1.2 e^{-T / 2 \\tau} &=5-5 e^{-\\pi / 2 t} \\\\ \\Rightarrow \\qquad \\qquad 6.2 e^{-T / 2 \\tau} &=3.8 \\\\ e^{-T / 2 \\tau} &=\\frac{3.8}{6.2}=0.6129 \\\\ \\frac{T}{2 \\tau} &=0.4895\\\\ \\text { as }\\qquad \\qquad T&=\\frac{1}{f}=\\frac{1}{100} \\mathrm{sec}\\\\ \\text { and }\\qquad \\qquad \\tau & =R C=820 \\mathrm{C} \\\\ \\Rightarrow \\qquad \\qquad \\frac{1}{(100)(2)(820) C} & =0.4895 \\\\ \\therefore \\qquad \\qquad C & =12.46 \\mu \\mathrm{F} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page4_q4.webp",
+    "min": 12.3,
+    "max": 12.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 An air-core radio-frequency transformer as shown has a primary winding and a secondary winding. The mutual inductance M between the windings of the transformer is ____________ [latex]\\mu H[/latex].(Round off to 2 decimal places.)",
+    "solution": "[latex]\\begin{aligned} I_{1}&=\\frac{5}{22}(p-p) \\\\ V_{0}&=j \\omega M I_{1}=7.3=\\left(2 \\pi \\times 10 \\times 10^{3}\\right) \\times M \\times\\left(\\frac{5}{22}\\right) \\\\ M&=51.10 \\mu \\mathrm{H} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page4_q5.webp",
+    "min": 50.0,
+    "max": 52.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 In the given circuit, for maximum power to be delivered to [latex]R_{L}[/latex], its value should be ______________ [latex]\\Omega[/latex]. (Round off to 2 decimal places.)",
+    "solution": "[latex]=\\frac{-j}{\\omega C}=\\frac{-j}{1000 \\times 0.5 \\times 10^{-3}}=-j 2 \\Omega[/latex] [latex] Z_{\\text {in }}=2 \\| j 2=\\frac{j 4}{2+j 2}=\\frac{j 2}{1+j 1}[/latex] For maximum power transfer, [latex] R_{L}=\\left|Z_{\\mathrm{TH}}\\right|=\\frac{2}{\\sqrt{2}}=\\sqrt{2}=1.414 \\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page5_q1.webp",
+    "min": 1.4,
+    "max": 1.42
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 A three-phase balanced voltage is applied to the load shown. The phase sequence is [latex]\\text{RYB}[/latex]. The ratio [latex]\\frac{\\left | I_{B} \\right |}{|I_{R}|}[/latex] is ____________.",
+    "solution": "[latex]\\begin{aligned} I_{R} &=\\frac{V_{R B}}{-j 10}=\\frac{V_{L} \\angle-60^{\\circ}}{-j 10}=\\frac{V_{L}}{10} \\angle 30^{\\circ} \\\\ I_{Y} &=\\frac{V_{Y B}}{j 10}=\\frac{V_{L} \\angle-120^{\\circ}}{-j 10}=\\frac{V_{L}}{10} \\angle 150^{\\circ} \\\\ \\text { and }\\qquad \\qquad I_{B}&=-\\left(I_{R}+I_{Y}\\right)=\\frac{V_{L}}{10} \\angle-90^{\\circ} \\\\ \\therefore \\qquad \\qquad \\left|\\frac{I_{B}}{I_{R}}\\right|&=1 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page5_q2.webp",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 The input impedance, [latex]Z_{in}\\left ( s \\right )[/latex] for the network shown is",
+    "solution": "Circuit in s-domain, [latex]\\begin{aligned} -S I_{1}+(4 s+5) I_{2} &=0 \\\\ \\Rightarrow\\qquad \\qquad I_{2} &=\\frac{s}{4 s+5} I_{1} \\\\ V_{1} &=(4+6 s) I_{1}-\\frac{s^{2}}{4 s+5} I_{1} \\\\ \\frac{V_{1}}{I_{1}} &=\\frac{(4+6 s)(4 s+5)-s^{2}}{4 s+5} \\\\ &=\\frac{24 s^{2}+30 s+16 s+20-s^{2}}{4 s+5} \\\\ Z_{\\text {in }} &=\\frac{23 s^{2}+46 s+20}{4 s+5} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page5_q3.webp",
+    "options": {
+      "A": "[latex]\\frac{23s^{2}+46s+20}{4s+5}[/latex]",
+      "B": "[latex]6s+4[/latex]",
+      "C": "[latex]7s+4[/latex]",
+      "D": "[latex]\\frac{25s^{2}+46s+20}{4s+5}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 In the circuit, switch 'S' is in the closed position for a very long time. If the switch is opened at time [latex]t = 0[/latex], then in [latex]i_{L} (t)[/latex] amperes, for [latex]t\\geq0[/latex] is",
+    "solution": "At [latex]t = 0^-[/latex] [latex] i_{L}\\left(0^{-}\\right)=\\frac{10}{1}=10 \\mathrm{~A}[/latex] For[latex] t > 0 [/latex] At [latex]t = \\infty [/latex] [latex] i(\\infty)=\\frac{40}{5}=8 \\mathrm{~A}[/latex] [latex] R_{\\text{eq}}:[/latex] [latex] \\begin{aligned} R_{\\mathrm{eq}} &=5 \\Omega \\\\ \\tau &=\\frac{L}{R_{\\mathrm{eq}}}=\\frac{0.5}{5}=0.1 \\mathrm{sec} \\\\ i(t) &=8+[10-8] e^{-t / 0.1} \\\\ &=8+2 e^{-10 t} \\mathrm{~A} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page5_q4.webp",
+    "options": {
+      "A": "[latex]8e^{-10t}[/latex]",
+      "B": "[latex]10[/latex]",
+      "C": "[latex]8+2e^{-10t}[/latex]",
+      "D": "[latex]10\\left ( 1-e^{-2t} \\right )[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 A signal generator having a source resistance of [latex]50\\:\\Omega[/latex] is set to generate a [latex]\\text{1 kHz}[/latex] sinewave. Open circuit terminal voltage is [latex]\\text{10 V}[/latex] peak-to-peak. Connecting a capacitor across the terminals reduces the voltage to [latex]\\text{8 V}[/latex] peak-to-peak. The value of this capacitor is _____________[latex]\\mu F[/latex]. (Round off to 2 decimal places.)",
+    "solution": "[latex]\\begin{aligned} \\frac{V_{0}(j \\omega)}{V_{i}(j \\omega)} &=\\frac{1}{1+j \\omega R C} \\\\ \\frac{8}{10} \\angle \\theta &=\\frac{1}{1+j \\omega R C} \\\\ 1+j \\omega R C &=1.25 \\angle \\theta \\\\ \\omega R C &=\\sqrt{1.25^{2}-1^{2}} \\\\ \\omega R C &=0.75 \\\\ C &=\\frac{0.75}{2000 \\pi \\times 50}=2.38 \\mu\\mathrm{F} \\end{aligned}[/latex]",
+    "min": 2.3,
+    "max": 2.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 In the given circuit, for voltage [latex]V_y[/latex] to be zero, the value of [latex]\\beta[/latex] should be _________. (Round off to 2 decimal places).",
+    "solution": "[latex]\\begin{aligned} \\frac{V_{x}-6}{1}+\\frac{V_{x}}{4}+\\frac{V_{x}-V_{y}}{2} & =0 \\\\ 4 V_{x}-24+V_{x}+2 V_{x}-2 V_{y} & =0 \\\\ 7 V_{x}-2 V_{y} & =24 \\\\ \\text { If } V_{y}=0 \\qquad\\qquad 7 V_{x} & =24 \\\\ \\Rightarrow\\qquad\\qquad V_{x} & =\\frac{24}{7} \\\\ \\Rightarrow\\qquad\\qquad \\frac{V_{y}-V_{x}}{2}+\\frac{V_{y}-\\beta V_{x}}{3} & =2 \\\\ 3 V_{y}-3 V_{x}+2 V_{y}-2 \\beta V_{x} & =12 \\\\ 5 V_{y}-(3+2 \\beta) V_{x} & =12 \\\\ V_{y} & =0\\\\ -(3+2 \\beta) \\frac{24}{7} &=12 \\\\ (3+2 \\beta) &=\\frac{-7}{2} \\\\ 2 \\beta &=\\frac{-7}{2}-3=\\frac{-7-6}{2}=\\frac{-13}{2} \\\\ \\beta &=\\frac{-13}{4}=-3.25 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page6_q1.webp",
+    "min": -3.3,
+    "max": -3.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 In the given circuit, the value of capacitor C that makes current [latex]I=0[/latex]\n is _________ [latex]\\mu F[/latex].",
+    "solution": "[latex]\\begin{aligned} Z_{L} &=(j 5) \\|\\left(j 5-j X_{c}\\right) \\\\ \\frac{(j 5)\\left(j 5-j X_{c}\\right)}{j 5+j 5-j X_{c}} &=\\infty \\\\ j 5+j-j X_{c} &=0 \\\\ \\Rightarrow\\qquad \\qquad j X_{c} &=j 10 \\\\ \\Rightarrow\\qquad \\qquad X_{c} &=10 \\Omega \\\\ X_{c} &=\\frac{1}{\\omega C}=10 \\\\ \\Rightarrow\\qquad \\qquad C&=\\frac{1}{10 \\times 5 \\times 10^{3}} \\\\ C &=\\frac{1}{5 \\times 10^{4}} \\times \\frac{10^{2}}{10^{2}}=\\frac{10^{2}}{5 \\times 10^{6}}=20 \\mu \\mathrm{F} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page6_q2.webp",
+    "min": 20.0,
+    "max": 20.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 For the network shown, the equivalent Thevenin voltage and Thevenin impedance as seen across terminals 'ab' is",
+    "solution": "Given circuit can be resolved as shown below, [latex] V_{T H}=15+50=65 \\mathrm{~V}[/latex] [latex] \\begin{aligned} V_{x} &=2+3+10=15 \\mathrm{~V} \\\\ R_{\\mathrm{TH}} &=\\frac{V_{x}}{1}=15 \\Omega \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page6_q3.webp",
+    "options": {
+      "A": "[latex]\\text{10 V}[/latex] in series with [latex]12\\:\\Omega[/latex]",
+      "B": "[latex]\\text{65 V}[/latex] in series with [latex]15\\:\\Omega[/latex]",
+      "C": "[latex]\\text{50 V}[/latex] in series with [latex]2\\:\\Omega[/latex]",
+      "D": "[latex]\\text{35 V}[/latex] in series with [latex]2\\:\\Omega[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 A benchtop dc power supply acts as an ideal 4 A current source as long as its terminal\nvoltage is below 10 V. Beyond this point, it begins to behave as an ideal 10 V voltage\nsource for all load currents going down to 0 A. When connected to an ideal rheostat,\nfind the load resistance value at which maximum power is transferred, and the corresponding\nload voltage and current.",
+    "solution": "Maximum power transistor of VI product is maximum. If draw the the curve, it intersect\n(10, 4) that will give maximum power.\nThe terminal voltage is 10 V (Load voltage) and current is 4 A (Load current).\nLoad resistance is [latex]\\frac{10}{4}=2.5\\Omega[/latex]\n\n.",
+    "options": {
+      "A": "Short, [latex]\\infty[/latex] A, 10 V",
+      "B": "Open, 4 A, 0 V",
+      "C": "2.5 [latex]\\Omega[/latex], 4 A, 10 V",
+      "D": "2.5 [latex]\\Omega[/latex], 4 A, 5 V"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 30 The Thevenin equivalent voltage, [latex]V_{TH}[/latex], in V (rounded off to 2 decimal places) of the network\nshown below, is _______ .",
+    "solution": "Only voltage source 4V is there and current source 5A is open circuited From the above circuit, [latex]V_{TH1}=4V[/latex] Case-II: Only current source 5A is there and voltage source 4V is short circuited. From the above circuit, [latex]V_{TH2}=2 \\times 5=10V[/latex] By applying superposition theorem, [latex]V_{TH}=V_{TH1}+V_{TH2}=10+4=14V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page6_q5.webp",
+    "min": 13.8,
+    "max": 14.2
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 [latex]x_R\\; and \\; x_A[/latex] are, respectively, the rms and average values of [latex]x(t) = x(t - T)[/latex], and similarly,\n[latex]y_R\\; and \\; y_A[/latex] are, respectively, the rms and average values of [latex]y(t) = kx(t). k, \\;T[/latex] are\nindependent of t. Which of the following is true?",
+    "solution": "Given that, [latex]\\begin{aligned} x(t)&=x(t-T) \\; \\text{  i.e. periodic signal}\\\\ \\text{Average of } x(t)&=x_{A}\\\\ \\text{Rms of  }x(t)&=x_{R} \\\\ \\text{Average of }y(t)&=y_{A}\\\\ \\text{Rms of } y(t)&=y_{R} \\\\ y(t)&=k_{x}(t_{0}) \\; \\; ....(i) \\\\ &\\text{Using equation(i),}\\\\ \\text{Average of }y(t)&=k \r\n \\times \\text{ Average of }x(t) \\\\ y_{A}&=kx_{A}\\\\ \\text{Power of }y(t)&=|k|^{2}\\text{ Power of }x(t) \\\\ Rms^{2} \\text{ of } y(t)&=|k|^{2}\\; Rms^{2}\\text{ of }x(t) \\\\ y_{R}^{2}=|k|^{2}\\cdot x_{R}^{2} \\\\ y_{R}=|k|x_{R}\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]y_A=kx_A;\\; y_R=kx_R[/latex]",
+      "B": "[latex]y_A=kx_A;\\; y_R\\neq kx_R[/latex]",
+      "C": "[latex]y_A \\neq kx_A;\\; y_R= kx_R[/latex]",
+      "D": "[latex]y_A \\neq kx_A;\\; y_R\\neq kx_R[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 The current flowing in the circuit shown below in amperes is _____",
+    "solution": "By Millman'e theorem, [latex]E=\\frac{\\frac{200}{50}+\\frac{160}{40}-\\frac{100}{25}-\\frac{80}{20}}{\\frac{1}{50}+\\frac{1}{40}+\\frac{1}{25}+\\frac{1}{20}}=0V [/latex] [latex]\\frac{1}{R}=\\frac{1}{50}+\\frac{1}{40}+\\frac{1}{25}+\\frac{1}{20} [/latex] Simplified circuit, [latex]\\therefore \\;\\;I=0A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page7_q2.webp",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 A 0.1[latex]\\mu F[/latex] capacitor charged to 100 V is discharged through a 1 [latex]k\\Omega[/latex] resistor. The time in ms (round off to two decimal places) required for the voltage across the capacitor to drop to 1V is ______",
+    "solution": "[latex]\\begin{aligned} v_c(t)&=V_0e^{-t/\\tau } \\\\ V_0&=100V \\\\ \\tau &=RC=(10^3)(10^{-7}) \\\\ &=10^{-4}sec \\\\ \\therefore \\;v_c(t)&=100e^{-10^4 t }V \\end{aligned}[/latex] Let the time required by the voltage across the capacitor to drop to 1 V is [latex]t_1, [/latex] [latex]\\begin{aligned} \\therefore \\; v_c(t_1)&=100e^{-10^4t_1} \\\\ \\text{But, }  v_c(t_1)&=0  \\\\ \\text{So, }0&=100e^{-10^4t_1} \\\\ t_1&=0.46msec \\end{aligned}[/latex]",
+    "min": 0.45,
+    "max": 0.47
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 The line currents of a three-phase four wire system are square waves with amplitude of 100 A. These three currents are phase shifted by 120[latex]^{\\circ}[/latex] with respect to each other. The rms value of neutral current is",
+    "solution": "[latex]I_N=I_a+I_b+I_c [/latex] [latex](I_N)_{rms}=100A[/latex]",
+    "options": {
+      "A": "12:00 AM",
+      "B": "[latex]\\frac{100}{\\sqrt{3}}[/latex] A",
+      "C": "100 A",
+      "D": "300 A"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 The current I flowing in the circuit shown below in amperes (round off to one decimal place) is ____",
+    "solution": "Applying nodal at node x, [latex]-I-2+\\frac{V_x-5I}{3}=0 [/latex] [latex]-3I-6+V_x-5I=0 [/latex] [latex]\\Rightarrow \\; 8I=V_x-6\\;\\;...(i) [/latex] As,  [latex]I=\\frac{20-V_x}{2} [/latex] [latex]\\Rightarrow \\; V_x=20-2I\\;\\;...(ii)[/latex] Substituting (ii) in (i), [latex]8I=20-2I-6 [/latex] [latex]10I=14 [/latex] [latex]I=1.4A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page7_q5.webp",
+    "min": 1.3,
+    "max": 1.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 The voltage v(t) across the terminals a and b as shown in the figure, is a sinusoidal voltage\nhaving a frequency [latex]\\omega[/latex]=100 radian/s. When the inductor current i(t) is in phase with the\nvoltage v(t), the magnitude of the impedance Z (in [latex]\\Omega[/latex]) seen between the terminals a and b\nis ________ (up to 2 decimal places).",
+    "solution": "At resonance imaginary part of [latex]Z_{eq}=0 [/latex] Real of [latex] Z_{eq}=\\frac{R_1 X_c^2}{R_1^2+X-c^2} [/latex] [latex]\\;\\;=\\frac{100 \\times 100 \\times 100}{100^2+100^2}=50\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page8_q1.webp",
+    "min": 50.0,
+    "max": 50.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 The voltage across the circuit in the figure, and the current through it, are given by the\r\nfollowing expressions: [latex]v(t) = 5 - 10 cos(\\omega t + 60^{\\circ}) V [/latex] [latex]i(t) = 5 + X cos(\\omega t) A[/latex] where [latex]\\omega =100 \\pi[/latex] radian/s. If the average power delivered to the circuit is zero, then the\r\nvalue of X (in Ampere) is _____ (up to 2 decimal places).",
+    "solution": "Given that, [latex]v(t)=5-10 \\cos (\\omega t+60^{\\circ}) [/latex] [latex]i(t)=5+C \\cos (\\omega t-0^{\\circ}) [/latex] [latex]P_{req}=0 [/latex] [latex]0=5 \\times 5 +\\frac{1}{2}[(-10)(X)\\cos(60^{\\circ})] [/latex] [latex]-25=\\frac{1}{2}[(-10)(X)\\cos(60^{\\circ})] [/latex] [latex]X=10[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page8_q2.webp",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 The equivalent impedance [latex]Z_{eq}[/latex] for the infinite ladder circuit shown in the figure is",
+    "solution": "[latex]Z_1=j9 [/latex] [latex]Z_2=j5-j1=j4 [/latex] [latex]Z_{eq}=Z_1+\\frac{Z_2Z_{eq}}{Z_2+Z_{eq}} [/latex] By solving above equation, [latex]Z_{eq}=j12[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page8_q3.webp",
+    "options": {
+      "A": "j12 [latex]\\Omega[/latex]",
+      "B": "-j12 [latex]\\Omega[/latex]",
+      "C": "j13 [latex]\\Omega[/latex]",
+      "D": "13 [latex]\\Omega[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 A DC voltage source is connected to a series L-C circuit by turning on the switch S at time t=0 as shown in the figure. Assume i(0)=0, v(0)=0. Which one of the following\ncircular loci represents the plot of i(t) versus v(t) ?",
+    "solution": "[latex]I(s)=\\frac{\\frac{5}{s}}{s+\\frac{1}{s}} [/latex] [latex]\\;\\;=\\frac{5}{s^2+1} [/latex] [latex]i(t)=5 \\sin t [/latex] [latex]v(t)=\\frac{1}{C}\\int_{0}^{t}i \\; dt [/latex] [latex]v(t)=\\int_{0}^{t}5 \\sin t \\; dt [/latex] [latex]v(t)=5[-\\cos t]_0^t [/latex] [latex]v(t)=5[-\\cos t+1] [/latex] [latex]v(t)=5-5 \\cos t[/latex] [latex]\\begin{matrix} t & i(t) & v(t)\\\\ 0 & 0 & 0\\\\ \\frac{T}{4} & 5 & 5\\\\ \\frac{T}{2}& 0 & 10\\\\ \\frac{3T}{4} &-5 & 5\\\\ T& 0 & 0 \\end{matrix}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page8_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 In the two-port network shown, the [latex]h_{11}[/latex] parameter \n(where, [latex]h_{11}=\\frac{V_{1}}{I_{1}}[/latex], when [latex]V_{2}[/latex] =0) in ohms\nis _____________ (up to 2 decimal places).",
+    "solution": "By KCL, [latex]\\frac{V_a-1}{1}+\\frac{V_a}{1}+\\frac{V_a+2I_1}{1}=0 [/latex] [latex]3V_a+2I_1=1\\;\\;...(i)[/latex] [latex] I_1=\\frac{1-V_a}{1}\\;\\;...(ii) [/latex] Substitute equation (ii) in equation (i) [/latex] [latex]V_a=-1 [/latex] [latex]I_1=\\frac{1-V_a}{1}=\\frac{1-(-1)}{1}=2 [/latex] [latex]h_{11}=\\frac{V_1}{I_1}=\\frac{1}{2}=0.5\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page8_q5.webp",
+    "min": 0.45,
+    "max": 0.55
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 In the figure, the voltages are [latex]v_{1}(t)=100cos(\\omega t)[/latex], [latex]v_{2} (t) = 100cos(\\omega t + \\pi /18)[/latex] and [latex]v_{3}(t) = 100cos(\\omega t + \\pi /36)[/latex]. The circuit is in sinusoidal steady state, and [latex]R \\lt \\lt \\omega L[/latex]. [latex]P_{1}[/latex],[latex]P_{2}[/latex] and [latex]P_{3}[/latex] are the average power outputs. Which one of the following statements is true?",
+    "solution": "[latex]V_2:\\frac{\\pi}{18}=\\frac{180^{\\circ}}{18}=10^{\\circ} [/latex] [latex]V_3:\\frac{\\pi}{36}=\\frac{180^{\\circ}}{36}=5^{\\circ}[/latex] [latex]V_2[/latex] leads [latex]V_1 [/latex] and [latex]V_3[/latex], So, [latex]V_2[/latex]is a source, [latex]V_1[/latex] and [latex]V_3[/latex] are absorbing. Hence, [latex]P_2 \\gt 0[/latex] and [latex]P_1,P_3 \\lt 0[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page9_q1.webp",
+    "options": {
+      "A": "[latex]P_{1}=P_{2}=P_{3}=0[/latex]",
+      "B": "[latex]P_{1} \\lt 0,P_{2} \\gt 0,P_{3} \\gt 0[/latex]",
+      "C": "[latex]P_{1} \\lt 0,P_{2} \\gt 0,P_{3} \\lt 0[/latex]",
+      "D": "[latex]P_{1} \\gt 0,P_{2} \\lt 0,P_{3} \\gt 0[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 The graph of a network has 8 nodes and 5 independent loops. The number of branches of\nthe graph is",
+    "solution": "Loops =b-(N-1) 5=b-(8-1) b=12",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 In the circuit shown below, the value of capacitor C required for maximum power to be\ntransferred to the load is",
+    "solution": "The frequency at which the load is resistive and it is equal to [latex]0.5\\Omega[/latex] i.e. The load is resistive means, the imaginary part of load is equal to zero and real part is equal to [latex]0.5\\Omega[/latex]. [latex]Z_{load}=\\frac{1 \\times \\frac{1}{Cs}}{1 + \\frac{1}{Cs}}+Ls[/latex] [latex]\\;\\;=\\frac{1}{1+Cs}+Ls[/latex] [latex]\\;\\; =\\frac{(1-Cs)}{1-C^2s^2}+Ls [/latex] Put,  [latex] s=j\\omega[/latex]; [latex] Z_{load}=\\frac{1-j\\omega C}{1+C^2\\omega ^2}+j\\omega L [/latex] [latex]\\;\\;\\;=\\frac{1}{1+C^2\\omega ^2}+j\\omega \\left ( L-\\frac{C}{(1+C^2\\omega ^2)} \\right ) [/latex] Real part of the [latex]Z_{load}=\\frac{1}{1+C^2\\omega ^2}=0.5 [/latex] Putting, [latex]\\omega =100 r/s[/latex] we get, [latex]C=10mF[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page9_q3.webp",
+    "options": {
+      "A": "1nF",
+      "B": "1[latex]\\mu[/latex]F",
+      "C": "1mF",
+      "D": "10mF"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 For the network given in figure below, the Thevenin's voltage [latex]V_{ab}[/latex] is",
+    "solution": "Consider the following circuit, After rearrangement, we get, From circuit using KCL, [latex]\\frac{V_{ab}+30}{15}+\\frac{V_{ab}-8}{5}=0 [/latex] [latex]V_{ab}+30+3V_{ab}-24=0 [/latex] [latex]V_{ab}=-1.5V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page9_q4.webp",
+    "options": {
+      "A": "-1.5 V",
+      "B": "-0.5 V",
+      "C": "0.5V",
+      "D": "1.5V"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 The initial charge in the 1 F capacitor present in the circuit shown is zero. The energy in joules\ntransferred from the DC source until steady state condition is reached equals ______. (Give the\nanswer up to one decimal place.)",
+    "solution": "Consider the following circuit diagram, After minimizing circuit elements we can have the following circuit, Here, [latex]\\tau =RC=5 sec.[/latex] Now current, [latex] i(t)=\\frac{V}{R}e^{\\frac{t}{\\tau }}[/latex] [latex]\\;\\;=\\frac{10}{5}e^{-t/5}=2e^{-0.2t} [/latex] Energy supplied by the source, [latex] E=\\int_{0}^{\\infty }10 \\times 2e^{-0.2t}dt[/latex] [latex] \\;\\;=100J[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page9_q5.webp",
+    "min": 99.0,
+    "max": 101.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 For the given 2-port network, the value of transfer impedance [latex]Z_{21}[/latex] in ohms is_______",
+    "solution": "Where, [latex]R_A=1\\Omega [/latex] [latex]R_B=1\\Omega[/latex] [latex] R_C=\\frac{1}{2}\\Omega[/latex] After rearrangement consider the following circuit, From the circuit diagram, we get, [latex]Z_{21}=\\frac{V_2}{I_1}=3\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page10_q1.webp",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 The switch in the figure below was closed for a long time. It is opened at t=0. The current in\nthe inductor of 2 H for  [latex]t \\geq 0[/latex], is",
+    "solution": "From the given circuit, consider the following circuit diagram, After rearrangement For [latex]t \\geq 0 [/latex] [latex]I_0=i(0^-)=2.5A [/latex] We can write, [latex]i(t)=I_0e^{-\\frac{Rt}{L}} [/latex] [latex]i(t)=2.5e^{-4t}A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page10_q2.webp",
+    "options": {
+      "A": "[latex]2.5e^{-4t}[/latex]",
+      "B": "[latex]5e^{-4t}[/latex]",
+      "C": "[latex]2.5e^{-0.25t}[/latex]",
+      "D": "[latex]5e^{-0.25t}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 In the circuit shown below, the maximum power transferred to the resistor R is _______ W.",
+    "solution": "To get [latex]R_{th}[/latex] and [latex]V_{th}[/latex], consider the following steps. Case-1: For [latex]R_{th}[/latex] For [latex]V_{th}[/latex] Applying KCL at node, [latex]\\frac{V_{th}-5}{5}+\\frac{V_{th}+16}{5}=0 [/latex] [latex]2V_{th}=-11 [/latex] [latex]V_{th}=-5.5 V [/latex] Maximum power transferred, [latex]P_{max}=\\frac{V_{th}^2}{4R_{th}}= \\frac{5.5^2}{4 \\times 2.5}=3.025W[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page10_q3.webp",
+    "min": 3.0,
+    "max": 3.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 Two passive two-port networks are connected in cascade as shown in figure. A voltage source is\r\nconnected at port 1. Given [latex]V_{1}=A_{1}V_{2}+B_{1}I_{2}[/latex] [latex] I_{1}=C_{1}V_{2}+D_{1}I_{2}[/latex] [latex] V_{2}=A_{2}V_{3}+B_{2}I_{3}[/latex] [latex] I_{2}=C_{2}V_{3}+D_{2}I_{3} [/latex] [latex]A_{1},B_{1},C_{1},D_{1},A_{2},B_{2},C_{2} \\; and \\; D_{2}[/latex] are the generalized circuit constants. If the Thevenin equivalent circuit at port 3 consists of a voltage source [latex]V_T[/latex] and impedance [latex]Z_T[/latex] connected in series, then",
+    "solution": "For two port network, we can write, [latex]\\begin{bmatrix} A &B \\\\ C & D \\end{bmatrix}=\\begin{bmatrix} A_1 & B_1\\\\ C_1 & D_1 \\end{bmatrix}\\begin{bmatrix} A_2 & B_2\\\\ C_2 & D_2 \\end{bmatrix}[/latex] [latex] A=A_1A_2+B_1C_2\\;\\;...(i) [/latex] [latex]B=A_1B_2+B_1D_2\\;\\;...(ii) [/latex] [latex]V_1=AV_2-BI_2\\;\\;...(iii) [/latex] To get, [latex]V_T(I_2=0)[/latex]; from equation (iii) [latex]V_2=V_T=\\frac{V_1}{A}=\\frac{V_1}{A_1A_2+B_1C_2} [/latex] To get [latex]Z_T(V_1=0)[/latex]; from equation (iii) [latex]V_1=AV_2-BI_2 [/latex] [latex]0=AV_2-BI_2[/latex] [latex] Z_T=\\frac{V_2}{I_2}=\\frac{B}{A}=\\frac{A_1B_2+B_1D_2}{A_1A_2+B_1C_2}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page10_q4.webp",
+    "options": {
+      "A": "[latex]V_{T}=\\frac{V_{1}}{A_{1}A_{2}}[/latex], [latex]Z_{T}=\\frac{A_{1}B_{2}+B_{1}D_{2}}{A_{1}A_{2}+B_{1}C_{2}}[/latex]",
+      "B": "[latex]V_{T}=\\frac{V_{1}}{A_{1}A_{2}+B_{1}C_{2}}[/latex], [latex]Z_{T}=\\frac{A_{1}B_{2}+B_{1}D_{2}}{A_{1}A_{2}}[/latex]",
+      "C": "[latex]V_{T}=\\frac{V_{1}}{A_{1}+A_{2}}[/latex], [latex]Z_{T}=\\frac{A_{1}B_{2}+B_{1}D_{2}}{A_{1}A_{2}+B_{1}C_{2}}[/latex]",
+      "D": "[latex]V_{T}=\\frac{V_{1}}{A_{1}A_{2}+B_{1}C_{2}}[/latex], [latex]Z_{T}=\\frac{A_{1}B_{2}+B_{1}D_{2}}{A_{1}A_{2}+B_{1}C_{2}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 The power supplied by the 25 V source in the figure shown below is ________W.",
+    "solution": "Using KCL at node , we get [latex]I+0.4I=14[/latex] [latex] I=10A [/latex] Now, power supplied, [latex]P=25 \\times 10=250W[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page10_q5.webp",
+    "min": 248.0,
+    "max": 252.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 The equivalent resistance between the terminals A and B is ______ [latex]\\Omega[/latex].",
+    "solution": "Consider the following circuit diagram, After rearrangement we get Now, [latex]R_{AB}=1+\\frac{6}{5}+0.8=3\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page11_q1.webp",
+    "min": 2.9,
+    "max": 3.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 In the circuit shown below, the initial capacitor voltage is 4 V. Switch [latex]S_1[/latex] is closed at t=0. The charge (in [latex]\\mu[/latex]C) lost by the capacitor from t=25[latex]\\mu s[/latex] to t=100[latex]\\mu s[/latex] is ____________.",
+    "solution": "[latex]i(t)=\\frac{4}{5}e^{-t/\\tau }[/latex] [latex] \\tau =RC [/latex] [latex]\\;\\;=20 \\times 10^{-6}sec [/latex] Change lost by capacitor from [latex]t=25\\mu s[/latex] to [latex]100\\mu s[/latex] is [latex]\\int_{25 \\mu s}^{100\\mu s}i(t)dt=6.99 \\times 10^{-6}C[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page11_q2.webp",
+    "min": 6.8,
+    "max": 7.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 In the balanced 3-phase, 50 Hz, circuit shown below, the value of inductance (L) is 10 mH. The value of the capacitance (C) for which all the line currents are zero, in millifarads, is ___________.",
+    "solution": "Usingstar to delta conversion, Line current will be zero when the parallel pair of induction capacitor is resonant at f=50Hz So, [latex]50 \\times 2\\pi=\\frac{1}{\\sqrt{LC/3}} [/latex] [latex]100 \\pi=\\frac{1}{\\sqrt{LC/3}} [/latex] Since, L=10mH C will be 3.03 mF.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page11_q3.webp",
+    "min": 2.9,
+    "max": 3.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 The z-parameters of the two port network shown in the figure are [latex]z_{11}=40\\Omega ,z_{12}=60\\Omega ,z_{21}=80\\Omega [/latex]  and  [latex] z_{22}=100 \\Omega[/latex]. The average power delivered to [latex]R_{L}=20\\Omega[/latex], in watts, is _______.",
+    "solution": "Given, [latex]Z_{11}=40\\Omega ,Z_{12}=60\\Omega [/latex] [latex]Z_{21}=80\\Omega ,Z_{22}=100\\Omega [/latex] From the figure, [latex]V_2=-20I_2\\;\\;...(i) [/latex] [latex]V_1=40I_1+60I_2\\;\\;...(ii)[/latex] [latex] V_2=80I_1+100I_2\\;\\;...(iii)[/latex] From equation (i) and (iii), we get [latex]-20I_2=80I_1+100I_2 [/latex] [latex]\\Rightarrow \\; I_2=-\\frac{2}{3}I_1\\;\\;...(iv)[/latex] Using equation (ii) and (iv), we get [latex]V_1=40I_1+60I_2[/latex] [latex] \\;\\;=40I_1+60\\left ( \\frac{-2}{3} I_1\\right ) [/latex] [latex]V_1=0[/latex] From the figure, [latex]20=10I_1+V_1 [/latex] Since,  [latex] V_1=0 [/latex] So, [latex]I_1=2A [/latex] [latex] I_2=\\frac{-4}{3}A [/latex] Power dissipated in [latex]P_{R_L}=I_2^2R_L=\\left ( \\frac{4}{3} \\right )^2 \\times 20 [/latex] [latex]\\;\\;=\\frac{16}{9} \\times 20=35.55W[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page11_q4.webp",
+    "min": 34.0,
+    "max": 36.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 The driving point input impedance seen from the source [latex]V_s[/latex] of the circuit shown below, in [latex]\\Omega[/latex], is ______.",
+    "solution": "To find impedance seen by [latex]V_s [/latex] [latex]Z_s=\\frac{V_s}{I_s} [/latex] [latex]V_1=2I_s[/latex] Applying KCL at node A, [latex]I_s=4V_1=\\frac{V_A}{3}+\\frac{V_A}{6}[/latex] [latex] V_A=V_s-V_1 [/latex] and  [latex]V_1=2I_s [/latex] So, [latex]I_s+8I_s=\\frac{V_s-2I_s}{3}+\\frac{V_s-2I_s}{6} [/latex] [latex]\\Rightarrow \\; 54I_s=2V_s-4I_s+V_s-2I_s [/latex] [latex]3V_s=60I_s [/latex] [latex]\\frac{V_s}{I_s}=20\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page11_q5.webp",
+    "min": 19.5,
+    "max": 20.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 The graph associated with an electrical network has 7 branches and 5 nodes. The number of independent KCL equations and the number of independent KVL equations, respectively, are",
+    "solution": "Number of KCL equations = n-1=5-1=4 Number of KVL equations =b-(n-1) = 7-(5-1)=3",
+    "options": {
+      "A": "2 and 5",
+      "B": "5 and 2",
+      "C": "3 and 4",
+      "D": "4 and 3"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 In the circuit shown below, the voltage and current sources are ideal. The voltage ([latex]V_{out}[/latex]) across the current source, in volts, is",
+    "solution": "So, [latex]V_{out}=(5 \\times 2 )+10=20V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page12_q2.webp",
+    "options": {
+      "A": "0",
+      "B": "5",
+      "C": "10",
+      "D": "20"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 58 The voltage (V) and current (A) across a load are as follows. [latex]v(t) = 100 sin(\\omega t)[/latex], [latex]i(t) = 10 sin(\\omega t - 60^{\\circ}) + 2 sin(3\\omega t) + 5 sin(5\\omega t)[/latex]. The average power consumed by the load, in W, is___________.",
+    "solution": "The average power consumed by the load = [latex]P=V_1I_1 \\cos \\phi [/latex] [latex]\\;\\;=\\frac{100}{\\sqrt{2}}\\frac{10}{\\sqrt{2}} \\cos 60^{\\circ}=250W[/latex]",
+    "min": 249.0,
+    "max": 251.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 A resistance and a coil are connected in series and supplied from a single phase, 100 V, 50 Hz ac source as shown in the figure below. The rms values of plausible voltages across the resistance ([latex]V_{R}[/latex])\nand coil ([latex]V_{C}[/latex]) respectively, in volts, are",
+    "solution": "As per GATE Official answer key MTA (Marks to All)",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page12_q4.webp",
+    "options": {
+      "A": "65, 35",
+      "B": "50, 50",
+      "C": "60, 90",
+      "D": "60, 80"
+    }
+  },
+  {
+    "type": "numerical",
+    "question": "Question 60 The following figure shows the connection of an ideal transformer with primary to secondary turns ratio of 1:100. The applied primary voltage is 100 V (rms), 50 Hz, AC. The rms value of the current I, in ampere, is __________.",
+    "solution": "The above circuit can be drown by transferring secondary circuit to primary side. [latex]I=\\frac{100V}{(8+10j-4j)\\Omega }[/latex] [latex]\\;\\;=\\frac{100V}{(8+6j)\\Omega }[/latex] So the rms value of I will be 10 A.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page12_q5.webp",
+    "min": 9.5,
+    "max": 10.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 61 In the circuit shown below, the node voltage In the circuit shown below, the node voltage [latex]V_{A}[/latex] is ___________ V.",
+    "solution": "Applying KCL at node A, we get [latex]\\frac{V_A}{5}+\\frac{V_A-10}{10}+\\frac{V_A+10I_1}{5}=5 [/latex] So, [latex]2V_A+V_A-10+2V_A+20I_1=5 [/latex] [latex]5V_A+20I_1=60 [/latex] Since,  [latex]I_1=\\frac{V_A-10}{10}[/latex] So, [latex] 5V_A+2V_A-20=60 [/latex] [latex]7V_A=80 [/latex] [latex]V_A=11.42 volt[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page13_q1.webp",
+    "min": 11.25,
+    "max": 11.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 62 The circuit below is excited by a sinusoidal source. The value of R, in [latex]\\Omega[/latex], for which the admittance of the circuit becomes a pure conductance at all frequencies is _____________.",
+    "solution": "The resonant frequency for the circuit is [latex]\\omega _0=\\frac{1}{\\sqrt{LC}}\\sqrt{\\frac{R_L^2-L/C}{R_C^2-L/C}}[/latex] Since, [latex]  (R_L=R_C=R) [/latex] So the circuit will have zero real part of admittance when, [latex]R=\\sqrt{\\frac{L}{C}}=\\sqrt{\\frac{0.02}{100\\mu F}}=14.14\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page13_q2.webp",
+    "min": 14.0,
+    "max": 14.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 63 In the circuit shown below, the supply voltage is [latex]10sin(1000t)[/latex] volts. The peak value of the steady state current through the 1[latex]\\Omega[/latex] resistor, in amperes, is ______.",
+    "solution": "If we observe the parallel LC combination, we get that at [latex]\\omega[/latex]=1000 rad/sec the parallel LC is at resonance, thus it is open circuited. The circuit given in question can be redrawn as So, [latex]I=\\frac{10 \\sin 1000t}{10}=\\sin 100t[/latex] So, peak value is 1 Amp.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page13_q3.webp",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 64 In the circuit shown, switch [latex]S_2[/latex] has been closed for a long time. At time t=0  switch [latex]S_1[/latex] is closed. At  [latex]t = 0^{+}[/latex], the rate of change of current through the inductor, in amperes per second, is _____.",
+    "solution": "KCL at node A, [latex]\\frac{V_A-3}{1}+\\frac{3}{2}+\\frac{V_A-3}{2}=0 [/latex] [latex]2(V_A-3)+3+(V_A-3)=0 [/latex] [latex]3V_A=6 [/latex] [latex]V_A=2 [/latex] [latex]V_A=L\\frac{di(0^+)}{dt}=2[/latex] [latex] \\frac{di(0^+)}{dt}=\\frac{2}{L}=\\frac{2}{1}=2A/sec[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page13_q4.webp",
+    "min": 1.9,
+    "max": 2.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 65 In the given circuit, the current supplied by the battery, in ampere, is _______.",
+    "solution": "Applying KCL at node A, [latex]-I_1+I_2+I_2=0 [/latex] [latex]2I_2=I_1\\;\\;...(i)[/latex] and applying KVL in loop ABCD, [latex]1-I_1-I_2-I_2=0 [/latex] [latex]I_1+2I_2=1\\;\\;...(ii) [/latex] From equation (i) and (ii), [latex] \\Rightarrow \\; 2I_2+2I_2=1 [/latex] [latex]\\Rightarrow \\; 4I_2=1 [/latex] [latex]\\Rightarrow \\; I_2=\\frac{1}{4}A [/latex] [latex]\\Rightarrow \\; I_1=2 \\times \\frac{1}{4}=\\frac{1}{2}A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page13_q5.webp",
+    "min": 0.5,
+    "max": 0.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 66 In the portion of a circuit shown, if the heat generated in 5 [latex]\\Omega[/latex] resistance is 10 calories per second, then heat generated by the 4 [latex]\\Omega[/latex] resistance, in calories per second, is _______.",
+    "solution": "[latex](2I)^2 \\times 5 =10 [/latex] [latex]\\Rightarrow \\; I^2=\\frac{10}{5 \\times 5}=0.5 [/latex] So, [latex] I^2 \\times 4 =2 cal/sec.[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page14_q1.webp",
+    "min": 1.9,
+    "max": 2.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 [latex]R_{A} \\; and \\; R_{B}[/latex] are the input resistances of circuits as shown below. The circuits extend infinitely in the direction shown. Which one of the following statements is TRUE?",
+    "solution": "If the equavalent resistance of first figure is [latex]R_A[/latex] then from the second figure, we can see that [latex]R_B=R_A||1\\Omega[/latex]. [latex]R_B=\\frac{R_A}{R_A+1}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page14_q2.webp",
+    "options": {
+      "A": "[latex]R_{A} = R_{B}[/latex]",
+      "B": "[latex]R_{A} = R_{B} =0 [/latex]",
+      "C": "[latex]R_{A} \\lt R_{B}[/latex]",
+      "D": "[latex]R_{B} = R_{A}/(1+R_{A})[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 68 Two identical coils each having inductance L are placed together on the same core. If an overall inductance of [latex]\\alpha[/latex]L is obtained by interconnecting these two coils, the minimum value of [latex]\\alpha[/latex] is ____.",
+    "solution": "CASE-I: [latex]L_{eff}=L_+L_2=2L,[/latex],  a=2 CASE-II: [latex] l_{eff}=\\frac{L_1L_2}{L_1+L_2}=\\frac{L^2}{2L}=\\frac{L}{2}[/latex], a=0.5 CASE-III If both are diffferentially coupled then [latex]L_{eff}=0[/latex] Minimum value =0",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 69 A symmetrical square wave of 50% duty cycle has amplitude of [latex]\\pm[/latex]15 V and time period of 0.4[latex]\\pi[/latex] ms. This square wave is applied across a series RLC circuit with R=5 [latex]\\Omega[/latex], L=10 mH, and C=4 [latex]\\mu[/latex]F. The amplitude of the 5000 rad/s component of the capacitor voltage (in Volt) is ______.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page14_q4.webp",
+    "min": 190.0,
+    "max": 192.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 In the given network [latex]V_{1}=100\\angle 0^{\\circ}[/latex]V,  [latex]V_{2}=-120\\angle 0^{\\circ}[/latex] V, [latex]V_{3}=+120\\angle 0^{\\circ}[/latex] V. The phasor current i (in Ampere) is",
+    "solution": "[latex]'i'[/latex] is taken as input, Apply KCL at node Node voltage is [latex]100\\angle 120^{\\circ}[/latex] [latex]i=\\frac{100\\angle 120^{\\circ}-100\\angle 0^{\\circ}}{-j1} [/latex]  [latex]+\\frac{100\\angle 120^{\\circ}-100\\angle -120^{\\circ}}{j1} [/latex] [latex]i=173.2\\angle -60^{\\circ}A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page14_q5.webp",
+    "options": {
+      "A": "[latex]173.2\\angle -60^{\\circ}[/latex]",
+      "B": "[latex]173.2\\angle 120^{\\circ}[/latex]",
+      "C": "[latex]100.0\\angle -60^{\\circ}[/latex]",
+      "D": "[latex]100.0\\angle 120^{\\circ}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 Find the transformer ratios a and b such that the impedance ([latex]Z_{in}[/latex]) is resistive and equals 2.5[latex]\\Omega[/latex] when the network is excited with a sine wave voltage of angular frequency of 5000 rad/s.",
+    "solution": "[latex](R_{eq})_B=\\frac{2.5}{a^2} [/latex] [latex](2eq)_B=\\left [ \\frac{2.5}{a^2}+j\\omega (1 \\times 10^{-3})\\right ] [/latex] [latex](2eq)_A={\\left [ \\frac{2.5}{a^2}+j\\omega (1 \\times 10^{-3})\\right ]}/b^2 [/latex] [latex]Z_{in}=\\frac{2.5}{a^2b^2}+\\frac{ j\\omega 10^{-3}}{b^2}+\\frac{1}{j\\omega (10 \\times 10^{-5})} [/latex] [latex]Z_{in}=\\frac{2.5}{a^2b^2}+j\\left [ \\frac{5 \\times 10^3 \\times 10^{-3}}{b^2} -\\frac{1}{5 \\times 10^3 \\times 10 \\times10^{-6}}\\right ] \\;...(i) [/latex] From problem, [latex]Z_{in}=2.5 \\;\\;...(ii) [/latex] From equation (i) and (ii), [latex]a^2b^2=1 [/latex] [latex]\\frac{5}{b^2}-\\frac{1}{5 \\times 10^{-2}}=0 [/latex] [latex]\\Rightarrow \\; b=0.5 \\text{ and } a=2[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page15_q1.webp",
+    "options": {
+      "A": "a= 0.5, b= 2.0",
+      "B": "a=2.0, b=0.5",
+      "C": "a=1.0, b=1.0",
+      "D": "a=4.0, b=0.5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 72 The current i (in Ampere) in the  2[latex]\\Omega[/latex] resistor of the given network is ______.",
+    "solution": "Redrawing the circuit, Bridge is balance, so current flowing through [latex]2\\Omega[/latex] resistor is 0A.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page15_q2.webp",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 A series RL circuit is excited at t = 0 by closing a switch as shown in the figure. Assuming zero initial conditions, the value of [latex]\\frac{d^{2}i}{dt^{2}}\\;  at \\; t=0^{+}[/latex] is",
+    "solution": "Initially [latex](t=0^-)[/latex] the inductor would be uncharged. So, [latex]I(0^+)=0[/latex] The KVL in th loop will be [latex]V=RI+L\\frac{dI}{dt}[/latex] At [latex]t=0^+ [/latex] [latex]V=RI(0^+)+L\\frac{dI}{dt}(0^+) [/latex] Since, [latex] I(0^+)=0 [/latex] So, [latex]\\frac{dI}{dt}(0^+)=\\frac{V}{L} [/latex] Now, lets differentiate the above equation So,[latex] \\frac{dV}{dt}=R\\frac{dI}{dt}+L\\frac{d^2I}{dt^2} [/latex] [latex]\\;\\;0=R\\frac{dI}{dt}+L\\frac{d^2I}{dt^2} [/latex] At [latex]t=0^+[/latex] [latex] 0=R\\frac{dI}{dt}(0^+)+L\\frac{d^2I}{dt^2}(0^+) [/latex] So, [latex] \\frac{d^2I}{dt^2}(0^+)=-\\frac{R}{L^2}\\cdot V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page15_q3.webp",
+    "options": {
+      "A": "[latex]\\frac{V}{L}[/latex]",
+      "B": "[latex]\\frac{-V}{R}[/latex]",
+      "C": "0",
+      "D": "[latex]\\frac{-RV}{L^{2}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 74 In the given circuit, the parameter k is positive, and the power dissipated in the 2 [latex]\\Omega[/latex] resistor is 12.5W. The value of k is _________.",
+    "solution": "[latex]\\Rightarrow \\; \\frac{V_0^2}{2}=12.5 [/latex] [latex]\\Rightarrow \\; V_0^2=12.5 \\times 2 [/latex] [latex]\\Rightarrow \\; V_0=5 [/latex] KCL at A, [latex]\\Rightarrow \\; -2.5-k(5)+5=0 [/latex] [latex]\\Rightarrow \\; k=\\frac{2.5}{5}=\\frac{1}{2}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page15_q4.webp",
+    "min": 0.48,
+    "max": 0.52
+  },
+  {
+    "type": "numerical",
+    "question": "Question 75 In a linear two-port network, when 10 V is applied to Port 1, a current of 4 A flows through Port 2 when it is short-circuited. When 5 V is applied to Port 1, a current of 1.25 A flows through a 1 [latex]\\Omega[/latex] resistance connected across Port 2. When 3 V is applied to Port 1, the current (in Ampere) through a 2 [latex]\\Omega[/latex] resistance connected across Port 2 is _______.",
+    "solution": "[latex]V_1=10V, I_2=4 A, V_2=0\\;\\;Cond...(i)[/latex] [latex]V_1=5V, I_2=1.25 A,[/latex]  [latex] V_2=1.25 \\times 1=1.25V\\;\\;Cond...(ii)[/latex] [latex] V_1=3V, I_2=? , R=2\\Omega \\;\\;Cond...(iii)[/latex] as we know from ABCD parameter, [latex]V_1=AV_2-BI_2 [/latex] [latex]I_1=CV_2-DI_2 [/latex] From condition (i), [latex]10=A(0)-B(4) [/latex] [latex]B=-\\frac{10}{4} [/latex] From condition (ii), [latex] 5=A(1.25)-\\left ( -\\frac{10}{4} \\right ) \\times 1.25 [/latex] [latex]A=\\frac{\\left ( 5-\\frac{12.5}{4} \\right )}{1.25}=1.5 [/latex] From condition (iii), [latex] 3=1.5(2I)-\\left ( -\\frac{10}{4} \\right )\\times I [/latex] [latex]3=3I+2.5I [/latex] [latex]I=0.545 A[/latex]",
+    "min": 0.4,
+    "max": 0.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 76 The circuit s hown in the figure has two sources connected in series. The instantaneous voltage of the AC source (in Volt) is given by [latex]v(t)=12\\sin t[/latex]. If the circuit is in steady state, then the rms value of the current (in Ampere) flowing in the circuit is ______ .",
+    "solution": "[latex]i(t)=\\frac{8}{1}+\\frac{12 \\sin t}{\\sqrt{1+1}}=8+6\\sqrt{2} \\sin t [/latex] [latex]i_{rms}(t)=\\sqrt{8^2+\\frac{1}{2}(6\\sqrt{2} )^2}=10A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page16_q1.webp",
+    "min": 9.9,
+    "max": 10.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 An inductor is connected in parallel with a capacitor as shown in the figure. As the frequency of current i is increased, the impedance (Z) of the network varies as",
+    "solution": "[latex]Z=j\\omega L||\\frac{1}{j\\omega C}[/latex] [latex] \\;\\;=\\frac{L/C}{j\\omega L+\\frac{1}{j\\omega C}} [/latex] [latex]\\;\\;=\\frac{(L/C)j\\omega C}{-\\omega ^2 LC+1} [/latex] [latex]Z=\\frac{j\\omega L}{1-\\omega^2 LC} [/latex] [latex]|Z|=\\frac{\\omega L}{1-\\omega^2 LC} [/latex] For,  [latex] 1\\gt \\omega^2 LC; [/latex] [latex]Z=+ve[/latex] For, [latex]1 \\lt \\omega^2 LC;[/latex] [latex] Z=-ve[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page16_q2.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 78 For the given circuit, the Thevenin equivalent is to be determined. The Thevenin voltage, [latex]V_{Th}[/latex] (in Volt), seen from terminal AB is __________.",
+    "solution": "[latex]2-1(i_1+i)-i=0 [/latex] [latex]2-i_1-2i=0 [/latex] [latex]2i + i_1=2\\;\\;...(i)[/latex] [latex] \\frac{V-2}{1}+\\frac{V}{1}+\\frac{V-(-20i)}{2}=0 [/latex] [latex]2(V-2)+2V+V+20i=0 [/latex] [latex]5V+20i=4 [/latex] where,  [latex] \\frac{V}{1}=i [/latex] [latex]\\Rightarrow \\; 25i=4 [/latex] [latex]i=\\frac{4}{25}A [/latex] [latex]i_1=2-2 \\times \\frac{4}{25} =1.68A [/latex] [latex]V_{AB}=1.68 \\times 2=3.36 V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page16_q3.webp",
+    "min": 3.3,
+    "max": 3.4
+  },
+  {
+    "type": "mcq",
+    "question": "Question 79 The voltages developed across the 3 [latex]\\Omega[/latex] and 2 [latex]\\Omega[/latex] resistors shown in the figure are 6 V and 2V respectively, with the polarity as marked. What is the power (in Watt) delivered by the 5V voltage source?",
+    "solution": "Power =5x1=5 Watt",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page16_q4.webp",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "10",
+      "D": "14"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 A series RLC circuit is observed at two frequencies. At  [latex]\\omega _1[/latex]=1 krad/s, we note\r\nthat source voltage [latex]V_{1}=100\\angle 0^{\\circ}[/latex] V results in a current [latex]I_{1}=0.03 \\angle 31 ^{\\circ}A[/latex]. At  [latex]\\omega _2[/latex]=2 krad/s, the source voltage [latex]V_{2}=100\\angle 0^{\\circ}[/latex]  V results in a current [latex]I_{2}=2 \\angle 0^{\\circ}[/latex]. The closest values for R, L, C out of the following options are",
+    "solution": "Given [latex]\\omega _1=1 k [/latex] rad/s, [latex]V_1=100\\angle 0^{\\circ}V,  [/latex] [latex]I_1=0.03\\angle 31^{\\circ}A [/latex] At,   [latex]\\omega _2=2 k[/latex]  rad/s, [latex]V_2=100\\angle 0^{\\circ}V, [/latex] [latex]I_2=2\\angle 0^{\\circ}A [/latex] At [latex]\\omega _2=2 k[/latex] rad/s, voltage and current are in phase. Thus, it is a case of series resonance, [latex]X_{L_{\\omega 2}}=X_{C_{\\omega 2}} [/latex] [latex]\\therefore \\;\\;Z=R=\\frac{V_2}{I_2}[/latex] [latex]\\;\\;=\\frac{100\\angle 0^{\\circ}}{2\\angle 0^{\\circ}}=50\\Omega [/latex] [latex]\\therefore[/latex]  Resistance of circuit, [latex]R=50\\Omega [/latex] Now at [latex]\\omega _1=1 k[/latex] rad/s, [latex] Z=\\frac{V_1}{I_1}=\\frac{100\\angle 0^{\\circ}}{0.03\\angle 31^{\\circ}}[/latex] [latex]\\;\\; =\\frac{100}{0.03}\\angle 31^{\\circ}\\Omega\\;\\;...(i) [/latex] Also,  [latex] Z=|Z|\\angle \\tan^{-1}\\left [ \\frac{X_L-X_C}{R} \\right ] \\;\\;...(ii)[/latex] Comparing equation (i) and (ii), we have: [latex] -31^{\\circ}=\\tan ^{-1}\\left [ \\frac{X_L-X_C}{R} \\right ][/latex] [latex] \\tan(-31^{\\circ})=\\frac{X_L-X_C}{R} [/latex] [latex]X_L-X_C=R \\tan(-31^{\\circ}) [/latex] [latex]\\;\\;=50X-0.6=-30 [/latex] [latex]\\therefore \\;\\; X_{L_{\\omega 1}}-X_{C_{\\omega 2}}=-30\\;\\;...(iii) [/latex] [latex]X_{L_{\\omega 2}}=X_{C_{\\omega 2}} [/latex] or [latex] \\omega _2 L=\\frac{1}{\\omega _2C} [/latex] [latex]L=\\frac{1}{\\omega _2^2C}\\;\\;...(iv) [/latex] From equation (iii), [latex] \\omega _1L-\\frac{1}{\\omega _1C}=-30 [/latex] [latex]\\omega _1\\left ( \\frac{1}{\\omega _2^2C}\\right )-\\frac{1}{\\omega _1C}=-30[/latex] [latex] \\frac{\\omega _1}{\\omega _2^2C}-\\frac{1}{\\omega _1C}=-30 [/latex] [latex]\\frac{1 \\times 10^3}{4 \\times 10^6 C}-\\frac{1}{10^3C}=-30 [/latex] [latex]\\frac{10^{-3}}{4C}-\\frac{10^{-3}}{C}=-30 [/latex] [latex]\\frac{-3}{4C} \\times 10^{-3}=-30 [/latex] [latex]C=\\frac{3 \\times 10^{-3}}{4 \\times 30} [/latex] Substituting the value of C in equation (iv), we get, [latex]L=\\frac{1}{\\omega _2^2C}[/latex] [latex]\\;\\;=\\frac{1}{(2 \\times 10^3)^2 \\times 25 \\times 10^{-6}}[/latex] [latex]\\;\\; =\\frac{1}{100}=10mH[/latex] Therefore, values are: [latex]R=50\\Omega , [/latex] [latex]L=10mH, [/latex] [latex]C=25\\mu F[/latex]",
+    "options": {
+      "A": "R = 50 [latex]\\Omega[/latex] ; L = 25mH; C = 10 [latex]\\mu[/latex] F;",
+      "B": "R = 50 [latex]\\Omega[/latex] ; L = 10 mH; C = 25 [latex]\\mu[/latex] F;",
+      "C": "R = 50 [latex]\\Omega[/latex] ; L = 50 mH; C = 5 [latex]\\mu[/latex] F;",
+      "D": "R = 50 [latex]\\Omega[/latex] ; L = 5mH; C = 50 [latex]\\mu[/latex] F;"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 81 The power delivered by the current source, in the figure, is ____.",
+    "solution": "Applying nodal analysis at node P, we have [latex]\\frac{V_I-V_1}{1}+\\frac{V_I-V_2}{1}-2=0 [/latex] [latex]2V_I-(V_1+V_2)=2 [/latex] [latex]V_I=\\left [ \\frac{2+(V_1+V_2)}{2} \\right ]\\;\\;...(i) [/latex] Also,  [latex]V_1-V_2=1[/latex] volt and [latex]V_1=1[/latex] volt [latex]\\therefore \\;\\; V_2=V_1-1=1-1=0 volt [/latex] Putting values of  [latex]V_1[/latex] and [latex]V_2[/latex] in equation (i), we get: [latex] V_I=\\left [ \\frac{2+(1+0)}{2} \\right ]=\\frac{3}{2}volt [/latex] [latex]\\therefore[/latex]  Power delivered by the current source [latex] =V_I\\cdot I=\\frac{3}{2} \\times 2 \\;\\;[\\because \\; I=2A (given)][/latex] [latex]=3 Watts[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page17_q1.webp",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 82 The Norton's equivalent source in amperes as seen into terminals X and Y is ____.",
+    "solution": "Using source transformation theoram, or we can simplify the network, Now, from the circuit, we get, [latex]I_N=\\frac{5}{5}=1A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page17_q2.webp",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 A non-ideal voltage source [latex]V_{s}[/latex] has an internal impedance of [latex]Z_{s}[/latex]. If a purely resistive load is to be chosen that maximizes the power transferred to the load, its value must be",
+    "solution": "Thesituation of problem is shown in figure: For the transfer of maximum power from source to load, [latex]R_L=\\sqrt{R_s^2+X^2}=|Z|[/latex]",
+    "options": {
+      "A": "0",
+      "B": "real part of [latex]Z_{s}[/latex]",
+      "C": "magnitude of [latex]Z_{s}[/latex]",
+      "D": "complex conjugate of [latex]Z_{s}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 The driving point impedance Z(s) for the circuit shown below is",
+    "solution": "Driving point impedance, Z(s) is , [latex]Z(s)=s+\\left ( \\frac{\\left ( s+\\frac{1}{s} \\right )\\times \\frac{1}{s}}{s+\\frac{1}{s}+\\frac{1}{s}} \\right ) [/latex] [latex]\\;\\;=s+\\left ( \\frac{s^2+1}{s^2} \\right )\\times \\frac{s}{s^2+2} [/latex] [latex]\\;\\;=s+\\frac{s^2+1}{s(s^2+2)} [/latex] [latex]\\;\\;=\\frac{s^2(s^2+2)+^2+1}{s^3+2s} [/latex] [latex]Z(s)=\\frac{s^4+3s^2+1}{s^3+2s}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page17_q4.webp",
+    "options": {
+      "A": "[latex]\\frac{s^{4}+3s^{2}+1}{s^{3}+2s}[/latex]",
+      "B": "[latex]\\frac{s^{4}+3s^{2}+4}{s^{2}+2}[/latex]",
+      "C": "[latex]\\frac{s^{2}+1}{s^{4}+s^{2}+1}[/latex]",
+      "D": "[latex]\\frac{s^{3}+1}{s^{4}+s^{2}+1}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 The line A to neutral voltage is [latex]10 \\angle 15^{\\circ}[/latex]V for a balanced three phase star connected load with phase sequence ABC . The voltage of line B with respect to line C is given by",
+    "solution": "Given, [latex]V_{AN}=10\\angle 15^{\\circ}volt[/latex] As the system is balanced and phase sequence is ABC, therefore, [latex]V_{AN}=10\\angle 15^{\\circ} [/latex] [latex]V_{BN}=10\\angle 135^{\\circ}V[/latex] and  [latex]V_{CN}=10\\angle 255^{\\circ}V [/latex] [latex]\\therefore [/latex]  voltage of line w.r.t. line C is [latex] V_{BC}=V_{BN}-V_{CN}[/latex] [latex] V_{BC}=10\\angle 255^{\\circ}-10\\angle 135^{\\circ} [/latex] [latex]V_{BC}=10\\sqrt{3}\\angle -75^{\\circ} Volt[/latex]",
+    "options": {
+      "A": "[latex]10 \\sqrt{3}\\angle 105^{\\circ} V[/latex]",
+      "B": "[latex]10 \\angle 105^{\\circ} V[/latex]",
+      "C": "[latex]10 \\sqrt{3}\\angle -75^{\\circ} V[/latex]",
+      "D": "[latex]-10 \\sqrt{3}\\angle 90^{\\circ} V[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 86 The total power dissipated in the circuit, shown in the figure, is 1 kW. The voltmeter, across the load, reads 200 V. The value of [latex]X_L[/latex] is _____.",
+    "solution": "Given, total power dissipated in the circuit = 1kW =1000 Watt [latex]\\therefore \\;\\; 2^2 \\times 1 +10^2 \\times R=1000 [/latex] [latex]R=\\frac{998}{100}=9.98\\Omega [/latex] Also, voltage drop across R, [latex]V_R=IR[/latex] [latex]=10 \\times 9.98=99.8 volt [/latex] Voltage drop across load, [latex]V=200 volt =\\sqrt{V_R^2+V_{X_L}^2} [/latex] [latex]\\therefore[/latex] voltage drop across inductor, [latex] V_{X_L}=\\sqrt{V^2-V_R^2}[/latex] [latex]\\;\\;=\\sqrt{(200)^2-(99.8)^2}[/latex] [latex]\\;\\;=173.32 volt [/latex] Now, [latex] V_{X_L}=IX_L[/latex] [latex] X_L=\\frac{V_{X_L}}{I} [/latex] [latex]X_L=\\frac{173.32}{10}=17.332\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page18_q1.webp",
+    "min": 17.3,
+    "max": 17.4
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 The voltage across the capacitor, as shown in the figure, is expressed as [latex]v_{c}(t)=A_{1}sin(\\omega _{1}t-\\theta _{1})+A_{2}sin(\\omega _{2}t-\\theta _{2})[/latex] The values of [latex]A_1 \\; and \\; A_2[/latex]  respectively, are",
+    "solution": "Let us apply superposition theorem, Consider the voltage source 20sint alone Then, 10sin5t  remain open circuited. Let, [latex]V_{c1}(t)[/latex] be the voltage across capacitor [latex]V_{c1}(t)=\\left ( \\frac{-j0.1}{1-j0.1} \\right ) \\times 20 \\sin 10t [/latex] [latex]\\;\\;=(1.99\\angle -84.28^{\\circ}) \\sin 10t [/latex] [latex]V_{c1}(t)=2 \\sin (10t-84.28^{\\circ}) [/latex] Considering the current source [latex]10 \\sin 5t[/latex] alone. Then, [latex] 20 \\sin 10t[/latex] voltage source remain short circuited Let voltage across capacitor [latex]=V_{c2}(t)[/latex] [latex]\\frac{V_{c1}}{1}+\\frac{V_{c2}}{(-j0.2)}-10 \\sin 5t=0 [/latex] [latex]V_{c2}(t)=\\frac{10 \\sin 5t}{(1+j5)} [/latex] [latex]V_{c2}(t)=1.97 \\sin(5t-78.69^{\\circ})\\;\\;...(i) [/latex] Using superposition theoram, voltage across capacitor is [latex]V_c(t)=V_{c1}(t)+V_{c1}(t) [/latex] [latex]V_c(t)=2 \\sin (10t-84.28^{\\circ})[/latex] [latex]+1.97 \\sin (5t-78.69^{\\circ})\\;\\;...(ii) [/latex] Given,  [latex] V_c(t)=A_1 \\sin (\\omega_1 t-\\theta _1)[/latex]  [latex]+A_2 \\sin (\\omega _2 t -\\theta _2)\\;\\;...(iv)[/latex] Comparing equation (iii) and (iv), we have A=2 and B=1.97 [latex]\\approx [/latex]1.98",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page18_q2.webp",
+    "options": {
+      "A": "2.0 and 1.98",
+      "B": "2.0 and 4.20",
+      "C": "2.5 and 3.50",
+      "D": "5.0 and 6.40"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 Assuming an ideal transformer, the Thevenin's equivalent voltage and impedance\nas seen from the terminals x and y for the circuit in figure are",
+    "solution": "Thevenin's equivalent voltage=voltage referred to secondary. We have: [latex]\\frac{\\sin \\omega t}{V_{Th}}=\\frac{1}{2}[/latex] [latex]V_{Th}=2 \\sin (\\omega t)[/latex] Also, Thevenin's impedance seen from the x and y terminals=voltage referred to secondary side [latex]\\therefore \\;\\;Z_{Th}=R_{Th}=2^2\\times 1=4\\Omega [/latex] So,  [latex]V_{Th}= 2 \\sin (\\omega t) [/latex] and  [latex] Z_{Th}=R_{Th}=4\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page18_q3.webp",
+    "options": {
+      "A": "[latex]2 sin (\\omega t),4\\Omega[/latex]",
+      "B": "[latex]1 sin (\\omega t),1\\Omega[/latex]",
+      "C": "[latex]1 sin (\\omega t),2\\Omega[/latex]",
+      "D": "[latex]2 sin (\\omega t),0.5\\Omega[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 89 The switch SW shown in the circuit is kept at position '1' for a long duration. At t=0+, the switch is moved to position '2'. Assuming [latex]|V_{o2} | \\gt |V_{o1}|[/latex], the voltage [latex]v_{c}(t)[/latex] across the capacitor is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page18_q4.webp",
+    "options": {
+      "A": "[latex]v_{c}(t)=-V_{o2}(1-e^{-t/2RC})-V_{o1}[/latex]",
+      "B": "[latex]v_{c}(t)=V_{o2}(1-e^{-t/2RC})+V_{o1}[/latex]",
+      "C": "[latex]v_{c}(t)=-(V_{o2}+V_{o1})(1-e^{-t/2RC})-V_{o1}[/latex]",
+      "D": "[latex]v_{c}(t)=(V_{o2}-V_{o1})(1-e^{-t/2RC})+V_{o1}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 90 Two identical coupled inductors are connected in series. The measured inductances\nfor the two possible series connections are 380 [latex]\\mu[/latex]H and 240 [latex]\\mu[/latex]H. Their mutual inductance in [latex]\\mu[/latex]H is _____.",
+    "solution": "The two possible series connection are shown below: Let the mutual inductance be M (i) Additive connection, (ii) Substractive connection, [latex]L_{eqv}=L_1+L_2-2M=240\\mu H[/latex] Thus,  [latex]  L_1+L_2+2M=380 \\mu H\\;\\;...(i) [/latex] and [latex]L_1+L_2-2M=240 \\mu H\\;\\;...(ii) [/latex] Solving equations (i) and (ii), we get: [latex] 4M=140\\mu H [/latex] [latex]M=35\\mu H [/latex] Therefore, mutual inductance [latex]M=35\\mu H[/latex]",
+    "min": 35.0,
+    "max": 35.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 91 In the figure, the value of resistor R is (25 + I/2) ohms, where I is the current in\namperes. The current I is _____.",
+    "solution": "Given, [latex]R=\\left ( 25+\\frac{I}{2} \\right )\\Omega [/latex] [latex]I=(2R-50) [/latex] Applying KVL in given loop, we have [latex] 300=IR[/latex] [latex] 300=(2R-50)\\times R [/latex] we get, [latex]R=30\\Omega \\; or \\; -5\\Omega[/latex] Since, resistance can't be negative. therefore, [latex]R=30\\Omega [/latex] Hence,  [latex] I=(2R-50) [/latex] [latex]\\;\\;=(2 \\times 30-50)=10A [/latex] [latex]\\therefore \\;\\; Current, I=10A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page19_q1.webp",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 92 An incandescent lamp is marked 40 W, 240 V. If resistance at room temperature (26[latex]^{\\circ}[/latex]C) is 120 [latex]\\Omega[/latex], and temperature coefficient of resistance is [latex]4.5\\times 10^{-3}/^{\\circ}[/latex]C, then its 'ON' state filament temperature in [latex]^{\\circ}[/latex]C is approximately_____.",
+    "solution": "Let the resistance of incandescent lamp [latex]=R_T=\\frac{V^2}{P}=\\frac{(240)^2}{40}=1440\\Omega[/latex] Given,  [latex]  R_0=120\\Omega ,[/latex] [latex]\\alpha =4.5 \\times 10^{-3}/^{\\circ}C [/latex] Let, [latex]R_T[/latex] be the resistance of the filament in ON state at temperature T. Then, [latex] R_T=R_0[1+\\alpha \\Delta T] [/latex] [latex][1+\\alpha \\Delta T]=\\frac{R_T}{R_0}=\\frac{1440}{120}=12[/latex] [latex] \\alpha \\Delta T=11 [/latex] [latex]\\Delta T=2444.44^{\\circ}C[/latex] [latex] T=2444.44^{\\circ}C+26^{\\circ} [/latex] [latex]T=2470.44^{\\circ}C [/latex] Therefore, ON state temperature of filament [latex]= 2470.44^{\\circ}C[/latex]",
+    "min": 2470.0,
+    "max": 2471.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 A combination of 1 [latex]\\mu[/latex]F capacitor with an initial voltage [latex]v_c(0)=-2V[/latex] in series with a 100 [latex]\\Omega[/latex] resistor is connected to a 20 mA ideal dc current source by operating both switches at t=0s as shown. Which of the following graphs shown in the options approximates the voltage [latex]v_s[/latex] across the current source over the next few seconds ?",
+    "solution": "Given [latex]C=1\\mu F, V_c(0)=-2V[/latex],  [latex]R=100\\Omega , I=20mA[/latex]. Circuit fot the given condition at time [latex]t \\gt 0[/latex] is shown below: Applying KVL, we have,[latex]V_s(s)=\\left ( \\frac{-2}{s} \\right )+\\frac{I}{s} \\left ( R+\\frac{I}{Cs} \\right ) [/latex] [latex]\\;\\;=\\frac{1}{s}\\left [ -2+IR+\\frac{I}{Cs} \\right ] [/latex] [latex]\\;\\;=\\frac{1}{s}\\left [ (IR-2) +\\frac{I}{Cs}\\right ] [/latex] Putting values of R, C and I, we get, [latex]V_s(s)=\\frac{1}{s}\\left [ (20 \\times 10^{-3} \\times 200-2)+\\left ( \\frac{20 \\times 10^{-3}}{10^{-6}} \\right ) \\times \\frac{1}{s} \\right ] [/latex] [latex]\\;\\;=\\frac{1}{s}\\left [ (2-2)+20 \\times 10^3 \\times \\frac{1}{s} \\right ] [/latex] [latex]\\;\\;=\\frac{20 \\times 10^3}{s^2} [/latex] [latex]\\therefore \\;\\; V_s(s)=\\frac{20 \\times 10^3}{s^2} [/latex] [latex]V_s(t)=20000 t u(t) [/latex] [latex]\\therefore \\;\\; V_s(s)=(20000)tu(t) [/latex] Which is equation of a straight line passing through origin. Hence option (C) is correct.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page19_q3.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 94 The three circuit elements shown in the figure are part of an electric circuit. The\ntotal power absorbed by the three circuit elements in watts is _____.",
+    "solution": "Given electrical circuit is shown below: Applying KCL at node, current through 15V voltage source =2 A Power absorbed by 100 V voltage source = 10x100=1000 Watt. Power absorbed by 80 V voltage source =-(80x8)=-640 Watts and power absorbed by 15 V voltage source = -(15x2)=-30 Watt. Therefore,  total power absorbed by the three circuit element=(100-640-30_ watts =330 Watts",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page19_q4.webp",
+    "min": 330.0,
+    "max": 330.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 The following arrangement consists of an ideal transformer and an attenuator\nwhich attenuates by a factor of 0.8. An ac voltage [latex]V_{WX1}[/latex] = 100 V is applied\nacross WX to get an open circuit voltage [latex]V_{YZ1}[/latex] across YZ. Next, an ac voltage[latex]V_{YZ2}[/latex] = 100 V is applied across YZ to get an open circuit voltage [latex]V_{WX2}[/latex] across WX. Then,[latex]V_{YZ1}/V_{WX1},V_{WX2}/V_{YZ2}[/latex] are respectively,",
+    "solution": "[latex]V_{YZ_1}=100\\times 1.25 \\times 0.8 =100 [/latex] In second case when 100 V is applied at YZ terminals, this whole 100 V will appear across the secondary winding, Hence, [latex]V_{WX_2}=\\frac{100}{1.25}=80V [/latex] [latex]\\Rightarrow \\; \\frac{V_{YZ_1}}{V_{WX_1}}=\\frac{100}{100}[/latex] [latex] \\frac{V_{WX_2}}{V_{YZ_2}}=\\frac{80}{100}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page19_q5.webp",
+    "options": {
+      "A": "125/100 and 80/100",
+      "B": "100/100 and 80/100",
+      "C": "100/100 and 100/100",
+      "D": "80/100 and 80/100"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 96 Two magnetically uncoupled inductive coils have Q factors [latex]q_1 \\; and \\; q_2[/latex] at the chosen\noperating frequency. Their respective resistances are [latex]R_1 \\; and \\; R_2[/latex]. When connected\nin series, their effective Q factor at the same operating frequency is",
+    "solution": "[latex]q_1=\\frac{\\omega L_1}{R_1} [/latex] [latex]L_1=\\frac{q_1R_1}{\\omega }[/latex] Similarly, [latex]L_2=\\frac{q_2R_2}{\\omega } [/latex] [latex]Q=\\frac{\\omega (L_1+L_2)}{R_1+R_2}[/latex] [latex]=\\frac{q_1R_1+q_2R_2}{R_1+R_2}[/latex]",
+    "options": {
+      "A": "[latex]q_{1}R_1+q_{2}R_2[/latex]",
+      "B": "[latex](q_{1}/R_1)+(q_{2}/R_2)[/latex]",
+      "C": "[latex](q_{1}R_{1}+q_{2}R_{2})/(R_{1}+R_{2})[/latex]",
+      "D": "[latex]q_{1}R_{2}+q_{2}R_{1}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 97 Three capacitors [latex]C_1, C_2 \\; and \\; C_3[/latex] whose values are 10 [latex]\\mu[/latex]F, 5 [latex]\\mu[/latex]F, and 2 [latex]\\mu[/latex]F respectively, have breakdown voltages of 10 V, 5 V and 2 V respectively. For the interconnection shown below, the maximum safe voltage in Volts that can be applied across the combination, and the corresponding total charge in [latex]\\mu[/latex]C stored in the effective capacitance across the terminals are respectively,",
+    "solution": "[latex]Q=CV [/latex] [latex]Q_1=C_1V_1 =10 \\times 10^{-6} \\times 10=100\\mu C [/latex] [latex]Q_2=C_2V_2 =5 \\times 10^{-6} \\times 5=25\\mu C [/latex] [latex]Q_3=C_3V_3 =2 \\times 10^{-6} \\times 2=4\\mu C [/latex] Capacitor [latex]C_2 \\; and \\; C_3[/latex] are in series. In series charge is same. So, maximum charge on [latex]C_2 \\; and \\; C_3[/latex] will be minimum of [latex](Q_2,Q_3)=min(25\\mu C,4\\mu C)=4\\mu C=Q_{23}[/latex]. In series the equivalent capacitance of [latex]C_2 \\; and \\; C_3[/latex] is [latex]C_{23}=\\frac{C_2C_3}{C_2+C_3}=\\frac{5 \\times 2}{5+2}=\\frac{10}{7}\\mu F [/latex] So, equivalent voltage, [latex]V_{23}=\\frac{Q_{23}}{C_{23}}=\\frac{4 \\times 10^{-6}}{\\frac{10}{7} \\times 10^{-6}}=\\frac{28}{10}2.8V [/latex] In parallel, the voltage is same. [latex]V_1=V_{23}=2.8V [/latex] Change in capacitor [latex]C_1 [/latex] [latex]Q_1=C_1V_1 =10 \\times 10^{-6}\\times 2.8=28\\mu C [/latex] In parallel, the total charge [latex]Q=Q_1+Q_{23} [/latex] [latex]Q=4+28=32\\mu C[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page20_q2.webp",
+    "options": {
+      "A": "2.8 and 36",
+      "B": "7 and 119",
+      "C": "2.8 and 32",
+      "D": "7 and 80"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 In the circuit shown below, if the source voltage [latex]V_{s}=100\\angle 53.13^{\\circ}[/latex]V then the Thevenin's equivalent voltage in Volts as seen by the load resistance [latex]R_L[/latex] is",
+    "solution": "[latex]V_{L_1}=\\left ( \\frac{j4}{3+j4} \\right )100\\angle 53.13^{\\circ}[/latex] [latex] \\;\\;=80\\angle 90^{\\circ}V [/latex] [latex]V_{Th}=10V_{L_1}=800\\angle 90^{\\circ}V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page20_q3.webp",
+    "options": {
+      "A": "[latex]100\\angle 90^{\\circ}[/latex]",
+      "B": "[latex]800\\angle 0^{\\circ}[/latex]",
+      "C": "[latex]800\\angle 90^{\\circ}[/latex]",
+      "D": "[latex]100\\angle 60^{\\circ}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 99 Consider a delta connection of resistors and its equivalent star connection as\nshown below. If all elements of the delta connection are scaled by a factor [latex]k , k\\gt 0[/latex], the elements of the corresponding star equivalent will be scaled by a factor of",
+    "solution": "[latex]R_A=\\frac{R_bR_c}{R_a+R_b+R_c} [/latex] [latex]R'_a=kR_a [/latex] [latex]R'_b=kR_b [/latex] [latex]R'_c=kR_c [/latex] [latex]R'_A=\\frac{kR_b\\cdot kR_c}{kR_a+kR_b+kR_c} [/latex] [latex]\\;\\;=\\frac{k^2R_bR_c}{k(R_a+R_b+R_c)} [/latex] [latex]\\;\\;=k \\times \\frac{R_bR_c}{R_a+R_b+R_c} [/latex] [latex]R'_A=kR_A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page20_q4.webp",
+    "options": {
+      "A": "[latex]k^{2}[/latex]",
+      "B": "k",
+      "C": "[latex]1/k[/latex]",
+      "D": "[latex]\\sqrt{k}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 100 A source [latex]v_{s}(t)=V \\cos 100\\pi t[/latex] has an internal impedance of [latex](4+j3)\\Omega[/latex]. If a purely resistive load connected to this source has to extract the maximum power out of the source, its value in [latex]\\Omega[/latex] should be",
+    "solution": "Using maximum power transfer theorem, [latex]R_L=|Z|=|4-j3| [/latex] [latex]\\;\\;=\\sqrt{4^2+3^2}=5\\Omega[/latex]",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "7"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 In the circuit shown, the three voltmeter readings are [latex]V_1=[/latex]220 V , [latex]V_2=[/latex]122 V , [latex]V_3=[/latex]136 V. If [latex]R_L=5\\Omega[/latex], the approximate power consumption in the load is",
+    "solution": "Given, [latex]R_L= 5\\Omega [/latex] [latex]\\therefore \\;\\; \\cos \\phi =\\frac{R_L}{|Z|} [/latex] [latex]\\Rightarrow \\;\\;|Z|=\\frac{5}{0.45}=11.11 [/latex] Power consumed by load, [latex]P_L=\\left ( \\frac{V_3}{|Z|} \\right )^2R_L [/latex] [latex]\\;\\;=\\left ( \\frac{136}{11.11} \\right )^2 \\times 5 [/latex] [latex]\\;\\;=749.1\\approx 750W[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page21_q1.webp",
+    "options": {
+      "A": "700W",
+      "B": "750W",
+      "C": "800W",
+      "D": "850W"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 102 In the circuit shown, the three voltmeter readings are [latex]V_1=[/latex]220 V , [latex]V_2=[/latex]122 V , [latex]V_3=[/latex]136 V. The power factor of the load is",
+    "solution": "[latex]V_1^2=V_2^2+V_3^2+2V_2V_3 \\cos \\phi [/latex] [latex](220)^2=(122)^2+(136)^2+2 \\times 122 \\times 136 \\times \\cos \\phi [/latex] [latex]\\Rightarrow \\;\\; \\cos \\phi =0.45[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page21_q2.webp",
+    "options": {
+      "A": "0.45",
+      "B": "0.5",
+      "C": "0.55",
+      "D": "0.6"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 103 With 10 V dc connected at port A in the linear nonreciprocal two-port network shown below, the following\nwere observed: (i) 1 [latex]\\Omega[/latex] connected at port B draws a current of 3 A (ii) 2.5 [latex]\\Omega[/latex] connected at port B draws a current of 2 A For the same network, with 6 V dc connected at port A, 1 [latex]\\Omega[/latex] connected at port\nB draws 7/3 A. If 8 V dc is connected to port A, the open circuit voltage at port B is",
+    "solution": "[latex](i) [/latex] [latex]V_1=10V,V_2=3V,  I_2=-3A [/latex] [latex]V_1=AV_2-BI_2 [/latex] [latex]10=3A+3B[/latex] [latex] (ii) V_2=5V, I_2=-2A [/latex] [latex]10=5A+2B [/latex] [latex]A=\\frac{10}{9} [/latex] [latex]B=\\frac{20}{9} [/latex] Given,   [latex] V_1=8V [/latex] [latex](V_2)_{OC}=? [/latex] [latex]I_2=0[/latex] [latex] V_1=AV_2-BI_2 [/latex] [latex]8=A(V_2)_{OC}-0 [/latex] [latex](V_2)_{OC}=\\frac{8}{A}=\\frac{8}{10/9}=7.2V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page21_q3.webp",
+    "options": {
+      "A": "6V",
+      "B": "7V",
+      "C": "8V",
+      "D": "9V"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 104 With 10 V dc connected at port A in the linear nonreciprocal two-port network shown below, the following\nwere observed: (i) 1 [latex]\\Omega[/latex] connected at port B draws a current of 3 A (ii) 2.5 [latex]\\Omega[/latex] connected at port B draws a current of 2 A With 10 V dc connected at port A, the current drawn by 7 [latex]\\Omega[/latex] connected at port B is",
+    "solution": "Given, [latex]V_1=10V, V_2=(-7I_2) [/latex] [latex]V_1=AV_2-BI_2 [/latex] [latex]10=-7I_2A-BI_2 [/latex] [latex]=-\\frac{70}{9}I_2-\\frac{20}{9}I_2 [/latex] [latex]I_2=-1A [/latex] -ve sign is signifies that current is drawn.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page21_q4.webp",
+    "options": {
+      "A": "3/7A",
+      "B": "5/7A",
+      "C": "1A",
+      "D": "9/7A"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 105 Assuming both the voltage sources are in phase, the value of R for which maximum\npower is transferred from circuit A to circuit B is",
+    "solution": "[latex]I=\\frac{7}{R+2} [/latex] [latex]V=10-2I [/latex] [latex]\\;\\;=10-\\frac{14}{R+2}=\\frac{10R+6}{R+2} [/latex] Power transferred from circuit A to circuit B [latex]P=VI [/latex] [latex]\\;\\;=\\frac{10R+6}{R+2} \\times \\frac{7}{R+2} [/latex] For P to be maximum [latex]\\frac{dP}{dR}=0 [/latex] [latex](R+2)^2(10)-(10R+6)\\times 2 (R+2)=0 [/latex] [latex]5R^2+20R+20-10R^2+26R+12=0 [/latex] [latex]5R^2+6R=8[/latex] [latex] \\Rightarrow \\;R=0.8\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page21_q5.webp",
+    "options": {
+      "A": "0.8 [latex]\\Omega[/latex]",
+      "B": "1.4 [latex]\\Omega[/latex]",
+      "C": "2 [latex]\\Omega[/latex]",
+      "D": "2.8 [latex]\\Omega[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 106 If [latex]V_{A}-V_{B}[/latex] =6V then [latex]V_{C}-V_{D}[/latex] is",
+    "solution": "[latex]V_A-V_B=2I [/latex] [latex]\\Rightarrow \\; 2I=6 [/latex] [latex]\\Rightarrow \\; I=3A [/latex] [latex]V_C+2+1 \\times I=V_D [/latex] [latex]V_C-V_D=-2-3=-5V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page22_q1.webp",
+    "options": {
+      "A": "-5V",
+      "B": "2V",
+      "C": "3V",
+      "D": "6V"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 107 In the following figure, [latex]C_1 \\; and \\; C_2[/latex] are ideal capacitors. [latex]C_1[/latex] has been charged to\r\n12 V before the ideal switch S is closed at t=0. The current i(t) for all t is",
+    "solution": "Circuit is s-domain By applying KVL, [latex]\\frac{12}{s}+\\frac{I(s)}{s}\\left ( \\frac{1}{C_1} +\\frac{1}{C_2}\\right )=0[/latex] [latex] I(s)=-\\frac{12C_1C_2}{C_1+C_2}=k(constant)[/latex] [latex] \\Rightarrow \\;\\; i(t)=k\\delta (t) [/latex] [latex]\\therefore[/latex]  Current [latex]i(t)[/latex] is an implulse function.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page22_q2.webp",
+    "options": {
+      "A": "zero",
+      "B": "a step function",
+      "C": "an exponentially decaying function",
+      "D": "an impulse function"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 108 The average power delivered to an impedance [latex](4-j3)\\Omega[/latex] by a current\r\n5cos(100[latex]\\pi[/latex]t+100)A is",
+    "solution": "[latex]i=5 \\cos (100 \\pi t +100^{\\circ})A [/latex] [latex]\\;\\;=5\\angle 100^{\\circ}A [/latex] [latex]Z=(4-j3)\\Omega [/latex] [latex]\\;\\;=5\\angle -36.87^{\\circ}\\Omega [/latex] [latex]V=iZ=25\\angle 63.13^{\\circ}V [/latex] The average power is [latex]P=\\frac{1}{2}V_mI_m \\cos \\phi[/latex] [latex] \\;\\;=\\frac{1}{2} \\times 25 \\times 5 \\times \\cos (36.87^{\\circ}) [/latex] [latex]\\;\\;=\\frac{1}{2} \\times 25 \\times 5 \\times \\frac{4}{5}=50W [/latex] Alternate Method: [latex]P=|I_{rms}|^2R [/latex] [latex]P=\\left ( \\frac{5}{\\sqrt{2}} \\right )^2 4=50W[/latex]",
+    "options": {
+      "A": "44.2 W",
+      "B": "50 W",
+      "C": "62.5 W",
+      "D": "125 W"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 109 A two-phase load draws the following phase currents : [latex]i_{1}(t)=I_{m}sin(\\omega t-\\phi _{1})[/latex], [latex]i_{2}(t)=I_{m}cos(\\omega t-\\phi _{2})[/latex]. These currents are balanced if [latex]\\phi _{1}[/latex] is equal to.",
+    "solution": "In two phase, current are balanced if phase difference is [latex]90^{\\circ}[/latex]. [latex]i_1(t)=I_m \\sin (\\omega t-\\phi _1) [/latex] [latex]i_2(t)=I_m \\sin (\\omega t-\\phi _2+90^{\\circ}) [/latex] Phase difference is [latex]90^{\\circ},[/latex] [latex] \\omega t-\\phi _2+90^{\\circ}-(\\omega t-\\phi _1)=90^{\\circ} [/latex] [latex]\\phi _1-\\phi _2=0 [/latex] [latex]\\phi _1=\\phi _2[/latex]",
+    "options": {
+      "A": "[latex]-\\phi _{2}[/latex]",
+      "B": "[latex]\\phi _{2}[/latex]",
+      "C": "[latex](\\pi/2-\\phi _{2})[/latex]",
+      "D": "[latex](\\pi/2+\\phi _{2})[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 110 The impedance looking into nodes 1 and 2 in the given circuit is",
+    "solution": "To find thevenin impedance across node 1 and node 2. Connect a 1 V source and find the current through voltage source. Then, [latex]Z_{Th}=\\frac{1}{I_{Th}} [/latex] By applying KCL at node B and A [latex]i_{AB}+99i_{b}=I_{Th} [/latex] [latex]i_b==i_A+i_{AB}[/latex] [latex] \\Rightarrow \\;\\; i_b-i_A+99i_b=I_{Th} [/latex] [latex]\\Rightarrow \\;\\; 100i_b-i_A=I_{Th}\\;...(i) [/latex] By applying KVL in outer loop [latex]10 \\times 10^3i_b=1 [/latex] [latex]i_b=10^{-4}A [/latex] and [latex] 10 \\times 10^{3}i_b=-100i_A [/latex] [latex]i_A=-100i_b [/latex] [latex]\\therefore[/latex]  From equation (i), [latex]100i_b+100i_b=I_{Th} [/latex] [latex]\\Rightarrow \\; I_{Th}=200i_b [/latex] [latex]\\;\\;=200 \\times 10^{-4}=0.02[/latex] [latex] \\therefore \\;\\;Z_{Th}=\\frac{1}{I_{Th}}=\\frac{1}{0.02}=50\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page22_q5.webp",
+    "options": {
+      "A": "50 [latex]\\Omega[/latex]",
+      "B": "100 [latex]\\Omega[/latex]",
+      "C": "5 k[latex]\\Omega[/latex]",
+      "D": "10.1 k[latex]\\Omega[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 111 In the circuit shown below, the current through the inductor is",
+    "solution": "Apply KCL node at 'A' so, current flowing through [latex]1\\Omega[/latex] is [latex](1-I_2)[/latex] Applying KVL in ABCD loop, [latex]1\\angle 0-1\\angle 0+1(1-I_2)-jI_2=0 [/latex] [latex]I_2=\\frac{1}{1+j}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page23_q1.webp",
+    "options": {
+      "A": "[latex]\\frac{2}{1+j}A[/latex]",
+      "B": "[latex]\\frac{-1}{1+j}A[/latex]",
+      "C": "[latex]\\frac{1}{1+j}A[/latex]",
+      "D": "0A"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 112 An RLC circuit with relevant data is given below. The current [latex]I_C[/latex] in the figure above is",
+    "solution": "Using KCL, [latex]-I_s+I_{RL}+I_C=0 [/latex] [latex]\\Rightarrow \\; I_C=I_s-I_{RL} [/latex] [latex]\\;\\;\\;=\\sqrt{2}\\angle \\frac{\\pi}{4}-\\sqrt{2}\\angle -\\frac{\\pi}{4} [/latex] [latex]\\;\\;\\;=2\\angle 90^{\\circ}=+j2A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page23_q2.webp",
+    "options": {
+      "A": "[latex]-j2A[/latex]",
+      "B": "[latex]+j\\frac{1}{\\sqrt{2}}A[/latex]",
+      "C": "[latex]-j\\frac{1}{\\sqrt{2}}A[/latex]",
+      "D": "[latex]+j2A[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 113 An RLC circuit with relevant data is given below. The power dissipated in the resistor R is",
+    "solution": "Power supplied by the source [latex]=V_sI_s \\cos \\phi [/latex] Where,  [latex]\\phi =[/latex] angle between [latex]V_s[/latex] and [latex]I_s \\;=\\; \\pi/4[/latex] Inductor and capacitor do not consume power. Therefore, power dissipated in R = Power supplied by the source [latex]P_R=V_SI_S \\cos \\phi [/latex] [latex]\\;\\;=1 \\times \\sqrt{2} \\times \\cos \\frac{\\pi}{4} [/latex] [latex]\\;\\;=\\sqrt{2} \\times \\frac{1}{\\sqrt{2}}=1 W[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page23_q3.webp",
+    "options": {
+      "A": "0.5 W",
+      "B": "1W",
+      "C": "[latex]\\sqrt{2} W[/latex]",
+      "D": "2W"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 114 In the circuit given below, the value of R required for the transfer of maximum\npower to the load having a resistance of 3[latex]\\Omega[/latex] is",
+    "solution": "For maximum power transfer to the load, the source resistance must be minimum i.e. zero. So, [latex]R=0\\Omega[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page23_q4.webp",
+    "options": {
+      "A": "zero",
+      "B": "3[latex]\\Omega[/latex]",
+      "C": "6[latex]\\Omega[/latex]",
+      "D": "infinity"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 115 The voltage applied to a circuit is [latex]100 \\sqrt{2} cos (100 \\pi t)[/latex] volts and the circuit draws\na current of [latex]10 \\sqrt{2} sin(100 \\pi t+\\pi/4)[/latex] amperes. Taking the voltage as the reference\nphasor, the phasor representation of the current in amperes is",
+    "solution": "[latex]V(t)=100\\sqrt{2} \\cos (100 \\pi t) [/latex] Voltage represented in phasor form: [latex]V_{ph}=V_{rms}\\angle \\phi [/latex] [latex]V_{ph}=\\frac{100\\sqrt{2}}{\\sqrt{2}}\\angle 0^{\\circ} [/latex] [latex]i(t)=10\\sqrt{2} \\sin \\left ( 100 \\pi t +\\frac{\\pi}{4} \\right ) [/latex] [latex]i(t)=10\\sqrt{2} \\cos \\left ( 100 \\pi t +\\frac{\\pi}{4}-\\frac{\\pi}{2} \\right ) [/latex] [latex]I_{ph}=\\frac{10\\sqrt{2}}{\\sqrt{2}}\\angle\\left ( \\frac{\\pi}{4}-\\frac{\\pi}{2} \\right ) [/latex] [latex]\\;\\;=10\\angle \\left ( -\\frac{\\pi}{4} \\right )A[/latex]",
+    "options": {
+      "A": "[latex]10\\sqrt{2}\\angle -\\pi /4[/latex]",
+      "B": "[latex]10\\angle -\\pi /4[/latex]",
+      "C": "[latex]10\\angle + \\pi /4[/latex]",
+      "D": "[latex]10\\sqrt{2}\\angle +\\pi /4[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 116 The r.m.s value of the current i(t) in the circuit shown below is",
+    "solution": "[latex]V_s=1 \\sin t\\equiv V_m \\sin \\omega t [/latex] [latex]V_m=1 V[/latex] and  [latex] \\omega =1[/latex] rad/sec Impedance of the branch containing inductor and capacitor [latex]Z=j(X_L-X_C)[/latex] [latex] \\;\\;=j\\left ( \\omega L-\\frac{1}{\\omega C} \\right ) [/latex] [latex]\\;\\;=j\\left ( 1 times 1 -\\frac{1}{1 times 1} \\right )=0 [/latex] So, this branch is short circuit and the whole current flow through it [latex] i(t)=\\frac{1.0 \\sin t}{1}=1.0 \\sin t [/latex] rms value of the current [latex]=\\frac{1}{\\sqrt{2}}A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page24_q1.webp",
+    "options": {
+      "A": "[latex]\\frac{1}{2}A[/latex]",
+      "B": "[latex]\\frac{1}{\\sqrt{2}}A[/latex]",
+      "C": "1A",
+      "D": "[latex]\\sqrt{2}A[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 117 The L-C circuit shown in the figure has an inductance L=1mH and a\ncapacitance C=[latex]\\mu[/latex]F. The initial current through the inductor is zero, while the initial capacitor voltage\nis 100 V. The switch is closed at t=0. The current i through the circuit",
+    "solution": "Initial current through the inductor is zeroand capacitor voltage is charged upto voltage [latex]V_c(0^-)=100V[/latex] As current through inductor and voltage across capacitor can not change abruptly So, after closing the switch, [latex]i_L(0^+)=i_L(0^-)=0 [/latex] and [latex] V_c(0^+)=V_c(0^-)=100V [/latex] The circuit id s-domain [latex]I(s)=\\frac{100/s}{\\left ( sL+\\frac{1}{sC} \\right )} [/latex] [latex]\\;\\;=\\frac{100}{L}\\left ( \\frac{1}{s^2+\\frac{1}{LC}} \\right ) [/latex] [latex]\\;\\;=100\\sqrt{\\frac{C}{L}}\\left ( \\frac{1/\\sqrt{LC}}{s^2+(1/\\sqrt{LC})^2} \\right ) [/latex] taking inverse laplace transform [latex]i(t)=L^{-1}[I(s)] [/latex] [latex]\\;\\;=100\\sqrt{\\frac{C}{L}} \\sin \\frac{1}{\\sqrt{LC}}t [/latex] [latex]\\;\\;=100 \\times \\sqrt{\\frac{10 \\times 10^3}{1 \\times 10^{-3}}}\\times [/latex]  [latex]\\sin\\left ( \\frac{1}{\\sqrt{1 \\times 10^{-3} \\times 10 \\times 10^{-6}}} \\right ) [/latex] [latex]i(t)=10\\sin (10^4 t)A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page24_q2.webp",
+    "options": {
+      "A": "[latex]5 cos(5\\times 10^{3}t)A[/latex]",
+      "B": "[latex]10 sin(10^{4}t)A[/latex]",
+      "C": "[latex]10 cos(5\\times 10^{3}t)A[/latex]",
+      "D": "[latex]10 sin(10^{4}t)A[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 118 The two-port network P shown in the figure has ports 1 and 2, denoted by\nterminals (a,b) and (c,d) respectively. It has an impedance matrix Z with\nparameters denoted by [latex]Z_{ij}[/latex]. A 1 [latex]\\Omega[/latex] resistor is connected in series with the network\nat port 1 as shown in the figure. The impedance matrix of the modified two-port\nnetwork (shown as a dashed box ) is",
+    "solution": "[latex]V_1^{ab}=Z_{11}I_1+Z_{12}I_2[/latex] [latex] V_2=Z_{21}I_1+Z_{22}I_2 [/latex] As,  [latex] 1\\Omega[/latex] resistor is connected in series with the network as port-1. [latex] V_2[/latex] does not get affected, [latex]V_1^{ef}=V_1^{ab}+I_1 \\times 1[/latex] [latex]\\;\\;=Z_{11}I_1+Z_{12}I_2+I_1 [/latex] [latex]\\;\\;=(Z_{11}+1)I_1+Z_{12}I_2 [/latex] Modified Z-parameter [latex] =\\begin{bmatrix} Z_{11}+1 & Z_{12}\\\\ Z_{21} &Z_{22} \\end{bmatrix}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page24_q3.webp",
+    "options": {
+      "A": "[latex]\\begin{pmatrix} Z_{11}+1 & Z_{12}+1\\\\ Z_{21}& Z_{22}+1 \\end{pmatrix}[/latex]",
+      "B": "[latex]\\begin{pmatrix} Z_{11}+1 & Z_{12}\\\\ Z_{21}& Z_{22}+1 \\end{pmatrix}[/latex]",
+      "C": "[latex]\\begin{pmatrix} Z_{11}+1 & Z_{12}\\\\ Z_{21}& Z_{22} \\end{pmatrix}[/latex]",
+      "D": "[latex]\\begin{pmatrix} Z_{11}+1 & Z_{12}\\\\ Z_{21}+1& Z_{22} \\end{pmatrix}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 119 If the 12 [latex]\\Omega[/latex] resistor draws a current of 1 A as shown in the figure, the value of\nresistance R is",
+    "solution": "Assuming voltage of the node [latex]V_a[/latex] [latex]V_a=1 \\times 12 =12V [/latex] Applying KCL, [latex] -2+1+I=0 [/latex] [latex]I=1A [/latex] [latex]I=\\frac{V_a-6}{R} [/latex] [latex]\\;\\;=\\frac{12-6}{R}=\\frac{6}{R} [/latex] [latex]\\Rightarrow \\;I=\\frac{6}{R} [/latex] [latex]\\Rightarrow \\; R=6\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page24_q4.webp",
+    "options": {
+      "A": "4[latex]\\Omega[/latex]",
+      "B": "6[latex]\\Omega[/latex]",
+      "C": "8[latex]\\Omega[/latex]",
+      "D": "18[latex]\\Omega[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 120 If the electrical circuit of figure (b) is an equivalent of the coupled tank system\nof figure (a), then",
+    "solution": "In such system, volumetric flow rate C is analogous to current and pressure is analogous to voltage The hydraulic capacitance due to storage in gravity field is defined as [latex]C=\\frac{A}{\\rho g}[/latex] where,  A= Area of the tank [latex]\\rho[/latex]= Density of the fluid g= Acceleration due to gravity The hydraulic capacitance is represented by A and C. Liquid trying to flow out of a container,can meet with resistance in several ways. If the outlet is a pipe, the friction between the liquid and the pile wall produces resistance to flow. Such resistance is represented by B and D.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page24_q5.webp",
+    "options": {
+      "A": "A, B are resistances and C, D capacitances",
+      "B": "A, C are resistances and B, D capacitances",
+      "C": "A, B are capacitances and C, D resistances",
+      "D": "A, C are capacitances and B, D resistances"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 121 As shown in the figure, a 1 [latex]\\Omega[/latex] resistance is connected across a source that has a load line v+i=100. The current through the resistance is",
+    "solution": "A resistor has linear characteristics i.e. [latex]V=Ri[/latex] [latex] \\Rightarrow \\;\\; V=i [/latex] Load line, [latex]V+i=100 [/latex] [latex]i+i=100 [/latex] current through resistance, [latex]i=\\frac{100}{2}=50A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page25_q1.webp",
+    "options": {
+      "A": "25A",
+      "B": "50A",
+      "C": "100A",
+      "D": "200A"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 122 The switch in the circuit has been closed for a long time. It is opened at t = 0. At t =[latex]0^+[/latex], the current through the 1 [latex]\\mu[/latex]F capacitor is",
+    "solution": "As the switch has been closed for a long time, the circuit is in steady state. At steadystate, capacitor is open circuit, Using KVL, [latex]5-I-4I=0 I=1A [/latex] [latex]V_c(0^-)=4 \\times 1=4V [/latex] As the voltage across capacitorcan not change abruptly, So, [latex]V_c(0^+)=V_c(0^-)=4V [/latex] Circuit at [latex]t=0^+[/latex] Current through capacitor at [latex]t=0^+ [/latex] [latex]I_c(0^+)=\\frac{4}{4}=1A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page25_q2.webp",
+    "options": {
+      "A": "0A",
+      "B": "1A",
+      "C": "1.25A",
+      "D": "5A"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 123 For the circuit given above, the Thevenin's voltage across the terminals A and B is",
+    "solution": "To calculate thevenin's volatage, terminal A-B are kept open. Applying source transformation, voltage sorce is transformed into current source. Applying source transformation current source is transformed into voltage souce. Applying KVL, (I is assumed to be in mA) [latex]\\frac{5}{2}-I-3V_{OC}-I=0\\;\\;...(i) [/latex] [latex]I=\\frac{V_{OC}}{I}\\;\\;...(ii) [/latex] Put value of I in equation (i), [latex]\\frac{5}{2}-5V_{OC}=0 [/latex] [latex]\\Rightarrow \\; V_{OC}=0.5 V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page25_q3.webp",
+    "options": {
+      "A": "1.25V",
+      "B": "0.25V",
+      "C": "1V",
+      "D": "0.5V"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 124 For the circuit given above, the Thevenin's resistance across the terminals A and\nB is",
+    "solution": "To calculate thevenin's resistance 5 V source is short-circuited and [latex]V_{dc}[/latex] source is connected at terminals A and B [latex]R_{th}=\\frac{V_{dc}}{I}[/latex] [latex] V_{AB}=V_{dc} [/latex] and assuming [latex]I \\; and \\; I_1[/latex] in mA. Current through [latex]1k\\Omega[/latex] resistance [latex]I_1=\\frac{V_{dc}}{1}=V_{dc} [/latex] [latex]V_{AB}=V_{dc}[/latex] [latex] V_x=2||2\\times (I-I_1) [/latex] [latex]V_x=I-I_1=I-V_{dc}\\;...(i) [/latex] [latex]V_x=3V_{AB}+I_1 [/latex] [latex]\\;\\;3V_{dc}+V_{dc}=4V_{dc}\\;...(ii)[/latex] Comparing equation (i) and (ii), [latex]I-V_{dc}=4V_{dc} [/latex] [latex]R_{th}=\\frac{V_{dc}}{I}=\\frac{1}{5}=0.2\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page25_q4.webp",
+    "options": {
+      "A": "[latex]0.5k\\Omega[/latex]",
+      "B": "[latex]0.2k\\Omega[/latex]",
+      "C": "[latex]1k\\Omega[/latex]",
+      "D": "[latex]0.11k\\Omega[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 125 For the circuit shown, find out the current flowing through the 2 [latex]\\Omega[/latex] resistance.\r\nAlso identify the changes to be made to double the current through the 2 [latex]\\Omega[/latex]\r\nresistance.",
+    "solution": "Voltage across [latex]2\\Omega[/latex] resistance [latex]=V_s=4V[/latex] Current through [latex]2\\Omega[/latex] resistance [latex]\\frac{V_s}{R}=\\frac{4}{2}=2A[/latex] Current cource has no effect, when connected across voltage source. So, to double current through [latex]2\\Omega[/latex] resistance, voltage source is doubled i.e. [latex]V-s=8V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page25_q5.webp",
+    "options": {
+      "A": "(5 A; Put [latex]V_S[/latex]= 30 A)",
+      "B": "(2 A; Put [latex]V_S[/latex] = 8 A)",
+      "C": "(5 A; Put [latex]I_S[/latex] = 10 A)",
+      "D": "(7 A; Put [latex]I_S[/latex] = 12 A)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 126 The equivalent capacitance of the input loop of the circuit shown is",
+    "solution": "Applying KVL, [latex]V_{in}-i_1(1+1)-50i_1(-jX_C)=0[/latex] [latex] \\Rightarrow \\; v_{in}=i_1[2-j50V_C] [/latex] Input impedance [latex]=\\frac{V_{in}}{i_1}=2-j50X_C[/latex] As imaginary part is negative, input impedance has equivalent capacitive reactance [latex]X_{C\\;eq.} [/latex] [latex]X_{C\\;eq.}=50X_C [/latex] [latex]\\frac{1}{\\omega C_{eq.}}=\\frac{50}{\\omega C}=\\frac{50}{\\omega \\times 100}=\\frac{1}{2 \\omega} [/latex] [latex]C_{eq.}=2\\mu F[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page26_q1.webp",
+    "options": {
+      "A": "2[latex]\\mu[/latex]F",
+      "B": "100[latex]\\mu[/latex]F",
+      "C": "200[latex]\\mu[/latex]F",
+      "D": "4[latex]\\mu[/latex]F"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 127 In the figure shown, all elements used are ideal. For time [latex]t \\lt 0[/latex], [latex]S_1[/latex] remained closed\r\nand [latex]S_2[/latex] open. At t=0, [latex]S_1[/latex] is opened and [latex]S_2[/latex] is closed. If the voltage [latex]V_{C2}[/latex] across the\r\ncapacitor [latex]C_2[/latex] at t=0 is zero, the voltage across the capacitor combination at\r\nt=[latex]0^+[/latex] will be",
+    "solution": "At [latex]t=0^-, S_1[/latex] is closed, [latex]S_2[/latex] is open [latex]C_1[/latex] gets charged upto 3 V Charge stored in [latex]C_1[/latex] [latex]Q_0=C_1V=1 \\times 3=3C[/latex] Voltage across [latex]C_2[/latex] is zero at [latex]t=0^-[/latex], so no charge is stored in [latex]C_2[/latex]. At [latex]t \\gt 0,\\;S_1[/latex] is open and [latex]S_2[/latex] is closed. Charge stored ([latex]Q_0[/latex]) initially in [latex]C_2[/latex] gets redistributed between  [latex]C_1[/latex] and [latex]C_2[/latex]. Let charge stored in [latex]C_1=Q_1[/latex] Charge stored in [latex]C_2=Q_1[/latex] According to conservation of charge [latex]Q_1+Q_2=Q_0=3\\;\\;...(i)[/latex] Voltage across [latex]C_1[/latex] =Voltage across [latex]C_2[/latex] [latex]\\frac{Q_1}{C_1}=\\frac{Q_2}{C_2} [/latex] [latex]\\rightarrow \\;\\; \\frac{Q_1}{1}=\\frac{Q_2}{2} [/latex] [latex]Q_2=2Q_1\\;\\;...(ii) [/latex] Solving equation (i) and (ii) we get [latex]Q_1=1 C [/latex] and [latex] Q_2 =2 C [/latex] Voltage across combination [latex]= \\frac{Q_1}{C_1}=\\frac{1}{1}=1[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page26_q2.webp",
+    "options": {
+      "A": "1V",
+      "B": "2V",
+      "C": "1.5V",
+      "D": "3V"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 128 How many 200 W/220 V incandescent lamps connected in series would consume\nthe same total power as a single 100 W/220 V incandescent lamp ?",
+    "solution": "Let resistance of a single incandescent lamp=R. Power consumed by a single lamp, P=200W. When connected across voltage, V=220V. So, [latex]P=\\frac{V^2}{R}\\; \\Rightarrow \\; 200=\\frac{220^2}{R} [/latex] [latex]\\Rightarrow \\; R=242\\Omega [/latex] Let, n number of lamps are connected in series across voltage V=200V. So total resistance of lamps [latex] R_{eq.}=nR=242n[/latex] Total power consumed, [latex]P=\\frac{V^2}{R_{eq.}} [/latex] [latex]\\Rightarrow \\; 100=\\frac{220^2}{242n} \\Rightarrow \\; n=2[/latex]",
+    "options": {
+      "A": "not possible",
+      "B": "4",
+      "C": "3",
+      "D": "2"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 129 The current through the 2 k[latex]\\Omega[/latex] resistance in the circuit shown is",
+    "solution": "Bridge is balanced i.i. node C and node D are at same potential. Therefore, no current flows through [latex]2 k\\Omega[/latex] resistor.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page26_q4.webp",
+    "options": {
+      "A": "0 mA",
+      "B": "1 mA",
+      "C": "2 mA",
+      "D": "6 mA"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 130 The current i(t) sketched in the figure flows through a initially uncharged 0.3 nF\r\ncapacitor. The capacitor charged upto 5[latex]\\mu[/latex]s, as per the current profile given in the figure,\r\nis connected across an inductor of 0.6 mH. Then the value of voltage across the\r\ncapacitor after 1[latex]\\mu[/latex]s will approximately be",
+    "solution": "Capacitor charge upto [latex]5\\mu s[/latex], so total charge stored in capacitor = Q = 13 nC. Voltage across the capacitor before connecting to inductor [latex]V_0=\\frac{Q}{C}[/latex] [latex]\\;\\;=\\frac{13 \\times 10^{-9}}{0.3 \\times 10^{-9}}=43.33V [/latex] Voltage across the capacitor at time [latex]t [/latex] [latex]V_c(t)[/latex] at [latex]t= 1\\mu s [/latex] [latex]V_c(t)|_{t=1\\mu s}=[V_0 \\cos \\omega _0 t]_{t=1\\mu s}[/latex] [latex] \\omega _0t=\\frac{1}{\\sqrt{0.6 \\times 10^3 \\times 0.3 \\times 10^{-9}}}\\times 1 \\times 10^{-6}[/latex] [latex]\\;\\; =2.357 rad=135^{\\circ} [/latex] [latex]V_c(t)|_{t=1\\mu s}=43.33 \\times \\cos 135^{\\circ}[/latex] [latex] \\;\\;\\approx -30.6 V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page26_q5.webp",
+    "options": {
+      "A": "18.8 V",
+      "B": "23.5 V",
+      "C": "-23.5 V",
+      "D": "-30.6 V"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 131 The current i(t) sketched in the figure flows through a initially uncharged 0.3 nF\ncapacitor. The charge stored in the capacitor at t=5 [latex]\\mu[/latex]s, will be",
+    "solution": "Charged stored in the capcitor =Area under i-t curve [latex]Q=A_1+A_2[/latex] [latex]\\;\\;=\\frac{1}{2}(2 \\times 10^{-6})\\times (4 \\times 10^{-3})[/latex]  [latex]+\\frac{1}{2} (4+2)\\times 10^{-3}\\times (5-2)\\times 10^{-6} [/latex] [latex]\\;\\;=\\left ( 4+\\frac{6 \\times 3}{2} \\right )\\times 10^[-9]=13nC[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page27_q1.webp",
+    "options": {
+      "A": "8 nC",
+      "B": "10 nC",
+      "C": "13 nC",
+      "D": "16 nC"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 132 In the circuit shown in the figure, the value of the current i will be given by",
+    "solution": "By KVL in loop-1, [latex]5-i_1-i_1=0 [/latex] [latex]i_1=2.5A [/latex] [latex]\\therefore \\; \\; V_a=2.5V [/latex] By KVL in loop-2, [latex]4V_{ab}=3i_2+i_2 [/latex] [latex]i_2=V_{ab} [/latex] [latex]\\therefore \\;\\; V_b=1 \\times i_2=V_{ab} [/latex] [latex]V_b=V_a-V_b [/latex] [latex]V_b=\\frac{V_a}{2}=\\frac{2.5}{2}=1.25V [/latex] [latex]i_2=V_{ab}=V_b [/latex] [latex]i_2=1.25A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page27_q2.webp",
+    "options": {
+      "A": "0.31 A",
+      "B": "1.25 A",
+      "C": "1.75 A",
+      "D": "2.5 A"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 133 Assuming ideal elements in the circuit shown below, the voltage [latex]V_{ab}[/latex] will be",
+    "solution": "[latex]i=1A[/latex] Applying KVL, [latex] V_{ab}-2i+5=0 [/latex] [latex]V_{ab}=-5+2i[/latex] [latex] \\;\\;=-5+2 \\times 1 \\;\\;=-3 V[/latex] NOTE: KVL is based on the conservation of energy.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page27_q3.webp",
+    "options": {
+      "A": "-3 V",
+      "B": "0V",
+      "C": "3V",
+      "D": "5V"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 134 The resonant frequency for the given circuit will be",
+    "solution": "Input impedance [latex]z=j\\omega L+R||\\frac{1}{j\\omega C} [/latex] [latex]z=j\\omega L+\\frac{R}{1+j\\omega RC} [/latex] [latex]\\therefore \\;\\; z=j0.1\\omega +\\frac{1}{1+j\\omega } \\times \\frac{1-j\\omega }{1-j\\omega } [/latex] [latex]\\;\\;=j0.1\\omega +\\frac{1-j\\omega }{1+\\omega ^2} [/latex] [latex]\\;\\;=\\frac{1}{1+\\omega ^2}+j \\times \\left ( 0.1\\omega -\\frac{\\omega }{1+\\omega ^2} \\right ) [/latex] At resonance, imaginary part must be zero. [latex]0.1\\omega - \\frac{\\omega }{1+\\omega ^2}=0 [/latex] [latex]0.1=\\frac{1 }{1+\\omega ^2} [/latex] [latex]\\omega ^2+1=10 [/latex] [latex]\\omega ^2=9 [/latex] [latex]\\omega =3 rad/sec[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page27_q4.webp",
+    "options": {
+      "A": "1 rad/s",
+      "B": "2 rad/s",
+      "C": "3 rad/s",
+      "D": "4 rad/s"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 135 The time constant for the given circuit will be",
+    "solution": "For finding time constant, we neglect current source as a open circuit. Therefore, circuit becomes Therefore, Time constant[latex]=R_{eq}C_{eq} [/latex] [latex]=6 \\times \\frac{2}{3}=4sec[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page27_q5.webp",
+    "options": {
+      "A": "1/9 s",
+      "B": "1/4 s",
+      "C": "4s",
+      "D": "9s"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 136 The Thevenin's equivalent of a circuit operation at [latex]\\omega[/latex]=5 rads/s, has [latex]V_{oc}=3.71\\angle -15.9^{\\circ}[/latex] V and [latex]Z_0=2.38-j0.667\\Omega[/latex]. At this frequency, the minimal realization of the Thevenin's impedance will have a",
+    "solution": "Thevenin's Impedance: [latex]Z_0=2.38-j0.667\\Omega[/latex] as real part is not zero, so [latex]Z_0[/latex] has resistor [latex]Img[Z_0]=-j0.667[/latex] CASE-I: [latex]Z_0[/latex] has capacitor (as [latex]Img[Z_0][/latex] is negative) CASE-II: [latex]Z_0[/latex] has both capacitor and inductor, but inductive reactance [latex]\\lt[/latex] capacitive reactance. At,  [latex]\\omega[/latex]=5 rad/sec For minimal realization case-I is considered. Therefore, [latex]Z_0[/latex]  will have a resistor and a capacitor.",
+    "options": {
+      "A": "resistor and a capacitor and an inductor",
+      "B": "resistor and a capacitor",
+      "C": "resistor and an inductor",
+      "D": "capacitor and an inductor"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 137 The number of chords in the graph of the given circuit will be",
+    "solution": "Number of branches =b =6 No. of nodes = n= 4 No. of chords =b-(n-1) =6-(4-1)=3",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page28_q2.webp",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 138 The matrix A given below in the node incidence matrix of a network. The columns\r\ncorrespond to branches of the network while the rows correspond to nodes. Let\r\n[latex]V=[v_{1} \\; v_{2} ... v_{6}]^{T}[/latex] denote the vector of branch voltages while [latex]I=[i_{1} \\; i_{2} ... i_{6}]^{T}[/latex] that of branch currents. The vector [latex]E=[e_{1} \\; e_{2} \\; e_{3} \\; e_{4}]^{T}[/latex] denotes the vector of node voltages relative to a common ground. [latex]\\begin{bmatrix} 1 & 1&1 & 0&0 & 0\\\\ 0& -1&0 & -1& 1& 0\\\\ -1 &0 & 0 & 0 &-1 & -1\\\\ 0&0 & -1&1 & 0 &1 \\end{bmatrix}[/latex] Which of the following statement is true ?",
+    "solution": "Convention: (when branch [latex]b_j[/latex] leaves away from node [latex]N_i[/latex] ) (when branch [latex]b_j[/latex] enters node [latex]N_i[/latex]) Given node incidence matrix eg.: Branch [latex]b_1[/latex] enter [latex]N_3[/latex] and leaves [latex]N_1[/latex] The oriented network graph Using KVL, in loop containing branches   [latex]b_1,b_3[/latex] and  [latex]b_6[/latex] [latex]v_1-v_6-v_3=0[/latex] In loop containing branches [latex]b_4,b_5[/latex] and  [latex]b_6[/latex] [latex]v_4+v_5-v_6=0[/latex]",
+    "options": {
+      "A": "The equations [latex]v_{1}-v_{2}+v_{3}=0,v_{3}+v_{4}-v_{5}=0[/latex] are KVL equations for the network for some loops",
+      "B": "The equations [latex]v_{1}-v_{3}-v_{6}=0,v_{4}+v_{5}-v_{6}=0[/latex] are KVL equations for the network for some loops",
+      "C": "E = AV",
+      "D": "AV = 0 are KVI equations for the network"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 139 A 3 V DC supply with an internal resistance of 2 [latex]\\Omega[/latex] supplies a passive non-linear\r\nresistance characterized by the relation [latex]V_{NL}=I^{2}_{NL}[/latex]. The power dissipated in the non linear resistance is",
+    "solution": "[latex]V_{NL}=I_{NL}^2\\;\\;...(i) [/latex] [latex]V_{NL}=E-I_{NL}R [/latex] where, [latex]E=3V [/latex] and [latex]R=2\\Omega [/latex] [latex]V_{NL}=3-2I_{NL}=I_{NL}^2 [/latex] [latex]I_{NL}^2+2I_{NL}-3=0 [/latex] [latex]I_{NL}=-3A [/latex] or [latex] 1 A [/latex] -3 A is rejected, because the non-linear resistor is passive and the only active element in the circuit is 3 V DC supply. Which is supplying the power to the resistor. So, [latex]I_{NL}=1 A [/latex] Power dissipated in the non-linear resistor [latex] =V_{NL}I_{NL}=I_{NL}^2I_{NL}[/latex] [latex] =I_{NL}^3=1^3=1W[/latex]",
+    "options": {
+      "A": "1.0W",
+      "B": "1.5W",
+      "C": "2.5W",
+      "D": "3.0W"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 140 In the figure given below all phasors are with reference to the potential at point\r\n\"O\". The locus of voltage phasor [latex]V_{XY}[/latex] as R is varied from zero to infinity is shown\r\nby",
+    "solution": "Let ,capacitive reactance [latex]=X_C[/latex] [latex] I=\\frac{V\\angle 0^{\\circ}+V\\angle 0^{\\circ}}{R-jX_C}[/latex] [latex]\\;\\;=\\frac{2V}{R-jX_C} [/latex] Using KVL, [latex]V_{YX}+IR-V=0 [/latex] [latex]V_{YX}=V-IR [/latex] [latex]V_{YX}=V-\\left ( \\frac{2V}{R-jX_C} \\right )R =\\frac{V(R-jX_C)-2VR}{R-jX_C} =-\\frac{V(R+jX_C)}{R-jX_C} [/latex] Method-1: [latex]V_{YX}=-V\\left [ \\frac{R+jX_C}{R-jX_C} \\right ] [/latex] When R=0 [latex]V_{YX}=-V\\left [ \\frac{0+jX_C}{0-jX_C} \\right ]=V [/latex] [latex]V_{YX}=-V \\times \\left [ \\frac{1+j\\frac{X_C}{R}}{1-j\\frac{X_C}{R}} \\right ] [/latex] When [latex]R\\rightarrow \\infty [/latex] [latex]V_{YX}=-V [/latex] Method-2: [latex]V_{YX}=-V\\left [ \\frac{R+jX_C}{R-jX_C} \\right ] [/latex] [latex]\\;\\;=V\\angle 180^{\\circ} \\times \\left ( \\frac{\\sqrt{R^2 X_C^2}\\angle \\tan^{-1}\\left ( \\frac{X_C}{R} \\right )}{\\sqrt{R^2 X_C^2}\\angle \\tan^{-1}\\left ( \\frac{-X_C}{R} \\right )} \\right ) [/latex] [latex]\\;\\;=V\\angle \\left ( 180^{\\circ} +2 \\tan ^{-1}\\left ( \\frac{X_C}{R} \\right ) \\right ) [/latex] Magnitude of [latex]V_{YX}=V [/latex] So, option (C) and (D) can not be correct, as magnitude is 2 V in these two options. Angle of [latex]V_{YX}=180^{\\circ}+2 \\tan ^{-1}\\left ( \\frac{X_C}{R} \\right )  [/latex] When, R=0 [latex]\\angle V_{YX}=180^{\\circ}+2 \\tan ^{-1}(\\infty ) [/latex] [latex]\\;\\;=180^{\\circ}+2 \\times 90^{\\circ}=360^{\\circ} [/latex] when  [latex] R=\\infty [/latex] [latex]\\angle V_{YX}=180^{\\circ}+2 \\tan ^{-1}(0 )=180^{\\circ} [/latex] on the basis of above analysis, the locus of [latex]V_{YX}[/latex] is drawn below:",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page28_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 141 The R-L-C series circuit shown in figure is supplied from a variable frequency\r\nvoltage source. The admittance-locus of the R-L-C network at terminals AB for\r\nincreasing frequency [latex]\\omega[/latex] is",
+    "solution": "Admittance of the series connected RLC [latex]Y=\\frac{1}{R+j\\left ( \\omega L-\\frac{1}{\\omega C} \\right )} [/latex] [latex]Y=\\frac{R-j\\left ( \\omega L-\\frac{1}{\\omega C} \\right )}{R^2+\\left ( \\omega L-\\frac{1}{\\omega C} \\right )^2} [/latex] Separating, real and imaginary part of admittance. [latex]Re[Y]=\\frac{R}{R^2+\\left ( \\omega L-\\frac{1}{\\omega C} \\right )^2} [/latex] For any value of [latex]\\omega[/latex] , the real part is always positive. When, [latex]\\omega L=\\frac{1}{ \\omega C} [/latex] At,  [latex] \\omega_0=\\frac{1}{\\sqrt{LC}} [/latex] [latex]Re[Y]=\\frac{1}{R} [/latex] [latex]I_m(Y)=\\frac{-\\left ( \\omega L-\\frac{1}{\\omega C} \\right )}{R^2+\\left ( \\omega L-\\frac{1}{\\omega C} \\right )^2} =\\frac{\\left ( \\frac{1}{\\omega C}-\\omega L \\right )}{R^2+\\left ( \\omega L-\\frac{1}{\\omega C} \\right )^2} [/latex] At, [latex] \\omega_0=\\frac{1}{\\sqrt{LC}}[/latex] Imaginary part of zero [latex]\\Rightarrow \\;\\; Im(Y)=0 [/latex] For, [latex] 0 \\lt \\omega \\lt \\omega _0 [/latex] [latex]\\frac{1}{\\omega C} \\gt \\omega L [/latex] Therefore,  [latex]Im[Y] \\gt 0 [/latex] For, [latex] \\omega _0 \\lt \\omega \\lt \\infty [/latex] [latex]\\frac{1}{\\omega C}\\lt \\omega L [/latex] Therefore, [latex]Im[Y] \\lt 0[/latex] On the basis of above analysis, the admittance locus is",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page29_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 142 In the circuit shown in figure. Switch [latex]SW_1[/latex] is initially closed and [latex]SW_2[/latex] is open.\r\nThe inductor L carries a current of 10 A and the capacitor charged to 10 V with\r\npolarities as indicated. [latex]SW_2[/latex] is closed at t=[latex]0^{-}[/latex]  and [latex]SW_1[/latex] is opened at t=0. The\r\ncurrent through C and the voltage across L at t=[latex]0^{+}[/latex]  is",
+    "solution": "By KCL, [latex]\\frac{V_L}{10}-10+\\frac{V_L-10}{10}=0 [/latex] [latex]2V_L=110 [/latex] [latex]V_L=55V [/latex] [latex]I_C=\\frac{55-10}{10}=4.5A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page29_q2.webp",
+    "options": {
+      "A": "55A, 4.5V",
+      "B": "5.5A, 45V",
+      "C": "45A, 5.5V",
+      "D": "4.5A, 55V"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 143 In the figure, transformer [latex]T_1[/latex] has two secondaries, all three windings having the\r\nsame number of turns and with polarities as indicated. One secondary is shorted\r\nby a 10 [latex]\\Omega[/latex] resistor R, and the other by a 15 [latex]\\mu[/latex]F capacitor. The switch SW is opened\r\n(t=0) when the capacitor is charged to 5 V with the left plate as positive. At\r\nt=0+ the voltage [latex]V_P[/latex] and current [latex]I_R[/latex] are",
+    "solution": "All the three windings has same number of turns, so magnitude of induced emf's in all the three windings will be same i.e. [latex]|V_P|=|V_s|=|V_T|[/latex] Polarity of the winding is decided on the basis of dot-convention. As capacitor is carged to 5V with left plate as positive So, [latex]T_1[/latex] is positive w.r.t. [latex]T_2[/latex] [latex]V_T=V_{T_1}-V{T_2}=5V[/latex] As [latex]T_2[/latex] has negative polarity. So [latex]P_1[/latex] has negative polarity. Therefore , [latex]V_P=V_{P_1}-V{P_2}=-5V[/latex] Similarly,  [latex]S_1[/latex] has negative polarity So, [latex]V_s=V_{s_1}-V{s_2}=-5V[/latex] [latex]I_R=\\frac{V_s}{R}=\\frac{-5}{10}=-0.5A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page29_q3.webp",
+    "options": {
+      "A": "-25 V, 0.0 A",
+      "B": "very large voltage, very large current",
+      "C": "5.0 V, 0.5 A",
+      "D": "-5.0 V, -0.5 A"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 144 An energy meter connected to an immersion heater (resistive) operating on an\r\nAC 230 V, 50 Hz, AC single phase source reads 2.3 units (kWh) in 1 hour. The\r\nheater is removed from the supply and now connected to a 400 V peak to peak square\r\nwave source of 150 Hz. The power in kW dissipated by the heater will be",
+    "solution": "Assuming resistance of the heater=R (i)  When heater connected to 230 V, 50 Hz source, energy consumed by the heater = 2.3 units or 2.3 kWh in 1 hour Power consumed by the heater [latex]=\\frac{energy}{time \\;eriod}=\\frac{2.3kWh}{1 \\; hour}[/latex] [latex]P_1=2.3 kW[/latex] rms value of the input voltage [latex] =V_{rms}=230V [/latex] [latex]P_1=\\frac{V_{rms}^2}{R} [/latex] [latex]\\Rightarrow \\; 2.3 \\times 10^3=\\frac{230^2}{R} [/latex] [latex]\\Rightarrow \\; R=23\\Omega [/latex] (ii) When heater connected to 400 V (peak to peak) square wave source of 150Hz [latex]V_{rms}[/latex] value of the input voltage [/latex] [latex]V_{rms}=\\left [ \\frac{1}{T}\\int_{0}^{T}V^2 \\; dt \\right ]^{1/2} [/latex] [latex]V_{rms}=\\left [ \\frac{1}{T}\\left \\{ \\int_{0}^{T/2} 200^2 \\; dt+ \\int_{T/2}^{T} (-200)^2 \\; dt\\right \\} \\right ]^{1/2} [/latex] [latex]V_{rms}=200V [/latex] [latex]P_2=\\frac{V_{rms}^2}{R}=\\frac{200^2}{23}\\times 10^{-3}kW =1.739kW[/latex]",
+    "options": {
+      "A": "3.478",
+      "B": "1.739",
+      "C": "1.54",
+      "D": "0.87"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 145 An ideal capacitor is charged to a voltage [latex]V_{0}[/latex] and connected at t=0 across an\nideal inductor L. (The circuit now consists of a capacitor and inductor alone). If\nwe let [latex]\\omega _{0}=\\frac{1}{\\sqrt{LC}}[/latex], the voltage across the capacitor at time [latex]t \\gt 0[/latex] is given by",
+    "solution": "Voltage across capacitor will discharge through inductor upto voltage across the capcitor becomes zero. During thos period , electrostatic energy stored in capacitor is transferred into magnetic energy which is stored in inductor. Now, inductor will start charging capacitor, magnetic energy in inductor is converted into electostatic energy in capacitor. Expression for [latex]V_c(t)[/latex] can be obtained in s-domain. As capacitor is charged initially to voltage [latex]V_0[/latex], then representation of capacitor in s-domain As current through the inductor is zero at t=0, then The circuit at [latex]t \\gt 0[/latex] [latex]I(s)=\\frac{V_0/s}{\\frac{1}{sC}+sL}=\\frac{V_0}{s^2L+\\frac{1}{C}} I(s)=\\frac{V_0}{L}\\left ( \\frac{1}{s^2+\\frac{1}{LC}} \\right ) Voltage across capacitor =voltage across inductor [latex]=V(s),[/latex] [latex] V(s)=I(s) \\times (sL) [/latex] [latex]\\;\\;=\\frac{V_0}{L}\\left ( \\frac{1}{s^2+\\frac{1}{LC}} \\right ) \\times (sL) [/latex] [latex]\\;\\;=V_0\\left ( \\frac{s}{s^2+\\frac{1}{LC}} \\right ) [/latex] As, [latex] \\omega _0=\\frac{1}{\\sqrt{LC}}[/latex] [latex] V(s)=V_0\\left ( \\frac{s}{s^2+\\omega _0^2} \\right ) [/latex] Voltage across the capacitor [latex]=V(t)=L^{-1}[V(s)][/latex] [latex]\\;\\;=L^{-1}\\left ( \\frac{V_0s}{s^2+\\omega _0^2} \\right ) [/latex] [latex]V(t)=V_0 \\cos \\omega _0 t [/latex] where, [latex] \\omega _0=\\frac{1}{\\sqrt{LC}}[/latex]",
+    "options": {
+      "A": "[latex]V_{0}[/latex]",
+      "B": "[latex]V_{0}\\cos (\\omega _{0}t)[/latex]",
+      "C": "[latex]V_{0}\\sin (\\omega _{0}t)[/latex]",
+      "D": "[latex]V_{0}e^{-\\omega _{0}t} \\cos (\\omega _{0}t)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 146 The circuit shown in the figure is energized by a sinusoidal voltage source [latex]V_1[/latex] at a\nfrequency which causes resonance with a current of I . The phasor diagram which is applicable to this circuit is",
+    "solution": "At resonance, [latex]X_L=X_C [/latex] So,  [latex]Z=R_A+R_B [/latex] Therefore, input impedance in purely resistive, is minimum, and the input voltage and output current are in phase. So, [latex]V_1[/latex] and [latex]I[/latex] are in phase [latex]V_2=\\frac{V_1}{R_A+R_B+j(X_L-X_C)}\\times [R_B+j(X_L-X_C)] [/latex] But, [latex] X_L=X_C [/latex] [latex]V_2=\\frac{V_1}{R_A+R_B} \\times R_B [/latex] Therefore, [latex]V_2[/latex] is in phase with [latex]V_1[/latex] and [latex]V_2 \\lt V_1[/latex] voltage across the capacitor [latex] V_C=I \\times X_C=I \\times \\frac{1}{j\\omega C} [/latex] [latex]V_C=\\frac{1}{\\omega C}\\angle -90^{\\circ}[/latex] So, [latex]V_C[/latex] lags the current by [latex]90^{\\circ}.[/latex] The phasor diagram on the basis of above analysis.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page30_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 147 The parameter type and the matrix representation of the relevant two port\nparameters that describe the circuit shown are",
+    "solution": "[latex]I_1=g_{11}V_1+g_{12}I_2 [/latex] [latex]V_2=g_{21}V_1+g_{22}I_2 [/latex] Since port-1 is open circuit, [latex]I_1=0[/latex] Port-2 is short-circuit, [latex]V_2=0 [/latex] [latex]g_{11}=\\left.\\begin{matrix} \\frac{I_1}{V_1} \\end{matrix}\\right|_{I_2=0}=\\frac{0}{V_1}=0 [/latex] [latex]g_{12}=\\left.\\begin{matrix} \\frac{I_1}{I_2} \\end{matrix}\\right|_{V_1=0}=\\frac{0}{I_2}=0 [/latex] [latex]g_{21}=\\left.\\begin{matrix} \\frac{V_2}{V_1} \\end{matrix}\\right|_{I_2=0}=\\frac{0}{V_1}=0 [/latex] [latex]g_{22}=\\left.\\begin{matrix} \\frac{V_2}{I_1} \\end{matrix}\\right|_{V_1=0}=\\frac{0}{I_2}=0[/latex] So, g-parameters, [latex]=\\begin{bmatrix} g_{11} & g_{12}\\\\ g_{21}& g_{22} \\end{bmatrix}=\\begin{bmatrix} 0 &0 \\\\ 0 & 0 \\end{bmatrix}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page30_q2.webp",
+    "options": {
+      "A": "z parameters, [latex]\\begin{bmatrix} 0 & 0\\\\ 0&0 \\end{bmatrix}[/latex]",
+      "B": "h parameters, [latex]\\begin{bmatrix} 1 & 0\\\\ 0&1 \\end{bmatrix}[/latex]",
+      "C": "g parameters, [latex]\\begin{bmatrix} 0 & 0\\\\ 0&0 \\end{bmatrix}[/latex]",
+      "D": "z parameters, [latex]\\begin{bmatrix} 1 & 0\\\\ 0&1 \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 148 In the circuit shown in the figure, the current source I=1A, the voltage source\nV=5 V, [latex]R_{1}=R_{2}=R_{3}=1\\Omega ,[/latex] [latex]L_{1}=L_{2}=L_{3}=1H,[/latex] [latex]C_{1}=C_{2}=1F[/latex] The currents (in A) through [latex]R_3[/latex] and through the voltage source V respectively will be",
+    "solution": "In steady state, inductor behaves as short-circuit and capacitor behaves as open-circuit Voltage across, [latex]R_3=V=5V [/latex] Current through, [latex]R_3=I_1=\\frac{V}{R_3}=\\frac{5}{1}=5A[/latex] Apply KCL, [latex]-I+i_1-I_V=0 [/latex] Current through voltage source [latex]=I_V=I_1-1=5-1=4A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page30_q3.webp",
+    "options": {
+      "A": "1, 4",
+      "B": "5, 1",
+      "C": "5, 2",
+      "D": "5, 4"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 149 The parameters of the circuit shown in the figure are [latex]R_{i}=1M\\Omega, R_{o}=10\\Omega , A=10^{6}V/V[/latex]. If [latex]v_{i}=1 \\mu V[/latex], then output voltage, input impedance and output impedance respectively are",
+    "solution": "Output voltage [latex]V_0=AV_i[/latex] [latex] V_0=10^6 \\times 1 \\times 10^{-6}=1V [/latex] To calculate input impedance, [latex]V_{dc}[/latex] source is connected at input port Input impedance [latex]Z_i=\\frac{V_{dc}}{I_i} [/latex] as loop is not closed, [latex]I_i=0[/latex] So,  [latex]Z_i=\\frac{V_{dc}}{0}=\\infty [/latex] To calculate output impedance, [latex]V_{dc}[/latex] source is connected at output port. Output impedance, [latex]Z_o=\\frac{V_{dc}}{I_o}=\\frac{I_oR_o+AV_i}{I_o} [/latex] As [latex]V_i=0 Z_o=R_o=10\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page30_q4.webp",
+    "options": {
+      "A": "1V, [latex]\\infty[/latex],10 [latex]\\Omega[/latex]",
+      "B": "1 V, 0, 10 [latex]\\Omega[/latex]",
+      "C": "1 V,  0, [latex]\\infty[/latex]",
+      "D": "10 V, [latex]\\infty[/latex], 10 [latex]\\Omega[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 150 In the figure the current source is [latex]1\\angle 0[/latex] A, R=1[latex]\\Omega[/latex], the impedances are [latex]Z_{C} =-j \\Omega[/latex] and [latex]Z_{L}= 2j \\Omega[/latex]. The Thevenin equivalent looking into the circuit across X-Y is",
+    "solution": "To calculate Thevenin's impedance, current-souce is open-circuited [latex]Z_{th}=R+Z_L+Z_c[/latex] [latex] \\;\\;=1+2j-j [/latex] [latex]\\;\\;=1+j \\Omega [/latex] Open-circuit voltage at terminals X-Y [latex]=I \\times Z_{th} [/latex] [latex]\\;\\;=1\\angle 0 \\times (1+j) [/latex] [latex]\\;\\;=\\sqrt{2}\\angle 15^{\\circ} volts[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page30_q5.webp",
+    "options": {
+      "A": "[latex]\\sqrt{2}\\angle 0V , (1+2j)\\Omega[/latex]",
+      "B": "[latex]2\\angle 45^{\\circ}V , (1-2j)\\Omega[/latex]",
+      "C": "[latex]2\\angle 45^{\\circ}V , (1+j)\\Omega[/latex]",
+      "D": "[latex]\\sqrt{2}\\angle 45^{\\circ}V , (1+j)\\Omega[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 151 A coil of inductance 10 H and resistance 40 [latex]\\Omega[/latex]  is connected as shown in the figure. After the switch S has been in contact ith point 1 for a very long time, it is moved to point 2 at, t=0. For the value of R=40[latex]\\Omega[/latex], the time taken for 95% of the stored energy to\r\nbe dissipated is close to",
+    "solution": "The circuit (in s-domain) [latex]I(s)=\\frac{20}{(20+40+40)+10s} =\\frac{20}{10s+100}=\\frac{2}{s+10} [/latex] [latex]i(t)=L^{-1}[I(s)]=l^{-1}\\left [ \\frac{2}{s+10} \\right ] =2e^{-10t} [/latex] [latex]i(t)=i_L(0^+)e^{-\\frac{R_{eff}}{L}t} =2e^{-\\frac{(20+40+40)}{10}t}=2e^{-10t} [/latex] Initial stored energy in inductor [latex] W_0=\\frac{1}{2}Li^2_L(0^+) [/latex] [latex]\\;\\;\\; \\; =\\frac{1}{2}\\times 10 \\times 2^2=20 Joules [/latex] Remaining energy in inductor [latex]W_1=0.05[/latex] [latex]W_0=0.05 \\times 20=1 Joules [/latex] [latex]\\frac{1}{2}Li^2_1=1 [/latex] [latex]\\frac{1}{2}\\times 10 \\times i^2_1=1 [/latex] [latex]i_1=\\frac{1}{\\sqrt{5}}=0.4472A [/latex] [latex]i=2e^{-10T} [/latex] Let at [latex]t=T[/latex], current decrease to [latex]i_1[/latex] [latex] 0.4472=2e^{-10T} [/latex] [latex]T\\approx 0.15sec[/latex]",
+    "options": {
+      "A": "0.10 sec",
+      "B": "0.15 sec",
+      "C": "0.50 sec",
+      "D": "1.0 sec"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 152 A coil of inductance 10 H and resistance 40 [latex]\\Omega[/latex]  is connected as shown in the figure. After the switch S has been in contact ith point 1 for a very long time, it is moved to point 2 at, t=0. If, at t = [latex]0^{+}[/latex], the voltage across the coil is 120 V, the value of resistance R is",
+    "solution": "Before moving the switch at [latex]t=0^-[/latex] The circuit is in steady state and inductor behaves as short-circuit. The circuit at [latex]t=0^-[/latex] [latex]i_L(0^-)=\\frac{120}{20+40}=2A[/latex] After moving the switch at [latex]t=0^+[/latex] Current through inductor can not change abruptly. So, [latex]i_L(0^-)=i_L(0^+)=2A[/latex] [latex]V_L=i_L(0^+)\\times (20+R) 120= 2 \\times (20+R) R=40\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page31_q2.webp",
+    "options": {
+      "A": "0[latex]\\Omega[/latex]",
+      "B": "20[latex]\\Omega[/latex]",
+      "C": "40[latex]\\Omega[/latex]",
+      "D": "60[latex]\\Omega[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 153 Two networks are connected in cascade as shown in the figure. With usual\nnotations the equivalent A,B,C and D constants are obtained. Given that,\nC = 0.025[latex]\\angle 45^{\\circ}[/latex], the value of [latex]Z_{2}[/latex] is",
+    "solution": "[latex]V_1=AV_2+BI_2 [/latex] [latex]I_1=CV_2+DI_2 [/latex] [latex]V_2=Z_2(I_1+I_2)\\;\\;...(i) [/latex] [latex]C=\\frac{I_1}{V_2}|_{I_2=0} [/latex] Putting [latex]I_2=0[/latex] in equation (i) [latex]V_2=Z_2I_1[/latex] [latex] Z_2=\\frac{V_2}{I_1}|_{I_2=0} [/latex] [latex]\\;\\;=\\frac{1}{C}=\\frac{1}{0.025\\angle 45^{\\circ}} [/latex] [latex]Z_2=40\\angle -45^{\\circ}\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page31_q3.webp",
+    "options": {
+      "A": "10[latex]\\angle 30^{\\circ}\\Omega[/latex]",
+      "B": "40[latex]\\angle- 45^{\\circ}\\Omega[/latex]",
+      "C": "1[latex]\\Omega[/latex]",
+      "D": "0[latex]\\Omega[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 154 In the given figure, the Thevenin's equivalent pair (voltage, impedance), as seen\r\nat the terminals P-Q, is given by",
+    "solution": "To calculate [latex]R_{th}[/latex] (seen at terminals P-Q), voltage source is short-circuit [latex]V_{th}[/latex] = open-circuit voltage at terminals P-Q. [latex]V_{th}=\\frac{4}{10+10}\\times 10=2 V[/latex] Thevenin's equivalent circuit",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page31_q4.webp",
+    "options": {
+      "A": "(2V, 5[latex]\\Omega[/latex])",
+      "B": "(2V, 7.5[latex]\\Omega[/latex])",
+      "C": "(4V, 5[latex]\\Omega[/latex])",
+      "D": "(4V, 7.5[latex]\\Omega[/latex])"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 155 The circuit shown in the figure is in steady state, when the switch is closed at\r\nt = 0. Assuming that the inductance is ideal, the current through the inductor at\r\nt = [latex]0^{+}[/latex] equals",
+    "solution": "Before closing the switch, at [latex]t=0^-[/latex], the circuit is in steady state. So, inductor behaves as short-circuit [latex]i_L(0^-)=\\frac{10}{10}=1A[/latex] After closing the switch, at [latex]t=0^+[/latex] Current through inductor can not change abruptly. [latex]\\therefore \\;\\; i_L(0^+)=i_L(0^-)=1A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page31_q5.webp",
+    "options": {
+      "A": "0 A",
+      "B": "0.5 A",
+      "C": "1 A",
+      "D": "2 A"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 156 For the three-phase circuit shown in the figure, the ratio of the currents [latex]I_{R}[/latex]: [latex]I_{Y}[/latex]: [latex]I_{B}[/latex]\r\nis given by",
+    "solution": "Assuming phase sequence to be RYB Taking [latex]V_{RY}[/latex] as the reference, [latex]V_{RY}=V\\angle 0^{\\circ} [/latex] [latex]V_{YB}=V\\angle -120^{\\circ} [/latex] [latex]V_{BR}=V\\angle -240^{\\circ} [/latex] [latex]I_R=\\frac{V_{RB}}{R_1}=-\\frac{V_{BR}}{R_1} =-\\frac{V\\angle -240^{\\circ}}{R_1}=\\frac{V}{R_1}\\angle -60^{\\circ}[/latex] [latex] I_Y=\\frac{V_{YB}}{R_1} \r\n =-\\frac{V\\angle -120^{\\circ}}{R_1} [/latex] Using KCL, [latex]I_R+I_Y+I_B=0 [/latex] [latex]\\frac{V}{R_1}\\angle -60^{\\circ}+\\frac{V}{R_1}\\angle -120^{\\circ} I_B=0 [/latex] [latex]\\Rightarrow \\; I_B=\\sqrt{3}\\frac{V}{R_1}\\angle 90^{\\circ} [/latex] So,  [latex] I_R:I_Y:I_B=\\frac{V}{R_1}:\\frac{V}{R_1}:\\sqrt{3}\\frac{V}{R_1}[/latex] [latex]\\;\\;\\; =1:1:\\sqrt{3}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page32_q1.webp",
+    "options": {
+      "A": "1:1:[latex]\\sqrt{3}[/latex]",
+      "B": "1:1:2",
+      "C": "1:1:0",
+      "D": "1:1:[latex]\\sqrt{3/2}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 157 The RL circuit of the figure is fed from a constant magnitude, variable\r\nfrequency sinusoidal voltage source [latex]V_{IN}[/latex]. At 100 Hz, the R and L elements each\r\nhave a voltage drop [latex]\\mu _{RMS}[/latex]. If the frequency of the source is changed to 50 Hz,\r\nthen new voltage drop across R is",
+    "solution": "At f = 100Hz [latex]|V_R|=|V_L| [/latex] as R and L are series connected, current through R and L is same, so [latex]\\begin{aligned}IR&=IX_L=I\\omega L  \\\\ \\Rightarrow \\; R&=X_L=\\omega L  \\\\ I&=\\frac{V_{in}}{\\sqrt{R^2+X_L^2}}  \\\\ &=\\frac{V_{in}}{\\sqrt{R^2+R^2}}=\\frac{V_{in}}{\\sqrt{2}R}  \\\\ V_R&=u_{rms}=IR  \\\\ V_R&=\\left ( \\frac{V_{in}}{\\sqrt{2}R} \\right ) \\times R=\\frac{V_{in}}{\\sqrt{2}}  \\\\ V_{in}&=\\sqrt{2}u_{rms}\\;\\;...(i)  \\\\  f&=50 Hz  \\\\ X_l & \\propto f \\\\ \\text{So, }  X'_L&=X_L \\times \\frac{50}{100} \\\\ &=\\frac{X_L}{2}=\\frac{R}{2}  \\\\ I'&=\\frac{V_{in}}{\\sqrt{R^2+(X'_L)^2}}  \\\\ &=\\frac{V_{in}}{\\sqrt{R^2+\\left ( \\frac{R}{2} \\right )^2}}  \\\\ &=\\frac{2V_{in}}{\\sqrt{5}R}  \\\\ V'_R&=I'R \\\\ &=\\left ( \\frac{2V_{in}}{\\sqrt{5}R} \\right )R  \\\\ &=\\frac{2}{\\sqrt{5}}V_{in} \\\\  &\\text{From equation (i), }\\\\ V'_R&=\\frac{2}{\\sqrt{5}} \\times (\\sqrt{2}u_{rms}) \\\\  &=\\frac{2\\sqrt{2}}{\\sqrt{5}}u_{rms}=\\sqrt{\\frac{8}{5}}u_{rms}\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page32_q2.webp",
+    "options": {
+      "A": "[latex]\\sqrt{\\frac{5}{8}}\\mu _{RMS}[/latex]",
+      "B": "[latex]\\sqrt{\\frac{2}{3}}\\mu_{RMS}[/latex]",
+      "C": "[latex]\\sqrt{\\frac{8}{5}}\\mu_{RMS}[/latex]",
+      "D": "[latex]\\sqrt{\\frac{3}{2}}\\mu_{RMS}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 158 In the figure given, the initial capacitor voltage is zero. The switch is closed at t = 0. The final steady-state voltage across the capacitor is",
+    "solution": "At [latex](t\\rightarrow 0^+)[/latex]. The capacitor act as short-circuit. At [latex](t\\rightarrow \\infty )[/latex], the capacitor will become open circuit. Therefore, voltage across capacitor [latex]=\\frac{20}{10+10}\\times 10=10V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page32_q3.webp",
+    "options": {
+      "A": "20V",
+      "B": "10V",
+      "C": "5V",
+      "D": "0V"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 159 For the two port network shown in the figure, the Z-matrix is given by",
+    "solution": "[latex]v_1=(i_1+i_2)Z_1  =Z_1i_1+Z_1i_2 [/latex] [latex]v_2=Z_2i_1+Z_1(i_1+i_2) =Z_1i_1+(Z_1+Z_2)i_2 [/latex] From above, we can write, [latex]\\text{Z-matrix}=\\begin{bmatrix} Z_1 &Z_1 \\\\ Z_1 & Z_1+Z_2 \\end{bmatrix}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page32_q4.webp",
+    "options": {
+      "A": "[latex]\\begin{bmatrix} Z_{1} &Z_{1}+Z_{2} \\\\ Z_{1}+Z_{2} & Z_{2} \\end{bmatrix}[/latex]",
+      "B": "[latex]\\begin{bmatrix} Z_{1} &Z_{1} \\\\ Z_{1}+Z_{2} & Z_{2} \\end{bmatrix}[/latex]",
+      "C": "[latex]\\begin{bmatrix} Z_{1} &Z_{2} \\\\ Z_{2} & Z_{1}+Z_{2} \\end{bmatrix}[/latex]",
+      "D": "[latex]\\begin{bmatrix} Z_{1} &Z_{1} \\\\ Z_{1} & Z_{1}+Z_{2} \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 160 The RMS value of the voltage u(t)= 3 + 4 cos (3t) is",
+    "solution": "R.M.S. value of d.c voltage [latex]=V_{dc}^{(rms)}=3V[/latex] R.M.S. value of a.c. voltage [latex]=V_{ac}^{(rms)}=\\left ( \\frac{4}{\\sqrt{2}} \\right ) V[/latex] Therefore, R.M.S. value of the voltage [latex]\\sqrt{3^2+\\left ( \\frac{4}{\\sqrt{2}} \\right )^2}[/latex] [latex]=\\sqrt{9+8}=\\sqrt{17}V[/latex]",
+    "options": {
+      "A": "[latex]\\sqrt{17}[/latex] V",
+      "B": "5V",
+      "C": "7V",
+      "D": "(3+2[latex]\\sqrt{2}[/latex])V"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 161 In the figure given below the value of R is",
+    "solution": "The resultant (R) when viewed from voltage source [latex]=\\frac{100}{8}=12.5 [/latex] [latex]R+10||10=12.5\\Omega [/latex] [latex]\\therefore \\;\\; R=12.5-10||10 =12.5-5=7.5\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page33_q1.webp",
+    "options": {
+      "A": "2.5[latex]\\Omega[/latex]",
+      "B": "5.0[latex]\\Omega[/latex]",
+      "C": "7.5[latex]\\Omega[/latex]",
+      "D": "10.0[latex]\\Omega[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 162 The Z-matrix of a 2-port network as given by [latex]\\begin{bmatrix} 0.9 & 0.2\\\\ 0.2 & 0.6 \\end{bmatrix}[/latex] The element [latex]Y_{22}[/latex] of the corresponding Y-matrix of the same network is given by",
+    "solution": "[latex][z]=\\begin{bmatrix} 0.9 & 0.2\\\\ 0.2 & 0.6 \\end{bmatrix} [/latex] [latex][y]=[z]^{-1}=\\frac{\\begin{bmatrix} 0.6 & -0.2\\\\ -0.2 & 0.9 \\end{bmatrix}}{[0.9 \\times 0.6 -0.04]} =\\begin{bmatrix} 1.2 & -0.4\\\\ -0.4 & 1.8 \\end{bmatrix} [/latex] [latex]y_{22}=1.8[/latex]",
+    "options": {
+      "A": "1.2",
+      "B": "0.4",
+      "C": "-0.4",
+      "D": "1.8"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 163 The rms value of the resultant current in a wire which carries a dc current of 10\r\nA and a sinusoidal alternating current of peak value 20 A is",
+    "solution": "R.M.S value of d.c current [latex]=10A=I_{dc}[/latex] R.M.S. value of sinusoidal current [latex]=\\left ( \\frac{20}{\\sqrt{2}} \\right )A=I_{ac}[/latex] R.M.S. value of resultant, [latex]I_R=\\sqrt{I_{ds}^2+I_{ac}^2} [/latex] [latex]\\;\\;=\\sqrt{10^2+\\left ( \\frac{20}{\\sqrt{2}} \\right )^2}=17.32A[/latex]",
+    "options": {
+      "A": "14.1 A",
+      "B": "17.3 A",
+      "C": "22.4 A",
+      "D": "30.0 A"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 164 In figure, the capacitor initially has a charge of 10 Coulomb. The current in the\ncircuit one second after the switch S is closed will be",
+    "solution": "Using KVL, [latex]\\begin{aligned} 100&=R\\frac{dq}{dt}+\\frac{q}{C} \\\\ 100C &= RC\\frac{dq}{dt}+q  \\\\ \\int_{q_0}^{q}\\frac{dq}{100C-q}&=\\frac{1}{RC}\\int_{0}^{t}dt \\\\ 100C-q&=(100C-q_0)e^{-t/RC} \\\\ i=\\frac{dq}{dt}&=\\frac{100C-q_0}{RC}e^{-t/RC}\\\\ e^{-t/RC}&=40e^{-1}=14.7A \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page33_q4.webp",
+    "options": {
+      "A": "14.7 A",
+      "B": "18.5A",
+      "C": "40.0 A",
+      "D": "50.0 A"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 165 In figure, the value of resistance R in [latex]\\Omega[/latex] is",
+    "solution": "[latex]\\frac{V_P-100}{10}+\\frac{V_P}{10}+2=0 [/latex] [latex]2V_P-100+20=0[/latex] [latex] \\therefore \\;\\; V_P=40V [/latex] [latex]\\therefore \\;\\; R=\\frac{V_P}{2}=\\frac{40}{2}=20\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page33_q5.webp",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "30",
+      "D": "40"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 166 In figure, the admittance values of the elements in Siemens are [latex]Y_{R}[/latex] = 0.5 + j0, [latex]Y_{L}[/latex] = 0 - j1.5, [latex]Y_{C}[/latex] = 0 + j0.3 respectively. The value of I as a\r\nphasor when the voltage E across the elements is 10[latex]\\angle 0^{\\circ}[/latex]\r\n V is",
+    "solution": "[latex]I_R=Y_RE[/latex] [latex]\\;\\;=(0.5+j0) \\times 10\\angle 0^{\\circ}=5A [/latex] [latex]I_Y=Y_LE[/latex] [latex]\\;\\;=(0-j1.5)\\times 10\\angle 0^{\\circ}=-j15A [/latex] [latex]I_C=Y_CE[/latex] [latex]\\;\\;=(0+j0.3)\\times 10\\angle 0^{\\circ}=j3A [/latex] [latex]I=I_R+I_Y+I_C [/latex] [latex]\\;\\;=5+(-j15)+j3 \\;\\;=5-j12 A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page34_q1.webp",
+    "options": {
+      "A": "1.5 + j0.5",
+      "B": "5 - j18",
+      "C": "0.5 + j1.8",
+      "D": "5 - j12"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 167 In figure, [latex]R_{a}[/latex], [latex]R_{b}[/latex] and [latex]R_{c}[/latex] are [latex]20\\Omega[/latex], [latex]10\\Omega[/latex] and [latex]10\\Omega[/latex] respectively. The resistances [latex]R_{1},R_{2}[/latex] and [latex]R_{3}[/latex] in [latex]\\Omega[/latex] of an equivalent star-connection are",
+    "solution": "Given : [latex]R-a=20\\Omega R_b=10\\Omega [/latex] and  [latex] R_c=10\\Omega[/latex] [latex] R_1=\\frac{R_bR_c}{R_a+R_b+R_c} =\\frac{10 \\times 10}{20+10+10}=2.5\\Omega [/latex] [latex]R_2=\\frac{R_cR_a}{R_a+R_b+R_c} =\\frac{10 \\times 20}{20+10+10}=5\\Omega [/latex] [latex]R_3=\\frac{R_aR_b}{R_a+R_b+R_c}=\\frac{20 \\times 10}{20+10+10}=5\\Omega[/latex] Remember: If all the branches of [latex]\\Delta[/latex]-connection has same impedance Z, then impedance of branch of Y-connection be Z/3.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page34_q2.webp",
+    "options": {
+      "A": "2.5, 5, 5",
+      "B": "5, 2.5, 5",
+      "C": "5, 5, 2.5",
+      "D": "2.5, 5, 2.5"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 168 In figure, the value of the source voltage is",
+    "solution": "Method-1: Using KCL, [latex]\\frac{V_a-E}{6}+\\frac{V_a}{6}+1=0[/latex] [latex] \\Rightarrow \\; 2V-a-E=6\\;\\;...(i) [/latex] Where, [latex]\\frac{E-V_a}{6}=2 [/latex] [latex]\\Rightarrow \\; E-V_a=12\\;\\;...(ii)[/latex] Solving equation (i)and (ii), we get [latex]V_a=18V[/latex] and [latex]E=30V[/latex] Method-2: I=2+1=3A Applying KVL in second loop, E=2x6+3x6=30V",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page34_q3.webp",
+    "options": {
+      "A": "12 V",
+      "B": "24 V",
+      "C": "30 V",
+      "D": "44 V"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 169 The value of Z in figure, which is most appropriate to cause parallel resonance\r\nat 500 Hz is",
+    "solution": "Atresonance, the circuit should be in unity power factor. Hence, 'Z' should be capacitive. Admittance of the parallel circuit. [latex]Y=\\frac{1}{jL\\omega }+\\frac{1}{1/jC\\omega }=0 [/latex] [latex]\\frac{-1}{L\\omega }+C\\omega =0 [/latex] [latex]\\therefore \\;\\; C=\\frac{1}{L\\omega ^2}=\\frac{1}{2(2 \\pi \\times 500)^2} =0.05\\mu F[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page34_q4.webp",
+    "options": {
+      "A": "125.00 mH",
+      "B": "304.20 [latex]\\mu F[/latex]",
+      "C": "2.0 [latex]\\mu F[/latex]",
+      "D": "0.05 [latex]\\mu F[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 170 The h-parameters for a two-port network are defined by [latex]\\begin{bmatrix} E_{1}\\\\ I_{2} \\end{bmatrix}=\\begin{bmatrix} h_{11} & h_{12}\\\\ h_{21}&h_{22} \\end{bmatrix}\\begin{bmatrix} I_{1}\\\\ E_{2} \\end{bmatrix}[/latex]. For the two-port network shown in figure, the value of [latex]h_{12}[/latex] is given by",
+    "solution": "[latex]h_{12}=\\frac{E_1}{E_2}|_{I_1=0}[/latex] [latex] h_{12}[/latex]  is ratio of [latex]E_1 \\; to \\; E_2[/latex] for the input open-circuited condition. Assuming [latex]I_1=0[/latex] [latex]I_2=\\frac{E_2}{2+(2+4)||4}=\\frac{E_2}{4}[/latex] [latex] I_x=\\frac{I_2}{(2+2)+4 }\\times 4 =\\frac{I_2}{2}=\\frac{1}{2}\\left ( \\frac{E_2}{4} \\right )=\\frac{E_2}{8} [/latex] [latex]E_1=2I_x=2\\frac{E_2}{8}=\\frac{E_2}{4} [/latex] [latex]\\Rightarrow \\;\\; \\frac{E_1}{E_2}=0.25[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page34_q5.webp",
+    "options": {
+      "A": "0.125",
+      "B": "0.167",
+      "C": "0.625",
+      "D": "0.25"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 171 In the circuit shown in figure, the switch S is closed at time (t=0). The\r\nvoltage across the inductance at t=[latex]0^{+}[/latex], is",
+    "solution": "Before closing the switch, the circuit was not energized, therefore, current through inductor and voltage across capacitor are zero. After closing the switch, at [latex]t=0^+[/latex] inductor acts as open-circuit and capacitor acts as shortc ircuit. Equivalent circuit at [latex]t=0^+[/latex] [latex]I=\\frac{10}{3+4||4}=2A [/latex] [latex]V_L(0^+)I \\times (4||4) [/latex] [latex]\\;\\;=2 \\times 2=4V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page35_q1.webp",
+    "options": {
+      "A": "2 V",
+      "B": "4 V",
+      "C": "-6 V",
+      "D": "8 V"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 172 In figure, the value of R is",
+    "solution": "By KCL, [latex]\\frac{V_P-40}{1}+\\frac{V_P-100}{14}+\\frac{V_P}{2}=0 [/latex] [latex]22V_P=660 [/latex] [latex]V_P=30V[/latex] Potential difference between node x and y =60V By taking KCL at node y [latex]-I-5+\\frac{40-30}{1}=0 [/latex] [latex]\\therefore \\;\\; I= 5A  [/latex] [latex]\\therefore \\;\\;  I=\\frac{60}{5}=12\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page35_q2.webp",
+    "options": {
+      "A": "10[latex]\\Omega[/latex]",
+      "B": "18[latex]\\Omega[/latex]",
+      "C": "24[latex]\\Omega[/latex]",
+      "D": "12[latex]\\Omega[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 173 Two ac sources feed a common variable resistive load as shown in figure.\nUnder the maximum power transfer condition, the power absorbed by the load\nresistance [latex]R_{L}[/latex] is",
+    "solution": "For obtaining power absorbed by [latex]R_L[/latex] under maximum power transfer condition. We find thevenin's equivalent circuit across [latex]R_L[/latex]. [latex]Z_{th}[/latex] is calculated by short-circuting the voltage source. [latex]Z_{th}=(6+j8)||(6+j8)=3+j4\\Omega[/latex] [latex]\\frac{V_{th}-110\\angle 0^{\\circ}}{6+j8}+\\frac{V_{th}-90\\angle 0^{\\circ}}{6+j8}=0 [/latex] [latex]V_{th}=100\\angle 0^{\\circ}V[/latex] For maximum power transfer , [latex]R_L=\\sqrt{R_{th}^2+X_{th}^2}[/latex] [latex]\\;\\;=\\sqrt{3^2+4^2}=5\\Omega[/latex] [latex] I=\\frac{V_{th}}{(3+j4)+R_L}=\\frac{100}{8+j4}[/latex] [latex]\\;\\;=11.18\\angle -26.56^{\\circ}A [/latex] Power absorbed by [latex]R_L (max)[/latex] [latex]\\; =I^2R_L=11.18^2 \\times 5[/latex] [latex]\\;\\;=625W[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page35_q3.webp",
+    "options": {
+      "A": "2200 W",
+      "B": "1250 W",
+      "C": "1000 W",
+      "D": "625 W"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 174 In figure, the potential difference between points P and Q is",
+    "solution": "Given: [latex]V_R=10 V[/latex] By KCL, [latex]\\frac{V_P-10}{2}+2+\\frac{V_P}{8}=0 \\;\\;...(i) [/latex] [latex]\\frac{V_Q-10}{4}-2+\\frac{V_Q}{6}=0 \\;\\;...(ii) [/latex] From equation (i), [latex]4(V_P-10)+2 \\times 8 +V_P=0 [/latex] [latex]4V_P-40+16+V_P=0 [/latex] [latex]5V_P-24=0 [/latex] [latex]V_P=4.8 [/latex] From equation (ii), [latex]6(V_Q-10)-2 \\times 4 \\times 6 +4V_Q=0 [/latex] [latex]10V_Q-108=0 [/latex] [latex]V_Q=10.8 [/latex] [latex]\\therefore \\;\\;\\; V_P-V_Q=-6V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page35_q4.webp",
+    "options": {
+      "A": "12 V",
+      "B": "10 V",
+      "C": "-6 V",
+      "D": "8 V"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 175 In the circuit of figure, the magnitudes of [latex]V_{L}[/latex] and [latex]V_{C}[/latex] are twice that of [latex]V_{R}[/latex]. Given\r\nthat f = 50 Hz, the inductance of the coil is",
+    "solution": "[latex]V=V_R+i(V_L-V_C) [/latex] Since, [latex] |V_L|=|V_C| [/latex] and [latex] |V_L|=2|V_R|[/latex] Therefore, the circuit is at resonance and [latex]V_R=V[/latex] Quality factor [latex]=\\frac{V_L}{V}=\\frac{V_L}{V_R}=\\frac{2V_R}{V_R}=2[/latex] As we know, [latex]Q=\\frac{\\omega _0L}{R} [/latex] [latex]\\Rightarrow \\;\\; 2=\\frac{2 \\pi f \\times L}{5} [/latex] [latex]\\Rightarrow \\;\\;L=31.8mH[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page35_q5.webp",
+    "options": {
+      "A": "2.14 mH",
+      "B": "5.30 H",
+      "C": "31.8 mH",
+      "D": "1.32 H"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 176 In the figure, [latex]Z_{1}=10\\angle -60 ^{\\circ} , Z_{2}=10\\angle 60^{\\circ} , Z_{3}=50\\angle 53.13^{\\circ}[/latex]. The venin impedance\r\nseen form X-Y is",
+    "solution": "By Thevenin's theorem [latex]Z_{Th}=Z_{X-Y}=Z_1||Z_2+Z_3 [/latex] [latex]\\;\\;=\\frac{Z_1 \\times Z_2}{Z_1+Z_2}+Z_3 [/latex] [latex]\\;\\;=\\frac{10\\angle -60 \\times 10\\angle 60}{10\\angle -60 + 10\\angle 60}+50\\angle 53.13 [/latex] [latex]\\;\\;=56.66\\angle 45^{\\circ}\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page36_q1.webp",
+    "options": {
+      "A": "[latex]56.66\\angle 45^{\\circ}[/latex]",
+      "B": "[latex]60\\angle 30^{\\circ}[/latex]",
+      "C": "[latex]70\\angle 30^{\\circ}[/latex]",
+      "D": "[latex]34.4\\angle 65^{\\circ}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 177 A segment of a circuit is shown in figure. [latex]V_{R}[/latex] = 5V, [latex]V_{C}[/latex] = [latex]4 \\sin 2t[/latex]. The voltage [latex]V_{L}[/latex] is\r\ngiven by",
+    "solution": "By KCL, [latex]I_P+I_Q+I_C+I_L=0[/latex] [latex] 2+2+I_C+I_L=0 [/latex] But,  [latex]I_C=C \\times \\frac{dv}{dt} [/latex] [latex]\\;\\; =1 \\times \\frac{d}{dt}(4 \\sin 2t) [/latex] [latex]\\;\\;=(8 \\cos 2t) [/latex] [latex]\\therefore \\;\\; I_L=-(2+1+8 \\cos 2t) [/latex] [latex]\\;\\; \\;\\;=-3-8 \\cos 2t [/latex] [latex]\\therefore \\;\\; V_L=L\\left ( \\frac{di}{dt} \\right )[/latex] [latex]\\;\\;\\;=2 \\times 2 \\times 8 \\sin 2t [/latex] [latex]\\;\\;\\;=32 \\sin 2t[/latex] NOTE: KCL is based on the law of conservation of charges.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page36_q2.webp",
+    "options": {
+      "A": "[latex]3-8 \\cos 2t[/latex]",
+      "B": "[latex]32 \\sin 2t[/latex]",
+      "C": "[latex]16 \\sin 2t[/latex]",
+      "D": "[latex]16 \\cos 2t[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 178 Figure Shows the waveform of the current passing through an inductor of\nresistance [latex]1\\Omega[/latex] and inductance 2 H. The energy absorbed by the inductor in the first four seconds is",
+    "solution": "For [latex]0 \\lt t \\lt 2s[/latex] current varies linearly with time and given as [latex]i(t)=3t[/latex] and for [latex]2s \\lt t \\lt 4s[/latex] current is constant, [latex]i(t)=6A[/latex]. The energy absorbed by the inductor (Resistance neglected) in the first 2 sec, [latex]E_L=\\int_{0}^{T}Li\\frac{di}{dt}=E_{L_1}+E_{L_2} [/latex] [latex]E_{L_1}=\\int_{0}^{2}Li \\left (\\frac{di}{dt} \\right )dt [/latex] [latex]\\;\\;=\\int_{0}^{2} 2 \\times 3t \\times 3\\; dt [/latex] [latex]\\;\\;=18\\int_{0}^{2}t\\; dt [/latex] [latex]\\;\\;=18 \\times \\left.\\begin{matrix} \\frac{t^2}{2} \\end{matrix}\\right|^2_0 [/latex] [latex]\\;\\;= 18 \\times \\left [ \\frac{4}{2}-0 \\right ]=36J [/latex] The energy absorbed by the inductor in ([latex]2\\rightarrow 4[/latex]) second [latex]E_{L_2}=\\int_{2}^{4}Li\\left ( \\frac{di}{dt}dt \\right ) [/latex] [latex]\\;\\;=\\frac{2}{4}2 \\times 6 \\times 0 \\;dt=0 J[/latex] A pure indictor does not dissipate enegy but only stores it. Due to resistance, some energy is dissipated in the resistor. Therefore, total energy stored in the inductor and the energy dissipated in the resistor. The energy dissipated by the resistance in 4 sec. [latex]E_R=\\int_{0}^{T}i^2 R\\;dt [/latex] [latex]\\;\\;=\\int_{0}^{2}(3t)^2 \\times 1 \\;dt+\\int_{2}^{4}6^2 \\times 1 \\; dt[/latex] [latex] \\;\\;=9\\int_{0}^{2}t^2\\;dt +36\\int_{2}^{4}1 \\; dt [/latex] [latex]\\;\\;=9 \\times \\left.\\begin{matrix} \\frac{t^3}{3} \\end{matrix}\\right|_0^2+36t|_2^4[/latex] [latex] \\;\\;=9 \\times \\left ( \\frac{8}{3} \\right )+36 \\times 2 [/latex] [latex]\\;\\;=24+72=96J[/latex] The total energy absorbed by the inductor in 4 sec [latex] =96 J +36 J =132 J[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page36_q3.webp",
+    "options": {
+      "A": "144J",
+      "B": "98J",
+      "C": "132J",
+      "D": "168J"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 179 In the circuit shown in figure, the switch is closed at time t=0.\r\nThe steady state value of the voltage [latex]V_c[/latex] is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page36_q4.webp",
+    "options": {
+      "A": "0 V",
+      "B": "10 V",
+      "C": "5 V",
+      "D": "2.5 V"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 180 Consider the circuit shown in figure. If the frequency of the source is 50 Hz,\r\nthen a value of [latex]t_{0}[/latex] which results in a transient free response is",
+    "solution": "For transient free response, [latex]\\tan(\\omega t_0)=\\frac{\\omega L}{R} [/latex] [latex]\\tan(2 \\pi \\times 50 \\times t_0)=\\frac{2 \\pi \\times 50 \\times 0.01}{5} [/latex] [latex]2 \\pi \\times 50 \\times t_0=\\tan ^{-1}\\left ( \\frac{\\pi}{5} \\right ) [/latex] [latex]\\;\\;=32.14^{\\circ}=0.561 rad [/latex] [latex]t_0=\\frac{0.561}{100 \\pi}=1.786ms[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page36_q5.webp",
+    "options": {
+      "A": "0 ms",
+      "B": "1.78 ms",
+      "C": "2.71 ms",
+      "D": "2.91 ms"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 181 In the circuit shown in figure, it is found that the input ac voltage [latex]\\left ( V_{i} \\right )[/latex]  and current i are in phase. The coupling coefficient is [latex]K=\\frac{M}{\\sqrt{L_{1}L_{2}}}[/latex], where M is the mutual inductance between the two coils. The value of K and the dot polarity of\r\nthe coil P-Q are",
+    "solution": "Input ac voltage and current will be in phase only at resonance condition, i.e. [latex]X_C=X_L [/latex] [latex]|-j12|=|j8+j8+2k\\sqrt{(j8)\\times (j8)}|[/latex] [latex] 12=8+8+16k [/latex] [latex]\\Rightarrow \\; k=-\\frac{4}{16}=-0.25[/latex] Hence, coupling will be opposite. Therefore, Dot will be at Q.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page37_q1.webp",
+    "options": {
+      "A": "K = 0.25 and dot at P",
+      "B": "K = 0.5 and dot at P",
+      "C": "K = 0.25 and dot at Q",
+      "D": "K = 0.5 and dot at Q"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 182 An 11 V pulse of 10 [latex]\\mu s[/latex] duration is applied to the circuit shown in figure.\r\nAssuming that the capacitor is completely discharged prior to applying the pulse,\r\nthe peak value of the capacitor voltage is",
+    "solution": "[latex]V_c(t)=V_c(\\infty )-[V_c(\\infty )-V_c(0 )]e^{-t/RC} [/latex] [latex]V_c(peak)=10-(10-0)e^{\\frac{10 \\times 10^{-6}}{\\frac{10}{11} \\times 10^3 \\times 11 \\times 10^{-9}}} \r\n =10(1-e^{-1})=6.32V[/latex] [latex] (Where \\;\\;R_{net}=10||1=\\frac{10}{11}k\\Omega ) [/latex] [latex]V_c(\\infty )=11 \\times \\frac{10}{10+1}=10V [/latex] and [latex]\\because[/latex] pulse of duration [latex]10\\mu s[/latex] is applies. Hence, capacitor charges till [latex]10\\mu s[/latex]  and then starts discharging, so [latex]V_c[/latex] will be maximum at [latex]t=10\\mu s[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page37_q2.webp",
+    "options": {
+      "A": "11 V",
+      "B": "5.5 V",
+      "C": "6.32 V",
+      "D": "0.96 V"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 183 A series R-L-C circuit has R=[latex]50\\Omega[/latex], L=[latex]100\\mu [/latex] and C=[latex]1\\mu[/latex]. The lower half power frequency of the circuit is",
+    "solution": "[latex]\\omega _0=\\frac{1}{\\sqrt{LC}}[/latex] [latex]\\;\\;=\\frac{1}{\\sqrt{100 \\times 10^{-6} \\times 10^{-6}}}=10^5 r/s [/latex] [latex]\\Delta \\omega =\\frac{R}{L}=\\frac{50}{100 \\times 10^{-6}}[/latex] [latex]\\;\\;=50 \\times 10^4 r/s [/latex] [latex]\\omega _{lower}=\\left [ \\sqrt{\\omega _0^2+\\left ( \\frac{\\Delta \\omega }{2} \\right )^2}- \\frac{\\Delta \\omega }{2}\\right ] [/latex] [latex]\\;\\;=\\left [ \\sqrt{(10^5)^2+\\left ( \\frac{5 \\times 10^5}{2} \\right )^2}-\\frac{5 \\times 10^5}{2} \\right ] [/latex] [latex]\\;\\;=10^5\\left [ \\sqrt{1+6.25}-2.5 \\right ] [/latex] [latex]\\;\\;=0.193 \\times 10^5 r/s [/latex] Hence, [latex] f_{lower}=\\frac{\\omega _{lower}}{2 \\pi}[/latex] [latex]\\;\\;=\\frac{0.193 \\times 10^5}{2 \\pi} [/latex] [latex]\\;\\;=3065 Hz\\approx 3.055kHz[/latex]",
+    "options": {
+      "A": "30.55 kHz",
+      "B": "3.055 kHz",
+      "C": "51.92 kHz",
+      "D": "1.92 kHz"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 184 A first order, low pass filter is given with R=50 [latex]\\Omega[/latex] and C=[latex]5\\mu F[/latex]. What is the\r\nfrequency at which the gain of the voltage transfer function of the filter is 0.25?",
+    "solution": "[latex]T.F.=\\frac{V_o}{V_i}=\\frac{\\frac{1}{j\\omega C}}{R+\\frac{1}{j\\omega C}}[/latex] [latex]\\;\\;\\;=\\frac{1}{1+j\\omega CR} [/latex] [latex]\\therefore \\; \\; |Gain|=\\frac{1}{\\sqrt{1+(\\omega CR)^2}} [/latex] [latex]\\;\\;0.25=\\frac{1}{\\sqrt{1+(\\omega \\times 5 \\times 10^{-6} \\times 50)^2}} [/latex] On solving, [latex]\\omega =15.49 \\times 10^3 r/s [/latex] [latex]\\Rightarrow \\;\\; f=\\frac{15.49}{2 \\pi}=2.46 kHz[/latex]",
+    "options": {
+      "A": "4.92 kHz",
+      "B": "0.49 kHz",
+      "C": "2.46 kHz",
+      "D": "24.6 kHz"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 185 In the circuit shown in figure, what value of C will cause a unity power factor at\r\nthe ac source?",
+    "solution": "[latex]Y=j\\omega C+\\frac{1}{30\\angle 40^{\\circ}} [/latex] [latex]\\;\\;=j\\omega C+0.0255-j0.0214 [/latex] [latex]\\;\\;=0.0255+j(\\omega C-0.0214) [/latex] [latex]\\;\\;=Real(Y)+k Img(Y) [/latex] To have unity power factor at ac source i.e. resonance condition, [latex]Img(Y)=0 [/latex] [latex]\\Rightarrow \\;\\omega C-0.0214=0 [/latex] [latex]\\because \\; \\omega =2 \\pi \\times 50[/latex] [latex] \\therefore \\; C=\\frac{0.0214}{100 \\pi}=68.1\\mu F[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page37_q5.webp",
+    "options": {
+      "A": "[latex]68.1\\mu F[/latex]",
+      "B": "[latex]165\\mu F[/latex]",
+      "C": "[latex]0.681\\mu F[/latex]",
+      "D": "[latex]6.81\\mu F[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 186 A two port network, shown in figure is described by the following equations [latex]I_1=Y_{11}E_1+Y_{12}E_2[/latex] [latex]I_2=Y_{21}E_1+Y_{22}E_2[/latex] The admittance parameters [latex]Y_{11}, Y_{12},Y_{21},Y_{22}[/latex] for the network shown are",
+    "solution": "Using KVL, [latex]E_1=2I_1+2(I_1+I_2) [/latex] Again using KVL, [latex]E_2=2I_2+2(I_1+I_2) [/latex] [latex]\\Rightarrow \\;\\; [z]=\\begin{bmatrix} 4 & 2\\\\ 2 & 4 \\end{bmatrix}[/latex] [latex] [y]=[z]^{-1} [/latex] [latex]\\;\\;=\\frac{1}{(4 \\times 4 )-(2 \\times 2)}\\begin{bmatrix} 4 & -2\\\\ -2 & 4 \\end{bmatrix} [/latex] [latex]\\begin{bmatrix} Y_{11} & Y_{12}\\\\ Y_{21} & Y_{22} \\end{bmatrix}=\\begin{bmatrix} 1/3 & -1/6\\\\ -1/6 & 1/3 \\end{bmatrix}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page38_q1.webp",
+    "options": {
+      "A": "0.5 mho, 1 mho, 2 mho and 1 mho respectively",
+      "B": "1/3 mho, -1/6 mho, -1/6 mho and 1/3 mho respectively",
+      "C": "0.5 mho, 0.5 mho, 1.5 mho and 2 mho respectively",
+      "D": "-2/5 mho, -3/7 mho, 3/7 mho and 2/5 mho respectively"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 187 The graph of an electrical network has N nodes and B branches. The number of\nlinks, L, with respect to the choice of a tree, is given by",
+    "solution": "Number of links =B-(N-1) =B-N+1",
+    "options": {
+      "A": "B - N + 1",
+      "B": "B + N",
+      "C": "N - B + 1",
+      "D": "N - 2B -1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 188 A 240 V single-phase ac source is connected to a load with an impedance of\r\n[latex]10\\angle 60^{\\circ}\\Omega[/latex]. A capacitor is connected in parallel with the load. If the capacitor\r\nsupplies 1250 VAR, the real power supplied by the source is",
+    "solution": "",
+    "options": {
+      "A": "3600 W",
+      "B": "2880 W",
+      "C": "2400 W",
+      "D": "1200 W"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 189 Consider the star network shown in figure. The resistance between terminals A\r\nand B with terminal C open is [latex]6\\Omega[/latex], between terminals B and C with terminal A open is [latex]11\\Omega[/latex], and between terminals C and A with terminal B open is [latex]9\\Omega[/latex]. Then",
+    "solution": "When C is open, [latex]R_{AB}=R_A+R_B=6\\Omega[/latex] When B is open, [latex]R_{AC}=R_A+R_C=9\\Omega[/latex] When A is open, [latex]R_{BC}=R_B+R_C=11\\Omega[/latex] On solving the above equations [latex]R_A=2\\Omega ,R_B=4\\Omega[/latex] and [latex]R_C=7\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ec/page38_q4.webp",
+    "options": {
+      "A": "[latex]R_{A}[/latex] = [latex]4\\Omega[/latex],  [latex]R_{B}[/latex] = [latex]2\\Omega[/latex],  [latex]R_{C}[/latex]= [latex]5\\Omega[/latex]",
+      "B": "[latex]R_{A}[/latex] = [latex]2\\Omega[/latex],  [latex]R_{B}[/latex] = [latex]4\\Omega[/latex],  [latex]R_{C}[/latex]= [latex]7\\Omega[/latex]",
+      "C": "[latex]R_{A}[/latex] = [latex]3\\Omega[/latex],  [latex]R_{B}[/latex] = [latex]3\\Omega[/latex],  [latex]R_{C}[/latex]= [latex]4\\Omega[/latex]",
+      "D": "[latex]R_{A}[/latex] = [latex]5\\Omega[/latex],  [latex]R_{B}[/latex] = [latex]1\\Omega[/latex],  [latex]R_{C}[/latex]= [latex]10\\Omega[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 190 A connected network of [latex]N\\gt 2[/latex] nodes has at most one branch directly connecting\r\nany pair of nodes. The graph of the network",
+    "solution": "",
+    "options": {
+      "A": "must have at least N branches for one or more closed paths to exist",
+      "B": "can have an unlimited number of branches",
+      "C": "can only have at most N branches",
+      "D": "can have a minimum number of branches not decided by N"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 191 A passive 2-port network is in a steady-state. Compared to its input, the steady\nstate output can never offer",
+    "solution": "For a passive two port network, output powe can never be grater than input power.",
+    "options": {
+      "A": "higher voltage",
+      "B": "lower impedance",
+      "C": "greater power",
+      "D": "better regulation"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 192 Given two coupled inductors [latex]L_{1}[/latex] and [latex]L_{2}[/latex], their mutual inductance M satisfies",
+    "solution": "[latex]M=K\\sqrt{L_1L_2} [/latex] where , K= coefficient of coupling [latex]\\because \\; 0 \\lt K \\lt 1 [/latex] [latex]\\therefore \\; M \\leq \\sqrt{L_1L_2}[/latex]",
+    "options": {
+      "A": "[latex]M=\\sqrt{L^{2}_{1}+L^{2}_{2}}[/latex]",
+      "B": "[latex]M \\gt  \\frac{\\left ( L_{1}+L_{2} \\right )}{2}[/latex]",
+      "C": "[latex]M\\gt \\sqrt{L_{1}L_{2}}[/latex]",
+      "D": "[latex]M\\leq \\sqrt{L_{1}L_{2}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 193 A unit step voltage is applied at t = 0 to a series RL circuit with zero initial\nconditions.",
+    "solution": "At [latex]t=0^+[/latex] inductor works as open circuit. Hence, complete source voltage drops across it and consequently, current through the resistor R is zero. Hence, voltage across the resistor at [latex]t=0^+[/latex] is zero. And further with time it rises accroding to [latex]V_R(t)=(1-e^{-Rt/L})u(t)[/latex].",
+    "options": {
+      "A": "It is possible for the current to be oscillatory.",
+      "B": "The voltage across the resistor at t = [latex]0^{+}[/latex] is zero.",
+      "C": "The energy stored in the inductor in the steady state is zero.",
+      "D": "The resistor current eventually falls to zero."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 194 Two incandescent light bulbs of 40 W and 60 W rating are connected in series\nacross the mains. Then",
+    "solution": "[latex]\\because \\;\\;P\\propto \\frac{1}{R}[/latex] Therefore , resistance of 40 W bulb [latex]\\gt[/latex] resistance of 60 W bulb. For series connection, current through both the bulbs will be same [latex]P=I^2R[/latex] (for series connection). Power consumed by 40 W bulb [latex]\\gt[/latex]Power consumed by 60 W bulb. Hencem the 40 W bulb glows brighter.",
+    "options": {
+      "A": "the bulbs together consume 100 W",
+      "B": "the bulbs together consume 50W",
+      "C": "the 60 W bulb glows brighter",
+      "D": "the 40 W bulb glows brighter"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 195 In a series RLC circuit at resonance, the magnitude of the voltage developed\nacross the capacitor",
+    "solution": "In a series RLC circuit, at resonance [latex]V_L=jQV_{source} [/latex] and  [latex] V_c=-jQV_{source} [/latex] also for  [latex] Q \\gt 1, |V_c| \\gt |V_{source}|[/latex] Hence, option (C) is correct.",
+    "options": {
+      "A": "is always zero",
+      "B": "can never be greater than the input voltage",
+      "C": "can be greater than the input voltage, however, it is [latex]90^{\\circ}[/latex] out of phase with\r\nthe input voltage",
+      "D": "can be greater than the input voltage, and is in phase with the input voltage."
+    },
+    "correct_answer": "C"
+  }
+]

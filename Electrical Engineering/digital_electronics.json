@@ -1,0 +1,1273 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 A Boolean function is given as [latex]f=(\\bar{u}+\\bar{v}+\\bar{w}+\\bar{x}) \\cdot(\\bar{u}+\\bar{v}+\\bar{w}+x) \\cdot(\\bar{u}+v+\\bar{w}+\\bar{x}) \\cdot(\\bar{u}+v+\\bar{w}+x)[/latex] The simplified form of this function is represented by",
+    "solution": "[latex]\nf=(\\bar{u}+\\bar{v}+\\bar{w}+\\bar{x})(\\bar{u}+\\bar{v}+\\bar{w}+x)(\\bar{u}+v+\\bar{w}+\\bar{x})(\\bar{u}+v+\\bar{w}+x)\n[/latex] Given is a POS function The integer form of the given function",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page1_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 To obtain the Boolean function [latex] F(X, Y)=X \\bar{Y}+\\bar{X} [/latex], the inputs [latex] P Q R S [/latex] in the figure should be",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page1_q2.webp",
+    "options": {
+      "A": "[latex] 1010 [/latex]",
+      "B": "[latex] 1110[/latex]",
+      "C": "[latex] 0110[/latex]",
+      "D": "[latex] 0001 [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 In the circuit, the present value of [latex] Z [/latex] is 1 . Neglecting the delay in the combinatorial circuit, the values of [latex] S [/latex] and [latex] Z [/latex], respectively, after the application of the clock will be",
+    "solution": "Based on this trick [latex]\n\\begin{array}{ll|lll}\nx & \\oplus & x & = & 0 \\\\\nx & \\oplus & \\bar{x} & = & 1 \\\\\nx & \\oplus & 1 & = & \\bar{x} \\\\\nx & \\oplus & 0 & = & x\n\\end{array}\n [/latex] [latex]\n\\overline{x \\oplus y}=x \\odot y=0 \\odot 1=0\n [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page1_q3.webp",
+    "options": {
+      "A": "[latex] S=0, Z=0 [/latex]",
+      "B": "[latex] S=0, Z=1 [/latex]",
+      "C": "[latex] S=1, Z=0 [/latex]",
+      "D": "[latex] S=1, Z=1 [/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 Simplified form of the Boolean function: [latex]\nF(P, Q, R, S)=\\bar{P} \\bar{Q}+\\bar{P} Q S+P \\bar{Q} \\bar{R} \\bar{S}+P \\bar{Q} R \\bar{S}\n [/latex] is",
+    "solution": "Minimize function [latex] =\\bar{Q} \\bar{S}+\\bar{P} S [/latex]",
+    "options": {
+      "A": "[latex] \\bar{P} S+\\bar{Q} \\bar{S} [/latex]",
+      "B": "[latex] \\bar{P} \\bar{Q}+\\bar{Q} \\bar{S} [/latex]",
+      "C": "[latex] \\bar{P} Q+R \\bar{S} [/latex]",
+      "D": "[latex] P \\bar{S}+Q \\bar{R} [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 In a given 8-bit general purpose micro-controller there are following flags. C-Carry, A-Auxiliary Carry, O-Overflow flag, PParity ( 0 for even, 1 for odd) R0 and R 1 are the two general purpose registers of the microcontroller. After execution of the following instructions, the decimal equivalent of the binary sequence of the flag pattern [CAOP] will be MOV R0, +0x60 MOV R1, +0x46 ADD R0, R 1",
+    "solution": "MOV [latex]R_{0},+0 \\times 60 \\Rightarrow R_{0} \\leftarrow 60 \\mathrm{H}[/latex] MOV [latex]R_{1},+0 \\times 46 \\Rightarrow \\mathrm{R}_{1} \\leftarrow 46 \\mathrm{H}[/latex] ADD [latex]R_{0}, R_{1}[/latex] : [latex]\r\n\\begin{array}{lllllllll}\r\n0 & 1 & 0 & 0 & 0 & 1 & 1 & 0 & \\rightarrow 46 \\mathrm{H} \\\\\r\n\\hline\r\n1 & 0 & 1 & 0 & 0 & 1 & 1 & 0 & \\rightarrow \\mathrm{A} 6 \\mathrm{H} \\\\\r\n\\hline\r\n\\end{array}\r\n[/latex] Now, carry flag [latex](C Y)=0[/latex] Auxiliary carry [latex](\\mathrm{AC})=0[/latex] [latex]\\left[\\because\\right.[/latex] No carry fro [latex]D_{3}[/latex] to [latex]\\left.D_{4}\\right][/latex] [latex]\\because \\mathrm{MSB}=1[/latex], overflow flag [latex]=1[/latex] [latex]P=0[\\because[/latex] Four 1's i.e. even numb er [latex]][/latex]\r\n\r\n[latex]\\therefore[/latex] Required Flag patter [latex]=[[/latex] CAOP [latex]][/latex] [latex]\r\n=[0010]_{2}=2\r\n[/latex]",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 6 Neglecting the delays due to the logic gates in the circuit shown in figure, the decimal equivalent of the binary sequence [ABCD] of initial logic states, which will not change with clock, is",
+    "solution": "Redraw the circuit : From circuit : [latex]\r\n\\begin{array}{c|ccc|cccc}\r\n&  &  &  &\\overline{\\mathrm{Q}_{2}} & \\mathrm{Q}_{2} & \\overline{\\mathrm{Q}}_{1} & \\mathrm{Q}_{1} \\oplus \\mathrm{Q}_{2}   \\\\\r\n\\mathrm{CLK} & \\mathrm{D} & \\mathrm{Q}_{1} & \\mathrm{Q}_{0} & \\mathrm{~A} & \\mathrm{~B} & \\mathrm{C} & \\mathrm{D} \\\\\r\n\\hline\r\n1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\\\\r\n2 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\\\\r\n\\hline\r\n\\end{array}\r\n[/latex] [latex]\\therefore \\quad A B C D=(1000)_{2}=(8)_{10}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page2_q1.webp",
+    "min": 8.0,
+    "max": 8.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 An 8-bit ADC converts analog voltage in the range of 0 to [latex]+5 \\mathrm{~V}[/latex] to the corresponding digital code as per the conversion characteristics shown in figure. For [latex]\\mathrm{V}_{\\text {in }}=1,9922 \\mathrm{~V}[/latex], which of the following digital output, given in hex is true?",
+    "solution": "Resolution [latex]=\\frac{V_{F S}}{2^{n}-1}=\\frac{5}{2^{8}-1}=0.0196 \\mathrm{~V}[/latex] Now, No. of step [latex]=\\frac{\\mathrm{V}_{\\text {in }}}{\\text { Resolution }}[/latex]\n\n[latex]\n=\\frac{1.9922}{0.0196}=(101.64)_{10}\n[/latex] For [latex](101)_{10}[/latex] the analog input is less than [latex]1.9922 \\mathrm{~V}[/latex]. So, here we take [latex](102)_{10}[/latex]. [latex]\\therefore \\quad(102)_{10}=66 \\mathrm{H}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page2_q2.webp",
+    "options": {
+      "A": "[latex]64 \\mathrm{H}[/latex]",
+      "B": "[latex]65 \\mathrm{H}[/latex]",
+      "C": "[latex]66 \\mathrm{H}[/latex]",
+      "D": "[latex]67 \\mathrm{H}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 8 The maximum clock frequency in MHz of a 4-stage ripple counter, utilizing flipflops, with each flip-flop having a propagation delay of 20 ns, is ___________.\n(round off to one decimal place)",
+    "solution": "[latex] f_{max}=\\frac{1}{nt_p}=\\frac{1}{4 \\times 20 \\times 10^{-9}}=12.50MHz [/latex]",
+    "min": 12.3,
+    "max": 12.7
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 A MOD 2 and a MOD 5 up-counter when cascaded together results in a MOD ______\ncounter. (in integer)",
+    "solution": "Overall MOD = 2 x 5 = 10",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 A counter is constructed with three D flip-flops. The input-output pairs are named [latex](D_{0},\\:Q_{0}), (D_{1},\\:Q_{1})[/latex] and [latex](D_{2},\\:Q_{2})[/latex], where the subscript 0 denotes the least significant bit. The output sequence is desired to be the Gray-code sequence [latex]000, \\:001, \\:011,\\: 010, \\:110,\\:111,\\: 101[/latex] and [latex]100[/latex], repeating periodically. Note that the bits are listed in the [latex]Q_{2}\\:Q_{1}\\:Q_{0}[/latex] format. The combinational logic expression for [latex]D_{1}[/latex] is",
+    "solution": "[latex]D_{1}=\\bar{Q}_{2} Q_{0}+Q_{1} \\bar{Q}_{0}[/latex]",
+    "options": {
+      "A": "[latex]Q_{2}Q_{1}Q_{0}[/latex]",
+      "B": "[latex]Q_{2}Q_{0}+Q_{1}\\overline{Q_{0}}[/latex]",
+      "C": "[latex]\\overline{Q_{2}}Q_{0}+Q_{1}\\overline{Q_{0}}[/latex]",
+      "D": "[latex]Q_{2}Q_{1}+\\overline{Q_{2}}\\:\\overline{Q_{1}}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 11 A 16-bit synchronous binary up-counter is clocked with a frequency [latex]f_{\\text{CLK}}[/latex].The two most significant bits are [latex]\\text{OR-ed}[/latex] together to form an output Y. Measurements show that Y is periodic, and the duration for which Y remains high in each period is [latex]\\text{24 ms}[/latex]. The clock frequency [latex]f_{\\text{CLK}}[/latex] is ___________[latex]\\text{MHz}[/latex]. (Round off to 2 decimal places.)",
+    "solution": "[latex]y = 1[/latex] for 24 m sec [latex] \\begin{array}{llcccc} & & Q_{15} & Q_{14} & \\ldots \\ldots & Q_{0} \\\\ y=1 & \\text { Starts at } & 0100 & 0000 & 0000 & 0000 \\\\ y=1 & \\text { Ends at } & 1111 & 1111 & 1111 & 1111 \\end{array}[/latex] Total number of states for which [latex]y=1[/latex] is [latex]2^{16}-2^{14}[/latex] [latex] \\begin{aligned} \\text { Time is }\\left(2^{16}-2^{14}\\right) T &=24 \\mathrm{msec} \\\\ f &=\\frac{1}{T}=2.05 \\mathrm{MHz} \\end{aligned}[/latex]",
+    "min": 2.0,
+    "max": 2.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 An 8085 microprocessor accesses two memory locations (2001 H) and (2002H), that\ncontain 8-bit numbers 98H and B1H respectively. The following program is executed: LXI H, 2001 H MVIA, 21H INX H ADD M INX H MOV M, A HLT At the end of this program, the memory location 2003H contains the number in decimal\n(base 10) form ________",
+    "solution": "[latex]\\begin{aligned} LXI H, 2001 H & \\rightarrow  [HL]  \\rightarrow 2001 H \\\\MVI A, 21 H & \\rightarrow [A]  \\leftarrow 21 H \\\\INX H & \\rightarrow [HL]  \\rightarrow 2002 H \\\\ ADD M & \\rightarrow [A] + [2002]  \\rightarrow [A] \\\\ &= (21H + B1 H)  \\rightarrow [A] \\\\ &= D2 H  \\rightarrow [A] \\\\ INX H & \\rightarrow [HL]  \\rightarrow 2003 H \\\\  MOV M, A & \\rightarrow [2003] \\leftarrow [A] \\\\ [2003] &= D2 H = (1101\\; 0010)_2 \\\\ &= 1 \\times 2^7+1\\times 2^6+1\\times 2^4 +1\\times 2^1 \\\\&= 128 + 64 + 16 + 2 \\\\&= 210 \\end{aligned}[/latex]",
+    "min": 210.0,
+    "max": 210.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 A sequence detector is designed to detect precisely 3 digital inputs, with overlapping\r\nsequences detectable. For the sequence (1,0,1) and input data (1,1,0,1,0,0,1,1,0,1,0,1,1,0): what is the output of this detector?",
+    "solution": "Given overlapping sequence input data [latex]= 11010011010110[/latex] It will give output [latex]1[/latex] when [latex]101[/latex] is detected. [latex]\\begin{aligned} 110 - 0\\\\ 101 - 1\\\\ 010 - 0\\\\ 100 - 0\\\\ 001 - 0\\\\ 011 - 0\\\\ 110 - 0\\\\ 101 - 1\\\\ 010 - 0\\\\ 101 - 1\\\\ 011 - 0\\\\ 110 - 0\\\\ \\end{aligned}[/latex] So, output [latex]= 010000010100[/latex]",
+    "options": {
+      "A": "1,1,0,0,0,0,1,1,0,1,0,0",
+      "B": "0,1,0,0,0,0,0,1,0,1,0,0",
+      "C": "0,1,0,0,0,0,0,1,0,1,1,0",
+      "D": "0,1,0,0,0,0,0,0,1,0,0,0"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 In  the  circuit  shown  below,  X and Y are  digital  inputs,  and Z is  a  digital  output.  The equivalent circuit is a",
+    "solution": "The Boolean expression for the output of the digital circuit is shown below The above expression is of XOR gate.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page3_q4.webp",
+    "options": {
+      "A": "NAND  gate",
+      "B": "NOR gate",
+      "C": "XOR gate",
+      "D": "XNOR gate"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 The output expression for the Karnaugh map shown below is",
+    "solution": "[latex]Output=Q\\bar{R}+S[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page3_q5.webp",
+    "options": {
+      "A": "[latex]Q\\bar{R}+S[/latex]",
+      "B": "[latex]Q\\bar{R}+\\bar{S}[/latex]",
+      "C": "[latex]QR+S[/latex]",
+      "D": "[latex]QR+\\bar{S}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Digital input signals A,B,C with A as the MSB and C as the LSB are used to realize the\nBoolean function [latex]F=m_{0}+m_{2}+m_{3}+m_{5}+m_{7}, \\; where \\; m_{i}[/latex] denotes the [latex]i^{th}[/latex] minterm. In addition, F has a don't care for [latex]m_1[/latex]. The simplified expression for F is given by",
+    "solution": "Given, [latex]f=m_0+m_2+m_3+m_5+m_7[/latex] and [latex]m_1=[/latex] don't care",
+    "options": {
+      "A": "[latex]\\bar{A}\\bar{C}+\\bar{B}C+AC[/latex]",
+      "B": "[latex]\\bar{A}+C[/latex]",
+      "C": "[latex]\\bar{C}+A[/latex]",
+      "D": "[latex]\\bar{A}C+BC+A\\bar{C}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Which one of the following statements is true about the digital circuit shown in the figure",
+    "solution": "So, frequency will be divided by 5.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page4_q2.webp",
+    "options": {
+      "A": "It can be used for dividing the input frequency by 3.",
+      "B": "It can be used for dividing the input frequency by 5.",
+      "C": "It can be used for dividing the input frequency by 7.",
+      "D": "It cannot be reliably used as a frequency divider due to disjoint internal cycles."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 In the logic circuit shown in the figure, Y is given by",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page4_q3.webp",
+    "options": {
+      "A": "Y = ABCD",
+      "B": "Y = (A + B)(C + D)",
+      "C": "Y = A + B + C + D",
+      "D": "Y = AB + CD"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 For the synchronous sequential circuit shown below, the output Z is zero for the initial\nconditions  [latex]Q_{A}Q_{B}Q_{C}=Q_{A}'Q_{B}'Q'_{C}=100[/latex] The minimum number of clock cycles after which the output Z would again become zero is ________",
+    "solution": "The output Z will again become zero after 6th clock cycle.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page4_q4.webp",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 For a 3-input logic circuit shown below, the output Z can be expressed as",
+    "solution": "[latex]Z=\\overline{\\overline{P\\bar{Q}}\\cdot Q\\cdot \\overline{Q\\cdot R} } [/latex] [latex]\\;\\;=P\\bar{Q}+\\bar{Q}+Q R [/latex] [latex]\\;\\;=\\bar{Q}(P+1)+QR [/latex] [latex]\\;\\;=\\bar{Q}+QR [/latex] [latex]\\;\\;=(\\bar{Q}+Q)(\\bar{Q}+R) [/latex] [latex]\\;\\;=\\bar{Q}+R[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page4_q5.webp",
+    "options": {
+      "A": "[latex]Q+\\bar{R}[/latex]",
+      "B": "[latex]P\\bar{Q}+R[/latex]",
+      "C": "[latex]\\bar{Q}+R[/latex]",
+      "D": "[latex]P+\\bar{Q}+R[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 The logical gate implemented using the circuit shown below where, [latex]V_1 \\; and \\; V_2[/latex] are inputs (with\r\n0 V as digital 0 and 5 V as digital 1) and [latex]V_{OUT}[/latex] is the output is",
+    "solution": "When [latex]V_1=[/latex] high 5 V, [latex]Q_1[/latex] on, [latex]V_{out}=0[/latex] [latex]V_2=[/latex] high 5 V, [latex]Q_2[/latex] on, [latex]V_{out}=0[/latex] Thus when any [latex]V_1[/latex] or [latex]V_2[/latex] is high then, [latex]V_{out}=0[/latex] Thus, it is a NOR gate.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page5_q1.webp",
+    "options": {
+      "A": "NOT",
+      "B": "NOR",
+      "C": "NAND",
+      "D": "XOR"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 The output expression for the Karnaugh map shown below is",
+    "solution": "[latex]ABC+B\\bar{D}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page5_q2.webp",
+    "options": {
+      "A": "[latex]B\\bar{D}+BCD[/latex]",
+      "B": "[latex]B\\bar{D}+AB[/latex]",
+      "C": "[latex]B\\bar{D}+ABC[/latex]",
+      "D": "[latex]B\\bar{D}+ABC[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 The Boolean expression [latex]AB + A\\bar{C} + BC[/latex] simplifies to",
+    "solution": "[latex]BC+A\\bar{C}[/latex]",
+    "options": {
+      "A": "[latex]BC+A\\bar{C}[/latex]",
+      "B": "[latex]AB+A\\bar{C}+B[/latex]",
+      "C": "[latex]AB+A\\bar{C}[/latex]",
+      "D": "[latex]AB+BC[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 The Boolean expression [latex]\\overline{(a+\\bar{b}+c+\\bar{d})+(b+\\bar{c})}[/latex] simplifies to",
+    "solution": "[latex]F=\\overline{(a+\\bar{b}+c+d)+(b+\\bar{c})} [/latex] [latex]\\;\\;=\\overline{(a+\\bar{b}+c+d)}\\cdot \\overline{(b+\\bar{c})} [/latex] [latex]\\;\\;=\\bar{a}\\cdot b\\cdot \\bar{c}\\cdot d \\cdot \\bar{b} \\cdot c [/latex] [latex]F=0[/latex]",
+    "options": {
+      "A": "1",
+      "B": "[latex]\\overline{a.b}[/latex]",
+      "C": "a.b",
+      "D": "0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 The output expression for the Karnaugh map shown below is",
+    "solution": "[latex]F=A+\\bar{C}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page5_q5.webp",
+    "options": {
+      "A": "[latex]A+\\bar{B}[/latex]",
+      "B": "[latex]A+\\bar{C}[/latex]",
+      "C": "[latex]\\bar{A}+\\bar{C}[/latex]",
+      "D": "[latex]\\bar{A}+C[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 A 2-bit flash Analog to Digital Converter (ADC) is given below. The input is [latex]0 \\leq V_{IN} \\leq 3[/latex] Volts. The expression for the LSB of the output [latex]B_0[/latex] as a Boolean function of [latex]X_{2},X_{1} \\; and \\;  X_{0}[/latex] is",
+    "solution": "The input to digital circuuit is [latex]X_2,X_1,X_0[/latex] and output is [latex]B_1,B_0[/latex] [latex]B_0=\\bar{X_2}\\bar{X_1}X_0+X_2X_1X_0 [/latex] [latex]\\;\\;=X_0(\\bar{X_2}\\bar{X_1}+X_2X_1)[/latex] [latex] \\;\\;=X_0(\\overline{X_2\\oplus X_1})[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page6_q1.webp",
+    "options": {
+      "A": "[latex]X_{0}[\\overline{X_{2}\\oplus X_{1}}][/latex]",
+      "B": "[latex]\\bar{X_{0}}[\\overline{X_{2}\\oplus X_{1}}][/latex]",
+      "C": "[latex]X_{0}[{X_{2}\\oplus X_{1}}][/latex]",
+      "D": "[latex]\\bar{X_{0}}[X_{2}\\oplus X_{1}][/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 The current state [latex]Q_{A}Q_{B}[/latex] of a two JK flip-flop system is 00. Assume that the clock rise-time is much smaller than the delay of the JK flip-flop. The next state of the system is",
+    "solution": "From the figure we get [latex]J_A=K_A=1 [/latex] [latex]J_B=K_B=\\bar{Q_A}[/latex] So, next state will be 11.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page6_q2.webp",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "11",
+      "D": "10"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Consider the following circuit which uses a 2-to-1 multiplexer as shown in the figure below. The Boolean expression for output F in terms of A and B is",
+    "solution": "In the given multiplexer, [latex]I=0=\\bar{A}, I_1=A [/latex] [latex]Select =B [/latex] [latex]F=\\bar{B}I_0+BI_1 [/latex] [latex]F=\\bar{B}\\bar{A}+AB=\\overline{A\\oplus B}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page6_q3.webp",
+    "options": {
+      "A": "[latex]A\\oplus B[/latex]",
+      "B": "[latex]\\overline{A+B}[/latex]",
+      "C": "[latex]A+B[/latex]",
+      "D": "[latex]\\overline{A\\oplus B}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 A temperature in the range of -40[latex]^{\\circ}[/latex]C to 55[latex]^{\\circ}[/latex]C is to be measured with a resolution of 0.1[latex]^{\\circ}[/latex]C. The minimum number of ADC bits required to get a matching dynamic range of the temperature sensor is",
+    "solution": "Temperature range of [latex]-40^{\\circ}C \\; to \\; 55^{\\circ}C[/latex] So. Total range in [latex]95^{\\circ}C[/latex] Since, resolution is [latex]0.1^{\\circ}C[/latex] So, number of steps will be 950 To have 950 steps, we need at least 10 bits.",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "14"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 A Boolean function f(A,B,C,D)= [latex]\\Pi[/latex](1,5,12,15) is to be implemented using an 8x1 multiplexer (A is MSB). The inputs ABC are connected to the select inputs [latex]S_2S_1S_0[/latex] of the multiplexer respectively. Which one of the following options gives the correct inputs to pins 0,1,2,3,4,5,6,7 in order?",
+    "solution": "Boolean function  [latex]f(A,B,C,D)=\\Pi (1,5,12,15)[/latex] is implemented with 8x1 MUX",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page6_q5.webp",
+    "options": {
+      "A": "[latex]D,0,D,0,0,0,\\bar{D},D[/latex]",
+      "B": "[latex]\\bar{D},1,\\bar{D},1,1,1,D,\\bar{D}[/latex]",
+      "C": "[latex]D,1,D,1,1,1,\\bar{D},D[/latex]",
+      "D": "[latex]\\bar{D},0,\\bar{D},0,0,0,\\bar{D},D[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 In the following sequential circuit, the initial state (before the first clock pulse) of the circuit is [latex]Q_{1}Q_{0}[/latex]=00. The state ([latex]Q_{1}Q_{0}[/latex]), immediately after the [latex]333^{rd}[/latex] clock pulse is",
+    "solution": "From the circuit, we can find out that [latex]J_0=Q'_1,\\;K_0=Q_1 [/latex] [latex]J_1=Q_0,\\;K_1=Q'_0[/latex] So state diagram is at every 4th clock, the system is at 00 So, at 332 it will be at 00 So, at 333 clock it will be at 01.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page7_q1.webp",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "10",
+      "D": "11"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 Consider the following Sum of Products expression, F. [latex]F=ABC+\\bar{A}\\bar{B}C+A\\bar{B}C+\\bar{A}BC+\\bar{A}\\bar{B}\\bar{C}[/latex] The equivalent Product of Sums expression is",
+    "solution": "The SOP form of F is ( shown in K-map) So,POS form can be formed using '0' from the K-map. [latex]POS=(A+\\bar{B}+C)(\\bar{A}+B+C)(\\bar{A}+\\bar{B}+C)[/latex]",
+    "options": {
+      "A": "[latex]F=(A+\\bar{B}+C)(\\bar{A}+B+C)(\\bar{A}+\\bar{B}+C)[/latex]",
+      "B": "[latex]F=(A+\\bar{B}+\\bar{C})(A+B+C)(\\bar{A}+\\bar{B}+\\bar{C})[/latex]",
+      "C": "[latex]F=(A+\\bar{B}+\\bar{C})(A+\\bar{B}+\\bar{C})(A+B+C)[/latex]",
+      "D": "[latex]F=(A+\\bar{B}+\\bar{C})(A+B+\\bar{C})(A+B+C)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 An 8-bit, unipolar Successive Approximation Register type ADC is used to convert 3.5 V to digital equivalent output. The reference voltage is +5 V. The output of the ADC, at the end of 3rd clock pulse after the start of conversion, is",
+    "solution": "The reference voltage is 5 V. The number of bits in ADC are 8. So, the resolution will be [latex]=\\frac{5}{2^8-1}=\\frac{5}{255}[/latex] The applied input is 3.5 V. The succesive approximation ADC start working from the MSB so, After one clock: SAR will toggle it's MSB from [latex]0\\rightarrow 1[/latex]. So, output of SAR will be 1000 0000. After second clock: SAR will toggle its 7th bit from [latex]0\\rightarrow 1[/latex] but 1100 0000 will result in value greater than 3.5. So, output of SAR after 2nd clock will be 1000 0000. After third clock: SAR will toggle it's 6th bit from [latex]0\\rightarrow 1[/latex] and output will be 1010 0000.",
+    "options": {
+      "A": "1010 0000",
+      "B": "1000 0000",
+      "C": "0000 0001",
+      "D": "1000 0000"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 f(A,B,C,D)=[latex]\\Pi[/latex]M(0,1,3,4,5,7,9,11,12,13,14,15) is a maxterm representation of a Boolean function f(A,B,C,D) where A is the MSB and D is the LSB. The equivalent minimized representation of this function is",
+    "solution": "",
+    "options": {
+      "A": "[latex](A+\\bar{C}+D)(\\bar{A}+B+D)[/latex]",
+      "B": "[latex](A\\bar{C}D)+(\\bar{A}BD)[/latex]",
+      "C": "[latex]\\bar{A}C\\bar{D}+A\\bar{B}C\\bar{D}+A\\bar{B}\\bar{C}\\bar{D}[/latex]",
+      "D": "[latex](B+\\bar{C}+D)(A+\\bar{B}+\\bar{C}+D)(\\bar{A}+B+C+D)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 The figure shows a digital circuit constructed using negative edge triggered J-K flip flops. Assume a starting state of [latex]Q_{2}Q_{1}Q_{0}=000[/latex]. This state [latex]Q_{2}Q_{1}Q_{0}=000[/latex] will repeat after _______ number of cycles of the clock CLK",
+    "solution": "JK flip-flop1 and 2 from a syncgronous sequential circuits and they are synchronized with the output of 0th JK flip-flop. Number of cycles = 3 i.e. equal to 6 clock cycles.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page7_q5.webp",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 In the 4 x 1 multiplexer, the output F is given by [latex]F=A\\oplus B[/latex]. Find the required input '[latex]I_{3}I_{2}I_{1}I_{0}[/latex]'.",
+    "solution": "[latex]F=A\\oplus B [/latex] [latex]\\;\\;=\\bar{A}B+A\\bar{B} [/latex] [latex]\\;\\;=\\bar{A}\\bar{B}I_0+\\bar{A}BI_1+A\\bar{B}I_2+ABI_3 [/latex] [latex]\\Rightarrow \\; I_0=0, I_1=1, I_2=1, i_3=0 [/latex] [latex]I_3I_2I_1I_0=0110[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page8_q1.webp",
+    "options": {
+      "A": "1010",
+      "B": "110",
+      "C": "1000",
+      "D": "1110"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 A 3-bit gray counter is used to control the output of the multiplexer as shown in\nthe figure. The initial state of the counter is [latex]000_2[/latex]. The output is pulled high. The\noutput of the circuit follows the sequence",
+    "solution": "For [latex]\\begin{matrix} A_2 & A_1 & A_0 & S_0 & S_1\\\\ 0 & 0 & 0 & 0 & 0 \\end{matrix}[/latex] MUX is enabled and output is [latex]I_0[/latex] For [latex]\\begin{matrix} A_2 & A_1 & A_0 & S_0 & S_1\\\\ 0 & 0 & 1 & 0 & 0 \\end{matrix}[/latex] MUX is disable and output is '1' similarly, for",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page8_q2.webp",
+    "options": {
+      "A": "[latex]I_{0}1,1,I_{1},I_{3},1,1,I_{2}[/latex]",
+      "B": "[latex]I_{0},1,I_{1},1,I_{2},1,I_{3},1[/latex]",
+      "C": "[latex]1,I_{0},1,I_{1},I_{2},1,I_{3},1[/latex]",
+      "D": "[latex]I_{0},I_{1},I_{2},I_{3},I_{0},I_{1},I_{2},I_{3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 In 8085A microprocessor, the operation performed by the instruction LHLD 2100H is",
+    "solution": "",
+    "options": {
+      "A": "[latex](H)\\leftarrow 21_{H},(L) \\leftarrow 00_{H}[/latex]",
+      "B": "[latex](H)\\leftarrow M(2100_{H}),(L) \\leftarrow M(2101_{H})[/latex]",
+      "C": "[latex](H)\\leftarrow M(2101_{H}),(L) \\leftarrow M(2100_{H})[/latex]",
+      "D": "[latex](H)\\leftarrow 00_{H},(L) \\leftarrow 21_{H}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 A state diagram of a logic gate which exhibits a delay in the output is shown in\nthe figure, where X is the don't care condition, and Q is the output representing\nthe state.\nThe logic gate represented by the state diagram is",
+    "solution": "If any one of the input is zero, output is 1 and for both inputs as '1' , output is '0', which represents the NAND gate.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page8_q4.webp",
+    "options": {
+      "A": "XOR",
+      "B": "OR",
+      "C": "AND",
+      "D": "NAND"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 In an 8085 microprocessor, the following program is executed At the end of program, register A contains",
+    "solution": "For the RAR operation and [latex]B\\leftarrow 04[/latex] Similarly for each RAR operation the content of B is decremented by '1' till it becomes 00H. Thus, [latex]B\\leftarrow 04\\;\\; A\\leftarrow 00000011 [/latex] [latex]B\\leftarrow 03\\;\\; A\\leftarrow 10000001 [/latex] [latex]B\\leftarrow 02\\;\\; A\\leftarrow 11000000 [/latex] [latex]B\\leftarrow 01\\;\\; A\\leftarrow 01100000 B\\leftarrow 00[/latex] Therefore, at the end of the program, egister 'A' contains 60H.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page8_q5.webp",
+    "options": {
+      "A": "60H",
+      "B": "30H",
+      "C": "06H",
+      "D": "03H"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 A JK flip flop can be implemented by T flip-flops. Identify the correct implementation.",
+    "solution": "To obtain a JK flip-flop from a T flip-flop, we first constuct the characteristic table of JK flip-flop, and then obtain the excitation values for the T flip-flop as shown below Now, assuming T to be an output, we solve it in terms of J, K, [latex]Q_n[/latex] inputs. This gives the defination of the logic to be applied on the T input. Also, observing the given options, we solve for T using a maxterms map instead of using a minterms map, as shown below [latex]T=(J+Q_n)\\cdot (K+\\bar{Q_n})[/latex] The circuit corresponding to this expression is given in option (B).",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page9_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 The SOP (sum of products) form of a Boolean function is [latex]\\Sigma [/latex](0,1,3,7,11), where\ninputs are A, B, C , D (A is MSB, and D is LSB). The equivalent minimized expression of the function is",
+    "solution": "The 4 variable Boolean function is given in canonical sum of product form as, [latex]f(A,B,C,D)=\\Sigma (0,1,3,7,11)[/latex] As the options are given in the simplified product of sum form, we first convert the given function in canonical product of sum form, as under [latex]f(A,B,C,D)=\\Pi (2,4,5,6,8,9,10,12,13,14,15)[/latex] Now by plotting the above function on a 4 variable K-map (Maxterm map), we obtain the simplified expression of the function [latex]f=(\\bar{B}+C)\\cdot (\\bar{A}+C)\\cdot (\\bar{A}+\\bar{B})\\cdot (\\bar{C}+D)[/latex]",
+    "options": {
+      "A": "[latex](\\bar{B}+C)(\\bar{A}+C)(\\bar{A}+\\bar{B})(\\bar{C}+D)[/latex]",
+      "B": "[latex](\\bar{B}+C)(\\bar{A}+C)(\\bar{A}+\\bar{C})(\\bar{C}+D)[/latex]",
+      "C": "[latex](\\bar{B}+C)(\\bar{A}+C)(\\bar{A}+\\bar{B})(\\bar{C}+\\bar{D})[/latex]",
+      "D": "[latex](\\bar{B}+C)(A+\\bar{B})(\\bar{A}+\\bar{B})(\\bar{C}+D)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 Which of the following is an invalid state in an 8-4-2-1 Binary Coded Decimal counter",
+    "solution": "Binary coded decimal counter counts from 0 to 9. So, 1100 is an initial state i.e. 12.",
+    "options": {
+      "A": "1 0 0 0",
+      "B": "1 0 0 1",
+      "C": "0 0 1 1",
+      "D": "1 1 0 0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 An output device is interfaced with 8-bit microprocessor 8085A. The interfacing\ncircuit is shown in figure The interfacing circuit makes use of 3 Line to 8 Line decoder having 3 enables lines [latex]E_1,\\bar{E_2},\\bar{E_3}[/latex]. The address of the device is",
+    "solution": "For the given decoder [latex]E-=A_{12}\\bar{A_{11}}=1 (enable) [/latex] [latex]\\therefore \\;\\; A_{12} [/latex] should be HIGH and  [latex]A_{11} [/latex] should be LOW. Also,  [latex]E_2=E_3=0(disable) [/latex] The decoder output depends on  [latex]I_2=A_{15}, I_1=A_{14} [/latex] and  [latex]I_0=A_{13}  [/latex]which should be 010 respectively to enable the output port. The address of the device is 5000H-57FFH,",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page9_q4.webp",
+    "options": {
+      "A": "[latex]50_H[/latex]",
+      "B": "[latex]5000_H[/latex]",
+      "C": "[latex]A0_H[/latex]",
+      "D": "[latex]A000_H[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 Which of the following logic circuits is a realization of the function F whose\nKarnaugh map is shown in figure",
+    "solution": "[latex]F=\\bar{A}\\bar{C}+BC[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page9_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 A cascade of three identical modulo-5 counters has an overall modulus of",
+    "solution": "Overall modulus =5 x 5 x 5=125",
+    "options": {
+      "A": "5",
+      "B": "25",
+      "C": "125",
+      "D": "625"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 In the circuit shown below, [latex]Q_{1}[/latex] has negligible collector-to-emitter saturation\nvoltage and the diode drops negligible voltage across it under forward bias. If [latex]V_{cc}[/latex]\nis +5 V, X and Y are digital signals with 0 V as logic 0 and [latex]V_{cc}[/latex] as logic 1, then\nthe Boolean expression for Z is",
+    "solution": "[latex]\\Rightarrow \\;\\;Z=\\bar{X}Y[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page10_q2.webp",
+    "options": {
+      "A": "XY",
+      "B": "[latex]\\bar{X}Y[/latex]",
+      "C": "[latex]X\\bar{Y}[/latex]",
+      "D": "[latex]\\overline{XY}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 The clock frequency applied to the digital circuit shown in the figure below is\r\n1 kHz. If the initial state of the output Q of the flip-flop is '0', then the frequency of\r\nthe output waveform Q in kHz is",
+    "solution": "[latex]x=\\overline{(Q\\oplus \\bar{Q})\\cdot (Q \\odot \\bar{Q})}[/latex] [latex] \\;\\;=\\overline{1\\cdot 0}=1 [/latex] [latex] \\because \\;\\; X=1=T \\Rightarrow [/latex]  Q always toggle whenever clock triggers. [latex]\\therefore \\; f_Q=\\frac{f_{clk}}{2}=\\frac{1kHz}{2}=0.5kHz[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page10_q3.webp",
+    "options": {
+      "A": "0.25",
+      "B": "0.5",
+      "C": "1",
+      "D": "2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 A bulb in a staircase has two switches, one switch being at the ground floor and the other one at the first floor. The bulb can be turned ON and also can be turned OFF by any one of the switches irrespective of the state of the other switch. The logic of switching of the bulb resembles",
+    "solution": "Truth table of XOR gate is, So, from the XOR gate truth table, it is clear that the bulb can be turned ON and also can be turned OFF by any one of the switched irrespective of the state of the other switch.",
+    "options": {
+      "A": "and AND gate",
+      "B": "an OR gate",
+      "C": "an XOR gate",
+      "D": "a NAND gate"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 The state transition diagram for the logic circuit shown is",
+    "solution": "When A=1, then Q will be selected by MUX and feedback to D flip-flop which gives output Q again. So, at A=1, it holds its state. When A=0, then [latex]\\bar{Q}[/latex] will be selected by MUX and feedback to D flip-flop and output will be inverted. Hence, for A=1, it holds the state and for A=0, it interchange the state i.e. if Q=0 then it will go to Q=1 and then it will go to Q=0. THerefore, option (D) is correct.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page10_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 Consider the given circuit In this circuit, the race around",
+    "solution": "The above circuit is S-R flip-flop. The race around condition occurs in J-K flip-flop.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page11_q1.webp",
+    "options": {
+      "A": "does not occur",
+      "B": "occur when CLK = 0",
+      "C": "occur when CLK = 1 and A = B = 1",
+      "D": "occur when CLK = 1 and A = B = 0"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 The output Y of a 2-bit comparator is logic 1 whenever the 2-bit input A is\ngreater than the 2-bit input B. The number of combinations for which the output\nis logic 1, is",
+    "solution": "[latex]\\begin{matrix} A & B & No. of cases\\\\ 01 & 00 & 1\\\\ 10 &00,01 &2 \\\\ 11 &00,01,10 &3\\\\ & & total=6 \\end{matrix}[/latex]",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "8",
+      "D": "10"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 In the sum of products function f(X,Y,Z)=[latex]\\sum[/latex](2,3,4,5), the prime implicants are",
+    "solution": "[latex]f(X,Y,Z)=\\Sigma (2,3,4,5)[/latex] [latex]\\therefore \\;\\; f(X,Y,Z)=X\\bar{Y}+\\bar{X}Y[/latex]",
+    "options": {
+      "A": "[latex]\\bar{X}Y,X\\bar{Y}[/latex]",
+      "B": "[latex]\\bar{X}Y,X\\bar{Y}\\bar{Z},X\\bar{Y}Z[/latex]",
+      "C": "[latex]\\bar{X}Y\\bar{Z},\\bar{X}YZ,X\\bar{Y}[/latex]",
+      "D": "[latex]\\bar{X}Y\\bar{Z},\\bar{X}YZ,X\\bar{Y}\\bar{Z},X\\bar{Y}Z[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 A two bit counter circuit is shown below If the state [latex]Q_A Q_B[/latex] of the counter at the clock time [latex]t_n[/latex] is '10' then the state [latex]Q_AQ_B[/latex] of the counter at [latex]t_n+3[/latex] (after three clock cycles) will be",
+    "solution": "[latex]Q_AQ_B \\; at \\; t_n+3[/latex] is '10'",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page11_q4.webp",
+    "options": {
+      "A": "00",
+      "B": "01",
+      "C": "10",
+      "D": "11"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 A portion of the main program to call a subroutine SUB in an 8085 environment\r\nis given below. :\r\n:\r\n     LXI D, DISP\r\nLP : CALL SUB\r\n:\r\n: It is desired that control be returned to LP+DISP+3 when the RET instruction\r\nis executed in the subroutine. The set of instructions that precede the RET\r\ninstruction in the subroutine are",
+    "solution": "Call takes 3 address locations, RET always returns to LP+3 location, this stored in SP. So to return to LP+DISP+3. We have to add DISP to SP. POP H DAD D PUSH H Normal call operation shown.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page11_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 The output Y of the logic circuit given below is",
+    "solution": "[latex]Y=x\\bar{\\bar{x}}+\\bar{x}\\bar{x}=1[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page12_q1.webp",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "X",
+      "D": "[latex]\\bar{X}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 The following Karnaugh map represents a function F. Which of the following circuits is a realization of the above function",
+    "solution": "From the figure, it is clear that, two NAND gates generate the [latex]\\bar{X}[/latex] and [latex]\\bar{Y}[/latex] and now two AND gates with i/p [latex]\\bar{X}[/latex] and [latex]\\bar{Y}[/latex] and inputs Y and Z is used to generate two terms of SOP form and OR gate is used to sum them and generate th F.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page12_q2.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 The following Karnaugh map represents a function F. A minimized form of the function F is",
+    "solution": "[latex]F=\\bar{X}\\bar{Y}+YZ[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page12_q3.webp",
+    "options": {
+      "A": "[latex]F=\\bar{X}Y+YZ[/latex]",
+      "B": "[latex]F=\\bar{X}\\bar{Y}+YZ[/latex]",
+      "C": "[latex]F=\\bar{X}\\bar{Y}+Y\\bar{Z}[/latex]",
+      "D": "[latex]F=\\bar{X}\\bar{Y}+\\bar{Y}Z[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 When a \"CALL Addr\" instruction is executed, the CPU carries out the following\nsequential operations internally : Note: (R) means content of register R ((R)) means content of memory location pointed to by R. PC means Program Counter SP means Stack Pointer",
+    "solution": "First of all content of PC is loaded into stack i.e. address of next instruction to be executed is loaded onto stack. i.e.  SP is decremented then PC is loaded by address given in call instruction.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page12_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 The TTL circuit shown in the figure is fed with the waveform X (also shown).\nAll gates have equal propagation delay of 10 ns. The output Y of the circuit is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page12_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 In an 8085 microprocessor, the contents of the Accumulator, after the following\ninstructions are executed will become XRA A MVI B, F0 H SUB B",
+    "solution": "",
+    "options": {
+      "A": "01 H",
+      "B": "0F H",
+      "C": "F0 H",
+      "D": "10 H"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 The complete set of only those Logic Gates designated as Universal Gates is",
+    "solution": "NOR and NAND are designated as universal logic gates because using any one of them, we can omplement all the logic gates.",
+    "options": {
+      "A": "NOT, OR and AND Gates",
+      "B": "XNOR, NOR and NAND Gates",
+      "C": "NOR and NAND Gates",
+      "D": "XOR, NOR and NAND Gates"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 The increasing order of speed of data access for the following device is (I) Cache Memory (II) CD-ROM (III) Dynamic RAM (IV) Processor Registers (V) Magnetic Tape",
+    "solution": "Access time of the residter is very less than that from a memory access. So speed of data access is faster in case of processor register. Second highest is cache memory because it's size is small, so searching of data takes less time.",
+    "options": {
+      "A": "(V), (II), (III), (IV), (I)",
+      "B": "(V), (II), (III), (I), (IV)",
+      "C": "(II), (I), (III), (IV), (V)",
+      "D": "(V), (II), (I), (III), (IV)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 The content of some of the memory location in an 8085 accumulator based system\r\nare given below The content of stack (SP), program counter (PC) and (H,L) are 2700H, 2100H\r\nand 0000H respectively. When the following sequence of instruction are executed. 2100 H: DAD SP 2101 H: PCHL the content of (SP) and (PC) at the end of execution will be",
+    "solution": "Given, (SP) = 2700H (PC)=2100H (HL)=0000H 2100H : DAD SP (SP) +(HL) [latex]\\rightarrow[/latex] (HL) 2700H +0000H =2700H stored in HL pair. 2101H : PCHL : the content of HL are transferred to (PC) So, now (PC) =2700H and (SP) also unchanged (PC)=2700H (SP)=2700H",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page13_q4.webp",
+    "options": {
+      "A": "PC = 2102H, SP = 2700H",
+      "B": "PC = 2700H, SP = 2700H",
+      "C": "PC = 2800H, SP = 26FEH",
+      "D": "PC = 2A02H, SP = 2702H"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 A 3-line to 8-line decoder, with active low outputs, is used to implement a\n3-variable Boolean function as shown in the figure The simplified form of Boolean function F(A,B,C) implemented in 'Product of Sum' form will be",
+    "solution": "Let us consider active high input [latex]F=\\Sigma (1,3,5,6)=\\Pi M(0,2,4,7) [/latex] [latex]\\;\\;=(Y+Z)\\cdot (X+Z)\\cdot (\\bar{X}+\\bar{Y}+\\bar{Z})[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page13_q5.webp",
+    "options": {
+      "A": "[latex](X+Z)(\\bar{X}+\\bar{Y}+\\bar{Z})(Y+Z)[/latex]",
+      "B": "[latex](\\bar{X}+\\bar{Z})(X+Y+Z)(\\bar{Y}+\\bar{Z})[/latex]",
+      "C": "[latex](\\bar{X}+\\bar{Y}Z)(\\bar{X}+Y+Z)[/latex] [latex](X+\\bar{Y}+Z)(X+Y+\\bar{Z})[/latex]",
+      "D": "[latex](\\bar{X}+\\bar{Y}+\\bar{Z})(\\bar{X}+Y+\\bar{Z})[/latex] [latex](X+Y+Z)(X+\\bar{Y}+\\bar{Z})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 An input device is interfaced with Intel 8085A microprocessor as memory mapped\nI/O. The address of the device is 2500H. In order to input data from the device\nto accumulator, the sequence of instructions will be",
+    "solution": "",
+    "options": {
+      "A": "LXI H, 2500H MOV A, M",
+      "B": "LXI H, 2500H MOV M, A",
+      "C": "LHLD 2500H MOV A, M",
+      "D": "LHLD 2500H MOV M, A"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 The associated figure shows the two types of rotate right instructions [latex]R_1,R_2[/latex],\navailable in a microprocessor where Reg is a 8-bit register and C is the carry bit.\nThe rotate left instructions [latex]L_1 \\; and \\;L_2[/latex] are similar except that C now links the\nmost significant bit of Reg instead of the least significant one. Such a division can be correctly performed by the following set of operatings",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page14_q2.webp",
+    "options": {
+      "A": "L2, R2, R1",
+      "B": "L2, R1, R2",
+      "C": "R2, L1, R1",
+      "D": "R1, L2, R2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 The associated figure shows the two types of rotate right instructions R_1, R_2,\r\navailable in a microprocessor where Reg is a 8-bit register and C is the carry bit.\r\nThe rotate left instructions L1 and L2 are similar except that C now links the\r\nmost significant bit of Reg instead of the least significant one. Suppose Reg contains the 2's complement number 11010110. If this number is\r\ndivided by 2 the answer should be",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page14_q3.webp",
+    "options": {
+      "A": "01101011",
+      "B": "10010101",
+      "C": "11101001",
+      "D": "11101011"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 Which one of the following statements regarding the INT (interrupt) and the\nBRQ (but request) pins in a CPU is true?",
+    "solution": "",
+    "options": {
+      "A": "The BRQ pin is sampled after every instruction cycle, but the INT is\nsampled after every machine cycle.",
+      "B": "Both INT and BRQ are samped after every machine cycle.",
+      "C": "The INT pin is sampled after every instruction cycle, but the BRQ is\nsampled after every machine cycle.",
+      "D": "Both INT and BRQ are sampled after every instruction cycle."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 The Octal equivalent of HEX and number AB.CD is",
+    "solution": "Hex Number (AB.CD) [latex]1010\\;\\;1011\\;.\\; 1100\\;\\;1101[/latex] For finding its octal number, we can add one zero in both extreme and grouping. [latex]010\\;101\\;011\\;.\\;110\\;011\\;010[/latex] Its equavalent octal number is [latex](253.632)_8[/latex]",
+    "options": {
+      "A": "253.314",
+      "B": "253.632",
+      "C": "526.314",
+      "D": "526.632"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 A,B,C and D are input, and Y is the output bit in the XOR gate circuit of the\nfigure below. Which of the following statements about the sum S of A,B,C,D\nand Y is correct ?",
+    "solution": "[latex]Y=A\\oplus B\\oplus C\\oplus D[/latex] from the given diagram we know that sum of anu no. of bits is XOR of all bits. So, [latex]S=A\\oplus B\\oplus C\\oplus D\\oplus Y [/latex] [latex]S=Y\\oplus Y [/latex] [latex]S=[/latex] either zero or even because LSB is zero (always)",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page15_q1.webp",
+    "options": {
+      "A": "S is always with zero or odd",
+      "B": "S is always either zero or even",
+      "C": "S = 1 only if the sum of A,B,C and D is even",
+      "D": "S = 1 only if the sum of A,B,C and D is odd"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 72 It is required to design an anti-aliasing filter for an, 8 bit ADC. The filter is a first order RC filter with R = 1[latex]\\Omega[/latex] and C = 1F. The ADC is designed to span a sinusoidal signal with peak to peak amplitude equal to the full scale range of the ADC. What is the SNR (in dB) of the ADC ? Also find the frequency (in decades) at the filter output at which the filter attenuation just exceeds the SNR of the ADC.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page15_q2.webp",
+    "options": {
+      "A": "50 dB, 2 decade",
+      "B": "50 dB, 2.5 decade",
+      "C": "60 dB, 2 decade",
+      "D": "60 dB, 2.5 decade"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 It is required to design an anti-aliasing filter for an, 8 bit ADC. The filter is a first order RC filter with R = 1[latex]\\Omega[/latex] and C = 1F. The ADC is designed to span a sinusoidal signal with peak to peak amplitude equal to the full scale range of the ADC. The transfer Function of the filter and its roll off respectively are",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page15_q3.webp",
+    "options": {
+      "A": "1/(1 + RCs), - 20 dB/decade",
+      "B": "(1 + RCs), - 40 dB/decade",
+      "C": "1/(1+ RCs), -40 dB/decade",
+      "D": "{RCs/(1+RCs)}, -20 db/decade"
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "Question 74 In an 8085 A microprocessor based system, it is desired to increment the contents\nof memory location whose address is available in (D,E) register pair and store the\nresult in same location. The sequence of instruction is",
+    "solution": "The address of the memory location is stored in DE register pair. But, INR M command will increase the content of memory location M. but this command will execute only for HL pair. So, we have to exchange the address of memory location in HL pair from DE pair first.",
+    "options": {
+      "A": "XCHG INR M",
+      "B": "XCHG INX H",
+      "C": "INX D XCHG",
+      "D": "INR M XCHG"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 75 A software delay subroutine is written as given below : DELAY : MVI H, 255D MVI L, 255D LOOP : DCR L JNZ LOOP DCR H JNZ LOOP How many times DCR L instruction will be executed ?",
+    "solution": "First of all DCR L will be executed for 255 times till content of L becomes 0. After that for every decrement of H it will be executed 256 times ( first when L is decremented by 1 and becomes [latex]FF_H[/latex] and then [latex]FF_H=255_D[/latex] times ) and this will be happen till content of H become 1 i.e. 254 times. So, overall it will be executed =255 + 254 x 256 =65279",
+    "options": {
+      "A": "255",
+      "B": "510",
+      "C": "65025",
+      "D": "65279"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 76 A [latex]\\left ( 4\\times 1 \\right )[/latex] MUX is used to implement a 3-input Boolean function as shown in figure.\nThe Boolean function F(A,B,C) implemented is",
+    "solution": "[latex]F(A,B,C)=A\\bar{B}\\bar{C}+\\bar{A}\\bar{B}C+B\\bar{C} [/latex] [latex]\\;\\;\\;\\;=\\Sigma (1,2,4,6)[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page16_q1.webp",
+    "options": {
+      "A": "F(A,B,C) = [latex]\\Sigma [/latex](1,2,4,6)",
+      "B": "F(A,B,C) = [latex]\\Sigma [/latex](1,2,6)",
+      "C": "F(A,B,C) = [latex]\\Sigma [/latex](2,4,5,6)",
+      "D": "F(A,B,C) = [latex]\\Sigma [/latex](1,5,6)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 A student has made a 3-bit binary down counter and connected to the R-2R\r\nladder type DAC [Gain=(-1K[latex]\\Omega[/latex]/2R)] as shown in figure to generate a staircase waveform. The output achieved is different as shown in figure. What could be the possible cause of this error ?",
+    "solution": "Initial stage of the counter [latex]=(111)_2=(7)_10[/latex] So output will be equal to 7 V. Next state of counter [latex]=(110)_2=(6)_10[/latex] So output should be = 6 V But output is 3 V that meansLSB of counter is connected to MSB of DAC and MSB of counter is connected to LSB of DAC. Similarly next state oc counter [latex]=(101)_2=(5)_10[/latex] Input to DAC [latex]=(101)_2=(5)_10[/latex] So, output = 5V When counter goes to [latex](100)_2[/latex] then input to DAC [latex]=(001)_2=(1)_10[/latex] So output = 1 V So connections are not proper.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page16_q2.webp",
+    "options": {
+      "A": "The resistance values are incorrect option.",
+      "B": "The counter is not working properly",
+      "C": "The connection from the counter of DAC is not proper",
+      "D": "The R and 2R resistance are interchanged"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 78 A TTL NOT gate circuit is shown in figure. Assuming [latex]V_{BE}[/latex]=0.7 V of both the\ntransistors, if [latex]V_{i}[/latex]=3.0 V, then the states of the two transistors will be",
+    "solution": "When [latex]V_i=3 V[/latex] then [latex]Q_1[/latex] will be in reverse active mode i.e. reverse ON and [latex]Q_2 [/latex] will be ON.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page16_q3.webp",
+    "options": {
+      "A": "[latex]Q_{1}[/latex] ON and [latex]Q_{2}[/latex] OFF",
+      "B": "[latex]Q_{1}[/latex] reverse ON and [latex]Q_{2}[/latex] OFF",
+      "C": "[latex]Q_{1}[/latex] reverse ON and [latex]Q_{2}[/latex] ON",
+      "D": "[latex]Q_{1}[/latex] OFF and [latex]Q_{2}[/latex] reverse ON"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 79 In the figure, as long as [latex]X_{1}[/latex] = 1 and  [latex]X_{2}[/latex]= 1, the output Q remains",
+    "solution": "As no combination of 'Q' with ([latex]X_1 \\; and \\;X_2[/latex]) =1, output is stable. It always switches its stable state from '1' to '0'  and from '0' to '1'.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page16_q4.webp",
+    "options": {
+      "A": "at 1",
+      "B": "at 0",
+      "C": "at its initial value",
+      "D": "unstable"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 If [latex]X_{1}[/latex] and [latex]X_{2}[/latex] are the inputs to the circuit shown in the figure, the output Q is",
+    "solution": "[latex]Y_1=\\bar{X_1} [/latex] Output,  [latex] Q=\\overline{Y_1+X_2}=\\overline{(\\bar{X_1}+X_2)} [/latex] [latex]Q=X_1\\cdot \\bar{X_2}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page16_q5.webp",
+    "options": {
+      "A": "[latex]\\overline{X_{1} + X_{2}}[/latex]",
+      "B": "[latex]\\overline{X_{1}\\cdot X_{2}}[/latex]",
+      "C": "[latex]\\overline{X_{1}}\\cdot X_{2}[/latex]",
+      "D": "[latex]\\overline{X_{2}}\\cdot X_{1}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 81 Select the circuit, which will produce the given output Q for the input signals [latex]X_{1}[/latex]\r\nand [latex]X_{2}[/latex] given in the figure",
+    "solution": "[latex]\\begin{matrix} S & R & \\\\ X_1 & X_2 & Q^+\\\\ 1 & 0 & 1\\\\ 0 & 0 & NC\\\\ 0 & 1 &0 \\\\ 1 &0 &1 \\\\ 0 & 1 & 0\\\\ 1& 0 & 1 \\end{matrix}[/latex] From the above table we can write, [latex]\\begin{matrix} S & R & Q^+\\\\ 0 & 0 & NC\\\\ 0 & 1 &0 \\\\ 1 &0 &1 \\\\ 1 & 1 & X \\end{matrix}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page17_q1.webp",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 82 The digital circuit shown in the figure works as",
+    "solution": "Truth table of the circuit,",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page17_q2.webp",
+    "options": {
+      "A": "JK flip-flop",
+      "B": "Clocked RS flip-flop",
+      "C": "T flip-flop",
+      "D": "Ring counter"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 The 8085 assembly language instruction that stores the content of H and L\r\nregister into the memory locations [latex]2050_{H}[/latex] and [latex]2051_{H}[/latex], respectively, is:",
+    "solution": "Instruction [latex]SHLD \\;\\;2050_H[/latex] stores the content of L to memory location [latex]2050_H[/latex] and content of H to next memory location [latex]2051_H[/latex].",
+    "options": {
+      "A": "SPHL [latex]2050_{H}[/latex]",
+      "B": "SPHL [latex]2051_{H}[/latex]",
+      "C": "SHLD [latex]2050_{H}[/latex]",
+      "D": "STAX [latex]2051_{H}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 If the following program is executed in a microprocessor, the number of\ninstruction cycle it will take from START to HALT is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page17_q4.webp",
+    "options": {
+      "A": "4",
+      "B": "8",
+      "C": "13",
+      "D": "16"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 The digital circuit shown in figure generates a modified clock pulse at the\noutput. Choose the correct output waveform from the options given below.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page17_q5.webp",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 A digit circuit which compares two numbers [latex]A_{3}[/latex][latex]A_{2}[/latex][latex]A_{1}[/latex][latex]A_{0}[/latex] and [latex]B_{3}[/latex][latex]B_{2}[/latex][latex]B_{1}[/latex][latex]B_{0}[/latex] is shown in figure. To get output Y = 0, choose one pair of correct input numbers.",
+    "solution": "For a 4-input X-NOR gate output will be zero if number of '1's will be odd. We also knoew that output of XOR gate will be '1's if number of '1's will be odd. If number of inputs will be same then output of XOR gate will be '0', so all input to XNOR will be zero. So, output Y will be '1'. Only in option (D) the inputs are different, so Y will be zero.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page18_q1.webp",
+    "options": {
+      "A": "1010, 1010",
+      "B": "0101, 0101",
+      "C": "0010, 0010",
+      "D": "0010, 1011"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 The simplified form of the Boolean expression [latex]Y = (\\bar{A}BC+D)(\\bar{A}D+\\bar{B}\\bar{C})[/latex] can be written as",
+    "solution": "[latex]Y=(\\bar{A}BC+D)(\\bar{A}D+\\bar{B}\\bar{C}) [/latex] [latex]\\;\\;=\\bar{A}BCD+\\bar{A}D+\\bar{B}\\bar{C}D [/latex] [latex]\\;\\;=(\\bar{A}D+\\bar{B}\\bar{C}D)\\;\\;(A+1=1)[/latex]",
+    "options": {
+      "A": "[latex]\\bar{A} D+\\bar{B} \\bar{C}D[/latex]",
+      "B": "[latex]AD+B \\bar{C} D[/latex]",
+      "C": "[latex](\\bar{A}+D)(\\bar{B}C+\\bar{D})[/latex]",
+      "D": "[latex]A \\bar{D}+BC\\bar{D}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 The voltage comparator shown in figure can be used in the analog-to-digital\nconversion as",
+    "solution": "Even when [latex]V_1 \\gt V_2[/latex], the (o/p) '[latex]V_0[/latex]' is high and for the next case ([latex]V_1 \\lt V_2[/latex]) (o/p) is low.It is 1 bit quantizer. Since, it has two states which can be represented by 1 bit.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page18_q3.webp",
+    "options": {
+      "A": "a 1-bit quantizer",
+      "B": "a 2-bit quantizer",
+      "C": "a 4-bit quantizer",
+      "D": "a 8-bit quantizer"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 89 The digital circuit using two inverters shown in figure will act as",
+    "solution": "For the both states (0,1); our system is stable. Therefore, it is bistable multivibrator.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page18_q4.webp",
+    "options": {
+      "A": "a bistable multi-vibrator",
+      "B": "an astable multi-vibrator",
+      "C": "a monostable multi-vibrator",
+      "D": "an oscillator"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 The following program is written for an 8085 microprocessor to add two bytes\r\nlocated at memory addresses 1FFE and 1FFF LXI H, 1FFE MOV B, M INR L MOV A, M ADD B INR L MOV M, A XOR A On completion of the execution of the program, the result of addition is found",
+    "solution": "LXI  H, 1FFE [latex]\\rightarrow[/latex] Load 1FFE in H-L memory MOV  B, M [latex]\\rightarrow[/latex] move the content of 1FFE memory location to register B INR  L [latex]\\rightarrow[/latex] Increment the content of 'HL' by 1  (1FFE[latex]\\rightarrow[/latex]1FFF) MOV  A, M [latex]\\rightarrow[/latex] move content of 1FFF memory location to accumulator ADD B [latex]\\rightarrow[/latex] (A[latex]\\rightarrow[/latex]A+B) INR  L [latex]\\rightarrow[/latex]FF+1 [latex]\\rightarrow[/latex]00 As result HL[latex]\\rightarrow[/latex]1F00 MOV  M, A[latex]\\rightarrow[/latex] move content of accumulator to memory location 1F00 XRA A [latex]\\rightarrow[/latex]content of accumulator becomes zero",
+    "options": {
+      "A": "in the register A",
+      "B": "at the memory address 1000",
+      "C": "at the memory address 1F00",
+      "D": "at the memory address 2000"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 A memory system has a total of 8 memory chips, each with 12 address lines and\r\n4 data lines, The total size of the memory system is",
+    "solution": "Total size of memory = No. of chip x data lines [latex]= 4 \\times 8 \\times 2^{12}[/latex] =128 kbits =16 kbyte",
+    "options": {
+      "A": "16 kbytes",
+      "B": "32 kbytes",
+      "C": "48 kbytes",
+      "D": "64 kbytes"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 An X-Y flip-flop, whose Characteristic Table is given below is to be\nimplemented using a J-K flip flop",
+    "solution": "To make (X-Y) FF using (J-K) FF, (J) should be [latex](\\bar{Y})[/latex] and (K) should be (X).",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page19_q2.webp",
+    "options": {
+      "A": "[latex]J=X,K=\\bar{Y}[/latex]",
+      "B": "[latex]J=\\bar{X},K=Y[/latex]",
+      "C": "[latex]J=Y,K=\\bar{X}[/latex]",
+      "D": "[latex]J=\\bar{Y},K=X[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 The shift register shown in figure is initially loaded with the bit pattern 1010.\nSubsequently the shift register is clocked, and with each clock pulse the pattern\ngets shifted by one bit position to the right. With each shift, the bit at the\nserial input is pushed to the left most position (msb). After how many clock\npulses will the content of the shift register become 1010 again ?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page19_q3.webp",
+    "options": {
+      "A": "3",
+      "B": "7",
+      "C": "11",
+      "D": "15"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 94 The boolean expression [latex]\\bar{X}Y\\bar{Z}+\\bar{X}\\bar{Y}Z+XY\\bar{Z}+X\\bar{Y}Z+XYZ[/latex] can be simplified to",
+    "solution": "By K-map The simplified for is [latex]XY+Y\\bar{Z}+\\bar{Y}Z[/latex]",
+    "options": {
+      "A": "[latex]X\\bar{Z}+\\bar{X}Z+YZ[/latex]",
+      "B": "[latex]XY+\\bar{Y}Z+Y\\bar{Z}[/latex]",
+      "C": "[latex]\\bar{X}Y+YZ+XZ[/latex]",
+      "D": "[latex]\\overline{XY}+Y\\bar{Z}+\\bar{X}Z[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 When a program is being executed in an 8085 Microprocessors, its Program\nCounter contains",
+    "solution": "Program counter contains the memory address of the instruction that is to be executed next.",
+    "options": {
+      "A": "the number of instructions in the current program that have already been\nexecuted",
+      "B": "the total number of instructions in the program being executed.",
+      "C": "the memory address of the instruction that is being currently executed",
+      "D": "the memory address of the instruction that is to be executed next"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 96 Figure shows a 4 to 1 MUX to be used to implement the sum S of a 1-bit full\r\nadder with input bits P and Q and the carry input Cin. Which of the following\r\ncombinations of inputs to [latex]I_0, I_1, I_2[/latex] and [latex]I_3[/latex] of the MUX will realize the sum S ?",
+    "solution": "For a 4:1 mux [latex]F=I_0\\bar{A}\\bar{B}+I_1\\bar{A}B+I_2A\\bar{B}+I_3AB[/latex] where sum of full adder is [latex]=A\\oplus B\\oplus C[/latex] Truth table of Full adder",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page20_q1.webp",
+    "options": {
+      "A": "[latex]I_{0}[/latex]= [latex]I_{1}[/latex] = [latex]C_{in}[/latex]; [latex]I_{2}[/latex] = [latex]I_{3}[/latex] =[latex]\\bar{C}_{in}[/latex]",
+      "B": "[latex]I_{0}[/latex] = [latex]I_{1}[/latex] = [latex]\\bar{C}_{in}[/latex]; [latex]I_{2}[/latex] = [latex]I_{3}[/latex] = [latex]C_{in}[/latex]",
+      "C": "[latex]I_{0}[/latex] = [latex]I_{3}[/latex] = [latex]C_{in}[/latex]; [latex]I_{1}[/latex] = [latex]I_{2}[/latex] = [latex]\\bar{C}_{in}[/latex]",
+      "D": "[latex]I_{0}[/latex] = [latex]I_{3}[/latex] = [latex]\\bar{C}_{in}[/latex]; [latex]I_{1}[/latex] = [latex]I_{2}[/latex] = [latex]C_{in}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 97 For the circuit shown in figure, the Boolean expression for the output Y in\r\nterms of inputs P, Q, R and S is",
+    "solution": "[latex]Y=\\overline{(\\bar{P}\\cdot \\bar{Q})\\cdot (\\bar{R}\\cdot \\bar{S})}  [/latex]  [latex]\\because \\;\\; \\overline{\\bar{A}\\cdot \\bar{B}}=(A+B) [/latex] [latex]\\therefore \\;Y=\\overline{\\bar{P}\\cdot \\bar{Q}}+\\overline{\\bar{R}\\cdot \\bar{S}} [/latex] [latex]\\Rightarrow \\;Y=(P+Q+R+S)[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page20_q2.webp",
+    "options": {
+      "A": "[latex]\\bar{P}+\\bar{Q}+\\bar{R}+\\bar{S}[/latex]",
+      "B": "[latex]P+Q+R+S[/latex]",
+      "C": "[latex]\\left ( \\bar{P}+\\bar{Q} \\right )+\\left ( \\bar{R}+\\bar{S} \\right )[/latex]",
+      "D": "[latex]\\left ( P+Q \\right )\\left ( R+S \\right )[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 The logic circuit used to generate the active low chip select (CS) by an 8085\nmicroprocessor to address a peripheral is shown in figure. The peripheral will\nrespond to addresses in the range.",
+    "solution": "[latex]\\begin{matrix} A_{15} &A_{14} & A_{13} & A_{12} & A_{11} & \\cdots & A_0\\\\ 1 & 1 & 1 & 0 & 0 &\\cdots & 0\\\\ 1 & 1 & 1 & 0 & 1 & \\cdots & 1 \\end{matrix} [/latex] [latex]\\Rightarrow \\;\\; E000-EFFF[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page20_q3.webp",
+    "options": {
+      "A": "E000-EFFF",
+      "B": "000E-FFFE",
+      "C": "1000-FFFF",
+      "D": "0001-FFF1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 99 The frequency of the clock signal applied to the rising edge triggered D flip-flop shown in figure is 10 kHz. The frequency of the signal available at Q is",
+    "solution": "In toggle mode [latex]f_{out}=\\frac{f_{in}}{2}=\\frac{10kHz}{2}=5kHz[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page20_q4.webp",
+    "options": {
+      "A": "10 kHz",
+      "B": "2.5 kHz",
+      "C": "20 kHz",
+      "D": "5 kHz"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 100 A sample-and-hold (S/H) circuit, having a holding capacitor of 0.1 nF, is used at\r\nthe input of an ADC (analog-to-digital converter). The conversion time of the ADC\r\nis 1[latex]\\mu[/latex]sec, and during this time, the capacitor should not lose more than 0.5% of\r\nthe charge put across it during the sampling time. The maximum value of the\r\ninput signal to the S/H circuit is 5V. The leakage current of the S/H circuit should\r\nbe less than",
+    "solution": "",
+    "options": {
+      "A": "2.5 mA",
+      "B": "0.25 mA",
+      "C": "25 mA",
+      "D": "2.5 mA"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 An Intel 8085 processor is executing the program given below. MVI A, 10H MVI B, 10H BACK: NOP ADD B RLC JNC BACK HLT The number of times that the operation NOP will be executed is equal to",
+    "solution": "Carry is generated. Now program will hault. So NOP instruction is executed 3 times.",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 102 The output f of the 4-to-1 MUX shown in figure is",
+    "solution": "[latex]\\because \\;\\;F=\\Sigma min(1,2,3) [/latex] [latex]\\therefore \\;\\; F=\\bar{X}Y+X\\bar{Y}+XY \r\n =X+\\bar{X}Y=X+Y[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/de/page21_q2.webp",
+    "options": {
+      "A": "[latex]\\overline{XY}+X[/latex]",
+      "B": "[latex]X+Y[/latex]",
+      "C": "[latex]\\bar{X}+\\bar{Y}[/latex]",
+      "D": "[latex]XY+\\bar{X}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 103 The output of a logic gate is \"1\" when all its inputs are at logic \"0\". The gate is\r\neither",
+    "solution": "[latex]Y=\\bar{A}\\bar{B}=\\overline{A+B}\\rightarrow [/latex]  NOR GATE [latex]Y=AB+\\bar{A}\\bar{B}\\rightarrow [/latex] EX-NOR GATE",
+    "options": {
+      "A": "a NAND or an EX-OR gate",
+      "B": "a NOR or an EX-OR gate",
+      "C": "an AND or an EX-NOR gate",
+      "D": "a NOR or an EX-NOR gate"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 104 Among the following four, the slowest ADC (analog-to-digital converter) is",
+    "solution": "",
+    "options": {
+      "A": "parallel comparator (i.e., flash) type",
+      "B": "successive approximation type",
+      "C": "integrating type",
+      "D": "counting type"
+    },
+    "correct_answer": "C"
+  }
+]

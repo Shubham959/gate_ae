@@ -1,0 +1,1570 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 The op-amps in the following circuit are ideal. The voltage gain of the circuit is ___________ (round off to the nearest integer).",
+    "solution": "Step 1: Recognize the configuration The circuit consists of two inverting amplifier stages connected in cascade. Step 2: Analyze the first op-amp For an inverting amplifier, the gain is: [latex] A_{v1} = -\\frac{R_f}{R_{in}} [/latex] From the diagram: Input resistor: [latex] R_{in1} = 10\\ \\text{k}\\Omega [/latex] Feedback resistor: [latex] R_{f1} = 10\\ \\text{k}\\Omega [/latex] So, [latex] A_{v1} = -\\frac{10}{10} = -1 [/latex] Step 3: Analyze the second op-amp This stage is also an inverting amplifier: Input resistor: [latex] R_{in2} = 10\\ \\text{k}\\Omega [/latex] Feedback resistor: [latex] R_{f2} = 20\\ \\text{k}\\Omega [/latex] (notice the input is tapped from the junction between two 10 kΩ resistors in series, so it's effectively 10 kΩ from input and 10 kΩ in feedback, making total feedback resistance = 10k + 10k = 20k) So, [latex] A_{v2} = -\\frac{20}{10} = -2 [/latex] Step 4: Total Gain Overall voltage gain is: [latex] A_v = A_{v1} \\cdot A_{v2} = (-1) \\cdot (-2) = 2 [/latex] Final Answer: 2",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page1_q1.webp",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 In the circuit, [latex]\\mathrm{I}_{\\mathrm{DC}}[/latex] is an ideal current source. The transistors [latex]\\mathrm{M}_{1}[/latex] and [latex]\\mathrm{M}_{2}[/latex] are assumed to be biased in saturation, wherein [latex]V_{i n}[/latex] is the input signal and [latex]V_{D C}[/latex] is fixed DC voltage. Both transistors have a small signal resistance of [latex]\\mathrm{r}_{\\mathrm{ds}}[/latex] and trans-conductance of [latex]\\mathrm{g}_{\\mathrm{m}}[/latex]. The small signal output impedance of this circuit is",
+    "solution": "Given [latex]\n\\begin{aligned}\n& \\mathrm{r}_{01}=\\mathrm{r}_{02}=\\mathrm{r}_{\\mathrm{ds}} \\\\\n& \\mathrm{~g}_{\\mathrm{m} 1}=\\mathrm{g}_{\\mathrm{m} 2}=\\mathrm{g}_{\\mathrm{m}}\n\\end{aligned}\n[/latex] From resistance reflection rule, [latex]\n\\begin{aligned}\n\\mathrm{R}_{\\mathrm{eq}} & =\\left(1+\\mathrm{g}_{\\mathrm{m}} \\mathrm{r}_{01}\\right) \\mathrm{r}_{02}+\\mathrm{r}_{01} \\\\\n& =\\mathrm{r}_{0}+\\mathrm{g}_{\\mathrm{m}} \\mathrm{r}_{0}{ }^{2}+\\mathrm{r}_{0} \\\\\n& =\\mathrm{g}_{\\mathrm{m}} \\mathrm{r}_{0}{ }^{2}+2 \\mathrm{r}_{0} \\\\\n& =\\mathrm{g}_{\\mathrm{m}} \\mathrm{r}_{\\mathrm{ds}}{ }^{2}+2 \\mathrm{r}_{\\mathrm{ds}}\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page1_q2.webp",
+    "options": {
+      "A": "[latex]2 \\mathrm{r}_{\\mathrm{ds}}[/latex]",
+      "B": "[latex]\\frac{1}{\\mathrm{~g}_{\\mathrm{m}}}+\\mathrm{r}_{\\mathrm{ds}}[/latex]",
+      "C": "[latex]g_{m} \\mathrm{r}_{\\mathrm{ds}}^{2}+2 \\mathrm{r}_{\\mathrm{ds}}[/latex]",
+      "D": "infinity"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 A nullator is defined as a circuit element where the voltage across the device and the current through the device are both zero. A series combination of a nullator and a resistor of value [latex]R[/latex], will behave as a",
+    "solution": "Nullator circuit symbol Nullator have the property of [latex]\\mathrm{V}=0[/latex] [short circuit] and [latex]\\mathrm{I}=0[/latex] [Open circuit] When a resistor is connected in series to a nullator then [latex]\n\\begin{aligned}\n& V_{x}=0 \\\\\n& I_{x}=0\n\\end{aligned}\n[/latex] Overall circuit again behaves as nullator.",
+    "options": {
+      "A": "resistor of value R",
+      "B": "nullator.",
+      "C": "open circuit.",
+      "D": "short circuit."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 Assuming ideal op-amps, the circuit represents a",
+    "solution": "The given amplifier can be redrawn as",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page1_q4.webp",
+    "options": {
+      "A": "summing amplifier.",
+      "B": "difference amplifier.",
+      "C": "logarithmic amplifier.",
+      "D": "buffer."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Which one of the following statement is true about the small signal voltage gain of a MOSFET based single stage amplifier?",
+    "solution": "Step 1: Understand the characteristics of MOSFET amplifiers: A Common Source (CS) amplifier produces a 180° phase shift between the input and output. Hence, it is an inverting amplifier. A Common Gate (CG) amplifier does not produce a phase shift between input and output, so it is a non-inverting amplifier. Step 2: Match this with the options: Option (C): \"Common source amplifier is inverting and common gate amplifier is non-inverting amplifier\" is correct.",
+    "options": {
+      "A": "Common source and common gate amplifiers are both inverting amplifiers",
+      "B": "Common source and common gate amplifiers are both non-inverting amplifiers",
+      "C": "Common source amplifier is inverting and common gate amplifier is non-inverting amplifier",
+      "D": "Common source amplifier is non-inverting and common gate amplifier is inverting amplifier"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 6 A difference amplifier is shown in the figure. Assume the op-amp to be ideal. The CMRR (in [latex] \\mathrm{dB} [/latex] ) of the difference amplifier is _____(rounded off to 2 decimal places).",
+    "solution": "[latex]\n\\begin{aligned}\nV_{o} & =\\left(1+\\frac{101}{10.5}\\right) V^{+}+\\frac{-101}{10.5} V_{\\text {in } 1} \\\\\n& =10.62 \\times V_{\\text {in } 2} \\times \\frac{101.5}{101.5+9.5}+\\frac{-101}{10.5} V_{\\text {in } 1} \\\\\n& =\\underbrace{9.71}_{A_{1}} V_{\\text {in } 2}+\\underbrace{-9.619}_{A_{2}} V_{\\text {in } 1} \\\\\n\\text { CMRR } & =\\frac{A_{d}}{A_{c}} \\\\\nA_{d} & =\\frac{A_{1}-A_{2}}{2} \\\\\n& =\\frac{9.71+9.619}{2}=9.6645 \\\\\nA_{c} & =A_{1}+A_{2} \\\\\n& =9.71-9.619=0.091 \\\\\n\\text { CMRR } & =\\frac{9.6645}{0.091}=106.20 \\\\\nC M R R & =20 \\log (106.20)=40.52 \\mathrm{~dB}\n\\end{aligned}\n [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page2_q1.webp",
+    "min": 39.5,
+    "max": 41.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 In the given circuit, the diodes are ideal. The current [latex] I [/latex] through the diode [latex] D_{1} [/latex] in milliamperes is ______ (rounded off to two decimal places).",
+    "solution": "Assume [latex] D_{2} [/latex] OFF Tested: [latex] D_{2} [/latex] ON Assume [latex] D_{1} [/latex] OFF [latex]\n\\begin{aligned}\nI & =\\frac{10}{1.66 \\mathrm{~K}}=6.02 \\mathrm{~mA} \\\\\nI_{2} & =I \\times \\frac{1 \\mathrm{k} \\Omega}{3 \\mathrm{k} \\Omega}=6.02 \\mathrm{~mA} \\times \\frac{1}{3}=2 \\mathrm{~mA}\n\\end{aligned}\n [/latex] Tested: [latex] D_{1} [/latex] ON [latex]\n\\begin{aligned}\nV_{X} & =2 \\mathrm{~mA} \\times 1 \\mathrm{k} \\Omega \\\\\n& =2 \\mathrm{~V}\n\\end{aligned}\n [/latex] States: [latex] D_{1} [/latex] and [latex] D_{2} [/latex] ON [latex]\n\\begin{aligned}\n\\frac{V_{X}-10}{1 \\mathrm{k} \\Omega}+\\frac{V_{X}-3}{1 \\mathrm{k} \\Omega}+\\frac{V_{X}}{1 \\mathrm{k} \\Omega} & =0 \\\\\n3 V_{X} & =13 \\\\\nV_{X} & =\\frac{13}{3}=4.33 \\mathrm{~V} \\\\\nI_{1}+I_{D 1} & =I_{2} \\\\\n\\frac{4.33-3}{1 \\mathrm{k} \\Omega}+I_{D 1} & =3 \\mathrm{~mA} \\\\\nI_{D 1} & =3 \\mathrm{~mA}-1.33 \\mathrm{~mA} \\\\\n& =1.67 \\mathrm{~mA}\n\\end{aligned}\n [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page2_q2.webp",
+    "min": 1.64,
+    "max": 1.7
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 A BJT biasing circuit is shown in the figure, where [latex] V_{B E}=0.7 \\mathrm{~V} [/latex] and [latex] \\beta=100 [/latex]. The Quiescent Point values of [latex] V_{C E} [/latex] and [latex] I_{C} [/latex] are respectively",
+    "solution": "[latex]\n\\begin{aligned}\n& V_{\\text {Th }}=\\frac{12 \\times 50 k}{150 k}=4 \\mathrm{~V} \\\\\n& R_{\\text {Th }}=50 \\mathrm{k} \\| 100 \\mathrm{k}=\\frac{50 \\mathrm{k} \\times 100 \\mathrm{k}}{150 \\mathrm{k}}=33.33 \\mathrm{k} \\Omega\n\\end{aligned}\n[/latex] [latex] \\mathrm{KVL} [/latex] in input loop, [latex] 4-33.33 k \\times I_{B}-0.7-I_{E} R_{E}=0 [/latex] [latex] 3.3-33.33 k \\times I_{B}-(1+\\beta) I_{B} \\times 1 k=0 [/latex] [latex] \\therefore \\quad I_{B}=\\frac{3.3}{33.33 \\mathrm{k}+101 \\mathrm{k}}=24.56 \\mu \\mathrm{A} [/latex] [latex] I_{C}=\\beta I_{B}=100 \\times 24.56 \\times 10^{-6}=2.46 \\mathrm{~mA} [/latex] [latex] I_{E}=(1+\\beta) I_{B}=2.47 \\mathrm{~mA} [/latex] [latex] \\mathrm{KVL} [/latex] in outer loop : [latex]\n\\begin{aligned}\n12-2 k \\times I_{C}- & V_{C E}-I_{E} R_{E}=0 \\\\\n& 12-V_{C E}=2 \\mathrm{k} \\times I_{C}+I_{E} \\times 1 \\mathrm{k} \\\\\n& 12-V_{C E}=7.39 \\Rightarrow V_{C E}=4.61 \\mathrm{~V}\n\\end{aligned}\n [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page2_q3.webp",
+    "options": {
+      "A": "[latex] 4.6 \\mathrm{~V} [/latex] and [latex] 2.46 \\mathrm{~mA} [/latex]",
+      "B": "[latex] 3.5 \\mathrm{~V} [/latex] and [latex] 2.46 \\mathrm{~mA} [/latex]",
+      "C": "[latex] 2.61 \\mathrm{~V} [/latex] and [latex] 3.13 \\mathrm{~mA} [/latex]",
+      "D": "[latex] 4.6 \\mathrm{~V} [/latex] and [latex] 3.13 \\mathrm{~mA} [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 The Zener diode in circuit has a breakdown voltage of [latex]5 \\mathrm{~V}[/latex]. The current gain [latex]\\beta[/latex] of the transistor in the active region in [latex]99[/latex]. Ignore baseemitter voltage drop [latex]\\mathrm{V}_{\\mathrm{BE}}[/latex]. The current through the [latex]20 \\Omega[/latex] resistance in milliamperes is ____ (Round off to 2 decimal places).",
+    "solution": "Redraw the circuit : We know, [latex]\n\\begin{aligned}\n\\mathrm{I}_{\\mathrm{E}} & =(1+\\beta) \\mathrm{I}_{\\mathrm{B}} \\\\\n& =100 \\mathrm{I}_{\\mathrm{B}} \\\\\n\\Rightarrow \\quad \\mathrm{I}_{\\mathrm{B}} & =\\frac{\\mathrm{I}_{\\mathrm{E}}}{100}\n\\end{aligned}\n[/latex] Apply KVL in loop, [latex]\n\\begin{aligned}\n& 25-\\frac{\\mathrm{I}_{E}}{100} \\times 7000-I_{E} \\times 10-I_{E} \\times 20=0 \\\\\n& \\Rightarrow \\quad \\mathrm{I}_{\\mathrm{E}}=0.25 \\mathrm{~A} \\text { or } 250 \\mathrm{~mA}\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page2_q4.webp",
+    "min": 245.0,
+    "max": 255.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 All the elements in the circuit shown in the following figure are ideal. Which of the following statements is/are true?",
+    "solution": "Case (i): Switch [latex]\\mathrm{S}[/latex] is ON Assume [latex]\\mathrm{D}_{3} \\rightarrow[/latex] OFF, [latex]D_{2} \\rightarrow[/latex] OFF and [latex]\\mathrm{D}_{1} \\rightarrow \\mathrm{ON}[/latex] Redraw the circuit : [latex]\\therefore[/latex] Our assumption is correct. Case (ii) : Switch [latex]\\mathrm{S}[/latex] is OFF. Then, [latex]\\mathrm{D}_{3} \\rightarrow \\mathrm{ON}, \\mathrm{D}_{2} \\rightarrow \\mathrm{ON}[/latex] and [latex]\\mathrm{D}_{1} \\rightarrow \\mathrm{OFF}[/latex] Redraw the circuit : [latex]\\therefore[/latex] Circuit satisfy this condition also. Hence, option (B) and (C) will be correct.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page2_q5.webp",
+    "options": {
+      "A": "When switch [latex]S[/latex] is [latex]O N[/latex], both [latex]D_{1}[/latex] and [latex]D_{2}[/latex] conducts and [latex]D_{3}[/latex] is reverse biased",
+      "B": "When switch [latex]\\mathrm{S}[/latex] is ON, [latex]\\mathrm{D}_{1}[/latex] conducts and both [latex]D_{2}[/latex] and [latex]D_{3}[/latex] are reverse biased",
+      "C": "When switch [latex]S[/latex] is OF [latex]F, D_{1}[/latex] is reverse biased and both [latex]D_{2}[/latex] and [latex]D_{3}[/latex] conduct",
+      "D": "When switch [latex]S[/latex] is OFF, [latex]D_{1}[/latex] conducts, [latex]D_{2}[/latex] is reverse biased and [latex]D_{3}[/latex] conducts"
+    },
+    "correct_answers": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 Consider the OP AMP based circuit shown in the figure. Ignore the conduction drops of diodes [latex]D_{1}[/latex] and [latex]D_{2}[/latex]. All the components are ideal and the breakdown voltage of the Zener is [latex]5 \\mathrm{~V}[/latex]. Which of the following statements is true?",
+    "solution": "During positive hall cycle: [latex]\\therefore \\mathrm{D}_{1} \\rightarrow \\mathrm{ON}[/latex] and [latex]\\mathrm{D}_{2} \\rightarrow \\mathrm{OFF}[/latex] Redraw the circuit : [latex]\\therefore V_0=-V_i[/latex] [latex]\\quad (V_0)_{min}=-10V[/latex] During negative half cycle : [latex]\n\\mathrm{V}^{+} \\gt \\mathrm{V}^{-}\n[/latex] Zener diode [latex]\\rightarrow[/latex] ON, [latex]\\mathrm{D}_{1} \\rightarrow[/latex] OFF and [latex]\\mathrm{D}_{2} \\rightarrow \\mathrm{ON}[/latex] Redraw the circuit: [latex]\\therefore \\quad (V_0)_{max}=5V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page3_q1.webp",
+    "options": {
+      "A": "The maximum and minimum values of the output voltage [latex]\\mathrm{V}_{0}[/latex] are [latex]+15 \\mathrm{~V}[/latex] and [latex]-10 \\mathrm{~V}[/latex], respectively.",
+      "B": "The maximum and minimum values of the output voltage [latex]\\mathrm{V}_{0}[/latex] are [latex]+5 \\mathrm{~V}[/latex] and [latex]-15 \\mathrm{~V}[/latex], respectively.",
+      "C": "The maximum and minimum values of the output voltage [latex]\\mathrm{V}_{0}[/latex] are [latex]+10 \\mathrm{~V}[/latex] and [latex]-5 \\mathrm{~V}[/latex], respectively.",
+      "D": "The maximum and minimum values of the output voltage [latex]\\mathrm{V}_{0}[/latex] are [latex]+5 \\mathrm{~V}[/latex] and -10V, respectively"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 The current gain [latex](I_{out}/I_{in})[/latex] in the circuit with an ideal current amplifier given below\nis",
+    "solution": "Redraw the circuit: From circuit, [latex] \\begin{aligned}\n V_o&=V_c \\\\ \n &=\\frac{1}{C_f}\\int I_{in}dt \\\\ \n I_{out}&=C_c\\frac{dV_o}{dt} \\\\ \n &= C_c\\frac{d}{dt}\\left ( \\frac{1}{C_f} \\int I_{in}dt\\right )\\\\\n&=\\frac{C_c}{C_f}I_{in}\\\\\n\\Rightarrow \\frac{I_{out}}{I_{in}}&=\\frac{C_c}{C_f}\n\\end{aligned} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page3_q2.webp",
+    "options": {
+      "A": "[latex]\\frac{C_f}{C_c} [/latex]",
+      "B": "[latex]\\frac{-C_f}{C_c} [/latex]",
+      "C": "[latex]\\frac{C_c}{C_f} [/latex]",
+      "D": "[latex]\\frac{-C_c}{C_f} [/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 The output impedance of a non-ideal operational amplifier is denoted by [latex] Z_{out} [/latex]. The\nvariation in the magnitude of [latex] Z_{out} [/latex] with increasing frequency, [latex] f [/latex], in the circuit shown\nbelow, is best represented by",
+    "solution": "Bode plot of negative feedback amplifier: Given amplifier is a voltage series feedback amplifier. Therefore, Output impedance is given by [latex]Z_{out}=\\frac{Z_o}{1+A\\beta } =\\frac{Z_o}{1+A } \\;\\;\\;(\\beta=1 \\text{ for buffer})[/latex] From Bode plot ; at low frequency, the open\nloop gain (A) is constant. when [latex]\\omega \\uparrow, A \\downarrow,Z_{out}\\uparrow[/latex] At [latex]A=0, Z_{out}=Z_o\\rightarrow constant[/latex] Therefore,  [latex]z_{out}  [/latex] with frequency represented by",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page3_q3.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 For the circuit shown below with ideal diodes, the output will be",
+    "solution": "Case (i): For positive half cycle of [latex] V_i[/latex] Diode [latex] D_1[/latex] \n & [latex] D_2[/latex] are in forward biased. Redraw\nthe circuit: So, [latex] V_o=V_{in}[/latex] Case (ii): For negative half cycle of [latex] V_i[/latex] Both diodes [latex] D_1[/latex] \n & [latex] D_2[/latex] are in reverse biased. Redraw the circuit: Hence, [latex] V_o=V_{in} \\text{ for } V_{in} \\gt 0[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page3_q4.webp",
+    "options": {
+      "A": "[latex]V_{out} =V_{in}[/latex] for \n[latex]V_{in} \\gt 0 [/latex]",
+      "B": "[latex]V_{out} =V_{in}[/latex] for \n[latex]V_{in} \\lt 0 [/latex]",
+      "C": "[latex]V_{out} =-V_{in}[/latex] for \n[latex]V_{in} \\gt 0 [/latex]",
+      "D": "[latex]V_{out} =-V_{in}[/latex] for \n[latex]V_{in} \\lt 0 [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 The steady state output ([latex]V_{out}[/latex]), of the circuit shown below, will",
+    "solution": "Redraw the circuit: From circuit, [latex] \\begin{aligned}\nV_{out} &=-\\frac{1}{C_1}\\int I\\cdot dt \\\\ \n &= -\\frac{1}{R_1C_1}\\int 0 \\cdot 1dt \\\\ \\\\ \n &=-\\frac{0.1}{R_1C_1}\\int  dt \\\\  \\\\ \n &= -\\frac{0.1}{R_1C_1}t \n\\end{aligned} [/latex] Hence, [latex] V_{out}=-V_{EE}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page3_q5.webp",
+    "options": {
+      "A": "saturate to [latex]+V_{DD}[/latex]",
+      "B": "saturate to [latex]-V_{EE}[/latex]",
+      "C": "become equal to 0.1 V",
+      "D": "become equal to -0.1 V"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 For an ideal MOSFET biased in saturation, the magnitude of the small signal\ncurrent gain for a common drain amplifier is",
+    "solution": "For ideal MOSFET, [latex] i_G=0[/latex] Therefore, Current gain, [latex] A_I=\\frac{i_s}{i_G}=\\infty [/latex]",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "100",
+      "D": "infinite"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 A [latex]\\text{CMOS}[/latex] Schmitt-trigger inverter has a low output level of [latex]\\text{0 V}[/latex] and a high output level of [latex]\\text{5 V}[/latex]. It has input thresholds of [latex]\\text{1.6 V}[/latex] and [latex]\\text{2.4 V}[/latex]. The input capacitance and output resistance of the Schmitt-trigger are negligible. The frequency of the oscillator shown is ____________[latex]\\text{Hz}[/latex].(Round off to 2 decimal places.)",
+    "solution": "[latex]\\begin{aligned} v_{c}(t)&=v_{c \\text { final }}+\\left[v_{\\text {initial }}-v_{c^{\\prime}} \\text { final }\\right] e^{- t / R C} \\\\ \\text { Charging, } \\qquad \\qquad v_{c}(t)&=5+(1.6-5) e^{-t / R C}\\\\ &=5-3.4 e^{-t / R C}\\\\ t=t_{1}, \\qquad \\qquad v_{c}(t) &= 2.4 \\mathrm{~V} \\\\ 2.4 &=5-3.4 e^{-t / \\mathrm{RC}} \\\\ 3.4 e^{-11 / \\mathrm{RC}} &= 2.6 \\\\ t_{1} &= \\ln \\left(\\frac{3.4}{2.6}\\right) R C=0.268 \\times R C \\end{aligned}[/latex] Discharging, [latex] \\begin{aligned} v_{c}(t) &=0+(2.4-0) e^{-t / \\mathrm{RC}} \\\\ &=2.4 e^{-t / \\mathrm{RC}} \\\\ t=t_{2}, \\qquad v_{c}\\left(t_{a}\\right) &=1.6 \\mathrm{~V} \\\\ 1.6 &=2.4 e^{-12 / \\mathrm{AC}} \\\\ t_{2} &=\\ln \\left(\\frac{2.4}{1.6}\\right) R C=0.405 \\times R C \\\\ T &=t_{1}+t_{2}=(0.268+0.405) \\mathrm{RC} \\\\ T &=0.673 \\mathrm{RC} \\\\ f &=\\frac{1}{0.673 R C}=\\frac{1}{0.673 \\times 10^{4} \\times 47 \\times 10^{-9}} \\\\ f &=3157.46 \\mathrm{~Hz} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page4_q2.webp",
+    "min": 3150.0,
+    "max": 3170.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 18 In the circuit shown, a [latex]\\text{5 V}[/latex] Zener diode is used to regulate the voltage across load [latex]R_{0}[/latex]. The input is an unregulated DC voltage with a minimum value of [latex]\\text{6 V}[/latex] and a maximum value of [latex]\\text{8 V}[/latex]. The value of [latex]R_{S}[/latex]\n is [latex]6\\;\\Omega[/latex]. The Zener diode has a maximum rated power dissipation of [latex]\\text{2.5 W}[/latex]. Assuming the Zener diode to be ideal, the minimum value of [latex]R_{0}[/latex] is _________________ [latex]\\Omega[/latex].",
+    "solution": "To calculate [latex]R_{0}[/latex] min' we must find [latex]I_{L}[/latex] max [latex] \\begin{aligned} I_{s \\min } &=I_{z} \\min +I_{L \\max } \\\\ \\frac{V_{i \\min }-V_{z}}{R_{s}} &=I_{z} \\min +I_{L \\max } \\end{aligned}[/latex] For ideal zener diode, [latex]I_{z \\min }=0[/latex] [latex] \\begin{aligned} \\frac{V_{i \\min }-V_{z}}{R_{s}} &=I_{L \\max } \\\\ \\frac{6-5}{6} &=I_{L \\max } \\\\ I_{L} \\max &=\\frac{1}{6} \\mathrm{~A} \\\\ R_{0} \\min &=\\frac{V_{z}}{I_{L \\max }}=\\frac{5}{1 / 6}=30 \\Omega \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page4_q3.webp",
+    "min": 29.0,
+    "max": 31.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 In the [latex]\\text{BJT}[/latex]\n circuit shown, beta of the [latex]\\text{PNP}[/latex]\n transistor is 100. Assume [latex]V_{\\text{BE}}=-0.7\\;V[/latex]. The voltage across [latex]R_{c}[/latex]\n will be [latex]\\text{5 V}[/latex]\n when [latex]R_{2}[/latex]\n is __________ [latex]k \\Omega[/latex]. (Round off to 2 decimal places.)",
+    "solution": "[latex]\\begin{aligned} I_{C}&=\\frac{5 \\mathrm{~V}}{3.3 \\mathrm{k}}=1.515 \\mathrm{~mA} \\\\ I_{E}&=1.53 \\mathrm{~mA} \\\\ I_{B}&=0.0151 \\mathrm{~mA}\\\\ -12+1.2 \\mathrm{k} \\times 1.53 \\mathrm{~m}+& 0.7+V_{B}=0 \\\\ V_{B} &=9.464 \\mathrm{~V} \\\\ I_{x} &=\\frac{12-V_{B}}{4.7 \\mathrm{k}}=\\frac{12-9.464}{4.7 \\mathrm{k}}=0.539 \\mathrm{~mA} \\\\ I_{x}+I_{B} &=I_{y} \\\\ \\Rightarrow \\qquad\\qquad I_{y} &=0.5396+0.0151 \\\\ I_{y} &=0.5546 \\mathrm{~mA} \\\\ V_{B} &=0.5546 \\mathrm{~m} \\times R_{2}=9.464 \\\\ R_{2} &=17.06 \\mathrm{k} \\Omega \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page4_q4.webp",
+    "min": 16.7,
+    "max": 17.7
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 The temperature of the coolant oil bath for a transformer is monitored using the circuit\nshown. It contains a thermistor with a temperature-dependent resistance,\n[latex]R_{thermistor} = 2(1 + \\alpha T) k\\Omega[/latex]. Where T is the temperature in [latex]^{\\circ}C[/latex]. The temperature coefficient\n[latex]\\alpha[/latex], is [latex]-(4 \\pm 0.25) \\%/^{\\circ}C[/latex]. Circuit parameters: [latex]R_1 = 1 k\\Omega , R_2 = 1.3 k\\Omega , R_3 = 2.6 k\\Omega[/latex]. The\nerror in the output signal (in V. rounded off lo 2 decimal places) at 150[latex]^{\\circ}C[/latex] is ________.",
+    "solution": "As per GATE official answer key MTA (Marks to ALL) [latex]\\begin{aligned}\r\n\\text{Given data,}\\\\ R_{thermistor}&=R_{th}=2(1+\\alpha T)K\\Omega \\\\  \\alpha &=-(4+0.25)\\%/^{\\circ}C=-(0.04\\pm 0.0025)^{\\circ}C \\\\  \\alpha _{max}&=-0.0424/^{\\circ}C, \\; \\; \\alpha _{min}=-0.375/^{\\circ}C\\\\ \\text{Temperature, } T&=150^{\\circ}C \\\\ R_{1}&=1 K\\Omega ,\\; R_{2}=1.3 K\\Omega , \\; R_{3}=2.6 K\\Omega\\\\ \\text{Considering, }\\alpha &=-0.04 \\\\  R_{th}&=2[1-0.04\\times 150]=-10 K\\Omega  \\\\ V_{0}&=V_{1}\\times \\frac{R_{1}}{R_{1}+R_{th}}\\left [ 1+\\frac{R_{2}}{R_{3}} \\right ]\\\\ &=3\\times \\frac{1k}{1k+10k}\\left [ 1+\\frac{1.3k}{2.6k} \\right ] \\\\  &=-0.5 V\r\n\\\\\r\n \\text{Case-1:} \\\\ \\text{Considering, }\\alpha _{max}&=-0.0425/^{\\circ}C \\\\\r\n R_{thmax}&=2[1+(-0.0425)\\times 150] =-10.75\\, k\\Omega \\\\\r\nV_{0}&=V_{1}\\times \\frac{R_{1}}{R_{1}+R_{th}}\\left [ 1+\\frac{R_{2}}{R_{3}} \\right ]\\\\ &=3\\times \\frac{1k}{1k-10.75k}\\left [ 1+\\frac{1.3k}{2.6k} \\right ] \\\\  &=-0.46 V\r\n\\\\\r\n \\text{Case-2:} \\\\ \\text{Considering, }\\alpha _{min}&=-0.0375/^{\\circ}C \\\\\r\n R_{thmin}&=2[1+(-0.0375)\\times 150] =-9.25\\, k\\Omega \\\\\r\nV_{0} &=3\\times \\frac{1k}{1k-9.25k}\\left [ 1+\\frac{1.3k}{2.6k} \\right ] \\\\  &=-0.54 V\r\n \\\\\r\n \\text{Output voltage, }\\\\\r\n V_0&=0.5\\pm0.04 \\; \\Rightarrow \\; \\text{Error}=0.04\r\n \r\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page4_q5.webp",
+    "min": 0.04,
+    "max": 0.04
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 The cross-section of a metal-oxide-semiconductor structure is shown schematically.\nStarting from an uncharged condition, a bias of +3V is applied to the gate contact with\nrespect to the body contact. The charge inside the silicon dioxide layer is then measured\nto be +Q. The total charge contained within the dashed box shown, upon application\nof bias, expressed as a multiple of Q (absolute value in Coulombs, rounded off to the\nnearest integer) is __________ .",
+    "solution": "Overall charge in side the box [latex]q + q - q - q = 0[/latex] charge",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page5_q1.webp",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 A common-source amplifier with a drain resistance, [latex]R_D = 4.7 k\\Omega[/latex], is powered using a\n10 V power supply. Assuming that the transconductance, [latex]g_m, \\;is\\; 520 \\mu A/V[/latex], the voltage\ngain of the amplifier is closest to:",
+    "solution": "Given data: [latex]R_{D}=4.7  K\\Omega ,\\; g_{m}=520 \\mu A/V[/latex] Voltage gain of CS amplifier [latex]=-g_{m}R_{D}=-520\\, \\mu A/V\\, \\times \\, 4.7\\, k\\Omega =-2.44[/latex]",
+    "options": {
+      "A": "-2.44",
+      "B": "-1.22",
+      "C": "1.22",
+      "D": "2.44"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 In the circuit below, the operational amplifier is ideal. If [latex]V_1[/latex]=10 mV and [latex]V_2[/latex]=50 mV, the output voltage ([latex]V_{out}[/latex]) is",
+    "solution": "[latex]V_o=\\frac{R_2}{R_1}(V_2-V_1) [/latex] [latex]\\;\\;=\\frac{100k}{10k}(50\\; mV-10\\; mV) [/latex] [latex]\\;\\;=10(40\\; mV)=400\\;mV[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page5_q3.webp",
+    "options": {
+      "A": "100 mV",
+      "B": "400 mV",
+      "C": "500 mV",
+      "D": "600 mV"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 The enhancement type MOSFET in the circuit below operates according to the square law. [latex]\\mu_nC_{ox}=100\\mu A/V^2[/latex],  the  threshold  voltage  ([latex]V_T[/latex])  is  500  mV.   Ignore  channel  length modulation. The output voltage [latex]V_{out}[/latex] is",
+    "solution": "As, [latex]V_{DS}=V_{GS}[/latex] MOSFET is in saturation, [latex]\\begin{aligned}\r\nI_D&=\\frac{1}{2}\\mu _nC_{Ox}\\left ( \\frac{W}{L} \\right )(V_{GS}-V_T)^2 \\\\\r\n 5 \\times 10^{-6}&=\\frac{1}{2} \\times 100 \\times 10^{-6} \\times 10 (V_{GS}-0.5)^2\\\\\r\n V_{GS}&=0.6 \\\\\r\nV_0&=600mV\r\n \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page5_q4.webp",
+    "options": {
+      "A": "100 mV",
+      "B": "500 mV",
+      "C": "600 mV",
+      "D": "2 V"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 A current controlled current source (CCCS) has an input impedance of 10 [latex]\\Omega[/latex] and output impedance of 100 k[latex]\\Omega[/latex]. When this CCCS is used in a negative feedback closedloop with a loop gain of 9, the closed loop output impedance is",
+    "solution": "\"CCCS\" (Current controlled current source amplifier) Given,   [latex]Z_0=100k\\Omega [/latex] Loop gain,  [latex]A\\beta =9 [/latex] [latex]Z_{0F}=Z_0[1+A\\beta ] \\;\\;\\;(\\text{High impedance CS}) [/latex] [latex]=100k\\Omega [1+9] [/latex] [latex]=100k\\Omega \\times 10 [/latex] [latex]=1000k\\Omega[/latex]",
+    "options": {
+      "A": "10[latex]\\Omega[/latex]",
+      "B": "100[latex]\\Omega[/latex]",
+      "C": "100k[latex]\\Omega[/latex]",
+      "D": "1000k[latex]\\Omega[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 Given, [latex]V_{gs}[/latex] is the gate-source voltage, [latex]V_{ds}[/latex] is the drain source voltage, and [latex]V_{th}[/latex] is the threshold voltage of an enhancement type NMOS transistor, the conditions for transistor to be biased in saturation are",
+    "solution": "For NMOS transistor to be in saturation the condition will be [latex] V_{gs}  \\gt V_{th}[/latex] and [latex] V_{ds}  \\geq V_{gs}-V_{th}[/latex]",
+    "options": {
+      "A": "[latex]V_{gs} \\lt  V_{th};V_{ds}\\geq V_{gs}-V_{th}[/latex]",
+      "B": "[latex]V_{gs} \\gt V_{th};V_{ds}\\geq V_{gs}-V_{th}[/latex]",
+      "C": "[latex]V_{gs} \\gt V_{th};V_{ds}\\leq V_{gs}-V_{th}[/latex]",
+      "D": "[latex]V_{gs} \\lt  V_{th};V_{ds}\\leq V_{gs}-V_{th}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 In the circuit shown in the figure, the bipolar junction transistor (BJT) has a current gain [latex]\\beta=100[/latex]. The base-emitter voltage drop is a constant, [latex]V_{BE}= 0.7[/latex] V. The value of the The venin equivalent resistance [latex]R_{Th}[/latex] (in [latex]\\Omega[/latex]) as shown in the figure is ______ (up to 2 decimal places).",
+    "solution": "To calculate [latex]R_{Th}[/latex] D.C. volatage should be short circuited. [latex]R_{Th}=1k\\Omega ||\\frac{10k}{1+\\beta } [/latex] [latex]\n\\; \\; =1k\\Omega ||99.0099 [/latex] [latex]\nR_{Th}=90.09\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page6_q2.webp",
+    "min": 89.0,
+    "max": 91.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 The op-amp shown in the figure is ideal. The input impedance  [latex]\\frac{v_{in}}{i_{in}}[/latex] is given by",
+    "solution": "According to virtual ground, [latex]\\begin{aligned} \r\nV_A&=V_B=V_{in} \\\\ \\text{At node A,}  \\\\ \\frac{V_{in}-V_o}{Z}&=i_{in}\\;\\; ...(i)  \\\\ V_{in}&=\\left [ \\frac{1}{R_2}+\\frac{1}{R_1} \\right ]=\\frac{V_o}{R_1}  \\\\ V_{in}\\left [ \\frac{R_1+R_2}{R_1R_2} \\right ] \\times R_1&=V_o  \\\\ V_o&=V_{in} \\times \\left [ \\frac{R_1+R_2}{R_2} \\right ] \\;\\;...(ii)\\\\  \\text{Equation (ii)}& \\text{ in euation (i),  }\\\\ \\frac{V_{in}-V_o}{Z}&=i_{in}  \\\\ \\frac{V_{in}-V_{in}\\left [ \\frac{R_1+R_2}{R_2} \\right ]}{Z}&=i_{in}  \\\\ \\frac{V_{in}}{i_{in}}\\left [ 1-\\frac{R_1+R_2}{R_2} \\right ]&=Z  \\\\ \\frac{V_{in}}{i_{in}}\\left [\\frac{R_2-R_1+R_2}{R_2} \\right ]&=Z  \\\\ \\frac{V_{in}}{i_{in}}&=-Z\\cdot \\frac{R_2}{R_1}\r\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page6_q3.webp",
+    "options": {
+      "A": "[latex]Z\\frac{R_{1}}{R_{2}}[/latex]",
+      "B": "[latex]-Z\\frac{R_{1}}{R_{2}}[/latex]",
+      "C": "Z",
+      "D": "[latex]Z\\frac{R_{1}}{R_{1}+R_{2}}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 For the circuit shown below, assume that the OPAMP is ideal. Which one of the following is TRUE?",
+    "solution": "[latex]V_A=\\frac{V_s}{2} [/latex] [latex]I_3=\\frac{V_A}{R}=\\frac{V_s}{2R} [/latex] [latex]V_B-V_A=I_3R [/latex] [latex]V_B=V_A+I_3R=\\frac{V_s}{2}+\\frac{V_s}{2}=V_s [/latex] [latex]I_2=\\frac{V_B}{R}=\\frac{V_s}{R} [/latex] [latex]I_1=I_2+I_3 [/latex] [latex]\\;\\;=\\frac{V_s}{R}+\\frac{V_s}{2R}=\\frac{V_s}{R}[1.5] [/latex] [latex]V_0-V_B=I_1R [/latex] [latex]\\Rightarrow V_0=V_B+\\frac{V_s}{R}[1.5]R [/latex] [latex]\\;\\;\\;=V_s+1.5V_s=2.5V_s[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page6_q4.webp",
+    "options": {
+      "A": "[latex]v_o=v_s[/latex]",
+      "B": "[latex]v_o=1.5v_s[/latex]",
+      "C": "[latex]v_o=2.5v_s[/latex]",
+      "D": "[latex]v_o=5v_s[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 For the circuit shown in the figure below, it is given that [latex]V_{CE}=\\frac{V_{CC}}{2}[/latex]. The transistor has [latex]\\beta =29 [/latex] and [latex]V_{BE}=0.7V[/latex]  when the B-E junction is forward biased. For this circuit, the value of [latex]\\frac{R_B}{R}[/latex]\r\nis",
+    "solution": "In the input loop, [latex]10=(1+\\beta )I_B \\times 4R+I_B \\times R_B+0.7+(1+\\beta )I_B \\times R [/latex] [latex]10=30I_B \\times 4R+I_B \\times R_B+0.7+30 \\times I_B \\times R [/latex] [latex]9.3=150 \\times I_B \\times R +I_B \\times R_B .....(i)[/latex] Ouput loop, [latex] 10=(1+\\beta )I_B \\times 4R+5V+(1+\\beta )I_B \\times R [/latex] [latex]5=30I_B \\times 4R+30 \\times I_B \\times R [/latex] [latex]5=150 \\times I_B \\times R .....(ii) [/latex] using equation (i) and (ii), [latex]I_BR_B=9.3-5=4.3[/latex] and simultaneously putting value of [latex]I_B R[/latex] from equation (ii) in equation (i), [latex]9.3=I_BR\\left [ 150+\\frac{R_B}{R} \\right ] [/latex] [latex]9.3=\\frac{5}{150}\\left [ 150+\\frac{R_B}{R} \\right ] [/latex] [latex]279=150+\\frac{R_B}{R}[/latex] [latex] \\frac{R_B}{R}=129[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page6_q5.webp",
+    "options": {
+      "A": "43",
+      "B": "92",
+      "C": "121",
+      "D": "129"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 The approximate transfer characteristic for the circuit shown below with an ideal operational\namplifier and diode will be",
+    "solution": "[latex]V_{in} \\gt 0\\;\\; V_A=+V_{55},[/latex] D on, [latex]V_o=V_{in} [/latex] [latex]V_{in} \\lt 0\\;\\; V_A=-V_{55},[/latex] D off, [latex]V_o=0[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page7_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 The circuit shown in the figure uses matched transistors with a thermal voltage [latex]V_T[/latex]=25mV.\n The base currents of the transistors are negligible. The value of the resistance R in k[latex]\\Omega[/latex] that is required to provide 1[latex]\\mu[/latex]A bias current for the differential amplifier block shown is ______.",
+    "solution": "[latex]V_{BE1}=V_{BE2}+I_0R [/latex] [latex]I_0R=V_{BE1}-V_{BE2} =V_I ln\\left ( \\frac{I_R}{I_3} \\right )-V_T ln \\left ( \\frac{I_0}{I_3} \\right )[/latex] where,   [latex]I_s\\rightarrow[/latex] Reverse saturation current [latex]R=\\frac{V_T ln\\left ( \\frac{I_R}{I_0} \\right )}{I_0}=\\frac{0.025 ln\\left ( \\frac{1mA}{1\\mu A} \\right )}{1\\mu A} \r\n =\\frac{0.025 ln (10^3)}{1\\mu A}=172.7 k\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page7_q2.webp",
+    "min": 170.0,
+    "max": 174.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 For the circuit shown below, taking the opamp as ideal, the output voltage [latex]V_{out}[/latex] in terms of the input voltages [latex]V_{1},V_{2} \\; and \\; V_{3}[/latex] is",
+    "solution": "[latex]V_A=\\left ( \\frac{4}{5}V_1+\\frac{1}{5}V_2 \\right ) [/latex] [latex]V_{out}=-9V_3+10V_A [/latex] [latex]\\;\\;=-9V_3+8V_1+2V_2[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page7_q3.webp",
+    "options": {
+      "A": "[latex]1.8V_{1}+7.2V_{2} -V_{3}[/latex]",
+      "B": "[latex]2V_{1}+8V_{2} -9V_{3}[/latex]",
+      "C": "[latex]7.2V_{1}+1.8V_{2} -V_{3}[/latex]",
+      "D": "[latex]8V_{1}+2V_{2} -9V_{3}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 The circuit shown below is an example of a",
+    "solution": "[latex]\\frac{V_{out}}{V_{in}}=-\\left [\\frac{\\frac{ R_2\\cdot \\frac{1}{j\\omega C}}{R_2+\\frac{1}{j\\omega C}}}{R_1} \\right ][/latex] [latex] \\frac{V_{out}}{V_{in}}=-\\left [ \\frac{R_2}{R_1(R_2j\\omega C+1)} \\right ][/latex] So the system is a low pass filter.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page7_q4.webp",
+    "options": {
+      "A": "low pass filter.",
+      "B": "band pass filter",
+      "C": "high pass filter.",
+      "D": "notch filter."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 A transistor circuit is given below. The Zener diode breakdown voltage is 5.3 V as shown. Take base to emitter voltage drop to be 0.6 V. The value of the current gain [latex]\\beta[/latex] is _________.",
+    "solution": "[latex]V_B=5.3 V [/latex] [latex]V_E=V_B-0.6=4.7V [/latex] [latex]I_E=\\frac{V_E}{470\\Omega }=10mA [/latex] [latex]I_1=\\frac{10-5.3}{4.7k}=1mA [/latex] [latex]I_B=I_1-I_2=0.5mA [/latex] [latex]\\frac{I_E}{I_B}=\\beta +1=20 [/latex] [latex]\\beta =19[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page7_q5.webp",
+    "min": 18.0,
+    "max": 20.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 The saturation voltage of the ideal op-amp shown below is [latex]\\pm[/latex]10 V. The output voltage [latex]v_0[/latex] of the following circuit in the steady-state is",
+    "solution": "The given circuit in a astable multivibrator, so output will be a periodic square wave and from the circuit [latex]\\beta =0.5[/latex]. So, time period will be [latex]2\\tau \\ln\\left ( \\frac{1+\\beta }{1-\\beta } \\right ) [/latex] [latex]T=2 \\times RC \\ln \\left ( \\frac{1+0.5}{1-0.5} \\right )=0.55ms[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page8_q1.webp",
+    "options": {
+      "A": "square wave of period 0.55 ms.",
+      "B": "triangular wave of period 0.55 ms",
+      "C": "square wave of period 0.25 ms.",
+      "D": "triangular wave of period 0.25 ms."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 When a bipolar junction transistor is operating in the saturation mode, which one of the following statements is TRUE about the state of its collector-base (CB) and the base-emitter (BE) junctions?",
+    "solution": "",
+    "options": {
+      "A": "The CB junction is forward biased and the BE junction is reverse biased.",
+      "B": "The CB junction is reverse biased and the BE junction is forward biased.",
+      "C": "Both the CB and BE junctions are forward biased.",
+      "D": "Both the CB and BE junctions are reverse biased."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 The filters F1 and F2 having characteristics as shown in Figures (a) and (b) are connected as shown in Figure (c). The cut-off frequencies of F1 and F2 are [latex]f_1  \\; and \\; f_2[/latex] respectively. If [latex]f_1 \\lt f_2[/latex] , the resultant circuit\nexhibits the characteristic of a",
+    "solution": "To check the type of system: we apply a delta function at input [latex]V_i=\\delta (t)[/latex] [latex]V(f)=1\\forall f[/latex] So, voltage at A will be same as voltage at output [latex]V_o[/latex]. [latex]V_A[/latex] will be equal to voltage due to [latex]F_1 +[/latex] voltage due to [latex]F_2[/latex]. Since, [latex]f_1 \\lt f_2[/latex], so [latex]V_A/V_i[/latex] will be so, the system works as a band stop filter.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page8_q3.webp",
+    "options": {
+      "A": "Band-pass filter",
+      "B": "Band-stop filter",
+      "C": "All pass filter",
+      "D": "High-Q filter"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 In the following circuit, the transistor is in active mode and [latex]V_{C}[/latex]=2 V. To get [latex]V_{C}[/latex]=4 V, we replace [latex]R_{C}[/latex] with [latex]R^{'}_{C}[/latex] . Then the ratio [latex]R^{'}_{C}/R_{C}[/latex] is ______.",
+    "solution": "CASE-I: [latex]V_C=2V[/latex] [latex] i_C=\\frac{10-2}{R_C} ......(i)[/latex] [latex]10-i_BR_B-0.7=0 [/latex] [latex]i_B=\\frac{10-0.7}{R_B} .......(ii)[/latex] CASE-II when \n[latex]V_C=4V [/latex] [latex]R_C\\rightarrow R'_C[/latex] [latex] i_C=\\frac{10-4}{R'_C} .....(iii)[/latex] From above equation (iii) and (i), [latex]\\frac{10-4}{R'_C}= \\frac{10-2}{R_C}[/latex] [latex] \\Rightarrow \\frac{R'_C}{R_C}=\\frac{6}{8}=\\frac{3}{4}=0.75[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page8_q4.webp",
+    "min": 0.74,
+    "max": 0.76
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 The operational amplifier shown in the figure is ideal. The input voltage (in Volt) is [latex]V_{i}=2sin(2\\pi \\times 2000t)[/latex]. The amplitude of the output voltage [latex]V_{o}[/latex] (in Volt) is _______.",
+    "solution": "[latex]V_i=2 \\sin (2\\pi \\times 2000t)[/latex] The transfer function of the system is [latex] H(s)=\\frac{1000}{(1000 \\times 0.1 \\times 10^{-6}s+1 )1000} [/latex] [latex]H(s)=\\frac{-1}{(10^{-4}s+1)}[/latex] The input is [latex] 2\\sin (2\\pi \\times 2000t) [/latex] [latex]\\omega =4000 \\pi [/latex] [latex]V_0=2|H(j\\omega )|_{\\omega =4000\\pi} \\times \\sin(4000\\pi t-\\phi ) [/latex] [latex]Output=1.245 \\sin (4000\\pi t-51.46^{\\circ})[/latex] So, amplitude of output is 1.245.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page8_q5.webp",
+    "min": 1.1,
+    "max": 1.4
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 The op-amp shown in the figure has a finite gain A = 1000 and an infinite input resistance. A step-voltage [latex]V_{i}=1 mV[/latex] is applied at the input at time t=0 as shown. Assuming that the operational amplifier is not saturated, the time constant (in millisecond) of the output voltage [latex]V_{o}[/latex] is",
+    "solution": "The circuit is Now, the gain of op-amp is 1000 So,   [latex]V_o=1000(V_+-V_-) [/latex] Since  [latex]V_+=0[/latex] (grounded) [latex] V_-=V_A[/latex] The above circuit can be redrawn as So, [latex]V_o=1000\\;VA[/latex] Now, KCL at node 'A' [latex] \\frac{V_A-V_i}{1000}=\\left ( \\frac{V_A-V_o}{1/sC} \\right )[/latex] [latex] \\frac{V_A-V_i}{1000}=\\frac{V_A-(-1000V_A)}{1/sC} [/latex] [latex]\\frac{V_A-V_i}{1000}=(1001V_A)sC [/latex] [latex]V_A-V_i=(1001)\\times 1000V_AsC [/latex] [latex]V_A-V_i=s(1001000 \\times 10^{-6}) V_A [/latex] [latex]V_A-s1.001V_A=V_i [/latex] [latex]V_A=\\left [ \\frac{V_i}{1-s(1.001)} \\right ][/latex] Since,  [latex] V_o=-1000V_A [/latex] [latex]\\;\\; =-\\frac{1000}{1-s(1.001)} V_i[/latex] Since, pole is at (1/1.001), so time constant is approax '1001'.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page9_q1.webp",
+    "options": {
+      "A": "1001",
+      "B": "101",
+      "C": "11",
+      "D": "1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 In the given circuit, the silicon transistor has [latex]\\beta[/latex]=75 and a collector voltage [latex]V_c[/latex]=9 V. Then the ratio of [latex]R_{B}[/latex] and [latex]R_{C}[/latex] is ________.",
+    "solution": "Consider the circuit shown in figure. [latex]V_C=9V [/latex] [latex]So,\\;\\; \\frac{15-9}{R_C}=I_E [/latex] [latex]\\frac{6}{R_C}=I_E [/latex] [latex]and \\;\\;\\frac{9-0.7}{R_B}=I_B [/latex] [latex]So,\\;\\;\\frac{8.3}{R_B}=I_B [/latex] [latex]So, \\;\\; \\frac{I_E}{I_B}=\\frac{6 \\times R_B}{R_C \\times 8.3} [/latex] [latex](\\beta +1)=\\frac{R_B \\times 6}{R_C \\times 8.3}[/latex] [latex] \\frac{R_B}{R_C}=105.13[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page9_q2.webp",
+    "min": 100.0,
+    "max": 110.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 Consider the circuit shown in the figure. In this circuit R=1k[latex]\\Omega[/latex], and C=1[latex]\\mu[/latex]F. The input voltage is sinusoidal with a frequency of 50 Hz, represented as a phasor with magnitude [latex]V_i[/latex] and phase angle 0 radian as shown in the figure. The output voltage is represented as a phasor with magnitude [latex]V_o[/latex] and phase angle [latex]\\delta[/latex] radian. What is the value of the output phase angle [latex]\\delta[/latex] (in radian) relative to the phase angle of the input voltage?",
+    "solution": "The circuit is Since circuit has negative feedback, so with help of virtual short [latex]V_A=V_B[/latex] So, KVL in the loop from A to B given, [latex]I\\left ( \\frac{1}{sC} \\right )-V_i+I\\left ( \\frac{1}{sC} \\right )=0 [/latex] So,  [latex]I=\\frac{V_i(sC)}{2}[/latex] So,   [latex] V_A=-IR [/latex] [latex]V_A=-\\frac{sCRV_i}{2}[/latex] and   [latex] V_A=V_B [/latex] So,   [latex]V_B=-\\frac{sCRV_i}{2}[/latex] Now,   [latex] \\frac{V_B-V_o}{R}=I [/latex] So,   [latex]V_o=V_B-IR [/latex] [latex]V_o=-\\frac{V_i(sCR)}{2}-\\frac{V_i(sCR)}{2} [/latex] [latex]\\;\\; =-V_i(sCR) [/latex] So,  [latex]V_o=-j\\omega RCV_i[/latex] So, [latex]V_o[/latex] lag [latex]V_i[/latex] by [latex]90^{\\circ}[/latex] or phase of  [latex]V_o[/latex] w.r.t [latex]V_i[/latex] is [latex]-90^{\\circ}[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page9_q3.webp",
+    "options": {
+      "A": "0",
+      "B": "[latex]\\pi[/latex]",
+      "C": "[latex]\\pi/2[/latex]",
+      "D": "[latex]-\\pi/2[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 Of the four characteristics given below, which are the major requirements for an instrumentation amplifier? P. High common mode rejection ratio Q. High input impedance R. High linearity S. High output impedance",
+    "solution": "",
+    "options": {
+      "A": "P, Q and R only",
+      "B": "P and R only",
+      "C": "P, Q and S only",
+      "D": "Q, R and S only"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 A hysteresis type TTL inverter is used to realize an oscillator in the circuit shown\r\nin the figure. If the lower and upper trigger level voltages are 0.9 V and 1.7 V, the period (in\r\nms), for which output is LOW, is _____.",
+    "solution": "Discharging curve, [latex]V_c(t)=0-(0-1.7)e^{-t/RC} [/latex] At,   [latex]t=T_2[/latex] [latex] V_c(t)=0.9V [/latex] [latex]0.9=1.7e^{-t/RC} [/latex] [latex]0.63=T_2 [/latex] [latex]T_2=0.63\\;ms[/latex]",
+    "min": 0.62,
+    "max": 0.66
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 The transfer characteristic of the Op-amp circuit shown in figure is",
+    "solution": "CASE-I: [latex]V_i \\gt 0[/latex], the circuit will look like Hence  [latex]V_o= 0[/latex] CASE-II: [latex]V_i \\lt 0[/latex], the circuit will look like [latex]\\frac{V_{01}}{V_i}=-\\frac{R}{R} \\;\\;\\;...(i) [/latex] [latex]V_{01}=-V_i\\;\\;\\;...(ii) [/latex] [latex]and \\;\\; \\frac{V_o}{V_{01}}=-\\frac{R}{R} [/latex] [latex]V_o=-V_{01}\\;\\;\\;...(iii)[/latex] From equation (ii) and (iii), [latex]V_o=V_i[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page10_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 Two monoshot multivibrators, one positive edge triggered [latex](M_{1})[/latex] and another negative edge triggered [latex](M_{2})[/latex], are connected as shown in figure The monoshots [latex](M_{1})[/latex]  and [latex](M_{2})[/latex]  when triggered produce pulses of width [latex](T_{1})[/latex]  and [latex](T_{2})[/latex]  respectively, where\n[latex](T_{1} \\gt T_2)[/latex] . The steady state output voltage [latex](v_{o})[/latex]  of the circuit is",
+    "solution": "Not in the GATE-2018 Syllabus.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page10_q2.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 An operational amplifier circuit is shown in the figure. The output of the circuit for a given input [latex]v_{i}[/latex] is",
+    "solution": "The circuit of op-amp '1' is a Schmitt trigger, therefore [latex]V_{01}=\\pm V_{sat}[/latex] and the circuit of op-amp '2' is a non-inverting amplifier [latex]\\therefore \\;\\;\\; \\left (\\frac{V_0}{V_{01}} \\right )=\\left ( 1+\\frac{R}{R} \\right ) [/latex] [latex]\\Rightarrow \\;\\;\\;V_0=2V_{01} [/latex] where,    [latex] V_{01}=\\pm V_{sat}[/latex] Therefore, the answer is [latex]V_0=\\pm V_{sat}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page10_q3.webp",
+    "options": {
+      "A": "[latex]-(\\frac{R_{2}}{R_{1}})v_{i}[/latex]",
+      "B": "[latex]-(1+\\frac{R_{2}}{R_{1}})v_{i}[/latex]",
+      "C": "[latex](1+\\frac{R_{2}}{R_{1}})v_{i}[/latex]",
+      "D": "[latex]+V_{sat} \\; or  \\; -V_{sat}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 An oscillator circuit using ideal op-amp and diodes is shown in the figure. The time duration for +ve part of the cycle is [latex]\\Delta t_{1}[/latex] and for -ve part is [latex]\\Delta t_{2}[/latex]. The value of [latex]e^{\\frac{\\Delta t_{1}-\\Delta t_{2}}{RC}}[/latex] will be ______.",
+    "solution": "This circuit is a stable multivibrator (or) free running oscillator. When [latex]V_0=+V_{sat} [/latex] [latex]V_{UPT}=V_{sat}\\times \\frac{1k\\Omega }{1k\\Omega +3k\\Omega } = \\frac{V_{sat}}{4} [/latex] When,   [latex] V_0=-V_{sat} [/latex] [latex]V_{LTP}=V_{sat}\\times \\frac{1k\\Omega }{1k\\Omega +1k\\Omega }=\\frac{-V_{sat}}{2}[/latex] [latex]V_c=V_{final}+(V_{inital}-V_{final})e^{-t/RC}[/latex] In time  [latex] t=\\Delta t_1[/latex] [latex] V_c=V_{UTP}; [/latex] [latex]V_{initial}=V_{LTP};[/latex] [latex]V_{final}=+V_{sat}[/latex] [latex]V_{UTP}=V_{sat}+(V_{LTP}-V_{sat})e^{-\\Delta t_1/RC} [/latex] [latex]\\frac{V_{sat}}{4}=V_{sat}+\\left ( -\\frac{V_{sat}}{2}-V_{sat} \\right )e^{-\\Delta t_1/RC} [/latex] [latex]V_{sat}\\left ( -1+\\frac{1}{4} \\right )=-V_{sat}\\left ( \\frac{1}{2}+1 \\right )e^{-\\Delta t_1/RC} [/latex] [latex]\\left (1-\\frac{1}{4} \\right )=\\left ( \\frac{1}{2}+1 \\right )e^{-\\Delta t_1/RC} [/latex] [latex]\\frac{3}{4}=\\frac{3}{2}e^{-\\Delta t_1/RC}[/latex] [latex] e^{\\Delta t_1/RC}=2\\;\\;....(i) [/latex] In time [latex] t=\\Delta t_2 [/latex] [latex]V_c=V_{LTP};  [/latex]   [latex]V_{initial}=V_{UTP}; [/latex]  [latex]V_{final}=-V_{sat} [/latex] [latex]V_{LTP}=-V_{sat}+(V_{UTP}+V_{sat})e^{-\\Delta t_2/RC} [/latex] [latex]-\\frac{V_{sat}}{2}=-V_{sat}+\\left ( \\frac{V_{sat}}{4}+V_{sat} \\right )e^{-\\Delta t_2/RC} [/latex] [latex]\\left (1-\\frac{1}{2} \\right )V_{sat}=V_{sat}\\left (1+ \\frac{1}{4} \\right )e^{-\\Delta t_2/RC} [/latex] [latex]\\frac{1}{2}= \\frac{5}{4}e^{-\\Delta t_2/RC} [/latex] [latex]e^{\\Delta t_2/RC}=\\frac{5}{2}\\;\\;....(ii)[/latex] From equation (i) and (ii), [latex]\\frac{e^{\\Delta t_1/RC}}{e^{\\Delta t_2/RC}}[/latex] [latex]=e^{(\\Delta t_1-\\Delta t_2)/RC}[/latex] [latex]=\\frac{2}{5/2}=\\frac{4}{5}=0.8[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page10_q4.webp",
+    "min": 1.2,
+    "max": 1.3
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 A 10 kHz even-symmetric square ware is passed through a bandpass filter with\ncentre frequency at 30 kHz and 3 dB passband of 6 kHz. The filter output is",
+    "solution": "",
+    "options": {
+      "A": "a highly attenuated square wave at 10 kHz",
+      "B": "nearly zero",
+      "C": "a nearly perfect cosine wave at 30 kHz",
+      "D": "a nearly perfect sine wave at 30 kHz"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 Assuming the diodes to be ideal in the figure, for the output to be clipped, the input voltage [latex]v_i[/latex] must be outside the range",
+    "solution": "CASE-I: [latex]V_i \\leq -4 V [/latex] [latex]D_2\\rightarrow conducts [/latex] [latex]D_1\\rightarrow OFF [/latex] [latex]So,\\;\\; V_o=-2V [/latex] CASE-II: [latex]-4V\\leq V_i \\leq -2V[/latex] Both the diodes will be OFF [latex]V_o=V'_1[/latex] CASE-III: [latex]V_i\\geq -2V [/latex] [latex]D_1\\rightarrow conducts [/latex] [latex]D_2\\rightarrow OFF [/latex] [latex]V_o=-1V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page11_q1.webp",
+    "options": {
+      "A": "-1V to -2 V",
+      "B": "-2 V to -4 V",
+      "C": "+1V to -2 V",
+      "D": "+2 V to -4 V"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 The sinusoidal ac source in the figure has an rms value of [latex]\\frac{20}{\\sqrt{2}}[/latex]V. Considering all\npossible values of [latex]R_L[/latex], the minimum value of [latex]R_s \\; in \\; \\Omega[/latex] to avoid burnout of the\nZener diode is _____.",
+    "solution": "[latex]I_s \\geq I_Z+I_L [/latex] [latex]\\frac{1}{20} \\geq \\frac{20-5}{R_s} \\;\\;\\;\\;\\; (Putting \\;\\;I_L=0) [/latex] [latex]\\Rightarrow R_s \\geq 300\\Omega [/latex] [latex]Hence, R_{s(min)}=300\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page11_q2.webp",
+    "min": 299.0,
+    "max": 301.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 The transistor in the given circuit should always be in active region. Take\n[latex]V_{CE(sat)}=0.2V,\\; V_{BE}=0.7V[/latex]. The maximum value of [latex]R_c \\; in \\; \\Omega[/latex] which can be used, is _____.",
+    "solution": "In input loop: [latex]I_b=\\frac{5-0.7}{2k\\Omega }=\\frac{4.3}{2k\\Omega }=2.15 mA[/latex] [latex] So, \\; \\; I_c=\\beta \\times I_b=100 \\times 2.15mA [/latex] [latex]=0.215 A[/latex] Now KVL in output loop: [latex]V_{CE}=5-0.215R_C[/latex] For active region  [latex] V_{CE} \\gt 0.2V [/latex] [latex]\\Rightarrow 0.215R_C \\lt 5-0.2[/latex] [latex] \\Rightarrow R_{Cmax}=\\frac{4.8}{0.215}\\simeq 22.32\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page11_q3.webp",
+    "min": 22.0,
+    "max": 23.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 In the figure shown, assume the op-amp to be ideal. Which of the alternatives\r\ngives the correct Bode plote for the transfer function [latex]\\frac{V_o(\\omega)}{V_{i}(\\omega)}[/latex]\r\n?",
+    "solution": "This filter is considered as low-pass filter (LPF). The transfer function for LPF [latex]\\frac{V_o}{V_i}=\\frac{\\frac{1}{sC}}{R+\\frac{1}{sC}}=\\frac{1}{1+sCR} [/latex] [latex]\\;\\; =\\frac{1}{1+j\\omega (10)^3(10^{-6})}=\\frac{1}{1+j\\omega (10^{-3})} [/latex] [latex]\\;\\;=\\frac{1000}{1000+j\\omega }=\\frac{1}{1+\\frac{s}{1000}} [/latex] [latex]\\omega _c[/latex] (corner frequency)= [latex]10^3[/latex] rad/sec. tha gain at low frequencies, [latex]A_V=\\frac{1}{1+sCR}=\\frac{1}{1}=1[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page11_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 Given that the op-amps in the figure are ideal, the output voltage [latex]V_o[/latex] is",
+    "solution": "Op-amp '3' circuit is a differential amplifier so, [latex]V_o=V_{01}-V_{02}...(i)[/latex] Now, apply KCL at node '2' [latex]\\frac{V_2-V_1}{2R}+\\frac{V_2-V_{02}}{R}=0...(ii)[/latex] and apply KCL at node '1' [latex]\\frac{V_1-V_2}{2R}+\\frac{V_1-V_{01}}{R}=0...(iii)[/latex] From equation (i), (ii) and (iii), we get [latex]V_0=2(V_1-V_2)[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page11_q5.webp",
+    "options": {
+      "A": "[latex](V_{1}-V_{2})[/latex]",
+      "B": "[latex]2(V_{1}-V_{2})[/latex]",
+      "C": "[latex](V_{1}-V_{2})/2[/latex]",
+      "D": "[latex](V_{1}+V_{2})[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 The magnitude of the mid-band voltage gain of the circuit shown in figure is\n(assuming [latex]h_{fe}[/latex] of the transistor to be 100)",
+    "solution": "AC model, [latex]\\; \\; \\; \\; Z_{i}=10\\, k\\Omega[/latex] Mid band voltage gain [latex]\\; \\; \\; \\; A_{v}=\\frac{A_{I}R_{L}}{Z_{i}}[/latex] [latex]\\; \\; \\; \\; A_{v}=\\frac{-h_{fe}R_{L}}{Z_{i}} =\\frac{-100\\times 10\\, k\\Omega }{10\\, k\\Omega }=-100[/latex] [latex]\\; \\; \\; \\; \\left | A_{v} \\right |=100[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page12_q1.webp",
+    "options": {
+      "A": "1",
+      "B": "10",
+      "C": "20",
+      "D": "100"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 In the Wien Bridge oscillator circuit shown in figure, the bridge is balanced when",
+    "solution": "[latex]\\frac{R_3}{R_4}=\\frac{R_1}{R_2}+\\frac{C_2}{C_1} [/latex] [latex]\\omega =\\frac{1}{\\sqrt{R_1R_2C_1C_2}}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page12_q2.webp",
+    "options": {
+      "A": "[latex]\\frac{R_{3}}{R_{4}}=\\frac{R_{1}}{R_{2}},\\; \\; \\omega =\\frac{1}{\\sqrt{R_{1}C_{1}R_{2}C_{2}}}[/latex]",
+      "B": "[latex]\\frac{R_{2}}{R_{1}}=\\frac{C_{2}}{C_{1}},\\; \\; \\omega =\\frac{1}{R_{1}C_{1}R_{2}C_{2}}[/latex]",
+      "C": "[latex]\\frac{R_{3}}{R_{4}}=\\frac{R_{1}}{R_{2}}+\\frac{C_{2}}{C_{1}},\\; \\; \\omega =\\frac{1}{\\sqrt{R_{1}C_{1}R_{2}C_{2}}}[/latex]",
+      "D": "[latex]\\frac{R_{3}}{R_{4}}+\\frac{R_{1}}{R_{2}}=\\frac{C_{2}}{C_{1}},\\; \\; \\omega =\\frac{1}{R_{1}C_{1}R_{2}C_{2}}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 In the circuit shown below the op-amps are ideal. Then, [latex]V_{out}[/latex] in Volts is",
+    "solution": "Output of the first op-amp [latex]V_{out1}=-2\\left [ \\frac{-1}{1} \\right ]+1\\left [ 1+\\frac{1}{1} \\right ]=2+1(2)=4V [/latex] [latex]V_{out}=4\\left ( 1+\\frac{1}{1} \\right )=4(2)=8V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page12_q3.webp",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "8",
+      "D": "10"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 A voltage 1000sin[latex]\\omega t[/latex] Volts is applied across YZ. Assuming ideal diodes, the\r\nvoltage measured across WX in Volts, is",
+    "solution": "For positive half cycle, [latex]V_{WX}=0[/latex] For negative half cycle, Short circuit condition, [latex]V_{WX}=0[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page12_q4.webp",
+    "options": {
+      "A": "[latex]\\sin \\omega t[/latex]",
+      "B": "[latex](\\sin \\omega t + |\\sin \\omega t|)/2[/latex]",
+      "C": "[latex](\\sin \\omega t - |\\sin \\omega t|)/2[/latex]",
+      "D": "0 for all t"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 In the circuit shown below, the knee current of the ideal Zener dioide is 10 mA. To maintain 5 V across [latex]R_L[/latex], the minimum value of [latex]R_L[/latex] in [latex]\\Omega[/latex] and the minimum\npower rating of the Zener diode in mW, respectively, are",
+    "solution": "[latex]I_s=\\frac{10-5}{100}=50\\; mA[/latex] [latex] I_{load}=50\\;mA-10\\; mA =40\\; mA [/latex] [latex]R_L=\\frac{5 V}{40mA}=125\\Omega [/latex] [latex]P_{min}=50 mA \\times 5V=250\\;mW[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page12_q5.webp",
+    "options": {
+      "A": "125 and 125",
+      "B": "125 and 250",
+      "C": "250 and 125",
+      "D": "250 and 250"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 61 In the feedback network shown below, if the feedback factore k is increased, then the",
+    "solution": "The given configuration is a voltage-series feedback configuration. So, the input impedance  increases [latex]R_{if}=R_i(1+A_o k)[/latex] So, the output impedance  decreases [latex]R_{of}=\\frac{R_o}{1+A_o k}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page13_q1.webp",
+    "options": {
+      "A": "The input impedance increases and output impedance decreases",
+      "B": "The input impedance increases and output impedance also increases",
+      "C": "The input impedance decreases and output impedance also decreases",
+      "D": "The input impedance decreases and output impedance increases"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 In the circuit shown below what is the output voltage [latex](V_{out})[/latex] if a silicon transistor Q and an ideal op-amp are used?",
+    "solution": "Using the concept of vitual ground, V=0 [latex]V_{out}=-0.7V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page13_q2.webp",
+    "options": {
+      "A": "[latex]-15 V[/latex]",
+      "B": "[latex]-0.7 V[/latex]",
+      "C": "[latex]+0.7 V[/latex]",
+      "D": "[latex]+15 V[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 The circuit shown is a",
+    "solution": "[latex]\\frac{V_{in}-0}{R-1+\\frac{1}{sC}}=\\frac{0-V_o}{R_2} [/latex] [latex]\\frac{V_o}{V_i}=-\\left ( \\frac{R_2}{R_1+\\frac{1}{sC}} \\right )[/latex] It is a high pass filter with [latex] f_{3dB}=\\frac{1}{R_1C}[/latex] rad/sec.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page13_q3.webp",
+    "options": {
+      "A": "low pass filter with [latex]f_{3dB}=\\frac{1}{(R_{1}+R_{2})C}rad/s[/latex]",
+      "B": "high pass filter with [latex]f_{3dB}=\\frac{1}{R_{1}C}rad/s[/latex]",
+      "C": "low pass filter with [latex]f_{3dB}=\\frac{1}{R_{1}C}rad/s[/latex]",
+      "D": "high pass filter with [latex]f_{3dB}=\\frac{1}{(R_{1}+R_{2})C}rad/s[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 The voltage gain [latex]A_v[/latex] of the circuit shown below is",
+    "solution": "Equivalent A.C. model will be taking, [latex]h_{ie}=1k\\Omega [/latex] [latex]h_{fe}=\\beta =100[/latex] [latex]A_V=\\frac{V_o}{V_{in}}=\\frac{-h_{fe}i_b \\times (100||12)k\\Omega }{h_{ie}\\times i_b}[/latex] [latex] A_V=\\frac{-100 \\times 10.71k\\Omega }{1k\\Omega }=-1071.42 [/latex] [latex]V_i=h_{ie}i_b+10^4i [/latex] [latex]V_i=10^3i_b+10^4\\left [ i_b+\\frac{h_{ie}\\times i_b}{\\left ( \\frac{100k\\Omega }{1-A_V} \\right )} \\right ] [/latex] [latex]V_i=10^3i_b+i_b[10^4+(1071.42)\\times 100] [/latex] [latex]A_{VS}=\\frac{V_o}{V_i}=\\frac{-h_{fe}i_b \\times 10.7142 \\times 10^3}{i_b[10^3+10^4+10^2\\times 1071.42]} [/latex] [latex]A_{VS}=\\frac{-100 \\times 10.7142 \\times 10^3}{(10^3+10^4+10^2\\times 1071.42)} [/latex] [latex]A_{VS}=-9.06 |A_{VS}|=9.06\\approx 10[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page13_q4.webp",
+    "options": {
+      "A": "[latex]|A_{v}|\\approx 200[/latex]",
+      "B": "[latex]|A_{v}|\\approx 100[/latex]",
+      "C": "[latex]|A_{v}|\\approx 20[/latex]",
+      "D": "[latex]|A_{v}|\\approx 10[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 The i-v characteristics of the diode in the circuit given below are [latex]i=\\left\\{\\begin{matrix} \\frac{v-0.7}{500}A, & v\\geq 0.7V\\\\ 0A & v \\lt 0.7 V \\end{matrix}\\right.[/latex] The current in the circuit is",
+    "solution": "By applying kVL in loop, [latex]10=10^3i+V [/latex] [latex]10=10^3\\left ( \\frac{V-0.7}{500} \\right )+V [/latex] [latex]10= 2 V-1.4+V [/latex] [latex]3V=11.4 [/latex] [latex]\\Rightarrow V=3.8 [/latex] [latex]\\Rightarrow i=(10-3.8) \\times 10^{-3}=6.2\\; mA[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page13_q5.webp",
+    "options": {
+      "A": "10 mA",
+      "B": "9.3 mA",
+      "C": "6.67 mA",
+      "D": "6.2 mA"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 A clipper circuit is shown below. Assuming forward voltage drops of the diodes to be 0.7 V, the input-output\ntransfer characteristics of the circuit is",
+    "solution": "For positive voltage the waveform clips at +5.7 V. For negative voltage at -0.7 V, the zener diode conducts and clips out.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page14_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 The transistor used in the circuit shown below has a [latex]\\beta[/latex] of 30 and [latex]I_{CBO}[/latex] is negligible If the forward voltage drop of diode is 0.7 V, then the current through collector will be",
+    "solution": "[latex]I_{c(sat)} =\\frac{0-(-12)-0.2}{R_c}[/latex] [latex]\n \\;\\; =\\frac{11.8}{2.2k}=5.3636 \\; mA[/latex] This is the maximum current possible in any case.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page14_q2.webp",
+    "options": {
+      "A": "168mA",
+      "B": "108mA",
+      "C": "20.54mA",
+      "D": "5.36mA"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 For the circuit shown below, The CORRECT transfer characteristic is",
+    "solution": "First section is differential amplifier having gain-1. Output is [latex]V_o=\\left (\\frac{R_f+R_1}{R_g+R_2} \\right )\\frac{R_g}{R_1}V_2-\\frac{R_f}{R_1}V_1 [/latex] [latex]V_o=V_2-V_1=-V_i [/latex] Second stage-schmitt trigger [latex]V_t=\\pm \\frac{R_g}{R_f+R_g}V_o=\\frac{V_o}{2}=\\pm 6V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page14_q3.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 A low-pass filter with a cut-off frequency of 30 Hz is cascaded with a high pass\nfilter with a cut-off frequency of 20 Hz. The resultant system of filters will function\nas",
+    "solution": "It is band pass filter.",
+    "options": {
+      "A": "an all-pass filter",
+      "B": "an all-stop filter",
+      "C": "an band stop (band-reject) filter",
+      "D": "a band-pass filter"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 The transistor circuit shown uses a silicon transistor with [latex]V_{BE}=0.7 V, I_C\\approx I_E[/latex] and\na dc current gain of 100. The value of [latex]V_{0}[/latex] is",
+    "solution": "[latex]KVL\\Rightarrow [/latex] [latex]\\; \\; \\; 10=10kI_b+0.7+(100)(I_b)100 [/latex] [latex]\\; \\; \\; I_b=\\frac{9.3}{20k}=0.465 mA [/latex] [latex]\\; \\; \\; V_o=100\\times 0.465\\times 100=4.65 V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page14_q5.webp",
+    "options": {
+      "A": "4.65",
+      "B": "5",
+      "C": "6.3",
+      "D": "7.23"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 Assuming that the diodes in the given circuit are ideal, the voltage [latex]V_0[/latex]",
+    "solution": "Diode [latex]D_1[/latex] is On and diode [latex]D_2[/latex] is OFF. So,    [latex]V_0=10 \\times \\frac{10}{10+10}=5\\; V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page15_q1.webp",
+    "options": {
+      "A": "4V",
+      "B": "5V",
+      "C": "7.5V",
+      "D": "12.12V"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 72 Given that the op-amp is ideal, the output voltage [latex]V_0[/latex] is",
+    "solution": "[latex]V_o=\\left ( 1+\\frac{2R}{R} \\right )V [/latex] [latex]\n\\;\\;=(1+2)(2)=6V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page15_q2.webp",
+    "options": {
+      "A": "4V",
+      "B": "6V",
+      "C": "7.5V",
+      "D": "12.12V"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 An ideal op-amp circuit and its input wave form as shown in the figures. The\noutput waveform of this circuit will be",
+    "solution": "When [latex]V_i \\lt V_1 \\;(upto \\;\\; t_2); \\;\\; V_o=+ve [/latex] When  [latex]\nV_i \\gt V_1 \\; (t_2\\leq t\\leq t_4); \\;\\; V_o=-ve [/latex] [latex]\nV_1=\\frac{1}{1+2}V_o=\\frac{1}{3}V_o[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page15_q3.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 74 Transformer and emitter follower can both be used for impedance matching at\nthe output of an audio amplifier. The basic relationship between the input power\n[latex]P_{in}[/latex] and output power [latex]P_{out}[/latex] in both the cases is",
+    "solution": "For emitter follower [latex]A_V\\cong 1; \\; A_I[/latex] is high [latex]\\Rightarrow A_P=A_V\\cdot A_I[/latex] is high [latex]\\Rightarrow P_{out} \\gt P_{in}[/latex] For transformer, [latex]P_{in}=P_{out}[/latex]",
+    "options": {
+      "A": "[latex]P_{in}=P_{out}[/latex] for both transformer and emitter follower",
+      "B": "[latex]P_{in} \\gt P_{out}[/latex] for both transformer and emitter follower",
+      "C": "[latex]P_{in} \\lt P_{out}[/latex] for transformer and [latex]P_{in}=P_{out}[/latex] for emitter follower",
+      "D": "[latex]P_{in}=P_{out}[/latex] for transformer and [latex]P_{in} \\lt P_{out}[/latex] for emitter follower"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 75 The following circuit has [latex]R=10k\\Omega, C=10\\mu F[/latex]. The input voltage is a sinusoidal\nat 50 Hz with an rms value of 10 V. Under ideal conditions, the current [latex]i_s[/latex]\nfrom the source is",
+    "solution": "[latex]I_s=\\frac{V_s-V_o}{R} [/latex] [latex]V_s=\\frac{\\frac{1}{j\\omega C}}{R+\\frac{1}{j\\omega C}}V_o[/latex] [latex] I_s=-V_sj\\omega C[/latex] [latex] \\;\\;=-j(10 \\times 2 \\pi \\times 50 \\times 10\\times 10^{-6}) [/latex] [latex]\\;\\;=-j10\\pi...mA[/latex] [latex] \\;\\;=10\\pi \\; mA[/latex]  lagging by [latex]90^{\\circ}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page15_q5.webp",
+    "options": {
+      "A": "10[latex]\\pi[/latex] mA leading by 90%",
+      "B": "20[latex]\\pi[/latex] mA leading by 90%",
+      "C": "10 mA leading by 90%",
+      "D": "10[latex]\\pi[/latex] mA lagging by 90%"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 76 The nature of feedback in the op-amp circuit shown is",
+    "solution": "Voltage-series feedback arrangement or voltage-voltage feedback.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page16_q1.webp",
+    "options": {
+      "A": "Current-Current feedback",
+      "B": "Voltage-Voltage feedback",
+      "C": "Current-Voltage feedback",
+      "D": "Voltage-Current feedback"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 The following circuit has a source voltage [latex]V_s[/latex] as shown in the graph. The current\nthrough the circuit is also shown. The element connected between a and b could be",
+    "solution": "Diode act as a switch. When forward biased it is short circuited. But when suddenly reverse biased, current does not become zero instantly , initially the same current flow in opposite direction and after some time (turn off time) it will become zero.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page16_q2.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 78 A general filter circuit is shown in the figure : The output of the above circuit is given to the circuit shown below in figure : The gain v/s frequency characteristic of the output ([latex]v_o[/latex]) will be",
+    "solution": "[latex]V_{in}=\\frac{(sCR_A)}{1+sCR_A}\\times \\frac{V_i}{2} [/latex] [latex]\\therefore \\;\\;\\; V_0=\\frac{\\frac{1}{sC}}{\\frac{1}{sC}+\\frac{R_A}{2}}V_{in}=\\frac{1}{\\left ( 1+sR_A\\frac{C}{2} \\right )}V_{in}[/latex] [latex] \\therefore \\;\\;\\; V_{0}=\\frac{1}{\\left ( 1+sR_A\\frac{C}{2} \\right )}\\cdot \\frac{sR_AC}{1+sR_AC}V_{in}[/latex] Which is similar to equation of a band pass filter.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page16_q3.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 79 A general filter circuit is shown in the figure : If [latex]R_1=R_2=R_A[/latex]\n and [latex]R_3=R_4=R_B[/latex],\nthe circuit acts as a",
+    "solution": "[latex]V_A=\\frac{R_4}{R_4+R_3} \\times V_i, [/latex] [latex]V_A=\\frac{R_B}{R_B+R_B}\\times V_i=\\frac{V_i}{2}[/latex] Let,  [latex]V_i[/latex] only on onverting terminal [latex]V_{01}=\\frac{-R_f}{R_1}V_i[/latex] Here,  [latex]R_f=R_2||\\frac{1}{sC}=\\frac{R_2}{1+sCR_2}[/latex] Let, [latex]V_i[/latex] only only on non-inverting terminal [latex]V_{02}=\\left ( 1+\\frac{R_f}{R_1} \\right )\\frac{V_i}{2} [/latex] [latex]V_0=V_{01}+V_{02}[/latex] [latex]\\;\\;=\\left ( 1-\\frac{R_f}{R_1} \\right )\\frac{V_i}{2}[/latex] Putting the value of [latex]R_f[/latex], we get [latex]V_0=\\left ( 1-\\frac{R_2}{R_1(1+sCR_2)} \\right )\\frac{V_i}{2} [/latex] Here,   [latex](R_1=R_2=R_A)[/latex] [latex] \\therefore \\;\\;\\; V_0=\\frac{1}{1+\\frac{1}{sCR_A}}\\times \\left ( \\frac{V_i}{2} \\right )[/latex] So, it is high pass filter.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page16_q4.webp",
+    "options": {
+      "A": "all pass filter",
+      "B": "band pass filter",
+      "C": "high pass filter",
+      "D": "low pass filter"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 A waveform generator circuit using OPAMPs is shown in the figure. It produces\r\na triangular wave at point 'P' with a peak to peak voltage of 5 V for [latex]v_i=0[/latex]V. If the voltage [latex]v_i[/latex] is made +2.5 V, the voltage waveform at point 'P' will become",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page16_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 81 The truth table of monoshot shown in the figure is given in the table below : Two monoshots, one positive edge triggered and other negative edge triggered,\r\nare connected shown in the figure, The pulse widths of the two monoshot outputs\r\n[latex]Q_1 \\; and \\; Q_2[/latex] are [latex]T_{ON1}[/latex] and [latex]T_{ON2}[/latex] respectively. The frequency and the duty cycle of the signal at [latex]Q_1[/latex] will respectively be",
+    "solution": "[latex]f=\\frac{1}{T_{ON1}+T_{ON2}},[/latex] [latex] D=\\frac{T_{ON1}}{T_{ON1}+T_{ON2}}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page17_q1.webp",
+    "options": {
+      "A": "[latex]f=\\frac{1}{T_{ON_{1}}+T_{ON_{2}}},D=\\frac{T_{ON_{1}}}{T_{ON_{1}}+T_{ON_{2}}}[/latex]",
+      "B": "[latex]f=\\frac{1}{T_{ON_{1}}+T_{ON_{2}}},D=\\frac{T_{ON_{2}}}{T_{ON_{1}}+T_{ON_{2}}}[/latex]",
+      "C": "[latex]f=\\frac{1}{T_{ON_{1}}},D=\\frac{T_{ON_{1}}}{T_{ON_{1}}+T_{ON_{2}}}[/latex]",
+      "D": "[latex]f=\\frac{1}{T_{ON_{2}}},D=\\frac{T_{ON_{1}}}{T_{ON_{1}}+T_{ON_{2}}}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 82 The block diagrams of two of half wave rectifiers are shown in the figure. The\ntransfer characteristics of the rectifiers are also shown within the block. It is desired to make full wave rectifier using above two half-wave rectifiers. The resultants circuit will be",
+    "solution": "For [latex](V_{in} \\gt 0 )[/latex], [latex]P\\rightarrow V_{01}=negative [/latex] [latex]Q\\rightarrow V_{02}=0[/latex] [latex]V_0[/latex] will be positive due to inverting action. For [latex](V_{in} \\lt 0)[/latex], [latex]P\\rightarrow V'_{01}=0 [/latex] [latex]Q\\rightarrow V'_{02}=positive[/latex] [latex]V_0[/latex] will be positive due to non-inverting action. So, output is always rectified.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page17_q2.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 In the voltage doubler circuit shown in the figure, the switch 'S' is closed at t=0. Assuming diodes [latex]D_1 \\; and \\; \r\nD_2[/latex] to be ideal, load resistance to be infinite and initial\r\ncapacitor voltages to be zero. The steady state voltage across capacitor [latex]C_1 \\; and \\; \r\nC_2[/latex] will be",
+    "solution": "Forst capacitor charge through Diode ([latex]D_1[/latex]) upto [latex]V_{max} (5 \\; V)[/latex] with shown polarities. [latex]\\therefore V_{c1}=5\\; V[/latex] Now diode [latex]D_1[/latex] will be reversed biased and [latex]D_2[/latex] will be forward biased and capacitor [latex]C_2[/latex] will charge in reverse direction through diode [latex]D_2[/latex] upto [latex]2V_{max}[/latex] [latex]\\therefore V_{c2}=-10\\; V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page17_q3.webp",
+    "options": {
+      "A": "[latex]V_{c1}=10V,V_{c2}=5V[/latex]",
+      "B": "[latex]V_{c1}=10V,V_{c2}=-5V[/latex]",
+      "C": "[latex]V_{c1}=5V,V_{c2}=10V[/latex]",
+      "D": "[latex]V_{c1}=5V,V_{c2}=-10V[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 Two perfectly matched silicon transistor are connected as shown in the figure\nassuming the [latex]\\beta[/latex] of the transistors to be very high and the forward voltage drop\nin diodes to be 0.7 V, the value of current I is",
+    "solution": "Since both transitor are perfectly matched, So,  [latex]V_{BE1}=V_{BE2}[/latex] [latex]\\frac{I_{c1}}{I_{c2}}=exp\\left [ \\frac{V_{BE1}-V_{BE2}}{V_T} \\right ]=e^0=1 [/latex] Since \\beta for both are same, therefore [latex]I_{b1}=I_{b2}=I_{b}[/latex] Applying KVL to loop as shown, [latex]I_R=\\frac{0-0.7-0.7-(-5)}{1k\\Omega }=3.6mA[/latex] By KCL, [latex]I_R=I_c+2I_b [/latex] [latex]\\;\\; =I_c+2\\frac{I-c}{\\beta } [/latex] [latex]\\therefore \\; I_c=\\frac{\\beta }{\\beta +2}\\times I_R [/latex] [latex]\\;\\; \\approx I_R[/latex]  (Because [latex]\\beta[/latex] is very large)",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page17_q4.webp",
+    "options": {
+      "A": "0 mA",
+      "B": "3.6 mA",
+      "C": "4.3 mA",
+      "D": "5.7 mA"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 The equivalent circuits of a diode, during forward biased and reverse biased\r\nconditions, are shown in the figure. If such a diode is used in clipper circuit of figure given above, the output voltage\r\n[latex]v_0[/latex] of the circuit will be",
+    "solution": "[latex]V_P=\\frac{10}{10+10}\\times 10sin\\omega t [/latex] [latex]\n\\;\\; =5sin\\omega t[/latex] Since maximum voltage across at the point P may be 5 V, hence voltage across the diode always will be less than or equal to zero. So it will be reversed always. [latex]\\therefore V_0=\\frac{10}{10+10}\\times 10sin\\omega t=5sin\\omega t[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page17_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 IC 555 in the adjacent figure is configured as an astable multi-vibrator. It is\r\nenabled to to oscillate at t=0 by applying a high input to pin 4. The pin\r\ndescription is : 1 and 8-supply; 2-trigger; 4-reset; 6-threshold 7-discharge. The\r\nwaveform appearing across the capacitor starting from t=0, as observed on a\r\nstorage CRO is",
+    "solution": "An astable multi-vibrator is providing pulse as given below But in this case initial voltage at capacitor is zero. So it starts from zero. Also charging time will be larger (normally) than discharging time but it is made equal by using a diode.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page18_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 The switch S in the circuit of the figure is initially closed, it is opened at time t=0. You may neglect the zener diode forward voltage drops. What is the behavior\r\nof [latex]V_{out}[/latex] for t[latex]\\gt[/latex]0 ?",
+    "solution": "Let the voltage at the non-inverting terminal of the opamp be [latex]V_a[/latex] volts and the voltage at inverting terminal be [latex]V_b[/latex] volts. At  [latex]t=0^+[/latex] switch is open [latex]V_o=5V[/latex] and  [latex]V_b=-10V[/latex] [latex]\\therefore \\;\\;\\;V_a=\\frac{V_o \\times 10k}{100k+10k}=\\frac{50}{11}volts [/latex] As  [latex]t\\rightarrow \\infty , \\;\\; V_b\\rightarrow 10V[/latex] [latex] V_b=V_f+(V_i-V_f)e^{-t/RC}....(i)[/latex] Putiing ,   [latex] V_b=\\frac{50}{11} \\; \\; at \\; \\;  t=T_1[/latex] [latex] V_i=-10V \\;\\; and \\;\\; V_f=10V[/latex] in eq.(i) We get, [latex]T_1=12.98\\mu sec [/latex] [latex]\\therefore [/latex]   At [latex]t=12.98\\mu sec, \\;\\;\\;  V_o[/latex] changes from 5V to -5V.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page18_q2.webp",
+    "options": {
+      "A": "It makes a transition from -5 V to +5 V at t = 12.98 [latex]\\mu[/latex]s",
+      "B": "It makes a transition from -5 V to +5 V at t = 2.57 [latex]\\mu[/latex]s",
+      "C": "It makes a transition from +5 V to -5 V at t = 12.98 [latex]\\mu[/latex]s",
+      "D": "It makes a transition from +5 V to -5 V at t = 2.57 [latex]\\mu[/latex]s"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 The input signal [latex]v_{in}[/latex] shown in the figure is a 1 kHz square wave voltage that\nalternates between +7 V and -7 V with a 50% duty cycle. Both transistor\nhave the same current gain which is large. The circuit delivers power to the load\nresistor [latex]R_{L}[/latex]. What is the efficiency of this circuit for the given input ? choose the\nclosest answer.",
+    "solution": "It is a class D amplifier, so [latex]\\eta[/latex] should be high [latex]\\eta[/latex]\n of class D amplifier is 90% to 100%.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page18_q3.webp",
+    "options": {
+      "A": "46%",
+      "B": "55%",
+      "C": "63%",
+      "D": "92%"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 89 The circuit shown in the figure is",
+    "solution": "It behaves as current source because the output current [latex]I_o[/latex] depends upon ([latex]V_{in}[/latex]) and resistance only. Where,   [latex]I_0=\\frac{\\left ( \\frac{V \\times R_2}{R_1+R_2} \\right )}{r}=\\frac{R_2}{R_1+R_2}\\cdot \\frac{V}{r}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page18_q4.webp",
+    "options": {
+      "A": "a voltage source with voltage [latex]\\frac{rV}{R_{1}\\parallel R_{2}}[/latex]",
+      "B": "a voltage source with voltage [latex]\\frac{r \\parallel R_{2}}{R_{1}} V[/latex]",
+      "C": "a current source with current [latex]\\frac{r \\parallel R_{2}}{R_{1}+R_{2}} \\frac{V}{r}[/latex]",
+      "D": "a current source with current [latex]\\frac{R_{2}}{R_{1}+R_{2}} \\frac{V}{r}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 The three-terminal linear voltage regulator is connected to a 10 [latex]\\Omega[/latex] load resistor as shown in the figure. If [latex]V_{in}[/latex] is 10 V, what is the power dissipated in the transistor ?",
+    "solution": "[latex]V_0=V_Z-V_{BE}[/latex] [latex] \\;\\; =6.6V-0.7V=5.9V [/latex] [latex]I_L=\\frac{V_0}{R_L}=\\frac{5.9}{10}=0.59A=I_C [/latex] [latex]V_{CE}-V_i-V_0 [/latex] [latex]\\;\\; =10-5.9=4.1V [/latex] [latex]P_Q=V_{CE} \\times I_C [/latex] [latex]\\;\\;=4.1 \\times 0.59A=2.4 W[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page18_q5.webp",
+    "options": {
+      "A": "0.6W",
+      "B": "2.4W",
+      "C": "4.2W",
+      "D": "5.4W"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 The common emitter forward current gain of the transistor shown is [latex]\\beta _{F}=100[/latex]. The transistor is operating in",
+    "solution": "We assume BJT is in active region, applying KVL in base emitter circuit [latex]10-0.7=1k\\Omega \\times I_c+270 \\times I_b[/latex] [latex]\n =I_b(270+100k) [/latex] [latex]\n\\therefore \\; \\; I_b=\\frac{9.3}{370}mA [/latex] [latex]\n\\therefore \\;\\; I_c=\\frac{93}{37}mA [/latex] [latex]\nI_{c(sat)}=\\frac{10-0.2}{2k}=4.9 mA [/latex] [latex]\nI_{c(sat)} \\gt I_{c(active)} [/latex] [latex]\n\\therefore \\;[/latex] BJT is in active region.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page19_q1.webp",
+    "options": {
+      "A": "Saturation region",
+      "B": "Cutoff region",
+      "C": "Reverse active region",
+      "D": "Forward active region"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 A relaxation oscillator is made using OPAMP as shown in figure. The supply\nvoltages of the OPAMP are [latex]\\pm[/latex]12 V. The voltage waveform at point P will be",
+    "solution": "Output will be either at [latex]+V_{sat}[/latex] or [latex]-V_{sat}[/latex]. When output will be at [latex]+V_{sat}[/latex] diodde connected to [latex]10k\\Omega[/latex] resistance will be on making voltage at point P equal to 6V. When output will be at [latex]-V_{sat}[/latex] diodde connected to [latex]2k\\Omega[/latex] resistance will be on making voltage at point P equal to -10V.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page19_q2.webp",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 Consider the circuit shown in figure. If the [latex]\\beta[/latex] of the transistor is 30 and [latex]I_{CBO}[/latex] is 20\nmA and the input voltage is +5 V, the transistor would be operating in",
+    "solution": "Assume BJT is in active Region and we neglect [latex]I_{CBO}[/latex], [latex]\\begin{aligned} V_{th}&=\\frac{-12 \\times 15}{115}+\\frac{5 \\times 100}{5} \\\\ &=2.78 V \\\\ \r\nR_{th}&=(15||100)\\\\ &=\\frac{15 \\times 100}{5}=13 k\\Omega \\\\ \r\nI_c&=\\beta I_b \\\\\r\n\\text{But, } I_b&=\\frac{2.78-0.7}{13}=0.16mA \\\\\r\nI_c&=4.8 mA \\\\\r\n\\text{But, }I_{c(sat)}&=\\frac{12-0.2}{2.2k}=5.36mA \\\\\r\n\\text{as }  I_{c(sat)} & \\gt I_{c(active)}\\end{aligned}[/latex] BJT is in active region.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page19_q3.webp",
+    "options": {
+      "A": "saturation region",
+      "B": "active region",
+      "C": "breakdown region",
+      "D": "cut-off region"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 94 Assuming the diodes [latex]D_{1}[/latex] and [latex]D_{2}[/latex] of the circuit shown in figure to be ideal ones, the\ntransfer characteristics of the circuit will be",
+    "solution": "[latex]V_i \\lt 10V \\;\\;\\;\\;\\; D_1 \\;OFF, D_2 \\; OFF [/latex] [latex]V_o=10V [/latex] [latex]V_i \\gt 10V \\;\\;\\;\\;\\; D_1 \\;ON, D_2 \\; OFF [/latex] [latex]V_o=V_{in}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page19_q4.webp",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 For a given sinusoidal input voltage, the voltage waveform at point P of the\nclamper circuit shown in figure will be",
+    "solution": "For -ve half of the input +ve terminal of OPAMP is at higher potential than -ve terminal and output goes to [latex]+V_{sat}[/latex] but due to this high potential diode gets on and restricts the output to 0.7V only. And for +ve half of the input +ve terminal of OPAMP is at lower potential than -ve terminal's potential and output goes to [latex]-V_{sat}[/latex] and remains at [latex]-V_{sat}[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page19_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 96 What are the states of the three ideal diodes of the circuit shown in figure ?",
+    "solution": "Analyzing the circuit, we can see that [latex]D_1[/latex] and [latex]D_2[/latex] are in forward bias and [latex]D_3[/latex] is in reverse bias. But no current flow through [latex]D_2[/latex], bcause current gets shortest path through [latex]D_1[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page20_q1.webp",
+    "options": {
+      "A": "[latex]D_1 \\; ON, D_2\\; OFF, D_3 \\; OFF[/latex]",
+      "B": "[latex]D_1 \\; OFF, D_2\\; ON, D_3 \\; OFF[/latex]",
+      "C": "[latex]D_1 \\; ON, D_2\\; OFF, D_3 \\; ON[/latex]",
+      "D": "[latex]D_1 \\; OFF, D_2\\; ON, D_3 \\; ON[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 97 Assume that the threshold voltage of the N-channel MOSFET shown in figure is + 0.75 V. The output characteristics of the MOSFET are also shown The voltage gain of the amplifier is",
+    "solution": "Since,  [latex]r_d \\gt \\gt R[/latex] All current will pass through R [latex]V_{out}=-g_mV_{GS}R [/latex] [latex]\\;\\; =-1 \\times 10^{-3}\\times 2 \\times 10^{-3}\\times 10\\times 10^{-3}[/latex] [latex] \\; \\; =-20\\; mV [/latex] Volate gain[latex]=\\frac{V_{out}}{V_{in}} =\\frac{-20\\; mV}{2 \\; mV}=-10[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page20_q2.webp",
+    "options": {
+      "A": "[latex]+5[/latex]",
+      "B": "[latex]-7.5[/latex]",
+      "C": "[latex]+10[/latex]",
+      "D": "[latex]-10[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 Assume that the threshold voltage of the N-channel MOSFET shown in figure is + 0.75 V. The output characteristics of the MOSFET are also shown The transconductance of the MOSFET is",
+    "solution": "[latex]g_m =\\frac{\\Delta I_{DS}}{\\Delta V_{GS}}=\\frac{(4-3)mA}{(4-3)V}=1\\;mS[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page20_q3.webp",
+    "options": {
+      "A": "0.75 ms",
+      "B": "1 ms",
+      "C": "2 ms",
+      "D": "10 ms"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 99 In the given figure, if the input is a sinusoidal signal, the output will appear as\nshown",
+    "solution": "Output will be at its saturation values and it is having a phase difference of ([latex]180^{\\circ}[/latex]). For +ve half of the input, first diode will be on making -ve terminal of op-amp to 0.7V larger than the voltage at +ve input, so output will be [latex]-V_{sat}[/latex]. For -ve half of the input reverse of the above will happen and output will go [latex]+V_{sat}[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page20_q4.webp",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 100 The typical frequency response of a two-stage direct coupled voltage amplifier is as shown in figure",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page20_q5.webp",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 Consider the inverting amplifier, using an ideal operational amplifier shown in\nthe figure. The designer wishes to realize the input resistance seen by the smallsignal source to be as large as possible, while keeping the voltage gain between -10 and -25. The upper limit on [latex]R_{F}[/latex] is 1 M[latex]\\Omega[/latex]. The value of [latex]R_{1}[/latex] should be",
+    "solution": "[latex]\\frac{V_o}{V_{in}}=-\\frac{R_f}{R_1}[/latex] If gain=-25 then [latex]R_1=\\frac{1000k}{25}=40k\\Omega[/latex] If gain=-10 then [latex]R_1=\\frac{1000k}{10}=100k\\Omega[/latex] Soif we keep [latex]R_1[/latex] to be [latex]100k\\Omega[/latex] then we never get the gain -25 for any [latex]R_F[/latex] so we can keep [latex]R_1[/latex] to be [latex]40k\\Omega[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page21_q1.webp",
+    "options": {
+      "A": "Infinity",
+      "B": "1M[latex]\\Omega[/latex]",
+      "C": "100k[latex]\\Omega[/latex]",
+      "D": "40k[latex]\\Omega[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 102 The common emitter amplifier shown in the figure is biased using a 1 mA ideal\ncurrent source. The approximate base current value is",
+    "solution": "[latex]\\beta =\\frac{I_c}{I_b}[/latex] [latex] I_b=\\frac{1 \\times 10^{-3}}{100}=10 \\mu A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page21_q2.webp",
+    "options": {
+      "A": "0[latex]\\mu A[/latex]",
+      "B": "10[latex]\\mu A[/latex]",
+      "C": "100[latex]\\mu A[/latex]",
+      "D": "1000[latex]\\mu A[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 103 Assume that the N-channel MOSFET shown in the figure is ideal, and that its\r\nthreshold voltage is +1.0 V. The voltage [latex]V_{ab}[/latex] between nodes a and b is:",
+    "solution": "MOSFET is N_channel. Gate through souce is so connected that MOSFET will be in enhance mode and so conductivity of the channel will be increased very much and effectively '[latex]\\beta[/latex]' terminal act as short circuited, So, [latex]V_{ab}=0V[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page21_q3.webp",
+    "options": {
+      "A": "5V",
+      "B": "2V",
+      "C": "1V",
+      "D": "0V"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 104 Assume that [latex]D_{1}[/latex] and [latex]D_{2}[/latex] in figure are ideal diodes. The value of current is",
+    "solution": "Current will pass through its simplest path  (or) low resistance path.  [latex]D_1[/latex] become forward biased and [latex]D_2[/latex] is reverse biased I = 0 mA",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page21_q4.webp",
+    "options": {
+      "A": "0 mA",
+      "B": "0.5 mA",
+      "C": "1 mA",
+      "D": "2 mA"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 105 In the Schmitt trigger circuit shown in figure, if  [latex]V_{CE\\left ( sat \\right )}[/latex]= 0.1V, the output logic\nlow level ([latex]V_{OL}[/latex]) is",
+    "solution": "[latex]V_i=0[/latex], then first transistor will be cut-off and current through left resistor will drive the second transistor into saturation Then,  [latex]V_o=V_{CE,sat}+1.25 \\times 10^{-3}\\times 10^3[/latex] =1.35 V",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page21_q5.webp",
+    "options": {
+      "A": "1.25 V",
+      "B": "1.35 V",
+      "C": "2.50 V",
+      "D": "5.00 V"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 106 The input resistance [latex]R_{IN} = \\frac{V_{x}}{I_{x}}[/latex] of the circuit in figure is",
+    "solution": "Here,  [latex]I_x=\\frac{V_x-V_y}{R_3} [/latex] But,  [latex]V_y=\\left ( 1+\\frac{100K}{10K} \\right )V_x=11V_x [/latex] [latex]I_x=\\frac{-10V_x}{1M\\Omega }[/latex] [latex]\\Rightarrow \\frac{V_x}{I_x}=-100k\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page22_q1.webp",
+    "options": {
+      "A": "[latex]+100k\\Omega[/latex]",
+      "B": "[latex]-100k\\Omega[/latex]",
+      "C": "[latex]+1M\\Omega[/latex]",
+      "D": "[latex]-1M\\Omega[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 107 In the active filter circuit shown in figure, if Q=1, a pair of poles will be\r\nrealized with [latex]\\omega _0[/latex] equal to",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page22_q2.webp",
+    "options": {
+      "A": "1000 rad/s",
+      "B": "100 rad/s",
+      "C": "10 rad/s",
+      "D": "1 rad/s"
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "Question 108 The value of R for which the PMOS transistor in figure will be biased in linear\nregion is",
+    "solution": "Here [latex]V_S=+4V [/latex] [latex]V_G=0V [/latex] [latex]V_T=-1V [/latex] Therefore,  [latex]V_{SG}=4V [/latex] [latex]V_{SD}=V_S-V_D[/latex] [latex] =4-I_a R[/latex] Now for linear region of operation [latex]\\;\\; V_{SD} \\lt (V_{SG}-V_T) [/latex] [latex]\\Rightarrow 4-I_a R \\lt (4-1) [/latex] [latex]\\Rightarrow I_a (R) \\gt 1 [/latex] [latex]\\Rightarrow 10^{-3}\\times R\\gt 1 [/latex] [latex]\\;\\;\\; R \\gt 1000\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page22_q3.webp",
+    "options": {
+      "A": "220 [latex]\\Omega[/latex]",
+      "B": "470 [latex]\\Omega[/latex]",
+      "C": "680 [latex]\\Omega[/latex]",
+      "D": "1200 [latex]\\Omega[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 109 The transconductance [latex]g_{m}[/latex] of the transistor shown in figure is 10 mS. The value\nof the input resistance [latex]R_{IN}[/latex] is",
+    "solution": "Input Resistance=[latex]\\frac{h_{fe}}{g_m}=\\frac{\\beta }{g_m} =\\frac{50}{10\\times 10^{-3}}=5k\\Omega[/latex] But overall input resistance seen from source is [latex]R_{IN}=10\\left \\| 10 \\right \\|5=2.5\\;k\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page22_q4.webp",
+    "options": {
+      "A": "10.0 [latex]k\\Omega[/latex]",
+      "B": "8.3 [latex]k\\Omega[/latex]",
+      "C": "5.0 [latex]k\\Omega[/latex]",
+      "D": "2.5 [latex]k\\Omega[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 110 Assuming that the diodes are ideal in figure, the current in diode [latex]D_{1}[/latex] is",
+    "solution": "From the circuit, if '[latex]D_1[/latex]' is 'ON' Kirchoff's law is not satisfied [latex]\\therefore \\; \\; \\; D_1[/latex]is OFF and [latex] D_2[/latex] is ON [latex]\\therefore \\; \\; \\; I= 0 mA[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page22_q5.webp",
+    "options": {
+      "A": "8 mA",
+      "B": "5 mA",
+      "C": "0 mA",
+      "D": "-3 mA"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 111 The feedback used in the circuit shown in figure can be classified as",
+    "solution": "Equivalent circuit can be drawn with input voltage comparison and current feedback. It is shunt-shunt feedback.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page23_q1.webp",
+    "options": {
+      "A": "shunt-series feedback",
+      "B": "shunt-shunt feedback",
+      "C": "series-shunt feedback",
+      "D": "series-series feedback"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 112 Two perfectly matched silicon transistor are connected as shown in figure. The\nvalue of the current I is",
+    "solution": "Both transistor are perfectly matched, hence [latex]V_{BE2}=V_{BE1}[/latex] therefore,  [latex]\\frac{I_{c1}}{I_{c2}}=exp[(V_{BE1}-V_{BE2})/V_T]=1[/latex] Also '[latex]\\beta[/latex]' is same. [latex]I_R=\\frac{+5-0.7}{1K}=4.3\\; mA[/latex] Writing KCL at node B, [latex]I_c+2I_b-I_R=0 [/latex] [latex]I_c=\\beta I_b [/latex] [latex]\\therefore \\; I_c=\\left ( \\frac{\\beta }{\\beta +2} \\right )I_R [/latex] [latex]\\approx I_R[/latex] (Because [latex] \\beta[/latex] is very large) Hence, [latex]I_{c1}=I_{c2}=I_R=4.3\\; mA[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page23_q2.webp",
+    "options": {
+      "A": "0 mA",
+      "B": "2.3 mA",
+      "C": "4.3 mA",
+      "D": "7.3 mA"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 113 The current through the Zener diode in figure is",
+    "solution": "[latex]R_Z=\\frac{\\Delta V_Z}{\\Delta I_Z}=\\frac{3.5-3.3}{\\Delta I_Z} [/latex] [latex]\\therefore \\Delta I_Z=\\frac{0.2}{0.1k}=2 mA[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page23_q3.webp",
+    "options": {
+      "A": "33 mA",
+      "B": "3.3mA",
+      "C": "2 mA",
+      "D": "0 mA"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 114 In the circuit shown in figure, the current gain ([latex]\\beta[/latex]) of the ideal transistor is\r\n10. The operating point of the transistor ([latex]V_{ce},I_C[/latex]) is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page23_q4.webp",
+    "options": {
+      "A": "(40 V, 4 A)",
+      "B": "(40 V, 5 A)",
+      "C": "(0 V, 4 A)",
+      "D": "(15 V,4 A)"
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "Question 115 The circuit of figure shows a 555 Timer IC connected as an astable multivibrator.\r\nThe value of the capacitor C is 10 nF. The values of the resistors\r\n[latex]R_A \\; and \\; R_B[/latex] for a frequency of 10 kHz and a duty cycle of 0.75 for the output\r\nvoltage waveform are",
+    "solution": "Duty cycle [latex]=\\alpha =\\frac{T_{ON}}{T}[/latex] [latex] \\therefore T_{ON}=\\alpha T=0.75 \\times 10^{-4}=75 \\mu sec [/latex] [latex]\\frac{75 \\times 10^{-6}}{0.7 \\times 10^{-8}}=R_A+R_B [/latex] [latex]\\therefore R_A+R_B=10.714 \\; k\\Omega [/latex] [latex]\\therefore T_{OFF}=0.7 \\; CR_B [/latex] [latex]\\therefore R_B=\\frac{25 \\times 10^{-6}}{0.7 \\times 10^{-8}} [/latex] [latex]\\;\\; R_B=3.57 \\; k\\Omega , R_A=7.14 \\; k\\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page23_q5.webp",
+    "options": {
+      "A": "[latex]R_{A}=3.62 k\\Omega , R_{B}=3.62k\\Omega[/latex]",
+      "B": "[latex]R_{A}=3.62 k\\Omega , R_{B}=7.25k\\Omega[/latex]",
+      "C": "[latex]R_{A}=7.25 k\\Omega , R_{B}=3.62k\\Omega[/latex]",
+      "D": "[latex]R_{A}=7.25 k\\Omega , R_{B}=7.25k\\Omega[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 116 A voltage signal [latex]10\\sin \\omega t[/latex] is applied to the circuit with ideal diodes, as shown in figure, The maximum, and minimum values of the output waveform [latex]V_{out}[/latex] of the circuit are respectively",
+    "solution": "Fpr positive cycle , when [latex]V_{in} \\gt 4V[/latex] [latex](V_{in} \\gt 4V) D_2 ON, D_1 OFF, V_{out}=4V[/latex] where  [latex]V_{in} \\lt 4V[/latex],  then [latex]V_{out}=V_{in} [/latex] because  [latex]D_2[/latex]\r\n also become (OFF). For negative cycle, when  [latex]V_{in} \\lt -4V [/latex] [latex]D_1 \\; ON, D_2 \\; OFF[/latex] [latex]I=\\frac{V_{in}+4}{20k} [/latex] [latex]but, V_{in}=-ve[/latex] [latex] \\therefore \\; I=\\frac{-V_{in}+4}{20}=\\frac{-3}{10}mA [/latex] [latex](\\because \\text{ for minimum output }V_{in}=-10V) [/latex] [latex]V_{out}=\\frac{-3}{10}\\times 10k-4=-7V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page24_q1.webp",
+    "options": {
+      "A": "+10 V and -10 V",
+      "B": "+4 V and -4 V",
+      "C": "+7 V and -4 V",
+      "D": "+4 V and -7 V"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 117 Assuming the operational amplifier to be ideal, the gain [latex]V_{out}/V_{in}[/latex] for the circuit\r\nshown in figure is",
+    "solution": "using KCL at node 1, we have, [latex]\\frac{V_1-0}{10}+\\frac{V_1}{1}+\\frac{V_1-V_{out}}{10}=0 [/latex] [latex]12V_1=V_{out}\\;\\;\\;....(i)[/latex] Also, using KCL at inverting node, we get [latex]\\frac{V_{in}-0}{1}=\\frac{0-V_1}{10}[/latex] [latex]V_1=-V_{in} \\times 10   \\;\\;\\;....(ii)[/latex] From equation (i) and (ii), we get [latex]\\frac{V_{out}}{V_{in}}=-120[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page24_q2.webp",
+    "options": {
+      "A": "-1",
+      "B": "-20",
+      "C": "-100",
+      "D": "-120"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 118 For the n-channel enhancement MOSFET shown in figure, the threshold voltage\r\n[latex]V_{th}[/latex] = 2 V. The drain current [latex]I_{D}[/latex] of the MOSFET is 4 mA when the drain\r\nresistance [latex]R_{D}[/latex] is 1 k[latex]\\Omega[/latex]. If the value of [latex]R_{D}[/latex] is increased to 4 k[latex]\\Omega[/latex], drain current [latex]I_{D}[/latex] will become",
+    "solution": "[latex]I_D=K(V_{GS}-V_{th})^2 [/latex] [latex]4=K(6-2)^2 [/latex] [latex]\\therefore \\; K=\\frac{1}{4}mA/V^2 [/latex] [latex]V_{GS}=10-4\\times 1=6V[/latex] when [latex]R_D[/latex] is increased to [latex]4k\\Omega[/latex] [latex]V_{GS}=10-4I_D [/latex] [latex]I_D=\\frac{1}{4}(10-4I_D-2)^2[/latex] [latex] 4I_D=16I^2_D+64-64I_D [/latex] [latex]16I^2_D-68I_D+64=0 [/latex] [latex]I_D=2.84 \\; mA,1.4 \\; mA[/latex] For MOSFET to be on, [latex]V_{GS}[/latex] must be greater than [latex]V_{th}[/latex] and this is possible only if [latex]\\;\\;\\; I_D=1.4\\; mA [/latex] [latex]If \\; I_D=2.84\\; mA[/latex] then [latex]V_{GS}[/latex] become -ve and less than [latex]V_{th}[/latex] so transistor will be off for this value which is not possible since [latex]V_{DG}=0\\geq -V_{th}[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page24_q3.webp",
+    "options": {
+      "A": "2.8mA",
+      "B": "2.0mA",
+      "C": "1.4mA",
+      "D": "1.0mA"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 119 For the circuit of figure with an ideal operational amplifier, the maximum phase\r\nshift of the output [latex]V_{out}[/latex] with reference to the input [latex]V_{in}[/latex] is",
+    "solution": "[latex]V_{(+)}=\\frac{V_{in} \\times \\frac{1}{jC\\omega }}{R+\\frac{1}{jC\\omega }}=\\frac{V_{in}}{1+jRC\\omega}[/latex] where,    [latex] V_{(-)}=V_{(+)}[/latex]    [For ideal Op-amp] [latex]\\frac{V_{in}-V_{(-)}}{R_1}=\\frac{V_{(-)}-V_{o}}{R_1} [/latex] [latex]V_o=2V_{(-)}-V_{in}=2V_{(+)}-V_{in} \\;\\;\\;\\;(V_{(-)}=V_{(+)})[/latex] [latex] =\\left ( \\frac{2}{1+j\\omega RC}-1 \\right )V_{in} [/latex] [latex]=\\left ( \\frac{1-j\\omega RC}{1-j\\omega RC} \\right )V_{in} [/latex] [latex]\\angle \\left ( \\frac{V_o}{V_{in}} \\right )=-2 tan^{-1}\\omega RC[/latex] For  [latex]  -90^{\\circ} \\leq\\theta \\leq 90^{\\circ}[/latex] , maximum phase shift occurs [latex](+180^{\\circ}).[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page24_q4.webp",
+    "options": {
+      "A": "0[latex]^{\\circ}[/latex]",
+      "B": "[latex]-90^{\\circ}[/latex]",
+      "C": "[latex]+90^{\\circ}[/latex]",
+      "D": "[latex]\\pm 180^{\\circ}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 120 In the circuit of figure, assume that the transistor has [latex]h_{FE}[/latex] = 99 and [latex]V_{BE}[/latex] = 0.7 V.\nThe value of collector current [latex]I_{C}[/latex] of the transistor is approximately",
+    "solution": "Using KVL in Base-emitter Loop [latex]4-33\\times I_b-0.7-3.3\\times100I_b=0(I_c=\\beta I_b) [/latex] [latex]\\therefore \\; I_b=\\frac{4-0.7}{(33+330)} [/latex] [latex]\\therefore \\; I_c=\\frac{3.3\\times 100}{33+330} =\\frac{3.3}{(0.33+3.3)}mA[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page24_q5.webp",
+    "options": {
+      "A": "[3.3/3.3] mA",
+      "B": "[3.3/(3.3+.33)] mA",
+      "C": "[3.3/33] mA",
+      "D": "[3.3/(33+3.3)] mA"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 121 The variation of drain current with gate-to-source voltage ([latex]I_{D}[/latex] -[latex]V_{GS}[/latex] characteristic) of a MOSFET is shown in figure. The MOSFET is",
+    "solution": "This is the characteristics of a p-channel depletion mode device.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page25_q1.webp",
+    "options": {
+      "A": "an n-channel depletion mode device",
+      "B": "an n-channel enhancement mode device",
+      "C": "an p-channel depletion mode device",
+      "D": "an p-channel enhancement mode device"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 122 The output voltage ([latex]V_{0}[/latex]) of the Schmitt trigger shown in figure swings between +15V and -15V. Assume that the operational amplifier is ideal. The output\r\nwill change from +15V to -15V when the instantaneous value of the input\r\nsine wave is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page25_q2.webp",
+    "options": {
+      "A": "5 V in the positive slope only",
+      "B": "5 V in the negative slope only",
+      "C": "5 V in the positive and negative slopes",
+      "D": "3 V in the positive and negative slopes"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 123 The cut-in voltage of both Zener diode [latex]D_{z}[/latex] and diode D shown in figure is 0.7 V, while break down voltage of [latex]D_{z}[/latex] is 3.3 V and reverse breakdown voltage of D is 50 V. the other parameters can be assumed to be the same as those of an ideal\r\ndiode. The values of the peak output voltage ([latex]V_{0}[/latex]) are",
+    "solution": "For positive half cycle, at peak input voltage So, [latex]V_0= 4V[/latex] For negative half cycle, at peak input voltage So, [latex]V_o=10 \\times \\left ( \\frac{1}{1+1} \\right )=5V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page25_q3.webp",
+    "options": {
+      "A": "3.3 V in the positive half cycle and 1.4 V in the negative half cycle",
+      "B": "4 V in the positive half cycle and 5 V in the negative half cycle",
+      "C": "3.3 V in both positive and negative half cycles",
+      "D": "4 V in both positive and negative half cycles"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 124 The forward resistance of the diode shown in figure is 5[latex]\\Omega[/latex] and the remaining parameters are same as those of an ideal diode. The dc component of the source current is",
+    "solution": "[latex]V_{av}=\\frac{V_m}{\\pi} [/latex] [latex]\nI_{av}=\\frac{V_{av}}{R}=\\frac{V_{av}}{5+45}=\\frac{V_{av}}{50} [/latex] [latex]\n\\;\\; =\\frac{V_m}{50\\pi}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page25_q4.webp",
+    "options": {
+      "A": "[latex]\\frac{V_{m}}{50\\pi }[/latex]",
+      "B": "[latex]\\frac{V_{m}}{50\\pi \\sqrt{2}}[/latex]",
+      "C": "[latex]\\frac{V_{m}}{100\\pi \\sqrt{2}}[/latex]",
+      "D": "[latex]\\frac{2V_{m}}{50\\pi \\sqrt{2}}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 125 An n-channel JFET, having a pinch-off voltage ([latex]V_{p}[/latex]) of -5 V, shows a transconductance ([latex]g_{m}[/latex]) of 1 mA/V when the applied gate-to-source voltage ([latex]V_{GS}[/latex]) is -3V. Its maximum transconductance (in mA/V) is",
+    "solution": "[latex]g_m=-\\frac{2I_{DSS}}{V_p}\\left ( 1-\\frac{V_{GS}}{V_p} \\right ) [/latex] [latex]1 \\; mA/V=-\\frac{2I_{DSS}}{5} \\left( 1-\\frac{-3}{-5} \\right ) =\\frac{2}{5}\\times \\left( 1-\\frac{3}{5} \\right )I_{DSS} [/latex] [latex]\\Rightarrow \\; \\; I_{DSS}=\\left ( \\frac{5}{2} \\right )^2 \\; mA [/latex] [latex](g_{m})_{max}=-\\frac{2I_{DSS}}{V_p}=-\\frac{2 \\times 25}{4 \\times (-5)}=2.5 \\; mA/V[/latex]",
+    "options": {
+      "A": "1.5",
+      "B": "2",
+      "C": "2.5",
+      "D": "3"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 126 An op-amp, having a slew rate of 62.8 V/[latex]\\mu sec[/latex], is connected in a voltage follower configuration. If the maximum amplitude of the input sinusoid is 10V, then the minimum frequency at which the slew rate limited distortion would set in at the\noutput is",
+    "solution": "[latex]S.R.=\\omega V_m [/latex] [latex]62.8V/\\mu s=2 \\pi f \\times 10[/latex] [latex] f=\\frac{62.8 \\times 10^6 }{2 \\pi \\times 10}=1 MHz[/latex]",
+    "options": {
+      "A": "1 MHz",
+      "B": "6.28 MHz",
+      "C": "10 MHz",
+      "D": "62.8 MHz"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 127 For the oscillator circuit shown in figure, the expression for the time period of\noscillation can be given by (where [latex]\\tau[/latex]=RC)",
+    "solution": "[latex]T=2RC \\ln 3=2\\tau \\ln 3[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page26_q2.webp",
+    "options": {
+      "A": "[latex]\\tau[/latex] ln 3",
+      "B": "2[latex]\\tau[/latex] ln 3",
+      "C": "[latex]\\tau[/latex] ln 2",
+      "D": "2[latex]\\tau[/latex] ln 2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 128 An op-amp has an open-loop gain of [latex]10^5[/latex] and an open-loop upper cutoff frequency\r\nof 10 Hz. If this op-amp is connected as an amplifier with a closed-loop gain of\r\n100, then the new upper cutoff frequency is",
+    "solution": "[latex]A_{OL}=10^5 [/latex] [latex]f=10Hz [/latex] [latex]A_{CL}=\\frac{A_{OL}}{1+\\beta A_{OL}} [/latex] [latex](1+\\beta A_{OL})=\\frac{10^5}{10^2}=10^3[/latex] [latex] f'_2=f_2(1+\\beta A_{OL}) [/latex] [latex]\\;\\;=10 \\times 10^3 Hz [/latex] [latex]\\;\\; =10kHz[/latex]",
+    "options": {
+      "A": "10 Hz",
+      "B": "100 Hz",
+      "C": "10 kHz",
+      "D": "100 kHz"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 129 In the single-stage transistor amplifier circuit shown in figure, the capacitor [latex]C_{E}[/latex] is removed. Then, the ac small-signal midband voltage gain of the amplifier",
+    "solution": "[latex]\\frac{A_{V_1}}{A_{V_1}}=1+\\left ( \\frac{1+h_{fe}}{h_{ie}} \\right )R_{e}[/latex] [latex]\\frac{A_{V_{1}}}{A_{V_{2}}}> 1[/latex] [latex]\\Rightarrow \\; A_{V_{2}} \\lt  A_{V_{1}}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/ae/page26_q4.webp",
+    "options": {
+      "A": "increases",
+      "B": "decreases",
+      "C": "is unaffected",
+      "D": "drops to zero"
+    },
+    "correct_answer": "B"
+  }
+]

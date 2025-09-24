@@ -1,0 +1,2250 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 Let [latex]C[/latex] be a clockwise oriented closed curve in the complex plane defined by [latex]|z|=1[/latex]. Further, let [latex]f(z)=j z[/latex] be a complex function, where [latex]j=\\sqrt{-1}[/latex]. Then, [latex]\\oint_{{C}} {f}({z}) {dz}=[/latex] ___________ (round off to the nearest integer).",
+    "solution": "Step 1: Express the function We are given [latex] f(z) = jz [/latex], and we want to compute: [latex] \\oint_C jz , dz [/latex] Step 2: Use properties of contour integrals [latex] j = \\sqrt{-1} [/latex] is a constant, so it can be pulled out of the integral: [latex] \\oint_C jz , dz = j \\oint_C z , dz [/latex] Step 3: Recall the standard result For a closed contour [latex] C [/latex] enclosing the origin (like [latex] |z| = 1 [/latex]), [latex] \\oint_C z , dz = 0 [/latex] because [latex] z [/latex] is an analytic function inside and on [latex] C [/latex]. Step 4: Apply the result [latex] \\oint_C f(z) , dz = j \\cdot 0 = 0 [/latex]",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 Consider ordinary differential equations given by [latex]\\dot{x}_{1}({t})=2 {x}_{2}({t}) [/latex] [latex] \\dot{{x}}_{2}({t})={r}({t})[/latex] with initial conditions [latex]{x}_{1}(0)=1[/latex] and [latex]{x}_{2}(0)=0[/latex]. If [latex]r(t)=\\left\\{\\begin{array}{ll}1, & t \\geq 0 \\\\ 0, & t < 0\\end{array}\\right.[/latex], then at [latex]t=1, x_{1}(t)=[/latex] ___________ (round off to the nearest integer).",
+    "solution": "Given [latex]\\frac{{dx}_{1}}{{dt}}=2 {x}_{2} \\quad ...(1)[/latex] [latex]\\frac{{dx}_{2}}{{dt}}={r}({t}), \\quad {r}({t})=\\left\\{\\begin{array}{l}1: {t} \\geq 0 \\\\ 0: {t} < 0 \\end{array}\\right.[/latex] [latex]\\Rightarrow \\frac{{dx}_{2}}{{dt}}=1[/latex] for [latex]{t} \\geq 0 \\quad ...(2)[/latex] [latex]\\Rightarrow {x}_{2}={t}+{c}  \\quad ...(3)[/latex] Given [latex]x_{2}(0)=0[/latex] (3) [latex]\\Rightarrow 0=0+c \\Rightarrow c=0[/latex] [latex]\\therefore {x}_{2}={t}[/latex] From (1) [latex]\\frac{d x_{1}}{d t}=2 t[/latex] [latex]\n\\Rightarrow {x}_{1}=\\frac{2 {t}^{2}}{2}+{K} \\quad ...(4)\n[/latex] Given [latex]{x}_{1}(0)=1:(4) \\Rightarrow 1=0+{K}[/latex] [latex]\\Rightarrow {K}=1[/latex] [latex]\\therefore[/latex] From (4) [latex]{x}_{1}={t}^{2}+1[/latex] Now [latex]{X}_{1}(1)=1+1=2[/latex]",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 3 Let [latex](\\mathrm{x}, \\mathrm{y}) \\in \\mathfrak{R}^{2}[/latex]. The rate of change of the real valued function, [latex]\\mathrm{V}(\\mathrm{x}, \\mathrm{y})=\\mathrm{x}^{2}+\\mathrm{x}+\\mathrm{y}^{2}+1[/latex] at the origin in the direction of the point [latex](1,2)[/latex] is ___________ (round off to the nearest integer).",
+    "solution": "Step 1: Direction vector and its unit vector The direction vector from origin to point (1, 2) is: [latex] \\vec{u} = \\langle 1, 2 \\rangle [/latex] Magnitude of this vector is: [latex] |\\vec{u}| = \\sqrt{1^2 + 2^2} = \\sqrt{5} [/latex] Unit vector in the given direction is: [latex] \\hat{u} = \\left\\langle \\frac{1}{\\sqrt{5}}, \\frac{2}{\\sqrt{5}} \\right\\rangle [/latex] Step 2: Compute the gradient of V(x, y) [latex] \\nabla V = \\left\\langle \\frac{\\partial V}{\\partial x}, \\frac{\\partial V}{\\partial y} \\right\\rangle = \\left\\langle 2x + 1, 2y \\right\\rangle [/latex] At the origin (0, 0), the gradient becomes: [latex] \\nabla V(0, 0) = \\langle 1, 0 \\rangle [/latex] Step 3: Compute the directional derivative Directional derivative of V in the direction of unit vector [latex] \\hat{u} [/latex] is: [latex] D_{\\hat{u}} V = \\nabla V \\cdot \\hat{u} = \\langle 1, 0 \\rangle \\cdot \\left\\langle \\frac{1}{\\sqrt{5}}, \\frac{2}{\\sqrt{5}} \\right\\rangle = \\frac{1}{\\sqrt{5}} [/latex] Numerical value: [latex] \\frac{1}{\\sqrt{5}} \\approx \\frac{1}{2.236} \\approx 0.447 [/latex]",
+    "min": 0.0,
+    "max": 1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 Let  [latex]X [/latex] and  [latex]Y [/latex] be continuous random variables with probability density functions [latex]\\mathrm{P}_{\\mathrm{X}}(x)[/latex] and [latex]\\mathrm{P}_{\\mathrm{Y}}(y)[/latex], respectively. Further, let [latex]\\mathrm{Y}=\\mathrm{X}^{2}[/latex] and [latex]\n\\mathrm{P}_{\\mathrm{X}}(x)= \\begin{cases}1, & x \\in (0,1] \\\\ 0, & \\text { otherwise }\\end{cases}\n[/latex] Which one of the following options is correct?",
+    "solution": "Step 1: Given: [latex] Y = X^2 [/latex], and [latex] X \\in (0, 1] [/latex] with uniform distribution: [latex] P_X(x) = 1 [/latex] for [latex] x \\in (0, 1] [/latex] Step 2: Use the change of variable technique for continuous random variables. If [latex] Y = g(X) = X^2 [/latex], then [latex] X = \\sqrt{Y} [/latex] (since [latex] X > 0 [/latex]), and the PDF of [latex] Y [/latex] is: [latex] P_Y(y) = P_X(x) \\cdot \\left| \\frac{dx}{dy} \\right| [/latex] We know [latex] x = \\sqrt{y} [/latex], so: [latex] \\frac{dx}{dy} = \\frac{1}{2\\sqrt{y}} [/latex] Therefore: [latex] P_Y(y) = P_X(\\sqrt{y}) \\cdot \\left| \\frac{1}{2\\sqrt{y}} \\right| = 1 \\cdot \\frac{1}{2\\sqrt{y}} = \\frac{1}{2\\sqrt{y}} [/latex], for [latex] y \\in (0, 1] [/latex] Step 3: So the correct PDF of [latex] Y [/latex] is: [latex] P_Y(y) = \\begin{cases} \\dfrac{1}{2\\sqrt{y}}, & y \\in (0, 1] \\ 0, & \\text{otherwise} \\end{cases} [/latex] Final Answer: (A) [latex] \\dfrac{1}{2\\sqrt{y}} [/latex], for [latex] y \\in (0, 1] [/latex]",
+    "options": {
+      "A": "[latex]P_{Y}(y)=\\begin{cases}\\frac{1}{2 \\sqrt{y}}, & y \\in (0,1] \\\\ 0, & \\text { otherwise }\\end{cases}[/latex]",
+      "B": "[latex]P_{Y}(y)= \\begin{cases}1, & {y} \\in(0,1]  \\\\ 0, & \\text { otherwise }\\end{cases}[/latex]",
+      "C": "[latex]P_{Y}(y)=\\begin{cases}1.5 \\sqrt{y}, & y \\in (0,1] \\\\ 0, & \\text { otherwise }\\end{cases}[/latex]",
+      "D": "[latex]P_{Y}(y)= \\begin{cases}2 y, & y \\in (0,1]  \\\\  0, & \\text { otherwise }\\end{cases}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Consider discrete random variables X and Y with probabilities as follows: [latex]\\mathrm{P}(\\mathrm{X}=0[/latex] and [latex]\\mathrm{Y}=0)=\\frac{1}{4}[/latex], [latex]\\mathrm{P}(\\mathrm{X}=1[/latex] and [latex]\\mathrm{Y}=0)=\\frac{1}{8}[/latex] [latex]\\mathrm{P}(\\mathrm{X}=0[/latex] and [latex]\\mathrm{Y}=1)=\\frac{1}{2}[/latex] [latex]\\mathrm{P}(\\mathrm{X}=1[/latex] and [latex]\\mathrm{Y}=1)=\\frac{1}{8}[/latex] Given [latex]\\mathrm{X}=1[/latex], the expected value of [latex]\\mathrm{Y}[/latex] is",
+    "solution": "Step 1: Identify the conditional probabilities of [latex] Y [/latex] given [latex] X = 1 [/latex]. From the given: [latex] P(X=1, Y=0) = \\frac{1}{8}, \\quad P(X=1, Y=1) = \\frac{1}{8} [/latex] So, total probability [latex] P(X=1) = \\frac{1}{8} + \\frac{1}{8} = \\frac{1}{4} [/latex] Step 2: Compute the conditional probabilities: [latex] P(Y=0 \\mid X=1) = \\frac{P(X=1, Y=0)}{P(X=1)} = \\frac{\\frac{1}{8}}{\\frac{1}{4}} = \\frac{1}{2} [/latex] [latex] P(Y=1 \\mid X=1) = \\frac{P(X=1, Y=1)}{P(X=1)} = \\frac{\\frac{1}{8}}{\\frac{1}{4}} = \\frac{1}{2} [/latex] Step 3: Compute the expected value: [latex] \\mathbb{E}[Y \\mid X=1] = 0 \\cdot P(Y=0 \\mid X=1) + 1 \\cdot P(Y=1 \\mid X=1) = 0 \\cdot \\frac{1}{2} + 1 \\cdot \\frac{1}{2} = \\frac{1}{2} [/latex] Final Answer: (B) [latex] \\frac{1}{2} [/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{4}[/latex]",
+      "B": "[latex]\\frac{1}{2}[/latex]",
+      "C": "[latex]\\frac{1}{8}[/latex]",
+      "D": "[latex]\\frac{1}{3}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Let [latex]\\mathrm{P}=\\left[\\begin{array}{ccc}2 & 1 & 0\\\\ -1 & 0 & 0 \\\\0 & 0 & 1\\end{array}\\right][/latex] and let  [latex]\\mathrm{I}[/latex]  be the identity matrix. Then [latex]P^2 [/latex] is equal to",
+    "solution": "Given that [latex]\\mathrm{P}=\\left[\\begin{array}{ccc}2 & 1 & 0 \\\\ -1 & 0 & 0 \\\\ 0 & 0 & 1\\end{array}\\right][/latex] [latex]\\Rightarrow \\mathrm{P}^{2}=\\mathrm{P} . \\mathrm{P}=\\left[\\begin{array}{ccc}2 & 1 & 0 \\\\ -1 & 0 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]\\left[\\begin{array}{ccc}2 & 1 & 0 \\\\ -1 & 0 & 0 \\\\ 0 & 0 & 1\\end{array}\\right][/latex] [latex]\\Rightarrow P^{2}=\\left[\\begin{array}{ccc}3 & 2 & 0 \\\\ -2 & -1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right][/latex] [latex]\\Rightarrow P^{2} \\neq P, P^{2} \\neq I[/latex] and [latex]P^{2} \\neq P+I=\\left[\\begin{array}{ccc}3 & 1 & 0 \\\\ -1 & 1 & 0 \\\\ 0 & 0 & 2\\end{array}\\right][/latex] [latex]\\Rightarrow \\mathrm{P}^{2}=2 \\mathrm{P}-\\mathrm{I}[/latex]",
+    "options": {
+      "A": "[latex]2 \\mathrm{P}-\\mathrm{I}[/latex]",
+      "B": "[latex] \\mathrm{P}[/latex]",
+      "C": "[latex]\\mathrm{I}[/latex]",
+      "D": "[latex]\\mathrm{P}+\\mathrm{I}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 Let [latex]\\mathrm{A}=\\left[\\begin{array}{ccc}1 & 1 & 1 \\\\ -1 & -1 & -1 \\\\ 0 & 1 & -1\\end{array}\\right][/latex], and [latex]\\mathrm{b}=\\left[\\begin{array}{c}1 / 3 \\\\  -1 / 3 \\\\ 0\\end{array}\\right][/latex]. Then, the system of linear equations [latex]\\mathrm{Ax}=\\mathrm{b}[/latex] has",
+    "solution": "[latex](A \\mid B)=\\left[\\begin{array}{lll|c}1 & 1 & 1 & 1 / 3 \\\\ -1 & -1 & -1 & -1 / 3\\\\ 0 & 1 & -1 & 0\\end{array}\\right][/latex] [latex]\\mathrm{R}_{2} \\rightarrow \\mathrm{R}_{2}+\\mathrm{R}_{1}[/latex] [latex]\\Rightarrow(\\mathrm{A} \\mid \\mathrm{B}) \\sim\\left[\\begin{array}{ccc|c}1 & 1 & 1 & 1 / 3 \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 1 & -1 & 0\\end{array}\\right][/latex] [latex]\\mathrm{R}_{2} \\leftrightarrows \\mathrm{R}_{3}[/latex] [latex]\\Rightarrow(\\mathrm{A} \\mid \\mathrm{B}) \\sim\\left[\\begin{array}{lll|c}1 & 1 & 1 & 1 / 3 \\\\ 0 & 1 & -1 & 0 \\\\ 0 & 0 & 0 & 0\\end{array}\\right][/latex] [latex]\\Rightarrow \\rho(\\mathrm{A})=2=\\rho(\\mathrm{A} \\mid \\mathrm{B}) < \\mathrm{n}=3[/latex] (no. of variables) [latex]\\Rightarrow \\mathrm{Ax}=\\mathrm{b}[/latex] will have an infinite no. of solutions",
+    "options": {
+      "A": "a unique solution.",
+      "B": "infinitely many solutions.",
+      "C": "a finite number of solutions.",
+      "D": "no solution."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 Let [latex]v_{1}[/latex] and [latex]v_{2}[/latex] be the two eigenvectors corresponding to distinct eigenvalues of a [latex]3 \\times 3[/latex] real symmetric matrix. Which one of the following statements is true?",
+    "solution": "Step 1: Given that the matrix is a real symmetric matrix. Step 2: A well-known property of real symmetric matrices is that eigenvectors corresponding to distinct eigenvalues are orthogonal. Step 3: If [latex] \\mathbf{v}_1 [/latex] and [latex] \\mathbf{v}_2 [/latex] are eigenvectors corresponding to distinct eigenvalues of a real symmetric matrix, then: [latex] \\mathbf{v}_1^T \\mathbf{v}_2 = 0 [/latex] This means they are orthogonal. Step 4: Among the given options, option (B) matches this condition. Final Answer: (B) [latex] \\mathbf{v}_1^T \\mathbf{v}_2 = 0 [/latex]",
+    "options": {
+      "A": "[latex]\\mathrm{v}_{1}^{\\mathrm{T}} \\mathrm{v}_{2} \\neq 0[/latex]",
+      "B": "[latex]\\mathrm{v}_{1}^{\\mathrm{T}} \\mathrm{v}_{2}=0[/latex]",
+      "C": "[latex]\\mathrm{v}_{1}+\\mathrm{v}_{2}=0[/latex]",
+      "D": "[latex]\\mathrm{v}_{1}-\\mathrm{v}_{2}=0[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 Consider the set [latex]S[/latex] of points [latex](x, y) \\in  \\mathfrak{R}^2[/latex] which minimize the real-valued function [latex]f(x, y) = (x + y - 1)^2 + (x + y)^2[/latex] Which of the following statements is true about the set [latex]S[/latex]?",
+    "solution": "We are given: [latex]f(x, y) = (x + y - 1)^2 + (x + y)^2[/latex] Step 1: Substitute a single variable Let [latex]u = x + y[/latex] Then, the function becomes: [latex]f(x, y) = (u - 1)^2 + u^2 = u^2 - 2u + 1 + u^2 = 2u^2 - 2u + 1[/latex] Step 2: Minimize [latex]f(u) = 2u^2 - 2u + 1[/latex] This is a quadratic function in [latex]u[/latex] with a positive coefficient, so it has a unique minimum. The minimum occurs at: [latex]u = \\frac{-(-2)}{2 \\cdot 2} = \\frac{2}{4} = \\frac{1}{2}[/latex] So, the function is minimized when [latex]x + y = \\frac{1}{2}[/latex] Step 3: Analyze the set [latex]S[/latex] All points [latex](x, y)[/latex] satisfying [latex]x + y = \\frac{1}{2}[/latex] will minimize [latex]f(x, y)[/latex]. There are infinitely many such points in [latex]\\mathbb{R}^2[/latex]. Final Answer: [latex]\\boxed{\\text{The number of elements in the set } S \\text{ is infinite}}[/latex] Correct Option: (B)",
+    "options": {
+      "A": "The number of elements in the set S is finite and more than one.",
+      "B": "The number of elements in the set S is infinite.",
+      "C": "The set S is empty.",
+      "D": "The number of elements in the set S is exactly one."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 Which of the following differential equations is/are nonlinear?",
+    "solution": "",
+    "options": {
+      "A": "[latex] t x(t)+\\left(\\frac{d x(t)}{d t}\\right)=t^{2} e^{t}, x(0)=0 [/latex]",
+      "B": "[latex] \\frac{1}{2} e^{t}+x(t)\\left(\\frac{d x(t)}{d t}\\right)=0, x(0)=0 [/latex]",
+      "C": "[latex] x(t) \\cos t-\\frac{d x(t)}{d t} \\sin t=1, x(0)=0 [/latex]",
+      "D": "[latex] x(t)+e^{\\left(\\frac{d x(t)}{d t}\\right)}=1, x(0)=0 [/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 Consider the function [latex] f(t)=(\\max (0, t))^{2} [/latex] for [latex] -\\infty\\\\ltt\\\\lt\\infty [/latex], where [latex] \\max (a, b) [/latex] denotes the maximum of [latex] a [/latex] and [latex] b [/latex]. Which of the following statements is/are true?",
+    "solution": "[latex] \\therefore f(x) [/latex] is differential and [latex] f^{\\prime}(x) [/latex] is continuous but [latex] f^{\\prime}(x) [/latex] is not continuous.",
+    "options": {
+      "A": "[latex] f(t) [/latex] is not differentiable.",
+      "B": "[latex] f(t) [/latex] is differentiable and its derivative is continuous.",
+      "C": "[latex] f(t) [/latex] is differentiable but its derivative is not continuous.",
+      "D": "[latex] f(t) [/latex] and its derivative are differentiable."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Let [latex] f(t) [/latex] be a real-valued function whose second derivative is positive for [latex] -\\infty \\\\lt t \\\\lt\\infty [/latex]. Which of the following statements is/are always true?",
+    "solution": "[latex]\nf^{\\prime \\prime}(t) > 0\n [/latex] If [latex] t \\in(-\\infty, \\infty) [/latex] [latex] \\Rightarrow f(t) [/latex] is a parabola open upwards. So, it has only one minima at its stationary point. [latex] \\therefore f(t) [/latex] cannot have two distinct local minima.",
+    "options": {
+      "A": "[latex] f(t) [/latex] has at least one local minimum.",
+      "B": "[latex] f(t) [/latex] cannot have two distinct local minima.",
+      "C": "[latex] f(t) [/latex] has at least one local maximum.",
+      "D": "The minimum value of [latex] f(t) [/latex] cannot be negative."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Consider a vector [latex] \\bar{u}=2 \\hat{x}+\\hat{y}+2 \\hat{z} [/latex], where [latex] \\hat{x}, \\hat{y}, \\hat{z} [/latex] represent unit vector along the coordinate axes [latex] x, y, z [/latex] respectively. The directional derivative of the function [latex] f(x, y, z)=2 \\ln (x y)+\\ln (y z)+3 \\ln (x z) [/latex] at the point [latex] (x, y, z)=(1,1,1) [/latex] in the direction of [latex] \\bar{u} [/latex] is",
+    "solution": "We know that: directional derivative of '[latex] f [/latex]' at [latex] P(1,1,1) [/latex] in the direction of [latex] \\vec{a} [/latex] is given by [latex]\n\\begin{aligned}\n\\text { Directional derivative } & =\\nabla f \\cdot \\frac{\\hat{a}}{|\\bar{a}|} \\\\\n\\nabla f & =\\hat{i} \\frac{\\partial f}{\\partial x}+\\hat{j} \\frac{\\partial f}{\\partial y}+\\hat{k} \\frac{\\partial f}{\\partial z} \\\\\n\\nabla f & =i \\frac{5}{x}+j \\frac{3}{y}+k \\frac{4}{z} \\\\\n(\\nabla f)_{(1,1,1)} & =5 i+3 j+4 k\n\\end{aligned}\n [/latex] [latex] \\therefore [/latex] Directional derivative [latex] =\\overline{\\nabla f} \\cdot \\frac{\\bar{a}}{|\\bar{a}|}=(5 i+3 j+4 k) \\cdot \\frac{(2 i+j+2 k)}{\\sqrt{2^{2}+1^{2}+2^{2}}}=\\frac{21}{3}=7 [/latex]",
+    "options": {
+      "A": "0",
+      "B": "[latex] \\frac{7}{5 \\sqrt{2}} [/latex]",
+      "C": "7",
+      "D": "21"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 The sum of the eigenvalues of the matrix [latex] A=\\left[\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right]^{2} [/latex] is _____ (rounded off to the nearest integer).",
+    "solution": "[latex]\n\\begin{aligned}\nA & =\\left[\\begin{array}{ll}\n1 & 2 \\\\\n3 & 4\n\\end{array}\\right]\\left[\\begin{array}{ll}\n1 & 2 \\\\\n3 & 4\n\\end{array}\\right]=\\left[\\begin{array}{cc}\n7 & 10 \\\\\n15 & 22\n\\end{array}\\right] \\\\\n\\lambda_{1}+\\lambda_{2} & =\\operatorname{Trace}\\\\\n& =22+7 \\\\\n& =29\n\\end{aligned}\n [/latex]",
+    "min": 29.0,
+    "max": 29.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 Consider the complex function [latex] f(z)=\\cos z+e^{z^{2}} [/latex]. The coefficient of [latex] z^{5} [/latex] in the Taylor series expansion of [latex] f(z) [/latex] about the origin is _____ (rounded off to 1 decimal place).",
+    "solution": "[latex]\nf(z)=\\left(1+z^{2}+\\frac{z^{4}}{\\underline{2}}+\\frac{z^{6}}{\\underline{6}}+\\ldots .\\right)+\\left(1-\\frac{z^{2}}{\\underline{2}}+\\frac{z^{4}}{\\underline{4}}+\\ldots . .\\right)\n [/latex] It is series is of even powers. [latex] \\therefore [/latex] Coefficient of [latex] z^{5}=0 [/latex].",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Which of the following complex functions is/are analytic on the complex plane?",
+    "solution": "[latex]\n\\begin{aligned}\n& \\text { Let us take }(a), \\quad f(z)=z^{2}-z \\\\\n& u+i v=x^{2}-y^{2}+i(2 x y)-x-i y \\\\\n& \\Rightarrow \\quad u=x^{2}-y^{2}-x, V=2 x y-y\n\\end{aligned}\n [/latex] Now by [latex] \\mathrm{C}-\\mathrm{R} [/latex] equation, [latex] u_{x}=V_{y} [/latex] and [latex] u_{y}=-V_{x} [/latex] [latex] \\Rightarrow \\quad(2 x-1)=(2 x-1) [/latex] and [latex] -2 y=-(2 y) [/latex] i.e. C-R equation are satisfied.",
+    "options": {
+      "A": "[latex] f(z)=j \\operatorname{Re}(z) [/latex]",
+      "B": "[latex] f(z)=\\operatorname{Im}(z) [/latex]",
+      "C": "[latex] f(z)=e^{|z|} [/latex]",
+      "D": "[latex] f(z)=z^{2}-z [/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 Let [latex] X [/latex] be a discrete random variable that is uniformly distributed over the set [latex] \\{-10,-9, \\ldots, 0, \\ldots, 9,10\\} [/latex]. Which of the following random variables is/are uniformly distributed?",
+    "solution": "[latex]\n\\begin{aligned}\nX^{2} & =\\{100,81,64, \\ldots, 4,1,0,1,4,9, \\ldots, 81,100\\} \\\\\nP(\\text { Choosing } 0) & =\\frac{1}{21}, P(\\text { choosing } 1)=\\frac{2}{21}\n\\end{aligned}\n [/latex] So, [latex] X^{2} [/latex] is not uniformly distributed. [latex]\n(X-5)^{2}=\\{225,199, \\ldots .4,1,0,1,4,9,16,25\\}\n [/latex] Again probability of choosing any number is not equal so [latex] (X-5)^{2} [/latex] is also not uniformly - distributed. [latex]\n(X+10)^{2}=\\{0,1,4,9,16, \\ldots 81,100,121, \\ldots .400\\}\n [/latex] [latex] P( [/latex] Choosing any number [latex] )=\\frac{1}{21} [/latex] so is it uniformly-distributed Now, [latex] \\quad X^{3}=\\{-1000,-729,-512, \\ldots,-8,-1,0,1,8, \\ldots 729,1000\\} [/latex] Again [latex] \\mathrm{P}( [/latex] Choosing any number [latex] )=\\frac{1}{21}= [/latex] Constant So, it is also uniformly-distributed.",
+    "options": {
+      "A": "[latex] X^{2} [/latex]",
+      "B": "[latex] X^{3} [/latex]",
+      "C": "[latex] (X-5)^{2} [/latex]",
+      "D": "[latex] (X+10)^{2} [/latex]"
+    },
+    "correct_answers": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 Which one of the following matrices has an inverse?",
+    "solution": "Option :A [latex]\n\\text { det }=0\n [/latex] Cannot have inverse. Option :B [latex]\n\\text { det }=0\n [/latex] Cannot have inverse. Option : D [latex]\n\\text { det }=0\n [/latex] It cannot have inverse. Option : C [latex]\n|A| \\neq 0\n [/latex] [latex] \\therefore [/latex] It has inverse.",
+    "options": {
+      "A": "[latex] \\left[\\begin{array}{ccc}1 & 4 & 8 \\\\ 0 & 4 & 2 \\\\ 0.5 & 2 & 4\\end{array}\\right] [/latex]",
+      "B": "[latex] \\left[\\begin{array}{lll}1 & 2 & 3 \\\\ 2 & 4 & 6 \\\\ 3 & 2 & 9\\end{array}\\right] [/latex]",
+      "C": "[latex] \\left[\\begin{array}{lll}1 & 4 & 8 \\\\ 0 & 4 & 2 \\\\ 1 & 2 & 4\\end{array}\\right] [/latex]",
+      "D": "[latex] \\left[\\begin{array}{ccc}1 & 4 & 8 \\\\ 0 & 4 & 2 \\\\ 3 & 12 & 24\\end{array}\\right] [/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 A quadratic function of two variables is given as [latex]f\\left(x_{1}, x_{2}\\right)=x_{1}^{2}+2 x_{2}^{2}+3 x_{1}+3 x_{2}+x_{1} x_{2}+1[/latex] The magnitude of the maximum rate of change of the function at the point [latex](1,1)[/latex] is ____(Round off to the nearest integer).",
+    "solution": "Given : [latex]\\mathrm{F}\\left(\\mathrm{x}, \\mathrm{x}_{2}\\right)=\\mathrm{x}_{1}^{2}+2 \\mathrm{x}_{2}^{2}+\\mathrm{x}_{1}+\\mathrm{x}_{1} \\mathrm{x}_{2}+1[/latex] [latex]\\nabla \\cdot F=\\left(2 x_{1}+3+x_{2}\\right) \\hat{a}_{x_{1}}+\\left(4 x_{2}+3+x_{1}\\right) \\hat{a}_{x_{z}}[/latex] At [latex](1,1)[/latex] [latex]\n\\begin{aligned}\n\\nabla \\cdot F & =6 \\hat{a}_{x_{1}}+7 \\hat{a}_{x_{2}} \\\\\n|\\nabla \\cdot F| & =\\sqrt{6^{2}+8^{2}}=10\n\\end{aligned}\n[/latex]",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 The closed curve shown in the figure is described by [latex]r=1+\\cos \\theta[/latex], where [latex]r=\\sqrt{x^{2}+y^{2}}[/latex]\r\n [latex]x=r \\cos \\theta, y=r \\sin \\theta[/latex] The magnitude of the line integral of the vector field [latex]F=-y \\hat{i}+x \\hat{j}[/latex] around the closed curve is ___(Round off to 2 decimal places).",
+    "solution": "[latex]\n\\begin{aligned}\nI & =\\int_{0}^{2 \\pi} \\vec{F} \\cdot \\overrightarrow{d l} \\\\\n& =\\int_{0}^{2 \\pi}(-y \\hat{i}+x)(d x \\hat{i}+d y) \\\\\n& =\\int_{0}^{2 \\pi}(-y d x+x d y)\n\\end{aligned}\n[/latex] Given : [latex]\\quad x=r \\cos \\theta[/latex] and [latex]y=r \\sin \\theta[/latex] [latex]\n\\begin{aligned}\n\\therefore I&=\\int_{0}^{2 \\pi}[(-r \\sin \\theta)(-r \\sin \\theta) d \\theta+(r \\cos \\theta)(r \\cos \\theta) d \\theta] \\\\\n&=\\int_{0}^{2 \\pi} r^{2} d \\theta \\\\\n&=\\int_{0}^{2 \\pi}(1+\\cos \\theta)^{2} d \\theta \\\\\n&=\\int_{0}^{2 \\pi}\\left(1+\\cos ^{2} \\theta+2 \\cos \\theta\\right) d \\theta \\\\\n&=\\int_{0}^{2 \\pi}\\left(1+\\frac{1+\\cos 2 \\theta}{2}+2 \\cos \\theta\\right) \\mathrm{d} \\theta \\\\\n&=3 \\pi=9.425\n\\end{aligned}\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/em/page4_q5.webp",
+    "min": 9.0,
+    "max": 10.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 The expected number of trials for first occurrence of a \"head\" in a biased coin is known to be 4. The probability of first occurrence of a \"head\" in the second trial is  ___ (Round off to 3 decimal places).",
+    "solution": "Let probability of head [latex]=\\mathrm{P}[/latex] Let probability of Tail [latex]=q=P-1[/latex] [latex]\n\\begin{array}{|c|c|c|c|c|}\n\\hline\nTrial & 1 & 2 & 3 & ... \\\\\n\\hline\nProbability & [\\mathrm{P} & \\mathrm{qP} & [latex]\\mathrm{q}^{2} \\mathrm{P} & .... \\\\\n\\hline\n\\end{array}\n[/latex] [latex]\\therefore[/latex] Expected No. of trail [latex]\n\\begin{aligned}\n& =\\sum_{n=1}^{\\infty} p+2 P q+3 q^{2} P+\\ldots \\\\\n& =P\\left(1+2 q+3 q^{2}+\\ldots\\right) \\\\\n& =P(1-q)^{-2} \\\\\n& =\\frac{P}{P^{2}}=\\frac{1}{P}\n\\end{aligned}\n[/latex] Given : Trial [latex]=4[/latex] [latex]\n\\frac{1}{P}=4 \\Rightarrow P=\\frac{1}{4}\n[/latex] [latex]\\therefore \\quad \\mathrm{q}=\\frac{3}{4}[/latex] Now, probability of head for second trail.\n\n[latex]\n\\begin{aligned}\n& =\\mathrm{qP} \\\\\n& =\\frac{3}{4} \\times \\frac{1}{4}=\\frac{3}{16}=0.1875\n\\end{aligned}\n[/latex]",
+    "min": 0.187,
+    "max": 0.188
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 Consider the following equation in a 2-D realspace. [latex]\\left|x_{1}\\right|^{p}+\\left|x_{2}\\right|^{p}=1[/latex] for [latex]p \\gt 0[/latex] Which of the following statement(s) is/are true.",
+    "solution": "Check option (A), put [latex]P=2[/latex] [latex]\nx_{1}^{2}+x_{2}^{2}=1\n[/latex] Which is equation of circle whose radius is 1 . [latex]\\therefore \\quad[/latex] Area [latex]=\\pi r^{2}=\\pi[/latex] Check option (B), If [latex]x_{2} \\lt 1[/latex] Then, [latex]P \\rightarrow \\infty,\\left|x_{2}\\right|^{P} \\rightarrow 0[/latex] [latex]\\therefore[/latex] For equation [latex]\\left|x_{1}\\right|^{\\mathrm{P}}+\\left|\\mathrm{x}_{2}\\right|^{\\mathrm{P}}=1[/latex] satisfaction, [latex]\n\\mathrm{x}_{1} \\rightarrow 1 \\text { or } \\dot{Y}\n[/latex] Curve : [latex]\\therefore[/latex] Area tends to 4 . Check option (D), Put [latex]P=1[/latex], [latex]\n\\left|x_{1}\\right|+\\left|\\mathrm{x}_{2}\\right|=1\n[/latex] Curve: [latex]\\therefore[/latex] Area of curve (square) [latex]=(\\sqrt{2})^{2}=2[/latex]",
+    "options": {
+      "A": "When [latex]\\mathrm{p}=2[/latex], the area enclosed by the curve is [latex]\\pi[/latex].",
+      "B": "When [latex]p[/latex] tends to [latex]\\infty[/latex], the area enclosed by the curve tends to 4.",
+      "C": "When [latex]p[/latex] tends to 0 , the area enclosed by the curve is 1.",
+      "D": "When [latex]p=1[/latex], the area enclosed by the curve is 2."
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 Three points in the [latex]x-y[/latex] plane are [latex](-1,0.8)[/latex] [latex](0,2.2)[/latex] and [latex](1,2.8)[/latex]. The value of the slope of the best fit straight line in the least square sense is ___  (Round off to 2 decimal places).",
+    "solution": "Straight line equation, [latex]y=a x+b[/latex] [Let] where, [latex]a=[/latex] slope By lest approximation, [latex]\n\\sum \\mathrm{y}_{i}=a \\sum \\mathrm{x}_{\\mathrm{i}}+\\mathrm{bn}\n[/latex] and [latex]\\quad \\sum x_{i} y_{i}=a \\sum x_{1}^{2}+b \\sum x_{i}[/latex] [latex]\n\\begin{array}{|c|c|c|c|}\n\\hline\nx & y & x^{2} & xy \\\\\n\\hline\n-1 & 0.8 & 1 & -0.8 \\\\\n0 & 2.2 & 0 & 0 \\\\\n1 & 2.8 & 1 & 2.8 \\\\\n\\hline\n\\sum x=0 & \\sum y=5.8 &\\sum x^{2}=2 & \\sum x y=2 \\\\\n\\hline\n\\end{array}\n[/latex] From eqn. (1), we get [latex]\n\\begin{aligned}\n5.8 & =a(0)+3 b \\Rightarrow 5.8=3 b \\\\\n2 & =a(2)+b(0) \\\\\n\\Rightarrow \\quad a & =1\n\\end{aligned}\n[/latex]",
+    "min": 0.9,
+    "max": 1.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 In the following differential equation, the numerically obtained value of [latex]y(t)[/latex], at [latex]t=1[/latex], is ___ (Round off to 2 decimal places). [latex]\r\n\\frac{d y}{d t}=\\frac{e^{-\\alpha t}}{2+\\alpha \\mathrm{t}}, \\alpha=0.01 \\text { and } y(0)=0\r\n[/latex]",
+    "solution": "Given : [latex]\n\\frac{d y}{d t}=\\frac{e^{-\\alpha t}}{2+\\alpha t}\n[/latex] [latex]\\alpha=0.01[/latex] and [latex]y(0)=0[/latex] [latex]\n\\begin{aligned}\n\\left.\\frac{d^{2} y}{d t^{2}}\\right|_{\\mathrm{t}=0} & =y^{\\prime \\prime}(0) \\\\\n& =-\\frac{\\alpha e^{-\\alpha t}}{2+\\alpha \\mathrm{T}}-\\left.\\frac{\\alpha e^{-\\alpha t}}{(2+\\alpha \\mathrm{t})^{2}}\\right|_{\\mathrm{t}=0} \\\\\n& =-\\frac{\\alpha}{2}-\\frac{\\alpha}{4}=-\\frac{3 \\alpha}{4}\n\\end{aligned}\n[/latex] We know, Taylor's series [latex]\n\\begin{aligned}\ny(t) & =y(0)+y^{\\prime}(0)+\\frac{t^{2} y^{\\prime \\prime}(0)}{2 !}+\\ldots \\\\\n& =0+t\\left(\\frac{1}{2}\\right)+\\frac{t^{2}}{2}\\left(-\\frac{3 \\alpha}{4}\\right) \\\\\n& =\\frac{t}{2}-\\frac{3}{8} \\alpha t^{2}\n\\end{aligned}\n[/latex] At [latex]\\mathrm{t}=1[/latex] [latex]\n\\begin{aligned}\ny(1) & =\\frac{1}{2}-\\frac{3}{8}(0.01) \\times 1^{2} \\\\\n& =0.5-\\frac{3}{8} \\times 0.01 \\\\ \n& =0.496 \\approx 0.5\n\\end{aligned}\n[/latex]",
+    "min": 0.48,
+    "max": 0.52
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 One million random numbers are generated from a statistically stationary process with a Gaussian distribution with mean zero and standard deviation [latex]\\sigma_{0}[/latex]. The [latex]\\sigma_{0}[/latex] is estimated by randomly drawing out 10,000 numbers of samples [latex]\\left(x_{n}\\right)[/latex]. The estimates [latex]\\hat{\\sigma}_{1}, \\hat{\\sigma}_{2}[/latex] are computed in the following two ways. [latex]\\hat{\\sigma}_{1}^{2}=\\frac{1}{10000} \\sum_{n=1}^{10000} x_{n}^{2} \\quad \\hat{\\sigma}_{2}^{2}=\\frac{1}{9999} \\sum_{n=1}^{10000} x_{n}^{2}[/latex] Which of the following statements is true?",
+    "solution": "We know, [latex]\n\\mathrm{E}\\left[(\\mathrm{X}-\\overline{\\mathrm{X}})^{2}\\right]=\\operatorname{Var}\n[/latex] Given, [latex]\\quad \\bar{X}=0[/latex] [latex]\\therefore \\quad E[X]=\\operatorname{Var}[/latex]. We have, Standard deviation, [latex]\\sigma^{2}[/latex]\n\n[latex]\n=\\frac{1}{N-1} \\sum_{n=1}^{n} x_{n}^{2} \\Rightarrow \\text { for sample }\n[/latex] and [latex]\\quad \\sigma^{2}=\\frac{1}{N} \\sum_{n=1}^{n} x_{n}^{2} \\Rightarrow[/latex] For population Here, we take samples from [latex]10^{6}[/latex] numbers. [latex]\\therefore \\quad \\mathrm{E}\\left(\\sigma_{2}^{2}\\right)=\\sigma_{0}^{2}[/latex] will be correct.",
+    "options": {
+      "A": "[latex]E\\left(\\hat{\\sigma}_{2}^{2}\\right)=\\sigma_{0}^{2}[/latex]",
+      "B": "[latex]\\mathrm{E}\\left(\\hat{\\sigma}_{2}\\right)=\\sigma_{0}[/latex]",
+      "C": "[latex]E\\left(\\hat{\\sigma}_{1}^{2}\\right)=\\sigma_{0}^{2}[/latex]",
+      "D": "[latex]\\mathrm{E}\\left(\\hat{\\sigma}_{1}\\right)=\\mathrm{E}\\left(\\hat{\\sigma}_{2}\\right)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 In the figure, the vectors [latex]u[/latex] and [latex]v[/latex] are related as: [latex]A u=v[/latex] by a transformation matrix [latex]A[/latex]. The correct choice of [latex]A[/latex] is",
+    "solution": "Given : [latex]\n\\begin{aligned}\n& |u|=\\sqrt{4^{2}+3^{2}}=5 \\\\\n& |V|=5\n\\end{aligned}\n[/latex] and [latex]\\quad \\theta=\\tan ^{-1} \\frac{3}{4} \\Rightarrow \\tan \\theta=\\frac{3}{4}[/latex] [latex]\\therefore \\quad \\sin \\theta=\\frac{3}{5}[/latex] and [latex]\\cos \\theta=\\frac{4}{5}[/latex] For clockwise relation by [latex]\\theta[/latex], transformation matrix, [latex]\n\\begin{aligned}\nA & =\\left[\\begin{array}{cc}\n\\cos \\theta & -\\sin \\theta \\\\\n\\sin \\theta & \\cos \\theta\n\\end{array}\\right] \\\\\n& =\\left[\\begin{array}{cc}\n\\frac{4}{5} & \\frac{3}{5} \\\\\n-\\frac{3}{5} & \\frac{4}{5}\n\\end{array}\\right]\n\\end{aligned}\n[/latex] [latex][\\because[/latex] F or clockwise [latex]\\theta \\rightarrow[/latex] N egative [latex]][/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/em/page6_q1.webp",
+    "options": {
+      "A": "[latex]\\left[\\begin{array}{cc}\\frac{4}{5} & \\frac{3}{5} \\\\ -\\frac{3}{5} & \\frac{4}{5}\\end{array}\\right][/latex]",
+      "B": "[latex]\\left[\\begin{array}{cc}\\frac{4}{5} & -\\frac{3}{5} \\\\ \\frac{3}{5} & \\frac{4}{5}\\end{array}\\right][/latex]",
+      "C": "[latex]\\left[\\begin{array}{ll}\\frac{4}{5} & \\frac{3}{5} \\\\ \\frac{3}{5} & \\frac{4}{5}\\end{array}\\right][/latex]",
+      "D": "[latex]\\left[\\begin{array}{rr}\\frac{4}{5} & -\\frac{3}{5} \\\\ \\frac{3}{5} & -\\frac{4}{5}\\end{array}\\right][/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 For a given vector [latex]w=\\left[\\begin{array}{lll}1 & 2 & 3\\end{array}\\right]^{\\top}[/latex], the vector normal to the plane defined by [latex]\\mathbf{w}^{\\top} x=1[/latex] is",
+    "solution": "Given, [latex]W^{T}=1[/latex] [latex]\\left[\\begin{array}{lll}1 & 2 & 3\\end{array}\\right]\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right]=1[/latex] We have, vector normal to the plane [latex]=\\nabla F[/latex] [latex]\n\\begin{aligned}\n& =i \\frac{\\partial F}{\\partial x}+\\hat{j} \\frac{\\partial F}{\\partial y}+\\hat{k} \\frac{\\partial F}{\\partial z} \\\\\n& =\\hat{i}+2 \\hat{j}+3 \\hat{k}\n\\end{aligned}\n[/latex] [latex]\\therefore[/latex] Normal vector [latex]=\\left[\\begin{array}{lll}1 & 2 & 3\\end{array}\\right]^{T}[/latex]",
+    "options": {
+      "A": "[latex]\\left[\\begin{array}{lll}-2 & -2 & 2\\end{array}\\right]^{T}[/latex]",
+      "B": "[latex]\\left[\\begin{array}{lll}3 & 0 & -1\\end{array}\\right]^{T}[/latex]",
+      "C": "[latex]\\left[\\begin{array}{lll}3 & 2 & 1\\end{array}\\right]^{T}[/latex]",
+      "D": "[latex]\\left[\\begin{array}{llll}1 & 2 & 3\\end{array}\\right]^{T}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 28 Let the probability density function of a random variable [latex]x [/latex] be given as [latex]f(x)=ae^{-2|x|} [/latex] The value of [latex] 'a'[/latex] is _________",
+    "solution": "[latex]f(x)=\\left\\{\\begin{matrix}\nae^{2x} &x \\lt 0 \\\\ \n ae^{-2x} &x \\gt 0 \n\\end{matrix}\\right. [/latex] Therefore, [latex] \\begin{aligned}\n\\int_{-\\infty }^{\\infty }f(x)dx&=1\\\\\n\\int_{-\\infty }^{0}ae^{2x}dx+\\int_{0 }^{\\infty }ae^{-2x}dx&=1\\\\\na\\left [ \\left [ \\frac{e^{2x}}{2} \\right ]_{-\\infty }^0 +[ \\left [ \\frac{e^{-2x}}{-2} \\right ]^{\\infty }_0\\right ]&=1\\\\\na\\left [ \\frac{1}{2}+\\frac{1}{2} \\right ]&=1\\\\\na&=1\n\\end{aligned}[/latex]",
+    "min": 0.99,
+    "max": 1.01
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 Let [latex] \\vec{E}(x,y,z)=2x^2\\hat{i}+5y\\hat{j}+3z\\hat{k}[/latex]. The value of [latex] \\int \\int \\int _V(\\vec{\\triangledown }\\cdot \\vec{E})dV[/latex], where [latex] V[/latex] is the\nvolume enclosed by the unit cube defined by [latex] 0\\leq x\\leq 1,0\\leq y\\leq 1 \\text{ and }0\\leq z\\leq 1[/latex], is",
+    "solution": "Divergence of [latex]\\vec{V}, \\triangledown \\cdot \\vec{V}=4x+5+3=4x+8 [/latex] Now, [latex]\\int \\int \\int( \\triangledown \\cdot \\vec{V})dxdydz=\\int_{0}^{1}\\int_{0}^{1}\\int_{0}^{1}(4x+8)dxdydz=\\int_{0}^{1}(4x+8)dx=[2x^2+8x]_0^1=10 [/latex]",
+    "options": {
+      "A": "3",
+      "B": "8",
+      "C": "10",
+      "D": "5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Let [latex] R[/latex] be a region in the first quadrant of the [latex] xy[/latex] plane enclosed by a closed curve [latex] C[/latex]\nconsidered in counter-clockwise direction. Which of the following expressions does\nnot represent the area of the region [latex] R[/latex]?",
+    "solution": "Using green theorem?s [latex] \\oint _cF_1dx+F_2dy=\\int \\int _R\\left ( \\frac{\\partial F_2}{\\partial x} -\\frac{\\partial F_1}{\\partial y}\\right )dxdy [/latex] Check all the options: [latex] \\oint xdy=\\int \\int _R\\left ( \\frac{\\partial x}{\\partial x} -0\\right )dxdy=\\int \\int _Rdxdy[/latex] [latex] \\frac{1}{2}\\oint xdy-ydx=\\frac{1}{2}\\int \\int _R(1+1)dxdy=\\int \\int _Rdxdy [/latex] [latex] \\oint ydx=\\int \\int _R(-1)dxdy=-\\int \\int _Rdxdy [/latex] Hence, \n[latex]\\oint ydx [/latex] is not represent the area of the\nregion.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/em/page6_q5.webp",
+    "options": {
+      "A": "[latex] \\int \\int _R dxdy[/latex]",
+      "B": "[latex]\\oint _c xdy [/latex]",
+      "C": "[latex]\\oint _c ydx [/latex]",
+      "D": "[latex]\\frac{1}{2}\\oint _c( xdy-ydx) [/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 Let, [latex] f(x,y,z)=4x^2+7xy+3xz^2[/latex]. The direction in which the function [latex]f(x,y,z)[/latex] increases most rapidly at point [latex] P = (1,0,2)[/latex] is",
+    "solution": "Given:\n[latex]f(x,y,z)=4x^2+7xy+3xz^2 [/latex] The directional derivative at point P is given by [latex]=\\triangledown f|_{point \\; P} [/latex] [latex] \\therefore \\; \\triangledown f=(8x+7y+3z^2)\\hat{i}+(0+7x+0)\\hat{j}+(0+0+6xz)\\hat{k}[/latex] at point (1, 0, 2) [latex]\\triangledown f|_{(1,0,2)}=20\\hat{i}+7\\hat{j}+12\\hat{k} [/latex]",
+    "options": {
+      "A": "[latex]20\\hat{i}+7\\hat{j} [/latex]",
+      "B": "[latex]20\\hat{i}+7\\hat{j}+12\\hat{k} [/latex]",
+      "C": "[latex]20\\hat{i}+12\\hat{j} [/latex]",
+      "D": "[latex]20\\hat{i} [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 Consider a matrix [latex]  A=\\begin{bmatrix}\n1 & 0 & 0\\\\ \n0 & 4 & -2\\\\ \n 0&1  &1 \n\\end{bmatrix}[/latex] The matrix [latex]A[/latex] satisfies the equation [latex] 6A^{-1}=A^2+cA+dI[/latex] where [latex] c[/latex] and [latex] d[/latex] are\nscalars and [latex] I[/latex] is the identity matrix. Then [latex] (c+d)[/latex] is equal to",
+    "solution": "Characteristic equation: [latex]\\begin{aligned}\n |A-\\lambda I|&=0 \\\\ \n \\begin{vmatrix}\n1-\\lambda  & 0 &0 \\\\ \n0 & 4-\\lambda  & 2\\\\ \n0 & -1 & 1-\\lambda \n\\end{vmatrix}&=0 \\\\ \n(1-\\lambda )[(4-\\lambda )(1-\\lambda )+2] &=0\\\\\n\\lambda ^3-6\\lambda ^2+11\\lambda -6&=0 \n\\end{aligned}[/latex] By cayley hamilton theorem [latex]\\begin{aligned}\nA^3-6A^2+11A-6 &=0 \\\\ \n A^2-6A+11I&=6A^{-1} \n\\end{aligned}[/latex] On comparison : c= -6 and  d = 11 Therefore, c + d = -6 + 11 = 5",
+    "options": {
+      "A": "5",
+      "B": "17",
+      "C": "-6",
+      "D": "11"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 Let [latex] f(x)=\\int_{0}^{x}e^t(t-1)(t-2)dt [/latex]. Then [latex] f(x)[/latex]  decreases in the interval",
+    "solution": "The function is decreasing, if \n[latex]f'(x) \\lt 0 [/latex] [latex]f'(x)=\\frac{d}{dx} \\int_{0}^{x}e^t(t-1)(t-2)dt [/latex] [latex] \\Rightarrow \\; e^x(x-1)(x-2) \\lt 0[/latex] It is possible in between 1 & 2. Hence\n[latex]x \\in (1,2) [/latex]",
+    "options": {
+      "A": "[latex]x \\in (1,2)[/latex]",
+      "B": "[latex]x \\in (2,3)[/latex]",
+      "C": "[latex]x \\in (0,1)[/latex]",
+      "D": "[latex]x \\in (0.5,1)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 [latex] e^A[/latex] denotes the exponential of a square matrix A. Suppose [latex]\\lambda [/latex] is an eigenvalue and [latex]v [/latex] is the corresponding eigen-vector of matrix A. Consider the following two statements: Statement 1: [latex] e^\\lambda [/latex] is an eigenvalue of [latex] e^A[/latex]. Statement 2: [latex]v [/latex]is an eigen-vector of [latex] e^A[/latex]. Which one of the following options is correct?",
+    "solution": "Eigen value will change but eigen vector not\nchange.",
+    "options": {
+      "A": "Statement 1 is true and statement 2 is false.",
+      "B": "Statement 1 is false and statement 2 is true",
+      "C": "Both the statements are correct.",
+      "D": "Both the statements are false."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 Consider a 3 x 3 matrix A whose (i,j)-th element, [latex]a_{i,j}=(i-j)^3[/latex]. Then the matrix A will be",
+    "solution": "[latex] for \\; i=j\\Rightarrow a_{ij}=(i-i)^3=0\\forall i[/latex] [latex] for \\; i\\neq j\\Rightarrow a_{ij}=(i-j)^3=(-(j-i))^3=-(j-i)^3=-a_{ji}[/latex] [latex] \\therefore \\; A_{3 \\times 3 }[/latex]  is skew symmetric matrix.",
+    "options": {
+      "A": "symmetric.",
+      "B": "skew-symmetric.",
+      "C": "unitary",
+      "D": "null."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 Let A be a [latex]10\\times10[/latex] matrix such that [latex]A^{5}[/latex] is a null matrix, and let I be the [latex]10\\times10[/latex] identity matrix. The determinant of [latex]\\text{A+I}[/latex] is ___________________.",
+    "solution": "[latex]\\begin{aligned} \\text{Given}:\\qquad A^{5}&=0\\\\ A x &=\\lambda x \\\\ \\Rightarrow \\qquad \\qquad A^{5} x &=\\lambda^{5} x \\quad(\\because x \\neq 0) \\\\ \\Rightarrow \\qquad \\qquad \\lambda^{5} &=0 \\\\ \\Rightarrow \\qquad \\qquad \\lambda &=0 \\end{aligned}[/latex] Eigen values of [latex]A+I[/latex] given [latex]\\lambda+1[/latex] [latex] \\because [/latex] Eigen values of [latex]I_{A}=1[/latex] Hence [latex]|A+I|=[/latex] Product of eigen values [latex]=1 \\times 1 \\times 1 \\times \\ldots 10 [/latex]times [latex] =1[/latex]",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 Let [latex]\\left ( -1 -j \\right ), \\left ( 3 -j \\right ), \\left ( 3 + j \\right )[/latex]\n and [latex]\\left ( -1+ j \\right )[/latex] be the vertices of a rectangle C in the complex plane. Assuming that C is traversed in counter-clockwise direction, the value of the contour integral [latex]\\oint _{C}\\dfrac{dz}{z^{2}\\left ( z-4 \\right )}[/latex] is",
+    "solution": "[latex]\\oint_{C} \\frac{d z}{z^{2}(z-4)}[/latex] Singularities are given by [latex]z^{2}(z-4)=0[/latex] [latex] \\Rightarrow \\qquad\\qquad z=0,4[/latex] [latex] z=0[/latex] is pole of order [latex]m=2[/latex] lies inside contour 'c' [latex] z=4[/latex] is pole of order [latex]m=1[/latex] lies outside 'c' [latex] \\begin{aligned} \\text{Res}_{0} &=\\frac{1}{(2-1) !} \\text{lt}_{\\rightarrow 0} \\frac{d^{2-1}}{d z^{2-1}}\\left[(z-0)^{2} \\frac{1}{z^{2}(z-4)}\\right] \\\\ &=\\frac{-1}{(0.4)^{2}}=\\frac{-1}{16}\\\\ \\text{By CRT}\\\\ \\oint_{C} f(z) d z &=2 \\pi j \\text{Res}_{0}=2 \\pi j\\left[\\frac{-1}{16}\\right] \\\\ &=\\frac{-j \\pi }{8} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]j\\pi /2[/latex]",
+      "B": "0",
+      "C": "[latex]-j\\pi /8[/latex]",
+      "D": "[latex]j\\pi /16[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 Suppose the probability that a coin toss shows \"head\" is p, where [latex]0\\lt \r\n p\\lt 1[/latex]. The coin is tossed repeatedly until the first \"head\" appears. The expected number of tosses required is",
+    "solution": "[latex]F(H) = p[/latex], let x = Number of tosses [latex] \\begin{aligned} &\\begin{array}{|c|c|c|c|c|c|} \\hline x & 1 & 2 & 3 & 4 & 5 \\ldots \\\\ \\hline P(x) & p & (1-p) p & (1-p)^{2} p & & \\\\ \\hline \\end{array}\\\\ &\\begin{aligned} E(x) &=\\sum x_{i} P(x)=p+2(1-p) p+3(p)(1-p)^{2}+\\ldots \\\\ &=p\\left[1+2(1-p)+3(1-p)^{2}+\\ldots\\right] \\\\ &=p[1-(1-p)]^{-2}=\\frac{1}{p} \\end{aligned} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]p/\\left ( 1-p \\right )[/latex]",
+      "B": "[latex]\\left ( 1-p \\right )/p[/latex]",
+      "C": "[latex]1/p[/latex]",
+      "D": "[latex]1/p^{2}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 In the open interval [latex]\\left ( 0,1 \\right )[/latex], the polynomial [latex]p\\left ( x \\right) =x^{4}-4x^{3}+2[/latex] has",
+    "solution": "[latex]\\begin{aligned} x^{4}+2 &=4 x^{3} \\\\ f_{1}(x) &=x^{4}+2 \\\\ f_{2}(x) &=4 x^{3} \\end{aligned}[/latex] It is clear that point of intersection of these graphs is solution (or) root of [latex]p(x) = 0[/latex] According to intermediate value theorem [latex] P(0)[/latex] and [latex]P(1)[/latex] are having opposite signs [latex] \\therefore [/latex] a root of [latex]p(x) = 0[/latex] in [latex](0, 1)[/latex] and also from graph, there is only one point of intersection Hence exactly one real root exists in [latex](0, 1)[/latex]",
+    "options": {
+      "A": "two real roots",
+      "B": "one real root",
+      "C": "three real roots",
+      "D": "no real roots"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 Suppose the circles [latex]x^{2}+y^{2}=1[/latex] and [latex]\\left ( x-1\\right )^{2}+\\left ( y-1 \\right )^{2}=r^{2}[/latex] intersect each other orthogonally at the point [latex]\\left ( u,v \\right )[/latex]. Then  [latex]u+v=[/latex] _______________.",
+    "solution": "If two curves cut orthogonally then product of slopes [latex]= -1[/latex] [latex] \\begin{aligned} x^{2}+y^{2} &=1 \\\\ 2 x+2 y \\frac{d y}{d x} &=0 \\\\ \\left(M_{1}\\right)_{u, v} &=\\frac{d y}{d x}=\\frac{-x}{y}=\\frac{-u}{v} \\\\ (x-1)^{2}+(y-1)^{2} &=r^{2} \\\\ \\left(M_{2}\\right)_{u, v} &=\\left(\\frac{d y}{d x}\\right)=\\left(\\frac{-2(x-1)}{2(y-1)}\\right)_{(u . v)}=\\frac{1-u}{v-1} \\\\ \\because \\qquad \\qquad M_{1} M_{2} &=-1\\\\ \\frac{-u}{v} \\times \\frac{1-u}{v-1}&=-1\\\\ -u+u^{2} &=-v^{2}+v \\\\ u^{2}+v^{2} &=v+u \\\\ \\because \\qquad \\qquad x^{2}+y^{2} &=1 \\\\ \\therefore \\qquad \\qquad u+v &=1 \\end{aligned}[/latex]",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 Let [latex]f\\left ( x \\right )[/latex]\n be a real-valued function such that [latex]{f}'\\left ( x_{0} \\right )=0[/latex]\n for some [latex]x _{0} \\in\\left ( 0,1 \\right )[/latex], and [latex]{f}''\\left ( x \\right )> 0[/latex]\n for all [latex]x \\in \\left ( 0,1 \\right )[/latex]. Then [latex]f\\left ( x \\right )[/latex]\n has",
+    "solution": "[latex]x_{0} \\in(0,1)[/latex], where [latex]f(x)=0[/latex] is stationary point and [latex]f^{\\prime \\prime}(x)>0 \\qquad \\qquad \\forall x \\in(0,1)[/latex] So [latex]\\qquad \\qquad f^{\\prime}\\left(x_{0}\\right)=0[/latex] and [latex]\\qquad \\qquad f^{\\prime}(0)>0, \\text { where } x_{0} \\in(0,1)[/latex] Hence, f(x) has exactly one local minima in [latex](0,1)[/latex]",
+    "options": {
+      "A": "no local minimum in (0,1)",
+      "B": "one local maximum in (0,1)",
+      "C": "exactly one local minimum in (0,1)",
+      "D": "two distinct local minima in (0,1)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 Let [latex]p\\left ( z\\right )=z^{3}+\\left ( 1+j \\right )z^{2}+\\left ( 2+j \\right )z+3[/latex], where z is a complex number. Which one of the following is true?",
+    "solution": "Since sum of the roots is a complex number [latex]\\Rightarrow[/latex] absent one root is complex So all the roots cannot be real.",
+    "options": {
+      "A": "[latex]\\text{conjugate}\\:\\left \\{ p\\left ( z \\right ) \\right \\}=p\\left ( \\text{conjugate} \\left \\{ z \\right \\} \\right )[/latex] for all z",
+      "B": "The sum of the roots of [latex]p\\left ( z \\right )=0[/latex] is a real number",
+      "C": "The complex roots of the equation  [latex]p\\left ( z \\right )=0[/latex]\n come in conjugate pairs",
+      "D": "All the roots cannot be real"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 Let p and q be real numbers such that [latex]p^{2}+q^{2}=1[/latex]. The eigenvalues of the matrix [latex]\\begin{bmatrix} p & q\\\\ q& -p \\end{bmatrix}[/latex]\nare",
+    "solution": "Characteristic equation of A [latex] \\begin{aligned} \\left|A_{2 \\times 2}-\\lambda I\\right|&=(-1)^{2} \\lambda^{2}+(-1)^{1} \\text{Tr}(A) \\lambda+|A|=0 \\\\ \\lambda^{2}-(p-p) \\lambda+\\left(-p^{2}-q^{2}\\right) &=0 \\\\ \\Rightarrow \\qquad \\qquad\\lambda^{2}-1 &=0 \\\\ \\Rightarrow \\qquad\\qquad \\lambda &=\\pm 1 \\end{aligned}[/latex]",
+    "options": {
+      "A": "1 and 1",
+      "B": "1 and -1",
+      "C": "j and -j",
+      "D": "pq and -pq"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 Let [latex]a_x \\; and \\; a_y[/latex] be unit vectors along x and y directions, respectively. A vector function is given by [latex]F = a_xy - a_yx[/latex] The line integral of the above function [latex]\\int _c F\\cdot dl[/latex] along the curve C, which follows the parabola [latex]y = x^2[/latex] as shown below is _______ (rounded\noff to 2 decimal places).",
+    "solution": "[latex]\\begin{aligned}\r\n\\vec{F}&=y\\hat{a}_{x}-x\\hat{a}_{y} \\\\  \\vec{r}&=x\\hat{i}+y\\hat{j}  \\\\ \\vec{F}&=y\\hat{i}-x\\hat{j}  \\\\ d\\vec{r}&=dx\\hat{i}+dy\\hat{j} \\\\ &=\\int _{c}F.d\\vec{r}\\\\ &=\\int_{c}F_{1}dx+F_{2}dy \\\\ &=\\int _{c}ydx-xdy \\\\ &\\text{Where C is,}\\\\ y&=x^{2} \\\\ dy&=2x dx \\\\ x &\\text{ varies from -1 to 2,}\\\\ \\int _{c}\\vec{F}dl&=\\int_{-1}^{2}x^{2}dx-x\\cdot 2xdx \\\\ &=\\int_{-1}^{2}(x^{2}-2x)dx \\\\ &=\\int_{-1}^{2}-x^{2}dx=\\left.\\begin{matrix} -\\frac{x^{3}}{3} \\end{matrix}\\right|_{-1}^{2} \\\\ &=-\\frac{8}{3}-\\frac{1}{3}=-\\frac{9}{3}\\\\ &=-3\r\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/em/page9_q4.webp",
+    "min": -3.05,
+    "max": -2.95
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 The number of purely real elements in a lower triangular representation of the given 3x3\nmatrix, obtained through the given decomposition is [latex]\\begin{bmatrix} 2 &3 &3 \\\\ 3& 2 & 1\\\\ 3& 1 & 7 \\end{bmatrix}=[/latex] [latex]\\begin{bmatrix} a_{11} &0 &0 \\\\ a_{12}& a_{22} & 0\\\\ a_{13}& a_{23} & a_{33} \\end{bmatrix}\\begin{bmatrix} a_{11} &0 &0 \\\\ a_{12}& a_{22} & 0\\\\ a_{13}& a_{23} & a_{33} \\end{bmatrix}^T[/latex]",
+    "solution": "As per GATE official answer key MTA (Marks to ALL) [latex]\\begin{aligned}\r\n\\begin{bmatrix} 2 &3 &3 \\\\ 3 &2 &1 \\\\ 3 &1 &7 \\end{bmatrix}&=\\begin{bmatrix} I_{11} & 0 &0 \\\\ I_{21}&l_{22} & 0\\\\ l_{31} &l_{32} &l_{33} \\end{bmatrix}\\begin{bmatrix} u_{11} &u_{12} &u_{13} \\\\ 0 &u_{22} &u_{23} \\\\ 0 & 0 &u_{33} \\end{bmatrix} \\\\ \\text{consider, }u_{11}&=u_{22}=u_{33}=1 \\\\ \\begin{bmatrix} 2 &3 &3 \\\\ 3 &2 &1 \\\\ 3 &1 &7 \\end{bmatrix}&=\\begin{bmatrix} l_{11} & 0 &0 \\\\ l_{21}&l_{22} & 0\\\\ l_{31} &l_{32} &l_{33} \\end{bmatrix}\\begin{bmatrix} 1 &u_{12} &u_{13} \\\\ 0 &1 &u_{23} \\\\ 0 & 0 &1 \\end{bmatrix}\r\n\\\\ \\begin{bmatrix} 2 &3 &3 \\\\ 3 &2 &1 \\\\ 3 &1 &7 \\end{bmatrix}&=\\begin{bmatrix} l_{11} & l_{11}u_{12} &l_{11}u_{13} \\\\ l_{21}& l_{21}u_{12}+l_{22} & l_{21}u_{13}+ l_{22}u_{23}\\\\ l_{31} &l_{31}u_{12}+l_{32} & l_{31}u_{13}+ l_{32}u_{23}+l_{33}\\end{bmatrix}\r\n\\\\ \r\nl_{11}&=2 \\; \\; l_{11}u_{12}=3 \\; \\; l_{11}u_{13}=3 \\; \\;  \\\\ l_{21}&=3 \\; \\; 2u_{12}=3 \\; \\; 2u_{13}=3 \\\\ l_{31}&=3\\; \\; u_{12}=\\frac{3}{2} \\; \\; u_{13}=\\frac{3}{2} \\\\ l_{21}u_{12}+l_{22}&=2\\; \\; l_{21}u_{13}+l_{22}u_{23}=1 \\\\ (3)\\left ( \\frac{3}{2} \\right )+l_{22}&=2 \\; \\; (3)\\left ( \\frac{3}{2} \\right )+\\left ( -\\frac{5}{2} \\right )u_{23}=1 \\\\ l_{22}&=-\\frac{5}{2} \\; \\; u_{23}=-\\frac{7}{5} \\\\ l_{31}u_{12}+l_{32}&=1 \\; \\; l_{31}u_{13}+l_{32}u_{23}+l_{33}=7\\\\\r\n\r\n(3)(\\frac{3}{2})+l_{32}&=1 \\; \\; (3)\\left ( \\frac{3}{2} \\right )+\\left ( -\\frac{7}{2} \\right )\\left ( \\frac{7}{5} \\right )+l_{33}=7 \\\\ l_{32}&=-\\frac{7}{2} \\; \\; l_{33}=-\\frac{74}{10}\\\\ L&=\\begin{bmatrix} 2 &0 &0 \\\\ 3 &-5/2 &0 \\\\ 3 &-7/2 & 74/10 \\end{bmatrix}\r\n\\end{aligned}[/latex] The number of purely real elements of lower triangular matrix are 9.",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "8",
+      "D": "9"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 The real numbers, x and y with [latex]y = 3x^2 + 3x + 1[/latex], the maximum and minimum value\nof y for [latex]x \\in [-2, 0][/latex] are respectively ________",
+    "solution": "[latex]\\begin{aligned}\r\ny&=3x^{2}+3x+1 \\; \\;    in \\; [-2,0] \\\\ \\frac{\\partial y}{\\partial x}&=6x+3,\\; \\; \\frac{\\partial^2 y}{\\partial x^2}=6  \\\\ \\frac{\\mathrm{d} y}{\\mathrm{d} x}&=0\\\\ 6x+3&=0 \\\\ x&=\\frac{-1}{2} \\\\ \\frac{d^{2} y}{dx^{2}}&=6 \\gt 0\\text{ minimum} \\end{aligned}[/latex] Maximum value of y in [-2, 0] is maximum {f(-2), f(0)} max{7, 1} = 7 Minimum value of y in [-2, 0] [latex]min\\begin{Bmatrix} f(-2) & f(0) &f(-\\frac{1}{2}) \\\\ \\downarrow, &\\downarrow, &\\downarrow \\\\ 7& 1 & \\frac{1}{4} \\end{Bmatrix}+=\\frac{1}{4}[/latex] Maximum value 7, minimum value [latex]\\frac{1}{4}[/latex]",
+    "options": {
+      "A": "7 and 1/4",
+      "B": "7 and 1",
+      "C": "-2 and -1/2",
+      "D": "1 and 1/4"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 Consider the initial value problem below. The value of y at [latex]x = ln \\;2[/latex]. (rounded off to 3\ndecimal places) is ________ . [latex]\\frac{dy}{dx}=2x-y,\\; y(0)=1[/latex]",
+    "solution": "[latex]\\begin{aligned} \\frac{\\mathrm{d} y}{\\mathrm{d} x}&=2x-y \\\\  y(0)&=1, \\; y \\text{ at } x=\\ln  2\\\\ \\frac{\\mathrm{d} y}{\\mathrm{d} x}+y&=2x \\\\ P&=1, \\;\\;     Q=2x \\\\ I.F.&=e^{\\int Pdx}=e^{\\int 1dx}=e^{x}\\\\ \\text{Solution, }   Y(I.F)&=\\int Q(I.F.)dx\\\\ye^{x}&=\\int 2x\\cdot e^{x}dx \\\\&=2(xe^{x}-e^{x})+C \\\\ y&=2x-2+ce^{-x} \\\\ y(0)&=1 \\\\ 1&=0-2+C \\\\ C&=3 \\\\ \\therefore \\; \\; y&=2x-2+3e^{-x} \\\\ \\text{At }x&= \\ln 2 \\\\ y&=2(\\ln 2)-2+3e^{-\\ln 2} \\\\ &=1.386-2+\\frac{3}{2}\\\\\r\n&=0.886\\end{aligned} [/latex]",
+    "min": 0.8774,
+    "max": 0.8952
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 The value of the following complex integral, with C representing the unit circle centered\nat origin in the counterclockwise sense, is: [latex]\\int_{c}\\frac{z^2+1}{z^2-2z}dz[/latex]",
+    "solution": "[latex]\\begin{aligned} I&=\\int _C \\frac{z^2+1}{z^2-2z}dz\\;\\;\\;|z|=1 \\\\ \\text{Using } & \\text{Cauchy's integral theorem}\\\\ \\int _C\\frac{F(z)}{z-a}dz&=2 \\pi i (Re_{(z=a)})\\;\\;\\;...(i)\\\\ I&=\\int _C \\frac{z^2+1}{z(z-2)}dz \\end{aligned}[/latex] Poles are at z=0 and 2 but only z=0 lies inside the unit circle. Residue at [latex](z=0)=\\lim_{z \\to 0}\\frac{z^2+1}{z(z-2)}[/latex] [latex]Re_{(z=0)}=-\\frac{1}{2}[/latex] Using equation (i) [latex]\\int _C \\frac{z^2+1}{z^2-2z}dz=2 \\pi i \\times \\left ( \\frac{-1}{2} \\right )=-\\pi i[/latex]",
+    "options": {
+      "A": "[latex]8 \\pi i[/latex]",
+      "B": "[latex]-8 \\pi i[/latex]",
+      "C": "[latex]- \\pi i[/latex]",
+      "D": "[latex] \\pi i[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 Which of the following is true for all possible non-zero choices of integers [latex]m, n; m \\neq n[/latex],\nor all possible non-zero choices of real numbers [latex]p, q ; p\\neq q[/latex], as applicable?",
+    "solution": "[latex]\\begin{aligned} \\because \\; p& \\neq q\\\\ &\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi} \\sin p\\theta \\cos q\\theta d\\theta \\\\ &=\\frac{1}{2\\pi}\\cdot \\frac{1}{2}\\int_{-\\pi}^{\\pi} [\\sin (p+q)\\theta + \\sin (p-q)\\theta] d\\theta \\\\ &=\\frac{1}{4\\pi}\\left [ \\frac{-1}{(p+q)}\\cos (p+q)\\theta -\\frac{1}{(p-q)}\\cos (p-q)\\theta \\right ]_{-\\pi}^{\\pi}\\\\ &=\\frac{-1}{4\\pi} \\left \\{ \\frac{1}{(p+q)}(\\cos (p+q) \\pi -\\cos (p+q)(-\\pi)) \\right.\\\\ &+\\left. \\frac{1}{(p-q)}(\\cos (p-q) \\pi -\\cos (p-q)(-\\pi)) \\right \\}\\\\ &=0 \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{\\pi}\\int_{0}^{\\pi}\\sin m\\theta \\sin n\\theta \\; d\\theta =0[/latex]",
+      "B": "[latex]\\frac{1}{2\\pi}\\int_{-\\pi/2}^{\\pi/2}\\sin p\\theta \\sin q\\theta \\; d\\theta =0[/latex]",
+      "C": "[latex]\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi}\\sin p\\theta \\cos q\\theta \\; d\\theta =0[/latex]",
+      "D": "[latex]\\lim_{\\alpha \\to \\infty }\\frac{1}{2\\alpha }\\int_{-\\alpha }^{\\alpha }\\sin p\\theta \\sin q\\theta \\; d\\theta =0[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 [latex]ax^3+bx^2+cx+d[/latex] is a polynomial on real [latex]x[/latex] over real coefficients [latex]a, b, c, d[/latex] wherein\n[latex]a \\neq 0[/latex]. Which of the following statements is true?",
+    "solution": "Given Polynomial [latex]ax^{3}+bx^{2}+cx+d=0;\\; \\; \\; a\\neq 0[/latex] Option (A): If d=0, then the polynomial equation becomes [latex]\\begin{aligned} ax^3+bx^2+cx&=0\\\\ x(ax^2+bx+c)&=0 \\\\ x=0 \\text{ or } ax^2+bx+c&=0 \\end{aligned}[/latex] d can be choosen to ensure x=0 is a root of given polynomial. Hence, Option (A) is correct. Option B: A third degree polynomial equation with all root equal is given by [latex](x+\\alpha )^3=0[/latex] Thus, by selecting suitable values of a, b, c and d we can have all roots identical. Hence, option (B) is incorrect. Option (C): Complex roots always occurs in pairs, So, the given polynomial will have maximum of 2 complex roots and 1 real root. Hence, option (C) is incorrect. Option (D): Nature or roots depends on other coefficients also apart from coefficient 'c'. Hence, option (D) is correct. Hence, the correct options are (A) and (D).",
+    "options": {
+      "A": "d can be chosen to ensure that x = 0 is a root for any given set a, b, c.",
+      "B": "No choice of coefficients can make all roots identical.",
+      "C": "a, b, c, d can be chosen to ensure that all roots are complex.",
+      "D": "c alone cannot ensure that all roots are real."
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 The probability of a resistor being defective is 0.02. There are 50 such resistors in a circuit. The probability of two or more defective resistors in the circuit (round off to two decimal places)is ________",
+    "solution": "[latex]\\begin{aligned} p&=0.02\\\\ n&=50\\\\ \\lambda &=np=50(0.02)=1\\\\ p(x\\geq 2)&=1-p(x \\lt 2)\\\\ &=1-(p(x=0)+p(x=1))\\\\ &=1-\\left ( \\frac{e^{-\\lambda }\\lambda ^0}{0!}+\\frac{e^{-\\lambda }\\lambda ^1}{1!} \\right )\\\\ &=1-e^{-\\lambda }(1+\\lambda )\\\\ &=1-e^{-1}(1+1)=0.26 \\end{aligned}[/latex]",
+    "min": 0.25,
+    "max": 0.27
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 If A=2xi+3yj+4zk and [latex]u=x^2+y^2+z^2[/latex], then div(uA) at (1,1,1) is____",
+    "solution": "[latex]\\begin{aligned} \\bigtriangledown \\cdot (uA)&=u(\\bigtriangledown \\cdot A)+(\\bigtriangledown A)F\\\\ &=(x^2+y^2+z^2)[2+3+4]\\\\ &+(2x\\hat{i}+2y\\hat{j}+2z\\hat{k})(2x\\hat{i}+3y\\hat{j}+4z\\hat{k})\\\\ &=9(x^2+y^2+z^2)+(4x^2+6y^2+8z^2)\\\\ At\\; (1,1,1)&=9(3)+[4+6+8]\\\\ &=27+18=45 \\end{aligned}[/latex]",
+    "min": 45.0,
+    "max": 45.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 The closed loop line integral [latex]\\oint _{|z|=5}\\frac{z^3+z^2+8}{z+2}dz[/latex] evaluated counter-clockwise, is",
+    "solution": "[latex]\\begin{aligned} \\oint _{|z|=5}\\frac{z^3+z^2+8}{2+2}dz&=2 \\pi j \\text{ (sum of residues)} \\\\ &=2 \\pi j \\times \\left [ \\lim_{z \\to -2} \\frac{(z+2)(z^3+z^2+8)}{(z+2)}\\right ] \\\\ &= 2 \\pi j \\times \\left [ \\frac{-8+4+8}{1} \\right ]=8 \\pi j \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]+8j\\pi[/latex]",
+      "B": "[latex]-8j\\pi[/latex]",
+      "C": "[latex]-4j\\pi[/latex]",
+      "D": "[latex]+4j\\pi[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 Consider a 2x2 matrix [latex]M=[v_1\\;\\; v_2][/latex], where, [latex]v_1\\;and \\; v_2[/latex] are the column vectors. Suppose [latex]M^{-1}=\\begin{bmatrix} u_1^T\\\\ u_2^T \\end{bmatrix}[/latex], where [latex]u_1^T \\; and \\; u_2^T[/latex] are the row vectors. Consider the following statements: Statement 1: [latex]u_1^T v_1=1\\; and \\; u_2^Tv_2=1[/latex] Statement 2: [latex]u_1^T v_2=0\\; and \\; u_2^Tv_1=0[/latex] Which of thefollowing options is correct?",
+    "solution": "[latex]\\begin{aligned} M^{-1}M &=I \\\\ \\Rightarrow \\; \\begin{bmatrix} u_1^T\\\\ u_2^T \\end{bmatrix}\\begin{bmatrix} v_1 & v_2 \\end{bmatrix} &= \\begin{bmatrix} 1 & 0\\\\ 0 & 1 \\end{bmatrix}\\\\ \\begin{bmatrix} u_1^T v_1 & u_1^T v_2\\\\ u_2^T v_1 & u_2^T v_2 \\end{bmatrix}&=\\begin{bmatrix} 1 &0 \\\\ 0 & 1 \\end{bmatrix} \\\\ u_1^T v_1=1; &u_1^T v_2 =0\\\\ u_2^T v_1=1; &u_2^T v_2 =1\\\\ \\end{aligned}[/latex] Statement (1) and (2) are both correct. Option (C) is correct.",
+    "options": {
+      "A": "Statement 1 is true and statement 2 is false",
+      "B": "Statement 2 is true and statement 1 is false",
+      "C": "Both the statements are true",
+      "D": "Both the statements are false"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 The rank of the matrix, [latex]M=\\begin{bmatrix} 0 &1 &1 \\\\ 1& 0& 1\\\\ 1& 1& 0 \\end{bmatrix}[/latex], is ______",
+    "solution": "[latex]\\begin{aligned} M &=\\begin{bmatrix} 0 & 1 & 1\\\\ 1& 0 & 1\\\\ 1& 1 & 0 \\end{bmatrix} \\\\ &R_1\\leftrightarrow R_2 \\\\ &=\\begin{bmatrix} 1 & 0 & 1\\\\ 0& 1 & 1\\\\ 1& 1 & 0 \\end{bmatrix} \\\\ &R_3\\rightarrow R_3 -R_1 \\\\ &= \\begin{bmatrix} 1 & 0 & 1\\\\ 0& 1 & 1\\\\ 0& 1 & -1 \\end{bmatrix}\\\\ &R_3\\rightarrow R_3-R_2 \\\\ &= \\begin{bmatrix} 1 & 0 & 1\\\\ 0& 1 & 1\\\\ 0& 0 & -2 \\end{bmatrix} \\end{aligned}[/latex] Which is in echelon form [latex]\\therefore \\;\\; \\rho (A)=3[/latex]",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 56 If [latex]f=2x^3+3y^2+4z[/latex], the value of line integral [latex]\\int _c grad \\; f\\cdot dr[/latex] evaluated over  contour C formed by the segments (-3,-3,2) [latex]\\rightarrow[/latex] (2,-3,2) [latex]\\rightarrow[/latex] (2,6,2) [latex]\\rightarrow[/latex] (2,6,-1) is_______",
+    "solution": "[latex]\\begin{aligned} f&=2x^3+3y^2+4z\\\\ \\Delta f&=6x^2\\hat{i}+6y\\hat{j}+4\\hat{k}\\\\ \\text{curl} (\\Delta f)&=\\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k}\\\\ \\frac{\\partial }{\\partial x}&\\frac{\\partial }{\\partial y} &\\frac{\\partial }{\\partial z} \\\\ 6x^2& 6y & 4\\end{vmatrix}\\\\ \\therefore \\;\\;\\int _c\\Delta f\\cdot dr&=\\int _c d(2x^3+3y^2+4z)=0\\\\ &=\\int_{(-3,-3,2)}^{2,-3,2}d(2x^3+3y^2+4z)\\\\ &+\\int_{(2,-3,2)}^{(2,6,2)}d(2x^3+3y^2+4z)\\\\ &+\\int_{(2,6,2)}^{(2,6,-1)}d(2x^3+3y^2+4z)\\\\ &=70+81+(-12)=139 \\end{aligned}[/latex]",
+    "min": 139.0,
+    "max": 139.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 The mean-square of a zero-mean random process is [latex]\\frac{kT}{C}[/latex], where k is Boltzmann's constant, T is  the  absolute  temperature,  and C is  a  capacitance.  The  standard  deviation  of  the  random process is",
+    "solution": "Given that, [latex]\\begin{aligned} E(x^2)&=\\frac{kT}{C}\\\\ E(x)&=0\\\\ &=E(x^2)-(E(x))^2\\\\ Var(x)&=\\frac{kT}{C}-0=\\frac{kT}{C} \\end{aligned}[/latex] Standard deviation [latex]=\\sqrt{\\frac{kT}{C}}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{kT}{C}[/latex]",
+      "B": "[latex]\\sqrt{\\frac{kT}{C}}[/latex]",
+      "C": "[latex]\\frac{C}{kT}[/latex]",
+      "D": "[latex]\\frac{\\sqrt{kT}}{C}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Which one of the following functions is analytic in the region [latex]|z|\\leq 1[/latex]?",
+    "solution": "By Cauchy integral theorem, [latex]\\int \\frac{z^2-1}{z+2}dz=0[/latex] Therefore, [latex]\\frac{z^2-1}{z+2}[/latex] is analytic in the region [latex]|z|\\leq 1[/latex].",
+    "options": {
+      "A": "[latex]\\frac{z^2-1}{z}[/latex]",
+      "B": "[latex]\\frac{z^2-1}{z+2}[/latex]",
+      "C": "[latex]\\frac{z^2-1}{z-0.5}[/latex]",
+      "D": "[latex]\\frac{z^2-1}{z+j0.5}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 The partial differential equation [latex]\\frac{\\partial^2 u}{\\partial t^2}-c^2\\left ( \\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2} \\right )=0[/latex]; where [latex]c\\neq 0[/latex] is known as",
+    "solution": "",
+    "options": {
+      "A": "heat equation",
+      "B": "wave equation",
+      "C": "Poisson's equation",
+      "D": "Laplace equation"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 M is a 2x2 matrix with eigenvalues 4 and 9. The eigenvalues of [latex]M^2[/latex] are",
+    "solution": "M is 2 x 2 matrix with eigen values 4 and 9. The eigen values of [latex]M^2[/latex] are 16 and 81.",
+    "options": {
+      "A": "4 and 9",
+      "B": "2 and 3",
+      "C": "-2 and -3",
+      "D": "16 and 81"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 61 Let [latex]A=\\begin{bmatrix} 1 & 0&-1 \\\\ -1&2 & 0\\\\ 0& 0 & -2 \\end{bmatrix}[/latex] and [latex]B=A^{3}-A^{2}-4A+5I[/latex], where I is the 3x3 identity matrix. The\ndeterminant of B is ________ (up to 1 decimal place).",
+    "solution": "[latex]\\begin{aligned} A=\\begin{bmatrix} 1 & 0 & -1\\\\ -1 &2 &0 \\\\ 0 & 0 & -2 \\end{bmatrix}\\\\ |A-\\lambda I|=0\\\\ \\begin{bmatrix} 1-\\lambda & 0& -1\\\\ -1& 2-\\lambda & 0\\\\ 0 & 0 &-2-\\lambda \\end{bmatrix}=0\\\\ (1-\\lambda )((2-\\lambda )(-2-\\lambda ))-1(0-0)=0\\\\ \\lambda =1,2,-2\\\\ \\text{Eigen value of A are 1,2,-2}\\\\ \\text{Eigen value of } A^3 \\text{ are 1,8,-8}\\\\ \\text{Eigen value of } A^2 \\text{ are 1,4,4}\\\\ \\text{Eigen value of } 4A \\text{ are 4,8,-8}\\\\ \\text{Eigen value of } 5I \\text{ are 5,5,5}\\\\ A^3-A^2-4A+5I \\text{ are 1,1,1}\\\\ \\therefore \\;\\; |B|=(1)(1)(1)=1 \\end{aligned}[/latex]",
+    "min": 0.9,
+    "max": 1.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 62 Let [latex]f(x)=3x^{3}-7x^{2}+5x+6[/latex]. The maximum value of f(x) over the interval [0, 2] is _______ (up to 1 decimal place).",
+    "solution": "[latex]\\begin{aligned} f(x)&=3x^3-7x^2+5x+6\\\\ f'(x)&=9x^2-14x+5\\\\ f''(x)&=18x-14\\\\ f'(x)&=0\\\\ 9x^2-14x+5&=0\\\\ x&=1,0.55\\\\ x&=1\\\\ f''(1)&=18-14=4 \\gt 0\\; \\text{minima}\\\\ x&=0.55\\\\ f''(0.55)&=-4.1 \\lt 0 \\; \\text{maxima} \\end{aligned}[/latex] Maximum [latex][f(0), f'(0.55), f(2)][/latex] Maximum [latex][6,7.13,12]=12[/latex]",
+    "min": 11.5,
+    "max": 12.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 63 As shown in the figure, C is the arc from the point (3,0) to the point (0,3) on the circle [latex]x^{2}+y^{2}=9[/latex]. The value of the integral [latex]\\int_{C}(y^{2}+2yx)dx+(2xy+x^{2})dy[/latex] is _____ (up to 2\ndecimal places).",
+    "solution": "[latex]\\begin{aligned} x^2+y^2&=9\\\\ x&=3 \\cos \\theta \\\\ y&=3 \\sin \\theta \\\\ dx&=-3 \\sin \\theta \\; d\\theta\\\\ dy&=3 \\cos \\theta \\;d\\theta \\end{aligned} [/latex] [latex]\\theta[/latex] varies from 0 to [latex]\\frac{\\pi}{2}[/latex] [latex] \\int (y^2+2xy)dx+(2xy+x^2)dy =\\int_{0}^{\\pi/2}(9 \\sin ^2 \\theta +18 \\sin \\theta \\cos \\theta )(-3 \\sin \\theta d\\theta )+(18 \\sin \\theta \\cos \\theta +9 \\cos ^2 \\theta )(3 \\cos \\theta )d\\theta [/latex] [latex]=\\int_{0}^{\\pi/2}(-27\\sin ^3 \\theta -54 \\sin ^2 \\theta \\cos \\theta +54 \\sin \\theta \\cos ^2 \\theta +27 \\cos ^3 \\theta )d\\theta =0[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/em/page13_q3.webp",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 If C is a circle |z|=4 and  [latex]f(z)=\\frac{z^{2}}{(z^{2}-3z+2)^{2}}[/latex], then [latex]\\oint_{C}f(z)dz[/latex] is",
+    "solution": "[latex]\\begin{aligned} &\\int \\frac{z^2}{(z^2-3z+2)^2}dz\\\\ &\\int \\frac{z^2}{(z-1)^2(z-2)^2}dz\\\\ \\end{aligned}[/latex] [latex]\\begin{aligned} \\text{Res. }f(z)_{z=1}&=\\lim_{z \\to 1}\\frac{1}{1!}\\frac{d}{dz} \\left ((z-1)^2\\frac{z^2}{(z-1)^2(z-2)^2} \\right )\\\\ &=\\lim_{z \\to 1}\\left (\\frac{2z(z-2)^2-2z^2(z-2)}{((z-2)^4} \\right )\\\\ &=\\lim_{z \\to 1}\\left (\\frac{2z(z-2)-2z^2}{((z-2)^3} \\right )=\\frac{-4}{-1}=4\\\\ \\text{Res. }f(z)_{z=2}&=\\lim_{z \\to 2}\\frac{1}{1!}\\frac{d}{dz} \\left ((z-2)^2\\frac{z^2}{(z-1)^2(z-2)^2} \\right )\\\\ &=\\lim_{z \\to 2}\\left (\\frac{(z-1)^2\\cdot 2z-z^22(z-1)}{((z-1)^4} \\right )\\\\ &=\\lim_{z \\to 2}\\left (\\frac{2z(z-1)-2z^2}{((z-1)^3} \\right )=\\frac{4-8}{1}=-4\\\\ \\end{aligned}[/latex] By residue theorem, [latex]I=2 \\pi i (4-4)=0[/latex]",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "-1",
+      "D": "-2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 Consider a system governed by the following equations [latex]\\frac{dx_{1}(t)}{dt}=x_{2}(t)-x_{1}(t)[/latex] [latex] \\frac{dx_{2}(t)}{dt}=x_{1}(t)-x_{2}(t)[/latex] The initial conditions are such that [latex]x_{1} \\lt x_{2}(0) \\lt \\infty[/latex]. Let [latex]x_{1f}=\\lim_{t\\rightarrow \\infty }x_{1}(t)[/latex] and [latex]x_{2f}=\\lim_{t\\rightarrow \\infty }x_{2}(t)[/latex]. Which one of the following is true?",
+    "solution": "[latex]\\begin{aligned}\n(D+1)x_1=x_2\\\\\n\\Rightarrow \\; (D+1)x_1-x_2=0\\\\\n(D+1)x_2=x_1\\\\\n\\Rightarrow \\;-x_1+(D+1)x_2=0\\\\\nx_{1f}=\\lim_{t \\to \\infty }x_1(t)\\\\\nx_{2f}=\\lim_{t \\to \\infty }x_2(t)\\\\\n(D+1)x_1-x_2=0\\\\\n-(D+1)x_1+(D+1)^2x_2=0\\\\\n((D+1)^2-1)x_2=0\\\\\n(D^2+2D)x_2=0\\\\\nD^2+2D=0\\\\\nD(D+2)=0\\\\\n\\therefore \\;\\; x^2=C_1+C_2e^{-2t}\\;\\;...(1)\\\\\nD=0,-2\\\\\nx_{2f}=\\lim_{t \\to \\infty }C_1+C_2e^{-2t}\\\\\n=C_1\\\\\n(D+1)x_1-(D+1)x_2=0\\\\\n-x_1+(D+1)x_2=0\\\\\n((D+1)^2-1)x_1=0\\\\\n(D^2+2D)x_1=0\\\\\nx_{1f}=\\lim_{t \\to \\infty }C_1+C_2e^{-2t}\\\\\n=C_1\\\\\nx_{1f}=C_1\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]x_{1f} \\lt x_{2f} \\lt \\infty[/latex]",
+      "B": "[latex]x_{2f} \\lt x_{1f} \\lt \\infty[/latex]",
+      "C": "[latex]x_{1f}=x_{2f} \\lt \\infty[/latex]",
+      "D": "[latex]x_{1f}=x_{2f}=\\infty[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 66 Let f be a real-valued function of a real variable defined as f (x)=x-[x], where [x]\r\ndenotes the largest integer less than or equal to x. The value of [latex]\\int_{0.25}^{1.25}f(x)dx[/latex] is _______ (up to 2 decimal places).",
+    "solution": "[latex]\\begin{aligned} \\int_{0.25}^{1.25} f(x)dx&=\\int_{0.25}^{1}(x-[x])dx+\\int_{1}^{1.25}(x-[x])dx \\\\ &= \\int_{0.25}^{1.25}(xdx)-\\left [ \\int_{0.25}^{1}[x]dx+\\int_{1}^{1.25}[x]dx \\right ]\\\\ &=\\left.\\begin{matrix} \\left ( \\frac{x^2}{2} \\right ) \\end{matrix}\\right|_{0.25}^{1.25}-\\left ( \\int_{0.25}^{1}0dx+\\int_{1}^{1.25}1dx \\right ) \\\\ &=\\frac{(1.25)^2}{2}-\\left ( \\frac{(0.25)^2}{2} \\right )-(0+0.25) \\\\ &=\\frac{1}{2}[(1.5625-0.0625)]-0.25 \\\\ &= 0.5 \\end{aligned}[/latex]",
+    "min": 0.49,
+    "max": 0.51
+  },
+  {
+    "type": "numerical",
+    "question": "Question 67 Consider a non-singular 2x2 square matrix A. If trace(A)=4 and trace([latex]A^{2}[/latex])=5, the determinant of the matrix A is _________(up to 1 decimal place).",
+    "solution": "A is 2 x 2 matrix [latex]\\begin{aligned} Tr\\; A&=4\\\\ \\lambda _1+\\lambda _2&=4\\\\ tr(A^2)&=5\\\\ \\lambda _1^2+\\lambda _2^2&=5\\\\ (\\lambda _1+\\lambda _2)^2&=\\lambda _1^2+\\lambda _2^2+2\\lambda _1 \\lambda _2\\\\ 2\\lambda _1 \\lambda _2+5&=16\\\\ 2\\lambda _1 \\lambda _2&=11\\\\ \\lambda _1 \\lambda _2&=\\frac{11}{2}\\\\ |A|&=\\frac{11}{2}=5.5 \\end{aligned}[/latex]",
+    "min": 5.5,
+    "max": 5.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 The value of the integral [latex]\\oint_{c} \\frac{z+1}{z^{2}-4}dz[/latex] in counter clockwise direction around a circle C of radius 1 with center at the point z=-2 is",
+    "solution": "[latex]\\begin{aligned} &\\int \\frac{z+1}{z^2-4}dz\\\\ &\\int \\frac{z+1}{(z-2)(z+2)}dz\\\\ &\\int \\frac{\\frac{z+1}{z-2}}{z+2}dz \\;\\; \\text{where, } f(z)=\\frac{z+1}{z-2}\\\\ &=2 \\pi i f(-2)\\\\ &=2 \\pi i \\left ( \\frac{-2+1}{-2-2} \\right )\\\\ &= 2 \\pi i \\left ( \\frac{-1}{-4} \\right )=\\frac{\\pi i}{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{\\pi i}{2}[/latex]",
+      "B": "[latex]2\\pi i[/latex]",
+      "C": "[latex]-\\frac{\\pi i}{2}[/latex]",
+      "D": "[latex]-2\\pi i[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 The value of the directional derivative of the function [latex]\\phi (x,y,z)=xy^{2}+yz^{2}+zx^{2}[/latex] at the\r\npoint (2,-1,1) in the direction of the vector [latex]p=i+ 2j + 2k[/latex] is",
+    "solution": "[latex]\\begin{aligned} \\phi &= xy^2+yz^2+zx^2\\\\ \\bigtriangledown \\phi &=\\bar{i}\\frac{\\partial \\phi }{\\partial x}+\\bar{j}\\frac{\\partial \\phi }{\\partial y} +\\bar{k}\\frac{\\partial \\phi }{\\partial z} \\\\ &=\\bar{i}(y^2+2xz)+\\bar{j}(2xy+z^2)\\\\&+\\bar{k}(2yz+x^2) \\\\ \\bigtriangledown \\phi _{(2,-1,1)} &= \\bar{i}(1+4)+\\bar{j}(-4+1)+\\bar{k}(-2+4)\\\\ &= 5\\bar{i}-3\\bar{j}+2\\bar{k}\\\\ \\bar{P} &= \\bar{i}+2\\bar{j}+2\\bar{k}\\\\ |\\bar{P}|&=\\sqrt{1+4+4}=3 \\end{aligned}[/latex] THe directional derivative of f(x,y,z) at (2,-1,1) in the direction of [latex]\\bar{P}[/latex] is [latex]\\bigtriangledown \\phi _{at \\; P} \\cdot \\frac{\\bar{P}}{|\\bar{P}|}= (5\\bar{i}-3\\bar{j}+2\\bar{k})\\left ( \\frac{\\bar{i}+2\\bar{j}+2\\bar{k}}{3} \\right )=\\frac{5-6+4}{3}=1[/latex]",
+    "options": {
+      "A": "1",
+      "B": "0.95",
+      "C": "0.93",
+      "D": "0.9"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 Let f be a real-valued function of a real variable defined as [latex]f(x)=x^{2}[/latex] for [latex]x \\gt 0[/latex], and[latex] f(x)=-x^{2}[/latex] for [latex]x \\lt 0[/latex]. Which one of the following statements is true?",
+    "solution": "[latex]\\begin{aligned} f(x)&=\\left\\{\\begin{matrix} x^2 & x \\geq 0\\\\ -x^2 & x \\lt 0 \\end{matrix}\\right.\\\\ f'(x)&=\\left\\{\\begin{matrix} 2x & x \\geq 0\\\\ -2x & x \\lt 0 \\end{matrix}\\right.\\\\ f''(x)&=\\left\\{\\begin{matrix} 2 & x \\geq 0\\\\ -2 & x \\lt 0 \\end{matrix}\\right. \\end{aligned}[/latex] The first derivation of f (i.e) f'(x) is not derivable at x=0.",
+    "options": {
+      "A": "f(x) is discontinuous at x=0",
+      "B": "f(x) is continuous but not differentiable at x=0",
+      "C": "f(x) is differentiable but its first derivative is not continuous at x=0",
+      "D": "f(x) is differentiable but its first derivative is not differentiable at x=0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 The eigen values of the matrix given below are [latex]\\begin{bmatrix} 0 & 1&0 \\\\ 0& 0 & 1\\\\ 0 &-3 & -4 \\end{bmatrix}[/latex]",
+    "solution": "The characteristics equation is [latex]|A-\\lambda |i=0.[/latex] [latex]\\begin{aligned} \\begin{bmatrix} 0-\\lambda & 1 & 0\\\\ 0 & 0-\\lambda & 1\\\\ 0& -3 &-4-\\lambda \\end{bmatrix}&=0 \\\\ -\\lambda (4\\lambda +\\lambda ^2+3)-1(0-0)&=0 \\\\ -\\lambda (\\lambda ^2+4\\lambda +3)&=0 \\\\ \\lambda =0,(\\lambda +1)(\\lambda +3)&=0 \\\\ \\lambda &=-1,-3 \\\\ \\lambda &=(0,-1,-3) \\end{aligned}[/latex]",
+    "options": {
+      "A": "(0,-1,-3)",
+      "B": "(0,-2,-3)",
+      "C": "(0,2,3)",
+      "D": "(0,1,3)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 72 A person decides to toss a fair coin repeatedly until he gets a head. He will make at most 3\r\ntosses. Let the random variable Y denote the number of heads. The value of var {Y}, where\r\nvar {.} denotes the variance, equals",
+    "solution": "[latex]\\begin{aligned} E(y)&=0\\times \\frac{1}{8}+1 \\times \\frac{7}{8}=\\frac{7}{8} \\\\ E(y^2) &=0^2\\left ( \\frac{1}{8} \\right )+1^2 \\times \\frac{7}{8}=\\frac{7}{8} \\\\ \\text{Variance(y)} &=E(y^2)-(E(y))^2 \\\\ &= \\frac{7}{8}-\\frac{49}{64}=\\frac{56-49}{64}=\\frac{7}{64} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{7}{8}[/latex]",
+      "B": "[latex]\\frac{49}{64}[/latex]",
+      "C": "[latex]\\frac{7}{64}[/latex]",
+      "D": "[latex]\\frac{105}{64}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 Let [latex]g(x)=\\left\\{\\begin{matrix} -x & x\\leq 1\\\\ x+1, &x\\geq 1 \\end{matrix}\\right. [/latex]  and [latex]f(x)=\\left\\{\\begin{matrix} 1-x & x\\leq 0\\\\ x^{2}, & x \\gt 0 \\end{matrix}\\right.[/latex] Consider the composition of f and g, i.e., [latex](f\\circ g)(x)=f(g(x))[/latex]. The number of discontinuities in [latex](f\\circ g)(x)[/latex] present in the interval [latex](-\\infty ,0)[/latex] is:",
+    "solution": "[latex]\\begin{aligned} f(x)=1-x; &x \\lt 0\\\\ g(x)=-x;&x \\lt 0 \\end{aligned}[/latex] (Noth are continous for [latex]x \\lt 0[/latex]) Therefore, fog(x) is continous for [latex]x \\lt 0[/latex] The composite function of two continous function is always continous . Therefore the number of discontinuities are zero.",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "4"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 74 The value of the contour integral in the complex-plane [latex]\\oint \\frac{z^{3}-2z+3}{z-2}dz[/latex] Along the contour |Z|=3, taken counter-clockwise is",
+    "solution": "Pole, z=2 lies inside |z|=3 [latex]\\text{Res }f(z)=\\lim_{z \\to 2}(z-2)\\frac{z^2-2z+3}{z-2}[/latex] [latex]z=2, \\;\\;\\;\\;\\; =8-4+3=7[/latex] By Cauche redisue theorem, [latex]I=2 \\pi i (7)=14 \\pi i[/latex]",
+    "options": {
+      "A": "[latex]-18 \\pi i[/latex]",
+      "B": "0",
+      "C": "14[latex]\\pi i[/latex]",
+      "D": "48[latex]\\pi i[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 75 Let [latex]y^{2}-2y+1=x[/latex] and [latex]\\sqrt{x}+y=5[/latex]. The value of [latex]x+\\sqrt{y}[/latex] equals _________. (Give the answer up to three decimal places)",
+    "solution": "[latex]\\begin{aligned} \\sqrt{x}+y&=5\\\\ \\sqrt{x}+1+5x&=5\\\\ 2\\sqrt{x}&=4\\\\ x&=4\\\\ y^2-2y+1&=x\\\\ (y-1)^2&=x\\\\ y-1&=\\sqrt{x}\\\\ y&=1+\\sqrt{x}\\\\ y&=1+\\sqrt{4}=3\\\\ \\therefore \\;\\;x+\\sqrt{y}&=4+\\sqrt{3}=5.732 \\end{aligned}[/latex]",
+    "min": 5.7,
+    "max": 5.8
+  },
+  {
+    "type": "numerical",
+    "question": "Question 76 Consider a function f (x, y,z) given by [latex]f(x,y,z)=(x^{2}+y^{2}-2z^{2})(y^{2}+z^{2})[/latex] The partial derivative of this function with respect to x at the point, x = 2, y = 1 and z = 3 is ________",
+    "solution": "[latex]\\begin{aligned} f(x,y,z)&=(x^2+y^2-2z^2)(y^2+z^2)\\\\ \\frac{\\partial f}{\\partial x}&=(x^2+y^2-2z^2)(0)+(y^2+z^2)(2x)\\\\ &=0+(y^2+z^2)(2x)\\\\ \\left.\\begin{matrix} \\frac{\\partial f}{\\partial x} \\end{matrix}\\right|_{x=2,y=1,z=3}&=(1+9)(2)(2)=40 \\end{aligned}[/latex]",
+    "min": 40.0,
+    "max": 40.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 77 Let x and y be integers satisfying the following equations [latex]2x^{2}+y^{2}=34[/latex] [latex]x+2y=11[/latex] The value of (x+y) is ________.",
+    "solution": "[latex]\\begin{aligned} x+2y=1\\\\ x=11-2y\\\\ 2x^2+y^2=34\\\\ 2(11-2y)^2+y^2=34\\\\ 24^2+8y^2-88y+y^2-34=0\\\\ 9y^2-88y+208=0\\\\ y=5.77,4\\\\ x=-0.54\\\\ x=11-2(4)=3\\\\ x=3,y=4\\\\ x+y=7 \\end{aligned}[/latex]",
+    "min": 7.0,
+    "max": 7.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 78 Assume that in a traffic junction, the cycle of the traffic signal lights is 2 minutes of green\n(vehicle does not stop) and 3 minutes of red (vehicle stops). Consider that the arrival time of\nvehicles at the junction is uniformly distributed over 5 minute cycle. The expected waiting time\n(in minutes) for the vehicle at the junction is ________.",
+    "solution": "[latex]t[/latex] be arrival time of vehicles of the junction is uniformaly distributed in [0,5]. Let y be the waiting time of the junction. [latex]\\begin{aligned} \\text{Then }y&=\\left\\{\\begin{matrix} 0 &  t \\lt 2  \\\\ 5-t & 2\\leq t \\lt 5 \\end{matrix}\\right.\\\\ y\\rightarrow &[0,5]\\\\ f(y)&=\\frac{1}{5-0}=\\frac{1}{5}\\\\ E(y)&=\\int_{-\\infty }^{0}y(y)dy=\\int_{0}^{5}yf(y)dy\\\\ &=\\int_{2}^{5}y\\left ( \\frac{1}{5} \\right )dy=\\frac{1}{5}\\int_{2}^{5}(5-t)dt\\\\ &=\\frac{1}{5}\\left ( 5t-\\frac{t^2}{2} \\right )|_2^5\\\\ &=\\frac{1}{5}\\left [ \\left ( 25-\\frac{25}{2} \\right )-\\left ( 10-\\frac{4}{2} \\right ) \\right ]\\\\ &=\\frac{1}{5}\\left ( \\frac{25}{2}-8 \\right )=\\frac{1}{5}\\frac{9}{2}=0.9 \\end{aligned}[/latex]",
+    "min": 0.9,
+    "max": 0.9
+  },
+  {
+    "type": "mcq",
+    "question": "Question 79 An urn contains 5 red balls and 5 black balls. In the first draw, one ball is picked at random and\ndiscarded without noticing its colour. The probability to get a red ball in the second draw is",
+    "solution": "[latex]P(red)=\\frac{5}{10}\\frac{4}{9}+\\frac{5}{10}\\frac{5}{9}=\\frac{45}{90}=\\frac{1}{2}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{2}[/latex]",
+      "B": "[latex]\\frac{4}{9}[/latex]",
+      "C": "[latex]\\frac{5}{9}[/latex]",
+      "D": "[latex]\\frac{6}{9}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 Consider the line integral [latex]I=\\int_{c}(x^{2}+iy^{2})dz[/latex] where [latex]z = x + iy[/latex]. The line C is shown in the figure below. The value of I is",
+    "solution": "From the diagram C is [latex]y=x[/latex] [latex]\\begin{aligned} I &=\\int _C (x^2+iy^2)dz\\\\ &= \\int _C (x^2+iy^2)(dx+idy)\\\\ &= \\int _C(x^2++ix^2)(dx+idy)\\\\ &= \\int _Cx^2 \\; dx+ix^2\\; dx+ix^2 \\; dx-x^2 \\; dx\\\\ &= 2i\\int_{0}^{1}x^2 \\; dx=\\left.\\begin{matrix} 2i\\left ( \\frac{x^3}{3} \\right ) \\end{matrix}\\right|_0^1=\\frac{2i}{3} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/em/page16_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{1}{2}i[/latex]",
+      "B": "[latex]\\frac{2}{3}i[/latex]",
+      "C": "[latex]\\frac{3}{4}i[/latex]",
+      "D": "[latex]\\frac{4}{5}i[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 81 Only one of the real roots of [latex]f(x)=x^{6}-x-1[/latex] lies in the interval [latex]1\\leq x\\leq 2[/latex] and bisection method is used to find its value. For achieving an accuracy of 0.001, the required minimum number of iterations is ________.",
+    "solution": "[latex]\\begin{aligned} f(x)&=x^6-x-1\\\\ a&=1, b=2, \\in =0.01=10^{-3} \\end{aligned}[/latex] The minimum number of iterations by Bisection method is given by [latex]\\begin{aligned} \\frac{|b-a|}{2^n} &\\lt \\in\\\\ \\frac{2-1}{2^n} &\\lt 10^{-3}\\\\ \\frac{1}{2^n} &\\lt \\frac{1}{10^{-3}}\\\\ 2^n &\\gt 10^3\\\\ n &\\gt \\frac{\\ln 1000}{\\ln 2}\\\\ n &\\gt 9.96\\\\ n&=10 \\end{aligned}[/latex]",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 82 A function f(x) is defined as [latex]f(x)=\\left\\{\\begin{matrix} e^{x}, & x \\lt 1\\\\ lnx+ax^{2}+bx & x\\geq 1 \\end{matrix}\\right. \\; where\\;  x\\in \\mathbb{R}[/latex]. Which one of the following statements is TRUE?",
+    "solution": "[latex]f(x)=\\left\\{\\begin{matrix} e^x & x \\lt 1\\\\ \\ln x+ax^2+bx & x \\gt 1 \\end{matrix}\\right.[/latex] At x=1, L.H.S=R.H.S e=a+b    ...(i) At x=1, f'(x) exists [latex]f'(x)=\\left\\{\\begin{matrix} e^x & x \\lt 1\\\\ \\frac{1}{x}+20x+b & x \\gt 1 \\end{matrix}\\right.[/latex] At x=1, L.H.S=R.H.S e=1+2a+b 2a+b=e-1   ...(ii) From equation (i) and (ii), a=-1 b=e+1 f(x) is differentiable at x=1 for unique value of a and b.",
+    "options": {
+      "A": "f(x) is NOT differentiable at x=1 for any values of a and b.",
+      "B": "f(x) is differentiable at x = 1 for the unique values of a and b",
+      "C": "f(x) is differentiable at x = 1 for all values of a and b such that a + b = e",
+      "D": "f(x) is differentiable at x = 1 for all values of a and b."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 Consider the differential equation [latex](t^{2}-81)\\frac{dy}{dt}+5ty=sin(t)[/latex] with [latex] y(1)=2\\pi[/latex]. There exists a unique solution for this differential equation when t belongs to the interval",
+    "solution": "The differentail equation, [latex]\\begin{aligned}\r\n(t^2-81)\\frac{dy}{dt}+5+y&= \\sin t\\\\\r\n\\frac{dy}{dt}+\\frac{5t}{t^2-81}y&=\\frac{\\sin t }{t^2-81}\\\\\r\nP&=\\frac{5t}{t^2-81}\\\\\r\nQ&=\\frac{\\sin t}{t^2-81}\\\\\r\nI.F&=e^{\\int \\rho dt}=e^{\\int \\frac{5t}{t^2-81}dt}\\\\\r\n&=e^{\\frac{5}{2}\\int \\frac{2t}{t^2-81}dt}=e^{\\frac{5}{2}\\ln ({t^2-81})}\\\\\r\n&=e^{\\ln {(t^2-81)^{5/2}}}=(t^2-81)^{5/2}\\\\\r\n\\text{Solution is }&\\\\\r\ny(t^2-81)^{5/2}&=\\int \\frac{\\sin t}{t^2-81}(t^2-81)^{5/2}dt\\\\\r\ny&=\\frac{\\int (\\sin t)(t^2-81)^{3/2}dt}{(t^2-81)^{5/2}}+\\frac{C}{(t^2-81)^{5/2}}\\\\\r\n&\\text{The solution exist for  } t\\neq -9, t\\neq +9\r\n\\end{aligned}[/latex] Only option (A) not cover 9 and -9. Hence it is correct.",
+    "options": {
+      "A": "(-2,2)",
+      "B": "(-10,10)",
+      "C": "(-10,2)",
+      "D": "(0,10)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 84 Let [latex]I=c\\int \\int_{R}xy^{2}dxdy[/latex], where R is the region shown in the figure and [latex]c=6 \\times 10^{-4}[/latex]. The value of I equals________",
+    "solution": "[latex]\\begin{aligned}\nI&=C\\int \\int xy^2\\; dx \\; dy\\\\\n&=C\\int_{x=1}^{5}\\int_{y=0}^{2x}xy^2\\; dx \\; dy\\\\\n&=C\\int_{1}^{5}x\\left.\\begin{matrix}\n\\left ( \\frac{y^3}{3} \\right )\n\\end{matrix}\\right|_{0}^{2x}\\; dx\\\\\n&=C\\int_{1}^{5}x\\frac{8x^3}{3}dx\\\\\n&=C\\int_{1}^{5}8\\frac{x^4}{3}dx\\\\\n&=C\\frac{8}{3}\\left.\\begin{matrix}\n\\left ( \\frac{x^5}{5} \\right )\n\\end{matrix}\\right|_{1}^5\\\\\n&=\\frac{8C}{3}\\left ( 5^4-\\frac{1}{5} \\right )\\\\\n&=\\frac{8C}{3}(625-0.2)\\\\\n&=\\frac{8}{3}(6 \\times 10^{-4})(625-0.2)\\\\\n&=0.99968\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/em/page17_q4.webp",
+    "min": 0.99,
+    "max": 1.01
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 The matrix [latex]A=\\begin{bmatrix} \\frac{3}{2} & 0 & \\frac{1}{2}\\\\ 0 & -1 & 0\\\\ \\frac{1}{2}& 0 & \\frac{3}{2} \\end{bmatrix}[/latex] has three distinct eigenvalues and one of its eigenvectors is [latex]\\begin{bmatrix} 1\\\\ 0\\\\ 1 \\end{bmatrix}[/latex] Which one of the following can be another eigenvector of A?",
+    "solution": "The given matrix is symmetric and all its eigen values are distinct. Hence all its eigen vectors are orthogonal one of the eigen vector is [latex]x_1=\\begin{bmatrix} 1\\\\ 0\\\\ 1 \\end{bmatrix}[/latex] The corresponding orthogonal vector in the given option is C i.e. [latex]x_2=\\begin{bmatrix} 1\\\\ 0\\\\ -1 \\end{bmatrix}[/latex] [latex]{x_1}^T\\cdot x_2=\\begin{bmatrix} 1 & 0 & 1 \\end{bmatrix}\\begin{bmatrix} 1\\\\ 0\\\\ -1 \\end{bmatrix}=1+0-1=0[/latex]",
+    "options": {
+      "A": "[latex]\\begin{bmatrix} 0\\\\ 0\\\\ -1 \\end{bmatrix}[/latex]",
+      "B": "[latex]\\begin{bmatrix} -1\\\\ 0\\\\ 0 \\end{bmatrix}[/latex]",
+      "C": "[latex]\\begin{bmatrix} 1\\\\ 0\\\\ -1 \\end{bmatrix}[/latex]",
+      "D": "[latex]\\begin{bmatrix} 1\\\\ -1\\\\ 1 \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 For a complex number z, [latex]\\lim_{z\\rightarrow i}\\frac{z^{2}+1}{z^{3}+2z-i(z^{2}+2)}[/latex] is",
+    "solution": "[latex]\\begin{aligned} \\lim_{z \\to i}&=\\frac{z^2+1}{z^3+2z-i(z^2+2)}\\\\ \\lim_{z \\to i}&=\\frac{2z}{3z^2+2-i(2z)}\\\\ &=\\frac{2i}{3i^2+2-i(2i)}\\\\ &=\\frac{2i}{-3+2+2}\\\\ &=\\frac{2i}{-3+4}=2i \\end{aligned}[/latex]",
+    "options": {
+      "A": "-2i",
+      "B": "-i",
+      "C": "i",
+      "D": "2i"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 Let the probability density function of a random variable, X, be given as: [latex]f_X(x)=\\frac{3}{2}e^{-3x}u(x)+ae^{4x}u(-x)[/latex] where u(x) is the unit step function. Then the value of 'a' and [latex]Prob\\{X\\leq 0\\}[/latex], respectively, are",
+    "solution": "[latex]\\begin{aligned} f_x(x)&=\\left\\{\\begin{matrix} ax^{4x} &x \\lt 0 \\\\ \\frac{3}{2}e^{-3x}& x\\geq 0 \\end{matrix}\\right.\\\\ \\int_{-\\infty }^{\\infty }f_x(x)&=1\\\\ \\int_{-\\infty }^{0}ax^{4x}dx+\\int_{0}^{\\infty }\\frac{3}{2}e^{-3x}dx&=1\\\\ \\left [ \\frac{ax^{4x}}{4} \\right ]_{-\\infty }^0+\\left [ \\frac{\\frac{3}{2}e^{-3x}}{-3} \\right ]_0^\\infty &=1\\\\ \\frac{a}{3}+\\frac{3}{6}&=1\\\\ a&=2\\\\ P(x\\leq 0)&=\\int_{-\\infty }^{0}2e^{4x}dx \\\\ &=\\left [ \\frac{e^{4x}}{2} \\right ]_{-\\infty }^0=\\frac{1}{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]2,\\frac{1}{2}[/latex]",
+      "B": "[latex]4,\\frac{1}{2}[/latex]",
+      "C": "[latex]2,\\frac{1}{4}[/latex]",
+      "D": "[latex]4,\\frac{1}{4}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 Let [latex]P=\\begin{bmatrix} 3 & 1\\\\ 1&3 \\end{bmatrix}[/latex]. Consider the set S of all vectors [latex]\\binom{x}{y}[/latex] such that [latex]a^{2}+b^{2}=1[/latex] where [latex]\\binom{a}{b} =P\\binom{x}{y}[/latex]. Then S is",
+    "solution": "[latex]\\begin{aligned} \\begin{bmatrix} 3 & 1\\\\ 1 & 3 \\end{bmatrix}\\begin{bmatrix} x\\\\ y \\end{bmatrix}&=\\begin{bmatrix} a\\\\ b \\end{bmatrix} \\\\ 3x+y &=a \\\\ x+3y&=b \\\\ a^2+b^2&=1 \\\\ \\Rightarrow \\;\\; 10x^2+10y^2+12xy &= 1 \\end{aligned}[/latex] Ellipse with major axis along [latex]\\begin{bmatrix} 1\\\\ 1 \\end{bmatrix}[/latex].",
+    "options": {
+      "A": "a circle of radius [latex]\\sqrt{10}[/latex]",
+      "B": "a circle of radius [latex]\\frac{1}{\\sqrt{10}}[/latex]",
+      "C": "an ellipse with major axis along [latex]\\binom{1}{1}[/latex]",
+      "D": "an ellipse with minor axis along [latex]\\binom{1}{1}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 89 Let y(x) be the solution of the differential equation [latex]\\frac{d^{2}y}{dx^{2}}-4\\frac{dy}{dx}+4y=0[/latex] with initial conditions y(0)=0 and [latex]\\frac{dy}{dx}|_{x=0}=1[/latex]. Then the value of y(1) is _________.",
+    "solution": "[latex]\\begin{aligned} \\text{A.E. }&m^2-4m+4=0\\\\ m&=2,2\\\\ y&=(C_1+C_2x)e^{2x}\\\\ y(0)&=0\\Rightarrow C_1=0\\\\ y&=C_2xe^{2x}\\\\ y'&=C_2e^{2x}+2C_2xe^{2x}\\\\ y'(0)&=1\\\\ C_2&=1\\\\ y&=xe^{2x}\\\\ y(1)&=e^2\\\\ &=7.38 \\end{aligned}[/latex]",
+    "min": 7.0,
+    "max": 7.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 The value of the line integral [latex]\\int_{c}(2xy^{2}dx+2x^{2}ydy+dz)[/latex] along a path joining the origin (0,0,0) and the point (1,1,1) is",
+    "solution": "[latex]\\int _C\\bar{F}\\cdot \\bar{dr} [/latex] where, [latex]\\bar{F}=xy^2\\bar{i}+2x^2y\\bar{j}+\\bar{k} [/latex] [latex]\\bigtriangledown \\times \\vec{F}=\\vec{O} [/latex] [latex](\\vec{F}[/latex] is irrotational [latex]\\Rightarrow \\vec{F}[/latex] is conservative) [latex]\\begin{aligned} \\vec{F}&=\\bigtriangledown \\phi \\\\ \\phi _x&=2xy^2 \\\\ \\phi _y&=2x^2y \\\\ \\phi _z&= 1\\\\ \\Rightarrow \\; \\phi &=x^2y^2+z+C \\end{aligned}[/latex] where, [latex]\\vec{F}[/latex] is conservative [latex]\\int _C \\bar{F}\\bar{dr}=\\int_{(0,0,0)}^{(1,1,1)}d\\phi =[x^2y^2+z]_{(0,0,0)}^{(1,1,1,)}=2[/latex]",
+    "options": {
+      "A": "0",
+      "B": "2",
+      "C": "4",
+      "D": "6"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 The solution of the differential equation, for [latex]t \\gt 0, y''(t)+2y'(t)+y(t)=0[/latex] with initial conditions y(0) = 0 and y'(0) = 1, is (u(t) denotes the unit step function),",
+    "solution": "The differentail equation is [latex]y'(t)+2y'(t)+y(t)=0[/latex] So, [latex] (s^2y(s)-sy(0)-y'(0))+2[sy(s)-y(0)]+y(s) =0[/latex] So,  [latex]y(s)=\\frac{sy(0)+y'(0)+2y(0)}{s^2+2s+1}[/latex] Given that  [latex] y'(0)=1, y(0)=0 [/latex] So,  [latex]y(s)=\\frac{1}{(s+1)^2} [/latex] So,  [latex]y(t)=te^{-t}u(t)[/latex]",
+    "options": {
+      "A": "[latex]te^{-t}u(t)[/latex]",
+      "B": "[latex](e^{-t}-te^{-t})u(t)[/latex]",
+      "C": "[latex](-e^{-t}+te^{-t})u(t)[/latex]",
+      "D": "[latex]e^{-t}u(t)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 A 3 x 3 matrix P is such that, [latex]P^{3} = P[/latex]. Then the eigenvalues of P are",
+    "solution": "By Calyey Hamilton theorem, [latex]\\lambda ^3=\\lambda[/latex] [latex]\\lambda =0, 1, -1[/latex]",
+    "options": {
+      "A": "1, 1, -1",
+      "B": "1, 0.5 + j0.866, 0.5 - j0.866",
+      "C": "1, -0.5 + j0.866, -0.5 - j0.866",
+      "D": "0, 1, -1"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 Consider the function [latex]f(z)=z+z^*[/latex] where z is a complex variable and [latex]z^*[/latex] denotes its complex conjugate. Which one of the following is TRUE?",
+    "solution": "[latex]\\begin{aligned} f(z) &=z+z^* \\\\ f(z)&=2x \\text{ is continuous (polynomial)} \\\\ u &=2x, v=0 \\\\ u_x &=2, u_y=0 \\\\ v_x&=0, v_y=0 \\end{aligned}[/latex] C.R. equation not satisfied. Therefore, no where analytic.",
+    "options": {
+      "A": "f(z) is both continuous and analytic",
+      "B": "f(z) is continuous but not analytic",
+      "C": "f(z) is not continuous but is analytic",
+      "D": "f(z) is neither continuous nor analytic"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 94 Let A be a 4 x 3 real matrix with rank 2. Which one of the following statement is TRUE?",
+    "solution": "Result, [latex]Rank(A^TA)=Rank(A)[/latex]",
+    "options": {
+      "A": "Rank of [latex]A^{T} A[/latex] is less than 2.",
+      "B": "Rank of [latex]A^{T} A[/latex] is equal to 2.",
+      "C": "Rank of [latex]A^{T} A[/latex] is greater than 2.",
+      "D": "Rank of [latex]A^{T} A[/latex] can be any number between 1 and 3."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 Let the eigenvalues of a 2 x 2 matrix A be 1, -2 with eigenvectors [latex]x_1 \\; and \\; x_2[/latex] respectively. Then the eigenvalues and eigenvectors of the matrix [latex]A^{2}-3A+4l[/latex] would, respectively, be",
+    "solution": "Eigen value of [latex]A^2-3A+4I[/latex] are [latex](1)^2-3(1)+4[/latex] and [latex](-2)^2-3(-2)+4[/latex] =2, 14 Note:  [latex]A^2X=l^2X[/latex] [latex]\\Rightarrow \\;X[/latex]is eigen vector for [latex]A^2[/latex] corresponding to eigen value [latex]l^2[/latex] [latex]X_1[/latex] and [latex]X_2[/latex] are eigen vector of A corresponding to 1, -2 Then [latex]X_1[/latex] and [latex]X_2[/latex] are eigen vector of [latex]A^2-3+4I[/latex] corresponding to 2, 14.",
+    "options": {
+      "A": "2, 14; [latex]x_{1},x_{2}[/latex]",
+      "B": "2, 14; [latex]x_{1}+x_{2},x_{1}-x_{2}[/latex]",
+      "C": "2, 0; [latex]x_{1},x_{2}[/latex]",
+      "D": "2, 0; [latex]x_{1}+x_{2},x_{1}-x_{2}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 96 Candidates were asked to come to an interview with 3 pens each. Black, blue, green and red were the permitted pen colours that the candidate could bring. The probability that a candidate comes with all 3 pens having the same colour is _____.",
+    "solution": "",
+    "min": 0.2,
+    "max": 0.2
+  },
+  {
+    "type": "mcq",
+    "question": "Question 97 The value of the integral [latex]\\oint_{c}\\frac{2z+5}{(z-\\frac{1}{2})(z^{2}-4z+5)}dz[/latex] over the contour |z|=1, taken in the anti-clockwise direction, would be",
+    "solution": "Singlarilies,  [latex]Z=\\frac{1}{2}, 2\\pm i[/latex] Only, [latex]Z=\\frac{1}{2}[/latex] lies inside C By residue theorem, [latex]\\oint _C=2 \\pi i(R)=\\frac{48 \\pi i}{13}[/latex] Residue at [latex]\\frac{1}{2}[/latex] [latex]=R_{1/2}=\\lim_{Z \\to 1/2}\\left [ \\left ( Z-\\frac{1}{2} \\right )\\cdot \\frac{2Z+5}{\\left ( Z-\\frac{1}{2} \\right )(Z^2+4Z+5)} \\right ]=\\frac{24}{13}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{24 \\pi i}{13}[/latex]",
+      "B": "[latex]\\frac{48 \\pi i}{13}[/latex]",
+      "C": "[latex]\\frac{24}{13}[/latex]",
+      "D": "[latex]\\frac{12}{13}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 A function y(t), such that y(0)=1 and y(1)=3[latex]e^{-1}[/latex], is a solution of the differential equation [latex]\\frac{d^{2}y}{dt^{2}}+2\\frac{dy}{dt}+y=0[/latex]. Then y(2) is",
+    "solution": "Auxiliary equation, [latex]\\begin{aligned} m^2+2m+1&=0 \\\\ m&= -1,-1\\\\ y&=(c_1+c_2t)e^{-t} \\\\ y(0) &=1 \\\\ c_1&=1 \\\\ y&= (1+c_2t)e^{-t}\\\\ y(1)&=3e^{-1} \\\\ \\Rightarrow \\; (1+c_2)e^{-3} &=3e^{-3} \\\\ c_2&=2 \\\\ y&=(1+2t)e^{-t} \\\\ y(2)&=5e^{-2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]5e^{-1}[/latex]",
+      "B": "[latex]5e^{-2}[/latex]",
+      "C": "[latex]7e^{-1}[/latex]",
+      "D": "[latex]7e^{-2}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 99 Consider a 3 x 3 matrix with every element being equal to 1. Its only non-zero eigenvalue is ____.",
+    "solution": "[latex]A=\\begin{bmatrix} 1 & 1 &1 \\\\ 1 & 1 &1 \\\\ 1& 1 & 1 \\end{bmatrix}[/latex] Eigen value are 0,0,3",
+    "min": 3.0,
+    "max": 3.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 100 The maximum value attained by the function [latex]f(x) = x(x- 1)(x - 2)[/latex] in the interval [1, 2] is _____.",
+    "solution": "[latex]\\begin{aligned} f(x) &=x^3-3x^2+2x \\\\ f'(x)&=3x^2-6x+2\\\\ f'(x)&=0 \\;\\text{for stationary point} \\end{aligned}[/latex] stationary points are [latex]1+\\frac{1}{\\sqrt{3}}[/latex] only [latex]1+\\frac{1}{\\sqrt{3}}[/latex] lies in [1,2] [latex]\\begin{aligned} f(1) &=0 \\\\ f(2)&=0 \\\\ f\\left ( 1+\\frac{1}{\\sqrt{3}} \\right )&=-\\frac{2}{3\\sqrt{3}} \\end{aligned}[/latex] Maximum value is 0.",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 101 A differential equation [latex]\\frac{di}{dt}-0.2i=0[/latex] is applicable over [latex]-10\\lt t \\lt 10[/latex]. If i(4)=10, then i(-5) is _____.",
+    "solution": "[latex]\\begin{aligned} \\frac{di}{dt} &=0.2i \\\\ \\frac{di}{i}&=0.2 \\; dt \\\\ \\int \\frac{di}{i} &=\\int 0.2 \\; dt \\\\ \\log i &=0.2t+ \\log C \\\\ \\log i-\\log C &=0.2t \\\\ \\log \\left ( \\frac{i}{C} \\right ) &= 0.2t\\\\ \\frac{i}{C} &= e^{0.2t}\\\\ i &=C e^{0.2t} \\\\ i(4)=10\\;\\;i.e.\\;\\;i &=10 \\text{ when } t=4 \\\\ 10&=Ce^{(0.2)4} \\\\ 10&= C(2.225)\\\\ C&=4.493 \\\\ i&=(4.493)e^{0.2t} \\\\ \\text{ when, } i&=-5 \\\\ i&=(4.493)e^{(0.2)(-5)}\\\\ &=1.652 \\end{aligned}[/latex]",
+    "min": 1.6,
+    "max": 1.7
+  },
+  {
+    "type": "mcq",
+    "question": "Question 102 Two coins R and S are tossed. The 4 joint events [latex]H_{R}H_{S},T_{R}T_{S},h_{R}H_{S},T_{R}H_{S}[/latex] have probabilities 0.28, 0.18, 0.30, 0.24, respectively, where H represents head and T represents tail. Which one of the following is TRUE?",
+    "solution": "From the given information, we can create a joint probability table as follows: From the table, we can get [latex]P(H_R)=0.58, P(T_R)=0.42, P(H_S)=0.52, P(T_S)=0.48[/latex] So, Coins R and S are biased (not fair). So choises (B) and (C) are both false. The coin tosses are not independent since their probability of heads and tails is not 0.5. R and S are dependent. If R and S were independent then all the joint probabilities will be equal to the product of the marginal probabilities. For example [latex]P(H_R\\cap H_S)=0.28[/latex] [latex]P(H_R)\\cdot P(H_S)=0.58 \\times 0.52=0.3016[/latex] Clearly [latex]P(H_R\\cap H_S) \\neq P(H_R)\\cdot P(H_S)[/latex] So R and S are not independent. i.e. R and S are dependent. So, Choise (A) is also false and choise (D) is true.",
+    "options": {
+      "A": "The coin tosses are independent.",
+      "B": "R is fair, S is not.",
+      "C": "S is fair, R is not",
+      "D": "The coin tosses are dependent"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 103 The volume enclosed by the surface [latex]f(x,y)=e^{x}[/latex] over the triangle bounded by the lines x=y; x=0; y=1 in the xy plane is ______.",
+    "solution": "[latex]\\begin{aligned} \\text{Volume} &=\\int \\int f(x,y)\\;dx\\;dy \\\\ &= \\int_{0}^{1}\\int_{0}^{y}e^x \\;dx\\;dy\\\\ &= \\int_{0}^{1}[e^x]_0^y \\;dy\\\\ &=\\int_{0}^{1} (e^y-1)\\; dy\\\\ &=(e^y-y)|_0^1 \\\\ &=(e-1)-(1-0) \\\\ &=e-2=0.71828 \\end{aligned}[/latex]",
+    "min": 0.7,
+    "max": 0.76
+  },
+  {
+    "type": "mcq",
+    "question": "Question 104 We have a set of 3 linear equations in 3 unknowns. '[latex]X \\equiv Y[/latex]' means X and Y are equivalent statements and '[latex]X\\not\\equiv Y[/latex]' means X and Y are not equivalent statements. P: There is a unique solution. Q: The equations are linearly independent. R: All eigenvalues of the coefficient matrix are nonzero. S: The determinant of the coefficient matrix is nonzero. Which one of the following is TRUE?",
+    "solution": "[latex]\\begin{aligned} a_{11}x_1+a_{12}x_2+a_{13}x_3 &=b_1 \\\\ a_{21}x_1+a_{22}x_2+a_{23}x_3 &=b_2 \\\\ a_{31}x_1+a_{32}x_2+a_{33}x_3 &=b_3 \\\\ \\begin{bmatrix} a_{11} & a_{12} & a_{13}\\\\ a_{21} & a_{22}& a_{21}\\\\ a_{31}& a_{32} &a_{33} \\end{bmatrix}\\begin{bmatrix} x_1\\\\ x_2\\\\ x_3 \\end{bmatrix}&= \\begin{bmatrix} b_1\\\\ b_2\\\\ b_3 \\end{bmatrix} \\end{aligned}[/latex] if [latex]|A|\\neq 0[/latex] then AX=B can be written as [latex]X=A^{-1}B[/latex] It leads unique solutions. If [latex]|A|\\neq 0[/latex] then [latex]\\lambda _1 \\cdot \\lambda _2\\cdot \\lambda _3\\neq 0[/latex] each [latex]\\lambda _i[/latex] is non-zero. If [latex]|A|\\neq 0[/latex] then all the row (column) vectors of A are linearly independent.",
+    "options": {
+      "A": "[latex]P\\equiv Q\\equiv R\\equiv S[/latex]",
+      "B": "[latex]P\\equiv R\\not\\equiv Q\\equiv S[/latex]",
+      "C": "[latex]P\\equiv Q\\not\\equiv R\\equiv S[/latex]",
+      "D": "[latex]P\\not\\equiv Q\\not\\equiv R\\not\\equiv S[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 105 Given f(z)=g(z)+h(z), where f, g, h are complex valued functions of a complex variable z. Which one of the following statements is TRUE?",
+    "solution": "",
+    "options": {
+      "A": "If f(z) is differentiable at [latex]z_0[/latex], then g(z) and g(z) are also differentiable at [latex]z_0[/latex].",
+      "B": "If g(z) and h(z) are differentiable at [latex]z_0[/latex], then f(z) is also differentiable at [latex]z_0[/latex].",
+      "C": "If f(z) is continuous at [latex]z_0[/latex], then it is differentiable at [latex]z_0[/latex].",
+      "D": "If f(z) is differentiable at [latex]z_0[/latex], then so are its real and imaginary parts."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 106 Two players, A and B, alternately keep rolling a fair dice. The person to get a six first wins the game. Given that player A starts the game, the probability that A wins the game is",
+    "solution": "P(A wins) = P( 6 in first throw by A) + P(A not 6, B not 6,)+... [latex]\\begin{aligned} &=\\frac{1}{6}+\\frac{5}{6}\\frac{5}{6}\\frac{1}{6}+....\\\\ &=\\frac{1}{6}\\left ( 1+\\left ( \\frac{5}{6} \\right )^2+\\left ( \\frac{5}{6} \\right )^4+... \\right )\\\\ &=\\frac{1}{6}\\left ( \\frac{1}{1-\\left (\\frac{5}{6} \\right )^2} \\right )=\\frac{6}{11} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]5/11[/latex]",
+      "B": "[latex]1/2[/latex]",
+      "C": "[latex]7/13[/latex]",
+      "D": "[latex]6/11[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 107 A solution of the ordinary differential equation [latex]\\frac{d^{2}y}{dt^{2}}+5\\frac{dy}{dt}+6y=0[/latex] is such that y(0)=2 and [latex]y(1)= -\\frac{1-3e}{e^{3}}[/latex]. The value of [latex]\\frac{dy}{dt}(0)[/latex] is _______",
+    "solution": "[latex]\\begin{aligned}\r\n D^2+5D+6&=0 \\\\ \r\nD &=-1,-3 \\\\ \r\n y(t)&=c_1e^{-2t}+c_2e^{-3t} \\\\ \r\n\\text{Given,  } y(0)&=2 \\\\ \r\n\\Rightarrow \\; c_1+c_2 &=2\\;\\;...(i) \\\\ \r\n y(1)&=-\\left ( \\frac{1-3e}{e^3} \\right ) \\\\ \r\n\\Rightarrow \\;\\; \\frac{c_1}{e^2}+\\frac{c_2}{e^3} &= -\\left ( \\frac{1-3e}{e^3} \\right ) \\\\ \r\n\\Rightarrow \\;\\;ec_1+c_2 &=3e-1\\;\\;\\;...(ii) \\\\ \r\n\\text{Now solving equation} &\\text{ (i) and (ii), we get} \\\\ \r\nc_1=3, &c_2=-1\\\\ \r\n \\text{Substituting in  }y(t),& we get \\\\ \r\n y(t)&=3e^{-2t}-e^{-3t}\\\\\r\n\\text{Now,   }\\frac{dy}{dt}&=-6e^{-2t}+3e^{-3t}\\\\\r\n\\left ( \\frac{dy}{dt} \\right )_{t=0}&=-6+3=-3 \r\n\\end{aligned}[/latex]",
+    "min": -3.0,
+    "max": -3.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 108 The maximum value of \"a\" such that the matrix [latex]\\begin{pmatrix} -3 & 0& -2\\\\ 1 &-1 & 0\\\\ 0& a&-2 \\end{pmatrix}[/latex] has three linearly independent real eigenvectors is",
+    "solution": "",
+    "options": {
+      "A": "[latex]\\frac{2}{3\\sqrt{3}}[/latex]",
+      "B": "[latex]\\frac{1}{3\\sqrt{3}}[/latex]",
+      "C": "[latex]\\frac{1+2\\sqrt{3}}{3\\sqrt{3}}[/latex]",
+      "D": "[latex]\\frac{1+\\sqrt{3}}{3\\sqrt{3}}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 109 If the sum of the diagonal elements of a 2x2 matrix is -6, then the maximum possible value of determinant of the matrix is ________.",
+    "solution": "Consider a symmetric matrix [latex]A =\\begin{bmatrix} a & b\\\\ b & d \\end{bmatrix}[/latex] Given [latex]a+d=-6[/latex] [latex]|A|=ad-b^2[/latex] Now since [latex]b^2[/latex] is always non-negative, maximum determinant will come when [latex]b^2=0[/latex]. So we need to maximize [latex]\\begin{aligned} |A|&=ad-0=ad=a \\times -(6+a) \\\\ &= -a^2-6a\\\\ \\frac{d|A|}{da} &=-2a-6=0 \\\\ \\Rightarrow \\;\\; a &=-3 \\text{ is the only stationary point} \\end{aligned}[/latex] Since, [latex]\\left [\\frac{d^2|A|}{da} \\right ]_{a=-3}=-2 \\lt 0[/latex], we have a maximum at [latex]a=-3[/latex]. Since [latex]a+d=-6[/latex], corresponding value of [latex]d=-3[/latex]. [latex]|A|=ad=-3 \\times -3=9[/latex]",
+    "min": 9.0,
+    "max": 9.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 110 If a continuous function f(x) does not have a root in the interval [a,b], then which one of the following statements is TRUE?",
+    "solution": "Intermediate value theorem states that if a function is continious and [latex]f(a) \\cdot f(b) \\lt 0[/latex], then surely there is a root in (a,b). The contrapositive of this theorem is that if a function is continious and has no root in (a,b) then surely [latex]f(a) \\cdot f(b) \\geq 0[/latex]. But since it is given that there is no root in the closed interval [a,b] it means [latex]f(a) \\cdot f(b) \\neq 0[/latex]. So surely [latex]f(a) \\cdot f(b) \\gt 0[/latex] which is choise(C).",
+    "options": {
+      "A": "[latex]f(a)\\cdot f(b)=0[/latex]",
+      "B": "[latex]f(a)\\cdot f(b) \\lt 0[/latex]",
+      "C": "[latex]f(a)\\cdot f(b) \\gt 0[/latex]",
+      "D": "[latex]f(a)/ f(b)\\leq 0[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 111 A random variable X has probability density function f(x) as given below: [latex]f(x)=\\left\\{\\begin{matrix} a+bx & for \\; 0 \\lt x \\lt 1\\\\ 0& otherwise \\end{matrix}\\right.[/latex] If the expected value E[X]=2/3, then [latex]Pr[X \\lt 0.5][/latex] is _____________.",
+    "solution": "[latex]\\begin{aligned} f(x)&=\\left\\{\\begin{matrix} a+bx & \\text{for }0 \\lt x \\lt 1\\\\ 0 & \\text{otherwise} \\end{matrix}\\right.&\\\\ \\text{Now given }E(X)&=2/3\\\\ \\int_{0}^{1}xf(x)dx&=\\frac{2}{3}\\\\ \\int_{0}^{1}x(a+bx)dx&=\\frac{2}{3}\\\\ a\\left ( \\frac{x^2}{2} \\right )_0^1+b\\left ( \\frac{x^3}{3} \\right )_0^1&=\\frac{2}{3}\\\\ a\\left ( \\frac{1}{2} \\right )+b\\left ( \\frac{1}{3} \\right )&=\\frac{2}{3}\\\\ 3a+2b&=4\\;\\;...(i)\\\\ \\text{Now, }\\int_{0}^{1}f(x)dx &=1\\\\ (\\text{total probability} & \\text{ is always equal to 1})\\\\ \\int_{0}^{1}(a+bx)dx&=\\left ( ax+\\frac{bx^2}{2} \\right )_0^1=1\\\\ a+\\frac{b}{2}&=1\\\\ 2a+b&=2\\;\\;...(ii)\\\\ \\text{Now solving } & \\text{ (i) and (ii), we get}\\\\ a&=0,b=2\\\\ So,\\; \\;f(x)&=\\left\\{\\begin{matrix} 2x & \\text{for }0 \\lt x lt 1\\\\ 0 & \\text{otherwise} \\end{matrix}\\right.&\\\\ \\text{Now we need}&\\\\ P(x \\lt 0.5)&=\\int_{0}^{0.5}2xdx=2\\left ( \\frac{x^2}{2} \\right )_0^{0.5}\\\\ &=0.5^2-0^2=0.25 \\end{aligned}[/latex]",
+    "min": 0.25,
+    "max": 0.25
+  },
+  {
+    "type": "numerical",
+    "question": "Question 112 The function [latex]f(x)=e^{x}-1[/latex] is to be solved using Newton-Raphson method. If the initial value of [latex]x_0[/latex] is taken as 1.0, then the absolute error observed at [latex]2^{nd}[/latex] iteration is _____.",
+    "solution": "Given, [latex]f(x)=e^x-1[/latex] or, [latex]f(x_K)=e^{x_K}-1[/latex] and [latex]x_0=1[/latex] In Newton-Raphson method, we have [latex]\\begin{aligned} x_{K+1}&=\\left [ x_K-\\frac{f(x_K)}{f'(x_K)} \\right ] \\\\ x_1&= \\left [ x_0- \\frac{f(x_0)}{f'(x_0)}\\right ]\\;\\;...(i)\\\\ \\text{Now, } f(x_0)&=e^{x_0}-1=e^1-1=(e-1) \\\\ \\text{and, } f'(x)&=e6x \\\\ \\therefore \\;\\; f'(x_0) &=e^1=e \\end{aligned}[/latex] Putting the values, we get: [latex]\\begin{aligned} x_1&=\\left [ 1-\\frac{e-1}{e} \\right ]=\\left [ \\frac{e-e+1}{e} \\right ]=e^{-1}\\\\ \\text{Also, }x_2&=\\left [ x_1-\\frac{f(x_1)}{f'(x_1)} \\right ]\\;\\;...(ii)\\\\ \\text{Now, }x_1&=\\frac{1}{e}=e^{-1} \\text{ and } f(x_1)=(e^{e^{-1}}-1)\\\\ f'(x_1)&=e^{e^{-1}} \\end{aligned}[/latex] Putting the value, we get: [latex]\\begin{aligned} x_2&=\\left [ e^{-1}-\\frac{(e^{e^{-1}}-1)}{e^{e^{-1}}} \\right ]\\\\ &=\\left [ e^{-1}-\\frac{(e^{0.37}-1)}{e^{0.37}} \\right ]=0.06 \\end{aligned}[/latex]",
+    "min": 0.05,
+    "max": 0.07
+  },
+  {
+    "type": "mcq",
+    "question": "Question 113 The mean thickness and variance of silicon steel laminations are 0.2 mm and\n0.02 respectively. The varnish insulation is applied on both the sides of the\nlaminations. The mean thickness of one side insulation and its variance are 0.1\nmm and 0.01 respectively. If the transformer core is made using 100 such varnish\ncoated laminations, the mean thickness and variance of the core respectively are",
+    "solution": "",
+    "options": {
+      "A": "30 mm and 0.22",
+      "B": "30 mm and 2.44",
+      "C": "40 mm and 2.44",
+      "D": "40 mm and 0.24"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 114 Integration of the complex function [latex]f(z)=\\frac{z^{2}}{z^{2}-1}[/latex], in the counterclockwise direction, around |z-1|=1, is",
+    "solution": "[latex]\\begin{aligned} f(z)=\\int \\frac{z^2}{z^2-1}&=\\int f(z) \\\\ \\text{Given circle}& \\\\ |z-1|&=1 \\\\ \\Rightarrow \\; |(x+iy)-1| &=1 \\\\ (x-1)^2+y^2&=1 \\\\ x=1, y&= 0, r=1 \\end{aligned}[/latex] Poles of f(z) [latex]z^2-1=0[/latex] [z=+1, 1] So,  [latex]-1\\rightarrow[/latex]Outside circle [latex]\\;\\; +1\\rightarrow[/latex] Inside circle [latex]\\begin{aligned} \\int \\frac{z^2}{(z-1)(z+1)}&=2 \\pi i\\left [ \\frac{z^2}{z+1} \\right ]_{z=+1} \\\\ &= 2 \\pi i \\left ( \\frac{1}{2} \\right )=\\pi i \\\\ \\text{For pole }(z=-1) &=\\int \\frac{z^2}{(z-1)(z+1)}=0 \\end{aligned}[/latex] as it lies outside from counter.",
+    "options": {
+      "A": "[latex]-\\pi i[/latex]",
+      "B": "0",
+      "C": "[latex]\\pi i[/latex]",
+      "D": "[latex]2 \\pi i[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 115 Lifetime of an electric bulb is a random variable with density [latex]f(x)=kx^2[/latex], where x is measured in years. If the minimum and maximum lifetimes of bulb are 1 and 2 years respectively, then the value of k is _____",
+    "solution": "Life time of an electric bulb with density [latex]f(x)=Kx^2[/latex] If minimum and maximum lifetimes of bulb are 1 and 2 years respectively then [latex]\\begin{aligned} \\int_{1}^{2}Kx^2dx &=1\\\\ \\left.\\begin{matrix} K\\frac{x^3}{3} \\end{matrix}\\right|_1^2&=1\\\\ K\\left ( \\frac{8}{3}-\\frac{1}{3} \\right )&=1\\\\ \\frac{7K}{3}&=1\\\\ K&=\\frac{3}{7}=0.42 \\end{aligned}[/latex]",
+    "min": 0.4,
+    "max": 0.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 116 Let [latex]\\triangledown \\cdot (f v)=x^2y+y^2z+z^2x[/latex], where f and v are scalar and vector fields respectively.  If [latex]v=yi+zj+xk [/latex], then [latex] v\\cdot \\triangledown f[/latex] is",
+    "solution": "[latex]\\begin{aligned} \\vec{V}&=y\\hat{i}+z\\hat{j}+x\\hat{k}\\\\ \\hat{i}\\frac{\\partial (fV)}{\\partial x}+\\hat{j}\\frac{\\partial (fV)}{\\partial y}+\\hat{k}\\frac{\\partial (fV)}{\\partial z}&=x^2y+y^2z+z^2x\\\\ y\\frac{\\partial f}{\\partial x}+z\\frac{\\partial f}{\\partial y}+x\\frac{\\partial f}{\\partial z}&=x^2y+y^2z+z^2x\\;\\;...(i)\\\\ \\vec{V}\\cdot \\Delta f&=y\\frac{\\partial f}{\\partial x}+z\\frac{\\partial f}{\\partial y}+x\\frac{\\partial f}{\\partial z}\\;\\;...(ii)\\\\ \\text{From equations (i) and (ii)}\\\\ \\vec{V}\\cdot \\Delta f&=x^2y+y^2z+z^2x \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]x^2y+y^2z+z^2x[/latex]",
+      "B": "[latex]2xy+2yz+2zx[/latex]",
+      "C": "[latex]x+y+z[/latex]",
+      "D": "0"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 117 A particle, starting from origin at t=0s, is traveling along x-axis with velocity [latex]v=\\frac{\\pi}{2}\\cos (\\frac{\\pi}{2}t)m/s[/latex] At t=3s, the difference between the distance covered by the particle and the magnitude of displacement from the origin is_____",
+    "solution": "",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 118 Two matrices A and B are given below: [latex]A=\\begin{bmatrix} p &q \\\\ r& s \\end{bmatrix};[/latex]  [latex]B=\\begin{bmatrix} p^2+q^2 & pr +qs \\\\ pr+qs & r^2+s^2 \\end{bmatrix}[/latex] If the rank of matrix A is N, then the rank of matrix B is",
+    "solution": "[latex]\\begin{aligned} A &=\\begin{bmatrix} p & q\\\\ r & s \\end{bmatrix} \\\\ A \\times A=A^2&=\\begin{bmatrix} p^2+q^2 & pr+qs\\\\ pr+qs & r^2+s^2 \\end{bmatrix} =B \\\\ A^2 &=B \\end{aligned}[/latex] Rank of amtrix does not change when we squaring the matrix, hence rank of B = rank of A=N.",
+    "options": {
+      "A": "N/2",
+      "B": "N-1",
+      "C": "N",
+      "D": "2N"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 119 The minimum value of the function [latex]f(x)=x^{3}-3x^{2}-24x+100[/latex] in the interval\n[-3, 3] is",
+    "solution": "[latex]\\begin{aligned} f(x)&=x^3-3x^2-24x+100\\;\\;\\;x \\in [-3,3]\\\\ f'(x)&=3x^2-6x-24\\\\ f'(x)&=0 \\; at \\; x=4,-2 \\end{aligned}[/latex] Critical points are [-3,-2,3] [latex]\\begin{aligned} f(-3)&=-27-27+72+100=118\\\\ f(-2)&=-8-12+48+100=128\\\\ f(3)&=27-27-72+100=28 \\end{aligned}[/latex] Hence f(x) has minimum value at x=3 which is 28.",
+    "options": {
+      "A": "20",
+      "B": "28",
+      "C": "16",
+      "D": "32"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 120 Let X be a random variable with probability density function [latex]f(x)=\\left\\{\\begin{matrix} 0.2, & for \\; |x|\\leq 1 \\\\ 0.1,& for \\; 1 \\lt |x|\\leq 4\\\\ 0,& otherwise \\end{matrix}\\right.[/latex] The probability [latex]P(0.5 \\lt X \\lt 5)[/latex] is",
+    "solution": "Probability ([latex]0.5 \\lt n \\lt 5[/latex]) [latex]\\begin{aligned} &= \\int_{0.5}^{5}f(x)dx\\\\ &= \\int_{0.5}^{1}0.2dx+\\int_{1}^{4}0.1dx+\\int_{4}^{5}0dx\\\\ &= 0.2[1-0.5]+0.1[4-1]+0[5-4]\\\\ &= 0.1+0.3=0.4 \\end{aligned}[/latex]",
+    "min": 0.35,
+    "max": 0.45
+  },
+  {
+    "type": "mcq",
+    "question": "Question 121 To evaluate the double integral [latex]\\int_{0}^{8}(\\int_{y/2}^{(y/2)+1}(\\frac{2x-y}{2})dx)dy[/latex], we make the substitution [latex]u=(\\frac{2x-y}{2})[/latex] and v=y/2 . The integral will reduce to",
+    "solution": "[latex]\\int_{0}^{8}\\left ( \\int_{y/2}^{(y/2)+1} \\left ( \\frac{2x-y}{2} \\right )dx\\right ) dy[/latex] [latex]\\begin{aligned} \\frac{2x-y}{2} &=u \\\\ x-\\frac{y}{2}&=u \\\\ dx&= du\\\\ \\text{at }x &=\\frac{y}{2} \\\\ u&=\\frac{\\frac{2y}{2}-y}{2}=0 \\\\ \\text{at }x &=\\frac{y}{2}+1 \\\\ u &=\\frac{2\\left ( \\frac{y}{2}+1 \\right )-y}{2}\\\\ &=\\frac{y+2-y}{2}=1 \\end{aligned}[/latex] Thus, integral becomes [latex]\\int_{0}^{8}\\left (\\int_{0}^{1} u du \\right )dy[/latex] [latex]\\begin{aligned} v&=\\frac{y}{2} \\\\ dv&=\\frac{dy}{2} \\\\ y=0&= \\\\ \\Rightarrow \\;\\; v &= 0\\\\ &y=8 \\\\ \\Rightarrow \\;\\; v &= 4\\\\ &\\;\\;=\\int_{0}^{4}\\left ( \\int_{0}^{1} udu\\right )\\times 2dv\\\\ &\\;\\;= \\int_{0}^{4}\\left ( \\int_{0}^{1} 2udu\\right )\\times dv \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\int_{0}^{4}(\\int_{0}^{2}2udu)dv[/latex]",
+      "B": "[latex]\\int_{0}^{4}(\\int_{0}^{1}2udu)dv[/latex]",
+      "C": "[latex]\\int_{0}^{4}(\\int_{0}^{1}udu)dv[/latex]",
+      "D": "[latex]\\int_{0}^{4}(\\int_{0}^{2}udu)dv[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 122 Consider the differential equation [latex]x^{2}\\frac{d^{2}y}{dx^{2}}+x\\frac{dy}{dx}-y=0[/latex]. Which of the following is a solution to this differential equation for [latex]x \\gt 0[/latex] ?",
+    "solution": "[latex]\\begin{aligned}\nx^2\\frac{d^2y}{dx^2}+x\\frac{dy}{dx}-y&=0\\\\\n\\text{Let,  }x=e^z\\leftrightarrow z&=\\log x\\\\\ns\\frac{d}{dx}=xD=\\theta &=\\frac{d}{dz}\\\\\nx^2D^2&=\\theta (\\theta -1)\\\\\n(x^2D^2+xD-1)y&=0\\\\\n[\\theta (\\theta -1)+\\theta -1]y&=0\\\\\n(\\theta ^2-\\theta +\\theta -1)&=0\\\\\n(\\theta ^2-1)y&=0\\\\\n\\text{Auxiliary equation is }m^2-1&=0\\\\\nm&=\\pm 1\\\\\n\\text{CF is  }C_1e^{-z}+C_2e^z&\\\\\n\\text{Solution is   }y&=C_1e^{-z}+C_2e^z\\\\\ny&=C_1x^{-1}+C_2x\\\\\ny&=C_1\\frac{1}{x}+C_2x\n\\end{aligned}[/latex] One independent solution is [latex]\\frac{1}{x}[/latex] Another independent solution is x.",
+    "options": {
+      "A": "[latex]e^{x}[/latex]",
+      "B": "[latex]x^{2}[/latex]",
+      "C": "1/x",
+      "D": "ln x"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 123 All the values of the multi-valued complex function [latex]1^i[/latex], where [latex]i=\\sqrt{-1}[/latex], are",
+    "solution": "Let [latex]z=1^i=1^{e^{i(4n+1)\\pi/2}}\\;\\;\\;n \\in I[/latex] z=1 which is purly real and non negative.",
+    "options": {
+      "A": "purely imaginary",
+      "B": "real and non-negative",
+      "C": "on the unit circle",
+      "D": "equal in real and imaginary parts"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 124 Minimum of the real valued function [latex]f(x)=(x-1)^{2/3}[/latex] occurs at x equal to",
+    "solution": "[latex]f(x)=(x-1)^{2/3}=(\\sqrt[3]{x-1})^2[/latex] As f(x) is square of [latex]\\sqrt[3]{x-1}[/latex], hence its minimum value be 0 where at x=1.",
+    "options": {
+      "A": "[latex]-\\infty[/latex]",
+      "B": "0",
+      "C": "1",
+      "D": "[latex]\\infty[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 125 Consider a dice with the property that the probability of a face with n dots showing up proportional to n. The probability of the face with three dots showing up is____.",
+    "solution": "Let probability of occurence of one dot is P. So, writing total probability P+2P+3P+4P+5P+6P=1 [latex]P=\\frac{1}{21}[/latex] Hence, problem of occurrence of 3 dot is [latex]=3P=\\frac{3}{21}=\\frac{1}{7}=0.142[/latex]",
+    "min": 0.13,
+    "max": 0.15
+  },
+  {
+    "type": "mcq",
+    "question": "Question 126 Which one of the following statements is true for all real symmetric matrices?",
+    "solution": "",
+    "options": {
+      "A": "All the eigenvalues are real.",
+      "B": "All the eigenvalues are positive.",
+      "C": "All the eigenvalues are distinct.",
+      "D": "Sum of all the eigenvalues is zero."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 127 A system matrix is given as follows [latex]A=\\begin{bmatrix} 0 & 1 & -1\\\\ -6& -11&6 \\\\ -6 & -11 & 5 \\end{bmatrix}[/latex] The absolute value of the ratio of the maximum eigenvalue to the minimum\neigenvalue is _______.",
+    "solution": "Characteristic equation [latex]|A-\\lambda I|=0[/latex] [latex]\\begin{aligned} \\begin{vmatrix} -\\lambda & 1 & -1\\\\ -6 & -11-\\lambda & 6\\\\ -6&-11 & 5-\\lambda \\end{vmatrix} = 0\\\\ \\Rightarrow \\; -\\lambda [-55+11\\lambda -5\\lambda +\\lambda ^2+66] \\\\ -1[-30+6\\lambda +36]-1[66-66-6\\lambda ]=0 \\\\ \\Rightarrow \\; -\\lambda (\\lambda ^2+6\\lambda +11)-1(6\\lambda +6)+6\\lambda =0 \\\\ \\Rightarrow \\;-\\lambda ^3-6\\lambda ^2-11\\lambda -6=0 \\\\ \\Rightarrow \\;\\lambda ^3+6\\lambda ^2+11\\lambda +6=0 \\\\ \\Rightarrow \\; (\\lambda +1)(\\lambda +2)(\\lambda +3)=0 \\\\ \\Rightarrow \\;\\lambda =-1,-2,-3 \\end{aligned}[/latex] The absolute values of [latex]\\lambda[/latex] are [latex]|\\lambda |=1,2,3[/latex] Ratio of maximum and minimum eigen value is [latex]=3:1=\\frac{3}{1}=3[/latex]",
+    "min": 2.9,
+    "max": 3.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 128 The line integral of function F=yzi, in the counterclockwise direction, along the circle [latex]x^{2}+y^{2}=1[/latex] at z=1 is",
+    "solution": "[latex]\\begin{aligned} \\bar{F} &=yz\\hat{i} \\\\ \\bigtriangledown \\times \\bar{F} &=\\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k}\\\\ \\frac{\\partial }{\\partial x} & \\frac{\\partial }{\\partial y} &\\frac{\\partial }{\\partial z} \\\\ yz& 0 & 0 \\end{vmatrix} \\\\ &= \\hat{i}(0)-\\hat{j}(0-y)+\\hat{k}(0-z)\\\\ &=0\\hat{i}+y\\hat{j}-z\\hat{k} \\end{aligned}[/latex] By strokes theoram, [latex]\\begin{aligned} \\int _C\\bar{F}\\cdot d\\bar{r}&=\\int _S (\\bigtriangledown \\times \\bar{F})\\cdot \\hat{n}ds\\\\ &=\\int _S (y\\hat{j}-z\\hat{k})\\cdot \\hat{k}ds\\\\ &=\\int _S -z \\; ds \\;\\;\\;\\text{ Since }\\; z=1\\\\ &=\\int _S -1 \\; ds=(-1)S=(-1)\\pi =-\\pi \\end{aligned}[/latex] where S is surface area of [latex]x^2+y^2=1[/latex] [latex]\\therefore \\;\\;S=\\pi(1)^2=\\pi[/latex]",
+    "options": {
+      "A": "[latex]-2\\pi[/latex]",
+      "B": "[latex]-\\pi[/latex]",
+      "C": "[latex]\\pi[/latex]",
+      "D": "[latex]2\\pi[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 129 A fair coin is tossed n times. The probability that the difference between the\r\nnumber of heads and tails is (n-3) is",
+    "solution": "[latex](x+y)^n=\\sum_{r=0}^{n} {}^nC_r x^{n-r}y^n[/latex] when, n= probability of occurrence of head y= probability of occurrence of tail Let number of head is P. Number of tail is q P+q=n Total number of tails Given:  |P-q|=n-3 |P-(n-P)|=n-3 n=n-3 which is not posssible. Here required probability is zero.",
+    "options": {
+      "A": "[latex]2^{-n}[/latex]",
+      "B": "0",
+      "C": "[latex]^{n}C_{n-3}2^{-n}[/latex]",
+      "D": "[latex]2^{-n+3}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 130 Let S be the set of points in the complex plane corresponding to the unit circle. (That is, S={z:|z|=1}). Consider the function f(z)=zz* where z* denotes the complex conjugate of z. The f(z) maps S to which one of the following in the complex plane",
+    "solution": "[latex]\\begin{aligned} z&=x+iy\\\\ z^*&=x-iy\\\\ zz^*&=(x+iy)(x-iy)\\\\ &=x^2+y^2 \\end{aligned}[/latex] which is equal to (1) always as given [latex]\\begin{aligned} |z|&=1\\\\ zz^*&=x^2+y^2 \\end{aligned}[/latex]",
+    "options": {
+      "A": "unit circle",
+      "B": "horizontal axis line segment from origin to (1, 0)",
+      "C": "the point (1, 0)",
+      "D": "the entire horizontal axis"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 131 The solution for the differential equation [latex]\\frac{d^{2}x}{dt^{2}}=-9x[/latex] with initial conditions x(0)=1 and [latex]\\frac{dx}{dt}|_{t=0}=1[/latex], is",
+    "solution": "[latex]\\begin{aligned} \\frac{d^2x}{dt^2}&=-9x\\\\ \\frac{d^2x}{dt^2}+9x&=0\\\\ (D^2+9)x &=0 \\end{aligned}[/latex] Auxiliary equation is [latex]m^2+9=0 [/latex] [latex]\\begin{aligned} m&= \\pm 3i\\\\ x&= C_1 \\cos 3t+C_2 \\sin 3t\\;\\;...(i)\\\\ x(0) &=1\\;\\;i.e.\\;x\\rightarrow 1\\; when t\\rightarrow 0 \\\\ 1&=C_1 \\\\ \\frac{dx}{dt}&=-3C_1 \\sin 3t+3C_2 \\cos 3t\\;\\;...(ii) \\\\ x'(0)&=1\\;\\; i.e.\\;x'\\rightarrow 1\\; when \\; t\\rightarrow 0 \\\\ 1&=3C_2 \\\\ C_2&=\\frac{1}{3}\\\\ \\therefore \\;x&=\\cos 3t+\\frac{1}{3}\\sin 3t \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]t^{2}+t+1[/latex]",
+      "B": "[latex]sin 3t+ \\frac{1}{3} cos3t+\\frac{2}{3}[/latex]",
+      "C": "[latex]\\frac{1}{3} sin 3t+cos3t[/latex]",
+      "D": "[latex]cos3t+t[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 132 Let [latex]f(x)=xe^{-x}[/latex]. The maximum value of the function in the interval [latex](0,\\infty )[/latex] is",
+    "solution": "[latex]\\begin{aligned} f(x)&=xe^{-x}\\\\ f'(x)&=e^{-x}-xe^{-x}=0\\\\ e^{-x}(1-x)&=0\\\\ x&=1\\\\ f''(x)&=-e^{-x}-e^{-x}+xe^{-x}\\\\ &=e^{-x}(x-2)\\\\ f''(1)&=e^{-1}(-1)=-e^{-1} \\lt 0 \\end{aligned}[/latex] Hence f(x) has maximum value at x=1 [latex]f(1)=1\\cdot e^{-1}=e^{-1}[/latex]",
+    "options": {
+      "A": "[latex]e^{-1}[/latex]",
+      "B": "e",
+      "C": "[latex]1-e^{-1}[/latex]",
+      "D": "[latex]1+e^{-1}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 133 Given a system of equations x + 2y + 2z = [latex]b_1[/latex] 5x + y + 3z = [latex]b_2[/latex] What of the following is true regarding its solutions",
+    "solution": "",
+    "options": {
+      "A": "The system has a unique solution for any given [latex]b_1 \\; and \\; b_2[/latex]",
+      "B": "The system will have infinitely many solutions for any given [latex]b_1 \\; and \\; b_2[/latex]",
+      "C": "Whether or not a solution exists depends on the given [latex]b_1 \\; and \\; b_2[/latex]",
+      "D": "The systems would have no solution for any values of [latex]b_1 \\; and \\; b_2[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 134 When the Newton-Raphson method is applied to solve the equation [latex]f(x)=x^{3}+2x-1=0[/latex], the solution at the end of the first iteration with the initial\nvalue as [latex]x_{0}=1.2[/latex] is",
+    "solution": "[latex]\\begin{aligned} f'(x)&=3x^2+2\\\\ f'(x_0)&=3(1.2)^2+2=6.32\\\\ f(x_0)&=(1.2)^3+2 \\times 1.2-1=3.128\\\\ f'(x_1)&=x_0-\\frac{f(x_0)}{f'(x_1)}=1.2-\\frac{3.728}{6.32}=0.705 \\end{aligned}[/latex]",
+    "options": {
+      "A": "-0.82",
+      "B": "0.49",
+      "C": "0.705",
+      "D": "1.69"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 135 A function [latex]y=5x^{2}+10x[/latex] is defined over an open interval x = (1,2). Atleast at one\r\npoint in this interval, dy/dx is exactly",
+    "solution": "[latex]\\begin{aligned} \\frac{dy}{dx}&=10x+10\\\\ \\left.\\begin{matrix} \\frac{dy}{dx} \\end{matrix}\\right|_{x=1}=20\\\\ \\left.\\begin{matrix} \\frac{dy}{dx} \\end{matrix}\\right|_{x=2}=30 \\end{aligned} [/latex] [latex]\\because \\;\\; x[/latex] is defined open interval [latex]x=(1,2)[/latex] [latex] \\therefore \\;\\;1 \\lt x \\lt 2 [/latex] [latex]\\therefore \\;\\;20 \\lt \\frac{dy}{dx} \\lt 30[/latex]",
+    "options": {
+      "A": "20",
+      "B": "25",
+      "C": "30",
+      "D": "35"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 136 [latex]\\oint \\frac{z^{2}-4}{z^{2}+4}dz[/latex] evaluated anticlockwise around the circle |z-i|=2, where [latex]i=\\sqrt{-1}[/latex], is",
+    "solution": "[latex]\\frac{Z^2-4}{Z^2+4}=\\frac{Z^2-4}{(Z+2i)(Z-2i)}[/latex] Poles at 2i and -2i i.e. (0,2i) and (0,-2i) From figure of |Z-i|=2, we see that pole, is insice C. while pole, -2i is outside of C. [latex]\\begin{aligned} \\therefore \\;\\oint \\frac{Z^2-4}{Z^2+4}dZ &=2 \\pi i \\times \\text{Res.} \\;F(Z)\\\\ &= \\left.\\begin{matrix} 2 \\pi i \\frac{(Z-2i)(Z^2-4)}{(Z+2i)(Z-2i)} \\end{matrix}\\right|_{Z=2i}\\\\ &= 2 \\pi i\\frac{(2i)^2 -4}{(2i+2i)}=-4 \\pi \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]-4\\pi[/latex]",
+      "B": "0",
+      "C": "[latex]2+\\pi[/latex]",
+      "D": "2+2i"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 137 A Matrix has eigenvalues -1 and -2. The corresponding eigenvectors are [latex]\\begin{bmatrix} 1\\\\ -1 \\end{bmatrix} and \\begin{bmatrix} 1\\\\ -2 \\end{bmatrix}[/latex] respectively. The matrix is",
+    "solution": "[latex]\\begin{aligned} AX &=\\lambda X \\\\ \\begin{bmatrix} a & b\\\\ c & d \\end{bmatrix} \\begin{bmatrix} 1\\\\ -1 \\end{bmatrix}&=(-1) \\begin{bmatrix} 1\\\\ -1 \\end{bmatrix}\\\\ a-b&= -1\\\\ c-d&=1 \\\\ \\begin{bmatrix} a & b\\;\\;...(i)\\\\ c & d\\;\\;...(ii) \\end{bmatrix} \\begin{bmatrix} 1\\\\ -2 \\end{bmatrix}&=(-2) \\begin{bmatrix} 1\\\\ -2 \\end{bmatrix}\\\\ a-2b&=-2\\;\\;...(iii) \\\\ c-2d&=4\\;\\;...(iv) \\end{aligned}[/latex] From equation (i) and (iii), a=0 and  b=1 From equation (ii) and (iv), c=-2 and d=-3 [latex]A= \\begin{bmatrix} a & b\\\\ c & d \\end{bmatrix} =\\begin{bmatrix} 0 & 1\\\\ -2 & -3 \\end{bmatrix}[/latex]",
+    "options": {
+      "A": "[latex]\\begin{bmatrix} 1 & 1\\\\ -1& -2 \\end{bmatrix}[/latex]",
+      "B": "[latex]\\begin{bmatrix} 1 & 2\\\\ -2& -4 \\end{bmatrix}[/latex]",
+      "C": "[latex]\\begin{bmatrix} -1 & 0\\\\ 0& -2 \\end{bmatrix}[/latex]",
+      "D": "[latex]\\begin{bmatrix} 0 & 1\\\\ -2& -3 \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 138 The equation [latex]\\begin{bmatrix} 2 &-2 \\\\ 1& -1 \\end{bmatrix}\\begin{bmatrix} x_{1}\\\\ x_{2} \\end{bmatrix}=\\begin{bmatrix} 0\\\\ 0 \\end{bmatrix}[/latex] has",
+    "solution": "[latex]\\begin{aligned} \\begin{bmatrix} 2 & -2\\\\ 1& -1 \\end{bmatrix}\\begin{bmatrix} x_1\\\\ x_2 \\end{bmatrix}&=\\begin{bmatrix} 0\\\\ 0 \\end{bmatrix} \\\\ 2x_1-2x_2&= 0\\\\ x_1-x_2&=0 \\\\ x_1&=x_2 \\end{aligned}[/latex] i.e.  [latex]x_1[/latex] and [latex]x_2[/latex] are having infinite number of solutions. [latex]\\Rightarrow[/latex]  Multiple solutions are these.",
+    "options": {
+      "A": "no solution",
+      "B": "only one solution [latex]\\begin{bmatrix} x_{1}\\\\ x_{2} \\end{bmatrix}=\\begin{bmatrix} 0\\\\ 0 \\end{bmatrix}[/latex]",
+      "C": "non-zero unique solution",
+      "D": "multiple solutions"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 139 Given a vector field [latex]F=y^{2}xa_{x}-yza_{y}-x^{2}a_{z}[/latex], the line integral [latex]\\int F\\cdot dl[/latex] evaluated along a segment on the x-axis from x = 1 to x = 2 is",
+    "solution": "To find: [latex]\\int \\vec{F}\\cdot \\vec{dl}[/latex] along a segment on the x-axis from x=1 and x=2. i.e.   Y=0,  z=0, dy=0  and dz=0 [latex]\\begin{aligned} \\int \\vec{F}\\cdot \\vec{dl}&= \\int (y^2 \\times \\hat{a_x}-yz\\hat{a_y}-x^2\\hat{a_z})(\\hat{a_x}dx +\\hat{a_y}dy+\\hat{a_z}dz)\\\\ &= \\int y^2x \\;dx-yz\\; dy -x^2 \\; dz \\end{aligned}[/latex] Putting y=0, z=0, dy=0 and dz=0, we get [latex]\\int \\vec{F}\\cdot \\vec{dl}=0[/latex]",
+    "options": {
+      "A": "-2.33",
+      "B": "0",
+      "C": "2.33",
+      "D": "7"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 140 Square roots of -i , where  [latex]i = \\sqrt{-1}[/latex], are",
+    "solution": "[latex]\\begin{aligned} -i &= \\cos \\left ( -\\frac{\\pi}{2} \\right )+i \\sin \\left ( -\\frac{\\pi}{2} \\right )\\\\ &= \\cos \\left ( \\frac{3\\pi}{2} \\right ) +i \\sin \\left ( \\frac{3\\pi}{2} \\right )\\\\ (-i)^{1/2}&=\\left [ \\cos \\left ( -\\frac{\\pi}{2} \\right )+i \\sin \\left ( -\\frac{\\pi}{2} \\right ) \\right ] ^{1/2}\\\\ &= \\cos \\left ( -\\frac{\\pi}{4} \\right )+i \\sin \\left ( -\\frac{\\pi}{4} \\right )\\\\ &= \\cos \\left ( \\frac{3\\pi}{4} \\right )+i \\sin \\left ( \\frac{3\\pi}{4} \\right ) \\end{aligned}[/latex]",
+    "options": {
+      "A": "i, -i",
+      "B": "[latex]cos(-\\frac{\\pi }{4})+isin(-\\frac{\\pi }{4})[/latex], [latex]cos(\\frac{3\\pi }{4})+isin(\\frac{3\\pi }{4})[/latex]",
+      "C": "[latex]cos(\\frac{\\pi }{4})+isin(\\frac{3\\pi }{4})[/latex], [latex]cos(\\frac{3\\pi }{4})+isin(\\frac{\\pi }{4})[/latex]",
+      "D": "[latex]cos(\\frac{3\\pi }{4})+isin(-\\frac{3\\pi }{4})[/latex], [latex]cos(-\\frac{3\\pi }{4})+isin(\\frac{3\\pi }{4})[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 141 The curl of the gradient of the scalar field defined by [latex]V=2x^{2}y+3y^{2}z+4z^{2}x[/latex] is",
+    "solution": "Curl of gradient of a scalar field is always zero. [latex]\\bigtriangledown \\times \\bigtriangledown V=0[/latex]",
+    "options": {
+      "A": "[latex]4xya_{x}+6yza_{x}+8zxa_{z}[/latex]",
+      "B": "[latex]4a_{x}+6a_{x}+8a_{z}[/latex]",
+      "C": "[latex](4xy+4z^{2})a_{x}+(2x^{2}+6yz)a_{x}+(3y^{2}+8zx)a_{z}[/latex]",
+      "D": "0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 142 A continuous random variable X has a probability density function [latex]f(x)=e^{-x},\\; 0\\lt x\\lt \\infty[/latex]. Then P{X [latex]\\gt[/latex] 1} is",
+    "solution": "[latex]P=\\int_{1}^{\\infty }f(x)dx=\\int_{1}^{\\infty }e^{-x}dx=e^{-x}|_\\infty ^1=e^{-1}=0.368[/latex]",
+    "options": {
+      "A": "0.368",
+      "B": "0.5",
+      "C": "0.632",
+      "D": "1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 143 A fair coin is tossed till a head appears for the first time. The probability that the\nnumber of required tosses is odd, is",
+    "solution": "P(number of tosses is odd) = P(number of tosses is 1,3,5,7?) P(no. of toss is 1) = P(Head in first toss)=1/2 P(no. of toss is 3) = P( tail in first toss , tail in second toss and head in third toss) [latex]=\\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2} =\\frac{1}{8}[/latex] P(no. of toss id 5) =P(T, T, T, T, H) [latex]=\\left (\\frac{1}{2} \\right ) ^5=\\frac{1}{32}[/latex] So P(no. of tosses is odd) [latex]=\\frac{1}{2}+\\frac{1}{8}+\\frac{1}{32}+...[/latex] Sum of infinite geometric series with [latex]a=\\frac{1}{2}[/latex] and [latex]r=\\frac{1}{4}[/latex] [latex]=\\frac{\\frac{1}{2}}{1-\\frac{1}{4}}=\\frac{\\frac{1}{2}}{\\frac{3}{4}}=\\frac{2}{3}[/latex]",
+    "options": {
+      "A": "[latex]1/3[/latex]",
+      "B": "[latex]1/2[/latex]",
+      "C": "[latex]2/3[/latex]",
+      "D": "[latex]3/4[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 144 The maximum value of [latex]f(x)=x^{3}-9x^{2}+24x+5[/latex] in the interval [1,6] is",
+    "solution": "We need absolute maximum of [latex]f(x)=x^3-9x^2+24x+5[/latex] in the interval of [1,6] First find local maximum if any by putting f'(x)=0. [latex]\\begin{aligned} f'(x) &=3x^2-18x+24=0 \\\\ x^2-6x+8&=0 \\\\ x&=2,4 \\\\ \\text{Now } f''(x) &=6x-18 \\\\ f''(2)&=12-18=-6 \\lt 0 \\\\ \\text{(So } x&=2 \\text{ is a point of local maximum)} \\\\ f''(4)&=24-18=+6 \\gt 0 \\\\ \\text{(So } x&=4 \\text{ is a point of local minimum)} \\\\ \\end{aligned}[/latex] Now tabulate the value of f at end point of interval and at local maximum point, to find absolute maximum in given range, as shown below [latex]\\begin{matrix} x& f(x)\\\\ 1& 21\\\\ 2 & 25\\\\ 6& 41 \\end{matrix}[/latex] Clearly the absolute maxima is at x=6 and absolute maximum value is 41.",
+    "options": {
+      "A": "21",
+      "B": "25",
+      "C": "41",
+      "D": "46"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 145 Given that [latex]A=\\begin{bmatrix} -5 &-3 \\\\ 2&0 \\end{bmatrix} \\; and \\; I=\\begin{bmatrix} 1 & 0\\\\ 0&1 \\end{bmatrix}[/latex], the value of [latex]A^{3}[/latex] is",
+    "solution": "[latex]A=\\begin{bmatrix} -5 & -3\\\\ 2& 0 \\end{bmatrix}[/latex] and [latex]I=\\begin{bmatrix} 1 & 0\\\\ 0& 1 \\end{bmatrix}[/latex] Characteristic equation of A is [latex]\\begin{bmatrix} -5-\\lambda & -3\\\\ 2& 0-\\lambda \\end{bmatrix}=0[/latex] [latex] (-5-\\lambda )(-\\lambda )+6=0 [/latex] [latex]\\Rightarrow \\;\\; \\lambda ^2+5\\lambda +6=0 [/latex] [latex]\\text{So,  } A^2+5A+6I=0 [/latex] (by Cayley Hamilton theorem) [latex]\\Rightarrow \\;\\; A^2=-5A-6I [/latex] Multiplying by A on both sides, we have, [latex]A^3=-5A^2-6A[/latex] [latex] \\Rightarrow \\;\\; A^3=-5(-5A-6I)-6A=19A+30I[/latex]",
+    "options": {
+      "A": "[latex]15A+12I[/latex]",
+      "B": "[latex]19A+30I[/latex]",
+      "C": "[latex]17A+15I[/latex]",
+      "D": "[latex]17A+21I[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 146 With initial condition x(1)=0.5, the solution of the differential equation [latex]t\\frac{dx}{dt}+x=t[/latex], is",
+    "solution": "The given differential equation is [latex]\\frac{tdx}{dt}+x=t[/latex] with initial condition [latex]x(t)=\\frac{1}{2}[/latex] which is same as  [latex]\\frac{dx}{dt}+\\frac{x}{t}=1[/latex] Which is a linear differential equation [latex]\\frac{dx}{dt}+P{x}=Q[/latex] Where,  [latex]P=\\frac{1}{t}[/latex] and Q=1 Integrating factor [latex]=e^{\\int P\\;dt}=e^{\\int \\frac{1}{t}dt}=e^{\\log _{e}t}=t[/latex] Solution  is [latex]\\begin{aligned} x\\cdot (IF) &=\\int Q\\cdot (IF)dt +C\\\\ x\\cdot t&= \\int 1\\cdot t\\cdot dt+C\\\\ xt&= \\frac{t^2}{2}+C\\\\ x&= \\frac{t}{2}+\\frac{C}{t}\\\\ \\text{Put } x(1)&=\\frac{1}{2} \\\\ \\Rightarrow \\; \\frac{1}{2}+\\frac{C}{1}&=\\frac{1}{2} \\\\ \\Rightarrow \\; C&=0 \\\\ \\text{So, }x&=\\frac{t}{2}\\text{ is the solution.} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]x=t-\\frac{1}{2}[/latex]",
+      "B": "[latex]x=t^{2}-\\frac{1}{2}[/latex]",
+      "C": "[latex]x=\\frac{t^{2}}{2}[/latex]",
+      "D": "[latex]x=\\frac{t}{2}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 147 Given [latex]f(z)=\\frac{1}{z+1}-\\frac{2}{z+3}[/latex]. If C is a counter clockwise path in the z-plane such that |z+1|=1, the value of [latex]\\frac{1}{2 \\pi j}\\oint_{C}f(z)dz[/latex] is",
+    "solution": "Given: [latex]\\begin{aligned} f(z)&=\\frac{1}{z+1}-\\frac{2}{z+3}\\\\ &=\\frac{(Z+3)-2(Z+1)}{(Z+1)(Z+3)}\\\\ &=\\frac{-Z+1}{(Z+1)(Z+3)} \\end{aligned}[/latex] Poles are at -1 and -3 i.e. (-1,0) and (-3,0). From figure below of |Z+1|=1, we see that (-1,0) is inside the circle and (-3,0) is outside the circle. Residue theorem says, [latex]\\frac{1}{2 \\pi j}\\oint _Cf(z)dz=[/latex]Residue of those poles which are inside C. So the required integral [latex]\\frac{1}{2 \\pi j}\\oint _Cf(z)dz[/latex] is given by the residue of function at poles (-1,0) ( which is inside the circle). This residue is [latex]=\\frac{-(-1)+1}{(-1+3)}=\\frac{2}{2}=1[/latex]",
+    "options": {
+      "A": "-2",
+      "B": "-1",
+      "C": "1",
+      "D": "2"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 148 If [latex]x = \\sqrt{-1}[/latex], then the value of [latex]x^{x}[/latex] is",
+    "solution": "[latex]\\begin{aligned} x&=i, \\text{ then in polar coordinates,} \\\\ x &=\\cos \\frac{\\pi}{2} +i \\sin \\frac{\\pi}{2}=e^{\\frac{\\pi}{2}i}\\\\ \\text{Now, } x^x&=i^i =(e^{\\frac{\\pi}{2}i})^i=e^{i^2 \\frac{\\pi}{2}}=e^{-\\frac{\\pi}{2}} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]e^{-\\pi/2}[/latex]",
+      "B": "[latex]e^{\\pi/2}[/latex]",
+      "C": "[latex]x[/latex]",
+      "D": "1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 149 Two independent random variables X and Y are uniformly distributed in the\ninterval [-1,1]. The probability that max [X,Y] is less than 1/2 is",
+    "solution": "[latex]-1 \\leq x\\leq 1 \\text{ and } -1 \\leq y\\leq 1[/latex] is the entire rectangle.The region in which maximum of {x,y} is less than 1/2 is shown below as shaded regioninside this rectangle. [latex]\\begin{aligned} P\\left ( max{x,y} \\lt \\frac{1}{2} \\right )&=\\frac{\\text{Area of shaded region}}{\\text{Area of entire rectangle}} \\\\ &= \\frac{\\frac{3}{2} \\times \\frac{3}{2}}{2 \\times 2}=\\frac{9}{16} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]3/4[/latex]",
+      "B": "[latex]9/16[/latex]",
+      "C": "[latex]1/4[/latex]",
+      "D": "[latex]2/3[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 150 The two vectors [1, 1, 1] and [latex][1,a,a^{2}][/latex] where  [latex]a=(-\\frac{1}{2}+j\\frac{\\sqrt{3}}{2})[/latex], are",
+    "solution": "Given [1, 1, 1] and [latex][1,a,a^2][/latex] hence  [latex]a=\\omega =-\\frac{1}{2}+j\\frac{\\sqrt{3}}{2}[/latex] [latex]a^2=\\omega ^2[/latex] So the vectors we have [latex]\\begin{aligned} u&=[1,1,1] \\\\ v&=[1,\\omega ,\\omega ^2] \\\\ u\\cdot v &=1\\cdot 1+1\\cdot \\omega + 1\\cdot \\omega ^2\\\\ &= 1+ \\omega + \\omega ^2=0 \\end{aligned}[/latex] So u and v are orthogonal.",
+    "options": {
+      "A": "Orthonormal",
+      "B": "Orthogonal",
+      "C": "Parallel",
+      "D": "Collinear"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 151 The matrix [latex][A]=\\begin{bmatrix} 2 &1 \\\\ 4& -1 \\end{bmatrix}[/latex] is decomposed into a product of a lower triangular matrix [L] and an upper triangular matrix [U]. The properly decomposed [L] and [U] matrices respectively are",
+    "solution": "Let us try Dolittle's decomposition by putting [latex]l_{11}=1[/latex] and [latex]l_{22}=1[/latex] [latex]\\begin{aligned} \\begin{bmatrix} 2 & 1\\\\ 4& -1 \\end{bmatrix}&=\\begin{bmatrix} 1 & 0\\\\ l_{21}& 1 \\end{bmatrix}\\begin{bmatrix} u_{11} & u_{12}\\\\ 0&u_{22} \\end{bmatrix} \\\\ u_{11}&=2, u_{12}=1 \\\\ l_{21}u_{11}&=4 \\\\ l_{21} &=\\frac{4}{2}=2 \\\\ l_{21}u_{12}+u_{22} &= -1\\\\ \\Rightarrow \\; 2 \\times 1+u_{22} &=-1 \\\\ u_{22} &=-3 \\end{aligned}[/latex] So one possible breakdown is [latex]\\begin{bmatrix} 2 & 1\\\\ 4& -1 \\end{bmatrix}=\\begin{bmatrix} 1 & 0\\\\ 2& 1\\end{bmatrix}\\begin{bmatrix} 2 & 1\\\\ 0&-3 \\end{bmatrix}[/latex] But this is not any of the choises given. So let us do Crout's decomposition, by putting [latex]u_{11}=1[/latex] and [latex]u_{22}=1[/latex] [latex]\\begin{aligned} \\begin{bmatrix} 2 & 1\\\\ 4& -1 \\end{bmatrix}&=\\begin{bmatrix} l_{11} & 0\\\\ l_{21}& l_{22} \\end{bmatrix}\\begin{bmatrix} 1 & u_{12}\\\\ 0&1 \\end{bmatrix} \\\\ l_{11} &=2,l_{11}u_{12} =1\\\\ \\Rightarrow \\; u_{12}&=\\frac{1}{2}=0.5 \\\\ l_{21}&=4,l_{21}u_{12}+l_{22}=-1 \\\\ \\Rightarrow \\; 4 \\times \\frac{1}{2}+l_{22} &=-1 \\\\ \\Rightarrow \\;l_{22} &=-3 \\\\ So\\;\\; \\begin{bmatrix} 2 & 1\\\\ 4 &-1 \\end{bmatrix} &= \\begin{bmatrix} 2 & 0\\\\ 4& -3 \\end{bmatrix}\\begin{bmatrix} 1 & 0.5\\\\ 0& 1 \\end{bmatrix} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\begin{bmatrix} 1 &0 \\\\ 4& -1 \\end{bmatrix} [/latex] and [latex]  \\begin{bmatrix} 1 &1 \\\\ 0& -2 \\end{bmatrix}[/latex]",
+      "B": "[latex]\\begin{bmatrix} 2 &0 \\\\ 4& -1 \\end{bmatrix}[/latex] and [latex]  \\begin{bmatrix} 1 &1 \\\\ 0& 1 \\end{bmatrix}[/latex]",
+      "C": "[latex]\\begin{bmatrix} 1 &0 \\\\ 4& 1 \\end{bmatrix} [/latex] and [latex] \\begin{bmatrix} 2 &1 \\\\ 0& -1 \\end{bmatrix}[/latex]",
+      "D": "[latex]\\begin{bmatrix} 2 &0 \\\\ 4& -3 \\end{bmatrix} [/latex] and [latex] \\begin{bmatrix} 1 &1.5 \\\\ 0& 1 \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 152 The function [latex]f(x)=2x-x^{2}+3[/latex] has",
+    "solution": "[latex]\\begin{aligned} f(x)&=2x-x^2+3 \\\\ f'(x)&=2-2x=0 \\\\ \\Rightarrow \\;x &=1 \\;\\text{is the stationary point} \\\\ f''(x) &=-2 \\\\ f''(1) &=-2 \\lt 0 \\end{aligned}[/latex] So at x=1 we have a relative maxima.",
+    "options": {
+      "A": "a maxima at x = 1 and minimum at x = 5",
+      "B": "a maxima at x = 1 and minimum at x =- 5",
+      "C": "only maxima at x = 1",
+      "D": "only a minimum at x = 5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 153 Solution of the variables [latex]x_1 \\; and \\; x_2[/latex] for the following equations is to be obtained\r\nby employing the Newton-Raphson iterative method. equation (1) [latex]10x_{2}sin x_{1}-0.8=0[/latex] equation (2) [latex]10x_{2}^{2}-10 x_{2} cos x_{1}-0.6=0[/latex] Assuming the initial values are [latex]x_1=0.0 \\; and \\; x_2=1.0[/latex], the jacobian matrix is",
+    "solution": "[latex]\\begin{aligned} u(x_1,x_2)&=10x_2 \\sin x_1-0.8=0\\\\ v(x_1,x_2)&=10x_2^2-10x_2 \\cos x_1-0.6=0\\\\ &\\text{The Jacobian matrix is }\\\\ \\begin{bmatrix} \\frac{\\partial u}{\\partial x_1} & \\frac{\\partial u}{\\partial x_2} \\\\ \\frac{\\partial v}{\\partial x_1} & \\frac{\\partial v}{\\partial x_2} \\end{bmatrix}&=\\begin{bmatrix} 10x_2 \\cos x_1 & 10 \\sin x_1\\\\ 10x_2 \\sin x_1& 20x_2-10 \\cos x_1 \\end{bmatrix}\\\\ &=\\begin{bmatrix} 10 & 0\\\\ 0& 10 \\end{bmatrix} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\begin{bmatrix} 10 & -0.8\\\\ 0 &-0.6 \\end{bmatrix}[/latex]",
+      "B": "[latex]\\begin{bmatrix} 10 & 0\\\\ 0 &10 \\end{bmatrix}[/latex]",
+      "C": "[latex]\\begin{bmatrix} 0 & -0.8\\\\ 10 &-0.6 \\end{bmatrix}[/latex]",
+      "D": "[latex]\\begin{bmatrix} 10 & 0\\\\ 10 &-10 \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 154 A point Z has been plotted in the complex plane, as shown in figure below. The plot of the complex number [latex]y=\\frac{1}{z}[/latex] is",
+    "solution": "Let [latex]Z=a+bi[/latex] Since Z is shown inside the unit circle in I quadrant, a and b are both +ve and [latex]0\\lt \\sqrt{a^2+b^2} \\lt 1[/latex] [latex]\\begin{aligned} \\text{Now, } \\frac{1}{Z}&= \\frac{1}{a+bi}\\\\ \\frac{a-bi}{a^2+b^2}&=\\frac{a}{a^2+b^2}-\\frac{b}{a^2+b^2}i \\\\ &\\text{since, }a,b \\gt 0, \\\\ \\frac{a}{\\sqrt{a^2+b^2}}&\\gt 0 \\\\ \\frac{-b}{a^2+b^2}&\\lt 0 \\\\ \\text{So }\\frac{1}{Z}& \\text{ is in IV quadrant} \\\\ \\left | \\frac{1}{Z} \\right |&=\\sqrt{\\left ( \\frac{a}{a^2+b^2} \\right )^2 +\\left ( \\frac{-b}{a^2+b^2}\\right )^2} \\\\ &= \\sqrt{\\frac{1}{a^2+b^2}}=\\frac{1}{\\sqrt{a^2+b^2+}}\\\\ \\text{since, } &0 \\lt \\sqrt{a^2+b^2+} \\lt 1 \\\\ \\frac{1}{\\sqrt{a^2+b^2+}}&\\gt 1\\\\ \\end{aligned}[/latex] So [latex]\\frac{1}{Z}[/latex] is outside the unit circle is IV quadrant.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/em/page31_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 155 With K as a constant, the possible solution for the first order differential equation [latex]\\frac{dy}{dx}=e^{-3x}[/latex] is",
+    "solution": "[latex]\\begin{aligned} \\frac{dy}{dx}&=e^{-3x}\\\\ \\int dy&=\\int e^{-3x}dx\\\\ y&=\\frac{e^{-3x}}{-3}+K\\\\ y&=-\\frac{1}{3}e^{-3x}+K \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]-\\frac{1}{3}e^{-3x}+K[/latex]",
+      "B": "[latex]-\\frac{1}{3}e^{3x}+K[/latex]",
+      "C": "[latex]-\\frac{1}{3}e^{-3x}+K[/latex]",
+      "D": "[latex]-3e^{-x}+K[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 156 Roots of the algebraic equation [latex]x^{3}+x^{2}+x+1=0[/latex] are",
+    "solution": "[latex]-1[/latex] is one of the root since [latex](-1)^3+(-1)^2+(-1)+1=0[/latex] By polynomial division [latex]\\frac{x^3+x^2+x+1}{(x-(-1))}=x^2+1 \\Rightarrow \\;\\; x^3+x^2+x+1=(x^2+1)(x+1)[/latex] So root are (-1,+j,-j)",
+    "options": {
+      "A": "(+1, +j, -j)",
+      "B": "(+1, -1, +1)",
+      "C": "(0, 0, 0)",
+      "D": "(-1, +j, -j)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 157 For the set of equations, [latex]x_{1}+2x_{2}+x_{3}+4x_{4}=2[/latex] and [latex]3x_{1}+6x_{2}+3x_{3}+12x_{4}=6[/latex]. The following statement is true.",
+    "solution": "[latex]\\begin{aligned} x_1+2x_2+x_3+4x_4&= 2\\\\ 3x_1+6x_2+3x_3+12x_4&= 6 \\end{aligned} [/latex] The augmental matrix is [latex]\\begin{bmatrix} 1 & 2 & 1 & 4\\\\ 3 & 6 & 3 & 12 \\end{bmatrix}\\begin{bmatrix} 2\\\\ 6 \\end{bmatrix}[/latex] Performing gauss-elimination on this we get [latex] \\begin{bmatrix} 1 & 2 & 1 & 4\\\\ 3 & 6 & 3 & 12 \\end{bmatrix}\\begin{bmatrix} 2\\\\ 6 \\end{bmatrix}\\overset{R_2-3R_1}{\\rightarrow}\\begin{bmatrix} 1 & 2 & 1 & 4\\\\ 0 & 0 & 0 & 0 \\end{bmatrix}\\begin{bmatrix} 2\\\\ 0 \\end{bmatrix} [/latex] [latex]rank (A)=rank(A|B)=1 [/latex] So, system is consistent. Since, system's rank =1 is less than the number of variables, only infinite (multiple) non-trival solution exists.",
+    "options": {
+      "A": "Only the trivial solution [latex]x_{1}=x_{2}=x_{3}=x_{4}=0[/latex] exists",
+      "B": "There are no solutions",
+      "C": "A unique non-trivial solution exists",
+      "D": "Multiple non-trivial solutions exist"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 158 For the differential equation [latex]\\frac{d^{2}x}{dt^{2}}+6\\frac{dx}{dt}+8x=0[/latex] with initial conditions x(0) = 1 and [latex]\\frac{dx}{dt}|_{t=0}=0[/latex], the solution is",
+    "solution": "[latex]\\begin{aligned}\r\n\\text{Given,  }\\frac{d^2x}{dt^2}+6\\frac{dx}{dt}+8x=0\\\\\r\nx(0)=1\\text{  and   }\\left.\\begin{matrix}\r\n\\frac{dx}{dt}\r\n\\end{matrix}\\right|_{t=0}=0\\\\\r\nD^2+6D+8=0\\\\\r\n(D+4)(D+2)=0\\\\\r\nD=-2, D=-4\\\\\r\n\\therefore \\;\\;\\text{ Solution is }\\\\\r\nx=C_1e^{-2t}+C_2e^{-4t}\\\\\r\n\\text{Since,   }x(0)=1\\\\\r\n\\text{We have  }C_1+C_2=1\\;\\;...(i)\\\\\r\n\\frac{dx}{dt}=-2C_1e^{-2t}-4C_2e^{-4t}\\\\\r\n\\text{Since,   }\\left [ \\frac{dx}{dt} \\right ]_{t=0}=0, \\text{  we have}\\\\\r\n-2C_1-4C_2=0\\;\\;\\;...(ii)\\\\\r\n\\text{Solving (i) and (ii) we have } \\\\ C_1=2 \\; and \\;C_2=-1\\\\\r\n\\text{So the solution is }\\\\\r\nx(t)=2e^{-2t}-e^{-4t} \r\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]x(t)=2e^{-6t}-e^{-2t}[/latex]",
+      "B": "[latex]x(t)=2e^{-2t}-e^{-4t}[/latex]",
+      "C": "[latex]x(t)=-e^{-6t}+2e^{-4t}[/latex]",
+      "D": "[latex]x(t)=e^{-2t}-e^{-4t}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 159 An eigenvector of [latex]P=\\begin{pmatrix} 1 & 1&0 \\\\ 0& 2 & 2\\\\ 0&0 & 3 \\end{pmatrix}[/latex] is",
+    "solution": "Given, [latex]P=\\begin{bmatrix} 1 & 1 &0 \\\\ 0& 2 & 2\\\\ 0& 0 & 3 \\end{bmatrix}[/latex] P is triangular. So eigen values are the diagonal elements themselves. Eigen values are therefore, [latex]\\lambda _1=1,\\lambda _2=2,\\lambda _3=3.[/latex] Now, the eigen value problem is [latex][A-\\lambda I]\\hat{x}=0[/latex] [latex]\\begin{bmatrix} 1-\\lambda &1 &0 \\\\ 0 & 2-\\lambda & 2\\\\ 0& 0 &3-\\lambda \\end{bmatrix}\\begin{bmatrix} x_1\\\\ x_2\\\\ x_3 \\end{bmatrix}=\\begin{bmatrix} 0\\\\ 0\\\\ 0 \\end{bmatrix}[/latex] Putting [latex]\\lambda _1=1[/latex], we get the eigen vector corresponding to this eigen value, [latex]\\begin{bmatrix} 0&1 &0 \\\\ 0 & 1& 2\\\\ 0& 0 &2 \\end{bmatrix}\\begin{bmatrix} x_1\\\\ x_2\\\\ x_3 \\end{bmatrix}=\\begin{bmatrix} 0\\\\ 0\\\\ 0 \\end{bmatrix}[/latex] Which gives the equations [latex]\\begin{aligned} x_2&=0 \\\\ x_2+2x_3&=0 \\\\ 2x_3 &=0 \\end{aligned}[/latex] The solution is [latex]x_2=0, x_3=0, x_1=k[/latex] So, one eigen vector is [latex]\\hat{x_1}=\\begin{bmatrix} k\\\\ 0\\\\ 0 \\end{bmatrix}\\;i.e.\\; x_1:x_2:x_3=k:0:0[/latex] Since, none of the eigen vectors given in choises matches with this, ratio we need to proceed further and find the other eigen vectors corresponding to the other eigen values. Now, corresponding to [latex]\\lambda _2=2,[/latex] we get by substituting [latex]\\lambda =2,[/latex], in the eigen value problem, the following set of equations, [latex]\\begin{bmatrix} -1&1 &0 \\\\ 0 & 0& 2\\\\ 0& 0 &1 \\end{bmatrix}\\begin{bmatrix} x_1\\\\ x_2\\\\ x_3 \\end{bmatrix}=\\begin{bmatrix} 0\\\\ 0\\\\ 0 \\end{bmatrix}[/latex] Which gives the equations, [latex]\\begin{aligned} -x_1+x_2&=0 \\\\ 2x_3&=0 \\\\ x_3&=0 \\end{aligned}[/latex] Solution is [latex]x_3=0, x_1=k, x_2=k[/latex] [latex]\\therefore \\; \\hat{X_2}=\\begin{bmatrix} k\\\\ k\\\\ 0 \\end{bmatrix}\\;i.e.\\; x_1:x_2:x_3=1:1:0[/latex] Since none of the eigen vectors given in the choises is of this ratio, we need to proceed further and find 3rd eigen vector also. By putting  [latex]\\lambda =3,[/latex] in the eigen value problem, we get [latex]\\begin{bmatrix} -2&1 &0 \\\\ 0 & -1& 2\\\\ 0& 0 &0 \\end{bmatrix}\\begin{bmatrix} x_1\\\\ x_2\\\\ x_3 \\end{bmatrix}=\\begin{bmatrix} 0\\\\ 0\\\\ 0 \\end{bmatrix}[/latex] [latex]\\begin{aligned} -2x_1+x_2&=0 \\\\ -x_2+2x_3&=0 \\end{aligned}[/latex] putting [latex]x_1=k[/latex], we get, [latex]x_2=2k[/latex] and [latex]x_3=k[/latex] [latex]\\therefore \\; \\hat{X_3}=\\begin{bmatrix} k\\\\ 2k\\\\ k \\end{bmatrix}\\;i.e.\\; x_1:x_2:x_3=1:2:1[/latex] Only the eigen vector geven in choise [latex]\\begin{bmatrix} 1\\\\ 2\\\\ 1 \\end{bmatrix}[/latex] is in this ratio.",
+    "options": {
+      "A": "[latex]\\begin{bmatrix} -1 &1 &1 \\end{bmatrix}^{T}[/latex]",
+      "B": "[latex]\\begin{bmatrix} 1 &2 &1 \\end{bmatrix}^{T}[/latex]",
+      "C": "[latex]\\begin{bmatrix} 1 &-1 &2 \\end{bmatrix}^{T}[/latex]",
+      "D": "[latex]\\begin{bmatrix} 2 &1 &-1 \\end{bmatrix}^{T}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 160 A box contains 4 white balls and 3 red balls. In succession, two balls are randomly\nand removed form the box. Given that the first removed ball is white, the\nprobability that the second removed ball is red is",
+    "solution": "[latex]\\begin{aligned} &P(\\text{II is red | I is white})\\\\ &=\\frac{P(\\text{II is red and I is white})}{P(\\text{I is white})}\\\\ &=\\frac{\\frac{3}{6}\\times \\frac{4}{7}}{\\frac{4}{7}}=\\frac{3}{6}=\\frac{1}{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "1/3",
+      "B": "3/7",
+      "C": "1/2",
+      "D": "4/7"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 161 At t = 0, the function [latex]f(t)=\\frac{\\sin t}{t}[/latex] has",
+    "solution": "",
+    "options": {
+      "A": "a minimum",
+      "B": "a discontinuity",
+      "C": "a point of inflection",
+      "D": "a maximum"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 162 The period of the signal [latex]x(t)=8 sin(0.8 \\pi t+ \\pi/4)[/latex] is",
+    "solution": "If period [latex]= T,[/latex] then [latex]x(t+T)=x(t)[/latex] Here,  [latex]x(t)= 8 \\sin(0.8 \\pi t+\\pi /4)[/latex] putting [latex]x(t+T)=x(t)[/latex] we get [latex]8 \\sin(0.8\\pi (t+T)+\\pi /4)=8 \\sin (0.8 \\pi t+\\pi /4)[/latex] [latex]\\sin(0.8\\pi (t+T)+\\pi /4)= \\sin (0.8 \\pi t+ \\pi /4)[/latex] [latex]\\sin(\\theta _1)=\\sin(\\theta _2)\\Rightarrow \\theta _1=\\theta _2+2 \\pi[/latex] [latex]\\therefore \\;\\;  0.8\\pi (t+T)+ \\pi /4=0.8 \\pi t+ \\pi /4+2 \\pi[/latex] [latex]0.8\\pi T=2 \\pi[/latex] [latex]T=2.5 s[/latex]",
+    "options": {
+      "A": "0.4 [latex]\\pi[/latex] s",
+      "B": "0.8 [latex]\\pi[/latex] s",
+      "C": "1.25 s",
+      "D": "2.5 s"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 163 Divergence of the three-dimensional radial vector field [latex]\\vec{r}[/latex] is",
+    "solution": "[latex]\\begin{aligned} \\vec{r} &= x\\hat{i}+y\\hat{j}+z\\hat{k}\\\\ \\text{div } \\vec{r}&= \\bigtriangledown \\cdot \\vec{r}\\\\ &=\\left ( \\hat{i}\\frac{\\partial }{\\partial x}+\\hat{j}\\frac{\\partial }{\\partial y}+\\hat{k}\\frac{\\partial }{\\partial z} \\right )(x\\hat{i}+y\\hat{j}+z\\hat{k})\\\\ &=\\frac{\\partial x}{\\partial x}+\\frac{\\partial y}{\\partial y}+\\frac{\\partial z}{\\partial z}\\\\ &=1+1+1=3 \\end{aligned}[/latex]",
+    "options": {
+      "A": "3",
+      "B": "1/r",
+      "C": "[latex](\\hat{i}+\\hat{j}+\\hat{k})[/latex]",
+      "D": "[latex]3(\\hat{i}+\\hat{j}+\\hat{k})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 164 The value of the quantity P, where [latex]P=\\int_{0}^{1}xe^{x}dx[/latex], is equal to",
+    "solution": "[latex]P=\\int_{0}^{1}xe^x\\; dx[/latex] Integrating by parts: [latex]\\begin{aligned} \\text{Let } \\; u&= x,\\\\ dv&= e^x\\; dx\\\\ du&= dx,\\\\ v&=\\int e^x\\; dx=e^x \\\\ \\text{Now, } \\int udv&= uv-\\int v\\; du\\\\ \\therefore \\;\\;\\int x e^x\\; dx &=xe^x-\\int e^x\\; dx \\\\ &=xe^x-e^x+c \\\\ \\int_{0}^{1} xe^x\\; dx&= [xe^x-e^x]_0^1\\\\ &= (1 \\times e^1 -e^1)-(0 \\times e^0 -e^0)\\\\ &= 0-(-1)\\\\ &= 1 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "e",
+      "D": "1/e"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 165 [latex]F(x,y) =(x^{2}+xy)\\hat{a}_{x}+(y^{2}+xy)\\hat{a}_{y}[/latex]. It's line integral over the straight line from (x,y)=(0,2) to (x,y)=(2,0) evaluates to",
+    "solution": "[latex]\\begin{aligned} \\bar{F}&=(x^2+xy)\\hat{a_x}+(y^2+xy)\\hat{a_y} \\\\ (x_1,y_1)&=(0,2) \\\\ (x_2,y_2)&=(2,0) \\end{aligned}[/latex] equation of starting line [latex]\\frac{y-y_1}{x-x_1}=\\frac{y_1-y_1}{x_2-x_1}\\Rightarrow \\;y=2-x\\;\\;\\;dy=-dx[/latex] [latex]\\bar{F}\\cdot \\bar{dl}=(x^2+xy)dx+(y^2+xy)dy[/latex] Putting [latex]y=2-x[/latex] and [latex]dy=-dx[/latex] [latex]\\int \\bar{F}\\cdot \\bar{dl}=\\int_{0}^{2}2xdx-\\int_{0}^{2}(4-2x)dx=0[/latex]",
+    "options": {
+      "A": "-8",
+      "B": "4",
+      "C": "8",
+      "D": "0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 166 Let [latex]x^{2}- 117 = 0[/latex]. The iterative steps for the solution using Newton-Raphon's method is given by",
+    "solution": "[latex]\\begin{aligned} x_{k+1}&=x_k-\\frac{f(x_k)}{f'(x_k)}\\\\ &=x_k-\\frac{x_k^2-117}{2x_k}\\\\ &=\\frac{1}{2}\\left [ x_k+\\frac{117}{x_k} \\right ] \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]x_{k+1}=\\frac{1}{2}(x_{k}+\\frac{117}{x_{k}})[/latex]",
+      "B": "[latex]x_{k+1}=(x_{k}-\\frac{117}{x_{k}})[/latex]",
+      "C": "[latex]x_{k+1}=(x_{k}-\\frac{x_{k}}{117})[/latex]",
+      "D": "[latex]x_{k+1}=x_{k}-\\frac{1}{2}(x_{k}+\\frac{117}{x_{k}})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 167 A cubic polynomial with real coefficients",
+    "solution": "",
+    "options": {
+      "A": "Can possibly have no extrema and no zero crossings",
+      "B": "May have up to three extrema and upto 2 zero crossings",
+      "C": "Cannot have more than two extrema and more than three zero crossings",
+      "D": "Will always have an equal number of extrema and zero crossings"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 168 Assume for simplicity that N people, all born in April (a month of 30 days), are\ncollected in a room. Consider the event of at least two people in the room being\nborn on the same date of the month, even if in different years, e.g. 1980 and 1985.\nWhat is the smallest N so that the probability of this event exceeds 0.5 ?",
+    "solution": "",
+    "options": {
+      "A": "20",
+      "B": "7",
+      "C": "15",
+      "D": "16"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 169 [latex]f (x,y)[/latex] is a continuous function defined over [latex](x,y) \\in [0,1] \\times [0,1][/latex]. Given the two constraints, [latex]x \\gt y^2[/latex] and [latex]y \\gt x^2[/latex], the volume under [latex]f (x,y)[/latex] is",
+    "solution": "[latex]\\int_{y=0}^{y=1}\\int_{x=y^2}^{x=y}f(x,y)dxdy[/latex]",
+    "options": {
+      "A": "[latex]\\int_{y=0}^{y=1}\\int_{x=y^{2}}^{x=\\sqrt{y}}f(x,y)dxdy[/latex]",
+      "B": "[latex]\\int_{y=x^2}^{y=1}\\int_{x=y^2}^{x=1}f(x,y)dxdy[/latex]",
+      "C": "[latex]\\int_{y=0}^{y=1}\\int_{x=0}^{x=1}f(x,y)dxdy[/latex]",
+      "D": "[latex]\\int_{y=0}^{y=\\sqrt{x}}\\int_{x=0}^{x=\\sqrt{y}}f(x,y)dxdy[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 170 The trace and determinant of a 2x2 matrix are known to be -2 and -35\nrespectively. Its eigenvalues are",
+    "solution": "Trace = Sum of principal diagonal element.",
+    "options": {
+      "A": "-30 and -5",
+      "B": "-37 and -1",
+      "C": "-7 and 5",
+      "D": "17.5 and -2"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 171 Let P be a 2x2 real orthogonal matrix and [latex]\\vec{x}[/latex] is a real vector [latex][x_{1},x_{2}]^{T}[/latex] with length [latex]|\\vec{x}|=(x_{1}^{2}+x_{2}^{2})^{1/2}[/latex]. Then, which one of the following statements is correct?",
+    "solution": "Let on orthogonal matrix [latex]P=\\begin{bmatrix} \\cos \\theta & -\\sin \\theta \\\\ \\sin \\theta & \\cos \\theta \\end{bmatrix}[/latex] Properly of orthogonal matrix A [latex]\\begin{aligned} AA^T &=I \\\\ \\text{So }\\vec{P_x} &=\\begin{bmatrix} x_1 \\cos \\theta -x_2 \\sin \\theta \\\\ x_1 \\sin \\theta +x_2 \\cos \\theta \\end{bmatrix} \\\\ ||\\vec{P_x}|| &=\\sqrt{(x_1 \\cos \\theta -x_2 \\sin \\theta)^2+\\sqrt{(x_1 \\sin \\theta +x_2 \\cos \\theta )^2}} \\\\ ||\\vec{P_x}|| &=\\sqrt{x_1^2+x_2^2} \\\\ ||\\vec{P_x}|| &= ||\\bar{x}|| \\text{ for any vector }\\bar{x} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]|P{\\vec{x}}|\\leq |\\vec{x}|[/latex] where at least one vector satisfies [latex]|P{\\vec{x}}|\\lt|\\vec{x}|[/latex]",
+      "B": "[latex]|P{\\vec{x}}|= |\\vec{x}|[/latex] for all vector  [latex]\\vec{x}[/latex]",
+      "C": "[latex]|P{\\vec{x}}|\\geq |\\vec{x}|[/latex] where at least one vector satisfies [latex]|P{\\vec{x}}|\\gt |\\vec{x}|[/latex]",
+      "D": "No relationship can be established between [latex]|{\\vec{x}}| \\; and \\; |P\\vec{x}|[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 172 A differential equation [latex]\\frac{dx}{dt} = e^{-2t}[/latex]u(t), has to be solved using trapezoidal rule of integration with a step size h=0.01s. Function u(t) indicates a unit step function. If x(0-)=0, then value of x at t=0.01s will be given by",
+    "solution": "[latex]\\begin{aligned} \\frac{dx}{dt} &= e^{-2t}u(t)\\\\ x&=\\int e^{-2t}u(t)dt=\\int f(t)dt \\\\ At\\;\\;t&=0.015, x=\\text{Area of trapezoidal} \\\\ &=\\frac{h}{2}[f(0)+f(0.01)] \\\\ &= \\frac{0.01}{2}[1+3^{-0.02}]=0.0099 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.00099",
+      "B": "0.00495",
+      "C": "0.0099",
+      "D": "0.0198"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 173 A is [latex]m \\times n[/latex] full rank matrix with [latex]m \\gt n[/latex] and I is identity matrix. Let matrix\r\n[latex]A^{+} = (A^{T}A)^{-1}A^{T}[/latex]. Then, which one of the following statement is FALSE ?",
+    "solution": "[latex]\\begin{aligned} \\text{Choice (A) } AA^+A&=A \\text{ is corect} \\\\ \\text{Since, } AA^+A&=A[(A^TA)^{-1}A^T]A \\\\ &=A[(A^TA)^{-1}A^TA] \\\\ \\text{Put, }A^TA&=P \\\\ &= A[P^{-1} P]\\\\ &= AI=A\\\\ \\text{Choice (C) } A^+A&=I \\text{ is also correct since} \\\\ A^+A&=(A^TA)^{-1}A^TA \\\\ &= P^{-1}P=I \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]AA^+A=A[/latex]",
+      "B": "[latex](AA^+)^{2}=AA^+[/latex]",
+      "C": "[latex]A^+A=I[/latex]",
+      "D": "[latex]AA^+A=A^+[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 174 Equation [latex]e^{x} - 1 = 0[/latex] is required to be solved using Newton's method with an initial guess [latex]x_0=-1[/latex]. Then, after one step of Newton's method, estimate [latex]x_1[/latex] of the solution will be given by",
+    "solution": "Here, [latex]\\begin{aligned} f(x)&=e^x-1\\\\ f(x)&=e^x \\end{aligned}[/latex] The newton raphson iterative equation is [latex]\\begin{aligned} x_{i+1}&=x_i-\\frac{f(x_i)}{f'(x_i)}\\\\ f(x_i)&=e^{xi}-1\\\\ f'(x_i)&=e^{xi}\\\\ \\therefore \\;\\; x_{i+1}&=x_i-\\frac{e^{x_i}-1}{e^{x_i}}\\\\ i.e.\\;\\;x_{i+1}&=\\frac{x_ie^{x_i}-(e^{x_i}-1)}{e^{x_i}}\\\\ &=\\frac{e^{x_i}(x_i-1)+1}{e^{x_i}}\\\\ \\text{Now put }i&=0\\\\ x_1&=\\frac{e^{x_0}(x_0-1)+1}{e^{x_0}}\\\\ \\text{put, }x_0&=-1 \\text{ as given,}\\\\ x_1&=[e^{-1}(-2)+1]/e^{-1}\\\\ &=0.71828 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.71828",
+      "B": "0.36784",
+      "C": "0.20587",
+      "D": "0"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 175 Consider function  [latex]f (x) =(x^{2}-4)^{2}[/latex] where x is a real number. Then the function has",
+    "solution": "[latex]\\begin{aligned} f(x) &=(x^2-4)^2 \\\\ f'(x)&=2(x^2-4) \\times 2x \\\\ &= 4x(x^2-4)=0\\\\ & x=0, \\; x=2 \\; \\text{and} \\; x=-2 \\\\ & \\text{are the stationary points}\\\\ f''(x)&=4[x(2x)+(x^2-4) \\times 1] \\\\ &= 4[2x^2+x^2-4]\\\\ &= 12x^2-16\\\\ f''(0)&=-16 \\lt 0\\; \\text{ maxima at } x=0 \\\\ f'(2)&=(12)2^2-16 \\\\ &= 32 \\gt 0\\text{ minima at } x=2\\\\ f'(-2)&=12(-2)^2-16 \\\\ &= 32 \\gt 0\\text{ minima at } x=-2 \\end{aligned}[/latex] Therefore, there is only one maxima and only two minima for this function.",
+    "options": {
+      "A": "only one minimum",
+      "B": "only tw0 minima",
+      "C": "three minima",
+      "D": "three maxima"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 176 If the rank of a (5x6) matrix [latex]Q[/latex] is 4, then which one of the following statement\r\nis correct ?",
+    "solution": "If rank of (5 x 6) matrix is 4, then surely it must have exactly 4 linearly independent rows as will as 4 linearly independent columns.",
+    "options": {
+      "A": "[latex]Q[/latex] will have four linearly independent rows and four linearly independent columns",
+      "B": "[latex]Q[/latex] will have four linearly independent rows and five linearly independent columns",
+      "C": "[latex]QQ^{T}[/latex]will be invertible",
+      "D": "[latex]Q^{T}Q[/latex] will be invertible"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 177 The characteristic equation of a (3x3) matrix P is defined as [latex]a(\\lambda )|\\lambda I-P|= \\lambda ^{3}+ \\lambda ^{2}+ 2\\lambda +1=0[/latex] If [latex]I[/latex] denotes identity matrix, then the inverse of matrix [latex]P[/latex] will be",
+    "solution": "If characteristic equation is [latex]\\lambda ^3+\\lambda ^2+2\\lambda +1=0[/latex] Then by cayley- hamilton theorem, [latex]P^3+P^2+2P+I=0[/latex] [latex]I=-P^3-P^2-2P[/latex] Multiplying by [latex]P^{-1}[/latex] on both sides, [latex]P^{-1}=-P^2-P-2I=-(P^2+P+2I)[/latex]",
+    "options": {
+      "A": "[latex](P^{2}+P+2I)[/latex]",
+      "B": "[latex](P^{2}+P+I)[/latex]",
+      "C": "[latex]-(P^{2}+P+I)[/latex]",
+      "D": "[latex]-(P^{2}+P+2I)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 178 X is a uniformly distributed random variable that takes values between 0 and 1.\nThe value of E{[latex]X^{3}[/latex]} will be",
+    "solution": "x is uniformly distributes in [0,1] Therefore, probability density function [latex]\\begin{aligned} f(x)&=\\frac{1}{b-a} =\\frac{1}{1-0}=1\\\\ \\therefore \\; f(x) &=1\\;\\;\\;0 \\lt x \\lt 1 \\\\ &=0\\;\\;\\;\\text{elsewhere} \\\\ \\text{Now, } E(x^3)&=\\int_{0}^{1}x^3f(x)\\; dx \\\\ &= \\int_{0}^{1}x^3 \\times 1 \\times dx\\\\ &= \\left [ \\frac{x^4}{4} \\right ]_0^1=\\frac{1}{4} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0",
+      "B": "[latex]1/8[/latex]",
+      "C": "[latex]1/4[/latex]",
+      "D": "[latex]1/2[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 179 Cayley-Hamilton Theorem states that a square matrix satisfies its own\r\ncharacteristic equation. Consider a matrix [latex]A=\\begin{bmatrix} -3 & 2\\\\ -2& 0 \\end{bmatrix}[/latex] [latex]A^9[/latex] equals",
+    "solution": "To calculate [latex]A^9[/latex] start from [latex]A^2+3A+2I=0[/latex] which has been derived above [latex]\\begin{aligned}\n\\Rightarrow \\; A^2 &=-3A-2I \\\\ \n AA^4&=A^2 \\times A^2 \\\\ \n &= (-3A-2I)(-3A-2I)\\\\ \n &=9A^2+12A+4I \\\\ \n &= 9(-3A-2I)+12A+4I\\\\ \n &= -15A-14I\\\\ \n A^8&=A^4 \\times A^4 \\\\ \n &= (-15A-14I)(-15A-14I)\\\\ \n &=225A^2+420A+156I \\\\ \n &=225(-3A-2I)+420A+196I \\\\ \n &=-225A-254I \\\\ \n A^9&=A \\times A^8 \\\\ \n &=A(-255A-254I) \\\\ \n &=-255A^2-254A \\\\ \n &=-255(-3A-2I)-254A \\\\ \n &= 511A+510I\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]511A +510 I[/latex]",
+      "B": "[latex]309A +104 I[/latex]",
+      "C": "[latex]154A +155 I[/latex]",
+      "D": "[latex]exp(9A)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 180 Cayley-Hamilton Theorem states that a square matrix satisfies its own\r\ncharacteristic equation. Consider a matrix [latex]A=\\begin{bmatrix} -3 & 2\\\\ -2& 0 \\end{bmatrix}[/latex] [latex]A[/latex] satisfies the relation",
+    "solution": "[latex]\\begin{aligned} A&= \\begin{bmatrix} -3 & 2\\\\ -1& 0 \\end{bmatrix}\\\\ |A-\\lambda I|&=0 \\\\ \\begin{vmatrix} -3-\\lambda & 2\\\\ -1 & 0-\\lambda \\end{vmatrix}&= 0\\ (-3-\\lambda )(-\\lambda )+2&=0 \\\\ \\lambda ^2+3\\lambda +2 &=0 \\end{aligned}[/latex] A will satisfy this equation according to cayley hamition theorem i.e.  [latex]A^2+3A+2I=0[/latex] multiplying by [latex]A^{-1}[/latex] on both sides we get [latex]A^{-1}A^2+3A^{-1}A+2A^{-1}I=0[/latex] [latex]A+3I+2A^{-1}=0[/latex]",
+    "options": {
+      "A": "[latex]A+3I+2A^{-1}=0[/latex]",
+      "B": "[latex]A^2+2A+2I=0[/latex]",
+      "C": "[latex](A+I)(A+2I)[/latex]",
+      "D": "[latex]exp(A)=0[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 181 The linear operation L(x) is defined by the cross product [latex]L(x)=b \\times x[/latex], where [latex]b=[0 1 0]^{T} \\; and \\; x=[x_{1} x_{2} x_{3}]^{T}[/latex] are three dimensional vectors. The 3x3 matrix M of this operations satisfies [latex]L(x)=M\\begin{bmatrix} x_{1}\\\\ x_{2}\\\\ x_{3} \\end{bmatrix}[/latex] Then the eigenvalues of M are",
+    "solution": "The eigen values of M are [latex](i,-i,1)[/latex]",
+    "options": {
+      "A": "0, +1, -1",
+      "B": "1, -1, 1",
+      "C": "i, -i, 1",
+      "D": "i, -i, 0"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 182 Let x and y be two vectors in a 3 dimensional space and [latex]\\lt x,y \\gt[/latex] denote their\ndot product. Then the determinant [latex]det\\begin{bmatrix} & \\\\ & \\end{bmatrix}[/latex]",
+    "solution": "",
+    "options": {
+      "A": "is zero when x and y are linearly independent",
+      "B": "is positive when x and y are linearly independent",
+      "C": "is non-zero for all non-zero x and y",
+      "D": "is zero only when either x or y is zero"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 183 A loaded dice has following probability distribution of occurrences If three identical dice as the above are thrown, the probability of occurrence of\nvalues 1, 5 and 6 on the three dice is",
+    "solution": "[latex]\\begin{matrix} \\text{Dice value} & 1 & 2 & 3 & 4 & 5 & 6\\\\ \\text{Probability} & \\frac{1}{4} & \\frac{1}{8} & \\frac{1}{8} & \\frac{1}{8} & \\frac{1}{8} & \\frac{1}{4} \\end{matrix}[/latex] [latex]P(1,5,6)=\\frac{1}{4} \\times \\frac{1}{8} \\times \\frac{1}{4}=\\frac{1}{128}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/em/page37_q3.webp",
+    "options": {
+      "A": "same as that of occurrence of 3, 4, 5",
+      "B": "same as that of occurrence of 1, 2, 5",
+      "C": "1/128",
+      "D": "[latex]5/8[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 184 The integral [latex]\\frac{1}{2\\pi }\\int_{0}^{2 \\pi} \\sin(t-\\tau ) \\cos \\tau d \\tau[/latex]\r\n equals",
+    "solution": "By property of infinite integral, [latex]\\int_{0}^{2 \\pi}f(x)=\\int_{0}^{2\\pi}t(2 \\pi -x)=-f(x)=0[/latex]",
+    "options": {
+      "A": "sin t cos t",
+      "B": "0",
+      "C": "(1/2)cos t",
+      "D": "(1/2) sin t"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 185 The value of [latex]\\oint_{c}\\frac{dz}{(1+z^{2})}[/latex] where C is the contour |z-i/2|=1 is",
+    "solution": "",
+    "options": {
+      "A": "[latex]2 \\pi i[/latex]",
+      "B": "[latex]\\pi[/latex]",
+      "C": "[latex]tan^{-1} z[/latex]",
+      "D": "[latex]\\pi i tan^{-1}z[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 186 The differential equation [latex]\\frac{dx}{dt}=\\frac{1-x}{\\tau }[/latex] is discretised using Euler's numerical integration method with a time step [latex]\\Delta T \\gt 0[/latex]. What is the maximum permissible value of [latex]\\Delta[/latex]T to ensure stability of the solution of the corresponding discrete time equation ?",
+    "solution": "",
+    "options": {
+      "A": "1",
+      "B": "[latex]\\tau /2[/latex]",
+      "C": "[latex]\\tau [/latex]",
+      "D": "[latex]2 \\tau [/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 187 [latex]x=[x_{1} x_{2} ... x_{n}]^{T}[/latex] is an n-tuple nonzero vector. The nxn matrix [latex]V=xx^{T}[/latex]",
+    "solution": "The nxn matrix, [latex]V=XX^T[/latex] has rank 1.",
+    "options": {
+      "A": "has rank zero",
+      "B": "has rank 1",
+      "C": "is orthogonal",
+      "D": "has rank n"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 188 [latex]p=\\begin{bmatrix} -10\\; \\; 1\\; \\; 3 \\end{bmatrix}^{T},[/latex] [latex]q=\\begin{bmatrix} -2\\; \\; -5\\; \\; 9 \\end{bmatrix}^{T},[/latex] [latex]r=\\begin{bmatrix} 2\\; \\; -7\\; \\; 12 \\end{bmatrix}^{T}[/latex] are three Vectors. The following vector is linearly dependent upon the orthogonal set of vectors having a span that contains p, q, r is",
+    "solution": "",
+    "options": {
+      "A": "[latex][8 \\; \\; 9 \\; \\; 3]^T [/latex]",
+      "B": "[latex][-2 \\; \\; -17 \\; \\; 30]^T [/latex]",
+      "C": "[latex][4 \\; \\; 4 \\; \\; 5]^T [/latex]",
+      "D": "[latex][13 \\; \\; 2 \\; \\; -3]^T [/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 189 [latex]p=\\begin{bmatrix} -10\\; \\; 1\\; \\; 3 \\end{bmatrix}^{T},[/latex] [latex]q=\\begin{bmatrix} -2\\; \\; -5\\; \\; 9 \\end{bmatrix}^{T},[/latex] [latex]r=\\begin{bmatrix} 2\\; \\; -7\\; \\; 12 \\end{bmatrix}^{T}[/latex] are three Vectors. An orthogonal set of vectors having a span that contains p, q, r is",
+    "solution": "",
+    "options": {
+      "A": "[latex][-6 \\; \\; -3 \\; \\; 6]^T,[4 \\; \\; -2 \\; \\; 3]^T [/latex]",
+      "B": "[latex][-4 \\; \\; 2 \\; \\; 4]^T,[5 \\; \\; 7 \\; \\; -11]^T,[8 \\; \\; 2 \\; \\; -3]^T [/latex]",
+      "C": "[latex][6 \\; \\; 7 \\; \\; -1]^T,[-3 \\; \\; 12 \\; \\; -2]^T,[3 \\; \\; 9 \\; \\; -4]^T [/latex]",
+      "D": "[latex][4 \\; \\; 3 \\; \\; 11]^T,[1 \\; \\; 31 \\; \\; 3]^T,[5 \\; \\; 3 \\; \\; 4]^T [/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 190 Two fair dice are rolled and the sum r of the numbers turned up is considered",
+    "solution": "If two fair dices are rolles the probability distribution of r where r is the sum of the numbers on each die is given by The above table has been obtained by taking all different ways of obtaining a particular sum. For example, a sum of 5 can be obtained by (1,4), (2,3), (3,2), and (4,1). [latex]\\therefore \\; P(x=5)=4/36[/latex] Now let us consider choise (A) [latex]\\begin{aligned}& Pr(r \\gt 6)=Pr(r \\geq 7) \\\\ &=\\frac{6}{36}+\\frac{5}{36}+\\frac{4}{36}+\\frac{3}{36}+\\frac{2}{36}+\\frac{1}{36}\\\\ &=\\frac{21}{36}=\\frac{7}{12} \\\\ &\\therefore \\text{ Choise (A) }Pr(r \\gt 6)=1/6 \\text{ is wrong} \\end{aligned}[/latex] Consider choise (C) [latex]\\begin{aligned} &Pr(r=8| r/4 \\text{ is an integer})=\\frac{1}{36} \\\\ &\\text{Now,}\\\\ & Pr(r/4 \\text{ is an integer})\\\\ &=Pr(r=4) +Pr(r=8)+Pr(r=12)\\\\ &=\\frac{3}{36}+\\frac{5}{36}+\\frac{1}{36}=\\frac{9}{36}=\\frac{1}{4}\\\\ & Pr(\\text{r=8 and r/4 is an integer} )\\\\ & =Pr(r=8)=\\frac{5}{36}\\\\ &\\therefore \\;\\; Pr(\\text{r=8 and r/4 is an integer})\\\\ &\\frac{5/36}{1/4}=\\frac{20}{360}=\\frac{5}{9} \\end{aligned}[/latex] Choice (C) is correct.",
+    "options": {
+      "A": "[latex]Pr(r\\gt 6)=\\frac{1}{6}[/latex]",
+      "B": "Pr (r/3 is an integer)=[latex]\\frac{5}{6}[/latex]",
+      "C": "Pr (r = 8 | r/4 is an integer)=[latex]\\frac{5}{9}[/latex]",
+      "D": "Pr (r = 6 |r/5 is an integer)=[latex]\\frac{1}{18}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 191 A surface S(x,y)=2x+5y-3 is integrated once over a path consisting of the\npoints that satisfy [latex](x+1)^2+(y-1)^2=\\sqrt{2}[/latex] . The integral evaluates to",
+    "solution": "",
+    "options": {
+      "A": "[latex]17\\sqrt{2}[/latex]",
+      "B": "[latex]17/\\sqrt{2}[/latex]",
+      "C": "[latex]\\sqrt{2}/17[/latex]",
+      "D": "0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 192 The expression [latex]V=\\int_{0}^{H}\\pi R^{2}(1-h/H)^{2}dh[/latex] for the volume of a cone is equal to",
+    "solution": "We have consider option (A) and (D) only because which contains variable r. By integrating (D), we get [latex]\\frac{1}{3} \\pi r^2 H[/latex], which is volume of cone.",
+    "options": {
+      "A": "[latex]\\int_{0}^{R}\\pi R^{2}(1-h/H)^{2}dr[/latex]",
+      "B": "[latex]\\int_{0}^{R}\\pi R^{2}(1-h/H)^{2}dh[/latex]",
+      "C": "[latex]\\int_{0}^{H}2 \\pi rH(1-r/R)dh[/latex]",
+      "D": "[latex]\\int_{0}^{R}2 \\pi rH(1-r/R)^{2}dr[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 193 For the equation [latex]\\ddot{x}(t) + 3\\dot{x}(t) + 2x(t) = 5[/latex], the solution [latex]x(t)[/latex] approaches which of\r\nthe following values as [latex]t \\rightarrow \\infty[/latex] ?",
+    "solution": "[latex]x''(t)+3x'(t)+2x(t)=5[/latex] By taking Laplace transform, [latex]\\begin{aligned} (s^2+3s+2)X(s)&=\\frac{5}{s}\\\\ \\therefore \\;\\; X(s)&=\\frac{\\frac{5}{s}}{s^2+3s+2}\\\\ \\lim_{t \\to \\infty }&= \\lim_{s \\to 0}sX(s)=\\frac{5}{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0",
+      "B": "[latex]\\frac{5}{2}[/latex]",
+      "C": "5",
+      "D": "10"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 194 For the scalar field [latex]u=\\frac{x^{2}}{2}+\\frac{y^{2}}{3}[/latex], magnitude of the gradient at the point (1, 3) is",
+    "solution": "Gad [latex]u=i\\frac{\\partial u}{\\partial x}+\\frac{\\partial u}{\\partial y}=x\\hat{i}+\\frac{2}{3}y\\hat{j}[/latex] At (1,3) Grad [latex]u=\\sqrt{1^2+\\left [ \\frac{2}{3} \\times 3 \\right ]^2}=\\sqrt{5}[/latex]",
+    "options": {
+      "A": "[latex]\\sqrt{\\frac{13}{9}}[/latex]",
+      "B": "[latex]\\sqrt{\\frac{9}{2}}[/latex]",
+      "C": "[latex]\\sqrt{5}[/latex]",
+      "D": "[latex]\\frac{9}{2}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 195 For the function [latex]f (x) = x^{2}e^{x}[/latex], the maximum occurs when [latex]x[/latex] is equal to",
+    "solution": "[latex]\\begin{aligned} f(x)&=x^2e^{-x}\\\\ f'(x)&=x^2(-e^{-x})+e^{-x} \\times 2x\\\\ &=e^{-x}(2x-x^2)\\\\ \\text{Putting, } f'(x)&=0\\\\ e^{-x}(2x-x^2)&=0\\\\ e^{-x}x(2-x)&=0\\\\ \\end{aligned}[/latex] [latex] x =0 [/latex] or  [latex] x=2[/latex] are the stationary points. [latex]\\begin{aligned} \\text{Now, } f''(x) &= e^{-x}(2-2x)+(2x-x^2)(-e^{-x})\\\\ &= e^{-x}(2-2x-(2x-x^2))\\\\ &= e^{-x}(x^2-4x+2)\\\\ At\\;x=0& \\\\ f''(0)&= e^{-0}(0-0+2)=2 \\end{aligned}[/latex] Since [latex]f''(x)=2[/latex] is [latex]\\gt 0[/latex] at [latex]x=0[/latex] we have a minima. Now at [latex]x=2[/latex] [latex] \\begin{aligned} f''(2)&=e^{-2}(2^2-4\\times 2 +2) \\\\ &=-2e^{-2} \\lt 0 \\end{aligned} [/latex] [latex]\\therefore \\;\\; At \\;\\; x=2[/latex] we have a maxima.",
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "0",
+      "D": "-1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 196 A fair coin is tossed three times in succession. If the first toss produces a head,\nthen the probability of getting exactly two heads in three tosses is",
+    "solution": "[latex]\\begin{aligned} P(A|B)&=\\frac{P(A\\cap B)}{P(B)}\\\\ \\therefore \\; &P(\\text{2 heads in 3 tosses }| \\text{ first toss is head})\\\\ &=\\frac{P(\\text{3 heads in 3 tosses and first toss is head})}{P(\\text{ first toss is head})}\\\\ &=P(\\text{ first toss is head})\\\\ &=\\frac{1}{2}\\\\ &P(\\text{2 heads in 3 tosses and first toss is head})\\\\ &=P(HHT)+P(HTH)\\\\ &=\\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2} +\\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2} =\\frac{1}{4}\\\\ \\therefore \\;&\\text{ Required probability}=\\frac{1/4}{1/2}=\\frac{1}{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{8}[/latex]",
+      "B": "[latex]\\frac{1}{2}[/latex]",
+      "C": "[latex]\\frac{3}{8}[/latex]",
+      "D": "[latex]\\frac{3}{4}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 197 If [latex]R=\\begin{bmatrix} 1 & 0&-1 \\\\ 2& 1 & -1\\\\ 2&3 & 2 \\end{bmatrix}[/latex], then top row of [latex]R^{-1}[/latex] is",
+    "solution": "[latex]\\begin{aligned} R &=\\begin{bmatrix} 1 &0 &-1 \\\\ 2 & 1 & -1\\\\ 2& 3& 2 \\end{bmatrix} \\\\ R^{-1} &=\\frac{adj(R)}{|R|}=\\frac{[\\text{cofator }(R)]^T}{|R|} \\\\ |R|&=\\begin{vmatrix} 1 &0 &-1 \\\\ 2 & 1 & -1\\\\ 2 & 3& 2 \\end{vmatrix} \\\\ &=1(2+3)-0(4+2)-1(6-2) \\\\ &= 5-4=1 \\end{aligned}[/latex] Since we need only the top row of [latex]R^{-1}[/latex], we need to find only first column of (R) which after transpose will become first row of Adj(A). [latex]\\begin{aligned}\r\n \\text{co-factor of (1,1)}&=+\\begin{vmatrix}\r\n1 &-1 \\\\ \r\n3 & 2\r\n\\end{vmatrix} \\\\ \r\n &=2+3=5 \\\\ \r\n \\text{co-factor of (2,1)}&=+\\begin{vmatrix}\r\n0 &-1 \\\\ \r\n1 & -1\r\n\\end{vmatrix}=-3 \\\\ \r\n\\text{co-factor of (3,1)}&=+\\begin{vmatrix}\r\n0 &-1 \\\\ \r\n1 & -1\r\n\\end{vmatrix}=+1\\\\\r\n\\therefore \\;\\text{ co-factor of (A)} &= \\begin{bmatrix}\r\n5 &-  &- \\\\ \r\n-3 & - &- \\\\ \r\n 1& - & -\r\n\\end{bmatrix}\\\\ \r\n Adj(A)&= [cof.(A)]^T\\\\ \r\n &= \\begin{bmatrix}\r\n5 &-3  &1 \\\\ \r\n- & - &- \\\\ \r\n -& - & -\r\n\\end{bmatrix}\\\\ \r\n\\text{Dividing by |R|} &= 1 \\text{ gives}\\\\ \r\n R^{-1}&= \\begin{bmatrix}\r\n5 &-3  &1 \\\\ \r\n- & - &- \\\\ \r\n -& - & -\r\n\\end{bmatrix}\\\\ \r\n \\therefore \\;\\; \\text{top row of }R^{-1}&=[5\\;-3\\;1]\r\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[5   6   4]",
+      "B": "[5   -3    1]",
+      "C": "[2   0   -1]",
+      "D": "[2   1    1/2]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 198 For the matrix [latex]p=\\begin{bmatrix} 3 & -2&2 \\\\ 0& -2 & 1\\\\ 0 &0 & 1 \\end{bmatrix}[/latex] one of the eigen values is equal to -2. Which of the following is an eigen vector ?",
+    "solution": "Since matrix is triangular, the eigen values are the diagonal elements themselves namely [latex]\\lambda =3, -2[/latex] and 1. Corresponding to eigen value [latex]\\lambda = -2[/latex] let us find the eigen vector [latex][A-\\lambda I]\\hat{x}=0[/latex] [latex]\\begin{bmatrix} 3-\\lambda & -2 & 2\\\\ 0 & -2-\\lambda & 1\\\\ 0& 0 & 1-\\lambda \\end{bmatrix}\\begin{bmatrix} x_1\\\\ x_2\\\\ x_3 \\end{bmatrix}=\\begin{bmatrix} 0\\\\ 0\\\\ 0 \\end{bmatrix}[/latex] Putting  [latex]\\lambda = -2[/latex] in above equation we get, [latex]\\begin{bmatrix} 5 & -2 & 2\\\\ 0 & 0 & 1\\\\ 0& 0 & 3\\end{bmatrix}\\begin{bmatrix} x_1\\\\ x_2\\\\ x_3 \\end{bmatrix}=\\begin{bmatrix} 0\\\\ 0\\\\ 0 \\end{bmatrix}[/latex] Which gives the equations, [latex]\\begin{aligned} 5x_1-2x_2+2x_3&=0 \\;\\;...(i)\\\\ x_3 &=0 \\;\\;...(ii)\\\\ 3x_3&=0 \\;\\;...(iii) \\end{aligned}[/latex] Since equation (ii) and (iii) are same we have [latex]\\begin{aligned} 5x_1-2x_2+2x_3&=0 \\;\\;...(i)\\\\ x_3 &=0 \\;\\;...(ii)\\end{aligned}[/latex]\nPutting [latex]x_2=k[/latex], we get [latex]x_3=0, x_2=k[/latex] and [latex]5x_1-2k+2 \\times 0=0[/latex] [latex]\\Rightarrow \\;x_1=2/5 \\;k[/latex] Eigen vectors are of the form [latex]\\begin{bmatrix} x_1\\\\ x_2\\\\ x_3 \\end{bmatrix}=\\begin{bmatrix} 2/5 k\\\\ k\\\\ 0 \\end{bmatrix}[/latex] [latex]\\begin{aligned} x_1:x_2:x_3&=2/5k:k:0\\\\ &=2/5:1:0\\\\ &=2:5:0 \\end{aligned}[/latex] [latex]\\therefore \\;\\;\\begin{bmatrix} x_1\\\\ x_2\\\\ x_3 \\end{bmatrix}=\\begin{bmatrix} 2\\\\ 5\\\\ 0 \\end{bmatrix}[/latex] is an eigen vector of matrix p.",
+    "options": {
+      "A": "[latex]\\begin{bmatrix} 3\\\\ -2\\\\ 1 \\end{bmatrix}[/latex]",
+      "B": "[latex]\\begin{bmatrix} -3\\\\ 2\\\\ -1 \\end{bmatrix}[/latex]",
+      "C": "[latex]\\begin{bmatrix} 1\\\\ -2\\\\ 3 \\end{bmatrix}[/latex]",
+      "D": "[latex]\\begin{bmatrix} 2\\\\ 5\\\\ 0 \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 199 The solution of the first order differential equation [latex]\\dot{x} (t) =- 3x(t), x(0) = x_0[/latex] is",
+    "solution": "[latex]\\begin{aligned} \\text{Given, } \\dot{x}(t)&=-3x(t) \\\\ i.e.\\;\\;\\; \\frac{dx}{dt}&= -3x\\\\ \\frac{dx}{x}&=-3 dt \\\\ \\int \\frac{dx}{x}&=\\int -3 dt \\\\ \\ln x&= -3t+C\\\\ x&=e^{-3t+C}=e^C \\times e^{-3t} \\\\ \\text{Putting }e^C&=C_1 \\\\ x&=C_1 \\times e^{-3t} \\end{aligned}[/latex] Now putting initial condition [latex]x(0)=x_0[/latex] [latex]\\begin{aligned} x_0 &=C_1e^{0}=C_1 \\\\ C_1&=x_0 \\\\ \\therefore \\;\\;\\text{Solution is } x&=x_0e^{-3t} \\\\ i.e. \\;\\; x(t)&=x_0e^{-3t} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]x(t)=x_{0}e^{-3t}[/latex]",
+      "B": "[latex]x(t)=x_{0}e^{-3}[/latex]",
+      "C": "[latex]x(t)=x_{0}e^{-t/3}[/latex]",
+      "D": "[latex]x(t)=x_{0}e^{-t}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 200 If [latex]S=\\int_{1}^{\\infty }x^{-3}dx[/latex], then S has the value",
+    "solution": "[latex]\\begin{aligned} \\delta &=\\int_{1}^{\\infty }x^{-3} dx =\\left [ \\frac{x^{-2}}{-2} \\right ]_1 ^\\infty \\\\ &=\\left [ \\frac{1}{2x^{2}} \\right ]_1 ^\\infty =-\\left [ \\frac{1}{\\infty }-\\frac{1}{2} \\right ]=\\frac{1}{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]-\\frac{1}{3}[/latex]",
+      "B": "[latex]\\frac{1}{4}[/latex]",
+      "C": "[latex]\\frac{1}{2}[/latex]",
+      "D": "1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 201 If P and Q are two random events, then the following is TRUE",
+    "solution": "(A) is false since of P and Q are independent [latex]Pr(P\\cap Q)=Pr(P) \\times Pr(Q)[/latex] which need not be zero. (B) is false since [latex]Pr(P\\cup Q)=Pr(P) + Pr(Q)-Pr(P\\cap Q)[/latex] [latex]\\therefore \\; Pr(P\\cup Q)\\leq Pr(P) + Pr(Q)[/latex] (C) is false since independence and mutually exclusion are unrelated properties. (D) is true [latex]\\begin{aligned} \\text{since } P\\cap Q&\\subseteq P \\\\ \\Rightarrow \\;\\; n(P\\cap Q) &\\leq n(P) \\\\ \\Rightarrow \\;\\; Pr(P\\cap Q) &\\leq Pr(P) \\end{aligned}[/latex]",
+    "options": {
+      "A": "Independence of P and Q implies that probability (P[latex]\\cap[/latex]Q)=0",
+      "B": "Probability (P [latex]\\cup[/latex] Q) [latex]\\geq[/latex] Probability (P) + Probability (Q)",
+      "C": "If P and Q are mutually exclusive, then they must be independent",
+      "D": "Probability (P [latex]\\cap[/latex] Q) [latex]\\leq[/latex] Probability (P)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 202 In the matrix equation Px=q, which of the following is a necessary condition\r\nfor the existence of at least on solution for the unknown vector x:",
+    "solution": "rank [Pq] = rank [P] is necessary for existence of at least one solution to Px=q.",
+    "options": {
+      "A": "Augmented matrix [Pq] must have the same rank as matrix P",
+      "B": "Vector q must have only non-zero elements",
+      "C": "Matrix P must be singular",
+      "D": "Matrix P must be square"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 203 The eigen values of the system represented by [latex]\\dot{X}=\\begin{bmatrix} 0 & 1&0 & 0\\\\ 0& 0& 1 &0 \\\\ 0 & 0 & 0& 1\\\\ 0 &0 & 0&1 \\end{bmatrix}[/latex] X are",
+    "solution": "",
+    "options": {
+      "A": "0, 0, 0, 0",
+      "B": "1, 1, 1, 1",
+      "C": "0, 0, 0, -1",
+      "D": "1, 0, 0, 0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 204 The determinant of the matrix [latex]\\begin{bmatrix} 1 & 0& 0 & 0\\\\ 100& 1 &0 & 0\\\\ 100 &200 & 1 & 0\\\\ 100 & 200 & 300&1 \\end{bmatrix}[/latex] is:",
+    "solution": "The given matrix is alower traingular matrix Therefore, |A|= Product of its leading diagonal elemetns = (1)(1)(1)(1)=1",
+    "options": {
+      "A": "100",
+      "B": "200",
+      "C": "1",
+      "D": "300"
+    },
+    "correct_answer": "C"
+  }
+]

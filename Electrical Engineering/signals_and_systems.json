@@ -1,0 +1,1798 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 An ideal low pass filter has frequency response given by [latex]\nH(j \\omega)= \\begin{cases}1, & |\\omega| \\leq 200 \\pi \\\\ 0, & \\text { otherwise }\\end{cases}\n[/latex] Let [latex]h(t)[/latex] be its time domain representation. Then \n[latex]h(0)=[/latex] ___________ (round off to the nearest integer).",
+    "solution": "Step 1: Frequency response [latex] H(j\\omega) =\n\\begin{cases}\n1, & |\\omega| \\leq 200\\pi \\\n0, & \\text{otherwise}\n\\end{cases} [/latex] Step 2: Find impulse response [latex] h(t) [/latex] by inverse Fourier transform [latex] h(t) = \\frac{1}{2\\pi} \\int_{-\\infty}^{\\infty} H(j\\omega) e^{j\\omega t} d\\omega [/latex] But since [latex] H(j\\omega) = 1 [/latex] for [latex] |\\omega| \\leq 200\\pi [/latex], and 0 otherwise: [latex] h(t) = \\frac{1}{2\\pi} \\int_{-200\\pi}^{200\\pi} e^{j\\omega t} d\\omega [/latex] Step 3: Evaluate the integral This is a standard Fourier inverse transform result: [latex] h(t) = \\frac{1}{2\\pi} \\cdot \\frac{2 \\sin(200\\pi t)}{t} = \\frac{200 \\sin(200\\pi t)}{\\pi t} [/latex] This is the sinc function scaled: [latex] h(t) = 200 \\cdot \\text{sinc}(200 t) [/latex] where [latex] \\text{sinc}(x) = \\frac{\\sin(\\pi x)}{\\pi x} [/latex] Step 4: Find [latex] h(0) [/latex] Use the standard limit: [latex] \\lim_{t \\to 0} \\frac{\\sin(200\\pi t)}{\\pi t} = 200 [/latex] So: [latex] h(0) = \\frac{200 \\sin(0)}{\\pi \\cdot 0} = 200 [/latex] Final Answer: 200",
+    "min": 200.0,
+    "max": 200.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 The continuous-time unit impulse signal is applied as an input to a continuous-time linear timeinvariant system [latex]\\mathbf{S}[/latex]. The output is observed to be the continuous-time unit step signal [latex]u(t)[/latex]. Which one of the following statements is true?",
+    "solution": "Step 1: Given that the output of system [latex] \\mathcal{S} [/latex] for an input [latex] \\delta(t) [/latex] (unit impulse) is [latex] u(t) [/latex] (unit step), So, the impulse response of the system is: [latex] h(t) = u(t) [/latex] Step 2: A system is Bounded Input Bounded Output (BIBO) stable if its impulse response is absolutely integrable: [latex] \\int_{-\\infty}^{\\infty} |h(t)| dt < \\infty [/latex] Here, [latex] h(t) = u(t) [/latex], so: [latex] \\int_{-\\infty}^{\\infty} |u(t)| dt = \\int_{0}^{\\infty} 1 , dt = \\infty [/latex] Hence, the system is not BIBO stable. Step 3: If a system is not BIBO stable, then there exists at least one bounded input that will produce an unbounded output. Final Answer: (B) It is possible to find a bounded input signal which when applied to [latex]\\mathbf{S}[/latex] results in an unbounded output signal.",
+    "options": {
+      "A": "very bounded input signal applied to [latex]\\mathbf{S}[/latex] results in a bounded output signal.",
+      "B": "It is possible to find a bounded input signal which when applied to [latex]\\mathbf{S}[/latex] results in an unbounded output signal.",
+      "C": "On applying any input signal to [latex]\\mathbf{S}[/latex], the output signal is always bounded.",
+      "D": "On applying any input signal to [latex]\\mathbf{S}[/latex] the output signal is always unbounded."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 Let continuous-time signals [latex]{x}_{1}({t})[/latex] and [latex]{x}_{2}({t})[/latex] be [latex]{x}_{1}({t})= \\begin{cases}1, & {t} \\in[0,1] \\\\ 2-{t}, & {t} \\in[1,2] \\text { and } \\\\ 0, & \\text { otherwise }\\end{cases}[/latex] [latex]{x}_{2}({t})= \\begin{cases}{t}, & {t} \\in[0,1] \\\\ 2-{t}, & {t} \\in[1,2] \\\\ 0, & \\text { otherwise }\\end{cases}[/latex] Consider the convolution [latex]{y}({t})={x}_{1}({t}){*} {x}_{2}({t})[/latex]. Then [latex]\\int_{-\\infty}^{\\infty} y(t) d t[/latex] is",
+    "solution": "From the area property of convolution [latex]\n\\begin{aligned}\n\\int_{-\\infty}^{\\infty} y(t) d t & =\\left(\\int_{-\\infty}^{\\infty} x_{1}(t) d t\\right)\\left(\\int_{-\\infty}^{\\infty} x_{2}(t) d t\\right) \\\\\n& =\\left(1(1)+\\frac{1}{2}(1)(1)\\right)\\left(\\frac{1}{2}(2)(1)\\right)=1.5\n\\end{aligned}\n[/latex]",
+    "options": {
+      "A": "1.5",
+      "B": "2.5",
+      "C": "3.5",
+      "D": "4"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 4 A continuous time periodic signal [latex]{x}({t})[/latex] is [latex]x(t)=1+2 \\cos 2 \\pi t+2 \\cos 4 \\pi t+2 \\cos 6 \\pi t[/latex]. If [latex]T[/latex] is the period of [latex]x(t)[/latex], then [latex]\\frac{1}{T} \\int_{0}^{T}| x(t)| ^{2} dt=[/latex] _________  (round off to the nearest integer).",
+    "solution": "Step 1: Find the period [latex]T[/latex] The signal [latex]x(t)[/latex] consists of cosine terms with frequencies [latex]2\\pi, 4\\pi, 6\\pi[/latex], which correspond to fundamental frequencies [latex]1 , \\text{Hz}, 2 , \\text{Hz}, 3 , \\text{Hz}[/latex]. The period of the signal [latex]T[/latex] is the least common multiple (LCM) of the periods of these individual cosine terms. The period of [latex]2\\pi t[/latex] (1 Hz) is [latex]T_1 = 1 , \\text{sec}[/latex]. The period of [latex]4\\pi t[/latex] (2 Hz) is [latex]T_2 = 0.5 , \\text{sec}[/latex]. The period of [latex]6\\pi t[/latex] (3 Hz) is [latex]T_3 = \\frac{1}{3} , \\text{sec}[/latex]. The LCM of [latex]T_1, T_2, T_3[/latex] is [latex]T = 1 , \\text{sec}[/latex]. Step 2: Calculate [latex] |x(t)|^2 [/latex] The signal [latex]x(t)[/latex] is real, so we can calculate [latex]|x(t)|^2[/latex] directly: [latex]|x(t)|^2 = (1 + 2 \\cos(2\\pi t) + 2 \\cos(4\\pi t) + 2 \\cos(6\\pi t))^2[/latex] Expanding the square: [latex]|x(t)|^2 = 1 + 4 \\cos(2\\pi t) + 4 \\cos(4\\pi t) + 4 \\cos(6\\pi t) + 4 \\cos^2(2\\pi t) + 4 \\cos(2\\pi t) \\cos(4\\pi t) + \\ldots[/latex] Step 3: Integrate over one period We now need to compute the integral of [latex]|x(t)|^2[/latex] over one period [latex]T = 1 , \\text{sec}[/latex]. Many of the cross-term integrals, like [latex]\\int_0^T \\cos(2\\pi t) \\cos(4\\pi t) dt[/latex], will be zero due to the orthogonality property of the cosine functions. For the terms that do not vanish: [latex] \\int_0^T 1 , dt = T = 1 , \\text{sec}[/latex] [latex] \\int_0^T \\cos^2(2\\pi t) , dt = \\frac{1}{2} T = \\frac{1}{2}[/latex] (using the identity [latex]\\cos^2(x) = \\frac{1 + \\cos(2x)}{2}[/latex]) Similarly, [latex] \\int_0^T \\cos^2(4\\pi t) , dt = \\frac{1}{2}[/latex] and [latex] \\int_0^T \\cos^2(6\\pi t) , dt = \\frac{1}{2}[/latex]. Step 4: Sum up the integrals After evaluating the integrals and summing them up, the result of the integral is: [latex] \\int_0^T |x(t)|^2 , dt = 1 + 4 \\times \\frac{1}{2} + 4 \\times \\frac{1}{2} + 4 \\times \\frac{1}{2} = 1 + 2 + 2 + 2 = 7[/latex]. Step 5: Compute the final result Now, we divide by the period [latex]T = 1] sec: [latex]\\frac{1}{T} \\int_0^T |x(t)|^2 , dt = \\frac{7}{1} = 7[/latex]. Final Answer: The value of [latex]\\frac{1}{T} \\int_0^T |x(t)|^2 , dt[/latex] is closest to 7.",
+    "min": 7.0,
+    "max": 7.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 Consider a continuous-time signal [latex]\\mathrm{x}(\\mathrm{t})=-\\mathrm{t}^{2}\\{\\mathrm{u}(\\mathrm{t}+4)-\\mathrm{u}(\\mathrm{t}-4)\\}[/latex] Where [latex]u(t)[/latex] is the continuous-time unit step function. Let [latex]\\delta(\\mathrm{t})[/latex] be the continuous-time unit impulse function. The value of [latex]\\int_{-\\infty}^{\\infty} \\mathrm{x}(\\mathrm{t}) \\delta(\\mathrm{t}+3) \\mathrm{dt}[/latex] is",
+    "solution": "Given: [latex]\\mathrm{x}(\\mathrm{t}) = -\\mathrm{t}^2 {\\mathrm{u}(\\mathrm{t}+4) - \\mathrm{u}(\\mathrm{t}-4)}[/latex] This represents a time-limited signal that exists only between [latex]t = -4[/latex] and [latex]t = 4[/latex]. Outside this interval, [latex]x(t) = 0[/latex]. Also given: We are to compute the value of the integral: [latex]\\int_{-\\infty}^{\\infty} \\mathrm{x}(\\mathrm{t}) \\delta(\\mathrm{t}+3) , \\mathrm{dt}[/latex] Step 1: Use the sifting property of the delta function: [latex]\\int_{-\\infty}^{\\infty} f(t) \\delta(t - t_0) , dt = f(t_0)[/latex] Similarly, [latex]\\int_{-\\infty}^{\\infty} f(t) \\delta(t + 3) , dt = f(-3)[/latex] Step 2: Evaluate [latex]x(-3)[/latex] [latex]x(t) = -t^2 {u(t+4) - u(t-4)}[/latex] At [latex]t = -3[/latex], [latex]u(-3 + 4) = u(1) = 1[/latex] and [latex]u(-3 - 4) = u(-7) = 0[/latex] So, [latex]x(-3) = -(-3)^2 (1 - 0) = -9[/latex] Final Answer: [latex]\\int_{-\\infty}^{\\infty} \\mathrm{x}(\\mathrm{t}) \\delta(\\mathrm{t}+3) , \\mathrm{dt} = x(-3) = -9[/latex]",
+    "options": {
+      "A": "-9",
+      "B": "9",
+      "C": "3",
+      "D": "-3"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Consider a discrete-time linear time-invariant (LTI) system S , where [latex]\\mathrm{y}[\\mathrm{n}]={S}\\{{x}[\\mathrm{n}]\\}[/latex] Let [latex]S\\{\\delta[n]\\}= \\begin{cases}1, & \\mathrm{n} \\in\\{0,1,2\\}\\\\  0, & \\text { otherwise }\\end{cases}[/latex] Where [latex]\\delta[\\mathrm{n}][/latex] is the discrete-time unit impulse function. For an input signal [latex]x[n][/latex], the output [latex]y[n][/latex] is",
+    "solution": "The impulse response of discrete-time LTI system is given as [latex]\\mathrm{h}(\\mathrm{n})=\\delta(\\mathrm{n})+\\delta(\\mathrm{n}-1)+\\delta(\\mathrm{n}-2)[/latex] For an input [latex]\\mathrm{x}(\\mathrm{n})[/latex], the output [latex]\\mathrm{y}(\\mathrm{n})[/latex] is given by [latex]\n\\begin{aligned}\n\\mathrm{y}(\\mathrm{n}) & =\\mathrm{x}(\\mathrm{n}) * \\mathrm{~h}(\\mathrm{n}) \\\\\n& =\\mathrm{x}(\\mathrm{n}) *[\\delta(\\mathrm{n})+\\delta(\\mathrm{n}-1)+\\delta(\\mathrm{n}-2)] \\\\\n& =\\mathrm{x}(\\mathrm{n})+\\mathrm{x}(\\mathrm{n}-1)+\\mathrm{x}(\\mathrm{n}-2)\n\\end{aligned}\n[/latex]",
+    "options": {
+      "A": "[latex]x[n]+x[n-1]+x[n-2][/latex]",
+      "B": "[latex]{x}[{n}-1]+{x}[{n}]+{x}[{n}+1][/latex]",
+      "C": "[latex]x[n]+x[n+1]+x[n+2][/latex]",
+      "D": "[latex]x[n+1]+x[n+2]+x[n+3][/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 If the energy of a continuous-time signal [latex] x(t) [/latex] is [latex] E [/latex] and the energy of the signal [latex] 2 x(2 t-1) [/latex] is [latex] c E [/latex], then [latex] c [/latex] is ______ (rounded off to 1 decimal place).",
+    "solution": "[latex]\n\\begin{aligned}\nx(t) & \\rightarrow E \\text { (energy) } \\\\\nx(t-1) & \\rightarrow E \\\\\nx(2 t-1) & \\rightarrow \\frac{E}{2} \\\\\n2 x(2 t-1) & \\rightarrow(2)^{2}(E / 2)=2 E=C E \\\\\nC & =2\n\\end{aligned}\n [/latex]",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 If the Z-transform of a finite-duration discrete-time signal [latex] x[n] [/latex] is [latex] X(z) [/latex], then the [latex] Z [/latex]-transform of the signal [latex] y[n]=x[2 n] [/latex] is",
+    "solution": "[latex]\nY(z)=\\sum_{n=-\\infty}^{\\infty} y(n) z^{-n}=\\sum_{n=-\\infty}^{\\infty} x(2 n) z^{-n}\n [/latex] Let [latex]\n2 n=m\n [/latex] then [latex]\n\\begin{aligned}\nn & =\\frac{m}{2}=\\sum_{m=\\text { even-int. }} x(m) z^{-m / 2} \\\\\n& =\\sum_{m=-\\infty}^{\\infty}\\left[\\frac{x(m)+(-1)^{m} x(m)}{2}\\right] z^{-m / 2}\n\\end{aligned}\n [/latex] [latex]\n\\begin{aligned}\n& =\\frac{1}{2}\\left[\\sum_{m=-\\infty}^{\\infty} x(m) z^{-m / 2}+\\sum_{m=-\\infty}^{\\infty}(-1)^{m} x(m) z^{-m / 2}\\right] \\\\\n& =\\frac{1}{2}\\left[\\sum_{m=-\\infty}^{\\infty} x(m)\\left(z^{1 / 2}\\right)^{-m}+\\sum_{m=-\\infty}^{\\infty} x(m)\\left(-z^{1 / 2}\\right)^{m}\\right] \\\\\n& =\\frac{1}{2}\\left[x\\left(z^{1 / 2}\\right)+x\\left(-z^{1 / 2}\\right)\\right]\n\\end{aligned}\n [/latex]",
+    "options": {
+      "A": "[latex] Y(z)=X\\left(z^{2}\\right) [/latex]",
+      "B": "[latex] Y(z)=\\frac{1}{2}\\left[X\\left(z^{-1 / 2}\\right)+X\\left(-z^{-1 / 2}\\right)\\right] [/latex]",
+      "C": "[latex] Y(z)=\\frac{1}{2}\\left[X\\left(z^{1 / 2}\\right)+X\\left(-z^{1 / 2}\\right)\\right] [/latex]",
+      "D": "[latex] Y(z)=\\frac{1}{2}\\left[X\\left(z^{2}\\right)+X\\left(-z^{2}\\right)\\right] [/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 Consider the discrete-time system [latex] T_{1} [/latex] and [latex] T_{2} [/latex] defined as follows: [latex]\n\\begin{aligned}\n& \\left\\{T_{1} x\\right\\}[n]=x[0]+x[1]+\\ldots+x[n] \\\\\n& \\left\\{T_{2} x\\right\\}[n]=x[0]+\\frac{1}{2} x[1]+\\cdots+\\frac{1}{2^{n}} x[n]\n\\end{aligned}\n [/latex] Which one of the following statement is true?",
+    "solution": "[latex]\n\\begin{aligned}\n\\left\\{T_{1} x\\right\\}[n] & =x[0]+x[1]+\\ldots+x[n] \\\\\n\\left\\{T_{1} x\\right\\}[n]^{-} & =\\sum_{K=0}^{n} x[K]\n\\end{aligned}\n [/latex] Let, [latex]\n\\begin{aligned}\nx[K] & =u[K] \\\\\n\\mid x[K] & =|u[K]| \\\\\n\\left|\\left\\{T_{1} x\\right\\}[n]\\right| & =\\left|\\sum_{K=0}^{n} u[K]\\right|=\\sum_{K=0}^{n} 1=n\n\\end{aligned}\n [/latex] [latex] \\mid\\left[\\left.T_{1} x(n)\\right|_{n=\\infty}=\\infty\\right. [/latex] system is not BIBO stable [latex]\n\\begin{aligned}\n\\left\\{T_{2} x\\right\\}[n] & =x[0]+\\frac{1}{2} x[1]+\\cdots+\\frac{1}{2^{n}} x[n] \\\\\n& =\\sum_{K=0}^{n}\\left(\\frac{1}{2}\\right)^{K} x(K)\n\\end{aligned}\n [/latex] Let, [latex]\n\\begin{aligned}\nx(K) & =u[K] \\\\\n|x[K]| & =\\mid u[K] \\\\\n\\left\\{T_{2} x\\right\\}[n] & =\\sum_{K=0}^{n}\\left|\\left(\\frac{1}{2}\\right)^{K} u(K)\\right| \\\\\n\\left\\{T_{2} x\\right\\}[n] & =\\sum_{K=0}^{n}\\left(\\frac{1}{2}\\right)^{K} \\\\\n\\mid\\left[\\left.T_{2} x(n)\\right|_{n=\\infty}\\right. & =\\sum_{K=0}^{\\infty}\\left(\\frac{1}{2}\\right)^{K}=\\frac{1}{1-\\frac{1}{2}}=2 \\text { stable }\n\\end{aligned}\n [/latex] [latex] T_{1} [/latex] is not BIBO stable but [latex] T_{2} [/latex] is [latex] \\mathrm{BIBO} [/latex] stable.",
+    "options": {
+      "A": "[latex] T_{1} [/latex] and [latex] T_{2} [/latex] are BIBO stable.",
+      "B": "[latex] T_{1} [/latex] and [latex] T_{2} [/latex] are not BIBO stable.",
+      "C": "[latex] T_{1} [/latex] is BIBO stable but [latex] T_{2} [/latex] is not BIBO stable.",
+      "D": "[latex] T_{1} [/latex] is not BIBO stable but [latex] T_{2} [/latex] is BIBO stable."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 The input [latex] x(t) [/latex] and the output [latex] y(t) [/latex] of a system are related as [latex]\ny(t)=e^{-t} \\int_{-\\infty}^{t} e^{\\tau} x(\\tau) d \\tau, \\quad-\\infty \\lt t \\lt \\infty\n [/latex] The system is",
+    "solution": "System will follow law of superposition. Therefore, system will be linear. Time-invariance check: [latex]\ny\\left(t-t_{0}\\right)=e^{-\\left(t-t_{0}\\right)} \\int_{-\\infty}^{t-t_{0}} e^{\\tau} \\cdot x(\\tau) d \\tau\n [/latex] For input [latex] x\\left(t-t_{0}\\right) [/latex], output will be [latex]\ny(t)=e^{-t} \\int_{-\\infty}^{t} e^{\\tau} \\cdot x\\left(\\tau-t_{0}\\right) d \\tau\n [/latex] Put [latex] \\tau-t_{o}=k [/latex], then [latex] d \\tau=d k [/latex] and for [latex] \\tau=t, k=t-t_{0} [/latex] [latex]\n\\begin{aligned}\n& =e^{-t} \\int_{-\\infty}^{t-t_{0}} e^{k+t_{0}} \\cdot x(k) d k \\\\\n& =e^{-t} \\times e^{t o} \\times \\int_{-\\infty}^{t-t_{0}} e^{k} \\cdot x(k) d k=e^{-\\left(t-t_{0}\\right)} \\times \\int_{-\\infty}^{t-t_{0}} e^{k} \\cdot x(k) d k \\\\\n& =e^{-\\left(t-t_{0}\\right)} \\times \\int_{-\\infty}^{t-t_{0}} e^{\\tau} \\cdot x(\\tau) d \\tau\n\\end{aligned}\n [/latex] Since, [latex]\ny(t)=y\\left(t-t_{0}\\right)\n [/latex] So, the system is time-invariant.",
+    "options": {
+      "A": "nonlinear",
+      "B": "linear and time-invariant",
+      "C": "linear but not time-invariant",
+      "D": "noncasual"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 11 Let [latex] X(\\omega) [/latex] be the Fourier transform of the signal, [latex] x(t)=e^{-t^{4}} \\cos t,-\\infty \\lt  t \\lt \\infty [/latex]. The value of the derivative of [latex] X(\\omega) [/latex] at [latex] \\omega=0 [/latex] at is _____ (rounded off to 1 decimal place)",
+    "solution": "[latex]\n\\begin{aligned}\nt x(t) & \\rightleftarrows j \\frac{d X(\\omega)}{d \\omega} \\\\\nf(t) & =\\frac{t x(t)}{j} \\rightleftarrows \\frac{d X(\\omega)}{d \\omega}=F(\\omega) \\\\\n\\left.\\frac{d X(\\omega)}{d \\omega}\\right|_{\\omega=0} & =\\left.F(\\omega)\\right|_{\\omega=0}=\\text { area of } f(t) \\\\\n& =\\int_{-\\infty}^{\\infty} \\frac{t x(t)}{j} d t=\\text { area of odd-function } \\\\\n& =0\n\\end{aligned}\n [/latex] [latex]\n\\left[\\begin{array}{l}\n\\because x(t)=\\text { even-function } \\\\\n\\therefore \\frac{t}{j} x(t)=\\text { odd-function }\n\\end{array}\\right]\n [/latex]",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 If [latex] u(t) [/latex] is the unit step function, then the region of convergence (ROC) of the Laplace transform of the signal [latex]\nx(t)=e^{t^{2}}[u(t-1)-u(t-10)]\n [/latex] is",
+    "solution": "Since [latex] x(t) [/latex] is finite duration signal. So ROC will be [latex] -\\infty \\lt \\sigma \\lt \\infty [/latex].",
+    "options": {
+      "A": "[latex] -\\infty \\lt \\operatorname{Re}(s) \\lt \\infty [/latex]",
+      "B": "[latex] \\operatorname{Re}(s) \\geq 10 [/latex]",
+      "C": "[latex] \\operatorname{Re}(s) \\leq 1 [/latex]",
+      "D": "[latex] 1 \\leq \\operatorname{Re}(s) \\leq 10 [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 Suppose signal [latex] y(t) [/latex] is obtained by the time-reversal of signal [latex] x(t) [/latex], i.e., [latex] y(t)=x(-t) [/latex], [latex] -\\infty  \\\\lt t \\\\lt \\infty [/latex]. Which one of the following options is always true for the convolution of [latex] x(t) [/latex] and [latex] y(t) [/latex] ?",
+    "solution": "[latex]\n\\begin{aligned}\n& z(t)=x[t] * y[t] \\\\\n& z(t)=x[t] * x[-t]\n\\end{aligned}\n [/latex] Replace [latex] t [/latex] with [latex] -t [/latex] [latex]\n\\begin{aligned}\n& z[-t]=x[-t]^{*} x[t] \\\\\n& z[-t]=x[t] * x[-t] \\\\\n& z[-t]=z[t]\n\\end{aligned}\n [/latex] even function.",
+    "options": {
+      "A": "It is an even signal.",
+      "B": "It is an odd signal.",
+      "C": "It is a causal signal.",
+      "D": "It is an anti-causal signal."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 A signal [latex]x(t)=2 \\cos (180 \\pi t) \\cos (60 \\pi t)[/latex] is sampled at [latex]200 \\mathrm{~Hz}[/latex] and then passed through an ideal low pass filter having cut-off frequency of [latex]100 \\mathrm{~Hz}[/latex]. The maximum frequency present in the filtered signal in [latex]\\mathrm{Hz}[/latex] is ____ (Round off to the nearest integer)",
+    "solution": "Given : [latex]\n\\begin{aligned}\n x(\\mathrm{t})&=2 \\cos (180 \\pi \\mathrm{t}) \\cos (60 \\pi \\mathrm{t}) \\\\\n&=\\cos 240 \\pi \\mathrm{t}+\\cos 120 \\pi \\mathrm{t}\n\\end{aligned}\n[/latex] [latex]\\mathrm{F}_{1}=120 \\mathrm{~Hz}[/latex] and [latex]\\mathrm{F}_{2}=60 \\mathrm{~Hz}[/latex] Now, present frequency component, [latex]\n\\begin{aligned}\n& =\\mathrm{nf}_{\\mathrm{s}} \\pm \\mathrm{f}_{1} \\\\\n& =\\mathrm{f}_{1}, \\mathrm{f}_{\\mathrm{s}} \\pm \\mathrm{f}_{1}, 2 \\mathrm{f}_{\\mathrm{s}} \\pm \\mathrm{f}_{1} \\\\\n& =120 \\mathrm{~Hz}, 200 \\pm 120, \\ldots . \\\\\n& =120 \\mathrm{~Hz}, 80 \\mathrm{~Hz}, 320 \\mathrm{~Hz}, \\ldots .\n\\end{aligned}\n[/latex] and other frequency component. [latex]\n\\begin{aligned}\n& =n f_{s} \\pm f_{2} \\\\\n& =f_{2}, f_{s} \\pm f_{2}, 2 f_{s} \\pm f_{2}, \\ldots \\\\\n& =60,200 \\pm 60, \\ldots \\\\\n& =60 \\mathrm{~Hz}, 140,260 \\mathrm{~Hz}, \\ldots\n\\end{aligned}\n[/latex] Given cut-off frequency of LPF [latex]=100 \\mathrm{~Hz}[/latex] [latex]\\therefore[/latex] It is pas only [latex]60 \\mathrm{~Hz}[/latex] and [latex]80 \\mathrm{~Hz}[/latex] frequency component. [latex]\\therefore[/latex] Max. frequency [latex]=80 \\mathrm{~Hz}[/latex].",
+    "min": 80.0,
+    "max": 80.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 The discrete-time Fourier transform of a signal [latex]x[n][/latex] is [latex]X(\\Omega)=1(1+\\cos \\Omega) e^{-j \\Omega}[/latex]. Consider that [latex]x_{p}[n][/latex] is a periodic signal of period [latex]N=5[/latex] such that [latex]\n\\begin{aligned}\nx_{p}[n] & =x[n], \\text { for } n=0,1,2 \\\\\n& =0, \\text { for } n=3,4\n\\end{aligned}\n[/latex] Note that [latex]x_{p}[n]=\\sum_{k=0}^{N-1} a_{k} e^{j \\frac{2 \\pi}{N} k m}[/latex]. The magnitude of the Fourier series coefficient [latex]a_{3}[/latex] is ____ (Round off to 3 decimal places).",
+    "solution": "Given : [latex]x_{p}(n)[/latex] is a period signal of period [latex]N=5[/latex]. [latex]\nx_{p}(n)=\\left\\{\\begin{array}{cc}\nx(n), & \\text { for } n=0,1,2 \\\\\n0, & \\text { for } n=3,4\n\\end{array}\\right.\n[/latex] and [latex]\\mathrm{x}(\\mathrm{n}) \\stackrel{\\text { DTFT }}{\\longrightarrow} \\mathrm{X}(\\Omega)=(1+\\cos \\Omega) \\mathrm{e}^{-\\mathrm{j} \\Omega}[/latex] We have, [latex]\n\\begin{aligned}\na_{K} & =\\frac{X\\left(\\frac{2 \\pi}{N} K\\right)}{N} \\\\\n& =\\frac{\\left[1+\\cos \\left(\\frac{2 \\pi}{N} K\\right)\\right] \\mathrm{e}^{-\\mathrm{j} \\frac{2 \\pi}{N} R}}{N}\n\\end{aligned}\n[/latex] For, [latex]\\mathrm{N}=5[/latex] and [latex]\\mathrm{K}=3[/latex] [latex]\n\\begin{aligned}\na_{3} & =\\frac{\\left[1+\\cos \\left(\\frac{2 \\pi \\times 3}{5}\\right)\\right] \\mathrm{e}^{-\\mathrm{j} \\frac{2 \\pi}{5} \\times 3}}{5} \\\\\n\\left|a_{3}\\right| & =\\frac{1}{5}\\left[1+\\cos \\frac{6 \\pi}{5}\\right] \\\\\n& =0.0382\n\\end{aligned}\n[/latex]",
+    "min": 0.037,
+    "max": 0.039
+  },
+  {
+    "type": "numerical",
+    "question": "Question 16 The period of the discrete-time signal [latex]x[n][/latex] described by the equation below is [latex]N=[/latex] ___ (Round off to the nearest integer). [latex]\nx[n]=1+3 \\sin \\left(\\frac{15 \\pi}{8} n+\\frac{3 \\pi}{4}\\right)-5 \\sin \\left(\\frac{\\pi}{3} n-\\frac{\\pi}{4}\\right)\n[/latex]",
+    "solution": "Given : [latex]\r\nx[n]=1+3 \\sin \\left(\\frac{15 \\pi}{8} n+\\frac{3 \\pi}{4}\\right)-5 \\sin \\left(\\frac{\\pi}{3} n-\\frac{\\pi}{4}\\right)\r\n[/latex] [latex]\r\n\\begin{aligned}\r\n \\omega_{1}&=\\frac{15 \\pi}{8} \\\\\r\n \\therefore \\quad \\mathrm{N}_{1}&=\\frac{2 \\pi}{\\omega_{1}} \\mathrm{~K}-=\\frac{2 \\pi}{15 \\pi} \\times 8 \\times \\mathrm{K}=16 \\\\\r\n \\text { and } \\quad \\mathrm{N}_{2}&=\\frac{2 \\pi}{\\omega_{2}} \\mathrm{~K}=\\frac{2 \\pi}{\\pi} \\times 3 \\times \\mathrm{K}=6 \\\\\r\n \\therefore \\quad \\text { Period }&=\\operatorname{LCM}\\left(\\mathrm{N}_{1}, \\mathrm{~N}_{2}\\right) \\\\\r\n &=\\operatorname{LCM}(16,6) \\\\\r\n &=48\r\n\\end{aligned}\r\n[/latex]",
+    "min": 48.0,
+    "max": 48.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 For the signals [latex]x(t)[/latex] and [latex]y(t)[/latex] shown in the figure, [latex]z(t)=x(t) * y(t)[/latex] is maximum at [latex]t=T_{1}[/latex]. Then [latex]T_{1}[/latex] in seconds is (Round off to the nearest integer).",
+    "solution": "Using convotution property [latex]\r\n\\begin{aligned}\r\nz(t) & =x(t) * y(t) \\\\\r\n& =\\int_{-\\infty}^{\\infty} \\mathrm{y}(\\tau) \\mathrm{x}(\\mathrm{t}-\\tau) \\mathrm{d} \\tau\r\n\\end{aligned}\r\n[/latex] For max. overlap [latex]\\begin{aligned}\r\n\\therefore  \\quad -1+t&=3\\\\\r\n\\Rightarrow \\quad t&=4 sec \\\\\r\nor, \\quad \\quad T_1&=4 sec\r\n\\end{aligned}\r\n[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page4_q2.webp",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 Which of the following statement(s) is/are true?",
+    "solution": "For causal system, impuse response [latex]\nh(n)=0 ; \\quad n \\lt 0\n[/latex] Therefore, for step input also [latex]\nh(n)=0 ; n \\lt 0\n[/latex]",
+    "options": {
+      "A": "If an LTI system is causal, it is stable",
+      "B": "A discrete time LTI system is causal if and only if its response to a step input [latex]u[n][/latex] is 0 for [latex]\\mathrm{n} \\lt 0[/latex]",
+      "C": "If a discrete time LTI system has an impulse response [latex]h[n][/latex] of finite duration the system is stable",
+      "D": "If the impulse response [latex]0 \\lt |h[n]| \\lt 1[/latex] for all [latex]n[/latex], then the [latex]L T I[/latex] system is stable."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 The Z-transform of a discrete signal [latex]x[n][/latex] is [latex]X(z)=\\frac{4z}{\\left ( z-\\frac{1}{5} \\right ) \\left ( z-\\frac{2}{3} \\right ) (z-3)}[/latex] with ROC = R Which one of the following statements is\ntrue?",
+    "solution": "[latex]Z = 1[/latex], unit circle include by ROC : [latex]\\frac{2}{3} \\lt |z| \\lt 3[/latex]. Therefore DIFT of [latex]x[n][/latex] conveys for this ROC.",
+    "options": {
+      "A": "Discrete-time Fourier transform of [latex]x[n][/latex] converges if [latex]R[/latex] is [latex]|z| \\gt 3[/latex]",
+      "B": "Discrete-time Fourier transform of [latex]x[n][/latex] converges if [latex]R[/latex] is [latex]\\frac{2}{3} \\lt |z| \\lt 3[/latex]",
+      "C": "Discrete-time Fourier transform of [latex]x[n][/latex] converges if [latex]R[/latex] is such that [latex]x[n][/latex] is a leftsided sequence",
+      "D": "Discrete-time Fourier transform of [latex]x[n][/latex] converges if [latex]R[/latex] is such that [latex]x[n][/latex] is a rightsided sequence"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 The Fourier transform [latex]X(\\omega)[/latex] of the signal [latex]x(t)[/latex] is given by [latex]\n\\begin{aligned}\nX(\\omega) & =1, \\text { for }|\\omega| \\lt W_{0} \\\\\n& =0, \\text { for }|\\omega| \\gt W_{0}\n\\end{aligned}\n[/latex] Which one of the following statements is true?",
+    "solution": "Given, [latex]\\quad X(\\omega)=\\left\\{\\begin{array}{l}1, \\text { for }|\\omega| W_{0}\\end{array}\\right.[/latex] [latex]\nX(\\omega)=\\operatorname{rect}\\left(\\frac{\\omega}{2 W_{0}}\\right)\n[/latex] We know, [latex]\n\\operatorname{Arect}\\left(\\frac{\\mathrm{t}}{\\tau}\\right)=\\operatorname{A\\tau S}\\left(\\frac{\\omega \\tau}{2}\\right)\n[/latex] By duality, [latex]\n\\operatorname{A} \\tau \\mathrm{Sa}\\left(\\frac{\\mathrm{t} \\tau}{2}\\right) \\leftrightarrow 2 \\pi \\operatorname{Arect}\\left(\\frac{\\omega}{\\tau}\\right)\n[/latex] Given, [latex]2 \\pi \\mathrm{A}=1[/latex] [latex]\\Rightarrow \\quad A=\\frac{1}{2 \\pi}[/latex] [latex]\\therefore \\quad \\mathrm{x}(\\mathrm{t})=\\frac{\\tau}{2 \\pi} \\mathrm{Sa}\\left(\\frac{\\mathrm{t} \\tau}{2}\\right)[/latex], where [latex]\\tau=2 \\mathrm{~W}_{0}[/latex] Thus, [latex]  \n\\begin{aligned}\nx(t)&=\\frac{W_0}{\\pi} \\mathrm{Sa}(W_0 t)\\\\\n&=\\frac{1}{\\pi}\\frac{\\sin W_0 t}{t}\\\\\n\\therefore \\quad \\text{At } t&=\\frac{\\pi}{2W_0}, x(t)=\\frac{1}{\\pi t}\n\\end{aligned}\n[/latex] From rectangular function, At [latex] W \\Rightarrow \\infty ,X(w)=1[/latex] Taking inverse fourier transform\n[latex]x(t)=\\delta (t) [/latex] Option (A) will be correct.",
+    "options": {
+      "A": "[latex]x(t)[/latex] tends to be an impulse as [latex]\\mathrm{W}_{0} \\rightarrow \\infty[/latex]",
+      "B": "[latex]x(0)[/latex] decreases as [latex]W_{0}[/latex] increases",
+      "C": "At [latex]\\mathrm{t}=\\frac{\\pi}{2 \\mathrm{~W}_{0}}, \\mathrm{x}(\\mathrm{t})=-\\frac{1}{\\pi}[/latex]",
+      "D": "At [latex]\\mathrm{t}=\\frac{\\pi}{2 \\mathrm{~W}_{0}}, \\mathrm{x}(\\mathrm{t})=\\frac{1}{\\pi}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 The discrete time Fourier series representation of a signal [latex]x[n] [/latex] with period [latex]N [/latex] is\nwritten as [latex]x[n]=\\sum_{k=0}^{N-1}a_ke^{j(2kn\\pi/N)} [/latex]. A discrete time periodic signal with period [latex]N=3 [/latex], has the non-zero Fourier series coefficients: [latex]a_{-3}=2 [/latex] and [latex]a_4=1 [/latex]. The\nsignal is",
+    "solution": "Given:\n[latex]x(n)=\\sum_{k=0}^{N-1}a_ke^{j\\frac{2 \\pi kn}{N}} [/latex] [latex] \\therefore \\; x(n)=a_0+a_1e^{\\frac{j2\\pi n}{3}}+0+... \\;\\;\\;...(1)[/latex] We have, [latex]a_k=a_{k+N} [/latex] [latex]a_0=a_3 [/latex] [latex]a_1=a_4=1 [/latex] [latex]a_{-3}=a_0=2 [/latex] Put n = 0 in eq. (1) [latex]x(0)=a_0+a_1=2+1=3 [/latex] Put n = 1 in eq. (1) [latex]x(1)=a_0+a_1e^{j 2 \\pi /3}=2+1\\left ( \\cos \\frac{2\\pi}{3} +j \\sin \\frac{2\\pi}{3}\\right )=2+(-0.5+j0.866)=1.5+j0.866 [/latex] These two conditions satisfy by the option (B).\nHence, option (B) will be correct.",
+    "options": {
+      "A": "[latex] 2+2e^{-\\left ( j\\frac{2\\pi}{6}n \\right )} \\cos \\left ( \\frac{2\\pi}{6}n \\right )[/latex]",
+      "B": "[latex] 1+2e^{\\left ( j\\frac{2\\pi}{6}n \\right )} \\cos \\left ( \\frac{2\\pi}{6}n \\right )[/latex]",
+      "C": "[latex] 1+2e^{\\left ( j\\frac{2\\pi}{3}n \\right )} \\cos \\left ( \\frac{2\\pi}{6}n \\right )[/latex]",
+      "D": "[latex] 2+2e^{\\left ( j\\frac{2\\pi}{6}n \\right )} \\cos \\left ( \\frac{2\\pi}{6}n \\right )[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 Consider the system as shown below where [latex]y(t)=x(e^t) [/latex]. The system is",
+    "solution": "We know, a linear system follows the law of\nsuperposition. It is a combination of two laws: (i) Law of additivity: Both results are same, hence, it follows law\nof additivity. (ii) Law of Homogeneity: Here also both results are same, hence it\nfollows law of Homogeneity. Therefore, System is linear. We know, a causal system is independent\nof future values of input at each & every\ninstant of time them system will be causal. Given : \n[latex]y(t)=x(e^t) [/latex] Put \n[latex]t=0 [/latex] [latex]y(0)=x(e^0)=x(1)  [/latex] Because  its depends on future value. Therefore,  system is non-causal.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page5_q2.webp",
+    "options": {
+      "A": "linear and causal.",
+      "B": "linear and non-causal.",
+      "C": "non-linear and causal",
+      "D": "non-linear and non-causal"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 Let an input [latex]x(t)=2 \\sin (10 \\pi t)+5 \\cos (15 \\pi t)+7  \\sin (42 \\pi t)+4 \\cos (45 \\pi t) [/latex] is\npassed through an LTI system having an impulse response, [latex] h(t)=2\\left ( \\frac{\\sin (10 \\pi t)}{\\pi t} \\right ) \\cos (40\\pi t)[/latex] The output of the system is",
+    "solution": "Given: [latex]h(t)=2\\left ( \\frac{\\sin (10 \\pi t)}{\\pi t} \\right ) \\cos 40 \\pi t [/latex] Fourier transform of signal [latex] \\frac{\\sin (10 \\pi t)}{\\pi t}[/latex] is given\nby Now, impulse response [latex]h(t)=2\\left ( \\frac{\\sin (10 \\pi t)}{\\pi t} \\right )\\cdot \\left ( \\frac{e^{+j40\\pi t}+e^{-j40\\pi t}}{2} \\right ) [/latex] Using property,\n[latex] e^{-j\\omega _0t}x(t)\\rightleftharpoons X(\\omega +\\omega _0)[/latex] Therefore, Fourier transform of impulse response Cut-off frequencies, [latex]\\omega_L=30 \\pi rad/sec [/latex] [latex]\\omega_H=50 \\pi rad/sec [/latex] Thus, output of the system \n[latex] =7 \\sin 42 \\pi t+4 \\cos 45 \\pi t[/latex]",
+    "options": {
+      "A": "[latex] 2 \\sin (10 \\pi t)+5\\cos (15 \\pi t)[/latex]",
+      "B": "[latex] 7 \\sin (42 \\pi t)+5\\cos (15 \\pi t)[/latex]",
+      "C": "[latex] 7 \\sin (42 \\pi t)+4\\cos (45 \\pi t)[/latex]",
+      "D": "[latex] 2 \\sin (10 \\pi t)+4\\cos (45 \\pi t)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 Let a causal LTI system be governed by the following differential equation [latex]y(t)+\\frac{1}{4}\\frac{dy}{dt}=2x(t) [/latex], where [latex]x(t) [/latex] and [latex]x(t) [/latex] are the input and output respectively.\nIts impulse response is",
+    "solution": "Given: [latex]  y(t)+\\frac{1}{4}\\frac{dy}{dt}=2x(t)[/latex] Taking Laplace transform, [latex]Y(s)+\\frac{1}{4}(sY(s))=2X(s) [/latex] Now, \n[latex]H(s)=\\frac{Y(s)}{X(s)}=\\frac{2}{\\frac{s}{4}+1}=\\frac{8}{s+4} [/latex] Taking inverse Laplace, transform, [latex]h(t)=8e^{-4t}u(t) [/latex]",
+    "options": {
+      "A": "[latex]2e^{-\\frac{1}{4}t}u(t) [/latex]",
+      "B": "[latex]2e^{-{4}t}u(t) [/latex]",
+      "C": "[latex]8e^{-\\frac{1}{4}t}u(t) [/latex]",
+      "D": "[latex]8e^{-{4}t}u(t) [/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 Consider a continuous-time signal [latex]x(t)[/latex] defined by [latex]x(t)=0[/latex] for [latex]\\left | t \\right |> 1[/latex], and [latex]x\\left ( t \\right )=1-\\left | t \\right | for \\left | t \\right |\\leq 1[/latex]. Let the Fourier transform of [latex]x(t)[/latex] be defined as [latex]X\\left ( \\omega \\right )=\\int\\limits_{-\\infty }^{\\infty }\\:x\\left ( t \\right )e^{-j\\omega t}\\:dt[/latex]. The maximum magnitude of [latex]X\\left ( \\omega \\right )[/latex] is ___________.",
+    "solution": "Fourier transform, [latex]F(\\omega)=A \\tau S a^{2}\\left(\\frac{\\omega \\tau}{2}\\right) [/latex] [latex] \\begin{aligned} \\text { As } A=1, \\tau=1 \\\\ H \\omega) &=S a^{2}\\left(\\frac{\\omega}{2}\\right) \\\\ \\left.F(\\omega)\\right|_{\\text {peak }} &=F(0)=S a^{2}(0)=1 \\end{aligned}[/latex] [latex] \\because [/latex] Peak value of sampling function occurs at [latex]\\omega=0 [/latex] Peak value [latex]=1[/latex]",
+    "min": 1.0,
+    "max": 1.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 Let [latex]f(t)[/latex] be an even function, i.e. [latex]f(-t)=f(t)[/latex] for all t. Let the Fourier transform of [latex]f(t)[/latex] be defined as [latex]F\\left ( \\omega \\right )=\\int\\limits_{-\\infty }^{\\infty }\\:f\\left ( t \\right )e^{-j\\omega t}dt[/latex]. Suppose [latex]\\dfrac{dF\\left ( \\omega \\right )}{d\\omega }=-\\omega F\\left ( \\omega \\right )[/latex] for all [latex]\\omega[/latex], and [latex]F(0)=1[/latex]. Then",
+    "solution": "[latex]f(t) \\rightleftharpoons F(\\omega)=\\int_{-\\infty}^{\\infty} f(t) e^{-j \\omega t} d t[/latex] The following informations are given about [latex]f(t) \\rightleftharpoons F(\\omega).[/latex] [latex] \\begin{array}{l} (i) f(t)=f(-t)\\\\ (ii) \\left.F(\\omega)\\right|_{\\omega=0}=1\\\\ (iii) \\frac{d F(\\omega)}{d \\omega}=-\\omega F(\\omega)\\\\ \\text{From }(iii), \\frac{d F(\\omega)}{d \\omega}+\\omega F(\\omega)=0 \\end{array}[/latex] By solving the above linear differential equations, (by mathematics) [latex] \\begin{aligned} \\ln F(\\omega) &=-\\frac{\\omega^{2}}{2} \\\\ \\Rightarrow \\qquad\\qquad F(\\omega) &=K \\cdot e^{-\\omega^{2} / 2} \\\\ \\text { Put } \\omega=0, \\qquad\\qquad F(0) &=K \\\\ \\Rightarrow \\qquad\\qquad 1 &=K \\text { (from info. } \\\\ \\text { From (iv), } \\qquad\\qquad F(\\omega) &=e^{-\\omega^{2} / 2} \\\\ \\text{As we know}, e^{-a t^{2}}, a \\gt 0 &\\rightleftharpoons \\sqrt{\\frac{\\pi}{a}} e^{-\\omega^{2} / 4 a}\\\\ \\text{At }a=\\frac{1}{2}, \\qquad\\qquad\\quad e^{-t^{2} / 2} &\\rightleftharpoons \\sqrt{\\frac{\\pi}{1 / 2}} \\cdot e^{-\\omega^{2} / 2}\\\\ f(t)&=\\frac{1}{\\sqrt{2 \\pi}} e^{-t^{2} / 2} \\rightleftharpoons e^{-\\omega^{2} / 2}=F(\\omega)\\\\ \\text { Thus, }\\qquad\\qquad f(t)&=\\frac{1}{\\sqrt{2 \\pi}} e^{-t^{2} / 2} \\\\ \\text { At } t=0, \\qquad\\qquad f(0)&=\\frac{1}{\\sqrt{2 \\pi}} \\lt 1 \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]f\\left ( 0 \\right )\\lt  1[/latex]",
+      "B": "[latex]f\\left ( 0 \\right ) \\gt  1[/latex]",
+      "C": "[latex]f\\left ( 0 \\right )= 1[/latex]",
+      "D": "[latex]f\\left ( 0 \\right )= 0[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 The casual signal with z-transformer [latex]Z^{2}\\left ( Z-a \\right )^{-2}[/latex] is ([latex]u[n][/latex] is the unit step signal)",
+    "solution": "As we know, [latex] \\begin{aligned} n \\cdot a^{n} u(n) & \\rightleftharpoons \\frac{a z}{(z-a)^{2}} \\\\ \\frac{1}{a} \\cdot n \\cdot a^{n} u(n) & \\rightleftharpoons \\frac{z}{(z-a)^{2}} \\\\ f(n) &=n \\cdot a^{n-1} u(n) \\rightleftharpoons \\frac{z}{(z-a)^{2}}=F(z) \\end{aligned}[/latex] Time-shifting property, [latex] \\begin{aligned} f(n) &\\rightleftharpoons F(z) \\\\ f(n+1) &\\rightleftharpoons z \\cdot F(z) & \\\\ x(n)&=(n+1) a^{n} u(n+1) \\rightleftharpoons \\frac{z^{2}}{(z-a)^{2}}=X(z) & \\\\ \\text{Thus},\\qquad \\qquad x(n)&=(n+1) a^{n} u(n+1)=(n+1) a^{n} \\cdot u(n) \\\\ &[\\because(n+1) u(n+1)=(n+1) u(n) \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]a^{2n}u\\left [ n \\right ][/latex]",
+      "B": "[latex]\\left ( n+1 \\right )a^{n}u\\left [ n \\right ][/latex]",
+      "C": "[latex]n^{-1}a^{n}u\\left [ n \\right ][/latex]",
+      "D": "[latex]n^{2}a^{n}u\\left [ n \\right ][/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 Two discrete-time linear time-invariant systems with impulse responses [latex]h_{1}\\left [ n \\right ]=\\delta \\left [ n-1 \\right ]+\\delta \\left [ n+1 \\right ][/latex] and [latex]h_{2}\\left [ n \\right ]=\\delta \\left [ n\\right ]+\\delta \\left [ n-1 \\right ][/latex] are connected in cascade, where [latex]\\delta \\left [ n\\right ][/latex] is the Kronecker delta. The impulse response of the cascaded system is",
+    "solution": "[latex]\\begin{aligned} h(n) &=\\text { Resultant impulse response } \\\\ &=h_{1}(n) * h_{2}(n) \\end{aligned}[/latex] By applying z -transform [latex] \\begin{aligned} H(z) &=H_{1}(z) \\cdot H_{2}(z) \\\\ &=\\left(z+z^{-1}\\right)\\left(1+z^{-1}\\right) \\\\ &=z+Z^{-1}+1+z^{2} \\end{aligned}[/latex] By applying inverse ZT, [latex] h(n)=\\delta(n+1)+\\delta(n-1)+\\delta(n)+\\delta(n-2)[/latex]",
+    "options": {
+      "A": "[latex]\\delta \\left [ n-2\\right ]+\\delta \\left [ n+1 \\right ][/latex]",
+      "B": "[latex]\\delta \\left [ n-1\\right ]\\delta \\left [ n\\right ]+\\delta \\left [ n+1 \\right ]\\delta \\left [ n-1 \\right ][/latex]",
+      "C": "[latex]\\delta \\left [ n-2\\right ]+\\delta \\left [ n-1\\right ]+\\delta \\left [ n\\right ]+\\delta \\left [ n+1 \\right ][/latex]",
+      "D": "[latex]\\delta \\left [ n\\right ]\\delta \\left [ n-1\\right ]+\\delta \\left [ n-2\\right ]\\delta \\left [ n+1 \\right ][/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 If the input x(t) and output y(t) of a system are related as [latex]y\\left ( t \\right )=\\text{max}\\left ( 0,x\\left ( t \\right ) \\right )[/latex], then the system is",
+    "solution": "[latex]\\begin{aligned} y(t) &=\\max (0, x(t)) \\\\ &=\\left\\{\\begin{array}{cl} 0, & x(t) \\lt 0 \\\\ x(t), & x(t)\\gt 0 \\end{array}\\right. \\end{aligned}[/latex] Linearity check: at input [latex]x_{1}(t)=-2[/latex], output [latex]y_{1}(t)=0 [/latex] at input [latex]x_{2}(t)=1[/latex], output [latex]y_{2}(t)=1 [/latex] [latex] \\therefore [/latex] system is non-linear because it violates law of additivity. Check for time-invariance : Delayed [latex]\\mathrm{O} / \\mathrm{P}:[/latex] [latex] y\\left(t-t_{0}\\right)=\\left\\{\\begin{array}{cl} x\\left(t-t_{0}\\right), & x\\left(t-t_{0}\\right) \\gt  0 \\\\ 0 & x\\left(t-t_{0}\\right)\\lt 0 \\end{array}\\right.[/latex] [latex] \\mathrm{O} / \\mathrm{P}[/latex] of system when input is [latex]x\\left(t-t_{0}\\right)=f(t)[/latex] [latex] y_{1}(t)=\\left\\{\\begin{array}{cl} f(t), & f(t) \\gt 0 \\\\ 0, & f(t)\\lt 0 \\end{array}=\\left\\{\\begin{array}{cl} x\\left(t-t_{0}\\right), & x\\left(t-t_{0}\\right)\\gt  0 \\\\ 0, & x\\left(t-t_{0}\\right)\\lt 0 \\end{array}\\right.\\right.[/latex] Therefore, system is time-invariant.",
+    "options": {
+      "A": "linear and time-variant",
+      "B": "linear and time-invariant",
+      "C": "non-linear and time-variant",
+      "D": "non-linear and time-invariant"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 Which of the following options is true for a linear time-invariant discrete time system that\nobeys the difference equation: [latex]y[n]-ay[n-1]=b_0x[n]-b_1x[n-1][/latex]",
+    "solution": "[latex]\\begin{aligned}\r\ny(n)-ay(n-1)&=b_{0}x(n)-b_{1}x(n-2) \\\\ &\\text{By applying ZT,} \\\\ Y(z)-az^{-1}Y(z)&=b_{0}X(z)-b_{1}z^{-1}X(z)\\\\ \\Rightarrow \\, \\, H(z)&=\\frac{Y(z)}{X(z)}=\\frac{b_{0}-b_{1}z^{-1}}{1-az^{-1}}\r\n\\end{aligned}[/latex] By taking right-sided inverse ZT, [latex]h(n)=b_{0}a^{n}u(n)-b_{1}a^{n-1}u(n-1)[/latex] By taking left-sided inverse ZT, [latex]h(n)=-b_{0}a^{n}u(-n-1)+b_{1}a^{n-1}u(-n)[/latex] Thus system is not necessarily causal. The impulse response is non-zero at infinitely many instants.",
+    "options": {
+      "A": "y[n] is unaffected by the values of [latex]x[n - k]; k \\gt 2[/latex]",
+      "B": "The system is necessarily causal.",
+      "C": "The system impulse response is non-zero at infinitely many instants.",
+      "D": "When [latex]x[n] = 0, n \\lt 0[/latex], the function [latex]y[n]; n \\gt 0[/latex] is solely determined by the function x[n]."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 The causal realization of a system transfer function H(s) having poles at (2,-1), (-2,1)\nand zeroes at (2,1), (-2,-1) will be",
+    "solution": "Since pole zero plot of given transfer function Since, given pole zero is symmetrical\r\nabout origin hence it is a all pass system. Since, one pole on the RHS thus unstable. Since, pole doesnot have complex conjugate poles and zeros present thus system is not real means system is complex.",
+    "options": {
+      "A": "stable, real, allpass",
+      "B": "unstable, complex, allpass",
+      "C": "unstable, real, highpass",
+      "D": "stable, complex, lowpass"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 Suppose for input [latex]x(t)[/latex] a linear time-invariant system with impulse response [latex]h(t)[/latex] produces\noutput [latex]y(t)[/latex], so that [latex]x(t)*h(t)=y(t)[/latex]. Further, if [latex]|x(t)|*|h(t)|=z(t)[/latex], which of the following\nstatements is true?",
+    "solution": "[latex]\\begin{aligned}\r\n\\text{Since, } y(t) &= x(t) + h(t)\\\\ \\text{and  }z(t)&=\\left | x(t) \\right |\\times \\left | h(t) \\right |\r\n\\end{aligned}[/latex] Case-1: case 2: [latex]\\text{then,  }y(t)=z(t)[/latex] [latex]\\text{Thus,  } z(t)\\geq y(t),   \\text{ \r\n for all 't'}[/latex]",
+    "options": {
+      "A": "For all [latex]t \\in (-\\infty ,\\infty ), z(t)\\leq y(t)[/latex]",
+      "B": "For some but not all [latex]t \\in (-\\infty ,\\infty ), z(t)\\leq y(t)[/latex]",
+      "C": "For all [latex]t \\in (-\\infty ,\\infty ), z(t)\\geq y(t)[/latex]",
+      "D": "For some but not all [latex]t \\in (-\\infty ,\\infty ), z(t)\\geq y(t)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 Consider a signal  [latex]x[n]=\\left ( \\frac{1}{2} \\right )^n \\; 1[n][/latex], where 1[n]=0 if [latex]n \\lt 0[/latex], and 1[n]=1 if [latex]n \\geq 0.[/latex] The\r\nz-transform of [latex]x[n-k], k \\gt 0[/latex] is [latex]\\frac{z^{-k}}{1-\\frac{1}{2}z^{-1}}[/latex]\r\nwith region of convergence being",
+    "solution": "[latex]\\begin{aligned}x(n)&=\\left (\\frac{1}{2} \\right )^{n} u(n)\r\n, \\; \\; \\;  \\text{ROC of }x(n):\\left | z \\right | \\gt  \\frac{1}{2} \\\\ x(n-k)\\rightleftharpoons X(z)&=\\frac{z^{-k}}{1-\\frac{1}{2}z^{-1}}\r\n, \\; \\; \\; \\text{ROC of }x(n-k): \\left | z \\right | \\gt \\frac{1}{2}\\\\ \\text{For } x(n-k) \\; \\; \\;  &\\text{ROC will be } \\left | z \\right |\\gt \\frac{1}{2}\\end{aligned}[/latex].",
+    "options": {
+      "A": "[latex]|z| \\lt 2[/latex]",
+      "B": "[latex]|z| \\gt 2[/latex]",
+      "C": "[latex]|z| \\lt 1/2[/latex]",
+      "D": "[latex]|z| \\gt 1/2[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 34 Which of the following statements is true about the two sided Laplace transform?",
+    "solution": "It has no poles for any bounded signal that is nonzero in a finite time interval. This is true as we know for finite amplitude finite width signal ROC is entire s plane and ROC never includes any pole. It implies for such signals there is no poles. Hence the correct answer is option (B).",
+    "options": {
+      "A": "It exists for every signal that may or may not have a Fourier transform.",
+      "B": "It has no poles for any bounded signal that is non-zero only inside a finite time\ninterval.",
+      "C": "The number of finite poles and finite zeroes must be equal.",
+      "D": "If a signal can be expressed as a weighted sum of shifted one sided exponentials,\nthen its Laplace Transform will have no poles."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 A periodic function [latex]f(t)[/latex], with a period of [latex]2\\pi[/latex], is represented as its Fourier series, [latex]f(t)=a_0+\\sum_{n=1}^{\\infty }a_n\\cos nt+\\sum_{n=1}^{\\infty }a_n\\sin nt[/latex]. If [latex]f(t)=\\left\\{\\begin{matrix} A \\sin t, & 0\\leq t\\leq \\pi\\\\ 0,& \\pi\\lt t\\lt 2\\pi \\end{matrix}\\right.[/latex] the Fourier series coefficients [latex]a_1 \\; and \\; b_1[/latex] of [latex]f(t)[/latex] are",
+    "solution": "[latex]\\begin{aligned}\nT_0 &=2\\pi \\Rightarrow \\;\\omega _0=\\frac{2\\pi}{T_0}=1 \\\\ \n\\text{Now, }b_1 &=\\frac{2}{T_0}\\int_{0}^{T_0}f(t) \\sin \\omega _0 t \\; dt \\\\ \n &= \\frac{2}{2 \\pi}\\int_{0}^{2\\pi}f(t) \\sin t \\; dt\\;\\;[\\because \\omega _0=1]\\\\ \n &= \\frac{1}{\\pi}\\int_{0}^{\\pi} A \\sin t \\cdot \\sin t\\; dt \\\\ \n &= \\frac{A}{2 \\pi}\\int_{0}^{\\pi}2 \\sin ^2 t \\; dt \\\\ \n &= \\frac{A}{2 \\pi}\\int_{0}^{\\pi}[1-\\cos 2t] \\; dt \\\\ \n &=\\frac{A}{2 \\pi} \\left [ t-\\frac{\\sin 2t}{2} \\right ]_0^{\\pi} \\\\ \n &= \\frac{A}{2 \\pi} [(\\pi-0)-(0-0)]=\\frac{A}{2}\\\\ \n a_1&=\\frac{2}{T_0}\\int_{0}^{T_0}f(t) \\cos \\omega _0 t \\; dt \\\\ \n &= \\frac{2}{2 \\pi}\\int_{0}^{2\\pi}f(t) \\cos t \\; dt \\\\ \n &= \\frac{1}{\\pi}\\int_{0}^{\\pi} A \\sin t \\cdot \\cos t\\; dt \\\\ \n &= \\frac{A}{2 \\pi}\\int_{0}^{\\pi} \\sin 2t \\; dt=0\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]a_1 =\\frac{A}{\\pi} ; \\; b_1=0[/latex]",
+      "B": "[latex]a_1 =\\frac{A}{2} ; \\; b_1=0[/latex]",
+      "C": "[latex]a_1 =0 ; \\; b_1=\\frac{A}{\\pi}[/latex]",
+      "D": "[latex]a_1 =0 ; \\; b_1=\\frac{A}{2}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 The output response of a system is denoted as y(t), and its Laplace transform is given by [latex]Y(s)=\\frac{10}{s(s^2+s+100\\sqrt{2})}[/latex] The steady state value of y(t) is",
+    "solution": "Steady state value of y(t) [latex]\\begin{aligned} &=\\lim_{s \\to 0}sY(s)\\\\ &=\\lim_{s \\to 0}\\frac{10s}{s(s^2+s+100\\sqrt{2})}\\\\ &=\\frac{10}{100\\sqrt{2}}=\\frac{1}{10\\sqrt{2}} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{10\\sqrt{2}}[/latex]",
+      "B": "[latex]10\\sqrt{2}[/latex]",
+      "C": "[latex]\\frac{1}{100\\sqrt{2}}[/latex]",
+      "D": "[latex]100\\sqrt{2}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 The symbols, a and T, represent positive quantities, and u(t) is the unit step function. Which one of the following impulse responses is NOT the output of a causal linear time-invariant system?",
+    "solution": "a and T represents positive quantities. u(t) is unit step function. [latex]h(t)=1+e^{-at}u(t)[/latex], is non-causal Here '1' is a constant and two sided so the system will be non-causal, because for causal system, [latex]h(t)=0,\\;\\;\\; t \\lt 0[/latex] [latex]h(t) \\neq 0,\\;\\;\\; t \\gt 0[/latex]",
+    "options": {
+      "A": "[latex]e^{+at}u(t)[/latex]",
+      "B": "[latex]e^{-a(t+T)}u(t)[/latex]",
+      "C": "[latex]1+e^{-at}u(t)[/latex]",
+      "D": "[latex]e^{-a(t-T)}u(t)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 A system transfer function is [latex]H(s)=\\frac{a_1s^2+b_1s+c_1}{a_2s^2+b_2s+c_2}[/latex]. If [latex]a_1=b_1=0[/latex], and  all other coefficients are positive, the transfer function represents a",
+    "solution": "[latex]\\begin{aligned} H(s)&=\\frac{c_1}{a_2s^2+b_2s+c_2}\\\\ & as \\;\\; a_1=b_1=0\\\\ &=\\frac{c_1}{(1+s\\tau _1)(1+s\\tau _2)}\\\\ \\text{Put }s&=0,\\; H(0)=\\frac{c_1}{c_2}\\\\ \\text{Put }s&=\\infty ,\\; H(\\infty )=0 \\end{aligned}[/latex] which represents second order low pass filter.",
+    "options": {
+      "A": "low pass filter",
+      "B": "high pass filter",
+      "C": "band pass filter",
+      "D": "notch filter"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 The inverse Laplace transform of [latex]H(s)=\\frac{s+3}{s^2+2s+1} \\; for \\; t\\geq 0[/latex] is",
+    "solution": "[latex]\\begin{aligned} L^{-1}\\left ( \\frac{s+3}{s^2+2s+1} \\right )&=L^{-1}\\left ( \\frac{s+1+2}{(s+1)^2} \\right )\\\\ &=L^{-1}\\left ( \\frac{1}{s+1}+\\frac{2}{(s+1)^2} \\right )\\\\ &=e^{-t}+2te^{-t} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]3te^{-t}+e^{-t}[/latex]",
+      "B": "[latex]3e^{-t}[/latex]",
+      "C": "[latex]2te^{-t}+e^{-t}[/latex]",
+      "D": "[latex]4te^{-t}+e^{-t}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 The Fourier transform of a continuous-time signal x(t) is given by [latex]X(\\omega )=\\frac{1}{(10+j\\omega )^{2}},-\\infty \\lt \\omega \\lt  \\infty[/latex], where  [latex] j=\\sqrt{-1} \\; and \\; \\omega[/latex] denotes frequency. Then the value of |lnx(t)| at t=1 is ___________ (up to 1 decimal place). ( ln denotes the logarithm to base e )",
+    "solution": "[latex]x(t)\\rightleftharpoons X(j\\omega )=\\frac{1}{(10+j\\omega )^2}[/latex] By taking inverse Fourier transform, [latex]\\begin{aligned} x(t)&=te^{-10t}u(t) \\\\ \\text{Now, } x(t)_{t=1}&= 1 \\times e^{-10} \\times 1=e^{-10}\\\\ \\text{Thus, }|\\ln (x(t))| &= |\\ln (e^{-10})|=|-10|=10 \\end{aligned}[/latex]",
+    "min": 9.5,
+    "max": 10.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 The signal energy of the continuous-time signal [latex]\r\nx(t) =[(t -1) u(t -1)][/latex] [latex]-[(t -2)u(t -2)][/latex] [latex]-[(t -3)u(t -3)][/latex]  [latex]+[(t -4)u(t -4)][/latex] is",
+    "solution": "[latex]x(t)=r(t-1)-r(t-2)-r(t-3)+r(t-4)[/latex] [latex]\\begin{aligned} Ex(t)&=\\int_{-\\infty }^{\\infty }|x(t)|^2 dt \\\\ &=\\int_{1}^{2}|(t-1)^2| dt +\\int_{2}^{3}1^2 dt\\\\&+\\int_{3}^{4}(-(t-4))^2dt\\\\ &= \\frac{1}{3}+1+\\frac{1}{3}=\\frac{5}{3} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]11/3[/latex]",
+      "B": "[latex]7/3[/latex]",
+      "C": "[latex]1/3[/latex]",
+      "D": "[latex]5/3[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 Consider the two continuous-time signals defined below: [latex]x_{1}(t)=\\left\\{\\begin{matrix} |t|, & -1\\leq t \\leq 1 \\\\ 0 & otherwise \\end{matrix}\\right. [/latex], [latex] x_{2}(t)=\\left\\{\\begin{matrix} 1-|t|, & -1\\leq t \\leq 1\\\\ 0, & otherwise \\end{matrix}\\right.[/latex] These signals are sampled with a sampling period of T=0.25 seconds to obtain discretetime signals [latex]x_{1}[n] \\; and \\; x_{2}[n][/latex], respectively. Which one of the following statements is true?",
+    "solution": "[latex]x_1(t)=\\left\\{\\begin{matrix} |t|, & -1 \\leq t \\leq 1\\\\ 0, & \\text{ otherwise} \\end{matrix}\\right.[/latex] [latex]T_s=[/latex] sampling time-period = 0.25 sec [latex]x_1(n)=\\{ 1,0.75,0.5,0.25,0,0.25,0.5,0.75,1\\}[/latex] [latex]x_2(t)=\\left\\{\\begin{matrix} 1-|t|, & -1 \\leq t \\leq 1\\\\ 0, & \\text{ otherwise} \\end{matrix}\\right.[/latex] [latex]x_2(n)=\\{  0,0.25,0.5,0.75,1,0.75,0.5,0.25,0\\}[/latex] Since, [latex]x_1(n)[/latex] is having one more non-zero sample of amplitude '1' as compared to [latex]x_2(n)[/latex]. Therefore, energy of [latex]x_1(n)[/latex] greater than energy of [latex]x_2(n)[/latex].",
+    "options": {
+      "A": "The energy of [latex]x_{1}[n][/latex] is greater than the energy of [latex]x_{2}[n][/latex]",
+      "B": "The energy of [latex]x_{1}[n][/latex] is greater than the energy of [latex]x_{2}[n][/latex]",
+      "C": "[latex]x_{1}[n] nor x_{2}[n][/latex] have equal energies.",
+      "D": "Neither [latex]x_{1}[n] nor x_{2}[n][/latex] is a finite-energy signal"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 A continuous-time input signal x(t) is an eigenfunction of an LTI system, if the output is",
+    "solution": "Eigen function is a type of input for which output is constant times of input. i.e. Where, [latex]x(t)=[/latex] System input = eigen function [latex]H(s)=[/latex] transfer function of system [latex]y(t)=[/latex] system output Here, [latex]y(t)=H(s)|_{s=a}\\; e^{at}=k \\cdot x(t)[/latex] where, k= eigen-value =[latex]H(s)|_{s=a}[/latex] [latex]x(t)=[/latex] eigen-function input",
+    "options": {
+      "A": "k x(t) , where k is an eigenvalue",
+      "B": "k [latex]e^{j\\omega t}[/latex] x(t), where k is an eigenvalue and [latex]e^{j\\omega t}[/latex] is a complex exponential signal",
+      "C": "x(t) [latex]e^{j\\omega t}[/latex], where [latex]e^{j\\omega t}[/latex] is a complex exponential signal",
+      "D": "k H([latex]\\omega[/latex]) ,where k is an eigenvalue and H([latex]\\omega[/latex]) is a frequency response of the system"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 A cascade system having the impulse responses [latex]h_1(n)=\\{\\overset{1}{\\uparrow},-1\\}[/latex] and [latex]h_2(n)=\\{\\overset{1}{\\uparrow},1\\}[/latex] is shown in the\nfigure below, where symbol [latex]\\uparrow[/latex]\n denotes the time origin. The input sequence x(n) for which the cascade system produces an output sequence\n[latex]y(n)=\\{\\overset{1}{\\uparrow},2,1,-1,-2,-1\\}[/latex] is",
+    "solution": "Now, [latex]\\begin{aligned} h(n)&=\\text{overall system impulse response}\\\\ &=h_1(n)*h_2(n)\\\\ &=\\{1,-1\\}*\\{1,1\\}\\\\ &=\\{ 1,0,-1\\}\\underset{*}{\\rightleftharpoons }H(z)=1-z^2\\\\ &\\text{As we know,}\\\\ H(z)&=\\frac{Y(z)}{X(z)}\\Rightarrow X(z)=\\frac{Y(z)}{H(z)}\\\\ &=\\frac{1+2z^{-1}+z^{-2}-z^{-3}-2z^{-4}-z^{-5}}{1-z^{-2}}\\\\ &=1+2z^{-1}+2z^{-2}+z^{-3}\\\\ \\Rightarrow \\; x(n)&=\\{1,2,2,1\\} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page9_q4.webp",
+    "options": {
+      "A": "[latex]x(n)=\\{\\overset{1}{\\uparrow},2,1,1\\}[/latex]",
+      "B": "[latex]x(n)=\\{\\overset{1}{\\uparrow},1,2,2\\}[/latex]",
+      "C": "[latex]x(n)=\\{\\overset{1}{\\uparrow},1,1,1\\}[/latex]",
+      "D": "[latex]x(n)=\\{\\overset{1}{\\uparrow},2,2,1\\}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 The output y(t) of the following system is to be sampled, so as to reconstruct it from its samples\nuniquely. The required minimum sampling rate is",
+    "solution": "From the above block diagram, [latex]Z(t)=x(t) \\cos 1000 \\pi t[/latex] By using modulation property of fourier transform, [latex]Z(\\omega )=\\frac{1}{2}[X(\\omega + 1000 \\pi t)+X(\\omega - 1000 \\pi t)][/latex] Now, [latex]h(t)=\\frac{\\sin 1500 \\pi t}{\\pi t}=1500 Sa(1500 \\pi t)[/latex] Thus, [latex]H(\\omega )[/latex] is a low pass filter and it will pass frequency, component of [latex]Z(\\omega )[/latex] upto [latex]1500 \\pi [/latex] rad/sec. Therefore, maximum frequency component of [latex]y(t)[/latex] is [latex]\\omega _m =1500 \\pi[/latex] rad/sec  or [latex]f_m =750 Hz[/latex] So, the minimum sampling rate for [latex]y(t)[/latex] is [latex]f_{s\\; min}=2f_m=1500Hz=1500[/latex] samples/sec",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page9_q5.webp",
+    "options": {
+      "A": "1000 samples/s",
+      "B": "1500 samples/s",
+      "C": "2000 samples/s",
+      "D": "3000 samples/s"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 The mean square value of the given periodic waveform f(t) is_________",
+    "solution": "Mean square value = power of f(t) Mean square value [latex]\\begin{aligned} &=\\frac{1}{T_0}\\int_{T_0} |f(t)|^2 dt\\\\ &= \\frac{1}{4}[4^2 \\times 1+2^2 \\times 2]\\\\ &= \\frac{16+8}{4}=6 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page10_q1.webp",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 The pole-zero plots of three discrete-time systems P, Q and R on the z-plane are shown below.\nWhich one of the following is TRUE about the frequency selectivity of these systems?",
+    "solution": "Since all 3 pole-zero plots have zero at z=1 and z=-1. So, filter will not pass low frequency and high frequency components. Therefore all are bandpass filter. Note: in digital filter For low frequency z=1 For high frequency z=-1",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page10_q2.webp",
+    "options": {
+      "A": "All three are high-pass filters.",
+      "B": "All three are band-pass filters.",
+      "C": "All three are low-pass filters.",
+      "D": "P is a low-pass filter, Q is a band-pass filter and R is a high-pass filter."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 Let the signal [latex]x(t)=\\sum_{k=-\\infty }^{+\\infty }(-1)^{k}\\delta (t-\\frac{k}{2000})[/latex] be passed through an LTI system with frequency response [latex]H(\\omega)[/latex] , as given in the figure below The Fourier series representation of the output is given as",
+    "solution": "[latex]\\begin{aligned} x(t)&=\\sum_{k=-\\infty }^{\\infty } (-1)^K \\delta \\left ( t-\\frac{K}{2000} \\right )\\\\ &= \\sum_{k=-\\infty }^{\\infty } (-1)^K \\delta (t-KT)\\\\ \\text{where, } &=T=\\frac{1}{2000} \\end{aligned}[/latex] Time period: [latex]\\begin{aligned} T_0&=2T=\\frac{1}{1000}\\\\ \\omega _0&=\\frac{2\\pi}{T_0}=2000 \\pi \\; rad \\end{aligned}[/latex] Since, x(t) is even-halt wave symmetric. So, its expansion will contain only odd harmonics of cos. Therefore, coefficient of fundamental harmonic is [latex]\\begin{aligned} a_1&=\\frac{2}{T}\\int_{-T_0/2}^{T_0/2}x(t) \\cos \\omega _0 t \\; dt\\\\ &=\\frac{4}{T_0}\\int_{0}^{T_0/2}\\delta (t) \\cos \\omega _0 t \\; dt\\\\ &=\\frac{4}{T_0}\\int_{0}^{T_0/2}\\delta (t) \\cos 0 \\; dt\\\\ &=\\frac{4}{T_0}\\left [\\int_{0}^{T_0/2}\\delta (t) \\; dt \\right ]\\\\ &=\\frac{4}{T_0}=4000 \\end{aligned}[/latex] Now, frequency components available in expansion are [latex]\\begin{aligned} \\omega _0,3\\omega _0,...\\\\ 2000\\pi, 6000 \\pi,... \\end{aligned}[/latex] As, LTI system given in the question will pass upto [latex]5000\\pi[/latex] rad/sec frequency component of input.So, output will have only one component of sfrequency [latex]2000\\pi[/latex] rad/sec Thus, y(t)= expansion of output [latex]=a_1 \\cos \\omega _0 t=4000 \\cos 2000 \\pi t[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page10_q3.webp",
+    "options": {
+      "A": "[latex]4000+4000cos(2000\\pi t)[/latex] [latex]+4000cos(4000\\pi t)[/latex]",
+      "B": "[latex]2000+2000cos(2000\\pi t)[/latex] [latex]+2000cos(4000\\pi t)[/latex]",
+      "C": "[latex]4000cos(2000\\pi t)[/latex]",
+      "D": "[latex]2000cos(2000\\pi t)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 Consider a causal and stable LTI system with rational transfer function H(z). Whose\ncorresponding impulse response begins at n = 0. Furthermore, [latex]H(1)=\\frac{5}{4}[/latex]. The poles of H(z) are [latex]P_{k}=\\frac{1}{\\sqrt{2}}exp(j\\frac{(2k-1)\\pi }{4})[/latex] for k = 1,2,3,4. The zeros of H(z) are all at z = 0. Let [latex]g[n]=j^nh[n][/latex]. The value of g[8] equals ___________.",
+    "solution": "Pole locationof H(z) are given as, [latex]\\begin{aligned} z&=\\frac{1}{\\sqrt{2}}e^{j(2K-1)\\frac{\\pi}{4}};\\;\\;K=1,2,3,4\\\\ z_1&=\\frac{1}{\\sqrt{2}}e^{j\\frac{\\pi}{4}} =\\frac{1}{2}(1+j)\\\\ z_2&=\\frac{1}{\\sqrt{2}}e^{j\\frac{3\\pi}{4}} =\\frac{1}{2}(-1+j)\\\\ z_3&=\\frac{1}{\\sqrt{2}}e^{j\\frac{5\\pi}{4}} =\\frac{1}{2}(-1-j)\\\\ z_4&=\\frac{1}{\\sqrt{2}}e^{j\\frac{7\\pi}{4}} =\\frac{1}{2}(1-j)\\\\ \\text{Now,}\\\\ H(z)&=\\frac{K\\cdot z^4}{(z-z_1)(z-z_2)(z-z_3)(z-z_4)}...(i) \\end{aligned}[/latex] [As h(n) is causal and it starts from n=0, so numerator will have same order as denominator is having]. by solving equation (i) [latex]\\begin{aligned}\nH(z)&=\\frac{K\\cdot z^4}{z^4+\\frac{1}{4}}\\;\\;...(ii)\\\\\n&\\text{Given that,}\\\\\nH(1)&=\\frac{5}{4}\\\\\n&\\text{From equation (ii),}\\\\\nH(1)&=\\frac{K}{1+\\frac{1}{4}}\\Rightarrow \\frac{5}{4}=\\frac{K}{\\frac{5}{4}}\\\\\n\\Rightarrow \\; K&=\\frac{25}{16}\\\\\nH(z)&=\\frac{\\frac{25}{16}z^4}{z^4+\\frac{1}{4}}\\\\\n&\\text{By using division rule,}\\\\\nH(z)&=\\frac{25}{16}\\left [ 1+\\frac{1}{4}z^{-4}+\\frac{1}{16}z^{-8}+... \\right ]\\\\\n\\text{Thus, }h(8)&=\\frac{1}{16} \\times \\frac{25}{16}=0.097\\\\\n&\\text{it is given that,}\\\\\ng(n)&=j^nh(n)\\\\\ng(8)&=j^8h(8)=h(8)\\\\\n\\Rightarrow \\; g(8)&=h(8)=0.097\n\\end{aligned}[/latex]",
+    "min": 0.09,
+    "max": 0.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 Consider the system with following input-output relation y[n]=[latex](1+(-1)^{n})x[n][/latex] where, x[n] is the input and y[n] is the output. The system is",
+    "solution": "Given relationship, [latex]y(n)=[1+(-1)^n]x(n)[/latex] Time invariance test: Since, [latex]y(n-1)\\neq y'(n)[/latex] So, the system is time invariant. Invertibility test: Thus, we are getting many to one mapping between input and output. So, the system is non-invertible.",
+    "options": {
+      "A": "invertible and time invariant",
+      "B": "invertible and time varying",
+      "C": "non-invertible and time invariant",
+      "D": "non-invertible and time varying"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 Let z(t)=x(t) * y(t) , where \"*\" denotes convolution. Let c be a positive real-valued\r\nconstant. Choose the correct expression for z(ct).",
+    "solution": "Time scaling property of convolution. If, [latex]x(t)*y(t)=z(t)[/latex] Then, [latex]x(ct)*y(ct)=\\frac{1}{c} z(ct)[/latex] [latex]z(ct)=c \\times x(ct) * y(ct)[/latex]",
+    "options": {
+      "A": "c x(ct)*y(ct)",
+      "B": "x(ct)*y(ct)",
+      "C": "c x(t)*y(ct)",
+      "D": "c x(ct)*y(t)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 Consider [latex]g(t)=\\left\\{\\begin{matrix} t-\\left \\lceil t \\right \\rceil, & t\\geq 0 \\\\ t-\\left \\lceil t \\right \\rceil , & otherwise \\end{matrix}\\right. , \\; \\; where\\; t \\in \\mathbb{R}[/latex] Here, [latex]\\left \\lfloor t \\right \\rfloor[/latex] represents the largest integer less than or equal to t and [latex]\\left \\lceil t \\right \\rceil [/latex] denotes the smallest integer greater than or equal to t. The coefficient of the second harmonic component of the Fourier series representing g(t) is _________.",
+    "solution": "Given that, [latex]g(t)=\\left\\{\\begin{matrix} t-\\left \\lfloor t \\right \\rfloor, & t \\geq 0\\\\ t-\\left \\lceil t \\right \\rceil & \\text{otherwise} \\end{matrix}\\right.[/latex] where, [latex]\\left \\lfloor t \\right \\rfloor=[/latex] greatest integer less than or equal to 't'. [latex]\\left \\lceil t \\right \\rceil=[/latex] smallest integer greater than or equal to 't'. Now, Since,  g(t) is nonperiodic. So, there is no Fourier series expansion of this signal and hence no need to calculate harmonic here.",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 The value of the integral [latex]2\\int_{-\\infty }^{\\infty }(\\frac{sin 2\\pi t}{\\pi t})dt[/latex] is equal to",
+    "solution": "The Fourier transform of [latex]\\begin{aligned} &\\frac{2 \\sin (t\\tau /2)}{t}\\rightarrow 2 \\pi \\text{rect}\\left ( \\frac{\\omega }{\\tau } \\right ) \\\\ &\\frac{\\sin (2 \\pi t)}{\\pi t}\\rightarrow \\text{rect} \\left ( \\frac{\\omega }{4 \\pi} \\right )\\\\ &\\text{So, }\\int_{-\\infty }^{\\infty } \\frac{\\sin (2 \\pi t)}{\\pi t} e^{-j\\omega t}dt=\\text{rect}\\left ( \\frac{\\omega }{4 \\pi} \\right )\\\\ &\\text{Putting }\\omega =0 \\text{ in the above equation} \\\\ & \\int_{-\\infty }^{\\infty } \\frac{\\sin (2 \\pi t)}{\\pi t} dt=1\\\\ &2\\int_{-\\infty }^{\\infty } \\frac{\\sin (2 \\pi t)}{\\pi t} dt=2 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0",
+      "B": "0.5",
+      "C": "1",
+      "D": "2"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 54 Let [latex]x_{1}(t)\\leftrightarrow X_{1}(\\omega ) \\; and \\; x_{2}(t) \\leftrightarrow X_{2}(\\omega \\omega )[/latex] be two signals whose Fourier Transforms are as shown in the figure below. In the figure, [latex]h(t)=e^{-2|t|}[/latex] denotes the impulse response. For the system shown above, the minimum sampling rate required to sample y(t), so that y(t) can be uniquely reconstructed from its samples, is",
+    "solution": "Given that, Bandwidth of [latex]X_1(\\omega )=B_1[/latex] Bandwidth of [latex]X_2(\\omega )=B_2[/latex] system has [latex]h(t)=e^{-2|t|}[/latex] and input to the system is [latex]x_1(t) \\cdot x_2(t)[/latex] The bandwidth of [latex]x_1(t) \\cdot x_2(t)[/latex] is [latex]B_1+B_2[/latex]. The bandwidth of output will be [latex]B_1+B_2[/latex]. So, sampling rate will be [latex]2(B_1+B_2)[/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page11_q4.webp",
+    "options": {
+      "A": "[latex]2B_{1}[/latex]",
+      "B": "[latex]2(B_{1}+B_{2})[/latex]",
+      "C": "[latex]4(B_{1}+B_{2})[/latex]",
+      "D": "[latex]\\infty[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 Consider a linear time-invariant system with transfer function [latex]H(s)=\\frac{1}{(s+1)}[/latex] If the input is cos(t) and the steady state output is [latex]A \\cos (t+\\alpha )[/latex], then the value of A is _________.",
+    "solution": "[latex]\\begin{aligned} H(s)&=\\frac{1}{(s+1)}\\\\ \\text{Put, }s&=j\\omega \\\\ H(j\\omega)&=\\frac{1}{j\\omega+1}\\\\ |H(j\\omega)|&=\\frac{1}{\\sqrt{\\omega ^2 +1}}\\\\ \\because \\; \\text{ input }x(t)&=\\cos (t)\\\\ \\text{Here, } \\omega &=1 \\text{rad/sec}\\\\ \\text{and }|x(t)|&=1\\\\ \\text{hence, }&\\text{steady state output}\\\\ y(t)&=|H(j\\omega)|_{\\omega=1} \\cos (t+\\angle H(j\\omega)|_{\\omega =1})\\\\ A&=|H(j\\omega)|_{\\omega =1}=\\frac{1}{\\sqrt{2}}=0.707 \\end{aligned}[/latex]",
+    "min": 0.69,
+    "max": 0.72
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 Let f(x) be a real, periodic function satisfying f(-x)=-f(x). The general form of its Fourier series representation would be",
+    "solution": "Given that, [latex]f(-x)=-f(x)[/latex] So, function is an odd function. So, the fourier series will have sine term only. So, [latex]f(x)=\\sum_{k=1}^{\\infty }b_x \\sin (kx)[/latex]",
+    "options": {
+      "A": "[latex]f(x)=a_{0}+\\sum_{k=1}^{\\infty }a_{k}cos(kx)[/latex]",
+      "B": "[latex]f(x)=\\sum_{k=1}^{\\infty }b_{k}sin(kx)[/latex]",
+      "C": "[latex]f(x)=a_{0}+\\sum_{k=1}^{\\infty }a_{2k}cos(kx)[/latex]",
+      "D": "[latex]f(x)=\\sum_{k=0}^{\\infty }a_{2k+1}sin(2k+1)x[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 57 Suppose the maximum frequency in a band-limited signal [latex]x(t)[/latex] is 5 kHz. Then, the maximum frequency in [latex]x(t)\\cos (2000\\pi t)[/latex], in kHz, is ________.",
+    "solution": "Maximum possible frequency of [latex]x(t)(2000 \\pi t)=f_1+f_2=5+1=6kHz[/latex]",
+    "min": 6.0,
+    "max": 6.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 Consider a causal LTI system characterized by differential equation [latex]\\frac{dy(t)}{dt}+\\frac{1}{6}y(t)=3x(t)[/latex]. The response of the system to the input [latex]x(t)=3e^{-\\frac{t}{3}}u(t)[/latex]. where u(t) denotes the unit step function, is",
+    "solution": "The differential equation [latex]\\begin{aligned} \\frac{dy(t)}{dt} &+\\frac{1}{6}y(t)=3x(t) \\\\ \\text{So, }sY(s)&+\\frac{1}{6}Y(s) =3X(s) \\\\ Y(s) &=\\frac{3X(s)}{\\left ( s+\\frac{1}{6} \\right )} \\\\ X(s) &=\\frac{9}{\\left ( s+\\frac{1}{3} \\right )} \\\\ \\text{So, } Y(s)&=\\frac{9}{\\left ( s+\\frac{1}{3} \\right )\\left ( s+\\frac{1}{6} \\right )} \\\\ &=\\frac{54}{\\left ( s+\\frac{1}{6} \\right )} -\\frac{54}{\\left ( s+\\frac{1}{3} \\right )}\\\\ \\text{So, }y(t) &= (54e^{-1/6t}-54e^{-1/3t})u(t) \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]9e^{-\\frac{t}{3}}u(t)[/latex]",
+      "B": "[latex]9e^{-\\frac{t}{6}}u(t)[/latex]",
+      "C": "[latex]9e^{-\\frac{t}{3}}u(t)-6e^{-\\frac{t}{6}}u(t)[/latex]",
+      "D": "[latex]54e^{-\\frac{t}{6}}u(t)-54e^{-\\frac{t}{3}}u(t)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 59 The output of a continuous-time, linear time-invariant system is denoted by T{x(t)} where x(t) is the input signal. A signal z(t) is called eigen-signal of the system T, when [latex]T\\{z(t)\\} =  \\gamma z(t)[/latex],\r\nwhere [latex]\\gamma[/latex] is a complex number, in general, and is called an eigenvalue of T. Suppose the impulse response of the system T is real and even. Which of the following statements is TRUE?",
+    "solution": "Given that impulse response is real and even, Thus [latex]H(j\\omega )[/latex] will also be real and even. Since, [latex]H(j\\omega )[/latex] is real and even thus, [latex]H(j\\omega )=H(-j\\omega )[/latex] Now, [latex]\\cos (t)[/latex] is input i.e. [latex]\\frac{e^{jt}+e^{-jt}}{2}[/latex] is input Output will be [latex]\\frac{H(j1)e^{jt}+H(-j1)e^{-jt}}{2}=H(j1)\\left ( \\frac{e^{jt}+e^{-jt}}{2} \\right )= H(j1) \\cos (t)[/latex] If, [latex]\\sin (t)[/latex] is input i.e. [latex]\\frac{e^{jt}+e^{-jt}}{2}[/latex] is input Output will be [latex]\\frac{H(j1)e^{jt}+H(-j1)e^{-jt}}{2}=H(j1)\\left ( \\frac{e^{jt}-e^{-jt}}{2j} \\right )= H(j1) \\sin (t)[/latex] So, [latex]\\sin (t)[/latex] and [latex]\\cos (t)[/latex] are eigen signal with same eigen values.",
+    "options": {
+      "A": "cos(t) is an eigen-signal but sin(t) is not",
+      "B": "cos(t) and sin(t) are both eigen-signals but with different eigenvalues",
+      "C": "sin(t) is an eigen-signal but cos(t) is not",
+      "D": "cos(t) and sin(t) are both eigen-signals with identical eigenvalues"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 60 Suppose [latex]x_{1}(t) \\; and \\;  x_{2}(t)[/latex] have the Fourier transforms as shown below. Which one of the following statements is TRUE?",
+    "solution": "By observing [latex]X_1(j \\omega )[/latex] and [latex]X_2(j \\omega )[/latex], we can say that they are not conjugate symmetric. Since, the fourier transform is not conjugate symmetric the signal will not be real. So, [latex]x_1(t), x_2(t)[/latex] are not real. Now the fourier transform of [latex]x_1(t) \\cdot x_2(t)[/latex] will be [latex]\\frac{1}{2\\pi}X_1(j \\omega )*X_2(j \\omega )[/latex] and by looking at [latex]X_1(j \\omega )[/latex] and [latex]X_2(j \\omega )[/latex], we can say that [latex]X_1(j \\omega ) *X_2(j \\omega )[/latex] will be conjugate symmetric and thus [latex]x_1(t) \\cdot x_2(t)[/latex] will be real. By observing [latex]X_1(j \\omega )[/latex] and [latex]X_2(j \\omega )[/latex], we can say, [latex]X_2( \\omega )=X_1(- \\omega )\\overset{IFT}{\\rightarrow}x_2(t)=x_1(-t)\\;\\;...(i)[/latex] Now, [latex]X_1(j \\omega )[/latex] is real. Therefore, [latex]x_1(t)[/latex] will be conjugate symmetric. [latex]\\begin{aligned} \\text{i.e., } x_1(t)&=x_1^*(-t) \\\\ \\downarrow t&= -t\\\\ x_1(-t)&= x_1^*(t)\\\\ \\text{Now, }x_1(t)\\cdot x_2(t) &= x_1(t)\\cdot x_1(-t) \\;\\;(from \\;(i))\\\\ &= x_1(t)\\cdot x_1^*(t)\\\\ &= |x_1(t)|^2=\\text{real function} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page12_q5.webp",
+    "options": {
+      "A": "[latex]x_{1}(t) \\; and \\; x_{2}(t)[/latex] are complex and [latex]x_{1}(t) x_{2}(t)[/latex] is also complex with nonzero imaginary part",
+      "B": "[latex]x_{1}(t) \\; and \\; x_{2}(t)[/latex] are real and [latex]x_{1}(t) x_{2}(t)[/latex] is also real",
+      "C": "[latex]x_{1}(t) \\; and \\; x_{2}(t)[/latex] are complex but [latex]x_{1}(t) x_{2}(t)[/latex] is real",
+      "D": "[latex]x_{1}(t) \\; and \\; x_{2}(t)[/latex] are imaginary but [latex]x_{1}(t) x_{2}(t)[/latex] is real"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 61 Consider the following state-space representation of a linear time-invariant system. [latex]\\dot{x}(t)=\\begin{bmatrix} 1 & 0\\\\ 0&2 \\end{bmatrix}x(t), [/latex]  [latex]y(t)=c^{T}x(t),  [/latex]  [latex]c=\\begin{bmatrix} 1\\\\ 1 \\end{bmatrix} [/latex]   and [latex]x(0)=\\begin{bmatrix} 1\\\\ 1 \\end{bmatrix}[/latex] The value of y(t) for [latex]t= log_{e}2[/latex]  is______.",
+    "solution": "",
+    "min": 5.9,
+    "max": 6.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 62 Let [latex]S=\\sum_{n=0}^{\\infty }n\\alpha ^{n} \\; where \\;  |\\alpha | \\lt 1[/latex]. The value of [latex]\\alpha[/latex] in the range [latex]0 \\lt \\alpha \\lt 1[/latex], such that [latex]S= 2\\alpha[/latex]  is _______.",
+    "solution": "The Z-transform of [latex]\\begin{aligned} \\alpha ^n u(n)&\\rightarrow \\frac{1}{(1-\\alpha Z^{-1})}\\\\ n\\alpha ^n u(n)&\\rightarrow \\frac{\\alpha Z^{-1}}{(1-\\alpha Z^{-1})^2}\\\\ \\frac{\\alpha Z^{-1}}{(1-\\alpha Z^{-1})^2}&=\\sum_{n=0}^{\\infty }n\\alpha ^nZ^{-n} \\end{aligned}[/latex] If we put Z=1 in above equation, we get, [latex]\\begin{aligned} \\frac{\\alpha }{(1-\\alpha )^2}&=\\sum_{n=0}^{\\infty }n\\alpha ^n\\\\ \\text{Since, }\\sum_{n=0}^{\\infty }n\\alpha ^n&=2\\alpha =\\frac{\\alpha }{(1-\\alpha )^2}\\\\ \\text{So,}2&=\\frac{1}{(1-\\alpha )^2}\\\\ \\Rightarrow \\;\\;\\alpha &=0.29 \\end{aligned}[/latex]",
+    "min": 0.28,
+    "max": 0.31
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 The value of [latex]\\int_{-\\infty }^{+\\infty }e^{-t}\\delta (2t-2)dt, \\; where \\; \\delta (t)[/latex] is the Dirac delta function, is",
+    "solution": "To find the value of [latex]\\int_{-\\infty }^{\\infty }e^{-t}\\delta (2t-2)dt[/latex] Since, [latex]\\delta (2t-2)=\\frac{1}{2}\\delta (1t-1)[/latex]  above integral can be written as [latex]\\int_{-\\infty }^{\\infty }e^{-t}\\frac{1}{2}\\delta (t-1)dt=\\frac{1}{2}e^{-1}=\\frac{1}{2e}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{2e}[/latex]",
+      "B": "[latex]\\frac{2}{e}[/latex]",
+      "C": "[latex]\\frac{1}{e^{2}}[/latex]",
+      "D": "[latex]\\frac{1}{2e^{2}}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 64 Consider a continuous-time system with input x(t) and output y(t) given by y(t) = x(t) cos(t) This system is",
+    "solution": "[latex]\\begin{aligned} y(t)&=x(t)\\cos (t)\\\\ &\\text{To check linearity,}\\\\ y_1(t)&=x_1(t)\\cos (t)\\\\ &[y_1(t) \\text{ is output for }x_1(t)]\\\\ y_2(t)&=x_2(t) \\cos (t)\\\\ &[y_2(t) \\text{ is output for }x_2(t)]\\\\ \\text{so, the}& \\text{ output for }(x_1(t)+ x_2(t)) \\text{ will be}\\\\ y(t)&=[x_1(t)+ x_2(t)]\\cos (t)\\\\ &=y_1(t)+y_2(t) \\end{aligned}[/latex] So, the system is linear, to check time invariance. The delayed output, [latex]y(t-t_0)=x(t-t_0)\\cos (t-t_0)[/latex] The output for delayed input, [latex]y(t, t_0)=x(t-t_0)\\cos (t)[/latex] Since,  [latex]y(t-t_0)\\neq y(t,t_0)[/latex] System is time varying.",
+    "options": {
+      "A": "linear and time-invariant",
+      "B": "non-linear and time-invariant",
+      "C": "linear and time-varying",
+      "D": "non-linear and time-varying"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 65 The transfer function of a system is [latex]\\frac{Y(s)}{R(s)}=\\frac{s}{s+2}[/latex]. The steady state output y(t) is [latex] A \\cos (2t+\\varphi)[/latex] for the input cos(2t). The values of A and [latex]\\varphi[/latex], respectively are",
+    "solution": "[latex]\\begin{aligned}\n \\frac{Y(s)}{R(s)}&=\\frac{s}{s+2} \\\\ \n y(t)&=A \\cos (2t+\\phi ),  \\\\ \n r(t)&=\\cos 2t \\\\ \n\\because \\;H(s) &=\\frac{s}{(s+2)} \\\\ \n H(j\\omega )&=\\frac{j\\omega }{j\\omega +2} \\\\ \n|H(j\\omega )| &=\\frac{\\omega }{\\sqrt{\\omega ^2+4 }} \\\\ \n\\angle H(j\\omega ) &=90^{\\circ} -\\tan ^{-1}\\left ( \\frac{\\omega }{2} \\right ) \\\\ \n\\because \\; \\omega &= 2 \\text{  (as given)}\\\\ \n|H(j\\omega )| &=\\frac{2}{\\sqrt{4+4}}=\\frac{1}{\\sqrt{2}} \\\\ \n|H(j\\omega )| &=90^{\\circ} -\\tan ^{-1}(1)=45^{\\circ} \\\\ \n\\because \\; \\text{hence, }A &=1 \\times |H(j\\omega )|_{\\omega =2}\\\\\n&=1 \\times \\frac{1}{\\sqrt{2}}=0.707\\\\\n\\phi &= 45^{\\circ}\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{\\sqrt{2}},-45^{\\circ}[/latex]",
+      "B": "[latex]\\frac{1}{\\sqrt{2}},+45^{\\circ}[/latex]",
+      "C": "[latex]\\sqrt{2},-45^{\\circ}[/latex]",
+      "D": "[latex]\\sqrt{2},+45^{\\circ}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 The Laplace Transform of [latex]f(t)=e^{2t}sin(5t)u(t)[/latex] is",
+    "solution": "Laplace transform of [latex]\\sin 5t u(t)\\rightarrow \\frac{5}{s^2+25}[/latex] [latex]e^{2t}\\sin 5t u(t)\\rightarrow \\frac{5}{(s-2)^2+25}=\\frac{5}{s^2-4s+29}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{5}{s^{2}-4s+29}[/latex]",
+      "B": "[latex]\\frac{5}{s^{2}+5}[/latex]",
+      "C": "[latex]\\frac{s-2}{s^{2}-4s+29}[/latex]",
+      "D": "[latex]\\frac{5}{s+5}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 The following discrete-time equations result from the numerical integration of the differential equations of an un-damped simple harmonic oscillator with state variables x and y. The integration time step is h. [latex]\\frac{x_{k+1}-x_{k}}{h}=y_{k}[/latex] [latex] \\frac{y_{k+1}-y_{k}}{h}=-x_{k}[/latex] For this discrete-time system, which one of the following statements is TRUE?",
+    "solution": "",
+    "options": {
+      "A": "The system is not stable for [latex]h\\gt 0[/latex]",
+      "B": "The system is stable for [latex]h \\gt \\frac{1}{\\pi }[/latex]",
+      "C": "The system is stable for [latex]0 \\lt  h \\lt \\frac{1}{2\\pi }[/latex]",
+      "D": "The system is stable for [latex]\\frac{1}{2\\pi } \\lt h \\lt \\frac{1}{\\pi }[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 The z-Transform of a sequence x[n] is given as [latex]X(z)=2z+4-4/z+3/z^{2}[/latex]. If y[n] is the first difference of x[n], then Y(z) is given by",
+    "solution": "[latex]y(n)[/latex] is first difference of [latex]x(n)[/latex] [latex]\\begin{aligned} \\text{so, } y(n)&=x(n)-x(n-1) \\\\ \\text{so, } Y(z)&=X(z)-z^{-1}X(z) \\\\ Y(z)&=(2z+4-4z^{-1}+3z^{-2})\\\\ &-(2+4z^{-1}-4z^{-2}+3z^{-3}) \\\\ Y(z) &=2z+2-8z^{-1}+7z^{-2}-3z^{-3} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]2z+2-8/z+7/z^{2}-3/z^{3}[/latex]",
+      "B": "[latex]-2z+2-6/z-1/z^{2}-3/z^{3}[/latex]",
+      "C": "[latex]-2z+2-8/z-7/z^{2}-3/z^{3}[/latex]",
+      "D": "[latex]4z-2-8/z+7/z^{2}-3/z^{3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 For linear time invariant systems, that are Bounded Input Bounded Output stable, which one of the following statements is TRUE?",
+    "solution": "",
+    "options": {
+      "A": "The impulse response will be integrable, but may not be absolutely integrable.",
+      "B": "The unit impulse response will have finite support.",
+      "C": "The unit step response will be absolutely integrable",
+      "D": "The unit step response will be bounded."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 70 Consider a signal defined by [latex]x(t)=\\left\\{\\begin{matrix} e^{j10t} & for |t|\\leq 1\\\\ 0 & for |t|\\gt 1 \\end{matrix}\\right.[/latex] Its Fourier Transform is",
+    "solution": "[latex]\\begin{aligned} \\text{Since, }x(t) &=\\left\\{\\begin{matrix} e^{j10t} &\\text{for }|t|\\leq 1 \\\\ 0& \\text{for }|t|\\gt 1 \\end{matrix}\\right. \\\\ \\text{as, } X(\\omega )&=\\int_{-\\infty }^{\\infty } x(t)e^{-j\\omega t}dt\\\\ \\text{so, } X(\\omega )&=\\int_{-1}^{1 } e^{j10t}e^{-j\\omega t}dt\\\\ &=\\int_{-1}^{1 } e^{jt(10-\\omega )}dt\\\\ &= \\frac{1}{j(10-\\omega )}[e^{j(10-\\omega )}- e^{-j(10-\\omega )}]\\\\ X(\\omega ) &=\\frac{2 \\sin (\\omega -10)}{(\\omega -10)} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{2sin(\\omega -10)}{\\omega -10}[/latex]",
+      "B": "[latex]2e^{j10}\\frac{sin(\\omega -10)}{\\omega -10}[/latex]",
+      "C": "[latex]\\frac{2sin \\omega }{\\omega -10}[/latex]",
+      "D": "[latex]e^{j10\\omega }\\frac{2sin \\omega }{\\omega}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 71 The Laplace transform of [latex]f(t)=2\\sqrt{t/\\pi } [/latex] is [latex] s^{-3/2}[/latex]. The Laplace transform of [latex]g(t)=\\sqrt{1/\\pi t}[/latex] is",
+    "solution": "Given that, [latex]f(t)=2\\sqrt{\\frac{t}{\\pi}}\\rightleftharpoons F(s)=s^{-3/2}[/latex] By using property of differentiation In time, [latex]\\begin{aligned} \\frac{df(t)}{dt}&\\rightleftharpoons sF(s) \\\\ \\Rightarrow \\; \\frac{2}{\\sqrt{\\pi}}\\cdot \\frac{1}{2}t^{-1/2}&\\rightleftharpoons sF(s) \\\\ \\Rightarrow \\; \\frac{1}{\\sqrt{\\pi t}}&\\rightleftharpoons s\\cdot s^{-3/2} \\\\ \\Rightarrow \\; \\frac{1}{\\sqrt{\\pi t}}&\\rightleftharpoons s^{-1/2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]3s^{-5/2}/2[/latex]",
+      "B": "[latex]s^{-1/2}[/latex]",
+      "C": "[latex]s^{1/2}[/latex]",
+      "D": "[latex]s^{3/2}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 72 Consider a discrete time signal given by [latex]x[n]=(-0.25)^{n}u[n]+(0.5)^{n}u[-n-1][/latex] The region of convergence of its Z-transform would be",
+    "solution": "[latex]x[n]=(0.25)^nu(n)+(0.5)^n u(-n-1)[/latex] Signal [latex]x[n][/latex] is sum of two signals, one is right sided [latex][(-0.25)^n u(n)][/latex] and other is left sided [latex][(0.5)^n u(-n-1)][/latex]. The right sided signal will have pole at location with magnitude 0.25. So, ROC is [latex]|z| \\gt 0.25[/latex]. The left sided signal will have pole at location with magnitude 0.5. So, ROC is [latex]|z| \\lt 0.5[/latex]. So, ROC of X(z) (Z-transform of x(n) will be ) [latex]0.25 \\lt |z| \\lt 0.5[/latex].",
+    "options": {
+      "A": "the region inside the circle of radius 0.5 and centered at origin",
+      "B": "the region outside the circle of radius 0.25 and centered at origin",
+      "C": "the annular region between the two circles, both centered at origin and having radii 0.25 and 0.5",
+      "D": "the entire Z plane."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 The signum function is given by [latex]sgn(x)=\\left\\{\\begin{matrix} \\frac{x}{|x|}; &x\\neq 0 \\\\ 0; & x=0 \\end{matrix}\\right.[/latex] The Fourier series expansion of sgn(cos(t)) has",
+    "solution": "So, cos(t) is So, sgn(cos t) is a rectangular signal which is even and has half wave symmetry. So, Fourier series will have only cosine terms with add harmonics only.",
+    "options": {
+      "A": "only sine terms with all harmonics",
+      "B": "only cosine terms with all harmonics.",
+      "C": "only sine terms with even numbered harmonics.",
+      "D": "only cosine terms with odd numbered harmonics."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 74 The impulse response g(t) of a system, G , is as shown in Figure (a). What is the maximum value attained by the impulse response of two cascaded blocks of G as shown in Figure (b)?",
+    "solution": "[latex]\\begin{aligned} g(t)&=u(t)-u(t-1)\\\\ G(s)&=\\frac{1}{s}-\\frac{e^{-s}}{s}\\\\ G(s) \\times G(s)&=g(t)* g(t) \\end{aligned}[/latex] Maximum value =1",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page15_q4.webp",
+    "options": {
+      "A": "[latex]\\frac{2}{3}[/latex]",
+      "B": "[latex]\\frac{3}{4}[/latex]",
+      "C": "[latex]\\frac{4}{5}[/latex]"
+    }
+  },
+  {
+    "type": "numerical",
+    "question": "Question 75 A moving average function is given by [latex]y(t)=\\frac{1}{T}\\int_{t-T}^{t}u(\\tau )d\\tau[/latex]. If the input u is a sinusoidal signal of frequency [latex]\\frac{1}{2\\tau }[/latex] Hz, then in steady state, the output y will lag u (in degree) by ______ .",
+    "solution": "System input: [latex]\\sin \\omega _0 t[/latex] [latex]\\begin{aligned}\nf_0&=\\frac{1}{2T}Hz\\\\\n\\text{Therefore,}\\\\\n\\omega _0&=2 \\pi f_0=\\frac{2 \\pi}{2T}=\\frac{\\pi}{T}\\; rad/sec\\\\\ny(t)&=\\frac{1}{T}\\int_{t-T}^{t}\\sin \\omega _0\\tau \\; d\\tau\\\\\n&=\\frac{1}{T}[-\\cos\\omega _0 t ]_{t-T}^t\\\\\n&=-\\frac{1}{T}[\\cos\\omega _0 t -\\cos\\omega _0 (t-T) ]\\\\\n&\\left [ \\because \\; \\omega _0=\\frac{t}{T} \\right ]\\\\\n&=-\\frac{1}{T}[\\cos\\omega _0 t -\\cos\\left ( \\frac{\\pi t}{T}- \\pi \\right ) ]\\\\ \\\\\n&=-\\frac{1}{T}[\\cos\\omega _0 t +\\cos\\omega _0 t ]\\\\\n&=-\\frac{2}{T} \\cos\\omega _0 t \\\\\n&=\\frac{2}{T}\\sin (\\omega _0 t -90^{\\circ}) \\\\\n&=\\text{Output is lagging by }90^{\\circ} \\text{ w.r.t. input.}\n\\end{aligned}[/latex]",
+    "min": 90.0,
+    "max": 90.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 76 A differentiable non constant even function x(t) has a derivative y(t), and\r\ntheir respective Fourier Transforms are X([latex]\\omega[/latex]) and Y([latex]\\omega[/latex]). Which of the following\r\nstatments is TRUE ?",
+    "solution": "For real even function [latex]x(t)[/latex], the Fourier transform [latex]X(\\omega )[/latex] is always real even. [latex]y(t)[/latex] is a derivative of [latex]x(t)[/latex] which is a real odd function because derivative of even function is an odd function and hence, Fourier transform [latex]Y(\\omega )[/latex] is imaginary odd.",
+    "options": {
+      "A": "X([latex]\\omega[/latex]) and Y([latex]\\omega[/latex]) are both real",
+      "B": "X([latex]\\omega[/latex]) is real and Y([latex]\\omega[/latex]) is imaginary",
+      "C": "X([latex]\\omega[/latex]) and Y([latex]\\omega[/latex]) are both imaginary",
+      "D": "X([latex]\\omega[/latex]) is imaginary and Y([latex]\\omega[/latex]) is real"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 A sinusoid x(t) of unknown frequency is sampled by an impulse train of period\n20 ms. The resulting sample train is next applied to an ideal lowpass filter with\ncutoff at 25 Hz. The filter output is seen to be a sinusoid of frequency 20 Hz. This\nmeans that x(t)",
+    "solution": "Given, impulse train of period 20 ms. Then, sampling frequency [latex]=\\frac{1}{20 \\times 10^{-3}}=50Hz[/latex] If the input signal [latex]x(t)= \\cos \\omega _m (t)[/latex] having spectrum The filtered out sinusoidal signal has 20 Hz frequency, the sampling must be under sampling. The output signal which is an under sampled signal with sampling frequency 50 Hz is and [latex]50-f_m=20Hz\\;\\Rightarrow \\;f_m=30Hz[/latex]",
+    "options": {
+      "A": "10Hz",
+      "B": "60 Hz",
+      "C": "30 Hz",
+      "D": "90 Hz"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 78 A continuous-time LTI system with system function H([latex]\\omega[/latex]) has the following polezero plot. For this system, which of the alternatives is TRUE ?",
+    "solution": "[latex]\\Rightarrow \\;\\;[/latex] Symmetrically located pole and zero. [latex]\\Rightarrow \\;\\;[/latex] All pass filter. [latex]\\Rightarrow \\;\\;[/latex] Constant magnitude [latex](-\\infty \\leq \\omega \\leq \\infty )[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page16_q3.webp",
+    "options": {
+      "A": "[latex]|H(0)|\\gt |H(\\omega )|; |\\omega |\\gt 0[/latex]",
+      "B": "[latex]|H(\\omega )|[/latex] has multiple maxima, at [latex]\\omega_1 \\; and \\; \\omega _2[/latex]",
+      "C": "[latex]|H(0)|\\lt |H(\\omega )|; |\\omega |\\gt 0[/latex]",
+      "D": "[latex]|H(\\omega )|[/latex]=constant;  [latex]-\\infty \\lt \\omega \\lt \\infty[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 79 For the signal [latex]f(t) = 3 \\sin 8 \\pi t + 6 \\sin 12 \\pi t + \\sin 14 \\pi t[/latex], the minimum sampling frequency (in Hz) satisfying the Nyquist criterion is _____.",
+    "solution": "[latex]\\begin{aligned} f_{m_1} &=4Hz \\\\ f_{m_2} &=6Hz \\\\ f_{m_3} &=7Hz \\end{aligned}[/latex] Then minimum sampling frequency satisfying the nyquist criterion is 7*2=14Hz.",
+    "min": 14.0,
+    "max": 14.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 A signal is represented by [latex]x(t)=\\left\\{\\begin{matrix} 1 &|t| \\lt 1 \\\\ 0& |t|\\gt 1 \\end{matrix}\\right.[/latex] The Fourier transform of the convolved signal [latex]y(t)= x(2t)* x(t/2)[/latex] is",
+    "solution": "Given signal can be drawn as Therefore, [latex]\\begin{aligned} &x(t)\\leftrightarrow X(\\omega )=2Sa(\\omega ) \\\\ &\\text{Now, } x(t)\\leftrightarrow X(\\omega )\\\\ &\\text{then by time scaling,} \\\\ &x(at)\\leftrightarrow \\frac{1}{|a|}X(\\omega /a) \\\\ &\\therefore \\; x(2t)\\leftrightarrow Sa \\left ( \\frac{\\omega }{2} \\right )\\;\\;...(i) \\\\ &x\\left ( \\frac{t}{2} \\right ) \\leftrightarrow 4Sa(2\\omega )\\;\\;...(ii)\\\\ &\\text{Now, }y(t)=x(2t) \\times x(t/2) \\end{aligned}[/latex] Convolution in time domain multiplication in frequency domain [latex]\\begin{aligned} Y(\\omega )&=4Sa\\left ( \\frac{\\omega }{2}\\right ) Sa(2\\omega ) \\\\ Y(\\omega )&=\\frac{4\\sin \\left ( \\frac{\\omega }{2}\\right ) }{\\left ( \\frac{\\omega }{2}\\right ) } \\frac{\\sin (2\\omega )}{2\\omega }\\\\ Y(\\omega )&=\\frac{4}{\\omega ^2}\\sin \\left ( \\frac{\\omega }{2}\\right ) \\sin (2\\omega ) \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{4}{\\omega ^{2}}sin(\\frac{\\omega }{2})sin(2 \\omega )[/latex]",
+      "B": "[latex]\\frac{4}{\\omega ^{2}}sin(\\frac{\\omega }{2})[/latex]",
+      "C": "[latex]\\frac{4}{\\omega ^{2}}sin(2 \\omega )[/latex]",
+      "D": "[latex]\\frac{4}{\\omega ^{2}}sin^{2} \\omega[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 81 A function f(t) is shown in the figure. The Fourier transform F([latex]\\omega[/latex]) of f(t) is",
+    "solution": "Fiven signal [latex]f(t)[/latex] is an odd signal. Hence, [latex]F(\\omega )[/latex] is imaginary and odd function of [latex]\\omega [/latex].",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page17_q1.webp",
+    "options": {
+      "A": "real and even function of w",
+      "B": "real and odd function of w",
+      "C": "imaginary and odd function of w",
+      "D": "imaginary and even function of w"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 82 An input signal x(t)=2+5sin(100[latex]\\pi[/latex]t) is sampled with a sampling frequency of\n400 Hz and applied to the system whose transfer function is represented by [latex]\\frac{Y(z)}{X(z)}=\\frac{1}{N}(\\frac{1-z^{-N}}{1-z^{-1}})[/latex] where, N represents the number of samples per cycle. The output y(n) of the system under steady state is",
+    "solution": "[latex]\\begin{aligned} f_s&= 400Hz\\\\ x(t)&=2+5 \\sin (100 \\pi t) \\\\ t\\rightarrow xT_s &=\\frac{n}{f_s}=\\frac{n}{400} \\\\ x(n)&=2+5 \\sin \\left ( 100 \\pi\\frac{n}{400} \\right ) \\\\ &= 2+5 \\sin \\frac{\\pi}{4}n\\\\ \\text{Here, }\\omega _0 &=\\frac{\\pi}{4} \\end{aligned}[/latex] Therefore, N= time-period of [latex]x(n)=\\frac{2 \\pi }{\\omega _0}=\\frac{2 \\pi}{\\pi/4}=0[/latex] [latex]\\begin{aligned} \\text{Now, }H(z)&=\\frac{1}{N}\\left [ \\frac{1-z^{-N}}{1-z^{-1}} \\right ] \\\\ \\text{Applying, }z &=e^{j\\omega } \\\\ H(e^{j\\omega }) &= \\frac{1}{N}\\left [ \\frac{1-e^{-j\\omega N}}{1-e^{-j\\omega }} \\right ] \\\\ \\text{For, } &\\text{sinusoidal part of }x(n): \\\\ H(e^{j\\omega _0 }) &= \\frac{1}{N}\\left [ \\frac{1-e^{-j\\omega _0 N}}{1-e^{-j\\omega _0 }} \\right ] \\\\ [\\text{Note: }] \\omega _0 N&=\\frac{\\pi}{4} \\times 8 =2 \\pi] \\\\ &= \\frac{1}{N}\\left [ \\frac{1-e^{-j2 \\pi N}}{1-e^{-j \\pi/4}} \\right ]=0 \\end{aligned}[/latex] Therefore, for sinusoidal part of input, system output is zero. For dc part of input, [latex]\\begin{aligned} y(n)&=\\text{output}\\\\ &=H(e^{j0}) \\times \\text{input dc value}\\\\ [\\because \\; &H(e^{j\\omega })_{\\omega =0}=1]\\\\ &=1 \\times 2=2 \\end{aligned}[/latex] Thus, steady state output = 2",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 83 A discrete system is represented by the difference equation [latex]\\begin{bmatrix} X_{1}(k+1)\\\\ X_{2}(k+1) \\end{bmatrix}=\\begin{bmatrix} a & a-1\\\\ a+1& a \\end{bmatrix}\\begin{bmatrix} X_{1}(k)\\\\ X_{2}(k) \\end{bmatrix}[/latex] It has initial conditions [latex]X_1(0)=1;X_2(0)=0[/latex]. The pole locations of the system\nfor a = 1, are",
+    "solution": "Given that, [latex]\\begin{bmatrix} X_1(K+1)\\\\X_2(K+1) \\end{bmatrix}=\\begin{bmatrix} a & a-1\\\\ a+1 & 1 \\end{bmatrix}\\begin{bmatrix} X_1(K)\\\\X_2(K) \\end{bmatrix}[/latex] With initial conditions, [latex]X_1(0)=1,\\;\\;X_2(0)=0[/latex] For a=1, we can write, [latex]\\begin{bmatrix} X_1(K+1)\\\\X_2(K+1) \\end{bmatrix}=\\begin{bmatrix} 1 & 0\\\\ 2 & 1 \\end{bmatrix}\\begin{bmatrix} X_1(K)\\\\X_2(K+) \\end{bmatrix}[/latex] [latex]\\Rightarrow \\; X_1(K+1)=X_1(K) \\;\\;...(i)[/latex] [latex]\\Rightarrow \\; X_2(K+1)=2X_1(K)+X_2(k) \\;\\;...(ii)[/latex] Applying z-transform on equation (i), [latex]\\begin{aligned} zX_1(z)-zX_1(0)&=X_1(z) \\\\ X_1(z)[z-1]&=zX_1(0) \\\\ X_1(z) =\\frac{z}{z-1}\\;\\;&[Given, \\; X_1(0)=1]...(iii) \\\\ \\text{from equation (ii),}\\\\ zX_2(z)-zX_2(0)&=2X_1(z)+X_2(z)\\\\ X_2(z)[z-1]&=2X_1(z)+zX_2(0)\\\\ [Given,\\;\\; X_2(0)&=0]\\\\ \\frac{X_2(z)}{X_1(z)}&=\\frac{2}{z-1} \\end{aligned}[/latex] Thus, transfer function, [latex]H(z)=\\frac{2}{z-1}[/latex] Therefore, pole location is z=1.",
+    "options": {
+      "A": "1[latex]\\pm[/latex]j0",
+      "B": "[latex]-1 \\pm[/latex] j0",
+      "C": "[latex]\\pm[/latex] 1+j0",
+      "D": "0 [latex]\\pm[/latex] j1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 84 Consider an LTI system with impulse response [latex]h(t)=e^{-5t}u(t)[/latex]. If the output of the system is [latex]y(t)=e^{-3t}u(t)-e^{-5t}u(t)[/latex] then the input, x(t), is given by",
+    "solution": "Impulse response of an LTI system = transfer function [latex]=\\frac{Y(s)}{X(s)}=H(s)[/latex] [latex]\\begin{aligned} \\text{where, } y(t)&=e^{-3t}u(t)-e^{-5t}u(t) \\\\ \\therefore \\; Y(s) &=\\frac{1}{(s+3)}-\\frac{1}{(s+5)} \\\\ &=\\frac{2}{(s+3)(s+5)} \\\\ \\text{Also, } h(t)&=e^{-5t}u(t) \\\\ \\therefore \\; H(s) &=\\frac{1}{(s+5)} \\\\ \\text{Therefore, } X(s)&=\\frac{Y(s)}{H(s)} \\\\ &=\\frac{2}{(s+3)(s+5)} \\times (s+5) \\\\ &= \\frac{2}{(s+3)}\\\\ \\therefore \\; \\text{Input}&=x(t)=2e^{-3t}u(t) \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]e^{-3t}u(t)[/latex]",
+      "B": "[latex]2e^{-3t}u(t)[/latex]",
+      "C": "[latex]e^{-5t}u(t)[/latex]",
+      "D": "[latex]2e^{-5t}u(t)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 Consider an LTI system with transfer function [latex]H(s)=\\frac{1}{s(s+4)}[/latex] If the input to the system is cos(3t) and the steady state output is Asin(3t+[latex]\\alpha[/latex]) , then the value of A is",
+    "solution": "Given, [latex]\\begin{aligned}\nH(s)&=\\frac{1}{s(s+4)}\\\\\nr(t)&=\\text{input}= \\cos (3t)=\\cos \\omega t\\\\\n\\therefore \\; \\omega &=3 \\text{ rad/s}\\\\\nH(j\\omega)&=\\frac{1}{(j\\omega)(j\\omega+4)}\\\\\n\\text{Now, }|H(j\\omega)|&=\\frac{1}{\\omega \\sqrt{\\omega^4+4^2}}\\\\\n&=\\frac{1}{3\\sqrt{25}}=\\frac{1}{15} \\;\\;\\;(at\\; \\omega=3)\\\\\n\\angle H(j\\omega)&=-90^{\\circ}-\\tan ^{-1}\\frac{\\omega}{4}\\\\\n&=-90^{\\circ}-\\tan ^{-1}\\frac{3}{4}=-126.86^{\\circ}\\\\\n\\therefore \\; c(t)&=\\frac{1}{15} \\cos (3t-126.86^{\\circ})\\\\\n&=\\frac{1}{15} \\sin (3t-36.86^{\\circ})\\;\\;...(i)\\\\\nc(t)&=A \\sin (3t+\\alpha )\\;\\;...(ii)\\\\\n\\text{Comparing }&\\text{ eq. (i) and (ii), we have,}\\\\\nA&=\\frac{1}{15}\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]1/30[/latex]",
+      "B": "[latex]1/15[/latex]",
+      "C": "[latex]3/4[/latex]",
+      "D": "[latex]4/3[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 86 Let f(t) be a continuous time signal and let F([latex]\\omega[/latex]) be its Fourier Transform defined by [latex]F(\\omega)=\\int_{-\\infty }^{\\infty }f(t)e^{-j \\omega t}dt[/latex] Define g(t) by [latex]g(t)=\\int_{-\\infty }^{\\infty }F(u)e^{-jut}du[/latex] What is the relationship between f(t) and g(t) ?",
+    "solution": "Given that, [latex]\\begin{aligned} f(t)&\\rightleftharpoons F(\\omega )\\\\ g(t)&=\\int_{-\\infty }^{\\infty }F(u)e^{-jut}du\\\\ \\text{Now, }f(t)&=\\frac{1}{2\\pi}\\int_{-\\infty }^{\\infty }F(\\omega)e^{j \\omega t}d\\omega \\\\ \\Rightarrow \\; 2 \\pi f(t)&=\\int_{-\\infty }^{\\infty }F(\\omega)e^{j \\omega t}d\\omega \\\\ \\omega &\\rightarrow u,\\\\ 2 \\pi f(t)&=\\int_{-\\infty }^{\\infty }F(u)e^{j u t}du \\\\ t &\\rightarrow -t,\\\\ 2 \\pi f(-t)&=\\int_{-\\infty }^{\\infty }F(u)e^{-j u t}du \\\\ &=g(t)\\\\ \\Rightarrow \\; g(t)&=2 \\pi f(-t)\\\\ &= 2\\pi f(t) \\end{aligned}[/latex] [If [latex]f(t)[/latex] is even then [latex]f(t)=f(-t)[/latex] [latex]\\Rightarrow \\;\\; g(t) \\propto f(t) \\text{ if }f(t) \\text{ is even.}[/latex]",
+    "options": {
+      "A": "g(t) would always be proportional to f (t)",
+      "B": "g(t) would be proportional to f(t) if f(t) is an even function",
+      "C": "g(t) would be proportional to f(t) only if f(t) is a sinusoidal function",
+      "D": "g(t) would never be proportional to f(t)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 87 Let [latex]X(z)=\\frac{1}{1-z^{-3}}[/latex]  be the Z -transform of a causal signal x [n]. Then, the values of x[2] and x[3] are",
+    "solution": "[latex]X(z)=\\frac{1}{1-z^{-3}}[/latex] From z-transform defination, [latex]\\begin{aligned} X(z)&=\\sum_{n=-\\infty }^{\\infty }x[n]z^{-n} \\\\ &=x(0)+x(1)z^{-1}+x(2)z^{-2}+... \\\\ X(z)&=\\frac{1}{1-z^{-3}} \\\\ &=1+0\\cdot z^{-1}+0\\cdot z^{-2}+... \\end{aligned}[/latex] By comparision x(2)=0 and x(3)=1.",
+    "options": {
+      "A": "0 and 0",
+      "B": "0 and 1",
+      "C": "1 and 0",
+      "D": "1 and 1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 88 The function shown in the figure can be represented as",
+    "solution": "The given function can be realized as follow: Combining the function (i0, (ii), (iii) and (iv), we get the given function [latex]\\begin{aligned} \\text{Therefore, } f(t)&=u(t)-u(t-T)+\\frac{(t-T)}{T}\\\\ &-u(t-T)-\\frac{(t-2T)}{T}u(t-2T)u(t)\\\\&-u(t-T)+ \\frac{1}{T}r(t-T)-\\frac{1}{T}r(t-2T)\\\\ &OR \\\\ &u(t)-u(t-T)+\\frac{1}{T}(t-T)u(t-T)\\\\&-\\frac{1}{T}(t-2T)u(t-2T) \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page18_q3.webp",
+    "options": {
+      "A": "[latex]u(t)-u(t-T)+\\frac{(t-T)}{T}u(t-T)[/latex] [latex]-\\frac{(t-2T)}{T}u(t-2T)[/latex]",
+      "B": "[latex]u(t)+\\frac{t}{T}u(t-T)-\\frac{t}{T}u(t-2T)[/latex]",
+      "C": "[latex]u(t)-u(t-T)+\\frac{(t-T)}{T}u(t-T)[/latex] [latex]-\\frac{(t-2T)}{T}u(t)[/latex]",
+      "D": "[latex]u(t)-u(t-T)+\\frac{(t-T)}{T}u(t-T)[/latex] [latex]-\\frac{(t-2T)}{T}u(t-2T)[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 89 Let g : [latex][0,\\infty )\\rightarrow [0,\\infty )[/latex] be a function defined by g(x)=x-[x], where [x] represents the integer part of x . (That is, it is the largest integer which is less than or equal\r\nto x ). The value of the constant term in the Fourier series expansion of g(x) is____.",
+    "solution": "Given function [latex]g(t)=x-[x][/latex] where, [latex][x][/latex] is a integer part of x Then function [latex]g(x)[/latex] will be The value of the constant term (or) dc term in the Fourier series expansion of [latex]g(x)[/latex] is [latex]\\begin{aligned} a_0=\\frac{1}{T} \\int_{0}^{T}f(x)dx&=\\frac{\\text{Area in one period}}{\\text{one period}}\\\\ &= \\frac{1}{2} \\times 1 \\times 1=0.5 \\end{aligned}[/latex]",
+    "min": 0.5,
+    "max": 0.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 For a periodic square wave, which one of the following statements is TRUE ?",
+    "solution": "Reconstruction of signal by its Fourier series coefficient is not possible at those points where signal is discontinuous. In the above figure, at integer multiples of 'T/2', signal recovery is not possible by using its coefficient. Therefore, reconstruction of x(t) by using its coefficient is possible at most of the points except those instants where x(t) is discontinous.",
+    "options": {
+      "A": "The Fourier series coefficients do not exist",
+      "B": "The Fourier series coefficients exist but the reconstruction converges at no point",
+      "C": "The Fourier series coefficients exist but the reconstruction converges at most point",
+      "D": "The Fourier series coefficients exist and the reconstruction converges at every\npoint."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 x(t) is nonzero only for [latex]T_x \\lt t \\lt T'_x[/latex], and similarly, y(t) is nonzero only for [latex]T_y \\lt t \\lt T'_y[/latex]. Let z(t) be convolution of x(t) and y(t). Which one of the following statements is TRUE ?",
+    "solution": "[latex]x(t)[/latex] is non-zero for [latex]T_x \\lt t \\lt T'_x[/latex] and [latex]y(t)[/latex] is non-zero for [latex]T_y \\lt t \\lt T'_y[/latex] [latex]\\because \\;\\; z(t)=x(t)\\otimes y(t)[/latex] then the limits of the resultant signal is [latex]T_x+T_y \\lt t \\lt T'_x+T'_y[/latex] i.e.  [latex]z(t)[/latex] is non-zero for [latex]T_x+T_y \\lt t \\lt T'_x+T'_y[/latex]",
+    "options": {
+      "A": "z(t) can be nonzero over an unbounded interval.",
+      "B": "z(t) is nonzero for [latex]t \\lt T_{x}+T_{y}[/latex]",
+      "C": "z(t) is zero outside of [latex]T_{x}+T_{y} \\lt t \\lt T'_{x}+T'_{y}[/latex]",
+      "D": "z(t) is nonzero for [latex]t\\gt T'_{x}+T'_{y}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 92 Let [latex]X(s)=\\frac{3s+5}{s^{2}+10s+21}[/latex] be the Laplace Transform of a signal x(t). Then, x([latex]0^+[/latex]) is",
+    "solution": "Given,  [latex]X(s)=\\left [ \\frac{3s+5}{s^2+10s+21} \\right ][/latex] Using initial value theorem, [latex]\\begin{aligned} x(0^+) &= \\lim_{s \\to \\infty }[sX(s)]\\\\ x(0^+) &= \\lim_{s \\to \\infty } \\left [ \\frac{s(3s+5)}{s^2+10+21} \\right ] \\\\ &= \\lim_{s \\to \\infty }\\left [ \\frac{3+\\frac{5}{s}}{1+\\frac{10}{s}+\\frac{21}{s^2}} \\right ]=3 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0",
+      "B": "3",
+      "C": "5",
+      "D": "21"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 93 The impulse response of a continuous time system is given by [latex]h(t)=\\delta(t-1) \\delta (t-3)[/latex] . The value of the step response at t=2 is",
+    "solution": "For step response, impulse response can be integrated. [latex]\\begin{aligned} y(t)&=u(t-1)+u(t-3)\\\\ y(2)&=u(1)+u(-1)\\\\ &=1+0=1 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 94 A band-limited signal with a maximum frequency of 5 kHz is to be sampled.\r\nAccording to the sampling theorem, the sampling frequency in kHz which is not valid is",
+    "solution": "[latex]\\begin{aligned} (f_s)_{min}&=2f_m \\\\ (f_s)_{min}&=2 \\times 5=10kHz \\\\ f_s&\\geq 10kHz \\end{aligned}[/latex]",
+    "options": {
+      "A": "5 kHz",
+      "B": "12 kHz",
+      "C": "15 kHz",
+      "D": "20 kHz"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 For a periodic signal [latex]v(t)=30 sin100t + 10 cos 300t + 6 sin(500t +\\pi/4)[/latex], the\r\nfundamental frequency in rad/s",
+    "solution": "",
+    "options": {
+      "A": "100",
+      "B": "300",
+      "C": "500",
+      "D": "1500"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 96 Two systems with impulse responses [latex]h_{1}(t) \\; and \\; h_{2}(t)[/latex] are connected in cascade. Then the overall impulse response of the cascaded system is given by",
+    "solution": "In cascade connection, [latex]\\begin{aligned} H(s) &=H_1(s)\\cdot H_2(s)\\\\ \\Rightarrow \\; h(t)&=h_1(t) * h_2(t) \\end{aligned}[/latex]",
+    "options": {
+      "A": "product of [latex]h_{1}(t) \\; and \\; h_{2}(t)[/latex]",
+      "B": "sum of [latex]h_{1}(t) \\; and \\; h_{2}(t)[/latex]",
+      "C": "convolution of [latex]h_{1}(t) \\; and \\; h_{2}(t)[/latex]",
+      "D": "subtraction of [latex]h_{1}(t) \\; and \\; h_{2}(t)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 97 Which one of the following statements is NOT TRUE for a continuous time\ncausal and stable LTI system?",
+    "solution": "All poles must lie within |Z|=1",
+    "options": {
+      "A": "All the poles of the system must lie on the left side of the [latex]j \\omega[/latex] axis",
+      "B": "Zeros of the system can lie anywhere in the s-plane",
+      "C": "All the poles must lie within |s| = 1",
+      "D": "All the roots of the characteristic equation must be located on the left side\nof the [latex]j \\omega[/latex] axis."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 98 The impulse response of a system is h(t)=tu(t). For an input u(t-1), the output is",
+    "solution": "[latex]\\begin{aligned} h(t) &=tu(t) \\\\ H(s) &=\\frac{1}{s^2} \\\\ \\Rightarrow \\; \\frac{Y(s)}{U(s)} &=\\frac{1}{s^2} \\\\ Y(s) &=\\frac{1}{s^2} \\frac{e^{-s}}{s}\\\\ \\Rightarrow \\; y(t) &=\\frac{(t-1)^2}{2}u(t-1) \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{t^{2}}{2}u(t)[/latex]",
+      "B": "[latex]\\frac{t(t-1)}{2}u(t-1)[/latex]",
+      "C": "[latex]\\frac{(t-1)^{2}}{2}u(t-1)[/latex]",
+      "D": "[latex]\\frac{t^{2}-1}{2}u(t-1)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 99 Assuming zero initial condition, the response y(t) of the system given below to a\nunit step input u(t) is",
+    "solution": "[latex]\\begin{aligned} Y(s)&=\\frac{1}{s}U(s)=\\frac{1}{s^2}\\\\ y(t)&=tu(t) \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page20_q4.webp",
+    "options": {
+      "A": "u(t)",
+      "B": "tu(t)",
+      "C": "[latex]\\frac{t^{2}}{2}u(t)[/latex]",
+      "D": "[latex]e^{-t}u(t)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 100 The input x(t) and output y(t) of a system are related as [latex]y(t)=\\int^{t}_{-\\infty }x(\\tau ) cos (3\\tau )d\\tau[/latex]. The system is",
+    "solution": "[latex]\\begin{aligned} y&=\\int_{-\\infty }^{t}x{\\tau } \\cos (3\\tau )d\\tau \\\\ y(t-t_0)&=\\int_{-\\infty }^{t-t_0}x{\\tau } \\cos (3\\tau )d\\tau\\\\ y(t) & \\text{ for input }x(t-t_0) \\text{ is}\\\\ y'(t)&=\\int_{-\\infty }^{t}x{\\tau -t_0} \\cos (3\\tau )d\\tau\\\\ y'(t)&=\\int_{-\\infty }^{t-t_0}x{\\tau} \\cos 3(\\tau +t_0 )d\\tau\\\\ y'(t) &\\neq y(t-t_0) \\end{aligned}[/latex] So, system is not time invariant for input [latex]x{\\tau } =\\cos (3\\tau )[/latex] bounded input [latex]y(t)=\\int_{-\\infty }^{t} \\cos ^2 (3\\tau )d\\tau \\rightarrow \\infty \\; as \\; t \\rightarrow \\infty[/latex] So, for bounded input, output is not bounded therefore system is not stable.",
+    "options": {
+      "A": "time-invariant and stable",
+      "B": "stable and not time-invariant",
+      "C": "time-invariant and not stable",
+      "D": "not time-invariant and not stable"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 The Fourier transform of a signal h(t) is [latex]H(j \\omega)=(2\\cos\\omega)(\\sin 2 \\omega)/\\omega[/latex]. The value of h(0) is",
+    "solution": "[latex]\\begin{aligned} H(j\\omega )&=\\cos \\omega \\cdot \\frac{2 \\sin 2\\omega }{\\omega }\\\\ &=\\frac{e^{j\\omega}+e^{-j\\omega}}{2}\\cdot \\frac{2 \\sin 2\\omega }{\\omega }\\\\ &=\\frac{1}{2}\\left [ e^{j\\omega}\\left ( \\frac{2 \\sin 2\\omega }{\\omega } \\right )+e^{-j\\omega}\\left ( \\frac{2 \\sin 2\\omega }{\\omega } \\right ) \\right ]\\\\ \\text{Let, }X(\\omega )&=\\frac{2 \\sin 2\\omega }{\\omega } \\\\ \\text{Then, }x(t)&=\\left\\{\\begin{matrix} 1 & -2 \\lt t \\lt 2\\\\ 0 & \\text{ otherwise} \\end{matrix}\\right. \\\\ &\\text{By time shifting property}\\\\ h(t)&=\\frac{1}{2}(x(t+1)+x(t-1))\\\\ \\therefore \\; h(0)&=\\frac{1}{2}[x(1)+x(-1)]=\\frac{1}{2}[1+1]=1 \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]1/4[/latex]",
+      "B": "[latex]1/2[/latex]",
+      "C": "1",
+      "D": "2"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 102 Consider the differential equation [latex]\\frac{d^{2}y(t)}{dt^{2}}+2\\frac{dy(t)}{dt}+y(t)=\\delta (t)[/latex] with [latex]y(t)|_{t=0^{-}}=-2[/latex] and [latex]\\frac{dy}{dt}|_{t=0^{-}}=0[/latex] The numerical value of [latex]\\frac{dy}{dt}|_{t=0^{+}}[/latex], is",
+    "solution": "[latex]\\begin{aligned} &\\frac{d^2y(t)}{dt^2}+2\\frac{dy(t)}{dt}+y(t)=\\delta (t)\\\\ &\\Rightarrow \\; s^2y(s)-sy(0)-y'(0)+2[sy(s)-y(0)]\\\\&+y(s)=1\\\\ &\\Rightarrow \\; y(s)[s^22s+1]-(s \\times -2)-y(0)\\\\&-(2 \\times -2)=1\\\\ &\\Rightarrow \\; y(s)[s^2+2a+1]=-2s-3\\\\ &\\Rightarrow \\;y(s)=\\frac{-2s-3}{s^2+2s+1}=\\frac{-2}{s+1}-\\frac{1}{(s+1)^2}\\\\ &\\Rightarrow \\; y(t)=-2e^{-t}-te^{-t}\\\\ &\\frac{dy(t)}{dt}=2e^{-t}-(-te^{-t}+e^{-t})\\\\ &\\frac{dy(t)}{dt}=e^{-t}+te^{-t}\\\\ &\\frac{dy(t)}{dt}|_{t=0^+}=1+0=1 \\end{aligned}[/latex]",
+    "options": {
+      "A": "-2",
+      "B": "-1",
+      "C": "0",
+      "D": "1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 103 Let y[n] denote the convolution of h[n] and g[n], where h[n]=[latex](1/2)^{n}[/latex]u[n] and g[n] is a causal sequence. If y[0]=1 and y[1]=1/2, then g[1] equals",
+    "solution": "Given, g[n] is causal sequence Therefore, g[n] will be zero for [latex] n \\lt 0[/latex] [latex]\\begin{aligned} y[n]&=\\sum_{k=-\\infty }^{\\infty }g[k]h[n-k]\\\\ h[n]&=\\left ( \\frac{1}{2} \\right )^n u[n]\\\\ h[n]&=\\left\\{\\begin{matrix} \\left ( \\frac{1}{2} \\right )^n \\; ;& n\\geq 0\\\\ 0& n \\lt 0 \\end{matrix}\\right.\\\\ h[0]&=0, h[1]=\\frac{1}{2}, h[2]=\\frac{1}{4}\\\\ y[0]&=g[0] h[0]+g[1]h[-1]+...\\\\ 1&=g[0] \\times 1+0+0+...\\\\ g[0]&=1\\\\ y[1]&=g[0]h[1]+g[1]h[0]+g[2]h[-1]+...\\\\ \\frac{1}{2}&=1\\cdot \\frac{1}{2}+g[1]\\cdot 1+0\\\\ \\Rightarrow \\;g[1]&=0 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0",
+      "B": "[latex]1/2[/latex]",
+      "C": "1",
+      "D": "[latex]3/2[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 104 The unilateral Laplace transform of [latex]f(t)[/latex] is [latex]\\frac{1}{s^{2}+s+1}[/latex]. The unilateral Laplace transform of [latex]tf(t)[/latex] is",
+    "solution": "[latex]\\begin{aligned} \\text{If }L[f(t)]&=\\bar{f}(s)\\\\ \\text{then, }L[t^nf(t)]&=(-1)^n\\frac{d^n}{ds^n}\\bar{f}(s)\\\\ &\\text{In this problem,}\\\\ \\text{Given, }L[f(t)]&=\\frac{1}{s^2+s+1}=\\bar{f}(s)\\\\ &\\text{We need,}\\\\ L[tf(t)]&=(-1)^n\\frac{d^1}{ds^1}\\bar{f}(s)\\\\ &=-\\frac{d}{ds}\\bar{f}(s)\\\\ &=-\\frac{d}{ds}\\left [ \\frac{1}{s^2+s+1} \\right ]\\\\ &=-\\left [ \\frac{-1}{(s^2+s+1)^2} \\right ] \\times (2s+1)\\\\ &=\\frac{2s+1}{(s^2+s+1)^2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]-\\frac{s}{(s^{2}+s+1)^{2}}[/latex]",
+      "B": "[latex]-\\frac{2s+1}{(s^{2}+s+1)^{2}}[/latex]",
+      "C": "[latex]\\frac{s}{(s^{2}+s+1)^{2}}[/latex]",
+      "D": "[latex]\\frac{2s+1}{(s^{2}+s+1)^{2}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 105 If [latex]x[n] = (1/3)^{|n|}-(1/2)^{n} u[n][/latex], then the region of convergence (ROC) of its Z-transform in the Z-plane will be",
+    "solution": "[latex]\\begin{aligned} \\text{Let, }x_1[n]&=\\left ( \\frac{1}{3} \\right )^{|n|}\\\\ \\text{and }x_2[n]&=\\left ( \\frac{1}{2} \\right )^{n} u[n]\\\\ \\Rightarrow \\; x_1[n]&=\\left ( \\frac{1}{3} \\right )^{n}u[n]+\\left ( \\frac{1}{3} \\right )^{-n} u[-n-1]\\\\ \\left ( \\frac{1}{3} \\right )^{n} u[n] & \\overset{z}{\\leftrightarrow} \\frac{1}{1-\\frac{1}{3}z^{-1}}; \\; ROC: |z| \\gt \\frac{1}{3}\\\\ \\left ( \\frac{1}{3} \\right )^{-n} u[-n-1] & \\overset{z}{\\leftrightarrow} \\frac{-1}{1-\\left (\\frac{1}{3} \\right )^{-1}z^{-1}}; \\; ROC: |z| \\lt 3\\\\ \\text{and } x_2[n]=\\left ( \\frac{1}{2} \\right )^{n} u[n] & \\overset{z}{\\leftrightarrow} \\frac{1}{1-\\frac{1}{2}z^{-1}}; \\; ROC: |z| \\gt \\frac{1}{2}\\\\ \\therefore \\; & \\text{ROC is }\\frac{1}{2} \\lt |z| \\lt 3 \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{3} \\lt |z| \\lt 3[/latex]",
+      "B": "[latex]\\frac{1}{3} \\lt |z| \\lt 1/2[/latex]",
+      "C": "[latex]\\frac{1}{2} \\lt |z| \\lt 3[/latex]",
+      "D": "[latex]\\frac{1}{3} \\lt |z|[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 106 A zero mean random signal is uniformly distributed between limits -a and +a\nand its mean square value is equal to its variance. Then the r.m.s value of the\nsignal is",
+    "solution": "",
+    "options": {
+      "A": "[latex]\\frac{a}{\\sqrt{3}}[/latex]",
+      "B": "[latex]\\frac{a}{\\sqrt{2}}[/latex]",
+      "C": "[latex]a\\sqrt{2}[/latex]",
+      "D": "[latex]a\\sqrt{3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 107 Let the Laplace transform of a function F(t) which exists for [latex]t \\gt 0 \\; be \\; F_1(s)[/latex]\r\nand the Laplace transform of its delayed version [latex]f(t-\\tau ) \\; be \\; F_{2}(s)[/latex]. Let [latex]F_1^*(s)[/latex] be the complex conjugate of [latex]F_1(s)[/latex] with the Laplace variable set [latex]s=\\sigma +i \\omega[/latex]. If [latex]G(s)=\\frac{F_{2}(s)F_{1}^*(s)}{|F_{1}(s)|^{2}}[/latex], then the inverse Laplace transform of G(s) is",
+    "solution": "[latex]\\begin{aligned} F_2(t)&=L(f(t-\\tau ))=e^{-s\\tau }F_1(s)\\\\ G(s)&=\\frac{e^{-s\\tau }F_1(s)F_1^*(s)}{|F_1(s)|^2}=e^{-s\\tau }\\\\ G(t)&=\\delta (t-\\tau ) \\end{aligned}[/latex]",
+    "options": {
+      "A": "An ideal impulse [latex]\\delta (t)[/latex]",
+      "B": "An ideal delayed impulse [latex]\\delta (t-\\tau )[/latex]",
+      "C": "An ideal step function u(t)",
+      "D": "An ideal delayed step function u[latex](t-\\tau )[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 108 Given two continuous time signals  [latex]x(t) =e^{-t}[/latex] and  [latex]y(t) =e^{-2t}[/latex] which exist for [latex]t \\gt 0[/latex], the convolution z(t)=x(t)*y(t) is",
+    "solution": "[latex]\\begin{aligned} x(s)&=\\frac{1}{s+1} \\\\ y(s)&=\\frac{1}{s+2} \\\\ z(s)&=x(s)\\cdot y(s) \\\\ &=\\frac{1}{s+1} \\times \\frac{1}{s+2} \\\\ &=\\frac{1}{s+1} - \\frac{1}{s+2} \\\\ z(t)&=e^{-t}-e^{-2t} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]e^{-t}-e^{-2t}[/latex]",
+      "B": "[latex]e^{-3t}[/latex]",
+      "C": "[latex]e^{+t}[/latex]",
+      "D": "[latex]e^{-t}+e^{-2t}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 109 The fourier series expansion [latex]f(t)=a_{0}+\\sum_{n=1}^{\\infty }a_{n}cosn\\omega t+b_{n}sin n\\omega t[/latex] of the periodic signal shown below will contain the following nonzero terms",
+    "solution": "Let,  [latex]x(t)[/latex]= Even and Hws Fourier series expansion of [latex]x(t)[/latex] contains cos terms with odd harmonics. NOw,  [latex]f(t)=1+x(t)[/latex] Fourier series of [latex]f(t)[/latex] contains dc and cos terms with odd harmonics.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page22_q4.webp",
+    "options": {
+      "A": "[latex]a_{0} \\; and \\; b_{n},n=1,3,5,...\\infty[/latex]",
+      "B": "[latex]a_{0} \\; and \\; a_{n},n=1,2,3,...\\infty[/latex]",
+      "C": "[latex]a_{0},a_{n} \\; and \\; b_{n},n=1,3,5,...\\infty[/latex]",
+      "D": "[latex]a_{0} \\; and \\; a_{n},n=1,3,5,...\\infty[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 110 Given f(t) and g(t)as shown below: The Laplace transform of g(t) is",
+    "solution": "[latex]\\begin{aligned} g(t) &=\\left\\{\\begin{matrix} 1 &3 \\lt t \\lt 5 \\\\ 0& t \\lt 3, t \\gt 5 \\end{matrix}\\right. \\\\ \\Rightarrow \\; g(t) &=u(t-3)-u(t-5) \\\\ L(g(t))&=L(u(t-3))-L(u(t-5)) \\\\ &= \\frac{1}{s}e^{-3s}-\\frac{1}{s}e^{-5s}\\\\ &= \\frac{1}{s}(e^{-3s}-e^{-5s})\\\\ &= \\frac{e^{-3s}}{s}(1-e^{-2s}) \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page22_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{1}{s}(e^{3s}-e^{5s})[/latex]",
+      "B": "[latex]\\frac{1}{s}(e^{-5s}-e^{-3s})[/latex]",
+      "C": "[latex]\\frac{e^{-3s}}{s}(1-e^{-2s})[/latex]",
+      "D": "[latex]\\frac{1}{s}(e^{5s}-e^{3s})[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 111 Given f(t) and g(t)as shown below: g(t) can be expressed as",
+    "solution": "Since, g(t) has width of 2-unit and f(t) has 1 unit, therefore we have to first expand f(t) by 2 unit and for this we have to scale f(t) by 1/2. i.e.    [latex]f_1(t)=f\\left ( \\frac{1}{2}t \\right )[/latex] Now shift it by three unit to get g(t) [latex]g(t)=f_1(t-3)=f\\left ( \\frac{t-3}{2} \\right )=f\\left ( \\frac{t}{2}-\\frac{3}{2} \\right )[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page23_q1.webp",
+    "options": {
+      "A": "[latex]g(t)=f(2t-3)[/latex]",
+      "B": "[latex]g(t)=f(\\frac{t}{2}-3)[/latex]",
+      "C": "[latex]g(t)=f(2t-\\frac{3}{2})[/latex]",
+      "D": "[latex]g(t)=f(\\frac{t}{2}-\\frac{3}{2})[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 112 Given the finite length input x[n] and the corresponding finite length output y[n]\r\nof an LTI system as shown below, the impulse response h[n] of the system is",
+    "solution": "x[n] = { 1 , -1}, M=2 y[n] = { 1 ,0,0,0,-1}, [latex]N_1=5[/latex] Since, output hasnumber of elements [latex]N_1=M+N-1[/latex] where N is number of elements in impulse response h[n]. [latex]\\therefore \\;\\; 5=2+N-1[/latex] [latex]N=4[/latex] Let it be [latex]a_1,a_2,b_1,b_2[/latex] [latex]y[n]=[a_1,(a_2-a_1), (b_1-a_2), (b_2-b_1), -b_2][/latex] Comaparing with [latex]y[n]=1, 0,0,0,-1] [/latex] [latex]a_1=1[/latex] [latex]a_2=a_1=1[/latex] [latex]b_1=a_1=1[/latex] [latex]b_2=b_1=1[/latex] Therefore, [latex]h[n]=\\{1,1,1,1 \\}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page23_q2.webp",
+    "options": {
+      "A": "h[n] = {1, 0, 0, 1}",
+      "B": "h[n] = {1, 0, 1}",
+      "C": "h[n] = {1, 1, 1, 1}",
+      "D": "h[n] = {1, 1, 1}"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 113 x(t) is a positive rectangular pulse from t=-1 to t=+1 with unit height as\r\nshown in the figure. The value of [latex]\\int_{-\\infty }^{\\infty }|X(\\omega )|^{2}d\\omega[/latex] {where [latex]X(\\omega )[/latex] is the Fourier transform of x(t)} is.",
+    "solution": "By using Parseval's theorem, [latex]\\begin{aligned} \\int_{-\\infty }^{\\infty }|X(\\omega )|^2 d\\omega &= 2 \\pi \\int_{-1}^{1}1 \\; dt=2 \\pi \\times 2\\\\ \\int_{-\\infty }^{\\infty }|X(\\omega )|^2 d\\omega &=4 \\pi \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page23_q3.webp",
+    "options": {
+      "A": "2",
+      "B": "[latex]2 \\pi[/latex]",
+      "C": "4",
+      "D": "[latex]4 \\pi[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 114 The second harmonic component of the periodic waveform given in the figure has an amplitude of",
+    "solution": "The given signal is odd as wel as having half wave symmetry. So, it has only sine terms with odd harmonics. So, for second harmonic term amplitude =0.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page23_q4.webp",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "[latex]2/\\pi[/latex]",
+      "D": "[latex]\\sqrt{5}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 115 The system represented by the input-output relationship [latex]y(t)=\\int_{-\\infty }^{5t}x(\\tau )d\\tau , \\; t\\gt0[/latex]",
+    "solution": "Integrator is always a linear system. [latex]\\begin{aligned} \\text{Since, }y(t)&=\\int_{-\\infty }^{5t}x(\\tau )d\\tau \\;\\;t \\gt 0 \\\\ &\\text{For t=1,} \\\\ y(t)&= \\int_{-\\infty }^{5}x(\\tau )d\\tau \\end{aligned}[/latex] here value at t=1 depends on future values like at t=2,3,... of input x(t). So, it is a noncausal systems.",
+    "options": {
+      "A": "Linear and causal",
+      "B": "Linear but not causal",
+      "C": "Causal but not linear",
+      "D": "Neither liner nor causal"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 116 The z-transform of a signal x[n] is given by [latex]4z^{-3}+3z^{-1}+2-6z^{2}+2z^{3}[/latex].\r\nIt is applied to a system, with a transfer function  [latex]H(z) =3z^{-1}-2[/latex].\r\nLet the output be y(n). Which of the following is true ?",
+    "solution": "[latex]\\begin{aligned} y[n] &=x[n]*H[n] \\\\ y[z]&= x[z]H[z]\\\\ y[z]&=(4z^{-3}+3z^{-1}+2-6z^{2}+2z^{3}) (3z^{-1}-2)\\\\ &=12z^{-4}+9z^{-2}+6z^{-1}-18z+6z^{2} \\\\ &-8z^{-3}-6z^{-1}-4+12z^{2}-4z^{3} \\\\ &= -4z^3+18z^2-18z+12z^{-4}+9z^{-2}-4-8z^{-3}\\\\ y[n]&\\neq 0 \\; \\text{ for }n \\lt 0 \\end{aligned}[/latex] Therefore, it is noncausal with finite support.",
+    "options": {
+      "A": "y(n) is non causal with finite support",
+      "B": "y(n) is causal with infinite support",
+      "C": "y(n) = 0; [latex]|n| \\gt 3[/latex]",
+      "D": "[latex]Re[Y(z)]_{z=e^{j \\theta}}=-Re[Y(z)]_{z=e^{-j\\theta}};[/latex]  [latex]Im[Y(z)]_{z=e^{j \\theta}}=Im[Y(z)]_{z=e^{-j \\theta}};[/latex] [latex]-  \\pi \\leq \\theta \\lt \\pi[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 117 The Fourier Series coefficients of a periodic signal x(t), expressed as [latex]x(t)=\\sum_{k=-\\infty }^{\\infty }a_{k}e^{j2 \\pi kt/T}[/latex] are given by [latex]a_{-2}=2-j1[/latex], [latex]a_{-1}=0.5+j0.2[/latex], [latex]a_{0}=j2[/latex], [latex]a_{1}=0.5-j0.2[/latex], [latex]a_{2}=2+j1[/latex] and [latex]a_{k}=0[/latex] for [latex]|k| \\gt 2[/latex] Which of the following is true ?",
+    "solution": "[latex]\\begin{aligned} x(t)&=a_{-2}e^{-j2\\omega _0t}+a_{-1}e^{-j\\omega _0t}\\\\ &+a_{1}e^{j\\omega _0t} +a_{2}e^{j2\\omega _0t}\\\\ &=(2-j)e^{-j2\\omega _0t}+(2+j)e^{j2\\omega _0t}\\\\ &+(0.5+j0.2)e^{-j\\omega _0t}+(0.5-j0.2)e^{j\\omega _0t}+2j\\\\ &=2(e^{-j2\\omega _0t}+e^{j2\\omega _0t})+j(e^{j2\\omega _0t}-e^{-j2\\omega _0t})\\\\ &+0.5(e^{j\\omega _0t}+e^{-j\\omega _0t})-j0.2(e^{j\\omega _0t}-e^{-j\\omega _0t})+2j\\\\ &=4 \\cos 2\\omega _0t-2 \\sin 2\\omega _0t+ \\cos \\omega _0t \\\\ &+0.4 \\sin \\omega _0t+2j\\\\ &=\\text{Real}[x(t)]+j\\text{Img}[x(t)]\\\\ &\\text{where,}\\\\ \\text{Real}[x(t)]&=4 \\cos 2\\omega _0t-2 \\sin 2\\omega _0t+ \\cos \\omega _0t \\\\ &+0.4 \\sin \\omega _0t\\\\ &= \\text{neither even nor odd signal}\\\\ \\text{Img}[x(t)]&=2=\\text{constant} \\end{aligned}[/latex]",
+    "options": {
+      "A": "x(t) has finite energy because only finitely many coefficients are non-zero",
+      "B": "x(t) has zero average value because it is periodic",
+      "C": "The imaginary part of x(t) is constant",
+      "D": "The real part of x(t) is even"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 118 A cascade of three Linear Time Invariant systems is causal and unstable. From\nthis, we conclude that",
+    "solution": "Since in cascade overall impulse response [latex]h(t)=h_1(t)*h_2(t)*h_3(t)[/latex] [latex]h_1(t),h_2(t),h_3(t)[/latex] are impulse response of individual systems. Since, initial point where h(t) is nonzero is [latex]t \\geq 0[/latex] and since in convolution initial point [latex]=t_1+t_2+t_3[/latex] where, [latex]t_1,t_2,t_3[/latex] are initial point of [latex]h_1(t), h_2(t),h_3(t)[/latex] respectively. So for it to be greater than or equal to zero at least one of them [latex]t_1, t_2\\; or \\; t_3[/latex] must be +ve i.e. greater than zero so atleast one of them must be causal. Similarly if one (atleast) of the system become unstable then overall system will become unstable.",
+    "options": {
+      "A": "each system in the cascade is individually causal and unstable",
+      "B": "at least on system is unstable and at least one system is causal",
+      "C": "at least one system is causal and all systems are unstable",
+      "D": "the majority are unstable and the majority are causal"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 119 A Linear Time Invariant system with an impulse response h(t) produces output\ny(t) when input x(t) is applied. When the input x(t-[latex]\\tau[/latex]) is applied to a system with impulse response h(t-[latex]\\tau[/latex]), the output will be",
+    "solution": "Case-1: [latex] Y(s)=H(s) \\cdot X(s)[/latex] Case-1: input [latex]=x(t-\\tau )\\Rightarrow X(s)e^{-s\\tau }[/latex] impulse response [latex]=h(t-\\tau )\\Rightarrow H(s)e^{-s\\tau }[/latex] Output: [latex]Y'(s)=X(s)e^{-s\\tau }H(s)e^{-s\\tau }[/latex] [latex]Y'(s)=X(s)H(s)e^{-2s\\tau }=Y(s)e^{-2s\\tau}[/latex] [latex]y'(t)=y(t-2 \\tau)[/latex]",
+    "options": {
+      "A": "y(t)",
+      "B": "y(2(t-[latex]\\tau[/latex]))",
+      "C": "y(t-[latex]\\tau[/latex])",
+      "D": "y(t-2[latex]\\tau[/latex])"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 120 Let [latex]x(t)= rect(t-\\frac{1}{2}[/latex]) (where [latex]rect(x) = 1[/latex] for [latex]-\\frac{1}{2}\\leq x\\leq \\frac{1}{2}[/latex] and zero otherwise. Then if [latex]sinc(x)=\\frac{sin(\\pi x)}{\\pi x}[/latex], the Fourier Transform of [latex]x(t) + x(-t)[/latex] will be given by",
+    "solution": "[latex]\\begin{aligned}\nx(t)&= \\text{rect}[t-1/2]\\\\\nx(t)&=1 \\;\\;\\;0\\leq t\\leq 1\\\\\n    &=0 \\;\\;\\; \\text{otherwise}\\\\\nF[x(t)]&=\\int_{-\\infty }^{\\infty }x(t)e^{-j\\omega t}dt\\\\\n&=\\int_{0}^{1}1e^{-j\\omega t}dt=\\frac{1}{j\\omega }(1-e^{-j\\omega })\\\\\n&=\\frac{2}{\\omega }\\left [ \\frac{e^{j\\omega t} -e^{-j\\omega /2}}{2j} \\right ]xe^{-j\\omega /2}\\\\\n&=\\frac{\\sin \\omega /2}{\\omega /2}\\cdot e^{-j\\omega /2}\\\\\nF[x(t)+x(-t)]&\\overset{F.T.}{\\rightarrow}X(\\omega )+X(-\\omega )\\\\\n&=\\frac{\\sin \\omega /2}{\\omega /2}[ e^{-j\\omega /2}+e^{j\\omega /2}]\\\\\n&=\\frac{\\sin \\omega /2}{\\omega /2} 2 \\cos \\frac{\\omega }{2}\\\\\n&=2 \\sin c\\left ( \\frac{\\omega }{2 \\pi} \\right ) \\cos \\left ( \\frac{\\omega }{2} \\right ) \n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]sinc(\\frac{\\omega }{2\\pi })[/latex]",
+      "B": "[latex]2sinc(\\frac{\\omega }{2\\pi })[/latex]",
+      "C": "[latex]2sinc(\\frac{\\omega }{2\\pi })cos(\\frac{\\omega }{2})[/latex]",
+      "D": "[latex]sinc(\\frac{\\omega }{2\\pi })sin(\\frac{\\omega }{2})[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 121 Given [latex]X(z)=\\frac{z}{(z-a)^2}[/latex] with [latex]|z| \\gt a[/latex], the residue of [latex]X(z)z^{n-1}[/latex] at z=a for [latex]n\\geq 0[/latex] will be",
+    "solution": "[latex]\\begin{aligned} x(z)&=\\frac{z}{(z-a)^2}\\\\ \\therefore \\; z^{n-1}X(z)&=\\frac{z^n}{(z-a)^2} \\end{aligned}[/latex] Since, z-a is a pole of second order, therefore residue at z=a [latex]=\\frac{d}{dz}\\left [ (z-a)^2 \\frac{z^n}{(z-a)^2}\\right ]_{at\\; z=a}=[nz^n-1]_{z=a}=na^{n-1}[/latex]",
+    "options": {
+      "A": "[latex]a^{n-1}[/latex]",
+      "B": "[latex]a^{n}[/latex]",
+      "C": "[latex]na^{n}[/latex]",
+      "D": "[latex]na^{n-1}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 122 H(z) is a transfer function of a real system. When a signal [latex]x[n] =(1+j)^{n}[/latex] is the input to such a system, the output is zero. Further, the Region of convergence (ROC) of [latex](1-\\frac{1}{2}z^{-1})[/latex]H(z) is the entire Z-plane (except z = 0). It can then be inferred that H(z) can have a minimum of",
+    "solution": "",
+    "options": {
+      "A": "one pole and one zero",
+      "B": "one pole and two zeros",
+      "C": "two poles and one zero",
+      "D": "two poles and two zeros"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 123 Let x(t) be a periodic signal with time period T, Let [latex]y(t)=x(t-t_0)+x(t+t_0)[/latex]\r\nfor some [latex]t_0[/latex]. The Fourier Series coefficients of y(t) are denoted by [latex]b_k[/latex]. If [latex]b_k=0[/latex] for\r\nall odd k , then [latex]t_0[/latex] can be equal to",
+    "solution": "[latex]y(t)=x(t-t_0)+x(t+x_0)[/latex] Since, [latex]x(t)[/latex] is periodic with period T. Therefore, [latex]x(t-t_0)[/latex] and [latex]x(t+t_0)[/latex] will also  be periodic with period T. [latex]\\therefore \\; b_k=a_ke^{-jk\\omega _0t_0}+a_ke^{jk\\omega _0t_0}[/latex] [latex]a_k [/latex] is Fourier series coefficient of signal [latex]x(t)[/latex] therefore, [latex]\\begin{aligned} \\therefore \\; b_k&=a_k(e^{-jk\\omega _0t_0}+e^{jk\\omega _0t_0}) \\\\ b_k&=2a_k \\cos k\\omega _0t_0 \\\\ \\text{since, }b_k &=0 \\text{ for odd k} \\\\ \\text{i.e. } k\\omega _0t_0&=k\\frac{\\pi}{2}\\\\ \\text{ where } k&=\\pm 1,\\pm 3,\\pm 5... \\\\ \\Rightarrow \\;\\; \\omega _0t_0 &=\\frac{\\pi}{2} \\\\ t_0&=\\frac{\\pi}{2} \\times \\frac{T}{2 \\pi}=\\frac{T}{4} \\end{aligned}[/latex]",
+    "options": {
+      "A": "T/8",
+      "B": "T/4",
+      "C": "T/2",
+      "D": "2T"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 124 A signal [latex]x(t)=sinc(\\alpha t)[/latex] where [latex]\\alpha[/latex] is a real constant [latex](sinc(x)=\\frac{sin (\\pi x)}{\\pi x})[/latex] is the input to a Linear Time Invariant system whose impulse response [latex]h(t)=sinc(\\beta t)[/latex], where [latex]\\beta[/latex] is a real constant. If min[latex](\\alpha ,\\beta )[/latex] denotes the minimum of [latex]\\alpha \\;and \\; \\beta [/latex] and similarly, max[latex](\\alpha ,\\beta )[/latex] denotes the maximum of [latex]\\alpha \\; and \\; \\beta [/latex], and K is a constant, which one of the following statements is true about the output of the system ?",
+    "solution": "[latex]\\begin{aligned} x(t)&=\\sin c (\\alpha t)=Sa[\\pi \\alpha t]\\\\ h(t)&=\\sin c (\\beta t)=Sa[\\pi \\beta t]\\\\ x(t)&=Sa[\\pi \\alpha t] \\end{aligned}[/latex] [latex]\\begin{aligned} y(t)&=h(t)*x(t)\\\\ Y(j\\omega )&=X(j\\omega )H(j\\omega ) \\end{aligned}[/latex] [latex]\\begin{aligned} y(t)&=\\frac{1}{\\beta }Sa( \\pi \\alpha t)\\;\\;\\; if \\; \\alpha \\lt \\beta \\\\ y(t)&=\\frac{1}{\\beta } \\sin c(\\alpha t)\\;\\;\\; if \\; \\alpha \\lt \\beta \\\\ y(t)&=\\frac{1}{\\alpha }\\sin c( \\beta t)\\;\\;\\; if \\; \\alpha \\gt \\beta \\\\ \\end{aligned}[/latex] So, output is of the form [latex]k \\sin c (\\gamma t)[/latex] where,  [latex]\\gamma =min(\\alpha ,\\beta )[/latex]",
+    "options": {
+      "A": "It will be of the form Ksinc([latex]\\gamma[/latex]t) where [latex]\\gamma[/latex] = min[latex](\\alpha ,\\beta )[/latex]",
+      "B": "It will be of the form Ksinc([latex]\\gamma[/latex]t) where [latex]\\gamma[/latex] = max[latex](\\alpha ,\\beta )[/latex]",
+      "C": "It will be of the form Ksinc([latex]\\alpha[/latex]t)",
+      "D": "It can not be a sinc type of signal"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 125 A system with x(t) and output y(t) is defined by the input-output relation : [latex]y(t)=\\int_{-\\infty }^{-2t}x(\\tau)d\\tau[/latex] The system will be",
+    "solution": "First of all we will check for causality, [latex]\\begin{aligned} y(t)&=\\int_{-\\infty }^{-2t}x(\\tau ) d\\tau \\\\ \\text{So for }t&=2 \\\\ y(-2)&=\\int_{-\\infty }^{4}x(\\tau ) d\\tau \\end{aligned}[/latex] So, output depends on future values of input along with past and present values of input, so system is non-casual. Let us find output for shifted input [latex]x(t-t_0)[/latex] [latex]\\begin{aligned} y(t)&=\\int_{-\\infty }^{-2t}x(\\tau -t_0) d\\tau \\\\ y'(t)&=\\int_{-\\infty }^{2(t-t_0)}x(\\tau ) d\\tau\\;\\;...(i) \\end{aligned}[/latex] Now, shift the output by [latex]t_0[/latex] then, [latex]y(t-t_0)=\\int_{-\\infty }^{2(t-t_0)}x(\\tau ) d\\tau \\;\\;...(ii)[/latex] so from eq. (i) and (ii), [latex] y'(t) \\neq y(t-t_0)[/latex] Therefore system is time varient. Non-causal and time variant is present only in option (D).",
+    "options": {
+      "A": "Casual, time-invariant and unstable",
+      "B": "Casual, time-invariant and stable",
+      "C": "non-casual, time-invariant and unstable",
+      "D": "non-casual, time-variant and unstable"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 126 Given a sequence x[n], to generate the sequence y[n]=x[3-4n], which one of the\r\nfollowing procedures would be correct ?",
+    "solution": "[latex]y[n]=x[3-4n]=x[-4n+3][/latex] So to obtain [latex]y[n][/latex], we first advance [latex]x[n][/latex] by 3 unit. i.e.  [latex]z_1[n]=x[n+3][/latex] Now we will take every fourth sample of [latex]z_1[n][/latex] i.e.   [latex]z_2[n]=z_1[4n]=x[4n+3][/latex] Now reverse (time reverse) [latex]z_2[n][/latex] will give [latex]y[n]=z_2[-n]=x[-4n+3][/latex]",
+    "options": {
+      "A": "First delay x[n] by 3 samples to generate [latex]z_{1}[n][/latex], then pick every [latex]4^{th}[/latex] sample of [latex]z_{1}[n][/latex] to generate [latex]z_{2}[n][/latex], and than finally time reverse [latex]z_{2}[n][/latex] to obtain y[n].",
+      "B": "First advance x[n] by 3 samples to generate [latex]z_{1}[n][/latex], then pick every [latex]4^{th}[/latex] sample of [latex]z_{1}[n][/latex] to generate [latex]z_{2}[n][/latex], and then finally time reverse [latex]z_{2}[n][/latex] to obtain y[n]",
+      "C": "First pick every fourth sample of x[n] to generate [latex]v_{1}[n][/latex], time-reverse [latex]v_{1}[n][/latex] to obtain [latex]v_{2}[n][/latex], and finally advance [latex]v_{2}[n][/latex] by 3 samples to obtain y[n]",
+      "D": "First pick every fourth sample of x[n] to generate [latex]v_{1}[n][/latex], time-reverse [latex]v_{1}[n][/latex] to obtain [latex]v_{2}[n][/latex], and finally delay [latex]v_{2}[n][/latex] by 3 samples to obtain y[n]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 127 The impulse response of a causal linear time-invariant system is given as h(t).\r\nNow consider the following two statements : Statement (I): Principle of superposition holds Statement (II): h(t)=0 for [latex]t \\lt 0[/latex] Which one of the following statements is correct ?",
+    "solution": "Since, system is casual therefore its impulse response will be zero for [latex]t \\lt 0[/latex]. So, statement-II is correct. Since, system is linear, it also satisfies the principle of superposition. So, both the statements are correct.",
+    "options": {
+      "A": "Statements (I) is correct and statement (II) is wrong",
+      "B": "Statements (II) is correct and statement (I) is wrong",
+      "C": "Both Statement (I) and Statement (II) are wrong",
+      "D": "Both Statement (I) and Statement (II) are correct"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 128 A signal [latex]e^{-\\alpha t}sin(\\omega t)[/latex] is the input to a real Linear Time Invariant system. Given K and [latex]\\phi[/latex] are constants, the output of the system will be of the form [latex]Ke^{-\\beta t}sin(vt+\\phi )[/latex] where",
+    "solution": "",
+    "options": {
+      "A": "[latex]\\beta[/latex] need not be equal to [latex]\\alpha[/latex] but v equal to [latex]\\omega[/latex]",
+      "B": "v need not be equal to [latex]\\omega[/latex] but [latex]\\beta[/latex] equal to [latex]\\alpha[/latex]",
+      "C": "[latex]\\beta[/latex] equal to [latex]\\alpha[/latex] and v equal to [latex]\\omega[/latex]",
+      "D": "[latex]\\beta[/latex] need not be equal to [latex]\\alpha[/latex] and v need not be equal to [latex]\\omega[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 129 A signal is processed by a causal filter with transfer function G(s). [latex]G(z)=\\alpha z^{-1}+\\beta z^{-3}[/latex] is a low pass digital filter with a phase characteristics same as\r\nthat of the above question if",
+    "solution": "[latex]G(z)=\\alpha z^{-1}+\\beta z^{-3}[/latex] For, low frequency [latex](z=1)\\rightarrow G(1)=\\alpha +\\beta \\;\\;...(i)[/latex] For, high frequency [latex](z=-1)\\rightarrow G(-1)=-(\\alpha +\\beta) \\;\\;...(ii)[/latex] For now, [latex]g(n)=\\{0,\\alpha ,0, \\beta\\}[/latex] For linear phase FIR filter, g(n) should be either even symmetric or odd symmetric about virtual y-axis. To, satisfy the above condition. CASE: (i) [latex]\\alpha =- \\beta[/latex] ( odd symmetric about virtual y-axis) But in this case, G(1)=G(-1)=0 i.e. at low frequency [latex]\\Rightarrow \\; G(z)=0[/latex] and at high frequency [latex]\\Rightarrow \\; G(z)=0[/latex] Thus in this case filter will be band-pass. CASE: (ii) [latex]\\alpha = \\beta[/latex] ( even symmetric about virtual y-axis) In this case, At low frequency [latex]\\Rightarrow \\; G(z)=2\\alpha [/latex] and at high frequency [latex]\\Rightarrow \\; G(-1)=-2\\alpha [/latex] Filter will be either all pass or band-stop. Now, [latex]\\begin{aligned} G(e^{j\\omega })&=\\alpha (e^{-j\\omega }+e^{-j 3 \\omega }) \\\\ &=\\alpha e^{-j2\\omega }(e^{j\\omega }+e^{-j\\omega }) \\\\ &= 2\\alpha e^{-j2\\omega } \\cos \\omega \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\alpha =\\beta[/latex]",
+      "B": "[latex]\\alpha =-\\beta[/latex]",
+      "C": "[latex]\\alpha =\\beta^{(1/3)}[/latex]",
+      "D": "[latex]\\alpha =\\beta^{(-1/3)}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 130 A signal is processed by a causal filter with transfer function G(s). For a distortion free output signal wave form, G(s) must",
+    "solution": "",
+    "options": {
+      "A": "provides zero phase shift for all frequency",
+      "B": "provides constant phase shift for all frequency",
+      "C": "provides linear phase shift that is proportional to frequency",
+      "D": "provides a phase shift that is inversely proportional to frequency"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 131 [latex]X(z) = 1 - 3z^{-1}[/latex], [latex]Y(z) = 1 + 2z^{-2}[/latex] are Z transforms of two signals x[n],y[n] respectively. A linear time invariant system has the impulse response h[n] defined by these two signals as h[n] = x[n-1] * y[n] where * denotes discrete time convolution. Then the output of the system for the input [latex]\\delta[/latex][n-1]",
+    "solution": "[latex]\\begin{aligned} X(z)&=(1-3z^{-1})\\\\ Y(z)&=(1+2z^{-2})\\\\ h[n]&=x(n-1)*y[n]\\\\ \\Rightarrow \\; H[z]&=z^{-1}X(z)\\cdot Y(z)\\\\ \\Rightarrow \\; H[z]&=z^{-1}(1-3z^{-1})(1+2z^{-2})\\\\ \\Rightarrow \\; H[z]&=z^{-1}(1+2z^{-2}-3z^{-1}-6z^{-3})\\\\ \\Rightarrow \\; H[z]&=(z^{-1}-3z^{-2}+2z^{-3}-6z^{-4})\\\\ &\\text{when input,}\\\\ I(n)&=\\delta [n-1]\\; \\text{ then }, I[z]=z^{-1}\\\\ &\\text{Therefore output,}\\\\ P(n)&=h[n]*I[n]\\\\ \\Rightarrow \\; P(z)&=H(z)I(z)\\\\ P(z)&=(z^{-1}-3z^{-2}+2z^{-3}-6z^{-4}) \\times z^{-1}\\\\ P(z)&=z^{-2}-3z^{-3}+2z^{-4}-6z^{-5}\\\\ \\therefore \\; P(z)&=\\delta [n-2]-3\\delta [n-3]\\\\&+2\\delta [n-4]-6\\delta [n-5] \\end{aligned}[/latex]",
+    "options": {
+      "A": "has Z-transform [latex]z^{-1}[/latex] X(z)Y(z)",
+      "B": "equals [latex]\\delta [n-2]-3\\delta [n-3]+2\\delta [n-4]-6\\delta [n-5][/latex]",
+      "C": "has Z-transform [latex]1-3z^{-1}+2z^{-2}-6z^{-3}[/latex]",
+      "D": "does not satisfy any of the above three"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 132 If u(t), r(t) denote the unit step and unit ramp functions respectively and\nu(t)*r(t) their convolution, then the function u(t+1)*r(t-2) is given by",
+    "solution": "[latex]\\begin{aligned}\nu(t+1)*r(t-1)&=\\int_{-\\infty }^{\\infty }r(\\tau -2)u(t+1-\\tau )d\\tau \\\\\nz(t)&=\\int_{-\\infty }^{(t+1)}r(\\tau -2)d\\tau \\\\\nz(t)&=\\int_{2}^{(t+1)}r(\\tau -2)d\\tau \\\\\n\\text{For, }(t+1)& \\geq 2\\\\\nz(t)&=\\left ( \\frac{\\tau ^2}{2}-2\\tau  \\right )_2^{(t+1)}\\\\\n&=\\frac{1}{2}[\\tau ^2-4\\tau ]_2^{(t+1)}\\\\\n\\text{For, }t \\geq 1&=\\frac{1}{2}[(t+1)^2-4(t+1)-4+8]\\\\\nz(t)&=\\frac{1}{2}[t^2+2t+1-4t-4+4]\\\\\n\\text{For, }t &\\geq 1\\\\\nz(t)&=\\frac{1}{2}(t-1)^2\\\\\n\\text{For, }t &\\geq 1\\\\\n\\Rightarrow \\; z(t)&=\\frac{1}{2}(t-1)^2u(t-1)\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{1}{2}(t-1)u(t-1)[/latex]",
+      "B": "[latex]\\frac{1}{2}(t-1)u(t-2)[/latex]",
+      "C": "[latex]\\frac{1}{2}(t-1)^{2} u(t-1)[/latex]",
+      "D": "None of the above"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 133 A signal [latex]x(t)[/latex] is given by [latex]x(t)=\\left\\{\\begin{matrix} 1, & -T/4 \\lt  t \\leq 3T/4\\\\ -1, & 3T/4 \\lt t\\leq 7T/4\\\\ -x(t-T) &  \\end{matrix}\\right.[/latex] Which among the following gives the fundamental fourier term of x(t)?",
+    "solution": "According to defination of signal given in question the x(t) will be as So it is periodic with period, [latex]T_0=\\frac{7T}{4}-\\left ( -\\frac{T}{4} \\right )=2T[/latex] Therefore, fundamental angular frequency [latex]\\omega _0=\\frac{2 \\pi}{T_0}=\\frac{2 \\pi}{2T}=\\frac{\\pi}{T}[/latex] Now, [latex]C_1=[/latex] (exponential series coefficient for k=1) [latex]\\begin{aligned}\nC_1 &=\\frac{1}{T_0}\\int _{T_0}x(t)e^{-j\\omega _0t}dt \\\\ \nC_1 &=\\frac{1}{T_0}\\left [ \\int_{-T/4}^{3T/4} e^{-j\\omega _0t}dt+\\int_{3T/4}^{7T/4} -1e^{-j\\omega _0t}dt \\right ] \\\\ \nC_1 &=\\frac{1}{j 2\\pi}[2e^{j\\pi/4}+2e^{j\\pi/4}] \\\\ \n C_1&=\\frac{2}{j\\pi}e^{j\\pi/4}=\\frac{2}{\\pi}e^{-j\\pi/4} =\\frac{2}{\\pi}\\left ( \\frac{1}{\\sqrt{2}}-\\frac{j}{\\sqrt{2}} \\right )\\\\ \n &\\text{Comparing it with} \\\\ \nC_1 &=\\frac{a_1}{2}-\\frac{jb_1}{2} \\\\ \n a_1&=\\frac{4}{\\sqrt{2}\\pi}, b_1=\\frac{4}{\\sqrt{2}\\pi} \\\\ \n\\therefore \\; & \\text{fundamental fourier term will be}\\\\ \n &= a_1 \\cos \\omega _0 t+b_1 \\sin \\omega _0 t \\\\ \n &= \\frac{4}{\\sqrt{2}\\pi} \\cos \\left ( \\frac{\\pi}{T}t \\right )+\\frac{4}{\\sqrt{2}\\pi} \\sin \\left ( \\frac{\\pi}{T}t \\right )\\\\ \n &=\\frac{4}{\\pi}\\cos \\left [\\frac{\\pi}{T}t-\\frac{\\pi}{4}  \\right ]\n\\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{4}{\\pi }cos(\\frac{\\pi t}{T}-\\frac{\\pi }{4})[/latex]",
+      "B": "[latex]\\frac{4 }{\\pi}cos(\\frac{\\pi t}{2T}+\\frac{\\pi }{4})[/latex]",
+      "C": "[latex]\\frac{4}{\\pi }sin(\\frac{\\pi t}{T}-\\frac{\\pi }{4})[/latex]",
+      "D": "[latex]\\frac{4}{\\pi}sin(\\frac{\\pi t}{2T}+\\frac{\\pi }{4})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 134 Consider the discrete-time system shown in the figure where the impulse response of G(z) is g(0)=0, g(1)=g(2)=1, g(3)=g(4)=...= 0 This system is stable for range of values of K",
+    "solution": "Given: [latex]g(1)=g(2)=1[/latex] i.e.  [latex]g[n]=\\delta [n-1]+\\delta [n-2][/latex] Therefore, [latex]G(z)=z^{-1}+z^{-2}[/latex] Therefore overall transfer function of closed loop system, [latex]\\begin{aligned} T(z)&=\\frac{G(z)}{1-kG(z)} \\\\ &=\\frac{z^{-1}+z^{-2}}{1-k(z^{-1}+z^{-2})} \\\\ &= \\frac{z+1}{z^2-k(z+1)} \\end{aligned}[/latex] So the system will be stable if it's outer most pole will lie inside the unit circle. Location of poles, [latex]\\begin{aligned} z=\\frac{+k\\pm \\sqrt{k^2+4k}}{2}\\\\ \\frac{k+ \\sqrt{k^2+4k}}{2} \\lt 1\\\\ k+ \\sqrt{k^2+4k} \\lt 2\\\\ \\sqrt{k^2+4k} \\lt (2-k)\\\\ k^2+4k \\lt (2-k)^2\\\\ k^2+4k \\lt 4+k^2-4k\\\\ 8k \\lt 4\\\\ k \\lt \\frac{1}{2} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page27_q4.webp",
+    "options": {
+      "A": "[-1,1/2]",
+      "B": "[-1,1]",
+      "C": "[-1/2,1]",
+      "D": "[-1/2,2]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 135 The frequency spectrum of a signal is shown in the figure. If this is ideally sampled\r\nat intervals of 1 ms, then the frequency spectrum of the sampled signal will be",
+    "solution": "Given that, sampling interval =1 msec i.e.    [latex]T_s=1 \\; msec=10^{-3}\\; sec[/latex] Therefore sampling frequency [latex]f_s=\\frac{1}{T_s}=\\frac{1}{10^{-3}}=1 kHz[/latex] after sampling new signal in frequency domain [latex]U_T(f)=\\frac{1}{T_s}\\sum_{n=-\\infty }^{\\infty }U(f-nf_s)[/latex] Therefore, spectrum of sampled signal will be",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page27_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 136 Let a signal [latex]a_1 \\sin(\\omega _{1}t + \\phi_1)[/latex] be applied to a stable linear time invariant system. Let the corresponding steady state output be represented as [latex]a_2 F(\\omega _{2}t + \\phi _{2})[/latex]. Then\nwhich of the following statement is true?",
+    "solution": "The effect of linear time invariant systems is best understtod by considering that, at any given input frequency [latex]\\omega _1[/latex], the output is sinusoidal at same frequency,as the input applied, with amplitude given by output = |H| x input and phase equal to [latex]\\phi _2=\\phi _H+\\phi _1[/latex], where |H| is the magnitude to the frequency response and [latex]\\phi _H[/latex] is its phase angle. Both |H| and [latex]\\phi _H[/latex] are functions of frequency.",
+    "options": {
+      "A": "F is not necessarily a \"Sine\" or \"Cosine\" function but must be periodic\nwith [latex]\\omega _{1} = \\omega _{2}[/latex]",
+      "B": "F must be a \"Sine\" or \"Cosine\" function with [latex]a_1=a_2[/latex]",
+      "C": "F must be a \"Sine\" function with [latex]\\omega _1=\\omega _2[/latex] and [latex]\\phi _{1} = \\phi _{2}[/latex]",
+      "D": "F must be a \"Sine\" or \"Cosine\" function with [latex]\\omega _{1} = \\omega _{2}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 137 y[n] denotes the output and x[n] denotes the input of a discrete-time system given\nby the difference equation y[n]-0.8y[n-1]=x[n]+1.25x[n+1]. Its right-sided\nimpulse response is",
+    "solution": "From the given difference equation [latex]y[n] - 0.8 y[n-1] = x [n] + 1.25 x [n+1][/latex] [latex]H(z)=Y(z)X(z)=1+1.25z11-0.8z-1=11-0.8z-1+z1.251-0.8z-1[/latex] For right sided impulse response, [latex]h(n)[/latex] the ROC is [latex]|Z| \\gt 0.8[/latex] [latex] h[n] = (0.8)^n  u[n] + 1.25 (0.8)^n+1 u[n+1].[/latex] [latex]h [n][/latex] has positive value for any n, [latex]h [n][/latex] is non-negative. It can be verified that [latex]h[n][/latex] is non-causal, bounded and not periodic As [latex]h(-1) = 1.25, \\; \\; h[n][/latex] is non-causal [latex]h [n] \\leq M, \\; M\\lt \\infty  ; \\; h[n][/latex] is bounded . [latex]h [n][/latex] is not periodic as it is a monotonically decaying sequence.",
+    "options": {
+      "A": "causal",
+      "B": "unbounded",
+      "C": "periodic",
+      "D": "non-negative"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 138 The running integration, given by [latex]y(t)=\\int_{-\\infty }^{t}x(t)dt[/latex]",
+    "solution": "",
+    "options": {
+      "A": "has no finite singularities in its double sided Laplace Transform Y(s)",
+      "B": "produces a bounded output for every causal bounded input",
+      "C": "produces a bounded output for every anticausal bounded input",
+      "D": "has no finite zeroes in its double sided Laplace Transform Y(s)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 139 A continuous-time system is described by [latex]y(t)=e^{-|x(t)|}[/latex], where y(t) is the output and x(t) is the input. y(t) is bounded",
+    "solution": "",
+    "options": {
+      "A": "only when x(t) is bounded",
+      "B": "only when x(t) is non-negative",
+      "C": "only for t[latex]\\geq[/latex]0 if x(t) is bounded for t [latex]\\geq[/latex] 0",
+      "D": "even when x(t) is not bounded"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 140 The discrete-time signal [latex]x[n]\\leftrightarrow X(z)=\\sum_{n=0}^{\\infty }\\frac{3^{n}}{2+n}z^{2n},[/latex] where [latex]\\leftrightarrow[/latex] denotes a\ntransform-pair relationship, is orthogonal to the signal",
+    "solution": "[latex]x(n)\\rightleftharpoons X(z)=\\sum_{n=0}^{\\infty }\\frac{3^n}{2+n}z^{2n}[/latex] In X(z), power of z are even. Therefore, samples in x(n) are available at even instant of time. By observing all the options. Option (B): [latex]y_2(n)\\rightleftharpoons Y_2(z)=\\sum_{n=0}^{\\infty }(5^n-n)z^{-(2n+1)}[/latex] In [latex]y_2(z)[/latex], powers of z are odd. Therefore, samples in [latex]y_2(n)[/latex] are avialable only at odd instant of time. Hence, [latex]\\sum_{n=0}^{\\infty }x(n)\\cdot y_2(n)=0[/latex] Thus, [latex]x(n)[/latex] is orthogonal to [latex]y_2(n)[/latex].",
+    "options": {
+      "A": "[latex]y_{1}[n]\\leftrightarrow Y_{1}(z)=\\sum_{n=0}^{\\infty }(\\frac{2}{3})^{n}z^{-n}[/latex]",
+      "B": "[latex]y_{2}[n]\\leftrightarrow Y_{2}(z)=\\sum_{n=0}^{\\infty }(5^{n}-n) z^{-(2n+1)}[/latex]",
+      "C": "[latex]y_{3}[n]\\leftrightarrow Y_{3}(z)=\\sum_{n=0}^{\\infty }2^{-|n|} z^{-n}[/latex]",
+      "D": "[latex]y_{4}[n]\\leftrightarrow Y_{4}(z)=2z^{-4}+3z^{-2}+1[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 141 [latex]x[n]=0;n \\lt -1, n \\gt 0[/latex], [latex]x[-1]=-1,x[0]=2[/latex] is the input and [latex]y[n]=0;n \\lt -1, n \\gt 2[/latex], [latex]y[-1]=-1=y[1],y[0]=3,y[2]=-2[/latex] is the output of a\r\ndiscrete-time LTI system. The system impulse response h[n] will be",
+    "solution": "For finite duration convolution, x[n] have M terms h[n] have N terms then y[n] should have terms (M+N+1) Here, x[n]={-1, 2 } y[n] ={-1, 3 , -1, -2} So, h[n] should have only 3 terms and h[n] have value starting from origin or [n=0] only because y[n] have value start from [n=-1] y[n]={-1, 3 , -1, -2}.",
+    "options": {
+      "A": "[latex]h[n] = 0;n  \\lt  0,n  \\gt  2[/latex], [latex]h[0] = 1,h[1] = h[2] =- 1[/latex]",
+      "B": "[latex]h[n] = 0;n  \\lt  - 1,n  \\gt  1[/latex], [latex]h[- 1] = 1,h[0] = h[1] = 2[/latex]",
+      "C": "[latex]h[n] = 0;n  \\lt  0,n  \\gt  3[/latex], [latex]h[0] =- 1,h[1] = 2,h[2] = 1[/latex]",
+      "D": "[latex]h[n] = 0;n  \\lt  - 2,n  \\gt  1[/latex], [latex]h[- 2] = h[1] = h[- 1] =- h[0] = 3[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 142 A discrete real all pass system has a pole at z = 2[latex]\\angle[/latex]30[latex]^{\\circ}[/latex]: it, therefore",
+    "solution": "For causal system, all the poles are inside the  unit circle then system is stable, and converse in true for anti-causal system.",
+    "options": {
+      "A": "also has a pole at [latex]\\frac{1}{2}\\angle 30^{\\circ}[/latex]",
+      "B": "has a constant phase response over the z -plane: arg [latex]\\left | H\\left ( z \\right ) \\right |[/latex] = constant",
+      "C": "has a constant phase response over the unit circle: arg |H([latex]e^{i\\Omega }[/latex])| = constant",
+      "D": "is stable only if it is anti-causal"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 143 x(t) is a real valued function of a real variable with period T. Its trigonometric\r\nFourier Series expansion contains no terms of frequency [latex]\\omega = 2\\pi[/latex](2k)/T;  k=1,2...  Also, no sine terms are present. Then x(t) satisfies the equation",
+    "solution": "Since trigonometric fourier series has no sine terms and has only cosine terms therefore this will be an even signal i.e. it will satisfy. [latex]x(t)=x(-t)[/latex] or, we can write, [latex]x(t-T)=x(-t+T)[/latex] but signal is periodic with period T. therefore [latex]x(t-T)=x(t)[/latex] therefore,  [latex]x(t)=x(T-t)\\;\\;...(i)[/latex] Now, since signal contains only odd harmonics i.e. no terms of frequency [latex]\\omega =\\frac{2 \\pi \\times 2k}{T},\\;\\;\\;k=1,2,3,4[/latex] i.e. no even harmonics. This means signal contains half wave symmetry this implies that, [latex]x(t)=-x\\left ( t-\\frac{T}{2} \\right )\\;\\;...(ii)[/latex] From eq. (i) and (ii), [latex]x(t)=x(T-t)=-x\\left ( t-\\frac{T}{2} \\right )[/latex]",
+    "options": {
+      "A": "[latex]x(t)=-x(t-T)[/latex]",
+      "B": "[latex]x(t)=x(T-t)=-x(-t)[/latex]",
+      "C": "[latex]x(t)=x(T-t)=-x(t-T/2)[/latex]",
+      "D": "[latex]x(t)=x(t-T)=x(t-T/2)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 144 Which of the following is true?",
+    "solution": "",
+    "options": {
+      "A": "A finite signal is always time bounded",
+      "B": "A time bounded signal always possesses finite energy",
+      "C": "A bounded signal is always zero outside the interval [[latex]-t_0,t_0[/latex]\n] for some [latex]t_0[/latex]",
+      "D": "A time bounded signal is always finite"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 145 If u(t) is the unit step and [latex]\\delta \\left ( t \\right )[/latex] is the unit impulse function, the inverse z-transform of F(z)=[latex]\\frac{1}{z+1}[/latex] for [latex]k\\gt 0[/latex] is",
+    "solution": "[latex]\\begin{aligned} F(z) &=1-\\frac{z}{z+1} \\\\ &= 1-\\frac{1}{1+z^{-1}}\\\\ &= \\delta (k)-(-1)^k u(k) \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex](-1)^{k}\\delta (k)[/latex]",
+      "B": "[latex]\\delta(k)-(-1)^k[/latex]",
+      "C": "[latex](-1)^{k}u (k)[/latex]",
+      "D": "[latex]u(k)-(-1)^k[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 146 The Fourier series for the function [latex] f (x) =  \\sin ^{2}x[/latex] is",
+    "solution": "[latex]f(n)=\\sin ^2 x[/latex] for finding the fourier series expansion [latex]f(n)=\\sin ^2 x=\\frac{1- \\cos 2x}{2}=0.5-0.5 \\cos 2x[/latex]",
+    "options": {
+      "A": "[latex]\\sin x + \\sin 2x[/latex]",
+      "B": "[latex]1 - \\cos 2x[/latex]",
+      "C": "[latex]\\sin 2x + \\cos 2x[/latex]",
+      "D": "[latex]0.5 - 0.5 \\cos 2x[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 147 The Laplace transform of a function f(t) is [latex]F(s)=\\frac{5s^{2}+23s+6}{s(s^{2}+2s+2)}. \\; As \\; t\\rightarrow \\infty[/latex], f(t) approaches",
+    "solution": "[latex]F(s)=\\frac{5s^2+23s+6}{s(s^2+2s+2)}[/latex] As F(s) has only left hand poles. By final value theorem, [latex]\\lim_{t \\to \\infty }F(t)=\\lim_{s \\to 0}sF(s)=\\frac{6}{2}=3[/latex]",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "[latex]\\frac{17}{2}[/latex]",
+      "D": "[latex]\\infty[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 148 For the triangular wave from shown in the figure, the RMS value of the voltage\nis equal to",
+    "solution": "From the wave symmetry, [latex]\\begin{aligned} V_{rms}&=\\left [ \\frac{1}{T}\\left ( \\int_{0}^{T/2}\\left ( \\frac{2t}{T} \\right )^2dt+\\int_{T/2}^{T}0dt \\right ) \\right ]^{1/2} \\\\ V_{rms}^2 &=\\frac{1}{T}\\int_{0}^{T/2}\\frac{4t^2}{T^2}=\\frac{4}{3T^3}\\left ( \\frac{T^3}{8} \\right ) =\\frac{1}{6}\\\\ \\therefore \\; V_{rms} &=\\sqrt{\\frac{1}{6}} V \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page30_q3.webp",
+    "options": {
+      "A": "[latex]\\sqrt{\\frac{1}{6}}[/latex]",
+      "B": "[latex]\\sqrt{\\frac{1}{3}}[/latex]",
+      "C": "[latex]\\frac{1}{3}[/latex]",
+      "D": "[latex]\\sqrt{\\frac{2}{3}}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 149 The rms value of the periodic waveform given in figure is",
+    "solution": "[latex]\\begin{aligned} I_{rms} &=\\left [ \\frac{1}{T}\\int_{0}^{T}i^2(t) \\right ]^{1/2} \\\\ \\therefore \\; I^2_{rms} &=\\left [ \\frac{1}{T}\\int_{0}^{T/2}\\left ( -\\frac{12t}{T} \\right )^2 dt+\\frac{1}{T}\\int_{T/2}^{T}6^2 dt \\right ] \\\\ &= \\left [\\frac{1}{T}\\int_{0}^{T/2}\\frac{144t^2}{T^2}dt+\\frac{36}{T}\\int_{T/2}^{T}dt \\right ]\\\\ &=\\frac{144}{T^3}\\left [ \\frac{t^3}{2} \\right ]_0^{T/2}+\\frac{36}{T}\\left [ \\frac{T}{2} \\right ] \\\\ &=\\frac{144}{8 \\times 3}+\\frac{36}{2}=24 \\\\ \\therefore \\; I_{rms} &= 2\\sqrt{6}A \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page30_q4.webp",
+    "options": {
+      "A": "2[latex]\\sqrt{6}[/latex] A",
+      "B": "6[latex]\\sqrt{2}[/latex] A",
+      "C": "[latex]\\sqrt{4/3}[/latex] A",
+      "D": "1.5 A"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 150 Consider the function, [latex]F(s)=\\frac{5}{s(s^{2}+3s+2)}[/latex], where F(s) is the Laplace transform of the of the function f(t). The initial value of f(t) is equal to",
+    "solution": "[latex]F(s)=\\frac{1}{s(s^2+3s+2)}[/latex] By initial value theorem, [latex]\\lim_{t \\to 0}f(t)=\\lim_{s \\to \\infty }sF(t)=\\lim_{s \\to \\infty }\\frac{5 \\times s}{s(s^2+3s+2)}=0[/latex]",
+    "options": {
+      "A": "5",
+      "B": "[latex]\\frac{5}{2}[/latex]",
+      "C": "[latex]\\frac{5}{3}[/latex]",
+      "D": "0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 151 What is the rms value of the voltage waveform shown in figure?",
+    "solution": "RMS value [latex]=\\left [ \\frac{1}{\\pi}\\left (\\int_{0}^{\\pi/3} (100)^2 dt+\\int_{\\pi/3}^{2\\pi/3} (-100)^2 dt+\\int_{2 \\pi /3}^{\\pi} (100)^2 dt \\right )\\right ]^{1/2}[/latex] [latex]=\\left [ \\frac{1}{\\pi} 100^2 \\pi\\right ]^{1/2}=100V[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page31_q1.webp",
+    "options": {
+      "A": "[latex]\\frac{200}{\\pi }V[/latex]",
+      "B": "[latex]\\frac{100}{\\pi }V[/latex]",
+      "C": "200V",
+      "D": "100V"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 152 Let Y(s) be the Laplace transformation of the function y(t), then the final value of\nthe function is",
+    "solution": "[latex]\\text{Final value}=\\lim_{s \\to 0}sY(s)[/latex]",
+    "options": {
+      "A": "[latex]\\lim_{s\\rightarrow 0}Y\\left ( s \\right )[/latex]",
+      "B": "[latex]\\lim_{s\\rightarrow \\infty }Y\\left ( s \\right )[/latex]",
+      "C": "[latex]\\lim_{s\\rightarrow 0}sY\\left ( s \\right )[/latex]",
+      "D": "[latex]\\lim_{x\\rightarrow \\infty }sY\\left ( s \\right )[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 153 Let s(t) be the step response of a linear system with zero initial conditions; then\nthe response of this system to an input u(t) is",
+    "solution": "",
+    "options": {
+      "A": "[latex]\\int_{0}^{t}S\\left ( t-\\tau \\right )u\\left ( \\tau \\right )d\\tau[/latex]",
+      "B": "[latex]\\frac{\\mathrm{d} }{\\mathrm{d} t}\\left [ \\int_{0}^{t}S(t-\\tau )u(\\tau )d\\tau \\right ][/latex]",
+      "C": "[latex]\\int_{0}^{t}S(t-\\tau )\\left [ \\int_{0}^{t}u(\\tau _{1})d\\tau _{1} \\right ]d\\tau[/latex]",
+      "D": "[latex]\\int_{0}^{t}S\\left ( t-\\tau \\right )^{2}u\\left ( \\tau \\right )d\\tau[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 154 Fourier Series for the waveform, f(t) shown in figure is",
+    "solution": "[latex]\\because[/latex] f(t) is an even function with half waves symmetry, [latex]\\therefore[/latex] dc term as well as sine terms=0 Only the cosine terms with odd harmonics will be present.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electrical Engineering/screenshots/sas/page31_q4.webp",
+    "options": {
+      "A": "[latex]\\frac{8}{\\pi ^{2}}\\left [ \\sin \\left ( \\pi t \\right )+\\frac{1}{9}\\sin \\left ( 3\\pi t \\right )+\\frac{1}{25}\\sin \\left ( 5\\pi t \\right )+.... \\right ][/latex]",
+      "B": "[latex]\\frac{8}{\\pi ^{2}}\\left [ \\sin \\left ( \\pi t \\right )-\\frac{1}{9}\\cos \\left ( 3\\pi t \\right )+\\frac{1}{25}\\sin \\left ( 5\\pi t \\right )+.... \\right ][/latex]",
+      "C": "[latex]\\frac{8}{\\pi ^{2}}\\left [ \\cos \\left ( \\pi t \\right )+\\frac{1}{9}\\cos \\left ( 3\\pi t \\right )+\\frac{1}{25}\\cos \\left ( 5\\pi t \\right )+.... \\right ][/latex]",
+      "D": "[latex]\\frac{8}{\\pi ^{2}}\\left [ \\cos \\left ( \\pi t \\right )-\\frac{1}{9}\\sin \\left ( 3\\pi t \\right )+\\frac{1}{25}\\sin \\left ( 5\\pi t \\right )+.... \\right ][/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 155 A current impulse [latex]5\\delta \\left ( t \\right )[/latex], is forced through a capacitor C. The voltage [latex]V_{c}\\left ( t \\right )[/latex],\nacross the capacitor is given by",
+    "solution": "[latex]V_c(t)=\\frac{1}{C}\\int_{-\\infty }^{t}i(t)dt=\\frac{1}{C}\\int_{-\\infty }^{t}5\\delta (t)dt=\\frac{5}{C}u(t)[/latex]",
+    "options": {
+      "A": "5t",
+      "B": "5u(t) - C",
+      "C": "[latex]\\frac{5}{C}t[/latex]",
+      "D": "[latex]\\frac{5u(t)}{C}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 156 Given the relationship between the input u(t) and the output y(t) to be [latex]y(t)=\\int_{0}^{t}(2+t-\\tau )e^{-3(t-\\tau )}u(\\tau )d\\tau[/latex], the transfer function Y(s)/U(s) is",
+    "solution": "[latex]\\begin{aligned} y(t)&=\\int_{0}^{t}(2+t-\\tau )e^{-3(t-\\tau )} u(\\tau )d\\tau \\\\ y(t)&=[(2+t)e^{-3t}]\\times u(t) \\\\ \\therefore \\; H(s)&=\\frac{2}{s+3}+\\frac{1}{(s+3)^2} \\\\ \\therefore \\; T.F.&=H(s)=\\frac{2s+7}{(s+3)^2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{2e^{-2s}}{s+3}[/latex]",
+      "B": "[latex]\\frac{s+2}{\\left ( s+3 \\right )^{2}}[/latex]",
+      "C": "[latex]\\frac{2s+5}{s+3}[/latex]",
+      "D": "[latex]\\frac{2s+7}{\\left ( s+3 \\right )^{2}}[/latex]"
+    },
+    "correct_answer": "D"
+  }
+]
