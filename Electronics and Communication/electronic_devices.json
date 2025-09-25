@@ -1,0 +1,2087 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 An ideal p-n junction germanium diode has a reverse saturation current of [latex]10 \\mu \\mathrm{~A}[/latex] at 300 K . The voltage (in Volts, rounded off to two decimal places) to be applied across the junction to get a forward bias current of 100 mA at 300 K is __________ . (Consider the Boltzmann constant [latex]\\mathrm{k}_{\\mathrm{B}}=1.38 \\times 10^{-23} \\mathrm{~J} / \\mathrm{K}[/latex] and the charge of an electron [latex]\\mathrm{e}=1.6 \\times 10^{-19} \\mathrm{C}[/latex].)",
+    "solution": "[latex] I = I_s \\left( e^{\\frac{eV}{k_BT}} - 1 \\right) [/latex] Where:\n[latex] I = 100\\ \\text{mA} = 0.1\\ \\text{A} [/latex] [latex] I_s = 10\\ \\mu\\text{A} = 10 \\times 10^{-6}\\ \\text{A} [/latex] [latex] T = 300\\ \\text{K} [/latex] [latex] e = 1.6 \\times 10^{-19}\\ \\text{C} [/latex] [latex] k_B = 1.38 \\times 10^{-23}\\ \\text{J/K} [/latex] Approximate since [latex] I \\gg I_s [/latex], so:\n[latex] I \\approx I_s e^{\\frac{eV}{k_BT}} [/latex] Taking natural logarithm on both sides:\n[latex] \\frac{eV}{k_BT} = \\ln\\left(\\frac{I}{I_s}\\right) [/latex] [latex] V = \\frac{k_BT}{e} \\ln\\left(\\frac{I}{I_s}\\right) [/latex] Now plug in the values:\n[latex] \\frac{k_BT}{e} = \\frac{1.38 \\times 10^{-23} \\times 300}{1.6 \\times 10^{-19}} = 0.025875\\ \\text{V} [/latex] [latex] \\ln\\left(\\frac{0.1}{10 \\times 10^{-6}}\\right) = \\ln(10000) = \\ln(10^4) = 4 \\ln(10) \\approx 4 \\times 2.3026 = 9.2104 [/latex] So,\n[latex] V = 0.025875 \\times 9.2104 \\approx 0.2382\\ \\text{V} [/latex]",
+    "min": 0.23,
+    "max": 0.24
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 The electron mobility [latex]\\mu_{\\mathrm{n}}[/latex] in a non-degenerate germanium semiconductor at 300 K is [latex]0.38 \\mathrm{~m}^{2} / \\mathrm{Vs}[/latex]. The electron diffusivity [latex]\\mathrm{D}_{\\mathrm{n}}[/latex] at 300 K (in [latex]\\mathrm{cm}^{2} / \\mathrm{s}[/latex], rounded off to the nearest integer) is __________ . (Consider the Boltzmann constant [latex]\\mathrm{k}_{\\mathrm{B}}=1.38 \\times 10^{-23} \\mathrm{~J} / \\mathrm{K}[/latex] and the charge of an electron [latex]\\mathrm{e}=1.6 \\times 10^{-19} \\mathrm{C}[/latex].)",
+    "solution": "Given: [latex]\\mu_{\\mathrm{n}}=0.38 \\mathrm{~m}^{2} / \\mathrm{V}[/latex]-sec at [latex]\\mathrm{T}=300^{\\circ} \\mathrm{K}[/latex] As [latex]D_{n}=\\mu_{n} V_{T}=\\mu_{n} \\cdot \\frac{T}{11600}[/latex] At [latex]300^{\\circ} \\mathrm{K}, \\mathrm{D}_{\\mathrm{n}}=0.38 \\times \\frac{300}{11600}[/latex] [latex]\\therefore \\mathrm{D}_{\\mathrm{n}}=98.26 \\mathrm{~cm}^{2} / \\mathrm{sec}[/latex]",
+    "options": {
+      "A": "26",
+      "B": "98",
+      "C": "38",
+      "D": "10"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 The intrinsic carrier concentration of a semiconductor is [latex]2.5 \\times 10^{16} / \\mathrm{m}^{3}[/latex] at 300 K. If the electron and hole mobilities are [latex]0.15 \\mathrm{~m}^{2} / \\mathrm{Vs}[/latex] and [latex]0.05 \\mathrm{~m}^{2} / \\mathrm{Vs}[/latex], respectively, then the intrinsic resistivity of the semiconductor (in [latex]\\mathrm{k} \\Omega . \\mathrm{m}[/latex] ) at 300 K is __________ . (Charge of an electron [latex]\\mathrm{e}=1.6 \\times 10^{-19} \\mathrm{C}[/latex].)",
+    "solution": "We are given: [latex]n_i = 2.5 \\times 10^{16}\\ \\text{m}^{-3}[/latex] [latex]\\mu_n = 0.15\\ \\text{m}^2/\\text{V?s}[/latex] [latex]\\mu_p = 0.05\\ \\text{m}^2/\\text{V?s}[/latex] [latex]e = 1.6 \\times 10^{-19}\\ \\text{C}[/latex] The intrinsic conductivity is given by: [latex]\\sigma = e \\cdot n_i \\cdot (\\mu_n + \\mu_p)[/latex] Substitute values: [latex]\\sigma = 1.6 \\times 10^{-19} \\cdot 2.5 \\times 10^{16} \\cdot (0.15 + 0.05)[/latex] [latex]\\sigma = 1.6 \\times 10^{-19} \\cdot 2.5 \\times 10^{16} \\cdot 0.20[/latex] First calculate: [latex]1.6 \\times 2.5 = 4.0[/latex] [latex]4.0 \\times 0.20 = 0.8[/latex] So: [latex]\\sigma = 0.8 \\times 10^{-3} = 8 \\times 10^{-4}\\ \\text{S/m}[/latex] Then resistivity is: [latex]\\rho = \\frac{1}{\\sigma} = \\frac{1}{8 \\times 10^{-4}} = 1250\\ \\Omega \\cdot \\text{m} = 1.25\\ \\text{k}\\Omega \\cdot \\text{m}[/latex]",
+    "options": {
+      "A": "1.65",
+      "B": "1.25",
+      "C": "0.85",
+      "D": "1.95"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 Which of the following can be used as an n-type dopant for silicon? Select the correct option(s).",
+    "solution": "Silicon is a group-IV element. To create an n-type semiconductor, we dope silicon with a group-V element, which donates an extra electron (free carrier). Now, let's evaluate each dopant: (A) Arsenic - Group V element [latex] \\Rightarrow [/latex] n-type dopant (B) Boron - Group III element [latex] \\Rightarrow [/latex] p-type dopant (C) Gallium - Group III element [latex] \\Rightarrow [/latex] p-type dopant (D) Phosphorous - Group V element [latex] \\Rightarrow [/latex] n-type dopant",
+    "options": {
+      "A": "Arsenic",
+      "B": "Boron",
+      "C": "Gallium",
+      "D": "Phosphorous"
+    },
+    "correct_answers": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 The ideal BJT in the circuit given below is biased in the active region with a [latex]\\beta[/latex] of 100. If [latex]\\mathrm{I}_{\\mathrm{B}}[/latex] is [latex]10 \\mu \\mathrm{~A}[/latex], then [latex]\\mathrm{V}_{\\mathrm{CE}}[/latex] (in Volts, rounded off to two decimal places) is __________ .",
+    "solution": "Given [latex]\\mathrm{I}_{\\mathrm{B}}=10 \\mu \\mathrm{~A}[/latex] and [latex]\\beta=100[/latex] [latex]\\mathrm{I}_{\\mathrm{E}}=(\\beta+1) \\mathrm{I}_{\\mathrm{B}}=(101) 10 \\mu=1.01 \\mathrm{~mA}[/latex]\n\nApplying KVL at output loop, we have [latex]10=\\mathrm{I}_{\\mathrm{E}}(5 \\mathrm{k})+\\mathrm{V}_{\\mathrm{CE}}+\\mathrm{I}_{\\mathrm{E}}(3 \\mathrm{k})[/latex] [latex]\\Rightarrow \\mathrm{V}_{\\mathrm{CE}}=10-\\mathrm{I}_{\\mathrm{E}}(8 \\mathrm{k})=10-1.01 \\mathrm{~m}(8 \\mathrm{k})=1.92 \\mathrm{~V}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page1_q5.webp",
+    "options": {
+      "A": "4.95",
+      "B": "3.03",
+      "C": "1.92",
+      "D": "3.73"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 6 The photocurrent of a PN junction diode solar cell is [latex]1 \\mathrm{~mA}[/latex]. The voltage corresponding to its maximum power point is [latex]0.3 \\mathrm{~V}[/latex]. If the thermal voltage is [latex]30 \\mathrm{mV}[/latex], the reverse saturation current of the diode (in [latex]\\mathrm{nA}[/latex], rounded off to two decimal places) is ________",
+    "solution": "Note: In this question voltage corresponds to max. power, [latex]V_{m}[/latex] is given i.e., [latex]\\quad V_{m}=0.3[/latex] Volt ( [latex]V_{O C}[/latex] is not given be careful) [latex]\n\\begin{aligned}\nI_{0} & =\\frac{I_{L}}{\\left(1+\\frac{V_{m}}{V_{T}}\\right) e^{V_{m} / V_{T}}-1}=\\frac{1 \\mathrm{~mA}}{\\left(1+\\frac{0.3}{0.03}\\right) e^{0.3 / 0.03}-1} \\\\\n& =4.127 \\mathrm{nA} \\simeq 4.13 \\mathrm{nA}\n\\end{aligned}\n[/latex]",
+    "min": 4.0,
+    "max": 4.26
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 An NMOS transistor operating in the linear region has [latex]I_{D S}[/latex] of [latex]5 \\mu \\mathrm{A}[/latex] at [latex]V_{D S}[/latex] of [latex]0.1 \\mathrm{~V}[/latex]. Keeping [latex]V_{G S}[/latex] constant, the [latex]V_{D S}[/latex] is increased to [latex]1.5 \\mathrm{~V}[/latex]. Given that [latex]\\mu_{n} C_{o x} \\frac{W}{L}=50 \\mu \\mathrm{A} / \\mathrm{V}^{2}[/latex], the transconductance at the new operating point (in [latex]\\mu \\mathrm{A} / \\mathrm{V}[/latex], rounded off to two decimal places) is ________",
+    "solution": "For linear region of MOS, [latex]\n\\begin{aligned}\nI_{D} & =\\mu_{n} C_{O X}\\left(\\frac{W}{L}\\right)\\left[\\left(V_{G S}-V_{T}\\right) V_{D S}-\\frac{1}{2} V_{D S}^{2}\\right] \\\\\n5 \\times 10^{-6} & =50 \\times 10^{-6}\\left[\\left(V_{G S}-V_{T}\\right) 0.1-\\frac{1}{2}(0.1)^{2}\\right] \\\\\n\\frac{1}{10} & =\\left(V_{G S}-V_{T}\\right) 0.1-\\frac{1}{2} \\times 0.1^{2} \\\\\n0.1+0.5(0.1)^{2} & =\\left(V_{G S}-V_{T}\\right) 0.1 \\\\\n1+0.5(0.1) & =\\left(V_{G S}-V_{T}\\right) \\\\\n1.05 \\text { volt } & =V_{G S}-V_{T}\n\\end{aligned}\n[/latex] Now: [latex]V_{G S} \\rightarrow[/latex] fix [latex]\n\\begin{aligned}\nV_{D S} & =1.5 \\\\\nV_{D S} & >V_{G S}-V_{T} \\Rightarrow \\mathrm{MOS} \\text { is in saturation } \\\\\ng_{m \\text { (sat) }} & =\\mu_{n} C_{o x}\\left(\\frac{W}{L}\\right)\\left(V_{G S}-V_{T}\\right) \\\\\n& =50 \\times 10^{-6} \\times 1.05 \\\\\n& =52.5 \\times 10^{-6} \\mathrm{~A} / \\mathrm{V}=52.5 \\mu \\mathrm{A} / \\mathrm{V}\n\\end{aligned}\n[/latex]",
+    "min": 52.4,
+    "max": 52.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 8 A non-degenerate n-type semiconductor has 5\\% neutral dopant atoms. Its Fermi level is located at [latex]0.25 \\mathrm{eV}[/latex] below the conduction band [latex]\\left(E_{C}\\right)[/latex] and the donor energy level [latex]\\left(E_{D}\\right)[/latex] has a degeneracy of 2. Assuming the thermal voltage to be [latex]20 \\mathrm{mV}[/latex]. The difference between [latex]E_{C}[/latex] and [latex]E_{D}[/latex] (in [latex]\\mathrm{eV}[/latex], rounded off to two decimal places) is ______",
+    "solution": "[latex]5 \\%[/latex] neutral donor atoms/dopant atoms means [latex]95 \\%[/latex] donor atoms are ionized. Concentration of electrons occupying the donor level is given as [latex]\nn_{d}=\\frac{N_{d}}{1+\\frac{1}{g} \\exp \\left(\\frac{E_{D}-E_{F}}{k T}\\right)}\n[/latex] and [latex]n_{d}=N_{d}-N_{d}^{+}[/latex]where [latex]N_{d}^{+}[/latex]is ionized donor atoms concentration. according to question [latex]\n\\begin{aligned}\nn_{d} & =5 \\% \\text { of } N_{d} \\\\\ng & =2 \\text { degeneracy factor }\n\\end{aligned}\n[/latex] [latex]\n\\frac{5}{100} N_{d}=\\frac{N_{d}}{1+\\frac{1}{g} \\exp \\left(\\frac{E_{D}-E_{F}}{k T}\\right)}\n[/latex] [latex]\n\\frac{1}{20}=\\frac{1}{1+\\frac{1}{g} \\exp \\left(\\frac{E_{D}-E_{F}}{k T}\\right)}\n[/latex] [latex]\n1+\\frac{1}{g} \\exp \\left(\\frac{E_{D}-E_{F}}{k T}\\right)=20\n[/latex] [latex]\n\\exp \\left(\\frac{E_{D}-E_{F}}{k T}\\right)=38\n[/latex] [latex]\n\\begin{aligned}\n\\frac{E_{D}-E_{F}}{k T} & =\\ln (38) \\quad\\left\\{\\text { given } V_{T}=\\frac{k T}{q}=20 \\mathrm{mV}\\right\\} \\\\\nE_{D}-E_{F} & =\\ln (38) \\times 0.020 \\\\\n& =0.07275 \\mathrm{eV}\n\\end{aligned}\n[/latex] given: [latex]\\quad E_{C}-E_{F}=0.25 \\mathrm{eV}[/latex] [latex]\\therefore \\quad E_{C}-E_{D}+E_{D}-E_{F}=0.25 \\mathrm{eV}[/latex] [latex]\n\\begin{aligned}\nE_{C}-E_{D} & =0.25 \\mathrm{eV}-\\left(E_{D}-E_{F}\\right) \\\\\n& =0.25 \\mathrm{eV}-0.07275 \\mathrm{eV} \\\\\n& =0.17725 \\mathrm{eV} \\simeq 0.18 \\mathrm{eV}\n\\end{aligned}\n[/latex]",
+    "min": 0.17,
+    "max": 0.19
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 Consider a MOS capacitor made with p-type silicon. It has an oxide thickness of [latex]100 \\mathrm{~nm}[/latex], a fixed positive oxide charge of [latex]10^{-8} \\mathrm{C} / \\mathrm{cm}^{2}[/latex] at the oxide-silicon interface, and a metal work function of [latex]4.6 \\mathrm{eV}[/latex]. Assume that the relative permittivity of the oxide is 4 and the absolute permittivity of free space is [latex]8.85 \\times 10^{-14} \\mathrm{~F} / \\mathrm{cm}[/latex]. If the flatband voltage is [latex]0 \\mathrm{~V}[/latex], the work function of the [latex]\\mathrm{p}[/latex]-type silicon (in [latex]\\mathrm{eV}[/latex], rounded off to two decimal places) is ______",
+    "solution": "[latex]\n\\begin{aligned}\nC_{O X} & =\\frac{\\varepsilon_{O x}}{t_{O x}}=\\frac{4 \\times 8.85 \\times 10^{-14}}{100 \\times 10^{-9} \\times 100} \\\\\n& =4 \\times 8.85 \\times 10^{-14} \\times 10^{5}=35.4 \\times 10^{-9} \\mathrm{~F} / \\mathrm{cm}^{2} \\\\\nV_{F B} & =\\frac{Q_{O x}}{C_{O x}}+\\phi_{m s} \\\\\n0 & =\\frac{Q_{O x}}{C_{O x}}+\\phi_{m s}\n\\end{aligned}\n[/latex] [latex]Q_{o x} \\rightarrow[/latex] Positive [latex]\n\\frac{Q_{O x}}{C_{o x}}=\\frac{10^{-8}}{35.4 \\times 10^{-9}}=\\frac{10}{35.4} \\text { volt }\n[/latex] [latex]\\therefore \\quad \\frac{Q_{O x}}{C_{O x}} \\rightarrow[/latex] Negative [latex]\n\\begin{aligned}\n0 & =\\frac{-10}{35.4}+\\phi_{\\mathrm{ms}} \\\\\n\\phi_{\\mathrm{ms}} & =\\frac{10}{35.4} \\\\\n\\phi_{m}-\\phi_{s} & =\\frac{10}{35.4} \\\\\n\\phi_{s} & =\\phi_{m}-\\frac{10}{35.4}=4.6-\\frac{10}{35.4}=4.317 \\text { volt } \\\\\n\\therefore \\quad 9 \\phi_{s} & =4.317 \\simeq 4.32 \\mathrm{eV}\n\\end{aligned}\n[/latex] Work function energy of semiconductor.",
+    "min": 4.1,
+    "max": 4.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 Which of the following statements is/are true for a BJT with respect to its DC current gain [latex]\\beta[/latex] ?",
+    "solution": "",
+    "options": {
+      "A": "Under high-level injection condition in forward active mode, [latex]\\beta[/latex] will decrease with increase in the magnitude of collector current.",
+      "B": "Under low-level injection condition in forward active mode, where the current at the emitter-base junction is dominated by recombination-generation process, [latex]\\beta[/latex] will decrease with increase in the magnitude of collector current.",
+      "C": "[latex]\\beta[/latex] will be lower when the BJT is in saturation region compared to when it is in active region.",
+      "D": "A higher value of [latex]\\beta[/latex] will lead To a lower value of the collector-to-emitter breakdown voltage."
+    },
+    "correct_answers": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 The free electron concentration profile [latex]n(x)[/latex] in a doped semiconductor at equilibrium is shown in the figure, where the points [latex]A, B[/latex], and [latex]C[/latex] mark three different positions. Which of the following statements is/are true?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page3_q1.webp",
+    "options": {
+      "A": "For [latex]x[/latex] between [latex]\\mathrm{B}[/latex] and [latex]\\mathrm{C}[/latex], the electron diffusion current is directed from [latex]\\mathrm{C}[/latex] to [latex]\\mathrm{B}[/latex].",
+      "B": "For [latex]x[/latex] between [latex]\\mathrm{B}[/latex] and [latex]\\mathrm{A}[/latex], the electron drift current is directed from [latex]\\mathrm{B}[/latex] to [latex]\\mathrm{A}[/latex].",
+      "C": "For [latex]x[/latex] between [latex]\\mathrm{B}[/latex] and [latex]\\mathrm{C}[/latex], the electric field is directed from [latex]\\mathrm{B}[/latex] to [latex]\\mathrm{C}[/latex].",
+      "D": "For [latex]x[/latex] between [latex]B[/latex] and [latex]A[/latex]. the electric field is directed from [latex]A[/latex] to [latex]B[/latex]."
+    },
+    "correct_answers": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 For non-degenerately doped n-type silicon, which one of the following plots represents the temperature [latex](T)[/latex] dependence of free electron concentration [latex](n)[/latex] ?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page3_q2.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 In a semiconductor device, the Fermi-energy level is [latex]0.35 \\mathrm{eV}[/latex] above the valence band energy. The effective density of states in the valence band at [latex]T=300 \\mathrm{~K}[/latex] is [latex]1 \\times 10^{19} \\mathrm{~cm}^{-3}[/latex]. The thermal equilibrium hole concentration in silicon at [latex]400 \\mathrm{~K}[/latex] is ___ [latex]\\_\\times 10^{13} \\mathrm{~cm}^{-3}[/latex]. (rounded off to two decimal places). Given [latex]\\mathrm{kT}[/latex] at [latex]300 \\mathrm{~K}[/latex] is [latex]0.026 \\mathrm{eV}[/latex].",
+    "solution": "Given, [latex]\nE_{F}-E_{V}=0.35 \\mathrm{eV} \\quad \\text { [Considering it is given at } 400 \\mathrm{~K} \\text { ] }\n[/latex] Also,\n\n[latex]V_{T_{1}}=K T_{1}=0.026 \\mathrm{eV}[/latex] at [latex]T_{1}=300 \\mathrm{~K}[/latex] [latex]\\therefore[/latex]\n\n[latex]\\frac{V_{T_{1}}}{V_{T_{2}}}=\\frac{T_{1}}{T_{2}} \\Rightarrow V_{T_{2}}=\\frac{T_{2}}{T_{1}} \\times V_{T_{1}}[/latex] [latex]\\therefore[/latex]\n\n[latex]V_{T_{2}}=\\frac{400}{300} \\times 0.026[/latex] [latex]V_{T_{2}}=0.03466 \\mathrm{eV}[/latex] at [latex]T_{2}=400 \\mathrm{~K}[/latex] Now,\n\n[latex]N_{v}=1 \\times 10^{19} / \\mathrm{cm}^{3}[/latex] at [latex]T_{1}=300 \\mathrm{~K}[/latex] [latex]N_{v} \\propto T^{3 / 2}[/latex] [latex]\\frac{N_{V_{2}}}{N_{V_{1}}}=\\left(\\frac{T_{2}}{T_{1}}\\right)^{3 / 2}[/latex] [latex]N_{V_{2}}=\\left(\\frac{T_{2}}{T_{1}}\\right)^{3 / 2} N V_{1}[/latex] [latex]\\left(\\because T_{2}=400 \\mathrm{~K}\\right)[/latex]\n\n[latex]=\\left(\\frac{400}{300}\\right)^{3 / 2} N_{V_{1}}[/latex] [latex]N_{V_{2}}=1.5396 \\times 10^{19} / \\mathrm{cm}^{3}[/latex] Now, hole concentration at [latex]400 \\mathrm{~K}[/latex] is given as [latex]\n\\begin{aligned}\n& p=N_{V} e^{-\\left(E_{F}-E_{V}\\right) / k T_{2}}=1.5396 \\times 10^{19} \\times e^{-0.35 \\mathrm{eV} / 0.03466 \\mathrm{eV}} \\\\\n& p=63.36 \\times 10^{13} \\mathrm{~cm}^{-3}\n\\end{aligned}\n[/latex]",
+    "min": 60.0,
+    "max": 70.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 In an extrinsic semiconductor, the hole concentration is given to be [latex]1.5 n_{i}[/latex] where [latex]n_{i}[/latex] is the intrinsic carrier concentration of [latex]1 \\times 10^{10} \\mathrm{~cm}^{-3}[/latex]. The ratio of electron to hole mobility for equal hole and electron drift current is given as  ___ (rounded off to two decimal places).",
+    "solution": "Given, intrinsic carrier concentration [latex]n_{i}=1 \\times 10^{10} \\mathrm{~cm}^{-3}[/latex] Hole concentration, [latex]\\quad p=1.5 \\times n_{i}[/latex] [latex]\np=1.5 \\times 10^{10} \\mathrm{~cm}^{-3}\n[/latex] Given, electron and hole current are equal [latex]\n\\begin{aligned}\nI_{p \\text { dritt }} & =I_{n \\text { dritt }} \\\\\np q \\mu_{p} E A & =n q \\mu_{n} E A \\\\\n1.5 \\times 10^{10} \\mu_{p} & =n \\mu_{n} \\quad ...(i)\n\\end{aligned}\n[/latex] But according to mass action law, [latex]\n\\begin{aligned}\nn p & =n_{i}^{2} \\\\\nn & =\\frac{n_{i}}{1.5}=\\frac{10^{10}}{1.5} \\mathrm{~cm}^{-3}\n\\end{aligned}\n[/latex] Put in equation (i) [latex]\\therefore \\quad 1.5 \\times 10^{10} \\mu_{p}=\\frac{10^{10}}{1.5} \\times \\mu_{n}[/latex] [latex]\n\\frac{\\mu_{n}}{\\mu_{p}}=2.25\n[/latex]",
+    "min": 2.2,
+    "max": 2.3
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 For an intrinsic semiconductor at temperature [latex]T=0 \\mathrm{~K}[/latex], which of the following statement is true?",
+    "solution": "Intrinsic semiconductor at [latex]\\mathrm{T}=0 \\mathrm{~K}[/latex] behaves as an insulator. Hence, valence band is completely filled with electron and conduction band is completely empty.",
+    "options": {
+      "A": "All energy states in the valence band are filled with electrons and all energy states in the conduction band are empty of electrons.",
+      "B": "All energy states in the valence band are empty of electrons and all energy states in the conduction band are filled with electrons.",
+      "C": "All energy states in the valence and conduction band are filled with holes.",
+      "D": "All energy states in the valence and conduction band are filled with electrons."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 In a semiconductor, if the Fermi energy level lies in the conduction band, then the semiconductor is known as",
+    "solution": "As the Fermi lies inside the conduction band hence it is degenerate [latex]n[/latex]-type semiconductor.",
+    "options": {
+      "A": "degenerate [latex]n[/latex]-type.",
+      "B": "degenerate [latex]p[/latex]-type.",
+      "C": "non-degenerate [latex]n[/latex]-type.",
+      "D": "non-degenerate [latex]p[/latex]-type."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 A p-type semiconductor with zero electric field is under illumination (low level\ninjection) in steady state condition. Excess minority carrier density is zero at [latex] x=\\pm 2l_n[/latex], where [latex] l_n=10^{-4} cm[/latex] is the diffusion length of electrons. Assume\nelectronic charge, [latex] q=-1.6 \\times 10^{-19}C[/latex]. The profiles of photo-generation rate of\ncarriers and the recombination rate of excess minority carriers (R) are shown. Under\nthese conditions, the magnitude of the current density due to the photo-generated\nelectrons at [latex] x=+2l_n[/latex] is _________ [latex] mA/cm^2[/latex]\n (rounded off to two decimal places).",
+    "solution": "Given, [latex] \\begin{aligned}\n\\delta _n(x)&=R\\tau _n=10^{20}e^{-|x|/l_n}\\cdot \\tau _n\\\\\n\\delta (l_n)&=10^{20}e^{-1}\\tau _n \\;\\;\\;...(i)\\\\\nfor \\;\\; l_n\\leq x\\leq 2l_n\n\\end{aligned}[/latex] Continuity equation is given by [latex] D_n\\frac{\\partial^2 \\delta _n}{\\partial x^2}+G-R \\;\\;\\;...(ii)[/latex] G and R both are zero - for\n[latex] [l_n\\leq x\\leq 2l_n][/latex] Hence Equation (i) reduced to \n[latex] D_n \\frac{\\partial^n \\delta _n }{\\partial x^2}=0[/latex] [latex] \\Rightarrow \\delta _n(x)=Ax+B[/latex] For calculating A and B we use Boundary\ncondition [latex] \\delta _n(2l_n)=0\\; \\Rightarrow A=\\frac{-B}{2l_n}[/latex] [latex] \\therefore \\delta _n(x)=\\frac{-B}{2l_n}x+B=B\\left [ 1-\\frac{x}{2l_n} \\right ] \\;\\;\\;...(iii)[/latex] At \n[latex]x=l_n [/latex] [latex]\\begin{aligned}\n 10^{20}e^{-1}\\tau _n&=B\\left [ 1-\\frac{l_n}{2l_n} \\right ] \\\\ \n B&= 2 \\times 10^{20}e^{-1}\\tau _n\\\\ \n\\therefore \\; \\delta _n(x) &=2 \\times 10^{20} e^{-1}\\tau _n\\left [ 1-\\frac{x}{2l_n} \\right ]\n\\end{aligned} [/latex] for [latex]l_n \\leq x \\leq 2l_n [/latex] Electron diffusion current density is given by\n[latex] |J_n|_{diff}=qD_n\\frac{d\\eta }{dx}=qD_n \\times 2 \\times 10^{20} \\times e^{-1} \\times \\tau _n\\left [ 0-\\frac{1}{2l_n} \\right ][/latex] [latex] =\\frac{1.6 \\times 10^{-19} \\times l_n ^2 \\times 2 \\times 10^{20} \\times e^{-1}}{2l_n}[/latex] [latex]=1.6 \\times 10^{-19} \\times l_n  \\times 10^{20} \\times e^{-1} [/latex] [latex] =1.6 \\times 10 \\times 1 \\times 10^{-4} \\times e^{-1}[/latex] [latex] =0.59mA/cm^2[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page4_q2.webp",
+    "min": 0.57,
+    "max": 0.61
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 Select the CORRECT statement(s) regarding semiconductor devices.",
+    "solution": "At equilibrium [latex]n = p = n_i[/latex]\n for intrinsic\nsemiconductor Collector region is generally lightly doped\nthen base region in BJT. Hence option B is\nwrong. By increasing temperature above 300K,\nmobality of electrons decreases hence option\n(D) is also wrong",
+    "options": {
+      "A": "Electrons and holes are of equal density in an intrinsic semiconductor at equilibrium.",
+      "B": "Collector region is generally more heavily doped than Base region in a BJT.",
+      "C": "Total current is spatially constant in a two terminal electronic device in dark under\nsteady state condition.",
+      "D": "Mobility of electrons always increases with temperature in Silicon beyond 300 K."
+    },
+    "correct_answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 An ideal MOS capacitor (p-type semiconductor) is shown in the figure. The MOS\ncapacitor is under strong inversion with [latex] V_G=2V[/latex]. The corresponding inversion\ncharge density [latex] Q_{IN}[/latex] is [latex] 2.2\\mu C/cm^2[/latex]. Assume oxide capacitance per unit area as [latex] C_{OX}=1.7\\mu F/cm^2[/latex]. For [latex] V_G=4V[/latex], the value of [latex] Q_{IN}[/latex] is ______[latex] \\mu C/cm^2[/latex] (rounded off\nto one decimal place).",
+    "solution": "[latex] \\begin{aligned}\nQ_{IN}&=-CO_X(V_G-V_T)\\\\\nQ_{IN_1}&=-CO_X(V_{G1}-V_T)\\;\\;\\;...(i)\\\\\nQ_{IN_2}&=-CO_X(V_{G2}-V_T)\\;\\;\\;...(ii)\\\\\n&(ii)-(i)\\\\\nQ_{IN_2}-Q_{IN_1}&=-CO_X(V_{G2}-V_{G1})\\\\\nQ_{IN_2}-(-2.2\\mu c/cm^2)&=-1.7\\mu c/cm^2(4-2)\\\\\nQ_{IN_2}&=2.2\\mu c/cm^2-3.4\\mu c/cm^2\\\\\n&=-5.6\\mu c/cm^2\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page4_q4.webp",
+    "min": 5.5,
+    "max": 5.7
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 In a non-degenerate bulk semiconductor with electron density [latex]n=10^{16}cm^{-3}[/latex], the\nvalue of [latex]E_C-E_{Fn}=200meV[/latex], where [latex]E_C[/latex] and [latex]E_{Fn}[/latex] denote the bottom of the\nconduction band energy and electron Fermi level energy, respectively. Assume\nthermal voltage as 26 meV and the intrinsic carrier concentration is [latex]10^{10}cm^{-3}[/latex]. For [latex]n=0.5 \\times 10^{16}cm^{-3}[/latex], the closest approximation of the value of ([latex]E_C-E_{Fn}[/latex]), among\nthe given options, is ______.",
+    "solution": "Here we have to find the value of\r\n[latex]E_c-E_{fn}[/latex] As we know, [latex]E_C-E_F=kT \\ln\\left ( \\frac{N_c}{n} \\right ) \\;\\;\\;...(i)[/latex] [latex]E_C-E_{F1}=kT \\ln\\left ( \\frac{N_c}{n_1} \\right ) \\;\\;\\;...(ii)[/latex] [latex]E_C-E_{F2}=kT \\ln\\left ( \\frac{N_c}{n_2} \\right ) \\;\\;\\;...(iii)[/latex] Equation (ii) - Equation (iii) [latex](E_C-E_{F1})-(E_C-E_{F2})=kT \\ln \\left ( \\frac{\\frac{N_c}{n_1}}{\\frac{N_c}{n_2}} \\right )=kT \\ln \\frac{n_2}{n_1}[/latex] [latex]\\Rightarrow 200meV-(E_C-E_{F2})=26meV \\times \\ln \\left ( \\frac{0.5 \\times 10^{16}}{1 \\times 10^{16}} \\right )[/latex] [latex] 200meV-(E_C-E_{F2})=+26meV \\ln (0.5)=-18[/latex] [latex](E_C-E_{F2})=200+8=218meV[/latex]",
+    "options": {
+      "A": "226 meV",
+      "B": "174 meV",
+      "C": "218 meV",
+      "D": "182 meV"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 Consider a long rectangular bar of direct bandgap p-type semiconductor. The\nequilibrium hole density is [latex]10^{17}cm^{-3}[/latex] and the intrinsic carrier concentration is [latex]10^{10}cm^{-3}[/latex]. Electron and hole diffusion lengths are [latex]2\\mu m[/latex]and [latex]1\\mu m[/latex], respectively.\nThe left side of the bar ([latex]x=0[/latex]) is uniformly illuminated with a laser having photon\nenergy greater than the bandgap of the semiconductor. Excess electron-hole pairs\nare generated ONLY at [latex]x=0[/latex] because of the laser. The steady state electron density\nat [latex]x=0[/latex] is [latex]10^{14}cm^{-3}[/latex]\n due to laser illumination. Under these conditions and ignoring\nelectric field, the closest approximation (among the given options) of the steady state\nelectron density at [latex]x=2 \\mu m[/latex], is _____",
+    "solution": "From continuity equation of electrons [latex]\\frac{dn}{dt}=n\\mu _n\\frac{dE}{dx}+\\mu _nE\\frac{dn}{dx}+G_n-R_n+x_n\\frac{d^2x}{dx^2} \\;\\;\\;...(i)[/latex] [Because \r\n [latex]\\vec{E}[/latex] is not mentioned hence [latex]\\frac{dE}{dx}=0[/latex] For \r\n [latex] x \\gt 0, G_n[/latex]  is also zero [latex]n=\\frac{n_i^2}{N_A}=\\frac{10^{20}}{10^{17}}=10^3[/latex] [latex]n=n_0+\\delta n=10^3+10^{14}=10^{14}[/latex] at steady state, \r\n[latex]\\frac{db}{dt}=0[/latex] Hence equation (i) becomes: [latex]O=D_n\\frac{d^2\\delta n}{dx^2}-\\frac{\\delta n}{\\tau _n}[/latex] [latex]\\frac{d^2\\delta n}{dx^2}=\\frac{\\delta n}{L_n^2} \\;\\;\\;...(ii)[/latex] From solving equation (ii) [latex]\\delta _n(x)=\\delta _n(0)e^{-x/L_n}[/latex] at  \r\n[latex]x=2\\mu m[/latex] [latex]\\delta _n(2\\mu m)=10^{14}e^{-2/2}=10^{14}e^{-1}=0.37 \\times 10^{14}[/latex]",
+    "options": {
+      "A": "[latex]0.37 \\times 10^{14} cm^{-3}  [/latex]",
+      "B": "[latex]0.63 \\times 10^{13} cm^{-3}  [/latex]",
+      "C": "[latex]3.7 \\times 10^{14} cm^{-3}  [/latex]",
+      "D": "[latex]0^{3} cm^{-3}  [/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 For the transistor [latex]M_{1}[/latex]\n in the circuit shown in the figure, [latex]\\mu_{n} C_{\\text{ox}} = 100\\:\\mu A/V^{2}[/latex]\n and [latex](W/L)=10[/latex], where [latex]\\mu_{n}[/latex]\n is the mobility of electron, [latex]C_{\\text{ox}}[/latex] is the oxide capacitance per unit area , W is the width and L is the length. The channel length modulation coefficient is ignored. If the gate-to-source voltage [latex]V_{\\text{GS}}\\text{ is } 1\\:V[/latex]\n to keep the transistor at the edge of saturation, then the threshold voltage of the transistor (rounded off to one decimal place) is _______ V.",
+    "solution": "[latex]\\begin{aligned} I_{D S}&=\\frac{\\mu_{n} C_{O x}}{2} \\times \\frac{W}{L}\\left(V_{G S}-V_{T}\\right)^{2} \\\\ \\text{Given}\\qquad V_{G S}&=1 \\mathrm{~V} \\\\ I_{D S}&=\\frac{1}{2}\\left(1-V_{T}\\right)^{2} \\end{aligned}[/latex] [latex]\\begin{aligned} V_{D S}=3-20 \\times I_{D S} \\\\ V_{D S}=3-\\frac{20}{2}\\left(1-V_{T}\\right)^{2} \\\\ V_{D S}=3-10\\left(1-V_{T}\\right)^{2} \\end{aligned}[/latex] MOSFET operates in saturation if [latex] \\begin{aligned} V_{D S} &\\geq V_{G S}-V_{T}\\\\ \\text{So, we take},\\qquad \\quad V_{D S}&=V_{G S}-V_{T} \\\\ V_{G S}-V_{T}&=3-10\\left(1-V_{T}\\right)^{2} \\\\ 1-V_{T}&=3-10\\left(1-V_{T}\\right)^{2}\\\\ \\text{Let,}\\qquad 1-V_{T} &=x \\\\ 3-10 x^{2} &=x \\\\ 10 x^{2}+x-3 x &=0 \\\\ \\text{We get,}\\qquad x &=-\\frac{1 \\pm \\sqrt{1+120}}{20}\\\\ x &=-\\frac{1 \\pm 11}{20}\\\\ \\therefore \\qquad \\quad x&=0.5 \\text { and }-0.6\\\\ x&=0.5\\\\ \\Rightarrow \\qquad \\quad 1-V_{T} & =0.5 \\\\ \\Rightarrow \\qquad \\quad V_{T} & =0.5 \\mathrm{~V} \\\\ x & =-0.6 \\\\ \\Rightarrow\\qquad \\quad 1-V_{T} & =-0.6 \\\\ \\Rightarrow\\qquad \\quad V_{T} & =1.6 \\mathrm{~V} \\\\ \\text { But }\\qquad \\quad V_{G S} & \\gt V_{T} \\\\ \\text { or }\\qquad \\quad V_{T} & \\lt V_{G S} \\\\ \\text { i.e., }\\qquad \\quad V_{T} &  \\lt 1 \\\\ \\therefore\\qquad \\quad V_{T} & =0.5 \\mathrm{~V} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page5_q2.webp",
+    "min": 0.5,
+    "max": 0.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 A silicon P-N junction is shown in the figure. The doping in the P region is [latex]5\\times10^{16}\\:cm^{-3}[/latex]\n and doping in the N region is [latex]10\\times10^{16}\\:cm^{-3}[/latex]. The parameters given are Built-in voltage [latex]\\left ( \\Phi _{\\text{bi}} \\right ) = 0.8\\:V[/latex] Electron charge [latex](q) = 1.6\\times10^{-19} C\\:[/latex] Vacuum permittivity [latex]\\left ( \\varepsilon _{0} \\right ) = 8.85\\times10^{-12}\\:F/m[/latex] Relative permittivity of silicon [latex]\\left ( \\varepsilon _{\\text{Si}} \\right ) = 12[/latex] he magnitude of reverse bias voltage that would completely deplete one of the two regions (P or N) prior to the other (rounded off to one decimal place) is _________V.",
+    "solution": "Given: [latex]\\quad N_{A}=5 \\times 10^{16} \\mathrm{~cm}^{-3} \\quad ; \\quad N_{D}=10 \\times 10^{16} \\mathrm{~cm}^{-3}[/latex] Built-in potential, [latex]\\quad \\phi_{\\mathrm{bi}}=0.8 \\mathrm{~V} [/latex] Electron charge, [latex]q=1.6 \\times 10^{-19} \\mathrm{C}[/latex] Vacuum permittivity, [latex]\\epsilon_{o}=8.85 \\times 10^{-12} \\mathrm{~F} / \\mathrm{m}=8.85 \\times 10^{-14} \\mathrm{~F} / \\mathrm{cm}[/latex] Relative permittivity silicon, [latex]\n \\epsilon_{\\mathrm{si}}=12[/latex] [latex]\n\\Rightarrow [/latex] Doping on both sides is comparable, so smaller region would deplete first. So, depletion region width on N -side [latex]=x_{n}=0.2 \\mu \\mathrm{m}[/latex] [latex]\n\\begin{aligned} \n\\Rightarrow \\qquad x_{n}&=0.2 \\times 10^{-4} \\mathrm{~cm}\\\\\nx_{n}&=\\sqrt{\\frac{2 \\epsilon_{S i}}{q}\\left(\\frac{N_{A}}{N_{D}}\\right)\\left(\\frac{1}{N_{A}+N_{D}}\\right)\\left(\\phi_{b i}+V_{R}\\right)}\n\\end{aligned}[/latex] where, [latex]V_{R} \\rightarrow [/latex] Magnitude of reverse bias potential [latex]\\begin{aligned} \\Rightarrow \\qquad\\qquad 0.2 \\times 10^{-4}&=\\sqrt{\\frac{2 \\times 12 \\times 8.85 \\times 10^{-14}}{1.6 \\times 10^{-19}} \\cdot \\frac{5 \\times 10^{16}}{10 \\times 10^{16}} \\cdot \\frac{1}{\\left(15 \\times 10^{16}\\right)}\\left(\\phi_{b i}+V_{R}\\right)} \\\\ \\Rightarrow \\qquad\\qquad \\phi_{b j}+V_{R}&=9.039\\\\ \\Rightarrow \\qquad\\qquad V_{R}&=9.039-0.8\\\\ \\Rightarrow \\qquad\\qquad V_{R}&=8.239 \\mathrm{~V} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page5_q3.webp",
+    "min": 8.1,
+    "max": 8.4
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 For an n-channel silicon [latex]\\text{MOSFET}[/latex] with [latex]10\\:nm[/latex] gate oxide thickness, the substrate sensitivity [latex]\\left ( \\partial V_{T}/\\partial \\left | V_{BS} \\right | \\right )[/latex] is found to be [latex]50\\:mV/V[/latex] at a substrate voltage [latex]\\left | V_{BS} \\right |=2V[/latex], where [latex]V_{T}[/latex] is the threshold voltage of the [latex]\\text{MOSFET}[/latex]. Assume that, [latex]\\left | V_{BS} \\right | \\gg 2\\Phi _{B}[/latex], where [latex]q\\Phi _{B}[/latex] is the separation between the Fermi energy level [latex]E_{F}[/latex] and the intrinsic level [latex]E_{i}[/latex] in the bulk. Parameters given are Electron charge [latex](q) = 1.6 \\times 101^{-19}\\:C[/latex] Vacuum permittivity [latex](\\varepsilon _{0}) = 8.85 \\times 10^{-12}\\: F/m[/latex] Relative permittivity of silicon [latex](\\varepsilon _{Si}) = 12[/latex] Relative permittivity of oxide [latex](\\varepsilon _{ox}) = 4[/latex] The doping concentration of the substrate is",
+    "solution": "Given, N -channel MOSFET [latex] \\begin{aligned} t_{o x}&=10 \\mathrm{~nm}=10 \\times 10^{-7} \\mathrm{~cm} & \\\\ \\frac{\\partial V_{T}}{\\partial\\left|V_{B S}\\right|}&=50 \\mathrm{mV} / \\mathrm{V}, & \\left|V_{B S}\\right|=2 \\mathrm{~V} \\\\ \\qquad q&=1.6 \\times 10^{-19} \\mathrm{C} & \\left|V_{B S}\\right|>>2 \\phi_{B} \\end{aligned}[/latex] [latex] \\begin{aligned} \\epsilon_{o} &=8.85 \\times 10^{-14} \\mathrm{~F} / \\mathrm{cm} \\\\ \\epsilon_{r_{\\mathrm{Si}}} &=12 \\\\ \\epsilon_{r_{O x}} &=4 \\end{aligned}[/latex] Threshold voltage, including body effect, [latex] V_{T}=\\phi_{m s}+\\frac{\\sqrt{2 \\epsilon_{s i} q N_{A}\\left(2 \\phi_{B}-V_{B S}\\right)}}{C_{o x}}+2 \\phi_{B}[/latex] [latex]\\begin{aligned} \\text{In question, we need, } \\left|V_{B S}\\right|&=\\left|V_{S B}\\right| \\\\ \\therefore \\qquad \\qquad V_{T}&=\\phi_{m s}+\\frac{\\sqrt{2 \\epsilon_{s i} q N_{A}\\left(2 \\phi_{B}+V_{S B}\\right)}}{C_{o x}}+2 \\phi_{B}\\\\ \\Rightarrow \\qquad \\qquad V_{T}&=\\phi_{m s}+\\frac{\\sqrt{2 \\epsilon_{s i} q N_{A}\\left(2 \\phi_{B}+\\left|V_{S B}\\right|\\right)}}{C_{O x}}+2 \\phi_{B}\\\\ \\therefore \\qquad\\qquad \\frac{\\partial V_{T}}{\\partial\\left|V_{B S}\\right|}&=0+\\frac{\\sqrt{2 \\epsilon_{s i} q N_{A}}}{C_{O x}} \\cdot \\frac{1}{2 \\sqrt{2 \\phi_{B}+\\left|V_{S B}\\right|}}+0\\\\ \\Rightarrow \\qquad \\qquad 50 \\times 10^{-3}&=\\frac{\\sqrt{2 \\times 8.85 \\times 10^{-14} \\times 12 \\times 1.6 \\times 10^{-19} \\mathrm{~N}_{A}}}{\\epsilon_{\\alpha x} / t_{0 x}} \\cdot \\frac{1}{2 \\sqrt{\\left|V_{S B}\\right|}}\\\\ \\left(\\frac{50 \\times 10^{-3} \\times 4 \\times 8.85 \\times 10^{-14}}{10 \\times 10^{-7}}\\right)^{2}&=\\frac{2 \\times 8.85 \\times 10^{-14} \\times 12 \\times 1.6 \\times 10^{-19}}{4 \\times 2}\\\\ &\\left[\\because\\left|V_{S B}\\right| \\gt \\gt 2 \\phi_{B}\\right]\\\\ \\Rightarrow \\qquad \\qquad N_{A}&=7.375 \\times 10^{15} \\mathrm{~cm}^{-3} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]7.37\\times 10^{15}\\:cm^{-3}[/latex]",
+      "B": "[latex]4.37\\times 10^{15}\\:cm^{-3}[/latex]",
+      "C": "[latex]2.37\\times 10^{15}\\:cm^{-3}[/latex]",
+      "D": "[latex]9.37\\times 10^{15}\\:cm^{-3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 In the circuit shown in the figure, the transistors [latex]M_{1}[/latex] and [latex]M_{2}[/latex] are operating in saturation. The channel length modulation coefficients of both the transistors are non-zero. The transconductance of the [latex]\\text{MOSFETs} M_{1}[/latex] and [latex]M_{2}[/latex] are [latex]g_{m1}[/latex] and [latex]g_{m2}[/latex] , respectively, and the internal resistance of the [latex]\\text{MOSFETs} M_{1}[/latex] and [latex]M_{2}[/latex] are [latex]r_{01}[/latex] and [latex]r_{02}[/latex] , respectively. Ignoring the body effect, the ac small signal voltage gain [latex]\\left ( \\partial V_{out}/\\partial V_{in} \\right )[/latex] of the circuit is",
+    "solution": "MOSFET [latex]M_2[/latex] acts as common source amplifier. Drain to gate connected MOSFET [latex]M_1[/latex] acts as load. For given circuit, AC equivalent is as shown. Replace [latex]M_2[/latex] with small signal model [latex]\r\n\\begin{aligned}\r\n\\frac{V_{\\text {out }}}{V_{\\text {in }}} &=\\frac{-g_{m 2} V_{g s}\\left(r_{\\infty} \\| R_{\\text {eq }}\\right)}{V_{g s}} \\\\\r\nA_{V} &=-g_{m 2}\\left( \\frac{1}{g_{m 1}}|| r_{o1} || r_{o 2} \\right)\r\n\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page5_q5.webp",
+    "options": {
+      "A": "[latex]-g_{m2}\\left ( r_{01}\\left | \\right |r_{02}\\right )[/latex]",
+      "B": "[latex]-g_{m2}\\left ( \\frac{1}{g_{m1}}\\left | \\right |r_{02} \\right )[/latex]",
+      "C": "[latex]-g_{m1}\\left ( \\frac{1}{g_{m2}}\\left | \\right |r_{01}\\left | \\right |r_{02} \\right )[/latex]",
+      "D": "[latex]-g_{m2}\\left ( \\frac{1}{g_{m1}}\\left | \\right |r_{01}\\left | \\right |r_{02} \\right )[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 The energy band diagram of a p-type semiconductor bar of length L under equilibrium condition (i.e.. the Fermi energy level [latex]E_{F}[/latex]\n is constant) is shown in the figure. The valance band [latex]E_{V}[/latex]\n is sloped since doping is non-uniform along the bar. The difference between the energy levels of the valence band at the two edges of the bar is [latex]\\Delta[/latex]. If the charge of an electron is q, then the magnitude of the electric field developed inside this semiconductor bar is",
+    "solution": "The built-in electric field is due to non-uniform doping (the semiconductor is under equilibrium) [latex]\\begin{aligned} E &=\\frac{1}{q}\\frac{ d E_{v}}{d x} \\\\ &=\\frac{1}{q} \\frac{\\Delta}{L} \\\\ &=\\frac{\\Delta}{q L} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page6_q1.webp",
+    "options": {
+      "A": "[latex]\\frac{\\Delta }{qL}[/latex]",
+      "B": "[latex]\\frac{2\\Delta }{qL}[/latex]",
+      "C": "[latex]\\frac{\\Delta }{2qL}[/latex]",
+      "D": "[latex]\\frac{3\\Delta }{2qL}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 A bar of silicon is doped with boron concentration of [latex]10^{16} \\text{cm}^{-3}[/latex]  and assumed to be fully ionized. It is exposed to light such that electron-hole pairs are generated throughout the volume of the bar at the rate of [latex]10^{20} \\text{cm}^{-3} s^{-1}[/latex]. If the recombination lifetime is [latex]100 \\;\\mu s[/latex], intrinsic carrier concentration of silicon is [latex]10^{10} \\text{cm}^{-3}[/latex] and assuming [latex]100\\%[/latex] ionization of boron, then the approximate product of steady-state electron and hole concentrations due to this light exposure is",
+    "solution": "Boron [latex]\\rightarrow[/latex] Acceptor type doping [latex] \\begin{aligned} N_{A} &=10^{16} \\mathrm{~cm}^{-3} \\\\ g_{0 p} &=1020 \\mathrm{~cm}^{-3} \\mathrm{~s}^{-1} \\\\ \\tau &=100 \\mu \\mathrm{s} \\\\ n_{i} &=10^{10} \\mathrm{~cm}^{-3} \\end{aligned}[/latex] Product of steady state electron-hole concentration =? At thermal equilibrium (before shining light) [latex] \\begin{array}{ll} \\text { Hole concentration, } & p_{o} \\simeq N_{A}=10^{16} \\mathrm{~cm}^{-3} \\\\ \\text { Electron concentration, } & n_{0}=\\frac{n_{i}^{2}}{p_{0}}=\\frac{10^{20}}{10^{16}}=10^{4} \\mathrm{~cm}^{-3} \\end{array}[/latex] After, illumination of light, Hole concentration, [latex]p=p_{o}+\\delta p[/latex] Electron concentration, [latex]\\quad n=n_{o}+\\delta n[/latex] Due to shining light, excess carrier concentration, [latex] \\begin{aligned} \\delta p &=\\delta n=g_{o p} \\cdot \\tau=10^{20} \\times 100 \\times 10^{-6}=10^{16} \\mathrm{~cm}^{-3} \\\\ \\therefore \\qquad p &=10^{16}+10^{16}=2 \\times 10^{16} \\mathrm{~cm}^{-3}\\\\ n&=10^{4}+10^{16} \\simeq 10^{16} \\mathrm{~cm}^{-3} \\end{aligned}[/latex] So, product of steady state electron-hole concentration [latex] \\begin{aligned} &=n p=10^{16} \\times 2 \\times 10^{16} \\\\ &=2 \\times 10^{32} \\mathrm{~cm}^{-6} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]10^{20} \\text{cm}^{-6}[/latex]",
+      "B": "[latex]2 \\times 10^{20} \\text{cm}^{-6}[/latex]",
+      "C": "[latex]10^{32} \\text{cm}^{-6}[/latex]",
+      "D": "[latex]2 \\times 10^{32} \\text{cm}^{-6}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 A pn junction solar cell of area 1.0 [latex]cm^{2}[/latex], illuminated uniformly with 100 mW [latex]cm^{-2}[/latex],\nhas the following parameters: Efficiency = 15%, open circuit voltage = 0.7 V, fill\nfactor = 0.8, and thickness = 200 [latex]\\mu m[/latex], The charge of an electron is [latex]1.6 \\times 10^{-19}[/latex]C. The\naverage optical generation rate (in [latex]cm^{-3} s^{-1}[/latex]) is",
+    "solution": "[latex]\\begin{aligned}\\eta &=\\frac{\\left ( FF \\right )V_{OC}I_{SC}}{P_{in}} \\\\ 0.15&=\\frac{0.8\\times 0.7\\times I_{SC}}{100mW} \\\\ I_{SC}&=\\frac{15}{0.56}mA \\\\ G_{L}&=\\frac{I_{SC}}{q \\times \\text{ Area } \\times \\text{ thickness } } \\\\ &=\\frac{15 \\times 10^{-3}}{0.56 \\times 1.6 \\times 10^{-19} \\times 1\\times 200\\times 10^{-4}} \\\\ &=\\frac{15}{0.56\\times 32}\\times 10^{19}\\\\ &=0.837\\times 10^{19} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]0.84 \\times 10^{19}[/latex]",
+      "B": "[latex]5.57 \\times 10^{19}[/latex]",
+      "C": "[latex]1.04 \\times 10^{19}[/latex]",
+      "D": "[latex]83.6 \\times 10^{19}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 The base of an npn BJT T1 has a linear doping profile [latex]N_B(x)[/latex] as shown below. The base\nof another npn BJT T2 has a uniform doping [latex]N_B[/latex] of [latex]10^{17} cm^{-3}[/latex]. All other parameters are\nidentical for both the devices. Assuming that the hole density profile is the same as\nthat of doping, the common-emitter current gain of T2 is",
+    "solution": "As per GATE official answer key MTA (Marks to ALL) [latex]\\frac{\\beta _{1}}{\\beta _{2}}=\\frac{\\int_{0}^{W}N_{A_{2}}(x)dx}{\\int_{0}^{W}N_{A_{1}}(x)dx}=\\frac{W\\times 10^{17}}{\\frac{1}{2}\\times W\\times (10^{17}-10^{14})}=\\frac{2\\times 10^{17}}{10^{17}+10^{14}}\\simeq 2[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page6_q4.webp",
+    "options": {
+      "A": "approximately 2.0 times that of T1",
+      "B": "approximately 0.3 times that of T1",
+      "C": "approximately 2.5 times that of T1",
+      "D": "approximately 0.7 times that of T1"
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 The band diagram of a p-type semiconductor with a band-gap of 1 eV is shown. Using\r\nthis semiconductor, a MOS capacitor having [latex]V_{TH}[/latex] of [latex]-0.16 V, C'_{ox}[/latex] of 100 [latex]nF/cm^2[/latex] and\r\na metal work function of 3.87 eV is fabricated. There is no charge within the oxide. If\r\nthe voltage across the capacitor is [latex]V_{TH}[/latex]. the magnitude of depletion charge per unit area\r\n(in [latex]C/cm^2[/latex]) is",
+    "solution": "MOS capacitance [latex]\\begin{aligned}\\phi_{m}&=3.87,\\phi _{B}=4.8,\\phi _{ms}=-0.93\\\\V_{T}&=\\phi _{ms}-\\frac{{Q}'_{ox} }{{C}_{ox}}-\\frac{{Q}'_{d}}{{C}_{ox}}+2\\phi_{F_{p}}\\\\ \\phi _{F_{p}}&=E_{i}-E_{F}=0.5-0.2=0.3\\\\ -0.16&=-0.93-0-\\frac{{Q}'_{d}}{C_{ox}}+2\\times 0.3 \\\\ \\frac{{Q}'_{d}}{C_{ox}}&=0.6+0.16-0.93=-0.17\\\\ Q_{b}&=-0.17\\times C_{ox}\\\\ &=-0.17\\times 100\\times 10^{-9} \\\\ & =-1.7\\times 10^{-8}C/cm^{2}\\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page6_q5.webp",
+    "options": {
+      "A": "[latex]1.7 \\times 10^{-8}[/latex]",
+      "B": "[latex]0.52 \\times 10^{-8}[/latex]",
+      "C": "[latex]1.41 \\times 10^{-8}[/latex]",
+      "D": "[latex]0.93 \\times 10^{-8}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 A one-sided abrupt [latex]pn[/latex] junction diode has a depletion capacitance CD of 50 pF at a reverse\nbias of 0.2 V. The plot of [latex]1/C_D^2[/latex] versus the applied voltage V for this diode is a straight\nline as shown in the figure below. The slope of the plot is ____[latex]\\times 10^{20} F^{-2} V^{-1}[/latex].",
+    "solution": "As per GATE official answer key MTA (Marks to ALL) Depletion or transition capacitance is, [latex]C_{D}=\\frac{A_{\\epsilon }}{W}[/latex] For one-sided PN junction [latex]\\left (EX:P^{+}N Junction \\right )[/latex] [latex]W=\\sqrt{\\frac{2\\epsilon V_{B}}{eN_{D}}}=\\sqrt{\\frac{2\\epsilon \\left ( V_{bi}-V \\right )}{eN_{D}}}[/latex] where V is anode to cathode applied potential. [latex]\\Rightarrow \\, \\, \\, \\, C_{D}=\\frac{A\\epsilon }{\\sqrt{\\frac{2\\, \\epsilon \\left ( V_{bi}-V \\right )}{eN_{D}}}} [/latex] [latex]\\Rightarrow \\, \\, \\, \\, \\frac{1}{C_{D}^{2}}=\\frac{2}{A^{2}\\epsilon eN_{D}}\\left ( V_{bi}-V \\right )[/latex] [latex] \\frac{1}{C_{D}^{2}}\\, becomes \\, zero \\, at V=V_{bi}[/latex] From above graph,[latex]y=\\frac{1}{C_{D}^{2}}=0\\, at\\, x_{1}=V_{bi}[/latex] [latex] And \\, \\, \\, y_{2}=\\frac{1}{C_{D}^{2}}=4\\times 10^{20}\\, at\\, x_{2}=-0.2V [/latex] [latex]Slope=\\frac{y_{2}-y_{1}}{x_{2}-X_{1}}=\\frac{4\\times 10^{20}-0}{-0.2-V_{bi}}[/latex] [latex] V_{bi}[/latex] is not provided,slope cannot be found.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page7_q1.webp",
+    "options": {
+      "A": "-5.7",
+      "B": "-3.8",
+      "C": "-1.2",
+      "D": "-0.4"
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 Consider the recombination process via bulk traps in a forward biased [latex]pn[/latex] homojunction\ndiode. The maximum recombination rate is [latex]U_{max}[/latex]. If the electron and the hole capture\ncross-section are equal, which one of the following is False?",
+    "solution": "",
+    "options": {
+      "A": "With all other parameters unchanged, [latex]U_{max}[/latex] decreases if the intrinsic carrier density\nis reduced.",
+      "B": "[latex]U_{max}[/latex] occurs at the edges of the depletion region in the device.",
+      "C": "[latex]U_{max}[/latex] depends exponentially on the applied bias.",
+      "D": "With all other parameters unchanged,[latex]U_{max}[/latex] increases if the thermal velocity of the\ncarriers increases."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 A single crystal intrinsic semiconductor is at a temperature of 300 K with effective density\nof states for holes twice that of electrons. The thermal voltage is 26 mV. The intrinsic\nFermi level is shifted from mid-bandgap energy level by",
+    "solution": "[latex]\\frac{E_{c}+E_{v}}{2}-E_{F_{i}}=\\frac{KT}{2}\\ln \\left ( \\frac{N_{C}}{N_{V}}\\right )\\, \\, \\, \\, \\, \\, \\left ( \\because N_{C}=\\frac{N_{V}}{2} \\right )[/latex] [latex]=\\frac{0.026}{2}\\ln 0.5=-9.01\\, meV[/latex]",
+    "options": {
+      "A": "18.02 meV",
+      "B": "9.01 meV",
+      "C": "13.45 meV",
+      "D": "26.90 meV"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 Consider a long-channel MOSFET with a channel length 1 [latex]\\mu m[/latex] and width 10 [latex]\\mu m[/latex]. The device parameters are acceptor concentration [latex]N_A=5 \\times 10^{16}cm^{-3}[/latex], electron mobility [latex]\\mu_n=800cm^2/V-s[/latex], oxide capacitance/area [latex]C_{ox}=3.45 \\times 10^{-7}F/cm^{2}[/latex], threshold voltage [latex]V_T=0.7V[/latex]. The drain saturation current ([latex]I_{Dsat}[/latex]) for a gate voltage of 5 V is _____mA(rounded off to two decimal places). [latex][\\varepsilon _0=8.854 \\times 10^{-14}F/cm,\\varepsilon _{Si}=11.9][/latex]",
+    "solution": "[latex]\\begin{aligned} I_{D(\\text { sat })} &=\\frac{1}{2} \\mu_{n} C_{\\text {ox }} \\frac{W}{L}\\left(V_{G S}-V_{T}\\right)^{2} \\\\ &=\\frac{1}{2} \\times 800 \\times 3.45 \\times 10^{-7} \\times \\frac{10}{1}(5-0.7)^{2} \\mathrm{A} \\\\ &=25.5162 \\mathrm{mA} \\simeq 25.52 \\mathrm{mA} \\end{aligned}[/latex]",
+    "min": 25.4,
+    "max": 25.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 In an ideal pn junction with an ideality factor of 1 at T=300 K, the magnitude of the reverse-bias voltage required to reach 75% of its reverse saturation current, rounded off to 2 decimal places, is ____mV. [[latex]k=1.38 \\times 10^{-23}JK^{-1}[/latex], [latex]h=6.625 \\times 10^{-34}J-s[/latex], [latex]q=1.602 \\times 10^{-19}C[/latex]]",
+    "solution": "[latex]\\begin{aligned} V_{T} &=\\frac{k T}{q}=\\frac{1.38 \\times 10^{-23} \\times 300}{1.602 \\times 10^{-19}} \\mathrm{V} \\\\ &=25.843 \\mathrm{mV} \\\\ I &=I_{0}\\left(e^{V / V_{T}}-1\\right)=-\\frac{3}{4} I_{0} \\\\ \\Rightarrow\\quad V &=V_{T} \\ln 0.25=-35.83 \\mathrm{mV} \\\\ V_{R} &=|V|=35.83 \\mathrm{mV} \\end{aligned}[/latex]",
+    "min": 34.0,
+    "max": 38.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 36 A Germanium sample of dimensions 1cmx1cm is illuminated with a 20 mW, 600 nm laser light source as shown in the figure. The illuminated sample surface has a 100 nm of loss-less Silicon dioxide layer that reflects one-fourth of the incident light. From the remaining light, one-third of the power is reflected from the Silicon dioxide-Germanium interface, one-third is absorbed in the Germanium layer, and one-third is transmitted through the other side of the sample. If the absorption coefficient of Germanium at 600 nm is [latex]3 \\times 10^4 cm^{-1}[/latex] and the bandgap is 0.66 eV, the thickness of the Germanium layer, rounded off to 3 decimal places, is ______ [latex]\\mu m[/latex].",
+    "solution": "[latex]\\begin{aligned} P_{\\text {absorbed }} &=P_{\\text {incident }}\\left(1-e^{-\\alpha T}\\right) \\\\ \\frac{1}{3} &=\\frac{2}{3}\\left(1-e^{-\\alpha T}\\right) \\\\ \\frac{2}{3} e^{-\\alpha T} &=\\frac{1}{3} \\end{aligned}[/latex] where [latex]\\alpha=3 \\times 10^{4} \\mathrm{cm}^{-1}[/latex], absorption coefficient of Ge sample. [latex] \\begin{aligned} \\therefore \\quad T &=\\frac{1}{\\alpha} \\ln (2)=\\frac{1}{3 \\times 10^{4}} \\ln (2) \\mathrm{cm} \\\\ &=0.231 \\mu \\mathrm{m} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page8_q1.webp",
+    "min": 0.23,
+    "max": 0.232
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 The quantum efficiency ([latex]\\eta[/latex]) and responsivity (R) at a wavelength [latex]\\lambda (in \\; \\mu m)[/latex] in a p-i-n photodetector are related by",
+    "solution": "[latex]\\begin{aligned} \\eta&=\\frac{I_{\\text {out }}}{q} \\times \\frac{h f}{P_{\\text {in }}} \\\\ R&=\\frac{I_{\\text {out }}}{P_{\\text {in }}}\\\\ \\text{So, }\\quad R&=\\eta \\times \\frac{q}{h f}=\\eta \\times \\frac{q \\lambda}{h c} \\\\ \\end{aligned}[/latex] If [latex]\\lambda[/latex] is given in [latex]\\mu \\mathrm{m},[/latex] then [latex] \\begin{aligned} R &=\\eta \\lambda \\times \\frac{q \\times 10^{-6}}{h c} \\\\ \\frac{h c}{q \\times 10^{-6}} & \\simeq 1.24\\\\ \\text{So, }\\quad R&=\\frac{\\eta \\lambda}{1.24} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]R=\\frac{\\eta \\times \\lambda }{1.24}[/latex]",
+      "B": "[latex]R=\\frac{ \\lambda }{\\eta \\times 1.24}[/latex]",
+      "C": "[latex]R=\\frac{ \\lambda \\times 1.24}{ \\eta}[/latex]",
+      "D": "[latex]R=\\frac{1.24}{ \\lambda \\times \\eta}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 The figure shows the high-frequency C-V curve of a MOS capacitor (at T = 300 K) with [latex]\\Phi _{ms}=0V[/latex] and no oxide charges. The flat-band, inversion, and accumulation conditions are represented, respectively, by the points",
+    "solution": "Since [latex]\\phi_{ms}= 0[/latex], the MOS-capacitor is ideal. Point P Represents accumulation Point Q Represents flat band Point R Represents Inversion",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page8_q3.webp",
+    "options": {
+      "A": "P, Q, R",
+      "B": "Q, R, P",
+      "C": "R, P, Q",
+      "D": "Q, P, R"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 39 The correct circuit representation of the structure shown in the figure is",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page8_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 Which one of the following options describes correctly the equilibrium band diagram at T=300 K of a Silicon [latex]pnp^+p^{++}[/latex] configuration shown in the figure?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page8_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 A junction is made between [latex] p^{-} Si [/latex] with doping density [latex] N_{A1} = 10^{15} cm^{-3}[/latex] and pSi with doping density[latex] N_{A2} = 10^{17} cm^{-3} [/latex]. Given: Boltzmann constant [latex]k = 1.38 \\times  10^{-23} JK^{-1} [/latex], electronic charge [latex] q = 1.6 \\times  10^{-19} C [/latex]. Assume 100% acceptor ionization. At room temperature (T = 300K), the magnitude of the built-in potential (in volts, correct to\r\ntwo decimal places) across this junction will be _________________.",
+    "solution": "Built-in potential, [latex] \\begin{aligned} V_{b i} &=\\frac{k T}{q} \\ln \\left(\\frac{N_{A 2}}{N_{A 1}}\\right) \\\\ &=\\frac{1.38 \\times 3}{1.6 \\times 100} \\ln (100) \\mathrm{V}=0.1192 \\mathrm{V} \\\\ & \\simeq 0.12 \\mathrm{V} \\end{aligned}[/latex]",
+    "min": 0.11,
+    "max": 0.13
+  },
+  {
+    "type": "numerical",
+    "question": "Question 42 A solar cell of area  1.0 [latex]cm^{2}[/latex] , operating at 1.0 sun intensity, has a short circuit current of\n20 mA, and an open circuit voltage of 0.65 V. Assuming room temperature operation and\nthermal equivalent voltage of 26mV, the open circuit voltage (in volts, correct to two\ndecimal places) at 0.2 sun intensity is _______.",
+    "solution": "For solar cell, [latex] \\begin{aligned} V_{\\mathrm{OC}} &=V_{T} \\ln \\left(\\frac{I_{S C}}{I_{O}}\\right) \\\\ V_{\\mathrm{OC} 2}-V_{\\mathrm{OC} 1} &=V_{T} \\ln \\left(\\frac{I_{S C 2}}{I_{S C}}\\right)=V_{T} \\ln \\left(\\frac{0.20}{1.0}\\right) \\\\ V_{\\mathrm{OC} 2} &=V_{\\mathrm{OC} 1}-0.026 \\mathrm{ln}(5) \\\\ &=0.65-0.041845=0.608 \\mathrm{V} \\end{aligned}[/latex]",
+    "min": 0.59,
+    "max": 0.63
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 Red (R), Green (G) and Blue (B) Light Emitting Diodes (LEDs) were fabricated using p-n\r\njunctions of three different inorganic semiconductors having different band-gaps. The builtin\r\nvoltages of red, green and blue diodes are [latex] V_{R}, V_{G} \\; and \\; V_{B} [/latex], respectively. Assume donor and acceptor doping to be the same [latex] (N_{A} \\; and \\; N_{D} [/latex], respectively) in the p and n sides of all the three diodes. Which one of the following relationships about the built-in voltages is TRUE?",
+    "solution": "[latex]\\lambda_{R} \\gt \\lambda_{G} \\gt \\lambda_{B}[/latex] Energy gap, [latex] E_{g} \\propto \\frac{1}{\\lambda} [/latex] So, [latex]E_{g R} \\lt E_{g G}  \\lt  E_{g B}[/latex] Materials with high energy gap will have high built-in voltages, when doping concentrations are same. So, [latex]V_{R} \\lt V_{G}  \\lt V_{B}[/latex]",
+    "options": {
+      "A": "[latex]V_{R} \\gt V_{G} \\gt V_{B}[/latex]",
+      "B": "[latex] V_{R} \\lt V_{G} \\lt V_{B}[/latex]",
+      "C": "[latex] V_{R} = V_{G} =V_{B} [/latex]",
+      "D": "[latex] V_{R} \\gt V_{G} \\lt V_{B}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 There are two photolithography systems: one with light source of wavelength [latex]\\lambda _{1}[/latex] = 156 nm\r\n(System 1) and another with light source of wavelength [latex]\\lambda _{2}[/latex] = 325 nm (System 2). Both\r\nphotolithography systems are otherwise identical. If the minimum feature sizes that can be\r\nrealized using System1 and System2 are [latex] L_{min1} \\; and \\; L_{min2} [/latex] respectively, the ratio [latex] L_{min1}/L_{min2} [/latex](correct to two decimal places) is__________.",
+    "solution": "[latex]\\begin{aligned} L_{min}&\\propto \\lambda \\\\ \\frac{L_{min1}}{L_{min2}}&=\\frac{\\lambda _1}{\\lambda _2} \\\\ &= \\frac{156nm}{325nm}=0.48 \\end{aligned}[/latex]",
+    "min": 0.47,
+    "max": 0.51
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 A p-n step junction diode with a contact potential of 0.65V has a depletion width of 1[latex]\\mu[/latex]m\r\nat equilibrium. The forward voltage (in volts, correct to two decimal places) at which this\r\nwidth reduces to 0.6 [latex]\\mu[/latex]m is _______.",
+    "solution": "[latex]\\begin{aligned} W_{\\mathrm{dep}} &=\\sqrt{\\frac{2 \\varepsilon}{q}\\left(\\frac{1}{N_{A}}+\\frac{1}{N_{D}}\\right)\\left(V_{b i}-V_{A K}\\right)} \\\\ \\frac{\\sqrt{\\left(0.65-V_{A K}\\right)}}{\\sqrt{0.65}} &=\\frac{0.6 \\mu \\mathrm{m}}{1 \\mu \\mathrm{m}}=0.6 \\\\ 1-\\frac{V_{A K}}{0.65} &=0.36 \\\\ V_{A K} &=0.65(1-0.36) \\\\ &=0.65 \\times 0.64=0.416 \\mathrm{V} \\simeq 0.42 \\mathrm{V} \\end{aligned}[/latex]",
+    "min": 0.4,
+    "max": 0.43
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 In a p-n junction diode at equilibrium, which one of the following statements is\nNOT TRUE?",
+    "solution": "[latex]\\longrightarrow[/latex] Hole diffusion [latex] \\longleftarrow[/latex] Electron diffusion [latex] \\longleftarrow[/latex] Hole drift [latex] \\longrightarrow[/latex] Electron drift [latex] \\longrightarrow[/latex] Hole diffusion current [latex] \\longrightarrow[/latex] Electron diffusion current [latex] \\longleftarrow[/latex] Hole drift current [latex] \\longleftarrow[/latex] Electron drift current",
+    "options": {
+      "A": "The hole and electron diffusion current components are in the same direction.",
+      "B": "The hole and electron drift current components are in the same direction.",
+      "C": "On an average, holes and electrons drift in opposite direction.",
+      "D": "On an average, electrons drift and diffuse in the same direction."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 47 Two n-channel MOSFETs, T1 and T2, are identical in all respects except that the width of T2 is double that of T1. Both the transistors are biased in the saturation region of operation, but the gate overdrive voltage ([latex]V_{GS}-V_{TH}[/latex]) of T2 is double that of T1, where [latex]V_{GS} \\; and \\; V_{TH}[/latex] are the gate-to-source voltage and threshold voltage of the transistors, respectively. If the drain current and transconductance of T1 are [latex]I_{D1} \\; and \\; g_{m1}[/latex] respectively, the corresponding values of these two parameters for T2 are",
+    "solution": "[latex]\\begin{aligned} W_{2} &=2 \\mathrm{W} \\\\ V_{\\text {GS2 }}-V_{T 2} &=\\left(V_{G S 1}-V_{T 1}\\right) \\\\ \\frac{I_{D 2}}{I_{D 1}} &=\\frac{W_{2}}{W_{1}} \\times\\left(\\frac{V_{G S 2}-V_{T 2}}{V_{G S 1}-V_{T 1}}\\right)^{2} \\\\ &=2 \\times 4=8 \\\\ I_{D 2} &=8 I_{D 1} \\\\ \\frac{g_{m 2}}{g_{m 1}} &=\\frac{W_{2}}{W_{1}} \\times \\frac{V_{G S 2}-V_{T 2}}{V_{G S 1}-V_{T 1}}=2 \\times 2=4 \\\\ g_{m 2} &=4 g_{m 1} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]8I_{D1} \\; and \\; 2g_{m1}[/latex]",
+      "B": "[latex]8I_{D1}\\; and \\; 4g_{m1}[/latex]",
+      "C": "[latex]4I_{D1} \\; and \\; 4g_{m1}[/latex]",
+      "D": "[latex]4I_{D1} \\; and \\; 2g_{m1}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 For a particular intensity of incident light on a silicon pn junction solar cell, the photocurrent density ([latex]J_{L}[/latex]) is 2.5 mA/[latex]cm^{2}[/latex] and the open-circuit voltage ([latex]V_{oc}[/latex]) is 0.451 V. consider thermal voltage ([latex]V_{T}[/latex]) to be 25mV. If the intensity of the incident light is increased by 20 times,assuming that the temperature remains unchanged. [latex]V_{oc} [/latex](in volts) will be ______.",
+    "solution": "[latex]\\begin{aligned} V_{\\mathrm{OC}} &=V_{T} \\ln \\frac{J_{L}}{J_{S}} \\quad J_{L} \\propto \\text { Light intensity } \\\\ V_{\\mathrm{OC} 2}-V_{\\mathrm{OC} 1} &=V_{T} \\ln \\frac{J_{L 2}}{J_{L 1}} \\\\ V_{\\mathrm{OC} 2}-V_{\\mathrm{OC} 1} &=25 \\ln 20 \\cong 75 \\mathrm{mV}=0.075 \\mathrm{V} \\\\ V_{\\mathrm{OC} 2} &=0.451 \\mathrm{V}+0.075 \\mathrm{V}=0.526 \\mathrm{V} \\end{aligned}[/latex]",
+    "min": 0.51,
+    "max": 0.62
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 An abrupt pn junction (located at x = 0) is uniformly doped on both p and n sides. The width of the depletion region is W and the electric field variation in the x-direction is E(x). Which of the following figures represents the electric field profile near the pn junction?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page10_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 A MOS capacitor is fabricated on p-type Si (silicon) where the metal work function is 4.1 eV and electron affinity of Si is 4.0 eV. [latex]E_{C}-F_{F}[/latex]=0.9 eV, where [latex]E_{C}[/latex] and [latex]E_{F}[/latex] are the conduction band minimum and the Fermi energy levels of Si, respectively. Oxide [latex]\\in_{r}=3.9,\\in_{o}=8.85 \\times 10^{-14}[/latex] F/cm, oxide thickness [latex]t_{ox} = 0.1 \\mu m[/latex] and electronic charge [latex] q =1.6 \\times 10^{-19} C[/latex]. If the measured flat band voltage of the capacitor is -1V, then the magnitude of the fixed charge at the oxide-semiconductor\r\ninterface, in [latex]nC/cm^{2}[/latex], is __________.",
+    "solution": "[latex]\\begin{aligned} \\theta_{0} &=4.1 \\mathrm{eV} \\\\ e_{K} &=4 \\mathrm{eV} \\\\ E_{C}-E_{F P} &=0.9 \\mathrm{eV} \\\\ e \\phi_{s} &=e x+0.9=4.9 \\mathrm{eV} \\\\ \\phi_{m} &=4.1 \\mathrm{V}, \\quad \\phi_{s}=4.9 \\mathrm{V} \\\\ \\phi_{m s} &=\\phi_{m}-\\phi_{s}=4.1-4.9=-0.8 \\mathrm{v} \\\\ C_{o x} &=\\frac{\\epsilon_{O x}}{t_{o x}}=\\frac{3.9 \\times 8.85 \\times 10^{-14}}{0.1 \\times 10^{-4}}\\\\ &=34.515 \\times 10^{-9} \\mathrm{F} / \\mathrm{cm}^{2} \\\\ V_{F B} &=\\phi_{\\text {rns }}-\\frac{\\phi_{o x}^{\\prime}}{C_{O x}} \\\\ \\frac{\\phi_{O x}^{\\prime}}{C_{O x}} &=-0.8+1=0.2 \\mathrm{V} \\\\ \\phi_{o x}^{\\prime} &=0.2 \\times C_{0 x} \\\\ &=0.2 \\times 34.515 \\times 10^{-9} \\mathrm{C} / \\mathrm{cm}^{2} \\\\ &=6.903 \\mathrm{nC} / \\mathrm{cm}^{2}\\\\ \\end{aligned}[/latex]",
+    "min": 6.85,
+    "max": 6.95
+  },
+  {
+    "type": "mcq",
+    "question": "Question 51 An npn bipolar junction transistor (BJT) is operating in the active region. If the reverse bias across the base - collector junction is increased, then",
+    "solution": "When a BJT is in active region, as the reverse \r\nbias voltage across collector-base junction \r\nincreased, the width of depletion region increases, \r\nwhich results in decrease of effective base width. \r\nThis decrease in effective base width reduces the \r\nrecombinations in base region, hence, common-emitter \r\ncurrent gain will increase.",
+    "options": {
+      "A": "the effective base width increases and common - emitter current gain increases",
+      "B": "the effective base width increases and common - emitter current gain decreases",
+      "C": "the effective base width decreases and common - emitter current gain increases",
+      "D": "the effective base width decreases and common -  emitter current gain decreases"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 Consider an n-channel MOSFET having width W, length L, electron mobility in the channel [latex]\\mu_{n}[/latex] and oxide capacitance per unit area [latex]C_{ox}[/latex]. If gate-to-source voltage [latex]V_{GS}[/latex]=0.7V, drain-tosource voltage [latex]V_{DS}=0.1V,(\\mu_{n}C_{ox})=100\\mu A/V^{2}[/latex],threshold voltage [latex]V_{TH}=0.3 V [/latex] and (W/L)=50,then the transconductance [latex]g_{m}[/latex](in mA/V) is ___________.",
+    "solution": "Given that, [latex] \\begin{aligned} V_{G S} &=0.7 \\mathrm{V}, V_{T H}=0.3 \\mathrm{V}, V_{D S}=0.1 \\mathrm{V} \\\\ V_{G S}-V_{T H} &=0.4>V_{D S} \\end{aligned}[/latex] [latex] \\Rightarrow[/latex] MOSFET is in linear region In linear region, [latex] I_{D}=K_{n}\\left[2\\left(V_{G S}-V_{T H}\\right) V_{O S}-V_{D S}^{2}\\right][/latex] Transconductance [latex] \\begin{aligned} g_{m}&=\\frac{\\partial I_{D}}{\\partial V_{G S}}=2 K_{n} V_{D S} \\\\ K_{n}&=\\frac{K_{n}}{2}\\left(\\frac{W}{L}\\right)=\\frac{\\mu_{n} C_{O x}}{2}\\left(\\frac{W}{L}\\right)\\\\ \\text{So,}\\quad g_{m} &=2 K_{n} V_{D S}=\\mu_{n} C_{O x}\\left(\\frac{W}{L}\\right) V_{D S} \\\\ &=100 \\times 50 \\times 0.1 \\mu \\mathrm{A} / \\mathrm{V} \\\\ &=0.5 \\mathrm{mA} N \\end{aligned}[/latex]",
+    "min": 0.45,
+    "max": 0.55
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 As shown a uniformly doped Silicon (Si) bar of length L = 0.1 [latex]\\mu[/latex]m with a donor concentration [latex]N_{D}=10^{16}cm^{-3}[/latex] is illuminated at x = 0 such that electron and hole pairs are generated at the rate of [latex]G_{L}=G_{L0}(1-\\frac{x}{L}\r\n),  0 \\leq x \\leq L [/latex], where  [latex]  G_{L0}=10^{17} cm^{-3}s^{-1}[/latex]. Hole lifetime is [latex]10^{-4}s[/latex],\r\nelectronic charge [latex]q=1.6\\times 10^{-19}C[/latex], hole diffusion coefficient [latex]D_{P}=100 cm^{2}/s[/latex] and low level injection condition prevails. Assuming a linearly decaying steady state excess hole concentration that goes to 0 at x = L, the magnitude of the diffusion current density at x = L/2, in [latex]A/cm^{2}[/latex], is _________.",
+    "solution": "Net hole density varying in the direction of x is, [latex] \\begin{aligned} p_{n}(x) &=p_{n 0}+\\Delta p=p_{n 0}+G_{L} \\tau_{p} \\\\ &=p_{n 0}+G_{L o} \\tau_{p}\\left(1-\\frac{x}{L}\\right) \\\\ J_{p, \\text { diff }} &=-e D_{p} \\frac{d p}{d x}=-e D_{p}\\left[\\frac{-G_{L o} \\tau_{p}}{L}\\right] \\\\ &=\\frac{1.6 \\times 10^{-19} \\times 100 \\times 10^{17} \\times 10^{-4}}{0.1 \\times 10^{-4}} \\mathrm{A} / \\mathrm{cm}^{2} \\\\ &=16 \\mathrm{A} / \\mathrm{cm}^{2} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page11_q3.webp",
+    "min": 15.9,
+    "max": 16.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 The dependence of drift velocity of electrons on electric field in a semiconductor is shown below. The semiconductor has a uniform electron concentration of [latex]n=1\\times 10^{16}cm^{-3}[/latex] and electronic charge [latex]q=1.6\\times 10^{-19}C[/latex]. If a bias of 5V is applied across a 1 [latex]\\mu[/latex]m region of this semiconductor, the resulting current density in this region, in [latex]kA/cm^{2}[/latex], is _________.",
+    "solution": "[latex]\\begin{aligned} E&=\\frac{V}{d}=\\frac{5}{10^{-4}}=5 \\times 10^{4} \\mathrm{V} / \\mathrm{cm}\\\\ &\\text{Slope of the curve,}\\\\ m &=\\frac{10^{7}-0}{5 \\times 10^{5}}=20 \\quad y=m_{x} \\\\ v_{d} &=20 \\times E=20 \\times 5 \\times 10^{4} \\\\ &=10^{6} \\mathrm{V} / \\mathrm{cm} \\\\ J &=n e v_{d} \\\\ &=1 \\times 10^{16} \\times 1.6 \\times 10^{-19} \\times 10^{6} \\\\ &=1.6 \\times 10^{3} \\mathrm{A} / \\mathrm{cm}^{2}=1.6 \\mathrm{kA} / \\mathrm{cm}^{2} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page11_q4.webp",
+    "min": 1.5,
+    "max": 1.7
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 As shown, two Silicon (Si) abrupt p-n junction diodes are fabricated with uniform donor doping concentration of [latex]N_{D1}=10^{14}cm^{-3}[/latex] and [latex]N_{D2}=10^{16}cm^{-3}[/latex] in the n-regions of the diodes,\r\nand uniform acceptor doping concentration of [latex]N_{A1}=10^{14}cm^{-3} [/latex] and [latex]N_{A2}=10^{16}cm^{-3}[/latex]  in the pregions of the diodes, respectively. Assuming that the reverse bias voltage is [latex]\\gt \\gt[/latex] built-in potentials of the diodes, the ratio [latex]\\frac{C_{2}}{C_{1}}[/latex]  of their reverse bias capacitances for the same applied reverse bias, is __________.",
+    "solution": "[latex]\\begin{aligned} W&=\\sqrt{\\frac{2 \\varepsilon V_{R}}{e}\\left(\\frac{1}{N_{A}}+\\frac{1}{N_{D}}\\right)} \\\\ \\because \\; &V_{R}\\gt \\gt V_{bi}\\\\ \\text{Under reverse } &\\text{biased condition,}\\\\ C&=\\frac{\\varepsilon A}{W} \\quad \\Rightarrow C \\propto \\frac{1}{W}\\\\ \\text{So}\\quad\\frac{C_{2}}{C_{1}} &=\\frac{W_{1}}{W_{2}} \\\\ &=\\sqrt{\\frac{\\frac{2 \\varepsilon V_{R}}{e}\\left(\\frac{2}{10^{14}}\\right)}{\\frac{2 \\varepsilon V_{R}}{e}\\left(\\frac{2}{10^{16}}\\right)}}=10 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page11_q5.webp",
+    "min": 10.0,
+    "max": 10.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 56 An [latex]n^{+} -n[/latex] Silicon device is fabricated with uniform and non-degenerate donor doping concentrations of [latex]N_{D1}=1 \\times 10^{18}cm^{-3}[/latex]  and [latex]N_{D2}=1 \\times 10^{15}cm^{-3}[/latex] corresponding to the [latex]n^{+}[/latex] and n\r\nregions respectively. At the operational temperature T, assume complete impurity ionization, kT/q = 25 mV, and intrinsic carrier concentration to be [latex]n_{i}=1 \\times 10^{10}cm^{-3}[/latex] . What is the magnitude of the built-in potential of this device?",
+    "solution": "[latex]\\begin{aligned} V_{0} &=V_{T} \\ln \\frac{n_{1}}{n_{2}}=V_{T} \\ln \\frac{N_{D 1}}{N_{D 2}} \\\\ &=0.25 \\ln \\frac{10^{18}}{10^{15}}=0.025 \\ln (1000) \\\\ &=0.173 \\mathrm{V} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.748V",
+      "B": "0.460V",
+      "C": "0.288V",
+      "D": "0.173V"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 57 For a narrow base PNP BJT, the excess minority carrier concentration ([latex]\\Delta n_{E}[/latex] for emitter, [latex]\\Delta p_{E0}[/latex] for base. [latex]\\Delta n_{c}[/latex] for collector) normalized to equilibrium minority carrier concentration ([latex] n_{E0}[/latex] for emmiter, [latex] p_{B0} [/latex] for base, [latex]n_{C0}[/latex] for collector) in the quasi-neutral emitter, base and collector regions are shown below. Which one of the following biasing modes is the transistor operating in ?",
+    "solution": "Emitter-base junction [latex](J_{E})[/latex] is in RB Collector-base junction [latex](J_{C})[/latex] is in FB Hence, inverse active mode.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page12_q2.webp",
+    "options": {
+      "A": "Forward active",
+      "B": "Saturation",
+      "C": "Inverse active",
+      "D": "Cutoff"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 58 A bar of Gallium Arsenide (GaAs) is doped with Silicon such that the Silicon atoms occupy Gallium and Arsenic sites in the GaAs crystal. Which one of the following statement is true?",
+    "solution": "Si acts as p-type dopant GA sites. Si acts as n-type dopant GA sites.",
+    "options": {
+      "A": "Silicon atoms act as p-type dopants in Arsenic sites and n-type dopants in Gallium sites",
+      "B": "Silicon atoms act as n-type dopants in Arsenic sites and p-type dopants in Gallium sites",
+      "C": "Silicon atoms act as p-type dopants in Arsenic as well as Gallium sites",
+      "D": "Silicon atoms act as n-type dopants in Arsenic as well as Gallium sites"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 59 Figures I and II show two MOS capacitors of unit area. The capacitor in Figure I has insulator materials X (of thickness [latex]t_1 = 1[/latex]nm and dielectric constant [latex]\\varepsilon _{1}[/latex] = 4) and Y (of thickness [latex]t_2 = 3 [/latex]nm and dielectric constant [latex]\\varepsilon _{2}[/latex] = 20). The capacitor in Figure II has only insulator material X of thickness [latex]t_{Eq}[/latex]. If the capacitors are of equal capacitance, then the value of [latex]t_{Eq}[/latex] (in nm) is __________",
+    "solution": "From the figure I. Both the capacitors [latex]C_{1}[/latex] and [latex]C_{2}[/latex] are in series Total Capacitance, [latex]C=\\frac{C_{1} C_{2}}{C_{1}+C_{2}} [/latex] [latex] \\begin{aligned} C=& \\frac{A e_{1}}{A_{1}} \\cdot \\frac{A \\varepsilon_{2}}{t_{2}} \\\\ =& \\frac{A x_{1}+A \\varepsilon_{2}}{t_{1}}+\\frac{A \\times 20}{12} \\\\ =& \\frac{10^{-9} \\cdot \\frac{A \\times 10^{-9}}{4 \\times 4}+\\frac{A \\times 20}{3 \\times 10^{-9}}}{10^{-9}} \\\\ C=& 2.5 \\times 10^{9} \\times A \\end{aligned}[/latex] From figure II [latex] C=\\frac{\\varepsilon A}{t_{\\theta q}}[/latex] since both capacitors must be equal in figures I  and II [latex] \\begin{array}{r} 2.5 \\times 10^{9} \\times A=\\frac{A \\times 4}{t_{e q}} \\\\ t_{e q}=1.6 \\mathrm{nm} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page12_q4.webp",
+    "min": 1.55,
+    "max": 1.65
+  },
+  {
+    "type": "numerical",
+    "question": "Question 60 The injected excess electron concentration profile in the base region of an npn BJT, biased in the active region, is linear, as shown in the figure. If the area of the emitter-base junction is 0.001 [latex]cm^{2},\\mu _{n}=800 cm^{2}/(V-s)[/latex] in the base region and depletion layer widths are negligible, then the collector current [latex]I_{C}[/latex] (in mA) at room temperature is __________ (Given: thermal voltage [latex]V_{T}[/latex] = 26 mV at room temperature, electronic charge [latex]q=1.6\\times 10^{-19}C[/latex])",
+    "solution": "[latex]\\begin{aligned} I_{c} &=A q D_{n} \\frac{d n}{d x} \\text { where } D_{n}=\\mu_{n} V_{T} \\\\ &=0.001\\left(1.6 \\times 10^{-19}\\right) 800 \\times 26 \\times 10^{-3}\\left[\\frac{10^{14}}{0.5 \\times 10^{-4}}\\right] \\\\ &=66.56 \\times 10^{-4} \\mathrm{A}=6.656 \\mathrm{mA} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page12_q5.webp",
+    "min": 6.55,
+    "max": 6.75
+  },
+  {
+    "type": "numerical",
+    "question": "Question 61 The figure shows the I-V characteristics of a solar cell illuminated uniformly with solar light of power [latex]100 mW/cm^{2}[/latex]. The solar cell has an area of [latex]3cm^{2}[/latex] and a fill factor of 0.7. The maximum efficiency (in %) of the device is __________",
+    "solution": "Fill factor [latex]=\\frac{\\text { Maximum obtained power }}{V_{O C} \\cdot I_{S C}} [/latex] [latex] 0.7=\\frac{\\text { Maximum obtained power }}{0.5 \\times 180 \\times 10^{-3}} [/latex] [latex] \\therefore[/latex] Maximum obtained power, [latex]P_{m}=0.063 \\mathrm{W} [/latex] Efficiency [latex]\\eta=\\frac{P_{m}}{G \\cdot A}=\\frac{0.063}{100 \\times 10^{-3} \\times 3}=21 \\% [/latex] G [latex]\\rightarrow[/latex] input light in [latex]\\mathrm{W} / \\mathrm{cm}^{2}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page13_q1.webp",
+    "min": 20.5,
+    "max": 21.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 62 The figure shows the band diagram of a Metal Oxide Semiconductor (MOS). The surface region of this MOS is in",
+    "solution": "Substrate is N-type SC.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page13_q2.webp",
+    "options": {
+      "A": "inversion",
+      "B": "accumulation",
+      "C": "depletion",
+      "D": "flat band"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 63 The I-V characteristics of three types of diodes at the room temperature, made of semiconductors X, Y and Z, are shown in the figure. Assume that the diodes are uniformly doped and identical in all respects except their materials. If [latex]E_{gX},E_{gY} \\; and \\; E_{gZ}[/latex] are the band gaps of X, Y and Z, respectively,\r\nthen",
+    "solution": "[latex]\\begin{array}{l} X \\rightarrow \\text { Ge Diode } \\ldots \\ldots \\ldots \\ldots \\ldots E_{G}=0.2 \\mathrm{V} \\\\ Y \\rightarrow \\text { Si Diode } \\ldots \\ldots \\ldots \\ldots E_{G}=0.7 \\mathrm{V} \\\\ Z \\rightarrow \\text { GaAs Diode }(\\text { or }) \\mathrm{LED} \\ldots \\ldots \\ldots . E_{G}=1.3 \\mathrm{V} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page13_q3.webp",
+    "options": {
+      "A": "[latex]E_{gX} \\gt E_{gY}\\gt E_{gZ}[/latex]",
+      "B": "[latex]E_{gX}=E_{gY} = E_{gZ}[/latex]",
+      "C": "[latex]E_{gX} \\lt E_{gY}\\lt E_{gZ}[/latex]",
+      "D": "no relationship among these band gaps exists."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 64 Consider a long-channel NMOS transistor with source and body connected together. Assume that the electron mobility is independent of [latex]V_{GS}[/latex] and [latex]V_{DS}[/latex]. Given, [latex]g_{m}=0.5 \\mu A/V \\; for \\;  V_{DS}=50mV \\; and \\; V_{GS}=2 V[/latex], [latex]g_{d}=8 \\mu A/V \\; for \\;  V_{GS}=2V \\; and \\; V_{DS}=0 V[/latex], where [latex]g_{m}=\\frac{\\partial I_{D}}{\\partial V_{GS}}[/latex] and   [latex]g_{d}=\\frac{\\partial I_{D}}{\\partial V_{DS}}[/latex] The threshold voltage (in volts) of the transistor is ________",
+    "solution": "since [latex]V_{G S} \\gt V_{D S}[/latex] MOSFET is in linear operation [latex] \\begin{aligned} I_{D} &=K_{N}^{\\prime}\\left[V_{G S}-V_{T}\\right] V_{D S} \\\\ \\frac{d I_{D}}{d V_{G S}} &=K_{N} V_{D S} \\\\ g_{m} &=K_{N}^{\\prime} V_{D S} \\\\ 0.5 \\times 10^{-6} &=K_{N}^{\\prime}\\left[50 \\times 10^{-3}\\right] \\therefore K_{N}^{\\prime}=10^{-5} \\\\ I_{D} &=K_{N}\\left[V_{G S}-V_{T}\\right] V_{D S} \\\\ \\frac{d I_{D}}{d V_{D S}} &=K_{N}\\left[V_{G S}-V_{T}\\right] \\\\ g_{d} &=K_{N}\\left[V_{G S}-V_{T}\\right] \\\\ 8 \\times 10^{-6} &=10^{-5}\\left[2-V_{T}\\right] \\\\ \\text { On solving } V_{T} &=1.2 \\mathrm{V} \\end{aligned}[/latex]",
+    "min": 1.18,
+    "max": 1.22
+  },
+  {
+    "type": "numerical",
+    "question": "Question 65 Consider a region of silicon devoid of electrons and holes, with an ionized donor density of [latex]N_{d}^{+}=10^{17}cm^{-3}[/latex]. The electric field at x= 0 is 0 V/cm and the electric field at x=L is 50 kV/cm in the positive x direction. Assume that the electric field is zero in the y and z directions at all points. Given [latex]q=1.6\\times 10^{-19}[/latex]coulomb,  [latex]\\epsilon _{0}=8.85\\times 10^{-14}F/cm,\\epsilon _{r}=11.7[/latex] for silicon, the value of L in nm is ________",
+    "solution": "[latex]\\begin{aligned} |\\varepsilon|&=\\frac{q}{\\varepsilon} N_{D} X_{N} \\\\ 50 \\times 10^{3}&=\\frac{1.6 \\times 10^{-19}}{8.85 \\times 10^{-14} \\times 11.7} \\times 10^{17} \\times X_{N} \\\\ \\text { On solving, } \\quad X_{N} &=3.2356 \\times 10^{-6} \\mathrm{cm} \\\\ &=3.236 \\times 10^{-8} \\mathrm{m} \\\\ x_{N} &=L=32.36 \\mathrm{nm}\\\\ &=L=32.36 \\mathrm{nm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page13_q5.webp",
+    "min": 30.0,
+    "max": 34.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 66 Consider avalanche breakdown in a silicon [latex]p^{+}n[/latex] junction. The n-region is uniformly doped with a donor density [latex]N_{D}[/latex]. Assume that breakdown occurs when the magnitude of the electric field at any\r\npoint in the device becomes equal to the critical field [latex]E_{crit}[/latex]. Assume [latex]E_{crit}[/latex] to be independent of [latex]N_{D}[/latex]. If the built-in voltage of the [latex]p^{+}n[/latex] junction is much smaller than the breakdown voltage,[latex]V_{BR}[/latex], the relationship between [latex]V_{BR}[/latex] and [latex]N_{D}[/latex] is given by",
+    "solution": "In any type of PN junction [latex] \\begin{aligned} v_{B R} &\\propto \\frac{1}{\\text { Doping Concentration }}\\\\ \\text{i.e.}\\quad V_{B R} &\\propto \\frac{1}{N_{D}} \\text { (or)  } V_{B R}=\\frac{\\varepsilon E^{2}}{2 q N_{D}} \\\\ \\therefore V_{BR} \\times N_{D} \\rightarrow &\\text { is a constant } \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]V_{BR} \\times \\sqrt{N_{D}}=constant[/latex]",
+      "B": "[latex]N_{D}\\times \\sqrt{V_{BR}}=constant[/latex]",
+      "C": "[latex]N_{D} \\times V_{BR}=constant[/latex]",
+      "D": "[latex]N_{D}/V_{BR}=constant[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 67 A voltage [latex]V_{G}[/latex]  is applied across a MOS capacitor with metal gate and p-type silicon substrate at T=300 K. The inversion carrier density (in number of carriers per unit area) for [latex]V_{G}=0.8 V[/latex] is [latex]2\\times 10^{11} cm^{-2}[/latex]. For [latex]V_{G}=1.3 V[/latex], the inversion carrier density is [latex]4\\times 10^{11}cm^{-2}[/latex]. What is the value of the inversion carrier density for [latex]V_{G}=1.8 V[/latex]?",
+    "solution": "In a MOS - Capacitor [latex] \\begin{aligned} \\left(V_{G 1}-V_{T}\\right) & \\propto Q \\\\ \\frac{\\left(V_{G 1}-V_{T}\\right)}{\\left(V_{G 2}-V_{T}\\right)} &=\\frac{Q_{1}}{Q_{2}} \\\\ \\frac{0.8-V_{T}}{1.3-V_{T}} &=\\frac{2 \\times 10^{11}}{4 \\times 10^{11}} \\\\ \\text { On solving, } \\quad V_{T} &=0.3 \\mathrm{V}\\\\ \\text{Now Consider, } &\\frac{V_{G 2}-V_{T}}{V_{G 3}-V_{T}}=\\frac{Q_{2}}{Q_{3}} \\\\ \\frac{1.3-0.3}{1.8-0.3}&=\\frac{4 \\times 10^{11}}{Q_{3}}\\\\ \\end{aligned}[/latex] Inverse charge density with [latex]V_{G}=1.8 \\mathrm{V} [/latex] [latex] Q_{3}=6 \\times 10^{11} / \\mathrm{cm}^{2}[/latex]",
+    "options": {
+      "A": "[latex]4.5 \\times 10^{11}cm^{-2}[/latex]",
+      "B": "[latex]6.0 \\times 10^{11}cm^{-2}[/latex]",
+      "C": "[latex]7.2 \\times 10^{11}cm^{-2}[/latex]",
+      "D": "[latex]8.4 \\times 10^{11}cm^{-2}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 68 A long-channel NMOS transistor is biased in the linear region with [latex]V_{DS}[/latex]=50 mV and is used as a resistance. Which one of the following statements is NOT correct?",
+    "solution": "[latex]\\begin{aligned} r_{ds} &=\\frac{1}{\\mu_{n} C_{01} \\frac{W}{L}\\left(V_{\\mathrm{as}}-v_{r}\\right)} \\\\ r_{ds} &=\\text { channel resistance } \\end{aligned}[/latex] [latex] \\begin{array}{l} W \\uparrow r \\downarrow A \\rightarrow \\text { correct } \\\\ V_{T} \\downarrow r \\downarrow B \\rightarrow \\text { correct } \\\\ L \\uparrow r \\uparrow C \\rightarrow \\text { correct } \\\\ V_{\\triangle} \\uparrow r \\downarrow \\therefore D \\rightarrow \\text { Wrong statement } \\end{array}[/latex]",
+    "options": {
+      "A": "If the device width W is increased, the resistance decreases.",
+      "B": "If the threshold voltage is reduced, the resistance decreases.",
+      "C": "If the device length L is increased, the resistance increases.",
+      "D": "If [latex]V_{GS}[/latex] is increased, the resistance increases."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 69 Consider a silicon sample at T = 300 K, with a uniform donor density [latex]N_{d}=5 \\times 10^{16}cm^{-3}[/latex] illuminated uniformly such that the optical generation rate is [latex]G_{opt}=1.5 \\times 10^{20}cm^{-3}s^{-1}[/latex]\r\nthroughout the sample. The incident radiation is turned off at t = 0. Assume low-level injection to be valid and ignore surface effects. The carrier lifetimes are [latex]\\tau _{p0}=0.1 \\mu s \\; and \\;  \\tau _{n0}=0.5\\mu s[/latex] The hole concentration at t = 0 and the hole concentration at t= 0.3 [latex]\\mu[/latex]s, respectively, are",
+    "solution": "[latex]\\begin{aligned} \\text{Given}quad G_{opt} &=1.5 \\times 10^{20} / \\mathrm{cm}^{3} / \\mathrm{sec} \\\\ G_{opt} &=R=\\frac{N_{A}}{\\tau_{P}} \\\\ \\Rightarrow \\quad 1.5 \\times 10^{2} &=\\frac{N_{A}}{0.1 \\times 10^{-6}} \\\\ \\therefore\\quad N_{A} &=1.5 \\times 10^{13} / \\mathrm{cm}^{3} \\\\ P(t) &=P_{n0} e^{-t / \\tau_{p}} \\\\ &=1.5 \\times 10^{13} e^{\\frac{-0.3}{0.1}} \\\\ &=7.46 \\times 10^{11} / \\mathrm{cm}^{3}\\\\ \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page14_q4.webp",
+    "options": {
+      "A": "[latex]1.5 \\times 10^{13}cm^{-3} \\; and \\; 7.47 \\times 10^{11}cm^{-3}[/latex]",
+      "B": "[latex]1.5 \\times 10^{13}cm^{-3} \\; and \\; 8.23 \\times 10^{11}cm^{-3}[/latex]",
+      "C": "[latex]7.5 \\times 10^{13}cm^{-3} \\; and \\; 3.73 \\times 10^{11}cm^{-3}[/latex]",
+      "D": "[latex]7.5 \\times 10^{13}cm^{-3} \\; and \\; 4.12 \\times 10^{11}cm^{-3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 70 The figure below shows the doping distribution in a p-type semiconductor in log scale.  The magnitude of the electric field (in kV/cm) in the semiconductor due to non uniform doping is _________",
+    "solution": "Applying the current density equation [latex] \\begin{aligned} J&=J_{\\text {Dritt }}+J_{\\text {Diff }} \\\\ J&=0\\\\ 0 &=-q D_{p} \\frac{d p}{d x}+q\\mu_{p} p E \\\\ q D_{p} \\frac{d p}{d x} &=a \\mu_{p} p E \\\\ E &=\\frac{V_{T}}{p(x)} \\frac{\\partial p}{d r} \\\\ \\therefore \\quad |E| &=\\frac{V_{T}}{\\rho(x)} \\frac{\\partial p}{d x} \\\\ E &=v_{7} \\frac{d}{d x} \\ln \\left[N_{A}(x)\\right] \\\\ E &=V_{T}\\left[\\frac{\\ln \\left(10^{16}\\right)-\\ln \\left(10^{14}\\right)}{(2-1) \\times 10^{-4}}\\right] \\\\ &=0.026\\left[\\frac{36-32.23}{1 \\times 10^{-4}}\\right] \\\\ &=1198.6 \\mathrm{V} / \\mathrm{cm} \\\\ &=1.198 \\mathrm{kV} / \\mathrm{cm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page14_q5.webp",
+    "min": 1.1,
+    "max": 1.25
+  },
+  {
+    "type": "numerical",
+    "question": "Question 71 Consider an n-channel metal oxide semiconductor field effect transistor (MOSFET) with a gate-tosource voltage of 1.8V. Assume that [latex]\\frac{W}{L}=4[/latex], [latex]\\mu _{N}C_{ox}=70\\times 10^{-6}AV^{-2}[/latex], the threshold voltage is 0.3V, and the channel length modulation parameter is 0.09 [latex]V^{-1}[/latex]. In the saturation region, the drain conductance (in micro seimens) is ________",
+    "solution": "In the saturation region, [latex] \\begin{aligned} g_{d} &=\\lambda I_{O S} \\\\ &=\\lambda\\left[\\frac{1}{2} \\mu_{n} C_{o x} \\frac{w}{L}\\left(V_{G S}-V_{T}\\right)^{2}\\right] \\\\ &=0.09\\left[\\frac{1}{2} \\times 70 \\times 10^{-6} \\times 4(1.8-0.3)^{2}\\right] \\\\ g_{d} &=28.35 \\mu \\mathrm{s} \\end{aligned}[/latex]",
+    "min": 28.0,
+    "max": 29.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 72 Consider a silicon p-n junction with a uniform acceptor doping concentration of [latex]10^{17}cm^{-3}[/latex] on the pside and a uniform donor doping concentration of [latex]10^{16}cm^{-3}[/latex] on the n-side. No external voltage is\r\napplied to the diode. Given: kT/q=26mV,  [latex]n_{i}=1.5\\times 10^{10}cm^{-3}[/latex], [latex]\\varepsilon _{Si}=12\\varepsilon _{0},\\varepsilon _{0}=8.85\\times 10^{-14}F/m,[/latex] and [latex]q=1.6\\times 10^{-19}C[/latex]. The charge per unit junction area (nC [latex]cm^{-2}[/latex]) in the depletion region on the p-side is ___________",
+    "solution": "[latex]\\begin{aligned} V_{0}&=V_{T} \\ln \\frac{N_{A} N_{D}}{n_{i}^{2}} \\\\ &=26 \\times 10^{-3} \\ln \\frac{10^{16} \\times 10^{17}}{\\left(1.5 \\times 10^{10}\\right)^{2}} \\\\ V_{0}&=0.757 \\mathrm{V} \\\\ W&=\\sqrt{\\frac{2 \\varepsilon}{q}\\left(\\frac{1}{N_{A}}+\\frac{1}{N_{D}}\\right) V_{0}} \\\\ &=\\sqrt{\\frac{2 \\times 8.854 \\times 10^{-16} \\times 12}{1.6 \\times 10^{-19}}\\left[\\frac{1}{10^{16}}+\\frac{1}{10^{17}}\\right] 0.757} \\\\ W&=3.3255 \\mu \\mathrm{cm} \\\\ W_{P}&=\\frac{W N_{D}}{N_{A}+N_{D}}=\\frac{3.3255 \\times 10^{-6} \\times 10^{16}}{10^{16}+10^{17}} \\\\ &=0.3023 \\mu \\mathrm{cm} \\end{aligned}[/latex] Charge per unit junction area in the depletion layer on p side is [latex] \\begin{aligned} &=-q N_{A} W_{P} \\\\ &=-1.6 \\times 10^{-19} \\times 10^{17} \\times 0.3023 \\times 10^{-6} \\\\ &=-4.8368 \\mathrm{nC} / \\mathrm{cm}^{2} \\end{aligned}[/latex]",
+    "min": -5.0,
+    "max": -4.6
+  },
+  {
+    "type": "mcq",
+    "question": "Question 73 Consider the following statements for a metal oxide semiconductor field effect transistor (MOSFET): P: As channel length reduces, OFF-state current increases. Q: As channel length reduces, output resistance increases. R: As channel length reduces, threshold voltage remains constant. S: As channel length reduces, ON current increases. Which of the above statements are INCORRECT?",
+    "solution": "",
+    "options": {
+      "A": "P and Q",
+      "B": "P and S",
+      "C": "Q and R",
+      "D": "R and S"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 74 A small percentage of impurity is added to an intrinsic semiconductor at 300 K. Which one of the following statements is true for the energy band diagram shown in the following figure?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page15_q4.webp",
+    "options": {
+      "A": "Intrinsic semiconductor doped with pentavalent atoms to form n-type semiconductor",
+      "B": "Intrinsic semiconductor doped with trivalent atoms to form n-type semiconductor",
+      "C": "Intrinsic semiconductor doped with pentavalent atoms to form p-type semiconductor",
+      "D": "Intrinsic semiconductor doped with trivalent atoms to form p-type semiconductor"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 75 An npn BJT having reverse saturation current [latex]I_{S} = 10^{-15}[/latex] A is biased in the forward active region with [latex]V_{BE}[/latex] = 700 mV. The thermal voltage ( [latex]V_{T}[/latex] ) is 25 mV and the current gain ([latex]\\beta[/latex]) may vary from 50 to 150 due to manufacturing variations. The maximum emitter current (in [latex]\\mu[/latex]A) is ________.",
+    "solution": "[latex]\\begin{aligned} I_{C} &=I_{s} e^{V_{B E} / V_{T}} \\\\ I_{E} &=\\frac{\\beta+1}{\\beta} I_{C} \\\\ &=\\frac{\\beta+1}{\\beta} I_{S} \\cdot e^{V_{B E} / V_{T}} \\end{aligned}[/latex] [latex] I_{E}[/latex] will be maximum when [latex]\\beta[/latex] is 50. [latex] \\begin{aligned} &=(1.02)\\left(10^{-9} \\times 10^{-6}\\right) e^{\\frac{700 \\times 10^{-3}}{25 \\times 10^{-3}}} \\\\ &=1475 \\mu \\mathrm{A} \\end{aligned}[/latex]",
+    "min": 1465.0,
+    "max": 1485.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 76 The current in an enhancement mode NMOS transistor biased in saturation mode was measured to be 1 mA at a drain-source voltage of 5 V. When the drain-source voltage was increased to 6 V while keeping gate-source voltage same, the drain current increased to 1.02 mA. Assume that drain to source saturation voltage is much smaller than the applied drain-source voltage. The channel length modulation parameter  [latex]\\lambda[/latex] (in [latex]V^{-1}[/latex]) is _______.",
+    "solution": "[latex]\\lambda=\\frac{\\Delta I_{D}}{I_{D} \\Delta V_{D S}}=\\frac{0.02 \\mathrm{mA}}{1 \\mathrm{mA} \\times 1 \\mathrm{V}}=0.02[/latex]",
+    "min": 0.018,
+    "max": 0.026
+  },
+  {
+    "type": "mcq",
+    "question": "Question 77 The electric field profile in the depletion region of a p-n junction in equilibrium is shown in the figure. Which one of the following statements is NOT TRUE?",
+    "solution": "Built in potential, [latex] \\begin{aligned} \\Psi_{0} &=\\frac{1}{2} \\times\\left(10^{6} \\mathrm{V} / \\mathrm{m}\\right) \\times\\left(1.1 \\times 10^{-6} \\mathrm{m}\\right) \\\\ &=0.55 \\mathrm{Volts} \\end{aligned}[/latex] But in question (option (c)) is given as 700 mV.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page16_q2.webp",
+    "options": {
+      "A": "The left side of the junction is n-type and the right side is p-type",
+      "B": "Both the n-type and p-type depletion regions are uniformly doped",
+      "C": "The potential difference across the depletion region is 700 mV",
+      "D": "If the p-type region has a doping concentration of [latex]10^{15} cm^{-3}[/latex], then the doping concentration in the n-type region will be [latex]10^{16} cm^{-3}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 78 If the base width in a bipolar junction transistor is doubled, which one of the following statements will be TRUE?",
+    "solution": "[latex] W_{B} [/latex] doubled (increased) [latex] \\rightarrow [/latex] early effect is still present but its effect less severe relative to previous [latex] W_{B} [/latex]. Slope [latex] I_{C} [/latex] versus [latex] V_{C E} [/latex] decreases.",
+    "options": {
+      "A": "Current gain will increase",
+      "B": "Unity gain frequency will increase.",
+      "C": "Emitter-base junction capacitance will increase",
+      "D": "Early Voltage will increase"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 79 Which one of the following processes is preferred to form the gate dielectric ([latex]SiO_{2}[/latex]) of MOSFETs ?",
+    "solution": "Dry oxidation is preferred for gate oxides.",
+    "options": {
+      "A": "Sputtering",
+      "B": "Molecular beam epitaxy",
+      "C": "Wet oxidation",
+      "D": "Dry oxidation"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 80 The energy band diagram and the electron density profile n(x) in a semiconductor are shown in the figures. Assume that [latex]n(x)=10^{15}e^{(\\frac{qax}{kT})}cm^{-3}[/latex], with [latex]\\alpha[/latex] = 0.1 V/cm and x expressed in cm. Given [latex]\\frac{kT}{q}[/latex] = 0.026V, [latex]D_{n}=36 cm^{2}s^{-1}, and \\frac{D}{\\mu}=\\frac{kT}{q}[/latex].  The electron current density (in A/[latex]cm^{2}[/latex] ) at x = 0 is",
+    "solution": "The concentration of doping is not uniform \r\nthroughout the semiconductor, thus to maintain \r\nequilibrium internal electric field is generated due \r\nto which the band of the semiconductor is varying \r\nwith slope-0.1 eV/cm. The generated electric field opposes the diffusion \r\nof carriers due to concentration gradient and thus \r\nthere will be no current flow inside the \r\nsemiconductor.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page16_q5.webp",
+    "options": {
+      "A": "[latex]-4.4 \\times 10^{-2}[/latex]",
+      "B": "[latex]-2.2 \\times 10^{-2}[/latex]",
+      "C": "0",
+      "D": "[latex]2.2 \\times 10^{-2}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 81 In a MOS capacitor with an oxide layer thickness of 10 nm, the maximum depletion layer thickness is 100 nm. The permittivities of the semiconductor and the oxide layer are [latex]\\varepsilon_{s} \\; and  \\;\\varepsilon_{ox}[/latex] respectively.Assuming [latex]\\varepsilon_{s} / \\varepsilon_{ox} = 3[/latex], the ratio of the maximum capacitance to the minimum capacitance of this MOS capacitor is ________.",
+    "solution": "[latex]\\begin{aligned} \\frac{C_{\\max }}{C_{\\min }}=& \\frac{\\frac{\\epsilon_{O x}}{t_{O x}}}{\\frac{E_{O x}}{t_{O x}} \\times \\frac{\\epsilon_{S}}{X_{d m a x}}}=\\left[1+\\frac{X_{d \\max }}{t_{o x}} \\times \\frac{\\epsilon_{0 x}}{\\epsilon_{s}}\\right] \\\\ & \\frac{\\epsilon_{O x}}{t_{O x}}+\\frac{\\epsilon_{S}}{X_{d m a x}} \\\\ &=\\left[1+\\frac{100}{10} \\times \\frac{1}{3}\\right]=4.33 \\end{aligned}[/latex]",
+    "min": 4.3,
+    "max": 4.4
+  },
+  {
+    "type": "numerical",
+    "question": "Question 82 A dc voltage of 10 V is applied across an n-type silicon bar having a rectangular cross-section and a length of 1 cm as shown in figure. The donor doping concentration [latex]N_{D}[/latex] and the mobility of electrons [latex]\\mu_{n}[/latex] are [latex]10^{16} cm^{-3}[/latex] and [latex]1000 cm^{2}V^{-1}s^{-1}[/latex], respectively. The average time (in [latex]\\mu s[/latex]) taken by the electrons\nto move from one end of the bar to other end is ________.",
+    "solution": "Electric field inside semiconductor bar, [latex] E=10 \\mathrm{V} / \\mathrm{cm}[/latex] Velocity of electron, [latex]V=\\mu E=1 \\times 10^{4} \\mathrm{cm} / \\mathrm{sec} [/latex] The average time (in [latex]\\mu \\mathrm{s} [/latex]) taken by the electrons to move from one end of the bar to other end is [latex] \\frac{L}{V}=100 \\mu \\mathrm{sec}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page17_q2.webp",
+    "min": 95.0,
+    "max": 105.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 83 A piece of silicon is doped uniformly with phosphorous with a doping concentration of [latex]10^{16}/cm^{3}[/latex]. The expected value of mobility versus doping concentration for silicon assuming full dopant ionization is shown below. The charge of an electron is [latex]1.6 \\times 10^{-19}[/latex]C. The conductivity( in S [latex]cm^{-1}[/latex]) of the silicon sample at 300 K is _______.",
+    "solution": "As per the graph, mobility of electrons at the concentration [latex]10^{16}/cm^{3} \\text{ is } 1200 cm^{2}/V-s. [/latex] [latex] \\begin{aligned} \\text { So, } \\mu_{n} &=1200 \\mathrm{cm}^{2} / \\mathrm{V}-\\mathrm{s} \\\\ \\sigma_{N} &=N_{D} \\mathrm{q} \\mu_{n} \\\\ &=10^{16} \\times 1.6 \\times 10^{-19} \\times 1200=1.92 \\mathrm{Scm}^{-1} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page17_q3.webp",
+    "min": 1.8,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 84 An n-type silicon sample is uniformly illuminated with light which generates [latex]10^{20}[/latex] electron-hole pairs per [latex]cm^{3}[/latex] per second. The minority carrier lifetime in the sample is 1 [latex]\\mu s[/latex]. In the steady state, the hole concentration in the sample is approximately [latex]10^{x}[/latex] , where x is an integer. The value of x is ___.",
+    "solution": "The concentration of hole-electron par in [latex] 1 \\mu \\mathrm{sec}=10^{20} \\times 10^{-6}=10^{14} / \\mathrm{cm}^{3}[/latex] So, the power of 10 is 14 [latex] x=14[/latex]",
+    "min": 14.0,
+    "max": 14.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 85 For the NMOSFET in the circuit shown, the threshold voltage is [latex]V_{th}[/latex] , where [latex]V_{th}[/latex] > 0. The source voltage [latex]V_{SS}[/latex] is varied from 0 to [latex]V_{DD}[/latex]. Neglecting the channel length modulation, the drain current [latex]I_{D}[/latex] as a function of [latex]V_{SS}[/latex] is represented by",
+    "solution": "[latex]V_{G S}=V_{D S}[/latex] Hence MOS transistor is in saturation. In saturation, [latex] I_{D}=k\\left(V_{G S}-V_{T}\\right)^{2}=k\\left(V_{D D}-V_{S S}-V_{T}\\right)^{2}[/latex] As, [latex]V_{S S}[/latex] increases [latex]I_{D}[/latex] decreases (Not linearly because square factor) Hence option (a) is correct.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page17_q5.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 86 For a silicon diode with long P and N regions, the accepter and donor impurity concentrations are [latex]1 \\times 10^{17} cm^{-3}[/latex] and [latex] 1 \\times 10^{15} cm^{-3}[/latex], respectively. The lifetimes of electrons in P region and holes in N region are both 100 [latex]\\mu s[/latex]. The electron and hole diffusion coefficients are [latex]49 cm^{2}/s \\; and \\; 36 cm^{2}/s[/latex],\nrespectively. Assume kT/q = 26 mV, the intrinsic carrier concentration is [latex]1 \\times 10^{10} cm^{-3}, \\; and \\;  q = 1.6 \\times  10^{-19}[/latex] C. When a forward voltage of 208 mV is applied across the diode, the hole current density (in nA/[latex]cm^{2}[/latex]) injected from P region to N region is _____________.",
+    "solution": "The hole current density injected from P region to N region is given by [latex] \\frac{q n_{i}^{2} D_{p}}{N_{D} L_{p}}\\left[\\exp \\left(\\frac{V_{F B}}{\\eta V_{T}}\\right)-1\\right][/latex] where, q= charge on electron [latex] n_{i}=[/latex] Intrinsic carrier concentration in silicon [latex] N_{D}=[/latex] Donor doping [latex] D_{p}=[/latex] Hole diffusion coefficient [latex] L_{p}=[/latex] Mean diffusion length of hole [latex] V_{F B}=[/latex] Forward voltage applied across diode [latex] \\begin{aligned} V_{T}=& k T / q=26 \\mathrm{mV} \\\\ L_{p} &=\\sqrt{\\tau_{p} D_{p}}=\\sqrt{100 \\times 10^{-6} \\times 36} \\\\ &=0.06 \\mathrm{cm} \\end{aligned}[/latex] Using the above values, we get hole current  density injected from P region to N region",
+    "min": 28.0,
+    "max": 30.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 87 A MOSFET in saturation has a drain current of 1 mA for [latex]V_{DS} = 0.5 [/latex] V. If the channel length modulation coefficient is 0.05 [latex]V^{-1}[/latex], the output resistance (in   [latex]k\\Omega[/latex]) of the MOSFET is _________.",
+    "solution": "Under channel length modulation, [latex] \\begin{aligned} I_{D}&=I_{\\text {Dsat }}\\left(1+\\lambda V_{\\text {DS }}\\right)\\\\ \\frac{d I_{D}}{d V_{D S}} &=\\frac{1}{r_{0}}=\\lambda I_{\\text {Dsat }} \\\\ r_{O} &=\\frac{1}{\\lambda I_{D \\text { sat }}}=\\frac{1}{0.05 \\times 10^{-3}}=20 \\mathrm{k} \\Omega \\end{aligned}[/latex]",
+    "min": 19.0,
+    "max": 21.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 88 The built-in potential of an abrupt p-n junction is 0.75 V. If its junction capacitance [latex](C_{J})[/latex] at a reverse bias [latex](V_{R})[/latex] of 1.25 V is 5 pF, the value of [latex]C_{J}[/latex] (in pF) when [latex]V_{R}[/latex] = 7.25 V is ________.",
+    "solution": "[latex]\\begin{aligned} C_{j} &\\propto \\frac{1}{\\sqrt{V_{b i}+V_{R}}} \\\\ \\frac{C_{2 j}}{C_{1 j}}&=\\sqrt{\\frac{V_{b i}+V_{R_{1}}}{V_{b i}+V_{R_{2}}}} \\\\ C_{2 j}&=C_{1 j} \\sqrt{\\frac{2}{8}}=\\frac{C_{1 j}}{2}=2.5 \\mathrm{pF} \\end{aligned}[/latex] So, answer is 2.5",
+    "min": 2.4,
+    "max": 2.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 89 A silicon sample is uniformly doped with donor type impurities with a concentration of [latex]10^{16} /cm^{3}[/latex]. The electron and hole mobilities in the sample are 1200 [latex]cm^{2}/V-s [/latex] and 400 [latex]cm^{2}[/latex]/V-s respectively. Assume complete ionization of impurities. The charge of an electron is [latex]1.6  \\times 10^{-19}[/latex] C. The resistivity of the sample (in [latex]\\Omega[/latex]-cm) is ____________.",
+    "solution": "[latex]\\begin{aligned} &=\\frac{1}{\\sigma_{N}}=\\frac{1}{N_{D} q \\mu_{n}} \\\\ &=\\frac{1}{10^{16} \\times 1.6 \\times 10^{-19} \\times 1200}=0.52 \\Omega-\\mathrm{cm} \\end{aligned}[/latex]",
+    "min": 0.5,
+    "max": 0.54
+  },
+  {
+    "type": "mcq",
+    "question": "Question 90 A region of negative differential resistance is observed in the current voltage characteristics of a silicon PN junction if",
+    "solution": "",
+    "options": {
+      "A": "both the P-region and the N-region are heavily doped",
+      "B": "the N-region is heavily doped compared to the P-region",
+      "C": "the P-region is heavily doped compared to the N-region",
+      "D": "an intrinsic silicon region is inserted between the P-region and the N-region"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 91 An N -type semiconductor having uniform doping is biased as shown in the figure. If [latex]E_{C}[/latex] is the lowest energy level of the conduction band, [latex]E_{V}[/latex] is the highest energy level of the valance band and [latex]E_{F}[/latex] is the Fermi level, which one of the following represents the energy band diagram for the biased N -type semiconductor ?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page19_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 92 Consider two BJTs biased at the same collector current with area [latex]A_{1}=0.2\\mu m \\times 0.2\\mu m [/latex] and [latex]A_{2}=300 \\mu m \\times 300 \\mu m[/latex]. Assuming that all other device parameters are identical, kT/q = 26 mV, the intrinsic carrier concentration is [latex]1 \\times 10^{10}cm^{-3},[/latex] and [latex] q=1.6 \\times 10^{-19}C[/latex], the difference between the base-emitter\r\nvoltages (in mV) of the two BJTs (i.e.,[latex]V_{BE1}-V_{BE2}[/latex]) is _____.",
+    "solution": "[latex]I_{C}[/latex] is given by [latex] \\begin{aligned} I_{C} &=I_{S} \\exp \\left[\\frac{V_{B E}}{\\eta V_{T}}\\right] \\\\ I_{G} &=I_{S_{1}} \\exp \\left[\\frac{V_{B E_{1}}}{\\eta V_{T}}\\right] &\\ldots(i)\\\\ I_{C_{2}} &=I_{S_{2}} \\exp \\left[\\frac{V_{B E_{2}}}{\\eta V_{T}}\\right]&\\ldots(ii) \\end{aligned}[/latex] According to given condition, [latex] \\begin{aligned} I_{G}&= I_{C_{2}} \\\\ I_{S_{1}} \\exp \\left[\\frac{V_{B E_{1}}}{\\eta V_{T}}\\right]&=I_{S_{2}} \\exp \\left[\\frac{V_{B E_{2}}}{\\eta V_{T}}\\right] \\\\ V_{B E_{1}}-V_{B E_{2}} &=\\eta V_{T} \\ln \\left[\\frac{I_{S_{2}}}{I_{S_{1}}}\\right] \\\\ V_{B E_{1}}-V_{B E_{2}} &=26 \\ln \\left[\\frac{300 \\times 300}{0.2 \\times 0.2}\\right]\\\\ \\because \\quad\\eta&=2 for Si BJT\\\\ V_{B E_{1}}-V_{B E_{2}}&=380 .28 \\mathrm{mV} \\end{aligned}[/latex]",
+    "min": 378.0,
+    "max": 381.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 93 Consider a silicon sample doped with [latex]N_{D}=1\\times10^{15}/cm^{3}[/latex]\r\n donor atoms. Assume that the intrinsic carrier concentration [latex]n_{i}=1.5\\times10^{10}/cm^{3}[/latex]. If the sample is additionally doped with [latex]N_{A}=1\\times10^{18}/cm^{3}[/latex] acceptor atoms, the approximate number of electrons/[latex]cm^{3}[/latex]\r\n in the sample, at T = 300 K, will be _____.",
+    "solution": "For a compensated p-type semiconductor, the minority carrier electron concentration is given by [latex] \\begin{aligned} n_{0} &=\\frac{n_{i}^{2}}{\\left(N_{A}-N_{D}\\right)} \\\\ n_{0} &=\\frac{2.25 \\times 10^{20}}{\\left(10^{18}-10^{15}\\right)}=225.2 \\mathrm{cm}^{-3} \\end{aligned}[/latex]",
+    "min": 224.9,
+    "max": 225.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 94 The cut-off wavelength (in [latex]\\mu[/latex] m) of light that can be used for intrinsic excitation of a semiconductor material of bandgap [latex]E_{g}[/latex] = 1.1 eV is _____.",
+    "solution": "[latex]\\begin{aligned} \\quad \\lambda_{c}&=\\frac{1.24}{E_{g}(\\mathrm{eV})} \\mu \\mathrm{m}=\\frac{1.24}{1.1} \\mu \\mathrm{m} \\\\ \\lambda_{c}&=1.12 \\mu \\mathrm{m} \\end{aligned}[/latex]",
+    "min": 1.12,
+    "max": 1.14
+  },
+  {
+    "type": "mcq",
+    "question": "Question 95 In the figure, [latex] ln(\\rho _{i}[/latex])  is plotted as a function of 1/T , where [latex]\\rho _{i}[/latex] is the intrinsic resistivity of silicon, T is the temperature, and the plot is almost linear. The slope of the line can be used to estimate",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page19_q5.webp",
+    "options": {
+      "A": "band gap energy of silicon [latex](E_{g})[/latex]",
+      "B": "sum of electron and hole mobility in silicon [latex](\\mu _{n}+\\mu _{p})[/latex]",
+      "C": "reciprocal of the sum of electron and hole mobility in silicon [latex](\\mu _{n}+\\mu _{p})^{-1}[/latex]",
+      "D": "intrinsic carrier concentration of silicon [latex](n_{i})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 96 At  T = 300 K, the band gap and the intrinsic carrier concentration of GaAs are\r\n1.42 eV and [latex]10^{6}cm^{-3}[/latex], respectively. In order to generate electron hole pairs in GaAs, which one of the wavelength [latex](\\lambda _{C})[/latex] ranges of incident radiation, is most suitable ? (Given that : Plank's constant is [latex]6.62 \\times 10^{-34}[/latex]J-s, velocity of light is [latex]3 \\times 10^{10} cm/s[/latex] and charge of electron is [latex]1.6*10^{-19}[/latex]C)",
+    "solution": "[latex]\\begin{array}{l} \\lambda_{c} \\leq \\frac{1.24}{E_{g}(e V)} \\mu \\mathrm{m} \\\\ \\lambda_{c} \\leq \\frac{1.24}{1.42} \\\\ \\lambda_{c} \\leq 0.87 \\mathrm{m} \\\\ \\end{array}[/latex]",
+    "options": {
+      "A": "[latex]0.42 \\mu m \\lt \\lambda _{c} \\lt 0.87\\mu m[/latex]",
+      "B": "[latex]0.87 \\mu m \\lt \\lambda _{c} \\lt 1.42\\mu m[/latex]",
+      "C": "[latex]1.42 \\mu m \\lt \\lambda _{c} \\lt 1.62\\mu m[/latex]",
+      "D": "[latex]1.62 \\mu m \\lt \\lambda _{c} \\lt 6.62\\mu m[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 97 An ideal MOS capacitor has boron doping-concentration of [latex]10^{15} cm ^{-3}[/latex] in the substrate.  When a gate voltage is applied, a depletion region of width 0.5 [latex]\\mu[/latex]m is formed with a surface (channel) potential of 0.2 V. Given them is formed with a surface (channel) potential of 0.2 V.  Given the [latex]\\varepsilon _{0}=8.854 \\times 10^{-14}F/cm[/latex] and the relative permittivities of silicon and silicon\r\ndioxide are 12 and 4, respectively, the peak electric field (in V/[latex]\\mu[/latex]m) in the oxide region is _____.",
+    "solution": "Peak electric field in the oxide region is [latex] \\begin{aligned} E_{o x} &=\\frac{E_{s}}{\\epsilon_{o x}} E_{s} \\\\ \\text{and}\\quad E_{s} &=\\frac{0.2 \\times 2}{0.5}\\\\ E_{s}&=0.8 \\mathrm{V} / \\mu \\mathrm{m}\\\\ \\therefore \\quad E_{o x} &=\\frac{12}{4} \\times 0.8 \\\\ E_{o x} &=2.4 \\mathrm{V} / \\mu \\mathrm{m} \\end{aligned}[/latex]",
+    "min": 2.3,
+    "max": 2.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 98 The slope of the [latex]I_{D}[/latex] vs. [latex]V_{GS}[/latex] curve of an n-channel MOSFET in linear regime is [latex]10^{-3}\\Omega ^{-1}[/latex] at [latex]V_{DS}[/latex] = 0.1V. For the same device, neglecting channel length modulation, the slope of the [latex]\\sqrt{I_{D}}[/latex] vs. [latex]V_{GS}[/latex] curve (in [latex]\\sqrt{A}/V[/latex]) under saturation regime is approximately_____.",
+    "solution": "We known that for linear region, [latex] \\begin{aligned} I_{D} &=K_{n}\\left[\\left(V_{G S}-V_{t}\\right) V_{D S}-\\frac{V_{D S}^{2}}{2}\\right] \\\\ \\frac{\\partial I_{D}}{\\partial V_{G S}} &=K_{n} V_{D S}\\\\ \\frac{10^{-3}}{0.1}&=K_{n} \\\\ \\text{i.e.} \\quad K_{n}&=10^{-2} \\\\ \\end{aligned}[/latex] and for saturation region [latex] \\begin{aligned} I_{D} &=\\frac{K_{n}}{2}\\left(V_{G S}-V_{t}\\right)^{2} \\\\ \\sqrt{I_{D}} &=\\sqrt{\\frac{K_{n}}{2}}\\left(V_{G S}-V_{t}\\right) \\\\ \\frac{\\partial \\sqrt{I_{D}}}{\\partial V_{G S}} &=\\sqrt{\\frac{K_{n}}{2}}\\\\ \\text{So }\\quad\\frac{\\partial \\sqrt{I_{D}}}{\\partial V_{G S}}&=\\sqrt{\\frac{10^{-2}}{2}}=0.0707 \\frac{\\sqrt{A}}{V} \\end{aligned}[/latex]",
+    "min": 0.06,
+    "max": 0.08
+  },
+  {
+    "type": "mcq",
+    "question": "Question 99 The donor and accepter impurities in an abrupt junction silicon diode are [latex]1 \\times 10^{16} cm^{-3} [/latex] and [latex] 5 \\times 10^{10}cm^{-3}[/latex], respectively. Assume that the intrinsic carrier concentration in silicon [latex]n_{i}=1.5 \\times 10^{10}cm^{-3}[/latex] at  300K, [latex]\\frac{kT}{q}=26mV[/latex] and the permittivity of silicon [latex]\\varepsilon_{st} =1.04 \\times 12^{-12}F/cm[/latex]. The built-in potential and the\r\ndepletion width of the diode under thermal equilibrium conditions, respectively, are",
+    "solution": "Built-in potential is given by, [latex] \\begin{aligned} V_{b i}&=V_{T} \\ln \\left[\\frac{N_{A} N_{D}}{n_{i}^{2}}\\right] \\\\ V_{b i}&=0.026 \\ln \\left[\\frac{10^{16} \\times 5 \\times 10^{18}}{2.25 \\times 10^{20}}\\right] \\\\ V_{b i}&=0.86 \\mathrm{V} \\end{aligned}[/latex] and depletion width W is given by, [latex] \\begin{aligned} W&=\\sqrt{\\frac{2 \\epsilon}{q}\\left[\\frac{1}{N_{A}}+\\frac{1}{N_{D}}\\right] V_{b i}}\\\\ W&=\\sqrt{\\frac{2 \\times 1.04 \\times 10^{-12}}{1.6 \\times 10^{-19}}\\left[\\frac{1}{5 \\times 10^{18}}+\\frac{1}{10^{16}}\\right] \\times 0.86} \\\\ W&=3.3 \\times 10^{-5} \\mathrm{cm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]0.7 V \\; and \\; 1 \\times 10^{-4}cm[/latex]",
+      "B": "[latex]0.86 V \\; and \\; 1 \\times 10^{-4}cm[/latex]",
+      "C": "[latex]0.7 V \\; and \\; 3.3 \\times 10^{-5}cm[/latex]",
+      "D": "[latex]0.86 V \\; and \\; 3.3 \\times 10^{-5}cm[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 100 At T = 300 K, the hole mobility of a semiconductor [latex]\\mu _{P}=500 cm^{2}/V-s [/latex] and [latex] \\frac{KT}{q}=26mV[/latex]. The hole diffusion constant [latex]D_{P} \\; in \\; cm^{2}/s[/latex]  is _____.",
+    "solution": "[latex]\\begin{array}{l} \\frac{D_{p}}{\\mu_{p}}=v_{T} \\\\ D_{p}=\\mu_{p} V_{T}=500 \\times 26 \\times 10^{-3} \\\\ D_{p}=13 \\mathrm{cm}^{2} / \\mathrm{s} \\end{array}[/latex]",
+    "min": 12.9,
+    "max": 13.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 101 A thin P-type silicon sample is uniformly illuminated with light which\ngenerates excess carriers. The recombination rate is directly proportional to",
+    "solution": "",
+    "options": {
+      "A": "the minority carrier mobility",
+      "B": "the minority carrier recombination lifetime",
+      "C": "the majority carrier concentration",
+      "D": "the excess minority carrier concentration"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 102 In MOSFET fabrication, the channel length is defined during the process of",
+    "solution": "Channel length is defined during the poly-silicon\r\ngate pattering.",
+    "options": {
+      "A": "isolation oxide growth",
+      "B": "channel stop implantation",
+      "C": "poly-silicon gate patterning",
+      "D": "lithography step leading to the contact pads"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 103 When a silicon diode having a doping concentration of [latex]N_{A}=9\\times10^{16}cm^{-3}[/latex] on p\n-side and [latex]N_{D}=1\\times10^{16}cm^{-3}[/latex] on n-side is reverse biased, the total depletion width is found to be 3 [latex]\\mu[/latex] m. Given that the permittivity of silicon is [latex]1.04\\times10^{-12}[/latex] F/cm, the depletion width on the p-side and the maximum electric field in the depletion region, respectively, are",
+    "solution": "We know that [latex] \\begin{aligned} \\frac{N_{A}}{N_{D}}&=\\frac{x_{n}}{x_{p}}\\\\ So, \\frac{N_{A}}{N_{D}}+1&=\\frac{x_{n}}{x_{p}}+1 \\\\ \\frac{N_{A}+N_{D}}{N_{D}}&=\\frac{x_{n}+x_{p}}{x_{p}}\\\\ \\frac{10^{17}}{10^{16}} &=\\frac{3 \\mu m}{x_{p}} \\\\ \\therefore \\quad x_{p} &=0.3 \\mu \\mathrm{m}\\\\ \\text{and}\\\\ E_{\\max }&=\\frac{q N_{A} x_{p}}{\\epsilon_{s}}=\\frac{q N_{D} x_{n}}{\\epsilon_{s}} \\\\ \\therefore E_{\\max } &=\\frac{1.6 \\times 10^{-19} \\times 9 \\times 10^{16} \\times 0.3 \\times 10^{-4}}{1.04 \\times 10^{-12}} \\\\ E_{\\max } &=4.15 \\times 10^{5} \\mathrm{V} / \\mathrm{cm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]2.7 \\mu m \\; and \\; 2.3*10^{5} V/cm[/latex]",
+      "B": "[latex]0.3 \\mu m \\; and \\; 4.15*10^{5} V/cm[/latex]",
+      "C": "[latex]0.3 \\mu m \\; and \\; 0.42*10^{5} V/cm[/latex]",
+      "D": "[latex]2.1 \\mu m \\; and \\; 0.42*10^{5} V/cm[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 104 Consider an abrupt PN junction (at T = 300 K) shown in the figure. The depletion\r\nregion width [latex]X_{n}[/latex] on the N -side of the junction is 0.2 [latex]\\mu[/latex] m and the permittivity of\r\nsilicon ([latex]\\varepsilon_{st}[/latex]) is [latex]1.044\\times 10^{-12}[/latex] F/cm. At the junction, the approximate value of the peak electric field (in kV/cm) is_____.",
+    "solution": "For abrupt [latex]P^{+}[/latex] N junction [latex] E_{\\max }[/latex] is given: [latex] \\begin{aligned} E_{\\max } &=\\frac{-q N_{0} x_{n}}{\\epsilon_{s}}\\qquad\\left[\\begin{array}{c} \\because N_{A}>>N_{D} \\\\ W \\simeq x_{n} \\end{array}\\right] \\\\ \\Rightarrow E_{\\max }&=\\frac{-1.6 \\times 10^{-19} \\times 10^{16} \\times 0.2 \\times 10^{-4}}{1.044 \\times 10^{-12}} \\\\ E_{\\max } &=-30.65 \\times 10^{3} \\mathrm{V} / \\mathrm{cm} \\\\ E_{\\max } &=-30.65 \\mathrm{kV} / \\mathrm{cm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page21_q4.webp",
+    "min": 30.0,
+    "max": 32.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 105 Assume electronic charge [latex]q=1.6 \\times 10^{-19}C[/latex], kT/q=25mV and electron mobility [latex]\\mu _{n}=1000cm^{2} /V-s [/latex] . If the concentration gradient of electrons injected into a P-type silicon sample is [latex]1 \\times 10^{21}/cm^{4}[/latex], the magnitude of electron diffusion current density (in [latex]A/cm^{2}[/latex]) is _____.",
+    "solution": "[latex]\\begin{aligned} J &=q D_{n} \\frac{d n}{d x} \\\\ \\text { where, } D_{n} &=\\mu_{n} V_{T} \\\\ D_{n} &=\\frac{1000 \\mathrm{cm}^{2}}{V s} \\times 25 \\times 10^{-3} \\mathrm{V} \\\\ D_{n} &=25 \\mathrm{cm}^{2} / \\mathrm{s} \\\\ \\text { then, } \\quad J &=1.6 \\times 10^{-19} \\times 25 \\times 1 \\times 10^{21} \\\\ J &=4000 \\mathrm{A} / \\mathrm{cm}^{2} \\end{aligned}[/latex]",
+    "min": 3990.0,
+    "max": 4010.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 106 In CMOS technology, shallow P-well or N -well regions can be formed using",
+    "solution": "Ion implanation/diffusion is used for well\nimplantation.",
+    "options": {
+      "A": "low pressure chemical vapour deposition",
+      "B": "low energy sputtering",
+      "C": "low temperature dry oxidation",
+      "D": "low energy ion-implantation"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 107 A silicon bar is doped with donor impurities [latex]N_{D}=2.25\\times10^{15} atom/cm^{3}[/latex]. Given the intrinsic carrier concentration of silicon at T = 300 K is [latex]n_{i}=1.5\\times10^{10}cm^{-3}[/latex]. Assuming complete impurity ionization, the equilibrium election and hole concentrations are",
+    "solution": "since [latex]N_{D} \\gt \\gt n_{i}[/latex] therefore equilibrium electron  concentration is [latex] n \\simeq N_{D}=2.25 \\times 10^{15} \\mathrm{cm}^{-3}[/latex] And equilibrium hole concentration is given by mass action law [latex] p=\\frac{n_{i}^{2}}{N_{D}}=\\frac{\\left(1.5 \\times 10^{10}\\right)^{2}}{2.25 \\times 10^{15}}=1 \\times 10^{5} \\mathrm{cm}^{-3}[/latex]",
+    "options": {
+      "A": "[latex]n_{0}=1.5 \\times 10^{16}cm^{-3},[/latex] [latex]p_{0}=1.5 \\times 10^{5}cm^{-3}[/latex]",
+      "B": "[latex]n_{0}=1.5 \\times 10^{10}cm^{-3},[/latex] [latex]p_{0}=1.5 \\times 10^{15}cm^{-3}[/latex]",
+      "C": "[latex]n_{0}=2.25 \\times 10^{15}cm^{-3},[/latex] [latex]p_{0}=1.5 \\times 10^{10}cm^{-3}[/latex]",
+      "D": "[latex]n_{0}=2.25 \\times 10^{15}cm^{-3},[/latex] [latex]p_{0}=1 \\times 10^{5}cm^{-3}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 108 A depletion type N-channel MOSFET is biased in its linear region for use as a\nvoltage controlled resistor. Assume threshold voltage [latex]V_{TH}=-0.5 V,V_{GS}=2.0 V [/latex], [latex]V_{DS}=5 V, W/L=100[/latex],[latex] C_{OX}=10^{-8} F/cm^{2}[/latex] and [latex]\\mu _{n}=800 cm^{2}/V-s[/latex]. The value of the resistance of the voltage controlled resistor (in [latex]\\Omega[/latex] ) is ______.",
+    "solution": "Voltage controlled resistance [latex]r_{D S}[/latex] is is given by [latex] \\begin{aligned} r_{D S} &=\\frac{1}{\\left(\\mu_{n} C_{o x}\\right)\\left(\\frac{W}{L}\\right)\\left(V_{G S}-V_{t}\\right)} \\\\ r_{D S} &=\\frac{1}{800 \\times 10^{-8} \\times 100 \\times(2+0.5)} \\\\ r_{D S} &=500 \\Omega \\end{aligned}[/latex]",
+    "min": 499.0,
+    "max": 501.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 109 The doping concentrations on the p-side and n-side of a silicon diode are [latex]1\\times 10^{16}cm^{-3}[/latex] and [latex]1 \\times 10^{17}cm^{-3}[/latex], respectively. A forward bias of 0.3 V is applied to the diode. At T=300K, the\r\nintrinsic carrier concentration of silicon [latex]n_{i}=1.5 \\times 10^{16}cm^{-3}[/latex] and [latex]\\frac{KT}{q}=26mV[/latex]. The electron concentration at the edge of\r\nthe depletion region on the p-side is",
+    "solution": "The electron concentration at the edge of the  depletion region on the p-side is given by [latex] \\begin{aligned} n_{p} &=n_{p_{0}} \\exp \\left[\\frac{q V_{t}}{k T}\\right] \\\\ \\text { where, } n_{p_{0}} &=\\frac{n_{i}^{2}}{N_{A}} \\\\ n_{p_{0}} &=\\frac{\\left(1.5 \\times 10^{10}\\right)^{2}}{10^{16}}=2.25 \\times 10^{4} \\mathrm{cm}^{-3} \\end{aligned}[/latex] We then have [latex] \\begin{array}{l} n_{p}=2.25 \\times 10^{4} \\exp \\left[\\frac{0.3}{0.026}\\right]\\\\ n_{p}=2.25 \\times 10^{4} \\times 1.025 \\times 10^{5} \\\\ n_{0}=2.306 \\times 10^{9} \\mathrm{cm}^{-3} \\end{array}[/latex]",
+    "options": {
+      "A": "[latex]2.3 \\times 10^{9} cm^{-3}[/latex]",
+      "B": "[latex]1 \\times 10^{16} cm^{-3}[/latex]",
+      "C": "[latex]1 \\times 10^{17} cm^{-3}[/latex]",
+      "D": "[latex]2.25 \\times 10^{6} cm^{-3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 110 A BJT is biased in forward active mode. Assume [latex]V_{BE}[/latex] = 0.7 V, kT/q = 25mV and reverse saturation current [latex]I_{S}=10^{-13} A[/latex]. The transconductance of the BJT (in mA/V) is _____.",
+    "solution": "We know that, [latex] \\begin{aligned} g_{m} &=\\frac{I_{c}}{V_{T}} \\\\ \\text{where}\\quad I_{c} &=I_{s} e^{\\frac{V_{B E}}{V_{T}}}\\\\ \\text { So, } I_{c}&=10^{-13} \\times e^{\\frac{0.7}{0.025}} \\\\ I_{c}&=0.144 \\mathrm{mA}\\\\ \\text { Hence, }\\quad g_{m}&=\\frac{0.144}{0.025}=5.76 \\mathrm{mAN} \\end{aligned}[/latex]",
+    "min": 5.7,
+    "max": 5.9
+  },
+  {
+    "type": "mcq",
+    "question": "Question 111 If fixed positive charges are present in the gate oxide of an n-channel\nenhancement type MOSFET, it will lead to",
+    "solution": "Fixed charges reduces threshold voltage.",
+    "options": {
+      "A": "a decrease in the threshold voltage",
+      "B": "channel length modulation",
+      "C": "an increase in substrate leakage current",
+      "D": "an increase in accumulation capacitance"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 112 When the optical power incident on a photodiode is 10[latex]\\mu[/latex]W and the responsivity\r\nis 0.8 A/W, the photocurrent generated (in [latex]\\mu[/latex]  A) is _____.",
+    "solution": "[latex]\\begin{array}{l} \\text { Responsivity }(R)=\\frac{I_{p}}{P_{o}} \\\\ \\text { where } I_{p}=\\text { Photo current } \\\\ \\qquad P_{0}=\\text { Incident power } \\\\ \\therefore \\quad I_{p}=R \\times P_{0}=8 \\mu \\mathrm{A} \\end{array}[/latex]",
+    "options": {
+      "A": "8"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 113 In IC technology, dry oxidation (using dry oxygen) as compared to wet oxidation (using steam or water vapor) produces",
+    "solution": "Dry oxidation has better quality over wet oxidation. Dry oxidation is slower over wet oxidation.",
+    "options": {
+      "A": "superior quality oxide with a higher growth rate",
+      "B": "inferior quality oxide with a higher growth rate",
+      "C": "inferior quality oxide with a lower growth rate",
+      "D": "superior quality oxide with a lower growth rate"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 114 In a forward biased pn junction diode, the sequence of events that best describes the mechanism of current flow is",
+    "solution": "In a forward biased pn-junction diode, the current \r\nflow is due to diffusion of majority carriers and \r\nrecombination of minority carriers.",
+    "options": {
+      "A": "injection, and subsequent diffusion and recombination of minority carriers",
+      "B": "injection, and subsequent drift and generation of minority carriers",
+      "C": "extraction, and subsequent diffusion and generation of minority carriers",
+      "D": "extraction, and subsequent drift and recombination of minority carriers"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 115 In the three dimensional view of a silicon n-channel MOS transistor shown below, [latex]\\delta[/latex]=20nm. The\r\ntransistor is of width 1 [latex]\\mu[/latex]m. The depletion width formed at every p-n junction is 10 nm. The relative\r\npermittivities of Si and [latex]SiO_{2}[/latex], respectively, are 11.7 and 3.9, and [latex]\\varepsilon _{0}=8.9\\times 10^{-12}[/latex] F/m. The source-body junction capacitance is approximately",
+    "solution": "Source body junction capacitor, [latex] \\begin{aligned} C_{j}&=\\frac{\\in A}{d}=\\frac{\\epsilon_{0} \\in_{T} A}{d}\\\\ \\text{here, }\\quad \\epsilon_{r}&=11.7 \\text{ as there is Si only y }\\\\ A&=1 \\mu \\mathrm{m} \\times 0.2 \\mu \\mathrm{m}=0.2 \\times 10^{-12} \\mathrm{m}^{2}\\\\ d&= \\text{depletion width of p-n junction}\\\\ d&=10 \\mathrm{nm}=10^{-8} \\mathrm{m} \\\\ \\text{So,}\\quad C_{j}&=\\frac{8.9 \\times 10^{-12} \\times 11.7 \\times 0.2 \\times 10^{-12}}{10^{-8}}\\\\ C_{j}&=2.082 \\times 10^{-15} \\mathrm{F} \\\\ C_{j} &\\cong 2 \\mathrm{pF} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page23_q5.webp",
+    "options": {
+      "A": "2 fF",
+      "B": "7 fF",
+      "C": "2 PF",
+      "D": "7 PF"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 116 In the three dimensional view of a silicon n-channel MOS transistor shown below, [latex]\\delta[/latex]=20nm. The\r\ntransistor is of width 1 [latex]\\mu[/latex]m. The depletion width formed at every p-n junction is 10 nm. The relative\r\npermittivities of Si and [latex]SiO_{2}[/latex], respectively, are 11.7 and 3.9, and [latex]\\varepsilon _{0}=8.9\\times 10^{-12}[/latex] F/m. The gate-source overlap capacitance is approximately",
+    "solution": "Gate source capacitance [latex]C_{g}[/latex] is [latex] C_{g}=\\frac{\\epsilon_{1} A_{1}}{d_{1}}=\\frac{\\epsilon_{0} \\in_{r 1} A_{1}}{d_{1}}[/latex] [latex] \\epsilon_{r 1}=3.9 [/latex] as between gate and source there is [latex] \\mathrm{SiO}_{2}[/latex] [latex] \\begin{aligned} A_{1} &=1 \\mu m \\times \\delta=1 \\times 10^{-6} \\times 20 \\times 10^{-9} \\\\ &=2 \\times 10^{-14} \\mathrm{m}^{2} \\\\ d_{1} &=1 \\mathrm{nm}=10^{-9} \\mathrm{m}\\\\ So. C_{g}&=\\frac{8.9 \\times 10^{-12} \\times 3.9 \\times 2 \\times 10^{-14}}{10^{-9}} \\\\ C_{g}&=69.42 \\times 10^{-17} \\mathrm{F} \\\\ C_{g}&=0.69 \\times 10^{-15} \\\\ C_{g}&=0.7 \\mathrm{pF} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page24_q1.webp",
+    "options": {
+      "A": "0.7 fF",
+      "B": "0.7 Pf",
+      "C": "0.35 fF",
+      "D": "0.24 pF"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 117 The source of a silicon ([latex]n_{i} = 10^{10} [/latex]per [latex]cm^{3}[/latex]) n-channel MOS transistor has an area of 1 sq [latex]\\mu[/latex]m and a depth of 1 [latex]\\mu[/latex]m. If the dopant density in the source is [latex]10^{19}/cm^{3}[/latex], the number of holes in the source\r\nregion with the above volume is approximately",
+    "solution": "[latex]\\begin{aligned} n_{i} &=10^{10} / \\mathrm{cm}^{3} \\\\ A &=1 \\times 10^{-12} \\mathrm{m}^{2} \\\\ d &=10^{-6} \\mathrm{m} \\\\ V &=A d=10^{-18} \\mathrm{m}^{3} \\\\ &=10^{-12} \\mathrm{cm}^{3} \\\\ N_{D} &=n=10^{19} / \\mathrm{cm}^{3} \\\\ p &=\\frac{n_{i}^{2}}{N_{D}}=\\frac{10^{20}}{10^{19}}=10 / \\mathrm{cm}^{3} \\end{aligned}[/latex] So, holes in volume V is [latex] H=p V=10^{-11} [/latex] since, holes number can not be a decimal number so H=0",
+    "options": {
+      "A": "[latex]10^{7}[/latex]",
+      "B": "100",
+      "C": "10",
+      "D": "0"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 118 The i-v characteristics of the diode in the circuit given below are [latex]i=\\left\\{\\begin{matrix} \\frac{v-0.7}{500}A &v\\geq 0.7V \\\\ 0 A & v \\lt 0.7 V \\end{matrix}\\right.[/latex] The current in the circuit is",
+    "solution": "Applying KVL in given circuit we have [latex] 10-1000 i-v=0 \\qquad\\ldots(1)[/latex] since 10 V is greater than 0.7 V so current will flow through diode and is [latex] i=\\frac{v-0.7}{500}\\qquad\\ldots(2)[/latex] from (1) and (2) we have, [latex] \\begin{aligned} 10-2(v-0.7)-v &=0 \\\\ 10+1.4-3 v &=0 \\\\ 3 v &=11.4 \\\\ v &=\\frac{11.4}{3}=3.8 v\\\\ \\text{so}\\quad i &=\\frac{v-0.7}{500}=\\frac{3.8-0.7}{500} \\\\ &=6.2 \\mathrm{mA} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page24_q3.webp",
+    "options": {
+      "A": "10 mA",
+      "B": "9.3 mA",
+      "C": "6.67 mA",
+      "D": "6.2 mA"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 119 The channel resistance of an N-channel JFET shown in the figure below is 600 [latex]\\Omega[/latex] when the full channel thickness ([latex]t_{ch}[/latex]) of 10 [latex]\\mu m[/latex] is available for conduction. The\r\nbuilt-in voltage of the gate [latex]P^+ N[/latex] junction ([latex]V_{bi}[/latex]) is -1 V. When the gate to source\r\nvoltage ([latex]V_{GS}[/latex]) is 0 V, the channel is depleted by 1 [latex]\\mu m[/latex] on each side due to the builtin voltage and hence the thickness available for conduction is only 8 [latex]\\mu m[/latex]. The channel resistance when [latex]V_{GS}[/latex] =0 V is",
+    "solution": "Depletion layer width [latex] \\begin{aligned} w &\\propto \\sqrt{V_{G S}+V_{b i}}\\\\ \\text { Given, } & V_{b i}=-1 \\\\ \\text { and for, } & V_{G S}=0 \\mathrm{V}, w_{1}=1 \\mu \\mathrm{m}\\\\ \\text{Now for, }\\quad V_{G S}&=-3 \\mathrm{V}, w_{2} \\text{ can be calculated}\\\\ \\text{as }\\quad \\frac{w_{1}}{w_{2}}&=\\sqrt{\\frac{0-1}{-3-1}}=\\frac{1}{2} \\\\ \\Rightarrow \\quad w_{2}&=2 \\mu m \\\\ \\end{aligned} [/latex] Channel width [latex]\\uparrow \\Rightarrow[/latex] channel resistance [latex]\\uparrow [/latex] For [latex]10 \\mu \\mathrm{m}[/latex] channel resistance [latex]=600 \\Omega [/latex] For [latex]8 \\mu \\mathrm{m}[/latex] channel resistance [latex] =\\frac{600 \\times 100}{8}=750 \\Omega[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page24_q4.webp",
+    "options": {
+      "A": "480 [latex]\\Omega[/latex]",
+      "B": "600 [latex]\\Omega[/latex]",
+      "C": "750 [latex]\\Omega[/latex]",
+      "D": "1000 [latex]\\Omega[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 120 The channel resistance of an N-channel JFET shown in the figure below is 600 [latex]\\Omega[/latex] when the full channel thickness ([latex]t_{ch}[/latex]) of 10 [latex]\\mu m[/latex] is available for conduction. The\r\nbuilt-in voltage of the gate [latex]P^+ N[/latex] junction ([latex]V_{bi}[/latex]) is -1 V. When the gate to source\r\nvoltage ([latex]V_{GS}[/latex]) is 0 V, the channel is depleted by 1 [latex]\\mu m[/latex] on each side due to the builtin voltage and hence the thickness available for conduction is only 8 [latex]\\mu m[/latex]. The channel resistance when [latex]V_{GS}[/latex]=-3 V is",
+    "solution": "[latex]\\begin{aligned} \\text { For }\\left(10-2 w_{2}=\\right.&6 \\mu \\mathrm{m}) \\text { channel resistance } \\\\ &=\\frac{600 \\times 10}{6}=1000 \\Omega \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page24_q5.webp",
+    "options": {
+      "A": "360 [latex]\\Omega[/latex]",
+      "B": "917 [latex]\\Omega[/latex]",
+      "C": "1000 [latex]\\Omega[/latex]",
+      "D": "3000 [latex]\\Omega[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 121 For a BJT the common base current gain [latex]\\alpha[/latex] = 0.98 and the collector base\r\njunction reverse bias saturation current [latex]I_{CO} = 0.6 \\mu A[/latex]. This BJT is connected in the common emitter mode and operated in the active region with a base drive\r\ncurrent [latex]I_{B}= 20 \\mu A[/latex]. The collector current [latex]I_{C}[/latex] for this mode of operation is",
+    "solution": "[latex]\\begin{aligned} I_{C} &=\\beta I_{B}+(1+\\beta) I_{C O} \\\\ \\beta &=\\frac{\\alpha}{1-\\alpha}=\\frac{0.98}{1-0.98}=49 \\\\ I_{C}&=49 \\times 20+50 \\times 0.6 \\\\ \\therefore \\quad &=980+30=1010 \\mu \\mathrm{A} \\\\ \\text{or}\\quad I_{C}&=1.01 \\mathrm{mA} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.98 mA",
+      "B": "0.99 mA",
+      "C": "1.0 mA",
+      "D": "1.01 mA"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 122 A silicon PN junction is forward biased with a constant current at room\ntemperature. When the temperature is increased by [latex]10^{\\circ}[/latex]\nC, the forward bias\nvoltage across the PN junction",
+    "solution": "[latex]\\frac{d V}{d T}=-2.5 \\mathrm{mV} /{ }^{\\circ} \\mathrm{C}[/latex] For [latex]10^{\\circ} \\mathrm{C}[/latex] voltage across pn-junction will decrease by 25 mV.",
+    "options": {
+      "A": "increases by 60 mV",
+      "B": "decreases by 60 mV",
+      "C": "increases by 25 mV",
+      "D": "decreases by 25 mV"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 123 A Zener diode, when used in voltage stabilization circuits, is biased in",
+    "solution": "In breakdown region only, zener diode is useful. In reverse bias region below the breakdown \r\nvoltage it will behave like an open circuit.",
+    "options": {
+      "A": "reverse bias region below the breakdown voltage",
+      "B": "reverse breakdown region",
+      "C": "forward bias region",
+      "D": "forward bias constant current mode"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 124 Drift current in the semiconductors depends upon",
+    "solution": "[latex]\\begin{aligned} j &= n\\;e\\;v_{d}\\\\ \\text{Put,}\\quad v_{d} &= \\mu E\\\\ \\therefore J&=n e \\mu E\\\\ \\text{Hence}\\quad l&=n e \\mu EA\\\\ \\end{aligned}[/latex] So, 1 depends upon carrier concentration and electric field.",
+    "options": {
+      "A": "only the electric field",
+      "B": "only the carrier concentration gradient",
+      "C": "both the electric field and the carrier concentration",
+      "D": "both the electric field and the carrier concentration gradient"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 125 The silicon sample with unit cross-sectional area shown below is in thermal equilibrium. The following information is given: T = 300 K electronic charge=[latex]1.6 \\times 10^{-19}[/latex] C, thermal voltage = 26 mV and electron mobility = [latex]1350 cm^{2}[/latex]/V-s The magnitude of the electron of the electron drift current density at [latex]x=0.5 \\mu m[/latex] is",
+    "solution": "[latex]\\begin{array}{l} J=\\sigma E \\quad\\sigma=nq\\mu_{n}=N_{D}q\\mu_{n}\\\\ J=N_{D} q \\mu_{n} E \\\\ J=10^{16} \\times\\left(1.6 \\times 10^{-19}\\right)(1350)\\left(10 \\times 10^{3}\\right) \\\\ J=2.16 \\times 10^{4} \\mathrm{A} / \\mathrm{cm}^{2} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page25_q5.webp",
+    "options": {
+      "A": "[latex]2.16 \\times 10^{4}A/cm^{2}[/latex]",
+      "B": "[latex]1.08 \\times 10^{4}A/cm^{2}[/latex]",
+      "C": "[latex]4.32 \\times 10^{3}A/cm^{2}[/latex]",
+      "D": "[latex]6.48 \\times 10^{2}A/cm^{2}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 126 The silicon sample with unit cross-sectional area shown below is in thermal equilibrium. The following information is given: T = 300 K electronic charge=[latex]1.6 \\times 10^{-19}[/latex] C, thermal voltage = 26 mV and electron mobility = [latex]1350 cm^{2}[/latex]/V-s The magnitude of the electric field at [latex] x = 0.5 \\mu m[/latex] is",
+    "solution": "The sample is in thermal equilibrium, So, [latex]\\left[E=\\frac{V}{d}\\right]=\\frac{1}{1 \\times 10^{-6}}=10^{6} \\mathrm{V} / \\mathrm{m}=10 \\mathrm{kV} / \\mathrm{cm}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page26_q1.webp",
+    "options": {
+      "A": "1 kV/cm",
+      "B": "5 kV/cm",
+      "C": "10 kV/cm",
+      "D": "26 kV/cm"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 127 Compared to a p-n junction with [latex]N_{A}=N_{D}=10^{14}/cm^{3}[/latex], which one of the following statements is TRUE for a p-n junction with [latex]N_{A}=N_{D}=10^{20}/cm^{3}[/latex]?",
+    "solution": "With increase in doping, the reverse breakdown\r\nvoltage decreases and depletion width d also\r\ndecreases . Since depletion capacitance [latex]\r\nC = \\in A/d[/latex], so, depletion capacitance increase \r\nwith increase in doping.",
+    "options": {
+      "A": "Reverse breakdown voltage is lower and depletion capacitance is lower",
+      "B": "Reverse breakdown voltage is higher and depletion capacitance is lower",
+      "C": "Reverse breakdown voltage is lower and depletion capacitance is higher",
+      "D": "Reverse breakdown voltage is higher and depletion capacitance is higher"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 128 In a uniformly doped BJT, assume that[latex]N_{E},N_{B}[/latex] and [latex]N_{C}[/latex] are the emitter,\r\nbase and collector doping in atoms/[latex]cm^{3}[/latex], respectively. If the emitter injection efficiency of the BJT is close unity, which one of the following condition is TRUE",
+    "solution": "[latex]\\gamma=\\frac{1}{1+\\frac{N_{B}}{N_{E}}}[/latex] To achieve [latex]\\gamma=1 [/latex] [latex] N_{E} \\gt \\gt N_{B}[/latex]",
+    "options": {
+      "A": "[latex]N_{E}=N_{B}=N_{C}[/latex]",
+      "B": "[latex]N_{E} \\gt  \\gt N_{B} \\; and \\; N_{B} \\gt N_{C}[/latex]",
+      "C": "[latex]N_{E}=N_{B} \\; and \\;  N_{B} \\lt N_{C}[/latex]",
+      "D": "[latex]N_{E} \\lt N_{B} \\lt N_{C}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 129 Thin gate oxide in a CMOS process in preferably grown using",
+    "solution": "Dry oxidation is prefferred for gate oxides.",
+    "options": {
+      "A": "wet oxidation",
+      "B": "dry oxidation",
+      "C": "epitaxial oxidation",
+      "D": "ion implantation"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 130 At room temperature, a possible value for the mobility of electrons in the\ninversion layer of a silicon n-channel MOSFET is",
+    "solution": "",
+    "options": {
+      "A": "[latex]150 cm^{2}/V-s[/latex]",
+      "B": "[latex]1350 cm^{2}/V-s[/latex]",
+      "C": "[latex]1800 cm^{2}/V-s[/latex]",
+      "D": "[latex]3600 cm^{2}/V-s[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 131 Consider a silicon p-n junction at room temperature having the following parameters: Doping on the n-side = [latex]1 \\times 10^{17}cm^{-3}[/latex] Depletion width on the n-side = 0.1[latex]\\mu[/latex]m Depletion width on the p -side = 1.0[latex]\\mu[/latex]m Intrinsic carrier concentration = [latex]1.4 \\times 10^{10}cm^{-3}[/latex] Thermal voltage = 26 mV Permittivity of free space = [latex]8.85 \\times 10^{-14}F \\cdot cm^{-1}[/latex] Dielectric constant of silicon = 12 The peak electric field in the device is",
+    "solution": "Electric field, [latex] E=\\frac{q N_{o}}{\\epsilon}(x-w)[/latex] At the centre x=0 [latex] \\begin{aligned} \\text{So,}\\quad E_{\\max } &=\\frac{q N_{0}}{\\epsilon}\\left(-w_{n}\\right) \\\\ &=\\frac{-1.6 \\times 10^{-19} \\times 10^{17} \\times 10^{-5}}{12 \\times 8.85 \\times 10^{-14}} \\\\ &=-0.15 \\mathrm{MV} / \\mathrm{cm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.15 MV  [latex]\\cdot cm^{-1}[/latex], directed from p-region to n-region",
+      "B": "0.15 MV [latex]\\cdot cm^{-1}[/latex], directed from n-region to p-region",
+      "C": "1.80 MV [latex]\\cdot cm^{-1}[/latex], directed from p-region to n-region",
+      "D": "1.80 MV [latex]\\cdot cm^{-1}[/latex], directed from n-region to p-region"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 132 Consider a silicon p-n junction at room temperature having the following parameters: Doping on the n-side = [latex]1 \\times 10^{17}cm^{-3}[/latex] Depletion width on the n-side = 0.1[latex]\\mu[/latex]m Depletion width on the p -side = 1.0[latex]\\mu[/latex]m Intrinsic carrier concentration = [latex]1.4 \\times 10^{10}cm^{-3}[/latex] Thermal voltage = 26 mV Permittivity of free space = [latex]8.85 \\times 10^{-14}F \\cdot cm^{-1}[/latex] Dielectric constant of silicon = 12 The built-in potential of the junction",
+    "solution": "N side is heavily doped [latex] \\begin{aligned} W_{N} &=\\left(\\frac{2 \\in V_{j}}{e N_{D}}\\right)^{1 / 2} \\\\ V_{j} &=\\frac{e N_{D} \\cdot W_{N}^{2}}{2 \\epsilon_{0} \\epsilon_{r}} \\cong 0.76 \\text { Volts } \\end{aligned}[/latex]",
+    "options": {
+      "A": "is 0.70 V",
+      "B": "is 0.76 V",
+      "C": "is 0.82 V",
+      "D": "Cannot be estimated from the data given"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 133 Consider the following two statements about the internal conditions in a n-channel MOSFET operating in the active region. S1 : The inversion charge decreases from source to drain. S2 : The channel potential increases from source to drain. Which of the following is correct?",
+    "solution": "",
+    "options": {
+      "A": "Only S2 is true",
+      "B": "Both S1 and S2 are false",
+      "C": "Both S1 and S2 are true, but S2 is not a reason for S1",
+      "D": "Both S1 and S2 are true, and S2 is a reason for S1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 134 The ratio of the mobility to the diffusion coefficient in a semiconductor has the units",
+    "solution": "[latex]\\begin{array}{c} \\frac{D}{\\mu}=V_{T} \\\\ \\Rightarrow \\quad \\frac{\\mu}{D}=\\frac{1}{V_{T}} \\Rightarrow \\text { units }: V^{-1} \\end{array}[/latex]",
+    "options": {
+      "A": "[latex]V^{-1}[/latex]",
+      "B": "[latex]cm.V^{1}[/latex]",
+      "C": "[latex]V.cm^{-1}[/latex]",
+      "D": "V.s"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 135 In an n-type silicon crystal at room temperature, which of the following can have a concentration of [latex]4 \\times 10^{19}cm^{-3}[/latex]?",
+    "solution": "",
+    "options": {
+      "A": "Silicon atoms",
+      "B": "Holes",
+      "C": "Dopant atoms",
+      "D": "Valence electrons"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 136 Consider the following assertions. S1 : For Zener effect to occur, a very abrupt junction is required. S2 : For quantum tunneling to occur, a very narrow energy barrier is required. Which of the following is correct ?",
+    "solution": "",
+    "options": {
+      "A": "Only S2 is true",
+      "B": "S1 and S2 are both true but S2 is not a reason for S1",
+      "C": "S1 and S2 and are both true but S2 is not a reason for S1",
+      "D": "Both S1 and S2 are false"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 137 The cross section of a JFET is shown in the following figure. Let [latex]V_{G}[/latex] be -2V and let [latex]V_{P}[/latex] be the initial pinch -off voltage. If the width W is doubled (with\r\nother geometrical parameters and doping levels remaining the same), then the\r\nratio between the mutual trans conductances of the initial and the modified\r\nJFET is",
+    "solution": "[latex]\\begin{aligned} g_{m} &=g_{m 0}\\left[1-\\left(\\frac{-V_{G}}{V_{P}}\\right)^{\\frac{1}{2}}\\right] \\\\ \\text { where, } g_{m o} &=\\frac{2 a z}{\\rho L} \\end{aligned}[/latex] a [latex]\\rightarrow [/latex] Half channel height L [latex]\\rightarrow [/latex] Length of channel z [latex]\\rightarrow [/latex] Depth of channel [latex]\\rho \\rightarrow [/latex] Resistivity of channel since all the parameters are same except width 'W'. So. [latex] \\begin{aligned} W &\\propto a\\\\ \\therefore \\quad g_{m 0}&=\\frac{2 W z}{\\rho L} \\\\ g_{m}&=g_{m o}\\left[1-\\left(-\\frac{V_{G}}{V_{p}}\\right)^{1 / 2}\\right] \\\\ g_{\\text {initial }}&=W\\left[1-\\left(-\\frac{V_{G_{1}}}{V_{P_{1}}}\\right)^{1 / 2}\\right] &\\ldots(i) \\end{aligned}[/latex] Now, the width is doubled. So, [latex] \\begin{aligned} g_{\\text {mmodifed}}&=2 W\\left[1-\\left(-\\frac{V_{G_{1}}}{4 V_{P_{1}}}\\right)^{1 / 2}\\right] &\\ldots(ii)\\\\ &\\qquad \\left[\\because V_{p}=\\frac{q N_{0} a^{2}}{2 \\epsilon}\\right] \\\\ \\frac{g_{\\text {mmodifes }}}{g_{\\text {minitial }}}&=\\frac{1}{2}\\left[\\frac{1-\\sqrt{\\frac{2}{V_{p}}}}{1-\\sqrt{\\frac{1}{2 V_{p}}}}\\right] \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page28_q2.webp",
+    "options": {
+      "A": "4",
+      "B": "[latex]\\frac{1}{2}(\\frac{1-\\sqrt{2/V_{p}}}{1-\\sqrt{1/(2V_{p})}})[/latex]",
+      "C": "[latex]\\frac{1-\\sqrt{2/V_{p}}}{1-\\sqrt{1/(2V_{p})}}[/latex]",
+      "D": "[latex]\\frac{1-(2/\\sqrt{V_{p}})}{1-(1/(2\\sqrt{V_{p}})}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 138 Silicon is doped with boron to a concentration of [latex]4 \\times 10^{17}[/latex] atoms/ [latex]cm^{3}[/latex]. Assume the intrinsic carrier concentration of silicon to be  [latex]1.5 \\times 10^{10}/cm^{3}[/latex] and the value of kT/q to be 25 mV at 300 K. Compared to undopped silicon, the fermi level of doped silicon",
+    "solution": "Since, boron is p-type impurity, therefore, fermi level goes down [latex] \\begin{aligned} E_{i}-E_{f} &=k T \\ln \\frac{N_{A}}{n_{i}} \\\\ &=25 \\times 10^{-3} \\ln \\frac{4 \\times 10^{17}}{1.5 \\times 10^{10}}=0.427 \\mathrm{eV} \\end{aligned}[/latex]",
+    "options": {
+      "A": "goes down by 0.31 eV",
+      "B": "goes up by 0.13 eV",
+      "C": "goes down by 0.427 eV",
+      "D": "goes up by 0.427 eV"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 139 The measured trans conductance [latex]g_{m}[/latex] of an NMOS transistor operating in the linear region is plotted against the gate voltage [latex]V_{G}[/latex] at a constant drain voltage [latex]V_{D}[/latex]. Which of the following figures represents the expected dependence of [latex]g_{m}[/latex] on [latex]V_{G}[/latex] ?",
+    "solution": "[latex]I_{D}[/latex] is given by, [latex] I_{D}=K_{n}\\left[\\left(V_{g s}-V_{t}\\right) V_{D S}-\\frac{V_{D S}^{2}}{2}\\right]- [/latex]inlinear region [latex] \\begin{aligned} \\text{and }g_{m}&=\\frac{\\partial I_{D}}{\\partial V_{g S}} \\text{ at constant }V_{D S} \\\\ g_{m}&=\\frac{\\partial I_{D}}{\\partial V_{g s}}=K_{n}\\left(V_{G S}-V_{t}\\right) V_{D S} \\\\ \\therefore g_{m} &\\propto V_{G S} \\end{aligned}[/latex] So, linear relation.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page28_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 140 The drain current of MOSFET in saturation is given by [latex]I_{D}=K(V_{GS}-V_{T})^{2}[/latex] where K is a constant. The magnitude of the transconductance [latex]g_{m}[/latex] is",
+    "solution": "[latex]\\begin{aligned} g_{m} &=\\left.\\frac{\\partial i_{d}}{\\partial V_{G S}}\\right|_{V_{D S}} \\\\ &=\\frac{\\partial K\\left(V_{G S}-V_{T}\\right)^{2}}{\\partial V_{G S}} \\\\ &=2 K\\left(V_{G S}-V_{T}\\right) \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{K(V_{GS}-V_{T})^{2}}{V_{DS}}[/latex]",
+      "B": "[latex]2K(V_{GS}-V_{T})[/latex]",
+      "C": "[latex]\\frac{I_{d}}{V_{GS}-V_{DS}}[/latex]",
+      "D": "[latex]\\frac{K(V_{GS}-V_{T})^{2}}{V_{GS}}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 141 A silicon wafer has 100 nm of oxide on it and is furnace at a temperature above [latex]1000^{\\circ}[/latex] C for further oxidation in dry oxygen. The oxidation rate",
+    "solution": "Growth rate [latex]\n\\frac{d t o x}{d t}=\\frac{B}{A+2 t o x}[/latex] where A and B are oxidation constants. as tox increases [latex]\\frac{d t o x}{d t}[/latex] decreases.",
+    "options": {
+      "A": "is independent of current oxide thickness and temperature",
+      "B": "is independent of current oxide thickness but depends on temperature",
+      "C": "slows down as the oxide grows",
+      "D": "is zero as the existing oxide prevents further oxidation"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 142 Which of the following is true?",
+    "solution": "",
+    "options": {
+      "A": "A silicon wafer heavily doped with boron is a [latex]p^{+}[/latex] substrate",
+      "B": "A silicon wafer lightly doped with boron is a [latex]p^{+}[/latex] substrate",
+      "C": "A silicon wafer heavily doped with arsenic is a [latex]p^{+}[/latex] substrate",
+      "D": "A silicon wafer lightly doped with arsenic is a [latex]p^{+}[/latex] substrate"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 143 Which of the following is NOT associated with a p-n junction ?",
+    "solution": "",
+    "options": {
+      "A": "Junction Capacitance",
+      "B": "Charge Storage Capacitance",
+      "C": "Depletion Capacitance",
+      "D": "Channel Length Modulations"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 144 The figure shows the high-frequency capacitance-voltage (C-V) characteristics of a Metal/[latex]SiO_2[/latex]/silicon (MOS) capacitor having an area of [latex]1\\times 10^{-4}cm^{2}[/latex]\r\n Assume that the permittivities ([latex]\\varepsilon_{0}\\varepsilon _{r}[/latex]) of silicon and SiO2 are  [latex]1\\times 10^{-12}[/latex] F/cm and [latex]3.5\\times 10^{-13}[/latex]\r\nF/cm respectively. Consider the following statements about the C-V characteristics plot : S1 : The MOS capacitor has as n-type substrate S2 : If positive charges are introduced in the oxide, the C-V polt will shift to the left. Then which of the following is true?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page29_q4.webp",
+    "options": {
+      "A": "Both S1 and S2 are true",
+      "B": "S1 is true and S2 is false",
+      "C": "S1 is false and S2 is true",
+      "D": "Both S1 and S2 are false"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 145 The figure shows the high-frequency capacitance-voltage (C-V) characteristics of a Metal/[latex]SiO_2[/latex]/silicon (MOS) capacitor having an area of [latex]1\\times 10^{-4}cm^{2}[/latex]\r\n Assume that the permittivities ([latex]\\varepsilon_{0}\\varepsilon _{r}[/latex]) of silicon and SiO2 are  [latex]1\\times 10^{-12}[/latex] F/cm and [latex]3.5\\times 10^{-13}[/latex]\r\nF/cm respectively. The maximum depletion layer width in silicon is",
+    "solution": "[latex]\\begin{aligned} \\epsilon_{s i} &=10^{-12} \\mathrm{F} / \\mathrm{cm} \\\\ &=10^{-10} \\mathrm{F} / \\mathrm{m} \\\\ C_{\\min } &=\\frac{C_{\\max } \\cdot C_{d}}{C_{\\max }+C_{d}} \\\\ \\Rightarrow \\quad C_{d} &=\\frac{C_{\\max } \\cdot C_{\\min }}{C_{\\max }-C_{\\min }} \\\\ C_{d} &=\\frac{7 \\times 1}{7-1}=1.166 \\mathrm{pF} \\\\ C_{d} &=\\frac{\\epsilon_{s i} \\cdot A}{w} \\\\ \\Rightarrow \\quad w&=\\frac{10^{-10} \\times 10^{-4} \\times 10^{-4}}{1.166 \\times 10^{-12}}=0.857 \\mu \\mathrm{m} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page29_q5.webp",
+    "options": {
+      "A": "0.143 [latex]\\mu[/latex]m",
+      "B": "0.857 [latex]\\mu[/latex]m",
+      "C": "1 [latex]\\mu[/latex]m",
+      "D": "1.143 [latex]\\mu[/latex]m"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 146 The figure shows the high-frequency capacitance-voltage (C-V) characteristics of a Metal/[latex]SiO_2[/latex]/silicon (MOS) capacitor having an area of [latex]1\\times 10^{-4}cm^{2}[/latex]\r\n Assume that the permittivities ([latex]\\varepsilon_{0}\\varepsilon _{r}[/latex]) of silicon and [latex]SiO_2[/latex] are  [latex]1\\times 10^{-12}[/latex] F/cm and [latex]3.5\\times 10^{-13}[/latex]\r\nF/cm respectively. The gate oxide thickness in the MOS capacitor is",
+    "solution": "[latex]\\begin{aligned} C&=\\frac{\\varepsilon A}{d} \\\\ d&=\\frac{\\varepsilon A}{C}=\\frac{3.5 \\times 10^{-13} \\times 1 \\times 10^{-4} \\times 10^{-4}}{7 \\times 10^{-12} \\times 10^{-2}}\\\\ &= 5 x 10^{-8} m = 50 nm \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page30_q1.webp",
+    "options": {
+      "A": "50 nm",
+      "B": "350 nm",
+      "C": "143 nm",
+      "D": "1 [latex]\\mu[/latex]m"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 147 Group I lists four different semiconductor devices. match each device in Group I\nwith its charactecteristic property in Group II",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page30_q2.webp",
+    "options": {
+      "A": "P - 3, Q - 1, R - 4, S - 2",
+      "B": "P - 1, Q - 4, R - 3, S - 2",
+      "C": "P - 3, Q - 4, R - 1, S - 2",
+      "D": "P - 3, Q - 2, R - 1, S - 4"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 148 Group I lists four types of p-n junction diodes. Match each device in Group I\nwith one of the option in Group II to indicate the bias condition of the device\nin its normal mode of operation.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page30_q3.webp",
+    "options": {
+      "A": "P - 1, Q - 2, R - 1, S - 2",
+      "B": "P - 2, Q - 1, R - 1, S - 2",
+      "C": "P - 2, Q - 2, R - 1, S- -2",
+      "D": "P - 2, Q - 1, R - 2, S - 2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 149 A [latex]p^{+}n[/latex] junction has a built-in potential of 0.8 V. The depletion layer width a reverse bias of 1.2 V is 2[latex]\\mu m[/latex] . For a reverse bias of 7.2 V, the depletion layer width will be",
+    "solution": "Junction potential = Built-in potential + reverse bias voltage [latex] V_{j}=V_{0}+V_{R}[/latex] Now for abrupt pn-junction depletion width [latex] \\begin{aligned} W &\\propto V_{j}^{1 / 2} \\\\ W&=K V_{j}^{1 / 2} \\\\ 2 \\mu m&=K(0.8+1.2)^{1 / 2} &\\ldots(i)\\\\ x&=K(0.8+7.2)^{1 / 2} &\\ldots(ii)\\\\ \\text{From (i) \\& (ii)} x&=4 \\mu \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]4 \\mu m[/latex]",
+      "B": "[latex]4.9 \\mu m[/latex]",
+      "C": "[latex]8 \\mu m[/latex]",
+      "D": "[latex]12 \\mu m[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 150 In a [latex]p^{+}[/latex]n junction diode under reverse biased the magnitude of electric field is\nmaximum at",
+    "solution": "Electrical field is always maximum at the junction.",
+    "options": {
+      "A": "the edge of the depletion region on the p-side",
+      "B": "the edge of the depletion region on the n-side",
+      "C": "the [latex]p^{+}[/latex]n junction",
+      "D": "the centre of the depletion region on the n-side"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 151 The electron and hole concentrations in an intrinsic semiconductor are [latex]n_{i}[/latex] per [latex]cm^{3}[/latex] at 300 K. Now, if acceptor impurities are introduced with a concentration\nof [latex]N_{A}[/latex] per [latex]cm^{3}[/latex] (where [latex]N_{A}\\gt \\gt n_{i}[/latex]  ), the electron concentration per [latex]cm^{3}[/latex] at 300 K\nwill be",
+    "solution": "By the law of electrical neutrality [latex] \\begin{aligned} p+N_{0} &=n+N_{A} \\\\ \\text{as}\\quad\\quad N_{0} &=0\\\\ N_{A}&>>n_{i} \\cong 0 \\quad p=N_{A}\\\\ \\end{aligned}[/latex] using mass action law [latex]\\mathrm{np}=n_{i}^{2}[/latex] So. [latex]\\quad n=\\frac{n_{i}^{2}}{p}=\\frac{n_i^{2}}{N_{A}}[/latex]",
+    "options": {
+      "A": "[latex]n_{i}[/latex]",
+      "B": "[latex]n_{i}+N_{A}[/latex]",
+      "C": "[latex]N_{A}-n_{i}[/latex]",
+      "D": "[latex]\\frac{{n_{i}}^2}{N_{A}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 152 A heavily doped n-type semiconductor has the following data: Hole-electron ratio :0.4 Doping concentration : [latex] 4.2 \\times 10^{8}[/latex] atoms/[latex]m^{3}[/latex] Intrinsic concentration :[latex] 1.5 \\times 10^{4}[/latex] atoms/[latex]m^{3}[/latex] The ratio of conductance of the n-type semiconductor to that of the intrinsic\r\nsemiconductor of same material and ate same temperature is given by",
+    "solution": "For n-type semiconductor [latex]\\sigma_{n}=n q \\mu_{n} [/latex] For intrinsic semiconductor, [latex] \\begin{aligned} \\sigma_{i} &=n_{i} q\\left(\\mu_{n}+\\mu_{p}\\right) \\\\ \\frac{\\sigma_{n}}{\\sigma_{i}} &=\\frac{n \\mu_{n}}{n_{i}\\left(\\mu_{n}+\\mu_{p}\\right)} \\\\ &=\\frac{4.2 \\times 10^{8} \\times \\mu_{n}}{1.5 \\times 10^{4} \\times \\mu_{n}\\left(1+\\frac{\\mu_{p}}{\\mu_{n}}\\right)} \\\\ &=\\frac{4.2 \\times 10^{8}}{1.5 \\times 10^{4} \\times 1.4}=2 \\times 10^{4} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.00005",
+      "B": "2000",
+      "C": "10000",
+      "D": "20000"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 153 Find the correct match between Group 1 and Group 2",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page31_q3.webp",
+    "options": {
+      "A": "E - 4, F - 2, G - 1, H - 3",
+      "B": "E - 2, F - 4, G - 1, H - 3",
+      "C": "E - 3, F - 4, G - 1, H - 2",
+      "D": "E - 1, F - 3, G - 2, H - 4"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 154 The majority carriers in an n-type semiconductor have an average drift velocity\nv in a direction perpendicular to a uniform magnetic field B. The electric field\nE induced due to Hall effect acts in the direction",
+    "solution": "Hall effect Electric force + magnetic force =0 [latex] \\begin{aligned} q E+q v \\times B &=0 \\\\ E &=-v \\times B \\\\ E &=B \\times v \\end{aligned}[/latex]",
+    "options": {
+      "A": "v x B",
+      "B": "B x v",
+      "C": "along v",
+      "D": "opposite to v"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 155 In the circuit shown below, the switch was connected to position 1 at [latex]t \\lt 0[/latex] and\r\nat t = 0, it is changed to position 2. Assume that the diode has zero voltage\r\ndrop and a storage time [latex] t_{s} [/latex] . For [latex]0 \\lt t \\leq t_{s}, v_{R}[/latex] is given by (all in Volts)",
+    "solution": "When diode is instantaneously switched from a \r\nconduction state it needs time to return to nonconduction \r\nstate, so behaves short circuited for a \r\nsmall time period in reverse direction. Storage time: The time period for which diode \r\nremains in conduction state even in the reverse \r\ndirection so, [latex]\r\nv_{R} = -5V[/latex] For [latex]t \\lt 0,[/latex] For [latex]0 \\lt t \\lt t_{s},[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page31_q5.webp",
+    "options": {
+      "A": "[latex]v_{R}=-5[/latex]",
+      "B": "[latex]v_{R}=+5[/latex]",
+      "C": "[latex]0\\leq v_{R} \\lt 5[/latex]",
+      "D": "[latex]-5\\lt v_{R} \\lt 0[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 156 The phenomenon known as \"Early Effect\" in a bipolar transistor refers to a\nreduction of the effective base-width caused by",
+    "solution": "",
+    "options": {
+      "A": "Electron - hole recombination at the base",
+      "B": "The reverse biasing of the base - collector junction",
+      "C": "The forward biasing of emitter-base junction",
+      "D": "The early removal of stored base charge during saturation-to-cut off switching"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 157 Under low level injection assumption, the injected minority carrier current for\nan extrinsic semiconductor is essentially the",
+    "solution": "",
+    "options": {
+      "A": "Diffusion current",
+      "B": "Drift current",
+      "C": "Recombination current",
+      "D": "Induced current"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 158 The concentration of minority carriers in an extrinsic semiconductor under\nequilibrium is",
+    "solution": "[latex]n p=n_{i}^{2}[/latex] [latex] n_{i}=[/latex] constant For n -type p is minority carrier concentration [latex] \\begin{aligned} p&=\\frac{n_{i}^{2}}{n} \\\\ p &\\propto \\frac{1}{n} \\end{aligned}[/latex]",
+    "options": {
+      "A": "Directly proportional to doping concentration",
+      "B": "Inversely proportional to the doping concentration",
+      "C": "Directly proportional to the intrinsic concentration",
+      "D": "Inversely proportional to the intrinsic concentration"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 159 The values of voltage ([latex]V_{D}[/latex]) across a tunnel-diode corresponding to peak and valley currents are [latex]V_{p}[/latex] and [latex]V_{v}[/latex] respectively. The range of tunnel-diode voltage [latex]V_{D}[/latex] for which the slope of its [latex]I-V_{D}[/latex] characteristics is negative would be",
+    "solution": "",
+    "options": {
+      "A": "[latex]V_{D} \\lt 0[/latex]",
+      "B": "[latex]0 \\leq V_{D} \\lt V_{p}[/latex]",
+      "C": "[latex]V_{p} \\leq V_{D} \\lt V_{v}[/latex]",
+      "D": "[latex]V_{D}\\geq V_{v}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 160 A MOS capacitor made using p type substrate is in the accumulation mode.\nThe dominant charge in the channel is due to the presence of",
+    "solution": "In accumulation mode for NMOS having \r\np-substrate V_{G} is-ve. When negative V_{G} is applied \r\nto the gate electrode, the holes in the p-type \r\nsubstrate are attracted to the semiconductor oxide \r\ninterface. This condition is called carrier \r\naccumulation on the surface.",
+    "options": {
+      "A": "holes",
+      "B": "electrons",
+      "C": "positively charged icons",
+      "D": "negatively charged ions"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 161 A Silicon PN junction diode under reverse bias has depletion region of width \r\n[latex]10\\mu [/latex]m. The relative permittivity of Silicon, [latex]\\varepsilon _{r}[/latex] = 11.7 and the permittivity of free space [latex]\\varepsilon _{0}=8.85 \\times 10^{-12} F/m[/latex] . The depletion capacitance of the diode per square meter is",
+    "solution": "[latex]\\begin{aligned} C&=\\frac{\\epsilon_{0} \\epsilon_{r} A}{d} \\\\ \\frac{C}{A}&=\\frac{8.85 \\times 10^{-12} \\times 11.7}{10 \\times 10^{-6}}=10.35 \\mu F \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]100\\mu F[/latex]",
+      "B": "[latex]10\\mu F[/latex]",
+      "C": "[latex]1\\mu F[/latex]",
+      "D": "[latex]20\\mu F[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 162 A Silicon sample A is doped with [latex]10^{18}[/latex] atoms/[latex]cm^{3}[/latex] of boron. Another sample B of identical dimension is doped with [latex]10^{18}[/latex]\n atoms/[latex]cm^{3}[/latex] phosphorus. The ratio of electron to hole mobility is 3. The ratio of conductivity of the sample A to B is",
+    "solution": "[latex]\\begin{aligned} \\sigma_{n} &=n q \\mu_{n} \\\\ \\frac{\\sigma_{p}}{\\sigma_{n}} &=\\frac{\\mu_{p}}{\\mu_{n}}=\\frac{1}{3} \\end{aligned}[/latex]",
+    "options": {
+      "A": "3",
+      "B": "[latex]\\frac{1}{3}[/latex]",
+      "C": "[latex]\\frac{2}{3}[/latex]",
+      "D": "[latex]\\frac{3}{2}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 163 The primary reason for the widespread use of Silicon in semiconductor device technology is",
+    "solution": "",
+    "options": {
+      "A": "abundance of Silicon on the surface of the Earth.",
+      "B": "larger bandgap of Silicon in comparison to Germanium",
+      "C": "favorable properties of Silicon - dioxide (SiO2)",
+      "D": "lower melting point"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 164 A Silicon PN junction at a temperature of [latex]20^{\\circ}[/latex]C has a reverse saturation current of 10 pico-Ameres (pA). The reserve saturation current at [latex]40^{\\circ}[/latex]C for the same bias is approximately",
+    "solution": "we know that [latex] \\begin{aligned} I_{Q_{T_{2}}} &=I_{\\left(Q_{T_{1}}\\right)} \\times 2^{\\frac{\\left(T_{2}-T_{1}\\right)}{10}} \\\\ I_{q_{40^{\\circ} C}} &=I_{q_{20^{\\circ} C}} \\times 2^{2} \\\\ I_{q_{40^{\\circ} C}} &=40 \\mathrm{pA} \\end{aligned}[/latex]",
+    "options": {
+      "A": "30pA",
+      "B": "40pA",
+      "C": "50pA",
+      "D": "60pA"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 165 The bandgap of Silicon at room temperature is",
+    "solution": "",
+    "options": {
+      "A": "1.3 eV",
+      "B": "0.7 eV",
+      "C": "1.1 eV",
+      "D": "1.4 eV"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 166 The neutral base width of a bipolar transistor, biased in the active region, is 0.5 [latex]\\mu[/latex]m. The maximum electron concentration and the diffusion constant in the base are [latex]10^{14}/cm^{3}[/latex] and [latex]D_{n}=25 cm^{2}[/latex]/sec respectively. Assuming negligible recombination in the base, the collector current density is (the electron charge is\r\n[latex]1.6\\times 10^{-19}[/latex] - Coulomb)",
+    "solution": "[latex]\\begin{aligned} J_{C} &=q D_{n} \\frac{d n}{d x} \\\\ &=1.6 \\times 10^{-19} \\times 25 \\times \\frac{10^{14}}{0.5 \\times 10^{-4}} \\\\ J_{C} &=8 \\mathrm{A} / \\mathrm{cm}^{2} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]800 A/cm^{2}[/latex]",
+      "B": "[latex]8 A/cm^{2}[/latex]",
+      "C": "[latex]200 A/cm^{2}[/latex]",
+      "D": "[latex]2 A/cm^{2}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 167 The longest wavelength that can be absorbed by silicon, which has the bandgap\nof 1.12 eV, is 1.1 [latex]\\mu[/latex]m. If the longest wavelength that can be absorbed by\nanother material is 0.87 [latex]\\mu[/latex]m, then bandgap of this material is",
+    "solution": "[latex]E_{g}=\\frac{1.24}{\\lambda(\\mu \\mathrm{m})} \\mathrm{eV}=\\frac{1.24}{0.87 \\mu \\mathrm{m}} \\mathrm{eV}=1.425 \\mathrm{eV}[/latex]",
+    "options": {
+      "A": "1.416 eV",
+      "B": "0.886 eV",
+      "C": "0.854 eV",
+      "D": "0.706 eV"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 168 The drain of an n-channel MOSFET is shorted to the gate so that [latex]V_{GS}=V_{DS}[/latex].\r\nThe threshold voltage ([latex]V_{T}[/latex]) of the MOSFET is 1 V. If the drain current ([latex]I_{D}[/latex]) is 1\r\nmA for [latex]V_{GS}[/latex]=2V, then for [latex]V_{GS}[/latex]=3V, [latex]I_{D}[/latex] is",
+    "solution": "[latex]\\begin{aligned} I_{D} &=K\\left(V_{G S}-V_{T}\\right)^{2} \\\\ 1 m A &=K(2-1)^{2} \\\\ K &=1 \\mathrm{mAN}^{2} \\\\ \\text { Again, } \\quad I_{D} &=K\\left(V_{G S}-V_{T}\\right)^{2}=4 \\mathrm{mA} \\end{aligned}[/latex]",
+    "options": {
+      "A": "2 mA",
+      "B": "3 mA",
+      "C": "9 mA",
+      "D": "4 mA"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 169 Consider the following statements S1 and S2. S1 : The threshold voltage ([latex]V_{T}[/latex]) of MOS capacitor decreases with increase in gate oxide thickness. S2 : The threshold voltage ([latex]V_{T}[/latex]) of a MOS capacitor decreases with increase in substrate doping concentration. Which Marks of the following is correct ?",
+    "solution": "[latex]S_{2}: V_{T}[/latex] of [latex]\\mathrm{N}-\\mathrm{MOS}[/latex] is increased by adding extra  p-type impurities i.e. [latex]V_{T}[/latex] of a MOS increases by  increase in substrate doping concentration. (True) [latex] S_{1}: C_{o x}=\\frac{\\epsilon_{o x}}{t_{o x}} \\quad t_{o x}=[/latex] gate oxide thickners [latex] V_{T}=\\phi_{G C}-2 \\phi_{F}-\\frac{Q_{R}}{C_{O x}}-\\frac{Q_{o x}}{C_{O x}} [/latex] If [latex]C_{\\text {ox }}[/latex] increases [latex]\\frac{Q_{B}}{C_{\\text {ox }}} [/latex] and [latex]\\frac{Q_{\\text {ox }}}{C_{\\text {ox }}} [/latex] decreases and [latex] V_{T}[/latex] increases. [latex] C_{o x}[/latex] decreases when [latex]t_{o x}[/latex] increases.",
+    "options": {
+      "A": "S1 is FALSE and S2 is TRUE",
+      "B": "Both S1 and S2 are TRUE",
+      "C": "S1 is TRUE and S2 is FALSE",
+      "D": "Both S1 and S2 are FALSE"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 170 Consider an abrupt p-n junction. Let [latex]V_{bi}[/latex] be the built-in potential of this junction and [latex]V_R[/latex] be the applied reverse bias. If the junction capacitance ([latex]C_{1}[/latex]) is 1 pF for [latex]V_{bi}+V_{R}[/latex]=1V, then for [latex]V_{bi}+V_{R}[/latex]=4V, [latex]C_{j}[/latex] will be",
+    "solution": "[latex]\\begin{aligned} C_{j} & \\propto V_{i}^{-1 / 2} \\\\ \\frac{C_{i 2}}{C_{i_{1}}} &=\\sqrt{\\frac{V_{1}}{V_{2}}}=\\sqrt{\\frac{1}{4}}=\\frac{1}{2} \\\\ C_{i_{2}} &=\\frac{C_{h}}{2}=\\frac{1 \\mathrm{pF}}{2}=0.5 \\mathrm{pF} \\end{aligned}[/latex]",
+    "options": {
+      "A": "4 pF",
+      "B": "2 pF",
+      "C": "0.25 pF",
+      "D": "0.5 pF"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 171 The resistivity of a uniformly doped n-type silicon sample is 0.5[latex]\\Omega[/latex] - mc. If the electron mobility ([latex]\\mu_{n}[/latex]) is 1250 [latex]cm^{2}[/latex]/V-sec and the charge of an electron is [latex]1.6\\times 10^{-19}[/latex] Coulomb, the donor impurity concentration ([latex]N_{D}[/latex]) in the sample is",
+    "solution": "[latex]\\begin{aligned} \\rho &=\\frac{1}{n q \\mu_{n}} \\\\ n &=N_{D} \\\\ N_{D} &=\\frac{1}{q \\mu_{n} \\rho}=\\frac{1}{1.6 \\times 10^{-19} \\times 1250 \\times 0.5} \\\\ &=10^{16} / \\mathrm{cm}^{3} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]2\\times 10^{16}/cm^{3}[/latex]",
+      "B": "[latex]1\\times 10^{16}/cm^{3}[/latex]",
+      "C": "[latex]2.5\\times 10^{15}/cm^{3}[/latex]",
+      "D": "[latex]5\\times 10^{15}/cm^{3}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 172 In an abrupt p-n junction, the doping concentrations on the p-side and n-side are [latex]N_{A}=9\\times 10^{16}/cm^{3}[/latex] and [latex]N_{D}=1\\times 10^{16}/cm^{3}[/latex] respectively. The p-n junction is reverse biased\r\nand the total depletion width is 3 [latex]\\mu[/latex]m. The depletion width on the p-side is",
+    "solution": "[latex]\\begin{aligned} \\frac{\\omega_{n}}{\\omega_{p}}&=\\frac{N_{A}}{N_{D}} \\qquad \\omega \\simeq \\omega_{n} \\quad\\left(\\because \\omega_{n}\\gt \\gt \\omega_{p}\\right) \\\\ \\omega_{p}&=\\frac{\\omega_{n} \\times N_{D}}{N_{A}}=\\frac{3 \\mu m \\times 10^{16}}{9 \\times 10^{16}}=0.3 \\mu \\mathrm{m} \\end{aligned}[/latex]",
+    "options": {
+      "A": "2.7 [latex]\\mu[/latex]m",
+      "B": "0.3 [latex]\\mu[/latex]m",
+      "C": "2.25 [latex]\\mu[/latex]m",
+      "D": "0.75 [latex]\\mu[/latex]m"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 173 Consider the following statements S1 and S2. S1 : The [latex]\\beta[/latex] of a bipolar transistor reduces if the base width is increased. S2 : The [latex]\\beta[/latex] of a bipolar transistor increases if the dopoing concentration in the base is increased. Which remarks of the following is correct ?",
+    "solution": "[latex]\\beta=\\frac{I_{C}}{I_{B}}=\\frac{\\alpha}{1-\\alpha}[/latex] When base width increases, recombination in base region increases and [latex]\\alpha[/latex] decreases and hence [latex]\\beta[/latex] decreases. If doping in base region increases , then recombination in base increases and [latex]\\alpha[/latex] decreases, thereby decreasing [latex]\\beta.[/latex]",
+    "options": {
+      "A": "S1 is FALSE and S2 is TRUE",
+      "B": "Both S1 and S2 are TRUE",
+      "C": "Both S1 and S2 are FALSE",
+      "D": "S1 is TRUE and S2 is FALSE"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 174 If for a silicon npn transistor, the base-to-emitter voltage ([latex]V_{BE}[/latex]) is 0.7 V and the collector-to-base voltage ([latex]V_{CB}[/latex]) is 0.2 V, then the transistor is operating in the",
+    "solution": "",
+    "options": {
+      "A": "normal active mode",
+      "B": "saturation mode",
+      "C": "inverse active mode",
+      "D": "cutoff mode"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 175 The impurity commonly used for realizing the base region of a silicon n - p - n transistor is",
+    "solution": "",
+    "options": {
+      "A": "Gallium",
+      "B": "Indium",
+      "C": "Boron",
+      "D": "Phosphorus"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 176 If P is Passivation, Q is n -well implant, R is metallization and S is source/drain diffusion, then the order in which they are carried out in a standard n - well CMOS fabrication process, is",
+    "solution": "N Well CMOS fabrication process Q : Well implant S : Source/draimn diffusion R : Metallisation P : Passivation",
+    "options": {
+      "A": "P - Q - R - S",
+      "B": "Q - S - R - P",
+      "C": "R - P - S - Q",
+      "D": "S - R - Q - P"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 177 When the gate-to-source voltage ([latex]V_{Gs}[/latex]) of a MOSFET with threshold voltage of 400 mV, working in saturation is 900 mV, the drain current is observed to be 1 mA. Neglecting the channel width modulation effect and assuming that the MOSFET is operating at saturation, the drain current for an applied [latex]V_{Gs}[/latex] of 1400 mV is",
+    "solution": "[latex]\\begin{aligned} I_{D} &=K\\left(V_{G S}-V_{T}\\right)^{2} \\\\ 1 \\mathrm{mA} &=K(900-400)^{2} \\\\ K &=\\frac{1 \\mathrm{mA} / \\mathrm{V}^{2}}{10^{4} \\times 25} \\\\ \\text { When } V_{G S} &=1400 \\mathrm{V} \\\\ I_{D} &=K\\left(V_{G S}-V_{T}\\right)^{2}\\\\ &=\\frac{1 \\mathrm{mA}}{25 \\times 10^{4} \\mathrm{V}^{2}}(1400-400)^{2} \\mathrm{V}^{2} \\\\ &=\\frac{1 \\mathrm{mA} \\times 100}{25 \\times 10^{4}} \\times 10^{4} \\\\ I_{D} &=4 \\mathrm{mA} \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.5 mA",
+      "B": "2.0 mA",
+      "C": "3.5 mA",
+      "D": "4.0 mA"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 178 A particular green LED emits light of wavelength 5490[latex]^{\\circ}A[/latex]. The energy bandgap of the semiconductor material used there is (Plank's constant = [latex]6.626\\times 10^{-34}J-s[/latex])",
+    "solution": "[latex]\\begin{aligned} E_{g} &=\\frac{1.24}{\\lambda(\\mu \\mathrm{m})} \\mathrm{eV} \\\\ &=\\frac{1.24}{5490 \\times 10^{-4} \\mu \\mathrm{m}}=2.26 \\mathrm{eV} \\end{aligned}[/latex]",
+    "options": {
+      "A": "2.26 eV",
+      "B": "1.98 eV",
+      "C": "1.17 eV",
+      "D": "0.74 eV"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 179 At 300 K, for a diode current of 1 mA, a certain germanium diode requires a forward bias of 0.1435 V, whereas a certain silicon diode requires a forward bias of 0.718 V. Under the conditions state above, the closest approximation of the ratio of reverse saturation current in germanium diode to that in silicon diode is",
+    "solution": "[latex]\\eta=1 [/latex] for Germanium [latex] \\eta=2 [/latex] for Silicon at low value of current [latex] \\begin{aligned} I&=I_{O S i}\\left(e^{\\frac{V_{D 1}}{\\eta V_{T}}}-1\\right) &\\ldots(i)\\\\ I&=I_{O G e}\\left(e^{\\frac{V_{D 2}}{\\eta V_{T}}}-1\\right)&\\ldots(ii) \\end{aligned}[/latex] L.H.S. of (i) = (ii) [latex] \\Rightarrow I_{O_{S i}}\\left(e^{\\frac{V_{D 1}}{\\eta V_{T}}}-1\\right)=I_{O_{G e}}\\left(e^{\\frac{V_{D 2}}{\\eta V_{T}}}-1\\right) [/latex] [latex] \\frac{I_{O_{Ge}}}{I_{O_{Si}}}=\\frac{e^{\\frac{V_{D_{1}}}{\\eta V_{T}}}-1}{e^{\\frac{V_{D_{2}}}{\\eta V_{T}}}-1}=\\frac{e^{\\frac{0.718}{2 \\times 26 \\times 10^{-3}}}-1}{e^{\\frac{0.1435}{26 \\times 10^{-3}}}-1}=4 \\times 10^{3}[/latex]",
+    "options": {
+      "A": "[latex]1[/latex]",
+      "B": "[latex]5[/latex]",
+      "C": "[latex]4\\times 10^{3}[/latex]",
+      "D": "[latex]8\\times 10^{3}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 180 Match items in Group 1 with items in Group 2, most suitably.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page36_q5.webp",
+    "options": {
+      "A": "P - 1, Q - 2, R - 4, S - 3",
+      "B": "P - 2, Q - 3, R - 1, S - 4",
+      "C": "P - 3 Q - 4, R - 1, S - 2",
+      "D": "P - 2, Q - 1, R - 4, S - 3"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 181 The electron concentration in a sample of uniformly doped n-type silicon at 300 K varies linearly from [latex]10^{17}/cm^{3}[/latex] at x = 0 to [latex]6\\times 10^{16}/cm^{3}[/latex] at x = 2[latex]\\mu m[/latex]. Assume a situation that electrons are supplied to keep this concentration gradient constant with time. If electronic charge is [latex]1.6\\times 10^{-19}[/latex] coulomb and the diffusion constant [latex]D_{n}=35[/latex] [latex]cm^{2}/s[/latex], the current density in the silicon, if no electric field is present, is",
+    "solution": "",
+    "options": {
+      "A": "zero",
+      "B": "[latex]-112[/latex] [latex]A/cm^{2}[/latex]",
+      "C": "[latex]+1120[/latex] [latex]A/cm^{2}[/latex]",
+      "D": "[latex]-1112[/latex] [latex]A/cm^{2}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 182 An n-type silicon bar 0.1 cm long and 100 [latex]\\mu m^{2}[/latex] in cross-sectional area has a majority carrier concentration of [latex]5\\times 10^{20}/m^{2}[/latex] and the carrier mobility is 0.13 [latex]m^{2}/V-s[/latex] at 300 K. If the charge of an electron is [latex]1.6\\times 10^{-19}[/latex] coulomb, then the resistance of the bar is",
+    "solution": "",
+    "options": {
+      "A": "[latex]10^{6}[/latex] Ohm",
+      "B": "[latex]10^{4}[/latex] Ohm",
+      "C": "[latex]10^{-1}[/latex] Ohm",
+      "D": "[latex]10^{-4}[/latex] Ohm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 183 For an n - channel enhancement type MOSFET, if the source is connected at a higher potential than that of the bulk (i.e. [latex]V_{SB} \\gt [/latex]  0), the threshold voltage [latex]V_{T}[/latex] of the MOSFET will",
+    "solution": "[latex]V_{T}=V_{T_{0}}+\\gamma \\sqrt{\\left|-2 \\phi_{F}+V_{S B}\\right|}-\\sqrt{\\left|2 \\phi_{F}\\right|} [/latex] [latex] \\gamma=[/latex] substrate bias coefficient [latex] V_{S B}=[/latex] substrate bias voltage",
+    "options": {
+      "A": "remain unchanged",
+      "B": "decrease",
+      "C": "change polarity",
+      "D": "increase"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 184 Choose proper substitutes for X and Y to make the following statement correct Tunnel diode and Avalanche photo diode are operated in X bias ad Y bias respectively",
+    "solution": "",
+    "options": {
+      "A": "X: reverse, Y: reverse",
+      "B": "X: reverse, Y: forward",
+      "C": "X: forward, Y: reverse",
+      "D": "X: forward, Y: forward"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 185 The intrinsic carrier concentration of silicon sample at 300 K is [latex]1.5\\times 10^{16}/m^{3}[/latex]. If after doping, the number of majority carriers is [latex]5\\times 10^{20}/m^{3}[/latex], the minority carrier density is",
+    "solution": "[latex]\\begin{aligned} n_{i}^{2} &=n p \\\\ n_{i} &=\\text { intrinsic concentration } \\\\ p &=\\frac{n_{1}^{2}}{n}=\\frac{1.5 \\times 10^{16} \\times 1.5 \\times 10^{16}}{5 \\times 10^{20}} \\\\ &=45 \\times 10^{10}=4.5 \\times 10^{11} / \\mathrm{cm}^{3} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]4.50\\times 10^{11}/m^{3}[/latex]",
+      "B": "[latex]3.333\\times 10^{4}/m^{3}[/latex]",
+      "C": "[latex]5.00\\times 10^{20}/m^{3}[/latex]",
+      "D": "[latex]3.00\\times 10^{-5}/m^{3}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 186 The Bandgap of silicon at 300 K is",
+    "solution": "",
+    "options": {
+      "A": "1.36 eV",
+      "B": "1.10 eV",
+      "C": "0.80 eV",
+      "D": "0.67 eV"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 187 n-type silicon is obtained by doping silicon with",
+    "solution": "",
+    "options": {
+      "A": "Germanium",
+      "B": "Aluminium",
+      "C": "Boron",
+      "D": "Phosphorus"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 188 In Figure shown below, a silicon is carrying a constant current of 1 mA. When the\ntemperature of the diode is [latex]20^{\\circ}[/latex]C, [latex]V_{D}[/latex]  is found to be 700 mV. If the temperature\nrises to [latex]40^{\\circ}[/latex]C, [latex]V_{D}[/latex] becomes approximately equal to",
+    "solution": "For either Si or Ge[latex]\\frac{d V}{d T} \\simeq-2 \\mathrm{mV} /^{\\circ} \\mathrm{C} [/latex] in order to maintain a constant value of I. [latex] \\begin{aligned} T_{2}-T_{1}&=40-20=20^{\\circ} \\mathrm{C} \\\\ -2 \\times 20 \\mathrm{mV}&=40 \\mathrm{mV} \\\\ \\text { Therefore, } \\quad V_{D}&=700-40=660 \\mathrm{mV} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/ed/page38_q3.webp",
+    "options": {
+      "A": "740 mV",
+      "B": "660 mV",
+      "C": "680 mV",
+      "D": "700 mV"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 189 The effective channel length of a MOSFET in saturation decreases with increase in",
+    "solution": "At the edge of saturation i.e. when drain to source voltage reaches [latex]V_{D_{sat}}[/latex] the inversion layer charge at the drain end becomes zero (ideally). The channel is said to be pinched off at the drain end. If the drain to source voltage [latex]V_{DS}[/latex] is increased even further beyond the saturation edge so that [latex]V_{DS} \\gt V_{D_{sat}}[/latex], an even larger  portion of the channel becomes pinched off and effective channel length is reduced.",
+    "options": {
+      "A": "gate voltage",
+      "B": "drain voltage",
+      "C": "source voltage",
+      "D": "body voltage"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 190 MOSFET can be used as a",
+    "solution": "Voltage controlled capacitor.",
+    "options": {
+      "A": "current controlled capacitor",
+      "B": "voltage controlled capacitor",
+      "C": "current controlled inductor",
+      "D": "voltage controlled inductor"
+    },
+    "correct_answer": "B"
+  }
+]
