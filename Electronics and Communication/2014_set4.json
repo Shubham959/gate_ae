@@ -1,0 +1,557 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 The series [latex]\\sum_{^{n=0}}^{\\infty }\\frac{1}{n!}[/latex] converges to",
+    "solution": "Given, [latex] \\begin{aligned} \\text { Let, } x(n) &=\\sum_{n=0}^{\\infty} \\frac{1}{n !} \\\\ &=\\frac{1}{0 !}+\\frac{1}{1 !}+\\frac{1}{2 !}+\\frac{1}{3 !}+\\frac{1}{4 !}+\\cdots \\\\ &=1+1+\\frac{1}{2}+\\frac{1}{6}+\\frac{1}{24}+\\cdots \\end{aligned}[/latex] Also we know that expression of [latex]e^{x} [/latex] [latex] \\begin{aligned} e^{x}&=1+x+\\frac{1}{2} x^{2}+\\frac{1}{6} x^{3}+\\frac{1}{24} x^{4}+\\cdots\\\\ \\text{Put }x&=1\\text{ in above expression}\\\\ e^{1}&=1+1+\\frac{1}{2}+\\frac{1}{6}+\\frac{1}{24}+\\cdots \\\\ e&=\\sum_{n=0}^{\\infty} \\frac{1}{n !} \\end{aligned}[/latex]",
+    "options": {
+      "A": "2 ln 2",
+      "B": "[latex]\\sqrt{2}[/latex]",
+      "C": "2",
+      "D": "e"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 The magnitude of the gradient for the function [latex]f(x,y,z)=x^{2}+3y^{2}+z^{3}[/latex] at the point (1,1,1) is _____.",
+    "solution": "[latex]\\begin{aligned} f(v, y, z) &=x^{3}+3 y^{2}+z^{3} \\\\ \\nabla f &=\\frac{\\partial f}{\\partial x} \\hat{i}+\\frac{\\partial f}{\\partial y} \\hat{i}+\\frac{\\partial f}{\\partial z} \\hat{k} \\\\ &=2 x \\hat{i}+6 y \\hat{j}+3 z^{2} \\hat{k} \\\\ (\\Delta t)_{(1,1,1)} &=2 \\hat{i}+6 \\hat{j}+3 \\hat{k} \\\\ |\\Delta+|_{(1,1,1)} &=\\sqrt{4+36+9}=\\sqrt{49}=7 \\end{aligned}[/latex]",
+    "min": 6.8,
+    "max": 7.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 3 Let X be a zero mean unit variance Gaussian random variable. E[|X|] is equal to ______.",
+    "solution": "For a Gaussian random variable, [latex] \\begin{aligned} f_{x}(x)&=\\frac{1}{\\sigma_{x} \\sqrt{2 \\pi}} e^{\\left(\\frac{\\mu-x}{2 \\sigma^{2}}\\right)^{2}} \\\\ \\text{For mean} (\\mu)&=0 \\text{ and Variance }\\left(\\sigma_{x}^{2}\\right)=1 \\\\ f_{X}(x) &=\\frac{1}{\\sqrt{2 \\pi}} e^{-\\frac{x^{2}}{2}} \\\\ E[|x|] &=\\int_{-\\infty}^{\\infty}|x| f_{X}(x) d x \\\\ &=\\int_{-\\infty}^{\\infty}|x| \\cdot \\frac{1}{\\sqrt{2 \\pi}} e^{\\frac{-x^{2}}{2}} d x \\\\ =& \\int_{-\\infty}^{0}-x \\cdot \\frac{1}{\\sqrt{2 \\pi}} e^{-x^{2}} d x+\\int_{0}^{\\infty} x \\cdot \\frac{1}{\\sqrt{2 \\pi}} e^{\\frac{-x^{2}}{2}} d x\\\\ &=2 \\int_{0}^{\\infty} x \\cdot \\frac{1}{\\sqrt{2 \\pi}} e^{\\frac{-x^{2}}{2}} d x=\\frac{2}{\\sqrt{2 \\pi}} \\int_{0}^{\\infty} x \\cdot e^{\\frac{-x^{2}}{2}} d x \\\\ &\\text{Let }\\quad -\\frac{x^{2}}{2}=t \\\\ &\\therefore \\quad-\\frac{2 x d x}{2}=d t \\\\ &\\text{Hence }\\frac{2}{\\sqrt{2 \\pi}} \\int_{0}^{\\infty}-e^{-t} d t=0.8 \\\\ &\\therefore \\quad E[|x|]=0.8 \\\\ \\end{aligned}[/latex]",
+    "min": 0.79,
+    "max": 0.81
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 If a and b are constants, the most general solution of the differential equation [latex]\\frac{d^{2}x}{dt^{2}}+2\\frac{dx}{dt}+x=0[/latex] is",
+    "solution": "The differential equation is given as [latex] \\begin{aligned} \\frac{d^{2} x}{d t^{2}}+2 \\frac{d x}{d t}+x&=0 \\\\ y&=C \\cdot F+P \\cdot I\\\\ \\end{aligned}[/latex] since, Q=0, i.e. RHS term is zero, so there will be no particular integral. [latex] \\begin{aligned} \\therefore \\quad y&=C \\cdot F\\\\ \\text{Let, }\\quad \\frac{\\partial}{\\partial x}&=D \\\\ \\text{So. }\\quad \\left(D^{2}+2 D+1\\right) x&=0 \\\\ \\therefore \\quad(D+1)^{2}&=0 \\\\ \\therefore \\quad y&=a e^{-t}+b t e^{t} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]ae^{-t}[/latex]",
+      "B": "[latex]ae^{-t}+bte^{-t}[/latex]",
+      "C": "[latex]ae^{t}+bte^{-t}[/latex]",
+      "D": "[latex]ae^{-2t}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 The directional derivative of [latex]f(x,y)=\\frac{xy}{\\sqrt{2}}(x+y)[/latex] at (1,1) in the direction of the unit vector at an angle of [latex]\\frac{\\pi }{4}[/latex] with y-axis, is given by____.",
+    "solution": "[latex]\\begin{aligned} f(x, y) &=\\frac{x y}{\\sqrt{2}}(x+y)=\\frac{x^{2} y+x y^{2}}{\\sqrt{2}} \\\\ \\nabla f &=\\frac{\\partial f}{\\partial x} \\hat{i}+\\frac{\\partial f}{\\partial y} \\hat{j} \\\\ &=\\frac{2 x y+y^{2}}{\\sqrt{2}}\\hat{i}+\\frac{(x^{2}+2xy)}{\\sqrt{2}}\\hat{j} \\end{aligned}[/latex] The direction is [latex]\\hat{n}=\\frac{1}{\\sqrt{2}} \\hat{i}+\\frac{1}{\\sqrt{2}} \\hat{j} [/latex] Directional derivative in direction of [latex]\\hat{n}[/latex] is [latex] \\begin{array}{l} =\\left(\\frac{2 x y+y^{2}}{2}+\\frac{x^{2}+2 x y}{2}\\right)_{(1,1)} \\\\ =\\frac{3}{2}+\\frac{3}{2}=3 \\end{array}[/latex]",
+    "min": 2.99,
+    "max": 3.01
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 The circuit shown in the figure represents a",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page2_q1.webp",
+    "options": {
+      "A": "voltage controlled voltage source",
+      "B": "voltage controlled current source",
+      "C": "current controlled current source",
+      "D": "current controlled voltage source"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 The magnitude of current (in mA) through the resistor [latex]R_{2}[/latex] in the figure shown is______.",
+    "solution": "Using source transformation, we get, Applying KVL in above circuit, we get, [latex] 20-2 I-I-4 I+8-3 I=0 [/latex] or [latex]28=10 I [/latex] or [latex]\\quad I=2.8 \\mathrm{mA}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page2_q2.webp",
+    "min": 2.79,
+    "max": 2.81
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 At  T = 300 K, the band gap and the intrinsic carrier concentration of GaAs are\r\n1.42 eV and [latex]10^{6}cm^{-3}[/latex], respectively. In order to generate electron hole pairs in GaAs, which one of the wavelength [latex](\\lambda _{C})[/latex] ranges of incident radiation, is most suitable ? (Given that : Plank's constant is [latex]6.62 \\times 10^{-34}[/latex]J-s, velocity of light is [latex]3 \\times 10^{10} cm/s[/latex] and charge of electron is [latex]1.6*10^{-19}[/latex]C)",
+    "solution": "[latex]\\begin{array}{l} \\lambda_{c} \\leq \\frac{1.24}{E_{g}(e V)} \\mu \\mathrm{m} \\\\ \\lambda_{c} \\leq \\frac{1.24}{1.42} \\\\ \\lambda_{c} \\leq 0.87 \\mathrm{m} \\\\ \\end{array}[/latex]",
+    "options": {
+      "A": "[latex]0.42 \\mu m \\lt \\lambda _{c} \\lt 0.87\\mu m[/latex]",
+      "B": "[latex]0.87 \\mu m \\lt \\lambda _{c} \\lt 1.42\\mu m[/latex]",
+      "C": "[latex]1.42 \\mu m \\lt \\lambda _{c} \\lt 1.62\\mu m[/latex]",
+      "D": "[latex]1.62 \\mu m \\lt \\lambda _{c} \\lt 6.62\\mu m[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 In the figure, [latex] ln(\\rho _{i}[/latex])  is plotted as a function of 1/T , where [latex]\\rho _{i}[/latex] is the intrinsic resistivity of silicon, T is the temperature, and the plot is almost linear. The slope of the line can be used to estimate",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page2_q4.webp",
+    "options": {
+      "A": "band gap energy of silicon [latex](E_{g})[/latex]",
+      "B": "sum of electron and hole mobility in silicon [latex](\\mu _{n}+\\mu _{p})[/latex]",
+      "C": "reciprocal of the sum of electron and hole mobility in silicon [latex](\\mu _{n}+\\mu _{p})^{-1}[/latex]",
+      "D": "intrinsic carrier concentration of silicon [latex](n_{i})[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 The cut-off wavelength (in [latex]\\mu[/latex] m) of light that can be used for intrinsic excitation of a semiconductor material of bandgap [latex]E_{g}[/latex] = 1.1 eV is _____.",
+    "solution": "[latex]\\begin{aligned} \\quad \\lambda_{c}&=\\frac{1.24}{E_{g}(\\mathrm{eV})} \\mu \\mathrm{m}=\\frac{1.24}{1.1} \\mu \\mathrm{m} \\\\ \\lambda_{c}&=1.12 \\mu \\mathrm{m} \\end{aligned}[/latex]",
+    "min": 1.12,
+    "max": 1.14
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 If the emitter resistance in a common-emitter voltage amplifier is not bypassed, it will",
+    "solution": "For unbypassed [latex]R_{E} [/latex] [latex] \\begin{array}{l} R_{i}=\\beta r_{e}+(1+\\beta) R_{E} \\text { and } \\\\ A_{v}=\\frac{A_{I} R_{L}}{R_{i}} \\end{array}[/latex]",
+    "options": {
+      "A": "reduce both the voltage gain and the input impedance",
+      "B": "reduce the voltage gain and increase the input impedance",
+      "C": "increase the voltage gain and reduce the input impedance",
+      "D": "increase both the voltage gain and the input impedance"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 Two silicon diodes, with a forward voltage drop of 0.7 V, are used in the circuit\nshown in the figure. The range of input voltage [latex]V_{i}[/latex] for which the output voltage [latex]V_{0}=V_{i}[/latex] , is",
+    "solution": "[latex]\\begin{aligned} \\text { For case-i } & V_{i} \\lt -1.7 \\\\ & D_{1} \\rightarrow \\mathrm{ON} \\\\ & D_{2} \\rightarrow \\text { OFF }\\\\ &V_{0}=-1.7 \\mathrm{V} \\end{aligned}[/latex] For case-ii [latex] \\begin{aligned} -1.7 &\\lt V_{i} \\lt 2.7 \\\\ D_{1} & \\rightarrow \\text { OFF } \\\\ D_{2} & \\rightarrow \\text { OFF } \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page3_q2.webp",
+    "options": {
+      "A": "[latex]-0.3V \\lt V_{i} \\lt 1.3V[/latex]",
+      "B": "[latex]-0.3V \\lt V_{i} \\lt 2V[/latex]",
+      "C": "[latex]-1.0V \\lt V_{i} \\lt 2.0V[/latex]",
+      "D": "[latex]-1.7V \\lt V_{i} \\lt 2.7V[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 13 The circuit shown represents",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page3_q3.webp",
+    "options": {
+      "A": "a bandpass filter",
+      "B": "a voltage controlled oscillato",
+      "C": "an amplitude modulator",
+      "D": "a monostable multivibrator"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 For a given sample-and-hold circuit, if the value of the hold capacitor is increased, then",
+    "solution": "We know that [latex] \\begin{aligned} Q&=C V=i \\cdot t &\\ldots(i)\\\\ t&=\\frac{C V}{i} &\\ldots(ii) \\end{aligned}[/latex] From equation (ii) [latex] t \\propto C[/latex] and it is clear that if value of capacitor increases then the acquisition time increases. For capacitor the drop rate is given as [latex]\\frac{d v}{d t} [/latex] [latex] \\begin{aligned} i &=C \\frac{d v}{d t} \\\\ \\frac{d v}{d t} &=\\frac{i}{C} \\\\ \\frac{d v}{d t} & \\propto \\frac{1}{C} \\end{aligned}[/latex] From above relation it is clear that if capacitor value  increases drop rate decreases.",
+    "options": {
+      "A": "droop rate decreases and acquisition time decreases",
+      "B": "droop rate decreases and acquisition time increases",
+      "C": "droop rate increases and acquisition time decreases",
+      "D": "droop rate increases and acquisition time increases"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 In the circuit shown in the figure, if C = 0, the expression for Y is",
+    "solution": "Output of gate [latex]1: \\bar{C} [/latex] Output of gate [latex]2: \\rightarrow(\\overline{A+B}) [/latex] Output of gate [latex]3: \\rightarrow(\\overline{A+B}+C) [/latex] Output of gate [latex]4: \\rightarrow AB[/latex] Output of gate [latex]5: \\rightarrow(\\overline{A+B}+C)+A B [/latex] Output of gate 6 is output Y i.e. [latex] \\begin{aligned} Y &=\\overline{\\bar{C} \\cdot(\\overline{A+B}+C)+A B} \\\\ &=C+\\overline{(\\overline{A+B}+C+A B)} \\end{aligned}[/latex] Using Demorgan's theorem [latex] \\begin{aligned} &=C+(\\overline{\\overline{A+B}}) \\cdot \\bar{C} \\cdot(\\overline{A B})\\\\ &=C+(A+B) \\cdot \\bar{C} \\cdot(\\bar{A}+\\bar{B}) \\end{aligned}[/latex] Given in question C=0 [latex] \\begin{aligned} \\text{So, }Y&=0+(A+B) \\cdot \\overline{0} \\cdot(\\bar{A}+\\bar{B}) \\\\ &=\\bar{A} B+A \\bar{B} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page3_q5.webp",
+    "options": {
+      "A": "[latex]Y=A\\bar{B}+\\bar{A}B[/latex]",
+      "B": "Y=A+B",
+      "C": "[latex]Y=\\bar{A}+\\bar{B}[/latex]",
+      "D": "Y=AB"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 The output (Y ) of the circuit shown in the figure is",
+    "solution": "This is the diagram of NAND gates made up of CMOS gates. So output X is given as [latex] Y=\\overline{A \\cdot B \\cdot \\bar{C}}=(\\bar{A}+\\bar{B}+C)[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page4_q1.webp",
+    "options": {
+      "A": "[latex]\\bar{A}+\\bar{B}+C[/latex]",
+      "B": "[latex]A+\\bar{B}\\cdot \\bar{C}+A\\cdot \\bar{C}[/latex]",
+      "C": "[latex]\\bar{A}+B+\\bar{C}[/latex]",
+      "D": "[latex]A\\cdot B\\cdot \\bar{C}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 A Fourier transform pair is given by [latex](\\frac{2}{3})^{n}  \\; u[n+3]\\overset{FT}{\\leftrightarrow}\\frac{Ae^{-j6\\pi f}}{1-(\\frac{2}{3})e^{-j2 \\pi f}}[/latex] where u [n] denotes the unit step sequence. The values of A is _____.",
+    "solution": "[latex]\\left(\\frac{2}{3}\\right)^{n} u(n+3) \\stackrel{F.T.}{\\longleftrightarrow} \\frac{Ae^{j6\\pi f}}{1-\\left(\\frac{2}{3}\\right) e^{-i 2 \\pi f}}[/latex] Let, [latex] x[n]=\\left(\\frac{2}{3}\\right)^{n} u(n+3) [/latex] Discrete Fourier transform is given as [latex] \\begin{aligned} X\\left(e^{j \\omega}\\right)&=\\sum_{n=-\\infty}^{\\infty} x[n] e^{-j \\omega n} \\\\ &=\\sum_{n=-3}^{\\infty}\\left(\\frac{2}{3}\\right)^{n} e^{-j \\omega n} \\\\ \\text { Put, } n+3 &=m \\\\ \\text { So, } x\\left(e^{i \\omega}\\right) &=\\sum_{m=0}^{\\infty}\\left(\\frac{2}{3}\\right)^{m-3} e^{-j \\omega(m-3)} \\\\ &=\\left(\\frac{2}{3}\\right)^{-3} \\sum_{m=0}^{\\infty}\\left(\\frac{2}{3}\\right)^{m} e^{-j \\omega m \\cdot e^{j \\omega 3}} \\\\\n&=\\left(\\frac{3}{2}\\right)^{3} \\sum_{m=0}^{\\infty}\\left(\\frac{2}{3} e^{-j \\omega}\\right)^{m} \\cdot e^{j \\omega 3} \\\\\n&=\\frac{3.375 \\cdot e^{i 2 \\pi / 3}}{1-\\frac{2}{3} e^{-i 2 \\pi t}} \\\\\n&=\\frac{3.375 e^{j \\pi \\pi f}}{1-\\frac{2}{3} e^{-i 2 \\pi t}} \\\\\n\\text{So,}\\quad A&=3.375\n\\end{aligned}[/latex]",
+    "min": 3.36,
+    "max": 3.39
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 A real-valued signal x(t) limited to the frequency band [latex]|f|\\leq \\frac{W}{2}[/latex] is passed through a linear time invariant system whose frequency response is [latex]H(f)=\\left\\{\\begin{matrix} e^{-j4\\pi f}, &|f|\\leq \\frac{W}{2} \\\\ 0, & |f|> \\frac{W}{2} \\end{matrix}\\right.[/latex] The output of the system is",
+    "solution": "[latex]\\begin{aligned} \\text{Given:} \\quad H(f)&=\\left\\{\\begin{array}{cc}e^{-j 4 \\pi t}, & |f| \\leq \\frac{\\omega}{2} \\\\ 0, & |f|>\\frac{\\omega}{2}\\end{array}\\right. \\\\ \\text{So, } \\quad|H(t)|&=1 \\\\ H(f)&=e^{-j 2.2 \\pi t} \\\\ H(\\omega)&=e^{j 2 \\omega} &|f| \\leq \\frac{\\omega}{2} \\\\ h(t)&=\\delta(t-2)\\\\ \\text{As we know that}\\\\ y(t)&=x(t) * h(t)\\\\ \\text{or}\\quad y(t)&=X(\\omega) \\cdot H(\\omega) \\\\ y(t)&=x(t) * \\delta(t-2) \\\\ y(t)&=x(t-2) \\end{aligned}[/latex]",
+    "options": {
+      "A": "x(t+4)",
+      "B": "x(t-4)",
+      "C": "x(t+2)",
+      "D": "x(t-2)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 The sequence [latex]x[n]=0.5^{n}u[n][/latex], where u[n] is the unit step sequence, is convolved with itself to obtain y[n]. Then [latex]\\sum_{n=-\\infty }^{+\\infty }y[n][/latex] is _____.",
+    "solution": "[latex]\\begin{aligned} \\text { Given } x[n] &=0.5^{n} u[n] \\\\ y[n] &=x[n] * x[n] \\\\ &=\\sum_{k=-\\infty}^{\\infty} x(k) h(n-k)\\\\ &=\\sum_{K=-\\infty}^{\\infty}(0.5)^{k} u(k)(0.5)^{n-k} u(n-k) \\\\ &=(0.5)^{n}\\left[\\sum_{k=-\\infty}^{\\infty} u(k) u(n-k)\\right] \\end{aligned}[/latex] Also we know that [latex] u[n] * u[n]=(n+1) u[n] [/latex] [latex] \\therefore [/latex] Using the above formula, we get [latex] \\begin{aligned} y[n]&=(0.5)^{n}(n+1) u[n] \\\\ \\text{Let }p&=\\sum_{n=0}^{\\infty}(0.5)^{n}(n+1) \\\\ \\text{Also let }a&=0.5 \\\\ \\therefore \\quad p&=\\sum_{n=0}^{\\infty} a^{n}(n+1) \\\\ \\rho&=a^{0}(1)+a^{1}(1+1)+a^{2}(2+1)+a^{3}(3+1)+\\ldots \\\\ a p&=a(1)+a^{2}(2)+a^{3}(3)+\\cdots \\\\ p-a p&=a^{0} \\cdot 1+a^{1}+a^{2}+\\cdots \\\\ p(1-a)&=\\frac{1}{1-a} \\\\ p&=\\frac{1}{(1-a)^{2}} \\\\ a&=0.5 \\text{ or } \\frac{1}{2} \\\\ p&=\\frac{1}{\\left(1-\\frac{1}{2}\\right)^{2}}=\\frac{1}{\\left(\\frac{1}{2}\\right)^{2}}=4 \\end{aligned}[/latex]",
+    "min": 3.9,
+    "max": 4.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 20 In a Bode magnitude plot, which one of the following slopes would be exhibited at high frequencies by a [latex]4^{th}[/latex] order all-pole system ?",
+    "solution": "A [latex]4^{\\text {th }}[/latex]  order all-pole system means that the system \r\nmust be having no zero or s-terms in numerator or \r\nand [latex]s^{4}[/latex]  terms in denominator or 4 -poles. i.e.  [latex]H(s) \\propto \\frac{1}{s^{4}} [/latex] One pole exhibits -20 dB/decade slope, so 4 pole \r\nexhibits a slope of -80 dB/decade.",
+    "options": {
+      "A": "[latex]-80 dB/decade[/latex]",
+      "B": "[latex]-40 dB/decade[/latex]",
+      "C": "[latex]+40 dB/decade[/latex]",
+      "D": "[latex]+80 dB/decade[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 For the second order closed-loop system shown in the figure, the natural frequency (in rad/s) is",
+    "solution": "The closed loop transfer function of the given system is [latex] \\frac{C(s)}{R(s)}=\\frac{4}{s(s+4)+4}=\\frac{4}{s^{2}+4 s+4} [/latex] Comparing with standard second order transfer [latex] \\begin{aligned} \\text{function }\\quad &\\frac{K \\omega_{n}^{2}}{S^{2}+2 \\xi \\omega_{n}+\\omega_{n}^{2}} \\\\ \\text{we get, }\\quad \\omega_{n}^{2}&=4 \\\\ \\text{or }\\quad\\omega_{n}&=\\sqrt{4}=2 \\mathrm{rad} / \\mathrm{sec} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page5_q1.webp",
+    "options": {
+      "A": "16",
+      "B": "4",
+      "C": "2",
+      "D": "1"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 If calls arrive at a telephone exchange such that the time of arrival of any call\nis independent of the time of arrival of earlier or future calls, the probability\ndistribution function of the total number of calls in a fixed time interval will be",
+    "solution": "",
+    "options": {
+      "A": "Poisson",
+      "B": "Gaussian",
+      "C": "Exponential",
+      "D": "Gamma"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 In a double side-band (DSB) full carrier AM transmission system, if the modulation index is doubled, then the ratio of total sideband power to the carrier power increases by a factor of ______.",
+    "solution": "Ratio of [latex]P_{S B}[/latex] to [latex]P_{C}[/latex] is [latex]\n\\begin{array}{l}\n\\quad P_{S B}={P}_{C}{\\mu}^{2} \\\\\n\\begin{array}{l}\n\\therefore \\quad \\frac{P_{S B}}{P_{C}}=\\frac{\\mu^{2}}{2} \\\\\n\\text { and }\\left(\\frac{P_{S B}}{P_{C}}\\right)_{1}=\\frac{\\mu_{1}^{2}}{2} \\\\\n\\left(\\frac{P_{S B}}{P_{C}}\\right)_{2}=\\frac{\\mu_{2}^{2}}{2} \\\\\n\\text { where, } \\quad\\left(\\frac{P_{S B}}{P_{C}}\\right)_{2}=\\frac{\\mu_{2}^{2}}{2} \\\\\n\\text { hence } \\frac{\\left(P_{S B} / P_{C}\\right)_{1}}{\\left(P_{S B} / P_{C}\\right)_{2}}=\\frac{1}{4} \\\\\n\\left(\\frac{P_{S B}}{P_{C}}\\right)_{2}=4\\left(\\frac{P_{S B}}{P_{C}}\\right)_{1}\n\\end{array}\n\\end{array}[/latex] Four times.",
+    "min": 3.95,
+    "max": 4.05
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 For an antenna radiating in free space, the electric field at a distance of 1 km is found to be 12mV/m. Given that intrinsic impedance of the free space is [latex]120\\pi \\Omega[/latex], the magnitude of average power density due to this antenna at a distance of 2 km from the antenna (in nW/[latex]m^{2}[/latex]) is _____.",
+    "solution": "Given electric field, E at a distance of [latex] 1 \\mathrm{km}=12 \\mathrm{mV} / \\mathrm{m}[/latex] Also we know that [latex]E \\propto \\frac{1}{r}[/latex], where r is the distance where electric field is to be measured. So, electric field, E at a distance of [latex]2 \\mathrm{km} [/latex] [latex] =\\frac{12 \\mathrm{mV} / \\mathrm{m}}{2}=6 \\mathrm{mV} / \\mathrm{m}[/latex] Also, power density due to the antenna is given as, [latex] \\begin{aligned} P_{\\text {avg }} &=\\frac{1}{2} \\frac{E^{2}}{\\eta}=\\frac{1}{2} \\times \\frac{6 \\times 6 \\times 10^{-6}}{120 \\pi} \\\\ &=47.7 \\mathrm{nW} / \\mathrm{m}^{2} \\end{aligned}[/latex]",
+    "min": 47.6,
+    "max": 47.8
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 Match column A with column B.",
+    "solution": "Point electromagnetic source radiates in all\r\ndirection \r\nDish antenna radiates any electromagnetic\r\nenergy in any particular direction with narrow\r\nbeam-width and high directivity \r\nYagi-uda antenna is high gain antenna used\r\nfor T.V. reception. Its radiation is along the axis\r\nof the antenna.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page5_q5.webp",
+    "options": {
+      "A": "[latex]1\\rightarrow P  \\;  2\\rightarrow Q  \\; 3\\rightarrow R[/latex]",
+      "B": "[latex]1\\rightarrow R  \\; 2\\rightarrow P  \\; 3\\rightarrow Q[/latex]",
+      "C": "[latex]1\\rightarrow Q  \\;  2\\rightarrow P  \\; 3\\rightarrow R[/latex]",
+      "D": "[latex]1\\rightarrow R  \\; 2\\rightarrow Q  \\; 3\\rightarrow P[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 With initial values y(0) = y'(0) = 1, the solution of the differential equation [latex]\\frac{d^{2}y}{dx^{2}}+4\\frac{dy}{dx}+4y=0[/latex] at x=1 is ______.",
+    "solution": "Given, [latex] \\begin{aligned} y(0)=y^{\\prime}(0)&=1 \\\\ \\frac{d^{2}y}{d x^{2}}+\\frac{4dy}{dx}+4y&=0 &\\ldots(i)\\\\ D^{2}+4 D+4&=0 \\\\ D&=-2,-2\\\\ y &=C_{1} e^{-2 x}+C_{2} x e^{-2 x} \\\\ y(0) &=C_{1}=1 \\\\ y^{\\prime} &=-2 e^{-2 x}+C_{2} e^{-2 x}+C_{2}(-2) x e^{-2 x} \\\\ y^{\\prime}(0) &=-2+C_{2}=1 \\\\ \\Rightarrow \\quad C_{2} &=3 \\\\ y &=e^{-2 x}+3 x e^{-2 x} \\\\ y(1) &=e^{-2}+3 \\times 2 e^{-2} \\\\ &=0.947 \\end{aligned}[/latex]",
+    "min": 0.53,
+    "max": 0.55
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 Parcels from sender S to receiver R pass sequentially through two post-offices. Each post-office has a probability [latex]\\frac{1}{5}[/latex] of losing an incoming parcel, independently of all other parcels. Given that a parcel is lost, the probability that it was lost by the second post-office is_____.",
+    "solution": "Probability to lost at post-office  [latex]1=\\frac{1}{5} [/latex] Probability to lost at post-office  [latex]2=\\frac{4}{5} \\times \\frac{1}{5} [/latex] Total probability to lost  [latex]=\\frac{1}{5}+\\frac{4}{25}=\\frac{9}{25} [/latex] Required probability  [latex]=\\frac{\\frac{4}{25}}{\\frac{9}{25}}=\\frac{4}{9}=0.444 [/latex]",
+    "min": 0.43,
+    "max": 0.45
+  },
+  {
+    "type": "mcq",
+    "question": "Question 28 The unilateral Laplace transform of [latex]f (t)[/latex] is [latex]\\frac{1}{s^{2}+s+1}[/latex]. Which one of the following is the unilateral Laplace transform of [latex]g(t) = t \\cdot f(t) [/latex]?",
+    "solution": "Given [latex]F(s)=\\frac{1}{s^{2}+s+1} [/latex] Laplace transform of [latex]g(t)=t \\cdot f(t) [/latex] [latex] \\begin{aligned} &=-\\frac{d F(s)}{d s}=\\frac{-d}{d s}\\left[\\frac{1}{\\left(s^{2}+s+1\\right)}\\right] \\\\ &=\\frac{(2 s+1)}{\\left(s^{2}+s+1\\right)^{2}} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{-s}{(s^2+s+1)^{2}}[/latex]",
+      "B": "[latex]\\frac{-(2s+1)}{(s^2+s+1)^{2}}[/latex]",
+      "C": "[latex]\\frac{s}{(s^2+s+1)^{2}}[/latex]",
+      "D": "[latex]\\frac{2s+1}{(s^2+s+1)^{2}}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 29 For a right angled triangle, if the sum of the lengths of the hypotenuse and a\nside is kept constant, in order to have maximum area of the triangle, the angle between the hypotenuse and the side is",
+    "solution": "Let a, b and h be the sides of such that [latex] h^{2}=a^{2}+b^{2}[/latex] Given, a+h=constant (K) say [latex] \\begin{array}{c} Area of \\Delta=\\frac{1}{2} \\times a \\times b=\\frac{1}{2} \\times a \\sqrt{h^{2}-a^{2}}\\\\ =\\frac{1}{2} a \\sqrt{K^{2}-2 a K} \\\\ \\frac{d \\Delta}{d a}=\\frac{1}{2} \\sqrt{K^{2}-2 a K}+\\frac{1}{2} a \\times \\frac{1}{2} \\frac{(-2 K)}{\\sqrt{K^{2}-2 a K}}=0 \\\\ \\begin{aligned} \\frac{1}{2}\\left[\\frac{K^{2}-2 a K-a K}{\\sqrt{K^{2}-2 a K}}\\right]&=0 \\\\ K(K-3 a)&=0 \\\\ K \\neq 0 \\Rightarrow \\quad K&=3 a \\\\ h&=2 a \\\\ \\theta =\\cos ^{-1}\\left(\\frac{a}{2 a}\\right) & =\\cos ^{-1}\\left(\\frac{1}{2}\\right)=60^{\\circ} \\end{aligned} \\end{array}[/latex]",
+    "options": {
+      "A": "[latex]12^{\\circ}[/latex]",
+      "B": "[latex]36^{\\circ}[/latex]",
+      "C": "[latex]60^{\\circ}[/latex]",
+      "D": "[latex]45^{\\circ}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 The steady state output of the circuit shown in the figure is given by\r\n[latex]y(t)=A(\\omega )sin(\\omega t+\\phi (\\omega ))[/latex]. If the amplitude [latex]|A(\\omega )|[/latex]= 0.25, then the frequency [latex]\\omega[/latex] is",
+    "solution": "Applying KCL at node A, we get [latex] \\begin{aligned} &=\\frac{V_{A}-\\sin \\omega t}{R}+\\frac{V_{A}}{\\frac{1}{j \\omega C}}+\\frac{V_{A}}{\\frac{2}{j \\omega C}}=0 &\\ldots(i)\\\\ &=V_{A}\\left[\\frac{1}{R}+j \\omega C+\\frac{j \\omega C}{2}\\right]=\\frac{\\sin \\omega t=1 \\angle 0^{\\circ}}{R} \\\\ &=V_{A}=\\frac{2}{2+3 R C \\cdot j \\omega} &\\ldots(ii)\\\\ \\text{Also }\\quad Y&=\\frac{V_{A}}{2}=\\frac{1}{2+3 j \\omega R C} &\\ldots(iii)\\\\ \\because|A(\\omega)|&=\\frac{1}{4} \\\\ \\therefore \\quad \\frac{1}{4}&=\\frac{1}{\\sqrt{4+9 \\omega^{2}(R C)^{2}}} \\\\ or \\quad \\omega&=\\frac{2}{\\sqrt{3} R C} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page6_q5.webp",
+    "options": {
+      "A": "[latex]\\frac{1}{\\sqrt{3}RC}[/latex]",
+      "B": "[latex]\\frac{2}{\\sqrt{3}RC}[/latex]",
+      "C": "[latex]\\frac{1}{RC}[/latex]",
+      "D": "[latex]\\frac{2}{RC}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 In the circuit shown in the figure, the value of [latex]v_{0}(t)[/latex] (in volts) for [latex]t\\rightarrow \\infty[/latex] is____.",
+    "solution": "At steady state the inductor act as a short circuit. [latex] \\therefore \\quad V_{x}=5 i_{x} [/latex] By KCL [latex] \\begin{aligned} &-10+\\frac{V_{x}-2 i_{x}}{5}+i_{x}=0\\\\ &-10+\\frac{5 i_{x}-2 i_{x}}{5}+i_{x}=0\\\\ \\text{or}&\\\\ \\frac{8 i_{x}}{5} &=10 \\\\ \\Rightarrow \\quad i_{x} &=\\frac{50}{8} \\mathrm{A} \\\\ \\therefore v_{0}(t) &=5 i_{x}(t)=\\frac{5 \\times 50}{8}=31.25 \\mathrm{V} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page7_q1.webp",
+    "min": 31.24,
+    "max": 31.26
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 The equivalent resistance in the infinite ladder network shown in the figure is [latex]R_{e}[/latex]. The value of [latex]R_{e}[/latex]/R is ____.",
+    "solution": "For an infinite ladder network, if all the resistance are comprises of same value R, then Or [latex] \\therefore \\quad R_{\\mathrm{eq}}=R+\\frac{R \\cdot R_{\\mathrm{eq}}}{R+R_{\\mathrm{eq}}}\\qquad\\ldots(i)[/latex] After solving equation (i) we get [latex] R_{\\mathrm{eq}}=\\left(\\frac{1+\\sqrt{5}}{2}\\right) R\\qquad\\ldots(ii)[/latex] From the given question, the circuit can be redraw as [latex] \\therefore \\quad R_{e}=R+R_{\\mathrm{eq}} \\qquad\\ldots(iii)[/latex] From equation (ii) and (iii) we get. [latex] \\begin{aligned} R_{e} &=R+\\left(\\frac{1+\\sqrt{5}}{2}\\right) R=2.618 R \\qquad\\ldots(iv)\\\\ \\text { or } \\frac{R_{e}}{R} &=2.618=2.62 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page7_q2.webp",
+    "min": 2.6,
+    "max": 2.64
+  },
+  {
+    "type": "mcq",
+    "question": "Question 33 For the two-port network shown in the figure, the impedance (Z) matrix (in [latex]\\Omega[/latex]) is",
+    "solution": "converting II-network to Y-network, we get [latex] \\therefore \\quad[/latex] Z -parameter [latex] \\begin{aligned} Z_{11}&=3 \\Omega+6 \\Omega=9 \\Omega \\\\ Z_{12}&=Z_{21}=6 \\Omega \\\\ Z_{22}&=18 \\Omega+6 \\Omega=24 \\Omega \\\\ \\left[Z\\right]&=\\left[\\begin{array}{cc}9 & 6 \\\\ 6 & 24\\end{array}\\right] \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page7_q3.webp",
+    "options": {
+      "A": "[latex]\\begin{bmatrix} 6 & 24\\\\ 42&9 \\end{bmatrix}[/latex]",
+      "B": "[latex]\\begin{bmatrix} 9 & 8\\\\ 8&24 \\end{bmatrix}[/latex]",
+      "C": "[latex]\\begin{bmatrix} 9 & 6\\\\ 6&24 \\end{bmatrix}[/latex]",
+      "D": "[latex]\\begin{bmatrix} 42 & 6\\\\ 6&60 \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 Consider a silicon sample doped with [latex]N_{D}=1\\times10^{15}/cm^{3}[/latex]\r\n donor atoms. Assume that the intrinsic carrier concentration [latex]n_{i}=1.5\\times10^{10}/cm^{3}[/latex]. If the sample is additionally doped with [latex]N_{A}=1\\times10^{18}/cm^{3}[/latex] acceptor atoms, the approximate number of electrons/[latex]cm^{3}[/latex]\r\n in the sample, at T = 300 K, will be _____.",
+    "solution": "For a compensated p-type semiconductor, the minority carrier electron concentration is given by [latex] \\begin{aligned} n_{0} &=\\frac{n_{i}^{2}}{\\left(N_{A}-N_{D}\\right)} \\\\ n_{0} &=\\frac{2.25 \\times 10^{20}}{\\left(10^{18}-10^{15}\\right)}=225.2 \\mathrm{cm}^{-3} \\end{aligned}[/latex]",
+    "min": 224.9,
+    "max": 225.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 Consider two BJTs biased at the same collector current with area [latex]A_{1}=0.2\\mu m \\times 0.2\\mu m [/latex] and [latex]A_{2}=300 \\mu m \\times 300 \\mu m[/latex]. Assuming that all other device parameters are identical, kT/q = 26 mV, the intrinsic carrier concentration is [latex]1 \\times 10^{10}cm^{-3},[/latex] and [latex] q=1.6 \\times 10^{-19}C[/latex], the difference between the base-emitter\r\nvoltages (in mV) of the two BJTs (i.e.,[latex]V_{BE1}-V_{BE2}[/latex]) is _____.",
+    "solution": "[latex]I_{C}[/latex] is given by [latex] \\begin{aligned} I_{C} &=I_{S} \\exp \\left[\\frac{V_{B E}}{\\eta V_{T}}\\right] \\\\ I_{G} &=I_{S_{1}} \\exp \\left[\\frac{V_{B E_{1}}}{\\eta V_{T}}\\right] &\\ldots(i)\\\\ I_{C_{2}} &=I_{S_{2}} \\exp \\left[\\frac{V_{B E_{2}}}{\\eta V_{T}}\\right]&\\ldots(ii) \\end{aligned}[/latex] According to given condition, [latex] \\begin{aligned} I_{G}&= I_{C_{2}} \\\\ I_{S_{1}} \\exp \\left[\\frac{V_{B E_{1}}}{\\eta V_{T}}\\right]&=I_{S_{2}} \\exp \\left[\\frac{V_{B E_{2}}}{\\eta V_{T}}\\right] \\\\ V_{B E_{1}}-V_{B E_{2}} &=\\eta V_{T} \\ln \\left[\\frac{I_{S_{2}}}{I_{S_{1}}}\\right] \\\\ V_{B E_{1}}-V_{B E_{2}} &=26 \\ln \\left[\\frac{300 \\times 300}{0.2 \\times 0.2}\\right]\\\\ \\because \\quad\\eta&=2 for Si BJT\\\\ V_{B E_{1}}-V_{B E_{2}}&=380 .28 \\mathrm{mV} \\end{aligned}[/latex]",
+    "min": 378.0,
+    "max": 381.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 An N -type semiconductor having uniform doping is biased as shown in the figure. If [latex]E_{C}[/latex] is the lowest energy level of the conduction band, [latex]E_{V}[/latex] is the highest energy level of the valance band and [latex]E_{F}[/latex] is the Fermi level, which one of the following represents the energy band diagram for the biased N -type semiconductor ?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page8_q1.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 Consider the common-collector amplifier in the figure (bias circuitry ensures\nthat the transistor operates in forward active region, but has been omitted forsimplicity). Let [latex]I_{C}[/latex] be the collector current, [latex]V_{BE}[/latex] be the base-emitter voltage and [latex]V_{T}[/latex]\n be the thermal voltage. Also, [latex]g_{m}[/latex] and [latex]r_{0}[/latex] are the small-signal transconductance and output resistance of the transistor, respectively. Which one of the following conditions ensures a nearly constant small signal voltage gain for a wide range of values of [latex]R_{E}[/latex]\n?",
+    "solution": "AC equivalent circuit for given common collector amplifier is [latex] \\begin{aligned} V_{\\text {in }}&=\\beta r_{e} i_{b}+(1+\\beta) i_{b} R_{E} \\quad\\cdots(i)\\\\ V_{o}&=(1+\\beta) R_{E} i_{b}\\quad\\cdots(ii)\\\\ \\text{Then}\\\\ \\frac{V_{0}}{V_{\\text {in }}}&=\\frac{(1+\\beta) R_{E}}{\\beta r_{e}+(1+\\beta) R_{E}}\\\\ \\frac{V_{o}}{V_{\\text {in }}}&=\\frac{\\beta R_{E}}{\\beta r_{e}+\\beta R_{E}}=\\frac{R_{E}}{r_{e}+R_{E}} \\end{aligned}[/latex] The condition for small signal voltage gain to be nearly constant is [latex] \\begin{aligned} R_{E} & \\gt \\gt r_{e} \\\\ R_{E} & \\gt \\gt \\frac{V_{T}}{I_{C}} \\\\ I_{C} R_{E} &\\gt \\gt V_{T} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page8_q2.webp",
+    "options": {
+      "A": "[latex]g_{m}R_{E} \\lt\\lt 1[/latex]",
+      "B": "[latex]I_{C}R_{E}\\gt\\gt V_{T}[/latex]",
+      "C": "[latex]g_{m}r_{0}\\gt\\gt 1[/latex]",
+      "D": "[latex]V_{BE}\\gt\\gt V_{T}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 A BJT in a common-base configuration is used to amplify a signal received by a 50 [latex]\\Omega[/latex] antenna. Assume kT/q = 25mV. The value of the collector bias current (in mA) required to match the input impedance of the amplifier to the impedance of the antenna is_____.",
+    "solution": "The input impedance of CB-amplifier is [latex] Z_{i}=r_{e}[/latex] So, according to given condition [latex] \\begin{aligned} r_{e} &=50 \\Omega \\\\ \\frac{V_{T}}{I_{C}} &=50 \\Omega \\\\ I_{C} &=\\frac{25 \\mathrm{mV}}{50 \\Omega} \\\\ I_{C} &=0.50 \\mathrm{mA} \\end{aligned}[/latex]",
+    "min": 0.49,
+    "max": 0.51
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 For the common collector amplifier shown in the figure, the BJT has high [latex]\\beta[/latex]\n, negligible [latex]V_{CE}(sat)[/latex], and [latex]V_{BE}[/latex] = 0.7 V. The maximum undistorted peak to peak output voltage [latex]v_{0}[/latex] (in Volts) is _____.",
+    "solution": "DC analysis [latex] \\begin{aligned} \\left(V_{B}\\right)_{q}&=\\frac{V_{c c} \\times R_{2}}{R_{1}+R_{2}}=\\frac{12 \\times 10 \\mathrm{k} \\Omega}{15 \\mathrm{k} \\Omega}=8 \\mathrm{V}\\\\ \\left(V_{E}\\right)_{Q} &=V_{B}-0.7=8-0.7=7.3 \\mathrm{V} \\\\ \\left(V_{C E}\\right)_{Q} &=\\left(V_{C}\\right)_{Q}-\\left(V_{E}\\right)_{O} \\\\ &=12-7.3=4.7 \\mathrm{V}\\\\ V_{o(p-p)}&=2\\times4.7=9.4V \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page8_q4.webp",
+    "min": 9.39,
+    "max": 9.41
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 An 8-to-1 multiplexer is used to implement a logical function Y as shown in the figure. The output Y is given by",
+    "solution": "Depending upon the select lines one input is transferred to the output in multiplexer. [latex] \\begin{aligned} \\therefore \\quad Y &=\\bar{A} \\bar{B} C D+\\bar{A} B C D+A B \\bar{C} \\\\ &=\\bar{A} C D(\\bar{B}+B)+A B \\bar{C} \\\\ &=A B \\bar{C}+ \\bar{A} C D \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page8_q5.webp",
+    "options": {
+      "A": "[latex]Y=A\\bar{B}C+A\\bar{C}D[/latex]",
+      "B": "[latex]Y=\\bar{A}BC+A\\bar{B}D[/latex]",
+      "C": "[latex]Y=AB\\bar{C}+\\bar{A}CD[/latex]",
+      "D": "[latex]Y=\\bar{A}\\bar{B}D+A\\bar{B}C[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 A 16-bit ripple carry adder is realized using 16 identical full adders (FA) as shown in the figure. The carry-propagation delay of each FA is 12 ns and the sumpropagation delay of each FA is 15 ns. The worst case delay (in ns) of this 16-bit adder will be ______.",
+    "solution": "Full adder is a combinational circuit that performs the sum of three bits i.e. add two bits and a carry from previous addition and produces output as sum and carry. Given carry propagation delay of each [latex] FA= 12\\mathrm{nsec}.[/latex] Sum-propagation delay of each [latex]FA= 15\\mathrm{nsec}.[/latex] As can be seen from above diagram, full adder is not received from previous full adder. So, in 16-bit ripple carry adder, worst case delay of this 16-bit adder will be [latex] \\begin{aligned} &= (15 \\times 12) \\mathrm{nsec}. + 15 \\mathrm{nsec}.\\\\ &= 195 \\mathrm{nsec}. \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page9_q1.webp",
+    "min": 194.9,
+    "max": 195.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 An 8085 microprocessor executes \"STA 1234H\" with starting address location 1FFEH (STA copies the contents of the Accumulator to the 16-bit address location). While the instruction is fetched and executed, the sequence of values written at the address pins [latex]A_{15}-A_{8}[/latex]\n is",
+    "solution": "Given STA 1234 H Starting addressing location is 1 FFEH 1FFEH : STA 1234H i.e.  1FFEH : XX Opcode fetch [latex] 1FFFH \\rightarrow 34 \\mathrm{H} [/latex] [latex] 2000 H \\rightarrow 12 H [/latex] Now after the instruction, 1234 H memory location will have the contents of accumulator. So, the sequences of values written at the address pins [latex]\\mathrm{A}_{15}-\\mathrm{A}_{8}[/latex] is as shown above. [latex] 1 \\mathrm{FH}, 1 \\mathrm{FH}, 20 \\mathrm{H}, 12 \\mathrm{H}[/latex]",
+    "options": {
+      "A": "1FH, 1FH, 20H, 12H",
+      "B": "1FH, FEH, 1FH, FFH, 12H",
+      "C": "1FH, 1FH, 12H, 12H",
+      "D": "1FH, 1FH, 12H, 20H, 12H"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 A stable linear time invariant (LTI) system has a transfer function [latex]H(S)=\\frac{1}{s^{2}+s-6}[/latex]. To make this system causal it needs to be cascaded with another LTI system having a transfer function [latex]H_{1}(S)[/latex]. A correct choice for [latex]H_{1}(S)[/latex] among the following options is",
+    "solution": "[latex]H(s)=\\frac{1}{\\left(s^{2}+s-6\\right)}[/latex] The system is said to be causal if the output at  any time depends only on present and/or past values of input or [latex] h(t)=0[/latex] for [latex]t \\gt 0[/latex] i.e. all poles must lie on LHS of S-plane. [latex] H(s)=\\frac{1}{(s+3)(s-2)}[/latex] From the above expression it can be seen that s=2 is a pole which lies on RHS of s-plane. So, [latex] H_{1}(s)[/latex] system that needs to be cascaded should have one zero at (s-2) [latex] \\text { Thus, } H(s) H_{1}(s)=(s-2) \\cdot \\frac{1}{(s+3)(s-2)}  =\\frac{1}{(s+3)} \\rightarrow \\text { causal system } [/latex]",
+    "options": {
+      "A": "s+3",
+      "B": "s-2",
+      "C": "s-6",
+      "D": "s+1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 A causal LTI system has zero initial conditions and impulse response [latex]h(t)[/latex]. Its\r\ninput [latex]x(t)[/latex] and output [latex]y(t)[/latex] are related through the linear constant-coefficient\r\ndifferential equation [latex]\\frac{d^{2}y(t)}{dt^{2}}+\\alpha \\frac{dy(t)}{dt}+\\alpha ^{2}y(t)=x(t)[/latex] Let another signal [latex]g(t)[/latex] be defined as [latex]g(t)=\\alpha ^{2}\\int_{0}^{t}h(\\tau )+\\frac{dh(t)}{dt}+\\alpha h(t)[/latex] If [latex]G(s)[/latex] is the Laplace transform of [latex]g(t)[/latex], then the number of poles of [latex]G(s)[/latex] is____.",
+    "solution": "[latex]\\frac{d^{2} y(t)}{d t^{2}}+\\alpha \\frac{d y}{d t}+\\alpha^{2} y(t)=x(t) [/latex] [latex] \\therefore\\left(s^{2}+\\alpha s+\\alpha^{2}\\right) Y(s)=X(s) [/latex] [latex] H(s)=\\frac{Y(s)}{X(s)}=\\frac{1}{\\left(s^{2}+\\alpha s+\\alpha^{2}\\right)} [/latex] Let another signal g(t) be defined as [latex] \\begin{aligned} G(s)&=\\frac{\\alpha^{2}}{s} H(s)+s H(s)+\\alpha H(s) \\\\ G(s) &=\\left(\\frac{\\alpha^{2}}{s}+s+\\alpha\\right) H(s) \\\\ =&\\left(\\frac{\\alpha^{2}+s^{2}+s \\alpha}{s}\\right) \\cdot\\left(s^{2}+\\alpha s+\\alpha^{2}\\right) \\\\ =& \\frac{\\left(s^{2}+s \\alpha+a^{2}\\right)}{s\\left(s^{2}+\\alpha s+\\alpha^{2}\\right)}=\\frac{1}{s} \\end{aligned} [/latex] So, number of poles of G(s) is 1",
+    "min": 0.99,
+    "max": 1.01
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 The N -point DFT X of a sequence x[n], [latex]0\\leq n\\leq N-1[/latex] is given by, [latex]X[k]=\\frac{1}{\\sqrt{N}}\\sum_{n=0}^{N-1}x[n]e^{-j\\frac{2\\pi }{N}nk}[/latex],   [latex]0\\leq k\\leq N-1[/latex] Denote this relation as [latex] X = DFT(x)[/latex]. For N=4, which one of the following sequences satisfies [latex]DFT(DFT(x)) = x [/latex]?",
+    "solution": "[latex]\\text { DFT }(\\text{DFT}(x))=x[/latex] [latex] \\begin{aligned} \\text { Let, } x &=[123] \\\\ \\text { DFT }(x) &=\\frac{1}{\\sqrt{4}}\\left[\\begin{array}{cccc}1 & 1 & 1 & 1 \\\\ 1 & -j & -1 & j \\\\ 1 & -1 & 1 & -1 \\\\ 1 & j & -1 & -j\\end{array}\\right]\\left[\\begin{array}{l}1 \\\\ 2 \\\\ 3 \\\\ 2\\end{array}\\right] \\\\ &=\\frac{1}{2}\\left[\\begin{array}{r}8 \\\\ -2 \\\\ 0 \\\\ -2\\end{array}\\right]=\\left[\\begin{array}{r}4 \\\\ -1 \\\\ 0 \\\\ -1\\end{array}\\right] \\end{aligned}[/latex] [latex] \\begin{array}{l} \\text { DFT } (\\text { DFT }(x))=\\frac{1}{\\sqrt{4}}\\left[\\begin{array}{cccc} 1 & 1 & 1 & 1 \\\\ 1 & -j & -1 & j \\\\ 1 & -1 & 1 & -1 \\\\ 1 & j & -1 & -j \\end{array}\\right]\\left[\\begin{array}{c} 4 \\\\ -1 \\\\ 0 \\\\ -1 \\end{array}\\right] \\\\ =\\frac{1}{2}\\left[\\begin{array}{l} 2 \\\\ 4 \\\\ 6 \\\\ 4 \\end{array}\\right]=\\left[\\begin{array}{l} 1 \\\\ 2 \\\\ 3 \\\\ 2 \\end{array}\\right] \\end{array}[/latex]",
+    "options": {
+      "A": "[latex]x=\\begin{bmatrix} 1 & 2 &3 &4 \\end{bmatrix}[/latex]",
+      "B": "[latex]x=\\begin{bmatrix} 1 & 2 &3 &2 \\end{bmatrix}[/latex]",
+      "C": "[latex]x=\\begin{bmatrix} 1 & 3 &2 &2 \\end{bmatrix}[/latex]",
+      "D": "[latex]x=\\begin{bmatrix} 1 & 2 &2 &3 \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 The state transition matrix [latex]\\phi (t)[/latex] of a system [latex]\\begin{bmatrix} \\dot{x}_{1}\\\\ \\dot{x}_{2} \\end{bmatrix}=\\begin{bmatrix} 0 & 1\\\\ 0&0 \\end{bmatrix}\\begin{bmatrix} x_{1}\\\\ x_{2} \\end{bmatrix}[/latex] is",
+    "solution": "[latex]\\begin{aligned} \\text { Given } &\\left[\\begin{array}{l} \\dot{x}_{1} \\\\ \\dot{x}_{2} \\end{array}\\right]=\\left[\\begin{array}{ll} 0 & 1 \\\\ 0 & 0 \\end{array}\\right]\\left[\\begin{array}{l} x_{1} \\\\ x_{2} \\end{array}\\right] \\\\ A &=\\left[\\begin{array}{ll} 0 & 1 \\\\ 0 & 0 \\end{array}\\right] \\\\ [s I-A] &=\\left[\\begin{array}{ll} s & 0 \\\\ 0 & s \\end{array}\\right]-\\left[\\begin{array}{ll} 0 & 1 \\\\ 0 & 0 \\end{array}\\right]=\\left[\\begin{array}{ll} s & -1 \\\\ 0 & s \\end{array}\\right] \\\\ [s I-A]=s^{2} & \\\\ \\phi(t) &=\\mathcal{L}^{-1}[s I-A]^{-1} \\\\ &=\\frac{1}{s^{2}}\\left[\\begin{array}{ll} s & 1 \\\\ 0 & s \\end{array}\\right] \\\\ &=L^{-1}\\left[\\begin{array}{cc} \\frac{1}{s} & \\frac{1}{s^{2}} \\\\ 0 & \\frac{1}{s} \\end{array}\\right]=\\left[\\begin{array}{ll} 1 & t \\\\ 0 & 1 \\end{array}\\right] \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\begin{bmatrix} t & 1\\\\ 1&0 \\end{bmatrix}[/latex]",
+      "B": "[latex]\\begin{bmatrix} 1 & 0\\\\ t&1 \\end{bmatrix}[/latex]",
+      "C": "[latex]\\begin{bmatrix} 0 & 1\\\\ 1&t \\end{bmatrix}[/latex]",
+      "D": "[latex]\\begin{bmatrix} 1 & t\\\\ 0&1 \\end{bmatrix}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 Consider a transfer function [latex]G_{p}(s)=\\frac{ps^{2}+3ps-2}{s^{2}+(3+p)s+(2-p)}[/latex] with [latex]p[/latex] a positive real parameter. The maximum value of [latex]p[/latex] until which [latex]G_{p}[/latex] remains stable is ____.",
+    "solution": "Given transfer function [latex] G_{p}(s)=\\frac{p s^{2}+3 p s-2}{s^{2}+(3+p) s+(2-p)} \\qquad\\ldots(i)[/latex] The characteristic equation is [latex] =s^{2}+(3+p) s+(2-p)\\qquad\\ldots(ii)[/latex] Using Routh Hurtwiz criterion, [latex] \\begin{array}{l|ll} s^{2} & 1 & (2-P) \\\\ s^{1} & (3+p) & 0 \\\\ s^{0} & (2-p) & 0 \\end{array}[/latex] For system to be remain stable [latex] \\begin{aligned} 2-p & \\geq 0 \\\\ p_{\\max } &=1.99 \\end{aligned}[/latex]",
+    "min": 1.9,
+    "max": 2.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 The characteristic equation of a unity negative feedback system is [latex]1 + KG(s) = 0[/latex]. The open loop transfer function G(s) has one pole at 0 and two poles at -1. The root locus of the system for varying K is shown in the figure. The constant damping ratio line  for [latex]\\xi= 0.5[/latex], intersects the root locus at point A. The distance from the origin to point A is given as 0.5. The value of K at point A is ____.",
+    "solution": "According to the question [latex] G(s) H(s)=\\frac{K}{s(s+1)^{2}} \\qquad \\ldots(i)[/latex] The damping ratio is given as [latex]\\xi=0.5[/latex] [latex] \\therefore \\quad \\theta=\\cos ^{-1} \\xi=60^{\\circ}[/latex] Let the co-ordinates of point 'A' is (-a+jb) where, [latex]\\cos 60^{\\circ}=\\frac{O B}{O A} \\qquad \\ldots(ii)[/latex] Also, [latex]\\quad O A=0.5 [/latex] (Given) [latex] \\therefore O B=0.25[/latex] Similarly, [latex] \\begin{array}{l} \\sin 60^{\\circ}=\\frac{B A}{O A} \\qquad \\ldots(iii)\\\\ \\therefore \\quad B A=j b=0.433 j \\end{array}[/latex] Hence, co-ordinates of [latex]A = -0.25 + 0.43j[/latex] [latex] \\therefore [/latex] The value of system gain K can be obtained as [latex] |G(s) H(s)|=1\\qquad \\ldots(iv)[/latex] From (i) and (iv) we get [latex]s=-0.25+j 4.33 [/latex] [latex] K=0.37[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page10_q3.webp",
+    "min": 0.32,
+    "max": 0.41
+  },
+  {
+    "type": "mcq",
+    "question": "Question 49 Consider a communication scheme where the binary valued signal X satisfies\r\nP{X =+1} = 0.75 and P{X =-1} = 0.25. The received signal Y = X + Z , where\r\nZ is a Gaussian random variable with zero mean and variance [latex]\\sigma ^{2}[/latex]. The received signal Y is fed to the threshold detector. The output of the threshold detector [latex]\\hat{X}[/latex] is: [latex]\\hat{X}=\\left\\{\\begin{matrix} +1 & Y>\\tau \\\\ -1&Y \\leq \\tau \\end{matrix}\\right.[/latex] To achieve a minimum probability of error [latex]P\\lbrace \\hat{X}\\neq X \\rbrace[/latex] the threshold [latex]\\tau[/latex] should be",
+    "solution": "The optimum threshold value is [latex] \\begin{aligned} \\lambda_{0} &=\\frac{\\sigma^{2}}{x_{1}-x_{2}}\\left[\\ln \\frac{P\\left(x_{2}\\right)}{P\\left(x_{1}\\right)}+\\frac{x_{1}^{2}-x_{2}^{2}}{2 \\sigma^{2}}\\right] \\\\ x_{1} &=1, \\quad x_{2}=-1 \\\\ P\\left(X_{1}\\right) &=0.75, P\\left(X_{2}\\right)=0.25 \\\\ \\lambda_{0} &=\\frac{\\sigma^{2}}{2}\\left[\\ln \\frac{0.25}{0.75}\\right]=-\\frac{\\sigma^{2}}{2} \\end{aligned}[/latex] So, [latex]\\lambda_{o}[/latex] should be strictly negative.",
+    "options": {
+      "A": "strictly positive",
+      "B": "zero",
+      "C": "strictly negative",
+      "D": "strictly positive, zero, or strictly negative depending on the nonzero value\nof  [latex]\\sigma ^{2}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 Consider the Z-channel given in the figure. The input is 0 or 1 with equal\r\nprobability. If the output is 0, the probability that the input is also 0 equals ____",
+    "solution": "[latex]\\text{Given},P(X)=[0.5\\;0.5][/latex] [latex] P\\left[\\frac{Y}{X}\\right]=\\left[\\begin{array}{ccc} \\stackrel{y_{1}}{1} & \\stackrel{y_{2}}{1} \\\\ 0.25 & 0.75\\end{array}\\right] [/latex] Then [latex] \\begin{aligned} P[X, Y] &=\\left[\\begin{array}{cc} 0.5 & 0 \\\\ 0.125 & 0.375 \\end{array}\\right] \\\\ \\text{and} P\\left(Y_{1}\\right) &=0.625 \\\\ P\\left(Y_{2}\\right) &=0.375 \\end{aligned}[/latex] and the conditional probability matrix. [latex] P\\left[\\frac{Y}{X}\\right][/latex] is given by [latex] P\\left[\\frac{Y}{X}\\right]=\\left[\\begin{array}{ccc} \\stackrel{y_{1}}{1} & \\stackrel{y_{2}}{1} \\\\ 0.25 & 0.75\\end{array}\\right] [/latex] Hence,  [latex]P\\left[\\frac{x_{1}}{y_{1}}\\right]= P\\left(\\frac{0}{0}\\right)=0.8[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set4/page10_q5.webp",
+    "min": 0.79,
+    "max": 0.81
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 An M-level PSK modulation scheme is used to transmit independent binary digits over a band-pass channel with bandwidth 100 kHZ. The bit rate is 200 kbps and the system characteristic is a raised-cosine spectrum with 100% excess bandwidth. The minimum value of M is ________.",
+    "solution": "[latex]\\begin{aligned} B &=\\frac{R_{b}}{\\log _{2} M}(1+\\alpha) \\Rightarrow 100=\\frac{200 \\times 2}{\\log _{2} M} \\\\ \\log _{2} M &=4 \\\\ \\text { So, } M &=16 \\end{aligned}[/latex]",
+    "min": 15.9,
+    "max": 16.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 Consider a discrete-time channel Y = X + Z , where the additive noise Z is signaldependent. In particular, given the transmitted symbol [latex]X\\in \\lbrace -a,+a \\rbrace [/latex], at any instant, the noise sample Z is chosen independently from a Gaussian distribution with mean [latex]\\beta X[/latex] and unit variance. Assume a threshold detector with zero threshold at the receiver. When [latex]\\beta [/latex]= 0, the BER was found to be [latex]Q(a)=1 \\times 1^{-8}[/latex]. [latex](Q(v)=\\frac{1}{\\sqrt{2\\pi} }\\int_{v}^{\\infty }e^{-u^{2}/2}du[/latex], and for [latex]v\\gt 1[/latex], use [latex]Q(v)\\approx e^{-v^{2}/2}[/latex]) When [latex]\\beta =-0.3[/latex], the BER is closet to",
+    "solution": "[latex]Y=X+Z [/latex] Z is Gaussian RV with mean [latex]\\beta x [/latex] [latex] \\begin{array}{c} x \\in\\left\\{-a_{1}+a\\right\\} \\\\ \\text { when } \\beta=0 \\quad E[Y]=E[X]+E[Z] \\\\ E[Y]=E[X]=+a \\\\ B E R=Q(a)=1 \\times 10^{-8} \\\\ Q(v)=\\frac{1}{\\sqrt{2 \\pi}} \\int_{v}^{\\infty} e^{-\\frac{v^{2}}{2}} d u \\cong e^{-\\frac{v^{2}}{2}} \\\\ Q(a)=1 \\times 10^{-8}=e^{-\\frac{a^{2}}{2}} \\\\ a=6 \\\\ \\end{array}[/latex] [latex] \\text { when } \\beta=-0.3 \\text { mean }=6 \\times-0.3=-1.8 [/latex] [latex] \\begin{aligned} \\text { So, } E[Y]&=E[X]+E[Z]=6-1.8=4.2\\\\ \\text{So, }\\quad B E R&=Q(4.2) \\cong e^{\\frac{-a^{2}}{2}} \\\\ &\\cong 0.001\\\\ &\\cong 10^{-4} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]10^{-7}[/latex]",
+      "B": "[latex]10^{-6}[/latex]",
+      "C": "[latex]10^{-4}[/latex]",
+      "D": "[latex]10^{-2}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 The electric field (assumed to be one-dimensional) between two points A and B is shown. Let [latex]\\psi _{A}[/latex] and [latex]\\psi _{B}[/latex] be the electrostatic potentials at A and B, respectively. The value of [latex]\\psi _{B}-\\psi _{A}[/latex] in Volts is",
+    "solution": "E is linear from A to B and E=mx+C [latex] \\begin{aligned} V&=-\\int_{B}^{A}(m x+c) d x \\\\ \\text { At point } A: x&= 0, E=c=2 \\times 10^{6} \\vee / m =x 10^{-6}\\\\ \\text { At point } B: x &=5 \\times 10^{-6} \\\\ E &=4 \\times 10^{6}=m \\times 5 \\times 10^{-6}+2 \\times 10^{6} \\\\ m &=4 \\times 10^{11}\\\\ -\\int^{\\Psi_{A}}_{\\Psi_{B}} E \\cdot d l&=-\\int_{5\\mu m}^{0}\\left[20 \\times 10^{5} \\times 5 \\times 10^{-6}+\\frac{4 \\times 10^{11}}{2}\\left[\\left(5 \\times 10^{-6}\\right)-0^{2}\\right]\\right] \\\\ \\Psi_{A}-\\Psi_{B} &=-\\left[\\left(20 \\times 10^{5} \\times 5 \\times 10^{-6}\\right)+\\frac{4 \\times 10^{11}}{2}\\left[\\left(5 \\times 10^{-6}\\right)^{2}-0^{2}\\right]\\right] \\\\ &=-\\left[10+\\left(2 \\times 10^{11} \\times 25 \\times 10^{-12}\\right)\\right] \\\\ &=-15 \\mathrm{V} \\end{aligned}[/latex]",
+    "min": -15.1,
+    "max": -14.9
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 Given [latex]\\vec{F}=z\\hat{a}_{x}+x\\hat{a}_{y}+y\\hat{a}_{z}[/latex]. If S represents the portion of the sphere [latex]x^{2}+y^{2}+z^{2}=1[/latex] for [latex]z\\geq 0[/latex], then  [latex]\\int_{0}^{s}\\bigtriangledown  \\times \\vec{F}\\cdot \\vec{ds}[/latex] is______.",
+    "solution": "[latex]\\int _s \\bigtriangledown \\times \\vec{F}\\cdot \\vec{ds}=\\oint _C \\vec{F}\\cdot \\vec{dr}[/latex] (Using stoke's theorem and C is closed curve i.e.) [latex]\\begin{aligned} &x^2+y^2=1, z=0 \\\\ &\\Rightarrow \\; x= \\cos \\theta ,y= \\sin \\theta \\text{ and }\\theta :0 \\text{ to }2 \\pi \\\\ &= \\oint _C zdx+xdy+ydz\\\\ &= \\oint _C xdy=\\int_{0}^{2\\pi} \\cos \\theta (\\cos \\theta d\\theta )\\\\ &= \\frac{1}{2}\\left ( \\theta +\\frac{\\sin 2\\theta }{2} \\right )_0^{2 \\pi}=\\pi\\simeq 3.14 \\end{aligned}[/latex]",
+    "min": 3.13,
+    "max": 3.15
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 If [latex]\\vec{E}=-9(2y^{3}-3yz^{2})\\hat{x}-(6xy^{2}-3xz^{2})\\hat{y}+(6xyz)\\hat{z}[/latex] is the electric field in a source free region, a valid expression for the electrostatic potential is",
+    "solution": "[latex]\\begin{aligned} E &=-\\frac{\\partial V}{\\partial x} \\hat{a}_{x}-\\frac{\\partial V}{\\partial y} \\hat{a}_{y}-\\frac{\\partial V}{\\partial Z} \\hat{a}_{z} \\\\ \\frac{\\partial V}{\\partial x} &=2 y^{3}-3 y z^{2} &V=2 x y^{3}-3 x y z^{2}+K_{1} \\\\ \\frac{\\partial V}{\\partial y} &=6 x y^{2}-3 x z^{2} &V=2 x y^{3}-3 x y z^{2}+K_{2} \\\\ \\frac{\\partial V}{\\partial z} &=-6 x y z &V=-3 x y z^{2}+K_{3} \\end{aligned}[/latex] Comparing all three for uniqueness solution of potential [latex] \\begin{array}{c} K_{1}=K_{2}=0, \\quad K_{3}=2 x y^{3} \\\\ \\vec{E}=-\\left(2 y^{3}-3 y z^{2}\\right) \\hat{x}-\\left(6 x y^{2}-3 x z^{2}\\right) \\hat{y}+(6 x y z) \\hat{z} \\end{array}[/latex] as we know that [latex]E=-\\nabla V [/latex] [latex] E=-\\left(\\frac{\\partial}{\\partial x} \\hat{x}+\\frac{\\partial}{\\partial y} \\hat{y}+\\frac{\\partial}{\\partial z} \\hat{z}\\right) V \\quad\\ldots(i)[/latex] Clearly option (D) satisfies the given relation.",
+    "options": {
+      "A": "[latex]xy^{3}-yz^{2}[/latex]",
+      "B": "[latex]2xy^{3}-xyz^{2}[/latex]",
+      "C": "[latex]y^{3}+xyz^{2}[/latex]",
+      "D": "[latex]2xy^{3}-3xyz^{2}[/latex]"
+    },
+    "correct_answer": "D"
+  }
+]

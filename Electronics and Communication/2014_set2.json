@@ -1,0 +1,558 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 The determinant of matrix A is 5 and the determinant of matrix B is 40. The\ndeterminant of matrix AB is ______.",
+    "solution": "Determinant of A=5 Determinant of B=40 Determinant of AB=|A||B| [latex] \\begin{array}{l} \\quad=5 \\times 40 \\\\ \\quad=200 \\end{array}[/latex]",
+    "min": 199.0,
+    "max": 201.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 Let X be a random variable which is uniformly chosen from the set of positive\nodd numbers less than 100. The expectation, E [X], is _____.",
+    "solution": "[latex]E[X]=\\frac{1+2+3+\\cdots 99}{50}=\\frac{2500}{50}=50[/latex]",
+    "min": 49.9,
+    "max": 50.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 For [latex]0\\leq t \\leq \\infty[/latex]\n, the maximum value of the function [latex]f(t) =e^{-t}-2e^{-2t}[/latex]  occurs at",
+    "solution": "[latex]\\begin{aligned} f(t)&=e^{-t}-2 e^{-2 t} \\\\ f^{\\prime}(t)&=-e^{-t}+4 e^{-2 t} \\\\ \\text{For maximum value} &P(t)=0 \\\\ f^{\\prime}(t)&=0=-e^{-t}+4 e^{-2 t} \\\\ \\Rightarrow \\quad 4 e^{-2 t}&=e^{t} \\\\ 4 e^{t}&=1 \\\\ \\therefore \\quad t&=\\log _{e} 4 \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]t=log_{e}4[/latex]",
+      "B": "[latex]t=log_{e}2[/latex]",
+      "C": "t=0",
+      "D": "[latex]t=log_{e}8[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 The value of [latex]\\lim_{x\\rightarrow \\infty }(1+\\frac{1}{x})^{x}[/latex] is",
+    "solution": "[latex]\\lim _{x \\rightarrow \\infty}\\left(1+\\frac{1}{x}\\right)^{x}=e^{\\lim _{x \\rightarrow \\infty} \\frac{1}{x} \\cdot x}=e^{1}=e[/latex]",
+    "options": {
+      "A": "ln 2",
+      "B": "1",
+      "C": "e",
+      "D": "[latex]\\infty[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 5 If the characteristic equation of the differential equation [latex]\\frac{d^{2}y}{dx^{2}}+2\\alpha \\frac{dy}{dx}+y=0[/latex] has two equal roots, then the values of a are",
+    "solution": "[latex]\\frac{d^{2} y}{d x^{2}}+2 \\alpha\\frac{d y}{d x}+y=0 [/latex] The characteristic equation is given as [latex] \\begin{aligned} \\left(m^{2}+2(x)+1\\right) &=0 \\\\ m_{1}, m_{2} &=\\frac{-2 x_{1} \\pm \\sqrt{4 x^{2}-4}}{2} \\end{aligned}\\\\ \\text{since both roots are equal i.e.} \\\\ \\begin{aligned} m_{1}=& m_{2} \\\\ \\frac{-2 \\alpha+\\sqrt{4 \\alpha^{2}-4}}{2} &=\\frac{-2\\alpha \\cdot-\\sqrt{4 a^{2}-4}}{2} \\\\ \\sqrt{4\\left(1^{2}-4\\right.} &=-\\sqrt{4 c^{2}-4} \\\\ 2 \\sqrt{4 c^{2}-4} &=0 \\\\ 4 \\alpha^{2}-4 &=0 \\\\ \\alpha^{2} &=1 \\\\ \\alpha &=\\pm 1 \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]\\pm 1[/latex]",
+      "B": "0,0",
+      "C": "[latex]\\pm j[/latex]",
+      "D": "[latex]\\pm 1/2[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Norton's theorem states that a complex network connected to a load can be\nreplaced with an equivalent impedance",
+    "solution": "Norton's theorem states that a complex network \r\nconnected to a load can be replaced with an equivalent \r\nimpedance in parallel with a current source",
+    "options": {
+      "A": "in series with a current source",
+      "B": "in parallel with a voltage source",
+      "C": "in series with a voltage source",
+      "D": "in parallel with a voltage source"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 7 In the figure shown, the ideal switch has been open for a long time. If it is closed\r\nat t = 0, then the magnitude of the current (in mA) through the 4 k[latex]\\Omega[/latex] resistance\r\nat t = [latex]0^{+}[/latex] is _____.",
+    "solution": "At steady state [latex]t = 0_{-}[/latex] [latex] \\begin{aligned} \\therefore V_{c}(0) &=V_{c}\\left(0^{+}\\right)=5 \\mathrm{V} \\\\ I_{L}\\left(0^{-}\\right) &=I_{L}\\left(0^{+}\\right)=1 \\mathrm{mA} \\end{aligned} [/latex] At, t=0, switch get closed Thus, the current through [latex]4\\Omega[/latex] resistance is [latex] I=\\frac{5}{4 \\times 10^{3}}=1.25 \\mathrm{mA}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page2_q2.webp",
+    "min": 1.2,
+    "max": 1.3
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 A silicon bar is doped with donor impurities [latex]N_{D}=2.25\\times10^{15} atom/cm^{3}[/latex]. Given the intrinsic carrier concentration of silicon at T = 300 K is [latex]n_{i}=1.5\\times10^{10}cm^{-3}[/latex]. Assuming complete impurity ionization, the equilibrium election and hole concentrations are",
+    "solution": "since [latex]N_{D} \\gt \\gt n_{i}[/latex] therefore equilibrium electron  concentration is [latex] n \\simeq N_{D}=2.25 \\times 10^{15} \\mathrm{cm}^{-3}[/latex] And equilibrium hole concentration is given by mass action law [latex] p=\\frac{n_{i}^{2}}{N_{D}}=\\frac{\\left(1.5 \\times 10^{10}\\right)^{2}}{2.25 \\times 10^{15}}=1 \\times 10^{5} \\mathrm{cm}^{-3}[/latex]",
+    "options": {
+      "A": "[latex]n_{0}=1.5 \\times 10^{16}cm^{-3},[/latex] [latex]p_{0}=1.5 \\times 10^{5}cm^{-3}[/latex]",
+      "B": "[latex]n_{0}=1.5 \\times 10^{10}cm^{-3},[/latex] [latex]p_{0}=1.5 \\times 10^{15}cm^{-3}[/latex]",
+      "C": "[latex]n_{0}=2.25 \\times 10^{15}cm^{-3},[/latex] [latex]p_{0}=1.5 \\times 10^{10}cm^{-3}[/latex]",
+      "D": "[latex]n_{0}=2.25 \\times 10^{15}cm^{-3},[/latex] [latex]p_{0}=1 \\times 10^{5}cm^{-3}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 9 An increase in the base recombination of a BJT will increase",
+    "solution": "",
+    "options": {
+      "A": "the common emitter dc current gain [latex]\\beta[/latex]",
+      "B": "the breakdown voltage [latex]BV_{CEO}[/latex]",
+      "C": "the unity-gain cut-off frequency [latex]f_{T}[/latex]",
+      "D": "the transconductance [latex]g_{m}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 In CMOS technology, shallow P-well or N -well regions can be formed using",
+    "solution": "Ion implanation/diffusion is used for well\nimplantation.",
+    "options": {
+      "A": "low pressure chemical vapour deposition",
+      "B": "low energy sputtering",
+      "C": "low temperature dry oxidation",
+      "D": "low energy ion-implantation"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 The feedback topology in the amplifier circuit ( the base bias circuit is not shown\r\nfor simplicity) in the figure is",
+    "solution": "The feedback topology in the amplifier circuit is current series because Sampling [latex]\\rightarrow[/latex]  Current Mixing [latex]\\rightarrow[/latex]  Series So current-series feedback",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page3_q1.webp",
+    "options": {
+      "A": "Voltage shunt feedback",
+      "B": "Current series feedback",
+      "C": "Current shunt feedback",
+      "D": "Voltage series feedback"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 In the differential amplifier shown in the figure, the magnitudes of the commonmode\r\nand differential-mode gains are [latex]A_{cm} \\; and \\;  A_{d}[/latex], respectively. If the resistance\r\n[latex]R_{E}[/latex] is increased, then",
+    "solution": "If the resistance RE is increased then [latex]A_{cm} \r\ndecreases. Hence, CMRR = [latex]\\frac{A_{d}}{A_{cm}}[/latex] increases.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page3_q2.webp",
+    "options": {
+      "A": "[latex]A_{cm}[/latex] increases",
+      "B": "common-mode rejection ratio increases",
+      "C": "[latex]A_{d}[/latex] increases",
+      "D": "common-mode rejection ratio decreases"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 A cascade connection of two voltage amplifiers A1 and A2 is shown in the figure.\r\nThe open-loop gain [latex]A_{v0}[/latex], input resistance [latex]R_{in},[/latex] and output resistance [latex]R_{o}[/latex] for A1 and A2 are as follows : [latex]A1=A_{v0}=10 \\; R_{in}=10k \\Omega \\;  R_{0}=1k \\Omega [/latex] [latex]A1=A_{v0}=5 \\;   R_{in}=5k \\Omega     \\;          R_{0}=200 \\Omega [/latex] The approximate overall voltage gain [latex]v_{out} / v_{in}[/latex] is______.",
+    "solution": "[latex]\\frac{V_{0}}{A_{V_{2}} \\times V_{2}}=\\frac{R_{L}}{R_{L}+R_{0}} \\quad\\ldots(i)[/latex] where, [latex]V_{2}=\\frac{A_{v_{0}} \\times V_{\\text {in }} R_{\\text {in }_{2}}}{R_{\\mathrm{in}_{2}}+R_{\\mathrm{o}_{1}}} \\quad\\ldots(ii)[/latex] From equations(i) and(ii), we get [latex] \\frac{V_{0}}{V_{i n}}=A_{v_{o_{2}}} \\times A_{v_{a_{1}}} \\times \\frac{R_{L}}{R_{L}+R_{o_{2}}} \\times \\frac{R_{\\text {in }}}{R_{\\text {in }_{2}}+R_{\\text {in }}} [/latex] [latex] \\Rightarrow \\quad \\frac{V_{0}}{V_{\\text {in }}}=5 \\times 10 \\times \\frac{1 \\mathrm{k} \\Omega}{1 \\mathrm{k} \\Omega+0.2 \\mathrm{k} \\Omega} \\times \\frac{5 \\mathrm{k} \\Omega}{5 \\mathrm{k} \\Omega+1 \\mathrm{k} \\Omega} [/latex] [latex] \\Rightarrow \\quad \\frac{V_{0}}{V_{\\text {in }}}=34.72[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page3_q3.webp",
+    "min": 34.0,
+    "max": 35.3
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 For an n-variable Boolean function, the maximum number of prime implicants is",
+    "solution": "For a variable Boolean function the maximum \r\nnumber of prime implicants is [latex]2^{(n- l)}.[/latex]",
+    "options": {
+      "A": "2(n-1)",
+      "B": "n/2",
+      "C": "[latex]2^{n}[/latex]",
+      "D": "[latex]2^{n-1}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 15 The number of bytes required to represent the decimal number 1856357 in packed\nBCD (Binary Coded Decimal) form is_______.",
+    "solution": "To represent decimal number into BCD number each \r\ndecimal number is represented in 4 -bits while \r\nconverting in BCD numbers, as [latex]\r\n \\begin{array}{ll}1 \\rightarrow 0001 & 6 \\rightarrow 0110 \\\\ 8 \\rightarrow 1000 & 3 \\rightarrow 0011 \\\\ 5 \\rightarrow 0101 & 5 \\rightarrow 0101 \\\\ & 7 \\rightarrow 0111\\end{array} [/latex] So total 4 bytes are required.",
+    "min": 3.9,
+    "max": 4.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 In a half-subtractor circuit with X and Y as inputs, the Borrow (M) and\nDifference (N=X-Y) are given by",
+    "solution": "[latex]\\begin{array}{llcl} X & Y & N=X-Y & M \\\\ 0 & 0 & 0 & 0 \\\\ 0 & 1 & 1 & 1 \\\\ 1 & 0 & 1 & 0 \\\\ 1 & 1 & 0 & 0 \\\\ \\end{array}[/latex] [latex] N= X \\oplus Y, M= \\bar{X} Y[/latex]",
+    "options": {
+      "A": "[latex]M=X\\oplus Y, N=XY[/latex]",
+      "B": "[latex]M=XY,N=X\\oplus Y[/latex]",
+      "C": "[latex]M=\\bar{X}Y,N=X\\oplus Y[/latex]",
+      "D": "[latex]M=X \\bar{Y},N=\\overline{X\\oplus Y}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 17 An FIR system is described by the system function [latex]H(z)=1+\\frac{7}{2}z^{-1}+\\frac{3}{2}z^{-2}[/latex] The system is",
+    "solution": "Minimum phase  [latex]\\Rightarrow[/latex]  all zeroes are inside the unit \r\ncircle. For maximum phase, all the zeroes are outside \r\nthe unit circle. [latex]\r\n H(z)=1+\\frac{7}{2} z^{-1}+\\frac{3}{2} z^{-2}=0 [/latex] [latex]\r\n 2 z^{2}+6 z+z+3=0 [/latex] [latex]\r\n (2 z+1)(z+3)=0 [/latex] [latex]\r\n z_{1}=-\\frac{1}{2}[/latex]  (inside the unit circle) [latex]\r\n z_{2}=-3[/latex]  (outside the unit circle) [latex]\r\n \\therefore [/latex] Mixed phase.",
+    "options": {
+      "A": "maximum phase",
+      "B": "minimum phase",
+      "C": "mixed phase",
+      "D": "zero phase"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 Let x[n] = x[-n]. Let X(z) be the z -transform of x[n]. If 0.5+j0.25 is a zero of\r\nX(z), which one of the following must also be a zero of X(z).",
+    "solution": "Given [latex]x[n]=x[-n] [/latex] As we know that, [latex] \\begin{aligned} x[n] & \\stackrel{Z}{\\longleftrightarrow} X[z] \\\\ x[-n] & \\stackrel{Z}{\\longleftrightarrow} X\\left[z^{-1}\\right] \\end{aligned}[/latex] So, when [latex](0.5+j 0.25)[/latex] is a zero of X(z). Now [latex]x[-n] \\longleftrightarrow X\\left(z^{-1}\\right) [/latex] Zero of [latex]X(z)=\\frac{1}{(0.5+j 0.25)}[/latex]",
+    "options": {
+      "A": "0.5-j0.25",
+      "B": "1/(0.5+j0.25)",
+      "C": "1/(0.5-j0.25)",
+      "D": "2+j4"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 19 Consider the periodic square wave in the figure shown. The ratio of the power in the [latex]7^{th}[/latex] harmonic to the power in the [latex]5^{th}[/latex] harmonic for\nthis waveform is closest in value to ______.",
+    "solution": "[latex]\\begin{aligned} X(\\omega) &=\\sum_{K=-\\infty}^{\\infty} 2 \\pi a_{k} \\delta\\left(0-K \\omega\\right) \\\\ a_{K} &=\\frac{1}{2 \\pi} \\int_{0}^{2} x(t) e^{-j K \\omega_{0} t} d t \\end{aligned}[/latex] [latex]\\begin{aligned} &=\\frac{1}{2 \\pi}\\left\\{\\int_{0}^{1} 1 \\cdot e^{-j K \\omega_{o} t} d \\omega-\\int_{1}^{2} 1 \\cdot e^{-j K \\omega_{o} t} d \\omega\\right\\}\\\\ &=\\frac{1}{2\\pi}\\left[\\frac{1}{-j K \\omega_{o}}[e^{-j K \\omega_{o}}-1]-\\frac{1}{-j K \\omega_{o}}[e^{(-j 2K \\omega_{o})}-e^{(-j 2K \\omega_{o})}] \\right ]\\\\ &=\\frac{1}{2\\pi}\\left[\\frac{e^{-j K \\omega_{o}l2}}{j K \\omega_{o}}.2j\\sin\\frac{K\\omega_{o}}{2}-\\frac{1}{j K \\omega_{o}}e^{-\\frac{j K \\omega_{o}3}{2}}\\left(2j\\sin\\frac{K\\omega_{0}}{2} \\right ) \\right ]\\\\ &=\\frac{1}{\\pi}\\left[\\frac{\\sin \\frac{K \\omega_{o}}{2}}{K \\omega_{o}}\\left(e^{-j K \\omega_{0}}\\right)\\left(e^{\\frac{j K \\omega_{0}}{2}}-e^{-\\frac{K_{m_{2}}}{2}}\\right)\\right] \\\\ &=\\frac{1}{\\pi}\\left(\\frac{\\sin K \\omega_{0} / 2}{K \\omega_{o}}\\right) e^{-j K \\omega_{0}} \\times 2 j \\sin \\left(\\frac{\\left.K_{\\left(0_{0}\\right.}\\right)}{2}\\right) \\\\ &=\\frac{1}{\\pi^{2}} \\frac{\\left(\\sin K \\frac{\\pi}{2}\\right)^{2}}{K} 2 j \\times \\cos K \\pi \\end{aligned}\\\\[/latex] [latex]7^{\\text {th }}[/latex] harmonic power [latex]=\\left(2 \\pi a_{7}\\right)^{2} [/latex] [latex] 5^{\\text {th }}[/latex] harmonic power [latex]=\\left(2 \\pi a_{5}\\right)^{2} [/latex] [latex] Ratio =\\left(\\frac{a_{7}}{a_{5}}\\right)^{2}=\\left(\\frac{5}{7}\\right)^{2}=\\frac{25}{49}=0.51[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page4_q4.webp",
+    "min": 0.5,
+    "max": 0.52
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 The natural frequency of an undamped second-order system is 40 rad/s. If the\nsystem is damped with a damping ratio 0.3, the damped natural frequency in\nrad/s is ______.",
+    "solution": "[latex]\\begin{aligned} \\text { Given, } & \\omega_{n}=40 \\mathrm{rad} / \\mathrm{sec} \\\\ & \\xi=0.3 \\\\ \\therefore \\quad & \\omega_{d}=\\omega_{n} \\sqrt{1-\\xi^{2}}=38.16 \\mathrm{rad} / \\mathrm{sec} \\end{aligned}[/latex]",
+    "min": 38.13,
+    "max": 38.19
+  },
+  {
+    "type": "mcq",
+    "question": "Question 21 For the following system, when [latex]X_{1}(s) = 0[/latex], the transfer function [latex]\\frac{Y(s)}{X_{2}(s)}[/latex]  is",
+    "solution": "Redrawing the block diagram with [latex]X_{1}(s)=0 [/latex] The transfer function [latex] T(s)=\\frac{Y(s)}{X_{2}(s)}=\\frac{G(s)}{1+G(s) H(s)} \\quad\\ldots(i)[/latex] Here, [latex]G(s)=\\frac{1}{s}[/latex] and [latex]H(s)=\\frac{s}{s+1} [/latex] [latex] \\frac{Y(s)}{X_{2}(s)}=\\frac{1 / s}{1+\\frac{1}{s} \\times \\frac{s}{s+1}}=\\frac{(s+1)}{s(s+2)}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page5_q1.webp",
+    "options": {
+      "A": "[latex]\\frac{s+1}{s^{2}}[/latex]",
+      "B": "[latex]\\frac{1}{s+1}[/latex]",
+      "C": "[latex]\\frac{s+2}{s(s+1)}[/latex]",
+      "D": "[latex]\\frac{s+1}{s(s+2)}[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 22 The capacity of a band-limited additive white Gaussian noise (AWGN) channel\nis given by [latex]C=Wlog_{2}(1+\\frac{P}{\\sigma ^{2}W})[/latex] bits per second (bps), where W is the channel bandwidth, P is the average power received and [latex]{\\sigma^{2}}[/latex] is the one sided power spectral density of the AWGN. For a fixed [latex]\\frac{P}{\\sigma ^{2}}=1000[/latex], the channel capacity (in kbps) with infinite bandwidth [latex](W\\rightarrow \\infty )[/latex] is approximately.",
+    "solution": "[latex]\\begin{aligned} C&=W \\log _{2}\\left(1+\\frac{P}{\\sigma^{2} W}\\right) \\\\ C&=\\frac{P}{\\sigma^{2}} \\times \\frac{\\sigma^{2}}{P} W \\log _{2}\\left(1+\\frac{P}{\\sigma^{2} W}\\right)\\\\ \\text{when }\\quad W &\\rightarrow \\infty \\\\ C_{\\infty}&=\\frac{P}{\\sigma^{2}} \\lim _{w \\rightarrow \\infty} \\frac{\\sigma^{2} W}{P} \\log _{2}\\left(1+\\frac{P}{\\sigma^{2} W}\\right)\\\\ \\text{as }\\quad W &\\rightarrow \\infty, \\frac{\\sigma^{2} W}{P}\\text{ also }\\rightarrow \\infty \\\\ \\therefore C_{\\infty}&=\\frac{P}{\\sigma^{2}} \\frac{\\lim _{\\alpha} \\frac{\\sigma^{2} W}{P} \\log _{2}\\left(1+\\frac{1}{\\frac{\\sigma^{2} W}{P}}\\right)}{P} \\\\ &\\quad \\left[\\because \\lim _{x \\rightarrow \\infty} x \\log _{2}\\left(1+\\frac{1}{x}\\right)=\\log\\right]\\\\ C_{\\infty} &=\\frac{P}{\\sigma^{2}} \\log _{2} e\\\\ C_{\\infty} &=1.44\\frac{P}{\\sigma^{2}} \\end{aligned}[/latex]",
+    "options": {
+      "A": "1.44",
+      "B": "1.08",
+      "C": "0.72",
+      "D": "0.36"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 Consider sinusoidal modulation in an AM system. Assuming no overmodulation,\r\nthe modulation index ([latex]\\mu[/latex]) when the maximum and minimum values of the\r\nenvelope, respectively, are 3 V and 1 V, is ______.",
+    "solution": "[latex]\\mu=\\frac{A_{\\max }-A_{\\min }}{A_{\\max }+A_{\\min }}=\\frac{3-1}{3+1}=\\frac{2}{4}=0.50[/latex]",
+    "min": 0.45,
+    "max": 0.55
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 To maximize power transfer, a lossless transmission line is to be matched to a resistive load impedance via a  [latex]\\lambda/4[/latex]   transformer as shown. The characteristic impedance (in [latex]\\Omega[/latex]) of the [latex]\\lambda/4[/latex]  transformer is ___",
+    "solution": "Input impedance for quarter wave transformer is given as, [latex] \\begin{aligned} Z_{\\text {in }}&=\\frac{Z_{0}^{2}}{Z_{L}} \\\\ \\text { Given: } Z_{\\text {in }}&=50 \\Omega, \\quad Z_{L}=100 \\Omega\\\\ \\therefore \\quad Z_{0}^{2}&=50 \\times 100 \\\\ Z_{0}&=\\sqrt{50 \\times 100} \\\\ Z_{0}&=70.72 \\Omega \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page5_q4.webp",
+    "min": 70.0,
+    "max": 72.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 Which one of the following field patterns represents a TEM wave travelling in the\npositive x direction ?",
+    "solution": "Since, the TEM wave or plane wave is travelling in  positive x-direction, then conditions should be [latex] \\begin{aligned} P &=\\vec{E} \\times \\vec{H} \\\\ \\hat{a}_{x} &=\\hat{a}_{y} \\times \\hat{a}_{z}\\\\ \\text{or, }\\quad\\hat{a}_{x}&=\\left(\\hat{a}_{y}\\right) \\times\\left(-\\hat{a}_{z}\\right) \\end{aligned}[/latex] So, the option (B) satisfies the condition.",
+    "options": {
+      "A": "[latex]E=+8\\hat{y}, H=-4\\hat{z}[/latex]",
+      "B": "[latex]E=-2\\hat{y}, H=-3\\hat{z}[/latex]",
+      "C": "[latex]E=+2\\hat{z}, H=+2\\hat{y}[/latex]",
+      "D": "[latex]E=-3\\hat{y}, H=+4\\hat{z}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 The system of linear equations [latex]\\begin{pmatrix} 2 & 1&3 \\\\ 3& 0 & 1\\\\ 1&2 & 5 \\end{pmatrix}\\begin{pmatrix} a\\\\ b\\\\ c \\end{pmatrix} =\\begin{pmatrix} 5\\\\ -4\\\\ 14 \\end{pmatrix}[/latex] has",
+    "solution": "[latex]\\begin{aligned} &\\left[\\begin{array}{lll} 2 & 1 & 3 \\\\ 3 & 0 & 1 \\\\ 1 & 2 & 5 \\end{array}\\right]\\left[\\begin{array}{l} a \\\\ b \\\\ c \\end{array}\\right]=\\left[\\begin{array}{r} 5 \\\\ -4 \\\\ 14 \\end{array}\\right]\\\\ &\\text { Augmented matrix is }\\left[\\begin{array}{cccc} 2 & 1 & 3 & 5 \\\\ 3 & 0 & 1 & -4 \\\\ 1 & 2 & 5 & 14 \\end{array}\\right]\\\\ &2 R_{2}-3 R_{1}, 2 R_{3}-R_{1}\\\\ &\\left[\\begin{array}{rrrr} 2 & 1 & 3 & 5 \\\\ 0 & -3 & -7 & -23 \\\\ 0 & 3 & 7 & 23 \\end{array}\\right]\\\\ &R_{2}+R_{2}\\\\ &\\left[\\begin{array}{rrrr} 2 & 1 & 3 & 5 \\\\ 0 & -3 & -7 & -23 \\\\ 0 & 0 & 0 & 0 \\end{array}\\right] \\end{aligned}[/latex] Rank of A =2 Rank of argument matrix =3 Number of varables =1 [latex]\r\n\\therefore [/latex]The System possess infinity many solutions.",
+    "options": {
+      "A": "a unique solution",
+      "B": "infinitely many solutions",
+      "C": "no solution",
+      "D": "exactly two solutions"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 27 The real part of an analytic function [latex]f (z) [/latex] where [latex]z = x + jy [/latex] is given by [latex]e^{-y}cos(x)[/latex]. The imaginary part of [latex]f(z)[/latex]  is",
+    "solution": "[latex]\\begin{aligned} Z &=x+i y \\\\ f(z) &=u+i v \\\\ u &=e^{-y} \\cos (x) \\\\ \\frac{\\partial u}{\\partial x} &=-e^{-y} \\sin (x) \\end{aligned}[/latex] For analytical function [latex] \\begin{aligned} & \\frac{\\partial u}{\\partial x}=\\frac{\\partial v}{\\partial y} \\\\ \\Rightarrow \\quad & \\frac{\\partial v}{\\partial y}=-e^{-y} \\sin (x) \\end{aligned}[/latex] Integrating w.r.t. y [latex] v=e^{-y} \\sin (x)[/latex]",
+    "options": {
+      "A": "[latex]e^{y}cos(x)[/latex]",
+      "B": "[latex]e^{-y}sin(x)[/latex]",
+      "C": "[latex]-e^{y}sin(x)[/latex]",
+      "D": "[latex]-e^{-y}sin(x)[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 28 The maximum value of the determinant among all [latex]2\\times 2[/latex] real symmetric matrices\nwith trace 14 is _____.",
+    "solution": "[latex]A=\\left[\\begin{array}{ll}a & x \\\\x & b \\end{array}\\right] \\stackrel{\\text{Trans}}{\\longrightarrow}\\quad\\left[\\begin{array}{ll}a & x \\\\x & b \\end{array}\\right][/latex] Let (a) and (b) are the element of principal cliagonal [latex] \\begin{aligned} \\Rightarrow \\quad|A|&=a b-x^{2} \\\\ \\frac{d|A|}{d r}&=-2 r=0 &(r=0) \\end{aligned} [/latex] So, |A| = a.b=maximum when (a) and (b) should be equal. [latex] \\begin{array}{l} =(7 \\times 7) \\\\ =49 \\quad \\text { (become } 7+7-11) \\end{array}[/latex]",
+    "min": 48.9,
+    "max": 49.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 If [latex]\\vec{r}=x\\hat{a}_{x}+y\\hat{a}_{y}+z\\hat{a}_{z}[/latex] and [latex] |\\vec{r}|=r, [/latex] then [latex] div(r^{2}\\bigtriangledown (ln \\; r))=[/latex]____.",
+    "solution": "[latex]\\begin{aligned} &\\text{div}\\left(r^{2} \\nabla(l \\cap)\\right) \\\\ &=\\text{div}\\left(r^{2} \\cdot \\frac{1}{r}\\left(\\frac{\\partial r}{\\partial} \\hat{a}_{x}+\\frac{\\partial r}{\\partial y} \\hat{a}_{y}+\\frac{\\partial r}{\\partial z} \\hat{a}_{z}\\right)\\right) \\\\ &=\\text{div}\\left(r \\frac{\\partial r}{\\partial x} \\hat{a}_{x}+\\partial \\frac{\\partial r}{\\partial y} \\hat{a}_{y}+r \\frac{\\partial r}{\\partial z} \\hat{a}_{z}\\right) &\\ldots(i) \\end{aligned}[/latex] Putting value of [latex]\\bar{r}=n \\hat{a}_{x}+y \\hat{a}_{y}+z \\hat{a}_{z}[/latex] in equation (i) [latex] \\begin{aligned} &=\\text{div}\\left[r\\left(\\hat{a}_{x}+\\hat{a}_{y}+\\hat{a}_{z}\\right)\\right] \\\\ &=\\text{div}\\left(r \\hat{a}_{x}+r \\hat{a}_{y}+r \\hat{a}_{z}\\right) \\\\ &=\\frac{\\partial}{\\partial x} r+\\frac{\\partial}{\\partial y} r+\\frac{\\partial}{\\partial z} r \\\\ &=1+1+1=3 \\end{aligned}[/latex]",
+    "min": 2.9,
+    "max": 3.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 30 A series LCR circuit is operated at a frequency different from its resonant\nfrequency. The operating frequency is such that the current leads the supply\nvoltage. The magnitude of current is half the value at resonance. If the values of\nL, C and R are 1H, 1 F and 1[latex]\\Omega[/latex] , respectively, the operating angular frequency\n(in rad/s) is ______.",
+    "solution": "",
+    "min": 0.45,
+    "max": 0.47
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 In the h-parameter model of the 2-port network given in the figure shown, the\nvalue of [latex]h_{22}[/latex] (in S ) in _____.",
+    "solution": "When two, two port networks are connected in parallel then individual Y-parameters are added. Therefore from the given network, For network ( 1) Y-parameter is, [latex] Y_{1}=\\left[\\begin{array}{cc} \\frac{1}{3}+\\frac{1}{3} & -\\frac{1}{3} \\\\ -\\frac{1}{3} & \\frac{1}{3}+\\frac{1}{3} \\end{array}\\right][/latex] Similarly for network (2). [latex] \\begin{aligned} Y_{2}=&\\left[\\begin{array}{rr} 1 & -\\frac{1}{2} \\\\ -\\frac{1}{2} & 1 \\end{array}\\right] \\\\ \\text { Thus, } \\quad Y=Y_{1}+Y_{2}=&\\left[\\begin{array}{cc} \\frac{5}{3} & -\\frac{5}{6} \\\\ -\\frac{5}{6} & \\frac{5}{3} \\end{array}\\right] \\\\ \\therefore \\quad I_{1}=& Y_{11} V_{1}+Y_{12} V_{2} \\end{aligned}[/latex] [latex]\\begin{aligned} &=\\frac{5}{3} Y_{1}-\\frac{5}{6} V_{2} &\\ldots(i)\\\\ I_{2} &=Y_{21} V_{1}+Y_{22} V_{2} \\\\ &=-\\frac{5}{6} V_{1}+\\frac{5}{3} V_{2} &\\ldots(ii)\\\\ \\text { Also } \\quad h_{22} &=\\left.\\frac{I_{2}}{V_{2}}\\right|_{I_{1}=0} \\end{aligned}[/latex] [latex] \\therefore [/latex] From equation (i), we get, [latex] V_{1}=\\frac{1}{2} V_{2} \\qquad \\ldots(iii)[/latex] and from equation (ii) and (iii), we get, [latex] h_{22}=\\frac{I_{2}}{V_{2}}=\\frac{15}{12}=1.25[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page7_q1.webp",
+    "min": 1.24,
+    "max": 1.26
+  },
+  {
+    "type": "mcq",
+    "question": "Question 32 In the figure shown, the capacitor is initially uncharged. Which one of the following\nexpressions describes the current I(t) (in mA) for t > 0 ?",
+    "solution": "Converting the given circuit into frequency domain and applying KCL at V(s) We get, [latex] \\begin{array}{l} \\frac{V(s)-\\frac{5}{s}}{R_{1}}+\\frac{V(s)}{R_{2}}+\\frac{V(s)}{\\frac{1}{C s}}=0 \\quad\\ldots(i)\\\\ \\because \\quad R_{1}=1 \\mathrm{k} \\Omega, R_{2}=2 \\mathrm{k} \\Omega \\text { and } C=1 \\mu \\mathrm{F} \\end{array}[/latex] Using the components value we get, [latex] V(s)\\left[\\frac{1}{1}+\\frac{1}{2}+s\\right]=\\frac{5}{s}[/latex] or [latex]\\quad V(s)=\\frac{5}{s\\left(s+\\frac{3}{2}\\right)} \\quad\\ldots(ii)[/latex] Using partial fraction on equation (ii) [latex] V(s)=\\frac{10}{3 s}-\\frac{10}{3\\left(s+\\frac{3}{2}\\right)}\\quad\\ldots(iii)[/latex] Using inverse Laplace transform [latex] v(t)=\\frac{10}{3}\\left[1-e^{-\\frac{3}{2} t}\\right]\\quad\\ldots(iv)[/latex] [latex] \\therefore[/latex] Current [latex]I=\\frac{V(t)}{R_{2}}=\\frac{5}{3}\\left[1-e^{-\\frac{3}{2} t}\\right] m A[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page7_q2.webp",
+    "options": {
+      "A": "[latex]I(t)=\\frac{5}{3}(1-e^{-t/\\tau }),\\tau =\\frac{2}{3}m sec[/latex]",
+      "B": "[latex]I(t)=\\frac{5}{2}(1-e^{-t/\\tau }),\\tau =\\frac{2}{3}m sec[/latex]",
+      "C": "[latex]I(t)=\\frac{3}{2}(1-e^{-t/\\tau }),\\tau =3m sec[/latex]",
+      "D": "[latex]I(t)=\\frac{5}{2}(1-e^{-t/\\tau }),\\tau =3m sec[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 In the magnetically coupled circuit shown in the figure,56% of the total flux\nemanating from one coil links the other coil. The value of the mutual inductance\n(in H) is ______.",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page7_q3.webp",
+    "min": 2.49,
+    "max": 2.52
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 Assume electronic charge [latex]q=1.6 \\times 10^{-19}C[/latex], kT/q=25mV and electron mobility [latex]\\mu _{n}=1000cm^{2} /V-s [/latex] . If the concentration gradient of electrons injected into a P-type silicon sample is [latex]1 \\times 10^{21}/cm^{4}[/latex], the magnitude of electron diffusion current density (in [latex]A/cm^{2}[/latex]) is _____.",
+    "solution": "[latex]\\begin{aligned} J &=q D_{n} \\frac{d n}{d x} \\\\ \\text { where, } D_{n} &=\\mu_{n} V_{T} \\\\ D_{n} &=\\frac{1000 \\mathrm{cm}^{2}}{V s} \\times 25 \\times 10^{-3} \\mathrm{V} \\\\ D_{n} &=25 \\mathrm{cm}^{2} / \\mathrm{s} \\\\ \\text { then, } \\quad J &=1.6 \\times 10^{-19} \\times 25 \\times 1 \\times 10^{21} \\\\ J &=4000 \\mathrm{A} / \\mathrm{cm}^{2} \\end{aligned}[/latex]",
+    "min": 3990.0,
+    "max": 4010.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 35 Consider an abrupt PN junction (at T = 300 K) shown in the figure. The depletion\r\nregion width [latex]X_{n}[/latex] on the N -side of the junction is 0.2 [latex]\\mu[/latex] m and the permittivity of\r\nsilicon ([latex]\\varepsilon_{st}[/latex]) is [latex]1.044\\times 10^{-12}[/latex] F/cm. At the junction, the approximate value of the peak electric field (in kV/cm) is_____.",
+    "solution": "For abrupt [latex]P^{+}[/latex] N junction [latex] E_{\\max }[/latex] is given: [latex] \\begin{aligned} E_{\\max } &=\\frac{-q N_{0} x_{n}}{\\epsilon_{s}}\\qquad\\left[\\begin{array}{c} \\because N_{A}>>N_{D} \\\\ W \\simeq x_{n} \\end{array}\\right] \\\\ \\Rightarrow E_{\\max }&=\\frac{-1.6 \\times 10^{-19} \\times 10^{16} \\times 0.2 \\times 10^{-4}}{1.044 \\times 10^{-12}} \\\\ E_{\\max } &=-30.65 \\times 10^{3} \\mathrm{V} / \\mathrm{cm} \\\\ E_{\\max } &=-30.65 \\mathrm{kV} / \\mathrm{cm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page7_q5.webp",
+    "min": 30.0,
+    "max": 32.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 When a silicon diode having a doping concentration of [latex]N_{A}=9\\times10^{16}cm^{-3}[/latex] on p\n-side and [latex]N_{D}=1\\times10^{16}cm^{-3}[/latex] on n-side is reverse biased, the total depletion width is found to be 3 [latex]\\mu[/latex] m. Given that the permittivity of silicon is [latex]1.04\\times10^{-12}[/latex] F/cm, the depletion width on the p-side and the maximum electric field in the depletion region, respectively, are",
+    "solution": "We know that [latex] \\begin{aligned} \\frac{N_{A}}{N_{D}}&=\\frac{x_{n}}{x_{p}}\\\\ So, \\frac{N_{A}}{N_{D}}+1&=\\frac{x_{n}}{x_{p}}+1 \\\\ \\frac{N_{A}+N_{D}}{N_{D}}&=\\frac{x_{n}+x_{p}}{x_{p}}\\\\ \\frac{10^{17}}{10^{16}} &=\\frac{3 \\mu m}{x_{p}} \\\\ \\therefore \\quad x_{p} &=0.3 \\mu \\mathrm{m}\\\\ \\text{and}\\\\ E_{\\max }&=\\frac{q N_{A} x_{p}}{\\epsilon_{s}}=\\frac{q N_{D} x_{n}}{\\epsilon_{s}} \\\\ \\therefore E_{\\max } &=\\frac{1.6 \\times 10^{-19} \\times 9 \\times 10^{16} \\times 0.3 \\times 10^{-4}}{1.04 \\times 10^{-12}} \\\\ E_{\\max } &=4.15 \\times 10^{5} \\mathrm{V} / \\mathrm{cm} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]2.7 \\mu m \\; and \\; 2.3*10^{5} V/cm[/latex]",
+      "B": "[latex]0.3 \\mu m \\; and \\; 4.15*10^{5} V/cm[/latex]",
+      "C": "[latex]0.3 \\mu m \\; and \\; 0.42*10^{5} V/cm[/latex]",
+      "D": "[latex]2.1 \\mu m \\; and \\; 0.42*10^{5} V/cm[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 37 The diode in the circuit shown has [latex]V_{on}[/latex] = 0.7 Volts but is ideal otherwise. If\n[latex]V_{i} = 5 sin(\\omega t)[/latex] Volts, the minimum and maximum values of [latex]V_{o}[/latex] (in Volts) are,\nrespectively,",
+    "solution": "[latex]\\begin{aligned} \\text{If }\\quad V_{\\text {in }}&=-5 \\mathrm{V} \\Rightarrow \\text{Diode is off }\\\\ V_{0}&=V_{\\text {in }}=-5 V \\\\ \\text{If }\\quad V_{\\text {in }}&=5 \\mathrm{V} \\Rightarrow \\text{Diode is on }\\\\ V_{0} &=\\frac{V_{\\text {in }}-0.7-2}{1 \\mathrm{k} \\Omega+1 \\mathrm{k} \\Omega} \\times 1 \\mathrm{k} \\Omega+0.7+2 \\\\ &=\\frac{5-2.7}{2}+2.7=3.85 \\mathrm{V} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page8_q2.webp",
+    "options": {
+      "A": "-5 and 2.7",
+      "B": "2.7 and 5",
+      "C": "-5 and 3.85",
+      "D": "1.3 and 5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 38 For the n-channel MOS transistor shown in the figure, the threshold voltage\n[latex]V_{Th}[/latex] is 0.8 V. Neglect channel length modulation effects. When the drain voltage\n[latex]V_{D}[/latex] = 1.6 V, the drain current [latex]I_{D}[/latex] was found to be 0.5 mA. If [latex]V_{D}[/latex] is adjusted to be 2 V by changing the values of R and [latex]V_{DD}[/latex], the new value of [latex]I_{D}[/latex] (in mA) is",
+    "solution": "We know that [latex] \\begin{aligned} I_{D} &=K_{n}\\left(V_{G S}-V_{T}\\right)^{2}\\left[\\because V_{D S}>V_{G S}-V_{T}\\right] \\\\ \\text { So, } K_{n} &=\\frac{0.5 \\mathrm{mA}}{(1.6-0.8)^{2}} \\\\ K_{n} &=0.78 \\mathrm{mA} / \\mathrm{V}\\\\ \\text{Therefore, for} \\quad V_{D}&=2 \\mathrm{V} \\\\ I_{D}&=0.78(2-0.8)^{2}=1.123 \\mathrm{mA} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page8_q3.webp",
+    "options": {
+      "A": "0.625",
+      "B": "0.75",
+      "C": "1.123",
+      "D": "1.5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 For the MOSFETs shown in the figure, the threshold voltage [latex]|V_{t}|[/latex] = 2 V and [latex]K=\\frac{1}{2}\\mu C_{OX}(\\frac{W}{L})=0.1 mA/V^{2}[/latex]. The value of [latex]I_{D}[/latex] (in mA) is ____.",
+    "solution": "[latex]\\begin{aligned} I_{D_{1}} &=I_{D_{2}}=K_{n}\\left(V_{G S}-V_{T}\\right)^{2} \\\\ &=\\frac{1}{2} \\mu_{n} C_{\\partial x}\\left(\\frac{\\omega}{L}\\right)\\left(V_{G S}-V_{T}\\right)^{2} \\\\ &=0.1(5-2)^{2}=0.9 \\mathrm{mA} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page8_q4.webp",
+    "min": 0.88,
+    "max": 0.92
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 In the circuit shown, choose the correct timing diagram of the output (y) from\r\nthe given waveforms W1, W2, W3 and W4.",
+    "solution": "So, according to waveform Solution waveform [latex]W_{3}[/latex] satisfies it",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page8_q5.webp",
+    "options": {
+      "A": "W1",
+      "B": "W2",
+      "C": "W3",
+      "D": "W4"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 The outputs of the two flip-flops Q1, Q2 in the figure shown are initialized to 0,\n0. The sequence generated at Q1 upon application of clock signal is",
+    "solution": "Initially [latex] Q_{1}=Q_{2}=0 [/latex] Truth table of JK: Case-1: [latex]1^{\\text {st }}[/latex] clock pulse [latex] \\begin{aligned} Q_{1}=&0, \\bar{Q}_{1}=1, Q_{2}=0, \\bar{Q}_{2}=1 \\\\ \\text{So, }\\quad J_{1}&=1, K_{1}=0 and J_{2}=0, K_{2}=1 \\\\ \\text{So }\\quad Q_{1}^{\\prime}&=1, \\quad Q_{2}^{+}=0 \\end{aligned}[/latex] Case-2: [latex] \\begin{aligned} Q_{1} &=1, Q_{2}=0 \\\\ \\bar{Q}_{1} &=0, \\quad \\bar{Q}_{2}=1 \\\\ \\text{So,} \\quad J_{1}&=1, \\quad J_{2}=1 \\\\ K_{1}&=0 \\quad K_{2}=0\\\\ \\text { So } \\quad Q_{1}^{+}&=1, \\quad Q_{2}^{+}=1 \\end{aligned}[/latex] Case-3: [latex] \\begin{aligned} Q_{1}&=1, \\quad \\bar{Q}_{1}=0, Q_{2}=1, \\bar{Q}_{2}=0 \\\\ J_{1} &=0, K_{1}=1, J_{2}=1, K_{2}=0 \\\\ Q_{1}^{+} &=0, \\quad Q_{2}^{+}=1 \\end{aligned}[/latex] So, the sequence will be 01100.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page9_q1.webp",
+    "options": {
+      "A": "01110....",
+      "B": "01010....",
+      "C": "00110....",
+      "D": "01100...."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 For the 8085 microprocessor, the interfacing circuit to input 8-bit digital data\n[latex](DI_{0}-DI_{7})[/latex]h from an external device is shown in the figure. The instruction for\ncorrect data transfer is",
+    "solution": "To transfer, the data should be present in accumulator and proper instruction should be executed. For the proper working, AND gates 1 and 2, should produce output as 1. Since [latex]\\bar{DS}_{1}[/latex], is connected to output 0 of decoder so input selection should be 000, therefore address lines have inputs as i.e. accumulator should be fed with the contents of address F8F8 H i.e. LOA F8F8 H. [latex] \\begin{aligned} A_{15} & A_{14}&  A_{13}&  A_{12}&  A_{11}&  A_{10}&  A_{9}&  A_{8}  &A_{7} & A_{6}&  A_{5}&  A_{4} & A_{3} & A_{2}&  A_{1}&  A_{0}  \\\\ 1&1&1&1&1&0&0&0&1&1&1&1&1&0&0&0 \\end{aligned}[/latex] If [latex]IO/\\bar{M} =0[/latex]; to activate [latex]\\bar{G}_{2A}I/O[/latex] is treated as M/M mapped I/O hence I/O has 16-bit address.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page9_q2.webp",
+    "options": {
+      "A": "MVI A, F8H",
+      "B": "IN F8H",
+      "C": "OUT F8H",
+      "D": "LDA F8F8H"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 43 Consider a discrete-time signal [latex]x[n]=\\left\\{\\begin{matrix} n & for \\; 0\\leq n\\leq 10\\\\ 0&otherwise \\end{matrix}\\right.[/latex] If y[n] is the convolution of x[n] with itself, the value of y[4] is _____.",
+    "solution": "[latex]\\begin{array}{l} x[n]=\\left\\{\\begin{array}{ll} n & \\text { for } 0 \\leq n \\leq 10 \\\\ 0 & \\text { otherwise } \\end{array}\\right. \\\\ y[n]=\\sum_{K=\\infty}^{\\infty} x(k) x(n-k) \\\\ y[4]=\\sum_{k=0}^{10} x(k) x(4-k) \\\\ =x(0) x(4)+x(1) x(3)+x(2) x(2)+x(3) x(1)+0 \\\\ =0+(1 \\times 3)+(2 \\times 2)+(3 \\times 1) \\\\ =10 \\end{array}[/latex]",
+    "min": 9.9,
+    "max": 10.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 The input-output relationship of a causal stable LTI system is given as [latex]y[n] = \\alpha[/latex] y[n -1]+ [latex]\\beta x[n][/latex] If the impulse response h[n] of this system satisfies the condition [latex]\\sum_{n=0}^{\\infty }h[n]=2[/latex],  the relationship between [latex]\\alpha[/latex] and [latex]\\beta[/latex] is",
+    "solution": "Input-output relation is given as [latex] \\begin{aligned} y[n]&=\\alpha_{\\mathcal{Y}}(n-1)+\\beta x[n] \\\\ \\text{Taking Z-transform, }\\\\ r(z)&=\\alpha z^{-1} \\quad Y (z)+\\beta X(z) \\\\ Y(z)&\\left[1-\\alpha z^{-1}\\right]=\\beta X(z) \\\\ \\frac{\\gamma(z)}{X(z)}&=H(z)=\\frac{\\beta}{1-\\alpha z^{-1}} \\\\ h[n]&=\\beta \\cdot \\alpha^{n} u[n] \\\\ \\text{Also }&\\sum_{n=0}^{\\infty} h[n]=2 \\Rightarrow \\sum_{n=0}^{\\infty} \\beta \\cdot \\alpha^{n} u[n]=2 \\\\ \\frac{\\beta}{1-\\alpha}&=2 \\Rightarrow \\beta=2-2 \\alpha \\\\ \\Rightarrow 2 a &=2-\\beta \\\\ \\alpha &=1-\\frac{\\beta}{2} \\end{aligned} [/latex]",
+    "options": {
+      "A": "[latex]\\alpha=1-\\beta/2[/latex]",
+      "B": "[latex]\\alpha=1+\\beta/2[/latex]",
+      "C": "[latex]\\alpha=2\\beta[/latex]",
+      "D": "[latex]\\alpha=-2\\beta[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 The value of the integral [latex]\\int_{-\\infty }^{\\infty }sinc^{2}(5t)dt[/latex] is ____.",
+    "solution": "[latex]\\begin{aligned} \\int_{-\\infty}^{\\infty} \\sin c^{2}(5 t) d t \\\\ \\text { Let, } \\quad f(t)&=\\sin c(5 t) \\\\ \\quad&=S_{a}(5 \\pi t) \\; \\; \\; [\\because \\sin c(t)=S a(\\pi t)] \\\\ T S a\\left(t \\cdot \\frac{T}{2}\\right) &\\longleftrightarrow 2 \\pi G_{T}(\\omega) \\\\ \\quad \\frac{T}{2}&=5 \\pi \\Rightarrow[T=10 \\pi] \\\\ 10 \\pi S a(5 \\pi t) &\\longleftrightarrow 2 \\pi G_{10 \\pi}(\\omega) \\\\ \\Rightarrow \\quad F(\\omega)&=\\frac{1}{5} G_{10 \\pi}(\\omega)\\\\ E S D_{f}&=|F(\\omega)|^{2} \\\\ E_{f}&=\\int_{-\\infty}^{\\infty} f^{2}(t) d t=\\frac{1}{2 \\pi} \\int_{-\\infty}^{\\infty} E S D_{f} d \\omega \\end{aligned}[/latex] [latex] \\begin{aligned} \\int_{-\\infty}^{\\infty} \\sin c^{2}(5 t) d t &=\\frac{1}{2 \\pi} \\int_{-5 \\pi}^{5 \\pi}\\left(\\frac{1}{5}\\right)^{2} d \\omega \\\\ &=\\frac{1}{2 \\pi} \\times \\frac{1}{25} \\times 10 \\pi=\\frac{1}{5} \\end{aligned}[/latex]",
+    "min": 0.19,
+    "max": 0.21
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 An unforced linear time invariant (LTI) system is represented by [latex]\\begin{vmatrix} \\dot{x}_{1}\\\\ \\dot{x}_{2} \\end{vmatrix}=\\begin{vmatrix} -1 & 0\\\\ 0&-2 \\end{vmatrix}\\begin{vmatrix} x_{1}\\\\ x_{2} \\end{vmatrix}[/latex] If the initial conditions are [latex]x_{1}(0)=1 \\; and \\; x_{2}(0)=-1[/latex], the solution of the state equation is",
+    "solution": "[latex]\\begin{aligned}\\left[\\begin{array}{l}\\dot{x}_{1} \\\\ \\dot{x}_{2}\\end{array}\\right] &=\\left[\\begin{array}{cc}-1 & 0 \\\\ 0 & -2\\end{array}\\right]\\left[\\begin{array}{l}x_{1} \\\\ x_{2}\\end{array}\\right] \\\\ \\dot{x}_{1} &=-x_{1}+0 x_{2} \\\\ \\dot{x}_{2} &=0 x_{1}-2 x_{2} \\end{aligned} [/latex] Applying Laplace transform on both equations [latex] \\begin{aligned} \\Rightarrow s X_{1}(s)-x_{1}(0)&=-X_{1}(s) \\\\ X_{1}(s)[s+1]&=X_{1}(0) \\quad &\\text{given }x_{1}(0)=1 \\\\ X_{1}(s)&=\\frac{1}{s+1} \\\\ \\Rightarrow \\quad e^{-t}&=x_{1}(t)\\\\ \\Rightarrow \\quad s X_{2}(s)-X_{2}(0)&=-2 X_{2}(s) \\\\ (s+2) X_{2}(s)&=X_{2}(0) &X_{2}(0)=-1 \\\\ X_{2}(s)&=-\\frac{1}{s+2} \\\\ x_{2}(t)&=-e^{-2 t} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]x_{1}(t)=-1, x_{2}(t)=2[/latex]",
+      "B": "[latex]x_{1}(t)=-e^{-t}, x_{2}(t)=2e^{-t}[/latex]",
+      "C": "[latex]x_{1}(t)=e^{-t}, x_{2}(t)=-e^{-2t}[/latex]",
+      "D": "[latex]x_{1}(t)=-e^{-t}, x_{2}(t)=-2e^{-t}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 The Bode asymptotic magnitude plot of a minimum phase system is shown in\nthe figure If the system is connected in a unity negative feedback configuration, the steady state error of the closed loop system, to a unit ramp input, is_____.",
+    "solution": "The open loop transfer function of the system [latex] G(s) H(s)=\\frac{K\\left(\\frac{s}{2}+1\\right)}{s\\left(\\frac{s}{10}+1\\right)}\\qquad\\ldots(i)[/latex] where, [latex] \\left.26.02\\right|_{\\omega=0.1}=20 \\log K-20 \\log \\omega\\qquad\\ldots(ii)[/latex] Or, [latex]\\quad K=1.99 \\simeq 2[/latex] From equation (i) and (ii), we get [latex] G(s)=\\frac{20(s+2)}{2 s(s+10)}\\qquad\\ldots(iii)[/latex] Steady state error for ramp input is [latex] e_{s s}=\\frac{A}{K_{V}} \\text { where } K_{V}=\\lim _{s \\rightarrow 0} s G(s)[/latex] From equation (iii), [latex] K_{V}=\\lim _{s \\rightarrow 0} s \\times \\frac{10(s+2)}{s(s+10)}=2[/latex] [latex] \\therefore \\quad e_{s s}=\\frac{1}{2}=0.5[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page10_q2.webp",
+    "min": 0.49,
+    "max": 0.51
+  },
+  {
+    "type": "mcq",
+    "question": "Question 48 Consider the state space system expressed by the signal flow diagram shown in\nthe figure. The corresponding system is",
+    "solution": "The state equation from the given state diagram is [latex] \\begin{aligned} \\dot{x}_{1} &=x_{2} \\\\ \\dot{x}_{2} &=x_{3} \\\\ \\dot{x}_{3} &=a_{3} x_{3}+a_{2} \\cdot x_{2}+a_{1} x_{1}+u \\\\ \\text { Also, } y &=c_{1} x_{1}+c_{2} x_{2}+c_{3} x_{3} \\end{aligned}[/latex] Thus, state matrix [latex] \\left[\\begin{array}{c}\\dot{x}_{1} \\\\ \\dot{x}_{2} \\\\ \\dot{x}_{3}\\end{array}\\right]=\\left[\\begin{array}{ccc}0 & 1 & 0 \\\\ 0 & 0 & 1 \\\\ a_{1} & a_{2} & a_{3}\\end{array}\\right]\\left[\\begin{array}{c}x_{1} \\\\ x_{2} \\\\ x_{3}\\end{array}\\right]+\\left[\\begin{array}{c}0 \\\\ 0 \\\\ 1\\end{array}\\right] u [/latex] and [latex]y=\\left[\\begin{array}{lll}c_{1} & c_{2} & c_{3}\\end{array}\\right]\\left[\\begin{array}{l}x_{1} \\\\ x_{2} \\\\ x_{3}\\end{array}\\right] [/latex] Check for controllability: The system is said to be controllable if, the rank  of controllability matrix [latex]Q_{c}[/latex] is equal to the rank of the state matrix A . However, if the controllability matrix [latex]Q_{c}[/latex] is a square matrix then the condition for controllability is [latex] \\left|o_{c}\\right| \\neq 0 [/latex] where [latex]\\begin{aligned} Q_{c}&=\\left[B: A B: A^{2} B\\right]\\\\ \\therefore Q_{c}&=\\left[\\begin{array}{ccc}0 & 0 & 1 \\\\ 0 & 1 & a_{3} \\\\ 1 & a_{3} & a_{2}+a_{3}^{2}\\end{array}\\right] \\\\ \\because\\left|Q_{C}\\right| \\neq & 0 \\text{ and Rank of } Q_{c}=\\text{ Rank of }A=1 \\end{aligned}[/latex] [latex] \\therefore[/latex] The system is controllable. Check for observability: The system is said to be observable if, the rank of observability matrix [latex]Q_{o}[/latex] is equal to the rank of the state matrix A . However, if the observability matrix [latex]Q_{o}[/latex] is a square matrix then the condition for observability is [latex] \\left|0_{0}\\right| \\neq 0 [/latex] where [latex]\\begin{aligned} Q_{0}&=\\left[C^{T}: A^{T} C^{T}:\\left(A^{T}\\right)^{2} C^{T}\\right] \\\\ O_{0}&=\\left[\\begin{array}{ccc}c_{1} & c_{2} & c_{3} \\\\ s_{3} a_{1} & c_{1}+c_{2} a_{2} & c_{2}+c_{2} a_{3} \\\\ c_{1}\\left(c_{2}+c_{3} a_{3}\\right) & c_{3} a_{1}+\\left(c_{2}+c_{3} a_{3}\\right) a_{2} & c_{1}+c_{2} a_{2}+\\left(c_{2}+c_{3} a_{3}\\right) a_{3}\\end{array}\\right] \\end{aligned} [/latex] [latex] \\because\\left|Q_{0}\\right| [/latex] depends on value of unknown. Hence, not observable always.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page10_q3.webp",
+    "options": {
+      "A": "always controllable",
+      "B": "always observable",
+      "C": "always stable",
+      "D": "always unstable"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 The input to a 1-bit quantizer is a random variable X with pdf [latex]f_{x}(x)=2e^{-2x}[/latex]\r\nfor [latex]x \\geq 0[/latex] and [latex]f_{X}(x)=0[/latex]  for [latex]x \\lt 0[/latex]. For outputs to be of equal probability, the\r\nquantizer threshold should be ____.",
+    "solution": "Assume quantization voltage is [latex]V_{T h} [/latex] For outputs of quantizer to have equal probability [latex] \\begin{aligned} \\rightarrow P\\left(X S V_{T h}\\right)=& P\\left(X \\geq V_{T h}\\right) \\\\ \\int_{0}^{v_{T}} f_{X}(x) d x &=\\int_{V_{m}} f_{X}(x) d x \\\\ \\int_{0}^{V} 2 e^{-2 x} d x &=\\int_{V_{T h}}^{\\infty} 2 e^{-2 x} d x \\\\ e^{-2 x V_{i h}} &=\\frac{1}{2} \\\\ V_{T h} &=0.346 \\end{aligned}[/latex]",
+    "min": 0.34,
+    "max": 0.36
+  },
+  {
+    "type": "mcq",
+    "question": "Question 50 Coherent orthogonal binary FSK modulation is used to transmit two\r\nequiprobable symbol waveforms [latex]s_{1}(t)= \\alpha cos 2 \\pi f_{1}t [/latex] and [/latex] S_{2}(t)=\\alpha cos 2\\pi f_{2}t[/latex] , where [latex]\\alpha[/latex] = 4 mV. Assume an AWGN channel with two sided noise power spectral density.  [latex]\\frac{N_{0}}{2}=0.5 \\times 10^{-12}[/latex] W/Hz.   Using an optimal receiver and the relation [latex]Q(v)=\\frac{1}{\\sqrt{2\\pi }}\\int_{v}^{\\infty }e^{-u^{2}/2}du[/latex],  the bit error probability for a data rate of 500 kbps is",
+    "solution": "[latex]\\begin{array}{c} \\text { For FSK } \\rightarrow \\text { Bit error Probability }=Q(\\sqrt{\\frac{A_{c}^{2} T_{b}}{2 N_{o}}}) \\\\ A_{c}=4 \\mathrm{mV}, T_{b}=\\frac{1}{R_{b}}=\\frac{1}{500 \\times 10^{3}} \\\\ \\frac{N_{o}}{2}=0.5 \\times 10^{-12} \\mathrm{W} / \\mathrm{Hz}\\\\ N_{o}=10^{-12} \\mathrm{W} / \\mathrm{Hz} \\\\ \\text{Bit error Proability} =Q(4) \\end{array}\\\\[/latex]'",
+    "options": {
+      "A": "Q(2)",
+      "B": "[latex]Q(2 \\sqrt{2})[/latex]",
+      "C": "Q(4)",
+      "D": "[latex]Q(4 \\sqrt2)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 The power spectral density of a real stationary random process X(t) is given by [latex]S_{x}(f)=\\left\\{\\begin{matrix} \\frac{1}{W}, &|f|\\leq W \\\\ 0, & |f|>W \\end{matrix}\\right.[/latex] The value of the expectation [latex]E[\\pi X(t)X(t-\\frac{1}{4W})][/latex] is _____.",
+    "solution": "[latex]S_{x}(t)=\\left\\{\\begin{array}{ll}\\frac{1}{W}, & |f| \\leq W \\\\0 & |f| \\\\gt W\\end{array}\\right.[/latex] [latex] \\begin{aligned} \\because \\quad R_{x}(\\tau) \\longleftrightarrow &\\left[S_{X}(f)\\right] \\\\ =& 2 \\sin \\mathrm{C}[2 \\mathrm{W} \\tau] \\end{aligned}[/latex] Also, [latex] E\\left[\\pi x(t) \\cdot x\\left(t-\\frac{1}{4} \\overline{\\mathrm{W}}\\right)\\right] [/latex] [latex] \\begin{aligned} &=\\pi E\\left[x(t) \\cdot x\\left(t-\\frac{1}{4 W}\\right)\\right] \\\\=\\pi R_{x}\\left(\\frac{1}{4} \\frac{ }{W}\\right) &=\\pi \\cdot 2 \\sin C\\left(\\frac{1}{2}\\right) &\\ldots(i)\\end{aligned}[/latex] We know that, [latex] \\sin c(x)=\\frac{\\sin \\pi x}{\\pi x} [/latex] From equation (i), we get [latex] \\therefore \\quad 2 \\pi \\frac{\\sin \\frac{\\pi}{2}}{\\frac{\\pi}{2}}=4[/latex]",
+    "min": 3.9,
+    "max": 4.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 52 If the figure, M(f) is the Fourier transform of the message signal m(t) where\r\nA = 100 Hz and B = 40 Hz. Given [latex]v(t)= cos(2 \\phi f_{c}t) [/latex] and [latex] w(t)=cos(2 \\pi (f_{c}+A)t)[/latex], where [latex]f_{c} \\gt A[/latex]. The cutoff frequencies of both the filters are  [latex]f_{c}[/latex]. The bandwidth of the signal at the output of the modulator (in Hz) is__",
+    "solution": "After passing through first multiplier the output is [latex]\r\nm(t) x v(t) = x(t)[/latex] Therefore, The Fourier transform of output y(t) of the high \r\npass filter centred at [latex]f_{c}[/latex] is Now, the output of second multiplier is [latex]\r\ny(t) \\cdot w(t) = z( t)[/latex] Therefore, After passing through the low pass filter centerd \r\nat [latex]f_{c}[/latex] the Fourier transform of output s(t) is Thus, bandwidth [latex]= (A - B) - 0[/latex] [latex]\r\n= 100 Hz - 40 Hz = 60 Hz[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page11_q2.webp",
+    "min": 59.9,
+    "max": 60.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 If the electric field of a plane wave is [latex]\\vec{E}(z,t)=\\hat{x}3 cos(\\omega t-kz+30^{\\circ})[/latex]- [latex]\\hat{y}4sin(\\omega t-kz+45^{\\circ})[/latex] (mV/m), the polarization state of the plane wave is",
+    "solution": "[latex]\\vec{E}(z, t)=3 \\hat{x} \\cos \\left(\\omega t-k z+30^{\\circ}\\right)-4 \\hat{y} \\sin \\left(\\omega t-k z+45^{\\circ}\\right)[/latex] The plane wave is travelling in +z direction [latex] \\begin{array}{l} \\hat{E}_{x}=3 \\cos \\left(\\omega t-k z+30^{\\circ}\\right) \\\\ \\hat{E}_{y}=-4 \\sin \\left(\\omega t-k z+45^{\\circ}\\right) \\end{array}[/latex] At z=0, tracing E locus for various times [latex] \\begin{array}{c} \\text { At } t=0, E_{x}=3 \\cos 30^{\\circ}=3 \\cdot \\frac{1}{2}=\\frac{3}{2}=1.5 \\\\ E_{y}=-4 \\sin 45^{\\circ}=-2 \\sqrt{2}=-2.83 \\end{array}[/latex] At [latex]t=\\frac{T}{6} [/latex] [latex] E_{x}=3 \\cos \\left(\\frac{2 \\pi}{T} \\times \\frac{T}{6}+30^{\\circ}\\right)=0[/latex] [latex] E_{y}=-4 \\sin \\left(60^{\\circ}+45^{\\circ}\\right)=-3.86[/latex] This is left elliptical polarized plane-wave.",
+    "options": {
+      "A": "left elliptical",
+      "B": "left circular",
+      "C": "right elliptical",
+      "D": "right circular"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 In the transmission line shown, the impedance [latex]Z_{in}[/latex] (in ohms) between node A and\nthe ground is _____.",
+    "solution": "[latex]\\begin{aligned} Z_{\\mathrm{in}_{1}} &=Z_{0}\\left(\\frac{Z_{L}+j Z_{0} \\tan \\beta l}{Z_{0}+j Z_{L} \\tan \\beta l}\\right) \\\\ \\beta l &=\\frac{2 \\pi}{\\lambda} \\times \\frac{\\lambda}{2}=\\pi \\\\ Z_{\\mathrm{in}} &=Z_{0}\\left(\\frac{Z_{L}+j 0}{Z_{0}+j 0}\\right) \\\\ Z_{\\mathrm{in}_{1}} &=Z_{L}=50 \\Omega \\\\ \\therefore \\quad Z_{\\mathrm{in}} &=\\left(Z_{\\mathrm{in}_{1}} \\| 100 \\Omega\\right)=\\frac{100 \\times 50}{150}=33.3 \\Omega \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2014_Set2/page11_q4.webp",
+    "min": 32.99,
+    "max": 34.01
+  },
+  {
+    "type": "numerical",
+    "question": "Question 55 For a rectangular waveguide of internal dimensions [latex]a \\times b(a \\gt b)[/latex], the cur-off\r\nfrequency for the [latex]TE_{11}[/latex] mode is the arithmetic mean of the cut-off frequencies for [latex]TE_{10}[/latex] mode and [latex]TE_{20}[/latex] mode. If a = [latex]\\sqrt{5}[/latex] cm, the value of b (in cm) is______.",
+    "solution": "Cut-off frequency of a rectangular waveguide is [latex] \\begin{aligned} f_{c}&=\\frac{c}{2 \\pi} \\sqrt{\\left(\\frac{m \\pi}{a}\\right)^{2}+\\left(\\frac{n\\pi}{b}\\right)^{2}} \\\\ f_{c} \\text{ for }\\quad T E_{10}&=\\frac{c}{2 \\pi} \\sqrt{\\left(\\frac{1 \\pi}{a}\\right)^{2}}=\\frac{c}{2 a} \\\\ f_{c} \\text{ for }\\quad T E_{20}&=\\frac{c}{2 \\pi} \\sqrt{\\left(\\frac{2 \\pi}{a}\\right)^{2}}=\\frac{c}{2 a} \\\\ f_{c} \\text { for } \\quad T E_{11} &=\\frac{c}{2 \\pi} \\sqrt{\\left(\\frac{\\pi}{a}\\right)^{2}}+\\left(\\frac{\\pi}{b}\\right)^{2} \\\\ &=\\frac{c}{2} \\sqrt{\\left(\\frac{1}{a}\\right)^{2}+\\left(\\frac{1}{b}\\right)^{2}} \\\\ \\text { Given, } f_{C T_{11}} &=\\frac{f_{C_{I E 10}}+f_{C I E_{20}}}{2} \\end{aligned}[/latex] [latex]\\begin{aligned} \\frac{c}{2} \\sqrt{\\left(\\frac{1}{a}\\right)^{2}+\\left(\\frac{1}{b}\\right)^{2}}&=\\frac{\\frac{c}{2 a}+\\frac{c}{a}}{2} \\\\ \\sqrt{\\left(\\frac{1}{a}\\right)^{2}+\\left(\\frac{1}{b}\\right)^{2}}&=\\frac{1}{2 a}+\\frac{1}{a}=\\frac{3}{2 a} \\\\ \\left(\\frac{1}{a}\\right)^{2}+\\left(\\frac{1}{b}\\right)^{2}&=\\frac{9}{4 a^{2}} \\\\ \\Rightarrow \\quad\\left(\\frac{1}{b}\\right)^{2} &=\\frac{5}{4 a^{2}} \\\\ b &=\\frac{2 a}{\\sqrt{5}}=\\frac{2 \\times \\sqrt{5}}{\\sqrt{5}} \\\\ &=2 \\mathrm{cm} \\end{aligned}[/latex]",
+    "min": 1.9,
+    "max": 2.1
+  }
+]

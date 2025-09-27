@@ -1,0 +1,515 @@
+[
+  {
+    "type": "numerical",
+    "question": "Question 1 The value of x for which the matrix [latex]A=\\begin{bmatrix} 3 & 2&4 \\\\ 9& 7&13 \\\\ -6&-4 & -9+x \\end{bmatrix}[/latex] has zero as an eigenvalue is ________",
+    "solution": "A has an eigen value is zero [latex] \\begin{aligned} \\therefore \\quad|A|&=0 \\\\ \\left| \\begin{array}{lll} 3 & 2 & 4\\\\9 & 7 & 13 \\\\ -6 & -4 & -9+x\\end{array}\\right|&=0 \\\\ 3(-63+7 x+52)-2(-81+9 x+78)&+4(-36+42)=0 \\\\ 3(7 x-11)-2(9 x-3)+4(6)&=0 \\\\ 21 x-33-18 x+6+24&=0 \\\\ 3 x-3&=0 \\\\ x&=1 \\end{aligned}[/latex]",
+    "min": 0.95,
+    "max": 1.05
+  },
+  {
+    "type": "numerical",
+    "question": "Question 2 Consider the complex valued function [latex]f(z)=2z^{3}+b|z|^{3}[/latex] where z is a complex variable. The value of b for which the function f(z) is analytic is ________",
+    "solution": "[latex]f(z)=2 z^{3}+b_{1}|z|^{3} [/latex] Given that f(z) is analytic. which is possible only when b=0 since [latex]\\left|z^{3}\\right|[/latex] is differentiable at the origin but not analytic. [latex] 2 z^{3}[/latex] is analytic everywhere [latex] \\begin{aligned} \\therefore \\quad f(z)&=2 z^{3}+b\\left|z^{3}\\right| \\text{ is analytic}\\\\ \\text{only when }\\quad b&=0 \\end{aligned}[/latex]",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 3 As x varies from -1 to +3, which one of the following describes the behaviour of the function [latex]f(z)=x^{3}-3x^{2}+1[/latex] ?",
+    "solution": "[latex]\\begin{array}{l} f(x)=x^{3}-3 x^{2}+1 \\\\ f^{\\prime}(x)=3 x^{2}-6 x \\\\ f(x)=0 \\end{array}[/latex] [latex] \\begin{aligned} 3 x^{2}-6 x &=0 \\\\ 3 x(x-2) &=0 \\\\ x &=0,2 \\\\ f^{\\prime \\prime}(x) &=6 x-6 \\\\ \\text{At}\\quad x &=0 \\quad f^{\\prime \\prime}(0)=-6 \\text { maxima } \\\\ x &=2 \\quad f^{\\prime \\prime}(2)=6 \\text { minima } \\end{aligned}[/latex]",
+    "options": {
+      "A": "f(x) increases monotonically.",
+      "B": "f(x) increases, then decreases and increases again.",
+      "C": "f(x) decreases, then increases and decreases again.",
+      "D": "f(x)  increases and then decreases."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 How many distinct values of x satisfy the equation sin(x)=x/2, where x is in radians?",
+    "solution": "Hence, 3 solutions.",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4 or more"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 Consider the time-varying vector [latex]I=\\hat{x}15cos(\\omega t)+\\hat{y}5sin(\\omega t)[/latex] in Cartesian coordinates, where [latex]\\omega \\gt 0[/latex]  is a constant. When the vector magnitude |I| is at its minimum value, the angle [latex]\\theta[/latex] that I makes with the x axis (in degrees, such that 0  [latex]\\leq \\theta \\leq[/latex] 180) is ________",
+    "solution": "[latex]\\begin{aligned} I &=\\hat{x} 15 \\cos \\omega t+\\hat{y} 5 \\sin \\omega t \\\\ \\| I &=\\sqrt{\\left(15 \\cos (t)^{2}+(5 \\sin \\omega t)^{2}\\right.} \\\\ &=\\sqrt{225 \\cos ^{2} \\omega t+25 \\sin ^{2} \\omega t} \\\\ &=\\sqrt{25+200 \\cos ^{2} \\omega t} \\end{aligned}[/latex] |I| is minimum when [latex]\\cos ^{2}\\omega t=0 [/latex] [latex]text{or}\\quad \\theta=\\omega t=90^{\\circ}[/latex]",
+    "min": 90.0,
+    "max": 90.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 In the circuit shown below, [latex]V_{S}[/latex] is a constant voltage source and [latex]I_{L}[/latex] is a constant current load. The value of [latex]I_{L}[/latex] that maximizes the power absorbed by the constant current load is",
+    "solution": "In maximum power transformation, half of the voltage drops across source resistance, remaining half across the load. [latex]\\therefore[/latex] voltage across source (R) [latex] \\begin{aligned} I_{L} R &=\\frac{V_{s}}{2} \\\\ I_{L} &=\\frac{V_{s}}{2 R} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page2_q1.webp",
+    "options": {
+      "A": "[latex]\\frac{V_{S}}{4R}[/latex]",
+      "B": "[latex]\\frac{V_{S}}{2R}[/latex]",
+      "C": "[latex]\\frac{V_{S}}{R}[/latex]",
+      "D": "[latex]\\infty[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 The switch has been in position 1 for a long time and abruptly changes to position 2 at t=0. If time t is in seconds, the capacitor voltage [latex]V_{C}[/latex]  (in volts) for [latex]t \\gt 0[/latex] is given by",
+    "solution": "at[latex] t = 0^{-}[/latex], Switch is at position-1 where, [latex]\\quad V_{c}\\left(0^{-}\\right)=\\frac{10 \\times 2}{2+3}=4 \\mathrm{V} \\ldots(1) \\\\ \\therefore \\quad V_{c}(0-)=V_{c}\\left(0^{+}\\right)=4 \\mathrm{V} [/latex] [latex] \\text{at }t = \\infty[/latex] [latex] V_{c}(\\infty)=5 \\times 2=10 \\mathrm{V}[/latex] The time constant of the circuit is [latex] \\begin{aligned} \\tau &=R_{\\mathrm{eq}} C_{\\mathrm{eq}} \\\\ &=(4+2) \\times 0.1=0.6 \\mathrm{sec} \\\\ \\therefore V_{c}(t)=V_{c}(\\infty) &+\\left[V_{c}\\left(0^{+}\\right)-V_{c}(\\infty)\\right] e^{-t / \\tau} \\\\ &=10+(4-10) e^{-t / 0.6} \\\\ V_{c}(t) &=\\left(10-6 e^{-t / 0.6}\\right) \\mathrm{V} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page2_q2.webp",
+    "options": {
+      "A": "4(1 - exp(-t/0.5))",
+      "B": "10 - 6 exp(-t/0.5)",
+      "C": "4(1 - exp(-t/0.6))",
+      "D": "10 - 6 exp(-t/0.6)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 8 The figure shows an RLC circuit with a sinusoidal current source. At resonance, the ratio |[latex]I_{L}[/latex]|/|[latex]I_{R}[/latex]|, i.e., the ratio of the magnitudes of the inductor current phasor and the resistor current phasor, is ________",
+    "solution": "At resonance (for parallel RLC circuit) [latex] \\begin{array}{l} I_{R}=I \\\\ I_{L}=Q I \\angle-90^{\\circ} \\\\ I_{C}=Q I \\angle 90^{\\circ} \\end{array}[/latex] For parallel RLC circuit [latex] \\begin{aligned} \\frac{\\left|I_{L}\\right|}{\\left|I_{R}\\right|} &=\\frac{I Q}{I}=Q=R \\sqrt{\\frac{C}{L}} \\\\ &=10 \\sqrt{\\frac{10 \\times 10^{-6}}{10 \\times 10^{-3}}}=0.316 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page2_q3.webp",
+    "min": 0.3,
+    "max": 0.34
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 The z-parameter matrix for the two-port network shown is [latex]\\begin{bmatrix} 2j\\omega & j\\omega \\\\ j\\omega & 3+2j\\omega \\end{bmatrix}[/latex] where the entries are in [latex]\\Omega[/latex]. Suppose [latex]Z_{b}(j\\omega )=R_{b}+j\\omega[/latex]. Then the value of [latex]R_{b}[/latex]  (in [latex]\\Omega[/latex]) equals ________",
+    "solution": "For T-network, [latex] \\begin{aligned} Z_{11} &=Z_{a}+Z_{c} \\\\ Z_{22} &=Z_{b}+Z_{c} \\\\ \\text { and, } \\quad Z_{12} &=Z_{21}=Z_{c} \\\\ \\text { Given, } &[Z]=\\left[\\begin{array}{cc} 2 j \\omega & j \\omega \\\\ j \\omega & 3+2 j \\omega \\end{array}\\right] \\\\ \\text { Therefore } Z_{12} &=j \\omega \\\\ \\text { and, } \\quad Z_{22} &=3+2 j \\omega \\\\ &=3+j \\omega+j \\omega \\\\ &=Z_{b}+Z_{c} \\\\ &=R_{b}+j \\omega+Z_{c} \\\\ & R_{b}=3 \\Omega \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page2_q4.webp",
+    "min": 2.98,
+    "max": 3.02
+  },
+  {
+    "type": "numerical",
+    "question": "Question 10 The energy of the signal [latex]x(t)=\\frac{sin(4\\pi t)}{4\\pi t}[/latex] is ________",
+    "solution": "[latex]\\begin{aligned} \\text { Energy, } E_{x(i)} &=\\frac{1}{2 \\pi} \\int_{-\\infty}^{\\infty}|X(\\omega)|^{2} d \\omega \\\\ &=\\frac{1}{2 \\pi} \\int_{-4 \\pi}^{4 \\pi}\\left(\\frac{1}{4}\\right)^{2} d \\omega \\\\ &=\\frac{1}{2 \\pi} \\times \\frac{1}{16}[8 \\pi]=\\frac{1}{4}=0.25 \\mathrm{J} \\end{aligned}[/latex]",
+    "min": 0.24,
+    "max": 0.26
+  },
+  {
+    "type": "mcq",
+    "question": "Question 11 The Ebers-Moll model of a BJT is valid",
+    "solution": "Ebers-Moll model is valid for all the region of operation.",
+    "options": {
+      "A": "only in active mode",
+      "B": "only in active and saturation modes",
+      "C": "only in active and cut-off modes",
+      "D": "in active, saturation and cut-off modes"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 12 A long-channel NMOS transistor is biased in the linear region with [latex]V_{DS}[/latex]=50 mV and is used as a resistance. Which one of the following statements is NOT correct?",
+    "solution": "[latex]\\begin{aligned} r_{ds} &=\\frac{1}{\\mu_{n} C_{01} \\frac{W}{L}\\left(V_{\\mathrm{as}}-v_{r}\\right)} \\\\ r_{ds} &=\\text { channel resistance } \\end{aligned}[/latex] [latex] \\begin{array}{l} W \\uparrow r \\downarrow A \\rightarrow \\text { correct } \\\\ V_{T} \\downarrow r \\downarrow B \\rightarrow \\text { correct } \\\\ L \\uparrow r \\uparrow C \\rightarrow \\text { correct } \\\\ V_{\\triangle} \\uparrow r \\downarrow \\therefore D \\rightarrow \\text { Wrong statement } \\end{array}[/latex]",
+    "options": {
+      "A": "If the device width W is increased, the resistance decreases.",
+      "B": "If the threshold voltage is reduced, the resistance decreases.",
+      "C": "If the device length L is increased, the resistance increases.",
+      "D": "If [latex]V_{GS}[/latex] is increased, the resistance increases."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 Assume that the diode in the figure has [latex]V_{on}[/latex] = 0.7 V, but is otherwise ideal. The magnitude of the current [latex]i_{2}[/latex] (in mA) is equal to ________",
+    "solution": "Let diode: ON [latex]\\begin{aligned} \\Rightarrow \\; V_A&=2-0.7=1.3V \\\\ i_2&=\\frac{1.3}{6k\\Omega } \\\\ i_1&= \\frac{0.7}{2k\\Omega }\\\\ i_d&=i_2-i_1 \\\\ &= \\frac{1.3}{6k\\Omega } -\\frac{0.7}{2k\\Omega }\\\\ &= -ve \\end{aligned}[/latex] Not possible Let Diode is OFF [latex]i_2=\\frac{2V}{2k\\Omega +6k\\Omega }=0.25mA[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page3_q3.webp",
+    "min": 0.25,
+    "max": 0.25
+  },
+  {
+    "type": "numerical",
+    "question": "Question 14 Resistor [latex]R_1[/latex] in the circuit below has been adjusted so that [latex]I_{1}[/latex] = 1 mA. The bipolar transistors Q1 and Q2 are perfectly matched and have very high current gain, so their base currents are negligible. The supply voltage [latex]V_{CC}[/latex] is 6 V. The thermal voltage kT/q is 26 mV. The value of [latex]R_{2}[/latex]\r\n (in [latex]\\Omega[/latex]) for which [latex]I_{2}[/latex]=100 [latex]\\mu[/latex]A is ________",
+    "solution": "[latex]\\begin{aligned} R_{2} &=\\frac{V_{T}}{I_{2}} \\ln \\left(\\frac{I_{1}}{I_{2}}\\right)=\\frac{26 \\times 10^{-3}}{100 \\times 10^{-6}} \\ln \\left(\\frac{1 \\times 10^{-3}}{100 \\times 10^{-6}}\\right) \\\\ &=598.67 \\Omega \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page3_q4.webp",
+    "min": 570.0,
+    "max": 610.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 Which one of the following statements is correct about an ac-coupled common-emitter amplifier operating in the mid-band region?",
+    "solution": "",
+    "options": {
+      "A": "The device parasitic capacitances behave like open circuits, whereas coupling and bypass capacitances behave like short circuits.",
+      "B": "The device parasitic capacitances, coupling capacitances and bypass capacitances behave like open circuits.",
+      "C": "The device parasitic capacitances, coupling capacitances and bypass capacitances behave like short circuits",
+      "D": "The device parasitic capacitances behave like short circuits, whereas coupling and bypass capacitances behave like open circuits"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 Transistor geometries in a CMOS inverter have been adjusted to meet the requirement for worst case charge and discharge times for driving a load capacitor C. This design is to be converted to that of a NOR circuit in the same technology, so that its worst case charge and discharge times while driving the same capacitor are similar. The channel lengths of all transistors are to be kept unchanged. Which one of the following statements is correct?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page4_q1.webp",
+    "options": {
+      "A": "Widths of PMOS transistors should be doubled, while widths of NMOS transistors should be halved.",
+      "B": "Widths of PMOS transistors should be doubled, while widths of NMOS transistors should not be changed.",
+      "C": "Widths of PMOS transistors should be halved, while widths of NMOS transistors should not be changed.",
+      "D": "Widths of PMOS transistors should be unchanged, while widths of NMOS transistors should be halved."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 Assume that all the digital gates in the circuit shown in the figure are ideal, the resistor R= 10 k[latex]\\Omega[/latex] and the supply voltage is 5 V. The D flip-flops D1, D2, D3, D4 and D5 are initialized with logic values 0,1,0,1 and 0, respectively. The clock has a 30% duty cycle. The average power dissipated (in mW) in the resistor R is ________",
+    "solution": "The waveform of the gate output Average power dissipated [latex]\nP=\\frac{V^{2}}{R} \\times \\frac{T_{\\mathrm{ON}}}{T}=\\frac{5^{2}}{10 \\mathrm{k}} \\times \\frac{3 T}{5 T}=1.5 \\mathrm{mW}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page4_q2.webp",
+    "min": 1.45,
+    "max": 1.55
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 A 4:1 multiplexer is to be used for generating the output carry of a full adder. A and B are the bits to be added while [latex]C_{in}[/latex] is the input carry and [latex]C_{out}[/latex] is the output carry. A and B are to be used as the select bits with A being the more significant select bit. Which one of the following statements correctly describes the choice of signals to be connected to the inputs [latex]I_{0},I_{1},I_{2} \\;  and \\;  I_{3}[/latex] so that the output is [latex]C_{out}[/latex]?",
+    "solution": "In case of a full adder, [latex] \\begin{aligned} \\therefore \\quad I_{0}&=0 \\\\ I_{1}&=C_{\\text {in }} \\\\ I_{2}&=C_{\\text {in }} \\\\ I_{3}&=1 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page4_q3.webp",
+    "options": {
+      "A": "[latex]I_{0}=0,I_{1}=C_{in},I_{2}=C_{in}[/latex] and [latex]I_{3}=1[/latex]",
+      "B": "[latex]I_{0}=1,I_{1}=C_{in},I_{2}=C_{in} [/latex] and [latex] I_{3}=1[/latex]",
+      "C": "[latex]I_{0}=C_{in},I_{1}=0,I_{2}=1 [/latex] and [latex] I_{3}=C_{in}[/latex]",
+      "D": "[latex]I_{0}=0,I_{1}=C_{in},I_{2}=1 [/latex] and [latex] I_{3}=C_{in}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 The response of the system [latex]G(s)=\\frac{s-2}{(s+1)(s+3)}[/latex] to the unit step input u(t) is y(t). The value of [latex]\\frac{dy}{dt}[/latex] at t=[latex]0^{+}[/latex] is _________",
+    "solution": "[latex]\\begin{aligned} L\\left(\\frac{d y}{d t}\\right) &=(s Y(s)-y(0)) \\\\ Y(s) &=G(s) \\times \\frac{1}{s}=\\frac{s-2}{s(s+1)(s+3)} \\\\ y(0)&=\\lim _{s \\rightarrow \\infty} s Y(s) \\\\ \\text{(Applying } & \\text{initial value theorem) } \\\\ &=\\lim _{s \\rightarrow \\infty} \\frac{s-2}{(s+1)(s+3)} \\\\ &=\\frac{\\left(1-\\frac{2}{s}\\right)}{s\\left(1+\\frac{1}{s}\\right)\\left(1+\\frac{3}{s}\\right)} \\\\ y(0)&=0 \\\\ L\\left(\\frac{d y}{d t}\\right) &=s Y(s)=\\frac{s \\times(s-2)}{s(s+1)(s+3)} \\\\ &=\\frac{s-2}{(s+1)(s+3)} \\\\ \\left.\\frac{d y}{d t}\\right|_{t=0} &=\\lim _{s \\rightarrow \\infty} s L\\left(\\frac{d y}{d t}\\right) \\\\ &=\\lim _{s \\rightarrow \\infty} \\frac{s \\times(s-2)}{(s+1)(s+3)}\\\\ &=\\frac{\\left(1-\\frac{2}{s}\\right)}{\\left(1+\\frac{1}{s}\\right)\\left(1+\\frac{3}{s}\\right)}=1 \\end{aligned}[/latex]",
+    "options": {
+      "A": "1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 The number and direction of encirclements around the point -1+j0 in the complex plane by the Nyquist plot of [latex]G(s)=\\frac{1-s}{4+2s}[/latex] is",
+    "solution": "[latex]G(s)=\\frac{1-s}{4+2 s}[/latex] and [latex]\\angle G(s)=-\\tan ^{-1} \\omega-\\tan ^{-1} \\frac{\\omega}{2}[/latex] at [latex]s=0, \\quad|G(s)|=\\frac{1}{4}=0.25 [/latex] and [latex]\\left.\\angle G(s)\\right|_{\\omega=0}=0^{\\circ} [/latex] at [latex]s=\\infty, \\quad|G(s)|=-\\frac{1}{2}=-0.5 [/latex] and [latex]\\left.\\angle G(s)\\right|_{m \\times \\infty}=-180^{\\circ} [/latex] Nyquist plot is Hence, number of encirclements of (-1 + j0) = 0",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 A discrete memoryless source has an alphabet [latex]\\{a_{1},a_{2},a_{3},a_{4}\\}[/latex]\r\n with corresponding probabilities [latex]\\{\\frac{1}{2},\\frac{1}{4},\\frac{1}{8},\\frac{1}{8}\\}[/latex]. The minimum required average codeword length in bits to represent this source for error-free reconstruction is ________",
+    "solution": "Minimum required average codeword length in bits for error free reconstruction [latex] \\begin{aligned} L_{\\min } &=H(\\text { Entropy }) \\\\ H=\\frac{1}{2} \\log _{2} 2+\\frac{1}{4} \\log _{2} 4 &+\\frac{1}{8} \\log _{2} 8+\\frac{1}{8} \\log _{2} 8 \\\\ &=\\frac{1}{2}+\\frac{1}{2}+\\frac{3}{8}+\\frac{3}{8}=1.75 \\\\ \\Rightarrow \\quad L_{\\text {min }} &=1.75 \\mathrm{bits} / \\text { word } \\end{aligned}[/latex]",
+    "min": 1.74,
+    "max": 1.76
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 A speech signal is sampled at 8 kHz and encoded into PCM format using 8 bits/sample. The PCM data is transmitted through a baseband channel via 4-level PAM. The minimum bandwidth (in kHz) required for transmission is _______",
+    "solution": "[latex]\\begin{array}{l} f_{s}=8 \\mathrm{kHz} \\\\ n=8 \\text { bits/sample } \\\\ M=4 \\\\ B W_{\\min }=\\frac{R_{b}}{2 \\log _{2} M}=\\frac{R_{b}}{4}=\\frac{8 \\times 8}{4}=16 \\mathrm{kHz} \\end{array}[/latex]",
+    "min": 15.9,
+    "max": 16.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 23 A uniform and constant magnetic field [latex]B=\\hat{z}B[/latex] exists in the [latex]\\hat{z}[/latex] direction in vacuum. A particle of mass m with a small charge q is introduced into this region with an initial velocity [latex]v=\\hat{x}v_{x}+\\hat{z}v_{z}[/latex]. Given that B, m, q, [latex]v_{x}[/latex] and [latex]v_{z}[/latex] are all non-zero, which one of the following describes the eventual trajectory of the particle?",
+    "solution": "[latex]\\mathrm{Ba}_{\\mathrm{z}}[/latex] magnetic field [latex] v_{x} a_{x}+v_{z} a_{z}[/latex] velocity [latex] \\begin{aligned} F&=Q(v \\times B) \\text{ by Lorentz's law}\\\\ &=Q\\left(v_{x} a_{x}+v_{z} a_{z}\\right) \\times B a_{z} \\\\ F_{y} &=Q v_{x} \\cdot B\\left(-a_{y}\\right) \\end{aligned}[/latex] This results in a circular path in the XY plane with  [latex]v_{z} a_{z}[/latex] component causing a linear path. Both result in a helical path along Z axis.",
+    "options": {
+      "A": "Helical motion in the [latex]\\hat{z}[/latex] direction",
+      "B": "Circular motion in the xy plane",
+      "C": "Linear motion in the [latex]\\hat{z}[/latex] direction",
+      "D": "Linear motion in the [latex]\\hat{x}[/latex] direction"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 24 Let the electric field vector of a plane electromagnetic wave propagating in a homogenous medium be expressed as [latex]E=\\hat{x}E_{x}e^{-j(\\omega t-\\beta z)}[/latex], where the propagation constant [latex]\\beta[/latex] is a function of the angular frequency [latex]\\omega[/latex]. Assume that [latex]\\beta (\\omega)[/latex]\n and [latex]E_{x}[/latex] are known and are real. From the information available, which one of the following CANNOT be determined?",
+    "solution": "[latex]\\beta(\\omega) [/latex] is known so [latex] V_{g}[/latex] can be calculated. [latex] v_{p}=\\omega / \\beta [/latex] can be calculated. Polarization can be identified. [latex] \\mu_{r}[/latex] and [latex]\\epsilon_{r} [/latex] cannot be found, due to which power flux cannot be calculated as power flux [latex] P=\\frac{1}{2} \\frac{|E|^{2}}{\\eta}, \\text{ where }\\eta=120 \\pi \\times \\sqrt{\\frac{\\mu_{r}}{\\epsilon_{r}}}[/latex]",
+    "options": {
+      "A": "The type of polarization of the wave.",
+      "B": "The group velocity of the wave",
+      "C": "The phase velocity of the wave.",
+      "D": "The power flux through the z = 0 plane."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 25 Light from free space is incident at an angle [latex]\\theta _{i}[/latex]  to the normal of the facet of a step-index large core optical fibre. The core and cladding refractive indices are [latex]n _{1}=1.5 \\; and \\; n_{2}=1.4[/latex], respectively. The maximum value of [latex]\\theta _{i}[/latex] (in degrees) for which the incident light will be guided in the core of the fibre is ________",
+    "solution": "[latex]\\begin{aligned} & \\sin \\alpha_{\\max } &=\\sqrt{n_{1}^{2}-n_{2}^{2}}=\\sqrt{1.5^{2}-1.4^{2}} \\\\ \\Rightarrow & \\alpha_{\\max } &=\\sin ^{-1}(0.5385)=32.58^{\\circ} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page5_q5.webp",
+    "min": 32.0,
+    "max": 33.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 26 The ordinary differential equation [latex]\\frac{dx}{dt}=-3x+2, \\; with \\; x(0)=1[/latex] is to be solved using the forward Euler method. The largest time step that can be used to solve the equation without making the numerical solution unstable is ________",
+    "solution": "[latex]\\frac{d y}{d x}=-3 y+2, \\quad y(0)=1[/latex] If [latex]|1-3 h| \\lt 1,[/latex] then solution of differential equation is stable. [latex] \\begin{array}{c} -1 \\lt 1-3 h \\\\lt 1 \\\\ -2 \\lt -3 h \\lt 0 \\\\ 0 \\lt h \\lt \\frac{2}{3} \\\\ h_{\\max }=\\frac{2}{3}=0.66 \\end{array}[/latex]",
+    "min": 0.6,
+    "max": 0.7
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 Suppose C is the closed curve defined as the circle [latex]x^{2}+y^{2}=1[/latex] with C oriented anti-clockwise. The value of [latex]\\oint (xy^{2}dx+x^{2}y dy)[/latex] over the curve C equals ________",
+    "solution": "By Green's theorem [latex] \\begin{aligned} \\int x y^{2} d x+x^{2} y d y &=\\iint_{R}\\left(\\frac{d}{d x}\\left(x^{2} y\\right)-\\frac{d}{d y}\\left(x y^{2}\\right)\\right) d x d y \\\\ &=\\iint_{R}(2 x y-2 x y)=0 \\end{aligned}[/latex]",
+    "min": -0.03,
+    "max": 0.03
+  },
+  {
+    "type": "numerical",
+    "question": "Question 28 Two random variables X and Y are distributed according to [latex]f_{x,y}(x,y)=\\left\\{\\begin{matrix} (x+y) &0 \\leq x\\leq 1,0\\leq y\\leq 1 \\\\ 0 & otherwise. \\end{matrix}\\right.[/latex] The probability [latex]p(x+y\\leq 1)[/latex]\n is ________",
+    "solution": "[latex]\\begin{aligned} P(X+Y \\leq 1) &=\\int_{x=0}^{1} \\int_{y=0}^{(1-x)} f_{x y}(x, y) d x d y \\\\ &=\\int_{x=0}^{1} \\int_{y=0}^{1-x}(x+y) d x d y \\\\ &=\\int_{x=0}^{1}\\left(x y+\\frac{y^{2}}{2}\\right)_{0}^{1-x}\\\\ &=\\int_{x=0}^{1}\\left(x(1-x)+\\frac{(1-x)^{2}}{2}\\right) d x \\\\ &=\\int_{x=0}^{1}\\left(\\frac{1}{2}-\\frac{x^{2}}{2}\\right) d x=\\left(\\frac{x}{2}-\\frac{x^{3}}{6}\\right)_{0}^{1} \\\\ &=\\frac{1}{2}-\\frac{1}{6}=\\frac{1}{3}=0.33 \\end{aligned}[/latex]",
+    "min": 0.32,
+    "max": 0.34
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 The matrix [latex]\\begin{bmatrix} a & 0&3 & 7\\\\ 2& 5& 1 &3 \\\\ 0 & 0 & 2& 4\\\\ 0 &0 & 0&b \\end{bmatrix}[/latex] has det(A) = 100 and trace(A) = 14. The value of |a-b| is ________",
+    "solution": "[latex]\\begin{aligned} \\text { Trace of } A&=14 \\\\ 2+b&=14 \\\\ a+b &=7 &\\ldots(i)\\\\ \\text { det }(A)&=100 \\\\ \\begin{array}{r|rrr|} & a & 37 & \\\\5& 0 & 2 & 4 \\\\& 0 & 0 & b\\end{array}=100\\\\ 5 \\times 2 \\times a \\times b &=100 \\\\ 10 a b &=100 \\\\ a b &=10 &\\ldots(ii) \\end{aligned}[/latex] From equation (i) and (ii) [latex] \\begin{aligned} \\text { either }\\quad a&=5,b=2\\\\ \\text{or}\\quad a&=2b=5\\\\ |a-b|&=|5-2|=3 \\end{aligned}[/latex]",
+    "min": 2.9,
+    "max": 3.1
+  },
+  {
+    "type": "mcq",
+    "question": "Question 30 In the given circuit, each resistor has a value equal to 1 [latex]\\Omega[/latex]. What is the equivalent resistance across the terminals a and b?",
+    "solution": "[latex]R_{eq}\\Rightarrow[/latex] By using delta to star conversion Again by star to delta conversion [latex] \\begin{aligned} R_{\\mathrm{ab}} &=\\{4 \\| 1)+(4 \\| 1)\\}\\|\\{1 \\| 4)\\} \\\\ &=\\left(\\frac{4}{5}+\\frac{4}{5}\\right) \\| \\frac{4}{5}=\\frac{8}{15} \\Omega \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page6_q5.webp",
+    "options": {
+      "A": "1/6 [latex]\\Omega[/latex]",
+      "B": "1/3 [latex]\\Omega[/latex]",
+      "C": "9/20 [latex]\\Omega[/latex]",
+      "D": "8/15 [latex]\\Omega[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 31 In the circuit shown in the figure, the magnitude of the current (in amperes) through [latex]R_{2}[/latex] is ___",
+    "solution": "Using KVL in the outer loop [latex] 60-5\\left(0.16 V_{x}\\right)-\\frac{V_{x}}{5} \\times 3-V_{x}=0[/latex] [latex] \\text{or}\\quad v_{x}=25 \\mathrm{V} [/latex] [latex] \\therefore [/latex] The current flowing through [latex] R_{2}=\\frac{V_{x}}{5}=\\frac{25}{5}=5 \\mathrm{A}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page7_q1.webp",
+    "min": 4.9,
+    "max": 5.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 A continuous-time filter with transfer function [latex]H(S)=\\frac{2s+6}{s^{2}+6s+8}[/latex] is converted to a discretetime\nfilter with transfer function [latex]G(z)=\\frac{2z^{2}-0.5032z}{z^{2}-0.5032z+k}[/latex] so that the impulse response of the\ncontinuous-time filter, sampled at 2 Hz, is identical at the sampling instants to the impulse response of the discrete time filter. The value of k is ________",
+    "solution": "[latex]\\begin{aligned} \\text{Given, }H(s)&=\\frac{2 s+6}{s^{2}+6 s+8}=\\frac{1}{s+2}+\\frac{1}{s+4} \\\\ h(t) &=e^{-2 t} u(t)+e^{-4 t} u(t) \\\\ \\text{Given, }f_{s} &=2 \\mathrm{Hz} \\end{aligned} [/latex] [latex] \\begin{aligned} \\text { For discrete time }, t &=n T_{s}=\\frac{n}{2} \\\\ h[n] &=\\left(e^{-n}+e^{-2 n}\\right) \\cup(n] \\\\ H(z) &=\\frac{1}{1-e^{-1} Z^{-1}}+\\frac{1}{1-e^{-2} Z^{-1}} \\\\ &=\\frac{Z}{Z-e^{-1}}+\\frac{Z}{Z-e^{-2}} \\\\ &=\\frac{2 Z^{2}-0.5032 Z}{Z^{2}-0.5032 Z+0.049} \\\\ K &=0.049 \\end{aligned}[/latex]",
+    "min": 0.04,
+    "max": 0.06
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 The Discrete Fourier Transform (DFT) of the 4-point sequence x[n]={ x[0],x[1],x[2],x[3] } = {3,2,3,4} is X[k]={ X[0],X[1],X[2],X[3] } = {12,2j,0,-2j}. If [latex]X_{1}[k][/latex]  is the DFT of the 12-point sequence  [latex]x_{1}[k][/latex]={3,0,0,2,0,0,3,0,0,4,0,0}, the value of  [latex]|\\frac{x_{1}[8]}{x_{1}[11]}|[/latex] is ________",
+    "solution": "From the given question [latex] \\begin{aligned} x_{1}[n] &=x\\left[\\frac{n}{3}\\right] \\\\ x_{1}[k]=\\{12,2 j, 0,&-2 j, 12,2 j, 0,-2 j, 12,2 j, 0,-2\\} \\\\ x_{1}[8] &=12 ; \\quad x_{1}(11)=-2 j \\\\ \\therefore \\quad \\frac{x_{1}(8)}{x_{1}(11)} &=\\left|\\frac{12}{-2 j}\\right|=6 \\end{aligned}[/latex]",
+    "min": 5.9,
+    "max": 6.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 The switch S in the circuit shown has been closed for a long time. It is opened at time t=0 and remains open after that. Assume that the diode has zero reverse current and zero forward voltage drop. The steady state magnitude of the capacitor voltage [latex]V_{c}[/latex] (in volts) is ______",
+    "solution": "At [latex]t = 0^{-}[/latex] [latex] i_{L}\\left(0^{-}\\right)=\\frac{10}{1}=10 \\mathrm{A}[/latex] For [latex]t>0[/latex] (using Laplace transform) [latex] \\begin{array}{l} I(s)=\\frac{10 \\times 10^{-3}}{10^{-3} s+\\frac{10^{6}}{10 s}} \\\\ V_{c}(s)=I(s) \\times \\frac{10^{6}}{10 s} \\\\ V_{c}(s)=\\frac{10^{6}}{s^{2}+10^{8}} \\end{array}[/latex] Taking inverse Laplace, we get [latex] V_{c}(t)=100 \\sin 10^{4} t \\mathrm{V}[/latex] [latex] \\therefore [/latex] Steady state magnitude voltage across capacitor is 100V.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page7_q4.webp",
+    "min": 99.0,
+    "max": 101.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 A voltage [latex]V_{G}[/latex]  is applied across a MOS capacitor with metal gate and p-type silicon substrate at T=300 K. The inversion carrier density (in number of carriers per unit area) for [latex]V_{G}=0.8 V[/latex] is [latex]2\\times 10^{11} cm^{-2}[/latex]. For [latex]V_{G}=1.3 V[/latex], the inversion carrier density is [latex]4\\times 10^{11}cm^{-2}[/latex]. What is the value of the inversion carrier density for [latex]V_{G}=1.8 V[/latex]?",
+    "solution": "In a MOS - Capacitor [latex] \\begin{aligned} \\left(V_{G 1}-V_{T}\\right) & \\propto Q \\\\ \\frac{\\left(V_{G 1}-V_{T}\\right)}{\\left(V_{G 2}-V_{T}\\right)} &=\\frac{Q_{1}}{Q_{2}} \\\\ \\frac{0.8-V_{T}}{1.3-V_{T}} &=\\frac{2 \\times 10^{11}}{4 \\times 10^{11}} \\\\ \\text { On solving, } \\quad V_{T} &=0.3 \\mathrm{V}\\\\ \\text{Now Consider, } &\\frac{V_{G 2}-V_{T}}{V_{G 3}-V_{T}}=\\frac{Q_{2}}{Q_{3}} \\\\ \\frac{1.3-0.3}{1.8-0.3}&=\\frac{4 \\times 10^{11}}{Q_{3}}\\\\ \\end{aligned}[/latex] Inverse charge density with [latex]V_{G}=1.8 \\mathrm{V} [/latex] [latex] Q_{3}=6 \\times 10^{11} / \\mathrm{cm}^{2}[/latex]",
+    "options": {
+      "A": "[latex]4.5 \\times 10^{11}cm^{-2}[/latex]",
+      "B": "[latex]6.0 \\times 10^{11}cm^{-2}[/latex]",
+      "C": "[latex]7.2 \\times 10^{11}cm^{-2}[/latex]",
+      "D": "[latex]8.4 \\times 10^{11}cm^{-2}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 Consider avalanche breakdown in a silicon [latex]p^{+}n[/latex] junction. The n-region is uniformly doped with a donor density [latex]N_{D}[/latex]. Assume that breakdown occurs when the magnitude of the electric field at any\r\npoint in the device becomes equal to the critical field [latex]E_{crit}[/latex]. Assume [latex]E_{crit}[/latex] to be independent of [latex]N_{D}[/latex]. If the built-in voltage of the [latex]p^{+}n[/latex] junction is much smaller than the breakdown voltage,[latex]V_{BR}[/latex], the relationship between [latex]V_{BR}[/latex] and [latex]N_{D}[/latex] is given by",
+    "solution": "In any type of PN junction [latex] \\begin{aligned} v_{B R} &\\propto \\frac{1}{\\text { Doping Concentration }}\\\\ \\text{i.e.}\\quad V_{B R} &\\propto \\frac{1}{N_{D}} \\text { (or)  } V_{B R}=\\frac{\\varepsilon E^{2}}{2 q N_{D}} \\\\ \\therefore V_{BR} \\times N_{D} \\rightarrow &\\text { is a constant } \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]V_{BR} \\times \\sqrt{N_{D}}=constant[/latex]",
+      "B": "[latex]N_{D}\\times \\sqrt{V_{BR}}=constant[/latex]",
+      "C": "[latex]N_{D} \\times V_{BR}=constant[/latex]",
+      "D": "[latex]N_{D}/V_{BR}=constant[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 Consider a region of silicon devoid of electrons and holes, with an ionized donor density of [latex]N_{d}^{+}=10^{17}cm^{-3}[/latex]. The electric field at x= 0 is 0 V/cm and the electric field at x=L is 50 kV/cm in the positive x direction. Assume that the electric field is zero in the y and z directions at all points. Given [latex]q=1.6\\times 10^{-19}[/latex]coulomb,  [latex]\\epsilon _{0}=8.85\\times 10^{-14}F/cm,\\epsilon _{r}=11.7[/latex] for silicon, the value of L in nm is ________",
+    "solution": "[latex]\\begin{aligned} |\\varepsilon|&=\\frac{q}{\\varepsilon} N_{D} X_{N} \\\\ 50 \\times 10^{3}&=\\frac{1.6 \\times 10^{-19}}{8.85 \\times 10^{-14} \\times 11.7} \\times 10^{17} \\times X_{N} \\\\ \\text { On solving, } \\quad X_{N} &=3.2356 \\times 10^{-6} \\mathrm{cm} \\\\ &=3.236 \\times 10^{-8} \\mathrm{m} \\\\ x_{N} &=L=32.36 \\mathrm{nm}\\\\ &=L=32.36 \\mathrm{nm} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page8_q2.webp",
+    "min": 30.0,
+    "max": 34.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 Consider a long-channel NMOS transistor with source and body connected together. Assume that the electron mobility is independent of [latex]V_{GS}[/latex] and [latex]V_{DS}[/latex]. Given, [latex]g_{m}=0.5 \\mu A/V \\; for \\;  V_{DS}=50mV \\; and \\; V_{GS}=2 V[/latex], [latex]g_{d}=8 \\mu A/V \\; for \\;  V_{GS}=2V \\; and \\; V_{DS}=0 V[/latex], where [latex]g_{m}=\\frac{\\partial I_{D}}{\\partial V_{GS}}[/latex] and   [latex]g_{d}=\\frac{\\partial I_{D}}{\\partial V_{DS}}[/latex] The threshold voltage (in volts) of the transistor is ________",
+    "solution": "since [latex]V_{G S} \\gt V_{D S}[/latex] MOSFET is in linear operation [latex] \\begin{aligned} I_{D} &=K_{N}^{\\prime}\\left[V_{G S}-V_{T}\\right] V_{D S} \\\\ \\frac{d I_{D}}{d V_{G S}} &=K_{N} V_{D S} \\\\ g_{m} &=K_{N}^{\\prime} V_{D S} \\\\ 0.5 \\times 10^{-6} &=K_{N}^{\\prime}\\left[50 \\times 10^{-3}\\right] \\therefore K_{N}^{\\prime}=10^{-5} \\\\ I_{D} &=K_{N}\\left[V_{G S}-V_{T}\\right] V_{D S} \\\\ \\frac{d I_{D}}{d V_{D S}} &=K_{N}\\left[V_{G S}-V_{T}\\right] \\\\ g_{d} &=K_{N}\\left[V_{G S}-V_{T}\\right] \\\\ 8 \\times 10^{-6} &=10^{-5}\\left[2-V_{T}\\right] \\\\ \\text { On solving } V_{T} &=1.2 \\mathrm{V} \\end{aligned}[/latex]",
+    "min": 1.18,
+    "max": 1.22
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 The figure shows a half-wave rectifier with a 475 [latex]\\mu[/latex]F filter capacitor. The load draws a constant current [latex]I_{o}=1A[/latex] from the rectifier. The figure also shows the input voltage [latex]V_{i}[/latex], the output voltage [latex]V_{c}[/latex] and the peak-to-peak voltage ripple u on [latex]V_{c}[/latex]. The input voltage [latex]V_{i}[/latex] is a triangle-wave with an amplitude of 10 V and a period of 1 ms. The value of the ripple u (in volts) is ________",
+    "solution": "[latex]V_{\\text {ripple }}=\\frac{I_{D C} \\cdot T}{C}=\\frac{1 \\times 1 \\times 10^{-3}}{475 \\times 10^{-6}}=2.105 \\mathrm{Volts} [/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page8_q4.webp",
+    "min": 1.9,
+    "max": 2.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 40 In the opamp circuit shown, the Zener diodes Z1 and Z2 clamp the output voltage [latex]V_{o}[/latex] to +5 V or -5 V. The switch S is initially closed and is opened at time t=0. The time t=[latex]t_{1}[/latex] (in seconds) at which [latex]V_{o}[/latex] changes state is ________",
+    "solution": "Initially switch is closed and [latex]V_{B}=10 \\mathrm{V} [/latex] [latex] \\Rightarrow \\quad V_{01}=-10 \\mathrm{V} [/latex] [latex] \\Rightarrow \\quad V_{0}=-V_{2}=-5 \\mathrm{V} [/latex] [latex] \\Rightarrow \\quad V_{A}=\\frac{V_{0}}{4 k+1 k} \\times 1 k=-1 V [/latex] At t=0 The switch is opened and as [latex]t \\rightarrow \\infty, V_{B}[/latex] approaches [latex]-10 \\mathrm{V} [/latex] Let at [latex]t=T_{1} [/latex] [latex] V_{B} [/latex] exceeds [latex]V_{A}(-1 \\mathrm{V})[/latex] so that [latex]V_{01} [/latex]changes from [latex] -10 \\vee \\text{ to } 10 \\vee [/latex] [latex] \\begin{aligned} \\Rightarrow V_{0} \\text { charges from }-5 & \\vee \\text { to } 5 \\mathrm{V} \\\\ V_{B} &=V_{f}+\\left(V_{i}-V_{f}\\right) e^{-t / \\tau} \\\\ &=-10+[10-(-10)] e^{-t / R C} \\\\ \\text { At. } t=T_{1} \\quad & V_{B}=-1 \\\\ -1 \\mathrm{V} &=-10+20 e^{-T / R C}\\\\ \\Rightarrow \\quad T_{1}&=R C \\ln \\frac{20}{9} \\\\ &=10 \\times 10^{3} \\times 100 \\times 10^{-6} \\times 0.798 \\\\ &=0.798 \\mathrm{sec} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page8_q5.webp",
+    "min": 0.7,
+    "max": 0.9
+  },
+  {
+    "type": "numerical",
+    "question": "Question 41 An opamp has a finite open loop voltage gain of 100. Its input offset voltage [latex]V_{ios}(=+5mV)[/latex] is modeled as shown in the circuit below. The amplifier is ideal in all other respects. [latex]V_{input}[/latex] is 25 mV. The output voltage (in millivolts) is ________",
+    "solution": "[latex]\\begin{aligned} \\text { Overall input } &=V_{\\text {ios }}+V_{\\text {input }} \\\\ &=5 \\mathrm{mV}+25 \\mathrm{mV}=30 \\mathrm{mV}\\\\ v_{0}&=\\frac{\\left(1+\\frac{R_{F}}{R_{1}}\\right)}{1+\\frac{1}{A_{a}}\\left(1+\\frac{R_{F}}{R_{1}}\\right)} \\times \\text { Overall input } \\\\ &=\\frac{1+\\frac{15 \\mathrm{k} \\Omega}{1 \\mathrm{k} \\Omega}}{1+\\frac{1}{100}\\left(1+\\frac{15 \\mathrm{k} \\Omega}{1 \\mathrm{k} \\Omega}\\right)} \\times 30 \\times 10^{-3}=413.79 \\mathrm{mv} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page9_q1.webp",
+    "min": 400.0,
+    "max": 425.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 An 8 Kbyte ROM with an active low Chip Select input ([latex]\\overline{CS}[/latex]) is to be used in an 8085 microprocessor based system. The ROM should occupy the address range 1000H to 2FFFH. The address lines are designated as [latex]A_{15} \\; to \\; A_{0}, \\; where \\; A_{15}[/latex] is the most significant address bit.\r\nWhich one of the following logic expressions will generate the correct [latex]\\overline{CS}[/latex] signal for this ROM?",
+    "solution": "[latex]\\begin{aligned} &  \\text {8kB ROM is given }\\\\ &\\therefore 2^{n}=8 k B=2^{3}\\left(2^{10}\\right)=2^{13} \\end{aligned}[/latex] [latex]\\therefore[/latex] 13 Address lines are required for memory chip. But the address range given as 1000H-2FFF H In order to get [latex]\\overline{C S}[/latex] as low, the condition is [latex] A_{15}=A_{14}=0[/latex] and [latex]A_{13}=0 / 1, A_{12}=1 / 0 [/latex] The circuit to generate an active low chip select signal can be given as shown below: The logical expression can be written as, [latex] \\begin{aligned} F &=A_{15}+A_{14}+\\left(A_{13} \\odot A_{12}\\right) \\\\ &=A_{15}+A_{14}+\\left(A_{13} \\cdot A_{12}+\\bar{A}_{13} \\cdot \\bar{A}_{12}\\right) \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]A_{15} + A_{14} + (A_{13}\\cdot A_{12}+ \\bar{A_{13}}\\cdot \\bar{A_{12}})[/latex]",
+      "B": "[latex]A_{15} \\cdot A_{14} \\cdot (A_{13}+ A_{12})[/latex]",
+      "C": "[latex]\\bar{A_{15}} \\cdot \\bar{A_{14}} \\cdot (A_{13}\\cdot \\bar{A_{12}}+ \\bar{A_{13}}\\cdot A_{12})[/latex]",
+      "D": "[latex]\\bar{A_{15}} + \\bar{ A_{14}} +A_{13}\\cdot A_{12}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 In an N bit flash ADC, the analog voltage is fed simultaneously to [latex]2^{N}-1[/latex] comparators. The output of the comparators is then encoded to a binary format using digital circuits. Assume that the analog voltage source [latex]V_{in}[/latex] (whose output is being converted to digital format) has a source resistance of 75 [latex]\\Omega[/latex]  as shown in the circuit diagram below and the input capacitance of each comparator is 8 pF.\nThe input must settle to an accuracy of 1/2 LSB even for a full scale input change for proper conversion. Assume that the time taken by the thermometer to binary encoder is negligible. If the flash ADC has 8 bit resolution, which one of the following alternatives is closest to the maximum sampling rate ?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page9_q3.webp",
+    "options": {
+      "A": "1 megasamples per second",
+      "B": "6 megasamples per second",
+      "C": "64 megasamples per second",
+      "D": "256 megasamples per second"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 44 The state transition diagram for a finite state machine with states A, B and C, and binary inputs X, Y and Z, is shown in the figure. Which one of the following statements is correct?",
+    "solution": "For State A For State B For State C In state 'C' when X Y Z= 111 ; the ambiguity occurs. Because from state 'C' [latex] \\begin{aligned} \\text{When, }\\quad X&=1\\\\ Z&=1 \\Rightarrow \\text { Next state }=A \\\\ \\text{When, }\\quad Y&=1\\\\ Z&=1 \\Rightarrow \\text { Next state }=B \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page9_q4.webp",
+    "options": {
+      "A": "Transitions from State A are ambiguously defined.",
+      "B": "Transitions from State B are ambiguously defined",
+      "C": "Transitions from State C are ambiguously defined.",
+      "D": "All of the state transitions are defined unambiguously"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 45 In the feedback system shown below [latex]G(s)=\\frac{1}{(s^{2}+2s)}[/latex]. The step response of the closed-loop system should have minimum settling time and have no overshoot. The required value of gain k to achieve this is ________",
+    "solution": "[latex]\\begin{aligned} G(s)&=\\frac{1}{s^{2}+2 s} \\\\ \\frac{Y(s)}{R(s)}&=\\frac{\\frac{K}{s^{2}+2 s}}{1+\\frac{K}{s^{2}+2 s}}=\\frac{K}{s^{2}+2 s+K} \\end{aligned}[/latex] Minimum settling time and no overshoot implies critical damping i.e. [latex] \\begin{aligned} \\xi &=1 \\\\ \\omega_{n} &=\\sqrt{K} \\\\ \\therefore \\quad 2 \\times \\xi \\cdot \\omega_{n} &=2 \\\\ \\omega_{n} &=1 \\\\ \\Rightarrow \\quad \\sqrt{K} &=1 \\text { or } K=1 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page9_q5.webp",
+    "min": 0.95,
+    "max": 1.05
+  },
+  {
+    "type": "numerical",
+    "question": "Question 46 In the feedback system shown below [latex]G(s)=\\frac{1}{(s+1)(s+2)(s+3)}[/latex] The positive value of k for which the gain margin of the loop is exactly 0 dB and the phase margin of the loop is exactly zero degree is ________",
+    "solution": "[latex]1+G(s) H(s)=1+\\frac{K}{(s+1)(s+2)(s+3)}=0 [/latex] [latex] (s+1)\\left(s^{2}+5 s+6\\right)+K=0 [/latex] [latex] s^{3}+5 s^{2}+6 s+s^{2}+5 s+6+k=0 [/latex] [latex] \\Rightarrow s^{3}+6 s^{2}+11 s+6+K= [/latex] Gain margin =0dB and phase margin [latex]=0^{\\circ}[/latex] It implies marginal stable system By Routh Array [latex] \\begin{array}{r|rr} s^{3} & 1 & 11 \\\\ s^{2} & 6 &(6+k) \\\\ s & \\frac{66-6-K}{6} & 0 \\\\ s^{\\circ} & 6+K & \\end{array}[/latex] For marginal stable system, [latex] 60-K=0 [/latex] [latex] K=60[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page10_q1.webp",
+    "min": 59.5,
+    "max": 60.5
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 The asymptotic Bode phase plot of [latex]G(s)=\\frac{1}{(s+0.1)(s+10)(s+p_{1})}[/latex], with k and [latex]p_{1}[/latex] both positive, is shown below. The value of [latex]p_{1}[/latex] is ________",
+    "solution": "[latex]\\begin{aligned} G(s)=\\frac{K}{(s+0.1)(s+10)\\left(s+p_{1}\\right)} \\\\ \\angle G(s)=-\\tan ^{-1} \\frac{\\omega}{0.1}-\\tan ^{-1} \\frac{\\omega}{10}-\\tan ^{-1} \\frac{\\omega}{p_{1}} \\\\ \\left.\\angle G(s)\\right|_{\\omega=1}=-\\tan ^{-1} \\frac{1}{0.1}-\\tan ^{-1} \\frac{1}{10}-\\tan ^{-1} \\frac{1}{p_{1}} \\\\ =-135^{\\circ} \\\\ -\\tan ^{-1} 10-\\tan ^{-1} 0.1-\\tan ^{-1} \\frac{1}{p_{1}}=-135^{\\circ} \\\\ -84.28^{\\circ}-5.71^{\\circ}-\\tan ^{-1} \\frac{1}{p_{1}}=-135^{\\circ} \\\\ -\\tan ^{-1} \\frac{1}{p_{1}}=-135^{\\circ}+90^{\\circ}\\\\ \\tan ^{-1} \\frac{1}{p_{1}} =45^{\\circ} \\\\ \\frac{1}{p_{1}} =1 \\Rightarrow p_{1}=1 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page10_q2.webp",
+    "min": 0.95,
+    "max": 1.05
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 An information source generates a binary sequence [latex]\\{\\alpha_{n} \\}. \\; \\alpha_{n}[/latex] can take one of the two possible values -1 and +1 with equal probability and are statistically independent and identically distributed. This sequence is precoded to obtain another sequence [latex]\\{\\beta_{n}, \\; as \\; \\beta _{n}=\\alpha_{n}+k \\alpha_{n-3}\\}[/latex]. The sequence {[latex]\\beta _{n}[/latex]} is used to modulate a pulse g(t) to generate the baseband signal [latex]X(t)=\\sum_{n=-\\infty }^{\\infty }\\beta _{n}g(t-nT), [/latex]  where [latex]  g(t)=\\left\\{\\begin{matrix} 1, &0\\leq t\\leq T \\\\ 0,&otherwise. \\end{matrix}\\right.[/latex] If there is a null at [latex]f=\\frac{1}{3T}[/latex] in the power spectral density of X(t), then k is ________",
+    "solution": "Power spectral density of [latex]x(t)=S_{X}(t)[/latex] [latex] \\begin{aligned} &S_{X}(f)=\\frac{|G(f)|^{2}}{T} \\sum_{n=-\\infty}^{\\infty} R_{b}(\\tau) e^{j 2 \\pi fn \\tau} \\\\ &R_{b}(\\tau)=E\\left[\\beta_{n} \\beta_{n-\\tau}\\right] \\\\ &=E\\left[\\left(\\alpha_{n}+k \\alpha_{n-3}\\right)\\left(\\alpha_{n-\\tau}+k \\alpha_{n-\\tau-3}\\right)\\right] \\\\ &=E\\left[\\alpha_{n} \\alpha_{n-\\tau}\\right]+k E\\left[\\alpha_{n-3} \\alpha_{n-7}\\right]+k E\\left[\\alpha_{n} \\alpha_{n-\\tau-3}\\right] \\\\ &+k^{2} E\\left[\\alpha_{n-3} \\alpha_{n--3}\\right] \\\\ &=E\\left[\\alpha_{n} \\alpha_{n-\\tau}\\right]+k E\\left[\\alpha_{n-3} \\alpha_{n-\\tau-3+3}\\right]+k E\\left[\\alpha_{n} \\alpha_{n-\\tau-3}\\right] \\\\ &\\quad +k^{2} E\\left[\\alpha_{n-3} \\alpha_{n-\\tau-3}\\right] \\\\ &= A(\\tau)+k R(\\tau-3)+k R(\\tau+3)+k^{2} R(\\tau) \\\\ &=\\left(1+k^{2}\\right) R(\\tau)+k R(\\tau+3)+k R(\\tau-3) & \\end{aligned}[/latex] Hence autocorrection function can be defined [latex] R_{b}(\\tau)=\\left\\{\\begin{array}{cc} 1+k^{2} & \\tau=0 \\\\ k & \\tau=\\pm 3 \\\\ 0 & \\text { otherwise } \\end{array}\\right\\}[/latex] Power spectral density [latex] \\begin{aligned} s_{b}(f)&=1+k^{2}+2 k \\cos (2 \\pi f 3 T)\\\\ \\text{Null will occur at }f&=\\frac{1}{3 T} \\\\ f&=\\frac{1}{3 T}\\\\ s_{b}(f)&=1+k^{2}+2 k \\cos (2 \\pi)=0\\\\ \\Rightarrow\\quad 1+k^{2}+2 k&=0 \\\\ \\Rightarrow\\quad (k+1)^{2}&=0 \\\\ \\therefore \\quad k&=-1 \\end{aligned}[/latex]",
+    "min": -1.01,
+    "max": -0.99
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 An ideal band-pass channel 500Hz - 2000Hz is deployed for communication. A modem is designed to transmit bits at the rate of 4800 bits/s using 16-QAM. The roll-off factor of a pulse with a raised cosine spectrum that utilizes the entire frequency band is ________",
+    "solution": "[latex]\\begin{array}{l} \\text { Channel spectrum } 500 \\mathrm{Hz}-2000 \\mathrm{Hz} \\\\ \\text { hence } B W=1500 \\mathrm{Hz} \\\\ B W=\\frac{R_{b}}{\\log _{2} M}(1+\\alpha) \\\\ 1500=\\frac{R_{b}}{\\log _{2} 16}(1+\\alpha) \\\\ 1500=\\frac{4800}{\\log _{2} 16}(1+\\alpha) \\\\ 1500=1200(1+\\alpha) \\\\ \\Rightarrow \\quad \\alpha=0.25 \\end{array}[/latex]",
+    "min": 0.24,
+    "max": 0.26
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 Consider a random process X(t) = 3V(t) - 8, where V(t) is a zero mean stationary random process with autocorrelation [latex]R_{v}(\\tau )=4e^{-5|\\tau |}[/latex]. The power in X(t) is ________",
+    "solution": "[latex]\\begin{aligned} X(t) &=3 V(t)-8 \\quad \\text { and } \\quad E[V(t)]=0 \\\\ R_{v}(\\tau) &=4 e^{-5|\\tau|} \\\\ \\text { Power of } X(t) &=E\\left[X^{2}(t)\\right] \\\\ &=E\\left[9 V^{2}(t)\\right]+64-48 E[V(t)] \\\\ &=9 E\\left[V^{2}(t)\\right]+64-48 E[V(t)] \\\\ E\\left[V^{2}(t)\\right] &=R_{v}(0)=4 \\\\ \\text { Power of } X(t) &=((9 \\times 4)+64) \\\\ &=100 \\end{aligned}[/latex]",
+    "min": 99.0,
+    "max": 101.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 A binary communication system makes use of the symbols \"zero\" and \"one\". There are channel errors. Consider the following events: [latex]x_{0}[/latex]: a \"zero\" is transmitted [latex]x_{1}[/latex] : a \"one\" is transmitted [latex]y_{0}[/latex] : a \"zero\" is received [latex]y_{1}[/latex] : a \"one\" is received The following probabilities are given: [latex]P(x_{0})=\\frac{1}{2},P(y_{0}|x_{0})=\\frac{3}{4},[/latex] and[latex] P(y_{0}|x_{0})=\\frac{1}{2}[/latex].  The information in bits that you obtain when you learn which symbol has been received (while you know that a \"zero\" has been transmitted) is ________",
+    "solution": "Information in bits when you learn which symbol has been received when zero is transmitted. Case-I= when [latex]y_{0}[/latex] is received and [latex]x_{0},[/latex] is transmitted Case-II = when [latex]y_{1}[/latex], is received and [latex]x_{0}[/latex] is transmitted Thus, the overall average information, we can say H [latex] \\begin{aligned} H=& P\\left(y_{0} \\mid x_{0}\\right) \\log _{2}\\left(\\frac{1}{P\\left(y_{0} \\mid x_{0}\\right)}\\right) \\\\ &+P\\left(y_{1} \\mid x_{0}\\right) \\log _{2}\\left(\\frac{1}{P\\left(y_{1} \\mid x_{0}\\right)}\\right) \\\\ =&\\left[\\frac{3}{4} \\log _{2}\\left(\\frac{4}{3}\\right)+\\frac{1}{4} \\log _{2}(4)\\right] \\text { bits } \\\\ =& 0.811 \\text { bits } \\end{aligned}[/latex]",
+    "min": 0.8,
+    "max": 0.82
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 The parallel-plate capacitor shown in the figure has movable plates. The capacitor is charged so that the energy stored in it is E when the plate separation is d. The capacitor is then isolated electrically and the plates are moved such that the plate separation becomes 2d. At this new plate separation, what is the energy stored in the capacitor, neglecting fringing effects?",
+    "solution": "[latex]\\begin{array}{l} \\text { Let, } E=E_{1} \\text { , Energy } E_{1}=\\frac{Q_{1}^{2}}{2 C_{1}} \\\\ \\text { Electrically isolated } \\Rightarrow Q_{2}=Q_{1} \\\\ \\begin{aligned} d_{2}=2 d_{1} \\Rightarrow \\;& C_{2}=\\frac{C_{1}}{2} \\\\ E_{2} &=\\frac{Q_{2}^{2}}{2 C_{2}}=\\frac{Q_{1}^{2}}{\\frac{2 C_{1}}{2}}=2\\left(\\frac{Q_{1}^{2}}{2 C_{1}}\\right) \\\\ &=2 E_{1}=2 E \\end{aligned} \\end{array}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page11_q2.webp",
+    "options": {
+      "A": "2E",
+      "B": "[latex]\\sqrt{2}E[/latex]",
+      "C": "E",
+      "D": "E/2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 53 A lossless microstrip transmission line consists of a trace of width w. It is drawn over a practically infinite ground plane and is separated by a dielectric slab of thickness t and relative permittivity [latex]\\varepsilon _{r} \\gt 1[/latex].  The inductance per unit length and the characteristic impedance of this line are L and [latex]Z_{0}[/latex], respectively. Which one of the following inequalities is always satisfied?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page11_q3.webp",
+    "options": {
+      "A": "[latex]Z_{0} \\gt \\sqrt{\\frac{Lt}{\\varepsilon _{0}\\varepsilon_{r}w }}[/latex]",
+      "B": "[latex]Z_{0} \\lt \\sqrt{\\frac{Lt}{\\varepsilon _{0}\\varepsilon_{r} w}}[/latex]",
+      "C": "[latex]Z_{0} \\gt\\sqrt{\\frac{Lw}{\\varepsilon _{0}\\varepsilon_{r}t }}[/latex]",
+      "D": "[latex]Z_{0} \\lt \\sqrt{\\frac{Lw}{\\varepsilon _{0}\\varepsilon_{r}t }}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 A microwave circuit consisting of lossless transmission lines [latex]T_{1} \\; and \\;  T_{2}[/latex] is shown in the figure. The plot shows the magnitude of the input reflection coefficient  [latex]\\tau[/latex] as a function of frequency f. The phase velocity of the signal in the transmission lines is [latex]2*10^{8} m/s[/latex]. The length L (in meters) of [latex]T_2[/latex] is _______",
+    "solution": "At frequency of [latex]1 \\mathrm{GHz}[/latex] the line is matched and [latex] | \\Gamma |=0 [/latex] as seen in the graph. The line [latex]T_{1}[/latex] is having [latex]50 \\Omega[/latex] load parallel to [latex]T_{2}[/latex] input impedance. This load is [latex]50\\Omega[/latex] when [latex]T_{2}[/latex] input impedance is infinite. [latex] \\begin{aligned} Z_{\\text {in } 2}&=\\infty=Z_{L 2} \\text{ (open circuit) }\\\\ T_{2}\\text{ has to be a }\\frac{\\lambda}{2}\\text{ line}.&\\\\ f &=1 \\mathrm{GHz} \\\\ \\lambda &=\\frac{2 \\times 10^{10}}{1 \\times 10^{9}} \\mathrm{cm} \\\\ \\frac{\\lambda}{2} &=L=10 \\mathrm{cm}=0.1 \\mathrm{m} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page11_q4.webp",
+    "min": 0.09,
+    "max": 0.11
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 A positive charge q is placed at x= 0 between two infinite metal plates placed at x =-d and at x = +d respectively. The metal plates lie in the yz plane. The charge is at rest at t = 0, when a voltage +V is applied to the plate at -d and voltage -V is\napplied to the plate at x=+d . Assume that the quantity of the charge q is small enough that it does not perturb the field set up by the metal plates. The time that the charge q takes to reach the right plate is proportional to",
+    "solution": "Velocity being free velocity, [latex] \\begin{aligned} \\frac{1}{2} m v^{2} &=q V \\\\ v &=\\frac{d}{t}=\\sqrt{\\frac{2 q V}{m}} \\\\ \\Rightarrow t \\propto \\frac{d}{\\sqrt{V}} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2016_Set2/page11_q5.webp",
+    "options": {
+      "A": "d/V",
+      "B": "[latex]\\sqrt{d}/V[/latex]",
+      "C": "[latex]d/ \\sqrt{V}[/latex]",
+      "D": "[latex]\\sqrt{d/V}[/latex]"
+    },
+    "correct_answer": "C"
+  }
+]

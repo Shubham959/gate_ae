@@ -1,0 +1,533 @@
+[
+  {
+    "type": "mcq",
+    "question": "Question 1 Consider the circuit shown in the figure. The Boolean expression F implemented by the circuit is",
+    "solution": "[latex]\\begin{aligned} F_{1} &=\\bar{X} Y \\\\ F &=\\bar{Z} F_{1}+Z \\bar{F}_{1} \\\\ &=(\\bar{X} Y) \\bar{Z}+(\\bar{X} Y) Z \\\\ &=\\bar{X} Y \\bar{Z}+(X+\\bar{Y}) Z \\\\ F &=\\bar{X} Y \\bar{Z}+X Z+\\bar{Y} Z \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page1_q1.webp",
+    "options": {
+      "A": "[latex]\\bar{X}\\bar{Y}\\bar{Z}+XY+\\bar{Y}Z[/latex]",
+      "B": "[latex]\\bar{X}Y \\bar{Z}+XY+\\bar{Y}Z[/latex]",
+      "C": "[latex]\\bar{X}Y \\bar{Z}+XY+\\bar{Y}Z[/latex]",
+      "D": "[latex]\\bar{X}\\bar{Y}\\bar{Z} +XY+\\bar{Y}Z[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 2 An LTI system with unit sample response h[n]=[latex]5\\delta [n]-7\\delta [n-1]+7\\delta [n-3]-5\\delta [n-4][/latex] is a",
+    "solution": "[latex]\\begin{aligned} h[n]=5 \\delta[n]&-78[n-1]+7 \\delta[n-3]-5 \\delta[n-4] & \\\\ \\text { Now, } \\quad H\\left(e^{j \\omega}\\right)&=5-7 e^{-j \\omega}+7 e^{-3 j \\omega}-5 e^{-4 j \\omega}\\\\ \\text{Now for }\\omega & =0, \\\\ H\\left(e^{j 0}\\right)&=5-7+7-5=0\\\\ \\text{and for }\\omega & =\\pi, &\\\\ H\\left(e^{j \\pi}\\right) &=5-7(-1)+7(-1)-5(1) \\\\ &=5+7-7-5=0 \\end{aligned}[/latex] System is attenuating low and high frequencies whereas passing the mid frequencies. So, its a BPF.",
+    "options": {
+      "A": "Low - pass filter",
+      "B": "high - pass filter",
+      "C": "band - pass filter",
+      "D": "band - stop filter"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 3 In the circuit shown, V is a sinusoidal voltage source. The current I is in phase with voltage V. The ratio [latex]\\frac{amplitude \\; of \\;  voltage \\;  across \\; the \\; capacitor} {amplitude \\; of \\; voltage  \\; across \\; the \\;  resistor}[/latex] is",
+    "solution": "Given that, V and J have same phase. So, the circuit is in resonance. At resonance, [latex] \\begin{aligned} &V_{C}=Q V_{R}\\\\ &\\text { So, } \\frac{\\text { Amplitude of } V_{C}}{\\text { Amplitude of } V_{R}}=Q=\\frac{1}{R} \\sqrt{\\frac{L}{C}}=\\frac{1}{5} \\sqrt{\\frac{5}{5}}=0.2 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page1_q3.webp",
+    "min": 0.19,
+    "max": 0.21
+  },
+  {
+    "type": "mcq",
+    "question": "Question 4 In a DRAM,",
+    "solution": "In a DRAM, data is stored in the form of charge \r\non capacitor and periodic refreshing is needed to \r\nrestore the charge on capacitor.",
+    "options": {
+      "A": "periodic refreshing is not required",
+      "B": "information is stored in a capacitor",
+      "C": "information is stored in a latch",
+      "D": "both read and write operations can be performed simultaneously"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 5 Consider an n-channel MOSFET having width W, length L, electron mobility in the channel [latex]\\mu_{n}[/latex] and oxide capacitance per unit area [latex]C_{ox}[/latex]. If gate-to-source voltage [latex]V_{GS}[/latex]=0.7V, drain-tosource voltage [latex]V_{DS}=0.1V,(\\mu_{n}C_{ox})=100\\mu A/V^{2}[/latex],threshold voltage [latex]V_{TH}=0.3 V [/latex] and (W/L)=50,then the transconductance [latex]g_{m}[/latex](in mA/V) is ___________.",
+    "solution": "Given that, [latex] \\begin{aligned} V_{G S} &=0.7 \\mathrm{V}, V_{T H}=0.3 \\mathrm{V}, V_{D S}=0.1 \\mathrm{V} \\\\ V_{G S}-V_{T H} &=0.4>V_{D S} \\end{aligned}[/latex] [latex] \\Rightarrow[/latex] MOSFET is in linear region In linear region, [latex] I_{D}=K_{n}\\left[2\\left(V_{G S}-V_{T H}\\right) V_{O S}-V_{D S}^{2}\\right][/latex] Transconductance [latex] \\begin{aligned} g_{m}&=\\frac{\\partial I_{D}}{\\partial V_{G S}}=2 K_{n} V_{D S} \\\\ K_{n}&=\\frac{K_{n}}{2}\\left(\\frac{W}{L}\\right)=\\frac{\\mu_{n} C_{O x}}{2}\\left(\\frac{W}{L}\\right)\\\\ \\text{So,}\\quad g_{m} &=2 K_{n} V_{D S}=\\mu_{n} C_{O x}\\left(\\frac{W}{L}\\right) V_{D S} \\\\ &=100 \\times 50 \\times 0.1 \\mu \\mathrm{A} / \\mathrm{V} \\\\ &=0.5 \\mathrm{mA} N \\end{aligned}[/latex]",
+    "min": 0.45,
+    "max": 0.55
+  },
+  {
+    "type": "mcq",
+    "question": "Question 6 Two conducting spheres S1 and S2 of radii a and b (b>a) respectively, are placed far apart and connected by a long, thin conducting wire, as shown in the figure. For some charge placed on this structure, the potential and surface electric field on S1 are [latex]V_{a}[/latex] and [latex] E_{a}[/latex], and that on S2 are [latex]V_{b}[/latex] and [latex]E_{b}[/latex], respectively, which of the following is CORRECT?",
+    "solution": "When charge is placed on this structure equilibrium is established such that be  spheres are at same potential i.e. [latex] V_{a}=V_{b}[/latex] [latex] \\begin{array}{c} V_{a}=V_{b} \\\\ \\text { So, } \\frac{Q_{a}}{4 \\pi \\epsilon_{o} a}=\\frac{Q_{b}}{4 \\pi \\epsilon_{o} b} \\end{array}[/latex] [latex] \\frac{Q_{b}}{Q_{a}}=\\frac{b}{a}[/latex] Now, surface electric fields. [latex] \\frac{E_{a}}{E_{b}}=\\left[\\frac{Q_{a} / 4 \\pi \\varepsilon_{o} a^{2}}{Q_{b} / 4 \\pi \\varepsilon_{o} b^{2}}\\right]=\\frac{Q_{a} \\times b^{2}}{Q_{b} \\times a^{2}}=\\frac{b}{a}>1[/latex] [latex] So, E_{a}>E_{b}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page2_q1.webp",
+    "options": {
+      "A": "[latex]V_{a}=V_{b} \\; and \\; E_{a}\\lt E_{b}[/latex]",
+      "B": "[latex]V_{a}\\gt V_{b} \\; and \\; E_{a} \\gt E_{b}[/latex]",
+      "C": "[latex]V_{a}=V_{b} \\; and \\;  E_{a} \\gt E_{b}[/latex]",
+      "D": "[latex]V_{a}\\gt V_{b} \\; and \\;  E_{a}=E_{b}[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 7 For the circuit shown in the figure, P and Q are the inputs and Y is the output. The logic implemented by the circuit is",
+    "solution": "As per GATE Answer key Marks to All.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page2_q2.webp",
+    "options": {
+      "A": "XNOR",
+      "B": "XOR",
+      "C": "NOR",
+      "D": "OR"
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "Question 8 An n-channel enhancement mode MOSFET is biased at [latex]V_{GS}>V_{TH} \\; and \\; V_{DS}>(V_{GS}-V_{TH})[/latex],  where [latex]V_{GS}[/latex] is the gate-to-source voltage, [latex]V_{DS}[/latex] is the drain-to-source voltage and [latex]V_{TH}[/latex] is the threshold voltage. Considering channel length modulation effect to be significant, the MOSFET behaves as a",
+    "solution": "The small signal equivalent circuit of MOSFET in \r\nsaturation is as given below. So, when the channel length modulation effect is \r\nsignificant, the MOSFET can be modelled as a \r\ncurrent source with finite output impedance.",
+    "options": {
+      "A": "voltage source with zero output impedance",
+      "B": "voltage source with non-zero output impedance",
+      "C": "current source with finite output impedance",
+      "D": "current source with infinite output impedance"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 9 A connection is made consisting of resistance A in series with a parallel combination of\nresistances B and C. Three resistors of value 10[latex]\\Omega[/latex], 5[latex]\\Omega[/latex], 2[latex]\\Omega[/latex] are provided. Consider all possible permutations of the given resistors into the positions A, B, C, and identify the configurations with maximum possible overall resistance, and also the ones with minimum possible overall resistance. The ratio of maximum to minimum values of the resistances (up to second decimal place) is ____________.",
+    "solution": "The connection of resistors is as shown below: Given resistor values are :[latex] 10 \\Omega, 5 \\Omega, 2 \\Omega [/latex] The maximum resistance possible is, [latex] \\begin{aligned} R_{T(\\max )} &=10 \\Omega+(5 \\Omega \\| 2 \\Omega) \\\\ &=\\left(10+\\frac{10}{7}\\right) \\Omega=\\frac{80}{7} \\Omega \\end{aligned}[/latex] The minimum resistance possible is, [latex] \\begin{aligned} R_{T(\\min )} &=2 \\Omega+(10 \\Omega \\| 5 \\Omega) \\\\ &=\\left(2+\\frac{10}{3}\\right) \\Omega=\\frac{16}{3} \\Omega \\\\ \\frac{R_{T(\\max )}}{R_{T(\\min )}} &=\\frac{80 / 7}{16 / 3}=\\frac{15}{7}=2.143 \\end{aligned}[/latex]",
+    "min": 2.12,
+    "max": 2.16
+  },
+  {
+    "type": "mcq",
+    "question": "Question 10 An npn bipolar junction transistor (BJT) is operating in the active region. If the reverse bias across the base - collector junction is increased, then",
+    "solution": "When a BJT is in active region, as the reverse \r\nbias voltage across collector-base junction \r\nincreased, the width of depletion region increases, \r\nwhich results in decrease of effective base width. \r\nThis decrease in effective base width reduces the \r\nrecombinations in base region, hence, common-emitter \r\ncurrent gain will increase.",
+    "options": {
+      "A": "the effective base width increases and common - emitter current gain increases",
+      "B": "the effective base width increases and common - emitter current gain decreases",
+      "C": "the effective base width decreases and common - emitter current gain increases",
+      "D": "the effective base width decreases and common -  emitter current gain decreases"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 11 Consider the state space realization [latex]\\begin{bmatrix} x_{1}(t)\\\\ x_{2}(t) \\end{bmatrix}=\\begin{bmatrix} 0 & 0\\\\ 0&-9 \\end{bmatrix} \\begin{bmatrix} x_{1}(t)\\\\ x_{2}(t) \\end{bmatrix}+ \\begin{bmatrix} 0\\\\ 45 \\end{bmatrix}u(t)[/latex] , with the initial condition [latex]\\begin{bmatrix} x_{1}(0)\\\\ x_{2}(0) \\end{bmatrix}=\\begin{bmatrix} 0\\\\ 0 \\end{bmatrix}[/latex] where u(t) denotes the unit step function. The value of  [latex]\\lim_{t\\rightarrow \\infty }|\\sqrt{x_{1}^{2}(t)+x_{2}^{2}(t)}|[/latex]  is _______.",
+    "solution": "[latex]\\left[\\begin{array}{l} \\dot{x}_{1}(t) \\\\ \\dot{x}_{2}(t) \\end{array}\\right]=\\left[\\begin{array}{cc} 0 & 0 \\\\ 0 & -9 \\end{array}\\right]\\left[\\begin{array}{l} x_{1}(t) \\\\ x_{2}(t) \\end{array}\\right]+\\left[\\begin{array}{c} 0 \\\\ 45 \\end{array}\\right] u(t)[/latex] By applying Laplace transform on both sides. get [latex] \\begin{aligned} s x_{1}(s)-x_{1}(0)&=0\\\\ X_{1}(s)&=\\frac{x_{1}(0)}{s}=0 \\quad \\because x_{1}(0)=0 \\\\ \\text{So,} x_{1}(t)&=0 \\\\ \\text{and }\\quad s X_{\\lambda}(s)-x_{2}(0)&=-9 X_{1}(s)+\\frac{45}{s} \\\\ X_{2}(s) &=\\frac{45}{s(s+9)} \\quad \\because x_{2}(0)=0 \\\\ \\text { Required value } &=\\lim _{t \\rightarrow \\infty}|\\sqrt{x_{1}^{2}(t)+x_{2}^{2}(t)}| \\\\ &=\\left|\\lim _{t \\rightarrow \\infty} x_{2}(t)\\right| \\quad \\because x_{1}(t)=0 \\\\ \\lim _{t \\rightarrow \\infty} x_{2}(t) &=\\lim _{s \\rightarrow 0} s X_{2}(s)=\\frac{45}{9}=5 \\end{aligned}[/latex] So, Required value [latex]= |5| =5[/latex]",
+    "min": 4.99,
+    "max": 5.01
+  },
+  {
+    "type": "numerical",
+    "question": "Question 12 The rank of the matrix [latex]\\begin{bmatrix} 1& -1 & 0& 0&0 \\\\ 0& 0& 1 &-1 &0 \\\\ 0 & 1 &-1 & 0&0 \\\\ -1 & 0& 0& 0 &1 \\\\ 0 & 0 & 0 &1 &-1 \\end{bmatrix}[/latex] is ___________.",
+    "solution": "[latex]A=\\begin{bmatrix} 1& -1 & 0& 0&0 \\\\ 0& 0& 1 &-1 &0 \\\\ 0 & 1 &-1 & 0&0 \\\\ -1 & 0& 0& 0 &1 \\\\ 0 & 0 & 0 &1 &-1 \\end{bmatrix} [/latex] [latex]R_4\\rightarrow R_4+R_1 [/latex] [latex]=\\begin{bmatrix} 1& -1 & 0& 0&0 \\\\ 0& 0& 1 &-1 &0 \\\\ 0 & 1 &-1 & 0&0 \\\\ 0 & -1& 0& 0 &1 \\\\ 0 & 0 & 0 &1 &-1 \\end{bmatrix} [/latex] [latex]R_4\\rightarrow R_4+R_3 [/latex] [latex]=\\begin{bmatrix} 1& -1 & 0& 0&0 \\\\ 0& 0& 1 &-1 &0 \\\\ 0 & 1 &-1 & 0&0 \\\\ 0 & 0& -1& 0 &1 \\\\ 0 & 0 & 0 &1 &-1 \\end{bmatrix} [/latex] [latex]R_4\\rightarrow R_4+R_2 [/latex] [latex]=\\begin{bmatrix} 1& -1 & 0& 0&0 \\\\ 0& 0& 1 &-1 &0 \\\\ 0 & 1 &-1 & 0&0 \\\\ 0 & 0& 0& -1 &1 \\\\ 0 & 0 & 0 &1 &-1 \\end{bmatrix} [/latex] [latex]R_4\\leftrightarrow R_3 \\text{ and }R_5\\rightarrow R_5+R_4 [/latex] [latex]=\\begin{bmatrix} 1& -1 & 0& 0&0 \\\\ 0& 1& -1 & &0 \\\\ 0 & 0 &1 & -1&0 \\\\ 0 & 0& 0& -1 &1 \\\\ 0 & 0 & 0 &0 &0 \\end{bmatrix} [/latex] From here, [latex]\\therefore \\;\\; \\rho (A)=4[/latex]",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 13 A two - wire transmission line terminates in a television set. The VSWR measured on the line is 5.8. The percentage of power that is reflected from the television set is ______________",
+    "solution": "Given that, VSWR (or) [latex]s=5.8 [/latex] [latex] \\begin{aligned} s &=\\frac{1+|\\Gamma|}{1-|\\Gamma|}=5.8 \\\\ \\Gamma &=\\text { Reflection coefficient of } \\\\ &\\quad \\text { television set } \\\\ \\Gamma &=\\frac{s-1}{s+1}=\\frac{4.8}{6.8}=0.70588 \\\\ \\frac{P_{\\text {reflected }}}{P_{\\text {incident }}} &=\\Gamma^{2}=0.4983 \\text { or } 49.83 \\% \\end{aligned}[/latex]",
+    "min": 48.0,
+    "max": 51.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 14 The input [latex]x(t)[/latex] and the output [latex]y (t)[/latex] of a continuous-time system are related as [latex]y(t)=\\int_{t-T}^{t}x(u)du[/latex]. The system is",
+    "solution": "Given that,  [latex]y(t)=\\int_{t-T}^{t} x(u) d u [/latex] since the given system satisfies both \r\nhomogeneity and additivity properties, the \r\nsystem is linear. Check for time invariance: [latex]\r\ny\\left(t-t_{0}\\right)=\\int_{t-t_{0}-T}^{t-t_{0}} x(u) d u[/latex] When the applied input is  [latex]x\\left(t-t_{0}\\right) [/latex] [latex]\r\n\\begin{aligned}\r\ny_{1}(t) &=\\\\\r\n\\int_{t-T}^{t} x\\left(u-t_{0}\\right) d u &=\\int_{t-t_{0}-T}^{t-t_{0}} x(\\tau) d \\tau \\\\\r\n&=y\\left(t-t_{0}\\right)\r\n\\end{aligned}[/latex] [latex]\r\n \\Rightarrow [/latex] System is time invariant",
+    "options": {
+      "A": "Linear and time-variant",
+      "B": "Linear and time-invariant",
+      "C": "Non-linear and time-variant",
+      "D": "Non-linear and time-invariant"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 15 Which of the following statements is incorrect?",
+    "solution": "In_ case of high type systems Lag compensator \r\nfails to give stability.",
+    "options": {
+      "A": "Lead compensator is used to reduce the settling time.",
+      "B": "Lag compensator is used to reduce the steady state error.",
+      "C": "Lead compensator may increase the order of a system.",
+      "D": "Lag compensator always stabilizes an unstable system."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 16 The residues of a function [latex]f(z)=\\frac{1}{(z-4)(z+1)}[/latex] are",
+    "solution": "Residue at, z=4 is [latex] =\\lim _{x \\rightarrow 1}(z-4) \\frac{1}{(z-4)(z+1)^{3}}=\\frac{1}{(4+1)^{3}}=\\frac{1}{125} [/latex] Residue at z=-1 is [latex] =\\lim _{z \\rightarrow-1} \\frac{1}{2 !} \\frac{d^{2}}{d z^{2}}\\left((z-1)^{3} \\frac{1}{(z-4)(z+1)^{3}}\\right) [/latex] [latex] =\\lim _{z \\rightarrow-1} \\frac{1}{2 !}\\left(\\frac{2}{(z-4)^{3}}\\right)=\\frac{1}{(-1-4)^{3}}=\\frac{-1}{125}[/latex]",
+    "options": {
+      "A": "[latex]\\frac{-1}{27}[/latex]  and  [latex]\\frac{-1}{125}[/latex]",
+      "B": "[latex]\\frac{1}{125}[/latex] and [latex]\\frac{-1}{125}[/latex]",
+      "C": "[latex]\\frac{-1}{27}[/latex] and [latex]\\frac{1}{5}[/latex]",
+      "D": "[latex]\\frac{1}{125}[/latex] and [latex]\\frac{-1}{5}[/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 17 A sinusoidal message signal is converted to a PCM signal using a uniform quantizer. The\nrequired signal-to-quantization noise ratio (SQNR) at the output of the quantizer is 40dB. The minimum number of bits per sample needed to achieve the desired SQNR is _______",
+    "solution": "For sinusoidal input is applied to a PCM system, [latex] \\mathrm{SQNR}=6 n+1.8[/latex] n= number of bits per sample Given that, the required [latex]\\mathrm{SQNR}=40 \\mathrm{dB} [/latex] [latex] \\begin{aligned} \\mathrm{so}, 6 n+1.8 &\\geq 40 \\\\ n &\\geq \\frac{38.2}{6}\\\\ n_{\\min }&=7 \\\\ \\because \\; &n \\text{ is always an integer value} \\end{aligned}[/latex]",
+    "min": 7.0,
+    "max": 7.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 18 The general solution of the differential equation [latex]\\frac{d^{2}y}{dx^{2}}+2\\frac{dy}{dx}-5y=0[/latex] in terms of arbitrary constants [latex]K_{1} \\; and \\; K_{2}[/latex] is",
+    "solution": "The general solution of the differential equation [latex] \\begin{aligned} \\frac{d^{2} y}{d x^{2}}+2 \\frac{d y}{d x}-5 y&=0 \\\\ \\left(D^{2}+2 D-5\\right) y&=0 \\end{aligned}[/latex] Auxillary equation is [latex] \\begin{aligned} m^{2}+2 m-5 &=0 \\\\ m &=\\frac{-2 \\pm \\sqrt{4+20}}{2}=\\frac{-2 \\pm \\sqrt{24}}{2} \\\\ &=\\frac{-2 \\pm 2 \\sqrt{6}}{2}=-1 \\pm \\sqrt{6} \\\\ \\text { Solution is } \\quad y &=K_{1} e^{(-1+\\sqrt{6}) x}+K_{2} e^{(-1-\\sqrt{6}) x} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]K_{1}e^{(-1+\\sqrt{6})x}+K_{2}e^{(-1-\\sqrt{6})x}[/latex]",
+      "B": "[latex]K_{1}e^{(-1+\\sqrt{8})x}+K_{2}e^{(-1-\\sqrt{8})x}[/latex]",
+      "C": "[latex]K_{1}e^{(-2+\\sqrt{6})x}+K_{2}e^{(-2-\\sqrt{6})x}[/latex]",
+      "D": "[latex]K_{1}e^{(-2+\\sqrt{8})x}+K_{2}e^{(-2-\\sqrt{8})x}[/latex]"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 19 Which one of the following graphs shows the Shannon capacity (channel capacity) in bits of a memory less binary symmetric channel with crossover probability P?",
+    "solution": "The channel capacity of a memoryless binary symmetric channel can be expressed as, [latex] C=1+p \\log _{2} p+(1-p) \\log _{2}(1-p)[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page4_q4.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 20 The output [latex]V_{0}[/latex] of the diode circuit shown in the figure is connected to an averaging DC voltmeter. The reading on the DC voltmeter in Volts, neglecting the voltage drop across the diode, is ____________.",
+    "solution": "The given circuit is a halfwave rectifier. Voltmeter reads the average value of [latex]V_{o} [/latex] Average value of [latex]V_{o}=\\frac{V_{m}}{\\pi} [/latex] [latex] V_{m}=[/latex] peak value of the applied sine wave [latex] =10 \\mathrm{V}[/latex] So, Reading of meter [latex]=\\frac{10}{\\pi}V=3.183\\mathrm{V}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page4_q5.webp",
+    "min": 3.15,
+    "max": 3.21
+  },
+  {
+    "type": "numerical",
+    "question": "Question 21 Consider the random process X(t)=U+Vt, where U is a zero-mean Gaussian random variable and V is a random variable uniformly distributed between 0 and 2. Assume that U and V are statistically independent. The mean value of the random process at t = 2 is ____________",
+    "solution": "[latex]\\begin{aligned} X(t) &=U+V t \\\\ \\text { At } t=2, \\quad X(t) &=X(2)=U+2 V \\\\ E[X(t)] &=E[U+2 V] \\\\ &=E[U]+2 E[V]\\\\ \\text{Given that,}\\\\ E[U]&=0\\\\ \\end{aligned}[/latex] Also given that, V is uniformly distributed between 0 and 2 [latex] \\begin{aligned} \\text{So, } \\quad E[V]&=\\int_{-\\infty}^{\\infty} f_{v}(V) d v=\\int_{0}^{2}\\left(\\frac{1}{2}\\right) d v=1 \\\\ \\text{So, } \\quad E[X(f)]&=0+2(1)=2 \\end{aligned}[/latex]",
+    "min": 2.0,
+    "max": 2.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 22 For the system shown in the figure, Y(s)/X(s)= __________.",
+    "solution": "[latex]\\begin{aligned} Y(s) &=[X(s)-Y(s)] G(s)+X(s) \\\\ [1+G(s)] Y(s) &=[G(s)+1] X(s) \\\\ \\frac{Y(s)}{X(s)} &=1 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page5_q2.webp",
+    "min": 0.95,
+    "max": 1.05
+  },
+  {
+    "type": "numerical",
+    "question": "Question 23 The smaller angle (in degrees) between the planes x + y + z =1 and 2x - y + 2z = 0 is\n________.",
+    "solution": "If [latex]\\theta[/latex] is the angle between [latex] \\begin{array}{l} a_{1} x+b_{1} y+c_{1} z+d_{1} =0 \\\\ a_{2} x+b_{2} y+c_{2} z+d_{2} =0 \\text { then }\\\\ \\cos \\theta=\\frac{a_{1} a_{2}+b_{4} b_{2}+c_{1} c_{2}}{\\sqrt{a_{1}^{2}+b_{1}^{2}+c_{1}^{2}}\\sqrt{a_{2}^{2}+b_{2}^{2}+c_{2}^{2}}} \\\\ a_{1}=1 \\quad b_{1}=1 \\quad c_{1}=1 \\quad d_{1}=-1 \\\\ a_{2}=2 \\quad b_{2}=-1 \\quad c_{2}=2 \\quad d_{2}=0\\\\ \\cos \\theta=\\frac{(1)(2)+(1)(-1)+(1)(2)}{\\sqrt{(1)^{2}+(1)^{2}+(1)^{2}} \\sqrt{(2)^{2}+(-1)^{2}+(2)^{2}}}\\\\ =\\frac{2-1+2}{\\sqrt{3} \\sqrt{9}}=\\frac{3}{3 \\sqrt{3}}=\\frac{1}{\\sqrt{3}}\\\\ \\theta=\\cos ^{-1}\\left(\\frac{1}{\\sqrt{3}}\\right)=54.73^{\\circ} \\end{array}[/latex]",
+    "min": 54.0,
+    "max": 55.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 24 Consider the circuit shown in the figure. Assume base-to- emitter voltage [latex]V_{BE}[/latex]=0.8 V and common base current gain [latex](\\alpha)[/latex] of the transistor is unity. The value of the collector- to - emitter voltage [latex]V_{CE}[/latex] (in volt) is _______.",
+    "solution": "By taking the Thevenin's equivalent between Base and Ground nodes, the given circuit can be reduced as follows: [latex] \\begin{aligned} V_{T h} &=\\frac{16}{16+44} \\times 18 \\mathrm{V}=4.8 \\mathrm{V} \\\\ I_{E} R_{E} &=V_{T h}-V_{B E}-I_{B} R_{T h} \\\\ I_{B} &=0 \\mathrm{A} \\qquad \\; \\; \\; \\because \\alpha=1\\\\ \\text { So, } \\quad I_{E} R_{E}&=4.8-0.8=4 \\mathrm{V}\\\\ &I_{E}=\\frac{4}{2} m A=2 m A\\\\ I_{C} &=I_{E}=2 \\mathrm{m} \\mathrm{A} \\; \\; \\; \\because \\alpha=1 \\\\ V_{C E} &=V_{C C}-I_{C} R_{C}-I_{E} R_{E} \\\\ &=18-(2 \\times 4)-(2 \\times 2)=6 \\mathrm{V} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page5_q4.webp",
+    "min": 5.5,
+    "max": 6.5
+  },
+  {
+    "type": "mcq",
+    "question": "Question 25 In the figure, D1 is a real silicon pn junction diode with a drop of 0.7V under forward bias condition and D2 is a zener diode with breakdown voltage of -6.8 V. The input [latex ]V_{in}(t)[/latex] is a periodic square wave of period T, whose one period is shown in the figure. Assuming 10[latex]\\tau \\lt \\lt T[/latex], where [latex]\\tau[/latex] is the time constant of the circuit, the maximum and minimum values of the output waveform are respectively,",
+    "solution": "Its a negative clamper with [latex]V_{\\text {ref }}=6.8 \\mathrm{V} [/latex] In steady state [latex]V_{\\text {cap }}=14-0.7-6.8=6.5 \\mathrm{V} [/latex] [latex] \\begin{aligned} \\Rightarrow \\quad V_{\\text {omax }} &=V_{\\text {in } \\max }-V_{\\text {cap }}=14-6.5 =7.5\\mathrm{V} \\\\ V_{\\text {omin }} &=V_{\\text {in in }}-V_{\\text {cap }}=-14-6.5 =-20.5 \\mathrm{V} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page5_q5.webp",
+    "options": {
+      "A": "7.5 V and -20.5V",
+      "B": "6.1 V and -21.9V",
+      "C": "7.5 V and -21.9V",
+      "D": "6.1 V and -22.6V"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 26 If the vector function [latex]\\bar{F}=\\hat{a_{x}}(3y-k_{1}z)+\\hat{a_{y}}(k_{2}x-2z)-\\hat{a_{z}}(k_{3}x+z)[/latex] is irrotational, then the values of the constants [latex]k_{1}, k_{2}[/latex] and [latex]k_{3} [/latex] respectively, are",
+    "solution": "[latex]\\begin{aligned} \\vec{F}=& \\hat{a}_{x}\\left(3 y-k_{1} z\\right)+\\hat{a}_{y}\\left(k_{2} x-2 z\\right)-\\hat{a}_{2}\\left(k_{3} y+z\\right) \\\\ & \\nabla \\times \\vec{F}=0 \\quad \\text { (irrotational) } \\\\ & \\quad r \\times \\vec{F}=\\left| \\begin{array}{ccc} \\dot{a}_{x} & \\hat{a}_{y} & \\hat{a}_{z} \\\\ \\frac{\\partial}{\\partial x} & \\frac{\\partial}{\\partial y} & \\frac{\\partial}{\\partial z} \\\\ 3 y-k_{1} z & k_{2} x-2 z & -\\left(k_{3} y+z\\right) \\end{array}\\right| \\\\ \\end{aligned}[/latex] [latex]\\begin{aligned} =\\hat{a}_{x}\\left[\\frac{\\partial}{\\partial y}\\left[-\\left(k_{3} y+z\\right)\\right]-\\frac{\\partial}{\\partial z}\\left(k_{2} x-2 z\\right)\\right] \\\\ -\\hat{a}_{y}\\left[\\frac{\\partial}{\\partial x}\\left[-\\left(k_{3} y+z\\right)\\right]-\\frac{\\partial}{\\partial z}\\left(3 y-k_{1} z\\right)\\right] \\\\ +\\hat{a}_{z}\\left[\\frac{\\partial}{\\partial x}\\left(k_{2} x-2 z\\right)-\\frac{\\partial}{\\partial y}\\left(3 y-k_{1} z\\right)\\right] \\\\ \\hat{a}_{x}\\left[-k_{3}+2\\right]-\\hat{a}_{y}\\left[k_{1}\\right]+\\hat{a}_{z}\\left[k_{2}-3\\right]=0 \\\\ \\Rightarrow \\quad k_{3}=2, k_{1}=0, k_{2}=3 \\\\ \\text{or}\\quad k_{1}=0, k_{2}=3, k_{3}=2 \\end{aligned}[/latex]",
+    "options": {
+      "A": "0.3, -2.5, 0.5",
+      "B": "0.0, 3.0, 2.0",
+      "C": "0.3, 0.33, 0.5",
+      "D": "4.0, 3.0, 2.0"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 27 The un-modulated carrier power in an AM transmitter is 5kW. This carrier is modulated by a sinusoidal modulating signal. The maximum percentage of modulation is 50%. If it is reduced to 40%, then the maximum un-modulated carrier power (in kW) that can be used without overloading the transmitter is ___________",
+    "solution": "[latex]\\begin{aligned} \\text { Given that, } P_{C}&=5 \\mathrm{kW} \\text { for } \\mu_{(\\mathrm{max})}=0.5\\\\ \\text { So, } \\quad P_{t(\\max )}&=P_{c}\\left[1+\\frac{(0.5)^{2}}{2}\\right]\\\\ &=5\\left[1+\\frac{0.25}{2}\\right] \\mathrm{kW}=5.625 \\mathrm{kW} \\\\ \\text { For } \\mu & =0.4,\\\\ &\\begin{aligned} P_{ \\text {Qrex } )}\\left(1+\\frac{\\mu^{2}}{2}\\right)=&P_{t(\\max )} \\\\ P_{C(\\text{rax})}=& \\frac{5.625}{1+\\frac{(0.4)^{2}}{2}} \\mathrm{kW} \\\\ & =5.208 \\mathrm{kW} \\end{aligned} \\end{aligned}[/latex]",
+    "min": 5.19,
+    "max": 5.23
+  },
+  {
+    "type": "numerical",
+    "question": "Question 28 Consider an LTI system with magnitude response [latex]|H(f)|=\\left\\{\\begin{matrix} 1-\\frac{|f|}{20} & |f|\\leq 20\\\\ 0 & |f|> 20 \\end{matrix}\\right.[/latex] And phase response Arg {H(f)}=-2f If the input to the system is [latex]x(t)=8cos(20\\pi t+\\frac{\\pi }{4})+16sin(40\\pi t+\\frac{\\pi }{8})+24cos(80\\pi t+\\frac{\\pi }{16})[/latex] Then the average power of the output signal y(t) is _________.",
+    "solution": "Since, [latex]\\begin{aligned} \\text{So,}\\quad y(t)&=\\frac{1}{2} \\times 8 \\cos (20 \\pi t+\\phi) \\\\ \\text{So,}\\quad &=4 \\cos (20 \\pi t+\\phi) ; \\phi=\\frac{\\pi}{4}-20^{\\circ} \\\\ P_{y}&=\\frac{4^{2}}{2}=8 \\mathrm{W} \\end{aligned}[/latex]",
+    "min": 7.95,
+    "max": 8.05
+  },
+  {
+    "type": "numerical",
+    "question": "Question 29 A MOS capacitor is fabricated on p-type Si (silicon) where the metal work function is 4.1 eV and electron affinity of Si is 4.0 eV. [latex]E_{C}-F_{F}[/latex]=0.9 eV, where [latex]E_{C}[/latex] and [latex]E_{F}[/latex] are the conduction band minimum and the Fermi energy levels of Si, respectively. Oxide [latex]\\in_{r}=3.9,\\in_{o}=8.85 \\times 10^{-14}[/latex] F/cm, oxide thickness [latex]t_{ox} = 0.1 \\mu m[/latex] and electronic charge [latex] q =1.6 \\times 10^{-19} C[/latex]. If the measured flat band voltage of the capacitor is -1V, then the magnitude of the fixed charge at the oxide-semiconductor\r\ninterface, in [latex]nC/cm^{2}[/latex], is __________.",
+    "solution": "[latex]\\begin{aligned} \\theta_{0} &=4.1 \\mathrm{eV} \\\\ e_{K} &=4 \\mathrm{eV} \\\\ E_{C}-E_{F P} &=0.9 \\mathrm{eV} \\\\ e \\phi_{s} &=e x+0.9=4.9 \\mathrm{eV} \\\\ \\phi_{m} &=4.1 \\mathrm{V}, \\quad \\phi_{s}=4.9 \\mathrm{V} \\\\ \\phi_{m s} &=\\phi_{m}-\\phi_{s}=4.1-4.9=-0.8 \\mathrm{v} \\\\ C_{o x} &=\\frac{\\epsilon_{O x}}{t_{o x}}=\\frac{3.9 \\times 8.85 \\times 10^{-14}}{0.1 \\times 10^{-4}}\\\\ &=34.515 \\times 10^{-9} \\mathrm{F} / \\mathrm{cm}^{2} \\\\ V_{F B} &=\\phi_{\\text {rns }}-\\frac{\\phi_{o x}^{\\prime}}{C_{O x}} \\\\ \\frac{\\phi_{O x}^{\\prime}}{C_{O x}} &=-0.8+1=0.2 \\mathrm{V} \\\\ \\phi_{o x}^{\\prime} &=0.2 \\times C_{0 x} \\\\ &=0.2 \\times 34.515 \\times 10^{-9} \\mathrm{C} / \\mathrm{cm}^{2} \\\\ &=6.903 \\mathrm{nC} / \\mathrm{cm}^{2}\\\\ \\end{aligned}[/latex]",
+    "min": 6.85,
+    "max": 6.95
+  },
+  {
+    "type": "numerical",
+    "question": "Question 30 An electron ([latex]q_1[/latex]) is moving in free space with velocity [latex]10^{5}[/latex] m/s towards a stationary electron ([latex]q_2[/latex]) far away. The closest distance that this moving electron gets to the stationary electron before the repulsive force diverts its path is ___________ [latex]\\times 10^{-8}[/latex]m. [Given, mass of electron [latex]m=9.11 \\times 10^{-31}[/latex] kg, charge of electron [latex]e=-1.6 \\times 10^{-19}[/latex]C, and permittivity [latex] \\varepsilon_{0}=(1/36\\pi)\\times 10^{-9}F/m][/latex]",
+    "solution": "r is the distance at which kinetic energy of [latex]q_{1}[/latex] becomes zero [(because kinetic energy (KE) is converted into potential energy (PE)]. When [latex]q_{1}[/latex] reaches 'r', it starts diverting. Kinetic energy, [latex]K E=\\frac{1}{2} m v^{2}[/latex] and work done in moving [latex]q_{1}[/latex] charge to distance 'r' is [latex] \\begin{aligned} q_{1} v_{2}&=q_{1} \\frac{q_{2}}{4 \\pi \\varepsilon_{0} r} \\\\ &\\qquad\\left(q_{1}=q_{2}=-1.6 \\times 10^{-19} \\mathrm{C}\\right)\\\\ Now, \\quad \\frac{1}{2} m v^{2}&=\\frac{q_{1} q_{2}}{4 \\pi \\varepsilon_{0} r} \\\\ \\end{aligned}[/latex] [latex] \\Rightarrow r=\\frac{\\left(2 \\times-1.6 \\times 10^{-19}\\right) \\times\\left(-1.6 \\times 10^{-19}\\right)}{4 \\pi \\times \\frac{10^{-9}}{36 \\pi} \\times 9.11 \\times 10^{-31} \\times\\left(10^{5}\\right)^{2}}[/latex] [latex] \\simeq 5.06 \\times 10^{-8} \\mathrm{m}[/latex]",
+    "min": 4.55,
+    "max": 5.55
+  },
+  {
+    "type": "mcq",
+    "question": "Question 31 The values of the integrals [latex]\\int_{0}^{1}(\\int_{0}^{1}\\frac{x-y}{(x+y)^{3}}dy)dx [/latex] and [latex] \\int_{0}^{1}(\\int_{0}^{1}\\frac{x-y}{(x+y)^{3}}dx)dy[/latex] are",
+    "solution": "[latex]\\begin{array}{l} \\text { Integral } I_{1}=\\int_{0}^{1} \\int_{0}^{1} \\frac{x-y}{(x+y)^{3}} d y d x\\\\ \\left.=\\int_{0}^{1} \\int_{0}^{1} \\int\\left(\\frac{2 x}{(x+y)^{3}}-\\frac{1}{(x+y)^{2}}\\right) d y\\right] d x \\\\ =\\int_{0}^{1}\\left(2 x\\left(\\frac{-1}{2(x+y)^{2}}\\right)_{0}^{1}+\\left(\\frac{1}{x+y}\\right)_{0}^{1}\\right] d x \\\\ =\\int_{0}^{1} \\frac{1}{(x+1)^{2}} d x=-\\left[\\frac{1}{x+1}\\right]_{0}^{1}=0.5\\\\ \\text { and Integral } \\quad I_{2}=\\int_{0}^{1}\\left(\\int_{0}^{1} \\frac{x-y}{(x+y)^{3}} d x\\right) d y \\\\ \\left.=\\int_{0}^{1} \\int_{0}^{1} \\frac{1}{(x+y)^{2}}-\\frac{2 y}{(x+y)^{3}} d x\\right] d y \\\\ =\\int_{0}^{1}\\left[\\frac{-1}{(x+y)}+\\frac{2 y}{2(x+y)}\\right]_{0}^{1} d y \\\\ =\\int_{0}^{1} \\frac{-1}{(1+y)^{2}} d y=-\\left.\\left[\\frac{-1}{y+1}\\right]\\right|_{0} ^{1}=-0.5 \\end{array}[/latex]",
+    "options": {
+      "A": "same and equal to 0.5",
+      "B": "same and equal to [latex]-0.5[/latex]",
+      "C": "0.5 and [latex]-0.5[/latex], respectively",
+      "D": "[latex]-0.5[/latex] and 0.5, respectively"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 32 Passengers try repeatedly to get a seat reservation in any train running between two stations until they are successful. If there is 40% chance of getting reservation in any attempt by a passenger, then the average number of attempts that passengers need to make to get a seat reserved is _________.",
+    "solution": "Protuatility of getting success [latex]=\\frac{4}{10} [/latex] Propatiility of failure [latex]=\\frac{6}{10} [/latex] [latex] \\begin{aligned} &E[X]=\\sum x_{i} P\\left(x_{i}\\right) \\\\ E[X]&=1 \\times \\frac{4}{10}+2 \\times \\frac{4}{10} \\times \\frac{6}{10}\\\\ &+3 \\times \\frac{4}{10}\\left(\\frac{6}{10}\\right)^{2}+\\ldots \\; \\; \\; \\ldots(i) \\\\ \\frac{6}{10} E[X]&=1 \\times \\frac{4}{10} \\times \\frac{6}{10}\\\\ &+2 \\times \\frac{4}{10} \\times\\left(\\frac{6}{10}\\right)^{2} \\ldots  \\; \\; \\; \\ldots(ii) \\end{aligned}[/latex] subtracting (ii) from (i), we get [latex] \\begin{aligned} \\frac{4}{10} E[X] &=\\frac{4}{10}+\\frac{4}{10} \\times \\frac{6}{10}+\\frac{4}{10} \\times\\left(\\frac{6}{10}\\right)^{2} \\ldots \\\\ \\frac{4}{10} E[X] &=\\frac{\\frac{4}{10}}{1-\\frac{6}{10}}=1 \\\\ E[X] &=\\frac{10}{4}=2.5 \\end{aligned}[/latex]",
+    "min": 2.4,
+    "max": 2.6
+  },
+  {
+    "type": "numerical",
+    "question": "Question 33 Figure I shows a 4-bits ripple carry adder realized using full adders and Figure II shows the circuit of a full-adder (FA). The propagation delay of the XOR, AND and OR gates in Figure II are 20 ns, 15 ns and 10 ns respectively. Assume all the inputs to the 4-bit adder are initially reset to At t=0, the inputs to the 4-bit adder are changed to [latex]X_{3}X_{2}X_{1}X_{0}=1100,\\; Y_{3}Y_{2}Y_{1}Y_{0}=0100 \\; and \\; Z_{0}=1[/latex]. The output of the ripple carry adder will be stable at t (in ns) = ___________",
+    "solution": "In this question inputs to be added are : [latex]\r\n\\begin{aligned}\r\nX_{3} X_{2} X_{1} X_{0}&=1100 \\\\\r\nY_{3} Y_{2} Y_{1} Y_{0}&=0100 \\text { and } Z_{0}=1\r\n\\end{aligned}[/latex] For this combination of addition, total minimum \r\ndelay depends on the addition of most-significant \r\ntwo bits (since least significant two bits are zeros \r\nthey does not cause any change in [latex]Z_{1}[/latex] and [latex]Z_{2}[/latex]). So, in the process of addition of given two digits, \r\nwaveforms at [latex]Z_{1}[/latex] and [latex]Z_{2}[/latex] become stable at t=0 itself. In the above diagram the waveform at A and B \r\nbecome stable at t = 0 itself, as the applied input \r\ncombinations does not cause any change. So, for he given combination of inputs, output will\r\nsettle at t = 50 ns.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page7_q3.webp",
+    "min": 50.0,
+    "max": 50.0
+  },
+  {
+    "type": "numerical",
+    "question": "Question 34 The permittivity of water at optical frequencies is 1.75 [latex]\\varepsilon_{0}[/latex]. It is found that an isotropic light source at a distance d under water forms an illuminated circular area of radius 5m, as shown in the figure. The critical angle is [latex]\\theta_{c}[/latex]. The value of d (in meter) is _____________",
+    "solution": "Critical angle, [latex] \\begin{aligned} \\theta_{c} &=\\sin ^{-1} \\sqrt{\\frac{\\epsilon_{2}}{\\epsilon_{1}}} \\\\ &=\\sin ^{-1} \\sqrt{\\frac{\\epsilon_{0}}{1.75 \\epsilon_{0}}}=49.1^{\\circ} \\end{aligned}[/latex] [latex] \\begin{aligned} \\tan 49.1 &=1.547=\\frac{5}{d} \\\\ \\Rightarrow \\quad d &=\\frac{5}{1.1547}=4.33 \\mathrm{m} \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page7_q4.webp",
+    "min": 4.2,
+    "max": 4.4
+  },
+  {
+    "type": "mcq",
+    "question": "Question 35 A unity feedback control system is characterized by the open-loop transfer function [latex]G(s)=\\frac{10K(s+2)}{s^{3}+3s^{2}+10}[/latex] The Nyquist path and the corresponding Nyquist plot of G(s) are shown in the figures below. If [latex]0 \\lt K \\lt 1[/latex], then the number of poles of the closed-loop transfer function that lie in the right half of the s-plane is",
+    "solution": "Given that, the open loop transfer function of a  unity feedback system is, [latex] G(s) =\\frac{10 k(s+2)}{s^{3}+3 s^{2}+10} [/latex] From the given Nyquist plot, for [latex]0 \\lt k \\lt 1[/latex] the encirclements about the point (-1+j 0) is, [latex] \\begin{array}{l} N=0 \\\\ N=P-Z \\end{array}[/latex] P= number of open loop poles in the right half of s-plane Z= number of closed loop poles in the right half of s-plane To determine the value of P : Applying R-H criteria to G(s) [latex] G(s)=\\frac{10 k(s+2)}{s^{3}+3 s^{2}+10}[/latex] [latex] \\begin{array}{c|cc} s^{3} & 1 & 0 \\\\ s^{2} & 3 & 10 \\\\ s^{1} & -10 / 3 & 0 \\\\ s^{0} & 10 & 0 \\end{array}[/latex] Two sign changes are there in the first column of \r\nthe RH table. So, two open loop poles are there in \r\nright half of s-plane. So, [latex]\r\nP=2[/latex] [latex]\r\n\\begin{array}{l}\r\nN=P-Z \\\\\r\n0=2-Z \\\\\r\nZ=2\r\n\\end{array}[/latex] Z=2 indicates, there are two closed loop poles \r\nin right half of s-plane.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page7_q5.webp",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 36 The signal [latex] x(t)=sin(14000\\pi t) [/latex], where t is in seconds is sampled at a rate of 9000 samples per second. The sampled signal is the input to an ideal low pass filter with frequency response H(f) as follows : [latex]H(f)=\\left\\{\\begin{matrix} 1, & |f|\\leq 12 kHz\\\\ 0, & |f|\\geq 12 kHz \\end{matrix}\\right.[/latex] What is the number of sinusoids in the output and their frequencies in kHz?",
+    "solution": "[latex]\\begin{aligned} x(t) &=\\sin (14000 \\pi t) ; f_{m}=7 \\mathrm{kHz} \\\\ f_{s} &=9000 \\text { samples per second } \\\\ &=9 \\mathrm{kHz} \\end{aligned}[/latex] The spectrum of the sampled signal can be given  as shown below: So, three sinusoids will be there at the output of  the LPF and the frequencies of those sinusoids  are 2 kHz, 7 kHz and 11 kHz.",
+    "options": {
+      "A": "Number = 1, frequency = 7",
+      "B": "Number = 3, frequencies= 2,7,11",
+      "C": "Number = 2, frequencies = 2, 7",
+      "D": "Number = 2, frequencies = 2, 11"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 37 A unity feedback control system is characterized by the open-loop transfer function [latex]G(s)=\\frac{2(s+1)}{s^{3}+ks^{2}+2s+1}[/latex] The value of k for which the system oscillates at 2 rad/s is ________.",
+    "solution": "The given open loop transfer function is, [latex] G(s)=\\frac{2(s+1)}{s^{3}+K s^{2}+2 s+1}[/latex] The closed loop transfer function is, [latex] T(s)=\\frac{G(s)}{1+G(s)}=\\frac{2(s+1)}{s^{3}+K s^{2}+4 s+3}[/latex] When system oscillates, i.e., when system is marginally stable, [latex] (1)(3)=K(4) [/latex] [latex] \\mathrm{So}, \\quad K=0.75[/latex]",
+    "min": 0.74,
+    "max": 0.76
+  },
+  {
+    "type": "numerical",
+    "question": "Question 38 Consider the circuit shown in the figure. The Thevenin equivalent resistance (in [latex]\\Omega[/latex]) across P - Q is _________.",
+    "solution": "The equivalent circuit to calculate the Thevenin equivalent resistance ([latex]R_{Th}[/latex]) is as follows: lt can be further reduced as follows: By applying KVL in the Loop L [latex] \\begin{aligned} V_{x} &=3 i_{0}+\\left(1-i_{0}\\right)=2 i_{0}+1 \\\\ \\text { Also, } \\quad V_{x} &=i_{0}(1 \\Omega) \\end{aligned}[/latex] [latex]\\begin{aligned} \\text { So, } 2 i_{0}+1&=i_{0} \\\\ i_{0} &=-1 \\mathrm{A} \\\\ V_{x} &=-1 \\mathrm{V}\\\\ \\text { So, } \\quad R_{\\mathrm{Th}}&=\\frac{V_{x}}{1 \\mathrm{A}}=-1 \\Omega \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page8_q3.webp",
+    "min": -1.01,
+    "max": -0.99
+  },
+  {
+    "type": "numerical",
+    "question": "Question 39 The transfer function of a causal LTI system is H(s) = 1/s. If the input to the system is [latex] x(t) =[sin(t) / \\pi t] u(t) [/latex], where u(t) is a unit step function, the system output y(t) as  [latex] t \\rightarrow \\infty[/latex] is______.",
+    "solution": "[latex]\\begin{aligned} H(s) &=\\frac{1}{s} \\Rightarrow \\text { integrator } \\\\ x(t) &=\\frac{\\sin t}{\\pi t} u(t) \\\\ \\text { So. } \\quad y(t) &=\\int_{0}^{t} \\frac{\\sin \\tau}{\\pi \\tau} d t \\\\ y(t)_{t \\rightarrow \\infty} &=\\frac{1}{\\pi} \\int_{0}^{\\infty} \\frac{\\sin \\tau}{\\tau} d t \\\\ \\int_{0}^{\\infty} \\frac{\\sin \\tau}{\\tau} d t &=\\frac{\\pi}{2} \\\\ \\text { So. } \\quad y(t)_{t \\rightarrow \\infty} &=\\frac{1}{\\pi} \\times \\frac{\\pi}{2}=\\frac{1}{2}=0.5 \\end{aligned}[/latex]",
+    "min": 0.45,
+    "max": 0.55
+  },
+  {
+    "type": "mcq",
+    "question": "Question 40 An integral I over a counter clock wise circle C is given by [latex]I=\\oint_{0}^{c}\\frac{z^{2}-1}{z^{2}+1}e^{z}dz[/latex]. If C is defined as |z| = 3, then the value of [latex]I[/latex] is",
+    "solution": "Poles are [latex]z^{2}+1=0 [/latex] [latex] z=\\pm i[/latex] z=i lies inside |z|=3 z=-i lies inside |z|=3 Residue at z=i is [latex] \\begin{aligned} &=\\lim _{z \\rightarrow i}(z-i) \\frac{z^{2}-1}{(z-i)(z+i)} e^{z} \\\\ &=\\frac{-1-1}{2 i} e^{i}=i e^{i} \\end{aligned}[/latex] Residue at z=-i is [latex] \\begin{aligned} &=\\lim _{z \\rightarrow-i}(z+i) \\frac{z^{2}-1}{(z-i)(z+i)} e^{z}\\\\ &=\\frac{-1-1}{-2 i} e^{-i}=\\frac{1}{i} e^{-i}=-i e^{-i} \\end{aligned}[/latex] By Residues theorem [latex] \\begin{aligned} I &=2 \\pi i\\left(i e^{i}-i e^{-i}\\right) \\\\ &=-2 \\pi\\left(e^{i}-e^{-i}\\right) \\\\ &=-2 \\pi(\\cos 1+i \\sin 1-\\cos 1+i \\sin 1) \\\\ &=-2 \\pi(2 i \\sin 1)=-4 \\pi i \\sin (1) \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]-\\pi i sin(1)[/latex]",
+      "B": "[latex]-2\\pi i sin(1)[/latex]",
+      "C": "[latex]-3\\pi i sin(1)[/latex]",
+      "D": "[latex]-4\\pi i sin(1)[/latex]"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 41 Consider a binary memory less channel characterized by the transition probability diagram shown in the figure. The channel is",
+    "solution": "Given that [latex] \\left[P\\left(\\frac{Y}{X}\\right)\\right]=\\left[\\begin{array}{ll} 0.25 & 0.75 \\\\ 0.25 & 0.75 \\end{array}\\right][/latex] Hmesual irformation I(X;Y)= O for every possible input distribution, then the channel is called as  useless (or) zero-capacity channel. [latex] \\begin{aligned} Let \\quad[P(X)]&=[\\alpha(1-\\alpha)] \\\\ \\text{Then } H(x)&=\\\\ -\\alpha \\log _{2} \\alpha-(1-\\alpha) &\\log _{2}(1-\\alpha)\\text{ bits/symbol}\\\\ [P(Y)]&=[P(X)]\\left[P\\left(\\frac{Y}{X}\\right)\\right]=[0.25\\; \\; 0.75] \\end{aligned}[/latex] [latex]\\begin{array}{c} [P(X, Y)]=\\left[\\begin{array}{cc} \\frac{\\alpha}{4} & \\frac{3 \\alpha}{4} \\\\ \\frac{(1-\\alpha)}{4} & \\frac{3(1-\\alpha)}{4} \\end{array}\\right] \\\\ \\left[P\\left(\\frac{X}{Y} \\right ) \\right ]=\\frac{[P(X,Y)]}{[P(Y)]_{d}}=\\left[\\begin{array}{cc} \\alpha & \\alpha \\\\ (1-\\alpha) & (1-\\alpha ) \\end{array} \\right ]\\\\ H\\left(\\frac{X}{Y}\\right)=-\\sum_{i} \\sum_{j} P\\left(x_{i}, y_{i}\\right) \\log _{2} P\\left(\\frac{x_{i}}{y_{i}}\\right) \\text { bits/symb } \\\\ =-\\alpha \\log _{2} \\alpha -(1-\\alpha) \\log _{2}(1-\\alpha) \\text { bits/symbol } \\\\ I(X ; Y)=H(X)-H\\left(\\frac{X}{Y}\\right)=0 \\end{array}[/latex] So, the given binary memoryless channel is \"useless\" channel.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page9_q1.webp",
+    "options": {
+      "A": "Lossless",
+      "B": "Noiseless",
+      "C": "Useless",
+      "D": "Deterministic"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 42 An abrupt pn junction (located at x = 0) is uniformly doped on both p and n sides. The width of the depletion region is W and the electric field variation in the x-direction is E(x). Which of the following figures represents the electric field profile near the pn junction?",
+    "solution": "",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page9_q2.webp",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 43 A second - order LTI system is described by the following state equations, [latex]\\frac{d}{dt}x_{1}(t)- x_{2}(t)=0[/latex] [latex]\\frac{d}{dt}x_{2}(t)+2x_{1}(t)+3x_{2}(t)=r(t)[/latex] Where [latex] x_{1}(t)[/latex] and  [latex]x_{2}(t)[/latex] are the two state variables and r(t) denotes the input. The output  [latex] c(t) =x_{1}(t)[/latex]. The system is.",
+    "solution": "Given state variable equations are as follows: [latex] \\begin{aligned} &\\frac{d}{d t} x_{1}(t)-x_{2}(t)=0 &\\ldots(i)\\\\ &\\frac{d}{d t} x_{2}(t)+2 x_{2}(t)+3 x_{2}(t)=r(t) &\\ldots(ii) \\end{aligned}[/latex] Also given that, input [latex]=r(t)[/latex] and output [latex]=x_{1}(t) [/latex] By applying Laplace transform to equation (i), we get, [latex] s X_{1}(s)=X_{2}(s) \\qquad \\ldots(iii)[/latex] By applying Laplace transform to equation (ii). we get, [latex] \\begin{aligned} s X_{2}(s)+2 X_{1}(s)+3 X_{2}(s)&=R(s) \\\\ x_{2}(s)&=\\frac{R(s)-2 X_{1}(s)}{s+3} &\\ldots(iv) \\end{aligned}[/latex] By substituting equation (iv) in equation (iii), we get, [latex] \\begin{aligned} s X_{\\mathrm{i}}(s)&=\\frac{R(s)-2 X_{1}(s)}{s+3}\\\\ \\left(s^{2}+3 s+2\\right) X_{1}(s)&=R(s) \\end{aligned}[/latex] So, the transfer function of the given system is, [latex]\r\n\\begin{aligned}\r\n\\frac{X_{1}(s)}{R(s)} &=\\frac{1}{s^{2}+3 s+2} \\\\\r\nv r^{2} &=2 \\\\\r\n2 \\zeta_{n} &=3 \\\\\r\n\\xi &=\\frac{3}{2 \\omega_{n}}=\\frac{3}{2 \\sqrt{2}}=1.06\r\n\\end{aligned}[/latex] As  [latex]\\xi \\gt 1,[/latex]  the given system is overdamped.",
+    "options": {
+      "A": "Undamped (oscillatory)",
+      "B": "Under damped",
+      "C": "Critically damped",
+      "D": "Over damped"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 44 Consider the parallel combination of two LTI systems shown in the figure. The impulse responses of the systems are [latex]h_{1}(t)=2\\delta (t+2)-3\\delta (t+1) [/latex] [latex]    h_{2}(t)=\\delta(t-2)[/latex] If the input x(t) is a unit step signal, then the energy of y(t) is ____________.",
+    "solution": "Given that, [latex]\\begin{aligned} h_1(t)&=2\\delta (t+2)-3\\delta (t+1)\\\\ h_2(t)&=\\delta (t-2) \\end{aligned}[/latex] Overall impulse response is, [latex]\\begin{aligned} h(t)&=h_1(t)+h_2(t)\\\\ &=2\\delta (t+2)-3\\delta (t+1) +\\delta (t-2) \\end{aligned}[/latex] If input, [latex]x(t)=u(t)[/latex], then the output will be, [latex]\\begin{aligned} y(t)&=x(t)*h(t)\\\\ &=u(t)*[2\\delta (t+2)-3\\delta (t+1) \\delta (t-2)]\\\\ &=2u(t+2)-3u(t+1)+u(t-2) \\end{aligned}[/latex] By plotting y(t), we get, The energy of y(t) can be given as, [latex]E_y=\\int_{-\\infty }^{\\infty }y^2(t)dt[/latex] By plotting [latex]y^2(t)[/latex], we get, [latex]E_y=\\text{Area under the plot of }y^2(t)=(4 \\times 1)+(3 \\times 1)=7J[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page9_q4.webp",
+    "min": 7.0,
+    "max": 7.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 45 Assuming that transistors [latex]M_{1}[/latex]  and [latex]M_{2}[/latex] are identical and have a threshold voltage of 1V, the state of transistors [latex]M_{1}[/latex]  and [latex]M_{2}[/latex] are respectively.",
+    "solution": "[latex]\\begin{array}{l} V_{G S 1}=2 V \\\\ V_{G S 2}=2.5-V_{x} \\\\ V_{D S 1}=V_{x} \\\\ V_{D S 2}=3-V_{x} \\end{array}[/latex] Assume both MOSFETs in saturation and equate their currents [latex] \\begin{aligned} I_{D S 1} &=I_{D S 2} \\\\ \\frac{k_{n}}{2}(2-1)^{2} &=\\frac{k_{n}}{2}\\left(2.5-V_{x}-1\\right)^{2} \\end{aligned}[/latex] After solving, [latex]V_{x}=0.5 \\vee, 2.5 \\mathrm{V} [/latex] [latex] V_{x} [/latex] cannot be [latex]2.5 \\mathrm{V} [/latex]. Because this will make [latex]M_{2}[/latex] OFF. Hence [latex]V_{x}[/latex] may be [latex] 0.5 \\mathrm{V} [/latex] [latex] \\Rightarrow M_{1}[/latex] is in linear region. [latex] \\Rightarrow M_{2}[/latex] is in saturation region. To verify further, [latex] \\begin{aligned} I_{D S 1} &=I_{D S 2} \\\\ k_{n}\\left[(2-1) V_{n}-\\frac{V_{x}^{2}}{2}\\right]&=\\frac{k_{n}}{2}\\left(2.5-V_{x}-1\\right)^{2} \\end{aligned}[/latex] [latex] V_{G S 2}=2.5 \\mathrm{V}-V_{x} [/latex] must be greater than [latex]V_{T h}=1 V [/latex] After solving, [latex] V_{x}=0.588 \\vee, 1.91 \\mathrm{V} [/latex] Hence correct value of [latex]V_{x}=0.588 \\mathrm{V} [/latex] This varifies above conclusion i.e. [latex] M_{1} \\rightarrow [/latex] Linear region [latex] M_{2} \\rightarrow [/latex] Saturation region",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page9_q5.webp",
+    "options": {
+      "A": "Saturation, Saturation",
+      "B": "Linear, Linear",
+      "C": "Linear, Saturation",
+      "D": "Saturation, Linear"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "mcq",
+    "question": "Question 46 A programmable logic array (PLA) is shown in the figure. The Boolean function F implemented is",
+    "solution": "[latex]F=\\bar{P} \\bar{Q} R+\\bar{P} Q R+P \\bar{Q} R[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page10_q1.webp",
+    "options": {
+      "A": "[latex]\\bar{P}\\bar{Q}R + \\bar{P}QR + P\\bar{Q}\\bar{R}[/latex]",
+      "B": "[latex](\\bar{P}+\\bar{Q}+R) (\\bar{P}+Q+R) (P+\\bar{Q}+\\bar{R})[/latex]",
+      "C": "[latex]\\bar{P}\\bar{Q}R + \\bar{P}QR + P\\bar{Q}R[/latex]",
+      "D": "[latex](\\bar{P}+\\bar{Q}+R) (\\bar{P}+Q+R) (P+\\bar{Q}+R)[/latex]"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 47 A modulating signal given By [latex] x(t) =5sin(4 \\pi 10^{3}t-10\\pi cos2\\pi 10^{3}t[/latex])V is fed to a phase modulator with phase deviation constant [latex]k_{p}[/latex]=0.5rad/V. If the carrier frequency is 20 kHz, the instantaneous frequency (in kHz) at t = 0.5 ms is __________",
+    "solution": "Given that, the modulating signal is. [latex] x(t)=5 \\sin (4000 \\pi t-10 \\pi \\cos 2000 \\pi t) \\mathrm{V}[/latex] The standard phase modulated signal can be given as, [latex] s(t)=A_{c} \\cos \\left(\\omega_{c} t+k_{p} x(t)\\right)[/latex] Instantaneous angle of the modulated signal is. [latex] \\theta(t)=\\omega_{c} t+k_{p} x(t)[/latex] Instantaneous frequency is, [latex] \\begin{array}{l} \\omega_{1}(t)=\\frac{d \\theta(t)}{d t}\\\\ =\\omega_{c}+k_{p} \\frac{d x(t)}{d t} \\\\ f_{i}(t)=f_{c}+\\frac{25}{2 \\pi}[\\cos (4000 \\pi t-10 \\pi \\cos 2000 \\pi t) \\\\ \\quad \\left.\\left(4000 \\pi+20000 \\pi^{2} \\sin 2000 \\pi t\\right)\\right] \\\\ A t=0.5 \\mathrm{ms} \\\\ \\begin{aligned} f_{1}(t)=& f_{c}+\\frac{25}{2 \\pi}[\\cos (2 \\pi-10 \\pi \\cos (\\pi))] \\\\ &\\quad\\left(4000 \\pi+20000 \\pi^{2} \\sin (\\pi)\\right) & \\\\ &=f_{c}+\\frac{25}{2 \\pi}[\\cos (12 \\pi)](4000 \\pi) \\\\ &=f_{c}+50 \\mathrm{kHz} \\\\ =& 70 \\mathrm{kHz}  \\; \\; ( \\because \\text { Given that, } f_{c}=20 \\mathrm{kHz}) \\end{aligned} \\end{array}[/latex]",
+    "min": 69.9,
+    "max": 70.1
+  },
+  {
+    "type": "numerical",
+    "question": "Question 48 The minimum value of the function [latex]f(x)= \\frac{1}{3}x(x^{2}-3)[/latex] in the interval [latex]-100 \\leq x \\leq 100 [/latex] occurs at x=________.",
+    "solution": "[latex]\\begin{aligned} f(x)&=\\frac{1}{3} x\\left(x^{2}-3\\right)=\\frac{1}{3}\\left(x^{3}-3 x\\right) \\\\ f^{\\prime}(x)&=\\frac{1}{3}\\left(3 x^{2}-3\\right)=x^{2}-1 \\\\ f^{\\prime}(x)&=x^{2}-1=0 \\\\ \\Rightarrow \\quad x&=\\pm 1 \\\\ f^{\\prime \\prime}(x)&=2 x \\\\ \\text{At}\\Rightarrow x=1, &\\quad f^{\\prime \\prime}(1)=2=0 \\Rightarrow \\text { minima }\\\\ \\text{At}\\Rightarrow x=1, &\\quad f^{\\prime \\prime}(-1)=-2=0 \\Rightarrow \\text { minima } \\end{aligned}[/latex] Minimum value of f(x) in [-100,100] is given by [latex] \\begin{array}{c} \\text { Minimum }\\{f(-100), f(100), f(1)\\} \\\\ \\text { Minimum }\\{-333433.3,333233.3,-0.666) \\\\ \\quad=-3335433.3 \\end{array}[/latex] Hence the minimum value occurs at x=-100 Also graph of the function will be like",
+    "min": -100.01,
+    "max": -99.99
+  },
+  {
+    "type": "numerical",
+    "question": "Question 49 The switch in the circuit, shown in the figure, was open for a long time and is closed at t = 0. The current i(t) (in ampere) at t = 0.5 seconds is ________",
+    "solution": "The equivalent circuit at [latex]t = 0^{-}[/latex] is as follows: The Laplace transform model of the circuit for [latex]t \\gt O[/latex]  is as follows: [latex] I(s)=\\frac{10}{s}-\\frac{12.5}{5+2.5 s}=\\frac{10}{s}-\\frac{5}{s+2}[/latex] By taking inverse Laplace transform, [latex] i(t)=\\left(10-5 e^{-2 t}\\right) u(t) \\mathrm{A}[/latex] At t=0.5 seconds, [latex] i(t)=\\left(10-\\frac{5}{e}\\right) A=8.16 \\mathrm{A}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page10_q4.webp",
+    "min": 8.0,
+    "max": 8.3
+  },
+  {
+    "type": "numerical",
+    "question": "Question 50 In the voltage reference circuit shown in the figure, the op-amp is ideal and the transistors [latex]Q_{1},Q_{2}...,Q_{32} [/latex] are identical in all respects and have infinitely large values of common-emitter current the relation [latex]I_{C}=I_{S}\\;  exp  \\;(V_{BE}/V_{T})[/latex], where [latex]I_{s}[/latex] is the saturation current. Assume that the  voltage [latex]V_{P}[/latex]  shown in the figure is 0.7 V and the thermal voltage [latex]V_{T}[/latex] =26mV. The output voltage [latex]V_{out}[/latex] (in volts) is__________.",
+    "solution": "KCL at a [latex] \\begin{aligned} \\frac{V_{0}-V_{x}}{20} &=\\frac{V_{x}-0.7}{5} \\\\ V_{0}-V_{x} &=4 V_{x}-2.8 \\\\ V_{0} &=5 V_{x}-2.8 \\quad\\ldots(i)\\\\ \\text{Now,}\\quad I_{1} &=31 I \\\\ I_{s} e^{V_{x} / V_{I}} &=31 I_{s} e^{v_{p} / v_{T}} \\\\ \\frac{V_{x}}{V_{T}} &=\\ln 31+\\frac{V_{P}}{V_{T}} \\\\ \\frac{V_{x}-V_{P}}{V_{T}} &=\\ln 31 \\\\ \\Rightarrow\\qquad V_{x} &=0.789 \\mathrm{V} \\end{aligned}[/latex] rom equation (i) [latex] V_{0}=5 \\times 0.789-2.8=1.145 \\mathrm{V}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page10_q5.webp",
+    "min": 1.1,
+    "max": 1.2
+  },
+  {
+    "type": "numerical",
+    "question": "Question 51 The state diagram of a finite state machine (FSM) designed to detect an overlapping sequence of three bits is shown in the figure. The FSM has an input 'In' and an output 'Out'. The initial state of the FSM is [latex]S_{0}[/latex]. If the input sequence is 10101101001101, starting with the left-most bit, then the number times 'Out' will be 1 is __________.",
+    "solution": "By observing the given state diagram, it is clear \r\nthat the FSM can be used to detect the sequence \r\n'101' It is given in the question that, the FSM detects \r\noverlapping sequences also. \r\nThe given input sequence is, [latex]\r\n \\underline{101}0\\underline{110}1001\\underline{101} \\quad \\Rightarrow [/latex]So, Output will be 1 for 4\r\ntimes.",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page11_q1.webp",
+    "min": 4.0,
+    "max": 4.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 52 Standard air-filled rectangular waveguides of dimensions a = 2.29 cm and b= 1.02 cm are designed for radar applications. It is desired that these waveguides operate only in the dominatnt [latex]TE_{10}[/latex] mode but not higher than 95% of the next higher cutoff frequency. The range of the allowable operating frequency f is.",
+    "solution": "[latex]a=2.29 \\;\\mathrm{cm}, b=1.02 \\mathrm{cm}[/latex] Waveguide is operating in [latex](TE _{10})[/latex] dominant mode [latex] f_{c}\\left(T E_{10}\\right)=\\frac{c}{2 a}=\\frac{3 \\times 10^{10}}{2 \\times 2.29}=6.55 \\mathrm{GHz}[/latex] [latex] \\Rightarrow 25 \\% [/latex] above cut-off frequency [latex] =1.25 \\times 6.55 \\mathrm{GHz}=8.1875 \\mathrm{GHz}[/latex] Next higher order mode is [latex]\\mathrm{TE}_{20}\\left(\\because a_{2} \\gt 2b\\right) [/latex] [latex] \\begin{aligned} f_{c}\\left(T E_{20}\\right) &=\\frac{c}{a}=\\frac{3 \\times 10^{10}}{2.29}=13.1 \\mathrm{GH}_{2} \\\\ \\Rightarrow 95 \\% \\text { of } f_{c}\\left(\\mathrm{TE}_{20}\\right) &=0.95 \\times 13.1 \\\\ &=12.445 \\mathrm{GHz} \\end{aligned}[/latex] Range of allowable operating frequency [latex] 8.19 \\mathrm{GHz} \\leq f \\leq 12.45 \\mathrm{GHz}[/latex]",
+    "options": {
+      "A": "[latex]8.19 GHz \\leq f \\leq 13.1 GHz [/latex]",
+      "B": "[latex]8.19 GHz \\leq f \\leq 12.45 GHz [/latex]",
+      "C": "[latex]6.55 GHz \\leq f \\leq 13.1 GHz [/latex]",
+      "D": "[latex]1.64 GHz \\leq f \\leq 10.24 GHz [/latex]"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "type": "numerical",
+    "question": "Question 53 For a particular intensity of incident light on a silicon pn junction solar cell, the photocurrent density ([latex]J_{L}[/latex]) is 2.5 mA/[latex]cm^{2}[/latex] and the open-circuit voltage ([latex]V_{oc}[/latex]) is 0.451 V. consider thermal voltage ([latex]V_{T}[/latex]) to be 25mV. If the intensity of the incident light is increased by 20 times,assuming that the temperature remains unchanged. [latex]V_{oc} [/latex](in volts) will be ______.",
+    "solution": "[latex]\\begin{aligned} V_{\\mathrm{OC}} &=V_{T} \\ln \\frac{J_{L}}{J_{S}} \\quad J_{L} \\propto \\text { Light intensity } \\\\ V_{\\mathrm{OC} 2}-V_{\\mathrm{OC} 1} &=V_{T} \\ln \\frac{J_{L 2}}{J_{L 1}} \\\\ V_{\\mathrm{OC} 2}-V_{\\mathrm{OC} 1} &=25 \\ln 20 \\cong 75 \\mathrm{mV}=0.075 \\mathrm{V} \\\\ V_{\\mathrm{OC} 2} &=0.451 \\mathrm{V}+0.075 \\mathrm{V}=0.526 \\mathrm{V} \\end{aligned}[/latex]",
+    "min": 0.51,
+    "max": 0.62
+  },
+  {
+    "type": "numerical",
+    "question": "Question 54 In the circuit shown, transistors [latex]Q_{1}[/latex] and [latex]Q_{2}[/latex] are biased at a collector current of 2.6mA.Assuming that transistor current gains are sufficiently large to assume collector current equal to emitter current and thermal voltage of 26 mV, the magnitude of voltage gain [latex]V_{0}/V_{s}[/latex] in the mid-band frequency range is _____________ (up to second decimal place).",
+    "solution": "In AC equivalent circuit, [latex]0_{2}[/latex] becomes diode connected-transistor because collector and base get shorted. Computer AC equivalent circuit is as shown below: It is a CE amplifier with unbypassed [latex]R_{E} [/latex] [latex] \\begin{aligned} A_{v} &=\\frac{-g_{m} R_{L}}{1+g_{m} R_{E}} \\\\ \\text { where, } \\quad g_{m} &=\\frac{I_{C}}{V_{T}}=\\frac{2.6}{26}=100 \\mathrm{m}^{2} \\\\ R_{L}^{\\prime} &=11 \\Omega \\\\ R_{E} &=\\frac{1}{g_{m}} \\\\ A_{v} &=\\frac{-100 \\times 1}{1+1}=-50 \\\\ \\left|A_{v}\\right| &=50 \\end{aligned}[/latex]",
+    "image": "https://raw.githubusercontent.com/Shubham959/gate_ae/refs/heads/main/Electronics and Communication/screenshots/2017_Set2/page11_q4.webp",
+    "min": 49.0,
+    "max": 51.0
+  },
+  {
+    "type": "mcq",
+    "question": "Question 55 Two n-channel MOSFETs, T1 and T2, are identical in all respects except that the width of T2 is double that of T1. Both the transistors are biased in the saturation region of operation, but the gate overdrive voltage ([latex]V_{GS}-V_{TH}[/latex]) of T2 is double that of T1, where [latex]V_{GS} \\; and \\; V_{TH}[/latex] are the gate-to-source voltage and threshold voltage of the transistors, respectively. If the drain current and transconductance of T1 are [latex]I_{D1} \\; and \\; g_{m1}[/latex] respectively, the corresponding values of these two parameters for T2 are",
+    "solution": "[latex]\\begin{aligned} W_{2} &=2 \\mathrm{W} \\\\ V_{\\text {GS2 }}-V_{T 2} &=\\left(V_{G S 1}-V_{T 1}\\right) \\\\ \\frac{I_{D 2}}{I_{D 1}} &=\\frac{W_{2}}{W_{1}} \\times\\left(\\frac{V_{G S 2}-V_{T 2}}{V_{G S 1}-V_{T 1}}\\right)^{2} \\\\ &=2 \\times 4=8 \\\\ I_{D 2} &=8 I_{D 1} \\\\ \\frac{g_{m 2}}{g_{m 1}} &=\\frac{W_{2}}{W_{1}} \\times \\frac{V_{G S 2}-V_{T 2}}{V_{G S 1}-V_{T 1}}=2 \\times 2=4 \\\\ g_{m 2} &=4 g_{m 1} \\end{aligned}[/latex]",
+    "options": {
+      "A": "[latex]8I_{D1} \\; and \\; 2g_{m1}[/latex]",
+      "B": "[latex]8I_{D1}\\; and \\; 4g_{m1}[/latex]",
+      "C": "[latex]4I_{D1} \\; and \\; 4g_{m1}[/latex]",
+      "D": "[latex]4I_{D1} \\; and \\; 2g_{m1}[/latex]"
+    },
+    "correct_answer": "B"
+  }
+]
